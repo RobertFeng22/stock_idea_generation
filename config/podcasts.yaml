@@ -8,16 +8,43 @@
 #
 # 想新增节目时，照着下面的格式加一条即可。改完提交到仓库就会在下一次每周任务生效。
 #
-# 小贴士：如果只填 name，第一次运行会在日志里打印出解析到的 feed_url，
-#        你可以把它回填到 feed_url 字段，之后就不再依赖搜索、更稳定。
+# 小贴士：只填 name 时，第一次运行会在 Actions 日志里打印解析到的 feed_url。
+#        建议第一次跑完后，把日志里的 feed_url 回填到对应条目（尤其是下面标了
+#        ⚠️ 的同名节目），之后解析更稳、不会偶尔匹配错。
 # =============================================================================
 
 podcasts:
-  # ---- 示例（请替换成你自己的清单）----
-  - name: "BG2Pod with Brad Gerstner and Bill Gurley"
-    # apple_url: "https://podcasts.apple.com/us/podcast/.../id1727278168"
-    # feed_url: "https://..."
-
-  - name: "All-In with Chamath, Jason, Sacks & Friedberg"
-
+  # ---- 📊 市场 / 投资 / 宏观 ----
   - name: "Acquired"
+  - name: "ACQ2 by Acquired"
+  - name: "BG2Pod with Brad Gerstner and Bill Gurley"
+  - name: "Business Breakdowns"
+  - name: "Capital Allocators Ted Seides"
+  - name: "Invest Like the Best with Patrick O'Shaughnessy"
+  - name: "Dry Powder The Private Equity Podcast"
+  - name: "Masters in Business Bloomberg"
+  - name: "Odd Lots"
+  - name: "Goldman Sachs Exchanges"          # ⚠️ 同名多，建议回填 feed_url
+  - name: "Bold Names Wall Street Journal"   # ⚠️ 同名多，建议回填 feed_url
+  - name: "In the Know Bernstein"            # ⚠️ 同名多，建议回填 feed_url
+  - name: "Making Sense J.P. Morgan"         # ⚠️ 与 Sam Harris 同名，务必回填 feed_url
+  - name: "Big Take Asia"
+
+  # ---- 🤖 AI / 科技趋势 ----
+  - name: "AI + a16z"
+  - name: "No Priors Artificial Intelligence"
+  - name: "The a16z Show"
+  - name: "Dwarkesh Podcast"
+  - name: "All-In with Chamath, Jason, Sacks & Friedberg"
+  - name: "Hard Fork"
+  - name: "The Vergecast"
+
+  # ---- 🚀 VC / 创业 / 产品 ----
+  - name: "The Twenty Minute VC 20VC"
+  - name: "The Product Market Fit Show"
+  - name: "Path 2 PMF"                       # 注：该节目自 2022 起未更新，留着无害
+  - name: "Lenny's Podcast"
+  - name: "How I Built This with Guy Raz"
+
+  # ---- 🌏 中国 / 亚洲宏观 ----
+  - name: "The Trivium China Podcast"
