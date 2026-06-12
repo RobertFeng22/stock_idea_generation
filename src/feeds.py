@@ -176,7 +176,10 @@ def list_recent_episodes(
     episodes: list[Episode] = []
     for item in channel.findall("item"):
         ep = _item_to_episode(item, show_title)
-        if ep.published and ep.published < since:
+        # Only process episodes with a known publish date inside the lookback
+        # window. Undated episodes are skipped so we never accidentally analyze
+        # a feed's back catalogue (which would waste tokens).
+        if ep.published is None or ep.published < since:
             continue
         episodes.append(ep)
     return feed_url, episodes
