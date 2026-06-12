@@ -1,0 +1,23 @@
+# =============================================================================
+# Podcast 订阅清单
+# =============================================================================
+# 每个条目至少提供以下三种之一来定位节目（程序会自动解析出 RSS 地址）：
+#   - name:       苹果 Podcast 里的节目名称（程序用 iTunes Search API 查 RSS）
+#   - apple_url:  苹果 Podcast 网页/App 的链接（包含 id 即可）
+#   - feed_url:   直接给出 RSS 地址（最稳，推荐能拿到就填）
+#
+# 想新增节目时，照着下面的格式加一条即可。改完提交到仓库就会在下一次每周任务生效。
+#
+# 小贴士：如果只填 name，第一次运行会在日志里打印出解析到的 feed_url，
+#        你可以把它回填到 feed_url 字段，之后就不再依赖搜索、更稳定。
+# =============================================================================
+
+podcasts:
+  # ---- 示例（请替换成你自己的清单）----
+  - name: "BG2Pod with Brad Gerstner and Bill Gurley"
+    # apple_url: "https://podcasts.apple.com/us/podcast/.../id1727278168"
+    # feed_url: "https://..."
+
+  - name: "All-In with Chamath, Jason, Sacks & Friedberg"
+
+  - name: "Acquired"

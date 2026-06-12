@@ -1,0 +1,51 @@
+name: Weekly podcast investment digest
+
+on:
+  schedule:
+    # Every Monday at 13:00 UTC (adjust to your timezone as you like).
+    - cron: "0 13 * * 1"
+  workflow_dispatch: {}  # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write  # needed to commit seen.json / reports back
+
+concurrency:
+  group: weekly-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weekly digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '7' }}
+        run: python -m src.main
+
+      - name: Persist processed-episode state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json data/reports || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update digest state [skip ci]"
+            git push
+          else
+            echo "No state changes to commit."
+          fi
