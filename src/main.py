@@ -13,7 +13,7 @@ import requests
 from anthropic import Anthropic
 
 from . import state
-from .analyze import analyze_transcript
+from .analyze import analyze_transcript, synthesize_picks
 from .config import DATA_DIR, load_settings
 from .emailer import EpisodeResult, build_html, send_email
 from .feeds import list_recent_episodes
@@ -112,10 +112,22 @@ def run() -> int:
         print("\nNothing new this week. No email sent.")
         return 0
 
-    html_body = build_html(results)
+    # Stage 2: collapse every raw opportunity into one ranked shortlist (<=10),
+    # favouring tickers multiple shows agree on and short (<6mo) catalysts.
+    raw_opps = _flatten_opportunities(results)
+    synthesis = None
+    if raw_opps:
+        print(f"\nSynthesizing {len(raw_opps)} raw opportunity(ies) into a shortlist...")
+        synthesis = synthesize_picks(client, settings.anthropic_model, settings.rules, raw_opps)
+        if synthesis.error:
+            print(f"  ! synthesis error: {synthesis.error}")
+        else:
+            print(f"  -> {len(synthesis.picks)} pick(s) selected.")
+
+    html_body = build_html(results, synthesis)
     _archive_report(html_body)
 
-    subject = f"📈 每周播客投资机会摘要 · {datetime.now().date()}"
+    subject = f"📈 每周播客投资精选 · {datetime.now().date()}"
     send_email(
         gmail_address=settings.gmail_address,
         app_password=settings.gmail_app_password,
@@ -125,6 +137,28 @@ def run() -> int:
     )
     print(f"\nEmail sent to {settings.email_to} ({new_count} episode(s) reported).")
     return 0
+
+
+def _flatten_opportunities(results) -> list[dict]:
+    """Flatten per-episode opportunities into source-tagged dicts for Stage 2."""
+    raw = []
+    for r in results:
+        if r.status != "analyzed":
+            continue
+        src = f"{r.podcast} — {r.title}"
+        for opp in r.opportunities:
+            raw.append({
+                "source": src,
+                "link": r.link,
+                "trend": opp.trend,
+                "thesis": opp.thesis,
+                "tickers": opp.tickers,
+                "quote": opp.evidence_quote,
+                "horizon": opp.horizon,
+                "confidence": opp.confidence,
+                "risk": opp.risk,
+            })
+    return raw
 
 
 def _archive_report(html_body: str) -> None:
