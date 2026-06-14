@@ -48,7 +48,9 @@ jobs:
           git add data/seen.json data/reports || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: update digest state [skip ci]"
-            git push
+            # Rebase on top of any newer commits so the push can't be rejected.
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME"
           else
             echo "No state changes to commit."
           fi
