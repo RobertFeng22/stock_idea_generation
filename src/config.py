@@ -81,19 +81,35 @@ def load_rules() -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _env(name: str, default: str = "") -> str:
+    """Like os.environ.get but treats an empty/whitespace value as unset.
+
+    GitHub Actions passes unset optional secrets as empty strings, which would
+    otherwise override our defaults (e.g. an empty ANTHROPIC_MODEL).
+    """
+    return (os.environ.get(name) or "").strip() or default
+
+
+def _env_int(name: str, default: int) -> int:
+    try:
+        return int(_env(name, str(default)))
+    except (ValueError, TypeError):
+        return default
+
+
 def load_settings() -> Settings:
     load_dotenv(ROOT / ".env")
     gmail = _require("GMAIL_ADDRESS")
     return Settings(
         anthropic_api_key=_require("ANTHROPIC_API_KEY"),
-        anthropic_model=os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6").strip(),
+        anthropic_model=_env("ANTHROPIC_MODEL", "claude-sonnet-4-6"),
         gmail_address=gmail,
         gmail_app_password=_require("GMAIL_APP_PASSWORD"),
-        email_to=os.environ.get("EMAIL_TO", "").strip() or gmail,
-        lookback_days=int(os.environ.get("LOOKBACK_DAYS", "7")),
-        deepgram_api_key=os.environ.get("DEEPGRAM_API_KEY", "").strip(),
-        deepgram_model=os.environ.get("DEEPGRAM_MODEL", "nova-3").strip() or "nova-3",
-        max_transcribe_minutes=int(os.environ.get("MAX_TRANSCRIBE_MINUTES", "0")),
+        email_to=_env("EMAIL_TO") or gmail,
+        lookback_days=_env_int("LOOKBACK_DAYS", 7),
+        deepgram_api_key=_env("DEEPGRAM_API_KEY"),
+        deepgram_model=_env("DEEPGRAM_MODEL", "nova-3"),
+        max_transcribe_minutes=_env_int("MAX_TRANSCRIBE_MINUTES", 0),
         podcasts=load_podcasts(),
         rules=load_rules(),
     )
