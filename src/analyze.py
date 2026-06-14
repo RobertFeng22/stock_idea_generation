@@ -131,16 +131,30 @@ raw investment opportunities that an analyst extracted from this week's podcasts
 (each item notes which show/episode it came from, with a supporting quote).
 
 Consolidate them into a single ranked shortlist of AT MOST {MAX_PICKS} US-listed \
-stocks. Selection priorities, in order:
+stocks. Selection criteria:
+
+REQUIRED FILTER — NOT YET PRICED IN: only include a stock if you can give a \
+CREDIBLE reason the broad market has NOT yet priced this trend into the stock — \
+i.e. it is still a non-consensus / under-the-radar insight, not common knowledge. \
+Note that several of these podcasts discussing a theme does NOT mean the market \
+has priced it in: these are informed/niche investor sources, and the beneficiary \
+may be a second-order or overlooked name, the implication may be misunderstood, \
+or it may simply be too early. If a name is already obvious, widely covered by \
+mainstream financial media, and clearly reflected in the price, DROP it. State \
+the mispricing reason explicitly in 'why_not_priced'.
+
+Ranking priorities, in order:
 1. CONVERGENCE: strongly prefer tickers that MULTIPLE DIFFERENT episodes or shows \
 independently point to as beneficiaries. The more independent sources, the higher \
 the rank.
-2. SHORT HORIZON: prefer catalysts likely to play out within ~6 months.
-3. Strength and specificity of the evidence.
+2. NON-CONSENSUS edge: the stronger and more specific the reason it is not yet \
+priced in, the higher the rank.
+3. SHORT HORIZON: prefer catalysts likely to play out within ~6 months.
+4. Strength and specificity of the evidence.
 
-Deduplicate by ticker (merge everything said about the same company). Drop weak, \
-generic, or already-fully-priced-in ideas — returning fewer than {MAX_PICKS} is \
-fine. Rank best first.
+Deduplicate by ticker (merge everything said about the same company). Returning \
+fewer than {MAX_PICKS} is fine — quality and a real non-consensus edge over \
+quantity. Rank best first.
 
 For EACH pick, write a genuine bull-vs-bear debate: the strongest bear argument, \
 then the bull's rebuttal to it. Keep quotes verbatim from the input.
@@ -155,6 +169,7 @@ Return ONLY a JSON object, no prose, matching this schema:
       "thesis": "why this benefits, 1-3 sentences",
       "horizon": "e.g. '3-6 months'",
       "conviction": "high|medium|low",
+      "why_not_priced": "concrete reason the market has NOT yet priced this in (e.g. overlooked second-order beneficiary, misunderstood implication, too early, no sell-side coverage)",
       "sources": ["Show A — episode title", "Show B — episode title"],
       "supporting_points": [
         {{"point": "the observation", "quote": "verbatim quote", "source": "Show A — episode title"}}
@@ -176,6 +191,7 @@ class Pick:
     thesis: str
     horizon: str
     conviction: str
+    why_not_priced: str
     sources: list[str]
     supporting_points: list[dict]  # [{point, quote, source}]
     risk: str
@@ -236,6 +252,7 @@ Consolidate these into the ranked shortlist as specified."""
                 thesis=str(p.get("thesis", "")).strip(),
                 horizon=str(p.get("horizon", "")).strip(),
                 conviction=str(p.get("conviction", "")).strip().lower(),
+                why_not_priced=str(p.get("why_not_priced", "")).strip(),
                 sources=[str(s).strip() for s in (p.get("sources") or []) if str(s).strip()],
                 supporting_points=[
                     sp for sp in (p.get("supporting_points") or []) if isinstance(sp, dict)

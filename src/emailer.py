@@ -101,6 +101,12 @@ def build_html(results: list[EpisodeResult], synthesis: Synthesis | None = None)
             f'<div style="margin:6px 0 10px;">{conv_badge}{horizon_badge}{conf_badge}</div>'
             f'<div style="font-size:13px;margin-bottom:10px;">{_esc(p.thesis)}</div>'
         )
+        if p.why_not_priced:
+            parts.append(
+                f'<div style="background:#fff8c5;border-left:3px solid #d4a72c;border-radius:4px;'
+                f'padding:8px 10px;margin-bottom:10px;font-size:12.5px;">'
+                f'<b>🔍 为何尚未被定价：</b>{_esc(p.why_not_priced)}</div>'
+            )
         if p.sources:
             chips = " ".join(
                 f'<span style="font-size:11px;color:#0a3069;background:#ddf4ff;'
