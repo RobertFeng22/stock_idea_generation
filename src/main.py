@@ -17,6 +17,7 @@ from .analyze import analyze_transcript
 from .config import DATA_DIR, load_settings
 from .emailer import EpisodeResult, build_html, send_email
 from .feeds import list_recent_episodes
+from .transcribe import transcribe_audio
 from .transcripts import fetch_transcript
 
 
@@ -49,18 +50,41 @@ def run() -> int:
             state.mark_seen(seen, ep.podcast, ep.guid)
 
             transcript = None
+            source = ""
             if ep.transcripts:
                 transcript = fetch_transcript(ep.transcripts, session)
+                if transcript:
+                    source = "feed"
+
+            # Fallback: transcribe the audio with Deepgram when the feed has no
+            # usable transcript of its own.
+            if not transcript and settings.transcription_enabled and ep.audio_url:
+                cap = settings.max_transcribe_minutes
+                if cap and ep.duration_seconds and ep.duration_seconds > cap * 60:
+                    print(f"    audio is {ep.duration_seconds // 60} min > cap "
+                          f"{cap} min -> skipped transcription.")
+                else:
+                    mins = f"~{ep.duration_seconds // 60} min " if ep.duration_seconds else ""
+                    print(f"    no feed transcript; transcribing audio {mins}via Deepgram...")
+                    transcript = transcribe_audio(
+                        ep.audio_url, settings.deepgram_api_key,
+                        model=settings.deepgram_model, session=session,
+                    )
+                    if transcript:
+                        source = "deepgram"
 
             if not transcript:
+                note = "无音频链接" if not ep.audio_url else (
+                    "转录服务未配置(DEEPGRAM_API_KEY)" if not settings.transcription_enabled
+                    else "转录失败")
                 results.append(EpisodeResult(
                     podcast=ep.podcast, title=ep.title, link=ep.link,
-                    published=ep.published_str, status="no_transcript",
+                    published=ep.published_str, status="no_transcript", note=note,
                 ))
-                print("    no transcript available -> skipped (logged in email).")
+                print(f"    no transcript available -> skipped ({note}).")
                 continue
 
-            print(f"    transcript: {len(transcript):,} chars -> analyzing...")
+            print(f"    transcript [{source}]: {len(transcript):,} chars -> analyzing...")
             analysis = analyze_transcript(
                 client, settings.anthropic_model, settings.rules,
                 ep.podcast, ep.title, transcript,
@@ -76,7 +100,7 @@ def run() -> int:
             results.append(EpisodeResult(
                 podcast=ep.podcast, title=ep.title, link=ep.link,
                 published=ep.published_str, status="analyzed",
-                opportunities=analysis.opportunities,
+                opportunities=analysis.opportunities, transcript_source=source,
             ))
             print(f"    found {len(analysis.opportunities)} opportunity(ies).")
 

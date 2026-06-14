@@ -11,9 +11,11 @@ RSS 监控 ──► 获取文字稿 ──► Claude 按规则分析 ──► 
 
 1. **监控**：根据 `config/podcasts.yaml` 里的清单，每周扫描各节目过去 7 天的更新。
    节目可以只写名字（自动用 iTunes 查 RSS）、贴苹果链接、或直接给 RSS 地址。
-2. **转录（第一版）**：只使用播客 RSS 里自带的文字稿（Podcasting 2.0 的
-   `<podcast:transcript>` 标签，支持 VTT / SRT / JSON / HTML / 纯文本）。
-   没有自带文字稿的剧集会在邮件里单独列出「暂无文字稿」，方便以后再加自动转录。
+2. **转录**：优先使用播客 RSS 里自带的文字稿（Podcasting 2.0 的
+   `<podcast:transcript>` 标签，支持 VTT / SRT / JSON / HTML / 纯文本）；
+   **没有自带文字稿的剧集，自动用 Deepgram 转录音频**（直接把音频 URL 交给
+   Deepgram，服务端转录、返回文字，不在 runner 上下载大文件）。若未配置
+   `DEEPGRAM_API_KEY`，则这类剧集会在邮件里列为「暂无文字稿」并跳过。
 3. **分析**：把文字稿连同 `config/rules.md` 里你的规则一起交给 Claude，产出结构化的
    投资机会（趋势、论点、标的、信心等级、风险、原文引用）。
 4. **交付**：汇总成一封 HTML 邮件，通过 Gmail SMTP 发到你的邮箱；同时把报告存档到
@@ -38,6 +40,11 @@ RSS 监控 ──► 获取文字稿 ──► Claude 按规则分析 ──► 
 | `GMAIL_APP_PASSWORD`  | Gmail **应用专用密码**（见下），不是你平时登录的密码。               |
 | `EMAIL_TO`            | 收件地址（可选，默认发给 `GMAIL_ADDRESS`）。                         |
 | `ANTHROPIC_MODEL`     | 可选，分析所用模型，默认 `claude-sonnet-4-6`。                       |
+| `DEEPGRAM_API_KEY`    | Deepgram API Key（给没有自带文字稿的剧集转录音频）。在 console.deepgram.com 获取，新号有 $200 免费额度。不配则跳过这类剧集。 |
+
+> **成本提示**：转录只对「没有自带文字稿」的剧集触发。这些大节目每周约 20–40 小时
+> 音频，Deepgram 约 \$0.0043/分钟 → 约 \$5–10/周（前期有免费额度基本不花钱）。
+> 可用仓库变量 `MAX_TRANSCRIBE_MINUTES` 设单集时长上限（0=不限）来控成本。
 
 **怎么拿 Gmail 应用专用密码：**
 
@@ -69,8 +76,9 @@ config/
   rules.md           # 投资分析规则（你维护）
 src/
   config.py          # 读取配置与环境变量
-  feeds.py           # iTunes 查 RSS + 解析 RSS + 定位文字稿（纯标准库 XML）
+  feeds.py           # iTunes 查 RSS + 解析 RSS + 定位文字稿/音频（纯标准库 XML）
   transcripts.py     # 把 VTT/SRT/JSON/HTML 文字稿规整成纯文本
+  transcribe.py      # 用 Deepgram 转录没有自带文字稿的剧集音频
   analyze.py         # 调用 Claude，按规则产出结构化机会
   emailer.py         # 生成 HTML 报告并通过 Gmail SMTP 发送
   state.py           # 记录已处理剧集，避免重复分析
@@ -86,8 +94,7 @@ data/
 
 ## 路线图（以后可加）
 
-- **自动转录**：对没有自带文字稿的剧集，下载音频用本地 Whisper 或云端 API
-  （Deepgram / AssemblyAI / OpenAI）转录后再分析。
+- 说话人分离（区分主持人/嘉宾）、转录结果缓存到 `data/` 避免重复转录。
 - 标的去重与跨期跟踪、同一趋势在多期/多节目反复出现时加权。
 - 接入行情/基本面数据做二次过滤。
 

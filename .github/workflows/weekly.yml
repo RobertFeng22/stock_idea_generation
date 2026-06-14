@@ -34,6 +34,9 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DEEPGRAM_API_KEY: ${{ secrets.DEEPGRAM_API_KEY }}
+          DEEPGRAM_MODEL: ${{ vars.DEEPGRAM_MODEL || 'nova-3' }}
+          MAX_TRANSCRIBE_MINUTES: ${{ vars.MAX_TRANSCRIBE_MINUTES || '0' }}
           LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '7' }}
         run: python -m src.main
 

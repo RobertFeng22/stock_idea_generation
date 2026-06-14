@@ -20,6 +20,7 @@ class EpisodeResult:
     status: str  # "analyzed" | "no_transcript" | "error"
     opportunities: list[Opportunity] = field(default_factory=list)
     note: str = ""
+    transcript_source: str = ""  # "feed" | "deepgram"
 
 
 def _esc(s: str) -> str:
@@ -86,11 +87,15 @@ def build_html(results: list[EpisodeResult]) -> str:
         title_html = _esc(r.title)
         if r.link:
             title_html = f'<a href="{_esc(r.link)}" style="color:#0969da;text-decoration:none;">{title_html}</a>'
+        src_badge = ""
+        if r.transcript_source == "deepgram":
+            src_badge = ('<span style="font-size:10px;color:#57606a;background:#eaeef2;'
+                         'border-radius:8px;padding:1px 6px;margin-left:6px;">转录自音频</span>')
         parts.append(
             f'<h2 style="font-size:16px;border-bottom:1px solid #d0d7de;padding-bottom:6px;margin-top:24px;">'
             f'🎙️ {_esc(r.podcast)}</h2>'
             f'<div style="font-size:14px;margin-bottom:10px;">{title_html} '
-            f'<span style="color:#6e7781;font-size:12px;">· {_esc(r.published)}</span></div>'
+            f'<span style="color:#6e7781;font-size:12px;">· {_esc(r.published)}</span>{src_badge}</div>'
         )
         if not r.opportunities:
             parts.append('<p style="color:#6e7781;font-size:13px;">（本期未发现符合规则的机会）</p>')
@@ -130,7 +135,8 @@ def build_html(results: list[EpisodeResult]) -> str:
         )
         for r in no_transcript:
             link = f' — <a href="{_esc(r.link)}" style="color:#0969da;">链接</a>' if r.link else ""
-            parts.append(f'<li>{_esc(r.podcast)}：{_esc(r.title)} ({_esc(r.published)}){link}</li>')
+            reason = f' <span style="color:#8c959f;">({_esc(r.note)})</span>' if r.note else ""
+            parts.append(f'<li>{_esc(r.podcast)}：{_esc(r.title)} ({_esc(r.published)}){reason}{link}</li>')
         parts.append("</ul>")
 
     if errored:

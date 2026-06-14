@@ -46,11 +46,29 @@ class Episode:
     published: datetime | None
     link: str | None
     audio_url: str | None
+    duration_seconds: int | None = None
     transcripts: list[dict] = field(default_factory=list)  # [{url, kind}]
 
     @property
     def published_str(self) -> str:
         return self.published.strftime("%Y-%m-%d") if self.published else "unknown date"
+
+
+def _parse_duration(text: str | None) -> int | None:
+    """itunes:duration may be seconds ("3600") or HH:MM:SS / MM:SS."""
+    if not text:
+        return None
+    text = text.strip()
+    try:
+        if ":" in text:
+            parts = [int(p) for p in text.split(":")]
+            secs = 0
+            for p in parts:
+                secs = secs * 60 + p
+            return secs
+        return int(float(text))
+    except (ValueError, TypeError):
+        return None
 
 
 def _apple_id_from_url(url: str) -> str | None:
@@ -121,7 +139,7 @@ def _extract_transcripts(item: ET.Element) -> list[dict]:
 
 
 def _item_to_episode(item: ET.Element, show_title: str) -> Episode:
-    title = guid = link = pubdate = None
+    title = guid = link = pubdate = duration = None
     audio_url = None
     for child in item:
         tag = _local(child.tag)
@@ -133,6 +151,8 @@ def _item_to_episode(item: ET.Element, show_title: str) -> Episode:
             link = (child.text or "").strip()
         elif tag == "pubDate":
             pubdate = child.text
+        elif tag == "duration" and duration is None:  # itunes:duration
+            duration = child.text
         elif tag == "enclosure" and audio_url is None:
             audio_url = child.get("url")
 
@@ -143,6 +163,7 @@ def _item_to_episode(item: ET.Element, show_title: str) -> Episode:
         published=_parse_pubdate(pubdate),
         link=link,
         audio_url=audio_url,
+        duration_seconds=_parse_duration(duration),
         transcripts=_extract_transcripts(item),
     )
 

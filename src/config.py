@@ -31,8 +31,18 @@ class Settings:
     gmail_app_password: str
     email_to: str
     lookback_days: int
+    # Audio transcription fallback (Deepgram). If no key is set, episodes without
+    # an in-feed transcript are simply logged as "no transcript" instead.
+    deepgram_api_key: str = ""
+    deepgram_model: str = "nova-3"
+    # Skip transcribing episodes longer than this (0 = no limit). Cost guardrail.
+    max_transcribe_minutes: int = 0
     podcasts: list[PodcastEntry] = field(default_factory=list)
     rules: str = ""
+
+    @property
+    def transcription_enabled(self) -> bool:
+        return bool(self.deepgram_api_key)
 
 
 def _require(name: str) -> str:
@@ -81,6 +91,9 @@ def load_settings() -> Settings:
         gmail_app_password=_require("GMAIL_APP_PASSWORD"),
         email_to=os.environ.get("EMAIL_TO", "").strip() or gmail,
         lookback_days=int(os.environ.get("LOOKBACK_DAYS", "7")),
+        deepgram_api_key=os.environ.get("DEEPGRAM_API_KEY", "").strip(),
+        deepgram_model=os.environ.get("DEEPGRAM_MODEL", "nova-3").strip() or "nova-3",
+        max_transcribe_minutes=int(os.environ.get("MAX_TRANSCRIBE_MINUTES", "0")),
         podcasts=load_podcasts(),
         rules=load_rules(),
     )
