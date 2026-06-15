@@ -12,6 +12,7 @@ bull-vs-bear debate with a rebuttal.
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 
 from anthropic import Anthropic
@@ -229,17 +230,22 @@ Consolidate these into the ranked shortlist as specified."""
     try:
         resp = client.messages.create(
             model=model,
-            max_tokens=8000,
+            max_tokens=16000,
             system=SYNTH_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_msg}],
         )
     except Exception as exc:  # noqa: BLE001
         return Synthesis(error=str(exc))
 
+    stop = getattr(resp, "stop_reason", None)
     text = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
     data = _extract_json(text)
     if data is None:
-        return Synthesis(error="Could not parse synthesis JSON output.")
+        # The model may have been truncated mid-JSON; salvage complete picks.
+        data = _salvage_synthesis(text)
+    if data is None:
+        hint = " (output hit max_tokens)" if stop == "max_tokens" else ""
+        return Synthesis(error=f"Could not parse synthesis JSON output.{hint}")
 
     picks = []
     for p in (data.get("picks") or [])[:MAX_PICKS]:
@@ -280,3 +286,61 @@ def _extract_json(text: str) -> dict | None:
         return json.loads(text[start : end + 1])
     except json.JSONDecodeError:
         return None
+
+
+def _salvage_synthesis(text: str) -> dict | None:
+    """Recover a synthesis object from output that was truncated mid-JSON.
+
+    Walks the "picks" array and keeps every fully-closed object, discarding a
+    trailing incomplete one. Returns None if nothing usable is found.
+    """
+    summary = ""
+    msum = re.search(r'"summary"\s*:\s*"((?:[^"\\]|\\.)*)"', text)
+    if msum:
+        try:
+            summary = json.loads(f'"{msum.group(1)}"')
+        except json.JSONDecodeError:
+            summary = msum.group(1)
+
+    key = text.find('"picks"')
+    if key == -1:
+        return None
+    start = text.find("[", key)
+    if start == -1:
+        return None
+
+    picks: list = []
+    depth = 0
+    obj_start = None
+    in_str = False
+    esc = False
+    for j in range(start + 1, len(text)):
+        c = text[j]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+            continue
+        if c == '"':
+            in_str = True
+        elif c == "{":
+            if depth == 0:
+                obj_start = j
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0 and obj_start is not None:
+                try:
+                    picks.append(json.loads(text[obj_start : j + 1]))
+                except json.JSONDecodeError:
+                    pass
+                obj_start = None
+        elif c == "]" and depth == 0:
+            break
+
+    if not picks:
+        return None
+    return {"summary": summary, "picks": picks}
