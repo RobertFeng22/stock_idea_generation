@@ -1,0 +1,287 @@
+Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in. Fetch is the most complete pet insurance.
+
+Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save.
+
+It's true that some things change as we get older. But if you're a woman over 40 and you're dealing with insomnia, brain fog, moodiness and weight gain, you don't have to accept it as just another part of aging. And with Midi Health, you can get help and stop pushing through it alone. The experts at Midi understand that all these symptoms can be connected to the hormonal changes that happen around menopause and MIDI can help you feel more like yourself again. Many healthcare providers aren't trained to treat or even recognize menopause symptoms.
+
+MIDI clinicians are menopause experts. They're dedicated to providing safe, effective, FDA approved solutions for dozens of hormonal symptoms, not just hot flashes. Most importantly, they're covered by insurance. Ninety one percent of Midi patients get relief from symptoms within just two months. You deserve to feel great.
+
+Book your virtual visit today at joinmidi.com. That's joinmidi.com. Welcome to the Vergecast, the flagship podcast of Corner Radii. I'm your friend David Pierce. And on today's show, we are going to answer a bunch of your questions about WWDC.
+
+WWDC, Apple's big developer conference started on Monday. We got a lot of new announcements, lots of new stuff for all kinds of Apple devices, big new Siri AI, Apple intelligence. The phrase private cloud compute was used 450,000 times. You all had a lot of questions. We have lots of answers.
+
+Neil Patel is gonna join me from his hotel room somewhere in the Bay Area, and we're gonna go through as many of your questions as we can. It's gonna be great. But first, here is everything else happening on The Verge today. This is ninety seconds on The Verge for Wednesday, 06/10/2026. Users are starting to get access to a new Anthropic model called Claude Fable, a very good name for an AI model.
+
+It's based on the Mythos model that Anthropic previously said was too dangerous to release to the public. And now basically two months, a bunch of hemming and hawing about security and one giant hack of Mythos later, here we are. It's being released to the world. Anthropic says the model is particularly good at software engineering, knowledge work, and vision, which makes sense. Those are the three of the things that Anthropic is very focused on in enterprise AI, but it's also double the price of the company's other flagship model, Opus 4.8.
+
+Use those tokens wisely, my friends. Meanwhile, Xbox leaders have said that they're exploring radically different, that's a direct quote, radically different business models for the Xbox. Basically, with RAM making everything so expensive, Microsoft seems worried that not everyone will be able to afford a console going forward, especially not the one we know of as Project Helix, which is apparently just a super high end gaming PC. What are radically different business models? Maybe it'll be ads.
+
+Maybe it'll be even more focused on Game Pass and streaming on any kind of hardware. Maybe it'll be lots of companies making lots of different kinds of Xboxes. Right now, under new leader, Asha Sharma, it seems nothing is off the table for Xbox. And finally, we have our first look at the Social Reckoning, the sequel to the social network coming later this year. And more importantly, we got our first look at Jeremy Strong trying to look and sound like Mark Zuckerberg.
+
+People around here understand that when I say no, that's the end of the debate. I'm not two years out of a dorm room anymore, Charlie. Look around. The Francis Haugan story is an important and big and fascinating one, but I'm not so sure about this movie, you guys. We'll see.
+
+You can read more about all of this at theverge.com. That's it. That's ninety seconds on the verge for Wednesday, June 10. Alright. Now let's get to your questions from WWDC.
+
+We had the livestream on Monday where we gave kind of our our first thoughts on everything. It was pure chaos. But, Eli, you are here. Welcome, Eli Patel. What's up?
+
+From I would say, looking at you, you're in an aloft hotel. Like, that's that's the distinct vibe that I'm getting from your background. Definitely the Marriott competitor in a loft hotel. It's an AC hotel. I've never been it's very corporate.
+
+Oh, yeah. I love it. I assume every single person who is in your hotel is WWDC related in some way. Yeah. There's a lot of software developers just looking furious at their agents.
+
+Yeah. That sounds about right. So we have a bunch of questions that people sent us about WWDC, about some of the announcements. But first, I just wanna get a vibe check because we one of the things we talked a lot about on Monday's show was how different and sort of bizarre the keynote was. Like, just a very different presentation from Apple than we're used to at WWDC.
+
+What was it like in the room at Apple Park? You know, it's really interesting. I saw all the commentary about how the video was different online. No one there actually experienced the video that way. Like, we were outside.
+
+We're watching it together, but we it's it's just in that environment. Like, you're watching a giant projection of a video. You don't spend time being like, woah. That lighting is kinda blown out. Or, like, this is obviously handheld shot on an iPhone.
+
+Like Why is everyone walking so much? Yeah. Right. Like, it just it kinda doesn't happen to you, especially for me because I'm live vlogging, so I'm just typing furiously. I have to go back and watch the video every time to figure out what happened.
+
+So in the space, what you were really getting, and especially as you walked around and, you know, we did a bunch of reporting and went to briefings afterwards, you really got the sense that Apple wanted to prove it. Like, that was by far the vibe was this stuff is real. It works. We're doing the live demos. They had a tech talk with Craig Federighi afterwards and Mike Rockwell and a bunch of the team.
+
+They were doing the live demos in that room. They were standing up in front of a room for reporters, like, gesturing at architecture slides. The the vibe was this works now. We got caught with our pants down two years ago, and now we are only talking about things we are shipping that works, and we're being responsive to criticism. Look.
+
+By the way, the first thing they announced was an opacity slider for a liquid glass on Mac OS. Like, literally the first announcement of WWC. So that was the this the vibe there. Like, it would I wouldn't say serious. It was like a party vibe.
+
+Like, they were in full celebration mode because they the thing was working and it was shipping, but it was very it wasn't as goofy as years past. Like, they weren't covering anything up with, like, theatricality or production value. And I I think that came through on the video. I think everyone saw that in the video. Like, there wasn't a lot of special effects for CGI, Craig Federighi.
+
+In the space, it was just very different. Like, on campus, walking around Apple Park, it was very we did it. Right? You like it. Would you like to see another live demo of it working?
+
+And that we just kinda, like, lived through that over and over again. Yeah. I saw a lot of people talking about the slowness of the demos and the fact that you actually got to sort of watch it think every time. And I had the same reaction you did, which is like, this is Apple making damn sure that you can't accuse it of not showing real demos. Like, out of its way to be like, no.
+
+No. No. This is how long it takes. Yeah. Without question.
+
+And even though, you know, the demos that we actually saw, things things took a while. And I think part of that in real time in person was all the developers had downloaded the betas, and private cloud compute was just on fire. Like, some of the demos just didn't work, and the the people doing the demos were like, yeah. PCC's on fire today. Like, sorry about that.
+
+We're gonna try And I I very much appreciated that. Do know what I mean? Like Totally. The the notion that Apple had built this stuff, that it was working, that the the demos were experiencing real failure as opposed to everything being on on Rails. You know, it's in beta.
+
+There was something about that that it was just honest in a way that lots and lots of Apple presentations have just been infomercials for years. This one was very much like, we made products. We're shipping it. We have a point of view about what they can and can't do, and we really want you to talk about it. Even down to Craig and team doing the live briefing for journalists afterwards, which it was good.
+
+You know, they they they know their stuff, and they were there. And Tim Cook was sitting in the front row, and it just struck me that they were a little nervous. Not in a bad way. They weren't off their game at all. They were just out of practice.
+
+They hadn't done it in so long. Talking to real people. Talking to real people and completing sentences without getting to retake it. There was just an element of Craig getting on stage and being like, hey, everybody. This is what this is like.
+
+I'm feeling this for the first time in ages. Yeah. Which I thought was good. I think it's good for Apple to be in that position of saying we have to approve that the thing works this time. Yeah.
+
+I think that's right. Alright. Let's get into some questions. And, actually, the the first question is about the structure of the Keynote itself. Here's the first question.
+
+Hey. This is Gabe from DC. I had a question about your thoughts on the WWDC keynote. I noticed this year, Apple, like, barely segmented out anything into, you know, specific section on iOS, on watchOS, on iPadOS, etcetera. There's, like, one small thing at MacOS and apologizing for how bad the design was.
+
+But this struck me as a weird question. Is Apple moving to kind of a post OS specific product line? Is this things like what, you know, what what Google does? They just kinda talk about features, and the assumption is that all their platforms will get the features. So is Apple going to start, like, deemphasizing, you know, all of their operating system specific features and just kinda move to a general this is what we're doing this year.
+
+I don't know. That seems like an interesting thing and a big shift for Apple. Curious on your thoughts. Thanks so much. I just wanna say using Google as the example of the assumption that all their platforms will get the features is so generous to Google that I I I appreciate that.
+
+But, Neillai, this jumps out to me too. What what did you make of, like, the actual structure of the thing? We're so used to it going a very specific way. What did you make of the way this one went? I think the only feature of note that they announced was the Apple intelligence stuff, and that does work across all the platforms.
+
+If they had gone platform by platform, I I think just narratively, they would have announced Apple Intelligence five times in a row. When we actually did go to the briefings and the demos, the way it works on different platforms is different. And they showed us Apple Intelligence working in different ways on the iPad. Like, they're very proud that on the iPad, you can swipe down from the top, and there's a little animation that drops the the sort of spotlight pill down. It's very cool, by the way.
+
+It might be the single coolest thing in in the 27 operating systems is a little swipe down on the iPad. On the Mac, you know, there's context menus, and they've rearchitected Spotlight and command space. And now you can hit command shift space to take a context screenshot for Siri AI, which is just a new keyboard command. Like, operating system by operating system, there are differences. There are different features in the operating systems.
+
+But the things that they announced cut across, and most importantly, Apple Intelligence cuts across. And I don't think there's a way you can do that and then go back through the operating systems. And if you look at the structure of the keynote and there are three pillars, the first thing they announced was refinement. Yeah. Mac OS 27 Golden Gate is you know, it's the snow leopard of this era of Mac OS.
+
+Yeah. We fixed all the stuff we broke the last time was very much the vibe. And so I I think they they just didn't wanna do lists of features. I think they wanted to talk about their core capability. Interestingly, the family stuff, the, you know, the child safety stuff, all of those features are out already.
+
+They reannounced a bunch of tools that already exist. And the thing that's really different is the underlying architecture has been updated so that those tools might actually work now. And that to me is just a big section is Apple responding to regulatory pressure around the country in different states and around the world in different countries because there's so much of it. And their products have existed and they paid no attention to them that they essentially fixed it. So maybe they'll work.
+
+We have to do the testing. They don't work now. So maybe the architecture will make them actually work. And then they reannounced a bunch of features to point out that they exist, which I thought was utterly fascinating. So but you don't you don't think there's some bigger sort of reshuffling in how Apple thinks about operating systems here?
+
+Because I think one line you could draw from the AI thing you're saying is that if you think Apple intelligence and Siri AI are the sort of umbrella features across everything, then maybe spending a lot of time thinking about iOS and iPadOS and macOS as fundamentally different things is not useful anymore. And that maybe this becomes a more sort of, I don't know, like, single OS company rather than being as individual silos as it has been over time. But it sounds like you're just saying this is more of, like, a keynote planning thing, not a giant rethinking how Apple thinks about software. It's it's true in the case of Siri AI, which is, you know, a cloud service. Yeah.
+
+So Apple has instantiated Siri AI as a cloud service across all of its devices. And for all of the talk about on device processing there they did, almost everything happens on private cloud compute. Even deciding where the request should go in many cases goes up to PCC. When you say something to Siri AI and it might decide that the request itself is going to PCC, and then PCC is gonna tell your device, oh, I need more. I need you to give me the on screen context, and then your device will decide what to do.
+
+And I think all of that is fascinating. I don't think that Apple's getting away from the app model on the iOS or the sort of open run whatever you want model on Mac OS. They were very clear that the way these devices work is still different, that Siri AI is gonna work on these devices differently. I think the the mashing together that you're reacting to is because Siri AI is a horizontal cloud service. Like, fundamentally, it's a service, and you can access it on different devices in different ways.
+
+But at the end of the day, it's just a thing that now exists across the Apple ecosystem. Yeah. I think that's fair. That makes sense. Alright.
+
+Let's move on to the next question. This is this is just a very specific demand for you in particular, Eli. Here it is. Hi, David and the Virchcast. This is Drew.
+
+I'm actually listening to the episode right now, like, live. So, like, I'm, like, calling you and listening to you live right now. I'm turning it down. Apologies. Anyway, I just wanted to say, we have Milai do, like, a tight five on corner radii and how much it matters that Apple took a second in the keynote to talk about the radius of app corners?
+
+And I don't know. I mean, I almost never do the beta on my Mac, especially not day one, and I did for that because all of my family's chats are in WhatsApp. And the corner radius was always different than everything else. It was such a nightmare. So if we could get some representation of this major success and major win from WWDC, potentially the biggest for me and people of my I would love it.
+
+Eli, the floor is yours. Corner Radii, the greatest day of your life. It was it's very good that it's the first thing that they announced. And and to your theme of we fixed it, all the stuff was broken, all the people who ran those projects are gone. Alan Dye, the head of design, is gone.
+
+He works at Meta now. John Giandria, who was the head of AI, who oversaw the broken Apple intelligence launch, is gone now. These are new people, and they have the freedom to say the stuff was broken. And boy, was the stuff broken in Tahoe. Boy, did they get completely away from what, in particular, makes the Mac the Mac in Tahoe, which is an absolute laser focus on user interface design and human human interaction design.
+
+So I was very pleased they led with it. I saw John Gruber walking around. He looks very proud of himself. He is fully taking credit for all of these changes. You know, the opacity slider for liquid glass is the by default, it's set in the middle.
+
+And they asked me, like, where would you put it? And I was like, all the way to the right. Like, as opaque as I can get it. I just want my buttons back. There was one part in the keynote where they announced that they're just adding colors back to menu items in Windows so that you know which window is the active window.
+
+There's an element that's very silly. Right? All the corner radio are gonna match now. There's also an element of that of that's what you are buying when you buy an Apple product. You are buying the attention to detail and the focus and the sense of design.
+
+And if you want chaos, you can go get Windows or you can go get a Samsung phone or something else. But what you buy from Apple is one very constrained vision of design. I'm glad they're back to it. I would also connect it to how they're thinking about Apple intelligence design. Right?
+
+You know, I just interviewed Sundar, and I was like, do you wanna look at the search result? And his response was, we have a very scientific way of measuring whether the search results are good. Like, there's no qualitative design over there. Like, that's just not how they think about their products. Right.
+
+Apple is very happy to talk to you about corner radii and fixing it now that Allan Dye is gone. And, you know, as he kinda pushed on that in different conversations I was having, there's a reason why they haven't jumped all the way into agents. There's a reason why they haven't done all of the things that everyone else are doing. They want to be thoughtful about that. Now the uncharitable read is they're not ready for that.
+
+They had to reset the whole thing, and all the features are basically free Chat to BT from two years in a more privacy focused way. But their argument is no one knows how any of this should work. And Apple's point of view is, yes, we will be two years late and get it right. And, like, that's Apple. That's that's the thing that they are doing right now.
+
+And I I think corner radii is just evidence that they want to be that company. Yeah. And I think, like, again, I'm I'm trying not to read too much into keynote structure. But leading with that, I think you're you're exactly right. It's we are back to attending to detail in a way that I think made a lot of people very happy.
+
+Like, an easy win with all the Apple nerds out there to just do that. And it is it is one of those things that once you notice it, you can never ever stop seeing it. So I'm very glad that they fixed this. I mean, I never installed Tahoe. It was not it was not You you managed to avoid it entirely?
+
+Yeah. I I took two years at installing. Know. It's up to you. Like Genuinely really impressive.
+
+I keep seeing celebrities posts me in the nineties versus now. Well, the person staring at me in the mirror is definitely not the same person that could pull off bootcut jeans. Time creeps up on us so slowly. You don't see it until suddenly you do. Same thing goes for your bills.
+
+A dollar here, an uptick there. It's a slow burn until one day you realize the price you're paying now is way higher than when you signed up. But at T Mobile, customers had the lowest wireless bills versus Verizon and AT and T over the past five years. And with T Mobile on their experience plans, you get a five year price guarantee so you know exactly what your plan price will be for the next five years. So at least that's one thing that won't change over time.
+
+I can't guarantee you'll still look good with frosted tips, but T Mobile can give you a clear guarantee on your wireless plan. Lower bills based on HarrisX billing snapshots from q three twenty one to q four twenty five compared to average AT and T and Verizon bills. Comparison excludes discounts, credits, and optional charges. Price guarantee and talk, text, and data exclusions like taxes and fees apply. See tmobile.com.
+
+Support for this show comes from Odoo. Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo. It's the only business software you'll ever need. It's an all in one fully integrated platform that makes your work easier.
+
+CRM, accounting, inventory, ecommerce, and more. And the best part? Odoo replaces multiple expensive platforms for a fraction of the cost. That's why over thousands of businesses have made the switch. So why not you?
+
+Try Odoo for free at odoo.com. That's odoo.com. We're all feeling it, getting pulled in a million directions. In a world full of distractions, focus is increasingly hard to find. And when you're needing to reset and refocus, you'll want something revitalizing.
+
+Pure Leaf Mental Focus is a new line of sparkling real brewed iced teas made with naturally occurring caffeine from black tea and added L Theanine to help support attention and focus without the sugar or calories. And it's available in two delicious flavors, peach and raspberry. Time for a tea break. Time for a Pure Leaf. Try it yourself.
+
+Check out the product locator at pureleaf.com/find-us. Support for the show comes from cotton, the fabric of our lives. Once you look for it, it's everywhere. Just take a peek in your closet. Your favorite sundress, your comfiest concert tee, your most breathable bedsheets, all of your staples, and a whole lot more are made from cotton.
+
+It's the comfortable, breathable, and durable material that only gets better with every wash. So next time you shop, check the tags for cotton. It's the fabric of our lives. Alright. Let's get to the next question.
+
+This is from Conlon who says, what for you is the best feature that would normally be a big deal in a WWDC keynote that would send developers wild, yet this year was swallowed by all the time given to AI nonsense. For me, it would be marked down in the notes app. Do you have one off the top of your head? Like, would have been a huge deal any other year except all they wanted to talk about was Siri? Well, so it is marked down in the notes app.
+
+They did get a little cheer. Like, it was it was there. People saw it on the bento box. Like, that's cool. The the one that, like, they talked about it, but it it was just, like, the wrong moment in time to get the cheer was the agentic coding in Xcode.
+
+Like, they're very proud of it. And the fact that you can swap the models out to Codex and Cloud Code and all the other ones, there's something big brewing in Xcode that gets no attention. And they they talked about it more in the developer state of the union, But Xcode is becoming a big agentic coding platform for Apple developers, or at least they're trying to. And they know they have to keep up. And so I think from, like, the developer perspective, the idea that they're just gonna lose to Clothcote is not an option, and they're gonna have to push Xcode down that direction.
+
+That's a good one. Can I can I give you two? Well, I have two and a half. Yeah. Because one of them you're just gonna make fun of me for.
+
+So I I've been going through they put up this slide at one point that was just like a billion words of, like, here are the improvements that we're making. And I've been going through and trying to pull out the ones that are in there that didn't get talked about a lot. One that I personally am very excited about is audio scrubbing in the now playing screen in CarPlay to be able to actually just use your finger to move audio for as somebody who has to play the same song over and over and over for my three year old, that's gonna change my life. One that I think actually might qualify as, like, would have been a big deal any other time is extra large widgets. They they introduced a new widget size that is now basically the full size of your home screen.
+
+I've only seen screenshots. I don't have it on my phone yet, but it is it is just a widget that takes up the whole space that your your entire app grid would, and it becomes essentially an interactive app on your home screen. And I think, like, if you wanna get real galaxy brained about that, there's something really interesting happening in, like, how do we just elevate some of your most used apps to your home screen? Like I mean, I would connect that directly to in a developer, say, the union, they announced the ability to resize iPhone apps in a simulator to, like, a landscape orientation. How do you get two apps on a wide screen?
+
+Oh, and then clearly in the middle, it's just a folding phone. Yeah. Yeah. It's like, how do you get two apps at once on a wide screen? Maybe we just have full screen widgets that go side by side.
+
+A 100%. And then the other one, and this this definitely does not count as would have been a big deal, but is natural language calendar input. Are you a calendar person? I don't know that I actually know this about you. Like, are you somebody who lives out of life is a calendar.
+
+Okay. So what calendar app do you use? Notion Calendar. Mhmm. Notion calendar is, like, the most medium of calendar apps.
+
+It's also the one I use. But the now in the Apple calendar, you'll be able to just natural language type, you know, like, podcast with Eli, 2PM at weird hotels, and it'll just do it for you. Like, that that is such a giant leap forward in calendar management that it is insane that it took this long. Like, Fantastical, one of the great calendar apps, has been doing this forever and is the only reason I use that app because it just lets me type the thing that's happening. It's just it's just a very good thing.
+
+But I think there were there were tons of these. We should just, like, turn that graphic into, like, a spoken word poem and just read all of them out loud because there's hundreds of But only for subscribers. You have to pay us monthly for David to just read you every feature that I want do. Read. Improved unread badge accuracy in mail.
+
+That'll be great. Alright. Let's get to the next one. This is from Ishraq. I'm sorry if I'm getting that wrong.
+
+Ishraq says, one thing that's been bothering me about Apple's messaging for its new AI features running on private cloud compute is that it's completely private and none of your data will be used for training, except the training data will have to come from somewhere. And then I realized that this data is coming from Google whose data was used to train Google's foundation models that Apple is paying to use. Doesn't that feel a bit misleading? Sure. It isn't Apple doing the data scraping, but the sausages have to be made somewhere, and it's being outsourced by others to do the dirty work.
+
+I'm not sure there's even a question here, but thought it's an interesting discussion point. Thanks. This is something I saw come up a bit actually over the last couple of days is this question of, like, Apple really wants you to believe that it's the good guy in AI, and yet it's just sort of sitting on top of, like, everyone else's kind of original sin of training. And however you wanna feel about the way Google accumulated the data to make Gemini, Apple now gets to benefit from that without having to have done any of the dirty work. How do you feel?
+
+I can I can just add to this? When you ask Siri, you know, what's the tallest mountain, it it goes and searches the web. And then you ask them, how is it searching the web? Because they've made it very clear that it's not using Google's web index. They put up a whole slide.
+
+They're like, we're not using any of this Google stuff. Oh, that's We're running on Google Cloud, on NVIDIA hardware, with our models that have been refined with Google's models, which is what they keep saying. I'm pretty sure that means they distilled Google's models. That's where you teach your model to be better by asking the bigger model lots of questions, but they won't say. But when you go get world knowledge in Siri, it returns a very familiar list if you use any the CI tools with, like, here's a summary, and then here's some, like, sources at the bottom plus two.
+
+You know? That you won't click on. And you're like, where is that coming from? Where's your web index? And they're like, we have our own index.
+
+And it's like, okay. Are you indexing the web? That's a big deal. To date, there have only been two. There's been the Bing index and the Google index.
+
+You said you're not using the Google index. You've historically used the Bing index for Siri. Are you using the Bing index? And they just won't tell you. And it's so it's it's right there.
+
+Right? I mean, this is the same issue that everyone has. Okay. You're going to scrape and summarize the web to return knowledge from around the web. Is Siri gonna send a bunch of traffic to websites?
+
+Like, I don't know. They don't have an answer for that. And they're just brushing it by. Like, this just doesn't matter to them. It's the same with training.
+
+Like, how are these models trained? Is the refinement with Gemini a distillation? Is it actually referring to the Gemini models? They're not running Gemini in the way that everyone thinks that they are. That much is clear.
+
+They have made that abundantly clear. It's not just pinging the Gemini model on Google server somewhere. Yeah. Craig Federigh stepped in, know, in front of all the reporters at at the tech talk and said, here's literally, put up a slide. This is how Google's model works.
+
+And he put up the Apple model, and he said, as you can see, we're using zero of Google's model. And we trained our own model. We refined it with Gemini. We're running it on Google Cloud, but, like, here's our whole system, and it does not work in any of the same ways that Google or or OpenAI or anyone uses their system, and we're not using Google's models directly in this way. I think there's a lot of questions to be asked about that.
+
+They want researchers to push on private cloud compute and make sure that it's safe and secure and all the ways they're claiming it's safe and secure. But you you get the real sense that there's separation between what Google is doing with Gemini and what Apple is doing with Apple Intelligence. But the problems are still the same problems. Where is the training data from? Did you pay all the right people at all for the training data?
+
+If you just distill Gemini, now you're you you are in fact trading on the fact that Google scraped the entire web to train Gemini. And then if you have an index of the web and you're summarizing the all these websites, what happens to those websites if they don't get any traffic from you? Right. Is there gonna be any exchange there? And Apple just sorta does not have answers to that.
+
+I not even being able to say what the web index is or if Apple has actually indexed the web itself, which would be a huge deal. That means Apple runs a search engine. Yeah. It wouldn't be terribly surprising, but it would be new for sure. Do do we think Apple built a web index and will discontinue update?
+
+Like, Apple bot exists. There is a web crawler that Apple runs. Yeah. But to do it at the scale that would support Answers and Siri, that's a big deal. And it's just unclear if that is the thing that they are doing.
+
+Right. And I think it it is in Apple's interest to keep that whole system as obfuscated as possible. Yep. Alright. Let's let's keep going.
+
+I have I have a heady one and a less heady one Sure. To end with here. Let's let's start heady. We're gonna we're gonna talk about our feelings here for a minute. I'm really excited about it.
+
+I'm listening to the livestream. By the way, it's Mark. What's up? Keep in the woods right now. I was in the livestream after WWDC, and Jake is saying he's not sure why they don't just say, hey.
+
+Download the apps, yada yada. The truth is that they wanna own the top of the funnel. Obviously, this is all opinion, but they wanna own the top of the funnel. Right? They wanna be the one that you go to when you ask the question.
+
+So when these models get better and when there is some shift in the interface that they have control of it. Because once they lose control, even a little bit, that's when things get harder. Right? I use all the AIs. And sometimes I'm just like, I'm just gonna ask Siri because my phone's not nearby and I need to yell, hey, Siri.
+
+Or, like, I just have that button that I'm so used to pressing it. I'm driving. It was just easy. There's a bunch of times where my phone and Siri are the only things I have, and touching and typing is not what I wanna be doing. And just asking theory to open up anything.
+
+And they know that. They know that the usage is there. So this is my long ramble. That is the ZJ. They just wanna maintain that ownership of the behavior that they set up so many years ago because they can't lose it.
+
+Okay. My my only response to this, Neil, is this this is right. Right? Like, that's that that is a correct that that is what Apple is assuming is that it can it can play catch up. And because it is right there in front of you, it will win.
+
+Right? Like, is is it actually more complicated than that? In in the short term, I think that's exactly right. Only announced this week was that they have Sherlocked the free version of ChatGPT. Yeah.
+
+With fewer buttons. With fewer buttons. There there's not a there's not a single thing here that goes beyond what anyone was doing with the free version of ChatGPT. They had a demo in the keynote where they were, like, building a shed for a makerspace, and they had a bunch of quotes to make the shed and, you know, all these, like, very contrived situations. I'm like Yeah.
+
+Here's all the PDFs in a finder window, and we just selected them all, and it made a table and help you pick the shed. I negotiated a car lease with Free Chat HPT a year and a half ago. Nice. You know? Like, the exact same way.
+
+I just, like, uploaded a bunch of PDFs and, like, handwritten screenshots of deal terms from car dealers, and it just, like, figured it out and, like, help me like, is the free version of ChatuchuBT. There's not a single thing they announced apart from it has a little bit more personal context. It's literally running on your phone and can read your messages and and mail and photos. But all the capabilities are the free version of ChatGPT. And all they've done is they've Sherlocked OpenAI in that very specific way.
+
+Will the billion weekly active users of free chat GBT go down because it's just there on your iPhone? Probably. Yeah. That's the short term. I don't think that matters to anyone.
+
+The long term is, is this a platform shift? Are you gonna invoke apps by just talking to Siri in your earbuds and letting it go out and do things for you in the world? Because that platform shift has gotten everyone very excited. Meta is killing itself. Firing everyone to buy more GPUs to build the next version of the platform because they think that's it.
+
+That's the thing you're gonna do. Right. And in large part, they're all excited because they think they can use this platform shift to disintermediate the iPhone in particular. They can get away from the Apple tax. I think if Apple dropped the 30% tax, they would all be fine.
+
+You know? Like, if iPhone was, like, open access, maybe they would all quit, and they would just, like, build their businesses. But they have all run into that wall in various specific ways. They wanna get around it. Or they want to get around it and then build their own platform and then charge everyone else 30% fees, which is probably the long term view of all these companies.
+
+Boy, that's a good business to be in. So I think in the short term I mean, they just made a chatbot. I David, I don't know what your view of it was, but I was like, oh, this is just they've just built an equivalent to the free chatbots that everyone is using right now with a little bit of it's running on your phone, so it already has your data. And great. They've sure locked free chat GBT.
+
+The next step where it opens the Uber app and calls an Uber for you is nowhere to be seen on this road map. They've said it could happen. Mhmm. But that's the thing that disintermediates the app model entirely that gets rid of the iPhone. And I I, you know, I think Apple gonna find ways to make sure that doesn't happen, but there it's not the thing that they're protecting against right now.
+
+Yeah. And I think Apple, if that does happen, is very helpful that Siri becomes the system, and then all you have to do is buy AirPods, and you you still solved your problem. Right? Like, the the iPhone is eventually just becoming like a brick of compute that you talk to with other things. It is eventually going to be a perfectly fine outcome for Apple because they will continue to sell you iPhones.
+
+Well, I don't know. I I think this is this is this is the remains to be seen part. Why do those apps need to run locally on your phone in that case? Maybe they don't. I mean, I I think Apple just spent a long time talking about all the privacy implications of why they should be and is, like, deeply invested in on edge AI processing.
+
+But there are a lot of people who are on the exact opposite end of that debate. Yeah. But all of your stuff is in iCloud. Yeah. You know?
+
+It's it's in iCloud. If the government wants to serve Apple a warrant, they can do it. They can get your iCloud. Like, people buy their iPhones, and they download a bunch of apps from Google and Meta, and Apple does nothing about your data going to those companies. Like, nothing at all.
+
+So they're in a dance where they're claiming all these privacy protections just like the dance they are in with photos where they've said, you know, they a photo is a representation of reality, and then the competitive landscape has drawn them inexorably to AI photo editing in, like, I think, really damaging ways. We'll see. But it is not clear that the app model where the apps live on your phone and they are just a viewport to a cloud service is actually the model. Like, maybe you don't need the viewport to the cloud service. Uber Uber is just a cloud service.
+
+Nothing important about Uber actually happens on your phone. Sure. Except the ads. At some point, the agent might just go to the cloud and talk to that service directly. Yeah.
+
+They'd shows you ads. That's about it. They're very happy to do that. Yeah. No.
+
+I think that's right. But I think I I do agree that short term, the biggest success here for Apple like, the biggest possible success is that it built free chat GPC, and that is extremely not nothing. Like, that that would be catching up in a very real way that has a bunch of gigantic interface advantages. But I I I I don't see anything that goes beyond that yet. Alright.
+
+One more question, and this is me summarizing a surprisingly large number of questions that we got both in the livestream chat on Monday and in our various inboxes, which is basically just HomePod with several question marks afterwards. I don't think it came up at all. And and we got a call from Jack who pointed out that given all of the serious stuff they're talking about, actually, the HomePod is sort of a perfect device for this. Like, where where is the HomePod? Where's the HomePod, Nelay?
+
+Where's the HomePod? Where was any mention of tvOS? Where's the new Apple TV? Another thing, like, Siri on your television is a thing that would make a lot of sense. What it?
+
+Everybody else is desperately trying to put voice assistance on your TV. Everyone else is just trying to get away from the iPhone. They're like, is this a screen? Fair. What's what's the next thing in your house that looks like an Android tablet?
+
+Let's put our assistant on that thing. Like, great. I Apple has your phone. They they if they win there, everything else is kinda sideways. Right?
+
+And that's just extra space to be won, which is how they treat a lot of the rest of their ecosystem in big ways. Like, if you have an iPhone, they're very happy with you. If you don't have an iPhone, almost nothing works well. So they're trying to get they they gotta solve problem one. I'm guessing that in September or around it, we will see new hardware for the home.
+
+Right? These are the rumors. Yeah. We've been hearing about this little, like, home robot iPad thing for years now. Yeah.
+
+They've got they need to introduce new hardware for the home. I don't think the existing HomePods are it. I think the existing Apple TV is the the chip is too old to support some of the features they're announcing. There's just a lot they want to do, but it's not time yet to announce it because the hardware to support it doesn't exist. By the way, the hardware to support Apple intelligence at its, you know, full throat doesn't exist on many of the devices that are shipping today.
+
+My Apple Watch Ultra one is getting cut off a watchOS. That sucks. This thing this thing was expensive. People are mad. People are mad.
+
+The Yeah. The iPhone 16, which was announced as built for Apple intelligence, is not getting the full suite of Apple intelligence features in iOS 27. There's a lot going on here in terms of, oh, what does it actually mean for these devices to have enough memory, enough bandwidth, enough processing power to do the orchestration about what goes where and have the context that it I I think Apple has really underplayed it to begin with, and now they have to catch up on the hardware side too. Yeah. I think I think you're right that I would say, basically, between this iPhone event in September and the next iPhone event next September, which is the twentieth anniversary of the iPhone, I suspect we are due for a pretty aggressive rev of a lot of Apple hardware, and by all accounts, a bunch of new devices, including a foldable phone.
+
+Yep. That seems right. It's gonna be interesting. Alright. Eli, thanks for hanging out.
+
+You'll be back on Friday's show. You've got meetings and stuff to go do, cool couches to hang out on. I'm on the red eye again. The Friday show is gonna be bananas as usual. Very much looking forward to it.
+
+Good to see you, buddy. I'll see you. Alright. That's it for the show. Thanks to Neil I for being here.
+
+Thank you to everybody who emailed us questions and called the hotline and yelled at us during the livestream on Monday. We appreciate hearing from you at all times. If there's still stuff you wanna know about WWDC, I would say there is a strong chance we're gonna talk more about it on Friday. So keep calling the hotline 86611. Email us vergecast@theverge.com.
+
+Also, if you wanna know anything about anything else, hit us up. We love hearing from you. And as always, the best thing you can do to support all of this is to subscribe to the verge. Theverge.com/subscribe gets you ad free podcasts, including this one. It gets you all of our exclusive newsletters.
+
+It gets you all of our Apple coverage. It gets you everything the verge does for one subscription. Theverge.com/subscribe. Thank you in advance. Vergecast is verge production and part of the Vox Media Podcast Network.
+
+This show is produced by Eric Gomez, Brandon Kiefer, Travis Larchuk, and Aaron LoCascio. We will be back tomorrow with some more fun stuff. See you then. Rock on it. Trying to locate news sources that reliably separate fact from fiction can seem like looking for a needle in a haystack.
+
+That's why The Guardian is launching Stateside with Kai Wright and Carter Sherman, a conversation with experts who slow down the news and wrestle with the questions we all have about what's actually happening in the world. Three times a week, hosts Kai and Carter utilize all the reporting resources The Guardian has to discuss the news, international affairs, climate, culture, sports, lifestyle, fashion, and wellness. And The Guardian is not billionaire owned, meaning they're free to report the whole picture without interference. Go to the guardian.com/stateside to learn more, and listen wherever you get your podcasts or watch on YouTube. That's the guardian.com/stateside.
+
+Support for this show comes from Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo. It's the only business software you'll ever need. It's an all in one fully integrated platform that makes your work easier CRM, accounting, inventory, ecommerce, and more. And the best part?
+
+ODOO replaces multiple expensive platforms for a fraction of the cost. That's why over thousands of businesses have made the switch. So why not you? Try Odoo for free at odoo.com. That's odoo.com.

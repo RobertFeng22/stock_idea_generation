@@ -1,0 +1,413 @@
+Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in. Fetch is the most complete pet insurance.
+
+Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save.
+
+It's true that some things change as we get older. But if you're a woman over 40 and you're dealing with insomnia, brain fog, moodiness and weight gain, you don't have to accept it as just another part of aging. And with Midi Health, you can get help and stop pushing through it alone. The experts at Midi understand that all these symptoms can be connected to the hormonal changes that happen around menopause and MIDI can help you feel more like yourself again. Many healthcare providers aren't trained to treat or even recognize menopause symptoms.
+
+MIDI clinicians are menopause experts. They're dedicated to providing safe, effective, FDA approved solutions for dozens of hormonal symptoms, not just hot flashes. Most importantly, they're covered by insurance. Ninety one percent of Midi patients get relief from symptoms within just two months. You deserve to feel great.
+
+Book your virtual visit today at joinmidi.com. That's joinmidi.com. Hello, and welcome to the Vergecast, the flagship podcast of private cloud compute, a phrase we heard 650,000 times at today's WWDC. I'm your friend David Pierce. Joining me all the way from New York, Jay Kastronek is in Havenfield.
+
+Hi, friends. Hey. Good to be here. Confused to be here, David. Just to be totally candid.
+
+This is good. I'm glad you brought this up. This was okay. I've been covering WWDC. I think I did the math.
+
+It's either fourteen or fifteen years. I can't remember which one. This is the weirdest WWDC I have ever participated in in my life. This was the strangest keynote ever. So just a brief bit of inside baseball for anyone who is curious.
+
+We prepare for these aggressively. Jake, do you do you wanna just like this is a fun little inside baseball verge game. How does the verge approach a WWDC day? We don't know what's coming from Apple. We often get briefed and we often get embargoes from other companies.
+
+We never know what's coming from Apple. And so we, and specifically you, spend a lot of time preparing for how this is gonna go. What just will you describe what a normal prep process looks like? Yeah. I mean, so this happens for every Apple event.
+
+And you we know the general scope of what they're gonna announce. Right? At an iPhone event, there's gonna be an iPhone. So we prepare to write that. Right.
+
+WWDC is usually, usually a very easy one. You you prepare you assign a writer to prepare a story for every single operating system because that's what they do. They start with iOS. They go to iPadOS. They go to macOS.
+
+Oh, here's a little thing about watchOS. They they remembered they had VisionOS. Maybe we get tvOS, maybe we don't. But they just go down the the list. And, you know, we've got some extra, leeway built out because sometimes they'll sneak a little surprise in there or have some, exciting new feature that crosses all these platforms.
+
+But basically, it's it's we have a story for every single operating system, and they go in order. And they spend a few minutes on each operating system. It's very, very, very, very predictable. And for reference, usually, I can, like, prewrite part of my story, and then I just write it during the keynote, and then I can, like, zone out for part of it. Not a big I couldn't do that today.
+
+Could not. Nope. Yeah. So this was this I just this is a a good way, I think, to get into why this was such a strange keynote. Because traditionally, what happens is one of these starts, we have everybody in a Slack channel.
+
+Everybody is assigned to a specific story. So somebody is like, you're writing the iOS story, and you go in and you fill out the details as they're talking about it. You you add some analysis as it's useful, and we we publish as we go. Like, we we try to be very fast on these days. Like, four minutes into today's WWDC, Jake and I were slacking in the background being like, oh, this is all blown up.
+
+Everything is about to be different. This is this is completely unlike any other WWDC we've covered. This was total chaos. I I mean, they they announced they both announced all of the operating systems at once, like, two minutes in, and also didn't announce them at all. Like, didn't say their names.
+
+They were just like, here's the number 27. And then they just started talking about different things. They're just, like, all over the place. They were Yeah. And there was a hippie bus involved, you know, live.
+
+Yeah. So the there were basically the there they framed it in three ways. Right? So one was, like, operating system improvements. One was trust and safety, and one was AI.
+
+I think we can dispense with the operating system improvements pretty quickly, frankly, because they were basically, like, all the things we broke last year, we are trying to fix now. They spent a lot of time talking about how it's gonna be faster. They're fixing the rounded corners in in Tahoe, which is now called macOS Golden Gate, which is very exciting. They are unglassing liquid glass, which is just a terrific victory lap for me because five minutes after WWDC last year, wrote that liquid glass sucked in was a bad idea. Good call by me, and then eventually everybody.
+
+But we have to talk about AI. Right? Like, AI was the story of the thing. Siri was the story of the thing. My Siri just went off.
+
+I'm so sorry to everyone who this is gonna happen to. I'm just gonna I need to turn off all of my devices very quickly. But the the big push here. Right? Two years ago, Apple launched Apple Intelligence, big promises about Siri, big promises about AI, and then it all sort of collapsed.
+
+But now they're back announcing essentially that stuff again. Right? Yeah. This felt Did this feel a lot like the the same stuff they announced two years ago, which I hate it like that. Yeah.
+
+It was a lot of that. Exactly. Like, some of it was announced even in 2024 via TV ads, and now we're seeing it finally happen. So it was interesting to see, like, it would have been really, really impressive, like, two years ago or one year ago. It's still impressive, but, you know, it's like it's the game of playing catch up, and it was funny to see how much of it was announced even in 2024, not even in 2025.
+
+Totally. So, yeah, I I wanna talk about the playing catch up of this because I think the most straightforward way I can describe this and, Hayden, you you should gut check me on this, is it seems like Apple basically and I mostly sort of mean this as a compliment. Like, went around the rest of the AI product industry and caught up. It just it announced everything every other product already has. It has a bunch of stuff that's in Claude.
+
+It has a bunch of stuff that's in ChatGPT. It has a bunch of stuff that's in Gemini. The big overarching pitch was, but it's Apple. Is that I mean, is that and, again, like, I think there's something to that, and we should talk about it because, again, this is where we get back to private cloud compute, and Apple talked a lot about privacy. And Apple is, like, very much trying to present itself as the good guy in the technology space.
+
+But, Hayden, I wanna know your your read on this as somebody who who follows all of this really closely. Like, did Apple do anything from a feature perspective that struck you as sort of new and fascinating? The only stuff that really struck me as new and fascinating was just how these tools interact with Apple's already existing products. So it's more just like the way it's going to impact a user's everyday life. Nothing crazy in terms of, you know, groundbreaking besides that.
+
+And you're absolutely right. Like, a lot of this is just playing catch up. Like, I have a list of, like, 12 to 18 things they said that were just them copying competitors, which, I mean, they should be doing Give give us some of the list. What's on the list? Let me let me scroll down here.
+
+We have adjusting expressivity and tone, kinda like OpenAI announced, you know, a few months ago. We have, like, auto deleting chats and, like, some of the encryption stuff that Meta was talking about. We have, like, write with Siri, which everyone offers. Viewing old conversations, like, in a list or a grid of, some sort kind of like OpenAI. They even said like OpenAI when they were announcing You know, coding assistant stuff.
+
+And also, like ask Siri certain like in house web search products, which we've seen from others, and like a dedicated app, which a bunch of competitors have launched in recent years or non recent years. And, yeah, a bunch of other stuff. That's just like the the first oh, multimodal stuff, like inserting a photo into your search. So, yeah, basically just catching up with all three main competitors, OpenAI, Anthropic, and Google. And, you know, also integrating a lot of their products somehow into Siri.
+
+So they're really going at it from both ends here. They're trying to work on their own stuff and then also being like, you know what? Let's also bring in every competitor just so we can try to catch up in some way. And this is my main question too. Right?
+
+Like, they they they sort of tried to act like there's something new and novel in Apple y here. Right? There are Apple foundation models underpinning all of this. But actually, those models were created using Gemini. And, basically, what they announced, everything is is mostly just a Gemini feature.
+
+Right? Like, it it seems to me that a lot of what Apple intelligence now is is Gemini with Apple branding. And and there's clearly some distinctions, but it's very hard to tell where they are and exactly what they are. And Apple has all these different tiers of what's available where, to which platforms, to which, you know, power of device. It it's, like, weirdly complicated for an Apple product.
+
+I mean, I think I agree sort of infrastructurally, but I think the big bet here, if you're Apple, is we can solve, a, the user experience and, b, this pervasive feeling of creepiness that people have when they use AI. Right? And I think, like, that so much of the message of this keynote was Apple being like, we can do AI in a way that doesn't have to make you feel bad. And a big part of that is, again, it's about private cloud compute, it's about the fact that Apple is able to use all of your queries and information when it's useful and it's in context and then delete it all as soon as it's done. Right?
+
+Like, this is this is a way that Apple is able to do something that others are not. They are desperate to store all of your stuff on the cloud, and Apple can be like, we don't do that. We just wanna sell you That's all fine. Right? Like, I I actually think Apple's ability to take this stuff and do it in a more private way is is is real and true and good.
+
+That's all fine. I think the question of, like, a, is there anything here that you couldn't do already on your phone, I think is an interesting and complicated question. And well, I guess I should say that differently. Is there anything here that you couldn't do on your phone except that Apple is giving itself special privileges, which is what Apple always does? Right?
+
+Like, this is the stuff that if you're somebody who thinks Apple is a monopoly that turns off all of its features for all of its competitors, you're OpenAI or Anthropic looking at this being like, we have all the same technology. Why won't you let us have access to these same sorts of things? But I I I don't know. I'm so torn coming out of this. This is why I'm so confused.
+
+Like, either this was very smart, and Apple said, we're gonna do the thing that we always do, which is build the features in a way that is integrated and thoughtful and smart, or this is Apple, like, completely failing to have a single new idea about AI. I mean, I this is where I I'm so interested in the Gemini of it all because we know what Gemini is capable of on Android phones and on the Pixel. And it's like, it can do a little bit of some of this, right, with MagicQ. It can it can occasionally pull up things that are useful. But Google, which is, I I think, is fair to say farther ahead than Apple when it comes to AI stuff, has not, by any means nailed the integration of AI in your operating system.
+
+And now Apple is mostly re announcing stuff they announced in 2024, saying that they can actually do it, presumably using Gemini technology. And so the question is, can they actually do it this time? Because I do think they are saying that they have a deeper integration than any other platform is offering. And if they actually do that, and they can actually pull it off, and do it accurately, and not feel creepy about it, Like, that is it's a lot of ifs, but, like, that that would be a really big deal. That's exactly what I just wrote.
+
+I was writing, like, in my notes, like, oh, if they can do it, it'd be amazing if blank, blank, and blank, and that's a big if. I literally wrote that because that's the thing. I mean, lot of these are more, you know, intense promises like we've seen before. So we're going to have to actually test it when it comes out. I mean, some of the stuff they showed would be really impressive if you could actually do it like.
+
+You know, and creepy. It's it's worth saying like like David said, you know, like and like writing email to your boss or writing a text to your friend and analyzing the way in which you usually communicate with them and mimicking that tone. Pretty creepy. Apparently, you know, maybe you don't have to worry about it privacy wise as they kept harping on. But if you if you can do that, it's interesting.
+
+Also like things like, you know, deciding which photos have who in them and automatically uploading them to a shared album. That's a problem I had last weekend when I went to a wedding. It took me forever and it was really annoying. So if you could actually do that with an agent feature, great. Also things like vibe coding esque type of tools in Safari, like describing an extension you want for a web page and that creates it for you.
+
+So it's kind of at the like we said, just copying a bunch of competitors here. But if you could actually do it on your iPhone and this I think that's the main thing here. It's just that Apple has an advantage because it has a lot of captive users who if you integrate these stuff deeply enough, they're going to use it, especially when it comes to ask Siri and all these new, like, drop down menus and, automatic, like, stuff in the dynamic island that they announced. Yeah. I think the the thing that I expected coming into this was that Apple would be maybe slightly more reserved because, obviously, it it screwed up so badly two years ago that it wound up causing huge ramifications around the company.
+
+Right? Like, there were big leadership changes. I think this company blew it in a way that it is not accustomed to blowing it two years ago. And so I figured it would that Apple would come in and, you know, start relatively small and just sort of do things that they knew they could do in the right ways. And I think there's something to that.
+
+But then I look at things like image playground where, like, we are forever debating, you know, what what is a photo, and we're always in this question of, like, Apple has done a better job of outwardly saying, like, we care that photography is photography and that when you take a picture, it should be the picture that you take. We wanna just collect more data to do more stuff. And then they show a demo that's like, I have a photo that I am going to reframe. And when I reframe it, it's using the spatial data that it used to take the photo in order to reframe it. And then it generates new things from the new perspective.
+
+And it's like, oh, you just you just fell over the line. It's like, now we've we've gone from you are doing a really interesting idea of how to honor a photograph by also adding the data that you're able to collect with these new kinds of cameras into your just generating stuff with AI. And it's like, we've just you almost had it, Apple. And there there's so many moments like that to me here. And I think, like, Hayden, what you're talking about with even the the sort of mimic my own tone of voice thing feels like the the line between something feeling really cool and something feeling really creepy is very fine in AI.
+
+And I think what you would hope, given Apple's reputation, is that it would have done a better job than most of staying on the right side of that line, of of doing useful things without a with AI, without doing creepy things with AI. And there are a lot of useful things. Like, I got a lot of notes as soon as somebody on stage said tab management. It's like, this is this is my time to shine. And the stuff in Safari is very cool.
+
+Right? Like, the ability to understand what's on a web page, which, of course, your browser can do, and group your tabs in a way that is easier for you to manage. Fabulous. Like, that is a good use of AI, and that is the kind of thing Apple does better than most. The the image generation stuff just felt gross.
+
+And some of the ways that it's like, we're gonna seem like you on your device just feels gross. And, like, agentically changing all your passwords. Again, in theory, good. It just feels crouped. That's a a feeling I got throughout.
+
+It's like there were some things extremely useful. Am I gonna change my own passwords? No. What for certain See, that's why I'm all in I'm all for agentically changing my passwords. Like I will password hygiene is so bad that there's no chance AI is gonna do it worse.
+
+Yeah. That's Just go change everybody's password. It's gonna be fine. But, yeah, it was interesting to seeing, like, you know, some things were just slightly over the line. Like, it reminded me of reading, like, the circle by Dave Eggers, you know, because even some of the kids stuff like very, very helpful and useful in many ways.
+
+But then the amount, the way that they describe some of this stuff with like the data that they may have on like a kid's usage habits, for example, they say they're not going to save it, but it's just the data that is available there is a little scary when it comes to hourly usage, daily usage, what time of day kids are using what. It's just there is a lot of data there that Apple has at their disposal. As we've seen in the past, can we always trust tech companies to do what they're gonna say what they say they're gonna do with data? No. So it it creeped me out a little bit.
+
+Search from a big picture strategic standpoint. I I'm actually, like, so curious about Apple's decision to go hard on AI here. You know, like, the the the deep integration with the OS, that is something that you need Apple to enable for you. But there's a whole lot of this stuff that is just like, you can download a bunch of different apps and get access to it. Right?
+
+You want a chatbot chatbot, you can download Claude. You can chat download ChatGPT, Grok, whatever the heck you want. You can get these image tools yourself. You can get the chat features yourself. Apple could have just said, go ahead, do that.
+
+It's fine. It's in the App Store. We have that. If you want AI, you can get it. Particularly given all the very strong feelings around AI right now.
+
+And so I'm kind of curious, you know, I I think a couple years ago, it felt like they wanna be there. They wanna be a first mover. They wanna be seen as aggressive and ahead of the curve. And now they're behind the curve, and everyone is really mad about AI. And I'm wondering, you know, if if what are they trying to achieve here?
+
+Right? Because they're kinda just throwing themselves into the same position as everybody else now where they they're more I mean, we haven't tested this yet. I could be wrong. But I think more than likely, they're going to end up with a product that is good, but very, very, very imperfect in some really problematic ways. And that's just going to lead to the same frustrations that I think bother people on every other platform.
+
+But now Apple is really putting it in everybody's face. I think the problem here is gonna be or I think what they're banking on here is that they are going to have a whole new market because, you know, with AI assistance in general and voice assistance, there is a totally different demographic that is super loyal users of Siri in my experience, like my anecdotal experience in my personal life. It's a lot of my friends' parents. My parents ask Siri this, ask Siri that. They're like extremely loyal users and none of my friends do that.
+
+And so I think that what Apple is banking on here is just getting the AI assistant experience into a totally new demographic and market. One that's kind of impossible to ignore and they're going to have to be careful because they don't want it to be like a Windows Microsoft 11 situation where it's just forced into everything. But it seems like I think their biggest boon here is going to be that talking to Siri as a chatbot looks like an iMessage. There's an automatic voice mode button at the bottom of the message. Like there's a lot of ways that anyone could easily use this without any friction at all, which is a good and a bad thing.
+
+And I think they're just banking on the fact that more than the people that are really mad about AI right now, there may be even more people in the untapped market that just don't use it and may fall in love with it at a moment's notice with the zero friction, which again may not be good, but I think that's what they're banking on. Yeah. And and this is this is access Apple has to your information and devices that nothing else has. Right? Like, Jake, that's the counter to your why not just download a bunch of apps thing.
+
+And also, like, bold strategy to be like, you could why fix Siri when you can just download Grok? Like, love that take from you, Jake. Like, I really do. I mean, like, if if they could just wash their hands of AI and be like, this stuff isn't ready yet. Download Grok if that's what you're you want.
+
+Okay. I Right? Like would like to make a different case, which is that some of it is is ready. Like, there there were a bunch of features. Like, take a screenshot of this calendar lineup for a a music festival, and it will add it all to your calendar is ready.
+
+That technology is ready. It works. You you can do it on Android. Like, it's it's a thing that's out there. And there there were a bunch of those in here, the kind of thing that I think is interesting.
+
+Like, you can you can see stuff in your email that it it can go through and be like, oh, look. It's a thing that you can add to your calendar. Do you wanna add this to your calendar? Again, a thing you can do in Google products. But that's the sort of thing that I think is is really productive.
+
+Like, you Hayden, you mentioned the photos thing. In iMessage, somebody's like, hey. Can you send me that photo? Being able to automatically go parse and find that photo, great. Good, useful AI technology.
+
+This is the sort of thing that, like, if AI wasn't the buzzword that it was, Apple would never tell you the technology behind it. It would just be a software feature. And it would be a good one, and people would like it. And I think where where we get tripped up in how we talk about so much of this stuff is how we we put the image generation stuff next to the chatbot that's your best friend stuff next to the take a screenshot of this thing, and it will find the times and put it on your calendar. Those are not the same software, but we we talk about them the same because everything has gotten, like, lumped into this idea of just AI is everything to everyone at all times.
+
+And how the world is doing less now. It's yeah. It's completely it drives me insane. But I think Apple is struggling with this too because, like, AI is so buzzy that you have to call it AI in order to get anybody excited about anything, supposedly. Even though I think, frankly, like, we made apps open faster, turns out to be pretty exciting to a lot of Apple users.
+
+But to then get to the point of saying, well, we we just want this stuff to work now, but it's AI. You like, you you just wind up having to play this very challenging game if you're Apple that I think they just kind of didn't play correctly. I don't know. Yeah. There was there are a couple interesting moments too with, like, AI generated text.
+
+You know? And right now, it's like a trend that a lot of people are using ChatGPT to write, like, breakup texts and things like that. And now you can yep. Cursed. But now Don't do that.
+
+Like, people do do that. But like, don't don't do that. Don't do it. And now, you know, you can say, hey, send a message to my group chat and see if everyone wants to come over for a World Cup match and send the menu. And like they did that as an as an example.
+
+The text did look AI generated for sure. Maybe some people wouldn't care and yes, you can edit it. But I think we're all going to see an uptick in AI generated messages coming our way, many of which will be able to clock. There is also an interesting moment that I thought was just so like Apple marketing, just typical Apple marketing kind of trying to make sure that everyone knows, oh, like even though we made a mistake, it's actually a good thing. So they said some appear to be racing forward pursuing AI for the sake of AI.
+
+At Apple, our mission has always been to turn the potential of advanced technology into helpful and intuitive products for everyone. So basically they're saying like, oh, like, we didn't rush. See, like, we're two years late, but we didn't rush. And we were working on something that's human centric. And even that is pretty late because we saw Microsoft and a ton of other companies rebrand AGI last year to be like human centric AI.
+
+And they all coined these terms to kind of make AI look less scary. Didn't really work. But, yeah, it's just funny how Apple's saying, oh, it's good to relate. And we're doing this new thing, making it about humans, which is the marketing tactic that every single AI company is using right now. Yeah.
+
+It's good to relate on these things that we promised you two years ago and have since been sued over. Yeah. Any the Apple's ability to turn totally blowing this into a marketing victory, never not impressive. Just mind blowingly great. Can we talk about the new Siri voice for just a minute?
+
+I have a clip of the the new voice of Siri, which I actually think this is, like, a a meaningful part of the thing. Like, the the actual experience of talking to these assistants is really important. This is the thing I kept hearing from people even in the very early days of ChatGPT. That's like, if you make these things fun to talk to, you solve most of your other problems. Like, they they don't actually have to do anything if they're fun to talk to.
+
+Can I play you this clip of the voice? And and then I I would just wanna litigate if this voice is actually a good Siri voice. Let me see if I can do this. Bad team. These apricots are peak.
+
+Have they always been this good? Why has no one told me? I'm telling you, man, I've been changed. Clear the fridge. No.
+
+Clear all the fridges. On it, Jaws. And you can customize Siri's voice like never before, adjusting expressivity and pace until it clicks. Hi. Let's find the right voice for you.
+
+I'll practice some things I like to say while you listen. Let me try this one out. You have one new message. Here's another one. Your timer is set for one Now for some directions.
+
+At the next stop sign, turn right. Okay. Our chat is as thrown by this as I am. Hayden, I want these apricots are peak. I wanna know what you think.
+
+How do you feel about the apricots? I I cringe so deeply hearing this live, like, during the keynote. I I couldn't I had to stop writing and just stop. I couldn't handle it. Also, I think it it combines the worst, most cringe part of people trying to adopt, like, slang and the worst parts of like the millennial voice of yesteryear, you know, like the Buzzfeed style.
+
+Like, what did it say after the apricots being peaked? It was like, clear the fridge. Clear all the fridges. It reminds me of like it's just like the old, like, YouTube. Like, I don't know.
+
+It just it's very stuck in the past and very cringe just like what I'm what I'm sure they whatever voices they trained it on, you know? Decidedly not Scarlett Johansson on this one. Just kinda Decidedly not. Yeah. I think I don't know.
+
+Jake, what what's your read on this? It is undoubtedly better than old Siri. Like, for for that, you can get some credit. Time I we we were all on Slack chatting about about it, and I was like, I think my headphones messed up. Like, that couldn't have been right.
+
+It's like but no. Yeah. That's I it's weird that they said it's more expressive, and then they, like, immediately play something where the voice just, like, is supposed to get excited, and then is like, I'm gonna stay really neutral. Like, I were reading ad copy for a pharmaceutical. And it's like, I that was That is Maybe what it that was part of the unnervingness.
+
+It was like not not only was it trying to be like hip, but also the vocal energy didn't match that either. So you didn't believe it. It's like, yeah, like ad copy. That's what it read as, and it kinda was. Which I don't know.
+
+So maybe that's healthier for all of us. Yeah. If we're like, this thing's kinda stupid. Like, that's that's what we need out of our AI systems this year. I'm now just imagining the, like it it's the voice reading the side effects in every medication ad in history.
+
+Be perfect. It's it's very good. Theory will destroy those jobs. That that is what we It absolutely will. I do love the idea that you can customize it, actually.
+
+We we just had a commenter saying that they they prefer that their robot voices sound like robots. I fully agree with that. I want my robots I want my robot voices to either sound like a robot or like a nineteen twenties newscaster with that, like, Mid Atlantic accent and the sort of crackly, staticky, like, give me one of those telling me what's going on all the time and and we're we're up to something. For me, it's like the robotic voice or if it's like a GPS, I needed to be a British man. Those are my only two that's my only mix.
+
+Just very gently telling you that when to turn left. Yeah. I said if I'm gonna have a man yelling at me in my car, it's gonna be a British guy. That's what I always said. I respect that.
+
+I get that. I keep seeing celebrities' posts me in the nineties versus now. While the person staring at me in the mirror is definitely not the same person that could pull off bootcut jeans, Time creeps up on us so slowly. You don't see it until suddenly you do. Same thing goes for your bills.
+
+A dollar here, an uptick there. It's a slow burn until one day you realize the price you're paying now is way higher than when you signed up. But at T Mobile, customers had the lowest wireless bills versus Verizon and AT and T over the past five years. And with T Mobile on their experience plans, you get a five year price guarantee, so you know exactly what your plan price will be for the next five years. So at least that's one thing that won't change over time.
+
+I can't guarantee you'll still look good with frosted tips, but T Mobile can give you a clear guarantee on your wireless plan. Lower bills based on Harris six billing snapshots from q three twenty one to q four twenty five compared average AT and T and Verizon bills. Comparison excludes discounts, credits, and optional charges. Price guarantee and talk, text, and data. Exclusions like taxes and fees apply.
+
+Ctmobile.com. Support for this show comes from Odoo. Running a business is hard enough, so why make it harder with a dozen different apps that don't talk to each other? Introducing Odoo. It's the only business software you'll ever need.
+
+It's an all in one fully integrated platform that makes your work easier CRM, accounting, inventory, ecommerce, and more. And the best part? Odoo replaces multiple expensive platforms for a fraction of the cost. That's why over thousands of businesses have made the switch. So why not you?
+
+Try Odoo for free at odoo.com. That's odoo.com. When you finally find your thing, you want the whole world to know about that thing, So you use a thing called Canva to make it an even bigger and better thing. Whether you want to create flyers for that thing, make presentations for that thing, or design merch for that thing, you can do anything so people can see your thing, feel your thing, love your thing. The next thing you know, it's a thing.
+
+Canva, the thing that makes anything a thing. Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in.
+
+Fetch is the most complete pet insurance. Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. Network. Go to fetchpet.com/save right now for your free quote.
+
+That's fetchpet.com/save. The the one other thing I wanna talk about, we we should pivot off of AI because there's other stuff to talk about here. This idea of sort of Siri app intents and Spotlight search and the idea that you can, like, pull everything into the AI strikes me as the place Apple actually has a shot at doing something meaningfully different than what anybody else can do. Right? You have, like, endless competition in terms of what thing can I ask questions to, and I think a lot of people already have habit built there?
+
+Siri has been so bad for so long that a lot of people, I think, happily use Gemini and Claude and whatever. Like, I I talk to people every single day who have the action button on their iPhone to voice mode for some AI thing. But the idea, like, we're seeing here in the in the stream that you can grab a bunch of files and right click in the finder and ask Siri about them is so much better than pulling it all into Claude or ChatGPT or something else that is like, these are the things where Apple might have a real chance to win because it is just so seamless. And when you go to Spotlight and you just start typing and you ask a question, having it ask Siri that question and understand that you're asking Siri a question rather than looking for, you know, just the a file on your computer, That's the kind of stuff where it's like, okay. If you believe in AI, this is the stuff where Apple has a real, like, user interface chance to win here.
+
+Am I am I crazy thinking that's the stuff that's actually exciting if you're Apple? I think that's true. And I also think that a lot of these companies are just so divorced from, like, what consumers actually want. And in this case, if Apple can actually deliver on some of this stuff, it is some of it, as we said, there's a big range here, but some of it is really what consumers want. Like one example is, you know, the iMessage search has been horrible the past year.
+
+If I search for someone's address, can't find it. Like I always have to ask again. And then one of the examples they gave was, oh, like what's Jeff's new address? Yeah. Like pull up the directions to this nature spot with a stop at Jeff's.
+
+So if it can actually deliver on that type of thing, great. We all have so much data right now in our lives that like searching through it in a better way is something that every consumer wants and gets extremely frustrated by. So I think, you know, this is one of the areas where they can win. Yeah. Craig They Federighi, right right now, as we speak, Craig Federighi is is giving some kind of, like, technical explanation of how this all works.
+
+And I think every time you say, Hayden, if it works, I just keep thinking, well, it's gonna work because it works when it Gemini works, and it's just Gemini. So I think to me, this question of, like, to what extent is this just Gemini and to what extent is Apple doing its own thing, trying to run stuff on device, like, this mix of private cloud compute and on device processing and Gemini, it it it is unknown enough that we should probably still be skeptical that it's gonna work. But just the fact that Gemini underpins it, I feel like, gives me vastly more confidence than I had in, you know, their ability to do this two years ago. Well, that that was the only stuff we saw that was, like, fully new. Right?
+
+It's like they they kept doing these goofy demos that we've seen a 100 times before of planning a party or a trip or whatever. And it's like, okay. Like, this this doesn't happen every day, so this isn't very useful. And we we are fully aware that chatbots can pull together an agenda for you. Great.
+
+It it it is specifically highlighting files on your computer and having it go to a private server to give you an answer based on whatever's going on with them. That's new. That's unique. And that's the thing that if Apple can pull it off, this will actually be a somewhat at least more compelling product than a lot of the other things. It's also why we don't know if it's actually gonna work yet.
+
+It's kind of like as we always say, like or I always say this, enterprise AI is, like, the most useful right now for a lot of different reasons. But this is kind of like enterprise AI for the consumer because it's like you can search your own data and files and query them. So like, I mean, that's one of the main reasons enterprises pay big bucks for this stuff. So if you can do it yourself on your own files, great. That will actually be a useful AI agent for one.
+
+Totally. Yeah. I I I totally agree. Okay. The only other thing we should talk about on AI, and I left this till the very end because I know I'm the only one of the three of us that cares.
+
+You can now vibe code shortcuts, and that is going to be the greatest thing that ever happened to me. I'm going to ruin my phone trying to vibe code shortcuts and vibe code extensions for Safari that let you do things. But this idea of, like, you can you can do things on your phone just by asking your phone to do it is what AI is supposed to enable. And I think that that's one instantiation of it that I think is very cool. Actually, I thought it was very bold of so it was surprising to see Apple adding basic bits of vibe coding.
+
+Particularly, they also added in Safari, you can vibe code extensions that, like, change individual websites, which is, like, actually a very powerful little feature. And I think among the many problems with AI, it is taking this very kind of abstract product and productizing it. And that's one thing where it's like, okay. I this is still for power users, but you can you can figure out ways to use that. Yeah.
+
+Yeah. I think all of that stuff, again, remains to be seen how this is all gonna work. Potentially very cool. Shortcuts my opinions about shortcuts are are well documented. Shout out to our buddy, Steven Robles, who is in the the room at WWDC, and I'm sure just, like, passed out out of joy that we can vibe good shortcuts now.
+
+Sorry. Can just one more Siri to hear that? I don't know how you skipped over this. Siri is now a little orb that on the Vision Pro, you can talk to. It's a three d orb that, like, glows or wiggles or something.
+
+And they're like, you can put it wherever you want. You can just you just look at it and start talking to it. And that was my favorite part of it. It was how it looked before when you turned it on. Right?
+
+I mean, but now it's three d. That's true. Yeah. It was yeah. But The thing is, if you're Apple, there's nothing else you can do.
+
+You can't do physical character because they that's been tried a bunch of times, and it always gets weird and creepy, and people, you know, do sex things with it. You can't do Clippy. Clippy's ruined. You you can't just do lights because that's what they've been trying to do, and that didn't really work. So it's like you you you, at some point, all that's left is gelatinous orb.
+
+And I think we are in the, like, gelatinous orb era of AI products. Did a, like, video on I did a video on, like, being interviewed by AI for jobs, which is a whole other thing. But the point is there were three different companies that I tried, and the only none like, they were all bad, but the least bad one had a gelatinous orb because it wasn't as creepy as, like, talking to a fake person. Yep. So I I'm a fan of the orb if if we have get out of the, like, terrible uncanny valley of all of this stuff.
+
+I do think the I I think it's it's sort of silly and overly physical on Vision OS. I love the visuals on the iPhone. They they showed a bunch. But, like, the the new thing where instead of being sort of the light all the way around and then it it's it's the UX is not super obvious, now it's like it all just sort of exists. It's like Siri lives in your dynamic island.
+
+And when you do it, it it you get the little orb that comes out, and then the information kinda comes down from the dynamic island. And if you wanna expand it, then you're basically, I think, in the Siri app that I'm not creating. I have further complaints about this. If if I if can you tell me if I have this correct? So now on the iPhone, there are different interactions if you swipe down from the top left corner, from the top right corner, and from the center.
+
+Those all do different things. Yeah. Yep. That's correct. This is not how it should be.
+
+Assume you'll still be able to tap and long press on the dynamic island to do things. So, like, is it possible there are going to be somewhere between five and ten different interactions that you can do with the top of the screen on your iPhone? Absolutely. Yes. There are nine different ways to access They they have got to cool it.
+
+This is gonna be like a the worst feature on the iPhone and the most accessible. I had to turn off Siri for a while on my iPhone because I've already, like, annoyed with accent pressing it all the time, and now it's gonna be even worse. If I can just, like, dream re redo this keynote, I want one hour dedicated to notifications and how they're gonna fix it. Because this is how they fixed it in this keynote. They went, it's so bad.
+
+You can only find it by swiping down from the top left corner. That's that's what's happening. Don't worry about it. Just forget it's there. You have to just shake your phone violently.
+
+We've we've taken the undo shake. That's not bad. Now that you can get Siri by shaking it as hard as you can. That would be better. I don't have notifications on any apps.
+
+Like, literally, I only have messages because they're so bad. And I also check all, like, all the important apps enough that I don't need to be, like, prompting myself to check it more. That's, like, a party as well. Yeah. To be clear, that's the correct way to live your life.
+
+Like, congratulations on being a more well adjusted human than either Jake or I. But also it's gotten hundreds of notifications since you've been sitting here. No. But also it's about that I check the apps enough that I don't need them. You know?
+
+So That's fair. Me. To each their own. Let's talk about some of the trust and safety stuff just for a few minutes because I think, a, it was fascinating that Apple spent as much time as it did on this stuff. And, b, I think the amount of time it's spent in the actual stuff it's shipping were kind of not commensurate.
+
+Does that make sense? Right? I think again, I I was so struck this whole time by Apple is making a very clear messaging pivot to we are the good guys. We we are the ones you can trust. They've been doing this for a very long time, but I think especially at this moment, Apple is sensing the backlash to AI, this increasing sense among young people that they would like to be off of their devices.
+
+Never mind. I think it was V who said in the live blog that, like, gosh, it's weird that Apple feels that way given that they're literally called iPad kids. Like, it it's it's Tim Robinson in the hamburger suit being like, we're all trying to figure out who did this. And and even given all of that, think Apple is if Apple is serious about this idea of we need to give people more tools to responsibly use their devices, particularly kids, I think that's great. I don't think Apple shipped that much here.
+
+Like, they they talked a lot about principles, Jake, but they didn't give us that much new stuff. It was as they were going through it, it was really, really difficult to to figure out what already existed and what they were projecting that they might do in the future and what was actually shipping, you know, this year. Because I don't think it was that much. There were there were a couple new things that did seem like they were they were going to be really useful. They allow scheduling in screen time now.
+
+And I thought the most interesting thing that they sort of talked a lot about but didn't do a ton with is they're going to give expert recommendations about how much screen time you should allow for different types of apps. I think that's, like, actually pretty interesting as a direction for them to go. Now, do you trust Apple on how much your kid should use their phone? We'll have to see what recommendations they come up with. They probably won't need to use your phone a lot.
+
+But that's an interesting idea. That Apple you know, they're not saying that they're the X rays. They say they're partnering with X rays. None nonetheless, it's Apple taking some responsibility and saying, we're gonna try to guide you in the correct direction on how much TikTok your kid should be using. I would love to hear like some middle schooler and high schooler reactions to this because I was just imagining their reactions, like listening to this.
+
+It was just so funny because it's like, yeah, your parent can change the, recommendation or the lockouts on certain apps at any time with one tap. Like if they see you're using something too much, it's over. Or like during school, suddenly you're locked out of everything, which I think is good, but it would just be hilarious to see, like I don't know. It it can it seems like it could go from, like, zero to 100 extremely quickly. So we'll see how parents use this.
+
+Yeah. I mean, as ever, I think whenever I talk to people about parenting limits and these kinds of controls, the overwhelming thing you hear is these are much more parenting questions than they are tech questions. Right? And it's like it's actually this is much more about your relationship with your children than it is about any specific technology. But some of these things are, I I would say, like, uno universally just a good idea.
+
+Right? It's more options. The the browsing stuff is really useful and important, I think. Like, that's been an easy way to get around a lot of the parental controls is the web exists, and this is going to give them more control over this stuff. I think it was called ask to browse where they have to go on to some of the new websites.
+
+The strangest part to me, though, was Apple basically abdicating all responsibility when it comes to third party apps. That they're like, this is a company that has such incredibly iron fisted control over its platform whenever it wants it. But then I I think even the the the phrase was something like developers play an important role in ensuring kids are getting a good experience within apps, which means nothing. So they're like, we're we're giving you a bunch of tools. You can use them or not.
+
+And I think that to me is like, if if you're as serious about this as Apple wants us to believe that it is, you have to come into this with stronger opinions. They didn't talk about parental controls to some of this AI stuff. Like, are are kids going to have unfettered access to this new Siri? That changes the dynamic of what they can interact with in the same way that the web did. So to me, it's like again, I'm just struck by what how much time Apple devoted to this.
+
+Like, this is not a company that picks the order of operations by accident. Right? And the fact that they talked about trust and safety before they talked about Siri is big and important and telling. But then to just say, like, here's a bunch of APIs. We hope developers do the right thing Was like that was it just didn't feel like enough to me.
+
+It's very pick and choosy. Like, do you remember when they were talking about, like, the nudity and violence controls? Was that something that and they said even if they're browsing, it will automatically, you know, blur stuff out. I don't know if that was just across everything, including external apps or if it was only across Apple stuff and browsing. But yeah, that was an interesting example.
+
+Like, you know, they have the ability to do that anywhere. So why pick and choose? And then also, I thought it was very telling, yes, that you could they didn't mention doing this with their own AI. And kids using AI is like a huge talking point right now in terms of, like, the effects. Yeah.
+
+Yeah. And I think Apple is, like, Jake, you mentioned partnering with experts. They did a lot of offloading to the I think it was the American Academy of Pediatrics that it was kind of like, they make the rules. We're just implementing them. And so on the one hand, it's like, that's great.
+
+And I think that's a good thing, and I think Apple should probably not be the arbiter of how kids should use devices. That there there are people who are better qualified to make some of those decisions. The American Academy of Pediatrics is not an organization I know about, but presumably is one of those things. But then it's like to to make that kind of thing and then just say, this is a thing we care deeply about. We think it's super important.
+
+We hope developers do it. I mean, I think you have to look through the lens of, you know, the the pressure on them from from regulatory bodies and from, you know, advocates who want to see them be the arbiters here. As we talk about all the time, the only thing governments can agree on is that we need to protect children from technology. Like, that's the only bipartisan issue in the world right now. Well And to your point, you know, Apple has positioned itself dead center here.
+
+It is the source of power. And so if you do wanna regulate these things, the the easiest way to do that is to go through Apple. And so I think, does Apple care legitimately about our children? Like like, probably. Probably.
+
+Like, I I I think these are all very nice, features. But I think that a lot of this also goes back to when Apple gets called before the Senate or wherever, can they say, oh, actually, we already provide the ability for apps to do x, y, and z. We actually we have all kinds of tools for parents to limit their, you know I I think a lot of this is based around potential to prevent them from having to do more. Right? And that yes.
+
+That is abdicating. But in in in avoiding that all out crackdown, they are at least adding some ability here. But it's true. They're not saying, hey, TikTok. You'd you'd really better use the age API to tailor your content because, you know, they they don't wanna be in the in the process of having to moderate and all of that.
+
+Yeah. I mean, were protesters outside of WWDC. It looked like handing out flyers about Apple continuing to host, you know, things like Grok and nudifying apps on the App Store, and it is increasingly hard to square those two things with each other. And and there's some real cognitive dissonance with watching Apple talk about this stuff in the way that it does. I mean, I think Apple, it has put itself in a a tricky position that somehow it it manages surprisingly well.
+
+But, you know, if you look mean, god, all all of all of Elon's apps are really the the superstars here in terms of problematic. But, like, if you look at the content on on X or on Grok, it's like, does does some of this violate the app store's rules? Obviously. Yeah. Is is Apple going to get more heat for removing it or for leaving it there?
+
+I remember when all the Grock stuff was happening or the latest round, we asked Apple, are you going to take this off the App Store? And they just, you know, pleaded the fifth. They never responded. And it was a question that it was amid all the, nudifying stuff. So I mean, yeah, I think they're they'd rather just kinda stay out of the conversation.
+
+They don't wanna ruffle any feathers when they're so behind in the race. They don't wanna, you know, mess with the current loyal users of whatever app. But is that a good thing? Probably not. Yeah.
+
+I think we this is, again, it's this is sort of the it's a a question that comes up a lot in the what will John Turnis do as CEO kind of universe right now because the Tim Cook has been a person who has tried to walk a lot of lines and make a lot of people happy and has not taken a lot of what I would call very strong stances about much of anything, it'll be very interesting to see if the new CEO is willing to take bigger swings in the name of some of the values that Apple talks about. Let's talk about one more news thing, and then I just wanna talk about features we're excited about for ten minutes, and we're gonna get out of here. This has been coming up a lot in the in the comments on the livestream too, which is Apple is kind of deliberately or otherwise treating the the 27 operating systems as, a real hardware dividing line. Mhmm. It is dropping support for a huge number of of Apple Watches.
+
+It's dropping support for a lot of older Macs when it comes to especially, like, the the Siri stuff that is just sort of a much larger set of devices being left behind for this rev of the software than I think we're used to. Oh, yeah. Right. IPads too. A lot of old iPads are are being dropped too.
+
+And Apple is a company that I think has a really strong track record of supporting its old devices and is just kinda clean breaking here. On some level, I think this is just technology. Right? Like, you you need RAM in particular to do the kind of stuff Apple's trying to do on devices here. But, Jake, were were you surprised here that at the sort of sheer number of devices being left behind?
+
+Oh, yeah. I mean, this this feels like way more than usual and and stuff that's pretty recent. Right? Like, the first Apple Watch Ultra isn't supported. Like, that that that's not something right?
+
+That like, that's really something's up here. And and I I think AI is probably the reason. I assume there's probably some sort of RAM limitations here. There's also this interesting thing where there's, like, two tiers of Apple intelligence, and you have to have enough RAM to get the the better tier. But this is this is rough.
+
+I mean, I listen. I personally, I bought an m one iPad Air this time last year so that I could test the betas out, and I have to get rid of it now because it's not supported. And those yeah. It was a few years old at the time when I bought it, which is it was a good deal. But, you know, I expected it to last for a few more years.
+
+Yeah. Because Apple is Apple is, like, famously good at supporting operating system updates for years and years and years. And it was this funny thing where, you know, Google and Android for the longest time were a disaster. And then even when they started say you know, when they started saying, oh, we're gonna do five years, we're gonna do seven years, It was interesting because the defense, you know, Apple didn't have these promises of, oh, five years, seven years, whatever. But it was like, oh, but they do it anyway.
+
+They don't need to promise it. They just do it. Yeah. And here it's like, oh, like, when did the Apple Watch Ultra come out? I don't what like, it wasn't that long ago.
+
+That's that's a premium iPhone 17, as one of our commenters just pointed out. So the base iPhone 17. This is wild. This is this is To me, it there there's a really interesting thing happening here too, which is not just that it's it's dropping a bunch of relatively recent devices, but also that it is creating this sort of fragmented sliding scale of what can do what that may be probably not a super long term problem. Eventually, people will get powerful enough devices and it'll be fine.
+
+But, like, how many years has Apple spent making fun of the fact that not every Android user is on the latest version of Android? And it it makes it harder to develop apps because you don't know what you're developing for because a lot of people are gonna be on older, less powerful devices that run old software and actually can't run the new software. So you're like, do I leave a huge portion of my user base behind in order to support the new technology, or do I risk being late to the new technology? Like, this is actually a problem Apple has been really good at avoiding with its products for a very long time. And it feels like it is walking into at least a few years of really complicated fragmentation on that front.
+
+There there's a real, like, double whammy here too of number one, Apple spent years being very, very conservative with RAM allocations. There's a ton of Apple devices out there with, like, eight gigs or less of RAM. And now RAMpocalypse is upon us. And so RAM is freaking expensive, and it's not like they can suddenly, you know, ship a bunch of devices that have tons of RAM. And you look at the MacBook Neo, which is an Uber hit and by all means, a very great laptop, immediately losing access to to brand new features.
+
+Right? And it's like, what is going to cost Apple and or eventually probably consumers to upgrade the Neo to get access to it? Like, Apple is creating problems for itself and, you know, the AI squeeze is creating problems for everybody. And it's true. It's gonna be very weird because having just like, literally, we just watched this keynote.
+
+I couldn't tell you which features are part of which systems. There's a very complicated, very long verge story in our future that is just explaining what happens. We need, like, a really messy flowchart of devices and features and all of the things that you can still do. It's gonna be it's gonna be complicated. And I'd like and and what I wonder is how many people will bite the bullet and upgrade.
+
+Right? Because I think if if you're if you're a cynical Apple watcher, what you would say is this is just Apple forcing everybody's hand to buy new devices. And, you know, the the lifespan of these devices is getting longer. That's a threat to Apple. So they're basically pulling the plug on everything and forcing you to upgrade.
+
+It's particularly rough that they opened the Keynote with, we finally did it. We took all the the hardware that's, like, running kinda slow, and we sped it up. By the way, this isn't available on a lot of the old stuff. And you can't have it. Yeah.
+
+Exactly. And some of it, like, requires, like, interfacing with your friend. Right? So it's like, what Yes. If your Your friend has the old one?
+
+Okay. Great. Like, now you upgraded, but still you it's just yeah. There's a lot there. Yeah, like yeah, the 80% airdrop thing I was so excited about, but now I'm like, okay, well all my friends have older phones than me.
+
+The text message like thing where it shows which message sent via a specific bar on each portion of the message. Very helpful for when I'm in the subway every single day. But who knows if others will be able to see it, you know? So, yeah, there's a lot. Yeah.
+
+And we should say like, are bunch of commenters talking about this. And I think frankly, I don't have the exact list of supported devices in my head. We'll figure all of this out. But what seems to be the case is that a lot of devices are going to get OS 27 without a lot of the AI features. And we should also point out that Siri AI is is in beta coming later this year.
+
+That is a bet I would have lost coming into WWDC. I figured coming out of 2024, the disaster that that was, Apple would not announce this thing until it had a thing to ship today. And I was very surprised to see it not actually launched in a more finished available way. So we're still we're we're in this, like, liminal phase of AI for lots of people and lots of devices where in a in a sort of unreadable way, it's gonna be hard to figure out what your device is going to get and when. And I think this is this is gonna be this is just gonna be a challenge for people.
+
+Let's we we should go here in in a couple of minutes, but let let's just end on a happy note. Tell me features that Apple announced that you're excited about. Cool things coming to Apple devices in 2026. What year is '20 it? '26.
+
+Right? Yeah. Coming into the Apple devices in 2026. I'll give you one. I'll go first what you guys think.
+
+The opacity slider on liquid glass. I'm dead serious. I think this is a great idea because Apple has has spent a lot of time giving people more customization options on the iPhone in particular, and I think that's great. If you wanna make your iPhone hideously ugly, that is your right. And and you should not have to live in a world created for you by Apple's designers.
+
+There are people out there who like liquid glass. You're you're all wrong, but you are entitled to your wrong opinion. And that is fine. And that is that is a beautiful thing. So the fact that rather than say, we blew it, we're scaling it back, which in Apple's way is what it said.
+
+Right? Like, I I cannot overstate the extent to which Apple saying we've heard your feedback in a WWDC keynote is them saying, oh my god. We know we screwed it up so bad. We're so so so sorry. Just let people customize.
+
+Just let people turn the thing off who don't like it and let people turn let people get more liquidy and glassy. Like, what if you just couldn't see any of the buttons? If you want that, you should have that. And I think it's great that that's what this is. Go full more slide.
+
+Liquid. I want I want the buttons to start dripping and falling apart. They need to, like, amplify the the, like, fluid effects here. Like What if everything Why why is my operating system not on Real Engine? I want ray tracing.
+
+There we go. We got to they gotta go further. Yes. Jake, what do you what do you like? What are you excited about?
+
+Okay. We talked about this a little bit earlier, but Apple framed the they they well, they had a whole bunch of screen time upgrades, and they framed a lot of the stuff around child controls. But straight up, being able to schedule specific times when apps are and aren't allowed and how much time is allowed during those specific times, that that's actually really, really useful. I have I'll say it's mostly for TikTok, But but having a a screen time limit on apps that you know are just sort of, like, time killers is really, really useful. But it's also very different during the week versus on the weekends or during, you know, work and school hours versus, like, at night when you really do have some time to kill.
+
+And so I think I thought that was a super smart addition and something that people will, like, legitimately get value out of. Totally. I agree. So popular. Yeah.
+
+Totally. My only feature request on that front, and this has been true for a long time, is I need the screen time limits to be meaner to me. Yeah. Like Yeah. When it just throws up the thing and is like, put in your passcode and you can bypass it, I I just will do that.
+
+Time limits have never worked for me for that reason. But if Siri would just show up as I was hitting the button, it was like, like, don't don't you do it, you stupid idiot. Go play with your kids instead. Do you know how successful that would be for me? Oh my god.
+
+I would never look at TikTok again. I don't remember what exactly it is, but Google added something for Android 17 where you, like, physically have to restart your phone if you wanna, like, get rid of the the limit that you put on it. And it's like, that's that's how you do it. Great idea. That's effective, honestly.
+
+They're like, they're screwing with you a little bit. They're like, we Yeah. Be like, you're too lazy for this to why the brick works. Like, you were saying, Hayden, because it's like, oh, you wanna look at TikTok? Walk over there and touch your fridge, and then you can look at TikTok.
+
+And I'm like, fine. I won't. Hayden, what about you? What are you what are you excited about? My favorites were just some of the, like, yeah, really simple everyday things that I think will make my life a lot better, like, eight air dropping 80% faster.
+
+Yeah. The message bar telling you like what's been sent in a conversation. There's so many times I'm on the subway and I'm like talking to a friend and I'm I didn't anticipate that I would lose service even though I do every single time. And so I'm like sending like five messages in a row, but then she sent a message and then it looks like I didn't get hers. Like, there's a weird like, so it'd just be so great to, you know, have a bar showing what was said and what wasn't so that there's no miscommunications.
+
+And then, yeah, like the Wi Fi thing being smarter about when to stay connected and when not to like that always bothers me so much when I have to like manually disconnect from like the plain Wi Fi or whatever. And yeah, just like some of the in message AI features like, like your friend says, oh, can you bring this thing that I forgot last week? And you can click yes, set reminder because I'm never going to go and set the reminder on my own. Just annoying and takes a lot of time. If it like if I could just do it with one tap or any of the other stuff in there like, yeah, sending the photos one tap or adding to a shared album.
+
+You can decide exactly which photos of who are gonna be in there. Stuff like that is just gonna save me a lot of time. So I I really liked like kind of the more boring, like everyday stuff that will actually help me. Yo. Wait.
+
+The promise of them they they did promise that they're gonna fix voice dictation. Right? Because that that is So I I'm confused by this. And, Chad, please chime in on this. By the way, to all the people in the chat, we are excited about the corner radii and the fact that don't worry about the corner radii.
+
+We love a good corner radii. That's true. I'm excited about The dictation thing I couldn't figure out is I've I've been reporting on these dictation apps like WhisperFlow a lot recently, and people love them. And they work really well. And one of the things that has been astounding to me has been that Apple's dictation remains so terrible.
+
+It it they said dictation. And then That's about right. Yeah. No. They they said dictation, and then the demo they showed and it's possible that I missed it, but the demo that they showed looked like AI text generation, which is not the same thing.
+
+Like, they they did a demo where it was like, okay. You you can you can open up a document and tell it what you want, and it will write the first draft of the document for me. That's a feature. I I have no particular use for that, but that's a feature. What I want is we made the the actual speech to text dictation on the iPhone better.
+
+And that's what I thought dictation would mean. Maybe that's there, and maybe I just missed the demo. So please correct me if I'm wrong, but I I started very excited about dictation and ended sort of disappointed unless I missed something. Okay. That's that's devastating then if if they did not actually fix dictation.
+
+Listen. I It's it's, like, hilarious how bad the the dictation is on an iPhone. On it's Pixel. I'm I'm I'm dictating text messages all day long. People people hate getting them because my text messages are enormous.
+
+But you know what? I feel great. I have one friend that sends me dictation tech text messages all the time and as a recipient, horrible, horrible. But I would love if they fixed it. Yeah.
+
+That's good stuff. Alright. Anything else we should talk about? I'm still in this, like, crazy headspace of what on earth just happened. Listen.
+
+Anything else on y'all's mind before we get out of is an orb, screen time is better, and AI might be here soon. Done. AI is in beta on a wait list. Yeah. In some regions.
+
+Oh my god. By the way, Siri AI, terrible name. Just just call it Siri, people. It's you did it. It's just it's Siri, but it doesn't suck now.
+
+Siri AI is not going to bring back all the people who hate Siri to Siri. But, David, you have to put the word AI in everything. You do because it makes your stock price It is. I really feel like they put together two words that people hate and tried to make it seem like it's a better thing. Yeah.
+
+I don't think that's gonna go well. Drives me nuts. Alright. We should get out of here. Thank you both for being here.
+
+This was this was a delight. We are going to be back on Wednesday with much more WWDC stuff, and so send us all of your questions. Eli is flying a red eye home tonight, and then he's going to be on with me tomorrow afternoon answering all of your questions. So send them all in. 86611 is the hotline.
+
+Vergecast@theverge.com is the email address. There's a QR code on the screen. I don't know what to do something. Do it. QR code.
+
+I don't know. Everything will be fine. I promise. And we're gonna be back Wednesday with that episode. I think one of the things we're doing right now is a bunch of our reporters are going out looking for all of the features that are coming to these devices that didn't get talked about in the keynote because I think there's an unusually large amount of stuff coming to your phone and iPad and Mac this year that didn't get any screen time in the keynote because it was a weird ass keynote.
+
+Here we are. But, anyway, we'll be back tomorrow with our regularly scheduled programming. Thank you to Travis and Eric and Brandon and and Denise and the whole team for putting all this together. That's it. That's the Virchcast.
+
+Rock and roll. We're all feeling it, getting pulled in a million directions. In a world full of distractions, focus is increasingly hard to find. And when you're needing to reset and refocus, you'll want something revitalizing. Pure Leaf Mental Focus is a new line of sparkling real brewed iced teas made with naturally occurring caffeine from black tea and added L Theanine to help support attention and focus without the sugar or calories.
+
+And it's available in two delicious flavors, peach and raspberry. Time for a tea break. Time for a Pure Leaf. Try it yourself. Check out the product locator at pureleaf.com/find-us.
+
+Trying to locate news sources that reliably separate fact from fiction can seem like looking for a needle in a haystack. That's why The Guardian is launching stateside with Kai Wright and Carter Sherman, a conversation with experts who slow down the news and wrestle with the questions we all have about what's actually happening in the world. Three times a week, hosts Kai and Carter utilize all the reporting resources The Guardian has to discuss the news, international affairs, climate, culture, sports, lifestyle, fashion, and wellness. And The Guardian is not billionaire owned, meaning they're free to report the whole picture without interference. Go to the guardian.com/stateside to learn more, and listen wherever you get your podcasts or watch on YouTube.
+
+That's theguardian.com/stateside.

@@ -1,0 +1,339 @@
+The thing about AI for business, it may not automatically fit the way your business works. At IBM, we've seen this firsthand. But by embedding AI across HR, IT, and procurement processes, we've reduced cost by millions, slash repetitive tasks, and freed thousands of hours for strategic work. Now we're helping companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business, IBM.
+
+This episode of Hardfork is brought to you by our Hardfork Live twenty twenty six sponsors. Premier sponsor, IBM. Associate sponsors, Everpure, Pure Leaf, and the University of Notre Dame. And supporting sponsor Atlassian. Well, Casey, we got a special treat on the show this week.
+
+We are going to be playing some excerpt and snippets and featured conversations from Hard Fork Live. That's right, Kevin. We just had the second installment of our annual live show. It was an incredible time, and we're so excited to share highlights of it with our listeners. Yes.
+
+It was so great to hang out with listeners and also welcome some very special guests. We'll be bringing those conversations to our listeners and viewers in this feed over the next two weeks. Today, we're gonna share three conversations with you. The first is with Microsoft CEO, Satya Nadella. The second is with Phil Mohan, who is the wrangler of these sort of robot dogs that you may have heard about.
+
+These are a project conceived of by the artist Beeple. They have these robot dogs with Elon Musk's face and Mark Zuckerberg's face on them. They're very funny and entertaining. We brought them out on the stage during Hardfork Live for The Open, and we'll talk with him about that project and what he's trying to accomplish there. And then we're going to talk with Cindy Cohn, the outgoing executive director of the Electronic Frontier Foundation and a longtime activist on Internet and privacy related issues.
+
+Yeah. Absolutely great lineup. Some fascinating conversations, and we hope you enjoy them. I'm Kevin Russe, tech columnist from The New York Times. I'm I'm Casey Newn from platformer.
+
+And this is Hard Forth Live. Kevin, what a fine looking bunch of humans this is. Truly. We are so happy to be here. This is one of the highlights of our year.
+
+We love meeting our friends and our family and our listeners and viewers all here. It is so much fun. These are the few and the proud who got tickets within hours of them going on sale and who crucially made it through the security line. So thanks for that. We we haven't seen a security response like that since the time I tried to use Claude to make a bioweapon.
+
+Now if you are used to listening to us or watching us on YouTube, you'll notice there are a few differences that you're gonna experience tonight. For starters, there's no button you can press to speed us up to 1.5 x. Sorry. You also can't skip the ads. Yeah.
+
+And you're about to find out just how heavily each week's show is edited. Now before we start tonight, because I imagine we will be doing some talking about AI, Should we make our disclosures? Let's do that. And in fact, we thought we would do something really special this time because we actually had a listener make us disclosure hats, which I thought we could show off. I think this is yours.
+
+Oh, thank you. Yeah. So these are our disclosure hats. We'll put them on. Yeah.
+
+So official here. I work for the New York Times, which is doing OpenAI Microsoft in Perplexity. And my fiance works at Anthropic. Now, Casey, it has been such a big week in tech. Huge.
+
+Going on. We were down in Cupertino on Monday for Apple's big developer conference where they showed off the new Siri AI. Yeah. It's really interesting. You can use Siri AI to set an alarm that will trigger every time Apple falls further behind in AI.
+
+So that's kind of interesting. Let me try it now. We also saw the release of Claude Fable, the new powerful model from Anthropic. Yeah. This one's really big.
+
+They're already starting to use it in the government. In fact, Pete Hegseth just said it makes the best martini recipe he's ever seen. And then we have also been gearing up for Hot IPO Summer and the IPO of Anthropic and SpaceX and OpenAI. Yeah. And, you know, unfortunately, the OpenAI s one filing isn't yet available.
+
+It but if you want, you can just use ChatGPT to make one up for you. So, something to think about. Well, with that, let's get started with the show. Our first guest tonight is someone we've been very excited. We've been trying to get him on this show for many years.
+
+He finally agreed, and he's here tonight. Everyone, please give a warm welcome to Satya Nadella, CEO of Microsoft. Hello. Now, Satya, I have to start by making a confession, which is that I have not been a regular user of a Microsoft AI product since 2023 when when one of them tried to break up my marriage. Unsuccessfully, I should add.
+
+My wife is right there. Those were the days when we didn't have think about a world without guardrails. But so much has been happening at Microsoft with AI since then. So just catch us up. For people who may not have tuned in a little while, what have you guys been up to in AI?
+
+Yeah, I mean, look, the fundamental thing that I feel we're about to move from is not talking about AI as a one thing to sort of having even a mental picture of what is an ecosystem that is sort of driven by AI, right? So today, if you think about it, even since when you first used Sydney to now, it has been about frontier model. You sort of talked about Fable, what have you. But if we are ever going to an economy that is driven by AI, it can't be about one model. It can't be about three firms.
+
+It has to be something that's broadly felt where the economy is at the frontier, not a firm or a model is at the frontier. So, is a platform company. To me, that's what we are up to. So to me, we had our developer conference last week. It was all about, Hey, can we build a platform and the tools where every enterprise in every country can operate at the frontier?
+
+To me, that's the question. To be saying, hey, my model does this, but the economy is growing at 2%, means this is not going to end well. Unless we sort of really get to a place where economy is inflecting in terms of its economic growth and it's broad spread because the frontier benefits are. That's what happened in electricity and every other technology, which was a general purpose technology. Let me ask about one of the platform shifts that you signaled at Build last week when you announced Project Solara, you said it would be agent first hardware, kind of next generation set of devices that would have agents running them.
+
+Tell us a little bit more about that, what that looks like. Can you give us an example of maybe what crunches Yeah, there two things, Casey, we did at Build which were interesting, right? One was we took the PC itself. In fact, Jensen had done it the previous night at Computex where he talked about, the picture, one of my favorite pictures was Jensen with the desktops, the laptops. And he obviously had the RTX chip, which is a new SoC, with essentially a petaflop of compute, right, right on their PC.
+
+So that was about new functionality coming to the old form factor. So think about what I describe as unmetered intelligence. So the fact that you can have a Windows computer that can run a 1,000,000,000,000 parameter model locally, I think is gonna be very needed if you're gonna ever have agents running 20 fourseven. But then the question it sets up is, in a world where we have these models and these agents that are long running, can I have like a badge? Right?
+
+If I'm a nurse in a hospital and I'm walking from station to station, can I just take out this device which can scan, which can input, which can take my speech output and turn it into a prompt? That is what I think an agent first device looks like, right? So, it's sort of really a new The centrality of the phone, I think, is still going to be there for a lot of apps that we use. But in agent world, you kind of have that ambient intelligence that is like a sense of field that then works with your models. And so that's what our goal is, to invent the new form factors that are not beholden to the old form factors for this functionality.
+
+It's super interesting. And I wanna hear a lot more about it. We have many more questions about AI, but I wanted to ask about one more device that has been in the news today, which is the Xbox. The leaders of the Xbox division put out a memo today saying that we should expect a hard reset of Xbox coming soon. They said that there are massive increases in the prices of components and that Xbox might need a new business model.
+
+So as a big gamer who's enjoyed many happy hours on Xbox, Satya, I have to ask, what is your strategy for Xbox? Yeah. So look, in fact, this is the twenty fifth year of Xbox. And we're very thrilled about the progress we have made. I mean, gaming in an interesting way at Microsoft is older than even Windows and Office, right?
+
+The first app we built was the flight simulator. And so it's got a long heritage. Xbox itself has been there for twenty five years. The challenge now for us is to think about how do you innovate both in hardware, as well as in the games, going forward in an economically viable way. I think one of the things that Asha, who's just taken over Xbox, put out is that we've invested a lot.
+
+No one can accuse Microsoft of not having invested for the last twenty five years. And now we have to turn this into a sustainable business that delivers what is fundamentally one of the best sources of entertainment still. The challenge we have is we are not been monetizing that entertainment. In fact, if anything, we've been subsidizing that entertainment. In fact, there's more monetization of Xbox games happening on YouTube than at Microsoft.
+
+And so that doesn't mean we go do things that are unnatural. We want us to do what is really our job, which is to build great games, build great hardware, but we've got to do it in an economically sustainable way. So I think Asha is really one hundred days in, and she put out a post saying in the next one hundred days, she's gonna take a fresh look and make sure we deliver on what our fans expect of us, both on the hardware side or on the publishing side. Can you give us just any more detail? Like, when I hear that, I think, okay, so maybe, like, the Xbox gets way more expensive, the games get way more expensive.
+
+Like, is there any sort of like carrot you can offer the gamers? Like, I think we have to find ways to deliver the games at which it's economically relevant for the customer and for us. So, today, there's an issue. In fact, unfortunately, because of what's happening with the cloud and AI, the prices have gone up. It's happening with PCs, it's happening with phones, Xbox is impacted as well.
+
+So the scarcity of the semiconductor supply and memory in particular are having a massive impact on consumer electronics all up. That's a temporal thing that I think will get through. It is not gonna be a permanent. But there is a permanent thing, which is what's the Xbox model going forward? And that's where, if you think about it, PCs and consoles both have their place.
+
+Obviously, mobile has. People play elsewhere. And so we have to now bring it all together while staying true to what we've always done. Satya, I wanna take you back in a time machine. The year is 2023.
+
+The board of OpenAI has just fired Sam Altman, one of Microsoft's biggest partners. You and your team spend a harried weekend trying to pull together an entirely new division of Microsoft, Microsoft Advanced AI Research, to sort of catch the employees that are making a mass exodus from OpenAI. You're ordering laptops. You're opening up an office in San Francisco so that all these people have a place to go work. The company looks like it's on the verge of collapse, and then nothing happens.
+
+Then then Sam gets rehired, and OpenAI stands back up on its feet. And I wanna present you as part of this time machine experiment with a piece of rare merchandise, which I recently acquired from an OpenAI employee, which is a Microsoft Advanced AI Research Alright. Sweatshirt. That is awesome. To be clear, this division never existed, and I was told by the person who made this that they had to sort of fudge a little bit on the the sort of copying and printing shop application, which made them prove that they were a Microsoft employee to to get this.
+
+But this is for you if you ever Thank wanna you. Take that walk down memory lane. Oh, man. That weekend, I remember that forever, and thank you for this. But all I remember, quite frankly, the weekend is India getting thrashed by Australian cricket.
+
+That was the the more tragic thing. So if that had happened, in the world where all of these OpenAI employees end up working at Microsoft in a new advanced AI research division run by Sam Aldman and Greg Brauchman, in that world, is Microsoft better or worse off with AI than it is today in this world? Look, we are thrilled that Greg and Sam made it back to OpenAI, and they are where they are. And they're now, as you said, are filed as S1 or what have you. And look, it's fascinating, right?
+
+When we initially took the bet on OpenAI, it a research lab, a nonprofit entity that had created a for profit unit and said, Hey, they went and shopped around and said, Who can back our crazy idea that intelligence is log of compute? And quite frankly, there were lots of people were at Microsoft at that time who thought, This is nuts. But we said, I think this is a worthwhile thing to back. And quite frankly, we changed, I think, and they changed through their work and the OpenAI through their work, the world. And here we are in 2026, and we're thrilled about You guys recently renegotiated your deal between OpenAI and Microsoft.
+
+And I understand what OpenAI got out of that deal. They got the ability to work with multiple cloud providers to be a little bit more open about how they commercialize their technology. What did Microsoft get out of the revision of that deal? I mean, we have a lot of interests in OpenAI. We are obviously on their cap table, and they're a customer of ours, a large one.
+
+They're a source of IP for us, all the way to 32. And at the same time, we have the ability and the flexibility to reuse the IP, build our own IP. We just last week launched MAI models, which have hill climbed from the ground up. We published, in fact, the paper, which I think should help people even get the capability we have. Especially if you take those two thoughts, right?
+
+Which is, intelligence's log of compute, and here is a pure lineage model from Microsoft that climbed all the way, means that we now have the ability to keep going. And our infrastructure, I must mention that we wouldn't have been where we are with even Azure, but for that close partnership with OpenAI. So we have the compute, we have now the model, and we have still the partnership. Let's talk about those models. Is your goal to make a frontier best model in the world?
+
+And if so, what's the strategy for overtaking a ChatGPT, a Gemini, a Claude? Yeah. So, I think the way I would say is our real goal is to get everyone across the ecosystem to the frontier. So, we're going to take a slightly different take in saying, for example, if you think about how does one build a frontier model? You hill climb, you RL, and then you need data, So at this point, we have saturated the data.
+
+And so that means you're basically hoovering the data from every place. So the question is, what if you turn that around and said, no, there's a base model that has reasoning, that has the agent loop, but you can bring it into your RLE. Every company, right? The future of the firm is human capital and token capital, I want every balance sheet, every income statement in every company to have both. And that's our goal with our frontier model.
+
+Our model should be the best model that they can use as a base, and keep even the weights, definitely the harness and the context, which is theirs, and they can replace our model with anything else. So that to me is more of a vision that I think is what Mike I always ask the question, why does Or why does the world need Microsoft? And if we are successful, can the world around us be successful? This I believe is a more sustainable way to go at it. We have to ask a question about the AI backlash that we're seeing around the country.
+
+Graduation speakers are getting booted. AI is polling terribly. Lots of people upset about data centers. What role does Microsoft have in that image or helping to solve that? How do you think the industry can find a path forward that involves, I don't know, being a little more popular?
+
+Yeah. I think we can start, quite frankly, by painting a picture and delivering the results on why there are more than Everyone is stakeholder, right? You can't go out there and say, I have this unbelievable technology, except you're not going to have a job. And in fact, we're going to take all your water and all your energy and good luck. I mean, that cannot be an And then no wonder there is so much anxiety, right?
+
+You talked about the students, or you can talk about a community. And so therefore, you've got to do the hard work at this point. It is what it is, right? So you can't deny that the perception is terrible. And so I feel at Microsoft, we wanna Take the data centers.
+
+Now, it's fascinating. We've been operating in Quincy, Washington for twenty plus years. And I just, you know, we celebrated our twentieth year. You know, if I look at what all has happened in Quincy in the twenty years, their tax base has gone up, their taxes locally have gone down. They have more employment locally.
+
+Because of the data center. Because of the data center. In fact, the data center, it's kind of like, basically it's become a data center town. And we did this cookout and people came and they celebrate the rejuvenation of Quincy, Washington because of our presence for the last twenty years. That's the first longitudinal thing of twenty years that I've seen.
+
+And that's what the communities where data centers are. They definitely can't increase price on energy. They have to be very In fact, they should replenish all the water they use and create economic opportunity. So that's on the data center side. But across the economy, if there are small businesses feeling like, Wow, AI is making me more productive.
+
+If every large multinational is able to say, Oh, I'm building that token capital and the human capital, right? Because the big question is employment. Everybody thinks that all jobs are going away, but if you sort of And I'm not saying there won't be real displacement, the workflow doesn't change, but take software development. Of course, software development is now all agentic. Except if you think about even the evolution of the GitHub app, right?
+
+When I had a 100 CLIs, what did I need? I need a new IDE, it's called an ADE, right? A backend, again, some piece of software that helps me manage all of this complexity. So I think we have to think about new work that gets done, which will be metacognition, meta work, that is going to have wages. And we have to be concrete about But help us understand like what your own view is of the potential disruption, right?
+
+Because I've been talking to so many economists, tech leaders like yourself about this over the past couple of months, and truly opinion is all over the place. And I talk to some folks who say, yes, you better believe I'm hiring fewer people next year because of AI. And then I talk to other people who say, I can't get enough engineers. I want more than I have. So where are you on that?
+
+In two years, you're going to have more engineers or fewer? Yeah. So I think if in the early '80s, if someone had come to us and said, hey, we're going to have three and a half billion people in the world who are all going to be typists, we would have said, why does the world need three and a half billion typists? Except we do. We all get up in the morning and type, but we are doing quote unquote information work, knowledge work, and so on.
+
+So that type of change is going to have to happen. And each of them will have a name and it'll have a wage support. That reinvention, right? So a software developer of the past to the software developer of the future may have the similar sort of skills, but the work they do is different because they're managing a group of 100 agents, a thousand agents. In fact, there's a beautiful term one of my colleagues has, which is just like in software development, we already had this concept of test coverage.
+
+One of the new things that we are learning is what I'll call cognitive coverage. So what does a software developer do? I have a repo full of code that is written by agents. I am cognitively understanding what happened, And I now need tools for cognitive coverage on what that is built. That's a job, I think, of a software developer.
+
+And in order to do that, you gotta go to school, you gotta learn computer science and have cognitive coverage. And so this reinvention of work, the work artifact, the workflow, right? Because software went from input to output. That's a format change, an artifact change, the workflow has changed, and the work changes with it. I feel like what people really wanna hear is some combination of like, your job isn't gonna change that much, or if it does change, you're gonna get paid more.
+
+You think that either of those things will be true for I most think that that's the thing. The wages have always been about what is it that we as a society value. I mean, we have grown in the last two hundred years two fifty years, was about a particular form of expertise and accrual of knowledge. So when you have abundance of some form of expertise, what is that human ability to now build a new expertise that is not trainable. In fact, there was a nice blog I read this morning from Sarah Goh, which I thought was an interesting one, where she sort of mentions, hey, what is the untrainable part?
+
+And that applies to organizations, and I think us as well. We, as humans have agency ambition that should not be counted out. And if you look at even what is human capital today, the human cap, in spite of all the digital systems we have at our disposal, we do the glue work. We will discover the new glue work that happens with all this automation. And that I think is the process of change.
+
+One idea that's been floated recently, including by reportedly Sam Altman, and and president Trump has also weighed in on it, is the idea of having the US government take direct investment stakes in frontier AI companies. Do you think that's a good idea? What percent of Microsoft would you like the US government to own? MSFT, you can trade. No.
+
+But do think that is a way for the gains of AI to be more broadly felt? Look, this is all very new, right? I mean, the idea that there may be The United States, whether it has a sovereign fund, and the sovereign fund has equity stakes, and that somehow is part of what is considered the wealth of the citizens of this country, I think is a novel idea. Other countries have done it. I think Alaska has some form of it in the state because of the oil wealth.
+
+So I'm not sort of opposed to innovative ideas like this. But at the end of the day, I mean, there's this entire movement of, if only we had invested invested some some portion portion of of our our social social security security in in S S and P 500, we would have a surplus or what have you. And so to the degree to which some of these ideas can be played out and they succeed, I think we'll all benefit from it. You told Dwarkesh Patel in February 2025 that your benchmark for achieving AGI was 10% GDP growth. Seems like we're not super close to hitting 10% yet.
+
+I'm curious, like, how you view that kind of statement you made a year ago now. And do you see any sort of recent acceleration that makes you think it's more possible? In fact, it's one of the things that I think a lot about is the difficulty of even a very powerful general purpose technology and its diffusion, and the amount of change management that is required. I mean, the systems For example, one of the challenges right now that we are gonna face in the next year, two years, is the economics of tokens. For example, the hard truth is that the marginal cost of productivity improvement has to match the marginal cost of the token.
+
+That's a management discipline, right? So you can't just say, Hey, I love token maxing because it's sort of money in my bank. The business has to benefit from it. And that is what is going to really drive it. So in fact, it's fascinating.
+
+The equation for the 10% growth would be when you have a perfect match between the marginal cost of the token to the marginal value and it's priced, right? So that means it's the best way to get at it. If that happens, 10% is definitely gonna happen. But definitely what's happening right now, where everybody goes in wipe codes and token maxes, that's not a way to achieve 10% growth. How much sort of token maxing has been going on at Microsoft- I'm A out of it.
+
+And what I mean by that is, look, I want people to obviously And myself, I'm like a token maxer too. So it is addictive. It's kind of like, Hey, I love this thing. So then you have to step back when the novelty wears off to say, What is it that I'm trying to create? In fact, the thing that I love now in Copilot now is our auto mode.
+
+So we now have a very good, we have an economic model that's feeding it as well. Basically, say, don't use frontier models for non frontier problems. Please, let's kind of match these things such that you get the outputs, you get the economics, and it's not It can't be a race to just doing things that just don't add value. Give us a flavor of like Satya's token maxing. Like, what are some of your big token projects lately?
+
+Yeah. I mean, like the one thing that I recently built was, I've always sort of felt that I want a repo that is in sync all the time with discussions that are happening out of band that I am not in. Think about even that concept. I like that thing because it's sort of not possible today, right? So you'll have essentially the ability now to have an agent that literally is looking at all the work discussions that may be related to your repo, and creating the plan and executing the plan.
+
+And it's just, in fact, all I did was I put WorkIQ, which is the database underneath all of Microsoft three sixty five, and as an MCP server, and to my coding agent. And I said, Keep watching that. And every time people discuss this repo, please change my repo. And it keeps working. And so this is the best way to keep your, basically, your model in sync with all requirements that ever come up.
+
+You've been thinking a lot about the political economy of AI. Obviously, the things you're talking about, about diffusion and adoption and GDP growth are all part of that. What do you think the people in San Francisco leading the AI companies here get wrong about the political economy of I mean, I wouldn't say they're wrong about the political economy of AI, but I do think when I look back at the There's a very cool book I read, I think in December. I may have the name wrong, but it's written by Joel Marquiar and a couple of co authors. I think it's called Parallel Paths to Prosperity.
+
+They describe a little bit of how the last thousand years the West grew and what was happening in China. So it was a thousand year history. But the fundamental thing, when I take from that book, and in general, when I read history, is the West in particular got three things into a virtuous cycle. They got technological revolutions, and markets, and democracy. All both acting as a check on the other.
+
+That's why there is no such thing as an economy. It's a political economy. A democracy controls ultimately what happens market, and then technology sort of tries to disrupt the two, and then you keep sort of the checks and balances. That's magical. It's one of the most unbelievable social constructs ever to emerge in the world, right?
+
+Think about sort of, it became the model. And we now need that same model to be redefined for this age, but it'll work because it worked the last time. And so therefore, I think us reminding ourselves that the balance, the checks that each one has on the other is what I think we have to aspire for, whether it's in San Francisco, whether it's in Washington, DC, or quite frankly, anywhere else. Maybe just as a last question, I'm still trying to like hone in on what I think Kevin might call how AGI pilled you are. Like, there's a sense in Silicon Valley that it really is different this time and that the jagged frontier is going to keep advancing forever and all of a sudden, the little tasks that AI can automate today are going to convert into full jobs.
+
+How much do you buy that story? Look, I buy that anything where the loops can be closed, right? Like coding. In fact, AI research is sort of possible to close. I think we have now got sufficient, I'd say, evidence of that.
+
+But is that enough? I don't think so. When I think about, people talk about how verifiable is this task. And in the messy real world of even knowledge work, just saying, I want to look at the traces of human activity is enough to close the loop? I don't think so.
+
+That, I think, is the challenge, which is when I am in a meeting, I say things, I note things, I may observe things, but what I do with it is not a trace today that I can RLE my way in. And that, to me, is where we're selling short what is, I would say, unverifiable part of the human capital. And so to me, that's where So I believe the advances keep happening. I still am more in the world of, Hey, this is platforms tools, very powerful, very disruptive. I have a lot of sort of, I'd say, humility to say a lot of things will change.
+
+But at the end of the day, so was electricity, so were a lot of other steam when it first came out, and what have you. And so I'm not sort of sitting there and thinking this is the last technology we ever would invent. I don't buy that. I kind of feel like, yeah, this is in the pantheon of all technologies, a big step up. But I do think that there will be more to come.
+
+Very good. Well, Satya Nadella, thanks so much for joining us. Please give Thank Satya a hand in you so much. Thank you. Thank you so much.
+
+Thank you so much. Thank you. Alright. That that was, like, sort of our big question before the show was, like, you know, how how AGI pilled us, Sati? I thought it was what is the unverifiable part of our human capital?
+
+What do you think yours is? I'm still working on that. We got a lot of show to prepare for. So We'll get to the bottom of it. We'll be back with more Hartford Live after these messages.
+
+Starting a tech company is thrilling. It's also really messy. Just ask anyone who's done it or anyone who's tried. Better yet, ask They've seen startups at their best moments. Knows you don't start a company to burn cycles on regulatory hoops, discounted cash flows, or the fine print of SEC form s one.
+
+You can't ignore it. That's how risk compounds. What you can do is work with They'll help you get it right early so you can stay in builder mode. Learn more at ey.com/techstartups. Framer is a website builder that turns .coms from a formality into a tool for growth.
+
+Whether you want to launch a new site, test a few landing pages, or migrate your full .com, Framer has programs for startups, scale ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how you can get more out of your .com from a Framer specialist, or get started building for free today at Framer dot com slash hard fork for 30% off a Framer Pro annual plan. Rules and restrictions may apply. So there's a lot of noise about AI, but time's too tight for more promises. So let's talk about results.
+
+At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94% of common questions. Not noise. Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business.
+
+IBM. I'm sure everyone in here is still thinking about those robot dogs like I am. I I yeah. I was having trouble focusing on the interview because have so many questions about the dogs. And we wanted to actually bring on someone who has been responsible for training and walking and and taking care of these dogs to tell us why the hell they built such a terrifying thing.
+
+So our next guest is Phil Mohan. He's the executive director of Node, a digital art center in Palo Alto that is showing off these robot dogs as part of an art exhibit that runs through the end of the month. Please welcome to the stage our dog handler, Phil Mohan. Thanks, guys. Hey, Phil.
+
+Thank you. Hey, Phil. Oh god. They're coming back. Oh, boy.
+
+Hey. That's heel. They're very lifelike in that they don't seem to respond well to instructions. Yeah. Okay.
+
+Please go. Please leave. See you, guys. Yeah. Well, shall we have a seat?
+
+Yeah. Let's have a seat. Now, I wanna just describe these dogs a little bit for people who are are gonna be listening to this later. These are two unitary go to robo dogs with the faces of Mark Zuckerberg and Elon Musk, and as I understand it, they are part of a whole pack. So, Phil, tell us about these dogs.
+
+How many are there, and how can we protect our families from them? Yeah. By the way, when you said there was a whole pack, a chill fell through the crack. Yeah. A little different from the last conversation.
+
+I think so these are called the regular animals, and these were created by an amazing digital artist named Mike Winkelman or Beeple. How many people know Beeple in the crowd? Yeah. Okay. So for those of you who don't, I'm excited to share.
+
+Mike is an amazing artist. He has been creating a new piece of digital art every day for twenty years And these dogs are his latest creation. They're called Regular Animals, and they're part of a show we're doing at Node in Palo Alto. And what made him or both of you together think of this project? What is the idea that you are trying to convey with these terrifying robot dogs?
+
+Yeah. What's wrong with you? Yeah. So so I I asked this question to Mike, actually, exactly that. Why did you do this?
+
+And Mike's entire practice is about taking technology to show you something you've never seen before. I think mission accomplished with these. There's actually six dogs in total. So there's Pablo Picasso, there's Andy Warhol, there's Mike. He put his own face on a dog which is really interesting when you see him next to it.
+
+It's kind of the strange double take on Jeff Bezos as well. And I think with the regular animals in particular, so much of what we think about and our imagination of things comes from creatives. It comes from movies that we've seen or literature that we've read. But increasingly, the way that we see the world is coming through media and specifically digital media. And so the fact that half of the regular animals are media CEOs and technology executives, the other half are artists is not a coincidence.
+
+So you took these dogs out onto the streets of San Francisco recently. What happened once they were a set loose? Yeah. It was like the best the best social experiment of all time. I think there's a couple common reactions.
+
+You know, it has a phone factor that's very high. So about a 100% of people take out their phones and take a picture. Kids honestly really like it. I think that they're of course, there's robot dogs. It's twenty twenty six.
+
+Why wouldn't there be? And I think most people, they're it it feels like the future. It feels like maybe not the exact future that we're thinking about, but it feels like something you've never seen before. Feels like the future? What do you imagine sort of like the role of robot Dogs.
+
+With human faces will be? Yeah. So so part of part of what we do at Node is there's an amazing group of digital artists who are using software to create art. Now, I I love enterprise SaaS. I know you guys too.
+
+There's Shout out to enterprise SaaS. There there has huge huge applause from the crowd here in San Francisco for enterprise SaaS. There's there's gotta be more. There's gotta be more. And if software is the defining medium of our age, we think that there deserves to be a home for these artists who are defining digital culture.
+
+And I think that Mike is excellent example of the type of artist who's working with this medium but he's not the only one and so we hope to give a home to these artists in Palo Alto. Phil, I have to ask you about look at my card here and make sure I've got this right. Poop mode? Yeah. Poop mode.
+
+What is poop mode? So the dogs, they're constantly taking photos of their environment and they will poop out these images and we have a person at node who's hired to pick up the poop certifies it and gives it out to guests. If anyone's looking for a job, by the way, we pay very well by the hour. Also, robot dog walker. And so for -These are the only two jobs in the future that we -That's right.
+
+Can Yeah. Be able Yeah. To do if you if you wanna escape the permanent underclass, you know where where to go. And so each dog, based on the head that it's wearing, the photos come out completely different. So the Picasso dog is sort of this cubist and the Mark Zuckerberg dog looks like it's in the metaverse and it's just a reminder that, you know, the the reality that you see is not always exactly the way that it is.
+
+Have you heard from the real Mark Zuckerberg or Elon Musk? You know, we've been trying to get them to come by. So if anyone's got a line, please send them before June 28. Me read you the sentence on the Node website that gave me a seizure. It says, after three years or twenty one dog years, each robot will die with all memories from its life preserved forever on chain.
+
+What? Yeah. None of those words in the Bible. You know, one of the challenges with creating digital art or using technology in general to create art and there's a there's a long tradition of this, know. Technology sort of begets new artistic movements and the beginning of these movements sort of have to grapple with there not being good categories or there not being institutions that are purpose built for them.
+
+And in many of the conversations that we had with digital artists, they were trying to go to existing institutions and explain their work or explain, hey, I can use software or computers or computation to create these amazing works of art that make people feel things or make people see a future that only I can see and the response that they got from institutions consistently was either we don't understand it or we have an opening in five years and maybe we'll talk to you then or even if they were interested and it wasn't you know, pure apathy, our IT department can and it's like this, know, totally out of scope of what they're built for and so this focus on preservation and around keeping the art available is a big part of what we do at Node and I think that you know, so much of what we build and if you look at the history of software, it's all of these projects that get built and they're amazing at the time and then they're discarded. And art can't be like that. It has to exist through generations and so that's part of what we're trying to do.
+
+Alright. All the time we have. Thank you, Phil, and please do not attach weapons to those robot dogs. They're scary enough. As it is.
+
+Thanks for showing. Bell. Thank you. Yes, guys. We'll be right back with more from Hard Fork Live.
+
+So there's a lot of noise about AI, but time's too tight for more promises. Results. At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94% of common questions. Not noise.
+
+Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business, IBM. Framer is a website builder that turns .coms from a formality into a tool for growth. Whether you want to launch a new site, test a few landing pages, or migrateyourfull.com, Framer has programs for startups, scale ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how you can get more out of your .com from a Framer specialist or get started building for free today at framer.com/hardfork for 30% off a Framer Pro annual plan.
+
+Rules and restrictions may apply. Starting a tech company is thrilling. It's also really messy. Just ask anyone who's done it or anyone who's tried. Better yet, ask They've seen startups at their best moments.
+
+Knows you don't start a company to burn cycles on regulatory hoops, discounted cash flows, or the fine print of SEC form s one. You can't ignore it. That's how risk compounds. What you can do is work with They'll help you get it right early so you can stay in builder mode. Learn more at ey.com/techstartups.
+
+Please welcome to the stage, Cindy Cone. Hi, does that mean? Thank you. Oh my god. Hi, Cindy.
+
+Thank you. I'm admiring your Let's Sue the Government Yeah. We have the best merch at e f f, and I know they made this especially for me. Wendy, how do we get those robot dogs banned? They're creepy, aren't they?
+
+Oh my god. Do have a call you could make DC? You know, the thing that's creepy about them is what he said at the end, which is they're taking photos all the time, and they're gonna last forever. Right? Yeah.
+
+This kind of creepy mass surveillance in the form of a creepy dog. What could go wrong? Nothing. Nothing go a reason to sue the government, which is something that you did throughout your illustrious career at EFF. One of your first big fights back in the nineties was defending the cryptologist Daniel Bernstein against government restrictions on encrypted source code.
+
+Thirty years later, we are still seeing fights between the government and private individuals over end to end encryption. How surprised are you that this battle is still going on, and how would you characterize the state of that fight today? Yeah. I mean, look. We won the first round, which means that we have signal and we have HTTPS.
+
+And when you lose your phone, you don't lose all the data on it because it's encrypted. So I mean, that was great. But yeah, we continue to have to fight. And we, you know, in the meta social media case, they used the fact that they offered encryption as an argument of a product defect. Right?
+
+So the fight continues. I think, you know, law enforcement's interest in making sure nobody can ever have a private conversation just never goes away. Our need But to have a private conversation online doesn't go away either. So you know, I think in The United States we've managed to fend off, know, periodically and their last bill was called Earn It but different bills to try to restrict encryption but The UK is a mess, Australia is a mess, we're going to have to Canada now is debating something that Signal has said we're not gonna be able to offer our product and our tool in Canada if they pass this law. So it's the fight just goes on and I've kind of come to the sad conclusion that it's just something like free speech, like privacy, that we're just always gonna have to stand up for.
+
+I remember when I started covering tech more than a decade ago, the EFF was known for taking on the government, primarily fighting government overreach. Now you also fight big tech overreach. So I'm I'm curious, like, did that shift come as a surprise? And where does that leave you today in terms of allies? Like, who are the good guys?
+
+Yeah. It it's I would say in the nineties, we didn't anticipate that spying on everybody would become the number one business model of the Internet. It's very profitable. It turns out. And it also, you know, has created this problem with the five big tech giants that control every, you know, the vast majority of people's experience online.
+
+And these two things together have really forced us to, you know, we're we don't make common cause with the tech giants anymore, at the level that we used to because they used to stand up for their users. And increasingly, they're adversarial to their users. So what I tell all the tech companies is, look, if you stand with your users, we will stand with you. And if you stand against your users, we're gonna be the first in line. And sadly, that second part has become bigger than than I think it should.
+
+But it's it's it's dragged us into these places where we're adversarial against the tech giants because they're not standing with users. I mean, I I remember, you know you know, Kevin and I started covering tech around the same time. And I remember, you know, whenever, you know, you guys would put out a statement that, you know, like Google, Facebook, like Amazon were putting out statements. Like, you you guys were marching in lockstep. You just said that that united front is is now broken.
+
+When did you first notice those cracks start to appear? I mean, it depends on the topic. Right? You know, the early fights, EFF was involved a lot in trying to make copyright balanced in the digital age and we we we worked a lot with the companies on this because they wanted to give you the ability to make your own media and to rip, mix and burn, those kinds of things. And we would stand with them.
+
+But I think again as surveillance became the business model, as they became you know, less interested in empowering their users and more interested in their surveilling their users, we've separated and now you know, we stand up for things like you know, section two thirty, the idea that you know, nobody would host anybody else's speech if they were responsible for it. So users need intermediaries to be able to speak. We've seen the tech companies roll over and support all of these exceptions, Fosta, Sesta, and other things. And they're not even standing up for their own rights anymore. So it it's really topic by topic and issue by issue.
+
+But I would say that in the last ten years, it's less and less of the time that we end up standing with them because they don't stand with the users. It it obviously seems like that has accelerated quite a bit since president Trump was reelected. There's been a major rightward shift in some of these companies. You you've talked to these people for many, many years. How much do you think that is driven by something truly ideological, and how much of it is just they think they can make more money this way?
+
+It's hard to tell, honestly. I don't think they're being honest with themselves much less the rest of us about it, and certainly not me. Right? I mean, I'm the civil liberties lawyer who shows up to beat up on them. So, you know, I don't I don't really have the ear of the billionaires.
+
+I I never count out money and maximizing the amount of money that you can make as the driver for people who have devoted their lives to making money. But I I really can't tell and I I do feel like they're in their own echo chamber now in a in a way that wasn't true before. And so they end up not understanding how they come off and and and at a level that's pretty pretty high and different than when I started out in this. I'm I'm curious how you feel about it. You know, I remember in the early 2010s, I found myself, you know, maybe somewhat embarrassingly carried away by some of the more grandiose pronouncements of these companies.
+
+You know, they were gonna organize the world's information and make it universally useful and make the world more open and connected. And while, you know, that was always obviously self serving in some ways, I did talk to many employees who seemed sincerely moved by that mission, and they did talk about it all the time. And so I took them to be at least somewhat sincere. I no longer take them to be sincere about that. And I wonder, like, did you take them at their word back then?
+
+And as the sort of truth emerged, how did you feel about it? I mean, think it depends on who in Silicon Valley. Honestly, I think when you're at the top of the companies, it's a whole different feeling than when you're in the middle. You know, EFF has 30,000 members. I would say the vast I don't know.
+
+We we are a privacy organization. I don't know who those people are. But I think it's fair to say That must make fundraising them are people who work in these companies who still want to be in the business of making cool stuff for the rest of us, connecting all the world's people. I mean, we did that. The internet connects all the world's people in a way that is still magnificent.
+
+So I think that the split isn't between I mean, you're in Silicon Valley as well, but to me it's not between tech and non tech. It's between the top of tech, which is much more like the billionaires in any other industry and disconnected from the rest of tech. And we'll see. Right? I mean, the AI founders have committed to a lot of things.
+
+Anthropic and you know, the 80% they're gonna give away and things like that. So I mean time will tell, right? Are they gonna walk their talk or is it just talk? And we'll just see. I mean from EFF's perspective, again, if they walk their talk, we're there with them.
+
+And if they're not, we're the ones who are probably gonna be on the other side of the v in the lawsuit. So Speaking of AI, there are many things to be concerned about from a privacy perspective when it comes to frontier AI systems. There's the risk of these things just becoming very charming and people entrusting them with private information, and maybe the company is not being responsible safeguards of that information. There are concerns about mass domestic surveillance that could become more salient with models that are very capable. Of all of the risks to privacy and user sovereignty posed by AI, which worries you the most?
+
+Oh god. It's a race to the bottom, isn't it? But I I would say it's it's not a surprise to us that the two hard lines that Anthropic drew that got them in trouble with the defense department is mass domestic spying and autonomous weapons. Now I don't know as much about autonomous weapons, but I've spent my career fighting mass domestic spying and they're right. That will change the dynamic.
+
+It will change how democracy works. We need I mean, this is part of the stuff I wrote about in my book is that people with less power need privacy to have protection against people with more power. And mass surveillance supercharged by AI tends to make us a lot less powerful compared to the people who are gonna know a lot about us. And that can really impact our ability to vote out. The people who we don't think are leaders control what policy and law affects all of us, the political economy questions will turn, I think, on whether we can stop mass surveillance that's AI supercharged.
+
+Sketch out a bit how AI yeah. For folks who may have spent less time contemplating worst case scenarios I know. I live there. Yeah. Can you sketch out for us a bit why AI makes surveillance particularly scary?
+
+Some folks might say, hey, I don't know. I'm already pretty scared of the FBI. Know, what do I care if they can read my chat GPT? Well, I mean, I think that I think that we're living in a time where we're seeing that if you thought you weren't ever gonna be a target of surveillance, that isn't a very safe bet anymore. Right?
+
+And, you know, I think the Dobbs decision, right, overturning Roe versus Wade suddenly made a lot of people who were engaged in reproductive assistance or needing reproductive help suddenly found themselves targeted by surveillance. We've got people who've gone to jail based upon their Facebook messages. So suddenly, the capabilities of surveillance of people's online activities where they might have seemed completely innocuous and nothing that could ever be used against you is throwing your mom in jail, right, that happened in Nebraska. And we are seeing the same things of, you know, you may not, you may be one of the few people who knows nobody with a green card, nobody with visa status, nobody's here on a student visa, nobody here's here with undocumented, and there's nobody who you love or care about who is impacted by the fact that the government has decided that those people are in the crosshairs. Or you don't wanna stand with them or protest with them, which is, you know, people who were exercising their first amendment right to to monitor the police were the two people killed in Minnesota.
+
+So, like, even if you're none of them, I mean, you've gotta start looking. These circles are getting closer and closer to all of us. And if you think that the people in power who have control of this massive surveillance stuff will just never happen upon you or anyone you love, I think you're kinda living in a dream world. Like and and that matters what your no matter what your politics is because if that's not if this administration isn't the one that bothers you, when the administration changed, it may I mean, that's why right now congress is debating renewing the big mass spying law, FISA section seven zero two. And there is this combination of Ron Wyden and Jamie Raskin, people on the left, and the Freedom Caucus.
+
+Andy Biggs and and Rand Paul and Mike Lee. You know, people who do not agree with each other very much are all saying, look, we think the FBI needs a warrant before it starts searching the mass spying databases for its targets. It's it's because I think those people on the far right realize that even if they're in power today, they may not be in power tomorrow and it's better for all of us if we have due process and and and separation of powers kinds of things for mass surveillance. Yeah. You you you brought up how immigrants to this country who are here on various different kinds of visas might find themselves subject to mass surveillance.
+
+And in fact, we just tell people who are applying for visas, like, we are going to scan your social media. You must submit it. We are going to review the contents of your social media and judge it based on your protected First Amendment speech. Correct. That's one of our lawsuits we're suing over that.
+
+So I want to talk about this because ten or fifteen years ago, this is something where I can imagine all of Silicon Valley standing up and saying, how dare you? This is outrageous. This is a clear violation of the First Amendment. They've been absolutely silent on this. Yes.
+
+Why? I don't know. I think you're at the New York Times. Would you go ask them for I I I I really I I don't I mean, I think they're afraid. I think that the administration they depend on HB one visas like it used to be the only thing that Silicon Valley lobbied about was visas, right?
+
+That the workforce is heavily immigration dependent And I agree with you. They would have been standing up for for this and they're not. And, you know, I I would argue it's because they're either cowed or they're in cahoots. Those are the two reasonable options. Cowed and cahoots.
+
+Two of the worst places you can find yourself. I think a lot of it too is that I don't think that there is a sense among just users of these platforms that privacy is a winnable fight anymore. I hear so much nihilism fatalism about this I talk to people and they, you know, I'm, you know, asking them about their privacy practices and they're kind of like, Well, that ship has sailed. Like, the government has all my data anyway. What is what is the point of trying to fight?
+
+I'm sure you get this too. Yes. What is your response to the privacy nihilist? I think there's a couple of things. One is that this idea that because your information's already out there, it's all over.
+
+Like, if you talk to people in intelligence or in or cops, they will tell you that old information has a it's a very short shelf life. Right? So your information isn't all out there because you're continuing to live your life. And so, yes, it would have been great if ten years ago we had passed a comprehensive privacy law that included law enforcement as well as the commercial entities. That's the first best time.
+
+The second best time is today because if we can begin to cut the knees out from under this massive data collection, the information will get less and less important and their ability to spy on us will get smaller and smaller. So it's never I mean, if it were game over, they'd stop spying on us. Right? Like they're not like, oh, we're gonna unplug the spying machine because we've got everything we need folks. Like that would be a different world than the one we're living in.
+
+So one of the things is like, it's it's never game over. It's not game over. I mean, it's ultimately game over when you're not alive anymore maybe. But as long as you're living, your data is valuable to the to the government and to the companies. And the minute we stop this business model, the better.
+
+The second thing I would argue is, it's a it's easy to say it's all over and there's nothing I can do if they're not sweeping up your grandma in an immigration raid. But I think it's a it's it's a bit of a denial or entitled position to think that you could not care and nothing because what's what's going on there in the nihilism is I don't have to I don't care about this. It feels like too big a fight, and nothing will really happen to me or anyone I love if I don't care about this. And I think we're living in a time where that's not a safe assumption anymore. We have to fight for our privacy.
+
+Folks like Sam Altman have advocated for a form of privilege when you talk to a chatbot. So if you were to ask ChatGPT about a medical question, for example, Sam Altman says that information should not be sort of within the the reach of law enforcement. Do you do you agree with that? And how much help would it do, do you think, if that were true? I mean, I think conceptually there ought to be privileged places and conversations with Chapbot.
+
+I'm I'm actually a little more interested in trying to not have the companies have all that information and trackable back to you. So I'm more interested in people who are developing ways that you can have a, you know, anonymity in your use of these things so that they don't have thing that they can reveal about you. And I think that's a better way to go than expecting them to stand up and protect us. Did something happen that damaged your trust in these companies? I mean, you know, the there's a it's an old video of the Facebook privacy promises.
+
+Right? I mean and I'm an old lady. Right? I remember when Facebook came out, they were the privacy protective social network because they and then you can see their terms of surface shrink over time to what they're promising you about their privacy. And, you know, if their promises to you are up against their business model, I think you know which one is gonna win.
+
+And so they're now all committed to mass surveillance as a business model and I think that means that we need to take some policy and legal actions to try to cut that off at the knees. I'd like to end by asking about one of the longest ongoing fights in the relationship that Kevin and I have, which is whether or not you should tweet. Kevin still tweets. I do not tweet. Recently, you know, before you left EFF, you guys made the decision.
+
+You were leaving X. Tell us about that decision and has it cost you anything? It was a long time coming because there are, you know, there's there's plenty of people who are still on the platform who care about their rights. And it's it's always a hard decision because we always wanna be able to talk to people who who who, you know, care about rights and there are plenty of people on that platform who do. I mean, there's a couple of things that happened.
+
+We saw our reach just shrinking and shrinking and shrinking. Right? I mean, there was just recently the the picture of who has reach on on the platform, and it's nobody who's talking about digital rights in the, you know, on your side. So on you guys? Have you thought about posting more beheading videos or crypto scams?
+
+Exactly. You know? These things can really increase your reach. We also were seeing a lot of you know, I I'm also an employer. We were seeing a lot of really abusive things going to my staff and people who we talked about in our posts who, you know, were standing up for LGBTQ and we would post something about that.
+
+Those people would get abused and at some point we just decided it wasn't worth the candle anymore, you know, and it makes me sad because again, I know there are plenty of people on that platform who are not hateful but they are stuck in a place where the fundamental dynamic is really awful. You know, at some point you know, it it kinda I'm a free speech activist. Like freedom of speech has to mean the right to leave. Like, I the idea that we should be forced to speak in a place is fundamentally inconsistent with the value of freedom of speech, which includes your ability to decide where you speak in the first place. And it's it it kinda I have a hard time with people who are like, you're a free speech organization so you must post on this private platform.
+
+And I'm like, I don't think you know what free speech means. It means I get to decide who my audience is. And I'm sorry if you're hanging out in the Nazi bar and I can't. I decide that that that's not where I want to speak. And but I again, I'm sad about it because there are a lot of people there, especially a lot of politicians and other people who, like, were trying to stop seven zero two.
+
+There's a there's a lot of audiences that it would be better if they weren't all on that platform. Well, fascinating conversation. Cindy, thank you so much. You're a legend. Thank you.
+
+Thank you. Thank you so much. Thank you. That was awesome. Thank you.
+
+Thank you. Framer is a website builder that turns .coms from a formality into a tool for growth. Whether you want to launch a new site, test a few landing pages, or migrateyourfull.com, Framer has programs for startups, scale ups, and large enterprises to make going from idea to live site as easy and fast as possible. Learn how you can get more out of your.com from a Framer specialist, or get started building for free today at framer.com/hardfork for 30% off a Framer Pro annual plan. Rules and restrictions may apply.
+
+So there's a lot of noise about AI, but time's too tight for more promises. So let's talk about results. At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94% of common questions. Not noise.
+
+Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business. IBM. Starting a tech company is thrilling. It's also really messy.
+
+Just ask anyone who's done it or anyone who's tried. Better yet, ask They've seen startups at their best moments. Knows you don't start a company to burn cycles on regulatory hoops, discounted cash flows, or the fine print of SEC form s one. You can't ignore it. That's how risk compounds.
+
+What you can do is work with They'll help you get it right early so you can stay in builder mode. Learn more @ey.comslashtechstartups. Hard fork is produced by Rachel Cohen and Whitney Jones. We're edited by Viren Pavich. We're fact checked by Caitlin Love.
+
+Today's show was engineered by Alyssa Moxley. Moxley. Original music by Alicia Beitoop, Mary Lozano, Diane Wong, Rowan Nemesto, Alyssa Moxley, and Dan Powell. Video production by Sawyer Roque, Jake Nichol, and Chris Shaw. Special thanks to the New York Times Live event team who helped us put on Hard Fork Live this year.
+
+Hillary Kuhn, Beth Weinstein, Caitlin Roper, Chantal Renier, Melissa Tripoli, Natalie Green, Kirsten Birmingham, Marissa Farina, Jennifer Feeney, Morgan Singer, Dana Proskowski, Haley Duffy, Yenwei Liu, Matt Kaiser, Sarah Cheever, Johnny Marola, Victoria Kim, and SV Productions. Thanks also to everyone at the Yerba Buena Center for the Arts and the Blue Shield of California Theater where we held the event. They were so fantastic to work with. And a special thanks to Paula Schumann, Puiwing Tam, and Dahlia Haddad. You can email us as always at hard fork n y times dot com or show up at one of our events and throw tomatoes at us.
+
+This break is brought to you by Adobe Creative Cloud, the ultimate creative toolkit. With over 20 apps at your fingertips, there are always new ways to explore your creativity. Transform images with Photoshop, design graphics with Illustrator, edit videos with Premiere Pro, or animate just about anything. No matter what you want to create, Adobe has the tools you need to bring your ideas to life. It's all in Creative Cloud.

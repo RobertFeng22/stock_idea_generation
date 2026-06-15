@@ -1,0 +1,327 @@
+Who has power against NVIDIA. We are in the capital intensive game, and we're with the most capitalized companies in the world. Our CapEx program this year is $2,025,000,000,000 dollars. Our competitors' hyperscalers have eight times bigger. In the next six months, the capital cannot help.
+
+Six months is too short time. You have what you have. You need to deliver. Consolidation. Yeah.
+
+I think the the main thread for Nebius as a business is the world will be too much consolidated. It's like a shark. You're alive when you move. Right? So we have to move.
+
+The AI infrastructure race is on. CapEx spend has never been greater. At the center of this, Nebius. Today, I'm joined by the cofounder of Nebius, a company that has scaled to a $66,000,000,000 market cap, going head to head with some of the largest hyperscalers in the world, Leo Aschenbrana, one of the most famous investors on the planet right now, has just made them one of his largest positions. Today, we uncover the AI infrastructure bubble and so much more with the cofounder of one of the hottest companies on the planet, Nebius, and I'm thrilled to welcome Ronan Chernan.
+
+But before we dive into the show today, you have the idea, but often with AI tools, you hit a wall. Well, Base 44 is where that friction disappears, turning how you talk into how you build. Full stack web and mobile apps, sites, autonomous super agents, all built in minutes, not weekend spent on damn configuration. Base 44 ships it all out of the box, the back end, the database, the authentication, and the hosting. It handles the heavy lifting, so you can just stay in the flow.
+
+It doesn't just replace the busy work. It multiplies you. It makes you so much more capable and effective version of yourself. In this market, being fast is the baseline, but to win, you gotta be first. And Base 44 is that edge.
+
+It's the move that lets you skip the troubleshooting and get straight to the breakthrough. Launch your next big thing at base44.com. That's base44.com. After base forty four helps you launch, Corgi helps you cover what comes next. Word, what an arresting first line.
+
+Get your ass covered with Corgi Insurance, and I'll tell you why. If you're running a business right now, you already know this pain all too well. Getting insurance, it's really slow, it's confusing, and my word, it's full of paperwork. Well, that's exactly why Corgi is here to change the game. Corgi is the first and only insurance carrier designed specifically for tech companies, allowing you to get covered in minutes instead of days.
+
+Corgi provides essential coverage for all growth stages such as DNO, E and O liability, cyber, commercial, general liability, and more. Get your ass covered. I love the way we say ass with Corgi Insurance alongside thousands of other startups at corgi.com/20vc today. That's corgi.com/20vc. You won't regret it.
+
+While Corgi handles the coverage, Turing handles the talent. Frontier Labs keep facing the same limitation. Models perform well on benchmarks, but they fall short once they enter real coding tasks, real tools, and real workflows. That disconnect between synthetic evaluation and actual system behavior is now a core block off for argentic models. That's why NVIDIA, Anthropix, Salesforce, Gemini, and other leading lab partners partner with Turing.
+
+Turing is the research accelerator focused on post training reliability. They build realistic RL environments, next generation data quality systems built from real world operational traces, and coding datasets that stress models under conditions where failures matter, state changes, workflow branching, brittle tool calls, and the coding errors that break RL agents but never appear in benchmark reports. In reality, a model may demonstrate correct reasoning in your evaluation setup, yet still select the wrong parameter or mishandle a code update in a realistic interface. Turing makes that failure visible and gives teams the signal they need to fix it. For labs advancing agentic systems, Turing provides the structure required to understand why these failures occur.
+
+To find out how, visit turing.com/20vc. That's turing.com/20vc. You have now arrived at your destination. Roman, I am so excited for this, dude. I think Nebius is one of the most unbelievable, incredible stories in terms of what we've seen over the past years.
+
+But also, like, holy shit. What an exciting few years we have ahead. So thank you so much for agreeing to see the show. Yeah. Thank you for inviting, and glad to be here.
+
+Now I would love to start with a question that I think is at the top of a lot of people's minds, which is, where are we at in the insertion point on AI infrastructure? A lot of people are seeing the capital going and going, oh, it's a bubble. And a lot of people are going, it's just the start. How do you think about the we're at an AI infrastructure bubble moment right now? No.
+
+I I I don't believe it's a bubble. Define the bubble. Do I believe that we will need tens or hundreds times more to build? I fairly believe. I probably biased.
+
+I would probably not being in the business that we are doing if I wouldn't believe. So I think that we are just at the beginning of this amazing moment when Jensen calls it like useful AI. And we just at the beginning of this kind of real adoption. And honestly, have maybe one use case that works out of so many of use cases. The one use case that works like coding, everybody's talking about coding, started working like maybe a few months ago just.
+
+Like, let's put it in the perspective. We just few months from the moment when we've got maybe first use case that works in the scale and we start seeing it's applying here and there, I think we'll see obviously many, many, many more use cases. We will see much more adoption. I think that what we see yet is if you take every single company in the world, maybe outside of the fastest moving startups before the show, we we were speaking with, like, who is moving fast enough or not fast enough. Right?
+
+So maybe there are some exceptions. But I think if you take any company in the world today and you will look at the AI adoption there, you will actually see that they start using AI in a first percents of the volume, in the first percents of the use cases. So if you take any large company, even pretty advanced technologically, you will see that they're just starting. And I'm taking from that that we're only beginning. Even if you don't believe in what Musk says about everything in the future space and so on, just practically from enterprise adoption.
+
+It's just the first steps. So we're we're completely aligned, but it's a very boring discussion if I just go, I agree with you on on everything. My my question to you on on the back of, hey. We've seen coding now work for the last, whatever, six to twelve months. Yes, but there is a question that we will move to open source models locally hosted because the cost will be too significant for some of these enterprises to burden, and we're gonna see that shift happen soon.
+
+If we do, that is both damaging to the providers, OpenAI and Anthropics of the world and to Anebius. Why is that perspective wrong? Yeah, so first of all, I think that it's not in the future, it's already in the present. Again, what we see in a lot of examples at the moment when our customer or the product builder gets to the scale, they start looking to the ways to improve the economics or accelerate the growth and so on. And this is the way when they a lot of them start to look to alternative models.
+
+So the best way to build today is obviously to build on the frontier models from great providers like OpenAI, Entropic, Google, because they actually provide and that's true. They provide you the best, best capabilities in the world. But then when you figure it out, the use case, when you start seeing adoption, when you see the customer data group, you maybe can find the cheaper or even not cheaper, but more quality, high quality way to serve the same use case. You don't need maybe you don't need the best in the world universal model, but you can create the specialized model that in your particular case will work even better. And that's the way where you may consider to shift from frontier closed models to open source.
+
+The most important kind of cause of those models is not just the open source, but they are tunable, they are trainable. So you can take them and you can do something, you can post train them, and you can create a specialized model that in your particular case may work better. So that's we see over the world, over the use cases. But why doesn't it hurt Anthropic and OpenAI? Because in reality, they move to the next frontier.
+
+And to the previous point that we discussed, there are so many unsolved tasks or the tasks that not necessarily have the limited budget to be solved. And every time we see, and we saw it like with DeepSeek one year ago and like we continuously seeing it now, every time we find the way to solve some tasks more efficient, we just start solving more complex tasks in the same time. This is like continuous journey, I believe. So you'll always push the frontier. You'll always have the more complex tasks to figure out how to solve.
+
+When you figure it out how to solve them, you can go down and reduce the price or improve, like, the quality, but we have so many unsolved tasks that Anthropics and Opening Ice and all other frontier models still have such a not addressed yet time, not addressed yet market that they continue kind of exponentially grow. Do you buy that? These companies are priced to perfection in a lot of cases at a trillion dollars. If the value that they create is eroded and they're constantly playing a game of leapfrogging from value to value to value while open source continuously eats behind them. You gotta find a lot of problems continuously, dude.
+
+That's a that's a hard life to live. Actually, most of the people are concerned on other side. Like, will we have a strong enough open source and strong enough specialized models environment to to build this floor? I think that we're yet at such a early point of adoption. We have so many unsolved problems yet that it's just the matter of the total pie.
+
+I think there is enough space to solve so many tasks in the future that it's enough pie for both frontier capabilities and very tuned models for specific use cases and all the world of these open source or specialized models that we can build on top of them to gain these economics advantages and performance advantages when we know what we need. You said that like every time we have the cheaper model, it hurts the business. And my favorite anecdotal story about that is, I think fifteen months ago or so, there was this deepsick moment, if you remember. I remember that Nebula stock went down 40% in one week or so in February I think it was February or March 2025. And anecdotal story, the same exact week, we probably had the best week in sales.
+
+People on the market were concerned that market is going down and, like, infrastructure companies like Nebios not needed because, okay, if AI is such so much cheaper, maybe it's bubble. But at the same time, we never had the best commercial week. We were pretty early in our story, but that was the best commercial week in the history of the company because so many people figured out that they can run inference in their production workloads with DeepSeq and economics will work. And then, like, at the at the same time, like, Kurzor started growing. I think they were the first who really benefited from tuning those models for coding and so on.
+
+Every time we got intelligence cheaper, the same unit of intelligence cheaper, we are not reducing the consumption, but we're increasing the consumption because we can just solve more complex tasks with the same budget, or we can finally economically viably solve the tasks that we already kind of knew that was solvable, but economics didn't work and we could not scale. So I think it's quite fascinating what's these economics improvements to observe. Speaking of kind of Jevan's paradox and producing more and that yielding more demand, where are you not moving fast today where you would like to be moving faster? Everywhere. So when we think about how we build the company, we talk about it in the four dimensions.
+
+One dimension is capacity. How much megawatts, gigawatts, and the GPUs we deploy. We are infrastructure company. We need to be large. If we are not large enough, nobody needs us to exist.
+
+This is the physical world expansion. The team is doing amazing job, but it's never enough. And you wanna move as fast as possible. And there are a lot of complications of the real world that prevent you to move fast enough sometimes. To launch new data center, you need to go through the entire supply chain and regulatory and fires and waters, everything that happens in the real world.
+
+So this is one dimension. Another dimension is the product. You want to move fast enough to address new types of the workloads, new types of the customers that coming to the market. Think about it. We started as a industry in this AI journey from the people who first of all built the models, right?
+
+So that was companies like OpenAI, in hyperscalers, large labs, and so on. And what they need from you as an infrastructure provider is barely compute, like just raw infrastructure. And we see a lot of these large bare metal deals on the market, and we also do them. But this is only the first layer of what we build. Scaled physical infrastructure that customers like Meta or Microsoft in our case can consume on large volumes.
+
+This is the first layer. The second layer is what we call multi tenant cloud. Still addressing research heavy teams, But now we have hundreds or thousands teams that they don't want to deal with the physical infrastructure. They want to deal with the managed infrastructure. Classical infrastructure as a service in the cloud terms.
+
+You have storage compute, networking, virtualized in a good environment with API observability, security, everything that normal teams expect cloud to have. You log in, you get your cluster provisioned, and you can start training or run inference if you need and manage your application or manage your workflow yourself, but have infrastructure figure it out for you. So still, if the first layer speaks in megawatts, literally, like, if you read announcements, someone signed a large deal with someone like Meta or Microsoft or OpenAI, people speak megawatts there. So it's like you deliver the megawatts of compute. Then when you speak about this managed cloud, people speak GPU hours because this is the key unit you sell, the efficient hours you can spend on compute.
+
+The storage, with complementary services, but you still buy managed by com but compute. Then the next layer that we working is managed inference. When people don't wanna go in terms of GPU hours, they don't wanna figure out V200s against H200s against B300s, what is better for particular workload. They don't want to manage the VLLM or SGLAN, deploy themselves, do all the optimizations. And here, our product called Nebio Stocking Factory, this is a managed inference platform.
+
+And again, this is the new type of the customers, mostly people who we call them vertical AI companies or enterprises. So people who actually build products, they don't do models. They build products on top of the and this is to your point of specialized open source models when they need to shift from Entropic, for example, or diversify the models they use for that. So again, this is the new primitive that we provide or the new kind of new entity that customers need. Now we speak in tokens.
+
+It's not you pay for GPRs, you consume tokens and you can build your applications, not thinking in terms of the clusters underneath. And this is where we sit now. But it's also, I think, not the final stage of where we're going because now people build agentic agentic applications, agentic workflows. And when you build end to end agent, you may not even think in terms of the particular model, and you may not think in terms of particular number of tokens that you want to generate. You want the end to end task to be efficiently executed and provide the expected outcome.
+
+And then the magic that platform can make is actually think for you which model better to use in this particular call. Do you need to go to the smarter model Or in the same inference budget, can request two models, lighter models, and get less smart tokens and then have the judge model that chooses the best result? Or what size of context you should have and so on. So this is the next layer when developer would maybe not even think in terms of particular types of the tokens, but thinks in terms of end to end execution of their task. So layer four is a direct competitor to OpenRooter.
+
+What we would love to bring on that level is this the same like what we do on the layers below is the optimization engine. You can build your agent in so many kind of open source or appropriate tools. But then when you need to scale it, you start thinking about the economics, you start thinking about reliability, reliable execution, like repeatable execution. And this is where it's not just model choice problem. It's not just outcome problem, but it's a system problem.
+
+You need to make it reliable, you need to make it repeatable, and you need to make it economically viable. And that's probably where Nebios could create the value the same way, like, we don't tell people how to build their applications. We just say, okay, if you need this model to work for you, like, with this economics, we will help you to optimize. The same here. If you need this edge and end to end run with this budget, with this quality, maybe we can help you to optimize it.
+
+And again, this is just to make it sure. It's a kind of a little bit speculative thinking about what's next. It's not like what we already have. But this is where we see our customers evolving and where we think that we could create the next layer of the product offering. I I love this, and I I have all of these notes.
+
+I just wanna actually go through the four pillars that you said there. You said number one, capacity. Yeah. If you had 10 x the capacity today, what would be different? Could you sell it overnight?
+
+Good question. Not overnight, but we would definitely we definitely have demand for that. And I think the key question for us, it's not do we have demand or not, but how we actually build the portfolio of demand. Because you have so many customers on this market that you can balance between. And again, to the point of four layers of the product, you can sell bare metal, you can sell managed customers, managed infrastructure, you can sell inference.
+
+And maybe in the future you can sell new layers of product. And I think what we try to do is to build quite diversified portfolio of customers. We believe that the higher stack we move, the more value potentially we can create for the customers. And actually, the higher stack we move, the bigger population of the customers we can serve. Because again, like on bare metal level, you have maybe dozen of the customers in the world that you can work with.
+
+On managed infrastructure, there are hundreds. On inference, there are thousands. On AgenTik, there will be tens of thousands of new developers that build it. Right? On the kind of customer portfolio, I love that for the capacity.
+
+You want to be big enough that you're meaningful, but not too large that the business relies on them. With that difficult awareness, where do you settle on what revenue concentration with a Meta or a Microsoft you're happy with? It's a great question. And I I would say it's a it's a main question of our business. I mean, not Nebios even, but the product category.
+
+And we always told it publicly and to our investors and to our customers that we believe that long term strategy of Nebios is to serve as much diversified portfolio as possible. So we we do the best to have many customers that we work with. We build the platform. If you, in reality, again, to serve dozen of the customers of the world and, like, of the level of Meta and Microsoft, which super advanced and they have their entire software stack, they literally need only physical infrastructure. They bring everything they have deployed on your infrastructure and run.
+
+Right? You have a tiny, tiny additional value that you can provide them above physical infrastructure. By the way, to satisfy them with what they need on physical infrastructure is quite a challenge because you can imagine they are quite demanding and they need the the most scaled infrastructure in the world that exists. So sometimes people say it's commodity, but it's not really commodity on that scale, like nothing commodity when it comes to the to the real scale. But again, to your point, this is quite a small population of the customers that you can work with, and you not necessarily need all the full stack software to work with them.
+
+So we intentionally building, and from day zero of Nebios, we were building this software stack because we thought that it's a much more beneficial for us. And if I wanna be pathetic for the world to have someone who can support customers not only on this physical infrastructure layer, but beyond. For the long term protection of the business, do you not have to build the full stack? Otherwise, you become the capacity provider to these mega players, which will make a shit ton of money. But you're incredibly concentrated and very vertically focused.
+
+Yeah. I I think so. And, again, we don't know where the world will end up. And in the world of infinite demand, you may sustain even long term or midterm selling this Holbermetal kind of contracts. But the more competition, let's say, you have from the customer from demand side, you can be picky even with the customers you you work with and work with the customers that that value the platform that we built more.
+
+And there are different customers in the world. Someone more obsessed about the price. Someone more obsessed about the quality, someone really want to have much more advanced platform because they want to concentrate, focus on their platform or product and don't spend time on it. Yeah. Before we move to number two being product, just staying on capacity, given the insufficient supply of capacity today, if you doubled pricing, would you see any change to demand?
+
+It's a difficult question. We actually raised prices just 30%. Yeah, just couple months ago. And we still have fair pipeline pressure, let's say, on supply. And again, we don't really know where is the balance.
+
+And I will tell you why. It's not only us being greedy and want to get, like, as much money and, like, then people in the shortage will still have to pay. For some extent, it works. Like, people needs compute to build. But then there is a point, and especially it's less than in training because in training it's like one off cost.
+
+But if you believe that we're moving to inference and inference is the cost of serving the customer, There is a level where economics doesn't work. And the economics of the products of our customers, if they work, they can grow and then we can grow with them. It's not like just supply demand situation and then absolutely elastic prices. They are elastic for some extent, but we also want to be meaningful and we wanna be thoughtful kind of what our customers need. And by the way, it's not only GPU hour cost, It's all the optimizations you do, all the real, we call it TCO, total cost of ownership that you like.
+
+And this is partially why we build this software platform. And I'm sorry, come back to product again and again. You wanna speak about capacity, but people too much obsessed about capacity, like capacity is a potent, too much obsessed about the nominal price of capacity. You can price GPU $3 $4 and $5 depending on the use case and depending on the quality of the platform, it can create completely different outcomes for the customer in the real cost. How long it works?
+
+Like, what is the effective uninterrupted time that you can run there? If you talk about inference, how much tokens you can extract? We see all these optimizations that happening that changes the price of the tokens in order of magnitude. So people so much speak about the cost of particular GPU, but if you do the right thing with the model, you can change the price like in the times. And this all should work together as a system, not just as a again, if you speak about role infrastructure, then you can manage only the price.
+
+But if you if you build a platform and if you provide the high level of the service to the customer, then you can extract much more economics, not only from the infrastructure, cost structure. Right? If if we move to that second layer then, if we move away slightly from capacity to GPU hours, the product itself, multi tenant, what is the main question that you ask yourself within that segment? If in the first capacity, it's how much revenue concentration we have, what is the big question in that layer of value? What customer needs?
+
+You know, you speak with a lot of product founders, and this is the same, what customer needs at the end of the day. How customers evolve in their needs, where is the demand moving. So it's like we see all this transition from training to inference. We see transition from just using the models to building agents. And we see the transition from mostly AI labs consuming AI compute to enterprises coming in the game.
+
+And all the time, if we want to be relevant, we need to follow the changes. And this is the main question which we ask us in the in the product. What customer needs and what is Nebios? What is our value that we need to create? Because, again, we are a small company.
+
+We cannot build everything, and we need to be very precise on what we can do better than others and where the value that we should focus on given how customers evolving. What changes are you seeing in customer needs that you're not seeing discussed much in public? Everybody's talking about this moving from training to inference. I think it's just very 100,000 feet like view, because this move means actually people build specific products. And in those products, they have their economics, they have their trajectory of growth.
+
+And it's not just like whatever. The same GPU is just used for other purposes. I think it brings the new requirements. You need to build your inference platform. You need to help your customers not only run inference, but where the model that the inference come from.
+
+Everybody is taking open source models and fine tune or URL them. So how do we help them? And then when they run them, they generate a lot of data. How do we help our customers, like when they already run their application, their inference to collect the data, to create it, and then use it to improve the model or the application that they run. So people like this flywheel analogy, like you run inference, you generate data, you can observe this data, then you can improve the model that you run and kind of continue improve the quality of the end product.
+
+So I think there are a lot of pieces, both on system level and both on AI magic level, if you want. And I think the the most fascinating moment for me is that I think what we see is that barrier to build is going down. So we see more and more customers like builders coming to the market that not necessarily AI researchers or not necessarily inference engineers. And the value that companies like Nebios can create is actually to lower the barrier to build AI enabled products and AI enabled applications that really work and incorporate like hide from the developer, all the complexity of infrastructure, some complexity of AI, like how you tune the model or how you optimize the inference. It's a lot like research heavy area as well.
+
+And just let people focus on their customers and use case. By the way, the same way like they do with closed ecosystems, like Controbix OpenAI's. You mentioned the word differentiation. And one thing that I was discussing with my partner before that we have is a thing we have to discuss, and it's within these layers. But you've spoken extensively about product build out and the importance of building the product underneath capacity.
+
+When people look at you versus other neo clouds, we look at you versus a CoreWeave, you both run GPUs, you both have NVIDIA relationships, you both have Matter as a customer. What's the difference? I don't, like, compare with others, but the principles we build are full stack. We call it full stack integration. And you you can think about it like full stack down and full stack up.
+
+Full stack down is we are really deep in physical world. We build data centers. We build racks and servers. We build the platform. And when you control these things downstream, you can move faster and you can squeeze more cost and provide more economically viable solutions for the customers.
+
+And then your vertical integration upstream is actually what we spoke about, like product and how can you follow the customer's needs and customer segments and not be limited by the small population of the people that just need infrastructure, but really serve kind of enterprises and product companies with, like meet them where they need us. And this is like, I think what we different. And then how it showing up, would say, is again, less concentration in the business, more diversified customer portfolio. We believe long term better positioning for going to enterprises where we believe eventually a lot of demand will come from. Again, now most of our segment is working.
+
+It's AI natives working with AI natives. But we have a huge market of enterprises, existing companies, and someone needs to serve them. They will not buy raw compute. They will need platforms. They will need tools.
+
+They will need us to respect their legacy and being able to work with their more complex environment. They are not nimble. They have data to migrate. They have systems to integrate. And that's the big game.
+
+And I think that for us, it's kind of the main direction to move. You mentioned the third layer of the four pillared stack being managed inference. For people that don't understand, how do you think about this layer, and how would you explain it to them? Yeah. Very simple.
+
+You built your product on whatever, call your where you wipe code. I'm actually an OpenAI and a code expert. Okay. Good enough. You built your great products with OpenAI.
+
+You cracked the use case, and you started growing and you have amazing traction. The only problem may be you don't have enough margin or you want to start applying more aggressively the data and tune the the behavior of the model, you cannot do it in the closed ecosystem. So you go to Internet and you read, there are a lot of great open source models that on the benchmarks are closed to OpenAI. And you think, oh, great, it will be 10 times cheaper, inference is cheaper. I can tune those models.
+
+I can apply my data, and my product will be better. My growth will accelerate. So you go, you you take the weights from Hugging Face. You take some engine to run it, like VLLM, SGLANK, something, and then it doesn't work because you need to to really extract the value you expect. You need to do, like, optimizations.
+
+You need to deploy it in the proper way. You need not just one GPU tokens extraction or one host setting, but you you are the large product. You run on hundreds of thousands GPUs already. You need all the orchestration. You need the caching.
+
+You need the observability. Like, your customers ask you, like, how does it work? And so on and so forth. And by the way, you had all of that on OpenAI because this is, the production service for you. You don't think about infrastructure when you work with OpenAI.
+
+Just subscribe for the plan you need, and you pay for whatever. End result. And so that's where you need the product like Token Factory. Token Factory gives you the managed inference with the open source or specialized models. You can run existing open source, vanilla open source model, or you can tune the model and deploy your own, like, weights.
+
+And then we'll take care about all the rest. We'll apply all the optimization techniques. We'll manage the better economics for you. It will be reliable. You don't need to think about the next 100 GPUs where you will find them.
+
+It's like managed service. With Token Factory, you run on 60 open source models. And you said before about cutting inference cost by up to 70% through optimization. Can I ask a dumb question, which is how do you actually make a token cheaper? Yeah.
+
+So it's not a magic game. You take the model, the like, some baseline model, and then you can optimize it for particular scenarios that you have. So you can actually, you can distill the model. You can make the like, the smaller model that works with the same quality. You can do spec decoding.
+
+You can optimize caching and so on and forth. So you you take the model, and out of this model, you actually build the system that in your particular case works with your your requirements with optimized economics. And by the way, one of the things that also I think important for customers to use managed platforms like Token Factory, the models are changing. Every week, every month, like right today, MiniMax three was released, and there is Nematron Ultra that was announced. This happens every few weeks.
+
+And every time the new model released, it may work better on some benchmarks and maybe not on other benchmarks and so on. And you want to have flexibility. You want someone to support you on experimenting and actually adopting the new best models for your use case every time they come online. And then like the platforms like ours, abstracts from you all the work that you need to do to actually change from one model to another, to benchmark all of them and so on. You can be sure that you will be on the frontier.
+
+Every time something new is happening, it will be in the platform. You will be able to test it. You if it works better for your use case, you will be able to switch, and it all will be kind of smooth and transparent for you. Does the pace of model development sustain? Like you said that, I would argue respectfully, you said every couple of weeks.
+
+I'd say every couple of days. Does that sustain? In five years' time, are we seeing that level of iteration? Well, I don't know. I think that it's a good chances that we will continue to see a lot of niche models show up and improved.
+
+I don't know. Again, I'm a believer that we're quite far from the wall and we will see a lot of models improvement happening. I think that what we also see is much more new modalities and specialized models coming in game. So we speak about this frontier LLMs, but there is entire world of life science models, robotics, world models, video models, image models. They all have their own use cases as well.
+
+And we see more and more small specialized models, particular use cases coming with, like, very much optimized. Just this morning, I spoke with a team here in Israel that develops cyber defense foundational model, like the model that optimized for to build cyber defense agents. And again, they don't start from the scratch. They take some of the open source foundational model, but then they they train it for the particular case, optimized for the quality and the latency that needed in this, like, cyber defense use cases. And I think we'll continue to see it.
+
+We'll see a lot of specialized, both both trained models that still need optimized inference and optimized, like, infrastructure around them to let customer use them. On token costs and token usage, what are you seeing that you don't think other people are talking about enough? What has shocked you recently? Again, I I think everybody is speaking the same thing, like how fast it's growing. When we see these trajectories of some companies like Entropic and Corsair and Cognition and coding, and now we see start seeing in other verticals as well, some health care examples, financial use cases, I think I think it's, like, quite amazing.
+
+What's interesting is to see how, like, non AI startups are moving. So we I I can give an example. We we have the customer of Revolut. And when we started working with them, I think 99% of their budget, inference budget, was in closed models, in OpenAI. And they started to crack some of the use cases, and some of them didn't work for them economically.
+
+So they practically couldn't replace the humans or cannot enhance the humans in the use cases they wanted to address. And they started moving to open source models, but it didn't move fast for them because they had to spend time on building the entire engine internally in the company. And first of all, they were focusing on evaluations. And I think this is something that people underestimate how important to build kind of the foundation for improvements and experimentation engine when you understand as a company, as a team, what is good you. Because, again, like, you close some use case, it works.
+
+But then you want to change the model. How do you know you you don't ruin the quality? You need to have, like, metrics. You need to have a valve mechanism. You have you need to have this CICD process established for AI development.
+
+And I think that what we see a lot of customers are like Revolut. They have these foundational investments that need to do in the understanding of how to evolve the models, how to actually safely integrate them in their production processes. But when they solved these foundational problems, they start growing exponentially. And I wouldn't underestimate how fast those customers can grow when they build the system that led them ship fast. And ship fast means they know how to evolve, they know how to make decisions.
+
+And this is something that we see across a lot of customers. They have this, you can call it foundational investments or cold start problem, how to start shipping. When they solve it, they start to grow exponentially. And they can use different models. They can build much more products inside the company and so on and so forth.
+
+And I think this is this is something that when you look from outside, you kind of, oh, they are not growing. They start small. They take time and so on. But this is if the company has a strong team, they build this foundation and then they start growing exponentially. And I think we'll see a lot of explosive growth in enterprises, the digital, like in the cloud native companies like Revolut, Shopify, Prosus, booking.com.
+
+When they solve this cold start problem, they build the system how to ship, and then they will grow, like, in their AI adoption like crazy. How much more do you think Revolut will pay you in three years' time? I don't know. I don't know. No.
+
+I don't wanna speak about it. No. But I I can say that they in total, I think they, like, they grow like this. We all see the CI companies reporting IRR growth. Right?
+
+For them, it's not IRR. It's like their budget. But I think that the most advanced companies, their AI budget, and it's not like this fake all this stockimaxing race. We see it, like, how they do it in the production workload. So they they grow the same pace like this AI native companies reporting they are growing their AI consumption equal to their IRR.
+
+So the companies like Revolut, they're growing the same exponential trajectory. I always push back on people who claim that open source would be a credible threat to the largest model providers because I said, listen, the biggest enterprises want reliability. They want security. And most of all, want ease. They don't wanna be tinkering around with all the architecture and shit beneath the surface.
+
+What you're telling me is you're able to be all of that to allow them to pipe away from those providers and have a cheaper, better experience because you take away the plumbing. Yes. But my point is closed models with open source models, it's not about, like, reliable or not reliable. Again, the work of the companies like Nebios to make possible, like, as you say, not think about plumbing if you want to use alternative models. But I think it's about capabilities.
+
+I think that closed source models like frontier models are great, and they will become even better. And they will solve so many problems that we don't solve yet. And we have such a diversity of the use cases we wanna solve that there will be market for the smartest models of the world, the fastest models of the world, the in between models of the world, smart enough but cheap enough. And you as a customer will be able to just pick the right the right source of token for each particular task. And back to the agentic layer point, maybe it's even want to be the customer task to choose the which model to call now.
+
+It will be the engine that knows all the capabilities, like all the models underneath. And then when you go to OpenAI and you do the research, you don't think in terms of how many loops you want it to make. You don't think in terms when it should go to LLM and when it should go to search. You don't think should it now call which prompt to call. Right?
+
+It's it's happening. You give a task, there is an engine, the reasoning engine that decides how to run this task and you got the result. So I think that a lot of enterprise cases, a lot of these gigantic tasks will be solved in the same way. When it's not you as a developer that focusing on customer need, we'll need to kind of orchestrate all these tokens and models. And then we will need all the models, the smartest one for the most complex intelligence and the fast models that can do quick iterations.
+
+And, we don't speak even about all the modalities and, like, what we'll need in the physical AI world and so on. So I think, again, my point, we will have enough of pie for different models. And what we need to do as a infrastructure company is just help for extent we can to make developers comfortable how they use all these capabilities that models provides. Because as you as you rightly said, it's not about model capabilities. It's not only about model capabilities.
+
+It's about, like, not plumbing, getting them working, getting them optimized, getting them reliable. When we look at the explosion of models and the specialization of models, like you said there, and how many will be built and the depth across different use cases, sadly, the one thing that is quite clear is that Europe does not have anywhere near the model build out that we've seen both in The US and in China. How important do you think it is that nations have their own sovereign models? It's a good question. But looks like the world is divided.
+
+We may not like it. Having good enough foundational models available for the big parts of the world is important. And I think here in Europe, we should think how we have enough capabilities available here. We had a lot of conversations over the last couple of years in, like, about the sovereignty and so on, all of this, like, so sovereign AI agenda. And I think it was too much concentrated around, like, megawatt and power rather than on what we have on the builders layer.
+
+Right? Megawatts will come. I think that it's what what we in Nebios always told is we will build infrastructure. The companies like us will build infrastructure if we have demand, and demand is coming from the builders. What we need to care about here is to have more great companies like Lovables, Black Forest Labs, Mistras of the world.
+
+And we have enough people that invest in research, have enough people that invest in the products, and then they will create enough of demand, and there will be enough of flywheel again to have a good enough models if we need. So I think this is something that, like, we should care about. What is the most interesting area to invest today? Okay. I'm giving you four options.
+
+Infrastructure, horizontal model, vertical model, application layer. I mean, we built infrastructure, so we are quite happy here. I think it's a good place to be in the current world, even though we we for some extent, we are building kind of the easiest part. Not it's complex execution, but we kinda know what's needed, and our customers help us to understand what's needed. I think the most amazing people in this industry are those who take a risk to go and build end user products, in my view.
+
+They actually drive the most of growth here. People who take a risk, like the real risk of building something people would need or not need, I think this is the most the heroes of our, like, AI journey. Speaking of heroes of AI journeys, before I do a show, I go and speak to I'm very fortunate now. You mentioned earlier, I've interviewed some some big people. I go and speak to some of those big people.
+
+A theme that did come up when I was speaking to them was the relationship with NVIDIA. And is a marriage a marriage if one has more power than the other? How do you think about the the power dynamics in a relationship with NVIDIA when they have so much power? Who has power against NVIDIA? We look at this in a very simple manner.
+
+We just need to build what we build. We need to build our product. We need to tell our story, and then the rest will complement it. I think what is the most fascinating NVIDIA is still, for big extent, an engineers driven company. And I think the best thing you can do to get respect from NVIDIA it's my read.
+
+They may have a different point of view. But if engineers in NVIDIA respect your engineers, you will have the right foundation for relations, let's say. We managed to prove again and again, we know what we build, and we have a strong engineering team. And I think that they see it and they respect it. And we have a lot of, like, engineers to engineers relations on physical like, on a on a hardware level, on the software layer, on the inference platform layer.
+
+And the better engineers than NVIDIA think about you, the better relations and partnership I think it enables. And, and, again, we may be we may be wrong thinking this way, but that that's what we see, like, we can do. And we just focus on being reasonable and being kind of focused on the long term value. It sounds like fluffy. Everybody say it.
+
+But do your fucking job at the at the end of the day. Right? I'm gonna I'm gonna title this Roman. Just do your fucking job. No.
+
+What what else we could do? I mean, we are in such a race. We just can do we we can do the best to do our work better. Do your fucking job. I Joe, so I know it's funny.
+
+I I like it. But, like, what's the hardest part of just doing your fucking job today? Four dimensions, build scale, build product, work with customers. It's actually like two dimensions we discussed, like scale and product. The thought is customers.
+
+We are in the field business. We we like to say that cloud is post sales business. When you sell, you sell the promise. And then the customer, you need to satisfy the customer. And working with the customers, covering the customers, having this strong customer facing engineering team, FDE team, this is the third dimension.
+
+Go talk to your customers. Make sure that they know you, that you know them. This is the third dimension. And the fourth, the most boring, but also the most exciting is the capital. We are in the capital intensive game, and we're competing with the most capitalized companies in the world.
+
+If if I gave you unlimited budget, what would you do differently? Build faster. That's very easy. Build what faster? Data centers and fulfill them with GPUs, like just build faster.
+
+Our CapEx program this year is $2,025,000,000,000 dollars. Our competitors' hyperscalers have 10 times, like eight times bigger. If I would have 10 times bigger capital, I would just build more data centers and fulfill them with GPUs faster and serve more customers. That's what we started with. Like, what would I do if I had like 10 times more supply?
+
+I would move faster. Gavin Baker said, I think quite intelligently that permitting and regulation and the delayed build out of data centers has actually helped. Because if I enabled you to build 10X the data centers today, it would actually create the glut. Yeah, it's it's actually a great question. And and like our investors sometimes ask us, like, what is the main bottleneck?
+
+And the main bottleneck, again, it's everything. You need to look at this from the time time spent perspective. In the next six months, the capital cannot help. Six months is too short time. You have what you have, you need to deliver.
+
+Then in the next twelve months, you can accelerate something, but it's more like capacity constraints. And in the next twelve months, we can accelerate with the capital or with execution something. But then in twenty four months, you definitely can unlock so many things. We are not building one data center. It's also important to understand.
+
+We are building the portfolio, the portfolio of capacity. The more execution power we have, the more capital we have, we can do the things in parallel. That's why we do how we do. We secure power and land, then we build data centers, then we fulfill them with GPUs. Every next stage requires more capital, but we do as much as possible in advance to make sure that when we will be on the next stage, we already have power secured.
+
+When we will have enough capital to deploy in GPUs, we will have data centers that up and running. So it's like phases of investments. And again, the bottlenecks are different on the different time spent perspective. So obviously, if you have more capital, you can move faster. Not in the six months, but in the well, whatever, eighteen, twenty four months for sure.
+
+Can I ask you, when you think about the the the data center build out there, we're seeing more and more public angst towards AI? Eric Schmidt's getting booed off stage, not because of the content, but because of the AI inventions. And we're seeing like public resentment towards data centers. I think 40 out of a 100 now are not being built when they go through planning and approvals. How do you think about and reflect on that internally?
+
+This is the environment we need to work in. There are two sides of the thing. One is how we think pragmatically as a business. That's what I said. We think about it as a portfolio of the projects.
+
+We need to make sure that we are oversubscribed. And if one data center will be delayed, we will still deliver enough capacity to our customers. And most of the customers, they are not locked in one physical location. They just it's a cloud. We can build in different places and then bring the workloads where we have capacity.
+
+But this is the pragmatical side of the things. Then what we obviously see that communities and the local authorities require the companies like us to work closely with them and explain and show what we do and work with them on their concerns and like address them. So this is the reality. You can compare it when Uber started growing. And in many places, there was the pushback.
+
+Right? So, oh, what's happening? It's something new. We it's moving too fast. We didn't didn't expect it to move so fast and so on.
+
+And you go and work and you explain, and it's just a part of your duty to engage and work with the new communities that become dependent on you. They have concerns. And sometimes they just they have concerns because they're not educated enough. Sometimes they have rational concerns that you can address. And the same, do your job.
+
+Do you think you've done a good job at it so far? We come from the place where we we we always we always think that we didn't do enough. I think that we've got quite a progress in the places where we started building. Historically, we had more experience in Europe. We now probably 7075% of the new capacity that we built midterm is in The US.
+
+So we built a lot of presence on the ground and in like, to communicate with those local communities in US. And we try to do the best job here. We need to do better always, but we are moving. Can you help me on another one? We laughed earlier when we said about space.
+
+Data centers on planet Earth is a very difficult logistical build out. Data centers in space? I love technology. I'm an optimist. Is that fucking nuts?
+
+I think everything we see is fucking nuts. My view is very simple. So many smart people now working to make it happen. So most likely, I may be less pessimistic that we'll see I I don't know what is there. We'll build more in space than in on the Earth in three years.
+
+Maybe not in three years. My view, I'm humble enough to say that so many smart people are trying to solve this task and bring compute to the space that why wouldn't I believe it will happen? And I think there are a lot of challenges still, a lot of things to figure out. But if someone would say us that even three years ago that we will build, like, multi gigawatt data centers, It will be, like, large interconnected compute clusters. Would you believe?
+
+I I didn't think like that. We are here. It's it's routine. I wanna do a quick fire with you. So I say a short statement.
+
+You give me your immediate thoughts. What job does not exist today that you think will be very common in five years' time? Space data centers technicians? No. Probably it will be robots.
+
+So on a serious note, one thing that's obviously happening is we're democratizing what people called being developer. Right? Now each of us can be a developer. And, like, what what I mean being developer is to convert the idea in some digital asset. I hope that this democratizing of building, letting each of us being builder, will open up so many opportunities and, like, that we even don't imagine yet when we will give, like, millions of new people, tens of millions of new people's ability just to convert their idea into something that works very easily.
+
+We will see a lot of new businesses and a lot of new ideas just coming in life, and they will create a lot of new works that we don't even think exist. So it's like second second orbital of all this kind of democratizing of the building. Also, what is challenging and what will need to be changed? And I think it's like as risk as an opportunity as how the education will change. Because now when everybody has access to intelligence, what should people learn?
+
+You definitely don't need them to learn the facts. Everything is available. Like, all the knowledge is kind of available. Like, how do you really, train people to think when they don't need to think so much? How to teach people to to continuously change, like many professions will be not stable.
+
+How do you help people to find themselves in the changing environment, think, and learn the new concepts constantly? This is something that very like, a lot of gives a lot of new opportunities, but also, like, creates a lot of risks. You you mentioned, you know, you have two teenage daughters. What do you advise them entering the workforce in the next ten years? What what do you advise them?
+
+What I literally tell them is I think two things will be needed. I don't know what will be needed, but I'm sure that two things will be needed. One is, like, being able to communicate with the people within party, with the empathic communications. So, like, understand humans, communicate with humans and being empathic. And the second is creativity.
+
+All the the art. I hope that that art in a way will be will exist. So all the hard skills that I thought ten years ago will be needed, I thought that the most important thing they need to learn is math and engineering. Now I'm far from this belief, and I'm quite happy they're much more in the soft skills than I was when I was a kid. Being able to communicate with humans, understand the humans, be empathic to the humans, and have this creativity idea, like being able to try new things and, like, be creative.
+
+I think these two, if you can help your kids to develop those, I think they will in ten years, they will be in demand. There's a question of how do you teach creativity. But I completely agree with you. Finish this sentence. The biggest threat to Nabios is not competition, but dot .dot.
+
+But consolidation. Yeah. I think that the main thread for Nebios as a business is the world will be too much consolidated. We try to be diversified. Like, we try to solve, like, problems of different customers and have different customers and different players.
+
+If you'll end up in the world where, I don't know, three, five supermodels, super companies, super empires control the world, then Nebios or companies like Nebios will be needed only to help them maybe serve their needs on physical layer. So I think that the in general, the consolidation is our main the the the the more world democratized, the more world diversified, the more we need as a business. You think that's likely? We're seeing the concentration of value to fewer and fewer players. We're seeing the opposite of diversification.
+
+I I hope it will not happen. As a business, I think that it's better for us as humans as well, for you and me. The world remain quite diversified in a different manners, and I'm optimistic here. I think that there are so many people that want to build something independently, let's say. Like, there is a lot of people with the need to try things and build new things that it's organically creates this pressure and organically creates more diversified world.
+
+So hopefully, we'll will remain. Penultimate one. Leo Ashenbrenner is a famous investor right now, has huge cult following. He recently disclosed a very large position for him, 5.3% of the company. I think it's 15% of his portfolio.
+
+How do you guys sit internally? Are you like, yeah. Go, Leo. Oh, yeah. Like, I I would lie if you I I wouldn't say that we didn't notice it.
+
+Obviously, like, everybody noticed it and, like, the the stock jumped and, like, it was a big news around. We take it as a justification of what we do. Then you you got this justification. You say yourself, okay. Those people still you they give you a credit that you will execute.
+
+I I I come back again and again to what we do is post sale business. Every time we sign a deal, every time someone invests in us, they give us a credit and opportunity to deliver, but to then go back to your job and deliver. And I think that we are in such a market where emotional market as well that you should keep yourself down to the ground. Remember that all this growth, all these credits that customers give you, it's opportunity to deliver and go do your job. You're such an Israeli.
+
+Americans would be like, yeah. Go. You're like, no. I I I think I'm Russian in this way. Like, Russians always know that you need to look in the very pragmatically, pragmatically and, you know, Russians always with this, like, faces and always expect something will happen.
+
+You need to be ready. You need to be ready. So it's really important part that comes from our CEO also and founder, Kadi. You wake up and it's a new customer, new day, you need to deliver. Nothing is guaranteed.
+
+Just you need to concentrate on the work. And I know how much efforts team is putting on things to work and how much depends on everyday's dedication and how fast market is moving. And to stay relevant, you need to continue moving in the same pace or try to move in the same pace with the market. And I think that on a romantic note, I I would say that we could celebrate a little bit more, but we just don't have time. To use the opportunity, actually, to say kudos to the team, I don't think we celebrate enough.
+
+And I I I think that I think it's right we are not relaxed, but I think we could celebrate a little bit more. Just give the team, like, more more respect and, like, how much is done. And it was not easy, and it's still not easy, and it will not be easy. But, yeah, never stop. We we cannot stop.
+
+Like, it's like a shark. You're alive when you move. Right? So this famous thing. So we have to move.
+
+On that note, I cannot thank you enough for joining me and for putting up with my very meandering questions. You've been fantastic, Roman. So really huge thank you. Thank you, and, too kind to me. But before we leave you today, you have the idea, but often with AI tools, you hit a wall.
+
+Well, Base 44 is where that friction disappears, turning how you talk into how you build. Full stack web and mobile apps, sites, autonomous super agents, all built in minutes, not weekends spent on damn configuration. Base 44 ships it all out of the box. The back end, the database, the authentication, and the hosting. It handles the heavy lifting, so you can just stay in the flow.
+
+It doesn't just replace the busy work. It multiplies you. It makes you so much more capable and effective version of yourself. In this market, being fast is the baseline. But to win, you gotta be first.
+
+And Base 44 is that edge. It's the move that lets you skip the troubleshooting and get straight to the breakthrough. Launch your next big thing at base44.com. That's base44.com. After base forty four helps you launch, Corgi helps you cover what comes next.
+
+My word, what an arresting first line. Get your ass covered with Corgi Insurance. I'll tell you why. If you're running a business right now, you already know this pain all too well. Getting insurance, it's really slow, it's confusing, and my word, it's full of paperwork.
+
+Well, that's exactly why Corgi is here to change the game. Corgi is the first and only insurance carrier designed specifically for tech companies, allowing you to get covered in minutes instead of days. Corgi provides essential coverages for all growth stages, such as DNO, liability, cyber, commercial, general liability, and more. Get your ass covered. I love the way we say ass with Corgi Insurance alongside thousands of other startups at corgi.com/20vc today.
+
+That's corgi.com/20vc. You won't regret it. While corgi handles the coverage, Turing handles the talent. Frontier Labs keep facing the same limitation. Models perform well on benchmarks, but they fall short once they enter real coding tasks, real tools, and real workflows.
+
+That disconnect between synthetic evaluation and actual system behavior is now a core block off for argentic models. That's why NVIDIA, Anthropic, Salesforce, Gemini, and other leading lab partners partner with Turing. Turing is the research accelerator focused on post training reliability. They build realistic RL environments, next generation data quality systems built from real world operational traces, and coding datasets that stress models under conditions where failures matter, state changes, workflow branching, brittle tool calls, and the coding errors that break RL agents but never appear in benchmark reports. In reality, a model may demonstrate correct reasoning in your setup, yet still select the wrong parameter or mishandle a code update in a realistic interface.
+
+Turing makes that failure visible and gives teams the signal they need to fix it. For labs advancing agentic systems, Turing provides structure required to understand why these failures occur. To find out how, visit turing.com/20vc. That's turing.com/20vc.

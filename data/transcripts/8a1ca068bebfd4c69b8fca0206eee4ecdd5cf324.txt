@@ -1,0 +1,441 @@
+I think we're all pretty AI pilled and if you're AI pilled that means we got to build a lot more compute than the world thinks and that these models are going to be a lot more valuable than people think. You combine that with their core business, I don't know another entrepreneur or another business that's a better bet on the future than SpaceX. And so I think for most institutional investors it's a must buy, a must own is set it and forget it in order to have a real bet on both the space and the AI future. All right, here we go. Early morning, Silicon Valley.
+
+BG two is back. We're chopping it up on all things tech and markets. To do that, have none other than GB in the house, Gavin Baker from Atriti's. He's brought his main guy, Andrew Fox. And of course, I had to draft Clark Tang into the mix, my partner, to talk about some of the big questions of the day.
+
+You know, how should we be thinking about the SpaceX IPO? You know, what are the big levers? There are big numbers out there for what's going to happen over the course of the next few years. So let's break that down a bit, help simplify it for folks. Mythos launched yesterday.
+
+I want to talk a little bit about like who's up, who's down in the race for super intelligence. Where are we? What did we learn with the Mythos launch? And Clark was in Taiwan last week with Jensen at Computex and GTC. So what was our takeaway there?
+
+What's going on with GPUs, memory? Where are the bottlenecks? And where do we go from here? To start everything off, you know, maybe just kick it over to you, Gavin, talking about the SpaceX IPO. The IPO is in two days.
+
+You're a big shareholder. Congratulations. We're also a shareholder. You know, we also expect to be buying in the IPO. The Wall Street Journal's reporting.
+
+You know, the Goldman Sachs are both saying 160,000,000,000 in revenue in 2028. We know that the IPO is $135 a share, 1,770,000,000,000. So when we think about kind of what the big levers are, there's so many moving parts in this IPO. Nobody's better than you at just breaking it down, simplifying it. What are the key levers that we ought to be thinking about that you're thinking about over the course of the next few years?
+
+Sure. So great to be here. Thank you for having me. I thought we were gonna call it BGGB, but we can stick with BG2. I'm in your house.
+
+Hey. Hey. That's revision. That's okay. That's okay.
+
+So I think there's two big levers or variables that I think people should focus on. And, you know, I'm not going to comment on where I think those variables go. But one is, you guys have this chart. Did you post this on X? I did before, and then we also included a new addition with XAI's new deals as well.
+
+Yeah. Yeah. So Clark, who I've known for many years, did a great analysis here, and he shows that xAI's deal with Google for cloud computing generates more operating profit per gigawatt than Anthropic, than Meta, than Google, than OpenAI. Their deal actually with Anthropic also generates probably more operating profit than anyone but Anthropic. And so your colleague at Altimeter Freida, she also calculated a 55% IRR on Colossus I.
+
+If you can borrow money at 6%, 78% and invest in something with a 55% IRR, I'm not the most sophisticated thinker, but that math maths. And so I think the most important variable, one of the two most important, is how quickly they bring on terrestrial data centers. We do know from Jensen that Elon brings data centers up faster than anyone, one hundred and twenty two days. Speed is literally cost, because every day you're paying electricians and plumbers, that's cost. And they're now monetizing them at arguably the highest rate.
+
+And so I think everybody should run their own math on that, but that is a massive variable. Yes. Truly massive variable. The second thing is, you know, we have a chart, and it's wildly out of date now. It's kind of freaking amazing.
+
+This chart is, I think, is this chart from ten days ago? But in like the ten or twelve days since this chart, since we made this chart, which shows the Pareto curves for Opus 4.7 for coding, for Codex from OpenAI, and now we've had Opus 4.8. It was already out of date. And now we have Fable and Mythos. Totally.
+
+Is freaking wild. In ten days, we would have had to update the chart twice. Right. But what the Pareto curve shows is how much intelligence you can get for a given amount of cost. And I do think all revenue will accrue to the Pareto curve.
+
+All at least kind of frontier model revenue will accrue to the Pareto curve. And this is Pareto curve for coding. And what I think is so impressive is that you could see in the chart that Composer two was Pareto dominant, at the lowest level of intelligence, with very little training. Conditions reflect, and I know you know Kurser well. I think you know Kurser shitload better than I do, a vast amount better than I do.
+
+But my understanding is that Cursor and Anthropic have more tokens of proprietary coding data than anyone else, and each have more tokens of proprietary coding data than exist on the public internet. And so they fed, cursor fed, used KimiK. 25, used their own private data, did some RL, some supervised fine tuning, and they got a really good model. And then they spent three weeks in the Colossus II cluster, and they got a model that twelve days ago was Pareto dominant with Composer 2.5. That's on their old benchmark cursor bench, so maybe take it with a grain of salt, but I think this just suggests that the cursor data is very valuable for coding, and when it is trained chinchilla optimal or beyond chinchilla optimal with reinforcement learning, I think it suggests that XAI and SpaceXAI has a shot of being a real player in coding.
+
+I think one of the interesting things is, the way you answer the question, we didn't talk about launch. We didn't talk about Starlink or communications. Those, up until really six months ago, were the business. And, you know, and then we merged in X dot a I, and we merged in Cursor, and then we announced these deals where it was very clear he was kind of building AWS right under our nose, you know, in in terms of this. But what I wanna do is go go to Fox.
+
+Give us the breakdown. Three big lines of business, right? We've got the communication Starlink launch business. We've got the, you know, AI compute business. And then I want to come back to x.ai that you were just clicking on.
+
+But if we just go to the core business, what do we have to assume goes right in the core business, both with launch and with Starlink in order to achieve the numbers that are out there? Yeah. Sure. So look, I think the thing that's foundational to everything is the launch business. Right.
+
+Right? This is the kind of crown jewel of SpaceX. It's something that no one else really has, notably reusability. Right. And soon, rapid reusability.
+
+Right? This is, I think, what you need to believe in to get to the economics in AI that make orbital compute something that's very economically attractive. Right. Outside of the idea that we are in shortage for power, shortage for chips. Right?
+
+So I think rapid reusability is the main thing that we're watching for and I think most people should watch for. Mhmm. You know, Elon talks about it a lot, but getting these rockets to fly at a cadence that's comparable to an airline. Right? And and Gavin has used this analogy before, but the old rocket industry was kind of like, imagine boarding a plane, flying to California, getting off the plane, and the plane explodes.
+
+Right? So I think what SpaceX are ultimately trying to achieve is have a Starship fly both stages, not just the booster, thirty, forty, 50 times before you have to retrofit that ship. And when you do that, you're amortizing the cost of the vehicle over many flights. Right. Right?
+
+And that's what brings the cost down significantly. But that's a really hard problem to solve. Extremely difficult. And look, I I think the company, you know, have been loud and clear. They're going to attempt to bring back the second stage Right.
+
+Of Starship later this year Right. And then make it reusable, you know, refly the second stage next year. And from there, ramp up the cadence. But at the end of the day, driving down the cost of launch is what enables all of these other businesses and is what makes them so attractive relative to incumbents. So how many how many times are Starship just launched Starship three, you know, just launched.
+
+How many launches are you know, do you think kind of the consensus out there is assuming, you know, two or three years from now? Like, what is the launch cadence? Are we launching one of these every day? Are we launching one of these every week or every month? Like, where are we in terms of expectations?
+
+Yeah. So look, I think expectations for now, you know, we're going from, you know, call it 160, 165 launches last year up into the high hundreds of launches in the And, next several you know, getting into the thousands of launches probably in the next three years thereafter. I think the company of aspirations Thousands of launches, you're launching, you're doing two or three launches a day. Right. Right.
+
+And then talk to us a little bit, what does this enable? Obviously, I'm here in Silicon Valley. I can't even keep a call on Sandhill Road, two decades into the mobile I mean, a craziest thing. It's like a third world. It's a major business problem when you're freaking out here.
+
+It's crazy. It's crazy. Right by the Starwood, dead zone. And I'm like, how can this possibly be? It's almost like it's a joke.
+
+It's an epicenter of technology in America, and you can't maintain a call. Okay. So we're all gonna switch to Starlink mobile when it comes along because I don't wanna lose that call on Sand Hill Road. So walk me through a little bit just again high level. It's a big portion of the revenue growth expected in the business over the course of the next two to three years.
+
+My hunch is a lot of this is driven by by direct to cell connectivity. Walk me through a little bit those economics. Yeah. So look, it's actually interesting. The broadband business is still very early stage when you think about the percent of households that have actually been penetrated to date.
+
+Look at the percent of global households with Starlink, it's less than 1%. And that's the broadband. You know, you kind of have a base terminal at your house, on your car, on your boat, and in airlines now as well. So I actually think broadband can scale to hundreds of millions of terminals. Okay.
+
+Hundreds of millions of users. And today, the subscriber base Hundreds of millions if if they get rapid reusability of Starship, which is really hard, if there's not competition. Hundreds of millions, it's possible. But maybe I always say around here, it's funny, I love seeing PM and kind of analysts in this situation. It's exactly what I do with Clark.
+
+Clark will say something, I'll say the future is a distribution of unknown probabilities. It's either more likely or less likely, so give me the distribution. Are we talking 20%, 30%? It's hilarious. The same I've watched Elon do many hard things, and this is a really hard thing.
+
+I think it's reasonable to think that they're going to succeed with rapid reusability. I just think it's important to acknowledge that orbital compute, you know, Starlink, you know, Starlink v3, Starlink direct to cell, we need first reusability for Starship v3, and then rapid reusability unlocks a lot of us. Right. When I see the models that the banks are putting out there, right, in Wall Street Journal, everybody's reported on these. These things have been widely leaked.
+
+They largely have the revenue on connectivity, so let's call it Starlink, direct to seller, etcetera, going from, know, let's call it 10,000,000,000 to 50,000,000,000 by 2028. And so I'm not asking you guys to react to, you know, to tell me your specific numbers. But when I'm talking to Clark, all I'm trying to size up is order of magnitude. Do we think we can 5x the business over the course of the next three years? Is there enough TAM, both in terms of broadband and direct to consumer?
+
+And I think the answer of that is yes. Here's what I'd just say very simply, is I travel with Starlink. I'm a big video gamer, and very consistently, wherever I am in the world, Starlink has the best connection. It's the fastest, it's the lowest latency, and I do think once they get to rapid reusability, it's also going to be they're gonna have the cheapest cost per gigabyte or megabyte delivered. And better, faster, cheaper has been a And winning so 50,000,000,000, that's, you know, 0.3% penetration of the global telecom market.
+
+Now maybe there's some deflation with Sterling pricing, but that's the way I'd frame it up. Yeah. I like betting on better, faster, cheaper. Clark, I would say probably the biggest surprise of the last six weeks is that Elon we talked about it on All In podcast. We called it EWS, Elon Web Services, right?
+
+That he struck these huge deals with Anthropic and Google. I don't even think people were thinking about SpaceX in the AI compute game. Right? If you looked at the models as of a few months ago, it was connectivity, so Starlink, and then it was X dot ai, the model. But this whole category of taking all of this compute which he's uniquely good at standing up, right, and then reselling it in a way that's highly profitable was not in a lot of people's forecasts.
+
+Now it's a major component of the forecast. You and I did this podcast with Jensen where Jensen said Elon is an N of one. What they achieved is singular. Never been done before. Just to put in perspective, 100,000 GPUs, that's easily the fastest supercomputer on the planet.
+
+That's one cluster. A supercomputer that you would build would take normally three years to plan. Right. And then they deliver the equipment and it takes one year to get it all working. Yes.
+
+We're talking about nineteen days. Wow. N of one is right. Elon is an N of one. And his ability to secure supply, stand up the supply, you know, deploy it in a way that's you know, coherent and effective for both himself and I guess now for others.
+
+So walk us through kind of that. It looks to me again like this is a major component of the revenue story. Totally. I mean, so we we were all at the macro hard data center, and it was just very evident the amount of engineering that was that had gone into building these sites. You know, people always talk about Google and their ability to to build a TPU and sell the TPU to Anthropic to generate revenues for AI.
+
+I think it's a pretty similar dynamic here with Elon able to secure power, build these sites faster than anyone else, and also be able now to monetize it to this massive AI market that's ahead of us. If you look at the relationships that he's forged with a lot of his suppliers, you know, be it Jensen, be it, you know, all of these different different sites that actually want XAI as a tenant, his his ability to finance these deals at at very attractive financing rates relative to a lot of the other players in the space, know, these are advantages that compound over time. And when you've built the credibility to stand up these sites and monetize at these levels, you know, it's actually a very attractive proposition for a lot of folks involved. And actually, you know, if you look at these deals in particular, Gavin, you pointed out, but, you know, they're actually monetizing, you know, perhaps better than other players in the space by selling this infrastructure. A lot higher.
+
+Google is obviously paying SpaceX a huge premium for this compute. Fox, you said something that I thought was really important, is, you know it may very well be that in order to get you know first in line on space compute which Google certainly wants to do that they're willing to pay a premium for their terrestrial compute. And so to me that's how you kind of square the circle as to why the premium. Any thoughts? Yeah.
+
+Look. I think there's some of that embedded there. But look. At the end of the day, SpaceX can stand up compute quickly. They can stand it up coherently, and they can stand up a lot of it in one place and have it readily available.
+
+So look. I think that's most of the premium. But outside of that, certainly, people are going to space over time. I'm gonna pay a little call option to get first in line for space. There you go.
+
+Good luck. We've all been investing in the neo cloud space. So like there's a fundamental belief around this table that we lack the compute needed to continue to push the frontier on intelligence. So we have to build a lot of compute. Okay.
+
+Now there's a there's a competition going on. On one end, you have the hyperscalers who are building out that capability. Then we have AI dedicated clouds that are building out that capability. And now literally in a matter of weeks, right, we have a giant that's emerged in this category, which is SpaceX. The question to you, Gavin, is can they consolidate this market?
+
+Right? Because if I think about a marketplace, Elon has a unique ability to get the supply. He has a unique ability to cut deals on the other side and nobody can stand it up like he can stand it up. So I think there might be a real consolidation in the AI compute market where you have the hyperscalers on the one hand and on the other hand, you know, he may emerge as the largest, strongest player in the AI compute market. Yeah.
+
+So I think they are are they the number four or number five hyperscaler today after the Google deal? It will be number four. Kind of wild. In thirty days, we went from not being an AI hyperscaler to being number four. We passed a lot of companies, including Oracle.
+
+CoreWeave is a huge business, right? We're investors in, you know, and have been investors in, right? But there are a lot of other players, the nebiuses of the world, the irons of the world, I would say that there are probably 50 neo labs being funded in Silicon Valley right now as we speak because of the shortage in compute. Absolutely. That's kind of crazy in thirty days.
+
+That's just extraordinary. What I would say is that I think there is a belief that these data centers are commodities, And I do not share that belief. Don't think anybody around this table shares that belief. And in the same way that Elon was able to reengineer a rocket from first principles and make it reusable, He engineered an electric car from First Principles. Everyone else was trying to make an electric car, like an internal combustion engine car, he thought about it differently.
+
+I think he looked at data center design from first principles, and he designed something fundamentally different. And I did actually ask the team. I said, Hey, guys, maybe it'd be a little less public about things that are very obvious to you on how to design a data center, but are revelations to other people. Because I think what you're doing is maybe more differentiated than you perhaps realize because what you're doing is so logical to you, but maybe not logical to everyone else. That's how he was able to do it one hundred and twenty two days.
+
+That point, Brad, yesterday we were meeting one of our portfolio companies and we were talking about behind the meter and we're really thinking about it. There's only maybe two or three players now that can actually reliably engineer behind the meter data center. And, you know, there's real engineering work that goes into all of this. So if you think about this, if you're a gas combustion if you're Vernova and you say we only have a certain number of gas combustion engines, now we can sell them to x dot a I or we can sell them to one of these startup neo clouds. Who are you gonna sell them to?
+
+Well, and there's another dynamic. Everyone starts making more money when the GPUs get energized and sold faster. Exactly. So literally speed is money for all of the suppliers. Right.
+
+Power, land, turbines. So I think it's we'll we'll see. Right. Hey, Brad, man. But but this is just we're just talking terrestrial.
+
+Terrestrial. I do I do wanna hit on, and then you can flip it back on me. Talk to me, okay, so let's assume, right, that they continue to build out the terrestrial landscape. They continue to find buyers for that. Walk us through, you know, what this unlocks, you know, and how this is related to space data centers.
+
+Because I think, you know, once you start talking TeraFab capacity and beyond, so we're talking a thousand gigs. Right? And this year, what what? We're doing 25 or 30 gigs just to put it all in perspective? Yeah.
+
+Right? Twenty, twenty five gigs. Okay. So so once we start scaling up, walk us through, do we have to have space data centers in order to get excited about buying the IPO? Right?
+
+And then there's obviously this this debate in the world. I I heard Jeff Bezos say, you know, think it's more like six years, but Elon's gonna say three because if if he says six, then it will take even longer. So say three and we may get it in four or five. But are space data centers integral and essential to, you know, the IPO? And what do you think the timeline is?
+
+It's either of you guys. So I don't think I think if you think about those variables around what cursor could mean for xAI, and we do have an existence proof that once you really get on that Pareto frontier, revenue can scale rapidly, and it's called Anthropic. And there does seem to be an exhaust There seems to be a lot of demand for coding. And I do think Amjad Masad posted something very interesting. Founder of Replit.
+
+The founder of Replit. Replit, yeah. He called it Bitter Lesson Adjacent, that coding may be the fastest path to AGI and ASI. Because if you're really good at coding, you can write code, if a model's good at coding, to do anything. I think that's a profound point, and I think coding is going to continue to be very important.
+
+I think if you think about that variable, if you think about Starlink direct to cell enabled by Starlink v3, and you think about how quickly they can or cannot bring on terrestrial compute. I don't think orbital compute is necessary for the IPO valuation, but it's certainly important. Well, maybe another way to say it is you think you may think we're going to get to ASI faster than we're going to get to orbital compute. That may take us from 300 IQ to 400 IQ, 500 IQ and beyond. And the ability to scale it up to consume 10% of global GDP.
+
+But maybe that's where we should move next. No, no. I think out of orbital compute, think Foxy would be great, Art Clark, to lay out the math. Yeah. From first principles, Clark has this great chart on the gigawatts it costs, the dollars per gigawatt.
+
+Great. Walk us through the economic case. Yeah. Yeah. So, I mean, on this point of is Orbital key to investing here, I don't think it is.
+
+And the first point I'll make is what are the implied monetization rates based on expectations today for the AI business? I think you threw out the $160,000,000,000 number that's been linked out there that people are talking about. The implied monetization rate on that number is something like $14,000,000,000 per gigawatt per year for the AI business. They just signed Anthropic at 22 to 23. They just signed Google at 50.
+
+Right. Right? So I think you can invest behind the AI business terrestrially and still be excited about it. With Orbital important point. Excited about it if they can get the land and the power.
+
+Right. But but I mean, I think for most investors Yes. Right? They get they have an easier time getting their head around how SpaceX wins terrestrially. Like, can they go get land, power, and chips?
+
+The answer to that is high probability. Yes. Yeah. Okay. And what we're saying is at the rate they're monetizing that, that gets you to the numbers that are being leaked out there before you even have to take the leap of faith that they're going to extend the lead with Orbital data centers.
+
+But take us there on that too. Sure. Yeah. So so, look, with Orbital, I think the key thing is two stage reusability. Yeah.
+
+And beyond that, rapid two stage reusability. Yeah. So today with Starship, they've shown that they can successfully re land the booster. Mhmm. The second stage, we'll see what happens later this year.
+
+I think they're attempting to bring that back and then make it reusable by next year. But the thing that's important about two stage reusability when it comes to the economics for orbital compute, right, is the cost per kg comes down significantly. We're talking about going from $1,500 per kg on Falcon, somewhere in that range, to $2.50 per kg, something lower. And the more that you can reuse the rocket, the more that price comes down. Right?
+
+Because you're just depreciating the cost of the launch. And eventually, you asymptote to the cost of the fuel. Right. Assuming you can use a rocket for forever. Yes.
+
+Right? Which will take a very long time for us to to really achieve that. But and at that point, we're talking about something well south of 250 per kg. So then you look at the specs of these AI satellites. Know, Elon did a great Yeah.
+
+That pod was incredible that he laid out the other day, the specs on the satellites. It was really great because I think they are finally showing people here's how you could viably design one of these satellites and how heavy is the satellite, how many could you fit into a Starship launch. And when you back into the numbers, you get to something like five megawatts of capacity per Starship launch. Right. There's a 100 metric tons in one of those Starships.
+
+So you can back into the math of how much will it cost Right. Per gigawatt to launch these satellites into space. Right. Launch this compute into space. And the math that you get to before you account for things like bad GPUs, bad satellites, right, these will all be things that happen.
+
+But the math you get to is it's about $5,000,000,000 per gigawatt of CapEx to put these in space. Right. For comparison, terrestrially, talk about the switch gears, the generators, the transformers, the shell, getting the power, that today is about 25 20 to 25,000,000,000 per gigawatt. So we're talking about a five x reduction in cost on half of your bill of materials. For the data center, which is a huge number.
+
+Just very simply, I mean, to say it costs $60,000,000,000 to put a gigawatt on the ground today. We'll call it 35 of that are the GPUs and the silicon that's doing the training and the inference, and 25,000,000,000 is the land, the shell, the power, and the cooling. I would hypothesize that those elements are probably going to be inflationary, so that 25,000,000,000 may not go down. And because space, power, cooling are effectively free in space, and when I say space, I mean land. There's no land in space, but there is But there's a space.
+
+There's a lot of You're space in talking about putting a gigawatt into space for $30,000,000,000 and having lower operating costs. Now, dynamic versus $60,000,000,000 that's inflationary, and that $30,000,000,000 that 5,000,000,000 may be deflationary over time. But what we need to consider is the reliability and the maintenance. Everybody can do the math, but as long as these satellites in space aren't failing at an astronomical rate, the math maths has to And by way, we know GPUs melt and lasers fail. We know this happens in data centers, particularly during big training runs.
+
+I mean, GPUs melt. So as long as the reliability and maintenance is not dramatically lower, the math is there once we have reusability and then rapid reusability for Starship v3. When we look at this, okay, so we went through Starlink and we said, like it just stands to reason we're gonna have direct to sell on Starlink. Like the assumptions there are, know, again, seem like you can get your head around. Then when it comes to building terrestrial data centers, again, not a hard one to think that based on these couple deals that Elon's going to build a much bigger, Starlink's gonna build or SpaceX is gonna build a much bigger business there.
+
+And then you have this call option on space that would drop the price even further. The one thing we haven't talked about is their model. Right. And I find this surprising. Right.
+
+Six months ago X dot ai was competing. Were doing pretty well but they've done something dramatic over the course of the past couple months which is they bought Cursor. Right. Cursor is 700, 800 people was already doing incredibly well from a revenue perspective. Our own projections were that they could exit this year at up to $10,000,000,000 of revenue.
+
+So they were growing very fast. One of the leading coding agents. But they also had this incredible team with the potential to really build a frontier level model, but they were compute constrained. So all of a sudden they get bought by X. X has massive compute that they can now train on.
+
+And when I think about the revenue in AI, if I look at that line item in the models, having it go from $10,000,000,000 to $150,000,000,000 yes, a lot of that will be the core weave type business that they have. But the question is how much of that is going to be the core x.ai business that's really powered by the new team from Cursor? So any thoughts on that, Kevin? Right now, so Composer 2.5 was Pareto dominant twelve days ago. It was trained on the Kimi K 2.5 base model.
+
+Now what's happening is the Grok 4.3, 1,500,000,000,000 parameter model is training. One would hypothesize, based on scaling laws, that that might be a better base model. And then the cursor data is being injected into the pretraining process, not just reinforcement learning. And we'll see, and I think that is going to be a very important data point when that comes out. And I just think everyone should keep in mind that once you are at multiple places on that Pareto curve, if you have compute, you can scale really rapidly.
+
+You know, that to me is, if I had to say what the one piece that's being lost in the story, right? Like it's easy for everybody to get excited about the deals with Anthropic because you could put your hands around that. You know how much revenue it is. I see debate about the ninety day termination and how long they last and what multiple do you put on those revenues. But I think the thing that's getting lost is I think they've dramatically advanced their capability when it comes to building a frontier model.
+
+People outside Silicon Valley may not know Michael and the team at Cursor as well. This is an extraordinary team that he just downloaded right into SpaceX. SpaceX was already building good models and what they have is they have this way to monetize compute that gives you this call option that you can pull all that compute in house right, to train a model and then to run the model. I suspect if there's an upside surprise, if we went around the table, I'd say this is the place that's getting the least amount of attention and could have the biggest upside surprise. Any thoughts, Clark, on what you think is being overlooked or areas that you think are misunderstood about the business today?
+
+I would what the last few weeks have proven is that Elon, their team can stand up all this compute. Actually, if you just, you know, went back one and a half years, you know, they were behind in the race to stand up compute. They were you know, they they didn't have that many H100s. Brought in Colossus, then they brought in Colossus II at a scale much larger than anyone else. And now, you know, as we gear for Verirubin, you know, from, you know, a lot of my conversations, it looks like they've, you know, secured maybe up to 20% of Verirubin capacity, especially in the early days of, you know, when, you know, these chips are very scarce, that they're going to have a lead on all of this because, you know, people think that they can stand up this compute better.
+
+So I think they'll you know, what what the last few weeks have actually shown is that Elon, you know, Elon will take, you know, take a shot at hitting the frontier. But if it, you know, if for whatever reason they have over procured some capacity, this is a very scarce asset that they have shown that they can monetize at actually, you know, best in class margins and payback periods. Mean, the irony is like, you know, you and I've been doing this long enough to know. I mean, that's why Bezos built AWS. Right?
+
+He had to build capacity for Black Friday. Yeah. Right? But then the rest of the year, he sat on all this capacity they had to build and he figured out a really incredible way to monetize this. And by the way, investors at the time, 2009, 2010, when he was building out the capability around AWS, hated it.
+
+Of course. Because he was consuming all that free cash flow. My meanwhile, he was digging the biggest gold mine in the history of the world. One of the biggest. Among them.
+
+Among them. At the time was probably the biggest. Yeah. Google search might wanna have a discussion. By the way, do think it is important.
+
+Grok four point three, I think the cursor, if they acquire it, that may end up being very important. But Grok four point three was on the Pareto frontier as of ten or twelve days ago, these things move fast. Most intelligent 500,000,000,000 parameter model in the world. And they were on the frontier, there are four companies on the frontier. XAI, SpaceXAI, Google won with Gemini 3.1 Pro, and then the rest of it was dominated by Anthropic and OpenAI.
+
+But they were on the Pareto frontier, and now we'll see what they do with Cursor. Yeah. I wanna come back to that in a second. By the man, I wanna ask you some question. Go.
+
+What do you think? So you think the biggest source of potential upside is the model? Yes. What do you think? I think that's the thing that's least talked about.
+
+Least talked about. Right? And so, listen. When I look at the bull bear case on the IPO, right, the bears are looking at last year's revenue. Say it was $18,000,000,000 and they're looking at the forecast from the banks of $160,000,000,000, you know, three years from now and they're saying, not many companies in the history of the world have basically 8x their revenue over three to four years.
+
+Right. So that's where I think people get nervous about the valuation. When I look at this again, when you break it down as an analyst first principles part by part, which is what I tried to do here, right? When you look at Starlink, it looks totally doable. When I look at what they're building in AI compute terrestrially looks totally doable over the course of the next three years.
+
+When I look at the model itself after the acquisition of Cursor, combining those things around the compute they have, that looks to me like it could be an upside surprise. So I would say that I think that in the IPO, but I think when you look back three years from now, there's a decent chance that everybody's like, oh my god, that was super obvious. Right? Even though today all of these things have risk associated. And back to where we started, I'm not, know, none of us are here to pump the IPO at 1,770,000,000,000.
+
+It's really to just break it down as we do inside our shop and to say, what is that distribution of future probabilities? What's the probability that is higher from here? What's the and I think we're all pretty AI pilled. And if you're AI pilled, that means we gotta build a lot more compute than the world thinks and that these models are gonna be a lot more valuable than people think. You combine that with their core business, I don't know another entrepreneur or another business that's a better bet on the future than SpaceX.
+
+And so I think for most institutional investors it's a must buy, a must own is set it and forget it in order to have a real bet on both the space and the AI future. From your lips to God's ears. I mean, again, I think that you're going to have to wait. But we had this chart last week that came out. Everybody was sending around Twitter conveniently timed.
+
+And it shows the average max drawdown post IPO for like 20 companies from Facebook, Twitter, Alibaba, Shopify is over 50%. And so maybe that again will end this section here. Gavin, you and I have been doing this a long time. We know it's going to be bouncy around the IPO. How do you as a manager try to manage that?
+
+Do you try to trade around the IPO? Do you set it kind of and forget it? I would say from an altimeter perspective what we tend to do is we take a base position that we set and forget, right? And then we may size up or size down depending upon how the market reacts in, you know, in a particular moment. But any thoughts on on this chart or, you know, how how people you guys are thinking about it in particular, you obviously own a lot going into it.
+
+First, agree with absolutely everything you said. I actually think about it the same way. Set it and forget it. You've talked about you have ballast, you move around, and you move the ballast to one side of the ship when you want a ship to lead into the wind to go faster and you move it to the other side. We don't want the ship to tip over.
+
+Think that's a great analogy. Think about all important companies in the portfolio the same way, so 100% agree. I mean, this chart is a bummer. What I would say is, you know, there's data on IPOs, but what I would just say is this is a really unprecedented situation. Yes.
+
+We've never had an IPO this big. We've never had an IPO that's going go into an index this quickly. We simply do not know how much selling there will be from investors. I would hazard a guess. I mean, I'm I don't know.
+
+But Elon, I don't think he needs liquidity. And I think he owns what does he own, Foxy? -fifty percent -fifty percent of the company. By the way, he's locked up for three sixty five days and three sixty six days. So we know he's not selling, -So I just think it's an unprecedented situation, and the right answer is I don't know what's going to happen in the short term.
+
+And the right answer that I would just encourage every investor making their own decision is to just think exactly the way you articulated it. We have these different levers. We have these different variables. Think about each one of them from first principles. Make your own decision.
+
+Do your own due diligence. Be thoughtful. But there are a lot of variables here. Then it is a little funny to me that it was 100 times trailing TTM revenue. Well, after the deals they signed, That I think it's at 39 can change fast.
+
+So they added $29,000,000,000 in a month. By the way, have you ever seen that happen? Never. Never. And it just goes to show, first, Elon is not only a great engineer, he and Gwen and the team are great at business.
+
+And Brett. They understand what needs to be done to raise the capital, to get to the next phase. They have a long term mission in the business. And so to me, again, what we saw over the course of the last few weeks with Cursor, what we saw with these deals that they cut, I don't know that any of the Mag-seven could have moved that quickly to adjust the business that they did. It's exceptionally entrepreneurial at scale, which we very rarely see in businesses.
+
+Two other things I would just say Can I give you a hug, Brad? Two other things I would just say. Number one is people talk a lot about the total amount of capital being raised. If you add up the capital here, right, for Anthropic, what they may raise, what OpenAI may raise, what SpaceX may raise, let's call it $250,000,000,000 That's 1% of the Mag seven. Okay?
+
+It's 1% of the Mag seven. Yeah. And we will as well. You know, like, that to me is like a bet on the future that we all believe in. And so if I said, where are we out of consensus?
+
+What is our variant perception? We actually think it's going to be bigger, faster. And we've thought that for a couple of years. So first, it's only 1% of the Mag seven market cap. And then you referenced it.
+
+The amount of selling. I've got a chart we'll post here. This is the Dribbble's share release for SpaceX shareholders. So there's not a lot that can be released up until after the first earnings. We saw this in the Cerebras IPO.
+
+There's a version of it here in this IPO. And so again, I think the banks have been thoughtful here knowing that this is a very large IPO. And I'm not saying that won't trade down. Like there's possibility, you know, these things trade down. But again, for me, telescope out.
+
+Is there any company better positioned as a bet on the future? I think what they've shown over the course of the last five weeks, they're probably number one. But let's move on. No. No.
+
+Ahead. I'll say one thing about the employees. I think another thing that's unprecedented here is the employees and to a large degree the investors here, have had liquidity every six Exactly. Exactly. Like the last ten years.
+
+Yes. So if you're a SpaceX employee, our former employee, and you wanted to sell, you've had, whatever that is, close to 20 chances. It is a matter of historical record that large investors have been able to I would think a lot of the people, they've chosen to Now own there's a new valuation, and we'll see what they do. But just this is utterly unprecedented, and we'll see. Yeah.
+
+No. It's it's it's a great point. We've, in fact, called these companies quasi public. You and I both know that SpaceX, and I put Anthropic in in in this category as well, Databricks in this category. These things in many ways have been more liquid over the course of the past three years than some public biotech companies we know.
+
+Absolutely. Right? And so there's a continuum of liquidity here. We treat it as a binary private versus public, but it's really about this continuum. You know, let's keep going on models.
+
+Know, Anthropic launched Fable five, which you referenced yesterday, which is basically mythos with some classifiers and safeguards around cyber and biology, chemistry and distillation. When those things get triggered, it fails back to Opus 4.8. You know, there's a Kaparthi tweet about this yesterday. He said, you know, it's soda on all the benchmarks, but what really makes it special is long running tasks. Okay.
+
+You retweeted our good friend, you know, Noam Brown. You know, chat GBT 5.5 also exhibited these capabilities. You know, it led Noam, right, to suggest that it's not very relevant to do the snapshot benchmarks anymore. Like the x axis has to be time or tokens or compute because we can solve most problems now if we just let these frontier models for a very long point in time. So Gavin, what is this new class of model, right?
+
+Fable five, ChatGPT 5.5. What does it mean for the race in super intelligence? Who's up? Who's down? Who's still on the frontier?
+
+Give us your thoughts. It's hard to say that Anthropic's not up. Yeah. Like after the revenue numbers they put up, after the Fable five release, and Mythos is evidently even better. But I just think that Gnome Brown host from yesterday, Polynomial, is so profound.
+
+And just the idea that we do not know how smart these models are. We made Say more about that. Why don't we know how smart they are? Because nobody has run Mythos for a year And we may never know how smart each generation of models actually is or was, but because we don't have time to appropriately evaluate their intelligence before the next model comes out. This is a profound statement.
+
+Just imagine. I always say, when you think about FSD, just imagine a human being who never gets distracted, never gets tired, never talks on the phone in the car, never drinks and drives, never yells at their kids, never has to go to the back seat to give their baby a bottle. And of course you would think that over time that is superior to humans who are distracted. I don't know how long How long can you think deeply about one topic, Brad? It be an hour.
+
+Be like an hour. A bit. That makes me feel terrible. Because I think I could think deeply about one topic continuously before having a stray thought enter my mind for maybe five minutes. Then I could come back to that.
+
+Imagine if Albert Einstein had been able, instead of Maybe he could think for three hours at Clearly a an exceptional intellect. But imagine Albert Einstein had just thought about fundamental physics twenty four hours a day. He doesn't have to eat, he doesn't have to sleep, he doesn't have to relax, he doesn't drink. And never gets old. Never gets old.
+
+Never has diminution Yes. Of And he thought for one year. I mean, we might already, you know Have solved a lot of these intractable problems. I just think that's an extraordinary thought. My takeaway was, however bullish I was on compute before then, I'm just a lot more bullish.
+
+Right, right, right. We saw when, that was probably what really unlocked Opus 4.6. It was the first really long running model that could maintain that context, maintain that memory, solve some of these longer running problems. For us, the signal was in January. We knew, we felt like that was a big moment, but then when you started to see the revenue go up, we knew that lots of people were voting independently, that that was a profound moment that they became much, much more useful.
+
+But one of the things that the consensus going into this year, right? So the big question going into this year was, was the AI revenue going to show up? Were we going to get to these thresholds of intelligence that caused enterprises and consumers to use them more? And I think the consensus at the time, at least on this podcast, debate with Bill, was that open source models, cheap tokens, were catching up on the frontier. That perhaps these models were beginning to asymptote, that people wouldn't really pay for premium tokens.
+
+And it seems to me that the evidence on the field six months into the year is just the opposite, right? That frontier tokens are capturing the vast majority of all the revenues and that in fact if you believe in the long running capabilities and more compute allows you to do that, they may actually be extending their lead, right, on some of these models that were built on distillation. So I just open it up to anyone around the table. What are your thoughts on whether or not, you know, have we challenged this thesis that cheap open source tokens are going to always, you know, close the gap on these frontier models or are they extending their leads? I think this debate, like this same debate has existed since the beginning of since we started training these models to begin with which was hey we're always kind of three, six months behind the frontier but empirically like you can just see all of the revenue has actually just accrued at the frontier.
+
+And I think that's because every time we release the frontier, a whole new like slew of use cases that previously we could have never tackled like coding. Also just, you know, we've just been locked at our desks for the last day just, you know, hammering Claude because, you know, it's just fascinating the things that now we can do with Fable five that we just couldn't do with Opus 4.8 just a day before. So what are some of those things, man? I'm curious. So I think it's really, really good at multi agent orchestration now.
+
+So Anthropic released a blog post about like different agent six different agent like orchestration patterns that they've talked about. But really like once you start being able to manage all these agents, the harness and the model itself is being rrled with one another. They're actually being fused closer and closer together but the model can understand the extent of your work so you know one of the things for instance is I just threw in like seven of our models and just said, Okay, like I want to create a master view of like my beliefs, given all of these assumptions of all these companies, TSMC capacity, like and then produce me a report on all this stuff. And you know, the model is able to reason through all of our assumptions. Actually if you believe this, this thing is What are the contradictors?
+
+Exactly. Yeah, was fascinating. And you know, before we never do that, but now, you know, I think we're just step one into multi agent orchestration. We're going to do this even further. That's one example I've also dumped all my notes into it, and it's reason across all my notes from the last three years and said, here are some of your ideas that were consistent.
+
+Here are like you know the sources that were actually the highest signal to what actually played out you know and then it was actually just super fascinating what you could do and we've just blown through our limits. It's unlocking all this I mean like they gave examples yesterday in the release Anthropic did. Know 50,000,000 line Ruby code base at Stripe that was you know refactored in a day versus many weeks with many people. You think about where this is impacting biology and life sciences just across the spectrum. And to me it really gets back to this fundamental point.
+
+Number one, if you believe this to be true about long running agents then we're going to produce and consume more tokens in the future as far as the eye can see. So the world, this gets me back you know, TeraFab and space orbital and all this because we we we may in fact unlock real thresholds of intelligence, but we're going to have to let these horses run for a long time in order to get there. Yeah. Would just say two thing two things can be true. The majority of economic value may continue to accrue to the frontier.
+
+Man, has it ever accrued to the frontier thus far, and for sure the first six months this year. But the majority of tokens consumed in the world may be open source. And they are today. Yes. And I think that this current state is likely to persist.
+
+Harvey had a great blog post that they put out on X, and they used, and it's just amazing how everything gets out of date, like, five days, you know? But they used their own proprietary legal data to do reinforcement learning and supervised fine tuning with fireworks on an open source model. And then they used a router, and a router being something that picks which model you send which query to, and which model you use to check which model. And they got better outcomes than an OPUS either 4.7 or 4.8 at a lower cost. And I think that is the future.
+
+And the reality is they were still consuming a lot of OPUS, but a majority of the tokens they were processing probably were in their own open source We hear the same thing. An enterprise survey that we'll post of 300 companies. Which ones were optimizing? So these are folks who are kind of looking at model routing and saying we're gonna send certain tokens over here. Which ones are thinking about optimizing?
+
+Which ones aren't optimizing yet? And then what is their expected use of frontier model tokens? Right. And they're all expecting to consume a lot more even though they're already in the process of optimizing. Think of it in the context of JP Morgan.
+
+If they're doing some back of the house stuff, right, on customer service or whatever, they may very well use an open source model. Now I think they're loath to use Chinese open source models, so they're waiting on kind of US open source models to, you know, be able to really deliver the bang that they need. But my hunch is for these enterprises, a lot of that back of the house stuff will get rooted there. That will probably be a majority of the tokens. But I think the really high value stuff, you know, coding as an example, they don't wanna write second tier code.
+
+I think the vast majority of that will continue to be on the frontier. You don't need Albert Einstein to book you a trip. You don't need Albert Einstein to do KYC. But but but this is the debate we had it literally at this table two years ago. However, if you just look at the revenue curves, what bill what what folks concluded they when they said that, they said, therefore, the Frontier models will not accrue most of the revenue.
+
+And what we're seeing right now, it's 90% of That has been decisively wrong. Probably more than 90%, and it may continue to be decisively wrong. Frontier might be 90% of the economic value. Open source might be 80% of tokens. That I think is very important on open source is that I think there's this belief that it's bearish for AI.
+
+It's actually It may be bearish for the frontier models. There's that bear case you talked about. It's actually really bullish for compute and hardware because if the frontier models are capturing less of the margin, then you're going spend more on compute. So the better open source does, better it is for compute providers. I will say, there is a very I would say between spending time in the heart of the West, Silicon Valley, and also spending time in Asia, there is a very big, like a deep seated belief in one versus the other, which is like if you spend a lot of time here, it's like all closed source, cloud, every all traffic is gonna go, you know, by way of this direction.
+
+And then you spend time in Asia, you know, the overwhelming belief is that we're going to find the right model to the right workload, and we're not going to overspend. And I think, you know, I would say I would say the next year is probably going to be the most indicative of which way this falls because I think the reason why closed source models have captured so much of the value is because the models actually get the intention and actually carry through the work. And this was the first year where we actually had agents that actually carried out user intention from just answering a chatbot request to actually producing useful work. Now the level of this intelligence has scaled so rapidly and we continue to push against like the most economically valuable tasks, which are coding and finance and all these like knowledge work tasks. But like for the long tail of tasks, if open source continues to maintain a six month lag, we might actually see a lot more open source used for, you know, our everyday tasks that we might actually And that's basically Jensen's argument.
+
+Yes. Right? Jensen's argument is you're gonna have model routing, and we're just in a moment in time where the frontier models gained the advantage, can do long running tasks. The open source models couldn't do it very well. And so they're accruing all of the value.
+
+But as soon as the open source models can do the long running tasks as well, which is not far away, that they too will grab a bunch a bunch of this revenue. Are you investors in reflection? I'm not. Okay. Nor nor nor are we, but I I'm very impressed by Misha and and the team and what they're doing.
+
+I very much want a frontier open source US lab to win. We know that, you know, I heard you say recently and I believe it to be true, NVIDIA any day that they really wanted to, right, they already have some great open source models, They could absolutely build a frontier open source model whenever they chose to do it. And so it's not a question in my mind as to whether or not The US is going to have a frontier open source model. It's just a question about timing. And then, like, at that point in time, is the you know, let's assume they get these long running capabilities.
+
+Have the Frontier Labs now achieve something yet again that allows them to keep the stranglehold on the revenues? Yeah, and I just think it's, if you're, Wow, that's a cute ASIC you've built there. That is so cute. Right. How would you like open source to join the frontier?
+
+Right. How would you like that? How do you like LiveApples? Yeah. I mean, I'm not sure that's the explicit calculation, but I do think Jensen Say more.
+
+Just double click on that for everybody. Yeah. If they were to put an open source model out there, how does that impact the ASIC landscape? Well, you might not have the revenue fund that, the revenue or the margins to fund that ASIC. I do think NVIDIA is highly likely to be the world's dominant provider of open source AI.
+
+I do think Jensen will bring open source. Right now, it's, whatever, six months behind the frontier. We might see it creep closer and closer and closer. And I do think Jensen has a big business decision. I see this chart here, so let's chop it up about NVIDIA, as you say.
+
+But if all of his customers are going to compete with him, then why not compete with his customers? And we have all these neo clouds. So that's a cloud computing business that can compete with all these cloud computing businesses. He has his own models that are really, really good. Neutron three or 3.1 was actually really, really cool from a compute efficiency perspective.
+
+And he's always careful to release small models so as to not tread on Interoptic, OpenAI, Google's toes. But I do think that is a choice he is making. And just, you know, if the economics change, I think NVIDIA can join the frontier and become one of the world's largest cloud computing companies much faster than people think. Interesting. Clark, walk us through this chart.
+
+Yeah. So I think one of the takeaways from spending time in Taiwan was there is certainly a lot of excitement around the next wave of ASICs. But I think it's like a very clear moment now where NVIDIA it used to be an argument of NVIDIA versus ASICs, one or the other, and total domination, one or the other. Now I think increasingly, every year everyone assumed that Nvidia was going to lose share dramatically on a revenue scale, on a gigawatt scale, on a unit scale. And actually if you actually look at the last few years, you know, they've actually maintained their share very, very handsomely.
+
+Actually, if you accounted for the fact that Anthropic was not really using NVIDIA, they probably actually gained share against, if not for in 2526. So I think what was very interesting, though, was a new class of accelerators or ASICs, MediaTek with their new V8T versus, you know, Broadcom's V8I for TPUs actually was a big topic of discussion. And, you know, I think for ASICs, the argument now is that more and more will look custom to the actual workload, and that is like one vector that people are moving NVIDIA now is has kind of shown itself as the predominant provider of compute to a lot of the world. For, you know, internal internal workloads, perhaps it will go more and more custom and more and more down the stack. And I remember just, you know, one year ago when it was kind of a Broadcom or NVIDIA battle, it seems there's a lot more nuance now to, you know, what type of accelerators will fit which workloads and fit which customers and fit which business models.
+
+And, I thought that was a new topic. It was actually New realization, though. I think we all kind of shared this view for a long time. Yeah. I was just shocked.
+
+I mean, out here. I did a board meeting with one of our companies, and just, you know, their biggest one thing they emphasized is we thought the world would be consuming less NVIDIA than it is, And if anything, NVIDIA is accelerating and they just continue to out execute their competitors. And I think a lot of people are indexing to this OpenAI gigawatt, and NVIDIA has 10, Broadcom has 10. Who has six? AMD.
+
+AMD has six and they have warrants. And then Cerebras, our shared portfolio company, has a gigawatt. And that is what's on paper. What actually gets deployed, let's see. I will be very surprised if you know that 10 out of 27, what's that math?
+
+Let's see who's best at math. What percentage market share is that? 30%. I'll be very surprised if that is where they land. I think that is an extremely unlikely outcome.
+
+And especially as long as we are in a watt constrained world, if you can get more tokens per watt, which is literally revenue, with NVIDIA than a lot of alternatives, just if you build your factory with another chip, you may save some money, but you're going have less revenue and the margins may be lower. That's a point that Jensen keeps hammering and I think is really important. And by the way, credit where credit is due, one of the most surprising things to me in this ASIC landscape, I would say Meta and Microsoft have been probably disappointing. Yes. You made a good ASIC?
+
+Yes. Well, know you know. Yes. Jalapeno. Yeah, exactly.
+
+From OpenAI. They made a great chip. Yes. Now, it needs to run at a much lower temperature than the NVIDIA GPUs, which means you need to spend more money on cooling and that consumes more power. They made a great chip.
+
+Oh, we can I mean, I I think the question there and the question for everybody is gonna be, is that the highest and best use of your time? Right? Like, I, you you know, I tend to think that the frontier companies, like, there's this belief that they got to be vertically integrated. But if you believe like I do that the race to super intelligence, particularly as we get these recursive loops working, maybe over in the next two to three years, then I think focus, focus, focus, focus. You exist to build the best intelligence in the world and to deliver the best intelligence in the world.
+
+And that means you have to have all the revenue because if you want to build out the compute that's going to be required to continue to push the frontier, you have to have the revenue in order to support it. So I think that, you know, subject to the focus question, I think they certainly did. This all brings me back to kind of a reality check, though. You know, we just got done talking about test time compute, inference time compute, long running agents. This is really the thing that's unlocked the revenue this year.
+
+It all pushes us in the direction of more capex. Google just raised $80,000,000,000 right? We've now taken the Mag five or Mag seven free cash flow, you know, dramatically 80% from just a few years ago. And Morgan Stanley, you've got this chart in front of you upped their 2027 CapEx forecast from 950,000,000,000 to 1,100,000,000,000. I mean, we're talking about this with Jensen.
+
+That was his forecast two years ago. You know, obviously, this doesn't even include SpaceX, CoreWeave, etcetera. So I think the number on 2027 is likely closer to 1,500,000,000,000. And if we compare this to the total incremental inference revenue. So the thing that the market gets worried about, you know, back to my Sam Altman podcast, you know, in October of last year, can we really afford to spend 1,500,000,000,000 of CapEx a year if we're only generating x amount in inference revenue?
+
+The thing I think that lit the fuse this year was Anthropic showed up in a major way with revenue. So we have the AI lab revenue, everybody combined at around $300,000,000,000 next year. Right? So can't, know, and go roll that out to 2027, or that is 2027, 300,000,000,000. So we're spending 1,500,000,000,000 of CapEx on 300,000,000,000 of inference revenue.
+
+Does that math math for you? And what would cause you, you know, to to get more nervous again about our ability to continue to make these investments? Because the second we get nervous about it, the entire semi complex is gonna come down a lot. Well, what do you think the gross margins are on that 300,000,000,000? Yeah.
+
+Let's call it 50%. I I would guess they're probably a little bit I higher than might say 60 or 70. But I mean, that math starts the math. And what I would just say is I think that 300,000,000,000 is low, man. Yeah.
+
+Yeah. I just think it's low. From your mouth to your Yeah, exactly. I think we end this year well over $200,000,000,000 in inference revenue, well over. And so I think the math really maths.
+
+And I do think we have to give Jensen, our friend, some credit because he said some things that seemed outlandish. He was conservative. He was low. He said a trillion two years ago. He was really low.
+
+So let's give the guy some credit and think about what he is saying right now. For sure. Listen, I would say consistently, Elon's been taking the over. Sundar's been taking the over. Sam Dario.
+
+Dario did the podcast with Dwarkish when he was talking about country geniuses in a data center. He said that will be here by 2028. He said revenues will go into the low hundreds of billions by 2028. So let's call that, you know, $3,400,000,000,000 of revenue by 2028. And he said that a while ago now.
+
+So he may even be revising up his number. And he said, it's hard for me to see that there won't be trillions of dollars in revenue before 2030. And if you're on that revenue trajectory, if we're on a trajectory to 200 by the end of this year, let's call it 400 or 500 by next year and path to trillion plus by 2029, then the math maths. And we gotta keep in mind that half of the spending is there to, you know, for training, maybe a little less than half. What is it, Foxy?
+
+It's probably, it depends on the lab, but it's, I would say it's increasingly less than half. Yes. Okay. So we'll call it 35% is spending that's not revenue generating that is gonna kind of make the next model. So I think the math, math.
+
+And there's still this prisoner's dilemma where if you opt out, that may be an existential decision And for I think coming into this year, going back to this kind of what narratives were violated, I think into this year everyone expected token pricing, the price of compute, it's all deflationary. And it will be kind of a smooth line deflationary over time. But I think this year what we've seen is the opposite. And it all comes back to supply demand. The demand side of the equation seems to be far outstripping the supply.
+
+And I think you look at the deals signed by SpaceX and others, the monetization rates per watt are increasing. And, look, that is on a a pretty nascent small base of users. Right? Like Alex at Whale Rock, he has this great way to frame it. Less than 0.2% of people on earth are actually using AI in an agentic way.
+
+Right. Right? Like, I'm not a technical person, but I'm consuming 500 CPU cores in a VM instance, five GPUs, twenty four seven. I mean, you draw that out to any meaningful percentage of the population, I mean, we're gonna be in, you know, this kind of shortage environment maybe for some time. So I think that is all positive for this ROI question.
+
+Man, foxy, a 100 to one CPU to GPU ratio? Kind of a geometric workflow? Of course. Of Fine. Yes.
+
+Being smart with my spend. Good. Good. Good. Excellent.
+
+I will say also that ratio of 300 to one point, you know, call it 1.2, 1.5. There is also a rate that now physically we can only expand how much we can produce and how much we can actually increase that spend by. Whereas we're seeing the opposite right now on the willingness to pay for these tokens. Right. And actually, like when the willingness to pay for these when the monetization per gigawatt is actually increasing from, you know, call it like $20,000,000,000 in best of cases for at the beginning of the year to now like 30 to even pushing 40.
+
+Per gigawatt. Per gigawatt. All of that is very heavy fixed cost base, but all of that is like pure margin flow through now. And you're actually, you know, as we scale like the willingness to pay for all of this and now all of this stipulated by like, you know, everything we're talking about of like how much is open source versus not and all of these different flows. But really like as we're climbing this curve, you know, the revenue is might actually outstrip our fixed cost base by a significant amount.
+
+I think that's why all the labs are pushing, you know, gas to the pedal, because they all see like within if we continue this curve within like three years, we're just gonna be so short on all the computers. It's a great point. When you made these decisions in November 2025, you thought you were getting a certain return. You may be getting triple that return today. Metropic?
+
+No way did they think they were going to be anywhere close to break even this part of the curve. And the reason, like I called it accidental profitability, people have been talking about that, because they wanna spend a lot more money on compute. They've just had a hard time doing it. Now maybe with SpaceX, you know, they could take some of those dollars and and and go spend them other places. But that to me is, you know, a a fundamental change.
+
+The first argument against the Frontier Labs was they'll never generate revenue. And then that got blown up. Then it was like, even if they generate revenue, it'll be really shitty gross margins, and they'll never be able to make money. And then that's blown up. And I think now people are falling back and they're saying, well, they're overcharging.
+
+This is token maxing. My good friend, know, Jamath has said there's no ROI on any of this spend. It's all this token maxing. My best evidence for why we all know of course when somebody puts on this much spend like at Altimeter, we're not optimally spending every single dollar. But the question is why are millions of independent businesses small, medium and large why are millions of consumers all choosing to do the same thing?
+
+They're not dumb. These are rational economic actors that are all simultaneously saying I want to do this because it makes my life better, it makes my business better, etc. To me, that is the best evidence as to why I think this revenue can continue. Yeah. And Clark, I think, like, the point you made is dead on because, I mean, you want to own asset heavy businesses and inflationary environments and token pricing is going up and supply demand is tightening.
+
+So totally agree. You know, as we begin to find our way to the exit ramp and wrap here, one of the things I, you know, you and I have been doing this for a long time, Gavin, a couple decades. You may even skitch longer than me even though I'm a little bit older than you. You know, we have I always like to do a market check because I find a lot of time that analysts come on these things and they talk their book. And, you know, there are a lot of people who listen to these things, retail investors and others.
+
+It's just kinda like, what do we really think? And so I always characterize as kinda small, medium, and large. Like, what am I doing? Do I have small exposure on? Do I have medium exposure on?
+
+Do I have large exposure on? You know? And if you look at what's happened in the markets, semis ripped this year. I mean, like, you've been doing this a long time. I don't I've never seen it before.
+
+Right? I've never seen, you know, the doubles and the triples across the board like we saw, but there's been huge dispersion, right, in the market. Internet's down 16%. Software's down 8% on the year, spy and NASDAQ are up, but really up because of their components that are related to AI and compute. And so the market itself has kind of struggled.
+
+Meanwhile, if you were invested in, we've all done pretty well. I think, you know, I've said it a couple of times. I think if the anthropic revenue had not shown up this year because that was the overhang on the market, I think the whole market could be down this year. Right? But that showed up.
+
+We just had these huge months in April and May. For us, because prices came up so much, because I have some worry about geopolitics, the macro backdrop you know, with with what's going on with inflation in the short run. And just like, you know, needing a little consolidation in this market to answer some of these questions because now expectations are higher. You know, we dialed back from what I would call large for altimeter to something kind of like medium, small. Again, it's never all or nothing for us.
+
+It's like what is the risk reward at a given price? And so we think this is a, you know, maybe gonna be a period of consolidation on way to much higher highs. Curious just how you run the book, how you think about it like a portfolio manager. Very similarly, man. I always think stocks, the markets, I imagine them as runners.
+
+Yeah. Okay? And like in '22, that runner had gone downhill. It had a lot of energy. Painful.
+
+It was painful. It wasn't fun. But coming out of that, there was a lot of pent up upside in the market. And the market, particularly the last two months, it has run up a very steep hill. And a lot of companies, semiconductor companies in particular, ironically, NVIDIA and Broadcom, they have been laggards.
+
+-Totally. -And so But a lot of these Like, do see a lot on X about finding the next bottleneck. I think that was the last game. -Yes. Yes.
+
+-That game is over. You've had a lot of stocks that forget climbing a mountain or hill. Yes. They've gone straight up a cliff. Yes.
+
+Okay? Yes. They're tired. Yeah. They need to rest.
+
+Yeah. And we'll see. Do they just rest at the top of that cliff they climbed? Do they hang out in their harness We've for the last week. We've seen some retracement.
+
+Or do they need to go downhill for a bit? We'll see. But I'm thinking very similarly to you. But it is And I think there's The market is seasonal. I think there's concerns around inflation and rates.
+
+What was CPI this morning? It was 4.2. I think we added core came in at like 0.2 versus 0.3, so a little bit better. But, know, clearly we're above four again. Yeah.
+
+And and and there's short term pressure on, you know, core PCE, etcetera. And we have some unknown unknowns. But the market I mean, if I had told you the fact pattern for this year, that we're gonna be in a war with Iran, that, you know, oil was gonna be at a $100, that CPI was going to be creeping back up, that Internet was gonna be down 15%, software is gonna be down 8%. You would have said, want nothing to do with that market. Yeah.
+
+And here we are. The market's done pretty good in the stuff that we traffic in because the world underestimated AI revenues and underestimated the amount of compute that was going to be needed. I'd just say, you know, we're heading into a seasonally weak period with all of these fears. AI has actually been seasonal for the last three summers. That's interesting.
+
+Token consumption has kind of plateaued, slowed down, that's because college kids are big AI consumers, and they don't use as much AI. Hopefully, they're all using it to learn and not cheat. But that may happen. It may not happen because of a genetic 15 year old is building swarms of agents, building the SpaceX model. He's going to the SpaceX IPO with me at the exchange on Friday.
+
+But I he had to build an AI mod using AI agents. He had to build a model, a DCF, before we go to the exchange. He is mesmerized. He is absolutely and it's extraordinary what he's doing. So he's one kid who's not using less compute than the sum of He's burning it.
+
+He's burning it. Yeah. But, you know, if token consumption plateaus, if open source takes some share, there's a silicon data index that is showed, which is an index of consumption and pricing. I think there may have been a little bit of a shift over the last two weeks to open source tokens that are cheaper. I think people looking at that data as bearish or not understanding it.
+
+But nonetheless, I just think there's reasons to look around, be careful, be thoughtful. I always assume a bullet is coming for me, head on a swivel. It's the bullet you don't see that gets you, so I'm trying to spin as fast as I can. But yeah, the market may need to take a breather. But man, when I think about what Noam Brown said, when I see the capabilities of Fable, it's just hard for me to get too bearish.
+
+I mean, like, to me and we've got two, I think, of the most extraordinary guys of the next generation sitting in the room. At Altimeter, we have deep admiration for the work that you guys do. I always appreciate when you send me a note about the work that we do and we publish. But for the guys who are newer to the business, they might think this is the way that it kind of always was. Right?
+
+Yes. And like this line, Yeah. The steepening of the line of scale advantages. I always believed it was going to be true. I never thought it would be true at this rate.
+
+I went back last night. In the last seven years, we've added 1,000,000,000,000 of revenue to the MAG-seven. In the last seven years. Okay? To get to a trillion, to get to the first trillion took over twenty years.
+
+In the last seven, we added another trillion, and that added $17,000,000,000,000 in market cap. That trillion dollars. The forecast now that we're going to add another trillion of revenue in just three companies: SpaceX, Anthropic and OpenAI over the next four to five years. Not seven companies, three companies and in half the time. I would say that we are going to have bumps in the road.
+
+I know that it's going to be like this, but we're going to hire highs because the size of the prize. This is going to transform five, ten, 15% of global GDP. There is no doubt in my mind. And 10% of global GDP is $10,000,000,000,000. It's an exciting future to be a part of.
+
+It's fun to do it with you guys. I think we're gonna have to do our work to do the things to make sure America wins and that we evolve the social contract, keep everybody you know, lift the floor, take everybody with us on this ride. But it's a really exciting time to be doing what we're doing. It's fun to be doing it with you guys. Yeah.
+
+Just want say, Brad, thanks for having us, and thank you for what you've done with the Trump accounts. I actually think it's super important for America, for the world, to give people an equity stake at a very young age. They will see it compound over their lifetimes. This is a great thing you've done for the world, so thank you. I'd echo all your comments, like deep admiration for you, your team, gratitude for the collegiality and friendship between our firms.
+
+I know Clark and Foxy, they hang out like all the time. People think that, you know, and there are people in our business who don't want to share anything. Our view is like we open source it, but there are very few people who we actually call and ask their opinion because there are very few people who do the thousands of hours of work that we do that, you know, that are adding to that. And you do it and we appreciate that and you do as well Gavin, we appreciate that. So with that Love Fest, let's call it a wrap.
+
+Thanks for being here. Thank you. Thank you.
