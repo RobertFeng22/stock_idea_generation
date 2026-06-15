@@ -14,6 +14,7 @@ from anthropic import Anthropic
 
 from . import state
 from .analyze import analyze_transcript, synthesize_picks
+from .cache import cache_transcript, get_cached
 from .config import DATA_DIR, load_settings
 from .emailer import EpisodeResult, build_html, send_email
 from .feeds import list_recent_episodes
@@ -51,7 +52,15 @@ def run() -> int:
 
             transcript = None
             source = ""
-            if ep.transcripts:
+
+            # 0) Reuse a cached transcript if we've transcribed this episode before.
+            cached = get_cached(ep.podcast, ep.guid)
+            if cached:
+                transcript = cached
+                source = "cache"
+                print(f"    using cached transcript ({len(cached):,} chars).")
+
+            if not transcript and ep.transcripts:
                 transcript = fetch_transcript(ep.transcripts, session)
                 if transcript:
                     source = "feed"
@@ -72,6 +81,10 @@ def run() -> int:
                     )
                     if transcript:
                         source = "deepgram"
+
+            # Persist any freshly obtained transcript so reprocessing is free.
+            if transcript and source in ("feed", "deepgram"):
+                cache_transcript(ep.podcast, ep.guid, transcript)
 
             if not transcript:
                 note = "无音频链接" if not ep.audio_url else (

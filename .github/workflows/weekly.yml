@@ -45,7 +45,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen.json data/reports || true
+          git add data/seen.json data/reports data/transcripts || true
           if ! git diff --cached --quiet; then
             git commit -m "chore: update digest state [skip ci]"
             # Rebase on top of any newer commits so the push can't be rejected.
