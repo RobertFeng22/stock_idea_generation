@@ -1,0 +1,175 @@
+So there's a lot of noise about AI, but time's too tight for more promises. So let's talk about results. At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94% of common questions. Not noise.
+
+Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business, IBM. This episode of Hardfork is brought to you by our Hardfork live twenty twenty six sponsors. Premier sponsor, IBM. Associate sponsors, Everpure, Pure Leaf, and the University of Notre Dame, and supporting sponsor, Atlassian.
+
+Welcome back, Hard Fork listeners. This week, we are bringing you more interviews from Hard Fork Live and a special musical performance. Today, we are featuring an interview with Dylan Field, the CEO of Figma, as well as a musical performance by Dan Powell, one of the New York Times musicians and composers who works on the show and who was there in San Francisco at the live event as our DJ. Yeah. This is a really fun collection of segments, fascinating conversations with Figma's Dylan Field, and a just legendary performance from Dan Powell, is one of our favorite people.
+
+And one of the most fun things about working here is getting to hear dance cool music. We'll be back with more Hard Fork live on Friday, including a discussion with Daniel Cocatello and Syash Kapoor, a hang with Dwarkesh Patel, and we'll take questions live from the crowd. Now have those been screened in advance? No. Okay.
+
+They're firing from the hip. If you're still paying one of your biggest expenses, either rent or mortgage without BUILT, it's time for a change. BUILT is the membership for where you live that rewards you on rent, mortgage, and around your neighborhood. Every monthly housing payment earns you points that can be used toward flights, hotels, Lyft rides, amazon.com purchases, and more. Earn rewards and get something back wherever you live.
+
+Become a BILT member today at joinbilt.com/hardfork. That's joinbilt.com/hardfork. This episode is supported by KPMG. KPMG works with leading global organizations to redefine what's possible with AI. By becoming its own client zero, KPMG embedded AI and intelligent agents across the enterprise, accelerating how work gets done, how teams collaborate, and how decisions move.
+
+That approach established a blueprint for building AI capability at scale, one that now anchors how KPMG helps companies move faster with confidence. To see how KPMG can help your organization go further, visit www.kpmg.us/ai. That's www.kpmg.us/ai. Fast is only right when it's not reckless. Right now, pressure to adopt AI quickly is real.
+
+Your competitors feel it. Your board feels it. Moving fast without the right governance in place isn't a strategy. It's a risk. One Trust provides the visibility into what's moving across your organization, the intelligence to understand what it means, and the guardrails to keep everything in bounds so teams move with speed and confidence.
+
+That's AI ready governance. Governance that helps you go. Visit 1trust.combackslashai. Well, we have so much more to come tonight. I know it's hard to believe, but we are so excited for our next guest.
+
+Our next guest is the CEO of Figma, an AI and web based design application founded in 2012. It's Dylan Field. Dylan, welcome. Hey. Hey, guys.
+
+Happy to see you. Hey, Dylan. Hey. So, Dylan, I wanna start by reading you a Facebook message I got on 08/05/2009. Kevin.
+
+I recently picked up your book at the library. Just wanted to let you know how much I enjoyed it. Anyway, best of luck with your future endeavors. I'm going to Brown this fall. Who knows?
+
+Maybe I'll meet you in Providence someday. That message was sent by a teenage boy named Dylan Field, and I want to just, first of all, apologize. I never respond to that. So You can fix this. Can you imagine you write a book and a college student emails you out of the blue and you're like, yeah, whatever?
+
+It was, you know Get a lot going on. Lot going on in 2009. Anyway, I'm sorry for ghosting you. And second of all It was a good book. You shall read it.
+
+How did your freshman year of college go? It was awesome. Yeah. And I got to meet you. Yeah.
+
+Because I don't know if you remember, but for the acapella group that you were in, you came back as a super senior Mhmm. To hang out with everyone, I guess? Yeah. Including the new freshmen? Yeah.
+
+Well, it was it went so well that you dropped out and and moved to Silicon Valley to seek your fortune here, and it's been quite a run for you. Figma went public last year, has had a a wild ride, and I want to talk to you first about AI because I have heard that you are quite AI pilled, and I have seen on your social media accounts that you are constantly experimenting with AI, doing all these AI side projects. What are you doing, and then do you have AI psychosis? I I think it's best to front run the psychosis rather than, like, have it sneak up on you. You just gotta dive right in and you get it over with.
+
+But, yeah, I ask myself sometimes, and I don't think so right now. I think I've got a pretty reasonable take on what models are good at, where they're not so great, but it's it's really interesting to see the new capabilities. Right now, I'm vibe mapping. What's vibe mapping? Well, it's basically YouTube math but with AI.
+
+Are you proving Fermat's last theorem? What are No, you I'm not. Basically, I think it's just interesting to see how AI attacks these problems. The opposite of Figma. In Figma, we're a design platform.
+
+We often are evaluating the models, trying to see how good they are at design, what we should use, what we should put in our product, expose users, and it's the opposite of verifiable. You and I could look at something and disagree or agree on the merits of it and the design merits of it, but there are some domains like math, some aspects of computer science where things are correct or they're not. And so I I think it's really cool to see that range and the verifiable domains models are very good at now. Casey vibe mathed his way through high school. They flunked him, but I'm glad it's going better for you.
+
+I don't know. I I don't have any results, so just be very clear. I wanna hear a little bit more about, like, what direction you are taking in all of your AI use in as you sort of, you know, pursue these projects. This sounds like a lot of sort of, like, personal stuff that you're doing for fun. Is that just sort of, like, the curiosity of a lifelong learner, or is there something specific that you're trying to find?
+
+I find that just in general, the more that you like exporting technology, you don't know how it's gonna pay off or what benefit it will have, but ends up having some benefit in weird ways you can expect. I was very excited about NFTs early on and they became what they are now. They weren't called NFTs then. They're called Crypto Collectibles because that was a cool phrase. But, you know, it was like, whether it's that or, you know, WebGL, which led to Figma, I I just always try to explore stuff and, like, go deep on it, figure out new capabilities because you can find ways to use them.
+
+I have a theory that I wanna run past you, which is that, you know, that now you every startup founder, CEO in Silicon Valley is obsessed with vibe coding. They're all doing it on the weekends. They come in on Mondays, and then, you know, they say, why, you know, why are we building this thing? 50 people used to build this thing. I just built it in a weekend.
+
+It's driving their employees crazy. But I have I my theory about this is that this is this is reminding CEOs of what it was like when their jobs were fun. Do you agree with that statement? You said you're fearful of that. No.
+
+That's my theory. Oh, theory. Okay. Sorry. Misheard you.
+
+I think that people like to make things, and they like to design stuff, and they like to actually put their ideas out in the world in a more tangible way. And I think we're just gonna see more of it from everyone, not just CEOs trying to have fun on the weekend. Speaking of making stuff, Figma recently launched an ad campaign organized around the idea sort of making fun of the idea that design is dead. It's sort of a more common sentiment maybe in the era of AI. Make that case for us that design is not dead in a world where I can type what app I want into a box.
+
+This is a real roller coaster from my 2009 Facebook message, now to design is I'm covering it all. It's taking a turn. The look, I think that there's so many hot takes online. I'm sure you get a few of them an hour. Sure.
+
+I think when new models drop, everyone's looking for something that they can say is dead because on social media now it's like either you're so back or it's over. I prefer to be back. But no, mean in terms of the case, mean look like it's interesting to see folks catch up to the capabilities and it's like, yeah, you do a lot. But the average response from AI, whether it's the domain like writing, my hot take right now would be, I actually think that people that know how to write and actually engage in critical thinking around writing and it's a good time for them. It's a good time for them.
+
+Well, told me, but I think so. It's like half Yeah. The audience is applauding, and they're like, I don't know. Should we should we not? Is it too, like, are we sucking up?
+
+I mean, I think I think, like, you know, to the extent that writing is a showcase for your critical thinking abilities, like, yes, like, having great critical thinking skills are always, like, a a boon. Like is the But it's style. What's that? It's a style of writing. Sure.
+
+Like if you're funny, if you've got an actual like way you phrase things, if you have voice. And I I think it's especially true right now in a way that wasn't a few years ago. Like three, five years ago, I would have said, Oh man, there's a lot of people on social media that are writing really interesting things. We're in this world where there's substack and people are putting content there and it's really good. Now I look at that and I'm like, Man, it's a lot of clod.
+
+Maybe I'm over rotated even on identifying people that are basically using AI to write. Same thing is true for design. Folks are basically looking at these Web websites or applications and seeing the average. Maybe they're even over identifying it. But I think if you have a creative voice, writing or design, you put yourself out there and you take a risk, this is a good time to do that.
+
+It's something that's going to be rewarded. And I can imagine, you know, maybe in your view, there's a world where the fact that I can use an AI tool to quickly whip up a design might make me more interested in actually getting good. Right? And sort of like not settling for the first generation. Yeah.
+
+Exactly. It's like how do you not settle for the first draft, the first thing out there, the first output, and actually mold it and craft it and push it further. I think that the more you can do that, the more you'll send out and also the more you'll be differentiated. Think that there's going to be, we saw the data recently on the number of apps in the App Store. It went up a ton, but the number of apps actually being used and getting frequent traffic is still the same.
+
+So you're basically this hyper competitive environment now where you have to differentiate. You really have to lean in and figure out how to have a unique voice and a unique take and a point of view just like writing. The the big buzzword in San Francisco right now is taste. Everyone's talking about taste as the the sort of bulwark against being replaced by AI. If you have taste, you'll be fine.
+
+It's the first time taste has ever been a big subject in San Francisco, I think. Yes. This is a city that made all birds of things. Proudly tasteless since 1821. And then I've heard some people argue that, actually, taste is just the word we give to the stuff that the models aren't very good at yet.
+
+You know, researchers in AI used to say, oh, but they don't have taste. And then the models got better, and it was like, oh, wait a minute. Maybe they can do all of the taste parts of the job too. So is defend the concept of taste as being either important or cope from people who just haven't used the good models yet. I mean, the cycle seems to be the model comes out, you think it can do everything, you discover the limits, and then you realize that life goes on.
+
+Will at some point that be different and affect the world in a different way? Perhaps, we'll see. But so far it seems like everyone's adapting and part of that adaptation is realizing the sort of new average that's being put out by the models. And I think it's not even you don't even have to defend taste and people having taste because then we'd argue about do they? To just recognize people can detect the average.
+
+They can take that output and they can dare to do more. But I also do believe that this is a great time to be creative. I think that the more the models put out that's in distribution, because that's how the models are trained. They're trained on distribution of data. If you're in distribution and you're not actually pushing the bounds, I think that you're in a worse shape than if you're actually going and exploring the frontier of human knowledge, creativity, and what you can put on the world and making something that's finally new is an expression of yourself.
+
+So I get excited about that. I get excited about our opportunity to be the place where people can really unlock their creativity at Figma and or one of the places, there'll be many, and just like creating tools that can empower people. I'm curious if you're seeing a reaction in the world of art and design to AI and what that looks like. Right? You think back and the invention of the camera gets us impressionism.
+
+Do we have an analog for that yet in the design world now that AI makes design easier to access? I think it's interesting how we're seeing some of that reaction maybe in the world of marketing and advertising. I don't know if maybe it's happening in the art world. Like I would have expected by now that people be really into sculpture in a way that they're not or just things with textures and that'd be my art thesis. So probably don't hire me as an art advisor.
+
+But like I think that that's probably natural reaction is like lean into the things that are not digital. Whereas I think in advertising now we're seeing ways to prove authenticity, to prove that you are actually making something that is not generated by AI and some companies are really going for that. In the world of design, think that what we're going to see and what we are starting to see, a lot more interactivity, a lot more creativity, people really making software more of a creative medium. I think back to the early days of the Internet, and it was so fun. I feel like the last fifteen years or so, basically the time we've been working on Figma, we've been in a bit of a rut honestly.
+
+A lot of very monoculture takes when it comes to design and the way it expresses. The people that are trying to do hot takes in the audience will be like, Enfigma's to blame. Shame on you. Exactly. Casey said it.
+
+But no, I think that the more we can do to make it so that people can push further and actually create really dynamic interfaces as well as marketing and media in general, the better. Have you seen anything that's been AI generated in the realm of design or art that you think is really good? Like Casey turned me on to Fruit Love Island, which is now my You've all watched it. My favorite TV show slash TikTok series, but is there anything that you've seen that is clearly AI generated where you're like, oh, that's actually kind of fun and interesting? You know, yes, and also it wears off fast.
+
+I think it's just like any style I'm on season three of Fruit Love Island, so Okay. No it hasn't worn off yet. Not yet. The pineapple had no fair. The papaya and the banana are about to hook up.
+
+It's great. Oh, wow. Sounds tantalizing. I'll have to watch it tonight. I I I wanna come back to something that you were saying about writing earlier.
+
+It's just sort of been on my mind ever since you brought it up because you were bringing about the fact you know, we have Substack now and a lot more people are writing, which I agree with you is super cool. When Satya was here earlier, he brought up this post that he had read that was on Substack today. I happened to read the same post because it was on Techmeme. And I read it, and I'm just gonna say it, it was plot generated. Okay?
+
+And it irritated me as somebody who's always trying to get my stories on Techmeme because I'm like, I'm just reading, like, the output of a prompt. And so when I read that, my my honest feeling is like, this is not good for my profession. Like, my profession is starting to look more and more like slop. And so I just wonder, like, if there are designers in the in the audience, if they're having a similar feeling when the, you know, they're they're looking at the designs that they're seeing everywhere, they're just knowing that it was outputted with the touch of a button. Well, mean, one quality that writers and designers also share is impostor syndrome.
+
+Yeah. And it's good to label it so that you know it's there and you don't have to deal with it every day or as much. But I think designers are arguably in one of the best roles in technology. I'm talking to companies all the time, customers, they're telling me that they're hiring designers, sometimes they're not hiring others. But design is one of the most prioritized places in the company where they're hiring.
+
+Overall, folks are still hiring a lot. This also perplexes me. I mean, we're in a world where folks are saying that all the jobs are gonna get replaced and they're then turned around and they're like, oh, let me call the really good engineers so I can get them to join my team. So this doesn't make sense to me right now in general, but I am very, very bullish on design and the role it'll play in accelerating companies further. So you think like two years from today, like, are more people whose job title is designer than are than they have it today?
+
+How many years? Say two? Yeah. I think so. I think probably significantly more.
+
+And a lot of people that are doing other jobs, think will start calling themselves designers, creatives. You know, I think in general, we're seeing more of this kind of generalist vibe that people are feeling like they have to embody. One thing that's been interesting is a lot of engineers, kind of like you're saying, getting started on their design journey because they make something so vast and they're like, now what? And is it good enough? Maybe I should push it further.
+
+And then they kind of are trying to figure out, okay, how do I do that? So I'm pretty excited about that part too. Helping more people in as designers. I have a friend in the audience tonight who is a product manager who started out as a non technical person and is now able to create really amazing prototypes just you with the advanced AI tools. I can see a world where design gets, you know, added into that portfolio as well.
+
+Mhmm. I just think and I think that at the end of that, like, that job probably has a different name, like, than than PM? Maybe not. Not all that'll be great design, but the act of like considering it and being thoughtful what you're doing and then actually putting it out and taking risk, man, it's design. Dylan, this is a lot of high minded conversation.
+
+Let's gossip. Okay. About what? Earlier this year, Mike Krieger, former board member at Figma, a product lead at Anthropic, cofounder of Instagram, was sudden he suddenly resigned from your board, and just days later, Anthropic announced Claude Design, which feels a little Figma adjacent. So what the heck happened there?
+
+I mean, you just told a story. But, I mean, let me be clear. Like, Mike Mike is a a great dude, and yeah, he's one I I really care about. Would you let another AI lab executive onto your board in the future? Well, I mean, we saw how that went in terms of like, you know, unexpected products rolling out and so probably depends on what their ambitions are.
+
+Yeah. In a in a general sense, you're not gossip. You forget these people are there. Was just us just us birds. Sorry, y'all.
+
+Just us birds. In a general sense, I think a lot of CEOs are worried about the AI labs sort of integrating more vertically, like, you know, taking over insurance companies or accounting firms. We starting to see some of that happen where these labs are just kind of expanding into all the adjacent industries and really creating tough times for the companies in those industries already. Do you expect that to continue? Are these labs just kind of gonna continue to grow and grow and grow and just become these, like, amorphous blobs that just, you know, create havoc for all the the smaller startups in those fields?
+
+Well, I mean, let's tell a tale of two AI labs. You know, you got OpenAI and Anthropic, and OpenAI kind of went through that journey. They launched a lot of stuff, social network even, Sora, which I really enjoyed. I know you did too, Casey. That's some fun.
+
+Yeah. Yeah. Yeah. Anyway, so, you know, speaking of AI generation, I mean, did enjoy watching myself breakdance. And you'll see him do it again later tonight.
+
+With the robot. But anyway, yeah, I mean, I think that, you know, then they've made the hard call of actually shutting that down and focusing the efforts of the company, and that's a hard call to make, but respect that they did it. Then also I think you you've got Anthropic is kind of in its arc of being more expansionary, they're thinking, launching all that stuff. And I think you see what works and what doesn't, and then you see a year later what happens. I think the more interesting question is a year or two years out, where will they be playing still?
+
+Not everything works. It's hard to build product and get out in the world. What are some things that you think they will attempt and fail at? I don't know. Safety.
+
+Joking. Very good. That might be the best answer of Hard Fork Live twenty twenty six. Yeah. Very good.
+
+Very good. Dylan, you run a public company. It's enterprise SaaS. The market is very skeptical of that right now. Your job seems hard.
+
+How is it going for you, and do you think you convince the market that there is a bright future for you and your enterprise SaaS brethren? I I don't have to. Elon Musk is doing it. You're you're the son. Right?
+
+Yep. I mean, was it 22,900,000,000,000 on enterprise applications? Let's go. I'll I'll pretend to know what you mean. No.
+
+I mean, like but actually, mean, you put it out there and not go, wow. And software is huge. I mean, made it bigger than the entire space economy. Right. So, you know, two make of oh, okay.
+
+I'm I'm told we we only have a few minutes left, but I'm told that you have have a desire to talk about hyperstition. What is hyperstition, and why are we supposed to know about it? I guess someone from our team told you that. This, I mean, getting back to the abstract conversation, sorry y'all. But I mean, it's basically someone who's kind of like an Internet edge lord, came up with this term, don't look him up.
+
+But I do think there's like a really interesting idea here, which is how do you describe this phenomenon where ideas, memes summon their own existence? The two examples I think are really good at this, one is Bitcoin and the other one's AI. Why did Bitcoin work? There's every reason to believe in the world that Bitcoin would not work, and yet it just snowballed. Basically the more attention it got, the more basically strong it became.
+
+AI is the same way. There's all these folks that cared so much about safety, so much that they thought, okay, we got to do this in the right way. We got to form nonprofits and get together and all of us got to be in one place so that we can like really shepherd this technology into the future. And we've got make sure we don't create a race dynamic for example. We got to make sure that we have these complex corporate structures that we can make sure that this benefits humanity in the best way as possible.
+
+But then it's like, okay, well, there's a lot of really powerful stuff you can make with AI and people are people. It's hard to always get along and man, there's always an incentive to break apart. And well, hello, Race Dynamic. Here we are. I can I try to repeat back to you what I've heard so far, and you tell me if I'm right or not?
+
+High got Well, high precision, the way I I have heard of it is, like, in the sense of the AI is learning from what stories we tell about AI. So if you want AI to go well, you should like feed it a bunch of stories about AI being like really nice to humans. That's part of it too. I think that it's like also the case that AI is like painfully aware in some cases of all these tropes that are on the Internet about it. I'll talk to about the Google engineer that thought I was conscious.
+
+I'll talk with you about the stories around science fiction and the ways that it's been depicted. It's very aware. It's all in the train set. There's not as much information for some reason in the train set, dataset of these stories where it goes well. But I actually do think there's an optimistic future for humanity.
+
+And I know that's a hot take now for some reason, but I I want to believe that every day. And I think that it's on all of us to tell those stories too of how it does go well. And so it might be a good time to write some stories about how things could go well just to make sure it gets to the training day. Exactly. You got it.
+
+You have your homework for this evening. Dylan Field, thank you Thanks, so much for giving guys. Thank you. Thanks so much, Dylan. Thank you.
+
+Have a good night. Thank you. Alright. Hyperstition. When we come back, more from Hard Fork live.
+
+Modern enterprise today is super complex. Comcast Business helps orchestrate it all with SD WAN keeping 150 hospital locations connected and zero trust security protecting a bank's 2,000 branches. No one does business like Comcast Business. There's no playbook for modern work, but on the podcast Work Life, company builder Molly Graham talks with operators and leaders from the most well known companies like Facebook and Instacart about how they make decisions, redefine success, and navigate change as tech's impact on work continues to grow. From leadership to AI to the uncertainty of it all, tune in for convos that go deeper than your typical work advice.
+
+Find Work Life, a podcast from TED, wherever you get your podcasts. When you're at work, you never know when you'll be interrupted. But with the Dell Pro powered by Intel Core Ultra with vPro, no matter what distracts you, your laptop won't. It's battery optimized for the way you work with built in intelligence that quiets distractions when you need to focus. Your laptop will help keep you locked in even when it's bring your dog to work day.
+
+Built for those who stay in the flow. The Dell Pro, built for you. Dell.com/dell-pro. Please welcome to the stage New York Time composer Dan Powell and his robot choir. Dan Powell.
+
+Dan Powell and the incredible Hard Fork choir. You know, Dan, in addition to being our DJ tonight, also composed the Hard Fork theme song and so much of the other amazing music on the show. Thank you, Dan, for coming out tonight. Rarely has a human losing a job to automation sounded so beautiful. Yeah.
+
+So those robots are made by Teenage Engineering, and they are part of a choir that takes in input via MIDI and Bluetooth and outputs Beautiful songs, and only occasionally do they need to be, like, wrapped on the head to to behave. But I'm told that feels good for them. Yeah. Yeah. Yeah.
+
+They like it. Yeah. When you're at work, you never know when you'll be interrupted. But with the Dell Pro powered by Intel Core Ultra with vPro, no matter what distracts you, your laptop won't. It's battery optimized for the way you work with built in intelligence that quiets distractions when you need to focus.
+
+Your laptop will help keep you locked in even when it's bring your dog to work day. Built for those who stay in the flow. The Dell Pro, built for you. Dell.com/dell-pro. There's no playbook for modern work, but on the podcast Work Life, company builder Molly Graham talks with operators and leaders from the most well known companies like Facebook and Instacart about how they make decisions, redefine success, and navigate change as tech's impact on work continues to grow.
+
+From leadership to AI to the uncertainty of it all, tune in for convos that go deeper than your typical work advice. Find Work Life, a podcast from Ted wherever you get your podcasts. Modern enterprise today is super complex. Comcast Business helps orchestrate it all with SD WAN keeping 150 hospital locations connected and zero trust security protecting a bank's 2,000 branches. No one does business like Comcast Business.
+
+Hot Fork is produced by Whitney Jones and Rachel Cone. We're edited by Veer and Pavich. We're fact checked by Caitlin Love. Today's show was engineered by Alyssa Moxley. Original music by Felicia Baetup, Marian Lozano, Diane Wong, Rowan Nemisto, and Dan Powell.
+
+Video production by Soya Roke, Jake Nicholl, and Chris Schott. Special thanks to the New York Times live event team, Hillary Kuhn, Beth Weinstein, Caitlin Roper, Chantal Rennier, Melissa Tripoli, Natalie Green, Kirsten Birmingham, Marissa Frena, Jennifer Feeney, Morgan Singer, Dana Przkowski, Hailey Duffy, Yen Wei Liu, Matt Kaiser, Sarah Cheever, Johnny Marola, Victoria Kim, and SV Productions. Thanks to everybody at the Yerba Buena Center for the Arts and the Blue Shield of California Theater, and a special thanks to Paula Schumann, Huiwink Tam, and Dahlia Haddad. You can email us at hardfork@NYTimes.com with all your photos from the event. At Nature's Bounty, the belief is simple.
+
+You already have a brilliant body. Supplements just help support your journey. For over fifty years, Nature's Bounty has offered vitamins and supplements to help you sleep, thrive, repeat. From magnesium glycinate for heart and muscle support to hair growth capsules for fuller, thicker hair, and probiotics with 20,000,000,000 live cultures for digestion. Nature's It's in your nature to thrive.
+
+Learn more at naturesbounty.com. These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.

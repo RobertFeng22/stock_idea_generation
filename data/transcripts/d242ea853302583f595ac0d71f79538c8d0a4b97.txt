@@ -1,0 +1,351 @@
+Starting a tech company is thrilling. It's also really messy. Just ask anyone who's done it or anyone who's tried. Better yet, ask They've seen startups at their best moments. Knows you don't start a company to burn cycle on regulatory hoops, discounted cash flows, or the fine print of SEC form s one.
+
+You can't ignore it. That's how risk compounds. What you can do is work with They'll help you get it right early so you can stay in builder mode. Learn more at ey.com/techstartups. This episode of Hardfork is brought to you by our Hardfork Live twenty twenty six sponsors.
+
+Premier sponsor IBM, associate sponsors Everpure, Pure Leaf, and the University of Notre Dame, and supporting sponsor Atlassian. Well, Casey, we are still on our annual summer vacation. And can you believe there is yet more amazing stuff from Hard Fork Live that we have not shared with our podcast listeners? There is. In particular, we had a really fun discussion at the event between Daniel Cocatello and Saesh Kapoor who have somewhat different views of how fast the AI conversation is gonna go.
+
+We've heard them debate before. We wanted to sort of have an updated discussion with them now that it's been, like, you know, getting close to a year since the last time they had it. So I think you'll really enjoy hearing what they have to say about that. We also had the great podcaster, Dwarkash Patel, stop by and hang out with a bit, tell us a little bit about what is on his mind. And just to round it out, we took some live q and a and heard what was on the minds of our audience after a spectacular Hard Fork live two.
+
+So these are all conversations that I would classify in sort of the same bucket of, like, insider sense making. People who are deeply enmeshed in the AI scene in San Francisco trying to understand and explain what is going on, the pace of progress, the trajectory of these models to the outside world. And Syosh, Daniel, and Dwarkash are among the three most gifted people I have ever heard try to explain this stuff to an outside world that doesn't always know exactly what's going on. It's a great set of conversations. We think you'll really enjoy it.
+
+This is our final installment of our episodes from Hard Fork Live two. We will be back in two weeks to our regularly scheduled Hard Fork programming. In the meantime, enjoy your summer. Wear sunscreen. So this next segment, I am so excited for because we're gonna have a conversation with two people who have very different views about how AI is going right now.
+
+Yes. We have Daniel Cocatello with us tonight. He is the coauthor of AI 2027, a report that many of you, I'm sure, have read. This came out in 2025 and laid out a vivid scenario or account of how AI could fundamentally upend the world, achieving tasks like autonomous coding and R and D. He's since updated that prediction a few times.
+
+We'll ask him about that. And he'll be joined by Syash Kapoor, who is an AI researcher at Princeton with a very different view of the future. He's the coauthor of AI as Normal Technology, which looks at evidence that AI is much like previous technologies that have upended the economy, that take a long time to diffuse through society. We've invited them both here tonight because we saw last year a very interesting debate that the two of them had at an AI conference called The Curve. We thought it was so interesting that we decided to bring them back tonight and hear how their views have evolved since then and where they continue to disagree and where they might agree now.
+
+So please give a warm welcome to Daniel Cocatello and Syosh Kapoor. Is he with us? Hey, Daniel. Hey, Syosh. Alright.
+
+So, Daniel, Kevin mentioned this up top. You have updated your timelines a few times since you first published AI 2027. Give us the most up to date view of your thinking. What's your best estimate for when we will achieve AI models that can do their own AI r and d? Probably 50% by late twenty twenty eight.
+
+Okay. That's soon. I'm I'm I'm thinking about the calendar. That's two Yeah. That's, like, a little bit later than Anthropic expects, I think.
+
+Things take longer than you you plan for. You know? Which is a point that Syosh makes sometimes. Syosh, can you summarize where your views are today? My sense is that you do not believe in the sort of sudden takeoff scenario that some other observers believe in.
+
+That's exactly right. I think the main reason for that is basically this disagreement boils down to the whether the bottlenecks to this intelligence explosion, the bottlenecks to automating R and D are all computational, or whether they rely on real world bottlenecks that will be really hard to automate away. So I guess this is one place where we disagree. I think that in a lot of domains, making these advances won't be as easy as it had brain coding. To really get to artificial superintelligence, you need to cover all of these different domains.
+
+You need sample efficiency across the board, which is much easier to do in a field like programming where you have these simulators, these virtual environments, but much harder to do in the real world. And, you know, some evidence bears this out. Adoption of AI systems has been indeed far slower in other domains as opposed to coding. So give us an example of what these bottlenecks are. So I talked to a lot of AI researcher folks, and to them, at least the way they make it sound to me is, eventually the model just gets good enough and then it's game over.
+
+You're saying that there's something that exists called a real world, and I'd like to hear more about it. I mean, look, to be honest, I think these are just two independent, self consistent worldviews about the future of AI. And the reason that Daniel and I have had such productive conversations is that we are basically trying to figure out where these worldviews differ. Now, speaking of, I think, like Daniel's actions and Daniel's predictions are entirely self consistent with the worldview that we'll get to AI systems at this point. Unfortunately, in order to get evidence we're going one way or the other, we need to actually carry out lots of evaluations.
+
+We need evaluations to be of a much higher standard than we have today. So to give you one example of a bottleneck, the other day I was talking to a lawyer friend of mine and he uses these tools. He's very bullish about them. But what has turned out to be the case is as he started using these tools for bigger and bigger tasks, the rate of hallucinations, the rate of unreliable outputs has sort of remained the same, right? It's not because the AI systems haven't gotten better, they indeed have.
+
+They are so much better today than they were just a year ago. But the fact is that the tasks that you can do with these systems actually are bounded by the rate of hallucinations or the reliability. That's one place where AI systems continue to struggle. In a domain like software engineering where you have this instant feedback loop where you can actually run the code and see what the output would be, it's a much easier bottleneck to address as opposed to something like the law where even the right answer is not obvious to a domain expert. Domain experts can reasonably differ in the approach that they take.
+
+So this is just one example of a bottleneck in a domain where the right answer can be a bit more subjective than encoding. Daniel, I think when AI twenty twenty seven first came out, there were some people who dismissed it as sort of speculation or scary science fiction was a term that some people were throwing around a lot. I I I reported on this. I talked to you and your your co authors then. I know that you grounded this in, like, real, like forecasting work, like months of trying to figure out what would happen as the technology got better, and I will say like a lot of that has come true already.
+
+So you predicted in your AI 2027 that we would start to see large parts of coding become automated. That much has come true. I was reading today, someone was copying and pasting something that you had written about Frontier Labs sort of restricting the use of their models for Frontier LLM development, something that has happened this week with Claude Fable. So what are the things that you think will happen if your scenario continues to mostly hold for, let's call it, the rest of 2026? What are we gonna see this year?
+
+So we're not gonna see an intelligence explosion this year in the scenario that happens next year. That's close. So that's nice. I think explosion being recursive self improvement leading to That's right. Sort of out of control, runaway, superhuman AI.
+
+Yeah. Or to put it another way, just fully automating the AI research process causing AI research to happen even faster than it currently happens. And it's currently happening at a very fast rate compared to many other technologies. But yeah, I would say the coding agents are just gonna get better and better and that maybe a year from now, maybe two years from now, they will be good enough that you can sort of say they've automated coding fully. They haven't fully automated coding yet, but like maybe in a year or two, they'll have fully automated coding.
+
+At which point the bottleneck will be research taste and management and all the other aspects of the AI research process besides the actual coding. Then the companies are going to turn towards resolving those bottlenecks and teaching their AIs to do those skills as well and that's going to take some time but it's going to go by faster than you might think when all the coding has been automated. Once they've finished doing those things, they won't have super intelligence immediately. You know, the first AI system that can do the complete AI research process probably won't be able to do various other things. But once they've fully automated the AI research process, things will probably go faster and faster And then the type of system that can do absolutely everything is probably not far off.
+
+Syosh, do you believe this sort of recursive self improvement is possible? I mean, in some sense, I think the process of recursive self improvement started like six decades ago. In fact, the entire history of computing has been one where we develop tools that then aid us in the development of better tools. We've developed compilers that have allowed us to be like two orders of magnitude better at programming. We've developed frameworks on top of that, we've developed entire systems and libraries that allow us to do things that would, frankly, take an experienced software engineer years or decades of time if they were using assembly language.
+
+So I think in some sense, loop has been kickstarted already. This loop is something that the entire history of computing bears out. What I disagree with in terms of Daniel's predictions is whether this process will naturally lead us to a point where we develop the automated AI R and D researcher, or whether humans will continue to have this edge and teams of humans with AI will continue to outperform AI alone, and whether this process will lead to artificial superintelligence. I actually think that it's a very plausible scenario for me that we get the sort of recursive self improvement that AI systems do indeed continue performing better and better at AI research tasks. But the end process of that need not be ASI.
+
+The end process could just be far more capable models than we have today, perhaps following the trend of previous technologies, and yet not the point where we have, you know, these systems that outperform humans, the top human experts and everything, which is, I believe, the definition of ASI. Perhaps we should talk about the the point of agreement. Yeah, yeah. What's the point of agreement? Yeah, so we wrote this blog post together, the authors of AI as a Normal Technology and AI 2027, where we talked about the things that we agree on.
+
+Correct me if I'm misstating it, but roughly speaking, we talk about what you might call strong AGI or like humans in the cloud, like AIs that can sort of do all the cognitive tasks or the tasks you can do at your computer as well as professional humans or as well as the best professional humans. And you know, I guess the headline is, I agree that AIs that aren't that powerful are still normal technologies. And they agree that AIs that are that powerful are not normal technologies. Exactly. Or like the normal technology thesis sort of stops being accurate or helpful in a world where we have, like, humans in the cloud, let's say.
+
+Yeah. The the reason that we, you know, spend this time talking about recursive self improvement is that, you know, RSI is kind of the the moment that observers believe is, like, kind of the scariest moment in the development of AI. Right? It's like it becomes ever harder to control. And so how far away are we from it and is it possible, I think, are probably two of the most important questions that we will ever ask on the podcast.
+
+You know, having heard your, you know, what sounded to like very, you know, sensible objections to to why it may not be possible anytime soon and I and understanding, Daniel, you know, why you do think it's possible. I'm curious, like, if at the very least, like, you hope Syosh is right. You know? Like, would you breathe a sigh of relief? Yeah.
+
+I would love it if you're right. Okay. Yeah. Okay. Thank you, Daniel.
+
+But what you see that makes you think that he's not right? So I think that like I've tried to spend some time thinking about like what are the barriers, what are the bottlenecks that could block Anthropic from succeeding in their stated plans and none of them really seem that strong to me basically. Yeah. So we can we can go through them like bit by bit. Like data efficiency you mentioned, it does seem like AIs currently are less data efficient than humans but that also seems like something that companies could probably make rapid progress on if they tried.
+
+And also separately, it may not actually be that important for automating the AI research process. It might be that you can sort of like 99% automate the AI research process without getting that data efficiency to human level. Then even though that's not like quite there, even a 99% automation would speed things up quite a lot, which would then allow you to do, you know, a decade or two decades worth of research in a year perhaps, you know? So those are I think my two arguments for why it seems like we're bringing it pretty close. Another argument, a sort of meta argument that I would make is that I feel like there's been a long history of AI scientists and other commenters making claims about what AIs can't do, like various walls that deep learning is going to hit, and they just keep getting smashed through almost as soon as people are making the claims.
+
+And I just feel like that's probably what's gonna happen with data efficiency, for example. Yeah. Let let let us pause there because that actually seems really important to me because that's been my observation as well. And it's why I'm am more inclined to believe the labs when they make grand pronouncements. Right?
+
+So, Sajas, I'm curious, like, what is your relationship to that? Because you've also seen these models come along and blow away the benchmarks and see the evals get saturated and we have to make new ones. In fact, you've been making your own evals because the old ones got saturated. Yeah. I mean, we've worked on several evals that, for example, Anthropic has used.
+
+And for saturated with the release of Opus 4.5, we were the first ones to say that, look, this is, like, solved now. And I think this progress will continue. I think as long as we can specify things well enough, we'll continue to build AI systems that can solve those tasks. Where I differ perhaps is whether the natural endpoint of this process is something like we solve data efficiency. I'm skeptical about that for a couple of reasons.
+
+First, sample efficiency or data efficiency is not the only bottleneck to getting what we call humans in the Cloud earlier. If you look at past progress in AI, we've continued to develop these more general systems, but at any given level of generality, we've been really bad at predicting what the bottlenecks to the next level are. We've been really bad at knowing when we solve those bottlenecks and what underlying transformative breakthroughs are needed to solve them. And as evidence of that, perhaps we can take the transformer moment, and before that we can take all of the skepticism about neural networks that pervaded the research community in AI. And it took a matter of a few years until the community pivoted, and now everyone is all in on transformers.
+
+But perhaps that's not the right architectural choice either. Perhaps you're sort of yet to discover these new architectures that would allow us to make these data efficient AI systems, and perhaps those who will still not be enough to get us to the point where we have the sample efficiency of humans in the cloud. So that's sort of the broad stroke of things. I think the AI community in general has been really accurate about near term predictions, about things that are within the event horizon, so to say, and has been really bad at predicting transformative shifts that sort of change the entire research paradigm. And maybe, like credit where credit is due, think Daniel was one of the few people who got some things right in his report from 2021, was it, about what 2025 looks like?
+
+But in general, I would say the community has a very poor track record. Well, say more, but, like, what's a prediction that they made that just wasn't true at all? Come again? Like like, what is that prediction that the AI industry made that just was not true at all? I guess, like, the entire skepticism about neural networks.
+
+So from the 1990s to the 2010s, the entire AI community has dismissed neural networks as a joke. Basically, you could count the number of researchers who took you seriously if you worked on neural networks on two hands. And it was only through the persistence of a few people like Fei Fei Li, who released this big data set that led to the deep learning revolution, and Joshua and Yan and Geoffrey Hinton, who later went on to win the Turing Award for their work on deep learning, that this sort of subfield persisted and eventually was able to disprove claims of skeptics. In the same way, I think the AI community might be hurting too much around, let's say, transformer based models right now, and perhaps at the expense of other transformative improvements that are breakthrough improvements that are sort of being sidelined because of this community single-minded focus on it. I think an experience that you both have in common and that Casey and I also share is writing things that we think are very measured and careful and precise and then just having people interpret them in the wildest possible ways.
+
+You both published your sort of breakout essays, scenarios, and it was immediately both of them were sort of seized on by these polarized camps. You know, David Sacks, the former White House advisor, was was, you know, posting things about AI being a normal technology and sort of agreeing with you and taking issue with you for changing your forecast and, oh my god, the doomers are are are, you know, are backed into a corner now. Gary Marcus and J. D. Vance and all Bernie Sanders and all kinds of people have used your arguments in support of kind of whatever they already believed.
+
+How has that been to watch your work ripple out in maybe these ways that aren't what you expected? Well, I guess I'll go first. It's been a sort of a leap of faith, faith in humanity. At OpenAI I was doing scenario forecasts like this too, much smaller, low effort versions, but they were just for internal use only, like I wouldn't be allowed to publish them. And it seemed to me that the world really needs to wake up to AI and what's coming and start thinking more seriously about it.
+
+And, you know, the discourse is not necessarily so great and there's lots of terrible people, and lots of terrible takes and, you know, it's very chaotic and confusing, but, we at Air Futures Project are sort of making a bet that like, well, we should say what we think is coming. We should be clear. We should be articulate. We should explain our reasoning. The discourse will get rolling, lots of people will say lots of things.
+
+Hopefully in the end it will converge towards the truth. Hopefully in the end it will converge towards better decision making on average. And we'll see what happens. I have faith. Syash?
+
+I guess the biggest surprise for me was how few people read things in-depth. I mean Yeah. Like, it was honestly shocking. Like, in the first line of the essay, we compare AI to the Internet or perhaps the electricity, like, electrical revolution. We talk about AI's impact as sort of being at par with perhaps the first industrial revolution.
+
+And people put us in the same camp as Gary Marcus sometimes, which is just honestly shocking. But, you know, like one level deeper, I think it has been really nice to see sort of these intellectual communities use these essays to advance their intellectual thinking. I think perhaps the biggest surprise to me was the fact that, like, our essay and perhaps both of our essays were sort of taken so seriously by people who are thinking deeply about the future of AI, and that was really heartwarming. Looking back, have you ever, like, had second thoughts about using the adjective normal to describe AI? Because I I read your writing, and I think it's beautifully argued, and I share it widely with folks to sort of help them explore, you know, reasons why AI may diffuse more slowly than other folks think.
+
+And yet I I have never really thought that AI was all that normal. You know what I mean? I do understand that. I mean, I guess part of it is the fact that we have been in these cycles of discourse where at least the people who are thinking seriously about AI take it for granted that AI is transformative, and we do too. Now, within that discourse as well, there's this huge spectrum of opinions, right?
+
+Like, even just between the two of us, I think AI will be as impactful as the Internet. Daniel perhaps thinks this is the most important invention in the history of humanity. And, you know, how do you put yourselves on that spectrum? So this was the debate that we felt was really worth having. Like, we're not interested in the takes of people who think there's nothing to see here.
+
+Like, we actively sort of distance ourselves from that, let's say, the first paragraph of the essay in a lot of our writing. And I think this is the debate that's worth having. So within the context of this debate, I don't know, like I feel like it's a fair description of where we lie on the spectrum. And I don't know if you agree, Daniel, but I think it's also been helpful between us to clarify where we stand under this technology and to just say that today's AI is normal technology, think is like a really powerful statement. Of course, this doesn't discount the importance of the technology.
+
+It does not discount the importance of taking its societal impact seriously. But it does sort of put things into perspective compared to the view that Daniel perhaps has about the future of AI. So, you know, AI 2027, because it warns us that these sort of very disruptive changes are coming very soon, has a sort of, like, natural set of policy responses that we might want to see in response to that. What is the right policy response to AI's own normal technology and it's going to take longer than Daniel says? I mean, one thing that I don't know if you'll find surprising, but maybe many people here will find surprising is that Daniel and I share a lot of common ground when it comes to policy responses.
+
+I think both of us value transparency immensely. Both of us value the ability of external third parties to be able to see what's going on inside companies. In fact, I mean, we were just talking backstage about Anthropic's release of Fable five and the fact that the model purposefully is degraded for tasks involving AI R and D. And I think I speak for both of us when I say that this is a very dangerous precedent. We shouldn't be fine tuning our models in such a way that they lie to the customers.
+
+Companies shouldn't be sort of allowed to do this. They should act in good faith. And so that's the sort of thing where we have a lot of policy agreement. I do think there are areas where we diverge. For example, might be sort of in these more aggressive scenarios, you might want a conditional slowdown, you might want companies to pause.
+
+Whereas when you consider AI as normal technology, the benefits of diffusion of AI and the development of more capable AI systems perhaps outweigh the risks a little bit more. But at least in the near term, and it was funny when we sort of I spoke to Thomas, who is another one of the coauthors of AI Train 27, we spent hours trying to figure out where it is on the timelines that we actually disagree. It was funny because we couldn't find any near term disagreements. I mean, we wrote this blog post together where we say that I agree completely with the events of AI 2027, or like at least find them plausible until the end of 2026, which is a long time we heard this last year. And so in some sense, I think there is much more common ground in terms of policy than you might think.
+
+You guys are being much too agreeable. Daniel, what is something you are worried about more than Syosh is? And then I'll ask the same question of Syosh. What is an AI risk that concerns you more than you think it concerns Syosh? Well, in general, you know, strong AGI or, you know, superintelligence, that sort of thing.
+
+Main one would be loss of control. Number two would be concentration of power. There's a whole bunch of other ones besides that, but I'll stop there. I can elaborate if you like. Those seem pretty bad.
+
+Yeah. Syash, what about you? Actually, this is another thing we were just talking about backstage. I mean, I was surprised to hear that we disagree far more or, like, I'm far more concerned about military uses of AI than Daniel is. I mean, it's on the list.
+
+It's just Perhaps. Yeah. It's true. A couple notches down. But I mean, like, as you both know, in the essay, we explicitly carved out military air because we felt like we weren't the right people to comment on it.
+
+And, you know, people who are experts on this, like Michael Horowitz, have used our frame to argue that military air, at least today, is a normal technology in this view as well. But frankly, the actions that are being taken by countries worldwide, by nation states, are pretty alarming. I mean, I think we shouldn't take it for granted that companies or countries can use killbots. And that is not something that requires further technological investment either. It's not something where we have any technical bottlenecks we can use, like off the shelf computer vision libraries to basically build killer robots today.
+
+It is actually something where we need to exercise a lot of agency. And I'm not really positive about where things are going right now on that front. Well, I truly believe that whatever is about to happen to us lies somewhere in between the views of these two people. So we will continue to pay very close attention to your work. Thank you so much, Daniel and Sayash.
+
+Thank you for joining us. Thanks, guys. That was fun. Thank you. Thank you.
+
+Thank you. Thanks, guys. We'll be back with more Hartfolk Live after these messages. Fast is only right when it's not reckless. Right now, pressure to adopt AI quickly is real.
+
+Your competitors feel it. Your board feels it. Moving fast without the right governance in place isn't a strategy. It's a risk. One Trust provides the visibility into what's moving across your organization, the intelligence to understand what it means, and the guardrails to keep everything in bounds.
+
+So teams move with speed and confidence. That's AI ready governance. Governance that helps you go. Visit 1trust.combackslashai. Hardfork is supported by Adio, the AI CRM that knows what's going on.
+
+Set up in minutes, get powerfully enriched insights, and surface context on every deal. Need to prep for a meeting? Done. Got a follow-up to write? Drafted.
+
+Ready to close this deal? Just ask Adio. With Universal Context, Adio's intelligence layer, you can search, update, and create with AI across your entire business. Ask more from your CRM. Ask Adio.
+
+Try Adio for free by going to adio.com/hardfork. That's attio.com/hardfork. Starting a tech company is thrilling. It's also really messy. Just ask anyone who's done it or anyone who's tried.
+
+Better yet, ask They've seen startups at their best moments. Knows you don't start a company to burn cycles on regulatory hoops, discounted cash flows, or the fine print of SEC form s one. You can't ignore it. That's how risk compounds. What you can do is work with They'll help you get it right early so you can stay in builder mode.
+
+Learn more at ey.com/techstartups. One thing we know for sure is that no matter what happens with the future of AI, it will be extremely fun to talk about robots. Yes. So we have already shown you, I think, more than 10 robots tonight, including members of our robot choir, but we have one more very special robot guest tonight. We are about to bring on George Eckis.
+
+He is the director of engineering at TuberLife AI, a robotics company in Silicon Valley that is one of the leading distributors of humanoid robots, specifically these unit tree robots from China. And we are going to be joined by George and Toby the robot. George and Toby, come on out. Thanks for having me. Good to see you.
+
+George. You're a very convincing humanoid. Oh, no. Wait. That's Toby.
+
+Do we do we shake hands? Okay. Let's try it here. Hi. What?
+
+Short king. It's great. I appreciate the weak grip strength. It gives me comfort. Yeah.
+
+It's sort of like a dead fish handshake. Yeah. Now he is advancing on me. Alright. Oh, okay.
+
+Wow. Yeah. Now we're gonna talk about all of the things that Toby and his brethren can do, but we heard that Toby can actually dance. Is that true? That is the case.
+
+Okay. Can we see that? Toby, can you dance for us? Dan, will you help us out? Hit it, DJ.
+
+Jesus Christ. Listen, we've all been there. Sometimes you just dance to the drop. This robot left it all on the dance floor, ladies and gentlemen. Could have been an operator.
+
+You. Thank you, Toby, for your sacrifice. You will not be forgotten. We'll add you to the in memoriam next year. Now, is Toby capable of okay?
+
+Yeah. Probably just misclick on the controller end. Oh. Oh, okay. We're still back.
+
+He's fine. They're quite durable. Yeah. Oh my god. That was not in the script.
+
+Yeah. No. Feel I'm sorry. We've we've traumatized our audience here tonight. I'm so sorry.
+
+Now, George, were you the choreographer on that? Or Nope. Okay. Well, it was great choreography. So, George, what is the use case for these other than doing dance demos and sometimes following over?
+
+Who is buying and renting these humanoid robots from your company and what are they doing with them? Well, right now the early market for the humanoids is the research market. People want to collect a lot of data. You guys had the Neo folks on Burnt, right? And they're deploying the humanoids into households to try to collect a lot of data in households.
+
+People with the unitary robots are also targeting different use cases, different companies are pursuing different verticals with them and trying to get big data sets and train models on these humanoids. There are also a set of robots that we also sell which are more reliable, more industrial right now called quadrupeds and probably easier just to remember them as the dog robots. You can put lidar on them. Can put But different mask goes Mark Zuckerberg or Elon Musk on them. We we saw that earlier tonight.
+
+Yes. I forgot about that. Yeah. Somehow. Somehow I forgot about that.
+
+But they are practical for like inspection use cases or security patrols. So, that those are kind of being pushed out into industry and applications more and these are on the edge of research and acquiring data to build policies. How much does one of these cost? They range in cost if you want one to just dance around. I don't remember the exact figure on the low level dancing ones, but they're less than the ones that you could put dextrous hands on and then go and collect manipulation data with on tasks.
+
+So you collect data from doing tasks with them. So like more or less than $10,000? More. More. More.
+
+Okay. That that's a great question. The the ones I was getting to are like in the 50 to 70 range. The ones with the hands. So that like a like a mid range sports car?
+
+Yes. Yeah. Alright. I have to say it did not inspire a lot of confidence in me to learn that the primary use case for these robots is data collection. I mean, I think the vision is that these things, as we saw when we talked with Bert from from 1X about their robot, as we're we're hearing about these industry robots, the dream is that these things will just be in your house and will be doing chores for you, folding laundry, doing the dishes, cleaning the house.
+
+What is the timeline for that? Do you think that is realistic? Should people be pre ordering now in hopes of automating their chores forever? Where are we on the chore spectrum? I I think Bernd's very optimistic.
+
+I I'd put it a few more years out than he would on terms of being in your house but in terms of maybe operating an industrial setting where they can maybe load up a fabricator or something with a material or a part. I I think that's in the next couple years and there's actually early implementations of that and by like Figure and Unitree and Unitree in their factory, Figure in the BMW factory. So people are doing that with these, but the widespread adoption I believe in the next couple years will happen in those settings. Let me ask one question about the data collection. Some security researchers have claimed that unit tree robots might have a backdoor that could allow remote users to control or monitor what they're seeing.
+
+Is can Toby send the data to China? So they do send logging data to China just like every other Chinese thing that you can own like a computer or any other computer chip based thing that connects to the Internet that sends logging data. They send that but they don't actually like there hasn't been an established thing that sends camera data or telemetry data of the joints to China. So there there are things that people will be like, it sends data to China. It's like, yeah, and your computer sends data to Microsoft and it's because your computer crashed and it needs to send data to Microsoft.
+
+Right. I think the difference is in this case, the industry is a Chinese company and some members of Congress have become very worried about the fact that these are now being sold in The United States. Some have even proposed banning the importation of these specific unitary robots. How likely do you think that is? And would that be a big hit to your business?
+
+What's your plan if they ban these? Certainly be problematic. There's not a lot of Americans alternative. Yeah. Yeah.
+
+If they're going to ban all Chinese humanoid robots, like, I wouldn't be too stoked on that. So I don't have much more to say. Well, much to consider. Before we let you go, does Toby maybe have, you know, one more cool routine he could show us? Yes.
+
+He does. Take it easy. Alright. DJ Dan, will you help us out again? It's great.
+
+This is like what happened the last time Casey had a Long Island iced tea at the club. Alright. Okay. Fascinating. Toby, George thank you for joining us.
+
+Thank you. It's so good. I believe in him. Running a small business means every hire matters, but finding great talent isn't easy. That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you.
+
+So instead of sorting through applications, you spend your time talking to candidates who are actually a good fit. With Hiring Pro, you can hire with confidence knowing you're getting the best talent for your business. In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor. Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork.
+
+Terms and conditions apply. Hardfork is supported by Adio, the AI CRM that knows what's going on. Set up in minutes, get powerfully enriched insights, and surface context on every deal. Need to prep for a meeting? Done.
+
+Got a follow-up to write? Drafted. Ready to close this deal? Just ask Adio. With universal context, Adio's intelligence layer, you can search, update, and create with AI across your entire business.
+
+Ask more from your CRM. Ask Adio. Try Adio for free by going to adio.com/hardfork. That's attio.com/hardfork. Marketers have always had to choose, build your brand or drive sales.
+
+With YouTube, you can do both. It's where the most trusted creators and powerful AI converge to create and convert demand for your brand. That's why YouTube drives higher long term return on ad spend versus TV, paid social, or streaming. There's no more choosing between brand or results. With one platform, you get both.
+
+Learn more at g.co/business/youtube. Alright, gang. We are in the homestretch where we had one more friend of the pod who we just wanted to bring on and have a little bit of fun with before the end of the show. Yes. Our next guest is friend of the pod and YouTuber and podcast sensation, Dwarkash Patel.
+
+Dwarkash, come on out. What's up, guys? Good to see you. Hello. Alright.
+
+How am I supposed to follow a robot dancing? You could fall over. Yeah. You could just face plant. That would be great.
+
+Yeah. Marques, it's been a hell of a year for you. You are firing on all cylinders, doing interviews with Jensen Huang and other tech luminaries. You've got a new Blackboard series that teaches people, you know, extremely dense and esoteric concepts in AI. You also got profiled in the New York Times in April, and they made a big deal of of you and your media empire that you are building here.
+
+I don't really have a question about that. I'm just I'm just kind of, like, in awe of what you have managed to build. I'm I'm curious, like, what what you hear when you hear the conversation about AI 2027 versus AI and normal technology. Where are you on the spectrum of like everything is changing, the scaling laws are holding to maybe things are slowing down and we don't quite have the breakthrough ideas yet to get to AGI? I think fundamentally the scary thing is we realize just how far we are from human intelligence, yet these models are so powerful, and so that raises the obvious question is when they not only have the current advantages that they do, that they can think thousands of times faster, they have greater ability to absorb knowledge across a wide variety of domains.
+
+If anybody's used these models, like coding work or any sort of computer used work, you must have experienced this. And then you think, well, there's this huge overhang where humans are able to learn about new things literally a million times faster. If think about how much information you see from birth to adulthood versus what these models see, We're capable of retaining information across sessions. We're learning on the job. We're not just like first day on the job the way these models are experiencing things.
+
+And so I think that the really scary thing really is that we know that there's a big difference between where these models are currently and where human intelligence lies. We're making really fast progress towards human intelligence. Already, these things are so capable. What happens when they not only have their inherent advantages because they're digital minds, but also have all our advantages? You've written and spoken before about how you've tried and failed to automate parts of your own production process with your podcast and your YouTube show and how hard it's been to sort of get rid of some of the the sort of sticky human processes there.
+
+Are you having better luck with newer models? Like, is your operation more AI than it was six months ago? So most of the tokens I see in a given day are produced by AI and so I can't really come here and say like, no, AI is not making me more productive or I'm not using it in a significant way. I do I think people underrate how hard it is to automate jobs. Like, people underrate how much it takes to do every single thing a human even white collar worker might be doing.
+
+At the same time, you must you guys must be finding this as well. Just the ability to triage use of monstrum information, which is a large part of my job, has just gotten way better. Yeah. How have you guys been fighting these models? I mean, sort of the same.
+
+I do feel like with each of the big leaps in model capability, it becomes better at tasks that are quite useful in, for example, like, the preparing for a podcast. Right? If we're sitting down with a guest that I'm not that familiar with saying, hey. Go out and, you know, prepare a briefing document for me about this person and give me some interesting directions to maybe take the conversation based on things they've said in public in the last three months. I mean, that's absolutely a job that I could have hired for, and now, you know, I can get in about, like, four minutes on my computer.
+
+So that's really useful. Does it make me more productive? Yes. But do I, like, work less or use the computer less? No.
+
+I I'm finding something similar. I I, like, I want to use these models to automate a lot of my life, and I've been very successful at doing some pieces of it, but there are just things that now the primary feeling I had like, I got access to Claude Fable yesterday, and and the primary feeling I had was, I am too dumb to use this thing. Like, I actually don't know what I would prompt it to do that a previous model would not have been able to do, but I'm not building RL environments. I'm not overseeing training runs. So, like, what is the use for you as a media figure and podcaster?
+
+Like, what is the thing that you wish the models could do that they can't currently? I I think because we're so first of all, every time I'm say something embarrassing about the models, I I I put it in the context that it we're living in, like, an absurd timeline, and I am reacting to my, you know, close friends who are just like, well, you just had some of them on, and we're talking about, like, the singularity in two years. But I feel like we're so used to what these models are capable of currently that we ask these questions like, well, what is it that they can't do? Aren't they clearly already AGI? It's like, no.
+
+We all have jobs. That wouldn't happen in the world with AGI. Right? Like, get just to get them to do something pretty okay. So for example, I'm negotiating with a sponsor for next season or something, and, like, they ask for you do, like, the back and forth there with the relevant context about how we think about our business and stuff.
+
+It's, probably a one hour Horizon task from me or my general manager. The models couldn't do it at all. Or, like, let's say book a show in another city. Like, book an event like this. Right?
+
+There's a lot of people who are involved in this. What part of it could the models do reliably? I it's like, anyways, all this to say, I think people really underrate what the range of human, even white collar work is. I mean, it seems to me like it might be very helpful in a negotiation, though. Like, particularly I mean, you know, you're not in this position, but maybe you're just, you know, starting a new podcast and you have some interest in response and you say, go tell me something about this market.
+
+And what's the sort of the best place to get started? Like, I could see it compressing that into a much smaller problem. But to your point, somebody still has to do the rest of the job. Yeah. That's right.
+
+I mean, they can't, like, do something on a computer you might want them to do. Right? And it's actually quite interesting. Why are they so bad at computer use given that it's an extremely verifiable domain? And I think that that actually goes to show you that it's not just about verifiability.
+
+It's about, like, the ability to the environment has to be one which allows you to deterministically run many parallel rollouts at the same time. Like if you try to do that on Amazon, Andy Jassy will just shut your ass down. And so you know, they have to build clones every single website because it takes a ton of data in the relevant domain in order for these models to become competent, like learning how Amazon works or Slack works. You had to you had to build clones of those things. That's very labor intensive.
+
+And So I think we'll make progress on that as well. But yeah. One of the issues that you really brought to the forefront of the industry's conversation, I would say, over the past year has been the failure of these models when it comes to continuous learning. Right? So, you know, there it's it's often observed that, like, a good LLM might be better on day one than an intern, but the intern is almost always better, like, after weeks because they've been able to like learn.
+
+Are you still as convinced that like this is gonna be a major hiccup to getting us all the way to AGI? Or has have recent developments, I mean, maybe any new models changed the way you think about that? So there there's a big crux in how people think about how these models will evolve. And one side of the discussion says, you need some way in which between sessions for a given user, the weights themselves are updating. Because if you think about the way humans learn, there's not like, you know, you're way better at your job than you were the first day you were on your job.
+
+Like, people often say an employee's not net productive until six months on the job. What is happening to that time? It's not like you're building up this intensely accurate episodic recall of every single thing that has happened to you over the six months, which is what in context learning is like, that just grows linearly in size as you spend more time on the job. It's like there's some distillation back in like a higher level abstraction that's happening over time. And so does there need to be an updating that happens back in the weights is the real question.
+
+Because some people say, well no, you just basically you'll get to a point where these models are spending six months on the job and that six months is happening in context and we're gonna train them in such a big variety of RRL environments that they'll learn how to adapt to any given situation you put them in. My question with something like this is I think that might be enough to get these labs to like a trillion dollars in revenue or something, like truly ludicrous outcomes. I'm concerned about or also interested in what well, do we get to superintelligence or something like that? And, you know, one question you ask is how would you build something that is as good as Henry Kissinger at politics? There's no relevant training environment for that you can run-in a data center.
+
+And so you do need something that can learn that on the fly. And maybe just by doing enough ROVR, you build something that can just pick up whatever Picassinger picked up through through his life that through interacting with the world. Maybe not. You know, the headline coming out of this talk is gonna be Dwarka says Henry Kissinger is good at politics. So I'm just preparing you for that.
+
+LBJ or whatever, the example doesn't You you know what I'm saying. Interesting. You have a very old soul. All your references are to mid twentieth century. You you live in San Francisco with Sholto Douglas, a researcher in Anthropic, and Dylan Patel of Semi Analysis, a very influential semiconductor newsletter.
+
+You guys are Have you seen The Rent Man? I gotta split it. Well, that's my question. Semi analysis is reportedly making something like a $100,000,000 a year in revenue. Anthropic is obviously very valuable.
+
+At what point are you guys rich enough to not need roommates? The problem is everybody else in SF is also getting so rich. And so the housing is increasing at the same rate that our net worth is increasing. We're never escaping this. One knock that I sometimes hear on the sort of San Francisco AI scene is that it's all very clubby and insular, that there aren't a lot of people sort of doing the work of holding people to account or being appropriately skeptical.
+
+You, you know, one detail in the New York Times profile of you is that you sometimes invest in companies, your CEOs or leaders you interview. Do you think that journalists and other sort of more conventional media people have the wrong sort of framework for thinking about conflicts of interest, or do you just think you're doing something different? I totally see the rationale for journalistic policies that say you're not allowed to have any sort of financial entanglement with the company that you're covering or whatever. I think at the end of the day, I hope the product speaks for itself and that if you watch an interview I do with a CEO or an executive, you hopefully feel like I asked the relevant questions that at least I'm not look. I I often don't try to steel man some objection that I don't have.
+
+But when I do think that they're not making sense, I try to say so. And I hope that that in and of itself speaks for Who's your white whale? Who's the guest that you wish you could book that is not gonna Caro. You make this Robert Caro? Okay.
+
+Robert, if you're out there, go on Dorcasch. Come on. Say hard work first. Yeah. I will say that Robert Caro was also famously Conan O'Brien's white whale, and Conan O'Brien never got him on the show.
+
+No. He got him on. He did he? Yeah. On Conan O'Brien needs a friend.
+
+Alright. He just fact checked my ass. Yeah. Well, Dorcas, the the podcast and the show is amazing. I learned so much from it.
+
+I listened to every episode, and I understand about 80% of it now, is up from a a a, you know, twenty twenty five, about 20%. So I'm learning along with your audience and we thank you for all the work you do. It's a great show. Thank you, Durgesh. Great to see you guys.
+
+Thank you. Good to see you. Thanks, Ryan. Thank you. Yeah.
+
+Alright. Okay. Well, friends, we are almost there at the finish line, but before we go, we wanted to take some questions. If any of you have questions for us, we will spend a few minutes answering them. We have mic runners upstairs and downstairs.
+
+So raise your hand. Someone will approach you with a mic. Anything. We're an open book. You can ask us about it all.
+
+It's like a YouTube comment section, but in real life. Right here. Hi. My name is Don. Can you hear me?
+
+Okay. Hi. My name is Dallen. We're I'm with my brother from Utah. What happened to the Fediverse?
+
+Great question. The the the Forkiverse, I should say. What what's The Forkiverse was, of course, our effort to build a social network in a federated way, sort of people what it would be like to be part of a social network that wasn't owned by a giant corporation. And I think it just ran into the challenge that any social product does, which is that if you're not constantly bringing in new users, it's like default state is to just kind of shrink. And so, you know, we've been in discussions recently about like what is the future of it.
+
+I think it was a fun experiment, but, you know, we didn't really have that strong of an idea of what was gonna happen after we started it, and so we're now sort of living with the consequences of that. Yeah. Balcony. Do we have anyone in the balcony? Oh.
+
+Yes. Hi, Kevin and Casey. I was wondering why we're not hearing more from executives like Satya and other tech leaders who are restructuring their companies around the premise of AI. They just don't seem to want to engage with that premise when you ask them. What do you think that's about?
+
+I mean, think there's a lot of conflicting incentives here. There are some companies that really want you to know how much they are using AI and how much more productive they are getting and how many workers they are laying off. And sometimes that's real and sometimes it might just be covering for some over hiring they did a couple years ago. I think that's going to flip at some point where companies will not want to advertise the fact that they are restructuring around AI. Right now, there is still sort of this weird market premium for that.
+
+And so I think that will continue for as long as the market premium lasts. Then it'll be like, we're just going to sort of sweep it under the rug and hide it. And if we're going to lay people off to replace them with AI, we're going to call it something else because we don't wanna deal with the backlash. But I think that really hasn't happened yet, which has been a surprise to me. What about you?
+
+No. I agree with that. And in the interest of answering as many questions as possible, I think we should move on to the next one. We're right here. Hi.
+
+My name is Ina. I work at Quizlet. If you've gone to school in the last twenty years, you've heard of Quizlet. If you haven't, what? Anyways, education is being obviously, like, radically changed, but, like, what people need to learn and kind of the fact that you need to learn doesn't really change.
+
+So I'm curious if Quizlet were to just, like, start everything from the ground up tomorrow, what do you think we should build? I mean, that's that is really challenging. I mean, you know, Kevin and I get a chance to go speak in schools from time to time, and I think what we find is people who are, like, doing their absolute best to introduce, like, fairly incremental change and kind of see what happens. There's just tremendous uncertainty right now. You know, school is typically trying to educate you for, like, a fixed target.
+
+You know? Like, when I went to journalism school, it was like, well, if I get these skills, then, you know, I can have this kind of job. I think, you know, like, we're not able to ask any guests on this stage about anything longer than a two year timeline because just none of them have credibly anything to say about that. So, you know, how do you, like, educate a five year old so they'll be prepared for the world when they're 18? Like, you know, good luck.
+
+What an inspiring message. Thank you. Alright. Let's take a couple more. Yes.
+
+Up there in the balcony. Okay. Can you hear me? Okay. Great.
+
+Please introduce yourselves. Oh, hi. I'm Liz. Hi, Liz. Okay, so two real legitimate questions.
+
+Number one, what are we wearing now that Allbirds is under? Okay. And two, so I work as a regulator. I work for the state of California. I do privacy regulation.
+
+And so my question is on so if you were to take a stab at what would be in the AI, the new world for privacy, like, how are you gonna protect your digital selves, either your sons or your friends? Like, what are we gonna do when it's all owned in one walled universe? Yeah. I mean, my hope is just that that is not the case. You know, we sort of asked Cindy about that tonight.
+
+Like, I think there is a lot of logic in having some kind of privilege like system that protects certain kinds of conversations that you would have with a chatbot the same way, you know, that a conversation with a lawyer might be protected. But I was thinking there's a lot of wisdom about what she said is, you know, what systems can we build that would ensure that that sort of data never makes it into the hands of a big corporation? And I think we should outlaw data brokers. Next question. Oh, yeah.
+
+Outlaw data brokers. That's a good one. What's that? Oh, yeah. And where do you get your shoes, Kev?
+
+These are from Quintz. Yeah. That was not sponsored content. They just are Yeah. I Yours are better, though.
+
+I got these from, like, online unspecified. I honestly don't remember, but I can look into it. Yeah. I'll figure it out by the reception. How's that?
+
+Alright. Just a couple more. So I'm I'm a software engineer, so take this for what it's worth. There's been some talk about, you know, like lots of people are afraid of jobs going away, and then you hear other people saying, oh, there's tons of hiring going on. That's what I see.
+
+I see a lot of hiring going on. But it's all for senior engineers, for people know how to who know how to fact check the models or how to, like, architect and combine the things that they can do really fast. What's happening with the entry level folks? It seems like that is a real problem. Yeah.
+
+So I've talked to a couple of labor economists about this within the past couple of weeks, and they have sort of said, like, believe it or not, things were actually just, like, much worse during the great financial crisis and that, like, the the circumstances that we're seeing today, like, don't approach that at all. Now maybe they will eventually, but one labor economist I talked to, Katherine Ann Edwards, was telling me, like, some people sometimes forget that, like, your first job just sucks and has nothing to do with what the thing you actually wanna do. And so she's sort of, like, encouraging younger folks to manage their expectations, which is also not a very inspiring message. I think we could do one more question. So let's have the last question.
+
+Yes. Hey there. Name is Kevin. Oh. Great name.
+
+We're good. Yes, my name is Kevin. What is your optimistic view over here in the middle, if you're looking out? What is your optimistic view on AI for about three years out, two to three years out? Just curious to get y'all's take.
+
+Yeah. My optimism is around the acceleration of science and medicine. This is really a place I care a lot about. I really I don't know if any of you saw the cheering at the conference the other week where they announced that they had created a new breakthrough therapy for pancreatic cancer. I want there to be like many, many more of those very soon and I want the Yeah, thank you.
+
+So that is my case for optimism is that we we sort of muddle through the transition from the old jobs to the new jobs. We deal with the safety risks that are really extreme, and then we just accelerate the hell out of the things that make people's lives healthier and longer and allow us to flourish. Yeah. I mean, that's my number one, but two more I would throw in there is, like, AI is amazing for learning, and AI is amazing for building, and it's fun to learn and it is fun to build. Like, if I were in school right now, like like, I I I froth at the mouth thinking of what it would have been like to take, like, my AP exams in a world where I could have, you know, chat GPT generate infinite quizzes for me to do.
+
+And, you know, like Kevin and have talked a lot on the show about vibe coding in the past year. I I've been, like, making new projects this week and and annoying my fiance and making them come see them even though they're just pure slop. But it is fun to make things in AI. It is fun to annoy your partner with random AI stuff that you build. Alright.
+
+We are gonna stop it there so that we can get to the reception. We'll see you all at the reception. Thank you so much for coming. Thank you. We love you.
+
+We love you. Running a small business means every hire matters, but finding great talent isn't easy. That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you. So instead of sorting through applications, you spend your time talking to candidates who are actually a good fit. With Hiring Pro, you can hire with confidence knowing you're getting the best talent for your business.
+
+In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor. Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork. Terms and conditions apply. Marketers have always had to choose, build your brand, or drive sales.
+
+With YouTube, you can do both. It's where the most trusted creators and powerful AI converge to create and convert demand for your brand. That's why YouTube drives higher long term return on ad spend versus TV, paid social, or streaming. There's no more choosing between brand or results. With one platform, you get both.
+
+Learn more at g.co/business/youtube. Hardfork is supported by Adio, the AI CRM that knows what's going on. Set up in minutes, get powerfully enriched insights, and surface context on every deal. Need to prep for a meeting? Done.
+
+Got a follow-up to write? Drafted. Ready to close this deal? Just ask Adio. With Universal Context, Adio's intelligence layer, you can search, update, and create with AI across your entire business.
+
+Ask more from your CRM. Ask Adio. Try Adio for free by going to adio.com/hardfork. That's attio.com/hardfork. Hard fork is produced by Rachel Cohen and Whitney Jones.
+
+We're edited by Varan Pavich. We're fact checked by Caitlin Love. Today's show was engineered by Alyssa Moxley. Original music by Alicia Beitub, Mary Lozano, Diane Wong, Rowan Nemisto, Alyssa Moxley, and Dan Powell. Video production by Sawyer Roque, Jake Nichol, and Chris Schott.
+
+Special thanks to the New York Times live event team who helped us put on Hardfork Live this year. Hillary Kuhn, Beth Weinstein, Caitlin Roper, Chantal Ragnier, Melissa Trippoli, Natalie Green, Kirsten Birmingham, Marissa Farina, Jennifer Feeney, Morgan Singer, Dana Proskowski, Haley Duffy, Yenwei Liu, Matt Kaiser, Sarah Cheever, Johnny Marola, Victoria Kim, and SV Productions. Thanks also to everyone at the Yerba Buena Center for the Arts and the Blue Shield of California Theater where we held the event. They were so fantastic to work with. And a special thanks to Paula Schumann, Puiwing Tam, and Dahlia Haddad.
+
+You can email us as always at hardfork@nytimes.com. Not every sale happens at the register. Before AT and T Business Wireless, checking out customers on our mobile POS systems took too long. Basically, staring contest where everyone loses. It's crazy what people will say during an awkward silence.
+
+Now transactions are done before the silence takes hold. That means I can focus on the task at hand and make an extra sale or two. Sometimes I do miss the bonding time. Sometimes. AT and T Business Wireless.
+
+Connecting changes everything.

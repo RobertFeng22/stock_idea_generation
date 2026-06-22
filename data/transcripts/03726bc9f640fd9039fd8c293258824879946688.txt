@@ -1,0 +1,677 @@
+Support for the show comes from ServiceNow. AI is moving fast across the enterprise. But without visibility, it's just chaos. Different tools, different models, different teams using AI in completely different ways. ServiceNow turns that chaos into control.
+
+With the AI control tower, you see all your AI across the business in one place. What it's doing, what it's done, and what it's about to do. So you stay in control. To put AI to work for people, visit servicenow.com. Support for this show comes from Vetch Pet Insurance.
+
+Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in. Fetch is the most complete pet insurance. Get paid back up to 90% of vet bills.
+
+You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save. Hello, and welcome to the Vergecast, the flagship podcast of liquid crystal on silicon, a technology that all Snapchat users care deeply about and look forward to adopting on their faces.
+
+I'm your friend David Pierce. Upsells here. Hello. You're home. This is like forgot what it looks like when you sit in your actual house making podcasts.
+
+Yeah. And, like, it all works, and I'm not staring at a window with a staircase behind me. I'm sad about the staircase. The staircase got a lot of love last week. It did.
+
+The staircase was was a true hit on the Vergecast. We have a lot to talk about this week. Fox is buying Roku, which means we are for sure going to bring the go 90 scale back, and and we have a lot to talk about. There's some AI news. Brendan Carr is up to stuff.
+
+We there's a lot going on, but we have to start with specs. So Snapchat, Evan Spiegel has been talking about making AR glasses for ten ten years, I think. A long time. Since the la the first version of specs, I think, was almost exactly a decade ago. And this has been the future of the company for a very long time.
+
+They announced a while ago that they were going to ship consumer ready AR glasses this year, and now they've they've shown them off and they've announced them. They're called specs. And, Eli, just before we started recording, you did the thing that I have been doing obsessively, which is look at pictures of specs on people's faces. Yes. I let me let me just run with run down the specs of these specs before we before we get into the thing.
+
+Because what's interesting about this and what I wanna talk about is, like, these seem to be technically very impressive in in a certain way. Right? Like, you and I have talked a lot about the Vision Pro being sort of one end of what you can do with this technology. Right? Like, however you wanna feel about what it is in the world, it is a remarkable piece of technological engineering.
+
+Specs has a little bit of that going on too. It's there are two different models. One is 47 millimeters. One is 52. The lighter one weighs a 132 grams, which just for context, like, the iPhone 17 is a 177 grams.
+
+So imagine, like, almost an iPhone 17 kinda on your face. And a normal pair of Ray Ban Wayfarers is about 45. So it's like three normal pairs of sunglasses on your face. They have removable inserts for prescriptions, which they also think of as a way to do multi user support, which is kinda clever. You can just like pop out your lenses.
+
+They have a 51 degree field of view, which Evan Spiegel compared to having a 24 inch monitor in front of you or a 115 inch TV 10 feet away. They have two Snapdragon processors, seven millisecond latency, four hours of battery life, which is and four more charges in the case. They're like they these seem to be about as good a pair of smart glasses with a display on them as you can make right now. And then you see someone wearing them. And and here we are.
+
+Tell me the pictures you've been looking at. So Evan Spiegel is married to Miranda Kerr. Right? She's he's married to a supermodel. So he got a bunch of beautiful models to wear his glasses.
+
+And Jimmy Butler, the NBA player. And Jimmy Butler. So Kaia Gerber, Cindy Crawford's daughter, is the first picture I saw. She's legitimately a beautiful person. Yeah.
+
+And she looks ridiculous in the glasses. Like, you can't make anything this big look good on anyone. Jack Harlow does not look cool in glasses. Mhmm. Image and Heap actually, Image and Heap might look cool in the glasses.
+
+Image and Heap is one of those people who who, like, could sincerely get away with wearing gigantic glasses. Yeah. Actually, the most interesting thing about these pictures is that they're in black and white. Mhmm. But to indicate the glasses have a display, they put a slight color haze on the lenses in these photos, which to me is the whole game.
+
+Right? The point of these glasses is not that they have cameras in them. It's that they are a full on little computer with a display that you look at in front of your eyes Right. With whatever viewing angle we have to see them. Specs in this context don't mean a lot.
+
+Like, the specs of a new pair of glasses in a product category that is totally nascent and no one has proven to work or have any demand whatsoever, it doesn't matter if the specs of this one are better than the specs of the Xreal glasses. Like Sure. So, I mean, you know, there's an Eli scale of wearable bullshit, which is the utility of the wearing the object on your face has to far outweigh the fiddliness of the thing. Yes. So regular glasses have enormous utility because they help you see, and they're really not very fiddly, but they're pretty fiddly.
+
+The Apple Watch, not very fiddly at all. You just have to charge it. You wear it on a wrist like a regular watch. Enormous utility. That thing's a success.
+
+Headphones. You put them in your ears. Very useful. You take them off. You just have to charge them.
+
+It all works out on the curve. Yep. Every pair of things that you wear on your face has died in this way. Every computing device you have to strap to your head has died because they're so fiddly, they impose an enormous fashion cost. Mhmm.
+
+And the utility of them has really not been that high. Right? It may be only in the case of the meta glasses, which are a camera on your face, not very much else, has anyone been like, okay. I can work this out, and this is a category I like. Here, there's some shots of apps and, like, a video streaming and a maps app.
+
+We really don't have any particular details on who writes those apps, how power hungry those apps are, how good they are compared to your phone. Right? This is a self contained device. It's supposed to compete with the phone. And to do that, they had to make enormous compromises on its form factor because they needed to basically put a phone on your head.
+
+And then we don't know if it's gonna work well enough to pull it off. Yeah. I mean, there's there's some interesting stuff going on just in the fact that this is Snap doing this. Right? Because Snap has been building the Lenses and stuff into Snapchat for a long time.
+
+They've sort of been building this technology in public that was obviously ultimately meant for glasses. There was this thing. They they announced it at some developer conference, and Bobby Murphy, the cofounder of Snap, showed off a bunch of sort of demos, sort of developer. They they, like, coded on stage a little bit. But there's one where it's like, you're you're wearing the glasses and you're playing Uno, and you can sort of see it as like a a a rectangle in the middle of the screen.
+
+Again, it's like, imagine having a a computer monitor in front of your face that is a that is see through. It's like it's not immediately not a sort of normal way to think about how you interact with the world. But he's he's essentially you know, they're picking up cards and putting them down, and it's it's every AR demo you've ever seen. Right? Like, everybody has the same idea about how this stuff is supposed to work.
+
+The idea is just now you you can use your hands to control it, and you don't have to look through your phone in order to do it. Snap is interesting because it's been building this kind of experience for forever. Right? It's been doing these, like, virtual try on things with clothes longer than most. It has built all of the camera lenses that make you do, you know, the rainbow when you open your mouth.
+
+It's building some of these games. Like, this is what I mean by Snap is actually able to do this maybe as well as anyone is able to do this because it has just been at it this long. And so it's like, I I just I have a hard time imagining what the software would have to be in order to make any kind of hardware like this appealing, especially at the price, which I haven't said, which is $2,195. This is a this is a quote, unquote consumer product that is not remotely for consumers. But then you look at the thing.
+
+Like, hold on. Okay. So you you mentioned Evan Spiegel. After they did this announcement, he went on CNBC to talk about it. He did a couple of interviews with people actually wearing the specs.
+
+Let me just play you this one clip that I have a feeling is going to be very, very hard for Snap to overcome. Watch. And, Evan, thanks for joining us here today. You're wearing your new specs, which you just unveiled. They cost 2,195 Okay.
+
+I'm just gonna pause it here. Right now, again, I'm I'm so sorry if you're if you're not watching. But just imagine Evan Spiegel sitting here in this crowded room. Evan's like a he's a good looking guy. He's got the the specs on.
+
+They're enormous, And they are just crushing the hell out of his ears. Like, they're they're too thick and too tall to go where they're supposed to go, which is like Yep. Behind your ears. And so it's literally they're just resting on top of his ears. There is no shot that is comfortable.
+
+Just none. And you'll notice even in a lot of the the, like, beautiful photoshoot stuff that you're talking about that they did, the real advertising photos, in almost every case, they've hidden the people's ears in some way. Like, it's hidden behind hair. Even Jack Harlow, they they clearly, like, styled his hair to not show it smooshing his ears. Because these things these just obviously are not comfortable to wear on your face.
+
+Yeah. And I and and there's no getting past that. Like, the the lesson we keep learning from all of these things is, like, people buy the Ray Ban Metas because they're just a pair of glasses that do more stuff. And that has turned out to be vastly more compelling than put a giant computer on your head will give you lots of stuff to do. Alright.
+
+So here's why there's a giant computer. And I wanna give Snap credit for this because they have been at this for a long time. They've diligently pursued one vision. They haven't done a bunch of weird side quests Sure. Meta has done.
+
+These are the first true AR glasses I think we have seen. And what I mean by that is at least there are screenshots and videos on their marketing materials where the glasses the cameras and glasses are looking at the world. They're processing that, and they are putting information directly over the world. Yes. And, of course, the demos are the same demos everyone has ever seen.
+
+There's people playing chess, a virtual chess board. Mhmm. There is a hilariously, there's you can replace the coolant in a car, which tracks perfectly with a HoloLens demo I got ten years ago where they had me change a spark plug. There's people putting furniture in a room and doing measurements. But the idea that the cameras are processing reality and then on a display that overlays reality so the real light is passing through your eyes In low latency, they're putting digital information over the real world is incredible.
+
+There there really has not been that thing. Maybe the Hollands got closest. Maybe Magic Leap did it. Apple couldn't get there, and they did the Vision Pro where they did mixed reality where they totally had to take everything in on the camera and composite it and then show you a screen. Snap is not doing that here.
+
+Right? They're overlaying actual reality, which is very challenging. Yeah. This is honest to god augmented reality. And so I don't wanna discount that at all.
+
+What I'm pointing out is to do that, you are stuck in this form factor. Right? If you don't have a phone to offload the processing to or a they're very proud this thing is self contained. Right. You need to put the cameras in there.
+
+You need to put the connectivity in there. You need the processors. It has two Snapdragon processors in there, which Qualcomm is very proud of. It says it will enable all kinds of experiences like this in the future, and then you need batteries to run it all. Where's that stuff gonna go?
+
+It's gonna go right here. It's gonna go right across your temples. That's the only place for it to go. Well, here we are. Like, this is they needed to get there first because Meta is trying to get there, because Apple is trying to get there.
+
+And I think these are the compromises that have kept those companies from shipping a product like this. I think if Apple wanted to ship a product like this, they could. Right? They've they've shown us enough AR demos on an iPad and enough events to prove that if they wanted to do tracking and compositing the Vision Pro exists. They can do tracking and compositing.
+
+Sure. I think this form factor is the natural compromise of all of the things you need to pack into the the glasses to make this experience work, and this is the experience they want. Right. Well, and the irony is, I think, again, as as we've talked about and and according to the Nei Epistel theory of wearable wearable bullshit, the form factor is actually the only thing you can't compromise on. Like, over and over, this is the lesson that is learned is you have to start with, I like wearing it on my face or you you're nowhere.
+
+Like, at least with the technology is currently constituted, there is nothing that even suggests you can back into, sure, I'll put this on my face. Yeah. And this to me is like this why Specs, I think, is so interesting. It's like, if you look at this as the best it is possible to do right now, and I think that there's a lot of evidence that it is. And again, there's some there's some genuinely cool demos here.
+
+No no one seems to want this. Like, the overwhelming response to this has been, like, investors hate it. Users are like, what on earth are you doing? No no one I see is like, oh my god. I can't wait to wear this on my face.
+
+It's just people don't see it. Again, to be fair, it's hard to know if it's any good until you wear it. You cannot read the spec sheet of this thing in what's it? Seven milliseconds of latency? Mhmm.
+
+You cannot know what that means unless you're wearing them. Sure. And you can feel what seven milliseconds of latency of digital information augmenting real light passing through to your eyes feels like. As it smooshes your ears to bits. Is it worth it?
+
+Like, I don't I don't know. Like, the I don't think there's enough devices in this category for us to look at a spec sheet and say, oh, they got the specs right such that it overcomes the form factor. Like, just bluntly. I I don't think that's true. I think it's, like, kinda true in VR.
+
+Like, we can talk there have been enough VR headsets that I can look at a spec sheet and be like, alright. I kinda get what they're doing here. Sure. This is new. It's new.
+
+You know? Yes. It's very expensive, but as a consumer device, this is wholly new. And maybe changing your oil in augmented reality is so awesome. I mean, it's not.
+
+But it's worth it. You don't believe that. It's not. I don't know. Yes.
+
+You do. What are we doing here? I don't know. Maybe it rules. You think you think there's a world in which given even the limited amount of stuff that we know now that this combination of technology and features works?
+
+Like, forget the price. I know. It sounds like there's apps. Like, the the the like, is any are any of these things the killer app? I do not know.
+
+Right? I think to me, the the single most problematic thing in this whole space, always, all the way back to Magic Leap, is that it gives great demo. You you put it on, you wear it for five minutes, and you go, oh my god, this is it. Every everybody has this experience. We had this experience way back when with like the very first Oculus Rift that you put it on and your brain explodes.
+
+You're like, I can't believe this is possible. This is incredible. And you take that to mean this is something I want in my day to day life. And actually, the gap between those two things is enormous and has not gotten that much smaller even as the technology has gotten better. Like, will you will if someone in your life has a pair of these and you put them on and they're like, here, do this Pokemon Go style thing that you can do in the Snap specs.
+
+You'll you'll do it and you'll be like, oh, cool. And then you will take them off and you will go about your life and you will tell people about the cool demo that you had. And the distance from that to I wanna spend $2,000 on these and wear them for four hours at a time is vast. This I mean, this is the this is the utility versus cost. Like, how fiddly is it?
+
+How much does it cost in dollars? It's a type of fiddliness in my in my opinion. Dollars are fiddly. Yeah. Well, I mean, like, you gotta it's it's like, how much do I have to care about this?
+
+It's $2,200 I have to care about this. Yeah. Right? And and are they huge and heavy and do I to charge them every four hours? It's all cost.
+
+And then there's how much utility is there. And I'm not saying it's so much utility because you change your own oil that that is the thing. I'm just pointing out, like, there's obviously a set of apps here, and they want yes. They all give good demo, but most people have never experienced anything like this. Exactly.
+
+My only, like, hit the brakes, I'm not gonna judge it, is you actually don't know how people react to having the real world augmented digital information. And maybe it turns out all anyone ever wanted was a timer floating above their pasta water. I don't I I don't think so, but I'm I'm just hesitant to be like, I absolutely know this won't work because most people have literally never come close to this outside of watching a movie. Sure. And there's, like, other foibles here that are gonna get in the way.
+
+None of these demos are in anything close to the dark. True. Right? So, like, can these cameras see in the dark well enough or even in dim light well enough? All of these things are outside in bright sunlight to be able to recognize what they're looking at, identify it, you know, send it to whatever AI system is gonna do all that recognition and blah blah blah, and then appropriately center the digital information over that in the dark.
+
+Big, huge, glaring question mark. Yeah. Because then the utility of this falls even farther. Right? You can only wear it outside.
+
+Well, that sucks. Right? Yes. My my kitchen is very is really quite dark. Will it not work for my pasta water because it's, like, dark in the kitchen?
+
+Like, these are questions I think they have to answer. I'm just looking at these photos, and I'm thinking about my theory of wearable bullshit. And it's like, oh, the cost here is staggering compared to the utility. I'm just not gonna prejudge. No one will like this because I don't think anyone has actually experienced this product in this way.
+
+I think that's fair. And I think my argument is less no one will like this and more I cannot imagine how this clears the boundary for people. And I think there's something to, like, very specific use cases for smart glasses. Right? Like, this is what we saw with Google Glass where it's like people who wanna fix carburetors in cars have an actual use for Google Glass.
+
+Google Glass couldn't do that. But, like, eventually, they did a bunch of the enterprise edition stuff, and it it started to work for some of these features. People used it to, like, scan codes in factories as you're, like, running around moving stuff. Or in warehouses, you can scan the code that you've picked up the product just by looking at it with Google Glass. Like, that is a great use case for these glasses.
+
+It's also a very specific thing that you then take them off after. And Evan Spiegel is is once again making this grand case that what we are doing is we are bringing computing into the real world. We're taking you away from looking at a screen, and we're we're making the world and the screen one and the same. And, like, on the one hand, you look at some of these things and it's literally designed as if there's just a floating computer monitor in front of your face, which is the wrong UI. Like, some of these things are just giant displays in between you and what you're attempting to look at, which is not what this is supposed to look like.
+
+But then on the other hand, it has four hours of battery life. It's gonna smush your ears to bits. It costs $2,200. Like, I just I don't I don't see any evidence that this clears the boundary to, like, yes, this is a thing I will just wear in my day to day life. Yeah.
+
+And, again, the only reason I'm offering the benefit of the doubt is most people have never experienced this thing. Like, I'm not sure I've experienced the full full vision of what they have here, and I've tried almost all of these demos. Like, we're gonna look at the world, and we're gonna augment it with digital information in real time in self contained glasses. It's just not a thing that has existed before, really. True.
+
+And Snapchat's AR prowess is real. Like, this this company has been at this longer than most, and a lot of the stuff that it's built is very cool and very popular. Right? Like, we don't talk that much about Snapchat on this show, but it is, like, it's a it's a weirdly sort of unsuccessful company that has built a massively, like, generationally important app for communication. Like, Snapchat is culturally central to lots and lots of people in the world.
+
+And they've built some really interesting stuff with the camera. They've been way ahead on a lot of things. So, like, want this stuff to work. And I was really excited about these glasses, and then the minute I saw them on somebody's face, it's like, this doesn't this doesn't seem like it's Right. The to do the thing you wanted to do, the technology doesn't exist yet, and so the form factor is compromised in very real ways.
+
+Yeah. And Exactly. We've been talking about that for how long? Here's things they didn't demo. They didn't demo facial recognition.
+
+They didn't talk about what it means to be constantly recording the world around you to augment it with digital information. They didn't demo they didn't talk about the privacy implications of having two cameras on either side of your head all the time that are looking at the world. Yep. There's a lot here you have to really consider, and I think people are already pushing back on with the MetaGlasses and other glasses. If you want to build this device, there's no way to get around the fact that you have to be constantly ingesting the world so that you can augment it with digital information.
+
+Another thing I didn't demo, my my favorite question to ask all these folks, if you look at the Capitol Building and say, what happened here on January 6? What is the answer you're gonna get? Is it an interaction or not? You have a content moderation problem staring at your augmented reality glasses that no one wants to acknowledge. So I yeah.
+
+I think they they put all of their emphasis on let's build the dream, and this is the form factor that they can execute now because I don't think anyone else has gotten any closer than this. But then the actual problems are like I mean, you know, Snap is a content business. They run content moderation. They do it. They know what to do.
+
+But, boy, are these, like, an entirely new set of problems to have when you are altering the physical experience people have through their eyes. Right? It's not a screen. It's like, I'm really looking at this, and there's really an arrow pointing at the Capitol Building being like, notably on January 6 here, a number of people got a tour of this building. Like, that's not what you want.
+
+A number of people got a tour. Technically accurate in a in a certain way. Some people wandered the building. Yeah. Look.
+
+I think I think a lot is going to you're right. Be very clear the minute we we are able to put one of these things on. And I'm, like, I'm genuinely excited that Snap is shipping these. Right? We've we've watched this company sort of toil in the background and keep shipping stuff, but not actually shipping it.
+
+And, like, kudos for actually just putting the thing out in the world. Like, I I think it's I think it's cool. They can't think they're gonna sell a lot of these. They they have to believe that they needed to put a stake in the ground that they got there first. I think that's right.
+
+I think that's right. And then in theory, you sell some of these, and it makes it easier to both build and sell the next one. And, like, I can see the playbook, and also I think they promised they were gonna do it this year. And they just like, it it probably if you're a company like Snap who has had the business track record they have, it was very important to ship these things. I get all of those things.
+
+I just look at this, and I'm like, if this is the best anyone can do, and I think it probably is, are we actually anywhere? And we'll see. You're right. Again, I think I think just to be a 100% clear, I think the answer is no. But I'm also willing to say very few people, if any, have ever actually experienced a product like this.
+
+Yeah. I mean, there's something to just keeping your mind open to that. Like, maybe people are gonna lose their minds. I doubt it, but I I'm not willing to just, like, close it off before that actually happens. I really hope somebody makes, like, a cool accessory that, like, straps it around the back of your head, and we just go full, like, cyberpunk croaky situation.
+
+It's gonna be awesome. That's a free idea for anybody who wants it. Alright. We should take a break, and then we're gonna come back, and we're gonna talk about our product. Everyone uses against their will, which is Roku.
+
+We'll be right back. Support for the show comes from Rippling. Retaining your best employees should always be top of mind, especially if they are in high demand. And while it's impossible to predict the future, Rippling AI can help you identify who might be a flight risk. That's because Rippling AI is built on your live global workforce data, giving you full visibility into your business and the ability to stay ahead of the curve.
+
+Say you want to retain top talent, just ask Rippling AI, who are my top performers this year? And instantly receive a workforce report highlighting your top employees with supporting data like recent performance reviews and engagement metrics. But it doesn't stop there. Rippling AI can turn these insights in into a proposed retention strategy, including a recommended 10% spot bonus for top performers. All you have to do is tap confirm, and the spot bonus is added to next month's pay run.
+
+So don't settle for AI that's all talk. Head to rippling.ai/verge and get AI that turns insight into action. That's rippling.ai/verge. Sign up for exclusive access today. Support for the show comes from Granola.
+
+It feels good to walk away from a meeting that actually felt productive, but our brains can hold only so much info. You might look back and realize you either, a, got caught up in your notes and missed some important stuff, or b, you couldn't even take notes, and now you're just trying to reconstruct it all from memory. If that's your dilemma, Granola can help solve it. Granola is an AI powered notepad built for the way real people actually meet. You can take rough notes like you normally would while Granola securely transcribes the meeting.
+
+Then after you wrap, it turns everything into clean, structured, actually useful notes. Granola also works through your device's audio, which means it integrates seamlessly into the video conferencing tools you already use. It's your standard meeting setup, but enhanced. If meetings are eating up your day, Granola is a no brainer. You could try it totally free for three months.
+
+Just head to granola.ai/verge. That's granola.ai/verge to get your time back. Get three months free at granola.ai/verge. Alright. We're back.
+
+Let's talk streaming wars. The big news this week is that Fox is buying Roku or at least is is planning to buy Roku. Who knows if any deal ever gets done in the world in which we live. It's a $22,000,000,000 deal. It would it would put these two companies together.
+
+Lachlan Murdoch, who runs Fox, is making a lot of promises about the the future of Roku, we can get into some of those. But, Eli, give me your immediate reaction to this deal. This is a sort of nightmare vertical integration and distribution that maybe Lena Khan was, like, the most opposed to and the Trump administration loves the most. Loves so much. Yeah.
+
+Wait. Explain. What what is the like, I think people have had a hard time this week as I've been talking to people and reading about it, sort of imagining what these two companies do for each other. In that, like, company that makes content buys other company that makes content. You're like, oh, I get that.
+
+Now it's bigger company that makes content. This is like a bunch of ostensible puzzle pieces all sort of smooshing together. Like, what what is your sense of how these all things all combine? I think media companies buy each other in an effort to get scale. They almost always do them themselves.
+
+But the only needless into the verge cast to know that I believe this in my heart. This is Neil's Warner brother, Time Warner AOL theory way back when. It's it's possible that the only antitrust policy this country needs is to prevent AT and T from buying anything ever and to prevent anyone from buying Time Warner. And, like, maybe we'll be fine. Like, maybe that's all we need to accomplish is is preventing those two things from from doing anything, and we'll be fine.
+
+So, you know, big content companies buy big content companies. Paramount by CBS. Like, who who cares? They don't have any distribution. This is actually the problem for all of these companies.
+
+Right. Audiences wake up. They pick up their phones, and they push a button that is owned by a big tech company, and they distribute all the content to you. If Mark Zuckerberg wants you to see one thing on Instagram, he can turn the knob, and he'll he can deliver it to you. If YouTube wants you to see one thing on YouTube, Neil Mohan can turn the knob and deliver one thing to you.
+
+And they all deny that this is true. Yeah. But it's true. Like, they control the distribution, and they might have built systems to prevent them from having such direct control, but the reality is that they have control. And so it doesn't matter how much content you make or how good it is, you're subservient to the distribution.
+
+I just I believe this with all my heart. Yeah. And most companies try to deal with this by buying enough scale, having enough stuff people want that they can roll up to YouTube or Instagram or whoever and saying, look at how much stuff we have. Pay us more money. Right.
+
+Because we have the stuff that you need, you have to negotiate with us. It's not competition. It's leverage. It's leverage. Yeah.
+
+If we go away, the thing your audience loves will come with us. Mhmm. And mostly the platforms have, like, looked at that, laughed, and killed those companies. Yes. Like, just looked them dead in the eye and be like, what if we kill you instead?
+
+This is the BuzzFeed story. Jonah Brady was on Decoder, and I was like, the original sin of the Internet is you thought you could make stuff so viral Facebook would pay you money, and then we argued about that for a full hour. Go listen that episode. That's the original set. Okay.
+
+So feel how you want about Fox. Feel how you want about the Murdochs. It's weird that every now and again, I agree with them. It's weird that every now and again on the show, I agree with the Wall Street Journal editorial page. They've understood this from the beginning.
+
+They are always their companies are always yelling about Google Search. They have been since the start. They are suing these companies. They you know, the Murdochs are Australian. There's a reason that Australia was the first country to pass the laws requiring social media companies to pay for links, which is maybe dangerous and bad.
+
+Like, maybe as a policy decision for the Internet, very bad, but the Murdochs made sure that links to their content got paid for. They have understood their relationship with distributors from the beginning, and they have been the most aggressive. So here we are at, you know, whatever end of whatever Internet we're looking at, and they're like, oh, most video is distributed on these platforms, on Roku, Fire TV, Google TV, whatever it is. And they just went and bought one. They bought the only independent one.
+
+Because they can't buy Google TV. They can't buy Fire TV. I think Samsung would let you do anything you want with Tizen, but no one's gonna do that. What are you gonna do? What is the only independent platform for watching television that exists?
+
+It's Roku. And they went and bought it, and the quotes surrounding this deal are naked about their ambition. Anthony Wood, CEO of Roku on the call said, promoting Fox owned and operated properties on the Roku home screen is a key component of the company's plan to increase profits. What are they doing? They own the interface.
+
+Right. They bought the platform that has all the apps on it. They've made a bunch of noises about remaining neutral, but they're gonna use that to put their content and their services first. This is what every platform does. Right?
+
+And you again, you can feel however you want with these companies. I think it's pretty obvious how I feel about some of these companies, but they're the only ones who understand that owning the point of distribution is the way that you compete with the Googles of the world. Everyone else is trying to get leverage over Google and trying to get Google to pay them more money, and they never will. Right. They they simply will not do that.
+
+And I think Fox figured that out early and said, okay. We're gonna find lots of other ways to get leverage over you. So on the one hand, this deal is very smart. On the other hand, Fox is gonna own everyone's streaming box, and they're gonna promote a lot of Fox content. I bet a lot of Roku customers are gonna have a lot of feelings about that in a huge variety of ways.
+
+Roku is already being insuredified, which is something you complain Yep. About all the time. There's a data component here where I don't think a bunch of streaming service providers are gonna want their competitor in Fox to have the analytics that Roku provides because Roku tracks everything. Roku is also the advertising provider. If you have an app on a Roku platform and you wanna serve ads in that app, Roku gets a cut.
+
+Do all of those streaming service providers now wanna start giving a cut to Fox, which competes with them for advertising? There's, like, layers and layers and layers of why people will be angry at the deal. But just from the very abstract strategic point of view, Fox is the only media company that's like, oh, we need to buy distribution. And they went out and they bought it. Well, and all the reasons everybody else would be mad about this deal are kind of exactly the reasons to do the deal.
+
+Right? Like, Roku, I think, has has been this fascinating thing for a long time, which is that it started as Switzerland. Right? Like, it it started as a thing inside of Netflix. And then Netflix was like, okay.
+
+Well, actually, doing this inside of Netflix is gonna make it very hard to do the thing that we wanna do, which is be a good partner to the entire streaming ecosystem because we will be perceived to be biased towards Netflix. So they spun it out. Roku becomes its own thing. And part of the way that it won is exactly what you're just saying. It is the only one of these that is not owned by somebody with bias.
+
+Right? Like, of course, you go on a Fire TV and it's gonna sell you Amazon stuff. Like, it would be insane if they did anything else. Same goes for Apple TV. Same goes for all of these other platforms.
+
+And Roku was the only one that could, with a straight face, be like, we actually don't have a dog in this fight. We we just want you to use our product. Whatever you wanna do on it is up to you. And that was like that was a pitch they made to users. That was a pitch that they made to streaming services, and it worked for a super long time.
+
+And then Roku became fundamentally an advertising business and started to compete with all of those people. But by then, it was so big that where are you gonna go? I mean, they basically reinvented the cable box in, like, a cell phone framework. So they gave all the hardware away essentially for free. Like, there are expensive high end Rokus.
+
+But But you you can buy it for $19 in the checkout line at CVS. Like, there's And like, know, if you sign up for a checking hat, you get a Roku. Like, they they mass distribute the hardware. Every shitty TV you buy is Roku. Right?
+
+Yeah. They they sell really cheap TVs that run their operating system, and they went to all the service writers and said, look at all the scale we have. Put your apps here. We won't preference any of them. But if you want to sell ads, we will be the ad provider, and then we will have the scale to sell your ads.
+
+And there's we probably don't we don't talk about connected TV ecosystems on the show really ever, but that is where all the action is right now in ad world. Like Yep. There's tons of money flowing to CTV. So Roku just has this big play where they are a massive connected TV advertising provider, and they squeeze the app makers. So if you wanna do something else or something innovative, they're like, no.
+
+And the relationship looks a lot like Apple in the App Store. Oh, that's interesting. Yeah. Right? Like, it it is the same kind of model there, and consumers get all the benefit for free because Roku's like, if as long as we have all the hardware, the app makers won't have any choice but to deal with us.
+
+Right. Well, you add Fox to that mix, and it's like, well, a bunch of those people are gonna say, no. We don't wanna be in business with our our competitor this directly. Right? Like, actually, we want different terms.
+
+Actually, maybe we'll find antitrust lawsuit to block this deal. Like, there's just, like, real business concerns of having the supplier by the distributor in this way that in a normal administration, you would you would already hear about. Yeah. Well and I mean We'll see. To your point, some of the reporting that's come out since this deal was announced is that Netflix also Yep.
+
+Sniffed around buying Roku and in fact walked away from it because it was worried about the antitrust concerns. That it was like I mean, and this is, you know, Netflix that ran into, like, a buzzsaw of weird antitrust stuff when it tried to buy Warner Brothers, looked into this, was like, okay. We're we're gonna get the same smoke and just decided not to do it. Yeah. Fascinating.
+
+But I agree with you. Like, this whole this whole idea of Roku being so big, it is undeniable, and you can't walk away even if you want to because this is what the business has become, a, I think is true, and b is, like, central to this whole idea of working. Right? Because if there were a bunch of other good platforms people could go to, it this would not be nearly as appealing to Fox because it's like, okay. We can inshidify this to the point where people will just leave.
+
+Like, no. You can't. Like, that TV right behind my computer here runs Roku, and I literally can't stop it without buying a new television. Well, you can. You just disconnects from the Internet and plug an Apple TV into it.
+
+This this is more of a danger TV. But this is well, have you heard of the NVIDIA Shield? This is more of a danger to all of this than I think either of these companies believe. Right? There's a lot of free TVs out there running a lot of Roku software.
+
+Yeah. And maybe you're locked in, and maybe you can put Fox Sports programming on the home screen of that thing, and you're you're gonna win. Or maybe Roku is already getting. It's already pushing people towards the Roku channel. It's already making people feel bad about how much tracking it's doing.
+
+And what people are gonna do is they're gonna turn off the Wi Fi on their TV and plug in anything else because the screen still works just as well as the day that they as they bought it. And I think Amazon can deliver a lot of free Fire Sticks to an audience like that and play that game. I think if Apple had any sense at all, it would have a cheaper Apple too. There's a lot of ways you can get away from the Roku ecosystem without having to buy a whole new TV. So Especially when you when many people enter the Roku ecosystem by buying a $19 streamer.
+
+All of that is true in theory, and I think, like, demonstrably not true in practice. Right? Like I no. I think the switching cost of of of TV streamers is way lower than anyone thinks. Yeah.
+
+But people don't. It's they're not. This is my point. Like, I have I have been arguing that Roku has gotten steadily worse for, like, five years as Roku watch share and market share has just continued to climb. Because I mean, it's it's if what you were saying is true, dumb TVs would be on sale.
+
+Do know what I mean? Like, there's just you're you're describing a world that doesn't exist where people will do something other than buy the cheapest possible television that is very bright in a Best Buy. Like, that's actually not how people shop for these products. I think people are totally, like, unaffected by shitty interfaces. Yes.
+
+We're surrounded by them all day and all night. I think they might be a little bit more affected by I don't want to see Fox News on this home screen. Maybe. Right? I don't want literally the Murdoch family to own this surveillance device in my home.
+
+I actually think that is a higher order consideration for people than this interface is pretty bad now. That's very possible. I will say, I think Fox has done a pretty good job historically of keeping Fox News in front of Fox News people and away from other people. Like, Fox Studios and Fox News have actually not overlapped in the way that you would think if this company was not as savvy about this stuff as it has been. But that said, it's not a hard The studios are gone now.
+
+They're Disney. Yeah. But, like, it's there's still some stuff. But but, anyway, it's not a hard thing to imagine this company putting Fox News on people's home screens, and I think they will rebel against that. But, like, it wasn't that long ago that Roku just rolled out this huge redesign that instead of your home screen being just a grid of apps, it's now a few apps and then a bunch of, like, recommended content, which, like, spoiler alert, all of which will eventually be sponsored.
+
+Like, Roku is going to turn into Amazon in that you're gonna search for something, and the first 17 things are gonna be ads, and you're not gonna know which is That is where this company is going. And to the extent that six of them are just going to become Fox properties Sure. I just have a hard time imagining that being, like, the thing that turns a bunch of people towards buying an Apple TV. I hope I sincerely hope I'm wrong. I Again, I just think I think bad interfaces are one thing, and we're maybe you and I are not tolerant of them, although you have a Roku TV for some insane reason.
+
+I have a Google TV streamer plugged into it, which I never use it because I can't find the remote anymore. Perfect. I'm just saying, like, you know, on a from the cold strategic logic of this, this makes sense. Right? The the the content creator is buying the distribution because they get leverage over all the rest of the distribution.
+
+Probably the only play that will ever work. I know, like, there are people who are like, at the end, this will get swallowed by an even bigger player because the connected TV marketplace is so important. And there are maybe maybe, like, maybe this will all get acquired yet again. But that's the business logic of it. I think the execution of this where there is a political component to literally the Fox brand and the Murdoch family and the point of this deal in the quotes in the press conference is to promote that content, that is a buzzsaw.
+
+Like Yes. America's deeply polarized and politicized. However you feel about bad interfaces is one thing. How you feel about the Fox Business Channel is another. And Yeah.
+
+Here's my here do want to know my hottest take? Please. Do you I we I was just at home on the farm where was with Becky's whole family. Do know why all of Becky's older aunts and uncles have Fire Sticks? What?
+
+Because they they run Android, and they can be jailbroken to steal TV on IPTV services. Oh, interesting. Like, there's a there's another thing that just gets and cooler, man. I mean, this is why I actually wrote the Yonko Rucker story, everyone stealing TV, because I was like, this is wild. Like, I'm in the I'm on the farm.
+
+Wow. And we are pirating television. Like, they're not, though. Not those if the police are listening, they they pay the money. Also, motion smoothing was on all of their TVs, I didn't have the heart to take turn it off because then they would note it.
+
+You know? Anyway, home. This is what happens when I go home. It's lovely. And then I'm like, I need to fuck with all your TVs.
+
+Yeah. Anyhow, all I'm pointing out is, like, there's another exit ramp here that people care a lot about that is not on the books, and maybe more people are gonna take that exit ramp. Yeah. No. I I think that's fair.
+
+I, like, I sort of hope you're right that there is a check on this for Fox that is like, okay. It it makes sense that you want to own the distribution and and have something that feels like a more closed ecosystem. If you ruin it, people will run. I'm just not positive. I think that's true.
+
+There is one other thing about this deal that I just wanna talk about briefly before we we switch gears here, which is there is some sort of huge new streaming service potential brewing inside of this thing. We've talked a bunch about Tubi, which is at this point, basically Fox's main streaming service. Mhmm. Fox has had a weird relationship with streaming services over the years. They've, like, tried a bunch of different things.
+
+Tubi really worked. That was an acquisition, I think, four or five years ago. Fox one is now kinda having a moment because it's where you can watch the World Cup. But, like, it never had the sort of high end SVOD streaming service. But what it now might have is like a titanically huge free streaming service.
+
+So I went and looked, and the the numbers for both the Roku channel, which Fox is buying, and Tubi, which already owns, are like shockingly huge. So the Roku channel, this is according to the Nielsen gauge, which tracks all kinds of TV viewing. The Roku Channel accounted for 3% of total monthly TV viewing in March of this year. 2B accounted for 2.2%. If you combine the two, which they have not said they intend to make it one streaming service.
+
+But if you combine these two free streaming services, you have a streaming service about the size of Disney plus. Just like that, which is nuts. And as everyone is running towards advertising, you have the Roku channel, which is already a really successful advertising business. You have Tubi, which is already a successful advertising business. You can make this thing just a monster of a free streaming service kind of all at once if you want to.
+
+And they're they're different in interesting ways. Like, a lot of people on the Roku channel watch fast channels. Tubi is much more on demand. They have lots of, like I'm deep in the world of of licensing deals for a story I'm working on about why I can't stream the movie, the nice guys. This story has, like, slowly taken over my life, but I've learned how companies acquire content.
+
+This company would be hugely powerful in doing that. Like, if if they decide to fold the Roku Channel into Tubi or do some combination of the two, we suddenly have another, like, a list streaming service at Fox, which I just think is underrated and fascinating. They have so far said they're gonna run them independently. Yeah. But that's what they always say.
+
+Everybody has always said that about every acquisition ever, and it has I don't think it has ever once successfully been true. Tubi is a shocking success story. It it just works. The fact that you can open that app and watch it without any kind of login, I think, is one of the smartest strategic decisions in, like, all of streaming. Anjali Su, the CEO of Tubi, has been on Decoder.
+
+I've been like, what's it like working for the And she deferred. She's like, nope. Yeah. She's a pro. I I appreciated it, but she was like, nope.
+
+But, like, you know, she's the CEO of Vimeo. She's basically figured out, like, oh, we need to put free streaming in front of a lot of people. This is a huge opportunity for us. Right. And they've managed to grow at a pretty huge clip without the benefit of being the Roku channel, the default free thing that runs in your $19 streaming box.
+
+Right. Which Roku advertises to death. Like, you cannot avoid the Roku channel every time you turn on your Roku, and that is very much on purpose. Yeah. So, I mean, imagine if you can take the Roku channel and the benefit of just being the default and, oh, we've learned how to market the free streaming service.
+
+It's pretty good. Like, you can see the opportunities there. I suspect they will combine the advertising reach of the two without the the service itself because all of this is just ad based. Yeah. You can sell them both on the back end simul like, together without smooshing them together as one product.
+
+And then you maybe maybe you leave your antitrust concerns alone. Who knows? Maybe. Synergies, baby. That's what we do here.
+
+Should we go 90 these things? Just this is this is a useful clarifying exercise. Is it time to bust out the go 90 scale of Doom streaming services for for But only we're only talking about Tubi and the Roku Channel. Right? I so I wanna do Tubi, and I wanna do the Roku Channel, and I wanna do just this whole deal.
+
+You you sort of you sort of alluded to the idea that, like, maybe this is being bundled up to be rebundled to some even bigger player, which would presumably be a tech company. Like, could YouTube buy this combination and have that kind of make sense? YouTube has connected TV. Like, the the thing that most of the players have already is some big connected TV play. Apple has one.
+
+They have the Apple TV. They have their service. Like, they there's they are able to get I mean, Apple doesn't care about advertising so much, although they have it you know, they run an app store on the TV in the same economics. But Google has massive connected TV reach with YouTube and YouTube TV and Google TV. Roku obviously has it.
+
+Amazon obviously have it. They run Prime Video. Like So it's Microsoft. Have one. Microsoft doesn't have one.
+
+Meta doesn't have one. There are lots of big digital advertising ecosystem players where, like, oh, this would this would be the thing you'd buy for connected TV. Now I think Meta has no institutional focus on its core business right now. So who knows? But, yeah, maybe.
+
+Okay. Alright. Well, let let's just do these three quickly before we get out of here. So to b, I think we both agree probably belongs toward the zero of the list that, like To b survives. It is yeah.
+
+It's hard to imagine a world in which we come out of this deal and to b is completely gone. So are we putting it at or do you want it at zero? I said zero. Two b two b is great. And it's Fox's baby.
+
+Alright. Zero. Kill its own baby. Right? That's fair.
+
+Yeah. I agree with that. Alright. So two b goes to a zero on the go 90 scale of Doom streaming services. Named, by the way, after the Verizon streaming service, Go 90, which immediately went 90 because it's disastrous.
+
+Yes. Zero is alive and 90 is dead. 90 is go 90, you die. You you keel over and you die. Alright.
+
+Two b's a zero. Where do you put the Roku channel? I'm gonna put it at 90. 90? And and here's my argument.
+
+Maybe the words the Roku Channel exist as an app icon somewhere. Okay. But there's no world in which Tubi and the Roku Channel compete in the marketplace for content because they they gotta go buy stuff. Right? Yep.
+
+They gotta buy shows and movies and whatever to stream on these services. If they compete, the prices go up. So there's they're gonna unify the content acquisition. Sure. Right?
+
+They're gonna go out in the market and say, we're gonna run They're gonna unify the advertising. And eventually, you're basically gonna get a skin on Tubi called The Roku Channel. Oh, that's interesting. I could see that. So it's kind of like in in the old way of television, it it would be like having, like, Nickelodeon and Nick Junior, where it's like, these are technically different things, but they exist only to have more places to put things acquired by Nickelodeon.
+
+I think that's right. Okay. I I don't I don't wanna go all the way to 90 just because the Roku Channel is so shockingly successful that maybe if you're Fox, you you're just like, we're we're just gonna leave this alone, sell some ads, try to make our money back. But spiritually, I I like it. '88?
+
+We'll put it in '88. '88 feels good. Right. I think they're gonna hollow out its business operations. Yeah.
+
+And they'll it's successful, but nobody cares about the business operations of the Roku Channel. No. And Tubi is a vastly better brand. Like, it it had a big moment with the Super Bowl. They're gonna keep getting stuff like that.
+
+Like, Tubi has a really interesting bunch of creator plays going on. Like, if you're going to pick a streaming service, it's obviously Tubi. Yeah. Charles Polyamore did a story for us about how two b goes and courts black creatives specifically, and that is a market they've identified. Yeah.
+
+It's really interesting. Anjali, too, the their CEO, is is really interesting to hear talk about how they think about content, which is very different from any other platform that I've talked to. Alright. So that's fun. So this means, I would say, the the whole Fox Roku tie up has gotta go somewhere in the middle.
+
+And this really depends on, like, do you think this is being packaged to be sold for, you know, a $100,000,000,000 to some giant tech company, or do you think there's a real competitive streaming player here? What do you think? I think the Murdoch family does not want to be owned by anything else. Fair. They're certainly not hurting for money.
+
+And I like I said, I think Meta maybe is a a buyer. Microsoft maybe is like, the people who don't have connected TV advertising stories are potential buyers here, but they all lack any kind of focus on anything human beings want. Yeah. They're they're all totally distracted by superintelligence or whatever. I feel like Microsoft has tried the Xbox TV thing too many times to want to do that again.
+
+No sense for them. And they're gonna sell Xbox. By way, that's my super hottest take. But you put Xbox in the go 90 scale. Like, it feels like they're just paring it down to sell it.
+
+Right? So they they want out of this game. So I think I think right now, you gotta leave it at at 45. Like Dead center. I don't know.
+
+Yeah. Dead center. I don't know if this deal will close. I don't know if the attorney general of California is gonna file an antitrust lawsuit. I don't know if the other studios will.
+
+I don't know if Netflix will show up and be like, here's more money. Right? Like, there's a lot here. Yeah. So I I would say forty five.
+
+Like, they go either way right now. Okay. I was I would say if if the deal goes through, like, if you could tell me 100% this deal is gonna get done, I'd put it at, like, a 25 because I think I do think this thing is, like it it might be too expensive a deal, but it's powerful enough as a platform that it might work. But if you throw in the just possible for, like, political insanity over this deal, including around the world, by the way. Like, Roku is a a big global platform that is gonna make a lot of people feel a lot of things.
+
+Hey. Hey. There's been a lot of fulminating in Europe. There's always fulminating in Europe. That's the main thing we feels right.
+
+The fulminating. Full coin toss for what this thing gets to be in the future. I like it. Alright. By the way, one last button on this.
+
+Did you see the story this week about what happened after Stephen Colbert's show went off the air to the the ratings of CBS? This is Byron Allen doing Comics Unleashed and just, like, tanking CBS. Yes. They basically they sold the time Stephen Colbert's time slot to to Byron Allen, essentially, like, it's he's doing an infomercial. And they found that Stephen Colbert's ratings were super high at the very end, and then they immediately lost two thirds of the audience.
+
+And that actually, it's having a ripple effect because one of the things that happens is a lot of people turn off their TVs at night, and then they turn it back on in the morning, and the channel that it's on winds up being important. So, like, if they're watching Jimmy Kimmel at night, they're gonna watch ABC's morning show instead of CBS's morning show. So there's, like, there's just this it just it goes back to the same thing we're talking about of distribution, by the way. Right? Like, being the place where people go to find you is vastly more important than anybody realizes.
+
+And it's actually very hard to just content your way through that problem. Yeah. And this is just a tiny little microcosm of that thing. Nobody is watching Byron Allen's show, and as a result, it's hurting the rest of CBS because people have changed the channel. And that is just the audience of people who have linear television, either broadcast or cable.
+
+Right. And they turn on their TVs, and it just starts playing stuff. Yep. And that's enough. Wild.
+
+Yeah. And CBS's response is like, well, we're making money from that time slot. Whatever. I mean, see yeah. C b see can we go to CBS and go 96?
+
+They're they're, like, 85. Oh god. Yeah. And and sprinting towards 90, like, at a dead run towards 90. Alright.
+
+We should take a break, then we're gonna come back. We got the hype desk. We got a lightning round. We'll be right back. When I scraped my car in that parking garage, I was worried that it could be a long process to take care of it.
+
+Like a landscaper's first day trimming a hedge maze. I have definitely already been here. Now was it left, right, or right, left? Well, maybe I'll cut a path out and find my way back later. But it wasn't like that.
+
+I filed a claim in under two minutes on the GEICO app, and they handled it from there. It was taken care of almost as quickly as it happened. It feels good to get help quick. It feels good to GEICO. Woah.
+
+Okay. This one says you get a free phone if you switch. Hey. This one also says you get a free phone if you switch. Yeah.
+
+They all do one. The T Mobile one says their customers had the lowest wireless bills versus the other big guys over the past five years, and their latest experience plans have Netflix included, plus a year of DashPass by DoorDash. Hang on. Let me do that. Oh, yeah.
+
+We're switching. That's what I'm talking about. Do we clap now? Or At T Mobile, get savings that keep stacking up. That's value you can feel every day.
+
+And right now, bring your phone to T Mobile, and we'll give you $400 when you switch. Savings based on HarrisX billing snapshots from q three twenty twenty one to q four twenty twenty five compared to average AT and T and Verizon bills comparison includes discounts, credits, and optional charges. $400 with new account on qualifying line, unlike device credit ported, ninety plus days with device carrier, entirely redemption required. Virtual Mastercard typically takes fourteen weeks. No cash access and expires in six months.
+
+Card issued by Sunrise Banks NA, member FDIC, visit tmobile.com. Alright. We're back. It's time now for the hype desk where our friends Ross and Ashley come and tell us what's cool on the Internet and in the world. You're both here this week.
+
+Ross, Ashley, hello. Hello. Reunited. It's it does it how does it feel? Bleak.
+
+That sounds about right. I'm told you guys have both been to movies that you both have feelings about this week. Yes. Actually, I wanna start with you because I I I am reliably told that you have what I would call an extremely surprising take about a movie. I okay.
+
+Hit us with it. You gotta hear me out, everyone, which is He Man is a sleep is a sleeper hit, and everyone should go see it, and you're totally missing out on Masters of the Universe is so much fun. It is I just don't believe you. I don't believe you. So here's the thing.
+
+I I agree I agree that the trailers did not sell this movie the way that it should have. I think they did a little bit. So, He Man, the guy who plays Adam is so good and so charming. It is the perfect summer himbo movie. Like, it is the perfect summer himbo movie.
+
+This movie can I just stop you? This implies that that is a thing that I'm after, but go ahead. But, like Okay. Argue that we could all use a little joy. Right?
+
+Like a little joy. Sure. I'm with you. And and I feel like this movie is just like if especially if you are a kid of the eighties, but even if you're not, it's like, it's still really entertaining. You really cannot Jared Leto plays Skeletor, and I was like very dubious about immediately out then.
+
+I was like, I hate this. You should've listened to that. So this movie has gone through development hell. Like, it's it it was it there was like multiple different versions of the script. There were different actors attached.
+
+Like, it's it's gone through some stuff. Like, there were there was a whole other version of this movie that was happening not three years ago, I feel like. This is a hell of a sales pitch for Masters of the Universe, obviously. So that's okay. But I'm selling it because I'm saying I was so skeptical about it coming into it.
+
+I was just like, I don't know. I think it's gonna be so bad that I wanna go see it. Like, it's gonna be so and I was so pleasantly surprised. It really has Thor Ragnarok vibes. It's like very fun.
+
+It's just like it's a light it's a light romp. The movie is like two hours and fifteen minutes long. That's not a light romp. That's not that's a full drag. At all.
+
+Pacing was great. Felt like the movie kept going like, there wasn't any, like, weird side quests. Like, I never felt like the movie, got into a weird, like, oh, the movie needs to be longer. So, let's make them have some obstacle that they have to go do a fetch quest. So there's none of that.
+
+It's like he gets the sword. It goes to Eternia. Like, it's a whole thing. So everything like leans into the conceit of this being ridiculous. And it is it like there's a moment early on where like Skeletor is like laughing and it's sort of very, Austin Powers where, like, he's, like, laughing and then he looks around.
+
+He's like, I didn't I like, didn't stop laughing, like, or whatever. And so and, Alison Brie plays Eva Lin, and she is, very good. And it it's wild how much this movie came together when absolutely against the like, against all odds. This movie should not be entertaining, and it absolutely is. And I highly recommend everybody go see it for a a fun summer romp.
+
+Alright. Ross, you also went to a movie theater. Yes. Did you see? Of eighties nostalgia that looks different on paper, I went to go see Disclosure Day, the new Spielberg film.
+
+I don't wanna go after Master of the Universe because that's such a good case, and I do not have the same case Okay. For a Spielberg film. That sounds really wild to say. But it is it is interesting because it's it's again, it's Spielberg doing aliens. It's all back in the aliens.
+
+The question is, what how would humanity react if we all just found out at the exact same time on social media or wherever we're looking in modern times that aliens are real and we've been lied to for years. And it is a lot of people call it classic Spielberg. I think for the first half, it is classic Spielberg. You've got car chases, men in black. It's two kinda disparate narratives that spoiler kinda come together.
+
+In one, you've got Josh O'Connor as, like, the whistleblower who knows the truth and wants the world to know. And in the other, you've got Emily Blunt as a random local meteorologist in Kansas City who just starts speaking alien language, and then all of a sudden is just committed to going drive somewhere she doesn't even know where. There are big shadowy figures, organizations. Colin Firth is, like, the head of, like, an ominous corporation. When you get to the first half of the movie, it is the most it the first half is theater.
+
+It is theater tier. It is some of the best, like, car chase scenes and explosions and destruction that Spielberg has done. And I really wanna tell you the rest of the movie is good, and there's a reason it's not in the marketing because it's a spoiler, but Spielberg's done this before. He did Close Encounters. Right?
+
+Mhmm. I am Richard Dreyfus. I saw a UFO. Holy shit. I am so fascinated by it.
+
+I have nothing but hope and optimism and really want this to happen. And it almost feels like in many ways, like Spielberg kinda trying to recreate that moment. Mhmm. But in modern times and modern times are just so much more cynical. It's not, are aliens real?
+
+It's more, yeah, we all know aliens are real, but how much is the government covering it up? And how unreal will I be to find out? You remember the movie Don't Look Up that came out during COVID that was like Yes. Every great actor you've ever heard of, basically. And it was it was like an allegory for how we experience information.
+
+And it winds up being like the bleakest possible movie about the end of the world. Mhmm. I feel like you just described that movie to me again. Yeah. Yes.
+
+But I I will say, and this is not a spoiler, it is Spielberg. So in many ways, it does end on hope. Right? Spielberg is is a person of hope. If you look at these directors, they all they all have their thing.
+
+Right? Christopher Nolan, it's gonna be a movie about time and memory. Dundee Villeneuve loves cycles of violence. Spielberg, aliens exist. And if you live in the suburbs, you're probably gonna see one.
+
+But, ultimately, humanity is pretty cool. Like, that that's every film he's ultimately made. And this is no different, but it just has that such a bleak political thriller start that it just has this shift. And I I I love it. It is also a great airplane movie.
+
+It's a perfect airplane movie. Tough. I'm a sum up the hype desk in forward. Skip Spielberg, C Skeletor. Wow.
+
+Wow. That's a lot. Tough. Same. Tough.
+
+Alright. Before we get out of here, Neil, I'm told you have a contribution to the hype desk. I do. I'm very excited about this. So as you may or may not know, the New York Knicks have won the NBA finals.
+
+They're the champions of the league. They're very very exciting to be anywhere close to New York right now. I could hear the screams in California. It's amazing. And friend of the verge, Chris Person, who's written for us is now Aftermath, which is a great indie game site.
+
+You know, go subscribe to Aftermath. Read out everything Chris does. He posted on Blue Sky that he was at a techno festival during game five. Oh, great. And I guess one person put a laptop on a chair on a table, and the entire techno festival basically stopped and watched the Knicks win on a single Oh my gosh.
+
+Tiny, like, itty bitty laptop. This is one of the funniest pictures I've ever seen. It's, like, the most verge way into the NBA finals I can think of. This video is incredible. Just run the video clip.
+
+Yeah. I will say if before we get to the video, I I just wanna say if you're not watching this, a, I'm sorry, and b, click on the link because Chris takes us through a truly incredible journey. It starts with a picture of, like, a few people gathered around a laptop watching the Knicks at this festival. And then a few minutes later, a bunch more people are watching a laptop at the festival. And then Chris just tweets, okay.
+
+They put one of the laptops on a chair now. And, like, a crowd starts to build. And then a few minutes later, it is literally, I don't know, a 150 people. That's a 150 people all watching single And then laptop. Then it culminates in this video.
+
+Literally, like, massive festival level cheering for a laptop because the Knicks love it. It's very good. That is incredible. It's very good. But it's It's so good to see.
+
+This is like, I know you've all heard the let's go Knicks chants across across the country and world, but they're cheering it on a laptop on a chair, which is just It's beautiful. Inch laptop screen. That is absolutely incredible. Chris also posted somewhere else in that thread that the other thing that was like, the thing that was supposed to be happening at the techno festival was an artist who was just playing a pair of giant subwoofer cones with a sheet of plastic. And he's like, I don't know how this is music, but it also kinda rules.
+
+Oh my god. Amazing. But just a perfect word. No offense. Like, I was like, I know how to bring the NBA finals onto the verge cast, and it is through the post of Chris person.
+
+So thanks, Chris. I asked him if we could show that stuff. So thanks to Chris. Go read aftermath. You know, you know, all the rest of it.
+
+Yep. That's the hypest thing that happened. It's good stuff. That was amazing. So that was a great one.
+
+It's a big week. I maybe maybe we should all watch disclosure day and masters of universe on a laptop at a time the on festival. Scale somewhere. Yeah. I don't accept.
+
+Don't accept. Alright. Ross, Ashley, good to see you guys. Thanks for being here. Bye.
+
+Cheers, y'all. Alright. Now it is time for America's favorite podcast within a podcast, Brendan Carr is a dummy. Carr is a dummy. Brendan Shout out to Violetta Goomba who created that, and also to the people who email us about all the funny places that you are when that theme song appears and whether it fits the vibe.
+
+Just think you're We have a maybe the next week, the entire segment is just us reading those emails. Oh, I like that. We we can definitely do that. But this week, Brendan's doing stuff. What are you doing?
+
+He's always doing stuff. He is always doing stuff. So first, I'm angry at Brendan. What? Because he's shock.
+
+In an indirect way this time. This is like a second order Brendan effect. Okay. I'm upset that Brendan has forced me into agreement with Ted Cruz. Oof.
+
+It's rough. Oof. That's rough stuff. Yeah. So, you know, the actions of this administration have scrambled political lines all over the place.
+
+I think this is actually the second time you've agreed with Ted Cruz on this podcast. Ted Cruz is, for for his many, many faults, does not like it when you screw with the First Amendment. True. So senator Cruz and senator Ron Wyden introduced a thing called the Jawbone Act, which would let individuals sue the government when they meddle with their speech and create transparency requirements for government communications with social media, AI, and broadcast companies. And what they're saying that they're worried about is the government messing with AI because if the government can go to Google and demand that Gemini say some things but not other things, what happened at the Capitol Building on on January 6?
+
+That's a real problem. And so if your speech is interfered with legally, there should be some remedy. And so the Jawlin Act would create that remedy. It would allow Jimmy Kimmel to sue the FCC for jawboning his speech, and it would allow all of us to see what these government agencies are saying. Now there's, like, layers and layers of complication here.
+
+Like, is this built off of some bad faith readings of how the Biden administration talked to Facebook about public health initiatives at the tail end of the of course, it is. Mhmm. Did that case also go to the Supreme Court? And did the Supreme Court say, all that was above board and was fine? Because ultimately, Facebook said no a lot, and it was fine.
+
+Sure. Or do most companies feel as emboldened as Facebook to say no? Like, they do not. So this law sort of, like, creates the balance. But I'm just upset that I I've been forced into agreement with Ted Cruz in this way.
+
+This this bill is cosponsored by Ted Cruz and Ron Wyden, two people you would not expect to be simultaneously excited about the same thing. Ron Wyden wrote two thirty? Yeah. Right? Like, these are free speech warriors to the Internet in a very particular way.
+
+They've got a pool of supporters, the ACLU, FIRE, which is another free speech organization, the Knight First Amendment Institute at Columbia. All people we've talked to, all people that are you know, we we know to be defenders of the First Amendment in particular ways. But Trump is particularly mad at Brennan Carr here. Mhmm. And so he's just issuing fiery quotes at Brennan Carr.
+
+Of course, like I said, there's also some nonsense about the Biden administration weaponizing the blah blah blah. The pressure it's like, man. Maybe you believe that, but, actually, that that that case did go to the Supreme Court. We did read all the emails. Yeah.
+
+And we did see that the tech companies were like, no. So Yeah. It turns out it's not illegal to ask somebody questions, generally speaking. It's totally fine. I just wanna say, by the way, Jawbone in this case is is a acronym.
+
+It stands for justice against weaponized bureaucratic overreach to networked expression. A, very good. And b, if you are the person in any of these offices responsible for coming up with the name to make the acronym make sense, you're the only person in the world I care about. My white whale story is how bills get named because they start with the acronym and work backwards. And I I wanna I wanna I want those stories.
+
+It's all I care about. Maybe that story is great. Very good. That story was great five years ago, and you you 100% know the answer right now is Claude. Oh, that sucks.
+
+Yeah. They're like, we wanna call it the Jawbone Act. Could it actually be called? Yeah. Fire up those GPUs, buddy.
+
+Justice against weaponized bureaucratic overreach to networked expression. Yeah. Like, Ted Cruz is, like, walking on the plane, you know, just gonna come up with us, whispering into his phone. Alright. One other thing.
+
+We we talk to this a lot, the notion that everything is owned by a tiny handful of Trump allies Mhmm. In media. There are some rules preventing people from owning too many radio stations or too many broadcast TV networks in an area. Those rules are getting waived over and over again. This loves those rules until he wanes those rules.
+
+This week, a bunch of radio CEOs are meeting with Carr and saying they need to quickly and substantially relax the radio ownership rules so they can own more radio stations in given areas. How are there any left? Didn't didn't we, like, just combine all of them into one company? Oh, no. That was TV channels.
+
+Now we're doing it with radio. Yeah. We did it with TV channels. We're doing it again. And their big argument is that local radio doesn't just compete with other local radio stations.
+
+They compete with YouTube. And so what have I been saying about the ill fated way to compete with YouTube? You need enough scale to bring YouTube to it's never gonna happen for you guys. That you just wanna own all the local radio stations and monopolize local media. We compete with sleep is like yeah.
+
+For everybody's argument about everything now. Brendan loves to characterize this as, like, the scrappy independent local news. And it's like, no. These are billionaires with political viewpoints, so they wanna foist on everyone in a given region. And we actually want this competition.
+
+Anyhow, that's Brendan this week. The corruption is naked. The stupidity is high. Brendan, as always, if you wanna come on the show or any show and and defend yourself or just issue whatever gobbledygook nonsense that usually comes out of your mouth, you're welcome to. I'm available.
+
+I'll I'll answer the call. That's been Brendan Carr is a dummy, America's favorite podcast from the podcast. Brendan Carr is a dummy. That's beautiful. The corruption is naked.
+
+The stupidity is high is a is a is a merch idea waiting to happen, and I just wanna mark that right here in the podcast. That's like the, like, the pool status sign outside the reflecting pool. Hi. That's pretty good, actually. Like, how are the waves?
+
+Make it. It's very good. Alright. Mine my first lightning round item is about threads. And I just I have a number to throw at you that I have been trying to figure out what to make of for a couple of days, and I wanna know what you think about it.
+
+So it's about to be threads third birthday. It came out in July 2023, and they just announced that they have 500,000,000 monthly active users on threads. On the one hand, this is a very big number. On the other hand, I think there are a lot of ways in which it is not a very big number, which I am happy to explain. But I'm curious.
+
+Like, 500,000,000 threads users, how does that number hit you? I wonder how many of them clicked on an Instagram carousel and didn't realize they're opening threads. Yes. I assume the answer is, like, three quarters of them. Right?
+
+Like, I I I honestly think that is right. Like, there's a way to look at it that says, okay. 500,000,000 people use threads every month. Kick ass, growing really fast, doing great. Like, we used to talk about how threads adds a blue sky every day.
+
+That number seems to probably still be at least true. On the other side, there are about 3,000,000,000 people in the Meta family of products. Meta is unusually good at getting people between products and unifying the products and and sort of making you exist across its many platforms. That is like Meta's whole thing. It's like, okay.
+
+Well, Facebook is dying. We're just gonna get everybody onto Instagram. And, like, that's that works. That's a game they can keep playing. So the idea that after three years, only a sixth of that user base even touches threads once a month feels kind of like failure.
+
+I don't know. This is what I mean. Like, it's a huge number and a tiny number all at the same time. Yeah. I mean, it's much bigger than x.
+
+Right? X is in decline. Blue Sky is stagnant to decline. Threads is growing. Are they growing because screenshots of tweets on Instagram aren't as good as a carousel of threads posts, you can kick them out to threads, and that's a user behavior you can kinda get into.
+
+Maybe. Meta says almost all of the daily users on threads increase because of communities. Right? So, like, NBA threads is, like, rocking or, like, whatever it is. I think that, you know, we talked about it for a long time on the show last week that making these big networks feel smaller is what everyone is chasing.
+
+And so here's more evidence that threads is gonna lean into communities. It's gonna make that thing feel smaller, and that's where the growth will come from. Connor Hayes, who runs threads at Meta, says right now all of their communities are made by Meta, but soon they will let users make their own communities, which might unlock even more growth. There's something there. They're they're doing a Reddit too.
+
+Everybody's doing a Reddit right now. I I actually think the opportunity for threads is to be like, we're the only social network that isn't gonna turn into TikTok because Instagram already exists, and Instagram is doing a fine job of turning into TikTok. It really is. So we need to try to do TikTok. Look at it and you say, well, all of our money is in Reels.
+
+What if we just put Reels on threads? But then you can just make Instagram again. I think, like, they'll put Reels on threads, but it'll kick you back in Instagram. And that little dynamic is actually an opportunity for That that may be true. Yeah.
+
+I'm I'm forever trying to figure out the extent to which threads has been a hit versus, like, kind of a subtle failure. Like, to the extent that Mark Zuckerberg wanted to create something as culturally central as Twitter once was, like, that was a big part of it. Right? That there there was a lot of good reporting that Mark Zuckerberg was always sort of jealous of Twitter and the fact that cable news was people reading tweets and that that was where people went for real time information on real time events that it was like it was the heartbeat of the Internet in a way that Facebook, even though it was much larger and never was, and he wanna do threads to make that. Threads is not that at all.
+
+No. There that thing largely doesn't exist. And to the extent that it does, it's still on x, but it largely doesn't exist. And so I think in that sense, threads has not achieved the goal. But on the other hand, 500,000,000 people use it every month.
+
+I'm sure it's it's a brisk advertising business that is growing fast for Meta. Like And they think they can get to a billion. I I think maybe the question is just how much text based posting is gonna grow at all Right. Compared to the thing people are doing all day long, which is watching social videos. Yep.
+
+Yep. Wait. Actually, can we we we can end on your lightning round item, but I have I have another Meta one to talk about. Sure. Which we should talk about.
+
+So this week, Facebook announced a new AI mode, which is basically its answer to Google's AI mode, which, you know, tries to, instead of giving you links to search results, tries to sort of stitch together a narrative for you from your search results. Meta's AI mode it just sounds insane to say this out loud. Meta's AI mode, instead of synthesizing the web, synthesizes all of the public posts across Meta's various networks to give you information about things. And, Neelai, if I were to say, what is the least reliable corpus of information on the Internet? Wouldn't you say people's Facebook posts?
+
+Right. Like, Facebook limiting itself to the content that people post on Facebook is just this thing will be insane from your jump. Yeah. Like, my community's local Facebook posts are some of the wildest conspiracies, And this is like a yeah. It's like a nice New York community.
+
+Yeah. It's gonna be great. I'm ex I'm super excited for everyone's drunkest uncle to be the source of Facebook's AI training. It's very funny because they Allison Johnson on our team tried it and had a a couple of funny experiences with it. But the the way they frame it is the same way everybody frames everything, which is like trip planning and find stuff to do around me.
+
+Always trip planning. It's Napa. In their example, it's you're going to Napa. Yeah. And and what's funny is on the one hand, I actually think a a bummer about the Internet is a lot of that stuff did, for a time, get moved to Facebook.
+
+Like, for a long time, if you wanted to see if the restaurant you wanted to go to was open or closed, the most update UpToDate source was probably their Facebook page. Right? That was, like, when Facebook was Ascendant, a lot of that stuff just moved there. And so a lot of the, like, what is going on around near me moves to Facebook, and then it died. So now you have this, like, incredibly old, outdated set of information about all of the places around you.
+
+And for me, the idea of, like, what's going on that would be fun for the kids nearby this weekend is a good idea that I want very badly. I just I don't think there is any chance, and Alison seemed to have the experience of it not really working because meta is just not an reliable source of information in any sense. No. No. No.
+
+It's I mean, again, we had a power outage here on Sunday night, and my local Facebook groups were like, there was an explosion, and then just, like, wild speculation about what caused the power outage. Yeah. My my neighborhood this just makes me think of, like, my next door, which is just, like, pictures of people in hoodies being like, are they criminals? Nope. They're they're teenagers.
+
+Men yeah. Fine. Who will misidentify criminals at the highest rate of any AI system. It's very true. Alright.
+
+You get you get the last lightning round item. What do you got? I is this a lightning round item? Alright. Oh, no.
+
+Jen Toohey, the nation's number one matter and thread reporter, has has struck again. I mean, I love this. This is why I'm here. Why do we run the believes in matter so much? I believe in matter so much.
+
+You're both What are we doing here? Why does the verge exist? It's to it's to make sure that someone covers matter as hard as Jen covers matter. Absolutely. This is the most important thing.
+
+So if you don't know what matter is, why are listening to the show? Matter is a a universal smart home connectivity platform that's supposed to bring everything together. And the of using Matter for five years now more Mhmm. Has been to assume it can do things it cannot do. Right?
+
+You're like Sometimes to assume that because they directly say that. Right. Because the because, like, the literal obvious promise of a universal smart home standard is that everything will work together. Mhmm. And every step of the matter journey has been like, but what if it didn't?
+
+Yes. What if it was slightly and yet completely broken? And then and then I not to not to downplay how complicated it is to make everything work together. We end up in this situation where, like, Matter 1.3 a will introduce thread network credential sharing so that my Eero routers can pick up the password for the thread network created by my Apple home hubs. Like, none of this makes sense to any human being.
+
+Literally, the only person who understands it is Jen, and I think Jen understands it better than the people who run Matter. Oh, I 100% agree with that. So this is just like a huge and Thread is like a different network. So this is all crazy all over the place. Anyhow, Matter 1.6 was announced this week at UNIFI Uh-huh.
+
+The Connectivity Standards Alliance inaugural conference in Austin, Texas. Jen is there. She's on the ground. Matter 1.6 includes a new spec, David, called joint fabric. Do you get it, Thread fabric?
+
+Joint fabric. Are good with with the the serenames. I respect that. And in 1.6, whenever they get to 1.6, there will just be one smart home system that all of the different things can talk to at once. So you won't have to set up the device in Apple and Samsung and Google and Alexa.
+
+You will finally be able to be like, there's a smart plug. It's I set it up in Apple, and my Google can see it just as well from the jump without having to set it up all over again. You're just describing matter. This is That's what matter is supposed that's the whole is legitimately what I thought it would do five years ago when it was announced. But we're here, buddy.
+
+It's Matter 1.6. We're finally doing Matter. Excuse me. It's called joint fabric. I want you to get it right.
+
+Oh god. There are other there are other features in in in Matter 1.6. There's something called thermostat suggestions, which it's obviously very important. There's NFC set. But Joint Fabric is gonna finally unify the smart home.
+
+Just as soon as it is implemented in the spec, the spec is launched, and all of the smart home makers support it all at once. So ten years from now Yeah. Joint and Fabric will operate. I will say there is a lot of pressure on these platforms to get this right because bringing the AI assistant into your house and saying, turn on the lights, and it not happening is a problem for all of them. And they have more incentive to just solve it so they can all get access to the same system than ever before because this is all the product they wanna make.
+
+And if you're Apple and you're gonna relaunch Siri on a new HomePod this fall or whatever you're gonna do and everyone's stuff is already in Alexa, Alexa, your incentive to support joint fabric and get the Alexa stuff into your system is actually really high. Sure. Will that actually happen? Will people respond rationally to the incentives put in front of them for interoperability? I would say question mark.
+
+But the incentives are there. I agree. I also wonder if any of these companies care at all. Like, is is Google Google announced this week that their home speaker is finally about to start shipping. Does Google give a crap if you use speaker for home things?
+
+Like, if you buy the speaker and use it to talk to Gemini and that makes you a more dedicated Gemini user for other Gemini things, Like, what if smart home just remains the eleventh most important thing that any of these products do? And, like, what if Jen is the only person on Earth who actually cares about the smart home? This is this is a weird guy who's interested in you have. Yeah. But I also care about You, like, wired your house with Ethernet and got weird into home assistant.
+
+You're off on, like, a different level. Even I mean, the people who are in home assistant, they're, like, another level. Like, they will never none of this will ever have mattered to them because they have figured out their own joint fabrics. Yeah. Like, if you wanna home brew a joint fabric, you can do that today with a raspberry pie and a couple of beers.
+
+Like, you can get it done. It's absolutely right. But this is like I I think the fact that it is not a priority is the incentive. Do you know what I mean? Sure.
+
+Like, if you have a vision for how it should work, being like, we're gonna put the resources behind going to every weird Chinese smart plug vendor and making sure they work with us versus we're just gonna support Matter and everything will will work, it's way easier to support Matter. And that's the CSA, the connectivity center lines, is made up of engineers and product people from all these companies. Right. I just think I'm starting to worry there's a real sort of tragedy of the commons problem here in that the only way this works is if everybody sort of equally decides to hold hands and do it together. And there's not anyone really with so much incentive to, like, drag everybody else along with them.
+
+It's like Phillips Hue is maybe the one who has the most to gain from all of this working together. Everybody intellectually understands this to be a good idea. I'm just increasingly struck by, like, there aren't that many parties for whom it is, like, crucially important for this to work. And I I I hope you're right that as more people get these new devices with Gemini for Home and the new Apple Home stuff, which seems to be very good and Siri AI and all of the stuff coming from Alexa. Plus, like, as more people get those things into their home and they start having higher expectations of their smart home, maybe that forces all these companies to raise their game.
+
+But so far, it's like everybody everybody thinks this is a good idea. Everybody believes in matter. Everybody wants matter to work. Nobody really needs matter to work, and I feel like that is the thing that worries me the most right now about matter. I you see more smart home stuff in your ass.
+
+I'm gonna come over. I'm gonna come over with a big pile of light switches, some of those Govee outdoor bulbs. I'll change your mind. Dude, I'm down. I have spent a lot of time shopping for Govee things recently.
+
+They have it's like, what if Philips Hue but cheaper and a lamp? Basically that's their whole it's Philips Hue but cheaper and runs on matter. And that's their whole company, and they are winning. Like, straightforwardly winning. Yeah.
+
+No. I mean, look, they care insofar as that we're at 1.6 in years and years of development, it's the companies that fund it. And the products exist now at scale. You know? I the fact that it doesn't actually do the thing you want it to do is very silly.
+
+Mhmm. But we're we're way past this device only works with Google Home, and this device only works with HomeKit, and this device only works with Alexa. Like Yes. That core problem is solved. You just buy the one light bulb from Govee, and it works everything because Matter just works everything.
+
+Yes. The next problem is Unless you buy it from IKEA, and then it's, like, mostly broken for reasons that one It just doesn't work all. Yeah. Different a different set of problems. Anyway, look.
+
+I don't know when joint fabric is gonna change the world, but I I'm hoping it does. I wanna I'm trying to end on a high note. It's beautiful. I look. Again, this is the thing.
+
+Matter is the right idea. It is filled with the right ideas. And I god. I hope at some point I get a product filled with all of those. In Austin.
+
+Idea. She's at the conference. Yeah. If anyone can get them in line, it's Jen. She's, you know, she's she's a she's a mom.
+
+She's ferocious. She's she's raised teenagers. She can get these companies in line. Yeah. Absolutely right.
+
+Jen will save everything, I think, is is basically where we've landed. Yeah. She's got the accent. Like, it's there's a lot of pieces for it's like Jen will solve it. There's the title of the episode.
+
+Don't worry. Jen will fix it. Alright. We should get out of here. Two quick things before we go.
+
+One, version history is back. The Harmony Remote episode was super fun. If you didn't hear it, I would say there is a non zero chance you're going to hear it on the Vergecast feed very soon because we're gonna be off tomorrow for Juneteenth. We'll be back normal scheduled programming next week. Roomba is this weekend on version history.
+
+Super fun episode with Colin Angle, the cofounder of iRobot. It's good times. Eli, who's on Decoder next week? So we are off this week. We took our little July 4 break early because on the July 3, we are running our annual grill episode.
+
+We did it again? Which is a full circle victory for me. Our first grill episode was Roger Dahl, the CEO of Blackstone, the griddle company. Uh-huh. And it was, like, right when they were starting, like, pandemic darling, a little company.
+
+It's figuring it all out, and they got so big that they bought Weber. He's back, but now he's the CEO of Weber. And we wanted to have him last year, but he was an antitrust review, so he couldn't come on. So this is the full circle moment for the Decoder Grill episode. That's very When we started, our producers and I were like, we gotta get Weber.
+
+Like, eventually, we're gonna get our way to Weber. And we got there because our first guest ever bought Weber. Can't Perfect. Can't be happier about this. That's that's like an equal victory lap on both sides It's pretty Decoder and for the CEO of Weber.
+
+You you literally heard it here first. That's awesome. That's really good. Listen to that. It's gonna be very fun.
+
+We'll we'll make sure you you know it comes out when it comes out. As always, you can subscribe to The Verge to get all of our podcasts, including the ones we just talked about, ad free plus all of our exclusive newsletters, all of our coverage, everything else, verge.com/subscribe. We get a lot of people asking us how you can support, like, us and the show, and we're grateful for all of you. And that is the single best thing you can do. That is how you make Eli ungovernable and also someday buy him a yacht.
+
+That's the one. Someday far in the future. The yacht's called Sunday. Oh, I like that. There you go.
+
+Also, send us email, vergecast of the verge dot com. Call the hotline 86611. Truly love hearing from you about anything and everything, including your thoughts about grills. My dad, by the way, is currently in the market for a grill. If you have grill thoughts, hit me up so I can sound smart when I tell my dad what grill to buy.
+
+I'm sorry. Look. We've had Blackstone, obviously, in in 2021. Then we had Traeger. We've had Big Green Egg.
+
+Last year, we had Shark Ninja. This is a this is a real series that we have done now. Yeah. This is our fifth one. Next up is like a I don't even know.
+
+We we're gonna have to start a verge grill, and then that's that's the move. We build our own grill is the end of the program. Ever wanna hear me just desperately try to hang on in decoder, go listen to that Sharkninja episode. Just like I'm like, wow. My man likes to sell Sharkninja products.
+
+Yeah. Judging by their TikTok ads, that does not surprise me before I tell you that. Alright. The VergeCast is a Verge production and part of the Vox Media Podcast Network. Today's show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, Travis Larchuk, and Aaron LoCascio.
+
+We'll see you next week, Eli. Rock and roll. When I got a new car, thought I my insurance premium would increase and empty my bank account, like if a tween won the lottery. I've invested most of my winnings in chicken tenders because they're bomb. But bro, I bought a house and it's sick, bro.
+
+I'm thinking the floor is gonna be all trampoline, bro, with the helipad on the roof. The contractor said it's structurally unsound. They're just being babies. But switching to GEICO saved me hundreds, so my bank account is safe. It feels good to save some hard earned cash.
+
+It feels good to GEICO. Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in.
+
+Fetch is the most complete pet insurance. Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote.
+
+That's fetchpet.com/save.

@@ -1,0 +1,191 @@
+Support for the show comes from Retul. Too many companies run critical operations on duct taped spreadsheets, Slack workflows, and whatever else they could cobble together. Not because they want to, but because building internal tools means weeks of waiting on someone else's backlog. That's where Retool comes in. Build custom internal tools just by describing what you need.
+
+Prompt something like, build me a revenue dashboard on our Salesforce data. And Retool actually builds it on your company's data in your cloud with enterprise security built in. Go to retool.com/vertcast. We all need to retool how we build software. Support for this show comes from Klaviyo.
+
+Imagine hiring two brilliant employees. The first takes your marketing from idea to full campaign, email, SMS, push, and the time it takes to describe it. The second handles every customer conversation 20 fourseven, answering questions, recommending products, handling orders, both on brand and always on. Your next hires Klaviyo's AI agents. Get started at klaviyo.com.
+
+Welcome to the Vergecast, the flagship podcast of Mythos Class Models. I'm your friend David Pierce. And today on the show, we're gonna talk about AI. We got a lot of questions from all of you over the last couple of weeks after Google IO and Microsoft Build and Apple's WWDC about all things AI. And then we had a just truly chaotic blowup between Anthropic and the US government over the new model Claude Fable and whether it is the most dangerous thing anyone has ever invented in history.
+
+So we're gonna get The Verge's senior reporter, Hayden Field. She's gonna come, and we're gonna answer a bunch of your questions about all things AI. But first, here's a look at everything else happening on The Verge today. This is ninety seconds on The Verge for Tuesday, 06/16/2026. Snap's first consumer grade AR smart glasses are finally, actually, apparently coming out this fall.
+
+That's what the company announced today. They're called Specs. They're thick and wide and black, and they kind of look like spy glasses that James Bond would have worn in the nineteen nineties. I dunno if I mean that as a compliment or an insult, but there it is. But the best part is they're going to cost $2,195.
+
+It's been a full decade since Snap's first ever pair of spectacles went on sale. Back then, they were only a $130, and they weren't a huge hit even then. I have no doubt that the tech here will be impressive, including the built in display and the new chips, but this one might be a steep climb for Snap. Meanwhile, Microsoft launched new Surface devices, a new Surface laptop, and a new Surface Pro, both of which are powered by another Qualcomm chip, the Snapdragon X two. They look good.
+
+The spec sheets are great. The colors are solid as always. And unfortunately, as with basically every gadget right now, they are too expensive. The Pro starts at $1,500 and the laptop at $1,600, both up a $100 from the last generation. I am still excited about them though.
+
+The Surface lineup is some of the best stuff going in Windows world and has been for a long time. And as these Qualcomm chips get better, so do these laptops. Microsoft in particular is making really big battery life claims, and I hope they pan out. And finally, happy birthday to the Trump phone, which was first announced a year ago today. Back then, the Trump phone was made in America and was going to be shipping last September.
+
+Today, it's an obvious dupe of an HTC phone that is very much made in China. And as far as I can tell, it has only shipped to a bunch of YouTubers and tech reporters. I suspect most people at this point have just written off their $100 deposit. But, hey, maybe year two will be a big year for Trump Mobile. I would not hold my breath.
+
+You can read more about all of this at theverge.com. That is ninety seconds on the verge for June 16. Alright. Let's answer some questions about AI. Hayden Fields is here.
+
+Hi, Hayden. Excited. You are just deep, deep in anthropic nonsense as you always are. This seems to be, like, half your beat now is various anthropic nonsense. It's true.
+
+We have a joke that, like, anytime news happens on another company, they text me immediately as in me and Adi, my editor, had that joke. Because it's like every time something else happens, Anthropic's gotta get in there. You know? It's just crazy. But no problem to them.
+
+It's just a hilarious coincidence every single time. But, yeah, last night, we were up till midnight. We gotta peace out. There's some crazy battles going on again between Anthropic and the Trump administration. This is just what we do here.
+
+So I have a I have a handful of questions for you from our audience about all things AI, but everybody's asking us to make sense of what's going on with Mythos and Fable and Anthropic and the US government. So let me just start with a question from Samuel, which says, can we have a complete Virgcast episode on how this is going to impact the way the world looks at US tech companies and the risk this behavior will cause? What's next? Stopping PowerPoint for the rest of the world? I like this question because I think it is a good framing for what's happening between Anthropic and and the US government and kind of the way the rest of the tech industry and the rest of the world is going to take whatever the outcome is of this story.
+
+But really quick, just for people who have not been following this, you you did sort of a big TikTok story of what's been happening over the course of the last several days. Just give me the the cliff notes version of what has happened between Anthropic and the US government in the last week. Yes. That's a great question because the last, like, five days have really been the crux of the whole thing. So on Friday night, when everyone was getting ready for the the big games that were happening this weekend, Anthropic was having the opposite experience where they, at like 1PM, got a call from the US government saying, you have ninety minutes to shut down access to Fable five, its new model that had been hyping for a week.
+
+And Mythos five, its other new model I had been hyping for a week. So Fable five is kind of the the safeguarded version of Mythos. They're built on the same underlying model. Mythos five is the one that they gave access to enterprise, governments, you know, select partners. Mythos is the one that they were like, if we release this to the world, it will destroy everything.
+
+We can't possibly let you have it. Like Right. And I'm barely overstating what what Anthropics said when they put this out. Exactly. And that's what they still say.
+
+And then Fable is the one where it's built on the same exact model, but it has a lot of safeguards apparently, so it's safe to release to the public. Now we don't know for sure, but the independent red teamers I have spoken with have been pretty impressed with the safeguards so far, which is really saying something I wasn't expecting that. Now what happened on Friday was at 1PM, yep, they got a call from the US government saying, hey. This has been like, we we are aware of a jailbreak here for Fable, the safe one for the public. So you've gotta shut it down within ninety minutes.
+
+Anthropic asked for more details. They said, okay. Well, what's going on? Like, you know, let's let's talk about this. And the US government apparently was not happy that they asked for additional details, and they said, nope.
+
+It's been more than ninety minutes. We're you gotta shut it down. And they were hit with a export control directive at 05:21PM on Friday. So that was like basically saying, hey, you cannot allow any foreign national to use either of these models even if they work at Anthropic. So if you're not a US citizen, you can't use the model.
+
+And obviously, Anthropic was like, well, we can't control that, so let's just shut it down. We can't really I mean, these are out there now, you know? So they had to completely sideline them. The whole weekend was spent, you know, trying to kinda make nice with the Trump administration. Apparently, Dario, was not available for the first hour that the Trump administration called.
+
+Anthropic called the Trump administration back within fifteen minutes when that first call came in. But Dario, it took an hour and fifteen minutes from that first call. He was unavailable originally. And so that created a whole point of contention as well. There was some rumors that he was on a wellness retreat.
+
+I can confirm that he was not on a wellness retreat, but he still is not available for an hour and fifteen minutes. So, yeah, there's a lot of drama going on, lots of virtual meetings all over the weekend. Then Anthropic ended up flying out three of its senior staff to DC on Sunday. Notably, Dario, I don't think, was among them. He was still meeting virtually.
+
+And so the in person meetings on Monday concluded without any, you know, resolution. So right now, it's still banned. So we'll see what happens. Right now, Anthropic is trying to talk to the Trump administration and say, hey. We saw the jailbreak you're aware of, and it's actually something that OpenAI's gbt 5.5 can also do.
+
+It's not that crazy. So they're you know, they went from hyping this model for a whole week to saying, oh, well, it's actually not as powerful as you think. So there's a lot of interesting things going on here. And Amazon is also involved because, apparently, Andy Jassy was the one to sound one of the first alarms about this to the Trump administration. Which is fascinating for a whole bunch of reasons we don't have time for here.
+
+But, like, Amazon's weird role in all of this as a company with, like, deep ties to everyone in the AI space. Very strange. It seems to me that there's been a lot of discussion about all of the things that might be happening here. There was a, like, maybe China hacked it story that I think has turned out to be pretty thin. There's a what if this is just fundamentally about the the ongoing relationship problems between anthropic and the US government.
+
+There's a whole thing, like you said, about are these guardrails completely passable and you can get access to this whole terrifying mythosystem? It seems to me, and I should say this with the preface that there is still an awful lot we don't know, and there's a lot of this left to come as with this entire story. But it seems to me that the sort of Occam's razor explanation of this, the simplest possible explanation here is that this is just, once again, the Trump administration trying to punish anthropic in particular. And and you think about what the Trump administration responds to, which is people in a position like Dario Amadez coming and and, you know, bowing at the knees of the Trump administration. That is you show up to the octagon for the UFC fight, and Trump gives you what you want.
+
+Like, this this is how it works. And so Anthropic has largely not played this game, and you can just see how an administration that operates this way would respond by, well, we have to continue to find ways to punish them because they are the enemy. Again, I don't wanna say that is the answer, but it seems to me that that is the simplest answer to a lot of this right now. Is that your read too, or are you seeing something different? I think it's gonna be really interesting to see what else they try to squeeze them on.
+
+You know, like you mentioned, this is kind of following a lot of months and months of discord between the two. And there's even an ongoing lawsuit right now, about the supply chain risk for the DOD stuff. So I think what's gonna be interesting is what else they squeeze them on. Are they going to, you know, make them, you know, bend the knee for DOD stuff to get this out of, the export control directive? We don't know.
+
+I mean, I think that it's it's a combination of the two things, what you said and the fact that the government doesn't know that much about this technology a lot of the time. And so if Amazon researchers or Andy Jassy himself are calling, you know, Scott Besson and saying, hey, I found a jailbreak in the most powerful model that Anthropic has spent, you know, months saying is so powerful it could be a cyber weapon. Know, they're gonna freak out. Yeah. But what what I so I think that was the initial situation.
+
+It's the fact that they don't know that much about this technology. If someone who does know a lot about it is telling them it's a problem, they're gonna freak out. But then they try to talk to Anthropic. Anthropic says, okay. Let's discuss this.
+
+Let's, like, you know, hear some more information. We'll come to a conclusion. And they immediately said, no. Shut it down. I think that's the part that was probably a result of the administration's current communications with Anthropic, apparently.
+
+A lot of reports have come out saying that they're just not good at talking to the administration. They don't, you know, communicate in the same language. They a k a, they're they're not good at, like, making nice. And I think that that is probably the reason this kinda blew up in their face, especially with the foreign nationals thing. I mean, everyone in the tech industry is just absolutely aghast at that.
+
+Yeah. So let's go back to Samuel's question at the beginning here, which is about what would this means for other US tech companies and others looking at building tech like this. Because what you have here is the US government going to, I would say, the leading AI lab in America, if not in the world, and saying the best model you've ever made, which might be the best model anyone has ever made, you are not allowed to release. And whether or not that is actually, like, a thing the government should be and is able to do is sort of a separate question. It did do it.
+
+Right? And so you talk to a bunch of for this story about what the sort of downstream effects of something like this might be. If this continues to play out the way it is playing out, what do you think other folks in tech and around the world are looking at in this, and and what kind of changes are they gonna make in how they think about this technology? Yes. That's a great question.
+
+It is crazy out there right now. And I think whenever there's a lot of uncertainty in an industry, it's just not good for business. And this is like peak that. Peak that. So, I talked to a lot of people for this story.
+
+Yes. And it's interesting because people in the cybersecurity industry and the tech industry, a lot of leaders have actually signed a public letter saying basically, that they think this is really stupid even if they are not even if they don't agree that regulation should be a thing. They literally wrote, we don't all agree on that, that there should be regulation at all. But if there is regulation, it certainly shouldn't be this. Interesting.
+
+And so yeah. I mean, one one guy I interviewed, Alex Stamos, who put that letter together, he said that the industry right now is, like, awash with backup contracts being signed with non US companies and open weight models are being deployed on alternative hardware arrangements because, you know, political risk is now a huge part of companies' business plans in a way they didn't want it to be before. He said, they're laughing at us in Beijing right now. One of America's champions is being kneecapped by the US government while we're in a race with the Chinese. It's just incredibly stupid.
+
+That's why I wrote the letter, and I think that's why a lot of people signed on to it. And, yeah, a lot of the people I spoke with echoed that sentiment. It's like we're already you know, the the general consensus in the industry right now is that we're about six months ahead of China and AI if if that. That's, like The best. The best case scenario.
+
+Be, like, the the hopeful scenario for how far away we are of AI. Yeah. Best case scenario, six months is kind of the consensus. And, you know, this is just seen as being, like, a very unnecessary, strange, kneecapping ourselves moment. There are a lot of ways that this mirrors what was going on with the Pentagon deals, like you were talking about and we talked about on the show, that this sort of moment where any minute now OpenAI is gonna come out with some announcement about how it also launched a cyber weapon of a of a model and everything's gonna be great.
+
+There are weird machinations left to be done here. So we should come back to this, but I I think this question of the the race to AI supremacy in the world next to the government trying its best to cut off at the knees, the the leading American AI company at this moment, is just very strange. And I feel like Alex Stamos in particular, by the way, somebody who knows. Right? Like, he was the chief security officer at Facebook for a long time.
+
+He ran the Internet Observatory at Stanford. He's like, he is as good a cybersecurity guy in this space as there has been. So to see him turn this quickly on this idea was pretty fascinating to me. Exactly. And the other crazy thing to me is that OpenAI, you know, and a bunch of competitors actually already have cybersecurity focused models that they say are as good as mythos.
+
+Like, the the consensus is that they aren't. They're still behind, but they're marketing them as a similar product. And so if Anthropic undergoes this, how long until its competitors have this same type of thing happen if this isn't resolved? And also the foreign nationals saying, okay, are all The US tech companies gonna only allow US citizens to work on the products? It's just a huge mess.
+
+And I think, hopefully, we'll see this resolved in the next couple days. But, I mean, even the fact it's taken this long is really surprising to a lot of people. Support for the show comes from Superhuman. How many browser tabs do you have open right now? Is it enough to make you crazy?
+
+These days, it seems like a given that work has to be overwhelming, but it doesn't have to be like that, especially if you use the right tools. Enter Superhuman. Superhuman is the platform behind Grammarly and Coda. Their suite of AI enhanced tools are designed to enhance communications for individuals and teams. Take Superhuman Go for instance.
+
+It's an AI chat that's always there when you need it, already aware of what you're doing, and doesn't ask you to start from zero. Go works inside the tools and sites you already use, your browser, inbox, docs, project tools, and helps you cut through the busy work and clarify your communication at every level. You can use Go's AI chat to draft emails and messages, summarize long threads and documents, and search across your apps, all without leaving the page you're on. Bottom line, Superhuman is AI that works with you, not on top of you. Check it out.
+
+Find out more at superhuman.com. Support for this show comes from Shopify. Starting something new isn't just difficult. It can feel intimidating too. You put so much time and energy into something without knowing if it'll actually succeed.
+
+But maybe there's a better way to think about it. What if it does work? What if your instincts have been right from the beginning? Shopify wants to help you make that happen. They're the commerce platform powering millions of businesses worldwide and nearly 10% of all US e commerce.
+
+From established brands like Allbirds and Heinz to new businesses just starting out. Their design tools make it easy to build the exact online storefront you've been picturing, with hundreds of customizable templates ready to go. And with built in marketing tools, you can create full email and social campaigns in just a few clicks, helping you reach customers wherever they are. It's time to turn those what ifs into with Shopify today. You can sign up for your $1 per month trial today at shopify.com/virchcast.
+
+You can go to shopify.com/virchcast. That's shopify.com/vergecast. Support for this show comes from Klaviyo. There are only so many hours in a day, and Klaviyo's two powerful AI agents can make sure your team spends them on big things. The first Klaviyo AI agent turns your marketing ideas into reality instantly.
+
+Describe what you want, a holiday campaign, a VIP reengagement series, and Klaviyo builds it instantly. Email, SMS, and push, all coordinated, on brand, grounded in fourteen years of Klaviyo marketing data. Nothing goes live without your say so. The other Klaviyo AI agent keeps your customers happy at any hour. Brand trained to answer questions, make product recommendations, and handle orders and returns.
+
+No hold music. Marketing that launches instantly. Support that never sleeps. Join more than a 193,000 brands, including Away, Patrick Ta, and Dollar Shave Club, already growing with Klaviyo, the autonomous b to c CRM. Get started at klaviyo.com.
+
+Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in. Fetch is the most complete pet insurance.
+
+Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. Network. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save.
+
+Alright. Let's move on to a couple of other questions we got from the audience. One question we got a few times that is is pertinent to you and I think very interesting is we got a question from Andrew that is basically representative. It says here in The UK, people don't use iMessage all that much. We know.
+
+Listen, everybody. I want you to I want you to know that we know. I don't know anyone who does. We all use WhatsApp. So Siri AI isn't going to have access to a whole load of context and info for me.
+
+Is Apple likely to ever allow third parties to add to the index? Seems like a big deal for international markets. What would be the business machinations for both sides? My question to you, Hayden, is the the question in the middle there, which is we are in a new kind of data race in in all of this AI stuff. Apple just launched Siri AI, and one of the things that it is able to do is do a much better job of indexing all the data on your phone in order to be able to, like, more successfully use Siri.
+
+If I'm Meta, I make WhatsApp, do I have any incentive at all to play nice with Apple here? Only if Meta falls behind. I think it's the same type of thing as why Apple worked with Google to make Siri the new Siri. I mean, they were behind. They were like, we don't really have a choice.
+
+You know, things are advancing at such a rate. If you can't beat them, join them because they're already behind. And so I think that if Meta, you know, a lot of drama is happening at Meta right now. They've had a lot of internal meetings where engineers are mad. The culture is really bad right now according to reports.
+
+They feel like they're falling behind. Alexander Wang is reportedly not that happy. Now we'll see how this all plays out. I mean, they have hired a lot of good talent. You know, they just released some models that, you know, I haven't heard a lot of buzz about, but they seem to be pretty good.
+
+But yeah. I mean, if they continue to fall behind, of they're definitely gonna end up making a deal, I think, because, I mean, they don't have a phone. They they wanna make their they've gotta get a deal somehow, and I think Apple would pay a lot. So let's say, you know, wait and see on how Meta does. If they keep falling behind, yeah, I could see that happening sometime in the next few years.
+
+Yeah. There's there's a fascinating set of arrangements to play out there. Right? Because if if you're Apple Andrew's question is is Apple likely to ever allow third parties to add to the index? The answer to that question is absolutely 100% yes.
+
+Apple is desperate for third parties to add their stuff to the index. That's that's what app intents are. That's what a lot of the things that Apple has been exposing over the last couple of years is about. And the more developers do that, the better Siri becomes, the more powerful it is. Like, all of that is unequivocally a win for Apple.
+
+The question for Meta, I think, is is exactly what you just said. Like, at what point is being accessible via Siri so important that we are willing to be part of it? And is Apple willing to bridge that gap by writing us a very large check? I don't know the answer to either of those things, but I suspect WhatsApp might be the single most acute version of that. Because in in the same way that, like, we talk a lot about how iMessage is the lock in for the iPhone.
+
+It is it is the reason it's very hard to switch from an iPhone. People who use WhatsApp don't have that lock in. And so for Apple, it's like, well, maybe we can make Siri that thing that really gets to know you and know your information and know your context. And one crucial way to do that for lots of people around the world is going to be to index their WhatsApp messages. This might get to a point where it benefits everybody, but right now, it feels like Apple wins a lot, and it would just be Meta giving in, like you said.
+
+And I it'll I just wonder at what point those two things actually ever run into each other if they do. Yeah. Totally agree. And it's interesting because WhatsApp has a automatic like, the default is that the messages delete in seven days. You have to turn it off if you don't want that to happen.
+
+So, yeah, there'd be a lot of changes that would have to be made, or maybe it could just index really quickly. But, yeah, I mean, we'll see how the next couple of years play out. I think Meta is falling behind. It's the consensus. But they're not too far behind yet.
+
+So we'll see. You know? Or, I mean, arguably, they're super behind, but you know what I mean. In terms of the lowest competitor who's like well, basically, they're they're in a precarious situation right now, so we'll see how it goes. Right.
+
+Yeah. Meta is weird because it wants you to use Meta AI inside of WhatsApp. So actually letting you use Siri to get to WhatsApp is sort of good and sort of again, there's like everybody is gonna have to, like, think themselves in circles about the user interface of AI going forward, and that will make a lot of this happen. But I suspect if there haven't been meetings, those meetings are are coming because Yes. You can see why Apple in particular would very much want this to happen.
+
+Alright. One more. I have a voice mail that I'm gonna play for you. It's about AI branding, which is my favorite thing to talk about with you. And it is also a thought that I had during WWDC.
+
+Let me just play this for you. Hi, Virgcast. I am a 28 year old living in Chicago, and there's a reason I mentioned my age. On the podcast, we all talk a lot about young people hating AI. Every single person I know absolutely despises AI, especially including my partner who's 25.
+
+And whenever Siri AI was announced, the first thing my partner said was, well, I can't wait to never use Siri again because if it has AI in the name, we're just not gonna touch it. It becomes evil. And I'm just so curious what your thoughts are on Apple making this really big push into AI and how it will affect their brand and just their perception. Because up until this point, I have loved the Apple who's been behind on AI. It's made me feel better about using their products.
+
+And now they're just icky. They're tankless. So, yeah, I wanna know what the people think. Great question. And I understand I have many, many friends that feel the same way.
+
+I have a lot of people in my life that love AI and a lot of people in my life that hate AI and will not touch anything to do with it. So totally understand. I think that, you know, Apple is just gonna have to reckon with the fact that it's gonna lose some users. So fortunately or unfortunately, depending on who you are, I don't know that it's gonna impact Apple a ton. However, what they will really, really need to do in order to keep users, especially in different demographics, is to really deeply allow for turning this stuff off.
+
+Now that you can't fully do it, but you can at least you know, I I hadn't used Siri in a while. Over the past couple years, I had turned it off because it just kept annoying me or I'd press the button accidentally, whatever. So you can turn off Siri AI. It's not gonna be a perfect solution, but I think that they're banking on the person on the personalization there and just hoping that people that don't wanna use it won't, and that people who either don't care or do wanna use it will take full advantage. Especially, you know, I remember my dad was really into using Siri.
+
+I feel like he would have been really into Siri AI as well. Older demographics seem to love that functionality. So I think between the different generations, it may come out in the wash for Apple. But, yeah, I completely understand, and I think that many, many people feel the way that, this person does and that it's just gonna be about turning it off. And maybe public calls for being able to more cleanly kind of turn off all of those features.
+
+Yeah. I do think calling it Siri AI was like a hilarious own goal of branding. Like, what what is a way to take Siri, a brand that people hate and associate with terrible products, and make it worse? It's stick AI on the end. Like, it is just two words that just only make a lot of people feel really, really icky things all at the same time.
+
+A lot of these branding decisions, I truly believe, are done for investors without the consumer in mind at all. Like, you think of someone in your life that would be like, oh, yeah. Siri AI can't wait. Like, no. It's it's either sir like, that's an investor thing.
+
+It's just FOMO. Like, they're they're like, oh, don't worry, guys. We're gonna talk about this on the quarterly earnings call. I like, why glad you said that because I could I literally could not agree more. And even Apple went way out of its way two years ago to call it Apple Intelligence.
+
+And it's like, it's not called Siri Apple Intelligence. It's called Siri AI. Like, you're absolutely right that this was 100% Apple being like, just to be clear, we're good at AI now, everybody. It's a worst name for an identical product, which is just a stupid bad thing to do. I mean, Apple is not great at naming things.
+
+Like, this is a company that has Apple TV, which means 35 different products. But still, you would not call Siri Siri AI if if all you cared about was making a good product that users actually liked. And I think this is the very funny thing. You've you and I have talked about this before that Apple is so caught up in having to convince Wall Street that it has a play in AI because that's all Wall Street cares about at this particular moment, that it has sort of fallen all over itself to throw AI into everything despite the fact that a vast quantity of its users are saying, a, these products aren't very good, and, b, I don't want them. And I think that is the thing that really risks coming back to bite Apple.
+
+Like, I I think you're probably right that, frankly, what's gonna happen is a lot of people are going to use the new Siri, be like, oh, this is actually pretty good and use it more. Right? Like, even a lot of people who have issues with the theory of AI are going to discover that having a product like this that is this accessible has its upsides. And the people who don't can turn it off, and that's all fine. But, like, every every little bit Apple goes down this road of we are just going to throw the the latest AI features into things like the image playground thing, it starts to bite at their reputation that Apple has spent all of this time protecting.
+
+It's like, we're the company that loves creatives, and now you can screw with your photos in horrible, unknowable ways because we don't actually believe in photography anymore. Like, you eventually can't come back from that. It it just keeps reminding me of the Microsoft situation where they just stuffed Copilot into everything. It's like this, you know, is And are now slowly walking that back. They're like, oh, you hate this.
+
+And we're so surprised. We're constantly in this, like, cycle where everything just repeats and repeats and repeats. And I'm like, well, if you're in this industry long enough or writing about this industry long enough, like, everything comes back around. And this also reminds me of, like, the meta rebrand from Facebook. Like, now they're so regretful of that, it seems like.
+
+And it's like Siri AI just kills me. I can't believe that they did that. And so many of these I think, truly, there should be, like, a class that executives have to take where they, like, talk directly to their users every week or something. Because I'm like, they I think that sometimes people get so out of touch on what users actually want compared to, like, what investors want, which I guess is in America, you do have to cater to investors because of, like, that's the law, I guess, when you're a public company. But it is just crazy how how far the gap can be.
+
+Siri AI is a terrible name, and everyone who came up with it should feel bad is basically my takeaway. But I I am curious. If you are a person out there who has strong anti AI feelings and you have experienced the new Siri in in any way, I really wanna know how you feel about it because I think it's a it's a different kind of AI being put in front of people, and I wanna know how you feel about it. So call the hotline. Send us emails.
+
+We love hearing from you. Hayden, good to see you. Thanks for coming to hang out. Thanks. Alright.
+
+That's it for the show. Thank you to Hayden for being here, and thank you as always for watching and listening and sending us questions. If you have questions about AI, about Anthropic and the government, about anything else that we talk about on this show, please keep reaching out. The hotline is 86611. The email is vergecast@theverge.com.
+
+We absolutely love hearing from you about anything and everything. In addition to the Slack channel, by the way, there's now a Google Doc that Travis, our producer, keeps of all the hotline questions. It's my favorite Google Doc of all the Google Docs that I have. And as always, a reminder, the best thing you can do to support all of this that we're doing is to subscribe to The Verge. Theverge.com/subscribe.
+
+It gets you all of our podcasts ad free, including this one. It gets you all of our exclusive newsletters. It gets you all of our coverage of Anthropic and OpenAI and Siri and everything else. The best thing you can do is subscribe. Thank you to everyone who does, and thank you in advance.
+
+The Vergecast is a Verge production and part of the Vox Media Podcast Network. This show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, Travis Larchuk, and Aaron LoCascio. We'll see you tomorrow. Rock and roll. We've all been there.
+
+You pop into the shop for five minutes, and all of a sudden, you've forgotten where you parked. Car? Car? Unfortunately, that lost feeling is what it's like trying to manage your policy with other insurers. Your car, come out come out wherever you are, please.
+
+With GEICO, you can use the app to easily manage all your policies in one place. Did this parking lot have a waterfall? I think you've wondered too far, mate. It feels good to find what you're looking for. It feels good to GEICO.
+
+Support for this show comes from Vetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch Pet Insurance comes in. Fetch is the most complete pet insurance.
+
+Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save.
