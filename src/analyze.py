@@ -199,6 +199,7 @@ class Pick:
     bull_case: str
     bear_case: str
     rebuttal: str
+    technical: str = ""  # filled in later by the technical-analysis module
 
 
 @dataclass

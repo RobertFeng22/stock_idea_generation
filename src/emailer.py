@@ -9,6 +9,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from .analyze import Opportunity, Synthesis
+from .technical import PLACEHOLDER_TEXT as TECH_PLACEHOLDER
 
 
 @dataclass
@@ -138,6 +139,13 @@ def build_html(results: list[EpisodeResult], synthesis: Synthesis | None = None)
             if p.rebuttal:
                 parts.append(f'<div><b style="color:#0969da;">正方反驳 ↩︎</b>：{_esc(p.rebuttal)}</div>')
             parts.append('</div>')
+        # Technical analysis (placeholder until a framework is configured)
+        ta = p.technical.strip() if p.technical else ""
+        ta_html = _esc(ta).replace("\n", "<br>") if ta else f'<i style="color:#8c959f;">{_esc(TECH_PLACEHOLDER)}</i>'
+        parts.append(
+            f'<div style="border-top:1px dashed #d0d7de;margin-top:10px;padding-top:8px;font-size:12.5px;">'
+            f'<b>📊 技术分析</b><div style="margin-top:4px;">{ta_html}</div></div>'
+        )
         parts.append("</div>")
 
     if not picks and not (synthesis and synthesis.error):

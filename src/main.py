@@ -18,6 +18,7 @@ from .cache import cache_transcript, get_cached
 from .config import DATA_DIR, load_settings
 from .emailer import EpisodeResult, build_html, send_email
 from .feeds import list_recent_episodes
+from .technical import build_technical_analysis, is_configured as is_technical_configured
 from .transcribe import transcribe_audio
 from .transcripts import fetch_transcript
 
@@ -136,6 +137,13 @@ def run() -> int:
             print(f"  ! synthesis error: {synthesis.error}")
         else:
             print(f"  -> {len(synthesis.picks)} pick(s) selected.")
+            # Per-pick technical analysis (inert until a framework is provided).
+            if synthesis.picks and is_technical_configured(settings.technical_rules):
+                print("  running technical analysis per pick...")
+                for p in synthesis.picks:
+                    p.technical = build_technical_analysis(
+                        client, settings.anthropic_model, settings.technical_rules, p
+                    )
 
     html_body = build_html(results, synthesis)
     _archive_report(html_body)

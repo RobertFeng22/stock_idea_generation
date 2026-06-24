@@ -74,12 +74,14 @@ python -m src.main
 config/
   podcasts.yaml      # 播客订阅清单（你维护）
   rules.md           # 投资分析规则（你维护）
+  technical_rules.md # 技术分析框架（占位，待你填入后自动启用）
 src/
   config.py          # 读取配置与环境变量
   feeds.py           # iTunes 查 RSS + 解析 RSS + 定位文字稿/音频（纯标准库 XML）
   transcripts.py     # 把 VTT/SRT/JSON/HTML 文字稿规整成纯文本
   transcribe.py      # 用 Deepgram 转录没有自带文字稿的剧集音频
   analyze.py         # 调用 Claude，按规则产出结构化机会
+  technical.py       # 每只标的的技术分析模块（占位，待框架启用）
   emailer.py         # 生成 HTML 报告并通过 Gmail SMTP 发送
   state.py           # 记录已处理剧集，避免重复分析
   main.py            # 串起整个每周流程

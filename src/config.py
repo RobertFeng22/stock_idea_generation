@@ -39,6 +39,7 @@ class Settings:
     max_transcribe_minutes: int = 0
     podcasts: list[PodcastEntry] = field(default_factory=list)
     rules: str = ""
+    technical_rules: str = ""
 
     @property
     def transcription_enabled(self) -> bool:
@@ -81,6 +82,12 @@ def load_rules() -> str:
     return path.read_text(encoding="utf-8")
 
 
+def load_technical_rules() -> str:
+    """Optional technical-analysis framework; empty string if absent."""
+    path = CONFIG_DIR / "technical_rules.md"
+    return path.read_text(encoding="utf-8") if path.exists() else ""
+
+
 def _env(name: str, default: str = "") -> str:
     """Like os.environ.get but treats an empty/whitespace value as unset.
 
@@ -112,4 +119,5 @@ def load_settings() -> Settings:
         max_transcribe_minutes=_env_int("MAX_TRANSCRIBE_MINUTES", 0),
         podcasts=load_podcasts(),
         rules=load_rules(),
+        technical_rules=load_technical_rules(),
     )
