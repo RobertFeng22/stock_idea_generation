@@ -1,0 +1,153 @@
+Hello, and welcome to the Vergecast, the flagship podcast of music that sounds eerily but not exactly like other music. I'm your friend David Pierce, and today on the show, we're talking about training data. It's the raw materials of everything that is AI. And we probably don't understand it or talk about it enough. I'm talking to Alex Reisner, who's a staff writer at The Atlantic.
+
+And over the last couple of years, he has spent a lot of time investigating training data and how all of these books and all of these articles and all of these YouTube videos and all of these songs are compiled into these gigantic datasets that AI companies then use to form the basis of their models. I think the way that these models are created and the sources of these data has a lot to do with the way that we feel about AI, particularly generative AI as a creative expression. And understanding how this data works, where it comes from, and how it gets used, I think is really important. So we're gonna have Alex on. We're gonna dig into it.
+
+I'm very excited about it. But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Thursday, 06/25/2026. Apple just raised the prices of a huge number of its most important products. IPads and MacBooks in particular are now up anywhere from a 100 to $500, and even like the Apple TV is way up.
+
+It's now $200, roughly the price of 900 Amazon Fire Sticks. We knew this was coming, but this is still a big moment. Apple is as well managed a supply chain company as anybody and exists at really high margins. If it can't keep prices down in this era of AI driven shortages of memory and storage, nobody can. And I suspect this is going to get even worse.
+
+My advice from yesterday still very much holds, which is Prime Day is not over. Go get your deals while you still can. And here's a way to help you pay for all of those more expensive gadgets. Go get some money from Disney. If you have YouTube TV or DirecTV Stream, you might be eligible for a cash payout from a new $50,000,000 settlement.
+
+The case started in 2022, and the argument was essentially that because Disney owns ESPN and Hulu, which are both powerful streaming services in their own right, Disney was able to drive up the prices of all of its rivals to unnecessary heights. Live TV is lucrative and competitive and is going to keep being messy in this way. This will not end things. But, hey, go get some of that $50,000,000. And finally, a quick PSA to advertisers everywhere.
+
+Yes. I get it. The whole idea of using AI creative and AI targeting to put your AI ads in front of AI people is exciting, I guess. But maybe check your ads to make sure that you're not, I don't know, advertising a bike with two sets of handlebars like REI did this week. May not go over so well with people.
+
+Just a little free advice from me to you. You can read more about all of this at theverge.com. That's ninety seconds on the verge for Thursday, June 25. Support for the show comes from ServiceNow. AI is moving fast across the enterprise, but without visibility, it's just chaos.
+
+Different tools, different models, different teams using AI in completely different ways. ServiceNow turns that chaos into control. With the AI Control Tower, you see all your AI across the business in one place. What it's doing, what it's done, and what it's about to do. So you stay in control.
+
+To put AI to work for people, visit servicenow.com. We all do it. You have a night for yourself but don't like the sound of the silence, so you turn on the TV just for the ambiance. It's a little trick that helps you feel like you've got company and aren't alone. And other insurers, well, they may make you feel alone.
+
+But when you switch to GEICO, you've got claims reps available around the clock. So whenever you need, you'll have people around to help. And let's turn on the washing machine just for good measure. Isn't that soothing? It feels good to have support.
+
+It feels good to GEICO. Alright. Let's talk training data. Alex Risner from The Atlantic is here. Hi, Alex.
+
+Hey, David. Thank you for having me. Very excited to talk to you. I think we have talked a lot on this show about why people feel the way that they feel about AI and the sort of instinctive reactions to the whole idea of AI. And a theory that I have is that a lot of it is about training data, and I am I I just wanna talk about that.
+
+You've done a lot of work on this stuff, and and you've been investigating how AI models get trained for a long time now. But I wanna just lay a little bit of groundwork here. And just to ask the very obvious question upfront, why does it matter what data is used to train these products? What what is what difference does it make what's inside of these models? I think it it is potentially the most important aspect of a model is what it's trained on.
+
+I mean, if you take a model and you train it on, let's say it generates music and you train it on 1950s jazz, that model will be very good at generating music that sounds a lot like 1950s jazz. If you train it on recent hip hop, it's gonna generate music that sounds like recent hip hop. These models have names like Chat and GPT and Claude, but I think you could make an argument that the right name for a model is actually the description of the data it was trained on because that is a description of its capabilities. That's what it can output. And so I think that the training data is really fundamental to the model, maybe more than the architecture to some degree.
+
+Interesting. And I think, I mean, that that kind of answers, to some extent, my next question, which is why is training data such a closely guarded secret from these companies? And and it seems to me that there is both a straightforward business answer and maybe a a slightly more nefarious answer as to why these companies would be so secretive. But what is your read on why this is such a closely guarded secret? What data is being used to train these models?
+
+Yeah. I mean, the companies have argued that they need to keep this secret because the data that they have selected to train on is their competitive advantage, right? Like Anthropic has done a better job at selecting data than Google and OpenAI. And if they were to let that come out in a court case or be public in some way, they would lose their competitive advantage. There's another pretty obvious reason, which is that they have gone about acquiring a lot of this data in ways that the people who've created the data, the authors of the books and the creators of the videos and the music would not be happy about.
+
+And in a lot of cases, they just don't know that their work is being used and when they find out, they're not happy about it. And I think it's a conversation that the AI companies have tried to just avoid having. So a big part of what you've been up to recently has been sort of reverse engineering this process to, like, peel the model apart to figure out what data is inside of it. And it it seems to me that you've had to do sort of the reverse of what all of these companies have done, which is go figure out where these mass sources of books or web articles or videos or songs are. So tell me a little bit about your process.
+
+How do you go about finding these things that are kind of otherwise closely held secrets? Yeah. My process is actually maybe not that different from the company's process. I am a programmer by trade. I worked in tech for twenty years.
+
+I built websites and apps and did some statistics work. So I've been aware of these models for a long time. And at a certain point I started hanging out in the forums where AI developers were hanging out and talking about the work and they're talking about what data they're using to train these things. And so that was a useful source. And I've also been reading a lot of their research papers.
+
+Selecting the data is really challenging. There's a lot of effort that they put into it. They have to come up with some notion of what is high quality data, like what do and don't we want in the model. And they write papers about that. I think they want to be involved in this conversation that's happening about training data within the industry.
+
+One thing that's been really helpful to me is that there's an open source AI development community and they believe that the work should be done more out in the open. And I think a lot of them are doing really good and important work and they have really interesting things to say about AI just philosophically and socially. And so, they're pretty transparent, places like Allen AI and Illuther about what they're using to train. So that's been helpful. But then even at the companies, AI world is a little bit like academia in that it is good for your career to publish papers.
+
+And the companies don't like that, but they also acknowledge that they have to let the employees publish something. And so the lawyers will go over it and tell them what they can and can't say. And over time, they've clamped down more. And so the companies are revealing less through the research papers. But, yeah, a lot of my research is just from re reading a Google paper, you know, for example, for this last article where they said we we trained on, you know, tens of millions of of songs.
+
+Yeah. I remember not that long ago Apple going through a big cultural issue with this with its AI team because Apple is so secretive and so reluctant to let any of its work be public that all of its researchers were like, well, if you're not gonna let us publish, we don't wanna work here. And and it did that that push and pull seems like it has it has kind of morphed in a bunch of different directions over time, but interesting to hear that it is definitely it is they everybody's retrenching a little bit as this space gets hotter and hotter. Yeah. It's not 2021 anymore.
+
+The research papers read very differently now than they did a few years ago. That's really interesting. But tell me a little bit about these databases. One thing I think I had not given enough thought to until I started really reading your work is that there's a real business in in making and maintaining these databases. Like, one company you wrote about Common Crawl, I think, is, like, a a thoroughly fascinating player in this, and they they essentially, as far as I can tell, just crawl the Internet and and make it available to whoever wants it, which is weird and complicated, and we should probably come back and talk about Chromacrawl sometime.
+
+But it it seems like if if you look around a little, these gigantic databases of books and articles and videos exist? Like, are are people making these and selling them? Why do these databases exist? Mainly, well, I I mean, for AI training. Why else would they exist?
+
+That's a it's a huge you know, it's an extremely labor intensive process to find. In one sense, you just go and download all of Library Genesis or all of Anna's archive. That's one sort of naive thing you can do. But the companies realize pretty early on that they need to filter the stuff pretty carefully. So, the organization you just mentioned Common Crawl, yeah, they've been crawling the web since the late 2000s, maybe 2009 or something like that.
+
+And they just make the whole thing available. Every month there's a new they've scraped a few more 100,000,000 web pages and it's available to anyone who wants to do any kind of research with it. In fact, it's mostly AI researchers who are using it. But all the early large language models were trained on Common Crawl. If you go back and read those early OpenAI papers, everyone was training on Common Crawl.
+
+At first and the models were terrible because if you train a model on the on the whole Internet, it just you know, there's you get all the it says all the junk that people say on the Internet along with along with the intelligent things. Yeah. Mostly junk. Yeah. And so would say statistically mostly junk.
+
+Statistically. Yeah. Mostly junk. And I think the early large records models were proof of that. But, yeah, I think they're they're you know, Common Crawl would is a nonprofit.
+
+So, they would argue it's not a big business. They do get a lot of money from AI companies and AI investors. But yeah, I think the topic of training data selection, the challenge of selecting the right data for a model is still really hard. The AI companies, I would say, still have a very primitive understanding of what data will make their model better. It's an area of research that I think even they at this stage are not very good at.
+
+They do it mainly by trial and error as far as I can tell. So I think Interesting. Again, so the reason these you're asking why do these datasets exist? I think it it's people trying to share what they've learned from, you know, curating datasets in different ways and and training models with them. Yeah.
+
+I mean, part of the reason I ask is I think one of the the things I have come to believe about the AI industry is that this shift that went from AI research being fundamentally a research thing like, if you go if you go way back, OpenAI was basically a research organization. Right? And and you talk about Common Crawl, and I think its its early users were largely researchers. And it was these things were academic things for academic purposes. And from what I understand, the the kind of rules of the road are different.
+
+Right? That, like, if you wanna if you wanna make copies of a bunch of things for academic purposes, it is these things are generally considered less problematic. Right? But if you then do it and become a trillion dollar company on the back of it, people are going to rightly feel differently about the way that you went about getting that information. And just the speed with which AI commercialized, all of these companies just moved so fast from we are essentially an academic thing to, oh my god.
+
+We're making so much money. Everyone's filthy rich. That it it feels like they they just hoped everybody would ignore the ways in which they got this information. And so that's that's why I'm particularly fascinated by where these datasets even come from because it does seem like, in many cases, like you're saying, it's not that there is some gigantic business in being the one to sell the songs to somebody. It's that stuff is being this stuff is being compiled for other purposes.
+
+It's just that now the main purpose, because of the sheer volume of work, is AI research. All this stuff has been sort of co opted from every other purpose to AI, and and it it is it just all feels so concentrated now. Does that does that feel right to you? Does that make sense? I yeah.
+
+That I think that I agree with most of that. I do think that I'm not sure how much these datasets were really collected for other purposes. Common Crawl likes to talk about I think they're a one case. They probably have the strongest argument that their data could be used for other purposes. But when you go back, there's they've been cited by over 10,000 papers.
+
+I didn't read all 10,000, but I read a lot of them. And they are mostly AI. Right? Interesting. And it's early.
+
+A lot of it is stuff that people wouldn't mind as much as with generative AI, right? Like Common Crawl, I think without Common Crawl, AI translation tools might not be as good as they are. I think it was really a huge help because they scraped web pages, the same page in multiple languages and people were able to train translation models based on that. So that was helpful. But the thing that there is still what I would call a data wandering network where the AI companies are still relying on they'll do a collaboration with the university and they'll have the university download millions of images to train a model or download millions of articles to train a model.
+
+And the AI company can say like, Well, we didn't do it. This was like an academic thing. You know, the same goes, Common Crawl is not the only nonprofit that's like doing a lot of this scraping for the AI industry. One of the data sets I reported on in the music, the article about music training data is this organization based in Europe called Lyon. They have a dataset of 12,000,000 songs from YouTube.
+
+So anyway, this is like is it academic? Like, not not really. Like, this is, you know, it technically, yeah, there's universities and nonprofits, but they're they're all receiving money from the AI industry. We've all been there. You pop into the shop for five minutes, and all of a sudden, you've forgotten where you parked.
+
+Car? Car? Unfortunately, that lost feeling is what it's like trying to manage your policy with other insurers. Here, car. Come out.
+
+Come out wherever you are, please. With GEICO, you can use the app to easily manage all your policies in one place. Did this parking lot have a waterfall? I think you've wondered too far, mate. It feels good to find what you're looking for.
+
+It feels good to GEICO. Support for this show comes from Fetch Pet Insurance. Do you have a pet? Every six seconds, a pet owner in The US gets hit with a vet bill of over a thousand dollars, and it's almost always an unwelcome surprise. That's where Fetch pet insurance comes in.
+
+Fetch is the most complete pet insurance. Get paid back up to 90% of vet bills. You can use any vet in The US and Canada. All vets are in network. Go to fetchpet.com/save right now for your free quote.
+
+That's fetchpet.com/save. When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job post the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast.
+
+That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed sponsored jobs. Right now, get up to 15% off select storage solutions.
+
+Put heavy duty HDX totes to good use, protecting what's important to you. The solid impact resistant design prevents cracking, and the clear base and sides make items easy to find even when the totes are stacked. Find select shelving and tote storage up to 15% off at The Home Depot to organize every room in your home from your garage to your attic. Visit homedepot.com. How doers get more done.
+
+This is kind of a diversion, but this I'm so struck in reading all of your work by how often YouTube appears as just it is it is everybody's favorite source for everything. Like, it's it's what, you know, it's what OpenAI used allegedly to create Whisper. It's what a lot of the music stuff is using. It's what there there's a lot of stuff based on videos. Like, what what is your sense of YouTube's role as an AI training force?
+
+Because it seems to be everywhere. Yeah. That that's accurate. YouTube is is an extremely common source. I think one reason is there are tools for downloading from YouTube that are really that work really well.
+
+They're really easy to use. And it's pretty common for AI developers to just use those tools. It's just kind of a It's become a custom. But also, that includes Stuff on YouTube is just less protected, I think is one way of saying it. Like, there's music.
+
+If you're a musician, your song might be on Spotify, but Spotify's website has digital rights management protections. It's really hard to download from Spotify. It's much easier to get the same song from YouTube, and and so many songs are also on YouTube. So I think it's just ease of downloading. YouTube obviously would say out loud that this is not allowed.
+
+Right? That it's it violates systems of service. And yet, it seems to have either either it can't or it just hasn't done anything to stop this, really. Yeah. That's a that's a question that's been in the back of my head for a long time and in which I've asked YouTube and which they they they don't really answer.
+
+They they did they have said that they consider it a violation of their terms of service to be downloading their videos. But, yeah, they haven't you know, years have passed, and it's just it's just as easy to download from YouTube now as it was few years ago. Yeah. I downloaded a YouTube video this morning. It's it is just a thing you can do.
+
+Yeah. It's really true. You mentioned the the sort of data laundering stuff, but it also seems to me that more and more, the people doing the AI training are just completely unapologetic about it. Like, you you quoted Rich Screnta, the CEO of Common Crawl, who who literally said to you, like, if you don't let AI robots crawl your data, you you essentially don't exist. Like, you're you're gonna miss out on the future of the Internet.
+
+And I think about, you know, Marc Andreessen even a couple of years ago being like, none of this would work if we couldn't just take the training data that we needed. There is this almost, like, manifest destiny sense of the AI industry that we can have this data because the thing that we're doing is so important that we must have it no matter what. What is your sense of the trend there? Because it occurs to me that that's happening even as the backlash from people who hate the experience and feeling of AI, in part because of the way that this stuff is trained, just keeps getting worse. Like, these things are just running away from each other at, like, record speeds.
+
+Yeah. I that's that's a huge question. I think it, you know, I think it has something to do with the fact that we just have not done a great job in this country with establishing the value of data and who should be able to have data, right? This is something that privacy advocates have talked about. Jaron Lanier, think was one of the earliest people to be talking about this.
+
+I think he wrote in 2007 that you should get paid, like you were being surveilled basically and companies are taking that they're monitoring everything you do. They're generating data from your online activity. That data is extremely valuable to them. It might seem like nothing to you, but you should be getting paid for that. People thought that was crazy back then, and I think a lot of people still think that's crazy now.
+
+But taking people's music to build models that generate songs that compete with them is just the next version of that and it's just gonna keep going. If we don't acknowledge that this data is incredibly valuable and figure out a way to write laws around that or just have, you know, better business practices or some or something, this is just it's just gonna get worse. This is gonna be more exploitation and more more mining. The next step, I think a lot of people have perceived for a while to be synthetic data. Right?
+
+That eventually, we're we're gonna get AI models that are so good at making new things that then we can use those things to train new models. And eventually, they don't they don't need existing recorded music. That synthetic data is the future, and that's how we get to everything. And especially now, I mean, you look at Spotify, and there are tons of AI generated songs on Spotify that some people are listening to. There are a billion AI generated podcasts out there.
+
+Like, the content is being made. Is that the next phase of training data? Is is synthetic data coming into its own in such a way that we're gonna start to see the next generations of these models built on the things made by the last generations of these models? Absolutely not. Really?
+
+I don't think that there's any evidence that that actually works. I think when AI companies talk about training on synthetic data, they choose their words very carefully and they always exaggerate the extent to which is happening. There's a lot of research out there on a phenomenon called model collapse, which is what happens when you train a model on its own outputs. It doesn't get better. It very quickly degrades.
+
+And it's not hard to see why that could be the case. Right? Like AI is kind of an averaging machine. Right? It's it's finding statistical average between different types of content and putting that into some new new kind of more average type of content.
+
+And there's just not enough weirdness or interestingness or something like that. There's some quality in the work that humans do that's not in the work that AI does. And I think that's actually proved by the model collapse phenomenon. So I I'm amazed that AI companies are going around talking about synthetic data still, and there's so much evidence that it doesn't it doesn't work. So is there a next untapped place filled with data?
+
+I mean, these models keep getting bigger. They keep eating more data. They gotta go somewhere. Right? Is there a is there a next sort of unturned place to go for these companies?
+
+I think they just pay pay people to make it. I think there's already industry of writers who are writing for AI, musicians who are making music for AI. After I published this story, I got an email from a company that is doing this. They claim to have paid creators over $10,000,000 just to make things for AI training. It's it's very strange, but this is this is the next like, AI as your audience is the next frontier for creators.
+
+That is a deeply strange thing to think about. But Yeah. Also, like, you know, we're we're gonna put this on YouTube, and it's going in there anyway. So who knows? Right.
+
+Maybe this is all of our destinies no matter what. I certainly hope not, and I don't think so. I think we can I think we can have a conversation and and and arrive at a more reasonable future for ourselves and and the culture? I'm I'm I'm with you on that. Alright.
+
+Well, Alex, thank you so much for being here. Really appreciate it. Thank you, David. That was great. Alright.
+
+That's it for the show. Thank you to Alex for being here, and thank you as always for watching and listening. If you have thoughts, questions, feedback of any kind, if you have a favorite AI song you wanna send me, just not the Puerto Rico song. I already know that one. Send me all your favorite AI songs.
+
+No judgment. I just wanna hear all of them. You can always hit up the hotline, 86611. You can send us email, vergecast@theverge.com. We love hearing from you.
+
+And as a reminder, the best thing you can do to support all of this is to subscribe to theverge. Verge.com/subscribe. It gets you all of our podcasts ad free, including this one. It gets you all of our exclusive newsletters. It gets you all of our coverage.
+
+Terrence O'Brien on our team has been covering Suno a lot and doing a really terrific job. Lots to come on that. Subscribe to The Verge. I think it's a pretty good website. Vergecast is a Verge production and part of the Vox Media Podcast Network.
+
+This show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, Travis Larchuk, and Aaron LoCascio. We'll see you tomorrow. Rock and roll. When I scraped my car in that parking garage, I was worried that it could be a long process to take care of it. Like a landscaper's first day trimming a hedge maze.
+
+I have definitely already been here. Now was it left, right, or right, left? Maybe I'll cut a path out and find my way back later. But it wasn't like that. I filed a claim in under two minutes on the GEICO app, and they handled it from there.
+
+It was taken care of almost as quickly as it happened. It feels good to get help quick. It feels good to GEICO. Visible puts the ultimate wireless hack in the palm of your hand. You get unlimited five g data and hotspot designed to keep you connected.
+
+All powered by Verizon's five g network. Plans start at $25 a month, or get the premium Visible Plus Pro plan and save $10 on your first month with promo code HACC. Tap the banner to switch today. Terms apply. See visible.com for plan features and network management details.

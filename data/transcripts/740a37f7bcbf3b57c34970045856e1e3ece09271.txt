@@ -1,0 +1,235 @@
+Designers, when using Claude, as opposed to engineers using Claude, would consistently get better results. And it's because of the language that they use. We have to remember that design in the European sense came from royalty and the desire to be distinctive because they were working with scarce materials. What's interesting about this era is that this idea of taste doesn't fit when all the materials are available to everyone. Right now, everybody's trying to solve whether LLMs have taste.
+
+These models have millions of definitions of taste. LLMs have been trained on the output of humanity, not on the input. So what led to a design decision is not something that the LLMs know. Maybe advice for our design engineers in the room. How have you in the past effectively communicated the value of an instinct versus a deadline or even another instinct which may be less informed?
+
+Yeah, that's a tough one because AI is making it easier than ever to create software. But what happens to design when anyone can generate an interface, a website, or an application with a prompt? Some argue that AI will commoditize design. Others believe it will make great design even more valuable by automating routine work and freeing people to focus on higher order creative decisions. In this conversation, a16z general partner Anish Acharya sits down with Microsoft VP of Design John Mehta and impeccable founder and CEO Paul Bacchus to discuss design, software, creativity, and what happens when AI becomes part of the creative process.
+
+I wanna actually talk a little bit about, perhaps to begin, with the relationship between design and technology. I think there's some people who may view design as sort of more spiritually close to art and others who see it perhaps in a more utilitarian fashion, you know, the design of everyday things. So perhaps, John, I can sort of ask you to kick us off and talk to us about how you see the interplay between the two. Well, first of all, glad to be here. I used to think about this a lot when I was at Kleiner Perkins and thinking like, why is it that design is important in twenty fourteen, fifteen?
+
+Like, why was it important? It was because this weird company called Airbnb was unusually successful. And if you connect to why design became important, it was because of mobile. Before mobile, desktop experiences could be crappy and it was okay because you didn't use them very often. But mobile had high usage and therefore it was bad all the time, it would be painful.
+
+So that's when it sort of started to happen. In terms of the relationship now, however, I'm so excited to be on this with Paul, because I've been a fan of this moment when we'd be able to auto design. And that's since the nineties when I was at MIT. We thought it was gonna be possible one day, and now it's very possible. Thanks.
+
+And Paul, I think, is someone who's really at the cutting edge of all that. Incredible. So elaborate a bit for us. What do you mean by auto design? And is the way that it works today, does that match the sort of idea that you had back in MIT?
+
+Well, I mean, if you go back to the 1980s, there was a woman named Muriel Cooper, who was unusual because she was a trained print graphic designer. She designed those book fans on MIT Press. There's a beautiful logo at MIT Press. She designed that among other pretty major things in MIT's history publication. She was the one who imagined a world where people wouldn't want to use the terminal and might want to use this thing called Helvetica to look at things on the screen.
+
+So she predicted the whole desktop publishing revolution, electronic publishing revolution. And at the time, she also had a bunch of people from MIT's AI lab. And MIT AI lab was asking, how do we create things by machines that humans are good at. And so her lab focused on how to automatically design things with, quote unquote, AI at the time. Incredible.
+
+Hul, give us your view on the relationship and interplay between design and technology. Has it turned out the way you expected? I think we're still working that out, to be honest. But I do see a lot of it converging in interesting ways. I remember seeing one of John's talks about algorithmic design a long time ago at some conference, And I always thought that I was always this oddball that was both designer and engineer, and I never wanted to debox in into any of those areas.
+
+But I think the reality is that it's now much easier to build yourself tools that help you with that, right, that help you algorithmically create design and supercharge your design with technology. And I think that's really exciting. So to me, they're one and the same. They've always have been. I mean, John calls it auto design.
+
+I think we're basically, like to use John's words as well, we're kind of, like, raising the floor in areas that can be mechanical. And I think that's really exciting because so much of design is spent with the things that we can automate as opposed to doing the really high level thinking of what actually needs to be done and what needs to be built. And that's something that I'm really excited about. Paul, do you think there's a tension between craft and automation in design? Yeah.
+
+I think so. Think I there's ultimately everybody has to think for themselves how much they want to automate away. There is definitely still the intent and the judgment that is needed from a human side, I would say, on figuring out the what and what not to do. I actually really greatly respect people like Steve Jobs because, I mean, Steve was one of the greatest editors in the world. Right?
+
+He said no to so many things as opposed to saying yes to so many things. And I think having a viewpoint is still important. So I think, ultimately, the machine can work for you. But the same way, you take a photo on a good camera, ultimately, you figure out what you want to take a photo of. There's a lot of post processing in the camera.
+
+Right? There's so much I mean, if you look at an iPhone camera today, there's so much happening on device. That photo that you took is literally, like, not reality anymore. Right? But there's still some sort of human viewpoint.
+
+John, maybe to bring it to you, what do you think are the limitations of the sort of the Cloud Code, Codex, and all of the agents today when it comes to design expression? Oh, wow. Well, I mean, everyone's saying it's limitless, and it's that it's not the whatever, the Cambrian period and blah, blah, blah. There's so many adjectives that say, like, oh my gosh, amazing. I think the reality is that this has been a long time coming.
+
+In the same way we saw writing being automated before LLMs, and we saw marketing assets being automated as well. So we would just spread that to the kind of we went upstream on this idea of designing things, which to Paul's point, it requires restraint. It requires all kinds of things, which is the opposite of engineering. Speaking as a engineer as well, if I can make it, I'm a build it. Oh, I'll do this.
+
+I'll keep doing this and this and this and this. And so restraint isn't part of the equation unless you're an architect. Designers always think like architects of the human experience. Now with the harness and the models coming together, we have a nice combo platter, plus the evals, we have the feedback loop. That's actually really brand new.
+
+And that's why I'm so excited. We've been experimenting with Paul. We have this thing called the GitHub Copilot app. It's a new app. And the challenge with that has been to keep the human taste and craft and all the high-tech goodies.
+
+And to Paul's point about raising the floor, humans should be able to raise the ceiling of what they can do. So we have human animators making the craft and the final decisions around some of the super duper high extreme polish, but we want to have the coding agents do the part that have the drudgery. Yeah. That makes perfect sense. I wanna pull the thread about the new Git product.
+
+Paul, why don't we actually take a step back and you can talk to us about Impeccable? What was the intention? What does it look like today? And then let's talk a bit about how you and John are working together. Yeah.
+
+Of course. So Impeccable started as an open source project that I needed for myself. So I used to contract for a couple of my friends in the last year to figure out how far can I push AI engineering and how much can I 10x or 5x or whatever myself? And I know many are going through that journey right now. In the process, I had to build a whole lot of tooling for myself, and one of those tools was impeccable.
+
+And ultimately, I noticed that whenever I would tell Claude or Codex, make this better, it would do a really terrible job because it didn't know what angle of better, what does better mean in the design context. Right? And I also noticed that designers, when using Claude, opposed to engineers using Claude, would consistently get better results. So why is that? Right?
+
+The model is literally the same. The website is the same. The design system might be the same, but the designers still get better output even though they're prompting a machine. And it's because of the language that they use. It's because oftentimes engineers don't use the words.
+
+Things like vertical rhythm or negative space or make this bolder or quieter. They don't have the same vocabulary as a designer who's been in the game for a long time. So the first instinct that I had was to bring that vocabulary to the actual harness, to the ancient harness. And that was the first iteration of Impeccable, and that already made a huge difference. And interestingly, I thought that it would alienate designers, and it would mainly appeal to engineers, but that was not the case.
+
+I think a lot of designers are being asked right now to move closer to code, and I think that makes a lot of sense, and maybe they're waking up themselves to that idea because everybody's moving closer to code. Code is the substrate that the agents use, of course. And Impeccable feels like a way to get there much more quickly and with the language that they use. So I would say it's actually like, you know, if I look at the target audience right now, it's half engineers, half designers, a whole bunch of PMs as well, founders, solopreneurs, but that's how Impeccable came together. It is an agent skill that's completely open source.
+
+It has lots of subcommands to steer. And then I kinda built a visual iteration mode on top of it, and a quality layer that removes slop. And of course, we can talk about that too. But it does stop the overfitting of the models, so not everything is Claude Beige, as I call it, or, you know, instruments that riff italics or purple gradients. But but, yeah, it's ultimately these three pieces.
+
+So vocabulary, it's a quality layer, and it's a visual iteration mode that runs in your own code base. And knowing the vocabulary, it's sort of like a set of magic spells. You know? Either you know them or you don't. And I love how Impeccable makes them more broadly available.
+
+John, talk to us a bit about the analog between what Paul's doing with Impeccable and Kai's power tools. Well, in the 1980s, late 1980s, there was this application that was called Photoshop that was amazing because it suddenly let let you draw pictures and play with photographs, etcetera, whatever. It was popular among photographers and people like that. But when something called Kai's Power Tools came out, it blew up the TAM for Photoshop because people could do weird algorithmic things with their faces or all kinds of filters. Because Adobe Photoshop opened up this plug in architecture so people could write code, could put things in that plug in format.
+
+And so when I saw Paul's work, it reminded me of Kai's power tools, but for design and less weird, but very focused, very functional. When I saw Impeccable, it reminded me of, just giving away my era, of when Postscript came out. Most people don't realize that Postscript was a miracle because the Adobe guys, the Warnock, the manual for Postscript is beautiful. It's incredibly well designed. Those engineers understood graphic design better than most graphic designers.
+
+So Postscript properly encoded the perfect set of primitives to implement visual graphic design of the day. And so it required people who were technical and also design minded. Same with Donald Knuth, before that with tech. He was an incredible typographer, mathematician. So tech was a miracle in the combination of function and form.
+
+So when I saw Impeccable, not to embarrass Paul, I was like, woah, this is like the postscript moment. Someone actually gets that it's not just filters, it's also about subtraction. And it was all the different dimensions a designer might take. So and then I saw a really skilled engineer designer, and that got me excited. That's tremendous.
+
+That's so cool. Maybe, John, talk a bit about how you guys are planning to work together. Oh, well, I'm super excited because I recently picked up all of GitHub Design. Great timing because we were launching this GitHub Copilot app that's already in GA. And it is different than things we've built in the past in that, as you know, the craft bar is very high now for applications.
+
+So we wanted to set the bar with this app. And when the head of product, Mario said, Hey, do you know this impeccable thing? I was like, Oh my gosh, it's one of my favorite skills. So I reached out to Paul, and Paul said, Hey, oh my gosh, maybe we know each other. So we had this wonderful conversation by text.
+
+And since then, a few weeks later, Paul is going to be the first one to be in our integrations of this powerful design skill, because we believe that design is important in the digital, what do you call it, harness age. I think Paul has the best implementation of it. And, Paul, how do you sort of see the product showing up within the new Git you know, Impeccable showing up within the new Git product? First of all, I'm super excited to get Impeccable into the hands of into the hands of more builders and entrepreneurs and individual enterprises. And I think GitHub is obviously a great place to to do that.
+
+Everybody's using GitHub today, and it's a great way to roll out Impeccable to more. I think the building in the skill to as a built in tool is one thing. I think there's a lot more different directions that we can take from there, and that's what I'm really excited about. The GitHub Copilot app has a pick and polish mode that allows you to pick and change something and quickly edit something. And, of course, Impeccable has its own implementation of that.
+
+And right now, you need to opt in, and it's a bit clunky. And I think through first party harness integrations, like the collaboration that I'm doing with GitHub, yeah, we can actually improve that significantly and make it so that it's a lot smoother. There's nothing there to be announced yet just now, but I'm super eager eager to work with John and and Mario on actually improving the Impeccable and GitHub integration. So okay. So follow-up question, Paul.
+
+So, obviously, Git is one of the most important platforms in the world, especially at this moment in time. So let's wind the clock forward and imagine a world in which many people are using the new GitHub product and Impeccable to have, you know, these these sort of designs that are much improved from what you get default from the models. As those designs become in distribution for the next gen of models, do we then have to sort of does the next version of Impeccable have to steer in a different direction altogether, or are these sort of evergreen best practices that live regardless of what's in or out of distribution? Yeah. That's a great question.
+
+You know, that's already happening. That's the really interesting thing. So in 2022, 2023, everybody thought AI slob was purple gradients. And and to be honest, the models aren't really doing that anymore. The models aren't producing purple gradients anymore.
+
+I mean, maybe like, you know, cheap models, but overall, they don't. I think the world has moved on to beige backgrounds, tinted backgrounds, instrument, Serif, eyebrow text. You know, there are the typical AI tells that you look for now if you if you use cloth design. Oftentimes, you'll you run into a design like that, for example, but it's not unique to cloth design. So what we how did this happen?
+
+Right? We basically said, okay. No proper gradients, and then the model steers into a different part of the latent space and just picks the next next best thing. Right. And so ultimately, SLOP is a moving target, and every time you move to another part of the latent space and everybody adopts it, you get kind of like algorithmic Uniqlo or IKEA or something.
+
+Right? And now that's not necessarily bad. It doesn't mean the design is bad. It just means the design is not unique. And you want uniqueness if you're building something like a landing page that attracts people's attention.
+
+And so what I've tried to do with Impeccable and I'm constantly updating those rules, but what I tried to do with Impeccable is to build these types of anti attractors. For for example, instead of just going to a different font, to the overused fonts, it actually tries to create a random seed that picks something based on a small user interview with you and maybe even some scripts that run that create randomness to actually steer it into a completely different space of the latent space. I do it with colors. I do it with fonts. I do it with a bunch of different things to create some sort of uniqueness.
+
+And there'll be more there that I'm gonna do, but I really do want to make sure that not everything ends up looking the same. I ended up ended up doing that before, by the way. Like, the reason why purple gradients do you know the reason why purple gradients are purple gradients? Tell me. Tailwind.
+
+So Tailwind's default theme is has purple. I see. And because of the default theme, the purple gradients were introduced everywhere. That's at least the common saying right now, the common theory. And ironically, I was at fault of coloring the web orange before.
+
+Yeah. And the reason why is because when I started jQuery UI we've created a theme framework, a theme roller kind of thing, and the default theme was orange. I don't know why orange. I'm not sure why I picked orange at the time, but I colored the whole web orange overnight, and I learned my lesson. The power of defaults, Yes.
+
+For sure. John, do you think uniqueness is an important attribute in design? And maybe broadly talk about your view on uniqueness and slot. Well, Paul was describing, I think we're in this era because you can see all the new model companies that are building designer models or visual design models, whatever. We're at this era where design will be further commoditized and automated so that a new kind of design emerges.
+
+I think that's what is the next wave that'll happen because of this. In the design and tech report I give every year for Southwest, I've been pushing moving from UX to AX, agentic experience. An agentic experience is non visual. It is the world of robots dot text. It's LLMs dot text.
+
+It's command line dash dash help. It's a world where we're designing for agentic affordances instead of just visual affordances. That force multiplication will occur once we can retire more of UX, I believe. But it'll require this surge of automated design solutions that cover 80% of those cases. 20% can be spent by real humans, but the humans will move on to AX, I believe.
+
+Interesting. Can you say a bit more about it? I mean, what would be the role of human taste and judgment in AX? Oh, well, the thing that every designer knows eventually is that and actually, there was a famous typographer, Eric Spiekerman, who designed a very popular sans serif typeface called Meta. This is before Meta became a company name.
+
+His company in San Francisco was called Meta Design. At the time, one of the top design firms in the world. Meta Design speaks to the fact that design can either be the application of craft or the abstraction of craft. And so I think of the abstraction of craft is, at the moment, what is the best way to design things? There was a time where being a design craftsman meant you could take a picture of Helvetica, cut it with X Acto knife, put rubber cement on the back, and you were amazing.
+
+We moved to different higher level primitives of the page, etcetera, with desktop publishing. Now I think we're going move even more meta. And so it means that designers are closer to programmers, but programmers of interaction. And I think Paul, probably he subconsciously is working in this way when we talk about evals, Paul. Evals live in latent space construction as literal meta design.
+
+I think that's true. I think there is a whole area of design here. I also think you're probably right with the evals. And the interesting thing with ax is that oftentimes, here, you're designing for a different audience, and that's the agent, right, as opposed to the human. I think there's I guess my viewpoint is that that area of design will be increasingly important.
+
+I also think there's still the area of of human centric design as well. And I think, I mean, to the to the point that we made at the very beginning, that is shifting towards high level work, right, sort of the last 20% of what makes something unique. And it's it's interesting. I mean, we we've seen so many AI startups that are trying to enable creative work, right, whether it's music or video or whatever. But we haven't really seen the next Hayao Miyazaki from Runway or some other video startup.
+
+Right? We haven't really seen I think it's fully fair to say. I I don't think we have seen our music AI startups next, I don't know, Billie Eilish or Coldplayer. And why is that? I think I think a lot of focus right now is is raising the floor.
+
+And and going back to that, I think that that raising the ceiling, I think there's too too little time spent on that specifically, and I'm really excited about it. So I want to build tools that all look also cater to that, so kinda like both ends of the spectrum. But I do think that that the world is shifting towards higher end experiences. The audience is demanding more too. That's interesting.
+
+Right? Like, if everything looks relatively polished and clean, you know, if we're raising the floor and, you have a claw designed website, looks claw designed, but it's a legit website. Right? It's a good enough website to get the job done. Then the only differentiator would be whatever we craft on top of that.
+
+And I always thought that was very interesting. I spent a lot of time, like many of my design engineer friends, we spent a lot of time crafting something really unique and particular and sort of like, I don't know, a slider that is beautifully animated. Right? But oftentimes, that that work would drown. That work would not be seen by higher ups who, you know, have completely different business goals.
+
+I think it's the moment for these people right now to shine. That's one of my theories. I think the craftsmen that can kinda grasp the last 10%, 20%, and really put a unique spin on something, I think that's also really interesting. So I I too I do subscribe to AX, but I think there's also that next level human experience that I'm very excited about. Yeah.
+
+They're both interesting. On the agentic topic, where my mind goes is, will agents value aesthetics? Will they have their own definition? Because you could argue that something that is aesthetic or appears to be high quality, there's information in that that we as humans value. We make decisions at least in part accordingly.
+
+What will be the analog for agents, if anything at all? I don't know. John, what do you think? Speed, clarity, things that and and verbosity, and all the edge cases. So the best example I like is the one of you have to have a really good dash dash help.
+
+You have to have great error messages. But I and Paul is correct in that the ceiling raising can occur once we can wick away all the generic good quality design, and that's gonna be extremely exciting. It echoes the era of the arts and crafts movement of the late eighteen hundreds. When machines took over, humans developed this next level of craft, And so that will occur. And I think tools like what Paul is thinking of can enable that.
+
+At the same time, from a functional perspective, there's so much runway on the AX side that I believe that primarily visual design thinkers will be able to crack that faster because there's so many gnarly problems in it that an average engineering mind will not be the right shaped mind, I believe. I think that's actually a good point, if I can respond to that real quick. I think a great example would be API design and also, like, CLI design, to your point. Right? That that do you mention help?
+
+But I'm hearing this over and over, and I agree with it. Agents themselves are not really good at designing those interfaces yet. So they're not really good at designing API interfaces, designing CLIs, and that's kind of ironic because they're the user for them now. But I do think that's right. I do think information architecture is another great example.
+
+Right? It's a certain type of designer that's very good at crafting a good navigation. Yeah. And they have to think differently. Yeah.
+
+Absolutely. Paul, the design of Impeccable is example to me of great computational craft for people who understand how to use manipulations of agents and code. So that's why another thing I admired about your work, it's very computational. Really interesting. But do you guys is it an instinct problem then in terms of raising the ceiling, or is it a tooling problem, or is it both?
+
+Because if you said you know, John, you said that the brain isn't quite shaped the right way, you know, but we also have a tooling gap. So how much of it is instinct? How much of it is tools? I would say it's probably a combination of the two. I think there there's definitely a lot you can do with manual labor and manual craft that you still can't do with AI today or with current tooling, I would say.
+
+I think there's there's some CSS that I still manually write because the agents aren't good enough at it yet. But that's usually things like motion. So, you know, right now, there's no good feedback loop for motion. I've built the the shader library in the past, and I had this one shader that was animating rain upwards after working with the model for a bit. And it's not the model's fault.
+
+The model just takes screenshots, and it's like, well, I guess that looks like rain. But it doesn't understand temporal resolution. Now Gemini does a little bit more than that. It samples frames on a video with sort of like one frame per second, but even that doesn't really give you the full picture. So it's still really, really limited.
+
+So there are areas of design like motion that are still super limited to what we can do today, But I also think the bigger problem is that it's not that we can't build tools to accelerate those things. I think we totally can. It's just that we haven't yet. I think there's a lot of tools that can be built, can be explored here in this space that really target craftsmen that that wanna go beyond, that really wanna raise the ceiling. So I think right now, it's it's a pretty barren landscape for tools that really push the envelope.
+
+I would say Suno is actually a great example of something that started for, you know, beginners and sort of vibe sound designers, right, that wanted to just one shot a quick song. But now it expanded very much into real music production. There there are are producers using it for all sorts of things now. They've built a whole studio around it, and they are really trying to push sort of the last 20% now, which is interesting. So they they went through a big shift there.
+
+So I think that will be happening more and more. I think right now, it's still quite minor. Really interesting. John, do you view instinct versus tooling? Well, as Paul was saying that and thanks for all these questions.
+
+I don't think about these meta questions a lot in my job. Well, first off, the vision models don't really see the way we see. And there's not enough training data to help a vision model think like a designer can see. Because there's so many dimensions in the latent space of a visual mind still, a creative visual mind versus looking for license plates and more functional things. I think that also the number of people who will raise the ceiling will not be a high number, and it won't be that valuable in the mass market.
+
+So I think it'll never be automated. And that's good news for people who want to stay in the craft of this kind of work. Feel like right now we're just making it easier for more people to produce average and above average work, which is the lesson of task based automation. But those people who are dying for the creativity to last, it'll always remain there. The only problem is the customer base will be smaller for people who are in that.
+
+It's like, do we know letterpress printing? Oh my gosh, I love it. But not many people will pay for it. So it's that market mechanics. Yeah, it's really, really interesting.
+
+And one of the things I believe, Paul and I have spoken about this, John, is that we're going to have a lot more products with small but still compelling markets. The million dollar TAM products, the $100,000 TAM products, because they were economically infeasible before. So we can sort of imagine a world where it's more of a digital main street that can or a digital homesteading that can support a product that may have smaller scale but be more opinionated and be that last 10%. If I may add to that, the thing that I feel over and over is that the reason why someone's willing to pay that much more for that bespoke better thing is they're paying for human trust and accountability. So for brands and products where people demand that level of like, can I trust this?
+
+That human ability, that human smell can become even more valuable than ever before. Yeah. Love that. Actually, Don, this is a good moment too. I want to read a quote for This Is You, Forbes 2010, which is, the software industry is poised to embrace its craft heritage.
+
+By 2020, software will return to a cottage industry with bespoke apps made by many. We will discover the value of authorship. I mean, seems like we're you might have been a few years early in your prediction, but it seems like we're getting there now. I mean, is that how you see the world playing out? Many more small apps that are all sort of more unique and opinionated?
+
+Absolutely. I was five years incorrect on that one. That's something I learned by working with non computer based designers and artists when I led Rudolph School of Design. That was after a career at MIT, where it was all engineering and then back to the handmade. And I was struck by how much human emotion, human pride lives in that community.
+
+And I felt it would have to surface through in the software industry. But as a longtime proponent of computer programming for artists and designers, whether through processing or scratch, it was too hard for those people to engage. But now it's that that floor of getting in has been lowered. Everyone's coming in. It's a really great time right now.
+
+It's also very confusing. So that's why Paul's Paul's approach is unique in that it's high quality and high thought based, which gives hope for more people to not choose the wrong solution. Paul, do you think there's an opportunity to start to shape the design mind through something like Impeccable? Because it feels like it touches on a part of the solution that no other design tool does. That's a great question.
+
+I think for sure it can. And I think it can shape ironically or interestingly both the design and the engineering mind. So I've had people walk up to me and say, well, we're now using Impeccable as, like, a a default thing that we install on all of our engineers and designers' computers. And I asked, so so why? Interesting.
+
+And it's because they now communicate much better after using it, and I thought that was really interesting. Like, engineers are using design language more, and designers use engineering language more because the the tools, by using this careful vocabulary and approach, actually teach you what works, what doesn't, give you the language to express what you want and what you don't want. And so I do think there's there's a there's a teaching moment here, and I learned something by working with models all the time. I've always prompted that way, to be honest. I always wanted to get more out of models by having it test me and challenge me and sort of, like, teach me new concepts.
+
+And there's some cool skills out there like like Matt's grill with Doc's grill, for instance. But Impeccable does that in some ways too. So I I do think there's a there's a lot of opportunity in that there, and that excites me. I think that really touches on a topic that is dear to my heart and was part of a lot of discussions that I was in recently, and that's cognitive surrender versus cognitive delegation. I don't know if you if you heard those terms, but really cognitive delegation is, you know, I'm using Google Maps.
+
+Right? And Google Maps tells me where I can go as quickly as possible. Right? I mean, I'm gonna root my way to something. But what if I let Google Maps decide where I want to go to?
+
+Now I kinda like cognitively surrender to the application. And I think that's very true for LLMs if you're not careful. Like with LLMs, oftentimes, LLMs, I mean, you, for instance, plan mode, right? Sounds like a good idea. You prompt something, and then it creates a beautiful plan, and then it's eight pages long.
+
+You're not gonna read through that plan. Right? I mean, you're gonna scroll through that plan and skim it, and it's like, I guess the model knows what it's doing. Right. And then you just click, okay.
+
+And so now you kind of like surrendered yourself to the process, and there was a great conversation with a professor from Harvard and a bunch of others in a in a recent conference that I was at, where they touched on, you know, how students are now working differently and how that is becoming a problem. So anyway, I think I think cognitive delegation is great. I think delegating to the model is great. But preserving that point of view, making sure that you're still the one driving is also really important. And I want you working with Impeccable to be the sort of game, that back and forth, where you're both active collaborators.
+
+So so, Paul, question for you on taste. Right now, automating things away, goals and loops, multi agent orchestration, that's what everybody is talking about. But the question that nobody seems to be asking is, where does it all lead? Are we sort of, you know, as you said, surrendering human intent? And what is the role of human intent and taste more broadly in these products we're creating?
+
+Yeah. I think it's an interesting question because right now, everybody's trying to solve or figure out whether models, whether LLMs have taste, right, as well as diffusion models. And I think the answer is a little bit more complicated in saying yes or no. I think these models have millions of definitions of taste. They are trained on so many different interpretations of taste.
+
+But one thing that is very useful to know and think about is that LLMs have been trained on the output of humanity, not on the input. So what led to a design decision is not something that the LLMs know. So there's it's an approximation of taste, I would say, a certain type of audience at a certain time. So you can get pretty far if you know what you're asking for. But then the question is whose taste is it?
+
+Oftentimes, taste is rare and human. And, you know, I think the way we talk about taste when we talk to humans, it's not something that can be easily recreated or spread to lots of different instances. And so I think, can the models be tasteful? Yeah, they can design tasteful things. But I also still think that something that has a human viewpoint goes far beyond.
+
+And and and so I think amplifying human taste is an interesting problem, a more interesting problem than creating a replication of taste at the model layer. Yeah. It's really interesting. It's if you sort of substitute the word taste for humanity, it sort of carries the same meaning perhaps even a powerful more powerful way. John, do you think taste is innate, or is it something that's cultivated?
+
+I think taste is always cultural, and different cultures have higher taste, specifically because they've usually been around longer, they've had the material around longer, and therefore they've had maturity. For instance, if you go to Denmark and you sit in a furniture, any type of furniture, like a chair or sofa or table, you're like, Wow, this is nice stuff. When you walk around The US, it's like, I mean, I'm sorry, but not that great sometimes. We invented the Styrofoam plate, for instance. You go to Japan, centuries of evolved approaches to raw materials.
+
+And not only that, scarcity of material. When raw material is scarce, we tend to make it more precious and design things well. Taste emerges through scarcity. The last point on this is we have to remember that design in the European sense came from royalty and the desire to be distinctive. I've got fur, I've got gold, I've got emerald, I'm important.
+
+You're less important because they were working with scarce materials. I think what's interesting about this era is that this idea of taste doesn't fit when all the materials are available to everyone. That's a really great point. Yeah. That's absolutely fascinating.
+
+Here's a comment from your recent blog, Jhana, that I think I'll read. So the hard truth is that in rooms where decisions actually happen, taste is a whisper and velocity is a megaphone. It's almost impossible to defend a design nuance or instinct against a looming deadline. Engineering isn't the villain here, incentives are. We build organizations that reward the measurable over the meaningful.
+
+Agree? Disagree? How do you see that show up in the rooms that you're in? I mean, it's all about the leader. Right?
+
+You mentioned Steve Jobs, a unique combination of design, business, technical sense. That's very rare. And I want to go back to Paul's stuff and not to embarrass him again. So what's interesting about impeccable is the design is very interesting from the API perspective. And Bill Atkinson, the engineer who recently passed away, who worked on the Macintosh, Specifically, may know this thing called QuickDraw, which was Apple's graphics library.
+
+Photoshop happened because of the design of QuickDraw's API. It was impossible for there to be a Windows version of Photoshop because it didn't have the same API shape in DirectX. So I would argue that, Paul, design engineers are able to design the shape of the APIs really well so they can work with agents as well as they can with humans. It's completely fascinating. I had no idea.
+
+What was the unlock in the API surface that made Photoshop possible? Oh my gosh. So the Macintosh Picture had this routine built upon this idea of regions. Everyone had polygons. The Mac had regions based on pixel shapes, which you could do logical set or and.
+
+So things like flood fill were super duper optimized for speed. So again, great APIs are not just shape, but performance. Super interesting. That's absolutely fascinating. Paul, how do you think, you know, maybe advice for our design engineers in the room, how have you in the past effectively kind of communicated the value of an instinct versus, you know, a deadline or even, you know, another instinct which may be less important?
+
+Yeah. That's a tough one because, certainly, I've failed many, many times on this one. And I've developed some strategies, but oftentimes, it's about getting a leader into the right mindset to make a decision that I would make. Right? What I mean by that is and John is right.
+
+I mean, if you if you have a lead who's mostly work at who's mostly focused on economic outcomes, for example, during that week, right, or mostly focused on performance, ultimately, I think it's your job to present to them in a way that makes them dream the way you're dreaming about the future. And and that's something that I learned the hard way over and over and over. You have to bring them along to where you want to go and kind of get them on the same emotional journey, maybe. That's the right way to frame it. And I think once they see what you see, once they see the type of future that you want to create, then you're on the same page.
+
+Now that's way easier said than done. It's, I think, an art form to start with something that they need and then suddenly shift in that conversation towards something that you both might want in the future. I know that's maybe a bit abstract. But So on that topic, I had a I was having dinner, like, last week. You know Jay Parikh, my boss, formerly the Meta, he's used this word that I hadn't heard in a while, which is conviction.
+
+And I think it's such a great word because someone, a leader with quote unquote taste, has conviction. But it's not just designee conviction. It's not just business y conviction. It's not just engineering conviction. It's that combination in a leader when they have conviction.
+
+It is a bet, but it's a bet aimed at the global maximum, not the local maximum. And so I would say leaders that are doing that global maximum conviction make a huge difference. And that's why product leaders, again, to embarrass Paul, I think Paul shot for a global maximum for design automation, and he hasn't given up yet. And that's a beautiful thing. I love it.
+
+Ben always says that the job of the CEO, the job of the leader is not to have the idea, but to recognize the idea when they see it and bet the team on it. There's there's also, you know, another Steve Jobs sort of anecdote, right, where he's very well known or he was very well known for shutting down people just to test them. Right? So the conviction is both on the leader and on the employee, interestingly. Because very often, somebody would walk into the room with Steve, and Steve would just test him and say, like, you know, I think that's a stupid idea.
+
+Even though he might think that's a really great idea. Yeah. But just to test him, right, and to see like, no, dude, will they just cave and walk out of the room? Or will they actually double down? Will they like, no.
+
+No. No, Steve. I think you're wrong. Right? And once he got that signal, once he got that signal of conviction, he often would say, yes.
+
+Let's do it. And I think that's fascinating. So I think what John said is really interesting. I think it goes both ways. Oh my gosh.
+
+That's a perfect example of LLM as judge. We have to, on both sides, on a generation of conviction and the feedback of conviction, need both. The anti matter matter. Love that. I love that.
+
+Well, we'll record this pod again in a year, and we'll see if all of the software that's been created through the new Git product with assistance by Impeccable turns out to be more thoughtful and in that upper 10%, and that would be a fun outcome to see. Challenge accepted. Incredible. John, any closing thoughts for us? After picking up GitHub Design, I realized how so many people grew up at GitHub Design who were computational designersengineers.
+
+There's Max at Notion who used to lead design at GitHub. There's all the Vercel people. They're all over the place. And I was asked to somehow bring back the franchise. And so I'm excited because Paul's work represents that kind of seminal design history infused approach that can really make it easier for more engineers to design reliably and also more designers to be able to reach for the skies.
+
+I love it. Paul, any closing words? Well, I'm just super, super excited to see what will happen once we've raised the floor and what insane, crazy experiences we'll build afterwards and design afterwards. That's the kind of future that I want as opposed to, you know, the bleak future where everything looks same, and and people feel like they've surrendered themselves. And so I really am excited about that new era of craft, and that's something I'm working towards.
+
+Extraordinary. Well, cheers to a new era of craft. Thanks to the good work from both of you. Thank you guys both for being here. Excited to see the product out in the wild and play with it ourselves.
+
+Thanks so much for having for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

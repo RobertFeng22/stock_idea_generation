@@ -1,0 +1,355 @@
+Right now, AI has been so much about productivity, job replacement, work replacement. And I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wanna do? So it sounds like you're saying retention is still the most important Is that true? I mean, I think it's always been. But you've been a part of really every product cycle, the big ones and the small ones, and now most recently leading product marketing for a lot of the AI efforts at Apple.
+
+One of the things I learned a lot at Apple was how do we tell a compelling story to regular people? One of those things that the moment you use it, you're like, oh my god. I can never go back to the old way. We forget that, like, technology is no longer the underdog. The parts of the products we've made are running the world.
+
+You know, we used to say real life, but, like, online life is real life now. Chatuchu Bt was amazing for a whole bunch of searches that we thought were totally solved through Google. Yeah. All of a sudden, you start putting those searches into ChatGPT. You're like, this answer is more than 10 times better.
+
+This experience is more than 10 times better than Google links back and forth. Yeah. And I think that's why ChatGPT pool. One topic that we discuss a lot is, are the labs just gonna win it all? Should we all just go home?
+
+And I know it feels like we have a version of this conversation every time there's a new product cycle. What's your view? So I think a funny way to think about it is, for more than two decades, Josh Ellman has been at the center of some of the most important consumer technology platforms in the world. From LinkedIn, Facebook, and Twitter to Robinhood, Discord, Musically, TikTok, and Apple, he has spent his career studying how products grow, how people connect online, and why some technologies become part of everyday life. Today, as AI reshapes the technology landscape once again, many of the biggest questions are consumer questions.
+
+How will people discover products? What new behaviors emerge? And what does the next generation of consumer companies look like? In this conversation, Anish Acharya speaks with Josh Alman about consumer AI, network effects, product design, and why he believes we're entering a new era of consumer innovation. Welcome back to the Andreessen Horowitz podcast.
+
+I'm here with a person that I've been friends with for a long time, I admire for a long time, was my investor for a brief time. And now I'm proud to call him partner, Josh Ellman. Welcome. Thanks so much for having me. I'm really excited about this.
+
+It's gonna be awesome. Yeah. So, Josh, everybody sort of probably already knows him, but you've been a part of every important consumer story. I don't know if that's because you've been the catalyzing force behind them, or perhaps you're a good picker. I like the thing is sometimes it's like just Forrest Gump showing up at the right place at the right time and being on the journeys, but it's been really incredible to get to be part of creating technology that we all use every day in our lives.
+
+Yeah. I was reading some of the background. It sounds like you sort of set an intention at Stanford to be a part of the intersection of culture and technology, and you've kinda done that. Yeah. It's kinda crazy.
+
+I think my resume had this objective. Was, like, to create great technology that changes people's lives. Yeah. And as I as I think back on that, I'm like, I wish it was even more, like, benefits people's lives, that makes people's lives even better, because I think changes lives. Technology's kinda neutral, but there's so much that we've done that's just tried to, like, make the world better and more connected, more human Yes.
+
+And give us all these new tools and powers that we never could have had before. But it's interesting because you came from a time, you know, when you graduated, technology was this sort of these weirdos in the back of the classroom. You know, it always felt like a toy. Yeah. And now it's something that it's sort of some of the most important conversations in our society are about technology.
+
+Yeah. They're about technology. They're happening through technology. Yes. I mean, we used to joke that if you got to, like, 10,000,000 users, you were impacting so many people in the world.
+
+Yes. And then it became a 100,000,000, and then it became a billion, and then it became billions every hour. And we forget, though, technology is no longer the underdog. Like Yeah. The parts of the products we've made are running the world.
+
+It's like we used to say real life, but online life is real life now. Yeah. Think it is sort of default. I think the pandemic proved that for us most of all. We kind of maxed out on how much you could actually do in the online life, and there were so many things where we would meet over Zoom, and we would all have these conversations.
+
+Even with, like, family reunions and Yes. Friend things. Birthdays and dinners. Totally. We kinda maxed out what that was, and I think what's been really cool as we've come out of that is so much of that has lasted and has made a lot of things more natural, and we still like to sometimes even connect over video.
+
+But now we also are getting much more back in the real world, and technology can do a lot more, I think, to bring that together. So before we get too deep into it, let me make sure I kind of frame up the background. So you've been a part of really every product cycle, the big ones and the small ones. So Facebook, LinkedIn, and Twitter. Yeah, now known as x and varying roles there, which we should talk through Tiktok or musically, Discord, Robinhood, and now most recently leading product marketing for a lot of the AI efforts at Apple.
+
+Yeah. Yeah. I've wow. I mean, when you fill that together, it's been an incredible run. But what I just came off with Apple was a real change for me.
+
+And about six years ago, I decided I'd never worked at a large company, and I thought we were in a place where startups were actually gonna struggle against some of the big companies. And I was like, let me go try the other side and learn how that works. Yeah. Because it's incredible opportunity to work at Apple. What a fabulous company.
+
+I've had the best time working there. It's interesting because I'd say information's pretty fluid in our industry, but Apple's famously opaque. Maybe what did you change your mind on through the Apple experience? And actually before that, tee up exactly what you worked on, what shipped. Tell us more.
+
+Yeah. So when I joined Apple about six years ago, started in the App Store business, which is a giant business for Apple between both discovery through the actual App Store clients as well as a whole platform for in app purchases through games and apps. And the question was, how do we actually help people discover more? And how do we help people get more out of their apps and working on features that surfaced more things that were happening in apps to users, both through the store and through other products? Actually had this vision to kind of launch the games app, which was this idea of something that you could go every day when you wanna figure out what to play and what was happening in the games that were already downloaded on your device or what your friends were actually doing.
+
+And that launched a couple years ago. I'd gotten that started, But then AI started happening, and I got an opportunity to move over and sort of start up the product marketing function or restart the product marketing function around AI for Apple. Mhmm. And we had these visions of what was personal intelligence gonna be? How could you really bring that to people embedded in the device where all your content is, all your data?
+
+Siri had been around for a long time. It hadn't been as successful or well reputed as I think people had hoped it could be, and I think there was a huge opportunity with what was happening in Gen AI to rebuild Siri, and I got to be part of that over the past two and a half years. It's been a very interesting roller coaster. Yeah. But I'm so proud with what was just announced two weeks ago Yeah.
+
+At WWDC. I mean, the story of what Siri AI is, and I'm using it every day, and it's fantastic. Yeah. So we've had a lot of intelligence over the last three years, but arguably less personal intelligence. Talk about the personal part.
+
+What does that uniquely unlock for you? Yeah. And I think what's really special with these assistants is not just what they can help you do or navigate in the world and kinda bring world knowledge to place, but what they can understand about you. And it's not just what you ask it over time, but having access to all your information. And when you trust it, your device has your mail, your messages, your calendar, notes, anything that you save.
+
+Mhmm. Being able to just have an assistant that can tap into that and answer questions. I had this experience about a month ago when I was beta testing this, and I was driving to a dinner, and I all of sudden freaked out, and I like, my god, am I going to the right place? I hadn't added it to my calendar. I just knew I was meeting a friend for dinner.
+
+We texted about it. I just said, navigate me to dinner, and it found that message and got me right there, and I was a few blocks off. I would've gone to the wrong restaurant because I just remembered it wrong. This morning, I was trying to figure out where to park, and someone had texted me a whole bunch of different parking locations. Mhmm.
+
+I'm around, and I just was able to go, hey. Where should I park? And it just goes and finds the information that you know is there Mhmm. And pulls it together, and that's what you want from an assistant. Yeah.
+
+Very, very cool. Well, I'm on the product. I think it's fabulous, and it feels like it lives in a unique part of the consumer ecosystem, something that doesn't feel directly overlapping with the startup today. No, I think that's right. And I think we've always kind of expected Siri to be great and understand you and understand everything, and I'm so glad.
+
+I can't wait for everyone to get to play with it, because I'm so glad with what they can do, but also reminded me just how many more opportunities there are in the world. Yeah, so maybe diving right in, there's been obviously a lot happening in the product cycle around AI machine intelligence broadly, I'd say a lot of it, at least for startups has been more b2b oriented than consumer oriented. What do you think is the sort of state of consumer today? Yeah, I think we're in a really interesting spot. I mean, Chat to Me Tea in many ways is a consumer app.
+
+It's one of the biggest consumer apps that's come on like a storm just in three and a half short years. Yes. Because I think it's how do we navigate the world, the information that we have access to, things we wanna do, places that we wanna go spend our time and our energy. How do we connect with other people? I think right now AI has been so much about productivity, job replacement, work replacement.
+
+And I think we have a moment to shift that, which is how does these new tools help you get more out of your own day and your own life and the things you wanna do? And it's a massive paradigm shift in interface. We haven't even all processed what it's gonna mean when everything can start with natural language. When you get options and you're able to explore across a variety of options right there in a really dynamic interface that gets generated for you. Yeah.
+
+You have an idea and you just wanna create a little app or a website or an experience that's very personal to you and you can just express what you want. And everybody, I think, they're talking about how you can create something from scratch. It's amazing. Yeah. You can code in ways you never could before.
+
+But even if something's already coded and is working, you can tinker with it and ask it to be customized in a way that you want. And I don't think we've unpacked much of this for a consumer yet. I think most of the hard work and effort has gone into all these productivity tools, and I think there's a massive set of opportunities. So maybe to wind it back to the social era, we had a lot of entertainment apps. We had a lot of social apps.
+
+We had a lot of connection apps. We're not seeing that today with AI. Is that, like, ecosystem problem? Are founders just not interested in those problems? Why?
+
+I think one part of it is some of us think a lot of those problems have been solved. Okay. We had to find ways in the early days of social networking with LinkedIn and with Facebook and then with Twitter. People didn't have a way to even connect. Yeah.
+
+You know? LinkedIn was like, you're gonna put your resume online. Yeah. People were like, what? I would never put where I've worked online.
+
+That's only if I'm looking for a job. Facebook was like, connect to everybody you've met in high school and college and Yeah. Throughout your life. Terrifying. And we did.
+
+And then we figured out how much more fluid that makes the world, how you can get information that isn't just brokered through a few channels, but through the people you care about, and the people you learn about, the people you're interested in. We've seen a lot of the negative implications of that too. But I think on the positive side, we're so much more kind of connected to who we are and what we're interested in and what we can discover about the world. And so when you think of AI, right now, think of AI as just like short circuiting things you already do. Yeah.
+
+And that's what a lot of people are building, but they're not exposing us to new ways to connect, new ways to get out in the world, new ways to solve problems that we're trying to solve in our lives, whether it's how to or everything else, and and we're gonna have to figure out those 10 x things that replace some of those habits that we've already formed. Yeah, it's interesting. I I think a bunch about this sort of, you know, great man, great woman theory of history. Yeah. And it feels like at least the intersection of technology and, you know, us as people has mostly been intermediated through groups, as you said, in social.
+
+And now we have a chance to kind of be that great man, great woman via this technology. It's a very different shape of it. And that's not necessarily even just a comment on productivity. It's a different shape of entertainment and exploration as well. Like, what are the sides of yourself that are just totally undiscovered still?
+
+Yeah. Well, I think with with AI, you can go down these self journeys and go down and and I think one of the challenges with AI is it can also be very self reinforcing in a way that if you are going down this, like, very solo journey with a companion app or something, you can get, like, in this mindset that you don't need the rest of the world. I think the products that can take that energy and take that exploration and take those groups and take that great man theory and put us in a place where it's encouraging us to actually do different things and get out in the world and connect with other people and do things in the background that help us be in a better place to do that. Right. I think there's a ton of things that still are unexplored.
+
+Do you think we're going to have agents in group chats with us? Like, what is that gonna look like? What are do we have to establish social norms for how we interact with them? I mean, I ultimately think that we're gonna have this set of agents or things working on our behalf or things in the background that will be solving things for us that we'll talk to just like we talk to regular people, but we'll expect different things from it. We'll expect a set of understanding that know, I think you understand a lot of me, but you don't understand all of me, and I'll expect my agent to have an even deeper understanding.
+
+That's when I give it hints or things, it'll be much better. And then I think it will actually help us interact with other people. It'll be like, hey. I'm gonna go talk to Anisha's agent or negotiate this thing, and then we're make sure that you guys are set up to have this great conversation or whatever it is. Yeah.
+
+Yeah. It's it's interesting as a level it it it's a level of indirection Yeah. Which I think actually has a lot of interesting implications for work. You know, you think like work, there's so much conflation of what is the truth with what is sort of personal to me. And you know, the likes and the dislikes and the disagreements, even often intellectual can lead to the sort of emotionally charged situations.
+
+I'm optimistic or at least hopeful that agents will diffuse a lot of that and work can be more about the honest pursuit of pursuit of truth. And I hope so too, because I think a lot of it is the best work happens when you've got the right information in front of you, and you're actually really able to have the point of views and information. You know, one of the things I learned a lot at Apple was how important the culture of debate was. To get to the best answers, you need to really discuss them. Mhmm.
+
+But the only way you can have real debate is to have as much information and thought prepared ahead of time. Yeah. And that was really the hard work there. And I think we're gonna have agents that are able to help us be more prepared and ready to have better debates. When we go down different paths and we're like, actually, we're missing this piece of information.
+
+Yeah. The ability for an agent to go retrieve that for us very, very quickly, and help kind of lay out some of the pros and cons, or whatever the the sides of the issue are, is gonna be tremendous. Do you think there's a tension between agents and apps? Like, are they overlapping? Is is are agents like the final app?
+
+You know? I mean, a lot of people have used this moment ago. Is this the death of apps? Because you'll just get to everything through a command line. Yes.
+
+And I I I'm very much a believer that apps and experiences and being able to visualize and explore information or spend time in an app consuming content or interacting with things, none of that's gonna go away. Now what I think we'll be able to do through these agents, through these types of experiences, is more quickly get to what we're looking for. More quickly get into an app where everything's set up right, and I can further customize it and explore from there, rather than have to start everything with my own set of tabs. Mhmm. But I definitely think that we're gonna wanna spend more time in rich experiences instead of just back and forth in chat.
+
+Yeah. That's interesting. So is chat an intermediary then? Or is it is it sort of an interface that's having this renaissance and it's here to stay? I mean, I think it's an incredible starting point, an incredible substrate.
+
+I mean, if you think of human language, how do we have most of our conversations? Are dialogues. That's right. Back and forth. But we don't but but after we're dialoguing, we then want to explore information and see things in in bigger ways and be able to actually experience it.
+
+I look at things like games. Chat's never gonna replace a game. A chat game like Zork, like I used to play when I was a kid. Zork, great reference. That is very different than a rich, immersive, experiential game.
+
+Yeah. And so you're never gonna replace that, but chat is a great way to kinda get started and to help me think through something before I'm ready to have that experience. Yeah. And it's interesting. I mean, games is a great way to think of how these two interfaces can reinforce each other.
+
+Because if you're playing not Zork, but maybe Witcher Yeah. Or a modern RPG, you know, there's obviously there's these very, like, graphic heavy experiences. But then there's a lot of fun in just talking to the NPCs and kind of, you know, exploring the dialogue and all of that should get a lot richer. Well, I think this is a huge area for for a lot of consumer invention too, is this ability to have these immersive stories and experiences and new kinds of entertainment Right. Become these beginnings of worlds, but then you're exploring in all new ways.
+
+We have a generation of kids growing up that grew up on Minecraft and Roblox. Yeah. And they were used to playing a game where they controlled the world, where they chose to join the world. You know, Roblox is this incredible co experience platform where you get a couple people together, and they're playing games and having conversation at the same time with their friends, and they're gonna expect, as that group grows up, more and more experiences like that that are rich, that value that sense of control, that sense of ownership, that sense of tinkering, that sense of privacy in this bigger world, but yet the world should be so much richer because of AI and so much more open ended. So so does that mean that the sort of Gen Alpha that's coming up, the Roblox Minecraft generation, will they expect to be able to kind of fork and remix all their utility apps?
+
+I mean, what does that mean in practice? I mean, honestly, I think so. Yeah. Yeah. That's huge opportunity is is every piece of software, you know, it's still gonna have to do a lot of its core functionality.
+
+Again, not every Gen Alpha is gonna go, I need to start my accounting software from zero. Yes. I need to start my travel planner from zero. But once they've got the thing that does most of those functions Right. They're gonna wanna tinker with it.
+
+They're gonna want that flexibility, and the apps that will win in the next generation will give people that sense of ownership at the end. Yeah. Yeah. Really, really interesting. I mean, it leads to a natural question, which is when it's trivial to create anything, how do you discover things?
+
+Yeah. Is, you know, how scarce is attention? So maybe just talk about distribution broadly. Yeah. I mean, I I think this has been this really interesting wave of the Internet of how much so much of it's powered branded distribution methods.
+
+We both grew up through the social era Yes. Where most of it was virality. And there was a lot of techniques and tactics and testing and learning of how to drive more virality, how to get one person so excited about something they would share it. And sometimes some people overhack this with how to get one person to inadvertently invite their whole life Facebook too, but that never worked. It was always the intentional viral sharing.
+
+This is so great. I want you to join me. And then we got so many of those that everybody got a little bit jaded, you're like, Why are inviting me to another thing, Anish? And all of a sudden, you gotta stop doing that. And so we had to move into this world.
+
+Search was the other big wave. Search and being able to be search optimized for Google was a massive thing. What we've seen in the past five or ten years that are really the working methods now are the trust we have now in these new creator relationships. Yeah. Sometimes they're they're true social relationships, sometimes they're somewhat parasocial, but their the creators are able to talk about the things that they're doing and exploring and figuring out.
+
+And you learn to trust that this person isn't just doing it to make money or an endorsement. They're doing it because they're passionate about what they're tinkering with, and if I like what they're doing, whether it's in beauty or health restaurants Mhmm. Or technology. I follow some really cool Apple creators. They'll go and tinker with these things and talk about them to the world.
+
+That's the new path of discovery, is you have to be so good that you're getting those people to talk about it. And sometimes you can even pay for those endorsements and try to get that started. But honestly, everything only ultimately works if it's true organic word-of-mouth. I love this so much. I'm telling you about it Yeah.
+
+At some level. And everything then you do is you feed a lot into the engine to get to that point where your product's so good, it's spreading itself. So, so let let me challenge you on this a little bit, because there's something intellectually dissatisfying about creators being the next gen channel versus the traditional networks. You know, in the old days, the old days, I mean, the value of the instant network or the, you know, Facebook network or the x network is so powerful. And you could argue that the ones who own those networks have sort of maybe abused their powers or use them in ways that benefited them more than the ecosystem.
+
+Creators just feels like a weaker form of that. I find that they're the the, like, the biggest form of that because actually most creators have earned their reputation based on trust and based on a trusted relationship. Mhmm. And I remember in the olden days, it'd be a very famous athlete that would then get up and go, I endorse this cereal. And you're like, there's no way that that athlete is eating that cereal every day.
+
+Like, they're just getting paid to endorse it. Right. In the commercial. But now when a creator says, here's my health routine. Mhmm.
+
+Or here's my travel routine, and I went here, here, here, and these two I liked, and this one wasn't as good. Yeah. Like, you're actually if you learn to trust them and build that relationship and follow them along, you actually believe it much more, and yet it scales all the way down. There are influencers in college, the ones who actually influence our college, maybe the ones in high school, and they were always that. And so it's not it is still about community.
+
+It is still about influencing your friends. Yeah. But but it is in there. I mean, Discord, for example, through all through influence, all through this kind of influence. But it wasn't like these mass influencers.
+
+Sometimes it was streamers going, hey, we're playing on Discord now. But most of it was the person who gathers everybody for games would go, hey, I'm trying this new tool. It's way better than what we've been using before. Everybody jump on it, and that one person would bring everybody in their group who they played games with, and then a few people would go, That was really cool, and I also played games with this group, I'm gonna get this group on, and then they'd do that. So, that's even, it's not a micro influencer, it's a dumb one Word-of-mouth, yep.
+
+That's pure word-of-mouth. Yeah. But I think it scales all the way down to that. Yeah. That's interesting.
+
+So do you think then that that's the channel sort of for the AI native consumer products, or are they gonna is it gonna be something like ChatGPT apps directory, or Codecs, or is there some other thing that's going to happen? I kinda brushed over this, but we also talked about virality and search, and search was sort of the single purpose tool. I think we're gonna be back in the same world where people are gonna need this sort of spread, this word-of-mouth, whether that's accelerated through creators or just through individuals being so excited. Yeah. At the same time, you're gonna need to figure out how to do, you know, what they call a gen you know, GEO, generative, you know, optimization Mhmm.
+
+Where the agents talk about you. And when someone's trying to solve a problem, the agents will actually do that. And I think there's both huge opportunity for whether it's the directories or whether it's just getting into the content for the model training or the rag, or ultimately whether these products become really smart and they realize that referring things out makes them better. Right now, I don't think any of the core assistants kind of have that mentality that referring people out makes them actually stronger, but I think that's the biggest opportunity. What do you mean referring people out?
+
+When I start trying to solve a problem with Chatuchi BT or Quad, it does everything it can to solve my problem. Hey, I wanna plan a trip. Hey, I wanna figure out a good bottle of wine. I wanna do this. Yeah.
+
+But but what would be really cool is if it said, hey, I know you're trying to plan a trip. Here's a bunch of things. By the way, here's the resources to go deeper. Yeah. And maybe they'll wanna own a few of those verticals, but they can't own them all.
+
+Yeah. And actually being even smarter about knowing when it's good to hand you off Yeah. I think will be great, and then it'll create a lot of opportunity for those tools. And perhaps those tools are apps. Yeah.
+
+Think a lot of them will become apps in their own services. They'll have some chat experience, but a lot lot more. Know, when you're trying to plan a trip, you know, chat is great to get some list of stuff, but then like It's not awesome. Yeah. You gotta like turn it into like bookings and lots of other stuff.
+
+You know, when you're trying to deal with some financial plan, look, it's great to, like, work through some problems. You still need to turn it into, like, a lot of actual details. Yeah. And I think those artifacts and managing those are gonna be actually better in other services. Yeah.
+
+That's really interesting. So then would you say that creators are sufficient for the AI consumer products to get to scale and we don't need an AI native distribution channel? Or do you think there's still something on the come? I think this is what we gotta figure out over the next couple years. Yeah.
+
+I think I think the short answer is there's a lot of ways to get to scale today. People can get to 10,000,000, 50,000,000 users Yeah. In ways you never could before. Yeah. And all that really matters is if you get to them, do they actually use you?
+
+Do you stick? Do you become part of their lives? So Yeah. So I'm less worried about finding just the distribution methods for awareness Yeah. As much as, like, what are the products that are actually gonna move our habits and change us?
+
+And part of being an AI product, you know, today is it has to be so much better than the products ever before. ChatGPT was amazing for a whole bunch of searches that we thought were totally solved through Google. Yeah. Now all of sudden, start putting those searches into ChatGPT, you're like, this answer is more than 10 times better. This experience is more than 10 times better than Google links back and forth.
+
+And I think that's why Chat2PT blew up. And I think for every experience consumers have today, with these new possibilities of building things differently, of presenting things differently, of experiencing them differently, all those things that the moment you use it, you're like, oh my god. I can never go back to the old way. Yeah. Yeah.
+
+Really interesting. So it sounds like you're saying retention is still the most important metric. Is that true? I mean, I think it's always been this this idea of do you really use the product? Yeah.
+
+You know? And and if you can get me to try something, and and willingness to try, what's really cool about this era, willingness to try, is bigger than it's always been. That's true. And that's part of what got me so excited to come back to the the startup side and the venture side was we can actually get people to try new things. Yes.
+
+But trying new things only matters if people stick and bring it into their lives, and it becomes part of their lives in a way that they're so excited to tell about the next people. And everybody is like, how do you get to this many users so fast? And the answer is don't. Get to a smaller number who have moved their lives over to your product. Yeah.
+
+Who have truly found something new that they are doing that they will not wanna go back from. That's right. Once you find that, then it becomes how do we repeat that? And everything I've gotten to work on in my career has been really fortunate to have found its way to that, and then build and compound and set the company up to really scale from that. Yeah, there's some non intuitive wisdom in that, you know, like Paul Graham's whole thing about monopolizing a really small market being much better than, you know, sort of having being diffused across a big market.
+
+Similarly, Andrew talks a bunch about the way to build a big network is to build a bunch of small networks, which makes total sense. But, you know, we're so overtrained on this, like, go big billion users. It's hard to do things at small scale. I mean, the problem is you have to be able to think in both at the same time. Right.
+
+Like like, the best founders I've gotten to work with figured out how to both have that vision of what is billion user scale and why is the world different when we're actually everybody's using it, but then go, but I'm not gonna get there today. Today, I've just gotta get to this, and I have to win this area and convince this group to become passionate. Robinhood's an incredible example, where they had a vision to democratize finance for everybody. You can imagine anybody in the world who didn't formally have access to the stock market, to the type of investing products that other people were able to do, feel to give that to everybody. But that certainly didn't mean overnight you need to be getting every single person to be able to do it, you know, in your retirement account and everything else.
+
+It was like, no. It started very small with, hey. If you are actively thinking about wanting to invest or actively already trading, we should be a better product for you. Yeah. And then, hey, for those people who aren't there, who might not even ever wanna be investing in single stocks, how can we over time get the right to expand the platform to everybody else?
+
+Right. But not, let's go out with 30 products today, because that would have confused everybody and landed no one. Glad you actually mentioned Robinhood because there's two companies we sort of talk about as the exceptions and the consumer lore from a distribution perspective. One is Robinhood and one is TikTok. Yeah.
+
+You've obviously been involved in both. So the way we tell the story, you should tell me if this is correct or not, for Robinhood is that they did do paid acquisition, significant paid acquisition, but because it was this very brilliant mechanic of give a stock, get a stock, you sort of had this non inflationary customer acquisition cost Yeah. Versus being in an auction with Facebook and Google, etcetera. So you're you know, they were able to scale it, and it worked even though it was paid. And historically, we sort of say, well, paid is a problem at scale.
+
+Yeah. You know, I think what's interesting with Robin is they didn't start paid. They they started with a product that they thought was just a better way to invest in the stock market. Let's remove the cost of commission. Mean, back then, it cost $5 or more a trade with any of the other big platforms.
+
+Right. And so they said, We're gonna figure out how to give it away for free. We know there's gonna be other ways that we can monetize, including, you know, they found several mechanisms through the ecosystem that still were better trading costs for NFPF. Sure, PFOS. But the key was it was all word-of-mouth at the beginning, and they figured out how they were on Reddit.
+
+There were Reddit communities that were really excited about it. Anybody just word-of-mouth on mobile was saying, I kind of want invest in the stock market. This app is great. And by way, it also had beautiful design. One of the things that you needed when you were dealing with people's money was trust.
+
+Beautiful design and app that showed that people cared and put a lot into it- That's interesting. Really helped Robinhood have that initial credibility. Over time, was figuring out, okay, how do we grow from here? Tried a lot of things. Definitely tried some paid ads, and you know what?
+
+They worked free. Free trading was a message that worked for people who were already kind of in a trading mindset, but if you weren't, it wasn't, but the referral program was really magic. And the seed to the referral program wasn't there's a lot of referral programs that were big enough time. Airbnb, Uber had ones like, give 10, get 10. You'll get $10 for getting somebody.
+
+You'll give $10. The $10 to the starter for the person who does it. Yeah. And, like, those are nice because you have a little bit of a discount, but it's a dollar amount. You're like, is it worth $10?
+
+Am I trading off my friend for $10? Yeah. Robin, here's $10 to invest. What are you gonna invest in for $10? Yeah.
+
+Know, nobody knows. Yeah. You know, you couldn't even buy a share. So the team came up with this mechanic to figure out how to make it give and get a share. Mhmm.
+
+An actual share. And then was able to use the fact that that share was a lottery. Sometimes it would be a $2 stock, sometimes it would be a $100 stock. And enough people got the $100 stock that they raved about it, and that made them very, very excited. People get the $2 stock and go, Oh, I have a whole share of stock.
+
+I can sell that. I have $2 in my account that I didn't have before. And Robin's ability to balance that made it a very, very cost effective mechanism. So look, when you're doing paid ads to bring people in who are already susceptible to the message, when you're bringing in this referral program to then have people share it and advocate it, and again, referral is not quite as pure as word-of-mouth, but it's pretty close. That's I'm only gonna bother somebody if I at least believe in it.
+
+Or the incentive for me is so good, which they know the incentives, they're getting the same one. And so it really became this powerful mechanism, and then the brand just kept building and building and building, and people started to trust it more, and the design got even better. Yeah. All of a sudden, one day you're like, woah. This is no longer this little upstart financial thing, but every other company is dropping commissions because they now see the threat.
+
+You know, Schwab did it. Ameritrade did it. Schwab then went and bought Ameritrade. Like, it transformed, you know, the brokerages Yeah. All from this little plucky, let's try to democratize finance Yeah.
+
+But get the people who we can early. Well, it really demonstrates the power of a founder led company even being post public. Because now you see what Vlad is doing, sort of agentic trading stuff. I mean, it seems like he's leaned the most into it out of everyone. I mean, I I'm just blown away by what they've done with the company, you know, since I've been gone.
+
+Yeah. I left in at the end of twenty nineteen, and and it's turned into this incredible for the realizing the vision, multiplatform. Yeah. It's no longer just trading. It's, you know, retirement.
+
+It's credit card. Yeah. It's got some banking components, and they have the all these products that bring in the same care, design, trust for the user Mhmm. Truly trying to bring value. And Vlad has just done an incredible job navigating the seas.
+
+It went through some real bumpy times too. I mean, so many great companies have had these existential crisis moments, and Robin has had a few, but both between some crazy downtimes that happened and critical moments in in the stock market, what happened around GameStop that felt like that almost might be existential for the brand, but they came back to their core values. Yeah. Great design, great product, trust for the user, something people are proud to talk about and share, and they've really been able to win people back and and grow a ton from there. Amazing.
+
+They've done so well. So we've established that Robin Hood was a referral program. So now talk about maybe just teed up, talk about Musically TikTok. Not everybody may know the connection. Yeah.
+
+And then how they grew because they are the other great exception, which is anytime we say, well, pay doesn't really work at scale, people say, but TikTok. Yeah. Well, and and this is a a crazy kind of multipart story. You know, Musically was a group of a small team in China that was trying to build for the western markets. That was actually their initial vision.
+
+They were starting to trying to build an education app, hadn't really worked. They had seen some fun things happening around lip syncing, and so they decided that they were gonna build a little lip sync app. Mhmm. And they built this, and they put it on the App Store, it said lip sync. And they were seeing spikes every week, because Alex, who was the founder of Musically, and actually went and ran a lot of TikTok, was telling me this, that they were so confused, and they found out finally that, like, the spikes on Thursday night, I think it was Thursday, was because of when Lip Sync Battle appeared on, like, MTV.
+
+Okay. Lip Sync Battle would run, and then people would go type Lip Sync into the App Store, and they download Musically, And they start creating lip syncs. Interesting. And Musically, they'll design their product in two really smart ways. The first was it was really easy to take your video and still go post it elsewhere.
+
+So you could create this great lip sync video Mhmm. And post it elsewhere. But the second thing was they also curated a feed of the great lip sync videos. So when you'd open the app, you'd swipe through, you'd add some friends, and you'd create your video, and you might go post it on Instagram. Yep.
+
+And so that loop was create something you couldn't create anywhere else at the level of quality, then be able to post it out to Instagram, and your friends, you'd start following your friends, you'd see what your friends had posted alongside some other really cool stuff they were curating. Mhmm. So they really created this loop, and then they found out that there were a bunch of, I'd call them, like, b plus stars on Instagram who weren't quite getting enough credibility and were only posting pictures, and Instagram video was just coming out at the time. And they were like, let me use Musically to create some cool content for my Instagram feed. Got it.
+
+And then on in on Musically, they'd become the number one stars. They'd become the a listers, the ones with the most followers because they were getting featured in the feed. So now you have this loop where the influencers were posting a ton of stuff on Instagram, so you're starting to see Musically on Instagram. Starting to have a better experience in the feed, and people were talking about it with their friends, and it all started to compound. And the other secret was there was always a little Musically bug at the bottom of the Instagram page.
+
+Right? Right. And, of course You can actually download the video. It was, like, unheard of at the time. You'd create the video in Musically, download it, upload it to Instagram.
+
+Yeah. They would keep the Musically bug. Right. People were cutting that out. Right.
+
+And it created this this great loop. And the company got really big. We got to, you know, tens and tens of millions of users daily. You know, hundreds had tried it, and it was in incredible shape. And then they started thinking about whether or not to keep going independently, raise a lot more money, of sell, and got this incredible offer from ByteDance to go and join ByteDance.
+
+And ByteDance had had a product, Douyin, that was very, very large in China. And so they had kind of both modeled some after Musically, had had their own invention, and had this great AI team. And they were like, we can help Musically scale even more worldwide. Yeah. And so they they bought Musically, and the team that was already in China became part of that that high tensing.
+
+And then they they spent about six months or so kind of tinkering, rebuilding their product, moving Musically and Douyin into a shared code base. Yeah. And then they relaunched it with ads, with dollars. Because what they figured out was to get from here to where we wanna go, we need to pour a lot more into it. Okay.
+
+They got they spent. They were probably one of the biggest spenders on Facebook, Twitter, kind of every social media to get people to download TikTok at that time, but the product loop was so good that everybody retained. Yeah. Because you would sign up for it, and all of a sudden, with a couple swipes, were deeply personalized. Your friends who were already there on Musically were coming back and trying new things.
+
+You were seeing that, and it was really energizing, and the whole loop worked. Now it still took them pouring a lot of money in to get that distribution, but the retention really worked. And I joke at the same time, Quibi was pouring similar amounts of money to get people to download Quibi Yeah. Which didn't totally work. Didn't work as well.
+
+Yeah. Yeah. Well, okay. So is the lesson from that then that if you have a high highly retained working loop, you can do paid, and it's okay? I I have no problem with people doing paid if they understand it.
+
+Yeah. Like, paid to both get people in who will become very good retained users, and who will spread the word for you, can be a great catalyst. What you can't do is spend a lot of money to burn 10 people to find the one who actually stuck with your product, and think that that's gonna scale because that only gets more and more expensive. That's right. Yeah.
+
+You know, it's interesting. It's sort of adjacent to this as a debate we've had, which is on one hand, it's amazing that consumers are willing to pay for software and in a big way. You know, if you look at the top ChatGPT skew, it's $2.50 a month. The top Grock skew is 300 a month. Gemini Ultra, I think is 300 a month.
+
+So wow, consumers are paying for software. On the other hand, because there's no zero marginal cost of distribution, inference costs money, you can't really build a mass market free product without a massive balance sheet. Is it net better, worse, is it just changing the shape of startups? I mean, what's your view? I mean, I think it's I think there's a willingness to pay and necessity to pay Yeah.
+
+Is definitely shifting. Yeah. You know, we had this period, you know, fifteen, twenty years ago, where everything was shifting to the cloud, and all of a sudden, the startup costs for our company became much less than ever before. You didn't have to buy a bunch of servers and rack them, and, you know, sure, serving costs a little bit of money in bandwidth and compute use, but it was actually relatively low for what you thought you were getting as a startup. Obviously now, if you're running a ton of inference, you need your customers to be willing to pay for it.
+
+But I think they are, and the ability to pay in apps is so much easier than it's ever been. Getting payments is easy if you're providing value, and I think you have to. I think it hurts companies that need massive network effects. Yeah. Because part of the benefit of these massive network effects was free distribution to everybody Yeah.
+
+Helps you get there. And so haven't totally figured out what that balance is, but I think that's what I'm excited to go work through over the next few years. Yeah. Various startups. Yeah.
+
+It seems like one of the things that could really change that is if iPhones get really powerful GPUs. That's right. It's it would seem crazy for that to not happen at some point in the future. But I think we're gonna be figuring out with the models even that you can run on iPhones or on laptops, how to push more and more of the complex or the the less complex inference that needs to be done Yeah. Onto device to lower the cost.
+
+I mean, there's no reason that everything you're ever trying to do, whether it's refining a title or just, you know, rewriting a paragraph or answering some basic questions, those can actually use models that are incredibly powerful that come out of devices now. Yeah. And then you only send the more complex stuff up. And I think, you know, both from the enterprise side, you're gonna see a ton of that, and I think from the consumer side, I think really smart founders are gonna optimize that too. Yeah.
+
+It'll be interesting. I know that Karpathy has done a bunch of work. Few folks have shown that you can actually train and run models on three eighty sixes and four eighty sixes. So I'm sure there's also just a lot of good old fashioned engineering that will make the models, you know, push more and more to the edge. That's right.
+
+Okay, so one one topic that we discuss a lot is, are the labs just gonna win it all? Should we all just go home? And I know it feels like we have a version of this conversation every time there's a new product cycle. What's your view? So I think a funny a funny way to think about this is, you know, twenty years, everybody was like, well, won't Google just do it?
+
+Right? And then all of a sudden, could do everything. And certainly, there's a bunch of categories that Google has absolutely expanded on and done great. There's a twenty years ago, there's a ton of startups that have grown and become massive companies since then. You know, fifteen years ago, 2030 era, everybody was like, well, isn't Apple just gonna do it all?
+
+It's gonna be everything's gonna be their own mobile apps. Right. Now this great world of, you know, mobile enabled apps that we could have never imagined before, these social apps. But about ten years ago, I kinda started thinking that too. Yeah.
+
+I kinda started thinking about, I'm not sure if there's a world in these networks that are now 1,000,000,000 plus users Yeah. If you can truly build another consumer startup from scratch. It's part of why I actually left Venture Mhmm. To go, and I said, I just wanna build again. And I went to Robinhood Yeah.
+
+That led led me over to Apple said, Gosh, I'm not sure if you can actually build something big enough in kind of pure consumer areas. And I'm not sure if I was wrong. Mean, had me chatting with T's, obviously. I'm not I was Discord. I had invested in Discord, and we had just sold Musically.
+
+Yeah. And I was like, those are gonna make it through. I joined Robinhood, which I said that one's gonna make it through. But starting from scratch, you have to get enough momentum to get to that billion user scale. I was like, I'm not so sure.
+
+Yeah. And this is part of part of my own, like, if I didn't really believe that I could find that path and venture, I was gonna go and work on them instead. You know, part of why I went to Apple was to go learn and work at the biggest scale you can and try to deliver that value to everybody's pocket. But I think right now, I think the world is so open again. Yeah.
+
+I think that the main chatbots, the main assistants are gonna do a lot for us. Yeah. We're gonna rely on them for a lot of things, but I think we're gonna expect everything to work like them, and we're gonna rewire so much else of what we do in life and our services and the way we get things done, that the opportunities to fill all of those areas of our lives and help us connect and help us get information that we want and help us explore things are not just gonna go to, like, there's only two products we ever use. Yes. Yeah.
+
+Yeah. No. No. Look. I totally agree.
+
+And I I also think there are ways that startups can play that incumbents can't and labs can't. Know? To me, Companion is such a great example of this, because I feel like Companion touches on everything that every committee at a big tech company doesn't want you to do. You know, there's disagreement, there is probabilistic behavior, there's sexuality, there's, you know, there's just all these ways that you can interact with a product that are very human. And as you know, when you're at really big scale, it's hard to ship things like that.
+
+You know, I think it is, although having been part of, you know, one of the biggest companies, learning to ship things that matter and make the world better is kind of the fundamental value of what we do and and and the fundamental value of what you can do Right. When you get to work at that scale. But when I think about things like the the companion products and entertainment and how AI can sort of take us on these journeys, I think it's incredible how much different it can be than everything we've had in the past. We've never had an experience like that. On the other hand, I think it's also a high level of responsibility.
+
+We have to be very, very careful with kids, with safety, with sexuality, with letting people who might be going through any mental challenges to feel like they're getting something served through a product that isn't bringing them back to the community, or helping them get the help they need. So I think we have to very much find that balance, but then once you accept that that's just the baseline, there's so much to explore that not every product wants to be. Lots of products don't want to be your best friend. Mean, if you've used the new Siri, it's incredible. It's very much trying to help you get things done.
+
+It's designed to help you get things done. It's incredible helping you get things done with the experiences and the content that you already have, and what it knows about you, and what it can go access in the world, but it doesn't need to be sycophantic, and it doesn't need to be like, You look great today, and create that personality, but there are other experiences where you actually might want opinions on a wardrobe, and how you dress, and give you tips, and treat you a little bit more in that human relationship, I think it's a very different product. Yeah. It's interesting, because if you almost unbundle the two, you there there's a product that's just about getting things done Yeah. You know, which is sort of almost has no soul by design.
+
+Yeah. And that's great, and we need that. But then there's also these products that might mirror things we do in the rest of the world, which is I might join a volleyball team because I'm looking for friends, and volleyball is like a level of indirection to building new adult male friendships. So I think there will also be companion products that look like that. I agree a 100%.
+
+I think there's so many that can help us do more of that and explore the world and use, you know, in the background, do things with other people and try to figure out what makes sense for you. Yes. And by the way, I would argue that even the get things done has a soul, but it has a very different soul. It's not trying to replace any human relationships, and none of this really is trying to It's all trying to augment relationships. It's not even trying to make you perceive it in some sort of human way.
+
+It's trying to really be a tool. And that's what we are as technologists. We're toolmakers. We make things, and they can be net neutral. And it's our job to infuse humanity into them Yeah.
+
+No matter what we do. I love that, man. Yeah. It does feel like this is a technology to explore humanity, and we never had that before, actually. You know, we've had a lot of technology to extend our intellect.
+
+Yeah. And that's led us to incredible things. I mean, SpaceX this week is is the best example of it. But we really haven't had any technology that sort of, I don't know, helped us be a little more self reflective. Yeah.
+
+You know, social products are fascinating, but it's sort of exploring us as groups instead of us as individuals. No. I I think that that's a a really profound way to think about what we can do with this new technology, and so much of it is helping you be better. I mean, I've seen these great little apps that are helping people learn to date by practicing first date conversations. Right.
+
+Totally. And it's one of those things that it sounds funny, we're probably both older and not in that lifestyle right now. But if you're nervous about something, being able to practice is incredible. I haven't done one of these in a long time. I have to admit, I did use a little bit of going back and forth to ChatGPT to practice Yeah.
+
+Talking and Yeah. Getting back into this kind of mindset, because that's how these things help us be better. You know, it would just be so funny and ironic if the result of all this technology is that Gen Alpha, they're just like the most credible social apex predators, like, the art of conversation is back, you know, it's like the nineteen fifties. I I think that would be amazing, and I think we we always forget, but that's the generation they've grown up with. They've grown up fully online, fully mobile, and we've seen some of the downsides of this.
+
+I think there's a lot of things happening right now to even prevent social media from people under certain ages, mostly because we haven't all done the work to make these as safe and as additive as possible. Mhmm. But on the other hand, this generation is gonna know how to adapt and get the most out of this technology, and use it hopefully in better service of others, and hopefully look at some of the examples of what's gone right in the world that they can live up to, and hopefully what's gone wrong in the world that they can say, our turn to go fix. Yeah. It's fascinating.
+
+So this class who's graduating right now is the first class that grew up had ChatGPT for all of college. Yeah. Yeah. Which is really, really interesting, you know. And actually, what I think that ChatGPT lets you do or or the sort of broad AI is what actually, you know, what they call the greats in college Uh-huh.
+
+Which is studying an ancient Roman, ancient Greek sort of everything related to it. It's a sort of individualistic, very abstract, intellectual exploration of things just for the sake of it. Yeah. It's And a lot of what the technology lets you do, so I hope they are as enthusiastic about it as we are. Yeah?
+
+I mean, I I really hope so. And one of the things that's really heartwarming for me whenever I talk to to kids is when they tell me, hey. I don't use it to do my work. Because, honestly, I just know that that's not what I'm gonna get graded on. I might get caught, something else.
+
+But what I use it is to help me make my work better. And the fact that you can turn to something like a ChatGPT when you've done some writing and go, how do I improve this? It's such a powerful tool to have in your arsenal. I mean, that's one of the things that I've been using with new Siri on my Mac, is you write something, and they just go, how's this sound? How could I spice this up?
+
+How could I make this feel, get my point across a little bit better? Yeah. And the tips and the things it comes back with really help you go, okay. That's actually a really good tip. I'm gonna put that into what I'm writing.
+
+Yeah. And when you're using it that way, these tools are very additive as opposed to replacement. I totally agree. Yeah. It's it's fun.
+
+Somebody that we both know, Eugenia, who you you might have actually introduced me to her or or at least whispered a good word in her ear on my behalf. Thank you for doing that. We're so proud to work with her. She just said this thing that was so profound. I've and I I keep repeating it, which is, look, people are not trying to save time.
+
+They're trying to spend time. I love that. And the the the entire sort of original sin mistake we're all making and assessing these companies is that the average consumer doesn't know what to do with the blinking cursor. They actually need to have things pushed to them so that they actually can explore and and not have to be so high agency. Yeah.
+
+I mean, think this idea of time well spent is exactly the the right method of what consumers wanna get. And this is why building for consumers is so different than building for enterprises, is you can't just start me with something and I'm like, I got a problem, I got to solve it, give me a blank cursor, I'll just dig into it. It's what are the ways that you want to best spend time? And what we've learned is there can always be a lowest common denominator here. A way to spend more time is more scrolling.
+
+More anything. Just keep going infinitely, or just keep pushing this button in this game and see what happens. You can pull people and lull people into that, but the best products can be smarter and can actually take us from you know, idling away time to actually spending it better. And, you know, you you wanna say, hey. To an AI, like, hey.
+
+I'm a little bored or or I need some ideas of what to do. You want it to, like, spark you and give you motivation and encourage you to go do things. Yeah. You know, either it's get out in the world or just, you know, do something new or think about something or be entertained. Know?
+
+You know, doesn't always have to be work or learning. Yeah. It can just be fun, but still things that that add value where you reflect on after that, and you're like, I'm really glad it did that. Totally. Amazing.
+
+Okay. Well, maybe to bring us home, give us your kind of request for startups. You know, what are the areas that you're posting and personally most interested in? What do you think is underexplored? I mean, coming out of, you know, having worked inside of Apple for a long time, and at Robin Hood, and coming back to Venture, I'm thinking a lot about what is this next wave of all the ways that we connect as people, spend time well, whether that helps us you know, things that help us do things like travel better, you know, manage our finances better, manage our health better, get things done, learn how to do our how to's, you know, and get through that list.
+
+All these ways that we can use all this new technology to help us get through our lives, spend it really well, and connect with other people, pretty open ended because so much right now is built for the productivity and the enterprise, and I can make this team more effective, and here's 20 workflows, and here's 30 prompts that help everybody. I'm like, what are the things, though, that make me so happy to go, I'm using this every day, and you should too. Yeah. And you should too, and I can't wait till we all are because it makes it better for everyone. So, Josh Yeah.
+
+Take us through what you're gonna work on here at Energy Star Horizons. Look. I am so excited to be back in the start up world and really get this opportunity to help Andreessen Horowitz portfolio companies figure out their way through this consumer landscape, figure out how to grow, figure out how to tell their stories, figure out how to build their products. Then And I'm really excited to help all the future Andreessen Horowitz portfolio companies. Let's figure out who they are, what they're doing, how I can help them, how we can help them figure out their paths, and then, you know, when it's the right time, make sure that they come in and we, you know, as an Andreessen team, really fund them.
+
+I love that, dude. Talk about, maybe for a moment, what are the kind of specific challenges you've worked through with companies? Know, is it about distribution? Is it about m and a? What what are some of the ways?
+
+I mean, I I think the answer is that the stuff I love helping with the most Yeah. Is thinking about the product and the product loop. How do you onboard people to get to that retained experience? What do you need to do to get people all the way up the ladder? How do you let them bring other people into that network?
+
+What does a core product do for them every day? And how do you evolve a single use product into multiple uses and scale that as a product platform? So helping people right in the heart of what that product and product strategy is, but also happy to help talk about how you organize your product team and growth team, and it's completely changed in this new era. I mean, is different. Things are more different for a product management function and an engineering function in the past six to seven months than the past thirty years of my career.
+
+It's incredible how much has changed, and navigating that, knowing what worked in the past, but translating that to modern times, I'm excited to do that. And then obviously helping companies figure out their own paths, whether that is M and A. There was a period earlier this year where I had couple different friends who were going through M and A processes, and I was talking to them multiple times a week, helping them just think through the options, how to set up right for every meeting, how to do this. And then lastly is how to tell your story. And one thing I've gotten this this incredible masterclass, getting to work at Apple Yeah.
+
+Is been right in the heart of how do we tell a compelling story to regular people? How do we take this world of AI and intelligence and distill it into products that we think people would wanna use and bring into their lives every day? And I'm super proud of what the team put together as this most recent WWDC and how we've told the story of Apple Intelligence and Siri AI, and I can't wait to bring more of those lessons to companies as well. Incredible. How can people get ahold of you?
+
+They'll be able to email me at jlman@a16z.com. Find me through all the social medias. Find me through a friend. I'm really excited to help. I love it.
+
+Josh, welcome to the team. Thank you. Excited to be here. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family.
+
+For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast.
+
+For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

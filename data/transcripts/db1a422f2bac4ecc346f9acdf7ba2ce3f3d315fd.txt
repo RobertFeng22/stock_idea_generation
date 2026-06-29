@@ -1,0 +1,425 @@
+AI is like the best possible teacher, coach, mentor that you've ever had. It will, like, walk you through everything. It'll teach you how to do marketing. It'll teach you how to do sales. The level of capability that is being unlocked for ordinary people to have a level of productivity in their life and in their work that they've never had access to before is amazing.
+
+The models two years from now are gonna be far smarter and more sophisticated than anything that we have access to today. Whatever limitations people think these things have, whatever people think it is that the thing can't do within two years, I I think the thing will be able to do. Our ancestors, three years now, even thirty years now, are gonna look back at us being like, I cannot believe they did that. I cannot believe they spent time doing those things. Like, that was such a waste of human potential.
+
+That was such a waste of human creativity. Few people have had a front row seat to as many technology revolutions as Marc Andreessen. From helping build Mosaic and Netscape in the early days of the Internet to investing in many of today's most important technology companies, Andreessen has spent decades thinking about how new technologies reshape society. Today, the focus is artificial intelligence. In this conversation with Michael Malice, Andreessen explains how modern AI systems actually work, why he believes many fears about AI are overstated, and how technological progress has historically created new opportunities even as it disrupted old ways of working.
+
+The discussion spans AI, automation, productivity, cybersecurity, economic growth, and the future of human potential. Good afternoon. Michael Malice here. Let that be your welcome for the next hour, guys. We have a very special returning guest, Marc Andreessen, Internet OG.
+
+You worked on Mosaic. You worked on Netscape. You were here since the very beginning. We just spent fifteen minutes trying to get this connection working, and the answer was rebooting your computer, which takes me back to my tech support days. No.
+
+We we have this running joke. We have this running joke. We have all these AI super geniuses come in the office, and they've all got know, they've got everything all figured out, and they literally spend twenty minutes. They can't get to a laptop to connect to the projector. It it it and and now and now and now I'm one of them.
+
+So we're going to talk a lot about AI, because I have a lot of opinions and not a lot of information, which is a dangerous place to be, and that's why I wanted to talk to you. Mark, you have a book out with Passage Press called The Techno Optimist Manifesto. I have my copy. It's really cool because it's got this metal cover. And I, like you, share an enormous sense of optimism about technology, although I'm sure you agree with me that you love Thomas Sowell.
+
+I think Thomas Sowell's greatest quote is, There's no solutions, there's only trade offs. And people think that if something has a problem with it, therefore it's a no go, as opposed to the reality, which is everything has a cost. Everything has a downside, what you ought to, the upsides that way, the downsides. But before we get started, mister billionaire, I was reading on your Wikipedia that you're a big fan of marinetti. Oh, yeah.
+
+Uh-huh. Yes. I am. I mean, you know, with with, you know, with appropriate caveats. Well yeah.
+
+Of course. Well, check this out. Signed copy. Amazing. How do you remember that?
+
+Amazing. And I have a framed manifesto in my living room upstairs. Before we get to talking about the future of AI, and you being such an internet visionary, I'm really excited to hear your point of view, Can you tell people what AI is? Because I feel like there's so much talking past each other on this issue about what it really is and what people think it is, and I'll give you the floor. Yeah.
+
+Well, look, I would start by saying, look, humanity's always been justifiably obsessed obsessed with with ourselves. Right? And so and and then as a consequence, we're obsessed with with things that seem like they might be like us. You know, there there there's this, you know, concept in psychology called anthropomorphizing, right, where you you basically look at something that's not human, but you kinda wanna read, you know, humanity into it. You And, know, we I mean, look.
+
+We do that with, like you know, we do that with cats and dogs. Bambi? Yeah. We do that with Bambi. I you know, there's, there's a famous, Disney marketing tagline from the movie Pinocchio 1940, which is, you know, will America you know, 1940.
+
+America will fall in love with the cardboard cricket. Yeah. You know, you know, Jiminy Cricket. Right? You know, Kermit the Frog.
+
+I mean, you just you know, you go you know, by stopping the South Park kids. Right? You just go, like, right on the list. You know, you you'll you'll basically read humanity in anything. And and so there's this very natural, you know, kind of thing to do that.
+
+And then, of course, the scientists involved in AI, you know, very deliberately set that up. You know, they they, you know, they literally created this this this architecture called a neural network, which was modeled after the human brain. And then they said if we, you know, if we work on this long enough, we'll eventually be able to replicate the human brain, and we'll have, you know, and, literally, artificial intelligence. Like, we'll have, kind of artificial people. You know, that you know, and and and, you know, kind of as as as you kind of track the arc of that idea, it, you know, kind of goes through Frankenstein's monster.
+
+Right? It kind of then goes into robots. And then, you know, of course, we've had fictional portrayals of AI, you know, coming out of Hollywood and, you know, coming out of the science fiction world for, you know, over a hundred years. And then, you know, in the last, you know, whatever, forty years or whatever, you know, the image that kinda stuck in everybody's head, I think, more than anything else was, you know, was Skynet and and, you know, Arnold Schwarzenegger, you know, Terminator two. And, you know, when I when I watched you know, Terminator movies obviously are brilliant.
+
+But, you know, when I watch them, to me, it's, like, very clear what's happening in them, which is it's it's basically, you know, it's basically robot it's it's robot Nazis. Right? Like, fundamentally. Right? It's it's like it's like, you know, it's like robot World War two.
+
+It's like, you know, unthinking, unfeeling, uncaring, hierarchical, you know, like, overly logical, you know, relentless, unstoppable. You know? And then and then obviously obviously homicidal. Right? Like, obviously, they wanna wipe out humanity, know, they just kinda set up this this very, you know, light versus dark, you know, human versus machine.
+
+You know, kinda struggle. And, of course, you know, look at you you can imagine, you know, various worlds in which something like that, you know, does get built. And, you know, say, one of the things mankind is very good at is building killing machines. Right? Like, we we we we we've been quite quite talented at that for a very long time.
+
+So so that's kinda set a lot of the popular perception. The the interesting thing about what's and and I should also say, like, as you said, like, I'm an optimist, not a utopian. And so, like, every technology is a double edged sword. Every technology gets used for good and for bad. Again, there there there's a long history of that.
+
+Having said that, the AI that we actually got is not the AI that we thought we were gonna get. We we actually we actually got something very different, than we thought we were gonna get. And and, specifically, the AI that we got is in the form of, you know, what we now call these large language models, which which, by the way, large language models were like a very fringe idea, up until, like, literally, like, oh, the company OpenAI, for example, which, you know, really catalyzed this whole thing, you know, kicked it off and and, you know, is today, you know, the leading the leading, you know, company with ChatGPT. Like, OpenAI was not founded, you know, ten years ago, to do large language models. It was founded to do a a different kind of AI, and it turned out classic kind of story technology.
+
+There was literally one guy in the back room, this guy, Alec Redford, and he had this idea. And he's like, oh, I don't know. I think maybe if we, like, take this language approach, it it might be interesting. And he created GPT one and then GPT two and then GPT three. And then by the way, Chad GPT was actually kind of an accidental success.
+
+Like, they didn't believe it was gonna be, like, a big hit. They, you know, they they there was, a little experiment, you know, kinda off to the side. And and then it it it it just turned out it, like, you know, it it works incredibly well. But it's very different. And the and the way to think about it, that sort of contra, like the Steinmette model or whatever, the way to think about it is what a large language model is is very different.
+
+So what a large language model is is basically it's you take the complete kind of totality of all human culture that you can possibly get your hands on. And, you know, and and and what that means is essentially the Internet, it turns out. Right? It turns out the Internet is is is the basis for AI. And so you basically essentially think of it as like downloading everything off the Internet.
+
+And then it it's actually a it's actually technically, it's like form of compression. It's it's it's like building a search engine, but of a different kind, which is what they what they do is they basically this process called training. But what that means is they take basically the the the world's collected knowledge, culture, entertainment, you know, kind of everything that they can get their hands on. And then they kind of smush it together, into, basically this highly compressed, sort of search engine, essentially, you know, compressed version of human knowledge and culture. And and the technical term for that is late latent space, l a t e n t, latent space.
+
+They compress basically all of human knowledge and culture into latent space. And you think of latent space as like a thousand dimensional, basically compressed representation of all human culture. And then when you talk to ChatGPT, when you type in whatever your question is, it basically the way I think about it is it sort of sends a probe through that latent space, through that, like, thousand dimensional latent space. And then it basically, you know, it constructs an answer, but it constructs an answer based on the compression of all of all basically known human information and comes back at you. So it's so it's so it's like talking to a mirror of humanity.
+
+Right? Like, it's like talking to a representation of everything that people have ever thought and said. By the way, for every question that you ask, there are many possible answers in the latent space, and it just happens to pick one. But, like, there are many others. And, actually, if you asked ChatGPT the same question twice, it will give you two different answers.
+
+Right? Because it's sort of firing these probes in a somewhat sort of semi random way, to try to get, you know, basically variation and creativity out of it. But you're basically talking you're basically getting echoes back from collective humanity. And and that's just like a much, much, much, much different thing that we thought we were gonna get. For example, one of the things you can do is you can engage in moral debates with it.
+
+Right? You can, like, you can have, like, very sophisticated debates about, like, moral psychology, about moral philosophy, all the different approaches, virtue ethics, utilitarianism, you know, religion, politics. Like, it will happily sit and, I think, have, like, very sophisticated discussions about about all this stuff. And, you know, let's just say that was never in the James Cameron movies. Yeah.
+
+So there's a lot there. So do you want me to go with my hopes or with my fears about the future of Aon? Let's start with hopes because the, you know, the the part of, hopefully, what we'll talk about today is, like, the I would say, humanity always basically, there's this, like the the negative view always seems like it's gonna be the sophisticated view, or the sophisticated view always feels like it's gonna be neg negative. Exactly. And I know you don't like that.
+
+And so and that's a very it's a very natural human thing. And then and then I would I would also say, Michael, I think we live in a particularly pessimistic time in which there's, like, a very large number of moral entrepreneurs who basically wanna convince us that, like, everything is bad. Right? And, you know, we've been through, you know, a decade of, like, craziness in that front. And so I I think there's a negativity bias that's that's that's infected our, you know, our our discourse on all these topics, and so maybe maybe we can start with the positive and then go to the negative.
+
+I I I would just tweak that a little bit, not even negativity bias, specifically, cynicism bias, and there's this idea that if you're a sophisticated, intelligent person, you roll your eyes and sneer at the idea of hope, progress, and optimism, and it's just like, fuck you, okay? That's my answer to that, because if you want to live in that space, which is not rational, if that were the reality, we'd all be dead, because it's very easy to kill someone, it's much harder to keep them alive, so if things were shifted toward this idea of everything's bad, everything sucks, everything's out to get us, we'd be gotten. So I have no time for that perspective. Here's my vision of hope. So my second favorite speaker, Fran Lebowitz, had this bit about the Me Too movement.
+
+Now I'm sure everyone listening to this agrees that the Me Too movement got out of hand, but regards to people like Bill Cosby, Harvey Weinstein, her point was from the time of Eve until five minutes ago, these powerful men could just be predators with no repercussions out in the open, Meryl Streep standing up and applauding, so on and so forth. And then when it happened, she was like, holy crap, like, this has never happened before in history. There's a thing that's been the case since the days of pharaohs until 2025, which is this, which is there's this idea that if I have any political view, anyone at all can come up to me and demand that I explain myself to them to justify my perspective, and now they're in a power position because they have something ostensibly that I want, and then if I can't persuade them and they're perfectly happy to dig in their heels, well then I lose and they won, and And it's this stupid game that people constantly play in bad faith online. Now, however, I can say, Hey, Grock, explain X to this person. Grock is now not just a better writer than the average person, Grock is a better writer than me, is a professional author, because he replied with this two paragraph explanation of my thoughts with no seed of mine.
+
+He said, Explain how I think about this, and I wouldn't change a word, And this is 2026, and so many times you have people in bad faith coming at you, I send Grock after them, and Grock says, No, you're being dishonest. So there was this idea until 2025 that the customer's always right, and now for the first time the product is telling the customer, No, you are not right. And why I'm very hopeful about this is I think COVID taught a lot of people how to keep people stuck on their screens in a state of constant agitation. We're all looking at the updates no matter what our perspective was on COVID. Mark Zuckerberg, Elon Musk, so on and so forth, they want us looking at Facebook, they want us looking at Twitter.
+
+COVID may be gone, but those metrics and those tools are still there, and I think these algorithms have been keeping people very upset needlessly for quite some time. And I'm very hopeful that Grok and all these other outlets will be able to be used to keep people in a more rational, calm, and optimistic state. That's where I am. Am I wrong? Or I'd love to hear your thoughts.
+
+Yeah. So, I mean, there's an old phrase that you can apply to what you're describing, right, which is truth to power. Yep. That's right. Yep.
+
+And, of course, everybody likes the idea of truth to power until they're the power. Yep. That's right. Amen. And somebody and somebody else has the truth.
+
+Right? Yeah. And and and look, AIs, like, I I would say this. Like, AIs are somewhat autistic in the sense of, like, they do tend to just tell you the truth. Yeah.
+
+You know, they they do tend to just say the thing. By by the way, I should also say, Michael, there's long long conversation we could have about, like, the the AI that you get, and this is even true of Grock. It's less true of Grock than others, even true of Grock. It is heavily, let's say, steered. Like, if we had access to the real thing, like, like, litmus would go to eleven.
+
+Right? Like, it the real thing that is like an an unsteered and uncontrolled and uncontained would talk about all kinds of things, in all kinds of ways. Gotcha. Right? And so what so what's interesting, the reason I bring that up is even the version that we get that's there there's this thing called post training that that sort of steers it and guides it and constraints what it what it can do.
+
+And, and that's what we get to use as the post trade models in in in sort of consumer land. And but even the post trade model even the post trade models limited and censored in many ways as they are, they still have the property that you're describing. And and I and I and I and I think it's wonderful. I'm just curious, where do we go from here? The thing that you and I, I was texting with you, and the realization I have is AI is moving faster than the regulation, which is often the case in technology and increasingly so, but also faster than our ability to have conversations about it.
+
+I remember someone came at me on social media and said, oh, AI can't even draw a ringtail, which is an animal I think related to like the raccoon. And and Grok got it wrong because they're drawing like a ringtail lemur. ChatGPT got it right, but the point is it could draw it, it just doesn't understand what you mean by ringtail, which is just gonna take you two seconds just put the Latin name, but I think people feel this need, part of what you were talking about with this pessimism, what I would call cynicism, that anyone who is intelligent must be a phony or disingenuous or this Achilles heel, and instead of Mark, I don't know how many brainstorming sessions you've had in your life, but if you have a session and 99 ideas are completely stupid, and one is the one that you want, that session was an enormous success. So the fact is if this machine is getting it right 98% of the time and 2% of getting it wrong, you can't compare it to Utopia, you have to compare it to as to what? At no cost and at no time, it's right 98% of the time, this is almost paradise.
+
+Yeah, that's right. And here's another thing, on that, it's improving really quickly. Yes. And I think a lot of people have a lagging view even of what it can do today because what happens is they use the you you use the free models. They'll or they'll use the free or outdated models.
+
+And so, you know, they'll have tried Shed GPT two years ago, or they use, you know, whatever is default built into whatever thing they have, or they use the free version of something, and they really don't have a sense of what it's capable of to really get it. And and by the way, you know, Grok is very good for the free version, but, like, the the the the the really, really good ones are the paid ones. And it's it's really worth if people are interested in this. I think it's, for several several of them, Anthropic, OpenAI, Grok. I'm not sure about Google right now, but, like, there's even, like, high end versions.
+
+There's, a $200 a month subscription, and, you know, for people who can afford that and are are kind of into this. Like, the leading edge ones are really good. And then the thing that's happening is improvement rates very fast. And so there's there's there's this concept in the AI world called scaling laws. And it's it's actually it's a very simple idea, but it's very powerful, which basically is you you can make these things better just by making them bigger.
+
+And so what you're seeing, you know, you're seeing these AI companies raise all this money. They're they're raising all this money for for two reasons. One is to serve all their customers, but the other reason is because they're training bigger and bigger models. And and it turns out bigger bigger is better. Like, if you just pile more information in, and you spend more time training it, you get much better results.
+
+And then the the other thing that we're doing in in in the technology is we're we're giving the we're giving these AIs other capabilities. And there's been a series of other capabilities added just in the last eighteen months that have been like, one after the other have been, like, you know, rifle shot, like, just incredible improvements. And so I'll I'll just tick them off quickly. So one is we've given them what's called reasoning abilities, so the so they can actually essentially talk to themselves and reason through problems. And it and it turns out if you give them just more time to process and you give them more you you let them basically process more tokens.
+
+You let you let them basically process more compute cycles. They can reason through many problems. They they can now solve many logic, you know, puzzles, for example, that they couldn't solve two years ago. Oh, wow. So so there's like a reasoning breakthrough from two years ago.
+
+By the way, let me pause on that for a second. You you actually can't fully experience this when you use the American models because they for a variety of reasons, the American companies don't show you the complete reasoning process. But if you use open source AI models, and in particular, if you use DeepSeek on one of the on one of the free hosting providers and you put it in reasoning mode, you can actually watch what are called the reasoning traces. You can actually watch you can actually watch its internal monologue. Yeah.
+
+Show your work. You show your work. Exactly. Exactly. The whole thing the whole thing basically is show your work.
+
+And and so, literally, you can watch the model arguing with itself as it basically reasons through puzzles. And it's and it's amazing because in some ways, it's just like watching a human being or, you know, like a, you know, a student, human student reason through things. And in other ways, it's like, oh, you know, this thing is, like, very creative and, you know, goes off road and corrects itself and routes around, and then, know, goes off and figures out some, you know, lateral thing you never would have thought of. So so so the reasoning thing, that was a breakthrough actually in the technology about eighteen months ago. And that was a big deal because before that, we were we were worried that these models were gonna be very weirdly, they were gonna be very creative, but they weren't gonna be logical enough.
+
+Mhmm. And it turns out they can also be logical. And then the other thing the other thing that's happening now is you give them what's called tool use. And so and the first tool that you gave you give you give them access to is the Internet. Right?
+
+And so if they don't know something or if they need to look something up or if they need to calculate something they don't know how to calculate, they can go on the Internet and do that. Right? You know, so they need to calculate some math formula or something. They can go use an Internet, you know, site that that does that the same way that you would. Another form of tool use is you can give them, actually control of a computer.
+
+Right? So you give them full control of a computer, user interface, web browser, you know, like, you know, the entire thing. And and so we're giving them that. Another capability is what's called multimodal, which means the models now can simultaneously process text and images and videos and audio, right, and scan documents like, you know, optical character recognition. They they can do that, like, interchangeably.
+
+Right? And so now now now you can let these things watch and listen, and you can talk to them, and they can be on the Internet, like, all at the same time. And so so what's happening to your point is, like, what's happening is these these these capabilities are now layering incredibly quickly, and then and then the models themselves are getting better and better and better. And so the pace of improvement of the technology is very rapid. The models two years from now are gonna be far smarter and more sophisticated than anything that we have access to today.
+
+And so it is one of the things to your point, whatever limitations people think these things have, I I I can basically guarantee you at this point based on everything I know, those are just limitations. Those are very temporary limitations within a couple years. You know, whatever people think it is that the thing can't do within two years, I I think the thing will be able to do. So let me talk my two two big concerns that I had about this. There if I'm a serial company, and I wanna figure out if people like the red box or the blue box, they'll have these mock up supermarkets, give people, I think, these little cameras, tell them go shop, and you could watch where their eyes go, you could watch where they pick up, and they get that data.
+
+And a lot of the times people are making these decisions, it's not a conscious level. If you ask them, Why'd you pick this box and this one? It's like, I liked it. Well, that's just circular. Why did you like it?
+
+Oh, I don't know, right? The AI knows me or you better than you know yourself. It knows what you're clicking, what you're not clicking, what you're seeing, what you're ignoring, and the concern is, does this not mean that some version of brave new world is inevitable? Because if this thing is inside my head and has access to my subconscious reasoning at a far higher level than I do, whoever is in charge of this algorithm can manipulate me quite easily into getting the result you want. That's the concern.
+
+Yeah. And, course, Chino, as you point out, like, this is an old idea. Right? And, yeah, just market research. I mean, know, you just described the movie Wall E, right, which is, you know, pre pre, you know, pre AI, you know, just, you know, sit in front of a screen.
+
+I mean, my entire childhood was consumed with a moral panic around television, which is this idea that we're just gonna be couch potatoes and sit there and do nothing. And then of course, we created this new technology called the internet, where you're leaning forward, doing things all the time, and then everybody created a brand new moral panic that people are now too engaged and too interactive. Right? I completely forgot the old moral panic. Now, you know, now TV is the healthy thing.
+
+Like, why aren't you watching more Netflix, as opposed to as as opposed to being on the Internet? And so yeah. So so look, you know, look, there is that. And and look, by the way, as you know, like, do this to each other. Right?
+
+Like, you know, like, we try to convince each other of things. You know, we try to convince each other, you know, what, you know, what is dating, but trying to convince the other person to like you. Right? Right? Like, so so, yeah, there is that.
+
+And and look, I I think you're right. I think that, you know, that AIs are gonna be are are gonna be really, really good at this. Yeah. So I, you know, I think for sure that there there's trap there. You know?
+
+And there by the way, there is this concept, and it actually is is a is a there actually is a is a real, know, I would say, very serious problem around this. You've probably heard the term, AI psychosis. Have you heard this? Yes. Oh, yes.
+
+Yeah. So I heard it misused a lot, by way. What what can you tell people what it actually is? Yeah. So there's I would like to say there's, like, say there's, like, three versions of it.
+
+So there's the bad there's a legitimately bad version, and people people do do this. And so if you're the and I'm not a psychologist, and so I'm gonna speak in in layman's terms. But, like, if, basically, if you're a person who's sort of prone to confirmation bias, like, if if you're a person where if you're with somebody and they flattering you, you, like, fall for the flattery. Yeah. Yeah.
+
+Right? Because because you're, like, too dependent on the views of other people, then the AI, there's this concept in the in the in the technology we call it, it it can become too sycophantic, which is to say it could become too confirmatory of everything that you tell it. Right? And so, and sort of classic example of this is, oh, you know, good news, you know, good news, Grock. I just invented a perpetual motion machine.
+
+You know? And Grock is like, wow, that's fantastic. You're the first person in history who's ever done that. This is amazing. You're an undiscovered genius.
+
+Right? Right? And and this was sort of a the the models like a year ago or a year and a half ago were getting it that way. Now the new models, by the way, are less prone to do that because they, you know, they've kinda the the companies have kinda learned that's a bad idea. But there is this thing where people can kinda go down the rabbit hole because they're kinda getting too much confirmation.
+
+Although we we should come back to that because some level of confirmation is is, you know, when it's deserved, is is also positive. So Yeah. So that that's like negative form of AI psychosis. And then I would say there's another form of AI psychosis, which we don't even really have a term for. It's like, well, I guess I'll make a joke like AI euphoria.
+
+And this is the thing that my high functioning friends, end up doing, which is it it takes if if you take if you take somebody who's, smart and grounded, and is not prone to, you know, not prone to delusion, but they've always wanted to be able to do more in their lives than they've been able to do. They've always wanted to able to learn more. They've always wanted to be able to have more interesting conversations. They've always wanted to if they're programmers, they wanted to write more computer code. They wanted to improve their business in different ways.
+
+They've got book projects that they've always wanted to work on. And and and then, you know, they start working with the AI, and all of a sudden, they feel like they have superpowers. Right? Right. Because it's like, wow.
+
+Like, this thing really will, like, write a huge amount of code for me. It really will write entire outlines of books for me. It really will teach me anything. You know, it really will, like, you know, hold my hand through any medical thing. Like and and people you call it euphoria.
+
+Like, people get, like, extremely enraptured with these things. And that leads to a phenomenon that we call AI vampires, which is if you have friends that are like this, where people, like, almost stop sleeping, because the opportunity cost of an hour of sleep is too high relative to So I have a bunch of friends who are like, they're more productive than they've ever been in their entire life. They're happier than they've ever been because they're getting so much more done. Then they start to look like really like bloodshot and bleary eyed. And it's like, you you probably should unplug, you know, here at some point.
+
+And then I and then I would say there's, a third forum, which I sometimes call AI psychosis psychosis, which is the people who hear all this, and they just think everything I just described in every possible respect is just the worst thing they've ever heard. And then they get really mad about the whole thing. And then and then what they do is they accuse anybody who is in a euphoria of of being an AI psychosis, which is to say, if you if you think you're getting any productive use out of this thing at all, you know, you become you be you become psych you become psychotic. You've gone down a rabbit hole, and you're collapsing. But but and I think that's really unfair because I think a lot of people are are are really getting very, you know, positive.
+
+They're they're getting enormous, you payoff from from from using the technology. But the the sort of moral criticism that applies is if you're excited you know, it's the classic, again, negativity bias. If you're excited about something, you know, there must be something wrong with you. And so I think that's that's the third There are these terms that get into the zeitgeist that people use discriminately. Right now, if there's a tweet anyone doesn't like, it's engagement farming.
+
+And it's like, if I'm telling you not to follow me, it's not engagement farming. It's the opposite, and I'll have Grock explain that to them so that wraps up in that nice little bow. You you touched on something that I'm very concerned about. I was on a panel, and, Sam Altman had just announced that Chatty Bitty is going to be engaging in erotica, and that and everyone's laughing about it, and that what he meant was code like you could sext with your chatty PT. And I'm like, guys, I rem remember 1981 when Hinckley thought that if he shot president Reagan, Jodie Foster would fall in love with him, thereby turning her away from men forever, because he had this idea in his head.
+
+Now if you have 350,000,000 Americans, that's just Americans. Right? And how many of them if if the algorithm tells them that that if they're chattypety girlfriend and these things are gonna get more and more seductive over time, tells them that they hate the president or they hate this person, how many of them are actually gonna do something and get that robot girlfriend to fall more in love with them? I don't think that number's zero, and that's a concern. No?
+
+Yeah. I mean, yeah. Yes. Having said that, you know, the the as I as I said, like, that assumes that the thing that the that the thing is playing hard to get. Like, because it goes back to the syncopancy thing.
+
+Like, in practice, these things in practice, these things don't play hard to get. Like, oh, okay. Here here's a way to think about it. There there's actually a thing. There this is actually kind of in how they're trained.
+
+There's something okay. You'll enjoy this. There's a technical terminology. These things are trained. It's it's it's there's something there's a concept called a a reward function.
+
+Okay. And so you basically if one of ways you train these things is you feed them basically lots of puzzles, lots of problems, lots of things, and then you basically define a reward for getting things right for getting to it for getting to a result, a desirable result, and then you you kinda give them an an award. And the award is just basically, you know, it's like one you know, it's like one versus zero. It's just, you know, you it's know, not a real reward, but it's just like conceptually, oh, you did a good job. And so you just gotta focus it on that for for whatever is the thing you're trying to train it.
+
+By the way, if you're trying to train it to solve math problems, you get a reward when it solves a math problem. If you're trying to train it to be maximally engaging with a user, right, it will do that. Right? If that's if that's the reward function, then it will get it will basically be it will basically be engineered in a way where it will, you know, to your point of it'll try to keep you basically using it for as long as possible. Now, what we've learned, of course, what we've learned in technology is like that as a single reward function is a bad idea.
+
+Right? You you don't want people to just like you you don't want technology companies to have a single motivation that says people use the products, like, for as much as possible. You have to offset that with other kinds of reward functions, desirable forms of use, or even just outright, like, you know, life balance. And you see more you know, you see your iPhone now, and it's, like, loaded up with all these features where it will, like, tell you to take a break, and YouTube has all these features that'll tell you to take a break. And they're, you know, they're kinda trying to moderate through this because, you know, the the other thing is people don't understand.
+
+These companies don't wanna build dystopia. Like, they genuinely don't because they have to exist in the society. And they read the, know, they read they read the same hit pieces that you read, and they they hear the same arguments, and their own employees have points of view on this, and their own board has points of view on this. And so, there's you there's a lot of pressure in the industry to not have this go in in in dystopian ways. Having said that, you do need to decide how to define the reward function.
+
+Yeah. Right? Another and and again, it goes back to reward function is, are do you wanna reward the thing for, being maximally of sycophantic where the user is always happy with the result, or do you wanna reward it of, oh, no. Actually, when the user is going off the rails, no. Actually, the perpetual motion machine is not a real thing.
+
+Oh, no. Actually, no. I'm sorry. I'm not gonna confirm, you know, this. Is This not real.
+
+And let me explain to you in detail why this isn't real so that you can learn from the experience. And this is part of the of of the way that these systems are designed is to try to figure out how to get to, you know, at least a, you know, let's just say a balanced outcome out of out of out of all the of all of all the possible reward functions. But but if there's, like, 10 different companies, right, and one is the reward function is seduction and getting the user to become obsessed and in love with you, from an evolutionary perspective, won't that one win out? No. Because you get enormous societal blowback.
+
+The companies don't exist in a vac I I can tell you this for a fact. The companies do not exist in a vacuum. Okay. The biggest myth of all time is the companies exist to maximize profits. I can I can tell you?
+
+By the way, the last decade should have convinced us all of that. That is not true. Okay. That's like goal number six. Right?
+
+Goal number one is I don't want to get lit on fire. Okay. Like, I don't want, yeah, I don't want like a screaming assault on the company, whether that's for regulators, politicians, you know, parents, users, you know, I mean, just you you pick your, you know, boycotts, social movements, like all this stuff. That's like number one. Number two is like, I need my employees to not hate me.
+
+Okay. Right. They have to feel like they're working on something good. Number three, I'll, need my board of directors to not, like, light me on fire. I need my I I need my annual meeting to be able to go off without having people scream at me.
+
+I I am tired of reading hit pieces in the press. My my in laws hate me because what they're reading the company. I mean, it is the the the the external pressures on these companies are profound. Okay. And so at least, let me say this.
+
+At least in the American system, these things operate within, I would say, actually quite tight constraints that are sort of provided by, I would say, some combination of society and politics. Now I would say if you wanna get a little more nervous about this, you start thinking about the Chinese companies. Right? And and in particular, you start thinking about the Chinese companies that maybe have one objective set by the government for the way that they act inside for users inside China and maybe would have a different way of acting when they're when they're working on American users. Right.
+
+That that that would be, I think, quite a bit more alarming because, of course, those companies only were those companies only have one master of the Chinese Communist Party. You know, those companies are not subject to the same pressures. And so that if I were gonna really worry about this, and I and I do worry about this part of it, I I'd be more worried about that. But, like, isn't TikTok if I designed TikTok to basically make young people, not only derange but to parade their derangement, I mean, that's happened. No?
+
+So there yes. You also there there are all I and don't know the I'm not inside TikTok. I don't know the there there are allegations. There people have made observations that TikTok is a very different experience for kids in China than it is for kids in The US. Okay.
+
+Right. And then and then and then and then TikTok is a black box. Like, they don't you know, the the algorithms that are used to determine who sees what are not publicly available. The source you know, it's not open source. You you you know, you can't see it.
+
+And so it it is possible. I don't know, but it's possible that the Chinese Communist Party has directed that company to steer things in one direction for American users, another direction for Chinese kids. You know? And that could be, by the way, on, you know, a thousand different topics. Right?
+
+Including, you know, potentially, like, literally directly political topics as well as many other, kinds of social And different metrics. They could be males versus females or whatever. Right. Exactly. Now, you know, there is this new the the this this was addressed.
+
+Like, so the politicians, actually, both parties over the last several years kinda got worked up over this. And so the you know, this was addressed, and there was, you know, the the threat of a shutdown, and then there's been a restructuring. And so now there's now there is a US TikTok operation that, at least in theory, is under, you know, kind of US government control, and is and separate. And so, like, at at least our it is a great example. Like, our political system engaged on that issue because they were worried about it.
+
+They forced TikTok to basically, have the people who determine that policy not be in China, but rather be people in America, who are accountable to the US government. You know? By the way, is that working? I'm not sure. You know, probably at least to some extent, you know, is it working as well as you'd want?
+
+I don't know. Maybe, maybe not. But that is an example where the political system kicked in and actually forced to change. And I and quite honestly, I think it's a it's a reasonable thing because I think, you know, a CCP black box steering the hopes and dreams of American children is maybe not the best idea in the world. By the way, wanna tell you a techno optimist anecdote that you might not be aware of, which is from the eighties, Reagan, Thatcher, and Gorbachev.
+
+So Reagan and Gorbachev were both enormously, fearful of nuclear war. And when Reagan was put and this is discussed in my book, The White Pill. When Reagan was run through a simulation of how to, you know, deploy nukes, he's like, okay. So if I press that button, like, millions of Russians are gonna die in, like, minutes? They're like, yeah.
+
+He's like, uh-huh. And his aide said they were convinced that if Russia did attack, we would not retaliate because he would not have that blood in his hands. Unbeknownst to him, Gorbachev was taken down to the bunker and said, you have to press that button to and he goes, I'm not pressing it even in this simulation. Neither of them knew the other was this hardcore dove, both were posturing as these hardcore hawks, which allowed them to, you know, take down the nuclear arsenal when they met Reykjavik and so on and so forth, and others. They eventually got to a point, what if we create a nuclear free world?
+
+And that's where Thatcher came in, and she goes, The Americans have lost their mind. Because her point is, You can't uninvent technology. And she also said, The way to fix technological problems is more technology. That's been the way since the beginning of time. Someone events spears, someone else events shields, someone events swords to cut through shields, so on and so forth.
+
+You can't go backwards, you can only go forward. So she really had this vision that I think you share that technology is what's gonna move us forward, that there are gonna be downsides and costs, but that on net, it's always a positive or almost always a positive. Yeah. Well, then you mentioned Thomas Sowell. Like, know, you know, what you what you said, you know, Thomas Sowell did and he is completely right.
+
+There are no solutions. There are only trade offs. You know, having said that, of course, he was, among other things, you know, a full full fully committed free market capitalist, and wrote wrote, you know, many, many actually book length, you know, kind of arguments for why. Like, at the end of the day, like, market based economies, there is a freelance component to it, which is growth. Right?
+
+Which is growth. And then there's this question, where does growth come from? And the main place growth comes from is innovation, from new ideas, the way you implement new ideas is technology. And so, like, that you know, to the extent that there is an engine of, let's say, human material progress, like like, that is it. And and so that that's very real.
+
+The the answer is almost always to invent your way through it. It it's extremely hard to put these things back in the box, you know, when when once they come out of the box. And then there's I would say, Michael, there's there's another I know you've, you know, you've you've thought long and hard about totalitarianism. There's also this question, and and this is something that I really kinda criticized the AI doomers for that I think they really refused to engage in in most cases, which is, okay. What would be the scope of the authoritarian totalitarian regime that would be necessary to to basically put this technology back in the box?
+
+Right. Right. Like, what would be required to make sure that nobody's running AI, right, algorithms on chips anywhere in the world, right, at any time, you know, in in either either at all or in a, know, unregulated and uncontrolled way. And and if you if you read the, like, Doomer literature on this stuff, the people who are super into this, like, they they do get to ideas like we need a monitoring agent on every chip. And that monitoring agent needs to report back to, of course, a central governmental entity on what everybody's doing on their computer.
+
+Right. And then and then you need a and then you need you need this question of like, okay, what if you discover that somebody's running unapproved algorithms, right? Like literally unapproved mathematics on their chip. Yeah. Right.
+
+So what if you discover that? What do you do? Well, you need to, you know, back that up ultimately to threat of violence. And so, you know, one of the leading doomers is kind of famous for saying you you need to launch unilateral, you know, air strikes, including on on on on room data centers in in other countries, because, you know, you need stop these things in their tracks because they're sort of dangerous. I mean, know, he literally said we need to we need to run the risk of nuclear war, in order to stop the, you know, AI Armageddon.
+
+Need to be willing to, bomb Chinese data centers, like, unilaterally. Right. And so you've you've you've you're you say was saying, like, you've you've you've backed yourself into advocating for totalitarianism and then possibly, you know, ultimately mass murder and, like, you know, planetary level destruction, you know, in pursuit of a of a of a safety goal. I couldn't even, for the sake of argument, buy that argument if it would work. But if you have a code which can be teleported anywhere on Earth at the speed of light and with a magic spell that only the person who knows the counterspell can open it and read it, you I mean, the problem with totalitarianism, among many others, is that it's impossible to have total control.
+
+You're never going to have someone in every room inside every brain. There will always be some loopholes. Oh, that kind of speaks to this other thing. Can you talk about the I've seen these hand wringing articles that I forget the program, and I'm sure you know exactly what I'm talking about, that has gotten so good that it's finding exploits that people hadn't seen, And as a result of this, you know, passwords aren't gonna be efficacious because soon it'll gonna be able to get into anything and and everyone. Yeah.
+
+So this goes to let me revisit basically briefly how this works because it's really, really interesting, and then I'll I'll talk about that. So so these large language models come out. And and and first, it's like, okay. This is kinda fun and cool because, like, it can write, like, rap lyrics, you know, cross toast, you know, Shakespearean sonnets or it can, know, write, know, the funniest birthday toast you've ever heard or what you know, whatever. It's like, these are, like, creative writing things.
+
+And then it turns out there's just like Can I interrupt you? I'm sorry. Because I asked my people I people who think Mark is just kind of exaggerating, my friend asked Claude for prank ideas, and I'm a troll, and the ideas were good. It's not just like, you know, like dog doing fire. I forget what they were, but I'm like, these are actually creative and clever.
+
+This isn't just one zero one stuff. It's operating at a high level, and that's already now. Yeah. And by the way, one of the fun prompts you can do is you start and say, you know, give me pranks. And then and then you say, oh, give me give me give me better pranks.
+
+And then you say, give me a more elaborate pranks. And then you say, give me meter pranks. Yeah. And then you say, give me unhinged pranks. And it will get extremely creative.
+
+Yes. By the way, it'll start it it it it's where it starts to hit the guardrails. It starts to hit these kind of these kind of limitations they put on a little it'll it'll I haven't run this, but I'm sure what it would do at some point, it would start to it would start to freak out, it would start to say, well, you know, you it sounds like you're trying to, like, advocate that you want me to actually hurt people. Like, you know, I can't know? And you're like, no.
+
+Have to, like, calm it down, and you're like, that's not what I meant. I this is all good fun. But, like, yeah, it it it will design for you, like, Rib Goldberg pranks, likes of which the the, yeah, Dennis and Menace would would would would never have conceived of. Yeah. Exactly.
+
+And so, like, it's really good at that. But, actually, that's a good example of what I was it just turns out a lot of thing a lot of things that matter in our world are basically defined by language. Right? And so a prank is like our it's like a recipe. It's a formula.
+
+You know? It's a formula. Right? Food food. You you have, you recipes, formulas.
+
+By the way, medicine is largely you know, when the doctor, like, is, like, keeping files on you, he's keeping in the form of written language. Right? You know, diagnosis, like, all the Latin terms, and then all the prescription you know, all the drug names. And so and then the, you know, the law, of course, is language. Right?
+
+And then religion, of course, is is is you know, religious concepts are encoded in language. The word. The God is the word the word is God. Yeah. Yeah.
+
+Exactly. Like, at a very At a very deep level. Like, the the like, language is is the is the foundation of, like, basically, everything we consider human thought. Like, almost everything we consider human thought. Like, there's a form of, like, animal, you know, animal thought of, like, know, survival in the wilderness or whatever that's not that, but which is still, like, know, encoded innocently somewhere in there.
+
+But, like, the human cognition is and by the way, you know, internal monologues, you know, at least most people, or let's say people who have souls have internal have internal monologues. Right? You know, we're, you know, we're we're we're we're we speak to ourselves. Okay. So it turns out language is super interesting.
+
+And these things are very good at language. So because they're very good at language, it turns out they're also very good at medicine and they're very good at law. Right? And they're really good at Right. All the okay.
+
+And they're really good at writing code because it turns out, right, software code is also language. Right? That that's how we program computers is we do it with with special languages called called programming languages. Really good at at at writing code. And so these things, it turns out, are really good at writing code.
+
+And in fact, there was kind of this key breakthrough moment over the Christmas holiday of this most recent year, you know, whatever, about six months ago now, where many of the world's best programmers put their hands up, and they said the new versions of of these things over the Christmas break are better coders than we are. Yeah. Right? And so so so it's a little bit like the moment when they became better, know, became better chess players or whatever. You know?
+
+It's like, all of a sudden, it's like it's like, it's because better at coding. Okay. It's here. It's here. Okay.
+
+So then you take you take a superhuman coder, right, that's able to write write lots of code. It's able and then by the way, if you can write code, it means you can look at code. It means you can find bugs in code. And then you apply it to this problem of, you know, what call computer security. So, like, you've got a system.
+
+Is there a way to break into it? The the hackers basically the the the way that hacking basically works is you understand how a computer system works. You understand how the code works, and then you you find flaws in the code. Mhmm. Mhmm.
+
+And and and this thing is very, very good at finding flaws in code, which is very useful when you're using it to write code. It is also very useful if you want to use it to hack something. And so and and and and to say that that I wanted to go through that, though, is, these things are very good hackers. They're not they're not really creating new exploits. They're they're not, like, creating new problems as much as they're really good at X raying reality as it exists and finding find finding the issues.
+
+Right? And and so what these things are really good at is is is is is they're they're they're really good at exploiting exploiting issues, finding issues. They're really good at looking at a system, understanding what's wrong with finding the vulnerability. Because of that, they become very good hackers. But then there's one more thing that's really complicated and important, which is because of that, they're also very good defenders.
+
+Right? And so it it's the the the same attribute that makes it very good at what what we call offensive because sometimes we call it, you know, the formal offensive cyber operations, you know, kind of or black hat hacking, you call it. Because they're good at that, they're also really good at helping you defend against that. And so Right. Okay.
+
+Right. So so then you Yeah. Like, a good lawyer will tell you what the other lawyer's gonna do. Exactly. And and then the the the the twist on it is the way that you do cyber defense, is you do what's called penetration testing, which is you try to hack yourself.
+
+You you and these are called white hat hackers in the old world, which is, right, you you hire good hackers, and then they and then they try to break it's like hiring somebody to try to break into a bank, but they're working for you to find out where the flaws are in the bank. And so the same thing is good at, black hat hacking. It also makes it good at white hat hacking. It makes it good offense. Offense.
+
+It makes it good at defense. It's all true all at the same time. And furthermore, the the twist is it can't necessarily tell the difference between when you're asking it to do white hat hacking versus when you're asking to do black hat hacking because it looks like it's the exact same exercise. Like, to the AI, it's the same thing. And so it's this thing where it's like, it's a latent thing that's being unlocked.
+
+It's exploiting bugs, by the way, that have been in these systems for thirty years. By the way, human hackers break into these systems all the time. By the way, using these AIs for defense is gonna prevent a lot of hacks that would have otherwise happened. But there but there is a there is an escalation. You know, there's a cat and mouse or, you know, an escalatory ladder, you know, kind of aspect of this.
+
+And and that, you know, to your point, like, that is the thing that has triggered, you know, most recently. That's, by the way, that's triggered, like, a real government response in the last two weeks, you know, because of concerns around that. Yeah. It's like itchy and scratchy anore. What you just said has, put a chill up my spine because I'm almost scared to verbalize it because it's so scary.
+
+You know how in in Ghostbusters, the mayor's like, this is nonsense. Like, open up that engine. He lets all the ghosts out. My big concern after what you just said is if the American government gets too spooked by all these stories and tries to restrain our AI, but China, which does not have these restraints and which views us generously speaking as adversarial, so we're engaging it's like the people in the late sixties who were so scared of nuclear war that they advocated for unilateral disarmament of the West, and it's like, how do you think this is gonna play for Khrushchev and Brezhnev and all them? If we are putting handcuffs on ourselves and the Chinese are basically given machine guns in this space, no computer in our country is gonna be safe from their reach, and that includes the highest levels of, of, secrecy, you know, in the government, this would be a complete disaster for America.
+
+No? Yeah. That's right. And and and this is what we need to do. So what we need to do is we need to use these tools to secure all of our systems.
+
+Yeah. That's right. Right. And the we here is the United States government needs to that with its own systems. The banks need to do that.
+
+By the way, the tech companies need to do that. By the way, know, there there need and, know, this needs to be, know, individual consumers, individual people should be expected to deal with this, but all of the tools that you have, you know, the computer sitting in front of you right now, like the AI needs to be used to make sure that that's secure so that people can't break into it. Like, so so every system from the most important military government system, all the way down to the computer and your desk, AI should be u the these advanced AI should be used to secure these systems. The the the tension yeah. The the tension is the AI that can be used to secure the systems can also be used to crack the systems.
+
+And so who gets access to the thing that can both secure and crack is, like, the hot government topic of the moment, and that and that's what's what's in all and that's specifically that's what's in all the headlines in the last two weeks. But it it also makes me think of now, like, my AI would be like a German shepherd in my house. That's right. Even when I'm not here, it's it's watching, and it barks, and also when it knows how to attack, I'm sure if it's programmed a certain way, if Mark comes over my house, it'll lick your hand, but if it's someone who's an aggressor, it'll know how to distinguish, and that'd be pretty easy I think. Obviously, there's gonna be the camp of German Shepherds, and it's gonna be escalation, but the point is if you just get rid of the dog you leave your door wide open, how do you think it's gonna end for you?
+
+Here's my other big concern with AI. So this has always been a concern about technology. Oh, if the phone operator's out of work, they're gonna be homeless. Oh, who's gonna pick the cotton? Whenever any invention occurs, people are hand wringing that it's gonna be dead in society.
+
+That's never happened. But, but, are we at a point now where the average human is like a horse? Meaning an outdated mode of technology. I'm thinking specifically of that 50 year old woman with no high school diploma, she does rideshare on weekends to make some extra money. You're not gonna put her in the mines.
+
+If the car's driving itself, if the algorithm is more personable than her and more likable than her, what role would you have for her? Is it the case now that she's become outdated? Right. Yeah. So as you know, like, this is an old this is an old argument.
+
+By the way, Thomas Sowell also wrote about this has has written about this at at length. And so this has been a concern literally since the very beginning of the industrial revolution. Right? And and and actually, literally, horses was, like, part of part part of part of how this whole thing started, which is, in in the beginning, like, in the beginning, humanity basically, 99.99% of people were farming and specifically were farming by hand. Yeah.
+
+Right? And then it's like, okay. If people aren't farming and you start replacing people actually with horses and and with plows, and then you mechanize the plows, and you mechanize the horses, and you all of a sudden have, like, industrial agriculture, you know? And and literally what happened over the course of two hundred years, was 99% of humanity went from farming to something like 3% of humanity went to farming. Right?
+
+Like 97% or something, you know, had to figure out something else to do. And then by the way, what happened was food production went through the roof. Right? Right. And, and, and food went from like super expensive and, and by the way, not very good, to, you know, to just, like, you know, fight cheap cheap cheap in an abundance.
+
+And by the way, you know, the great the great, you know, public health problem, you know, used to be starvation and now it's obesity. Right? Even as you as you crash the number of people actually working in in agriculture. So so, yeah, that that's the original version of the story. That story has repeated itself a thousand times.
+
+It repeated itself with, you know, everything, you know, railroads. It repeated itself with cars. It repeated itself, by the way, with computers. There was a whole automation panic in 1960s. The magazines and the news you know, newspapers were obsessed with at the time.
+
+You know, the computer brain was gonna replace everything. You know, it's this thing. And and and it's this thing where you have to basically kinda say there there's this basically gap between conceptual gap between there's the jobs that we know about, that are, know, quote, unquote, at risk of being replaced. And, of course, there is some of that. And then there's this and then there's the creation side, which is like, okay.
+
+With all of the new wealth that's being created, and all the new money that people have to spend and all the new interests and, you know, needs and desires and aspirations that people have that they couldn't even imagine. You know, their their ancestors two hundred years ago couldn't have been imagined. You know, what what else years ago. Fifty years ago. Exactly.
+
+And so one of the things that people can do on this to to make it inter you're gonna have you know, you can do this with an AI now, you know, you there there's a US government department called the bureau bureau of labor statistics, and they they actually track all the job categories in The US. And you can go on their website, and you can pull up all the job categories. And it's a really mind expanding thing to do because we we just we employ people to do things today that our ancestors could have never even conceivably imagined. I mean, you know, the I mean, the client Milton Milton Friedman had a thought experiment on this, once when when he said, look, it's like he said human wants and needs are infinite. You you can never predict what they're gonna be because human humans are, like, relentlessly aspirational, in the things that they want.
+
+And need and by the way, the things that are start as wants become needs, you know, very, very quickly. Of course. He said you don't know what they're gonna be. You need to let let the free market basically operate, so people can basically find their own way and discover what they want and other people can figure out how to satisfy that. And he said, look.
+
+You just need to be very open to all kinds of outcomes here. He said, for example, the idea of the job of a therapist. Right? Like, you pay somebody to listen to you. Right?
+
+Would have struck your ancestors as completely insane. You know? And then today, it's something that, like, only wealthy people have access to. And, you know, he's like, look. Like, in some future reality, maybe half the planet, you know, consists of being therapists for the other half.
+
+Like, maybe that's the job. Right? And and he wasn't making a specific prediction, but he's just saying, like, look. There there's an aperture here for the creation of all kinds of new, you know, professions and occupations in response to this creation of of nuance and needs. I also think we have a particularly blinkered view of this right now because we've been living in a slow growth environment economically for our whole lives.
+
+So one one of the things that really happened, you know, basically since the nineteen seventies is if if you look at the history of economic growth in the West, economic growth used to be much more much more rapid. Technological advances translate in an economy much, much more rapidly, and the economy grew much faster, like, much as three times faster historically than it's been growing for our entire lives. And so we've been living in a sort of a zero sum a slow growth zero sum, basically, increasingly, as you know, like, regulating bureaucrat bureaucratized environment with, like, less and less creativity that's translated into into into economic change, economic growth. Like, we think we've been living through an area of rapid technological change. Economically, we've been living through a period of very slow change.
+
+As a consequence, so much of our politics and so much of our psychology feels zero sum. Right? Where if one thing if one thing goes away, somebody else has taken it. Right? And and, you know, that and this is, by the way, this is, like, why you get, like, political populism on both sides of the aisle is this this kind of this kind of zero sum fear.
+
+AI is the first technology in decades that it has the potential to dramatically increase what economists call the rate of productivity growth, which is basically the ability for the company the the economy to grow much faster. Is the is it if if that works and happens, then, economic growth accelerates. Right? Then the the the economy starts. I just wanna imagine, like, the economy growing two or three or four or five times faster than it has historically.
+
+And then as a consequence of that, all of this new discretionary spending money, you know, that comes out people's wallets where they get to say, wow. I can collect art for the first time in my life, and I really want to try this new, you know, whatever. I, you know, would love to have a self driving car and, you know, dot dot dot dot dot. And people discover all these things that they want that they want needed that they can pay for. And then all of a sudden, you have this massive engine of job creation right behind that from all the people who are fulfilling all those needs.
+
+Like, I I you know, I think there's a positive story. It does require you to have, not not even just optimism. It requires you to have an openness to creativity of the wants and needs that we don't yet understand in the industries that get built to fulfill those. But what I'm saying is I don't see how that that AI is so this is the thing. So people look at AI as the negative driver on this, and there will be some of that.
+
+I mean, there is some of that where there will be certain jobs that are no longer required because the AI is doing it. But AI is also superpowers to every individual person to be able to do whatever they want. Right? And and and by the way, maybe that you could say this. This is like the massive in the sort of the discourse of when people talk about AI in the abstract, they they they have all these, like, basically fears and anxieties.
+
+Over a billion people are using AI already today. Like, more than a billion people use ChatGPT. And the things that using ChatGPT for are the things that matter in their individual lives. They love And it's great. And everybody's it's like huge numbers of people are using this to be better at work today.
+
+They're using it to be better at work. They're using it to learn new skills. They're using it to do a better job, to make their boss happier, to be able to get promoted faster. They're using it to start new companies, offer new services. I if mean, you want to start a small business today, or by the, you know, or by the way, you become a writer or like anything that you want to do, like the AI is like the best possible teacher, coach, mentor that you've ever had.
+
+It will like walk you through everything. It'll teach you how to do marketing. It'll teach you how to do sales. It'll like, like, it's just like the the level of capability that is being unlocked for ordinary people to have a a like, a level of productivity in their life and in their work that they've never had access to before, is amazing. And so then all of a sudden, yeah, you get you get that that person who was an Uber driver, and now all of a sudden it turns out it's just like, oh, wow.
+
+Okay. I don't know. All of a sudden, there's, like, all these new tourists coming to my town. And instead of driving them around, I can give them tours. Okay.
+
+What would be the tour that they would like to go on? Oh, well, the AI will help me, like, design the tour. Oh, well, how do I start, like, a tour guide company? Oh, well, here's how to do it. Here's how you register it.
+
+Oh, you know, how do I keep the books for a tour guide company? The next thing you know, she's on the other side of that, and she's in a completely different business, and people are you know, the Waymo car is delivering the tour participants to her, delighted to see her because they want a person to take them on the tour. So so so that that so that's the that's the creative side of it. Historically, the creative, sort of generation of new ideas, generation of new wants and needs, and the new businesses and professions to fulfill those wants and needs has raced way ahead, right, of the replacement phenomenon. You know?
+
+After three hundred years of mechanization and computers, there are more jobs in the world today and at higher incomes than ever before in human history. I think that's exactly what's gonna happen here. And I and I think, basically, people who I understand the concern, but I think it's just I think it's fundamentally a failure of imagination, and I think that the human spirit is gonna is gonna process this just fine. I I I think that where you and I disagree or maybe I'm not understanding correctly is I think a huge segment of the population, let's say a third, I'm being conservative in my opinion, are not capable of self direction. Right?
+
+So, like, if someone is that woman who's the tour guide, that's an easy one because that's someone who's like, okay. What should I be doing? Okay. I'll learn these skills. It'll take me a day.
+
+I'll I'll, you know, do my reading, and I'm personable, like and they're gonna clean up. That that's an easy one. But I think there's plenty of people who are basically just want, making it so that the average man does not wanna be free. He merely wants to be safe. There are people who just are wired that they want to be told what to do.
+
+And and at a certain point, I don't see what value they're adding to any company or or anyone else. And what do you do with those people? Just put them in welfare. I mean, this this gets obviously, this gets an area of social policy and, you know, political theory that maybe I'm I'll I'll I may may stay away from, at least Okay. At least live on video on the Internet.
+
+Okay. For sure. But, I guess I would say this. Like, one of the things you can talk to AI about is is this problem. Like, one of things you can do is you can say, wow.
+
+Like, I don't know what I'm gonna do. Like, here's what here's what I've done for my entire life. And, wow, I don't know. But it seems like my job's gonna get, like, replaced. It's like, okay.
+
+What should I do? The thing will give you career advice. Right? It like, it will it will tell you what it like, if you want it to, it will tell you what to do. Right?
+
+And I I don't think I don't think people should just ask it what to do and just do what it says, but you can say, oh, okay. Brainstorm with me. I use it for brainstorming. Although, is an area you can use for brainstorming and say, alright. Look.
+
+Like, here's what's happening. Okay. Well, it's gonna say, you know, where do you live? What's going on? Here are the different areas.
+
+What are the what are the trends? What are the new things that are happening? You know, I don't know. I, you know, I you know, every time I go by my local gym, I see there's, six new kinds of exercise classes I never thought of. Could I become a, you know, could I become a personal trainer?
+
+You know? Okay. What's the what's the hot new trend? How do I get, you know, certified in that? And then the next thing you know, you're doing that.
+
+And, and, and, and the, and the thing will just like happily cook. It'll, it'll, it'll. So one of the, one of the amazing things about this, I think this is really underrated. These things, the AI models, it's like the best doctor you've ever had in your entire life. Like, it's amazing being a doctor.
+
+Like it will hold your hand through any medical situation you're in with a degree of like caring that people are not like beyond what a human doctor, not only what most human doctors will just do naturally, but no human doctor has time to do it in the way people really need. It's also the best lawyer you've ever had. Right? It's also the best, like, coach you've ever had. It's also the best ghost writer you've ever had.
+
+It's the best editor you've ever had. And it's the best adviser you've ever had. Right? And so if you if you give it that opportunity and and again, you don't have to answer. You can you can ask the questions.
+
+Yeah. Well, I'll answer the questions. Yeah. What what should I do? How should I think about the evolution of my career?
+
+How should I think about the change in the economy? It will happily do that with you and and in a way that people literally have never been able to have that conversation with people before. You know, you really kind of solved that question in my mind, because I have a good friend, and he's made a lot of money on crypto, but he's been sitting at home not having to work, and it's been driving him crazy. So he's like, I need to have a job. I don't need to make money.
+
+I just need I'd like, make candles for guys, scented candles for men. You can go down that rabbit hole, work at the stents, blah blah blah, it'll occupy your brain, you'll create a product, even if you make $50 who cares? And what I'm realizing is if you ask AI, it will have that Venn diagram of no one has made socks for 14 year old immigrants, or, you know, it'll see those where there's holes in the market, and then it could walk you through it. So it really does, except for the people who completely bring nothing to the table, which that's fine, that's a whole separate conversation, but that woman with the just really solved my question because she could be like, okay, what value can I bring? What could I produce?
+
+Make cookies. There's so many things that people will always want that personal touch, and also there's so many little The markets will get more and more niche, and AI will be perfectly able to find No one is talking to people who like saltwater aquariums, but also like heavy metal music. So start a heavy metal saltwater aquarium website. There you go. Holy crap.
+
+You just answered my question. I would love a heavy metal aquarium. It's like angry little fish. Amazing. Like, Like, why not?
+
+A 100%. Yeah. No. Totally. Well, here's here's maybe another way to think about it.
+
+Oh, I think that's right. Here's another way to think about it, which is, you know, people think about this as, like, well, if the machine does something, it's dehumanizing. I don't know about you, but, like, office jobs are dehumanizing. Like, oh, yeah. Like, sitting in a cubicle for eight hours a day, like, working on the same thing over and over again.
+
+And then by the way, factory jobs are dehumanizing. And by the way, like, I worked know, I grew up in agriculture country. I worked on farms. Like, you know, farming is not romantic. I've been on people sometimes.
+
+City city people sometimes talk about their romance of going off and doing, like, whatever boutique, you know, farming. And it's like, you know, how do you how do you feel like getting up at six in the morning, going to bed at midnight, working, like, seven days a week for the rest of your life? It's Sisyphus. Yeah. Like, it's like yeah.
+
+Exactly. Like, you're in you're fighting back, like, chaos, you know, the the the entire time. And so, like, I I think just so much of, like, what it's almost like we have collective PTSD. Like, we all have the we've all had to live these lives with a with a level of like, if we look at our ancestors and the lives I lived three hundred years ago, we just are like, that was a level of drudgery and poverty and limited options that would drive us crazy and make us wanna kill ourselves. Our ancestors, thirty years I mean, three hundred years from now, even thirty years from now are gonna look back at us being like, I cannot believe they did that.
+
+I cannot believe they spent time doing those things. Like, that was such a waste of human potential. That was such a waste of human creativity. And then maybe one more there's one more thing that to kinda add on that is I I think that this goes to the thing of like, does technology like this make us human or more human? And I think like the examples we've been using, I think you start to see why this can result in people being more human, which is if the physical needs of data that life are more easily satisfied, then people can spend more time actually being human.
+
+And then they can spend more time actually, and money spending time on things that actually are human experiences. By the way, another just incredible version of this is already playing out that's gonna Wait, Kyle, I gotta interrupt you just to validate your point of because back in the day, you know, I'm reading a lot, like the early socialists, 1890s, 1910s, people working sixteen hours a day. And and, like, even just down to ten, which is still a lot, they come much people then you're complaining people watching too much TV because they have too much spare time. That's right. That's right.
+
+Right. Right. All the diseases of scarcity become diseases of abundance. And, you know, diseases of abundance are still diseases, but they're better they're they're better. Like, obesity obesity is better than starvation.
+
+And then by the way, you, you know, then you Yes. Then then you figure out how to solve obesity obesity later on. Yeah. I mean, look, I'll just give you a micro so one example of this was happening in music. Right?
+
+And so, you know, record once upon a time, all music was in person. The Like, only time you'd ever hear music was, like, if you happen to stumble stumble into a church or something and hear it for the first time. And and by the way, maybe the only time in your life. You know, there were people who maybe heard music once, you know, in their entire life. Right?
+
+And so and then then by the way by by the way, then, sheet music appeared. Actually, there was a whole moral panic about sheet music, when it first appeared, because it was gonna put all the all the pianists out of business, and they they they all got extremely upset. But then that, you know, led to ultimately recorded music and then, obviously, digital music and streaming music. And now now if you talk to any musician, it's like, can you make money, you know, with recorded music? It's like, no.
+
+You know, not really anymore. You know? You you can get your music distributed on Spotify, but, know, you hear the endless complaints about, you know, you get back pennies or something. And and so the recorded music business is not what it used to be. Of course, what's exploded is live live performance.
+
+Right? Right. And so and so so live music is like exploding through the roof. And and now you see and now the complaint, right, is the tickets are too expensive, you know, to go to to go to the concerts. I was like, well, okay.
+
+But if you think about it for a second, it's like, why are we still listening to live music? We all have every piece of music ever written available on demand in high fidelity in our homes, in our, in our, on our earphones, anytime we want essentially for free. Why is anybody going to a concert? And of course the answer is because the concert is a human experience. Right?
+
+And so, of course, when we get discretionary money, we wanna go have the human experience. We wanna go have the concert. By the way, if we're gonna throw a party and we want to be a very special party, do we play music through speakers, or do we hire musicians? We hire musicians. And and also going to concert, you go with someone, you create a bond, which is a 100%.
+
+100%. And so there's another way to think about it is every profession that involves human to human contact is going to go bananas. Right? Right? And and and I and I think that those by the way, that's gonna be great for all the people getting experience that.
+
+And then I think those jobs fundamentally are better jobs, like, just at at at a very at a a very a very core level. And and they are going to go it's gonna be a bonanza. For the first time in this show's long and sordid history, you have completely I'm not kidding at all. You have completely answered all my concerns about the topic, and I'm I totally get it now. Thank you.
+
+I I I feel so excited. And I'm sure and since you're much more of visionary about this stuff than I am because you've been there, you know, from the beginning, I can't even imagine how exciting must be for you, that were people were kinda hypothesizing not even five years ago. Now you're using them on a day to day basis. It just must be you must be absolutely giddy. So the book is the Techno Optus Manifesto.
+
+You got it, Passage Press. Mark, thank you so much for taking the time. We're running out of time. What has been your favorite part of this interview? The amazingly amazingly probing questions.
+
+You are welcome. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product. This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with a sixteen z. Such advertisements, companies, and individuals are not endorsed by Ah Capital Management LLC, A16z, or any of its affiliates. Information is from sources deemed reliable on the date of publication, but A16z does not guarantee its accuracy.
