@@ -1,0 +1,227 @@
+Hello, and welcome to the Vergecast flagship podcast of the Vercel REST API. I'm your friend, David Pierce. And today on the show, we have a challenge. The way this is gonna work, we're gonna we're gonna do a bunch of these in a row, but the way this is gonna work is we've gathered a bunch of people. We're going to give them all a challenge, and then we are going to go off for several weeks and report back on what we found.
+
+Today, we are starting with two of my colleagues, Jay Kastronakis and Hayden Field, and we are going to do a vibe coding challenge. The first thing we're gonna do is kind of lay the land, talk about where we all are in our vibe coding experiences, and then we're gonna all go see who can do the best in vibe coding. It's a lot of fun. I'm very excited about this project in part because it's gonna get me to, like, actually get some work done for a change for the podcast. It's gonna be awesome.
+
+But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Monday, 06/29/2026. Mythos is back, kind of. The anthropic model that was once deemed too dangerous release publicly and actually threw even more chaos into the already chaotic relationship between Anthropic and the US government is now being released to a Trump administration approved list of organizations. Who those organizations are, who they will be, whether you'll ever get to use Fable five again, hard to say.
+
+Nobody seems to quite understand the AI regulatory environment right now. And given that the supreme court also ruled today that president Trump has the authority to fire two FCC commissioners, which changes the way that agencies work, whatever happens here, it will start with the White House. Meanwhile, Comcast is splitting into two companies in the latest of a seemingly endless supply of media mergers and unmergers. Now there will be Comcast, the Internet cable and mobile carrier, and there will be NBC Universal, which is the studio's theme parks and streaming networks, including Peacock. None of this, by the way, applies to Versant, which Comcast spun off in 2024.
+
+The media business just continues to be chaos. And a fun side note of this, by the way, is that I have a new disclosure to do here. Guess I it's gonna be something like Comcast is an investor in PMX, the parent company of the verge. I'm gonna have to get used to that one. And finally, quick PSA for you.
+
+WhatsApp is rolling out username support later this year so that you can find people and be found without having to share phone numbers. The feature's not live yet, but you might be able to go to settings, account, username, and reserve yours. There are, 3,000,000,000 people on WhatsApp, so you should probably move fast. You can read more about all of this at verge.com. That is ninety seconds on the verge for Monday, June 29.
+
+Support for the show comes from ServiceNow. AI is moving fast across the enterprise, but without visibility, it's just chaos. Different tools, different models, different teams using AI in completely different ways. ServiceNow turns that chaos into control. With the AI control tower, you see all your AI across the business in one place.
+
+What it's doing, what it's done, and what it's about to do, so you stay in control. To put AI to work for people, visit servicenow.com. Fourth of July savings are happening now at The Home Depot with select appliances starting at $398. Plus, get free delivery on appliance purchases of $398 or more. No membership required.
+
+Upgrade your kitchen with a modern and sleek GE profile refrigerator featuring hands free auto fill for the perfect pour every time. And make laundry day easier with two in one washer dryer combo innovation that completes laundry in about ninety minutes. Shop top brand appliances now at The Home Depot. Offer valid June seventeenth, July at US Only C Store online for details. Alright.
+
+Now it is time for some vibe coding shenanigans. Joining me now, The Verge's senior AI reporter, Hayden Field. Hi, Hayden. Hey. And The Verge's executive editor, Jake Kastranekis.
+
+Executive it's chief shenanigans reporter. Thank you. Chief shenanigans reporter. What I wanna do here is something that you guys actually did a little bit of while I was on parental leave last year, which is just all simultaneously attempt to go on a technology adventure together. You you guys all did vibe coding projects last year, and I listened to that episode of the Vergecast with, like, sheer rage because none of you tried hard enough, and you all gave up too fast.
+
+And we're gonna do some new stuff. So I I have assembled the three of us, and the way that this is gonna work is at the end of this episode, I'm going to give all three of us a task, and it it is largely a vibe coding based task. And we are going to regroup in a month and just share what we have done on that task. You will be relentlessly shamed for not doing a good job or trying hard enough. You will but the world is your oyster.
+
+So we're gonna get to the task at the end. But what we were gonna do is a task ahead of this. The first assignment I gave both of you was basically, like, go vibe code something that you have made that is useful and interesting in your daily life. And you both were kind of like, we've done this already. So we're gonna start our experience with some show and tell.
+
+And, Jake, I want you to go first and tell us a little bit about your vibe coding setup and some of the stuff that you've built. Yeah. I mean, I I feel like what I should actually start with is the failures Okay. Which is it it's it turns out so when we did this last year, Vibe coding as somebody who has no coding knowledge, it it wasn't there. Like, it it didn't work.
+
+Like, we tried stuff, and it was constantly flopping. Yeah. And then when I checked back in again, you know, this winter, oh, it had changed a lot. I you know? Yes.
+
+And and so the thing you will find if you start experimenting with five coding is you're gonna make a lot of stuff that in the moment you're like, this, I'm cooking. This this is amazing. And then you use it and you're like, I have no use for this. This is total garbage. So I I made a bunch of tools that I thought would be useful for work, different kinds of news digests, different kinds of things that would, you know, pull together Twitter feeds, things that would I I just one time I told Claude, I was like, hey.
+
+Find every single, you know, open US government database that is relevant to the verge and, you know, pull all of the files that are relevant to companies we cover and then just do some analysis on them. And it was just like, cool. Let me just go get the API for the treasury. And it just did it and it built it. And then I had all this data and I was like, there's nothing.
+
+I don't know what to do with this. And so it's gotten there. The technology has advanced a lot, but I think the thing that I found is that finding an idea that is useful to you specifically is harder than building it now, which is is nice. This is, I mean, this is, like, increasingly supported by the data, by the way. Right?
+
+That, like, you look out into the vibe coding world, and everybody is building tons of stuff that amounts to nothing. And this is becoming like an enterprise crisis because everybody's like, we're using all these tokens for nothing. What is the point of any of this money that we're spending? So you've you've encountered the same problem that every Fortune 500 company is happening in spades right now. Except I only paid, like, $20 a month, so it was not it was not so bad.
+
+Eventually, I did strike something, though. Right? I do so I I got a small focused problem I have at work, which is that I have a lot of meetings with people on our team every single week. Right? By the by the the next week rolls around, I have forgotten everything we talked about.
+
+And that's because, like, I I've tried a million different systems for taking notes for these these meetings, and every single time, it's just I I like, I don't read my old notes back. They're kind of a mess. They're in different places. I, like, had just, like, a long running text edit doc. Like, it's not good.
+
+And so I kind of thought, like, oh, wait. What if I have a notes app that is specifically for meetings with our team? And I can list everybody's names, and I will have it automatically roll forward every single new entry with the action items from our last meeting. And I can have it automatically summarize, you know, the past few weeks of notes. And so now when I go to have one of these meetings each week, I'm, like, super prepared because it's giving me, like, a brief on what we've been talking about.
+
+I have the action items that I'm supposed to be coming in with, and this has been great for me. And so, like, this this was the first thing I built that was really, really successful. Okay. Wait. Can you just pause for one second?
+
+Yeah. Hayden, I wanna know how that description makes you feel. I once described the vibe coding project to Eli, and he he told me that it sounded like I was describing a dream to him, and that has hurt my feelings ever since he said that. I wanna know, like, does does Jake's description of what he vibe coded do anything for you? Yeah.
+
+I mean, I don't know. With vibe coding, I feel like the simpler, the better. Like, it's usually solving a problem that, like, is really easy, but you just can't get it together. That's how mine was at least, what I, like, built. And so this seems similar.
+
+It's like, yeah, he could, take the notes and look back at them, but he's not. So he's figuring out a small tiny fix that's gonna make him look. So I feel like yeah. I mean, it seems simple enough to work in my opinion. You gave us the prompt of the toothbrush test, like, something you're gonna use twice a day, and that's what I kept thinking about.
+
+So it's like, this seems to pass that. You know? I feel like people try to, like, go too crazy with it, and then they just like we were talking about, it just flops and, like, they never use it again. So I like The feature creep problem is so real in Vibe Coding because you're like, I can do anything. Maybe I'll just do everything, and it just all falls completely on its face.
+
+Yep. I know exactly what Neelai is saying, though, because it it it, you know, as a piece of software, like, it's I I think it's pretty polished. Right? I could share it around. Other people could use it.
+
+But it this doing this has maybe re like, appreciate people who actually make software so much more because Same. This this thing is precisely designed to solve my problems, and it doesn't make sense for anybody else. It is specifically tuned to my workflow. And I don't suddenly, I'm like, how do you if I if I'm passionate and I'm gonna and I'm gonna make a notes app, like, how do I know it's a thing other people want? Like, how do I know that it's an interesting idea?
+
+Because we see we right? We cover this stuff all the time. David, like, you've written about 9,000,000 to do apps. And each of them has, like, a a an interesting marketable idea. And, like, I don't I don't know what that is for my app, but it doesn't matter because it's it's only for me.
+
+But that's why it's so it's like, I can't pitch this to somebody. Jake, one more question for you before we get to Hayden's project. What is broken about the app that you made yourself? I mean, the this app is, like, really simple. It's it's basically just a Safari web view with some notes.
+
+The I have I I hate to tell you, but, like, I haven't found it yet. Though I have, like, out of paranoia, like, once a week, I ask Claude to review it and be like, hey. Make sure the data isn't gonna fall apart. Make sure it's not gonna delete all my notes. Like, make sure I'm not gonna lose everything.
+
+Can I can I just make a quick suggestion? Just go back to Claude and say, hey. Can we back all of this up as text files? Just just do that for me, it'll make me feel better. Alright.
+
+I'll look into it. You're you're gonna end up with, like, a web cache problem that is just everything's gonna fall apart. If if it starts with local host colon 3,000, you've got you you've made mistakes. That's my other Vibe coding app. Do you wanna tell us about that real fast?
+
+Well, I made an entire email client. Oh my god. I can't wait to hear about this. This is my dream. Is this is dude.
+
+I okay. So, like, I've had this same email address for, like, over ten years. Yeah. And it's been public the entire time. And so I get so much garbage.
+
+And so I I was like, okay. How can I figure this out? How can I create an experience where I don't have to deal with a million emails at once? And the answer is just labels. Like, it's just Gmail labels.
+
+But Gmail labels are, like, on this. They're, like, hidden in the corner. It's, like, not, like, a fast way to access them. Mhmm. And I was like, oh, you know what would be perfect?
+
+You know how Gmail has, like, the big taps up top for, like, promotions and whatever? Yep. I was like, oh, what if I just put my labels up there? That would, like, solve my exact problem. Gmail doesn't let you do that.
+
+You can't choose what goes up there. So I was like, okay. I'll just build an entire app that puts my labels up there. And it's great, and it makes it super easy for me to, like, triage my emails because it, like, shows me all the stuff that's from, like, you guys, my coworkers. It has stuff from, like, known trusted contacts who I wanna hear from.
+
+It has a tab for, like, literally, like, 5,000 plus unread newsletters. It's great. I love it. You basically built yourself, like, sucky superhuman, which people pay $30 a month for. Like, that's No.
+
+It's kinda great. Some some PM at Gmail is listening to this is gonna and is gonna get a promotion by going and launching what you just described as a new version of Gmail. Would really appreciate it. But yeah. But it's also, like, I had to, like, enable a bunch of weird Gmail API things.
+
+Every single time I did something, I was just I I would be like, Claude, please do not accidentally send emails to my entire contact list. Right. Like and, like, it's a little scary. Like, I would rather kinda not do that. Like, a local notes app.
+
+Like, the worst thing that happens is that I go into a meeting with you, David, and I forget what we talked about last week. Like, it's it's fine. This one, the worst thing that happens is that I accidentally, like, spam every single person who ever You hack your own email. Yeah. But to your local host thing, it's like, for some reason that I haven't quite felt like dealing with, I have to log in once a week, and then the login involves me going back into my browser, and there's this local host thing.
+
+And I just Yeah. It's fine. But This is the kind of stuff that I really get a kick out of because my own experience, which which we'll get to in a minute, is I have built a bunch of software that has a bunch of bugs that I would find completely reprehensible in anybody else's software. Yeah. But in mine, I'm like, yeah, it's fine.
+
+I can deal with this. I don't know how to fix it anyway. Hayden, let's get to you. Have you have you been vibe coding? What have you built for yourself?
+
+Yes. Okay. So I have been vibe coding. What I made was a habit tracker, which I know everyone makes. But for me Uh-huh.
+
+I have ADD, and so I really desperately need one. Like, I've learned about myself that I can't, like, start a new habit without accountability, basically. You know? It takes, like, six weeks three to six weeks of me having accountability with someone else or with, a inanimate object, whatever. I have a tracker.
+
+I need to have some sort of accountability for, like, three to six weeks, and then I'm set. I'm in it. I don't need the accountability anymore. But it is very tough for me to start a new habit. So every time I join a new gym, like, I make five gym friends.
+
+I'm like, gotta really lock in here, you know, because I'm not gonna do something just for myself. I have to just not disappoint someone else or not get a star on my habit tracker or whatever. That is gonna make me do the thing, not just the long term knowledge that I'll be healthy or something. Totally. So at least in the beginning.
+
+So basically, I used to download all these different habit tracker apps like you guys were talking about with to do list apps and note taking apps. And so I've tried every habit tracker app. There's always something that bothers me about it or it's really expensive. I even downloaded this one that I loved for a while called habit, But the problems with it were that you couldn't create a habit that wasn't every day. Like, for example, I need to take my iron supplement every other day.
+
+And it's something that I'm always gonna forget because you have to do it on an empty stomach at night, you have to take it with your vitamin c. So it's just like for an ADD person, that's just too many details to recall, on the fly. And so yeah. Or I don't wanna work out every single day, but I also don't wanna be like shamed for not working out every day. And if I see it on the thing it's like workout and I don't check it off, I will feel shame even if it's not a big deal.
+
+I just you know, I have to feel like I'm succeeding in order to, have motivation basically. That's how I work. And so what I made was a habit tracker app that has like a section for daily habits. It's it's extremely simple. It's like, rectangles that each have a color.
+
+And then when you swipe across the habit to mark you completed it, it becomes a deeper color and stars rain down. So you you get you get a reward. You get a gold star. Is this like a native mobile app you made yourself? Yeah.
+
+I made a a web app, and then I made a native mobile app. So I will say Just so you know, Jake, Hayden's already winning. Just by making a native mobile app, Hayden Hayden wins this round of the vibe coding Olympics. I will say though that it was really hard to build the native mobile app. Like, it took a lot of time, and it kept breaking.
+
+And I tried I did it. I did both of these things, both the web app and the mobile app. I tried both, Codex and Cloud Code. Mhmm. And I I compared and contrasted, and I had an interesting experience with both.
+
+But anyway yeah. So it also has a, section for three to four times a week, which is like working out and create a project or some sort because I'm starting to try to like learn how to embroider and stuff like that. Nice. And then only every other day does it pop up to say like, oh, take your iron and that's another habit that appears. So basically, I made it perfectly for myself.
+
+And I think this is actually something that other people would wanna use. But I will say you guys, it said that I had like 15 high security vulnerabilities and 15 medium security vulnerabilities. Yeah. So I'm not a developer, so I don't know what they are. But it seems like, you know, it could be dangerous for people who don't know what they're doing to, like, be using this to, like, deploy apps onto the open Internet.
+
+So And my favorite thing is you go through these things and it you you say, like, oh, Xcode is telling me I have all these problems, and clogged code is just like, yeah. Don't worry about it. Yep. Exactly. Nothing.
+
+But I are we sure it's nothing? I literally asked Codecs, like, is this a problem? And it was like, oh, don't worry about those. That's what it said. I was like, okay.
+
+So yeah. I mean, it works on my phone now, as long as I'm connected to the same Wi Fi. So, you know, I mean, I would like it to work all it seems to it hasn't broken yet, but I just, you know, it works so far. It's going well. And, you know, it has made me more likely to do my my new habits, which is great.
+
+So That's really that's really impressive. I do think that's a fun one because that is the sort of thing that I I can absolutely see how you're like, oh, other people would would be like this too. Whereas, like, there are some things like, Jake, the first thing you described in particular is like, this is very specifically for me and my thing. But then it's very easy to be like, well, lots of people have running one on ones at their at their work. Maybe other people will want this too.
+
+And then it's like, I think an an easy trap I've seen a lot of people fall into is you're like, okay. Well, what would other people want? And then you've accidentally built an app you don't want anymore. Whereas I feel like, Hayden, the the everything you just said to me was like, oh, this is very cool. That's something I would use too.
+
+And then you're like, oh, and stars come down. And I'm like, I would turn off the stars. I don't I don't want the stars. Get the stars out of my face. You can adjust those.
+
+So you you have a you have an adjustment for the stars even though you like the stars? Stars? Well, I did originally, and then I was like, no. I'm just gonna keep them. So I I love them.
+
+At first, it was like it was trying to be too elegant. It was like a quick sparkle. And I was like, no. This needs to be like a reward function. You need to make them more intense, and then it did.
+
+So just to rain stars. That's really good. Mine, I've talked about a bunch already on on this show and on the website. But, basically, I built myself I've I've built two things now that I use every day. The first one is just a basically a way to see my calendar and my to do list in one place, which is shockingly hard to do in a way that is not, like, hideously ugly.
+
+Yes offense to every app that does this already. I know there are lots of you, and I've tried them all, and you're all bad in your own special way. But I can I just now have, like, a running list of the events that I have for today and the tasks that I have for today? And all the events are synced to Google Calendar, and all the tasks are synced to Todoist, which is what I use for my to do list. But I can just see them and add to them all from one place, and that has been, like, life changingly great.
+
+It exists on my phone. It's just the thing I open to see what's going on today. The other one, which I just built yesterday and is working very well for me, is I constantly have 700,000 tabs open, and I discovered the problem is that I don't I I need to put my tabs somewhere. Some of them are like, oh, this is gonna be a story. Some of them are like, this this is gonna be a thing that I'm gonna put in the installer newsletter.
+
+Some of them are like, this, I just need to come back to you later. And I have I built a a web clipper that is just a filing system. So I click the thing, and then I click where it goes, and it just sends the link to the right place. And I don't have to think about it anymore. And I am using the least RAM on my computer that I have used ever in history.
+
+It's this tiny little piece of software. It, like, barely works. For anybody starting with vibe coding, by the way, I really recommend starting with browser extensions because they're very simple to make. They're really easy to load. You can obviously do lots of, like, security disaster things, but, like, the the there are fewer horrible ways for it to go wrong when you're just trying to, like, do a simple thing with a web page on your computer.
+
+Highly recommend messing around with Chrome extensions to solve some of your browser problems. This episode is brought to you by Google Chrome. You think you know a browser, but Gemini and Chrome, that's new. It can help you with practically anything on the web, like restoring a vintage motorcycle from a 50 page restoration block or finally break down that long article you've had open for weeks. Gemini and Chrome is here for it.
+
+Ready to make anything online make sense? There's no place like Chrome. Check responses, setup required, compatibility, and availability varies 18 plus. Sierra has all the best active and outdoor brands for the super athletic stuff, like running gear for cruising up the trail. Whoo.
+
+And the super athletic ish stuff, like fishing gear for chilling by the creek. Nice cast. Fitness apparel to push for higher reps. You got this. And golf balls priced so you can afford to lose one.
+
+Or a few. Head to Sierra or sierra.com for the brands you want at the prices that let you do it all. From athletic to athletic, Sierra's got it. When you need to build up your team to handle the growing chaos at work, use Indeed sponsored jobs. It gives your job post the boost it needs to be seen and helps reach people with the right skills, certifications, and more.
+
+Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero?
+
+This is a job for Indeed sponsored jobs. This episode is brought to you by State Farm. Listening to this podcast instead of doomscrolling? Smart move. Another smart move?
+
+Getting help from one of State Farm's 19,000 local agents when you choose to bundle home and auto. Bundling, just another way to save with the personal price plan. Prices are based on rating plans that vary by state. Coverage options are selected by the customer. Availability, amount of discounts and savings, and eligibility vary by state.
+
+The email client you described, Jake, all of a sudden, like, has my has my brain spinning. I'm like, this is this is a thing that I want. I have gone back into a bunch of the supposedly useful AI email clients recently. My inbox is the most out of control it's ever been. I don't know how you two are as email people, but, like, I was inbox zero person for a long time.
+
+I have, like, 700 unread emails right now, it's stressing me out. Know how I am. You're a meaning yeah. You're a you're a you're a psychopath when it comes to email. We don't we don't talk about that.
+
+But I think, like, I I feel like we've all done a pretty good job here of, like, solving a very specific problem for ourselves, which is good. Oh, wait. Can I tell you the thing that's broken about mine, which I think is very funny? I set up a bunch of keyboard shortcuts so that I can, like, navigate around my little daily planner app. There are three tabs, and I can type one, two, and three to switch between them.
+
+I can type command t to have a new tab or a new task. This app, for some reason, captures all of the keyboard shortcuts on my device. So I can't open a new browser tab inside of while I'm you looking at this Planner app because command t, it takes to me in a new tab when I just want it to be t. I cannot make Cloud Code fix this. This is where I'm like, any person who is a remotely functional developer would know how to fix this.
+
+I do not. So I I am like every keyboard shortcut on my computer ceases to exist whenever I have this app open, and it drives me insane, but I don't know how fix it. That seems unusable. It's not. But but I just have to go over and click the new tab button, and then everything comes back, and it's fine.
+
+As long as I switch tabs with the mouse, we survive. But anything once I when I'm in the app, it refuses to acknowledge that anything else exists, which strikes me as very normal vibe coding problem. Yeah. And this is what's delightful and terrible about these things. It's just like, oh, but everything else is so perfect for me.
+
+Like, I will deal with this incredibly major inconvenience. Yeah. Have you guys used anybody else's vibe coding stuff yet? And, obviously, it it's hard to know to some extent. Right?
+
+But, I mean, like, have you seen anything else somebody just, like, made on GitHub and and been like, oh, I'll take that for myself? No. I haven't. Would you? Does that feel risky?
+
+I don't know. I mean, after building my own and seeing all my security vulnerabilities, I'm like, yeah. I don't know if I would. I'm I mean, I feel I feel like I would just rather make it myself, especially because I don't know. Like, when I was when I was comparing and also, like, comparing with Cloud Code versus Codecs, there were, like, 30 security vulnerabilities on both.
+
+And I feel like anyone else vibe coding would be like me and just be like, oh, it's no big deal. So, yeah, I don't know. But I think I would get ideas from it. The thing that I'm really curious about is if when I was doing this email client, I was like, oh, why don't I just, like, start from an open source project? And then that will be, like, a really sturdy center, and then I can just cut like, I can cut it down and build it back up to what I need to be.
+
+And, like, my dream is that, like, as this stuff becomes more and more common, people just build, right, a core to a notes app, a core to an email app, core to a to do app. And and that stuff, I don't if it does exist, like, I'm not good at finding it and figuring out how to build off of it. Sure. And, also some of these things are just so simple. But, yeah, I I think, like, if it's something like that where I'm like, this is a known trusted entity, a community project, like, yeah, absolutely, like, open to using it.
+
+But some some of the stuff, like, I'm more likely to, like, be inspired and then do my own thing than be like I mean, this is the thing. Like, they're they're dreams. They're they're very specific to you, and so it's like, I don't know if I really would use somebody else's thing. Yeah. I went when I was building this little web clipper thing for myself, I fed there there's this thing called Marquee that is just like a a neat little tiny text utility for Mac that somebody, I think, vibe coded and put on GitHub.
+
+And I I put that into Clogcode as, like, design inspo that I was like, this is what I want this to look like, basically. Very simple and straightforward. Look like that. And Clogcode was like, oh, I like Marquee a lot. Great job.
+
+And I was like, okay. Sure. Sure, ClawCode. But, yeah, I I have not yet figured out my own tolerance for this stuff. Because I think even if you assume that most people are doing this stuff with good intentions and not malicious intentions, which I think is true, certainly people will have malicious intentions.
+
+But like you said, Hayden, even the people with the good intentions might screw this up, which is one of the reasons I have been reluctant to share any of the stuff that I've been doing with people. I even got some feedback from people who were like, I like the way that looks. Like, will you share the thing with me? And I'm like, a, don't really know how to do that. And b, no.
+
+Because because I don't know what's gonna happen to either of us if I do that. And it feels like, Jake, to your point about last year, this question of, like, how do I even stand up any of this stuff? We've sort of solved that in a way. Right? Like, the the ability to get a thing up and running for yourself is much, much, much easier now.
+
+Like, Hayden, you and I have figured out Xcode. If we can figure out Xcode, people can do it. That's for sure. The next phase we have not figured out is, like, how to make these things safer and share and more shareable and more sort of durable out in the world. That doesn't feel like anybody has figured it out yet.
+
+And that's It's also interesting. Like, you're talking about how you would customize Hayden's thing. And as soon as you go to share something, it's like, oh, I have to clean up this, like, wacky settings Totally. Thing that everything is just, like, hard coded to what I need it to be. Right?
+
+Like, if it was an actual app, I would have to code the ability to make custom tabs, the ability to, like, rearrange. And it's like, I it's funny because it's like, literally, a machine does it for you. It's as lazy as it gets. But, like, I don't wanna babysit that. Like, I there's like, you still have to do some like, you have to do a lot of troubleshooting Yes.
+
+Particularly for bigger projects. Like, the the notes app that I made took, like, thirty seconds. The email app took, like, a weekend, which is is, again, all things considered, not very long, but, like, it was it was annoying. And it's like, it I I don't wanna go deal with that to and, like, potentially ruin my app in the process. Yeah.
+
+Yeah. I agree with that. The the phone app or turning it into a phone app was what took me the longest. And then I was, like, testing both the web I made the web app and the phone app each with Codex and Cloud Code. And it was interesting because OpenAI, like Codex had better taste, but it was extremely confusing.
+
+Like, I kept having to ask what do I do now or what does that mean constantly. I never made it to the phone app at first either because it messed up on the app version setup and it, like, didn't set up for a compatible X Foco version. Interesting. So and it shows like a two new animation package for the stars, things like that. Whereas Cloud Code was better at building web previews and really easy to understand and just better at solving problems I couldn't conceptualize on my own.
+
+I honestly didn't know how to conceptualize the three to four times a week thing. I was like, yeah, need this but I don't really know how it will show up and not make me feel bad. And it was like, oh, why don't we do it like this? And it was right. So I was impressed with Claude Code more, but I will say it was I don't know.
+
+It was not it didn't have a great taste without hand holding. Like, the one it made at first was functional but extremely ugly, whereas Codex's was like beautiful. So I had to do a lot of hand holding to change the design. But, I mean, the functionality was better at first, so that was interesting. That is really interesting.
+
+Cloud Code has a very, let's say, unsophisticated design sense by default. Okay. We should get out of here. But before we go, let me give you your task. And and as a reminder, you have four weeks, give or take, to pull this off, and then we're gonna we're gonna regroup in four weeks, we're and gonna see how everybody did, and there are going to be prizes at the end for who did the best.
+
+And if there's anything down. Stars will rain down upon you if you win. Here is the task. The task is to vibe code a website for something going on in your life. Hayden, you you're getting married is a thing that's gonna happen.
+
+Would you like to vibe code yourself a wedding website? Knock yourself out. My I already know what mine is gonna be, which is I will just spoil it for you now. I'm gonna go vibe code myself a way to share photos of my kids with my family without having to either, like, create a private Instagram page or just try to, like, teach everybody how Google Photos works. I don't know how any of that's gonna work or what I'm gonna do, but that I have a I have a month to attempt to figure that out.
+
+But the the the prompt is very broad. You just have to build a personal website for something going on in your life. Are we being judged on security flaws? Let's stay with you you can safely assume this is just for you. And if it is designed for someone else, fine.
+
+Like, I'm gonna have to make a version of my thing that is accessible and useful to my parents, But this will not be for public consumption. So to to whatever extent that makes you feel better about leaving the security warnings untouched is up to you. But you will not be judged on the relative security of your website, at least not yet. Yeah. Alright.
+
+I'm excited. If you have tips for us, if you have thoughts about what we should do, we are all vastly in over our heads on all of this. We're all being very vulnerable on this podcast as we go through this stuff. So help us out. Verge cast of the verge dot com.
+
+Call the hotline 86611. Jake and Hayden, thank you for doing this with me. And as always, the best thing you can do to support everything that we're up to here at the verge is to subscribe to the verge. Theverge.com/subscribe. It gets you access to all of our podcasts ad free, including this one.
+
+It gets you all of our exclusive newsletters. It gets you some big stories. I've been writing about vibe coding, all of the other stuff. Jen Toohey, like, vibe coded her smart house. That was awesome.
+
+We have lots of great coverage. Can get all of it. Theverge.com/subscribe. Thank you in advance. Vergecast is a verge production and part of the Vox Media Podcast Network.
+
+The show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, Travis Larchuk, and Aaron LoCascio. We'll see you tomorrow. Rock and roll. Uncovered windows can make your home feel up to 20 degrees hotter. Stay cool and save up to 50% off custom window treatments during the fourth of July mega sale at blinds.com.
+
+From outdoor shades to room darkening blinds, finding the perfect fit is easy. Get free samples, expert design help, and professional measure and install services, or DIY with confidence and support every step of the way. Shop up to 50% off-site wide plus huge savings on doorbusters right now during the fourth of July mega sale at blinds.com. Athletic Brewing Company crafts award winning nonalcoholic beers for those who wanna be part of every round. With over 185 flavor awards, they're exceptional NA beers that fit your lifestyle and any social occasion.
+
+Summer's full of good times, and Athletic fits right in. Go to athleticbrewing.com to have brews delivered to your door, or find them at a bar, restaurant, or store near you. Near Beer. Athletic Brewing Company. Fit for all times.

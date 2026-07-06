@@ -1,0 +1,297 @@
+I think that creativity is building a story. The tools alone aren't a story. Someone has to direct them. It's not about mastering those tools. It's about directing an agent who can use those tools to achieve your creativity.
+
+Generated ad has become so good. You can be sort of authentic to the moment while getting a little bit creative of stuff. So I I just think a lot of photographers are having more fun post capturing than before. How do you make something unique with the tools you have access to now? There has to something be more than just text.
+
+If you go to, say, a studio and you say, make me a ten second video about a dog jumping in the grass, they're never gonna take that deal. They're they're gonna want more specific, and I think AI tools are no different. Something I heard from someone today earlier was they assume AI to be sloth. It's up to the humans to create something out of it. What are your thoughts?
+
+I I feel like that's such a hard question. Creative tools have always changed the way people make art. Photography changed painting. Digital software changed photography. And now AI is changing how images, videos, and entire creative workflows come together.
+
+The technology is improving at an incredible pace, but the most important ingredient in creative work may not be the model. It may still be the person behind it. In this episode, Yoko Li speaks with Matt Tensik of Luma and Zac Xie of PhotoLabs about AI generated imagery, creative workflows, personalization, and why they believe the future belongs not to the tools themselves, but to the people directing them. Today we have Zac Xie, who is the founder and CTO of Photo Labs. He works on personalized AR and AI photography.
+
+We also have Matt Hensick, who is the head of applied research at Luma. He works on agentic systems, fundamental research, and he was also the co creator of NERF. Thanks for coming on the pod. So maybe let me start with this question. Matt, many years ago, maybe three years ago, you had this online talk about NERF.
+
+And how you started this online talk was you posed a really interesting question, which is what is the role of the artist and what is the role of technology? Now fast forward three years, which is a lifetime in AI. What is your answer then and what's your answer now? Has it changed? Yeah.
+
+So if I recall correctly, my answer at that point was that really the point of this AI technology is to act as a tool for artists to better execute on the creative vision that they have. And at the time, NERF was providing an ability for people to create three d assets in a way that didn't require tons and tons of manual effort. Right. Because when you're creating three d scenes, creating those assets isn't really where the creative part is. It's how do you put them all together?
+
+How do you build a story around it? And that's where those tools were helpful. Right. I think now there's just so many more tools that just allow you to do that, not just in three d, but also in video, in images. And I think this, yeah, thesis that these AI technologies can be used as tools is even more so than it was in the past.
+
+Yeah. Interesting. And, Zach, I know you work at Adobe, and then you did a lot of research that later, you know, went into Lightroom Mhmm. Which is also a creator tool Yes. Creators have been using.
+
+What's your view of this? Yeah. I think artists really are where their creative minds are. They have a lot of creativity, and technology is sort of a way to help them express that kind of creativity. I think maybe in the past few years, people like, artists were also spending a lot of time trying to master in the workflows, the tools.
+
+I don't think that's necessarily where their creativities are. So now their tools have become easier to use, more expressive than before. It's just so much easier for them to express their creativity. But I still think technology cannot replace their creativity minds today. Interesting.
+
+What would you define as creativity here? Because what the models are creating, not creativity, and is what user kinda composing together, that's what we call creativity? I think that creativity is building a story, and there's so many different ways to build a story. And you use tools to help construct that. Yeah.
+
+And the tools alone aren't a story. Right. Someone has to direct them. Yeah. I really think that this directive mind is just so important.
+
+Like, tools everybody can use the tools, but the stuff that gets created from these tools are very different. And the difference of the things that are created, that's where the creativities are. People have different thoughts, different stories, or even just a simple thing they create, which doesn't necessarily have a very strong story behind it, but they use a tool differently than others to create that thing. I think that's where creativity is. Yeah.
+
+So Matt and I, we had this discussion earlier. So Matt is also a photographer and painter in his spare time, so he takes a lot of pictures. It makes me wonder what is like AI creativity when it comes to photography nowadays, right? There's one school of thought where whatever you capture in the real world is the end result and I don't want to go change the pixels. There's the other view, which is like camera is just one way to produce the reality.
+
+Other ways, it might be painting, like before the cameras came around. It might be Nerf. Wait. If you want something three d and then go scan all the objects, it might be a model. So what is your view here, and how has the view changed?
+
+Yeah. I can maybe say a little bit about photography. I feel like photography has always been a very creative process. I'd say a lot of the creativity on photography was more on the capturing side before this AI boom. Mhmm.
+
+And that people were just trying to find the important moments, find the good landscape views, and find the right angle, composition, use the right tool, wait for a very long time to take that photo. That's where the creativity and the photographers are really part of that. They wait and wait for that moment to arrive. Exactly. Exactly.
+
+But I think the reason that most of the creativity was at capturing time is because the decisive moment once that happened, afterwards, there are not so much you can do to it. I feel like that part has changed a lot in the past three years. Yeah. Genetic AI have become so good. You can be sort of authentic to that moment while getting a little bit creative of stuff.
+
+So I just think a lot of photographers are having more fun post capturing than before. Interesting. Yeah. Super interesting. So I also know both of you start off your career doing PhD and doing a lot of very in-depth research.
+
+And then since you went into an industry, there's a lot of user facing work on building the actual product, shipping the product, learning from the users. From our perspective, it seems like the research community, they care more about the benchmarking optimization part of it. And then there's art of building the product. How has it been like for both of you when it comes to transitioning from research to a product builder? What did you have to learn and where do you think the gap is?
+
+Maybe we can start with that. As a researcher, your goal is always to push the technology. And so wherever there's the hole in the technology, you push it. That doesn't necessarily align with what, say, a customer or end user would actually be interested in. And so quite often you see these things diverge.
+
+For example, in image generation, a artist probably doesn't care about generating paragraphs long, a really dense text, and some esoteric font. Right. Maybe some do, but most don't. But as a research question, that's extremely interesting. So you do have to decide, do you wanna keep pushing the research in certain directions, and when do you take a step back and push the creative side?
+
+Yeah. Because in many cases, what an artist or creative would want is actually very simplistic, and the tools already exist out there. And it's just a matter of piecing together in the right way. Yeah. Like, background itself is a boring task for most researchers, I guess.
+
+Yeah. Yeah. But it's extremely useful for any creators out there. Or even just fixing up lighting of an image. It's something that also doesn't have a very concrete solution, so it's hard for, say, a researcher to optimize a metric against.
+
+But when it comes to a creative task, it's extremely useful. Yeah. And what about photography? I guess, like, curious, what's your learning there? Yeah.
+
+Yeah. What I've learned and I'm still learning is that there's such a fine balance. Like, researchers, they get excited about new technology, so they just as said, they just wanna push it forward. Users, they want you to solve their specific problem they just ran into. Now there's some balance that we need to do there.
+
+We can't just solve the day to day problem the user are creating. We also want to be technology needs to be ahead of users a little bit so that maybe you can reimagine their workflow. Right. Right? But at the same time, you want to make it balanced.
+
+You're still solving their problems. You're not just producing a product that no one is gonna use. So that's such a fine art with photography. There's something like that. I think the beginning of this AI era, we get a lot of pushback.
+
+Photographers, I just wanna capture. I don't wanna edit. Now they're slowly getting him to, oh, it's fine to remove some distracting object in that image. It doesn't matter to me, and that's still my creativity part. So people are transitioning as well.
+
+Technology needs to stay a little bit ahead of that spectrum. That's such a big point. It is a chicken and egg problem. You can't implement a 100% of what users ask. A seasoned Photoshop user may ask you to reinvent a lasso tool.
+
+Yeah. Exactly. And the question is, do you want to do that? Is that the mental model you want your model to have there? Like, maybe the next abstraction is there's no lasso tool.
+
+Like, we're not implementing the world in the the old Photoshop world. Yes. So I guess, like, when you work closely with the creators out there and as you're learning from them, what is the surprising thing about their workflow? Anything that you push your product out there but wasn't designed for but had a lot of adoption that you were pleasantly surprised by? Yeah.
+
+I think one of the first things that comes to mind is that you tend to think that like an artist or creative has a end goal in mind. Like, they know exactly in their head what they want, but in reality, that's not true. Part of art is that iteration. Yeah. And so making sure the tools are able to handle that level of iteration ends up being extremely important.
+
+Yeah. And this also makes it very hard to, like, benchmark these things because their opt in isn't that ground shooting in their head. Yeah. For us, it's a little bit specific to photos. So, like, we do a lot of identity preservation, identity consistency.
+
+When we set out to do it, we're more targeting at image editing of real photos that people want to preserve the identity in the image. What surprised me is that people are actually very willing to generate a new image, put them in different environments, generating AI headshot, generating AI video of themselves using Foda's technology. So that kind of surprised me a little bit, and people are getting very creative with that. So The video use case is actually a surprising one. Do you want to explain it further?
+
+Yes. Yes. Yeah. So we start we right now, our technology mostly just work on images, and but people are getting creative. People are like, oh, the video models are so good are so bad at identity preservation.
+
+What I can do is I I'm gonna use Foda to generate frames of those videos, and then I'm gonna use a video model to take those frames into a video so that identity is good, something that we didn't think of at the beginning. Right. They figured it out, so creators. Yes. Yeah.
+
+Interesting. I I think one thing to chime in on that, I I've seen it multiple times now where people find very interesting ways to use tools, not just our tools, but our tools in addition to other tools that you never expect it to work. And for every reason, it shouldn't work, but people find crazy ways to get these things to work. Do you have an example? There's so many.
+
+I I would have to pick a little bit more. Yeah. I'll come back to prompt zero. So I guess when it comes to the tool abstraction, what kind of tool like, I almost see the end user as type of agents who need to use tools. It's just you provide the tools.
+
+And sometimes they will use the agent, like their AI agent, to kinda leverage the, you know, tool calls as well. So there's a tools for humans and a tools for agents. How do you see those differ in your, like, worlds? Yeah. I I think it's interesting to look at how creative tools have existed traditionally.
+
+You look at your Photoshops, your Illustrators, you look at your Blenders. What whatever modality you're interested in, if you hop into those programs, they're extremely complex. Right? You can literally have a whole career learning the ins and outs of these programs. Right.
+
+And so that's great for people who've had that time and that experience to invest in it, where agents come along and the ability to, like, have agents work with tools is then the ability to tune the tool to the user. Yeah. Some users, all they care about is, you know, relighting an image, removing a background. Some want extreme levels of control. So then the question is, how do you interact with an agent or whatever AI tool that you're working with that can choose that level of abstraction that makes sense for you?
+
+Yeah. I feel like, as we said at the beginning, creativity is about, like, directing something to achieve your creativity, your creative mind. I think this directing thing is so important. I think that's where sort of agent comes into place. Like, it's not about mastering those tools.
+
+It's about directing an agent who can use those tools to achieve your creativity. That's just so important. Another thing that I feel like is some lesson that we learned in photography is that, you know, a lot of people edit photos. A lot of people just don't want to edit photos at all. They have creativity in mind.
+
+They're just they don't want to do their work, or they they're too busy to do that, but they still have a creative mind. So if you have some kind of agent that can understand your creativity and can express your creativity without, very low effort from you to help you achieve that, I feel like that's even better Yeah. Like this kind of automatic or passive agents that run-in the background. I guess just on this point, my observation so far has been, at first, we have simplistic tools where users can go in and prompt and they get an image and that's it, one shot. And later we start to get crazy notes on like, concrete workflow and it's like, can't even like understand it as a human.
+
+And then we start to have Canvas and it's more, you know, it's not, you know, like a graph that you can easily map out. It's more like a set of things you can parallelize once in a while. So how do you think about the next interface for both like, agents and humans? Like, would the agents be, on the camp of using Adobe Photoshop and humans just don't need to learn how to use it anymore and just ask the agent how to do it, or would it be a different interface altogether? I I I think it's false to assume that every user is gonna want the same thing.
+
+Exactly. You look at directors of movies, and some directors are go super deep into the weeds of making sure that, you know, every glass is in the right place. Whereas other directors, they don't care about any of that. All they care about is, like, oh, is the actor doing the line in the right way? I see.
+
+And I think all that is true in these sorts of creative tools too. And so you have to create an agent that can work with these different directors. The one that has that ability and that control to go in and manipulate these things at very fine grain levels, or the ones that maybe are more on the, like, I don't know, the literary side or whatever it might be and just wants to talk and, like, interact and have fun with the the tool and see what comes out of it. Yeah. Personalization is absolutely key here.
+
+Different people have different levels of acceptance of, like, complexity of tools, and they also have different kind of preference and taste. So, yeah, you have to be personalized to them. And I think Matt is speaking about, like, the agent needs to understand the user really well, be flexible about that. I also think the agent needs to have really good memory. So, like, if I tell you once, shouldn't need to tell you again in the future.
+
+So, like, I think that's also just really important. Yeah. I guess just to push on that point a little bit, obviously, if you travel down the abstraction layers far down enough, you can build anything or everything with C and compiler. But it would be weird to assume that agents are gonna rebuild your creative tools for yourself every time. So there has to be somewhere in the layer you take, like, draw a line in the sand and decide that this is the layer we're gonna operate on.
+
+How do you think about what that layer is for each of you? I don't know if I have a concrete answer because I think it's constantly changing. There's a lot of arguments for different sort of underlying representations. Right. And some make sense.
+
+In some cases, others masons than others. Everything from, you know, is it a three d world that you're trying to model? Is it images that you're trying to model? Are you trying to break up the images into layers? And I'm not sure we really hit on as an industry what the right representation is.
+
+Yeah. Yeah. And I think there's a abstraction of what's a model, what's a tool. Right? Like, a tool can be a little bit more than a model.
+
+A model can do a lot of things. Right? A lot you need a lot of tools traditional tools to do. So I think that's we're we're gonna see how that sort of roll out. I personally think model is replacing a lot of the old tools for not so precise control.
+
+Mhmm. But I feel like also at the same time, are putting more precise control in back to the model. So it's a back and forth process. You know? Both of you have been doing a lot of model and app co design and then, you know, your own Lightninghouse trained model on the app you also built.
+
+The question is, how do you think about what good looks like when it comes to the generation that because there are so many different ways to judge that. And is it a software, is it a model, or is it something else? Yeah. Being a researcher, there's always a focus of how do we convert good into a metric that you can measure because then the agents and the research teams can optimize against it. Mhmm.
+
+However, there's no way that that'll ever tell the full story. And so you do have to involve humans in the loop during development. It's how do you bring in creatives and peoples whose taste that you're trying to mimic can come in and help advise in that way. But that also isn't can't be the full story because one person creating one video is gonna have a different vision than someone And so this is where the personalization really becomes key. And the question is how do you learn those what the user cares about maybe as they're using the app, maybe as they've provided additional context out to the type of stuff they're building, or based on the history of the stuff they've built in the past.
+
+Can you measure taste? I guess when you have the taste makers come using the tool, they'll have different workbills. Of course you can optimize for every one of them. But is there some way to measure what taste is for a particular tool? I think you can measure taste given some constraint, like given a population, can maybe measure the taste of that population, but then you can also measure the taste of an individual user.
+
+And so depending on how coarse you get in that measurement, it just becomes a bit more muddled. I see. Yeah. I think for for us, evaluation there is evaluation before you ship something, and there is evaluation after you ship something. So when evaluation before you ship something, a lot of times I don't know.
+
+For us, we're specific for our compensation. So we really care care about having each each individual test or user to say, are they happy with the result? It's very hard for us to come up with, like, a universal thing for especially for very subjective things like taste, preference, and even for very personal thing like identity. We always ask the person to evaluate their own identity or the person to evaluate very close ones in their life the identity of them. And then there's evaluation after you ship the product.
+
+I think especially for very subjective things, that's so important for personalization because the personalization technology is gonna be applied to different users differently. Have we made the user happy? Are they are they user satisfied with the result they're getting? And can you collect that kind of feedback in an ambient way that's just like, nonintrusive way is just so important. This is such an interesting find.
+
+I was actually talking to someone earlier about their photo result. His view was happiness and just seeking are two different things. When he saw the result, and he was like, this is exactly me. It's like the best model output. The likeness is a 100%.
+
+Violet too fat in the day. So he's not happy with the results. So there is some kind of like, you know, filtering, like something that makes the user happy may not be the benchmark Mhmm. Thing that, you know, like, you might be straight how are you guys solving that? Well, like, at the end of the day, we think, you know, user is the one who is control controlling things.
+
+You know? If they want them to look in a certain way in the in the photo, I think that's that's their choice, and we need to empower them to do that. And, again, this is a very subjective thing. Beautification is has been a long, long time debate of the, like, the spectrum of of it. Everyone has their own taste.
+
+Yeah. Personalization is key here. Yeah. You know? I imagine personalization is more of a scope problem compared to having empower everyone, everything to do things on the canvas.
+
+How do you think about evaluation when it comes to there are so many unlimited workflows one can do on the canvas? Yeah. I I think somewhat similar. You have to look at how people ultimately use the tool. We can't come up with as many guesses on how to evaluate before we release it, but at the end of the day, you have to see once it's out there, are people using it?
+
+Where are people using it? Where are people getting frustrated? Where are they feeling like the level of control is sufficient and where is it not sufficient? And trying to gather as many of the signals as possible across the different domains that people use the tool. Interesting.
+
+So this totally makes sense. I think of a very, I guess, like a broad tool as there's a distribution of use cases. When you launch the tool, there's obvious ones that you probably would have tested before launching. And there may or may not be a fat tail on the distribution. The question is, are there specific use cases you want to move from the fat tail to the head?
+
+Have you ever run into use cases like that? Yeah. I think one interesting one was seeing how brands would bring in same brand guidelines. It's not something we really considered very much. Yeah.
+
+But then once they brought them in, you realized this was a extremely useful source of information for really getting to what a user is interested in. And so there's some questions there of not just how do you enable that pipeline for these, say, brands or other companies to include that information Yeah. But how do you also get that type of information from others who aren't used to working with those sorts of pipelines? Yeah. I should say.
+
+Yeah. For us, there was some users who are trying to our current API only supports human and pets for identity. There's some user who are trying to hack our system so they can use it for personalization for product photography. Oh, interesting. And they're like, we we want this, and so that now that's on our road map.
+
+You know, we want we want I mean, it makes sense, but so that's kind of an example where, like, we didn't see that kind of use case. We first launched it, and there's market pool, and then we just want to increase our priority on on those. Yeah. How do you see the difference between, I guess, human likeness and product likeness? I mean, our brain is involved to recognize human faces, so I imagine there's Yeah.
+
+Lower margin for error. Right. But what about product? What what's the learning there? Yeah.
+
+I mean, so first of all, there are a lot of similarities between these two. First is, like, everybody say, oh, the general foundation model is already very good at identity until you try to use it to generate image of yourself. Same thing with product photography. Oh, it's pretty good at generating this specific product until you are the product owner and you're trying to generate photo of that particular product. It just stops working.
+
+Yeah. So that's a non obvious one. The difference is, like, identity is a little bit more, I would say, subjective and dynamic. It's really, really hard to put into words what is identity. Right?
+
+Like, product on the other hand, you know, you need to get the text right, you need to get the shape of the product right, to get all of those right. So it's a little bit different there. And there are unique challenges in both. For example, text rendering is so important in product photography, not so much in identity preservation. I imagine the question becomes, do you want the model to do it all or do you want the subsequent workflow to take some of the things that your model gonna do?
+
+Just curious about both of your opinions on what kind of task when you run into it, you feel like it's something a model should solve and what kind of tasks you're okay with having the workflow solving it. We've seen a trend in language models where they've transitioned to thinking modes. Right? If you use ChatGPG or one of these models nowadays without thinking, it just doesn't feel smart. Right.
+
+And I view that as kind of this in between of it's like a workflow, but it's still using the core model. And I think creative tools can go in that direction too Yeah. Where you you generate stuff, but you can evaluate it, you can build off of it. Maybe the user's involved in that, maybe an agent's involved in that, but it helps you get to the final result. Got it.
+
+Yeah. I think there's a separation of model versus technology. Like, you in terms of personalization, it doesn't matter. It's like a a general model that solves everyone's problem. As long as the technology is the same, we can apply the same technology to different to different users.
+
+But, again, you want to make that tool that or the model so that you can unlock the creativity in people so they can figure out the best workflows to solve a particular problem that you haven't even thought about before. Yeah. How do you see controllability? I mean, phase one in AI is we generate things, and we just keep re prompting the model for the thing we want. It's almost like a lottery.
+
+Phase two is that we put more control either on the model level or on the systems level to make that work. What does it mean for a AI created creativity tool to have, like, better controllability? Yeah. I think it's an open question, and there's different ways you can add control. But the short answer is you definitely need to add control.
+
+Mhmm. I think that was the number one complaint from anyone who's actually trying to use these tools for any sort of professional or or to replace any part of their existing creative workflow is that you don't wanna operate with text. There has to be something more than just text. Right. Or if it is text, you need that level of control, which can be very difficult in text.
+
+And so we've experimented a lot. Most recently, we've been doing a lot of work in the video to video space because we think that's, like, a very good way to start incorporating pretty precise controls, in the time dimension. Right. In the spatial dimension, I think there's a lot of interesting things with being able to scribble, being able to, like, point to certain regions, and so adding more and more of these controls on top of the model so that the user can do, while also opening up these controls for an agent so that you can instruct an agent to do these sorts of edits. Yeah.
+
+I think it's also about helping the user to say what they want. I think a lot of the time, the model doesn't do exactly what you want. It's because of, like, the user's prompt or whatever is a little bit ambiguous. And it's also so other than the you need to tell the model what you do, I feel like this is the underexploited research direction is if the model can tell you what it needs to get your inputs Mhmm. To act acting asking for your inputs before it does something.
+
+I I feel like that's also really important. Because, like, when you when you are working with a creative professional, as an amateur, a lot of the times, they ask you questions, and you can you can tell them your opinions, your preferences, and they sort of achieve their preferences and opinions. I feel like that mostly, today, it's almost a one way street. It's like the user tell the model what to do. I think that's a really good point.
+
+If you go to, say, a studio, and you say, make me a ten second video about a dog jumping in the grass, they're never gonna take that deal. They're they're gonna want more specific as far as I already yeah. You have to figure out how to apply that in the AI. Yeah. Interesting.
+
+Do you think model app co design has benefits when it comes to introducing more controllability? What's your view there? I think so. I think being able to have the users interact in your app and work through their workflow in your app, you learn which things a user actually cares about. You learn which steps do they have to redo multiple times and why maybe they chose the step that they ended up choosing.
+
+Yeah. And that can help a lot with model design. Right. Yeah. I think the other direction is also really important is, like, your product can also help educate the user what's the best way to sort of use their model.
+
+I feel like we're seeing that all of that was, like, coding and stuff. Right? Like, you know, people are used to, like, to do everything, like, Versus Code or whatever. And now, like, call code just in the terminal, you can you can do do that code. And it's the best way is to sort of use that model because you cut cut through a a lot of other things.
+
+I still feel like app and model code design has advantage too. Yeah. When we think about AI creative tools, the first thing that comes to mind, at least for me, is it's very visual, just being clear. Very visual animals. And now we're used to working with agents.
+
+It feels like almost like agents are aliens who don't perceive the world the same way that we did or we do. So I'm curious, like, is there a world where creative tools become primarily headless? What would that look like if you, you know, leverage want to leverage agent type loops? Yeah. I I think, again, going back to like if you were to work with a studio, you are talking to an agent.
+
+Right? You're talking to someone who is working with you, but they're not talking back to you in text. They're showing you examples. They're walking through, hey. Do you like these ideas?
+
+Do you like these ideas? And I think that's the direction you'll see these AI creative tools go. Yeah. Yeah. Like, when I when I try to brainstorm something and, you know, you try to write a code to to, like, generate HTML page showing me the graph graphics of it, I want just a sketch out of it.
+
+Right? Like, that that's probably the best way to iterate. Right? Like, sort of an image is more than a thousand words. Right?
+
+Like Sure. Yeah. So that's that's just so important. On the other hand, I feel like people haven't figured out a way what's the best way to feed the viewer information to a model. I still feel like model today is a little bit blind.
+
+I mean, it's getting better Right. By having high level semantic understanding. But, visually, it's just such a, I would say, redundant information. There's, like, pixels that are very redundant, so unlike languages. So how do you sort of give the model that kind of information so the model is not blind anymore?
+
+That's so important. I I don't think we have figured out that yet. That is so interesting. It does remind me of like the importance of having the right representation in a creative tool. I mean, Matt, you worked on NERF and before that people were on Lesh's and now there's a spectrum on how efficient a representation is on NERF and, you know, like Gaussian slide is great in details, but it's really hard to work with because it's not like a beautiful mathematic function.
+
+How do you think about representation or different kinds of representations for, you know, the feature iteration of the design tools you want to make? I I I think the representation question ultimately comes down to the control question too. It's what do you want to be able to modify it in the future? Yeah. If you're designing a poster and you know you're gonna be changing the text on it, you probably want a representation that's not pixel level or changing that text.
+
+Yeah. Right. If you're just modifying pictures, then pixels make sense. If you're navigating three d scenes, then for for, say, say, movies, you may want a three d representation. So I don't think there's necessarily one answer.
+
+It's whatever makes sense with a given level of control. I think that's so important. I think right now, a lot of people are more focusing on what's the best reputation for the model. But as Matt said, I think the consumer of those reputation is not just the model, it's also the human. So, like, can you represent it in a way that human can understand and then be able to control that representation, do stuff to it?
+
+Like yeah. One thing I am curious about for both of you is how do you develop the intuition for building for the creators as former researchers? But Matt, I know you are also artists in your own right. So like, how does that affect what kind of research or what kind of product you ship? I think it sorta gives you some insight in the control aspect.
+
+Like, one of the first things I remember being drilled in during sort of art classes when I was younger is the blank canvas problem. Yeah. There's a tendency of wanting to well, getting stuck by that, but then once starting very meticulously, like, doing one section at a time. Right. But in reality, it's better to just sort of go at it, just try things out Yeah.
+
+Mess with it until you get to the thing that you're ultimately happy with. Right. And I think AI tools are no different. The iteration cycle's quite fast, but you really want to iterate. It's not just put in a single prompt to get a final answer out.
+
+You wanna iterate on top of that. So that definitely impacts how to think about building the tools. And then I think another aspect is figuring out what language to describe what works or doesn't work in the tool because this can be very important for evaluation Right. Where, I mean, throughout arts over the in the past however many years, like, people have built out these ways to describe Right. Composition, lighting, etcetera.
+
+So having that knowledge and and incorporating it into the design of the models, I think, can be very helpful. Yeah. Talking yeah. Talking to users is really important. We talk to our users.
+
+We feel like, oh, we we definitely recognize the black blank canvas problem. Like, when you when you ask the user, how do you want to improve this photo? They don't know. When you make some edit to that photo, now they have opinions on, like, whether they like your edits or not. Is that what they don't like?
+
+They they know what they don't like. Exactly. So, you know, talking to users is is really, really important. And I also think having a very good understanding of the technology so that you can make this fine balance of, you know, staying ahead of a little bit ahead of the users, I I think is also really important to build that kind of intuition, not just from the user perspective, but also from the technology perspective. How do you see the process versus end results?
+
+Just because in art, if your human is creating art, a lot of it goes into the process of creating it, and then final result is when you decide the process come to a point of your satisfaction. How do you compare that with how agents create art? I think in many ways, it can be quite similar. And I think even when agents create art, there's still this human involved in that process because that process is the part that's fun, I think, for artists. You look at, like, breakdowns, VFX breakdowns, and you you see how many different steps and layers went into the final pixels.
+
+Yeah. And it's fun. And I think people who do that kind of work find it very exciting to kinda see how everything breaks down. I think the way things break down in the future with AI tools will look very different, but it'll still exist. And so it'll be this kind of back and forth between agents doing some parts of the work, but then humans also ultimately tying it all together.
+
+Yeah. Yeah. And this may not direct answer your question, but there's always this debate of like, okay, we're working on AI photography. Is photography gonna die? Regular photography gonna die in the future?
+
+I don't think so. There are a lot of people who are doing photography not just because they enjoy the result. They enjoy the process so much. Right? Like, even digital cameras have become so good nowadays.
+
+A lot of people are still taking films. Mhmm. Film is such a interesting process. Right? Like, it has this this unique thing of you have to capture that moment, otherwise, And you don't see the result right away.
+
+You have developed the film. So a lot a lot of it is interesting. So I think people are still enjoying those processes. But at the same time, there are people who would just want the results And, you know, how do we empower them with the AI creative tools to make that easy for them, to unlock their creativity? I think that's also where I'm excited about the AI tooling for creators.
+
+Definitely a lot of latent demand. So the people who did not have the money to buy a very fancy camera to go out there and take pictures, and they also never took a film developing class ever, like they found their medium. Here's how we see the history too. Like the traditional, you know, creative tools, they were all there, but new entrants, you know, they come on the market, they targeted users who were not users of our traditional tool. They will want to learn, but there's an easier way for them to get there and get the results.
+
+How have you observed where that latent demand come from? Like in photography, who are the people who are, you know, I don't have money to buy a camera, but yet I want some sort of results from photo. Yeah. Yeah. I think photography is such a it's not just art.
+
+It's also a document of our record of your important moments in life. So that's very different. And a lot of people, they want a good recording of their moments, their lives. They may not necessarily have the skills to take that photo. They may not have the equipment to take that photo.
+
+And for them, they can only in the past, they try to buy a fancier iPhone, maybe the latest generation iPhone, they hopefully, they get a better camera out of it, but they don't have the skills to do editing. Those are the latent demand that we try to address. You know, we really feel like whether it's AI model or AI agents, creative tools that we can develop to make that easy for them, or even do the job for them so that they can get these good photos of their important moments in their life, that's what we want to do. Yeah. So one thing we had in the firm, which is like, we had photo shoots for people's head shots.
+
+And those are like, you're premium and you you invited a photographer and then the whole studio and lighting and makeup. And recently I found that there's more and more folks who are gorgeous like, I couldn't make it to the photoshoot this way, but I'm going to generate it on Photo, which, you know, it's like a very interesting segment of market where you need a physical presence to take a photo, either that's a product or a human or something else. Mhmm. Have you seen that too, like, on the new photo users? Yes.
+
+Yes. I think and also, like, photo Photoshop is if you think about it, it's a setup environment anyway. Right? Like, you are setting up the lighting. You're you you go there and you sort of take the photos.
+
+And and most of the time, you don't have all control of everything just because of the physical limit. Yeah. When you're doing it in a generation ways, there's so much thing so many things that you can do. You can change the lighting the way you want. You can change the angle.
+
+You can even change your makeup if you want. All of this, I think, is just so important and people are finding those use cases for sure. Yeah. I would love to hear from actual photographers' point of view too, because, Matt, you take a lot of photos. So I guess, like, how do you think about this old versus new world of AI photography?
+
+Yeah. I it's fun. I almost viewed there's definitely, like, the overlap where you can do them together, but then there's also this very interesting where you're, like, treated in a very different medium. Mhmm. When you start doing things that are purely in the AI world, you can start thinking about what would an image look like maybe halfway across the world or in specific studio lightings, situations that you would never actually be able to do Yeah.
+
+But you think it's like a cool idea or image. I find myself sometimes going and, like, seeing a cool image out there and trying to think how would I actually replicate this in AI? What are the right, yeah, terms to use? And and you kinda go through a rabbit hole to get to that point. So it unlocks like a new area that I haven't been able to explore before.
+
+Yeah. How do you think about the role of traditional tools in the new world of AI creative tools? Are the traditional tools becoming infrastructure where, you know, they're always gonna be here and now we just train agents to know how to use them for, you know, bits and pieces? Or are they getting rebuilt? I think at the end of the day, all these things are just tools.
+
+And so it really just comes down to whomever has some vision and they wanna execute on that vision, what tool is right for them. For some people, it'll always be Photoshop. Mhmm. For probably a newer generation, it won't be. And so it'll just be kind of dependent on the person.
+
+Mhmm. And as you mentioned, maybe it'll be agents that'll be interacting with these tools. So I think it's hard to say. I think these things will always exist to some extent, but it'll find different uses by different users. Yeah.
+
+Yeah. I really like this framing. It's it's not like we're having this new problem of, like, oh, very new tools, very old tools. I feel like the tools have already always be iterating in the past. Like, there's always new tools come out, whether it's AI based or not AI based.
+
+There's always new tools come out. Just we're probably at a stage where the tools are iterating so fast. So I I do think some some tools, you may not need them in the future anymore. They're gonna be replaced, but a lot of tools will still exist. And even the AI models that we have today, they're gonna be replaced as well, like new models come out, so just an iterative process.
+
+What is the benefit benefit of having your own model as part of what you put in the toolings that you build? Like and is there a benefit in open sourcing a model? So I think one of the biggest benefits of having your own model is the ability to build off of it. Mhmm. At the end of the day, your product has a certain set of users and you wanna do the best thing you can for those users, the best way to do that is by customizing it, maybe making adjustments to the model that don't make sense for, say, a general open source model, but makes sense for your product.
+
+Right. And that's one thing that is not always easy to do on top of existing models and may require some specialization that only you can provide in your own models. Right. Yeah. For us, a little bit different.
+
+We we don't we don't directly do foundation model. We mostly work on personalization. The reason is because there are so many cool companies out there like Luma. We really think personalization is something that user should own. Like, that's the user's model.
+
+It be the user's model for them, but at the end of the day, they're using that model. They have full control of that. So, like, for for that particular thing, like, we want to build a technology to enable them to do that, but they own their model. Mhmm. And we want them to be able to combine that with any foundation model they they like to use.
+
+Right? It could be a specialized model that they must specifically be for for, like, a particular use case, for example. Right? So and to to really disentangle this personalization versus foundation is sort of the goal that we have. With the advancement of AI tools, what do you think will separate the best artists from everyone else in the next couple years?
+
+I can say from my experience already, it's very obvious when when people use our tools or not even our tools, any of the AI tools. You can tell pretty quickly someone who has who who's just throwing in a prompt and getting a result out versus someone who has thought more about, like, the whole holistic story. I always get amazed at what very creative artists can do with these tools. Many times, you see things that just don't seem like they would have been possible given the tools capabilities, but artists have figured out how to make it possible. And so I think that's really the thing that separates it.
+
+It's how do you make something unique with the tools you have access to now? Yeah. I I think I mean, it's it's hard to say there's good artists and bad artists, but, like, they're probably good artists and, like, average artists. I feel like with AI tools, they're definitely raising the lower lower bar of just just so that, you know, even someone like like me can create something pretty, pretty good with the AI tools. Yeah.
+
+But I also think that the gap between the very best artist and average artist is gonna be even bigger. Exactly because what Matt said, you know, like, they're so so much easier for people to express their creativity when they have a very good understanding of what they want to get, how they wanna get there, and they can use these powerful tools to do that. They can achieve something they wouldn't be able to achieve before, so the gap is gonna just get bigger. And, of course, they also need to have very good understanding, mastering all these new AI tools as well. I I think maybe one final point.
+
+You've seen AI generations that are bad. Right? I I think we've all seen them that are bad. I can guarantee the same tools that made those bad generations, they've also made generations that you would think are amazing. Exactly.
+
+Yeah. Yeah. Something I heard from someone today earlier was they assume AI to be slop. Like, anything AI models have would be slop. It's up to the humans to create something out of it.
+
+Just because if you just like say, I want a picture of a coffee as a like a cup of coffee. The first generation is just mediocre. You can have it in any stock image website. It's nothing unique or it's nothing personal. Right.
+
+So it really is up to the user to kinda make it like theirs to kinda put their mark and style on there. What are your thoughts on personal styles, like, in in terms of personalization? Like, what comes to the style? What constitute personalization for the users? I feel like that's such a hard question.
+
+Like, it's almost like it's I almost feel like there's no good way to define it other than you can learn that from data. So and it's not just like, okay, the user's existing data. It's also like when the user use it, what's their reaction to it? How do they like it or not? Because even if you ask the user what's their own style, I mean, they can put some keywords there that's not complete.
+
+So I feel like, you know, if the way to solve the problem is you really to kind of define their style and then model their style, that's probably not the approach I would take. Even from a research perspective, I feel like you look at the data, you find the attribution that the the data shows you, and then you probably have figured out that style. And even at that time, it's still implicit because it's part of the model. Yeah. I see.
+
+Interesting. I think it's also something that changes over time. Yes. Both as as a person changes. Like, I know the stuff that I thought was interesting five years ago versus now is very different.
+
+But then also, you know, I'm working on one project one week and another project another week, and I inevitably need a different style. And so maybe that's how you define, like, the styles for specific tasks and maybe personalization, sort of the holistic, like, what you as a user tend to like. Mhmm. But, yeah, I think it's it's a bit mix. Awesome.
+
+And with that, well, thank you so much for coming on the pod. This is such a fun discussion. Yeah. I really appreciate it. Yeah.
+
+Yeah. Thank you for having us. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+
+Follow us on x at a sixteen z, and subscribe to our Substack at a sixteen z dot Substack dot com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.
