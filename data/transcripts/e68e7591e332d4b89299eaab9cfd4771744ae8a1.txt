@@ -1,0 +1,317 @@
+90% or greater of use cases cannot be fully handled by many, many different models, including open source models. I think, like, for almost all other AI companies that are not doing frontier model training, they should see the model companies as a as a huge asset. So once you move towards consumption, there's no inherent bundling advantage. You have to do 10 times the work to get the same amount of revenue from your customers. This is 20 VC with me, Harry Stebbings.
+
+Now I have to admit, I started fasting, and the trouble with fasting is you can get a little bit hangry. Now I did this show late in the afternoon, and Arvind Jain, the incredible founder of Glean, is one of the technology luminaries of the last decade. He founded Rubrik before, which obviously IPO ed very successfully and is a brilliant public company now. He's gone on to found Glean, an incredible business today that's raised money from Kleiner Perkins and many other great investors. And I was, I would say, divisive in this show.
+
+I'm almost slightly nervous to listen back because I really pushed him in a way that I probably don't push other guests, but it actually led to one of the most phenomenal discussions that we've had in recent times on the show, which makes me think I should probably be hangry a little bit more, but it was a great show. I'd love to hear your thoughts. Do you like Happy Harry or Hangry Harry more? But before we dive into the show today, most companies have tried AI. Most aren't seeing results.
+
+Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close. Asana is the operating system for human agent teams, your easy button for AI productivity across every team. Ready to go AI teammates, prebuilt for marketing, ops, and IT. No prompt engineering, no setup.
+
+They show up where the work is happening, already onboarded in your workflows, ready to deliver. With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000. Asana, where humans and agents workflow together. Try it at asana.com. That's asana.com.
+
+While Asana aligns the road map, MongoDB powers the build. MongoDB has always been the database developers love. Well, now is the data platform AI agents need. Agents need accurate context, fast. MongoDB stores, searches, and reasons over your data in real time.
+
+JSON native database, vector search, and Voyage AI embeddings all in one place. One system instead of 10. No data pipelines to maintain. Ugh. This sounds too good to be true.
+
+Build and scale from your first user to billions of vectors. Run on any cloud, on prem, or your laptop even. That's why 75% of the Fortune one hundred run their most critical apps on MongoDB, moving trillions of dollars every single day. And it's why AI native companies like Eleven Labs run 40,000,000 agents on MongoDB. So if you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and dedicated support.
+
+Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, AlphaSense sharpens the strategy.
+
+We used AlphaSense on an investment that helped us close an $8,000,000 deal. $8,000,000, baby. That's a lot of money. That's why I'm genuinely excited to have them as a partner on 20 VC. AlphaSense combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news.
+
+Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important. So you can make really high conviction decisions with confidence. But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important developments surfaced, and your investment brief already waiting for you, see for yourself. Head to alphasense.com/20vc.
+
+That's alpha-sense.com/20vc. You have now arrived at your destination. Arvind, I'm so excited for this. We have a mutual friend in Mamoon who says many, many wonderful things about you, and I think he's one of the greatest investors of our time. And so I'm really excited for this.
+
+So thank you for joining me. Thank you for having me. Now I think with entrepreneurs, you're either thrilled by winning, and it's that chase to win, or you're terrified of losing, and it's that fear of losing that inspires you. Which one are you? That's a good question.
+
+I think I would probably say the latter. I'm always worried about what can go wrong, and that keeps me up at night. I I love that. It's the only the paranoid survive. Has it always been that way?
+
+Yeah. Mostly. Even with the success you've had, I'm sorry. It's so interesting. Like, you know, Rubrik was a phenomenal success, public company's day, and you're one of the cofounders.
+
+Yeah. It doesn't change with time. No. Because I think, number one, like, every time you do a new company or start a new project, it's sort of like starting from scratch in my opinion. Like, you have some good lessons from before, but it's a new world, it's a new environment.
+
+Like, think about Glean. Like, you know, it's fundamentally different from Rubrik and always possible. And especially in in the world of AI, I think you have to think that way, because, like, there is a disruption every single day. And if you start to focus more on sort of keep building on what you've already built, like the investor meeting mindset that, you know, you're bidding with something, want to sort of double down on it, I think that's not sufficient in this new AI world. For those that don't know, can you provide a sixty second summary on what Glean is and how you work?
+
+So Glean Glean is an enterprise AI company. We started as a search company for businesses, so help an employee quickly find information that they need. You know, that's sort of buried across one of 100 or thousand different systems inside their company. So that was sort of like how we started. The Google it's a Google for your work life.
+
+But then over time as AI models got better, so it it evolved into an AI platform. So today, the way to think about Glean is that first, it's a super set of ChatGPT, Clawd, Gemini, all of those combined into one product experience. It's a coworker for your employees, and it's connected to all of your company's context, how work happens inside your company. So mister Alex Karp from Palantir went on CNBC last week. Yeah.
+
+And he said that the largest enterprise in the world were more skeptical than ever of frontier model providers. Mhmm. You work with some of the largest. You have incredible customers. Yeah.
+
+Do you agree with him? Are they more skeptical than ever? Two things. You know, one, they're terrified of them, like in the sense that I I mean, just like every software company is worried about that, hey, will VP in business? Will the models eat it all?
+
+Similarly, enterprises leaders also worried that is their sort of core IP, their data, their information, as well as their way of learning, their way of doing things. Like, would it all be will they be subject to too much of technology dependence on these model providers? So that feeling is there for sure. I think what he said was that AI is not working in the enterprises, then everybody's afraid to actually say so because, you know, it's it's not a cool thing to say. Before we get to AI not working, because I think it's probably one of the most important questions, but it's a whole separate segment Yeah.
+
+Do you think they're right to be afraid of the frontier model providers eating their lunch or not? Well, yeah, mean, depending on depending on the enterprise, yes. Well, look like, you know, if we are talking about fundamentally changing how people work, and if we are saying that majority of the work that we do today is going to be done by an agent, which is fully powered by one of these frontier model companies, then in some sense, like you've now transferred a lot of your operations to these technology providers. This is more than technology dependence. This is actually real sort of operational dependence on the on the companies that are that are actually running those agents for you.
+
+It's actually interesting. The if you think about how work happens, over time, like, you know, there is, you know, like, when you initially do a task for the first time, you maybe you'll document the process, like, you know, how what are the 10 steps you need to take to actually complete some piece of work. And then over time, people start to sort of optimize and tweak that process. A lot of it never gets documented, and you just you sort of based on doing this work over and over again, you're built all these learnings that you apply in real time to to do this work. In the future, all of that institutional learning is actually going to accumulate in that agent that is doing that work.
+
+So if you don't have any control on running that agent yourself, if you don't own the learning that it actually gains over the years, then you're basically fully dependent on these AI companies to do in order to get your work done. So so, like, it's it's absolutely I think there's a fundamental question in front of enterprises today. How do they actually use these AI technologies but still retain control? And all the compounding learnings that happen with AI, they belong to the enterprises. Are you seeing enterprise customers root away from front end model providers towards open source?
+
+That's something that's happening now. So I think we are at a real inflection point with open source. Part of it, you know, like you're waiting on the open source models actually get better. Yeah. Like, you know, there's the desire has been there for many, many years.
+
+Nobody there's no enterprise, you know, that we talk to which is okay with saying that, hey. Look. I can get my work done with OpenAI or with Anthropic, and I'm good. Everybody wants to make sure that they in control of their destiny, that they get to use many of these models. And now given that AI has become so expensive, you probably hear stories all the time about companies coming up with a annual budget for AI and they run past that within a month or two.
+
+Poor CFOs. Yeah. So that has really accelerated that desire for open source. And that coupled with the fact that we now have really good models in open source. What do they care about?
+
+Do they care about cost? Do they care about ownership in terms of their data staying on prem in models that they actually can have visibility on? What is it? I think right now the open source drive is coming from the cost point of view. I mean, there are certain businesses, of course, you know, that have the requirements to actually keep, you know, all the inferencing workload within their own private data centers.
+
+When AI just came, those companies were a lot more afraid of getting their data outside of, you know, their own control and model companies training with their data. But that sort of is a fear that it's no longer there. People believe that the model companies are going to be responsible and not train their models on enterprise data so long as I've signed up for the right kind of contract. So right now the drive is coming from cost. In terms of where you sit in the landscape, every one of your investors that I spoke to said that I had to ask this question, which is the obvious question.
+
+Do you worry that Anthropic will do what they did to Figma, say, or what they've done with legal or what they're doing with health, and move into your space and cannibalize your business? First of all, think we should be careful in terms of what they've actually done for Figma or legal space or finance space. They are launching these sort of vertical packs, but I think they're Yeah. Shallow in my And I don't actually know of people who are sort of moving their workload entirely from Figma or, for that matter, from any other tool to Anthropic. It's actually sort of net new always, like, you know, or, like, I think is expanding the market.
+
+Like, for example, now in design, the designers still use Figma, but the nondesigners, you know, are using, you know, Cloud Design. Right? I mean, so that's sort of what we're seeing is that AI is making things simpler. So if people are not experts, you know, on the primary users of that particular tool, they can actually start to do some of that work with Cloud. So you don't worry that they all put emphasis on moving into enterprise and being that context?
+
+Well, they're already doing it. Or whether they're doing it or not, we actually face that competition every day with enterprise customers. People often ask us, well, I mean, CloudHealth can also connect with enterprise systems through MCP, so it's different. Like, you know, what can Glean do, which, you know, Cloud cannot. So we had to go and explain, like, what context really is and why it is actually complicated to actually build it.
+
+So we are we are competing. In fact, actually, I would say that they probably started to compete with us before others, because, you know, if you think about Cloud Cowork as an application or Cloud Desktop, the primary use case for that has always been question answering. Right? That's like the largest application or use case for AI in the world today is in fact information seeking and question answering. How important do you think being first to market is?
+
+It's actually very advantageous. It's a thing that it helps you, but it's a thing that's not gonna carry you. So for us, you know, we actually get a lot of credit for being the first enterprise AI company in the world, the first ones to actually bring rag into the enterprise, the first ones to build conceptual semantic search. And so that actually gives us that brand, the right to compete in this market, even though now, like, you know, we're much smaller compared to the the giants that OpenAI and Anthropic have become. So it's a it's a it's a huge sort of asset, but neither is it a requirement nor is it a is it a savior.
+
+How do you advise founders who are losing sleep at night worried that the frontier model providers will come into that space? Oh, right. I would say, like, absolutely don't worry about that. I think as a founder, you have to actually solve problems, not worry, number one. Yes.
+
+You know, like, you have to always, you know, anticipate, you know, what they're gonna do. You have to see their current capabilities. But I think, like, for almost all other AI companies that are not doing frontier model training, they should see the model companies as a as a huge asset, not a competition, in my opinion. You know, we actually believe that everything that Anthropic is doing, everything that OpenAI and Google is doing, as well as all the innovation that's happening in open source, is great news for us. Like, we don't worry about that as and don't think of that as competition.
+
+In fact, like, you know, they've allowed us to actually deliver a product that we could never, you know, without that help. Do you not think we're seeing the ultimate commoditization of the model there when you speak about Anthropic OpenAir and the rise of the model layer and the speed with which new models are coming out, especially binding from open source Chinese providers? Are we not seeing the ultimate commoditization of the model layer? So one thing is clear. Let's let's talk about enterprise use cases.
+
+90% or greater of use cases cannot be fully handled by many, many different models, including open source models. So there is definitely commoditization from that perspective. In fact, like, you know, we at Lean, that's actually one of our core value adds to our customers, you know, which is cost control. We will actually tell them that, Hey, look, you know, as people actually complete their tasks on our platform, we actually pick the right model for you. And if you're okay with using open source models, we'll use them, you know, when we think it's appropriate, when it's going to generate a high quality answer.
+
+What percent of customers are not okay with open source models? This is actually so new. Like, I would say that open source truly coming to within three months of frontier capabilities, that has just happened, literally like a month back, or not even a month, Right? You know what I would say, GLM 5.2 is the very first time where our own team, for example, feels comfortable that now we can run majority of our workloads on that model. So we we are yet to find what people are gonna tell us.
+
+Like, from a point of view of open source and using the model, everybody's gonna be fine. It's the question is going to be, are they okay with the Chinese model or not? That's the only question here. It's not open source versus closed source. Why would they not be okay with the Chinese model when you look at the ownership that you have, the ability to have it on prem, you're not sharing anything back to China, why would you not be?
+
+I think it's just what if something goes wrong, there's always paranoia and fear. What if there's a backdoor, you know, some backdoor that we don't even understand, like, you know, then that could be a backdoor. So so there are some concerns. There's also if you use these models and if it becomes a known thing, then, you know, it could be used against you in some ways, you know, by your competitors and things like that. So, like, you know, a variety of factors that is but ultimately, like, it's come it, again, boils down to who's willing to be bold because this is a new thing.
+
+Like, you know, large enterprises are have to make this move, and the early movers will make the move first, and then it'll become a more normal thing. I'm always doing this show to learn. If 90% of enterprise workflows can be done with open models, have we completely mispriced the frontier model landscape? That's a very different TAM. I do feel like, you know, the the model business on its own, regardless of, like, forget open source for a minute.
+
+There is plenty of competition even within the labs, and more and more companies are coming into that space. So, you know, in that fierce competition, even in a three three way race, I think you can actually get, you know, good amount of pricing pressure. And now, of course, you know, with open source, like, you know, it actually is an order of magnitude cheaper prices. So, I actually heard rumors that that OpenAI was going to drastically reduce their model prices in response to, like, these developments, like, you know, competition as an open source. The model business, you know, on its own is actually probably not as lucrative as everybody believes, But these companies now have a lot more things.
+
+It's not just that they're no longer model companies only. Totally get that. But if they're doing shallow things in those adjacencies, they're not exactly gonna generate a trillion dollars of revenue, Dario said. Yeah. Well, I mean, if if you think about, like, know, first of all, like, you know, these two labs, they're very fundamentally different businesses.
+
+OpenAI, of course, has amazing consumer product. And Anthropic actually, the interesting thing that is happening is people are actually building on top of their platform. And so when you think about Anthropic, right now, there are a lot of folks who are actually developing automations and skills, and and everybody's sort of they're creating these MCP servers to their internal systems, getting connect and connected all to cloud. So there's an ecosystem actually that's being developed. So they very much you should consider them an application level company, not just a model company.
+
+If you were to make a guess in three years' time, what percent of your workflows do you think are through open source? Well, we've been telling customers, I believe that majority of enterprise workloads will actually be on open source models in three years for sure. Yeah. Another competitive element that you face for getting the model providers is, like, actually, Microsoft have made a phenomenal business on the back of creating a 70% as good product, but bundling it into a bundle for enterprises and then selling it with a nice sticker on it. How do you think about the bundling pressure from a Microsoft Copilot as a competitive threat?
+
+Well, for us, they are one of our most significant competitors, and the bundling strategy actually works. And you have to fight against that. I mean, there's luckily, there's always been room for best of breed you know, software and and, you know, like people and our customers think of us exactly like that. If you are trying to actually bring a a great search product, if you're trying to build a horizontal comprehensive AI platform, they know that, you know, we do do it better. So companies are willing to invest on top of that, like, you know, as part of the bundled product suite from Microsoft.
+
+But the other thing, like, you know, is actually is maybe making bundling not as effective of a strategy anymore is the fact that AI is moving towards consumption based models. So once you move towards consumption, there's no inherent bundling advantage because, you know, like and as a business, I can get six tools, and I let the users choose where they want to do their work. Wherever they do their work, I have to pay for it for that particular unit of work. So consumption can ultimately break that bundling strategy. Respectfully, I don't know if it does if you're working with enterprise because they will make you compliant as an enterprise bundle.
+
+And so you'll go through approvals processes, sign off processes internally. For the large enterprises in the world, your VWs or your Fords or your Gs or Tyson chickens. I always use them as like a you know, I know random companies. But they'll approve approve Microsoft as one vendor. Yeah.
+
+If they're suddenly having to approve 15 vendors, forgetting the pricing and the transactions, it creates a vendor management problem that they didn't have before. That is true. But I think the I would say that if you go and talk to companies that have been on the other side of Microsoft, you know, onslaught, most of them will talk about pricing as the main killer, because I think it's hard to compete with free. Who's a fiercer competitor, Microsoft or the frontier models? Good question.
+
+I think it's early to tell that, but Microsoft is formidable. So, like, if if you look at our our experience with Asggo and Prospect, I think we hear this answer more often that, well, like, you know, we are a Microsoft customer and we already have you know, we're getting Copilot, and so therefore, like, it doesn't make sense for them to consider us. Like, we do hear that, and we hear that more often than we don't hear from somebody that, oh, like, you know, I've embraced, you know, one of the lab products, and therefore, there's nothing else that I'm gonna do. We mentioned Alex Kopsinski at the beginning, and I interrupted you and said, before we dive to it, we're not getting value. I think twenty twenty six H2 and 2027 is the year where everyone goes, hang on a minute.
+
+Is this spend generating output or return of How do we think about the return on investment that enterprises are getting? And is Alex Karp right in saying, everyone's going, What the fuck? Where's my return? I would say that there is pockets of value realization today. For example, take customer support as a vertical.
+
+I think there it was easy to measure productivity. You could actually say that, like, in your company, a support agent resolves 10 cases a day and now they're able to do 12 because of AI. You could see that in, you know, like a very concrete measure of productivity increase. And that's a use case, you know, where AI is actually pretty good because a lot of like, you know, that time that is spent by the support teams is about reading knowledge and then summarizing it to your customers. Yeah.
+
+So so there are definitely areas where there is clear value realization and and enterprise are feeling good. Some other ones are more complex. Like, for example, I think I think the majority of the AI spend right now is on coding. And you know that the coding as a practice has changed. Like most developers now actually use AI to write code.
+
+They're not writing it by hand anymore. In some ways, can you can say that, yes, like AI made a big impact, but are they shipping the products faster or not? And that's why we hear most of the companies saying that no, that the actual shipping speed of products has not increased even though coding speed increased significantly. Because I know that's only a small part of, like, overall shipping a product. Has your shipping speed increased?
+
+I would say, like, you know, it's it's hard to actually measure. That's that's the challenge because engineering productivity is one of the most difficult things to measure. It's the most it's the fuzziest of the jobs out there. If you look at some of the metrics like lines of code written, of course, we're adding way more lines of code now. But, you know, if you look at, you know, are we shipping features at a greater pace?
+
+Yes, we are. But it's a result also of a larger team. You know, we have a team that is more tenured than it was before. So sometimes it is hard to tease it apart. But with that, what do we do as a company?
+
+Like, we are right now saying that, like, look, you know, we we are just gonna keep investing. What percent of glean code, Sage, do think is written by AI? Now it's probably about almost 100%. Like, nobody's actually writing the initial code, you know, by hand anymore. Yeah.
+
+So almost all the code is being written with AI, but but we actually enforce human human reviews. So you cannot actually generate tons of AI code and and then just check it in the in the repos. We're probably more conservative than most other companies. There was, in fact, a discussion inside the company that, well, like, you know, now AI can write so much code, the real bottleneck has shifted from the person writes the code to person has a review. And so there proposal was to actually eliminate code reviews, and then many companies are doing that.
+
+You know, it's like, let AI write the code, and submit it into the into the repos. What if you have to have a stringent code review process? It almost removes the point of having a fastened code development process. Yeah. That is true.
+
+But I think, like, you know, what it what it's doing right now is, you know, we're still in the learning phase of using AI effectively, thinking about long term ramifications of it. Because when you write code, for example, with AI, you can write, like, a million lines of code, but it becomes incredibly hard to actually maintain it and understand it and manage it over time. Is that not what AI does, You have AI that does refactoring and AI that does security and AI that does Yeah. The only thing is that, you know, it's not it's not that perfect right now. I think that right now we're willing to pay the cost of of reviewing the code.
+
+So it's still faster than before, because the writing part is actually much faster now, and and the person who writes is the one who actually does the first review. So when you say AI ROI is really a throughput problem, what does that mean? The first thing that we have to do is, like, make sure that you are able to bring the right context to these AI agents. If you think about most most enterprises today, the way they're rolling out AI is that they actually just put in into the system and connect AI with all of enterprise systems in a rudimentary manner using, you know, MCP servers. And now you're letting like, any piece of work that you are trying to do with AI, you're letting the models sort of brute force their way into trying to figure out and assemble the right raw materials that they need to complete the task and then do it.
+
+And in this sort of in this mode, AI is super slow. It takes a lot of time to actually just assemble, like, you know, the basic information that needs to do the work. It also becomes very, very costly because most of the tokens are being burnt just trying to assemble the right context for that given task. And and and you're trying to sort of use AI for things, you know, where it's not even good at or or needed. So instead, like, you know, what we talk about is to make AI really perform and deliver, you have to sort of invest around it.
+
+You have to make sure that you provided the right context so that it can actually work faster, you know, at at lower cost. What does it mean invest around it? And are we wrong as CEOs to be urging all of our team members to be trying to replace themselves with AI, even if it means that we're wasting tokens? It's a it's a wrong goal, in my opinion, to say that, hey. Like, replace yourself with AI.
+
+First of all, I think you're giving too much credit to AI, you know, when you say that. It's just not ready right now. You give me a name of one job that you can replace, you know, with AI. For example, do you think it can replace your EA? Mine?
+
+No. But I'm a fucking diva. I think For most people, I think it can do the majority. Yeah. I I do.
+
+And that's that's the thing. It can actually take care of a lot of things, you know, for any given role, but it cannot replace the final intangible. No. But that can be a tipping point where actually for a lot of people, if it does 90%, fine. You know what?
+
+You'll do that birthday present for your wife because it's once a year. It's not very often, and Claude isn't quite personal enough to know your wife's preferences of perfume. But that role will get cannibalized. I'm not sure. And I'll tell you why.
+
+You want to be performing the best in whatever you do. And I don't think you're gonna take a 90% solution on your business. Cost constrained, being a dick. I am. Well, I mean, like, look, it's not about you not being cost constrained.
+
+It's about you have to be competitive in your in your work with others. And remember, they also have all the AI tools that you have, but if they also have a human on top, you know, how are you gonna compete with them? So do you not think how many people do you have now? There are over a thousand people now. Over a thousand people.
+
+How many do you think you'll have in five years' time? Well, hopefully 5,000. Wow. So you don't They're gonna grow. But but that is very atypical.
+
+I sit with the biggest CEOs in the world, and every single one of them is shrinking teams. And every single one of them is saying I absolutely don't believe in it. Why? Well, I mean, I I think, like, first thing logically, take two companies. Take Coca Cola and Pepsi, or, like, you know, two two companies that compete with each other.
+
+One one company decides to shrink, and the other one still has a lot more people. Both of them have full access to the same AI tools and technology. And so now the question is, if you were trying to do the same amount of work and you believe you can do it with fewer people and therefore you shrink, your competition can also do the same, but they chose actually not to do the same amount of work. They chose to actually, you know, elevate and build a 10x better product or build 10 times more produce 10 times more goods because they have they have more people. You know, they're gonna be larger.
+
+They're gonna be they're gonna beat you. But I don't think more people makes for better products. That's that's a different thing. If I can cut head count Yeah. And then afford the best frontier models, the best technology for my 100 x engineers because I've reduced head count, the best engineers will wanna come to my company.
+
+And actually, I'll be creating better products faster with my smaller team. Yeah. That's a good point, but that's not an AI argument. That argument has always been true. Sure.
+
+But combined with the AI element of you're able to ship more if you're able to ship more, I promise you, when you have and you know this, when you have more people, they'll just put up the barriers to get in the way of that product going out. Well well, look. The like, even in the we have the we have these AI discussions right now. But before that, just post COVID, like, many companies felt they were bloated. They cut down 15%, 20% of their staff, and every CEO came out and said they're actually as a result of that, they're actually moving 20% faster.
+
+So a lot of companies came and talked about that. So so so that's it. That's it. That's the argument that's always there. Like, you know, at some point, you know, teams get large, they start to slow each other down.
+
+You know, humans do that. I also believe in that. But, ultimately, people are also your asset, and you have to be able to deploy them correctly in the right set of projects. I don't think the the world's greatest companies are going to be companies with 100 people. And look at the model companies, you know, like, same same for them.
+
+Like, why are they hiring so aggressively? You not think that the best people want to work with the best technology and will see an increase in technology spend by the biggest companies in the world from eight to 12% where it is today to maybe 16 to 20? Yeah. And then, actually, you'll see a reduction in headcount but an increase in technology spend, And the best people will want to go where they have the best tools and equipment. I'm not sure about that either, because I think technology is is actually not supposed to increase in cost.
+
+First of I think do you admit that the currently, this technology is priced in, you know, absurdly for what it delivers? I I think it totally depends on what it's doing. So, no, I don't at all for Cursor or for any of the dev tools. I think it's still dramatically underpriced. When you look at Mark Benioff spending 300,000,000 on Anthropic, it's 3.7% of developer salaries.
+
+I think that's relatively small. I I would say it's absurdly expensive. I'll give you an example. We had this cool triage agent for engineering. You know?
+
+And we have 15 people team on call team that their work was to actually triage every single production issue that happens, like any system alerts, you know, things that are going bad. And we built this agent that actually now is taking care of, like, 95% of those issues automatically for them. But even there, it's actually doing it at cost, which is actually questionable. Like, you know, is it actually more efficient than humans? We were spending a million dollars a month on that particular agent, and that was actually more than the cost of 1,000,000 a month?
+
+Yeah. Are you buying Cristiano Ronaldo? What are you doing? No. Like, volume in the air costs are like that.
+
+I mean, there there's it is it is quite expensive. Sorry. Can I just go back? You you said you said because I discussed this a lot on the show, so you're making me much smarter. You think that spending 3.8% of developer salaries on these tools is a lot.
+
+If you think that's a lot, then these model providers are absolutely screwed. Well, I mean, I think I think the point that I'm making is, well, the 3.8% number is actually doesn't seem high at all when you when you look at it that way. Yeah. But I also know that already you see with open source that you can do the same work for a tenth of the cost. Yep.
+
+That's number one. Number two, like, historically, for as far as I can remember, we've not put technology costs and labor costs in the same sort of sentence ever before. This is the first time we're actually hearing that. That, hey, I would rather have fewer humans and more tokens. The first time.
+
+This is not how technology works. Like, the models are supposed to get cheaper and cheaper. Tech The is gonna be more and more affordable. I'm so sorry. This is so funny for me because you're, you know, the cofounder of Bean and Rubrik, and so who the fuck am I but a podcaster?
+
+But it is exactly what technology is for. This is agents being proactive, having an opinion, making a decision. They should absolutely be included or put in the same sentence as labor because they are replacing the labor that we used to spend money on. I think good technologists figure out how to make technology really, really cheap, and it's gonna it's gonna happen here too. That's that's my belief.
+
+Like, you know, you're you're gonna see inferencing costs come down by orders of magnitude. I think we saw we saw something bizarre, actually. Like, in the last six to nine months, like, every model actually increased their per token price. And, like, if you if you go back, you know, fifteen months, everybody thought that the per token price is gonna just keep falling like it was before. So so we don't know, like, you know, what what happened here.
+
+Like, you know, this is also sort of unique. Well, they needed to prove that they were good businesses before they went public. Yeah. I can say things that you can't. Yeah.
+
+Yeah. But my my bet is on AI getting much, much cheaper than what it is today. If AI gets much, much cheaper than it is today, these already loss making businesses, which prop up our entire global economy pretty much at this point, are very threatened. Yeah. I mean, like, know, my take remains the same.
+
+So so it's really interesting. So you don't expect, like, an engineering team to get smaller in the I think per person productivity is going to shoot up, but so will the demands. To make the same amount of revenue, you have to produce a 10x better product in the future, unfortunately. When you think about token spend internally, how did you sit down and think about it as a team, sitting with your CFO? How did you go through the decision of how to think about token budgeting?
+
+Well, I think we did probably what most companies did, which is we didn't do anything. So I think, like, you know, because we're in this phase of, let people figure out what they can do with this tech. And what did you see? People went crazy? People didn't adopt it?
+
+What happened? There's a power law. Like, you know, in our company and also at all of our customers, you will see some people who spend $10,000 or $15,000 in tokens every month, and then you have others who are spending $20. One thing is interesting, though, that everybody has embraced AI to some degree. Like, everybody's using the the basic you know, as as I mentioned before, the number one application of our use case for AI today in the world is information seeking, question answering, and everybody's doing that.
+
+Like, everybody on the team, in our team, as well as our customers, they're all doing that. Everybody's asking questions, everybody's getting some basic summarization, information synthesis going. But the advanced use cases are limited to like 5% of employee base. Is there anything you do as a leader to try and infuse AI as aggressively as possible? We had Nikesh from Palo Alto.
+
+Every week, he has a leadership meeting where he's like, show and tell, and everyone needs to stand up and show something that they've done with AI that week that it replaces what they do, improves their job, whatever it is. Is there anything that you can do? Yeah. That's that's actually a really good idea. Like, you know, I've I've thought about doing that.
+
+We limited the token maxing dashboards, and I think I always thought that was not the right idea to just sort of reward people who are consuming more tokens. I felt like, you know, we didn't need to do that. You know, we are a native AI company ourselves, and people are already kind of educated enough and they will use AI when they need to. But executives like, you know, sharing a success story, we haven't sort of demanded it from every single exec, every single week. But we have the showcase, like in our town hall, for example, we'll always ask people to share those wins.
+
+Like, every every town hall, like, you know, there's a section dedicated to these are the new AI agents that teams are using to do work to work differently. Can I ask, in terms of the execs and the people that you have, I think recruiting has never been harder? How hard is recruiting today with some of the largest model providers, as we said, paying just enormous salaries we haven't seen before? I I would actually say maybe, like, last two or three months. Let's put that aside for a minute.
+
+I would say that recruiting was actually getting easier for compared to the the SaaS peak. Why? Why? Because I think companies have been they haven't been growing their headcount. Like, if if you look at the big, the largest employers of tech talent, many of them actually haven't been growing.
+
+Many of them have been laying off continuously. I think about Meta, for example. Right? Like, in every year, there's significant layoffs. I don't know if that overall headcount my guess is that it's probably down from the peak of, like, 2021 or 2022.
+
+Right? So actually, there was more talent available in the market as such than before. But but if you now start to talk about, okay, AI talent, ML talent, top people are sought after, you know, way more than ever before. And also, the pay scales have completely changed, and not just from the model companies, but even from startups because because, you know, startups are also, like, you know, you are giving them too much money to compete for talent. So, like, even even startups actually these days pay a lot.
+
+We have to. Yeah. Yeah. We have to because their alternatives are so large too. If it costs $3.04, $500 for a great dev Yeah.
+
+Well, shit. The $2,000,000 seed round just doesn't go anywhere. Yeah. For the founder building the team, even if they don't take a salary, I'm gonna hire four people, I need $6,000,000. That's right.
+
+Do you think founders should raise the large seed rounds? I think it's better. Like, I always prefer to raise as much, you know, of a round as you can, you know, from the get go. What round felt the most highly priced? First, So actually, we never actually went out to raise, you know, except for our first round of the company.
+
+You know, we always had somebody come in. It was a relationship that got built over some time and kind of became the de facto, like, you know, that, you know, they are gonna be the ones putting money in. I would say, like, our our our series c probably felt the most, I guess, you could say the most expensive because we barely had any business, like, definitely, like, you know, sub 2 or $3,000,000, maybe $5,000,000. I don't remember exactly. But then the valuation was north of 1,000,000,000.
+
+So that was that was extreme. But I guess we, you we, you know, we take what we get. I mean, that's incredible. Do you worry about scaling into that when you're doing it, or do you just head down and think, this is great, a low dilution for a high price? The way we thought about it more was that there was a statement to be made to the prospective employees more than anything else.
+
+If we wanted to make the market understand that we're building something special, and that kind of gives us that validation. Do employees give a shit who your investors are? Absolutely. Yeah. I mean, like, you know, the A lot of founders are like, you know what?
+
+The best people don't care. They're there for the mission. They're there for and I'm always like, I promise you, if you have Kleiner or you have DST or you have Sequoia, great candidates suddenly wanna talk to you a lot more. Yeah. I mean, like, investor reputation directly impacts your reputation.
+
+When you look today, what have you changed your mind on most in the last twelve months? Personally, like, my style has been a little bit too disciplined to be the right strategy anymore. I get that feedback from my team that, you know, we are trying to be conservative. We're trying to make sure that our capital goes a long way. And in that sort of in that mindset, we may lose the land grab.
+
+I'm sort of feeling the pressure to change it myself, like, you know, just change change how I think about, like, how we should be spending, how we should be investing. But at the same time, like, you know, I have this fundamental belief that a business is always built on discipline. Like, you you have to charge for the product. It has to generate value for the customers. You know, for every dollar that you invest in marketing, there has to be some good return back from it.
+
+You don't assume that you just keep raising the money to make up for all those things that were not there. Do you agree with that when you have examples like Uber, which proves that a bad business model can turn good with scale? Yeah. I mean, that's that's something that, like, know, that's that's the one where I feel that pressure that, like, you know, perhaps my way of thinking is incorrect. Do you think it is a land grab?
+
+We are absolutely in a land grab. Like, you know, no question. Every single company in the world wants a product like ours today. Either we get in today or it's going to be like 10 times harder to actually get in the future. We spoke about kind of job displacement.
+
+We had an interesting conversation around that. What job does not exist today that you think will be incredibly common in three to five years' time? Well, the composite roles will be will be very common. So, like, as for example, you know, somebody who can build a product. I don't know what to call them, but they they act like engineers, product managers, designers.
+
+Similarly, in go to market, somebody who can sell the product, and they are capable of not only doing the business negotiations, but they can actually demo the product, they can actually talk about use cases. And then instead of having that segregation between account executives and, you know, solution engineers and then post sales solution architects, I think we will see more and more generalization of roles, like, away from specialization. And in fact, I was trying to drive that very, very hard even in our company. But I'm sorry. I mean this in a nice way.
+
+The composite roles goes exactly against the idea of maintaining team size. Because if you have composite roles where you bring in four different specialties into one, that is smaller teams. It is. Yes. But as I said, like, you know, you have to do 10 times the work to get the same amount of revenue from your customers in the future.
+
+You have a much smaller team to deliver the same amount of work that you used to deliver before. You just are forced to do more. Got you. Okay. And then what role do we have today will we not have?
+
+What do we look at and go, oh my gosh. I can't believe we used to do that. A lot of analyst roles, the data analyst roles, which are not business thinkers, you know, they were given a task that, hey. Like, I need to see this data, and then they produce like, they they sort of go and build those specific dashboards, configure back end systems. I think, like, that that kind of work definitely goes away.
+
+I think business intelligence is just gonna be very different. Business owners will directly be able to get answers to their questions. So so business and business analysts like, you know, data analysts, you know, that's sort of one. Many HR roles, sourcers, for example, sourcer like in recruiting. That's a role that I think is going to definitely get consumed in, you know, into like a full cycle recruiting role.
+
+I do have to ask one final one, which is we're sitting here in Europe, and it brings about a question of sovereignty. The US and Europe bluntly have not come up to muster, so to speak, on open source. Yeah. Do you think we will have a world of sovereign models? And do you think, given what we've seen in the last month or so, that we need to have sovereignty over our models?
+
+So I I think the the desire for sovereign models, like, is is strong. And it's actually I I would say, like, it was probably stronger a year back compared to now. At least, like, know, I feel like I'm hearing less of it to some you know, like, there there was a period where every nation thought that they could build one. Then AI was still in its early stages. But then, like, a lot of those nations actually figured out that, you know, this you know, that's not going to be the way.
+
+And so they're okay with letting, you know, their enterprises within their own countries, you know, use OpenAI or Anthropic or all other models. So so I don't I'm not an expert. I don't know, like, you know, whether this trend is on the on the rise or or sort of like, you know, on the fall a little bit. I think it's unequivocally on the rise given what we saw with the Trump administration banning anthropics latest models. And it's understanding from a lot of, especially Europeans, that we cannot rely on a US individual who could ban our access to intelligence.
+
+Can't But but but where are the results from it? I mean, that was a month ago. So I think to expect a stand up model within three weeks would be tough. Yeah. Yeah.
+
+Yeah. But but, like, you know, even before that, I think the it just hasn't happened. Right? Like, you know, the only country in the world, you know, that has produced models outside of US is China. Yeah.
+
+And then, of course, maybe a little bit in, like, you know, France with Mistralt. Is that simply an incentive problem, the lack of open source community in The US and why we don't have any US open source to real degree and substantiveness? No. I I think the there is good good open source community in The US in many other areas. Well, I mean, what open model from The US?
+
+No. There's no open yeah. You're right that we don't have open models, but it's not because open source as as a movement, as a dollop you know, as a concept is weak in The US. It actually worked quite strong. It's probably good if you think about models.
+
+They require a lot of upfront investment, which is not open source friendly in many ways. A lot of open source software has been skunkworks. Developers is getting no funding associated with them, and they still get something built. They couldn't build models at bay. And so that's why, like, you know, naturally, this thing didn't work out.
+
+And, you you know, you need these techniques, you know, where, like, super high investment is not needed. Do you worry then when you look at the state you know, I I I have spent a lot of time on OpenRooter. I see the model usage and traffic. And, like, you know, Anthropic today was first US model and seventh. The first six were Chinese.
+
+Do do we just like, oh, fuck it. Who cares that the CCP are funding the top six models? The fact that, you know, you can actually run-inferencing on those, like, you know, in that contained environment makes people feel comfortable. And but I I don't think, you know, that's as US, you know, like, you know, US won't feel absolutely won't feel okay with, you know, that trend. There is good work that's happening now to actually promote open source model development in The US.
+
+There's some models coming out. The alternative is that Sam and OpenAI give 5% to Trump, and then he puts regulatory capture on Anthropic and OpenAI and puts attacks on OpenAI. Well, I hope not. I doubt that's that's gonna happen. Yeah.
+
+I'm so sorry. I'm learning. Why else would Sam give them 5%? It's a quid pro quo. I need you.
+
+You need me. Well, I mean, I guess I just believe more in The US system, and I don't think right now, by the way, you need to curb open source. Like, you know, it's too far behind in The US. You don't think Sam and Dario are sitting going, oh, wow. We underestimated this, and this is a core threat to our business.
+
+They probably are thinking that, but I don't think they can fix that by through regulation. You don't think that Sam will be calling up Trump, who he has a direct line to saying, hey. The CCP are funding your biggest our biggest competitors, and we cannot promise that there isn't a backdoor to Xi Jinping. You need to stop this, and I'll give you 5% for your troubles. Well, isn't the argument the other way around?
+
+Like, you know, that right now there are all these open source models which are very good, and they're all built in China, and US needs to build its own. Like, you know, we US can't be seen as a country that doesn't innovate on technology. So it's actually paramount for The US to build open will be saying it takes billions of dollars and years of time. Trump defend America and support OpenAI and Anthropic and put barriers up to prevent Chinese, which is open, models from getting adoption, taxes, bans. Those those maybe.
+
+Yes. But The US open source models, they are gonna have a lot of tailwinds, and they have to. Like, you know, this is a known accepted, like, issue that every technologist in Bay Area, talks about. There's a lot of motivated parties that actually want to promote, like including NVIDIA, for example, you know, putting a lot of investment in promoting, like, you know, development of great open source models in The US. And I hope they succeed.
+
+Absolutely. I hope they have. A multi model world is important for all of us. Listen, I'm gonna do a quick fire round with you. So I say a short statement, you give me your immediate thoughts.
+
+Does that sound okay? Okay. Yeah. What's your biggest advice to someone studying computer science today? It's fine to study it.
+
+Don't don't get too worried because what other people are telling you. Which legacy company has adopted AI the best, do you think? Well, are you willing to call Google a legacy company? Yeah. Yeah.
+
+So Google probably rates higher than anybody else in terms of not only embracing AI internally, but also in their, like, launching products. But then, I guess, they are AI companies. That's kind of hard it's unfair to to put them in that category. You start a new company, and you can only take one investor. Who do you take with you?
+
+Well, I I I think I'll take one of one of our existing ones. We have great relationships with all of them. Which one would you take? I don't know. I won't answer that question.
+
+I just don't have the answer, really. I get to think about it. I think it's probably circumstantial depending on, like, you know, what what I'm doing. You know, different people bring different strengths. What would you most like to change about the startup ecosystem that we see today?
+
+I actually do think that, you know, there is too much capital available today for startups, and it's actually sometimes creating failure parts for people. I think they're not getting what it takes to build a great company. I'll give you an example. Like a startup that has raised a seed round decides to pay half $1,000,000 to an engineer like you were saying before. And this is happening today, and the startup founder is okay with it, the investors are okay with it, but it's just surely not a sustainable path to actually win.
+
+And they're paying it while Google is not. And Google knows that they don't need to actually buy talent like that. So so I think that is one thing that I feel this all abundance of capital is getting startups to sort of create structures which are not going to be sustainable for them. Do you worry about the lack of exit options that are now becoming more and more real? And what I mean by that is, like, honestly, if you don't have a billion in revenue today, it's hard to go public.
+
+Tech acquirers, your big companies, very specific about what they wanna buy. PE, licking its wounds from having a portfolio that's full of medallias. It's a tough landscape. Startups have never been easy. Like, I think, in fact, for I I would say in the last twenty five years that I've seen, I would say it's easier to build a startup and get a good exit from it these days than it used to be in the past.
+
+Like, startups are brutal it's brutal game. What does no one know about being a founder and CEO from the outside that they should know? That it's not a sexy job. Like, it's actually one of the most stressful things, and you really have to be crazy. I think they know that now.
+
+I think one for me is that you have to consistently be unhappy. You should never be happy, I think, as a CEO because there's always something that needs doing, could be done better. Telling someone you will never be happy is something they're jarred by. That's a good one. This is a tough job all around.
+
+And I think, like, oftentimes, you know, people, like, who have not done it, they feel that there's a lot of glamour. They feel that, you know, this is gonna make a lot of money and their life will be fantastic. They're gonna have a lot of respect. And I think, like, almost all of those things, you know, are irrelevant. You have to be truly mission oriented to survive, you know, as a founder.
+
+Did your style change with money? You've been successful before. I think founders are better and investors are better when they are already rich. If I'm being blunt, I think you make more rational, sound decisions that are not made with economic impatience. I think for me, maybe not.
+
+But at the same time, you know, I'm a man with minimal needs, and my needs are already met, like, a long time back. So I guess I've definitely built these startups without, like, you know, that worry of, you know, can I feed my family? So, yeah, like, maybe maybe that has helped me. But, like, as I've seen more success, it doesn't change me fundamentally in terms of you still have to you know, you have to have that drive. You have to work continuously.
+
+You have to work, you know, more than every other person in your company. Lead by example and keep pushing, and you have to have this irrational, you know, need to make something big happen. I so appreciate your time. I apologize for being robust in my discussion back. I think it was a different interview to a lot of interviews that you do.
+
+It was more discursive, but I so appreciate the time, and you've been fantastic, dude. Yeah. Thank you. But before we leave you today, most companies have tried AI. Most aren't seeing results.
+
+Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close. Asana is the operating system for human agent teams. Your easy button for AI productivity across every team. Ready to go AI teammates, prebuilt for marketing, ops, and IT.
+
+No prompt engineering. No setup. They show up where the work is happening, already onboarded in your workflows, ready to deliver. With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000. Asana, where humans and agents workflow together.
+
+Try it at asana.com. That's asana.com. While Asana aligns the road map, MongoDB powers the build. Every serious AI company right now has the same problem. Agents need accurate context fast.
+
+Most infrastructure though, it wasn't built for it. Well, MongoDB is. Eleven Labs runs 40,000,000 agents on MongoDB. 75% of the Fortune one hundred run their most critical apps on MongoDB. Trillions of dollars moving through MongoDB every single day.
+
+Instead of stitching together 10 different tools, you get one JSON native database, vector search, and Voyage AI embeddings in the same system, and it runs anywhere. No lock in. If you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and technical support to help you ship. Don't build agents that answer once and forget. Build agents that remember and learn from your real time data.
+
+Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, AlphaSense sharpens the strategy. We used AlphaSense on an investment that helped us close an $8,000,000 deal. $8,000,000, baby.
+
+That's a lot of money. That's why I'm genuinely excited to have them as a partner on 20. AlphaSense combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news. Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important. So you can make really high conviction conviction decisions with confidence.
+
+But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important development surfaced, and your investment brief already waiting for you, see for yourself. Head to alphasense.com/20vc. That's alpha-sense.com/20vc.

@@ -1,0 +1,419 @@
+We are in the race for superintelligence, and Andrew Feldman is back. And, obviously, CEO and founder of Cerebras, doing inference chips, pioneered the space, had a successful IPO. We've talked about this a couple of times. We got to see each other in January at Davos, IPO happens. The boys and I got to sit with you recently That was fun.
+
+At Liquidity. That was really that was really fun. Had a great discussion with the boys, but I wanted to deep dive with you about a couple of topics. The first one is the build out of AI. We've never seen a build out like this since, you know, the Great Wall Of China.
+
+Right. Who knows since? The pyramids. Right. I mean, it feels like the amount of capital, time, and intelligent people on the planet dedicating themselves to the build out of something.
+
+I I can't think of anything in our lifetimes with perhaps, you know, before our lifetimes, the war effort. Right. This is a mobilization and a scale that we read about, we hear about, but you're actually doing it. You have customers who are building data centers, and you're a key piece of that. AppLovin started with an $8 domain and no VC funding and became one of the largest ad platforms in the world.
+
+Now that same engine powers app loving ads for ecommerce. Your ads run inside mobile games reaching over a billion people with full screen distraction free attention. The platform finds buyers and optimizes for profit. You set the target, it does the rest. One cookware brand went from 4,000,000 to $16,000,000, turned profitable, and is on pace for 80,000,000 this year.
+
+Visit apploving.com/allin to launch your first campaign today. I'm going all in. Maybe you could just enlighten us in 2026. What is Cerebras doing, and what is happening with this build out out in Texas? These are some gigantic, gigantic efforts.
+
+The the size and scope of what is being built, the physical size and scope, usually when we talk about software or we talk about hardware, we're talking about chips or boxes, and and they don't have the same sort of physical enormity. Right. Right? And what we're talking about now are data centers that are, in the next several years, gonna use more power than the previous fifty years on Earth took. Wow.
+
+Right? We're talking about individual buildings, the size of football fields that have more power coming into them than mid sized cities. And they're being built they're being built across The US. They're being built in Canada. They're being built throughout The Nordics.
+
+They're being built here in Paris and throughout France and Europe and The Middle East in nations that sort of weren't front and center in anybody's mind previously. You know, Kazakhstan, Tajikistan are building out Georgia, building out data centers of size, Armenia. Everybody's sort of focused. Every country and every state, obviously, in America feels they need to participate in this. And the people who are buying the capacity, the OpenAI's Anthropix, SpaceX I SpaceX AI, the Googles, they are insatiable right now.
+
+Yeah. And they're building how many years out? When you talk to them, they were ordering chips from Cerebras before you were finished with the chips. They're putting orders in ahead of time. The irony is unlike many sort of exciting times in technology, they're trying to capture yesterday's demand.
+
+Right? The demand is way outstripping our ability to build data centers and to fill them with hardware. Alright? And so, you know, we have a $25,000,000,000 backlog. 25,000,000,000 And dollar we we are not alone in that.
+
+The the OpenAI, uh-huh, Anthropic, you go through this list of of Google wants more data centers, Microsoft wants more data centers, AWS wants more data centers. Right? All of these players are not chasing sort of if you build it, they will come. They're chasing the demand is booked. Right.
+
+How do we keep them from leaving? Right? And and that that's extremely unusual. It's very unusual. And now we have people who are you know, we have a term for a token maxing.
+
+Yeah. And there's a great debate. Is this actually creating value? I'm curious where you stand. You know, is it even possible that this much demand could be created if value did not exist?
+
+There is clearly massive value happening. Yeah. But there's also massive experimentation. Oh, for sure. You know, I what I I I liken this to when we first started with AWS, and it was so good to get around your own IT organization.
+
+Right. That you told every engineer, yeah, go ahead, put on your credit card, sign up. Yeah. Right? And a lot of it was really useful, some of it was like, god, I wish we didn't do that.
+
+Yeah. And so for sure, there's experimentation. But it doesn't mean the the the net value isn't enormous. It it means some of it is gonna go nowhere. And, know, it's the same I remember when Costco opened up in in in in the Palo Alto area in 1988, and people used to shop Costco like they shop Safeway.
+
+They go down every aisle. Yes. And that's a horrible way to shop Costco because you end up with four things you didn't need and each was $22. Right? And as people got more sort of accustomed to it, you go to the back, get the chickens.
+
+Yeah. 18 cupcakes for the kid's birthday party, bang. You were Strategic. Strategic. And it's exactly the same.
+
+I think at first, people opened up and said, everybody, as much tokens as you want. And in enterprises, there's no open loop. We don't give sort of any resource unconstrained to people. And now we're jumping on and saying, woah. Alright.
+
+These guys should have as much as they need. They're enormously productive. Over here, we can use maybe an open source model, maybe a cheaper model over here. And now we're sort of running like a business. And we're really seeing a certain type of person emerge who knows how to deploy this technology.
+
+Systems thinking Yeah. Which developers kinda have innately. CEOs tend to be great strategists and understand systems, but this the intelligence is getting so much better every step along the way that I'm watching individuals, typically startup founders, but also venture capitalists and and associates who work at my venture firm. They start playing with the tool and then the tool starts playing with them. Right.
+
+They start to go, oh, I haven't clearly defined what my goal is. I don't understand what a system is. I don't under I've never heard about making a requirements document. And the software's like, do you have a requirements document? What's your goal?
+
+The AI starts telling people, you're token maxing and you need to get a little more focused here. One of one of my colleagues 20 ago, a really smart, smart computer scientist said, computers really dumb. They they do exactly what you tell them. Yeah. And at first, prompting was like that.
+
+Right? You modified your prompt a little bit, and it changed the answer. Dramatically. Dramatically. And increasingly, it's understanding what your intent was.
+
+Right? Right? And if you if you have a chance to to to play with Fable or or Five six from from OpenAI, increasingly, what don't have to get the prompt just right. You don't have to be a prompt whisperer. Instead, you ask it, and it says, well, here are some things and and by the way, maybe you wanted the chart to to to go two ways.
+
+You wanted a line in a bar. And it's like, well, that's exactly what I wanted. I didn't ask for it, but that is better. And and so it's it's understanding intent, and that's a huge leap. Which if we were sitting here two years ago, the idea mind boggling.
+
+We would never have been able to predict in a short twenty four months that it would go from being a great summarizer researcher of web Right. Results to actually understanding your intent and then providing a solution and abstracting it all from you. That's right. That's right. Which is a very weird thing.
+
+I don't know if you've played with the Ermes agent yet. Yeah. Have you played with I it mean, I asked it just this morning and I I was given a secret bit tensor project that has the new z AIs Uh-huh. Model five two. And they gave me GLM 52.
+
+Yeah. GLM 52. So somebody in that BitTensor, I think you understand BitTensor, you've heard of it, the distributed crypto project. And so they have all this extra capacity. I was a whisperer told me, probably some capacity in China that has free energy.
+
+Okay. Fine. So they gave me unlimited capacity. So I started having to do some really crazy jobs where I was saying, like, every hour, I want you to tell me what the trends in the world are that nobody else has identified yet. And you can do whatever you want to do that, but my goal is to be the smartest trend hunter in the world.
+
+And I watched what it was doing in the background, and it started debating itself on where it should find the things. He said, well, we should probably go to hacker news and Reddit. Then I like, yeah, but there's also social media and trends tend to manifest on Instagram. That's a reasoning model. You were watching a reasoning model work out.
+
+Yeah. Isn't that interesting? I mean, that that's amazing. And it was collapsed. So as a civilian Right.
+
+Who doesn't hit the uncollapsed moment, and if you were using ChatGPT 3.5 or you were using 4.8, whatever it was, and you haven't used this new level of Right. Reasoning and inference and unlimited compute essentially Right. It opened my eyes just this morning of what a world of unlimited tokens might look like. Right. Because unlimited tokens, I believe, means unlimited reasoning.
+
+It does. What does that mean? Yeah. It's I mean, if you run these for twenty five or forty eight hours, you get amazing things now. And what what if by using Cerebras, we were 15 times faster, and then you ran it for twenty four hours.
+
+Right? And you got weeks or months worth of thinking. Yeah. And, I mean, it it is it is extraordinary. And I I think one of the things is people like Ilya and Sam in the early days were saying this was coming.
+
+Right. Right? And I think when you look back, you say to yourself, holy crap. Those guys They knew. Saw it.
+
+Yeah. They were they could see around the corner. That's right. And rest us could see it. What?
+
+I'm not sure. It's when we had Sam on All In at one point, he and he said, oh, you know, I'd love to come on at some point. I said, sure. Come on. And he he was talking about it.
+
+He said, you know, I said, what's next? He said, reasoning. I said, unpack that. What does it mean? He's like, well, understanding what your intent was just as you're saying then figuring out a strategy and then maybe talking to other agents and other threads about like, is this the right thing to do and vetting each other's work.
+
+And I'm like, wow, we have come a long way from guess the next word. Right. Right. Fill the sentence in, you know. That that Summarize this PDF.
+
+Now, Cerebras is at the center of this because this reasoning is inference. This reasoning is inference and it's computationally intensive. Right. Right? And so fast compute makes this sort of work Yeah.
+
+Fast and sort of tractable. It doesn't cripple it by taking a huge amount of time to get a good answer. And so it's exactly the fact that that that this reasoning consumes a huge amount of tokens internally that allows a blisteringly fast machine like ours. And I I brought one. Oh, got I I'm never far without you know, when one costs half 1,000,000,000 to make, you you bring it everywhere with you.
+
+And we we were we were tossing this back and forth at Davos. What's the model number of this one? This was in the first eight or 10. Got it. So this has a special place?
+
+This has a special place. I mean, my wife says it's like I'm a kid with a dirt bike for his eighth birthday. He's in his bedroom at night. I I carry him with me. I I mean, when you have, you know, your your next party at the house, I highly recommend just a little hors d'oeuvre.
+
+Just a little hors d'oeuvre. I think it would be like a great fit. It would be a great fit if you had some. That's right. But what we're looking at here is the ability to do that reasoning at scale.
+
+And what is Moore's law for inference and for cerebris? Do you have something internally you discuss as we're gonna double this every x time? Period. So all chips prior to us in the processor world followed Moore's law. Got it.
+
+And we broke it Doubling every eighteen months. Doubling about every 18 months. Got it. And we crushed it with this chip, and we've carved out a whole new trajectory. And my view is in the next eighteen months, we'll be way over two x.
+
+Interesting. And so I I think that early in an architecture, you have room to to do much better than what was traditionally Moore's Law. Now, you've got a 20 old architecture, like the GPU, it's much harder. Right. You you have to rely on things like smaller geometry.
+
+Right? Going to the next fab node. But in a newer architecture, you have a huge amount of room still to to to learn about the the work that that is being presented and make optimizations that that give you huge gains. How do you run the company? Like, just being the CEO now in the age of AI, you have $25,000,000,000 in demand.
+
+You have to you have to deploy at an just an incredible blistering You have to hire people. You have to create a road map. I don't mean to give you a panic attack here. Keep You have up with somebody like OpenAI who's moving so unbelievably quickly. Yes.
+
+Right? And they're they're a competitor. You gotta keep up. Right. Right?
+
+Your hardware, your software, your deployments have to keep up with some of the fastest moving organizations in history. They're demanding customers. Yeah. They are not they're not pushovers for sure. Yeah.
+
+And also, potentially competitors down the road. Look. I I think there is so much demand right now that that that there is no silicon that will go unused. Yeah. But why isn't OpenAI releasing Jalapeno?
+
+Why is Amazon making their own chips? You see this reoccurring trend. Is it a way to let you know, to let Jensen and Nvidia know, hey, we can do this too, so we we need good pricing? Is it is it a little bit of a flex that way or is that the future that they're gonna be in your business? No.
+
+I I I think nobody likes being dependent. And I I think some of the lessons learned by the the hyperscalers of the x 86 world is they were dependent on Intel. And some of the lessons learned by the GPU makers was they were dependent on a small number of hyperscalers. Yeah. And they wanted more customers.
+
+And so they set about to to help fund these neo clouds. And so I I think mostly it's about an opportunity to control at least an important part of your destiny. Got it. And I I think that's a very reasonable thing. I think you don't have to sort of make the fastest chip.
+
+You you just can't be entirely dependent on other people's chips. And that dependency has become a hot topic. I'm not sure if you caught the episodes over the last two weeks, but we've been talking over the last year about open source. I've been championing that a lot just because I was early into OpenCLaw and quickly started using Kymi and was like, wait a second. I'm blowing out my claw tokens, but this Kymi, I can't tell the difference.
+
+And then we started smart routing it and suddenly this open source started to figure out reasoning and the gap has suddenly closed this year. Well, I I you know, you don't wanna take your your Ferrari to the grocery store. Right? You you you there there are times you wanna drive your fun car. Yeah.
+
+Right? And there are times you you wanna throw the kids in and and don't worry if there are Cheerios on the floor. Minivan time. Right. There's minivan time.
+
+And and I think that as the sort of sophistication of the user grows, right, you're you're gonna have hard problems and those are gonna be frontier model problems. So you're gonna be open AI problems, are gonna be anthropic problems, maybe Gemini problems. And behind that, they're gonna be a lot of ordinary problems. Right? I mean, if you think about a company, you know how much time is spent cutting things out of workday and getting it in a different cell for Yeah.
+
+Alright. Think about The cutting and pacing economy is real. Yeah. That's right. Yeah.
+
+And and this doesn't need, right, gold medal math. No. What what this needs is sort of rock solid open source capabilities. Yeah. And if you think about what I mean, we've been thinking a lot about it in GNA, but a huge amount of GNA, alright, is not invention.
+
+Right? And you you may not need sort of the most sophisticated agents for this. And another card that's turned over recently is some folks maybe have concerns with the ambition of the frontier models and maybe sharing their data, lead data leakage and sovereignty of intelligence. And they're saying, hey, our company is gonna choose maybe we're in a regulated industry, finance, health care, HIPAA, you know, FINRA, all kinds of different regulations. We need to have this on prem We have it on domestically, prem.
+
+And we'd like an open source version Yeah. Where we have a little bit more control. Yeah. And I I think Are you seeing that now? Are seeing that for sure.
+
+And I I think OpenAI made a good call releasing OSS one twenty b some months back. That was a good open source model. But I think in The US, we need more domestic open source models. We need to give the world a choice. Right?
+
+If they wanna run open source right now, it's OSS one twenty b or Chinese models. NVIDIA has some. In in NVIDIA has seen the same opportunity Yes. To push open source models. I I I think giving them more power might might be sort of Well, I was about to that was you cut me off at the past.
+
+Like, my understanding was Jensen was like, hey. We we don't even wanna talk about these open source models we have because our customers Right. We're now gonna be competing with Sam, Dario, Elon, Sergei. Like, do we wanna be in that position? Right.
+
+So but we do need some more champions here, and it's open source so people can But fork that puts you in a more neutral position. That's right. We we we run today, we run GLM, we run Kimi, we run the Quen set of models, and we run OpenAI's models, the closed source ones. We run models for, say, GlaxoSmithKline, which they wrote and developed. We run models for our partner in The UAE, g forty two and MBZUAI Yeah.
+
+That are are are their models that they designed. So we we have a wide variety. So sovereignty is a trend. Sovereignty is a trend, and I think the government's actions with regard to Fable and five six, where they said, oh, woah. Let's think, and then we can act.
+
+I I think sort of particularly here in Europe was a bit of a wake up call. And when you saw this going down, there's a layer of partisanship in our country right now. It's pretty fervent. Dario is pretty explicitly, you know, not part of this administration. They they've been very adversarial.
+
+Both sides have been have admitted that. They're starting to work it out now. So it's hard, I think, for us not being in the room with these parties to understand what's partisanship, what's gamesmanship here. But do you believe that what they released was truly dangerous for cyber warfare, for cyber attacks, and that if you were to rate Dario's not communication because he's a very effervescent communicator. I think it's a diplomatic way to say it.
+
+But to have a scheduled rolled out release Right. We'll put aside the government's control of it. But do you think that is is a wise thing for us to do at this And do you think it's there was actually a major threat there? So what's interesting is I hadn't seen it before. Right?
+
+And I I think if we just step back and say, is it reasonable? I don't know whether this was the right time, but at a time that that that a model is sufficiently creative in its thinking, that it poses a meaningful threat for the government to say, we'd like you to roll it out in steps. Yeah. Now this doesn't seem unreasonable to me. Not at all.
+
+Right? I mean, we we do this with powerful pharmaceuticals. Right? We we we'd like mean, we're certainly not encouraging seven years of trial and the amount of paperwork and all the garbage that has accrued to the FDA. But with a powerful new technology, it certainly doesn't seem unreasonable to say, hey, guys.
+
+Let's at least do some red teaming at the government Yeah. So we know our defenses can block this. Yeah. Have we checked Have we checked the infrastructure of the country, like Of the NSA. Have we checked the infrastructure of right?
+
+And can you give us two or three weeks to patch any obvious holes that are found? This doesn't seem to be an unreasonable thing for the government to ask. Right. We but we, in this very polarized time Yeah. Put on top of it, well, oh my god.
+
+It's president Trump doing it? And then you have to think, well, what if it was president o a AOC or president anybody in between the the two extremes? I I think the polarization hurts a great deal. It hurts clear thinking. Right.
+
+It it hurts clear thinking, and and and both sides are gonna do some dumb things and some really smart things. Right. Right. And in fact, what I found is that the people in the government are are trying really hard. The rank and file.
+
+The rank and file are trying really hard and this is moving fast. And I I think that that an ability to to set aside some some of the the polarization and say, how do we do this in a reasonable manner? I mean, we we want Dario and Sam competing like crazy. A 100%. It's been awesome to watch.
+
+It's awesome. Yeah. Right? It's good for the technology. It's good for it's good for entrepreneurs to see even with thousands of people.
+
+This is what what you can continue to achieve. Right. Right. This is drive. Google in the ass, made them get sharper, Amazon started to get better.
+
+Everybody got better because of that. We want that. And we certainly don't wanna become sort of a region where the first thing we want is regulated. Right. Right?
+
+But as it gets more powerful And the industry really should do a better job of regulating itself perhaps. And and it did seem like they were starting that process, but then the communication was lacking, maybe. It's you know, I I think not only are they racing hard, but they're inventing this as they go to. Yeah. Right?
+
+There's not a playbook. No. Right? They're inventing the we we say, oh, just put on guardrails. Well, they have to design the guardrails.
+
+Sure. Right? They the the guardrails have an impact. You know, one of things that FAST does is it makes the guardrails less painful. And so that that is we we you know, we discovered that in the last six weeks.
+
+Yeah. It is that the very guardrails can add time and make it feel slower. And so fast chips like ours Right. It can really help that. But so they're racing against competition.
+
+They're racing against their own sense of greatness. Yeah. Right. Which is maybe even the biggest driver here. And I think that they're in earnest trying to think about how to do the right thing.
+
+And all of those are are are mixed in this bucket. And and sometimes you're on one side rather than the other. Yeah. And as you're saying, this is a first time. Right?
+
+That's right. When we when 3.5 came out, it wasn't like when we're using ChatGPT 2.5, 3.5, it was taking down networks. Right. But in talking to Nikesh from Palo Alto Networks, I asked him like, hey. Well How would you grade this?
+
+And he said, oh, we put it against our software and we found bugs we were not aware of. Yes. And It killed him. Yeah. He said, we had to stop everything we're doing and do patches for six weeks.
+
+Right. And and that's when you know. Right? I mean, the the cash leads, you know, maybe the leading Sure. Security software firm.
+
+Right? And when it finds in an hour, right, tens of critical opens, you're like, woah. This is a powerful tool. Yeah. We need to think.
+
+And and maybe you you show it to a a group first. Right? May maybe you I I don't know what the right thing is. But Yeah. I mean, red teaming.
+
+And we've always had just when you were releasing the new version of an operating system, you know, when you have your iPhone, you can say, wanna be part of the beta. That's right. You know? Right. And there's like two other betas that you don't even get the chance to opt into as consumers and Right.
+
+Those ones are for security. Those ones are for, you know, making sure you don't lose your data or data that's that's that's right. Disappear or leak or Corruption. Right. Any any number of these things.
+
+I think we can also know that that there will be a massive data leak. Of course. We we we know this. Yeah. Right?
+
+And it's like Warren Buffett talked about the reinsurance industry that you know something bad's gonna happen. You don't know when Yeah. But you gotta save up for it. Right? You put money away for in reinsurance Yeah.
+
+But there will be a tornado. There will be a massive earthquake. I mean, we we know this and we can do our best to plan, but there'll be a massive breach and they'll they'll be and we we have to steal ourselves in advance. And we have to think about it, think about the right response at the time and sort of prepare ourselves for a future that is in specific unknown, but in general, we're pretty sure it's get something's gonna happen. Something will Right.
+
+And, yeah, it's typically a black swan. Right? That's right. By definition, it's gonna be something we didn't consider or a question we didn't know to ask. Right.
+
+But but even knowing that there's some unknown unknowns is a useful place to start. Yeah. What are we not asking ourselves? That's right. With reasoning, the AI is gonna be able to tell us, hey, schmuck humans.
+
+That's right. By the way, here's what you're not thinking about. This is now my closing sentence when I do my prompting is I need you to make me a prompt that will help me do this trend scouting for an example. And then I always say at the end, please check your work. Right.
+
+And then tell me what I haven't considered in terms of my goals and give me ask me some questions every time you run the job. And that has changed everything because it's like, checked my work, by the way, this was incorrect. Right. And I'm wondering, hey, would you like me to also do this? And some of the tools like Perplexity do that automatically to give you your next three prompts.
+
+Right. But if you give it explicit instructions, my lord, is it good at that. So, you know, over the course of the last ten years as I was raising money, I I thought one of the smarter questions I got at the end of a conversation where someone asked, what was the smartest question you heard that that wasn't covered by what I asked? Incredible. Right?
+
+Now now that's somebody who's curious and thinking and humble and trying to sort of use this to get a picture of of the space. And to the extent that you can ask the AI that, and and that it can sort of broaden your your view. You know, maybe what questions should I have asked Yeah. To to be an expert in this? What what what would a a PhD level question or ask of this or a gold medal math?
+
+I mean, I I think those are sort of questions that you you you know you don't even know how to ask. Which, you know, if you start thinking about AGI and superintelligence, you know, they're just definitions, but they're important definitions, I think, to kinda keep in mind because they're waypoints. That's right. And AGI, I think I suspect you'll agree with me that we've hit it. We just haven't exactly deployed it fully.
+
+We we we have artificial general intelligence. Now it feels like when we're talking about these reasoning moments and, you know, the the the ability for it to be as smart as any human, but Let's talk about By any definition we had twenty years ago, we've hit it. Yes. Right? I mean, if you think about it, although was a Turing test, blew it away.
+
+Yes. I mean, you think about that that any period of time, sort of ten, fifteen, twenty, thirty, forty, fifty years ago, we we we any definition we would have previously put forward Right. We've blown past it. And so Which goes back to our previous point of like, do we know the questions asked? That's right.
+
+Twenty years ago, science fiction authors, you know, had their say and we answered all their questions. Right. If they were to look at this today, they'd be like, well, I'm out of I'm out of question. I'm out of question. Sorry.
+
+That's where sort of the sort of listening to people who we who sound sometimes like they're on the fringe. Right? When when when Ilya was talking eight or ten years ago about the need for safety, and then and you're like, what? Dead right. Yeah.
+
+Right? When when when Elon was talking about building rockets and driving the cost to to to near zero of of of a launch vehicle, you're like, what? There it is. And and now you can see and that's I think that's why it's really fun to be a technologist now. Right?
+
+And with these tools specifically, you know, we're talking about building all these tools and then the tools are starting to build themselves in this recursive loop. That's right. We're kinda just starting to see people apply loops. In fact, loop maxing became when I was doing my Right. Yeah.
+
+When I did my trending The trend. Right. It kept picking up loop looping and it picking up the maxing stuff and it created a buzzword for me, loop maxing. Right. And then it magically, started talking about loop maxing and I was like, wow, this is really weird.
+
+It anticipated that this would other humans would come up with this word. But talk a little bit about recursive and then the road to super intelligence. And do you have a way, Andrew, that you think about super intelligence and what it will mean for humanity and how we will define it and how we'll experience it? Yeah. I I I think let's begin on on on loop maxing or sort of recursive learning.
+
+I I I think I think what what what Sam and Ilya and then later Dario and and and Dennis saw six years ago or five years ago was that powerful recursive gains are exponential. Right? You get better, you do it again. And if you continue to get gain, the the the the slope of that curve is so steep. Yeah.
+
+And that we're just beginning to see that now. You ask it a question, you learn from the results, you ask it to do it again, the results get better and more information's added, your answer gets better, you ask it to do again, it covers more material. And these sort of loops are producing sort of not a little bit better answers, but vastly better answers. Yeah. And that is enormously powerful because we don't quite know where it ends.
+
+Right? As you keep throwing compute at it, I mean, how much better does the answer get? You know, we we run out of tokens or our budget or or or but but holy cow. I mean, when does the exponential stop, or does the answer keep going up and up and up to the right? Yeah.
+
+And that that's sort of an enormously interesting intellectual question right now. Uh-huh. Yeah. Like, when do we run out of problems to solve? And Well, that's right.
+
+And and when are are the the problems no longer sort of intellectual problems, and they're they're now people problems? Yeah. Right? How to organize people to to get done what the AI asked for. Right?
+
+I mean, as you know, in running your company, lot of your problems aren't hard intellectual problems. They're people working together problems. Yeah. Right? You Motivation.
+
+Motivation. You spend a lot of time as a leader spraying w d 40 on your team. Right. Right? It just so friction is reduced.
+
+And how do we learn about those from AI? How do we get behavioral insights from AI? And and I think that's some of the things the world models are gonna bring us as they begin to watch human behavior. Yeah. We didn't even get to that.
+
+This is gonna be for another interview, but when these things jump off the screens Right. And they're in the real world and the recursiveness starts not trying to solve math problems and Right. You know, humanity's most difficult ones, but, hey, you know, there's an incredible world out here and here's the Palace Of Versailles. Right? You're just like now, we're like, make me a new version of Salesforce.
+
+And we're like, hey, you know what? I'd like the Palace Of Versailles. I've got a 100 acres somewhere in Texas or Nevada. I'll just send a thousand optimists out there. Right.
+
+Make me the Palace Of Versailles. Right. Sounds fantastical, but the Palace Of Versailles would seem fantastical to people who lived a thousand years before it. And and was fantastic, I think, the people who built it. Yeah.
+
+Right? Even to the builders. I I think they were on at it as they built it. Yeah. They're compounding they're compounding recursive learning That's right.
+
+And generations we talked about. You had a really such a great insight of in building this place, you had generations of Masons. Yeah. I I think in in in all these large projects, often there were families who were specialists, who you and you you apprenticed under your father or your uncle. And when you had a project that took fifty or seventy or a hundred years, you might have three or four generations of the same family.
+
+Right? The same stone mason family working on the same structure. And passing on the learnings. Uh-huh. New innovations.
+
+Right. Which is what we've modeled with this new That's right. Models and and what you're building in the infrastructure. It's pretty incredible cool. When you think about it.
+
+Especially when we're sitting here in But the place. Inside. The And that's what I mean, I I think the the the problem with human learning is it often moves it at the pace of a generation. And like elephants and other large mammals, we don't have generations but every fifteen or twenty years. And if you want to move really quickly across generations, you want them happening more like Drosophila, like fruit fly.
+
+You want two a day. Yeah. Right? Then you see that in genetics. That's why we study them in genetics because learning encoded in the DNA, you can study over thousands of generations.
+
+And I I think that what we're getting is that equivalent in AI. We're getting sort of learning so quickly over the equivalent of thousands of generations. Darwin would be in awe Yeah. Of this pace Of of evolution. And that's exactly right.
+
+You think about it as there was I I remember when I was getting my psychology degree and they were teaching us about paradigms and I was like, trying to understand how the paradigms shifted. And the professor said to me, Jason, which you have to understand is paradigms don't die. They don't. People do. That's right.
+
+That's how Freud He and Thomas Kuhn. That's right. Freud and Skinner and Young, like, it took them dying. That's right. For the new generation.
+
+The new generation. You question it, and that that was twenty years. Yeah. Sometimes forty years Right. As their students maintained positions of leadership until someone said, maybe we could do it differently.
+
+And I I think what you're seeing is this iteration is shortening of the the the intergeneration gap and the learning is so fast. It's always so great to talk to you because one, it's just intellectually. So your your approach to it is so intellectually rigorous, but also with so much p doom in the world, I I feel so good that you're such an optimist about this technology and you're building it with such thoughtfulness and it I think for people who are hearing these horror stories about AI and job loss and everything, they need to understand there are people like yourself who are building this in an incredibly thoughtful way and this is gonna be a net benefit for humanity that just is unimaginable. Yeah. We have a shot with this technology, so not our children nor anyone they know dies of cancer.
+
+Alright? Right. I mean, say it like that. There will be some dislocation in the economy. Sure.
+
+There will be. There was dislocation when cars came and and and it was a bad deal to to to be a guy who shoot horses, right, or build carriages. Yeah. But you gotta also against that, you know, make your tea the cons and the pros. Yeah.
+
+Right? There's a shot that our children, none of them nor their people they love will die of cancer. And that that's one That's funny thing that we can work on with with this technology and we will have great purchase on. Yeah. And and I think you begin listing those and then it's a more thoughtful discussion.
+
+Yeah. Unlimited energy. That's calories, unlimited knowledge, unlimited education, unlimited housing. And and how we do it. We imagine imagine sort of we know how to teach children, and we don't do it.
+
+Right? Aristotle was a tutor to Alexander the Great. Socrates was his tutor. We know that if you give a child a tutor and the tutor modifies the teaching for the child Yeah. They learn better.
+
+Adaptive That's not how we do teaching classes. No. Factory farming. That's right. We we teach to some sort of mid level.
+
+Imagine if we built agents that that taught children for their way of learning. Right. Right? And here's the way we we've been doing it the same way for a thousand years, and during that entire time, we knew how to do it better and we chose not to. Yeah.
+
+And and here's the way we can do it. Put that on the pro side. And so as long as we're sort of thoughtfully and fairly Yeah. Writing the good and the bad, I I think it'll come out of You gotta get out there, Andrew. Keep communicating your version of the world because Uh-huh.
+
+Some folk people see around the corner and they get a little nervous and okay. Fair enough. But I think the ledger, as you describe it, is heavily weighted towards abundance. I think it'll create abundance. Yeah.
+
+Sure. Massive abundance. Andrew, pleasure. Always a pleasure to see you in six months for a checkup. That'll be great.
+
+Industries, capital, and intelligence are converging into a single interconnected system, and the infrastructure behind it needs to evolve just as quickly. Nasdaq was built for this moment, powering more than a 135 marketplaces and regulators globally and connecting capital to companies shaping the future. As the innovation economy accelerates, connectivity becomes the critical asset. Nasdaq is the leading technology platform that makes it possible and scalable. Learn more at nasdaq.com.
+
+Robin Roombach is the cofounder and CEO of Black Forest Labs. You are based in Germany, in Black Forest, which is a city in Germany. It's a mountain range, actually. A mountain range? Yes.
+
+Where you grew up? Where I grew up. Yes. And you are working on open source image and video models. You worked at stable diffusion for a little bit.
+
+That's correct. Cut your teeth on that. And you're known for the open source model Flux and maybe also for some closed source models. Tell us about the business of Black Forest Labs. What is the business and what is the goal?
+
+100%. One quick addition. We are based in the Black Forest. It's a town called Freiburg and in San Francisco. We are like San Francisco.
+
+Of course. Yep. We You're splitting your time? Or I'm splitting my time to a certain degree. Yeah.
+
+We yeah. Started a company two years ago. Me and my co founders, as you said, we've worked on stable diffusion in the past. Before that, we invented like, an algorithm called latent diffusion, which is basically, like, the fundamental algorithm behind all of, generative models that are being deployed for image generation, video generation, even, physical AI now. Yeah.
+
+It basically makes use of this principle that you can compress natural data such as images, such as video, such as audio into a much more efficient representation and then train a transformer model on that. And I mean, this is the stuff where I like, you know, like JPEG, MP three and all that works and we basically translated that into like a new algorithm a few years ago when we were still like PhD students in in Munich actually and then built on top of that we built stable diffusion and then on top of that, yeah, the generative models that we are developing today and of course, like the technology has advanced but we are now tackling, I would say, models that are really made for understanding, like, the whole world around us, multimodal visual models pretrained on images, videos, audio data at the same time. And we are now like entering a new paradigm which is combining that with something that's called action prediction such that you can actually use the same model to make images, to make videos, to make audio, and to predict actions, which means you can ultimately deploy it on a robot in the real world.
+
+Wow. So from the image to the video, the audio, and then eventually the real world with robotics and a real world model because if you can make the image, you and you can train the model, that means by default, you understand the world. In order to make a video of the world, you have to understand the world. Yeah? And the objects in it?
+
+I I think that's yeah. I I think that's like a a really good like a way to think about it. Yeah. It's like it's like an intuitive way to interact with the world. Right?
+
+Like, I I would say there's like these like complementary forms of intelligence ultimately. There's like intuitive intelligence and then there's like a deep reasoning layer. Now ultimately, need for like a kinda like complete form, you need both and you need them to interact and I think like we have been approaching it more from like the intuitive side. Images is like a very natural way to approach this whole field because it's not as computationally intensive as let's say video. Right?
+
+But now, yeah, I think like we're combining it. It's converging into like a multi modal model and yeah, we see like exactly, like, pre training on videos gives like implicit understanding of the physics of interactions with the real world. And then you can get stuff like action prediction, like robotics out of the same model. And with these models and the training, they're kind of been a limitation in creating videos and creating images where the criticism of generative AI is it's a bit of a slot machine. I give a prompt.
+
+It gives me something back. But how did it come up with that? The training data. But, you know, maybe I want a different style. Maybe I want a different color.
+
+Maybe I want a different, you know, aesthetic. Yep. Has that how does that problem get solved, and do you actually understand what's happening when the image is being made under the hood? Yeah. Yeah.
+
+I I think, like, ultimately, it's about, like, exposing as many, like, manipulation layers as possible to, I don't know, like a user or developer that builds on top of this model. Right? And I think we've seen that in the past with In the past, image models, they basically started from simple text to image systems. Right. Then they have expanded into text plus image to image systems, which means you could suddenly take an image, like a real image or a generated image and iterate on that based on a text prompt, edit it, modify it.
+
+Right? And then this expanded into taking multiple images and a text prompt and combining them in a in a semantic way and producing new content. And the same principle now applies to video and I think now it becomes actually even more interesting when like all of these like, modalities are actually combined inputs Right. And outputs of the same model. So let's talk about video.
+
+There's an announcement that you're working with the greatest director of all time or living director Martin Scorsese. We'll talk about that in a second. Yeah? Fantastic. But in a movie, this promise of being able to make a movie in which the camera angle, the sound could be something that a Martin Scorsese would be proud to release to his fans.
+
+How close are we? And maybe tell us a little bit about this partnership. The technology being able to make an actual movie like Goodfellas or a scene from Goodfellas versus where it is today where you can make interesting five or ten second clips and then maybe people struggle making 10 of them and then they use Right. Some post editing software to put them together, but you immediately understand this is not that. It's not a movie.
+
+It's AI slop. It's kludgy. It's nothing past the uncanny valley. Well, I think it's important and that's at least like the view that we have is that these AI models, they are a medium. Right?
+
+They we don't wanna set, like, any way of how they are supposed to be used. We don't wanna tell anyone, especially not someone like Martin Scorsese. How is how is he supposed to use his model? Like, he is one of the, like, greatest filmmakers It was insane sitting in the same room with him multiple times and actually him seeing, like, exploring our models, like as, like, one of the, like, core researchers behind it was, like, just an insane feeling. Right?
+
+And at the same time, I'm also, a big fan. You sat in a room with Marty Scorsese and showed him your tools? Exactly. Yeah. And what was his reaction?
+
+What what did he key off of? What was the thing that he found most inspiring or interesting? I think it was really this idea of, like, he has clearly a a vision in his head of, a scene or a scenery where, like, maybe a a new movie will be shot, and he's trying to explore that and kind of, like, we we we basically looked at the scenery of, like, a village in Eastern Europe somewhere, and he was describing it. We saw some outputs. We iterated on the outputs.
+
+And ultimately, I think and that's what he said in the end. It's like the like, getting, like, the mental picture of something out of your head and communicating it in a visual way by making, like, these images or the series of images is something that just makes it like easier to communicate and convey convey like an idea of like what is actually in your head. I think that's like one of the like very interesting and powerful ways to use this technology. And I think ultimately Is to get the inspiration, to get the vision out of his head onto an image. Yeah.
+
+I mean, like, language ultimately is like a little bit of like a lossy communication medium. Right? Yep. It's also interpreted in different ways, but then visual information is so rich so rich. Like an image or video, there's so much signal in it, and it's just like another way of communicating.
+
+And I think that's like one of the beautiful things that this technology ultimately enables. And I think like to your question of making like full movies with, I don't know, like a video generation model, for example. I'm not sure if that is, like, the ultimate goal. Maybe it's, like, interesting to plug this into, like, some kind of a gigantic workflow and make, a very long video, I think that's really cool to explore. But I think, ultimately, like the real interesting use cases, they come when you have like a human in the loop who iterates and uses it as a medium.
+
+And I think this is this is at least like a perspective that that I take that makes it interesting and that this is most often when the most interesting outputs arrive or are actually being made. The brainstorming production level is so obviously a huge win for Gen can and paralyze your brainstorming basically. Yeah. And yeah. Like that.
+
+Paralyze your brainstorming. And and they have an analogy for this. They do storyboards. And some of the great directors, Ridley Scott of Aliens and Gladiator, was known for making his own. I also believe Spielberg was also liked to sketch Raiders of the Lost Ark and some of these.
+
+George Lucas was known for collaborating with many amazing artists, even making miniatures and making storyboards for the Star Wars franchise. He had those people on full time helping him with that. So that's the obvious place to start. But if we look at startups, startups always wanna try to figure out how to do something cheaply, and people used to make a launch video for their startup for, you know, a $100,000, $250,000. So they take their $10,000,000 venture raise and spend 250,000 on a launch video.
+
+I've seen with a lot of the startups I'm investing in now, they'll just spend a week or two working with, you know, a a director to make a a launch video. You've probably seen this trend. Yeah. And I'm sure people use Flux in some of your models for this. Have you seen this?
+
+Yeah. Of course. Yeah. Yeah. And what what's your take on that?
+
+Because that feels like the early stage of storytelling. You're trying to communicate a product or service in a fun, engaging, punchy, thirty second, ninety second way. Yeah? I mean, like, again, like, I think we support this, like, exploration based on these tools. Right?
+
+And Yeah. I think, like, ultimately, it's great to see, like, all different kind of, like, I don't know, like, launch videos, products being built on top of, the same kind of, like, base model or the same technology. And I think that's what's making it so interesting and also so powerful. Yeah. And what else are people using the technology for?
+
+I understand there's a Bitcoin movie coming out. Instead of using a green screen in this Bitcoin movie, I was talking to Gal Gadot, you know, the woman who played the actress who played Wonder Woman? Gal Gadot. Yeah. Of course.
+
+She I was talking to her in an event, and she was telling me it was the breakthrough prize, Yuri Milner's event, she was telling me she just did a Bitcoin movie, and they did it on a sound stage without green screens. Mhmm. But all the actors just worked in, like, a sound stage. Mhmm. And then all of the scenery behind them was being done by generative AI.
+
+That's a real movie. That's a $30,000,000 budget movie. She said it would have cost a 150,000,000 if they had to build sets, and the film would have never been greenlit. Are you starting to see people use that in production, not just in the back end and the ideation phase, but actually in production yet with your tools? Yeah.
+
+Yeah. We see some use cases like that in production. I think, like, high end film production is kind of like the one of the like most demanding use cases. Yes. And I I think I'm glad that it's being explored, but I also Yeah.
+
+Really wanna like, it's I think it's important to see that this technology is like on a trajectory and it's improving. It's improving rapidly. I don't know. If I look back at like where we started like a few years ago when I was doing my PhD and this feels like the only thing that you could do was like images of 64 by 64 pixels. Right.
+
+Or you can do like multi minute videos, right, at like a high resolution. But it's like it's not gonna stop there. It's gonna it's continued to improve and I think like then it's going to unlock like even more of these like high end use cases. But I think the the soon main thing before we get to that? Yeah.
+
+Hard to predict, I think, hard to predict and I think ultimately Couple of years. Ultimately, I think you still want to have like the tool that enables like this human in the loop kind of Of course. Yeah. Production workflow. Right?
+
+But I think when I look at multimodal generative models as a whole, I think what really excites me is you can use the same kind of AI model to make a movie and deploy that as a brain on a robot. And and I think this is like this is so interesting. And I don't know. Like, there's, like, some thoughts around trying that in the digital world. Right?
+
+This which would be, for example, computer use. Remains to be seen if that is actually something that works or not, but I think, like, the technology is so powerful and so versatile and it's just just moving into that. And all the all the talk on, like, world models, world action models, all of that, it's it's basically all the same. And I think that's what's making it so interesting and what I find like most exciting. So do you believe that the technology will be used to analyze or primarily to analyze real world?
+
+Like, here's a video of somebody, you know, making sandwich. Now we have the robot study it and make the sandwich, or do you think there'll be a lot of synthetic data made that then the robots will just study the synthetic, or they're gonna just in some way innately know based on all this massive amounts of training data? I think it's a combination of prediction. Right? And prediction and is a way of you you can think about it as simulation, as generation.
+
+It's predicting actions, which is you have to understand the input, the visual inputs in order to actually predict a reasonable next action. And it's about perception. It's like you can only do that if you understand, if you perceive the content. Then you can only, I don't know, like transform it into a new piece of content or predict an action or describe what you actually see in that. See, then the and the combination of all of that is I think, yeah, is I think what's what's driving it.
+
+There's not a single one of them. Right. It's a combination of these thoughts. And what's the best way to get that training data? Do you need to have people put on glasses, get a first person perspective, have them put on gloves so you have that Yep.
+
+You know, fidelity of understanding, hey, this glass is moving. I'm pouring this glass. I'm putting ice into it, you know, and and here's how that works and the splashing and the condensation water so I can pick it up and not drop it because it's wet on the outside? Or is it gonna be just, hey, take the corpus of YouTube videos and the robots know exactly what to do because they'll find a thousand videos of people pouring drinks? I mean, ultimately, I think you would wanna go to a place where you could like prompt a robot in context, right, as you can do with like a language model.
+
+Basically, just tell it, hey, go and, I don't know, pick up this glass with the, I don't know, orange juice Yeah. Or Exactly. We're not there yet, but I think this this is like one of the goals. And I think like how these models are deployed currently is there's like a lot of like different hardware, different robots that are running in factories that all have like some different kind of action representation that you need to kind of tune the models towards. Right?
+
+So in practice, what you do is you have like all this like visual understanding in the models and then you need only a very little bit of like a few hours of fine tuning data to adjust the model on that specific task. Mhmm. And I think the goal will be to kind of move away from that towards like as much in context as possible, but it is a little bit of a research problem. I I think that Open source has kind of having a moment right now. We've been discussing it on the podcast a whole bunch recently, and people are also talking about sovereignty.
+
+You have companies that own incredible IP libraries. I mentioned Star Wars before. Disney owns an incredible library. What should your advice what would your advice be to a company like Disney? Should they take your open source software, train their own models, or work with you to train their own models to control it, and then, hey.
+
+This is our IP. They've already made a point of working with ChatGPT and saying, hey. You you can and cannot use certain characters. In fact, OpenAI had a relationship with them that's for Sora that's no longer happening, but they officially licensed on the output some characters. So how do you think about those major IP holders?
+
+What's your advice to them? Are you in discussions with them? We know about the Martin Scorsese or TOR deal, but how do you think about content libraries? I think it is look. I think, like, the most interesting use cases of this like, if you think about, like, content creation is in generating something, making something that hasn't been there before.
+
+Right? Like, that that's a fundamental, like, interesting aspect of this technology. And then I think, like, yeah, when it comes to IP, what we implement, for example, on, our public facing tools is you cannot generate certain IP with these models, right? And I think that's something that is a sensible approach and then yes, we do work with certain IP holders to develop models together with them. Some of them based on our open source models, some of them based on, like, our more powerful proprietary models.
+
+But I think that is, like, a very, like, attractive What's value proposition? What what do you think that will look like for consumers in another couple of years? What would potentially happen when you open up Disney plus? I mean, that's a good question. I'm not I'm I'm not in Disney.
+
+Right? So it's up up to them to decide that. But I think we want to enable them to build all kinds of stuff that they that they that they envision. And I think we can support them. We can support, like, other companies in that space to, I don't know, integrate the technology in the best possible way.
+
+I think, like, one of the very interesting angles of it is that it is, like, it's becoming much faster. It's becoming more interactive. I can envision, like, a whole bunch of, like, very interesting interactive content creation tools that you could post on Disney plus plus or elsewhere. I think the most interesting thing I've seen in this regard is fan films. Right.
+
+So there's a category before generative AI fan fiction. People would write their own Star Wars story. Then there came fan films where people would dress up as Jedi Knights and record their own films. And George Lucas said, as long as you're not doing it commercially, you're not selling it, I give you permission to go make Jedi movies. And they even released how to, you know, how tos on how to make a lightsaber or, you know, sound files of, like, how to make a lightsaber sound.
+
+Now people are taking the stories that haven't been told from the Star Wars universe, and they're recreating them using AI. And for the fans, they're becoming quite popular on YouTube. Star Wars stories untold is I think the biggest one. It's getting millions of views per video already. And I think that's really the future is letting the customer base pay a licensing fee or pay a fee, maybe rent software or maybe based on the output, and let them be creative with the characters.
+
+Let them make their own stories, and you could be in a unique position to empower that. Well, 100%. I think, like, if you find, like, a model that works for, like, the IP owners, but then also can enable, like, these super, like, creative customization use cases, think that's great. Yeah. And I mean, like like I mean, like, for myself, like, I when I read a book or whatever, like, watched the movie, had, like, so many, like, ideas how it could be done differently or this could have happened.
+
+Right? Yeah. This is like this is so nice that you can actually enable people to visualize these ideas. Yeah. It's gonna be incredible.
+
+Continued success with it. You have an office in San Francisco. You're hiring people. Yeah? We do.
+
+Yeah. We just You raised a bunch of money. We raised a bunch of money. We just crossed a 100 people. We're hiring in Germany and in San Francisco.
+
+Fantastic. Who are you looking for? What's the right type of person, the right type of skill? Yep. On the one hand, we are always looking for researchers who have experience in large scale model training, experience in diffusion model training, flow matching training.
+
+We're looking for engineers who wanna be working with the customers to, you know, develop these, like, customized physical AI solutions or, for example, with, like, a IP owner, like, develop these models jointly with them. We are looking for engineers who have experience in just, like, large scale compute infra, managing that, and making sure that the training runs, runs smoothly, that we maximize our MFU and all that. And we are looking for people who have interest in, you know, like, getting the technology out there Yeah. In the hands of people. I the the the forward deployment of this, there's just so many great ideas and so many great partners for you.
+
+I think you're going to with the open source specifically, you know, it seems like the corporates really wanna have some additional level of control, but they also need the frontier models or your proprietary ones for some of those refined features. So I think you have a very bright future run. A 100% exactly. Alright. Continued success.
+
+Thank you so much for doing the show. Thank you so much. A pleasure.
