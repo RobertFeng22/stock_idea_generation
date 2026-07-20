@@ -1,0 +1,397 @@
+So there's a lot of noise about AI, but time's too tight for more promises. So let's talk about results. At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94% of common questions. Not noise.
+
+Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business, IBM. Well, Casey, I had a very confusing experience this week Yeah. Because I ordered a new ice cream scoop. This ice cream scoop is the, the the one I have used for many years, but one of the drawbacks about it is if you put it in the dishwasher, it gets totally ruined.
+
+Okay. So put it in the dishwasher. Say, major design flaw for an ice cream scoop. A device that is going to want to be washed at regular intervals. Yes.
+
+You have to hand wash this thing. So I get a new one. It comes in a box, and there's a little sticker on the ice cream scoop that says, this product contains AI. Oh, no. And I'm thinking ice cream.
+
+I'm thinking, what? I have been using this same ice cream scoop for, like, for, like, ten years, and all of a sudden, it is upgraded to AI. Like, what is the AI? I did not order this. Like, is it connecting to, you know, to to Chatchi B Tea to, like, tell it what what flavor ice cream I'm doing?
+
+What is going on here? I really am bracing myself because the the number of things in my life that used to be very simple and now require something called a firmware update is out of control. And so if I if my ice cream scoop needed a firmware update, I'd be very upset. It also, like, doesn't ship with a charger or anything. It doesn't have any ports on it.
+
+So I'm like, how the hell does this ice cream scoop have AI? Yeah. And I stare at this just, like, bewildered for, like, five minutes. And then I realize it's talking about aluminum. It's using the chemical symbol for aluminum.
+
+This product contains al. And then I felt stupid. I'm Kevin Roos, a technologist at the New York Times. I'm Casey Noon from Platformer. And this is Hard Fork.
+
+This week, OpenAI has a great new model and a big new legal problem. Then Stanford economist Eric Grinyolfsen is here to discuss a new warning from hundreds of economists and researchers about the growing risk of AI job loss. And finally, some Hatch EBT starring Lorde. You can murder the green light. Is that a Lorde joke?
+
+Kevin, would you listen to one gay pop song? Well, Casey, lot is happening in AI this week. Specifically, it's I feel like it's been a very big OpenAI news week. Yeah. And I feel like it's actually been a minute since we checked in on them, and so I was glad that there was, like, such a series of events that I felt like, okay.
+
+Yeah. We can actually return to this company now. So before we do this, of course, we should make our AI disclosures. I work for the New York Times, which is suing OpenAI along with Microsoft and Perplexity. And my fiance works in Anthropic.
+
+So let's just get a few things ticked off here. The first thing was a personnel shift. Fiji Simo, the former CEO of applications, I believe, was her title at OpenAI. That was her initial title. It was later changed to CEO of AGI deployment.
+
+Okay. So she is leaving the company. She is was on an extended medical leave due to some health problems she had had. She is now officially sort of stepping back from that role, and her roles will be divided up among other executives. Casey, what did you make of I mean, very sad story.
+
+Obviously, anytime somebody has to leave a job for, like, reasons other than they wanted to, it is sad. Simo was there for less than a year and I think was able to accomplish some of what she wanted and did play a role in pushing the company to streamline some of its offerings and cut back on some of the projects that, in my view, were distractions, such as the Sora, you know, AI video generator. But I think she had much bigger ambitions there that she didn't get to realize. And, you know, in in terms of OpenAI going forward, it is yet more executive turmoil at a company that has had a lot of that over the past year. And speaking of turmoil, we should also talk about this lawsuit that Apple filed last week against OpenAI alleging that they stole some trade secrets.
+
+Casey, tell us the story of this lawsuit. This came out on Friday. Apple filed a lawsuit against OpenAI and IO, which was the sort of Johnny Ive cofounded company that they bought for more than $6,000,000,000. The suit also names two current OpenAI employees, Cheng Lu and Tang Tan, who incidentally are former Apple employees who now work at OpenAI. They write in this filing, quote, at every level from members of its technical staff to its chief hardware officer, that's Tang Tan, And in coordination with business partners, OpenAI has been stealing Apple's trade secrets and confidential information.
+
+As a natural result, OpenAI's nascent hardware business now rests on the shakiest of foundations rotten to its core by its illegal reliance on misappropriated trade secrets. So that was the kind of, you know, quote that you saw in a lot of stories about this particular case, but the details are really pretty wild. Yeah. Let's talk about some of those details. It was it was a long filing.
+
+There was a lot of juicy stuff in there. The thing that I think got the most attention was this allegation by Apple that Tang Tan, this OpenAI chief hardware officer, had directed job candidates who are applying for jobs at OpenAI to bring physical hardware components, blueprints, and prototypes into job interviews for what the filing calls show and tell sessions. And, like, you think it's hard enough to get a job in this economy. And then your recruiter says, hey. When you come in, make sure to bring two forms of ID and then your resume and also an unreleased Apple product that you sort of secret out of the lab.
+
+Like, what that's that's such a a big ask. Yeah. You know? Supposed to deal to get a job in this climate? I mean, my goodness.
+
+So then there's also these allegations about Chang Liu, the former senior system electrical engineer at Apple. Apple says in its filing that he kept a work laptop after leaving the company. He then apparently exploited an unknown security vulnerability to access confidential information and bragged about this to a colleague. I'll just read his apparent quote from the filing. LOL, I found out I can access the network storage.
+
+So funny. You know? And I just and I'm glad you you read that in full because here's what I want people to know. If you say LOL in a message, you should not add so funny. Right?
+
+Because those two phrases are doing the same thing. Yes. Omit needless words. Yeah. So there's a lot more allegations in the filing.
+
+One of the things it says is that OpenAI allegedly approached one of Apple's manufacturing partners and tricked them into showing them some sort of secret metal treatment finishing process that Apple uses. Yeah. If you've ever picked up an iPhone, you know that it has a very beautiful metal finish. And the allegation here is that OpenAI was, like, wanting to know how that happened. And so they just went to the supplier, and they're like, just show us what you do for Apple.
+
+It's cool. They told us it's cool. Yeah. Tim Cook said said we have permission to to do this. Yeah.
+
+Tim Cook said, I would love for Sam Altman to know how to do this. Just go ahead and show them, and then they show these are the allegations. Yes. Yeah. But, Casey, what did you make of this filing as you look through all of the juicy details?
+
+So I'm of two minds here because it is true that Apple in general treats everything that has ever happened in the city of Cupertino as an apple trade secret. Yes. Right? They defend their intellectual property extremely vigorously. And so I would not be surprised if as this case unfolds, you know, a judge or a jury might push back on some of the claims here and says, you know what?
+
+It's actually not illegal for Tang Tan to mention the code name of an unreleased Apple product to a prospective candidate. Right? Okay. That said, with some of the particular allegations against the l o l so funny person, the allegation that they were, like, coaching job candidates to bring unreleased products into job interviews, that does just seem transparently wrong to me. And so my real question as this case unfolds now, Kevin, is basically how high up the chain did this go?
+
+You know, some bloggers have noted that the case goes out of its way, not to mention Johnny Ive, who's, like, a foundational figure at this company. If there was actually some sort of, you know, scheme to do this, it seems extremely unlikely that Johnny Ive would be unaware of it, and yet he's not in the filing. Neither is Sam Altman. Right? So these are some of the questions that I have.
+
+But I do think, you know, if Apple is successful here, it could have some, you know, very tough consequences for OpenAI. What would you make of it? Yeah. I mean, I think these guys knowing nothing else about this case other than the filing, I'm sure there will be, you know, counter filings and explanations from OpenAI about why this all wasn't as bad as it looks on paper. But, like, to me, these guys seem guilty as hell.
+
+That said, it is not clear that OpenAI is actually building anything that makes use of Apple's trade secrets. We got a report this week from Mark Gurman over at Bloomberg, who is sort of the closest and most plugged in Apple reporter, who reported on OpenAI's first hardware product, the thing that Johnny Ive has been working on with them, being some sort of a mobile screen free home smart speaker that doesn't sound to me like anything that Apple has built or maybe is planning on building. Well, I mean, they have that HomePod. Right? You know, like, what Gurman described as I read it was basically a next generation, like, Amazon Echo, which many companies now have their own versions of, including Apple with the HomePod.
+
+And so a screen free speaker that connects to AI, like, Apple does have one of those, and I would not be surprised if they said that whatever OpenAI is building somehow builds off of their efforts here. Yeah. I mean, I am not particularly bullish on the OpenAI hardware push in general, But I think this made me even more skeptical that they are going to come out with some category breaking, you know, definitive technology here. I could be wrong, of course, but, you know, asking employees, job candidates to bring in prototypes from their Apple secret work does not seem to me like a company that that has a real vision for what it is doing on its own. You know what I thought was funny about this was that a little over a year ago at the first Hardfork Live, I asked Sam Altman about their hardware project.
+
+And I said, is it just Alexa? And he said, it's not just Alexa. Like, you know, give us some time. Like, we're thinking we're gonna do something better than Alexa. And I read the Gurman report this week, and I thought, sounds a lot like Alexa.
+
+So, you know, we'll see. Like, I mean, the AI in it is gonna be better. You know? But is it is it really more than anyways. Yeah.
+
+I mean, I think this is very much in keeping with Apple's sort of historical posture for secrecy. You know? You remember when the when the iPhone I think it was the iPhone four was sort of leaked. There were law enforcement investigations. Like, this this company takes its trade secrets very seriously.
+
+At the same time, Apple is also struggling in AI. I think it's fair to say that. And so this to me feels very much like the kind of lawsuit that someone who is not in the lead or close to the lead would file. Yeah. I think that that is reasonable, you know, in addition to the, you know, alleged inspection of unreleased devices.
+
+Over the past couple of years, OpenAI has hired more than 400 people away from Apple. So even at a big company like Apple, that is the kind of recruiting effort that you notice. And I'm sure that has been extremely frustrating to the folks over at Apple as they try to build their own next generation devices. So I think that there was clearly a wound there, and and I think it is fair to read this lawsuit in part as Apple lashing back. Yeah.
+
+I mean, this is a bigger conversation than we than we have time for today, but I'm always just fascinated by how leaky and sort of porous the boundaries between these AI companies are. I mean, one of the sort of hidden factors in this AI race is I think the fact that in California, you can't really enforce a noncompete. So people are always moving jobs from OpenAI to Anthropic, from Google DeepMind to OpenAI. Like people are just bouncing around all of the time and they're taking their secrets with them, right? Like you can't take intellectual property.
+
+You can't like literally take the code for your model, But all this stuff, like, exists in their head. And so part of the reason that you would hire someone from Apple, if you're OpenAI, is, like, they have this stuff in their head, and it's just a matter of, like, oh, they can't literally bring the designs or the prototype or the IP over. That's illegal. But just knowing how to build something is not a protected class of IP. Right.
+
+And I'm sure that OpenAI will make that argument as this case moves forward. Kevin, what has OpenAI said in the meantime about these allegations? So a spokesperson for OpenAI posted on x, quote, we have no interest in other companies' trade secrets. We remain focused on building innovative technology that empowers people everywhere. How did that strike you?
+
+That struck me as what we call a nondenial denial. It struck me as we're just learning about this, and we need to put out a statement, but we can't say anything because we don't know anything. So what is a series of words that journalists would reprint that would sort of buy us a few more days? That's kind of how that struck me. There's an art form to this stuff.
+
+Okay. Another thing that is happening at OpenAI this week is that people are starting to play around with Soul, this new model, GPT 5.6, that was not available for a period of time under request from the White House and the federal government, but that people are now using and experimenting with. I have not spent much time with Soul so far, but people I know who I I trust on this stuff have said, it's really good. It's a very capable model. Yeah.
+
+It absolutely is. It is a notable step up from 5.5. I've been doing some vibe coding projects recently. I've had the GPT 5.6 Soul kind of critique them, suggest changes, and I've been really pleased with the feedback. So I think if you are a chat GPT user and you're on one of the paid plans, you're gonna be really excited that you have GPT Soul.
+
+Is this a thing you do to, like, you know, get back at your fiance when you're having arguments at home? You just, like, casually stroll in, and you're like, hey. Been doing some really cool vibe coding with GPT 5.6. Yes. I mean, I think he understands that, you know, it's in the nature of my job to always be testing all of the models.
+
+Yeah. You're not a monogamist when it comes to AI models. No. I'm extremely poly, and I think he appreciates that. So a couple things that have come out of this new model release.
+
+One is that it has really changed the plans of Anthropic. As we talked about on the show, they had announced that, you know, starting on some arbitrary day in early July, they were going to revoke access to Fable for people using their Cloud subscription plans. This is their most powerful model. Basically, you'd still be able to use it through the API, but you're gonna have to pay for it on a per token basis. You're not just gonna, like, get some Fable access included in your bundle of a subscription.
+
+And they then extended that deadline by a few days to give people a few more days to play with Fable. Then they have extended it again. And my read on this is like this is in direct response to the fact that OpenAI has a, by all accounts, very good model out right now, and they are afraid that if they cut off access to Fable, people are gonna switch to using ChatGPT or Codex. Absolutely. So, I mean, you think about what their original plan was, which is, you know, we'll put out Fable and this happened, you know, several weeks before 5.6 eventually came out.
+
+And I assume that their thinking was people will have a few weeks to see how good Fable is. And so then whenever some other company launches a new model, it won't matter because people are already gonna be addicted to Fable. Instead, they had a big fight with the US government. And by the time they finally got Fable out the door, there were essentially only a few days between that and 5.6 arriving. And so my belief now is that they are trying to, essentially get people hooked on Fable, and and eventually push them toward paying per token.
+
+But, you know, 5.6 is out now, and people are gonna be able to maybe try that for a lot cheaper. So Right. And the companies, we should say, have been getting a little catty. A little? I've seen episodes of Drag Race that were more polite than what's been happening on Twitter over the past few days, Kevin.
+
+Yeah. So let's just talk about that a little bit because I think it's interesting, but also, I think, potentially very important. So Anthropic posted a new ad for Claude that is sort of a a longer ad. It's kind of a a a sort of montage. It's talking about hard questions.
+
+It starts with this very bizarre sequence of images of one is, like, a a building on fire, and one is with a a cemetery, like a row of headstones. It looks to be like a military cemetery. It's Arlington National Cemetery where my grandfather is buried, Kevin. What is it doing in this ad? And so the the sort of voice over on the ad is talking about how how can it you know, who's gonna who's gonna hit the brakes if we need to slow down this technology?
+
+Can AI be trusted? Like, these are the kinds of hard questions. You know, the the ad eventually gets to a more hopeful and positive message, but it starts with this kind of, like, very doomy picture of the world on fire literally as a result of this technology. And Sam Altman did not like this ad. Many other people did not like this ad.
+
+I mean, I'll say, I think this ad is a disaster. Like, I really do. Like, it's it's an extremely confusing set of messages, and I think it's like, it is unlikely to me that the average person would take away a positive message about Anthropic or AI from this ad. Oh, I don't know. I I wanna sort of, like, meekly defend the ad by saying that I think it's good if AI companies are honest about the fears that they have.
+
+I think it would be very bad if they just all turned into, like, sunny, optimistic marketing companies. Well, sure. But is the right format for that, like, brand marketing? You know? Like, I understand.
+
+You think this might go really, really badly and you're trying to prepare the world for that. But I think, like, a serious video with your leaders talking about that or, like, a thoughtful blog post are a better avenue for that than, like, video posted on x of burning building. You know what I mean? I I take that point. I just, like, I don't wanna have the message that comes out of this be like, AI companies should just lie to us.
+
+And if they're scared about AI, they should just not tell us that, and they should just put out ads about how great this stuff is. Well, here to me is I'm not gonna call it a lie, but here's what I find confusing. So at the end of this ad, which just essentially, I believe, has, like, sound clips of average people asking their questions about AI or discussing their wishes for AI, at the very end of it, Anthropic shows its tagline, which is keep thinking. And when Anthropic tells me keep thinking, I feel like I'm reading one of those blog posts where they tell senior citizens to keep doing crossword puzzles to keep their mind active. You know what I mean?
+
+It's like, if you're building super intelligence that is going to do all of the thinking, what exactly do you want me to do the thinking for? Right. Do know what I mean? Right. So I just think the entire brand message is getting very, very confused, and it is making people feel bad.
+
+And I think Anthropic needs to think about that. Yeah. I think that's right. But let's get back to the OpenAI of it because that was actually where this started to heat up. So Sam Altman posted on Monday.
+
+He reposts the ad, and he says, I thought this was satire. Kept looking for the handle to be spelled c one odd AI, like, basically a sort of scam account or something. And then he sort of mocks the hard questions tagline of the ad. He says, hard questions are great, but only if we deem you worthy enough not to silently downgrade you or even get access at all. Of course, to Anthropix on again, off again, Fable rollout, and some decisions they had made about sort of, like, silently downgrading people to a lesser model if it detected they were working on certain types of things.
+
+Yeah. So here is my impression of what is happening is the folks at OpenAI understand that they are now seen as an underdog, and they're thrilled about it. Like, think about the past year or two that they have had where they were the sort of carrying the banner of American AI, and every misstep that they made was under a microscope. And now fast forward to today, Anthropic is seen as being in the lead. And so it's now all of Anthropic's mistakes that are sort of getting magnified.
+
+And that lets OpenAI come in and throw some blows and look like a scrappy challenger again. And it's just much more fun to play the scrappy challenger than the sort of, you know, solemn standard bearer of American AI. Yeah. I I buy that. I don't think they're thrilled about being in second place, at least as the public perceives it.
+
+I think there's a lot of paranoia and fear over there that they are, you know, losing talented researchers to Anthropic, that they are sort of losing what they call the mandate of heaven to Anthropic by not having the absolute best models on the market. Wait. What is the mandate of heaven in podcast? Haven't seen this meme? No.
+
+So this is a thing that, like, insane people on social media post about where they're like, oh, you know, the new Gemini is really good. Maybe maybe Google has the mandate of heaven. It's just sort of like Like, sort of like god has chosen you to invent AGI? Yes. Wonderful.
+
+It's very dumb. Anyone who says the mandate of heaven in in sincerity should be checked into a mental hospital. But, anyway, I think there's a lot of paranoia. They really like, these companies like, I don't know if the public understands this, but these companies hate each other. Yeah.
+
+This is more than a Coke and Pepsi thing. Yeah. Like, what's funny is I was I was researching this for my book, and I learned that technically these companies may still have a nondispairagement agreement with each other. So when Dario and and the Anthropic folks were leaving OpenAI in late twenty twenty, they sort of signed this nondisparagement agreement that says like, we won't badmouth you and you won't badmouth us. And like, we'll all sort of keep things, you know, placid on the surface.
+
+And that has never been rescinded to my knowledge. Yeah. And so, technically, they still have a document on the books that says we're not supposed to trash each other in public. From the outside, reading sort of how they talk about each other, I would assume that they had a disparagement agreement. Yes.
+
+Which only disparagement agreement. The minute we leave here, it's on, bro. It's on like Donkey Kong. Yes. So these companies absolutely hate each other.
+
+They are bickering over the the sort of terms of these models being accessible to subscribers. I think they are going to start sort of doing some kind of price war with each other. That's my expectation is like, you know, Anthropic will kind of reduce the price of tokens, and then OpenAI will reduce it below that. And it'll sort of be, I think, good for consumers in a very sort of narrow, you know, consumer interest perspective because competition among Frontier AI labs is good, I would argue. Yeah.
+
+It's it's definitely good for consumers. I think that there are elements of the, you AI race itself that are scary, but perhaps that's a different conversation. No. I think that's that's where I wanna go with this. Yeah.
+
+Because I think, like, this feud between OpenAI and Anthropic, which does not seem to be subsiding and, in fact, seems to be getting worse, I think it is very dangerous. I do not like this way that these labs are conducting their relations with each other. I do not like how much the people at OpenAI hate Anthropic and are motivated by wanting to crush them. I do not like how much the people at Anthropic hate OpenAI and wanna crush them. I think that we are heading into a period where there may be real and dangerous risks associated with these very powerful systems, and these companies should be open to collaboration and solving this problem together, and coordination between labs, I think, is going to become increasingly important.
+
+And you can't do that if you're constantly fighting each other. I completely agree. You know, Dimas Esabes, who runs DeepMind, put out a piece this week where he talked about an idea for a kind of government regulator that would, you know, create a process around when a frontier lab could release a new model, maybe solve some of the issues that we've seen in recent months. And one of the things that he talks about is it would be great if the labs at some point could successfully collaborate around a slowdown in the development of AI. And now maybe that's something that the government will just, you know, decree.
+
+But in the absence of that, you want to see exactly what you're talking about, Kevin, which is like the leaders of these companies being able to pick up a phone and call each other and think about, like, what is good for the rest of the world and not just what is gonna get a bunch of retweets. Yeah. I just desperately need Dario and Sam and Demis to, like, all get together, take a little MDMA, work it out. Mhmm. Find some compassion.
+
+Yeah. Find some common ground. Yep. You know, put the beef aside. Yep.
+
+We're all in this together. Some what I found is sometimes business leaders will forget that we are all individual facets of the same universal consciousness, and that's when they get themselves into trouble. When we come back, the loudest warning yet on AI and Jobs. So there's a lot of noise about AI, but time's too tight for more promises. So let's talk about results.
+
+At IBM, we work with our employees to integrate technology right into the systems they need. Now a global workforce of 300,000 can use AI to fill their HR questions, resolving 94 of common questions. Not noise. Proof of how we can help companies get smarter by putting AI where it actually pays off, deep in the work that moves the business. Let's create smarter business, IBM.
+
+Industries, capital, and intelligence are converging into a single interconnected system, and the infrastructure behind it needs to evolve just as quickly. Nasdaq was built for this moment, powering more than 135 marketplaces and regulators globally and connecting capital to the companies shaping the future. As the innovation economy accelerates, connectivity becomes the critical asset. Nasdaq is the technology platform that makes it possible and scalable. Learn more at nasdaq.com.
+
+This podcast is supported by Everpure. Storage and data management so simple, it feels like second nature. Data. It's everywhere and vital for all your apps and AI initiatives. Managing it all has become a major challenge.
+
+Traditional storage just can't handle it. There's a better way. Everpure is bringing their trademark data storage simplicity into full data life cycle management from on prem to the cloud. Manage it all on one simple platform. Tame your data chaos with Everpure.
+
+Visit everpuredata.com. Alright, Kevin. Let's turn our attention to the question of AI and jobs. This is something that I have been fascinated by myself over the past few months. I've been speaking to several economists and tech leaders about the short, medium, and long term risk of an AI getting so good that all of a sudden employers are going to feel like they don't need people anymore, like they can just spend tokens.
+
+And there's frankly still a lot of skepticism on this point. And so that is why I was fascinated to see a new letter come out this week that had been signed by a group of nearly 200 economists and researchers initially, and they were warning about the impact that AI could have on the economy. Yeah. I saw this too. This was a statement.
+
+It was very short, just three short points. It was titled we must act now. And basically, I mean, we can probably just read the whole thing. Read the whole thing. It's not that long.
+
+And it says, point one, AI may become radically more powerful over the next ten years. Point two, this could drive an unprecedented transformation of our economy larger than the industrial revolution, but unfolding over a vastly shorter timeframe. It could bring risks, including large scale job displacement, as well as opportunities such as major gains in living standards. Point three, economists, policymakers, and technology leaders must now to understand the economics of transformative AI and to build the incentives, guardrails, and institutions needed to steer AI in a direction that complements humans and benefits society. So the statement itself, I think, is pretty anodyne.
+
+It's basically like, we should take AI really seriously because it could do all these things. It could do some good things. It could do some bad things, and we should pay attention to it. I think what was more interesting was the list of signatories, former Hardfork guests, Anton Koronick from the University of Virginia and Anthropic was on there, as well as I think some more skeptical economists who have previously been kind of dismissive of the idea that AI could cause large scale job transformation. At least in the short term.
+
+Yes. At least in the short term. It includes several Nobel laureates, including Dorona Samoglu, sort of a well known skeptic of the short term AI job loss hypothesis, David Autor at MIT, lots of other just sort of, like, well known economists and thinkers who are coming together to make this statement, and I thought this was really interesting. Yeah. And so this week, we wanted to talk to a person who helped to put this statement together.
+
+That person is Eric Brynjolfsson. He is a Stanford economist who helped organize the statement, and he is somebody who takes these threats really, really seriously. Yeah. I've known Eric for years. He's a great economist, and he's been writing about the danger that AI poses to jobs and the economy for a very long time, like longer than most economists, longer than ChatGPT has existed.
+
+He's been writing about this stuff. He's a senior fellow at the Stanford Institute for Human Centered AI and the director of the Stanford Digital Economy Lab. He's been studying AI's impacts on human workers and firms for a very long time. So to meet the demand for the questions that we have for him, we now supply Erik Brynjolfsson. Erik Brynjolfsson, welcome to Hard Fork.
+
+Well, it's a pleasure to be talking to you again, Kevin. So you have been writing and talking and thinking about the transformative potential of AI on the economy for a very long time, longer than, almost any economist I know. And I'm curious what inspired you to organize this letter, this we must act now statement from a bunch of your peers and colleagues. Well, this is something that's been brewing for a long time. You're right.
+
+I've been thinking about a long time. I taught my first course about artificial intelligence back in 1987 before most of your listeners were probably born. I I've just been very convinced about what was happening. But, you know, the nature of exponential curves is they grow, you know, slowly at first and then suddenly. And and now, especially this year, we're in the in that suddenly part of the curve.
+
+The technology is going so fast, but our economic understanding is nowhere close to keeping up. And and so I'm doing what we can to to try to change that. So the letter is titled, we must act now. I would say it doesn't really specify an action. So tell us about what your goals are with this letter and and what you think the policy makers who read it and all the the sort of esteemed signatories, what should they do?
+
+Well, there's two main purposes. First is is that there's been a sea change, and we're hoping to catalyze that sea change in attitudes about how seriously we take AI. As recently as a year or two ago, and certainly before that, most of the economists I talked to really were not very AI pilled. They thought, hey. It's it's not a big deal.
+
+I remember one secretary of treasury saying to me, oh, do you think that maybe, you know, there'd be a couple of tenths of a percent of change in productivity over the coming years. So you're sort of like imagining a a sort of a a very small technological impact. And I I personally think it's going to be huge, and I I wanted more people to take it seriously and realize that I think this is the most important thing economists should be working on. Whatever other projects they're working on, they should look at it through a lens of AI. Part of what we were calling for is is a better understanding, more economists thinking hard about this question, more research going into it.
+
+That said, there was the beginning of a direction that, you know, Doron Asimoglu and I and others have been talking about for a while, which is this idea of complementing humans rather than substituting for them. Now fleshing out exactly how to do that is a is a bigger question, at least if we could get, you know, a couple 100 economists and and a lot of Nobel Prize winners and and other AI researchers around the world to agree on on that direction, that's a good start. Let me hit you with some of the objections that I have heard when I've talked to other tech leaders or economists about the idea that AI might take a lot of jobs. I myself, I'm totally prepared to believe that there could be a real disruption here, but I do hear some skepticism. So one thing I hear is that job losses almost never have any one cause, and it's basically impossible to pinpoint when you're looking at the data.
+
+Well, it's certainly true. There's lots of things going on in the economy. AI is not the only thing. It's one of the most important and increasingly the most important thing. You know, we wrote this paper, Canaries in the Coal Mine, that that you may be familiar with.
+
+We're gonna have a new version of it out in a in a few days, probably in time for your your airing this podcast, where we look at some of the alternatives as well. We look at what's going on with interest rates. We look at remote work. We look at the tech over hiring. We look at changes in education.
+
+All of those are important, and we find that all of them make a difference. But even when you put them in individually or all at the same time into these regressions to try to to to parse out what's happening, AI continues to be an important factor. And it's not just destroying jobs. AI is also creating jobs as as a lot of people will tell you. And it's the job of us, people like me, like economists, to try to sort that out and see which parts are important as early as possible and as fine grained as possible.
+
+Just because it's not easy doesn't mean we shouldn't try to sort it out. Yeah. I I mean, I confess that I have been wrong about the economic expectations I had for what would happen when AI systems got more powerful. I think if you had time traveled back to 2020 and showed me, like, Claude Fable or GPT 5.6, and then you asked me, like, this technology will exist in 2026. What is the headline unemployment rate?
+
+I probably would have said like 10 or 20%. And what we see instead is that employment rates today are basically the same as they were a few years ago. Headline unemployment is hovering around 4%. So are you as surprised as I am that this technology becoming so powerful has not created more unemployment? No.
+
+Not at all. So I've I've written many papers, on this idea of the productivity j curve and on the way that AI complements changes. You may have heard I'll I'll tell I'll retell the story about how when electricity was first introduced, it took about twenty to thirty years before it fundamentally changed the way work was in American factories. At first, there was little or no productivity change. There's little or no employment change because people were just kind of paving the cow paths.
+
+They were redoing the same things they used to do, but now with electric motors and nothing fundamentally changed. It took a lot of reinvention of those factories and ultimately the whole economy to unleash a big change. And that reinvention meant eliminating millions of jobs. It meant creating millions of jobs. All of that in the case of electricity, like I said, took twenty to thirty years.
+
+I don't expect it to take twenty to thirty years this time around, but it's not the kind of thing that happens in in twenty to thirty months either. It's something that plays out over over a period of years. I think we're in the early stages of that transformation. I have no doubt there's going to be a lot of disruption and a lot of jobs destroyed. There's also gonna be a lot of jobs created.
+
+We're just in the earliest stages of that right now, but it it's going to get bigger. You mentioned the Stanford Canaries dashboard, which I've been following with great interest. It showed that early career jobs shrank 2.7% year over year, while mid career jobs grew 1.6% year over year. Is there growing consensus among economists that this is AI driven impact? And how should we respond to those numbers?
+
+I can't speak for the economics profession as a whole. I mean, I I believe the numbers, I've I've spent a lot of time looking at them. I think over time, it'll become more and more obvious. Maybe one of the most convincing things in addition, I mentioned we we tested all these other hypotheses and and they didn't knock out the AI result. But the other thing just to you know, we first published a version of this back in August 2025, and we saw, you know, basically the same pattern.
+
+And people said, oh, it's a blip. It's due to, you know, interest rates or whatever. It's just grown over time. You can go to the canaries. You can go to the dashboard, AI economic indicators at Stanford.
+
+And what you'll see is that these trends have just been continuing to grow over time. It's not something that's just due to COVID or something else. I wanna ask one more question, Eric, about this letter, this this statement. Obviously, the coalition that signed the letter, like, hugely impressive group of economists and thinkers, tech executives, real who's who of the field. But there were some people who didn't like this letter and and didn't sign it.
+
+Either they thought it was too vague or it didn't make enough concrete policy recommendations. But I wanted to single out one reaction from Noah Smith, who's an an economics writer and blogger. He wrote that he didn't sign this statement because, among other reasons, he was just very skeptical of this line about trying to steer AI in a direction that complements humans and benefits society. And he basically wrote, like, this is not possible. We we don't know that we can steer this technology toward being complementary.
+
+He writes, how the heck are business people and inventors supposed to steer AI toward being complementary to human workers? They obviously couldn't predict the labor market effects of the last round of AI, at least in the short term. So why should anyone believe the technologists have the ability to purposefully invent different forms of AI with different labor market effects? What's your response to that? Well, love Noah.
+
+He's super smart. He's a friend of mine. We hang out in the Bay Area from time to time. I'm so glad he he engaged with the letter, and I'm also glad that not everybody just reflexively agreed with it. I think we had just the right amount of friction there, a few people disagreeing just to make it interesting.
+
+It would have been boring if everybody just said, yeah. Yeah. This is obvious. That said, Noah is wrong about this. You know?
+
+Uh-huh. Have lots of examples in history of technology being directed in different ways. One of the ideas behind carbon taxes is that, you know, you wanna do that. And there's research that shows that, you know, countries that impose more taxes, engine technology evolved in different ways. For computers specifically, there's long been two strains.
+
+You know, Alan Turing talked about the Turing test imitating, replacing humans. There's another stream, Doug Engelbart and others, who talked about AI amplifying people. And one of the things I do, I spend a lot of time talking to CEOs. Let me tell you a a very concrete story. I I met with the CFO, and she told me that she wanted to use AI and get higher ROI for it.
+
+I said, that's great. That's what you should be doing. And then she said, and therefore, what we're doing is requiring measuring in every department how much headcount reduction they have, thanks to AI. And I said, woah. Hold it just a minute there.
+
+That's one way to measure AI is replacing workers. And, you know, and sometimes that's a good thing. But there's so many other things you can be doing. You're a CFO. You're being paid millions of dollars.
+
+I didn't actually say that to her, but that was what I was thinking. You should be more creative. Like, let's look at the upside. What kinds of new products and services? What kind of better customer service?
+
+What kind of, you know, reduced employee turnover? There are all these other metrics that a good manager can look at that will increase the upside. And if they think that way, if they change their mentality, believe me, they're gonna steer the technology. You're gonna have outcomes that involve people more, that complement people more rather than just replace them. Yeah.
+
+I I'm I'm just a little more cynical about that than than maybe you are. I I wanna believe that you're right and that these enlightened corporate leaders will say, well, you know, we we really don't want the technology to replace humans because humans are so valuable, and and there's all these ways that they can be, you know, be complemented by a family here at the Olive Garden. Yeah. Right. But, like Well, let let me just say this you know, there there's three reasons for doing this.
+
+K. One is that I do think it's the right thing for society, but let's just set that one aside for now. The second reason is that I think it's in their enlightened self interest that they should that the more I'm I I could teach at business schools a corporate strategy. The the the better strategy, the more defensible strategy is creating new products and services and barriers to entry, not just cutting costs. And then the third thing I'll say is it's true.
+
+There are a lot of tax and other incentives right now that skew companies disproportionately towards investing in capital versus labor. For instance, marginal tax rates on capital lower than marginal tax rates on labor. And so if if you have a strategy that replaces a lot of workers with machines, you end up paying lower taxes. That's the flaw, I think, in the tax system. That's something we can fix and create better incentives for work for for managers to cheat them more evenly.
+
+And then last but not least, I do think there are a lot of people who will will embrace this because it is the right thing for the world. And and I think their workforce is gonna like working at that company if it's a company that does right by them. You told Ben Casselman at the New York Times that economists need more reliable data. What are some of the problems with the data that we have right now, and what would you like to see more of? I mean, is something I'm super focused on right now.
+
+Sadly, as we're going to one of the most turbulent periods in all of economic history, we are destroying our instrument panel. The government is cutting back on data collection, eviscerating of the statistical agencies. I feel for those people as they're trying to this is the time, if anything, we should be doubling and, you know, investing more in visibility. It's a really high ROI activity. It just costs a tiny bit of the budget and will help us make better decisions not only as policymakers, but also as managers.
+
+That said, you know, there's only so much I can do about the federal budget. What I can do is at the digital economy lab, create the AI economic indicators, partner with private organizations. We're incredibly lucky that there's a bunch of real time data that's being just collected by companies anyways, you know, RAMP, Revelio, ADP. And so we can tap into these data sources and get some kinds of visibility. They're not always collected for the purpose of being representative, so you have to do some work to kind of normalize them and and measure them.
+
+But by creating an infrastructure to get more visibility, we can do more. And we're creating a new a new taxonomy of the kinds of tasks that are being done in the economy. There's something called ONet that lists all the tasks that workers do in the American economy, and we're creating an updated version of that. I think, you know, over the coming months and years, we'll be able to get much more real time visibility and a much more fine grained way of what's happening in economy. And that will allow us to sense and respond to what's doing.
+
+I mean, it can only do so much about predicting what's gonna happen next, but it's sometimes easier to at least, measure it quickly and then allow people to respond to that. Eric, I wanna get your take on a policy idea that's been making a lot of waves in recent weeks, which is this idea of a some sort of a sovereign wealth fund that would be sort of paid for by the AI companies. Like, every American would get a stake effectively in the frontier AI companies, and you would kind of use that to capture some of the value and redistribute it to American citizens. From an economist perspective, do you like that idea or is there some other way that we should be getting Americans some share of the proceeds from this booming industry? It's not my first choice, but I think we need sort of an all of the above solution.
+
+So I'd like to see us thinking more about ways that we implement those kinds of of ways of of sharing the gains. My concerns with with just a a payout in the sovereign wealth fund is that, like, who decides who gets the money and who doesn't? And and if you don't agree with it, what what leverage do you have? If you don't pay a farmer, they're not gonna give you the food, you don't pay a factory worker, they're not gonna give you the the the the effort that they put into it. But they if you're just getting a dole, you don't really have any leverage to to step back.
+
+I mean, you hope you can work through your representatives, but I I think it's it's a less stable equilibrium to just have people getting a check that way. That said, as I said at the beginning, we should, you know, explore a variety of approaches. Yeah. My understanding about how, like, the new Dole would work is that if you had some sort of issue with it, you would tweet at David Sachs. And if your tweet got enough retweets, then he would respond to you.
+
+So I mean That could work. Yeah. We could probably come up with a better system. Let me throw a couple other ideas up on the board that are are getting kicked around in in this space, Eric. What do you think about, like, wage insurance if, you know, you have to take another job because your job goes away, and and you're you have to you're forced to work a a lower paying one?
+
+Yeah. Wage insurance is is another thing. Economists have been talking about this for for decades that there's more potential. It's kind of a missing market there, just like you have housing insurance and fire insurance and health insurance. It's tricky because of moral hazard as you call it that like, okay, you know, you you still wanna have incentives for people to work.
+
+But we could have better tools to understand which jobs are being affected and how much of that is due to exogenous forces and how many aren't. I'm I'm all for exploring that a little bit further. Again, I I don't think it's gonna solve the problem, but it could be one piece of the puzzle. What about government incentives to hire young workers? I think some of that actually makes sense as well.
+
+And the reason for that is that you don't get mid career workers unless they first start as young workers. So there's kind of a market failure there that needs to be stepped into. Historically, education training have been, to some extent, public goods where there's value that goes beyond the people who are paying for them. And that's why in almost every country, government and nonprofits have had a role in trying to support them. I mean, The United States has been, for many for many centuries, the number one in the world at making investments in education training.
+
+For, you know, the eighteen hundreds, we were way ahead of Europe or other country other places in the world at investing in primary education and secondary education and college education. It's not true anymore, but but when we did, that was a big reason why The United States not only had the highest productivity, but also one of the biggest middle classes in the world. Eric, I know we're almost out of time, but I wanted to ask one final question. Eric, your field economics has been going through some pretty radical changes. And the one that I see the most is just that a lot of your colleagues in academia are going to take jobs at AI labs.
+
+It seems like every week, I'm I read on the Internet that some esteemed economist is taking a leave or leaving their tenured position at some university to go work for a frontier AI company. Are you worried that that is going to hollow out the ranks of academic economics departments? And what is your poaching price for any AI frontier lab that is interested in hiring you? I've been resisting so far, but I do see like my colleagues, yeah, in the offices next door, my friends, my students, a lot of them have gone to take jobs at Frontier Labs. And I gotta say, by and large, you know, these frontier jobs, they're doing great work and they get access to amazing data, And so that's exciting.
+
+At the same time, I think there's a role for people that, you know, don't have a boss who who, you know, is looking to make profits for the Frontier Labs. And, you know, even if the reality is that they're unbiased, there's gonna be a perception that they're speaking for that company, and we need people who who aren't as affected by that. I'm not saying academia is completely unaffected either. So, you know, I do hope people will will stay a good a lot of smart people will stay in academia and continue to do what I'm doing. I've sat down very hard.
+
+I've I've had offers from Frontier Labs, and and I've thought about it. And for me, the the marginal utility of more money isn't that high, so I I just sort of like what I'm doing right now. Stanford's been great to me. And I like just being able to have a perch where I can I can do the research that I'm doing? So What I what I'm hearing you say, Eric, is that it would take some kind of, like, meta super intelligence lab style offer, like, a billion dollars to get you out of your chair and and go work for Frontier Lab.
+
+I don't know. I I maybe there's something wrong with me, but I I feel like, like, what am I gonna do? Get a bigger house, more cars? I don't know. I mean, I I you know?
+
+So so I kind of I feel like I have the greatest job. You know? Don't tell my dean or he'll cut my salary, but but I feel like I'm I'm, like, basically very happy with what I'm doing. Whatever amount of money I had, I would be doing basically what I'm doing right now. So I'm lucky in that.
+
+Not everybody's lucky enough to have a job like that. Maybe you guys do. You guys look like you're having fun. And, hopefully, we'll be entering a world in the future where more and more people can just be doing what they really enjoy doing like I do, and and money won't be the main reason that they pick one job versus the other. Oh, wouldn't that be nice?
+
+I like it. Well well, we really do appreciate the work that you do. It's great to have, you know, strong independent research and data about this that we can, you know, rely on as we do our work. So thank you very much, Eric. Thanks, Eric.
+
+Thank you. Such fun talking to you guys. When we come back, there's cheating at Brown University and other stories from this week's installment of Hatch GPT. The thing about AI for business, it may not automatically fit the way your business works. At IBM, we've seen this firsthand.
+
+But by embedding AI across HR, IT, and procurement processes, we've reduced cost by millions, slash repetitive tasks, and freed thousands of hours for strategic work. Now we're helping companies get smarter by putting AI where it actually pays deep in the work that moves the business. Let's create smarter business, IBM. If AI can deliver so much value, why are organizations struggling to scale it? Because the gap between hype and ROI is wider than most would expect.
+
+Adopting the latest technology is only the beginning. True transformation requires accessible data, scalable infrastructure, strong governance, and a clear path forward. With Insight AI, you can tap into Insight's thirty five plus years of expertise across cloud, data, AI, and cybersecurity to drive real results. That's how you go from hype to how. Learn more at insight.com/hardfork.
+
+This episode is supported by KPMG. KPMG works with leading global organizations to redefine what's possible with AI. By becoming its own client zero, KPMG embedded AI and intelligent agents across the enterprise, accelerating how work gets done, how teams collaborate, and how decisions move. That approach established a blueprint for building AI capability at scale, one that now anchors how KPMG helps companies move faster with confidence. To see how KPMG can help your organization go further, visit www.kpmg.us/ai.
+
+That's www.kpmg.us/ai. Well, Casey, so much news this week that we can't talk about it all in-depth, but we can do a round of Hatch GPT. That's right. Hat GPT, of course, our segment where we toss the week's news into a hat, pull out items one by one, and discuss them until one of us gets bored and says, stop generating. Okay.
+
+Casey, we got a bunch of stuff in the hat this week. You go first. Alright. Let's see, Kevin. This first story comes to us from the times and our friend, Mike Isaac.
+
+OpenAI is showing Calci's World Cup odds in ChatGPT, Kevin. As part of a deal between the two companies, ChatGPT started displaying the Kalshi odds of victory in response to user queries about various World Cup matches. For example, in the case of France and Spain, there was a graphic showing that the prediction market had assigned the French a 60% chance of winning, which was a very important information to have before France would go on to lose two zero. So I think this is a perfect story because now there is something in ChatGBT that can help you lose money in a way that does not involve your monthly subscription payment to OpenAI. It's beautiful.
+
+I am I am circling a theory that actually has to do with this particular story, which is that the two most important forces operating in the world today are one, AI capabilities and two, gambling addiction. Yes. This combines them both in a into a sort of like societal Voltron that is probably going to become unstoppable. Yeah. And this one is a really funny one because, of course, like, prediction markets are so closely associated with the rationalists who were a driving force in, like, bringing about this current AI moment.
+
+You know? So it sort of looks like, you know, maybe a feature in ChatGPT that is, like, steeped in the cultural traditions of the place that birthed it. But on the other hand, it is just gambling. And I, as a, you know, like, a paying subscriber to ChatGPT, it it does offend me that I have to see gambling advertisements in my responses now. Yeah.
+
+I I just think this is going to be sort of everywhere unless there's some sort of regulatory response. Like, I expect to, like, open a box of cereal and it should just give me some kalshi odds for something Yeah. Like, in a year or two. I just think there's going to be no surface for our attention that does not in some way have a gambling ad attached to it. Alright.
+
+Stop generating. Okay. Next out of the hat. New York enacts nation's first statewide moratorium on data centers. Governor Kathy Hochul, former hard fork guest, signed an executive order recently pausing the construction of the largest data centers for one year while the state assesses their effects on the environment and energy use.
+
+This is a temporary pause on hyperscale data centers, which use 50 or more megawatts of power to operate. And president Trump responded to this on True Social, calling it a terrible decision and saying the radical left Democrats must not be allowed to cause us to lose data centers, AI, and all this incredible new technology to China and other countries. Casey, what do you make of the statewide moratorium in New York? So I I I I have to say I'm quite sympathetic here. The state legislature had passed a moratorium that would have been even more restrictive than this.
+
+And so my, belief here is that the governor wanted to find a kind of middle path and throw a SOP to people who are worried about data centers in their communities without sort of going as far as some of the the legislature did. It was sort of a a lessatorium. Yes. It really was. Very good.
+
+Thank you. And so, look, I think it is reasonable to say that there are a lot of questions about the impact of these data centers, and we want to investigate it. Now, you know, my hope is that during the next year, they do what they're saying here, and they get a handle on what is the actual impact to, like, the average rate payer. Right? And can we address some of these environmental concerns that are out there meaningfully?
+
+You know, we we've talked on the show in the past about, well, maybe some of the, you know, water use claims are are are overstated here, and I do believe that. But I'm reading other stuff about data centers contributing to, like, an urban heat island effect, for example, or like a like like a sort of polluting the water supply. So these are just the sorts of things that I think it's reasonable to say. We want to look into this before we have another 10 of these things go up in the state. What do you think?
+
+I I am sympathetic to wanting to have more information. I just hope that the information that makes it to the legislature and to the governor's office will be good, high quality information. I think there's been a lot of, like, shoddy information out there about the especially the environmental effects of data centers, the water use. Like, a lot of that data seems pretty suspect to me. So I just hope that there is, like, a good robust inquiry into, like, what is the actual effect on these?
+
+And I think the short term effect is that if you are a tech company that was planning to build a data center in New York first of all, you probably weren't planning to build a data center in New York because I think that's this, you know, is generally known among the big AI companies and the hyperscalers that you're gonna build something, you wanna build it in either Texas or some other red state that is likely to look more favorably on your project. But I think that is going to continue to happen where these data centers will open in largely red states where, you know, there are fewer Democrats to oppose them. I think this is unfortunately becoming quite a polarized issue, and it will remain to be seen whether those states that want the data centers end up getting a bunch of tax revenue from that that makes their citizens' lives better or whether it is just a blight and the they will regret having let these things in. Yeah. I mean, I I don't know.
+
+I I think that this this issue is maybe a little bit less polarized than some people might think. There was just a massive data center fight in Utah, a very red state. You know, we've seen, you know, members of city councils, like, lose their positions over endorsing data centers. So this is not just a pure, Democrats hate data centers and Republicans love them. Republicans do not love data centers either.
+
+And so I think the message to companies that want to build them is, like, you have to make a really solid pitch, and that includes convincing people that this thing is not gonna drive up their electricity prices and that it's not gonna be horrible for the environment. Do you know what they call it when they put a temporary ban on data center construction in Utah? What's that? A Mormontorium. Stop generating.
+
+That joke was for Whitney. Shout out. Okay. Casey, you're up. Alright.
+
+That's a thick one here. Kev had been wanting to ask you about this as a Brown University graduate. So this one comes to us from inside higher ed. A Brown University economics professor, Roberto Serrano, had given his students a take home midterm exam in the spring, and students scored a whopping 96% on that midterm, which is way higher than normal. He said the average grade is usually between 6580%.
+
+And so then it came time to do the final exam, which he gave in person. And the final exam score, Kevin, was 48.6%, an all time low for the course. There were many funny things in the data that he released, but my very favorite piece of data was that there was, one student who scored 55% on the midterm and improved to 59% on the final. This is the most honest person at Brown University. And if you're listening, we salute you.
+
+We salute you. Yeah. This was an amazing story that I was very interested in for, you know, obvious reasons. I I attended Brown University. I actually spent a couple weeks in professor Roberto Serrano's econ class before I dropped it because it was too hard.
+
+And I'm sure that I would have been one of these students who has sort of, you know, cheated on the midterm using ChatGPT or some other AI system and then Yeah. Absolutely bombed the final. It's worth saying, like, the reason that he gave the take home midterm was particularly generous. Like, they had just had a school shooting at on the campus of Brown. Terrible.
+
+So he says, you know, in the wake of that, like, do your take home exam. No time limit. Like, I think a very generous and and compassionate move by a professor. And how do his students repay him but by cheating en masse? I mean, there is no other explanation for how everyone would score an average of 96% on the midterm and then 48.6% on the in person final.
+
+The score distribution chart that was made to accompany this article was hilarious. Truly. It was it was just like, oh, everyone has had either has severe brain damage in the time between the midterm and the final or everyone was cheating using AI. Yeah. My takeaway here is that cheating is bad and you shouldn't cheat.
+
+So well, there's that too. Alright. Stop generating. Alright. Next out of the hat.
+
+Oh, this is a good one. MiniMax CEO vows to forego salary until achieving AGI. This one comes to us from the information Junji Yan, the founder and CEO of Chinese AI developer, Minimax, told employees in an internal memo that he will forego his salary until the company achieves artificial general intelligence. The article also notes that MiniMax's share price has not been doing so hot. It's down 80% from its peak, and the company's current flagship model has failed to gain traction in the market.
+
+But a bold move to say, until AGI, don't pay me. If it it really is. And, you know, Kevin, I believe it was last year that you wrote an article saying that AGI was imminent, which raises the question for me, are you prepared to forego your salary until AGI is achieved? You know, I think AGI has already been achieved for my salary purposes, so I'm not gonna let that factor into my negotiations. What about you?
+
+I'm going to continue to be paid for my work. Thank you, sir. Alright. Stop generating. Alright.
+
+Oh, I enjoyed this one. Lorde has spoken up against what she called f ed up AI glasses, Kevin. And she didn't say f ed, if you know what I mean. Last week, the great singer Lorde was performing at the Mad Cool Festival in Madrid and had this to say about smart glasses. Increasingly in our world, it gets harder and harder to know what is real.
+
+You don't know if someone is wearing sunglasses or if they're wearing those effed up effing. Can I just say, for the record, eff the glasses? Don't get the glasses. Not sexy. She did not mention them by name, but Ray Ban was a festival sponsor, and a number of outlets have pointed to the Ray Ban meta glasses as her likely target.
+
+Kevin, what did you think of Lorde's comment about the meta Ray Bans? Well, I don't like it. For this reason, I own a pair of meta Ray Bans. And now I am worried that this backlash is going to result in me getting, like, punched in the face as I walk down the street with my Ray Bans on. Now I'm I use them predominantly to take photos of my kid.
+
+Mhmm. But I have noticed that in the past several weeks, people have started to notice that I am wearing these things. Mhmm. And they don't like you know, they don't punch me. They don't turn the other way.
+
+Like, they're they're mostly curious, but I think this is starting to become like a social, you know, scarlet letter a little bit. Yes. And I worry about its effect on my life. Well, look, I don't want anyone to physically harm you because you're wearing these. But I have noticed that some folks online have started to call the Ray Bans pervert glasses, and that does make me laugh.
+
+And the reason that they're being they're being called that is because it has been possible to disable the light on the glasses that indicates that they are recording and continue to record. And, you know, you can go into these subreddits for these glasses, and people are sort of exchanging tips on how to do this. So, look, they did go back recently and change it so that you cannot apparently record if your glasses have been tampered with. But I don't think it is at all unreasonable to want to be able to walk down the street and not worry that strangers are recording you. And so I think that, you know, this statement was Lorde's best single in at least two albums.
+
+I just think, like, maybe I'm gonna have to start wearing, like, a little placard on my you know, around my neck that just says, like, these are for taking photos of my kid. Like, don't worry. I'm not creeping on you. You know, mean, look. Here's the here's again, the that would be like a a real, like, you know, my not creeping on you sign is answering a lot of questions already raised by my not creeping sign.
+
+It really would. I mean, look. This is just a classic case of, you know, Meta's own actions coming back to bite it. You know? Like, people do not trust this company.
+
+And so now they have a hardware product, and people don't trust that either. It's very important to me that Apple release smart glasses with a camera in them. Yeah. Because I think as as soon as that happens, a, they will just take privacy more seriously than Meta does. And also, b, like, it's not gonna be stigmatized in the same way.
+
+Yeah. You know? It'll it'll it'll just hit different coming from Apple. I Meta did, like, ship code that had facial recognition technology in it and then freaked out once people noticed this and wrote about it. And it was like, how dare you?
+
+We we would never implement something like this. And then they had to unship all the code. So, again, this is truly just a a mess that they made for themselves. Yeah. And if anyone at OpenAI in the hardware division is is looking at Apple's prototype smart glasses, I wouldn't just encourage you to steal those and make that and not whatever smart speaker you're making.
+
+Here's what we know. If you bring it to your job interview at OpenAI, they will look very favorably upon you. Stop generating. Okay. New polling from Pew Research about the share of people getting health and wellness information from influencers and podcasters is it out, Kevin?
+
+And fifty seven percent of women ages 18 to 29 say they've gotten health and wellness information from social media influencers or podcasts. And for men 18 to 29, the number was forty seven percent. So anything to say about this finding? Yeah. I think people should absolutely be getting their health advice from podcasters.
+
+I can't think of any group more qualified to opine on health care in this country. It's and my advice for this week's health installment is don't eat the bagged lettuce at Taco Bell. Yeah. You know? There's this diarrhea super bug going around.
+
+We wanted to make a statement to all of our listeners who have been affected by the explosive diarrhea parasite. We see you, and we are rooting for you. You are strong, and you're gonna get through this. And, hopefully, if you're on the toilet right now, you're listening to our show, and we're helping you take your mind off of things. The good news is it doesn't seem like the parasite lasts longer than a month.
+
+So yeah. Here's what I'll say. I I don't actually watch a lot of this, like, you know, sort of health influencer content, but I think I know roughly what it sounds like, and I like to do my impressions of what I think it sounds like. Okay? Now this is the this is the content that you hear if you're a woman.
+
+Okay? You're probably not eating enough green beans. They're calling it green bean theory, and here's why celebrities are obsessed with it. Okay. So that's for men.
+
+And now this is what you get if you're a man. Okay? Could you win a fight with a horse? Maybe not today. But by the end of this video, you'll know 15 techniques to do it.
+
+Here's the workout. That's my impression of influencer content. I love it. Thank you. Stop generating.
+
+Okay. Last one. Last one. Meta removes AI feature on Instagram after days of backlash. What a what a meta backlash this week.
+
+Last week by the way, this comes from Eli Tan at the Times. Last week, Meta paused a new AI feature on Instagram that allows users to generate images based on people's public accounts citing widespread criticism. The feature which Meta unveiled on Tuesday automatically opted in any Instagram user with a public account. As a result, countless people's likenesses were used in AI images without their consent. Users complained about privacy and copyright concerns.
+
+Meta walked it back and put out a statement saying, we've heard the feedback, essentially. Now, Kevin, why do you think people got so mad about an opt out feature that let anyone remix their face into anything using AI? Why why did people get such a bee in their bonnet about this? You know, we're just a bunch of babies in this country. We just, you know, we're just jumpy and protective, and we don't like progress.
+
+No. This is obviously a bad idea. If you paid one minute of attention to the launch of Sora when OpenAI sort of allowed you to put your friends or celebrities in cameos. Like, that also got a bunch of backlash. I assume the meta knew that and went away with this anyway.
+
+And here's here's what I've learned from my years of covering this company. Yeah. When they say we've heard the feedback and we are pausing this feature Mhmm. What they mean is we are waiting for something to else to happen that is a bigger scandal by another company so that the attention on us dies down and we can ship the feature. I I think that's absolutely right.
+
+You know, I've thought about this. And, you know, maybe it's like a post AGI job for me. I'd like to start a nonprofit foundation, and what it will do is it will introduce people who work at Meta to people who do not work at Meta and just sort of help them understand what it's like to be a person in the world. Like, what are their wants, their desires, their values? You know?
+
+What what builds trust with it? And I think if we could get those two groups in conversation, Kevin, we could change the world. It's like an exchange student program. Yes. Yes.
+
+Like, if you are a you know, an engineer at Meta, like, you have to go, like, work in an auto body shop in Kansas for a month, and the auto body mechanic in Kansas comes to Menlo Park and works at Meta. Absolutely. This is a good idea. Yeah. This has legs.
+
+If you're one of the If you're an The metaverse avatars. Very good. If you're one of the you know, once the the sort of AI IPOs happen and you got a lot of money to throw around, you wanna start a nonprofit, get in Dutch. Love it. Okay.
+
+Stop generating. Alright. Close the hat. And that was Hatch UBT. That's all the news.
+
+All the news. The thing about AI for business, it may not automatically fit the way your business works. At IBM, we've seen this firsthand. But by embedding AI across HR, IT, and procurement processes, we've reduced cost by millions, slash repetitive tasks, and freed thousands of hours for strategic work. Now we're helping companies get smarter by putting AI where it actually pays deep in the work that moves the business.
+
+Let's create smarter business, IBM. If AI can deliver so much value, why are organizations struggling to scale it? Because the gap between hype and ROI is wider than most would expect. Adopting the latest technology is only the beginning. True transformation requires accessible data, scalable infrastructure, strong governance, and a clear path forward.
+
+With Insight AI, you can tap into Insight's thirty five plus years of expertise across cloud, data, AI, and cybersecurity to drive real results. That's how you go from hype to how. Learn more at insight.com/hardfork. This episode is supported by KPMG. KPMG works with leading global organizations to redefine what's possible with AI.
+
+By becoming its own client zero, KPMG embedded AI and intelligent agents across the enterprise, accelerating how work gets done, how teams collaborate, and how decisions move. That approach established a blueprint for building AI capability at scale, one that now anchors how KPMG helps companies move faster with confidence. To see how KPMG can help your organization go further, visit www.kpmg.us/ai. That's www.kpmg.us/ai. Art Fork is produced by Whitney Jones and Rachel Cohen.
+
+We're edited by Veeran Popich. We're fact checked by Caitlin Love. Today's show was engineered by Alyssa Moxley. Original music by Alicia Baitsu, Diane Wong, Rowan Nemosso, and Dan Pell. Video production by Soya Roke, Jake Nichol, and Chris Schott.
+
+You can watch this whole episode on YouTube at youtube.com/hardfork. Special thanks to Paula Schuman, Wee Wing Tam, Brooke Minters, and Dahlia Haddad. You can email us at HardFork@NYTimes.com with your favorite Lord Zingle.

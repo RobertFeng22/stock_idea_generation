@@ -1,0 +1,435 @@
+What I don't want to see is there's only one company who owns intelligence. I think that doesn't make sense to me. I think last year is the year of coding, and this year is the year of co work. I do think the cost of token will go down drastically, 10x cost reduction in the next three years. And this 10x cost reduction will drive 100x usage.
+
+We absolutely are not going to move into application layer. Very clear to us. Whether we will move down into view data centers and so on, that could be always be on the table. This is 20 VC with me, Harry Stebbings. And in the hot seat today, a founder who I wrote a $10,000,000 check for after just a fifteen minute meeting.
+
+Lin Kwao, founder of Fireworks. This was one of the easiest investment decisions that I've made in a ten year investing career. Number one, the team is one of the best in the world. They've worked together for years. Number two, the inference market.
+
+It's growing insanely fast, and it will be one of the biggest markets in the world. Number three, the traction. Honestly, I get in trouble for this. Everyone's like, oh, don't say triple triple double double's dead, Harry. It's because that's what they are.
+
+Well, that's the sad truth. When you can invest in fireworks, which has scaled to 1,000,000,000 in ARR in four years, that's what you should do. Number four, hiring ability. Honestly, the single best founders, they're able to hire the best in the world. Lin just hired George Hugh.
+
+He was the former president of Salesforce. And then number five, upside. How much money can this make? Well, do you believe AI will be transformative to the way that we live? Do you believe we will live in a world of many models which are horizontal and specialized?
+
+If so, Firewise, honestly, it can be a $500,000,000,000 company. I don't know about you, but this train is leaving the station. Choo choo. But before we dive into the show today, founders founders face a different set of challenges at every stage of growth. For Sid Shait, cofounder and CEO of Dematrix, JPMorgan delivered the guidance and expertise to help navigate what came next.
+
+He credits JPMorgan's high touch approach with supporting dMatrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits. JPMorgan is the bank of the innovation economy. While JPMorgan powers your finances, Navan keeps your team moving.
+
+Did you know the industry average for booking a business trip is forty five minutes? That's a massive waste of your team's time. Well, with Navan, your employees can book a trip in just seven on average. Navan is the AI powered travel and expense platform designed for companies that value efficiency. It drives real business impact through high employee adoption and automated policy control.
+
+Now the built in AI approves in policy bookings and blocks the rest automatically. This allows finance teams to stop chasing receipts and skip the month end chaos, and you get this real time visibility that can save your company up to 15% on your travel budget. And that's why leaders like Visa, Stripe, Figma, and even Anthropic rely on Navan these days. Go to navan.com/20vc today to see for yourself, and you'll get a chance to win two business class flights anywhere in Continental US. No purchase necessary.
+
+Rules apply. Head over to navan.com/20vc now. While Navan keeps your team moving, Base 40 four helps you build faster. You have the idea, but with most AI tools, you hit a wall. The setup, the config, the gap between what you pictured and what you actually ship.
+
+Well, Base 44 is where that wall disappears. You describe it? Yeah. Base forty four builds it. Apps, websites, AI agents, real working products built in minutes using nothing but plain language.
+
+And it's all batteries included, the back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow. This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone. So in this market, fast is the baseline. To win, you just have to be first. Base 44 is that edge, the move that skips the troubleshooting and gets you straight to the breakthrough.
+
+Build your next thing at base44.com. That's base44.com. You have now arrived at your destination. Lin, I am so excited for this. I heard so many great things.
+
+I just got off the phone with your cofounder, Dima. I spoke to Alfred Lin, Sonya, Matt Miller, many more. So thank you for joining me. Thanks for having me. Now I heard that Eric Vishraer has a rule, don't invest in big tech directors, but he broke that rule with you, which is very special.
+
+I think so too. So a funny story, After we decided to handshake, he did call me and said he talked with one of his advisors and his advisor questioned him, Hey, how many big tech executives have you seen being successful in starting a company? Very few. And he told me that I was surprised, like, we breaking our handshake now? No, but since then we work very closely with each other.
+
+Eric is one of the best. You also started the company when you were 48? That's quite late. How do you reflect on being a 48 year old founder when we glorify starting a company when you're pretty much 15 these days? I didn't think deeply about that.
+
+I always want to have a tech business myself. I actually want to start a business in 2015 because I'm a first generation immigrant. I came to US in 2000. I did my PhD in distributed system, computer science, especially focused on databases. Databases is a very concept system to build, a lot of different objectives optimized for.
+
+And pretty much touched after I joined Research Lab, I pretty much touched every single aspect of processing data. And then I moved to LinkedIn to further it down to build systems and products to be used to drive real impact. At that time, I feel I'm ready to start a company. I know all the tech. I know what product to build.
+
+I have a business proposal. I have a list of people I want to start a company with. And I spent time thinking about it in the past because I don't think I have the skill set on people to build a company. It's not just about product. It's not just about tech.
+
+It's actually about people. And I decided I want to go to a place I can learn the most of people. And the best company at that time is Facebook. It's a rising star in Silicon Valley. And secretly, I was planning to learn for one year and leave and go back to do my own business.
+
+I stayed there for seven years. So with Firewise, you saw something in inference that the world was not focused on. The world was focused on training. And I think it's helpful for people to understand kind of the stack because beneath you, there's obviously kind of chip providers and your NVIDIAs of the world, and then you've got above you the model providers, and you sit in between. Why is that a valuable part of the stack and not a commodity?
+
+That's a really good question. But why bother specialized intelligence? Why not just use generalized intelligence and and you worry less things, right? You just kind of build on top of an API that's provided by French LAPs. Wouldn't that be much easier?
+
+So the argument is the following. If you think intelligence is a derivative of data, then majority of the data is actually not used for training a general intelligence model. The training data is coming from public internet and the labeled data. Public internet is very small corpus of data compared with Words data. Majority of Words data actually private data locked inside application, locked inside enterprise.
+
+It will never get shared with anyone else because this is company's proprietary IP. If you look at the space then becomes very interesting because majority of data is not being activated to derive any intelligence and that's where we believe in is to activate that data. And we believe the future of the frontier of the intelligence, actually private intelligence, our specialized intelligence. So that's kind of where FireWise, from the beginning, we have been focusing on driving the value. I have so many questions to ask you.
+
+I totally understand you in terms of the values in private data within some of these largest companies. Is that not the premise of what Anthropix Enterprise Business is though? With Claude CoWork and with a lot of their adjacencies that they're building, would Dario not say that that's exactly what we're going after? That's interesting because I view Anthropic as a company fully believing AGI. The definition of AGI is there's this one model that can solve all the problem in the best way.
+
+To me, that's the definition of AGI. To me, that means you do not need to specialize. And that one model should be able to solve all the problems. It's so intelligent, have so much knowledge of every parts of the businesses, every parts of the jobs it can fulfill, then why do you need to bother specialize? So that itself is a validation that we're living in a world that's not ruled by one principle.
+
+We are living a fully diversified world. I'll give you one example, right? Different regions will have different value systems, will have different policies, will have a different way of conducting business, will have different lifestyle. It's all taste, choices, judgment combined. I think that's what defines us as human.
+
+We are not robots. If our future world is going to be ruled by one standard, a taste dictated by one company, we turn ourselves into an army of robots. And that's very depressing to me. I think what separates out Homo sapiens from other species is the creativity, is the deep desire of pursuing new things, of discovering new ways of living that define us as a human being. That part cannot be copied.
+
+That's my fundamental belief. That's why in Silicon Valley, there's so much creativity. Across the world, there's so much creativity of building new businesses. I had this interesting conversation with Jensen after his GTC keynote. We actually recorded it.
+
+I watched it. It was great. Yeah. Recording with Jensen is not really recording. He just started having conversation with me.
+
+I didn't know his crew already started recording. And we just keep talking, you know? It's so easy. We talk about this specialized intelligence. He said one thing to me.
+
+Lynne, you're right. There's no specialized general company, as in every company is built on a special belief of doing things. Otherwise, there's no reason they should exist. It feels, yes, logical. But then I start to think back about what he said is profound because every single company is doing something unique that justify their existence.
+
+And this something unique is deeply baked into their product design, is deeply baked into their software design and system building. And that's deeply baked into the data and the interaction with their user and their deep understanding of their user intent, interacting with their product, and engagement, and so on, all of that is the fundamental base of why a company should exist. That is not learnable or shared by another company sitting outside. Can you help me understand? And as a podcaster, I specialize in asking basic questions, so forgive me.
+
+But why then do people like Dario, like Sam, like Larry and Sergei talk about AGI in the way that they do as inevitable? I think what they build is fantastic because they are basically building power line to distribute a really great source of intelligence that everyone else can build on top of. Contribution. If we don't have this fundamental infrastructure, then we will not have all kind of appliances living in our home. I love my coffee machine.
+
+And it's special branded. But with all that power, then we don't get to do the things that are fun, that are unique, that are special, that encode our taste. So I do think that's very, very important. But the question is, is this power line going to replace everything we do? I don't think so.
+
+The question for me as an investor is, are power lines good businesses? You said about PyTorch and Open and the Open ecosystem. Open source in the last, I would say, three months, we've all realized is actually accelerating so fast and the capabilities have increased to such an extent that it's not comparable quite, but it's getting 90% as efficient with 15 times to Chamath's statement more cost effective. Are power lines good businesses in a world of open source? So here's our view.
+
+How are you open source? So early on, when we found the company, we had pretty deep debate among the co founders. What do we do? Do we build our own models? Or we build on top of open models?
+
+At that time, open model was not almost at its infancy. It's a big bet. If we're going to take that direction, it's a huge bet that it's going to do well. But with our PyTorch experience, we believe in the open community. We believe in openness.
+
+That's a fundamental principle we operate with, because openness gives control to the user. Think about open models, right? Once the model is released, you have the full control of the weights. You can change it however you want. It's yours.
+
+And then you can build on top of it. So that is a fundamental different operating principle that we believe in because of our roots in open source before. So we took that bet. And it did pay off in the sense that both open model and closed model, the quality significantly increased, improved over the past two years to the point both of it, both of these two streams cross a quality threshold, it can solve so many problems. So within firewalls, offer our own product.
+
+We use open model to drive our recruiting process, candidate sourcing, and feedback collection. We use Open Model to even drive some internal finance processes. Obviously, for coding, we use Open Model to help us debug. We have ton of agents within Fireworks ourselves. And we are cost conscious.
+
+That is important. Model categories cross a threshold. It solves so many variety of problems. Second is open model cross a threshold is so much easy to tune. So to be able to steer a model is intelligence is part of the model intelligence.
+
+And the model intelligence has password thread, which is much easier to steer, especially with small amount of data. A small amount of unique data a particular company has, and then we can hill climb towards your eval. And oftentimes, the end result of hill climbing is to solve your unique problem with your data, you are better than a general purpose model. When 90% of enterprise workflows can be done, as you said that the incredible array of functions that you now use open source for with open models, so the usage for frontier models will not be as large as it was if it was needed for everything. So are these companies actually dramatically overvalued and overestimated if the majority can just go through open?
+
+I think people start to realize it. I remember from two years ago, I went to different places and talk about an interesting phenomenon that doesn't exist in the past in the SaaS era. During SaaS time, product market fit and a durable business almost are equivalent to each other. The hardest thing is find product market fit. And then once you find it, it just scale as fast as you can.
+
+Because CPU is a commodity. The infrastructure built on top is almost like a commodity. Don't even worry about that as your cogs. Now product market fit and durable business are two separate concepts. For startups, we have great companies that have product market fit, customer want to pay them and they really value their product, but they cannot scale because once they scale, they could scale into bankruptcy.
+
+Have you heard about scaling to bankruptcy? So that's a real problem. It's even a bigger problem for incumbents. So the big companies for digital native, because they have the traffic. They have a huge amount of traffic.
+
+They're the winner from a decade ago when they were startups. And they have so much traffic. Once they roll out those AI features, they're going to reach to all their customer base. They cannot afford to do it because their CFO look at their cost proposal or cost forecasting as kind of there's no way you can justify this, right? So then it becomes a real problem to all those innovators.
+
+Hey, we really want to plug in to this new technology, new disruptive technology, but we cannot afford it. And we need to find an alternative to be able to afford it. And the alternative is to have the control over your open weights model and roll out your own model. It is. Or you see what Sam Altman's released in the last few days, which is just dramatically lower cost models.
+
+I can't remember the amount it is, but I think it's like half as expensive or maybe three times cheaper. It's the next step actually we just see a massive reduction in price from the frontier models? It could be. But I think at the same time, it's just a very different operating principle. Because for open weights model, because it's just there, basic model acquisition has no cost.
+
+Obviously, some company train those models and are willing to open it up. I know within US, there are multiple companies doing that, including NVIDIA is training Nemo Tron. We're working, obviously, very closely with them. So once the model is there, whoever using those model, there's literally no cost. But there's fundamental cost for the frontier labs to invest in those models and recoup the R and D cost back.
+
+And second is you just cannot customize those general purpose models. And you use it as is on top of API. You have no control over. Versus with open model, you have full control. You can tune however you want.
+
+You can use it however you want. Especially Fireworks, we are a specialized intelligence platform. We offer all sorts of tools for you to easily customize the model for one specific use case. And after that model is tuned with high quality, and then we further optimize for inference deployment. Think about FHIR Works.
+
+We think about every single model deployment as one size fits one. It's unique for your workload only. It's optimized for your workload only from quality, speed, cost point of view. So we believe that's absolutely needed because once you think about a production scale of reaching to millions of users, tens of millions, billions of users, then even 5% of cost reduction means a lot. It's a massive amount, let alone what we have seen in the past is five times to 10 times cost reduction.
+
+The one question that I do have to ask is the concern that enterprises have is national security concerns. When you look at OpenRooter, I think the top six models today are Chinese models. And they're incredible quality. The speed of development is incredible, but they are Chinese models. Do we have serious national security concerns when analyzing the power of Chinese open source?
+
+I think it's a huge debate happening right now across the industry. Once the model is open, you can put all kind of guardrails specialized to your business around. I would say to all models, it doesn't matter if open or closed. You should put your own guardrail around it. The fundamental reason is the following.
+
+A model provider will infuse their own judgment, their own taste into the model training process. You cannot guarantee it matches yours. Remember, it goes back to Jensen's comment. There is no specialized general company. Every company is special.
+
+Every company will have a special design principle. Every company will have a special taste. Every company will have a special target audience to serve. Because of that specialty, it's guaranteed that the judgment, the taste, the design principle from one company would mismatch, would misalign with your company, which is solve a special problem. That is the reason you need to tune those models to match yours.
+
+And I really believe the future will not be a few small number of AGI models dominant world. I really believe the future will be it may be scary, but I think that's true. It will be millions of specialized model, one per application per use case. We saw in the last week, actually, reports that China were looking at actually restricting access to their open models because they were seeing the development being so fast and so good. What would happen in a world where China actually started restricting access to their open models, given the lack of open models we have in The US?
+
+I think it will be a big impact in the short term. But the beauty of open ecosystem is it's not one provider. That's why it's open. It usually attracts many, many, many interested party to participate. I do believe in terms of talent density and resources, I do believe US will be able to build that open system by ourselves.
+
+And we should. I've seen this happening again. In many open systems, there are a thousand flower blossom, and that's the beauty of that. When we talk about the specialization of intelligence within enterprises, as you have done just there, if we take a very prime example, which I don't particularly want to take because I'm an investor in Ligure, and I think I know which side you're gonna fall on here, but you have two companies that compete in the legal space, Harvey and Ligure. And Harvey have committed to building their own model, and then Ligure have not.
+
+A year ago, it looked like companies that didn't commit to their own model were right because frontier models were increasing so fast in terms of capability. Now it looks like they're wrong. Should companies like Harvey and Legora be building their own model? And actually, if you don't, what happens? So here's one observation I had, is software development, especially SaaS space, has been significantly disrupted because of the general intelligence of coding.
+
+The application development life cycle has significantly collapsed in terms of the timeline and the resource needed. In the past, it requires tens of very strong product engineers and PMs to convert from idea to implementation to production scale. Multiple quarters of years of investment, that's a deep moat. And today, one person, a few weeks, can possibly launch their ideas into a product and scale quickly. This is unprecedented.
+
+And that's also created interesting dynamics in redefining where the competition is. Because it's really hard just to compete on the idea of application, application by itself. Because many people have similar ideas. Now implementation is no longer such a big barrier. Is that actually true, though, when you're looking at enterprise deployment, enterprise rollout?
+
+If you're working with some of the biggest law firms in the world, I mean, the enterprise sales cycle is is at least multiyear with relationship build that's very tough, and then you have deployment that's very customized. It's not like 11 Labs where you pick it up and go. It's different. And also, I think legal space is particularly challenging because lawyers are usually more conservative. Legal is also not tolerant at all on arrows, right?
+
+Because that's why lawyers get paid, right? You need to build a very rock solid case. If something hallucinates judgment, then you're in trouble. So I do think the legal space is a very interesting space to penetrate. And these companies are both doing a great job.
+
+But on the flip side, I do think both companies are owning proprietary knowledge and information, how to build those assistants to do case studies, to go deep in driving legal research and all this. So my understanding of legal is so shallow, but there's so many different versions of flavors of cases. So I do think they are in unique position to convert that deep understanding. And they all have data. It's not just about how defensive their business is.
+
+It's about, hey, oftentimes when they build those assistants, there's a harness integrating and deciding, orchestrating which AI tool to use, which tool is calling to. And this is bespoke. This is customized. And accuracy of calling those tools and calling to what kind of tools is important. Even that harness need to be co trained with a model powering it.
+
+There's just ample examples of driving that business to excellence by owning their own intelligence on how to do that in the workflow layer. So maybe it's the timing. Coding, for example, I think in coding space, Cursor probably is one of the pioneer starting to tune their model. And now almost all coding companies tune their own models. Does that pace of model development slow down?
+
+Because every single day, it seems like we have a new model with a new capability, and it's like, oh my gosh, Kirst's newest model is amazing. Next, we have Mr. R's newest model is amazing. Gemini's newest model is amazing. In three years' time, will the pace of model development still be so fast and model superiority be so transient where one day it's one and the next day it's another?
+
+So there are a few layers of model advancement. There's base general IQ advancement. So those will take step functions. So that's why when they release there, there's always major release or minor releases. The major release of step functions, as you remember beginning of last year, there's a whole this thinking.
+
+The thinking process is new. The model just don't spit out answer immediately. The model will think by itself and spit out answer. It's much better that way. So that's one step function.
+
+There are many step function we have seen through, but I see those as every year or every three quarters as a major leap. But at the same time, build on top of those the best based models, and I can see the specialization start to accelerate. Because as I said, it's really a tree, right? There are so many branches and leaves that can possibly hang on the trunk. And as the base model quality start to have step function leaps, and there's so much more we can do to specialize.
+
+So I do see in the world specialization is going to accelerate much faster than the general intelligence part. When we think about the general intelligence part, just before we move kind of further into the stack of like multimodal, Sam proffered the 5% gifting of OpenAI and others to the administration. Do you think we've reached a stage where model development is so advanced and so important to society that they will impart be government or administration owned? That's a very interesting question. I think there were presidents of that.
+
+If we think about the foundation tier of those general intelligence model as fundamentally a base infrastructure For the big economy to operate around, there has been presidents of PG and E owns electricity and gas and so on. So what I don't want to see is there's only one company who owns intelligence. I think that doesn't make sense to me. Because there are different as I said, there are different flavors of intelligence. There's this general common intelligence that benefits everyone.
+
+And then there's a specialized intelligence that actually help us advance in history to think differently, to create new paradigm of living or new paradigm of doing business and shaping the industry. I don't want that to die because there's only one company who can do that. I don't think that makes sense. With the many models blooming theory, there's the idea that you will root tasks to different models dependent on what they specialize in? I think so.
+
+With that in mind, will you not build your own open rucher of the world to cater to that? Yes. You can argue they are the best suited because they deeply understand their use case, and they have the evals. So, again, my thinking of what is the frontier is not just this one model. The frontier could be your special routing mechanism for your business.
+
+And you decompose that based on, hey, in order to fulfill this task, and you need a highly intelligent layer, maybe the most expensive closed models, to judge the highest complexity. And usually, people will also be a sub agent to solve smaller problem. Then those can go to smaller open models. And those can also further being customized to fit into your special design. So I've seen a lot people already doing that today.
+
+And we also think there's a space to build a automatic routing system that can learn by itself And that compound with automatic tuning system, eventually, we think it should all be automated. And then you can see a self evolving system based on what flow through your product and your product keeps evolving. Your product is live, right? So you keep deploying and launching new features and to interact with your users. That just kind of it will be a totally self evolving automated system.
+
+Do you think then that routing layer of the stack is valuable? If it can be automated or it can be built on its own, is that a valuable layer to have? I definitely think so. You do think so? I do think so.
+
+If it can be automated or companies can build it themselves, why would you need a Requestee or an OpenRouter? You probably don't. We're not there yet, but I do think this is this could be area of of innovation. You said Cursor being the front runners in terms of how innovative they've been. I completely agree with you.
+
+But I heard and, you know, I I really stalk you before shows, but I heard that your CTO edema was embedded at Cursor for months building the RL infrastructure. Is that how it has to be done, and is that scalable? So what's happening is usually in the early adoption curve of new technology, the early adopters are hackers. Hacker is not in a bad way. It doesn't have a negative connotation.
+
+They have deep expertise in certain area, and they want to control a lot of things. Versus in the late stage of a new tag adoption curve, it starts to get more accessible to a much bigger cohort user, doesn't have deep expertise, and they need less control. So it always go into deep control first, usually, and the little control later. So we definitely are aiming towards the later stage as the ultimate TAM we want to target. But it's also extremely valuable to understand what is required to get there.
+
+So that's why we partner deeply with Cursor. They are the pioneer in trying those ideas. They do have researchers from Frontier Labs. And they want to control every single thing. And at the same time, we're also pushing to the boundary.
+
+We're doing things that never existed before. Webbing system never existed before because we push the boundary that is unique to this particular setting. Okay, what is unique is here. Typically, if you think about training, training happens training is very capital intense, and it usually happens in big companies. They have a lot of money.
+
+They put those money to buy very expensive training cluster interconnected with each other, super expensive. And then once you have those expensive large fleet, usually you don't need to think too deeply how to be efficient. You just focus on doing your work. Cursor is like us. They're a startup.
+
+Both of us are very capital conscious. We want to be efficient while we don't want to slow down the research innovation. So together, we figured out a very smart way to drive their training process is they do massive post training, which is reinforcement learning based. And reinforcement learning, we break that into two pieces. One is the trainer that is tweaking the weights of the model.
+
+And it basically generates new model version constantly. And that new model will deploy to, we call it, RL rollout. It basically is deploying that new version, interact with a synthetic environment, a synthetic coding environment or real coding environment, and then get the reward back to judge if that model version is good or bad. So that's a rough process. And we decouple these two.
+
+In the past, in large hyperscaler, they run that altogether. If you think about you get 10,000, 100,000 chips all interconnected together through InfiniBand, it's extremely expensive. It's really hard to find. But they need to go really quickly. And we've designed a fully distributed system.
+
+We run across five, six data center regions globally and tap into scattered GPUs. And they are able to run massive jobs, our jobs. But the challenge there is we need to sync model weights across all these different regions. And then we're looking at how hard can that be. It matters because the latency of delay of sending these weights over is going to dictate how fresh the rewards are.
+
+And then if it's too stale, then you are too off. So it's a balance. But we innovate a way we can distribute fresh model weights quickly. It's not too off. So numerically, it's still sound, while we are not limited by very expensive deployment of GPU fleet.
+
+So those are the innovation we work together with Cursor to push the boundary leading to their recent model launches. We're very proud of them. Incredible customer to have. Amazing progress they've had with you. It's a very large customer for you.
+
+How do you think about the concern of a CURSA churn in the wake of a SpaceX acquisition? Yeah. Everyone's concerned. The whole entire industry in terms of application innovations by model, in the sense there are few companies that are very successful. They escape velocity, but few of them.
+
+So that's the shape of the whole entire industry. And last year, Cursor is one of the few. I would say all model companies are concentrated on Cursor. We concentrate on the same group of app companies. And since then, it does change.
+
+We do have a very healthy diversified customer base, especially, I think last year is the year of coding. I think all major coding companies are on us. And this year is the year of co work. And co work is much more diversified by itself than coding, because there's general purpose co work. For example, general purpose co work to help you do all kind of research.
+
+You want to ask, hey, what will be the NVIDIA GPU prize two years later? So those are deep research, general purpose deep research. Or there are so many different categories of special purpose co work. Legal, we just talk about two great legal companies, finance, customer support, recruiting, sales, marketing, health care. So there's a very broad set of co workspace of innovation app company.
+
+They are doing really well. And we have them as our customer base. And then more interestingly, we start to see an uptick of consumer facing company are all start to look into JNI technology. They are changing how they are thinking about their traditional business of doing accommodation, for example. And that's very interesting to me because we have obviously worked at a huge recommendation system in the world, Meta.
+
+And we are very eager to see how that transforms into a new economy for us. I'm sorry for being naive here. Do people work with just one provider in the inference space like you? Or do they work with you and with Together or anyone else in the space? I think people are more in tuned to multi vendor strategy in this space because they don't know what's happening.
+
+It feels safe to have multiple providers to balance things out. But we don't view ourselves as an inference provider. Again, we view ourselves as delivering these specialized intelligence where we help companies tune their model. Give you some numbers. Today, we process more than 40,000,000,000,000 tokens a day.
+
+So majority of those tokens are coming from a customized model, not from off the shelf models, are coming from customized model. What will that token count be end of next year? Anywhere ranging from 20 to a 100 x could be possible. 20 to a 100 x? Yeah.
+
+We're at a very early stage of S curve of explosion right now. 20 to 100x. If it's 20 to 100x, the idea that we are in a CapEx bubble is ridiculous, and we are desperately needing far more CapEx than we are ever suggesting for compute. Is that right? That is right.
+
+At the same time, I think Jensen has a five layered AI cake from top down application model infrastructure chips energy. We are bottlenecked by the lower part of the AI cake in terms of supply chain. Being energy. Being energy, being chips. In the physical world, how fast we can manufacture.
+
+Because in the history, all these industries are not designed for massive scaling. Speaking about 100x scaling, no one was designed for that. I talked with many manufacturers. It's kind of bottlenecked by small parts. Transistor.
+
+The the smallest tiny parts that hold off the whole manufacturer line of servers that can deploy to data center and be used to generate tokens. Do you have to be full or going to Jansen's five layered AI cake, do you have to then be full stack to win or to reduce dependencies? We've seen OpenAI come out with Jalapeno, terrible name, Anthropic talking to Samsung about building their own chips, DeepSeeker building their own chips, Zuck came out with Meta building their own chips. Do you have to be all all of it? It really depends on the company philosophy.
+
+To us, agility is everything, and we need to earn the rights of building anything. So focus is everything for us. And we want to focus on where we add the biggest amount of value based on our strength. We would like to leverage other people's strength to build on top of. So in particular, we want to run everywhere all possible AI chips in the world.
+
+We don't want to limit it by how much chips we can bring into our data center, whether we're constructed or we rent it. But over time, when the business grows very big. Right? So I still remember when Meta was young, they they don't build everything. And when they're big they make sense to build you earn a rise to build for your own giant traffic and if it saves like five times more cost then you should go do it right so but I think at the early stage, that's why I give tell you an interesting story in the coding space.
+
+I I would say Cursor is the first company they have decided to work with us early on. I still remember when they worked with us, they were single digit million dollar, very small. It was only two years ago. They grew by a 100, a thousand x over two years. But they decided to work with us early on because they recognize they only want to focus on product innovation and later on research.
+
+They do not want to focus on, you know, this platform innovation. They know we are putting all our R and D in there, and they want to find the best partner to win big. I do think that's the right mentality to specialize, and we want to specialize. We do not want to kind of own the whole entire stack. That's not our goal as a company.
+
+I'm sorry to be harping on that. Why does Jensen skip your layer of the cake? Because he's doing Nemotron with models. Why does he not wanna cannibalize your business too? Jensen is not building a cloud either.
+
+Right? You can say, hey, Jensen, probably you have authorized to build an NVIDIA cloud. So he's not building a cloud infrastructure. I think he mentioned that as well. I mean, people ask him that question.
+
+And he also mentioned he want to specialize in what they have the rights to do. Why models? I think it's pure a supply chain question. If US doesn't have a US native open model, a problem. It's a supply chain problem.
+
+So so he is solely there to solve the supply chain problem. But if there's no supply chain problem because the company, like us are providing this specialized intelligence platform layer, then he doesn't need to worry about it. So he just wants to make sure the whole entire five layers of AI cake is flowing. There's no blockage. And if there's a blockage, he's interested in solving those problems.
+
+Mark Benningoff, one of your investors, I think, in the new round, which obviously this will come out after is announced, said that he spends about 3.8% of developer salaries at Salesforce on Anthropic and CoreCode. And I think it's a useful analogy because if you assume that that is what's spent on crawl code and coding tools, that says one side of the market. But if it's 20%, wow, we're underestimating how big these companies can be. When you think forward a year or two, what percent of developer salaries do you think will spend? Is it less because these tools will get cheaper?
+
+Or is it more because they'll get better and better? I do think the cost of token will go down drastically. Because it hasn't so far? It hasn't so far because of supply chain constraint. But we are living in a free economy.
+
+So think about whenever there's shortage, price is high. Price is high. High price will invite a lot of people coming to solve the problem, and it will invite competition. Competition will bring down the cost, and then eventually will lead into a very economical solution. But actually, that's good for everyone because much more affordable infrastructure will invite more usage.
+
+So my prediction is with the decrease of infrastructure, that's where it comes to my prediction of how far next year will look like because the infrastructure costs will go down and usage will explode because of that. So the moment you don't think about that as a problem for you, and you just if it's a utility, you just use it. How much will token costs come down? Is this just how many times that is it like a halving? Is it like a oh, it'll be a hundredth of the cost?
+
+So there's different ways to think about it. All tokens are equal. I think we should establish a best practice to evaluate the token economy per task. Because different models have different way of spit out tokens. Some are much more verbose than the other.
+
+So you can imagine one model is 2x cheaper than the other, but it's 2x more verbose to solve the same task. And then they're at the same cost. But overall, I think as the model quality improve, I think being precise is going to be part of the optimization. And so that's one level of optimization is to solve one task, we should need less tokens. And the second is for one token and how to do that is you need to customize the model to solve your problem, better and more precise.
+
+That goes into model tuning. And second is for each token spit out from those models and processed by those models, we also specialize in making the unit economics much better through our platform. And third is underlying infrastructure, like the GPUs, the surrounding like memories, and all this. Today, it's under stark supply chain constraint is going to get much better. The situation will get much better.
+
+I don't think probably in the next one year or one year and half, the situation will not change. But in the long term, two to three years, you should change. And that cost will compress. So overall, I can imagine 10x cost reduction in the next three years. And this 10x cost reduction will drive 100x usage.
+
+You said there about token efficiency and how you enable your customers to be much more efficient. With that efficiency, you do charge more. When I did the research, when compared to competitors, got Together's price king. And I didn't mean this disparagingly, but they're cheaper. If you want cheap, you go there.
+
+And respectfully, if you want better quality product, go you to you. But it is more expensive. Do you think that's a fair assessment and a fair analogy? I think we're probably not comparing apples to apples in the sense that, again, back to our business, majority of our traffic is customized model. We optimize for quality, number one, always quality.
+
+Quality as in model quality towards your applications, your specific business, your use case, and so on. The second is when we deliver those model in inference, it's also quality. And we care quality so much we do extreme things. For example, during training time, there's a very hard thing to achieve. It's called zero KLD.
+
+It's a little bit technical. The idea here is Zero KLD? KLD. KLD is a measure of quality. And what it means is between the training system and the inference system, when model move over, we have bit equivalence.
+
+So as in the numerics are fully the same, we do not lose a bit of accuracy. That's really hard to achieve. But the reason we push that we deliver that. And the reason we push that is because we know primary business is in model customization and inference of customized model. And we want our customers, every single dollar, invest in training, maximize it.
+
+And then if cross training inference boundary is not bitwise equivalent, they just drop the quality down. And then it's like you pay your trading investment by discounted quality. Why do you do that? So quality first, and quality does bring additional value. And that's why we are not interested in commoditized one size fits all.
+
+This off the shelf model deployed in the same way for everyone, that kind of business. We're always customized model deployed in a unique way for your particular workload. Two questions. Do you have to have an FDE model to make the customized model efficient? As a matter of fact, we do have an FDE team.
+
+It's called applied machine learning engineering team. So their primary job is to accelerate customized deployment. As a matter of fact, to also build the agent to automate a lot of deployments. Given where we are in the stack, a lot of the complexity that we have, we have a margin structure that's a little bit different, like traditional SaaS being 80%. I don't know the margins precisely here, but it's just in the 30% to 40% range for where we are.
+
+Is that the new normal for where we are? I don't think that's the new normal. That is a reflection, at least for us, I don't know other companies. For us, it is a reflection of we are in a hyper growth phase. During hyper growth phase, you have the choice, right?
+
+You either optimize to me, margin optimization is a constraint problem, as in, hey, we want to go to 70% margin. We want to go to 80% margin. And then we are going to go backwards and impose those constraints to guarantee those margin. And usually constraints slow down innovation. So for example, I'll give you an example.
+
+During system development and in a high velocity system expanding phase, we don't want to overbuild because we're in kind of high experimentation. We're testing what will stay, will not stay. Optimization doesn't make any sense. Once we know this is a system that we want to build 100% and we are going to scale this 1,000 times bigger, then we go optimize the heck out of it. I think might not be you will think about business the same way.
+
+While in hyper growth, if our focus is only optimized growth margin, we absolutely can do that. But we are sacrificing the speed of growth because we want to go everywhere. We want to go into different geo regions. We want to go into tackle different use cases. We want to constantly create different product lines.
+
+And those are not the time for optimization. That's my opinion. So we will be able to increase margin without moving into different layers of the stack? Not into we absolutely are not gonna move into application layer. Very clear to us.
+
+Whether we will move down into view data centers and so on, that could be always be on the table, but the question is timing. Isn't the statement you either die or you live long enough to build your own data centers? As Elon or Zuck now are spending, I think, 10,000,000,000 on the latest data center in Canada, would you like to build data centers? So I have built data centers at Meta. Also lots of innovation possible there.
+
+There's no one size fits all as well. And building a GPU native data center is also interesting. So it's a trade off, right? From operation point of view, it's much better to build a heterogeneous deployment. It's all the same chips, all the same SKU, as big as possible, and run multiple workloads.
+
+So it's fungible. It's very easy to manage. You build one principle, one process to do maintenance operation. Again, it goes to optimization. But once it's so big, then any optimization is going to drive a lot of economic return.
+
+For example, we're talking about NVIDIA recently acquired a company also called Gwok with Q. It's a large SRAM based ASIC accelerator. I spoke to Jonathan before this show. Jonathan is He said what a fan he is of yours. Oh, also a fan of his.
+
+But it's a great combination between a FLOPS intense GPU and SRAM intense ASICs because FLOPS intense is really good for first half of LM processing. It's called prefilled, processing the prompt and so on. And SRAM intense is really good for generation. That's just the nature of the model architecture. It's great to combine these two instead of running heterogeneous on the same chip.
+
+But that requires a very unique system design and deployment into data center. And it is heterogeneous, actually, before I really mean homogeneous. Design is much better for operation. And this is heterogeneous. And then how to operate this heterogeneous design requires unique innovation in data center deployment and so on.
+
+So data centers aren't commoditized. You can specialize in data center deployment. And one data center is better than another. And data center deployment can be done well and badly. Data center is so complicated, right?
+
+If you think about the beginning all the way from construction to power deployment, you have the right power to come in, right fiber channel, the right cooling, especially newer chips requires liquid cooling. To get all this right and the parts can fall apart and how to replace them, It is all very deep expertise. It's no joke. It's not tomorrow I can be a data center operator, I cannot. Is that not where you would bet long on China with the greatest respect?
+
+Especially in The US, one of the biggest barriers to data center deployment is policy and is local legal infrastructure that prevents it. In China, you don't have any of that. Data center deployment is much, much faster. I think in general, infrastructure, the base physical infrastructure construction in China is going really fast. I literally see some kind of crossover bridge being built within a week.
+
+The velocity is very high there. And there's a highway close to my home. After one year, it's not done yet. So this is also a crossover. So I do think there is a unique strength probably because of the population density.
+
+And they are specializing in those kind of construction. But I do think we also have those specialty. I heard even electrician is under severe shortage. We are under global supply chain constraint here. What change would moving into the data center layer cause to margins?
+
+Would that take it from 30 to 50? Would it be not that meaningful? What would that change do to margins? How we calculate gross margin is interesting these days because how long does hardware depreciate has significantly changed? Yeah.
+
+In the past, it's six years, solid six years. And hardware release is usually three years. That's fast. And now within a year from one vendor alone, we have three SKUs. The newer model usually runs the best on the newest hardware.
+
+Model depreciations are also very fast. Every week, we are launching a new model. And then the model is kind of peak in its value before the next model comes out. And the new model likes the newest hardware. And imagine this cadence after two years.
+
+Which model runs on the two years old hardware? It will be two year old model. Are those models still valuable? So I think that's kind of the real dynamics we're facing right now is the hardware will last for six years still. But what you're saying, the speed of model development far outstrips the speed of chip and hardware?
+
+The speed of model development definitely is the fastest. But even the hardware innovation itself is the fastest. So after three years, if every year there's three hardware SKU, after three years there are nine hardware SKU in between, do you still want to go back to nine generation older hardware running three years old model on that? That's questionable. Maybe there's a war.
+
+It's still valuable. But with this pace of innovation, it's questionable. Now with a different depreciation cycle, it changed the dynamics of build versus own, build versus buy. And again, it goes back to my original thesis of do you optimize for growth or do you optimize for gross margin? It's all about timing.
+
+How do you think about that question? When you're sitting there in an armchair on a Sunday afternoon thinking, we're optimizing for growth now. When is that time to optimize for gross margin? Well, I would say we optimize. We want to optimize for both.
+
+So here's how I think about it. Optimize for growth requires a lot of business planning, assuming there's product market fit. Optimize for growth margin is optimized for differentiation. I think I want to avoid over optimizing for gross margin, but we should optimize for gross margin continuously, as in we should optimize for product differentiation continuously. There's no question about it.
+
+I think we want to continuously optimize towards a healthy gross margin, which allow us to grow really fast. And it's a trade off, and we don't want to take compromises. The compromise, as in we over optimize gross margin to result in a very slow growth. And one possible way to optimize gross margin, we do not grow at all. We just optimize the heck out of it.
+
+I know we can kill climb to a high number, but that's absolute disaster outcome. Okay. Interesting. If we just said, hey, Sol gross margin, we're gonna take it from 30% to 10%, is it a win and take all market where we could eat up everyone else's lunch and then optimize gross margin later? We know it's all probably is not a snapshot in time.
+
+It's going to be a long term situation. We do see a particular industry will oscillate and start to settle with a few good ones. Take legal, for example. I was on a dinner table. Interesting.
+
+It seems like there were a lot of those companies around two years ago, but now it's pretty much Who? Two. I think it's a long game. How do you see the more mature state of your market? Is it like a cloud market where you have obviously Azure, AWS, GCP?
+
+Or is it an Uber and a Lyft where one takes 90% and the others kind of fight for scraps? We're in the adoption curve where a lot more companies, they are in the AI space, start to seriously think about moving to specialized intelligence, to start to seriously think about owning their intelligence is better than renting. Because going back to this optimization, when is the good timing? So it's same the question we're answering for ourselves when build versus buy. And our customers are also thinking about build versus buy or build versus rent or own versus rent.
+
+I think AI or AI adoption journey has gone further along into a lot of company has meaningful traffic. A lot of company is deploying AI into production. A lot of company is at the phase of scaling. And that's where optimization kicks in. When optimization kicks in, you need to have control to optimize.
+
+If you don't have control, you just don't have the range to optimize. And for you to have the control, then you have to build on top of some open model. You have to turn your data into intelligence. That's pretty much the path that we have seen. So many companies across the industry, they reach the same conclusion they are moving towards this direction.
+
+Being of owning your own intelligence versus renting it, that does apply to a national layer. And when we've seen Fable be banned in some cases by the administration briefly for nineteen days, especially in Europe, we suddenly went, oh my gosh, we cannot be at the hands of OpenAI and Anthropic where we can just be banned in our health services, sit on the infrastructure of something that an administration can turn off. Do we see a future of sovereign models where large nations or nation blocs own sovereign models? I definitely see that possibility. I also see if we think about the general intelligence model as the electricity layer, as a power line, every country should own their own power line.
+
+So I think that is a very scary moment, is my power line is going to be off. And all my fundamental day to day is not working because I feel so frustrated whenever there is a power outage in my home alone. I feel so frustrated when I cannot access my Wi Fi. I feel so anxious. I mean, obviously, operating the country is extremely important built on top of this fundamental baseline.
+
+And for every single company, same thing. It's not just whether a country should have their unique sovereign independence, but every single company should have their independence. You don't want any single person to cut you off. That's an extremely scary moment. Why would you move into the data center space, but you wouldn't move into the chip space?
+
+Because I know building a chip is extremely hard. I thought so too. But then how come everyone is seemingly doing it as if it's like just another product? As I said, OpenAI, Anthropic, DeepSeek, Meta, we're building our own chips now. I think Meta has been building their chips for more than five years, way more than five years.
+
+And MTIA has been project since '18, maybe earlier. Because Meta has been investing in AI for a long time, pre JNI. And they have a huge AI workload focused on ranking recommendation. And Meta has been building other hardware as well in the past. So whenever the usage has passed certain threshold, threshold, it makes economic sense for you to build the underlying supply.
+
+And then you can specialize towards your workload. And that's another form of specialization, is specialized to bake your logic into hardware. And this hardware is purpose built for your particular workload. And you better make sure this workload doesn't change. Because it's really hard.
+
+And once the hardware is taped out, it's really hard to go back and change it. It's possible it's very costly. So once your workload stabilize, when your business stabilize, it doesn't change too often, then that's the time to consider building a chip. I still see the whole AI world, especially models, customization, is very dynamic. Workload patterns are very dynamic.
+
+So think about how much energy in the application space. People are experimenting all kind of things. You don't know which one is going to take off. And they will just take off quickly. And once they take off, one is going to sustain?
+
+And a few ones will sustain. Then that's the time. Oh, now we know this is the pattern. And now we should probably encode this pattern into hardware and bring this hardware into a data center. And so it's all cascading.
+
+And then it's going to cascade down to me as a FERNAL question. Where are we in stage of FERNAL? Maturity FERNAL, I mean. We're still in the early stage of workload maturity furlough to warrant a chip that will be durable. So now you go back to, oh, we have so many accelerators that are successful.
+
+Some are really successful. But remember, those ASIC companies, they started before JNI. They started from some thesis to optimize some workload. And they appeal to AI and trying to fit in AI workloads almost like you bat before this AI workload emerges. And now it becomes a serendipity question.
+
+Are you lucky enough? This just works, right? And some really worked. So fundamental design of putting a lot of SRAM on the chip is great for AI model because they are memory hungry. And this really accelerate the execution of inference and so on.
+
+So those works. And some didn't work. What do you see as the greatest bottleneck today? I think it was when I had Jonathan from Grok on the show who said, like, HBM was the greatest bottleneck, and that's why you've seen the 5x increase in price. What do you see as the greatest bottleneck that people don't talk about enough?
+
+I still think we don't have a great system for very large model. I really believe the fundamental low level infrastructure costs will go down. So for solving tasks, should need less token. That will increase. So collectively, the cost will significantly reduce.
+
+Therefore, we can run the highest intelligence model much more ubiquitously in the future. But we don't have a system designing for that. For example, we don't have a great system designed for 10,000,000,000,000 parameter models today. That will require very smart engineer co design from the model to the customization serving platform layer all the way to chip layer. A chip is not the individual chip, but the system, collection of chips in system and all as a total package.
+
+I think there's still a lot of innovation we can do. I think recently you announced that you were at $800,000,000 in ARR, incredible feat and scaled so fast. What is that at the end of this year? We think we can at least double. By the end of the year?
+
+Wow. You know what's so interesting for me as a a venture investor? I've been investing for ten years. We used to be in the day where Slack was the golden child, where, like, 1 to 10,000,000 in revenue in eighteen months was, like, amazing. And now we have companies like Fireworks, where you scale to 800,000,000 in revenue in a matter of years.
+
+And you mentioned Cursor scaling to, you know, billions in revenue in a matter of years. The speed of company revenue growth is just unparalleled. I think it's because there's a fundamental disruption in this technology that is all empowering. All empowering in a sense it reach out to every individual one of us to be creative. And it unleash a lot of creativity that we just don't have access to.
+
+And that's why we're seeing this phenomenon of extremely fast growth because of a demand. Final one before we do a quick fire. You hired George Hu, who was president of Salesforce. He's exceptional. He's one of the most direct, no BS operators I've ever met.
+
+But you met him a couple of years before or a year before, you were like, oh, we're not ready for you yet. Why did you say that, and why did you decide now was the time? So a year ago, I think we were probably just 50 people. Today, we're at 200 people. We're still not that big.
+
+Wow, you're $4,000,000 ahead. At 50 people, I'm more thinking about scaling the product first, then scaling massively scale the business. And we talked. And I have huge respect to him. I know he's legendary.
+
+He's a legendary operator in Silicon Valley. I just feel like we're too small for him. And I told him that, hey, we're probably too small for you. But I would like to work with you at some capacity. So he helped me actually build out the team, interview a lot of executives.
+
+His feedback is always well balanced, very thoughtful. And we started working together in that capacity. And to, I think, end of last year, we're growing really fast. And he knows. And we started talking seriously.
+
+And that early relationship paid off. He's really cool in the sense that He's so cool. He did a lot of things, a great accomplishment in the past. I find a unique character about him is he's extremely experienced, has high attitude of business vision, but he's also very curious. He doesn't make assumptions.
+
+I know it all. I've seen all the movies. It's the same movie. And let me just kind of direct this movie as I did in the past. So he didn't come with that attitude.
+
+He knows AI goes in insanely fast pace and learning a long way, but also fully embrace AI. Actually, team, our GTM team is using all kind of AI agent. They're sharing skills. So they maximize their productivity. And he knows we have a super linear demand curve.
+
+There are just certain pace we can build our GTM team. In order for us to catch this curve, we need to build a team, but the team need to also have increasing productivity to match. So that's a problem he's solving. And I feel very fortunate to work with him. In general, I feel in the AI space, the unique part is people need to have very special traits, almost like contradictory characteristics.
+
+For example, very experienced but super curious in the fast learning curve. Or Dimar, we talked a little bit earlier. He is brilliant, high intellectual horsepower, but extremely humble. It's weird combination. And he's almost cynical in an Eastern European way, but also at the same time very humble.
+
+Can I do a quick fire round? Okay. Let's do it. Okay. Have you changed your mind on most in the last twelve months?
+
+I think how fast we grow, I changed my mind. Because I have been quite worried about too big a team too early. So that's why when I met Georgia, told him we're too small for you because I don't intend to grow very fast in terms of people. I worry about getting slowed down and lose agility and the velocity very deeply. But since then, we have been very aggressively using our tools.
+
+We have developed our own unique way of hiring certain type of people that we know they will be charging forward with high velocity as extreme sense of ownership, very communicative, and never take no as an answer. So we also learned how to get those people. And now I feel much more comfortable skating really fast. What's your type of people? And I know that sounds weird, but our type of people is actually really specific.
+
+Specific. Pretty much only hire immigrants. British people don't work very hard. Sorry. Very scientific and rigorous.
+
+Use data for most things. I actually think creativity often comes from data and is informed by data and unwaveringly, like, accountable and ownership. Like, nothing is anyone else's fault. It's all my fault, even if it's someone else's fault. That's a 20 VC person.
+
+What would you say yours is? In weird way, it's not competence. We want people with high competence. But more importantly, the strong indicator whether they will do well in this wave, especially in fireworks, is whether they are really built for taking extreme ownership. Extreme ownership as in we are not putting people anywhere in any boxes, we're just stacking the box together into a tower.
+
+People just automatically claim, hey, this is an end to end problem. I'm going to see through the whole thing and work with a bunch of people to make it happen. And I'm going to deliver it no matter what. So those kind of people has the highest, longest mileage. And their growth curve is amazing also.
+
+What's your biggest lesson from working with Jansen Huang on what makes him so special? He's everywhere. I seriously think he has a clone of, like, hundreds of Jansen somehow plug. For example, I sent him an email. He will reply in one minute.
+
+I just don't understand how he's constantly in details. But now I've operated a company for four years. I understand why he's doing that is that defines velocity. Because what is leadership? Leadership is just judgment.
+
+It's not privilege. It's judgment. You basically have the contacts. You need to have the right contacts to make the right judgment for the team. And especially velocity space, if you do not know what's happening, what works, what doesn't work, what are the gaps, you make the wrong call.
+
+In a slow moving space, you you can wait for the cascading information up and down and make those calls. But in a fast iteration space, you just cannot wait because it's guaranteed there is information loss in transition. Layer after layers, people are people. It always happens. And not knowing what exactly is happening and having the precision of make judgment makes bad leadership.
+
+He is demonstrating through his own example, even before this crazy AI thing, he's operating that way. And before I was admiring him in his sheer amount of volume of capability of doing that. Now I understand the wisdom behind that because I also operate that way. I need to know what's happening on the ground to make the judgment for the company. What did you wait on in the fireworks journey that you wish you hadn't waited on?
+
+Marketing. We talk about it. So we are a little bit nerdy in this way. At the very beginning of our journey, we kind of we didn't discuss it, but we feel product will speak for itself. At the end, product stands.
+
+And we want to devote all our effort and focus on building product, work with the customer, validate product market fit, go from there. And we didn't spend much time marketing at all. We didn't prioritize educating our customer what's the right direction to think about the trend and the value. But we do think now I do think it's important. Marketing is not about flaws.
+
+It's more about education. It's more about clarity, and we are working on that. What area of AI is underinvested in today in your mind? You mentioned, like, cooling or servers. What areas are you under invested in?
+
+AI has the sexy part of this is such an innovative creative technology, and build something on top of it is the focus. But monitoring the ROI, I think the industry started to pay attention to it. But eventually, that's what matters. Not how much spend is what is the return? And what is the cost?
+
+And what is the attribution? In the next couple of years, as AI is getting more and more into production, there will be a lot of focus in getting that clarity and getting that discipline out. The token maxing is just a thing in time. But we're quickly moving to ROI maxing, which is about all about running a business. What large customer do you not have that you would most like to have?
+
+So we haven't spent too much time in traditional enterprise segment. I think it's just because we very small. And now as we build out our company, I do think even without us investing, we have customers like GEICO, like Capital One, all these companies. So even without us pursuing enterprise, traditional enterprise, they come to us. But I do think that's a very big market.
+
+What has to happen before the end of the year that hasn't happened for you to consider it a good year? I'm confident in our capability of driving the business. And to me, this is a year I want to prove we can scale quickly by keeping the same velocity. And that's very important to me. If we reach that point, we reach a proof point, and next year, have I a lot more confidence to continue to scale extremely aggressively.
+
+I want to make sure we do it right this year. Final one for you. What does no one see about the next three years that you see very clearly happening or not happening? I really see people will own their every single company will own their own intelligence as a must have. It's not optional.
+
+That's a trend I'm seeing. Because there's an analogy to software is there's a reason why every company build their own software stack. There's no standardized software you just use off the shelf to solve your problem because every single company is solving a unique problem. And they want to be a software because they want to have full control. And obviously, they will pick and choose which part of the stack they want to build themselves, which part of stack is common knowledge, there's no point of building.
+
+But every single company owned their own software stack. Obviously, we're talking about this in the SaaS time, right? So same. I think at airtime, every single company should own their own intelligence. Lynn, it was Matt that introduced us first.
+
+I've had the joy of getting to know you and, obviously, George. I can't thank you enough for joining me, for coming in person. It is so wonderful to do it in person, and you've been fantastic. That's an amazing studio. You asked a lot of interesting questions.
+
+I have a lot of fun talking with you. We do a lot of research before. Yes. You did. But before we leave you today, founders face a different set of challenges at every stage of growth.
+
+For Sid Shait, cofounder and CEO of dMatrix, JPMorgan delivered the guidance and expertise to help navigate what came next. He credits JPMorgan's high touch approach with supporting dMatrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits. JPMorgan is the bank of the innovation economy.
+
+While JPMorgan powers your finances, Navan keeps your team moving. Did you know the industry average for booking a business trip is forty five minutes? That's a massive waste of your team's time. Well, with Navan, your employees can book a trip in just seven on average. Navan is the AI powered travel and expense platform designed for companies that value efficiency.
+
+It drives real business impact through high employee adoption and automated policy control. Now the built in AI approves in policy bookings and blocks the rest automatically. This allows finance teams to stop chasing receipts and skip the month end chaos, and you get this real time visibility that can save your company up to 15% on your travel budget. And that's why leaders like Visa, Stripe, Figma, and even Anthropic rely on Navan these days. Go to navan.com/20vc today to see for yourself, and you'll get a chance to win two business class flights anywhere in Continental US.
+
+No purchase necessary. Rules apply. Head over to navan.com/20vc now. While navan keeps your team moving, base 44 helps you build faster. You have the idea, but with most AI tools, you hit a wall.
+
+The setup, the config, the gap between what you pictured and what you actually ship. Well, Base 44 is where that wall disappears. You describe it? Yeah. Base 44 builds it.
+
+Apps, websites, AI agents, real working products, built in minutes using nothing but plain language. And it's all batteries included. The back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow. This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone. So in this market, fast is the baseline.
+
+To win, just have to be first. Base 44 is that edge, the move that skips the troubleshooting and gets you straight to the breakthrough. Build your next thing at base44.com. That's base44.com.

@@ -1,0 +1,593 @@
+Our chief scientific officer at Curative had, in his spare time, developed a COVID test. Lockdowns had just started. Everybody was starting to freak out. There was basically nowhere to get a test. What's the single largest contract you signed?
+
+In the hundreds of millions of dollars. I think our peak day was 206,000 people tested in a single day, and the company went from about seven to 7,000 employees in in those first nine months. The total revenue ended up being about 5,000,000,000 over a three year period. We did 2,500,000 vaccinations. That was another service we did.
+
+We also lost a ton of money on that. That was a terrible business. We're cutting about 80% of our SaaS spend this year. One of our internal meetings, we have a slide of like when are SaaS contracts due and whose job is it to tell them that we're not renewing this year? How big do you think Anthropic will be?
+
+I think it could be 10,000,000,000,000. This is 20 VC with me, Harry Stebbings, and I'm so excited for a freaking wild story today. Fred Turner, co founder and CEO of Curative. Now this is an English founder in the Valley who scaled a COVID testing business to $5,000,000,000 in revenue. Then he had to scale it all back.
+
+It did not last post COVID for obvious reasons. Today, he turned it into a health insurance provider that's worth $1,300,000,000. And in the show, he says some pretty wild stuff. Like, he's gonna cancel his $600,000 Salesforce subscription. Sorry, Mark and Salesforce, don't kill me, for a vibe coded solution they built in a matter of months.
+
+It's a wild story, and there are some mind blowing elements to this journey. But before we dive into the show today, we used AlphaSense on an investment that helped us close an $8,000,000 deal. $8,000,000, baby. That's a lot of money. That's why I'm genuinely excited to have them as a partner on 20 v c.
+
+AlphaSense combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news. Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important. So you can make really high conviction decisions with confidence. But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important development surfaced, and your investment brief already waiting for you, see for yourself, head to alphasense.com/20vc.
+
+That's alpha-sense.com/20vc. While alphasense sharpens the strategy, MongoDB scales the product. MongoDB has always been the database developers love. Well, now it's the data platform AI agents need. Agents need accurate context, fast.
+
+MongoDB stores, searches, and reasons over your data in real time. JSON native database, vector search, and Voyage AI embeddings all in one place. One system instead of 10. No data pipelines to maintain. Ugh.
+
+This sounds too good to be true. Build and scale from your first user to billions of vectors. Run on any cloud, on prem, or your laptop even. That's why 75% of the Fortune one hundred run their most critical apps on MongoDB, moving trillions of dollars every single day. And it's why AI native companies like Eleven Labs run 40,000,000 agents on MongoDB.
+
+So if you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and dedicated support. Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents.
+
+While MongoDB scales the product, Framer scales the story. Framer is a complete website platform, not just a builder. From early stage startups to Fortune five hundreds, teams build on Framer because changes take minutes instead of days. Here's what I love. Framer is the pro AI website builder for creators, teams, and businesses that care enough to get every detail right.
+
+The agents close the gap between AI generated ideas and production ready website work because it all happens where the site actually lives. It lands on the canvas, stays editable, and can be published when the team is ready. So you can build custom code components, create and manage CMS content, optimize SEO settings, and ship everything all in one place. The agents bring speed and scale. You bring taste, judgment, and control.
+
+It's an enterprise level solution too. Premium hosting, enterprise grade security, 99.99% uptime SLAs, which is why the world's leading brands, like Perplexity and Miro, build Inframer. Learn how you can get more out of your site from a Framer specialist or get started by building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc for 30% off. Framer.com/20vc.
+
+Rules and restrictions may apply. You have now arrived at your destination. Brad, I'm so excited for this, dude. You have the most wild story, and I heard it from Justin first and then from Aneel. So thank you so much for joining me, man.
+
+Yeah. Thanks for having me. Now I always find it very telling. Entrepreneurs are often kinda compelled either by the fear of losing or by the thrill of winning. If I were to ask you which one drives you more, what would you say it is?
+
+A thrill of winning. Certainly during COVID with what some of what we built at Curative, I got kind of a taste for the speed at which you can move when everything is behind you and all the momentum is behind you, and I've been chasing that ever since. I mean, that is the biggest tailwind that one could have ever expected. We're gonna get to that. You actually grew up in The UK, and then you moved to Silicon Valley very young.
+
+'17? '19. '19? Yeah. Could you have built the business that you did in The UK?
+
+No, definitely not. Why is that? I just think The UK doesn't have like some of the kind of infrastructure for startups and investing of like that many people that have kind of done a startup before and then are willing to invest in the next generation, particularly investing in younger people. Like when I found, I tried to raise a venture round in The UK and I couldn't even get meetings. This was when I was like, I was 18, I was in like first year of college and I was doing this startup on the side.
+
+I couldn't even get meetings with I think I got one fund to take an associate meeting with me. It seemed like people were more investing purely on credentials. And this was a while ago. This was more than ten years ago, but it seemed like people were investing just on, oh, well, you came out of this university. So if you're an undergrad, how could we possibly look at this?
+
+This doesn't make any sense. Whereas you go to Silicon Valley and it was like, well, what's the possibility here? What could you envision in ten years if if everything succeeds? Like, how big a company could this be? And it it just it was a very different mindset that they were optimizing for how to get the best outcome rather than I always felt like in The UK, was sort of optimizing for, like, mitigating the worst downstream outcome.
+
+Yes. How do I not get fired? Right. Okay. And so we decided to move to the valley.
+
+Great. How does because we go from sepsis detection. No? Well, cows to sepsis to Can you just walk me through how we go from cows to sepsis to COVID just so I understand this? Yeah.
+
+So my first company that started said that statement before in the 20 VC episode, by the way. There we go. It's a new a new phrase for you. Yes. So I went from initially cattle testing through sepsis to to COVID.
+
+So it started off my first company in The UK, which was called TL BioLabs at the time, basically sequencing dairy and beef cows to predict various traits about the animal from an early age. So start off with beef, you can predict that certain cows are gonna have more musculature from an early age, and some cows can have too much musculature, and then they have trouble giving birth. And so there's like an optimum that you're shooting for, and I found this, like, completely by chance. I won the UK National Science Engineering Competition, was on TV a little bit, and this farmer reached out to me because he wanted help testing his cows. And he was sending his samples to The Netherlands, and it was taking weeks, and it was terrible.
+
+And I initially told him, like, I'm not interested in cows. I was interested in human genetics at the time. No. Thank you. And then he kinda kept pressing, he, like, sent me samples with a check attached to the front.
+
+And I was like, oh, okay. This is interesting. And so I did the first batch of samples for him, and then all of his friends started sending me samples. And so it kinda grew from there. And this was all still in the North Of England.
+
+I was in the first year of of college at the time. We started branching out into dairy and predicting how much milk animals would make. And I tried to raise the first venture round for the company in The UK, didn't get very far. And so ended up going to The US for the US AgTech investing conference in San Francisco. It's my first time in The States, never been before.
+
+And it was, like, my last ditch attempt to try and raise some money. I met a bunch of VCs, didn't raise any money, but I did meet a guy who had just finished doing Y Combinator. And he was like, oh, you need to apply to YC. That's what you need to do. You need to move the company to The US.
+
+You need to apply to YC. Like, that's the only thing you can do here. And I was, like, familiar with YC, but had never applied. What year was this? This was, like, the end of twenty fifteen.
+
+Okay. Yeah. So I went back to the hotel room, and it turned out, like, the application deadline was six days away. So I was like, alright. It's meant to be.
+
+So did the application, you know, got the interview, came back for the interview, and then moved to Silicon Valley for the summer sixteen batch. Paul, so how was the interview? Who was it with? Tim, Jeff, and somebody else. It was, I mean, it was all a bit of a blur.
+
+It's very fast. And then you found out you get in. Yes. You moved to the Valley. Moved to the Valley, and then it was the same pitch, the same company.
+
+We were doing mostly dairy testing at that point. So testing dairy cows to try and predict their milk yield, which for farmers is actually very valuable because they don't make milk until they're 18 old. And so from day one, all your animals have to have a a cough every year to keep making milk, so your herd doubles every year. Is this still the same curative company? No.
+
+This is a completely different company. Okay, was about to say, god, this is where investing is so difficult, because if you hear a founder pitching milk yield optimization, and I'm sure it is logistically a big TAM, I'm sure, it is. Well, not big enough. That was the problem. Okay.
+
+Yep. We did this, went through YC, and we raised a seed round from Andreessen. We did a seed round from Andreessen. Yeah. Their their bio fund did our seed round right out of YC, and I don't think they did the TAM calculation.
+
+They're they're like, oh, this sounds interesting, and then they did the round. It was a small round. It was, like, 1,650,000. Chum change. It was Thanks for the coffee.
+
+It it was, you know, for for end reason, it was, a smaller round. Sure. And so we kept developing the technology. We had customers, and then we went to go raise an a, and then people did do the TAM calculation. And there's about a 100,000,000 cows in The US.
+
+If you're doing well, you could charge 15 to $20 per test. So even if you assume you could test every cow every year, you'd be at 1,500,000,000, like, total market, which is not enough to do a series a off of. And so what we end up doing is taking some of the core DNA testing technology that we had developed, pivoting, and using that for human diagnostics. And so that was my kind of first foray into healthcare. We actually first launched a high throughput STD testing lab, which was and we launched an at home STD test.
+
+That was that was tons of fun. I didn't I used to run a lot when I was young and my needs were wonderful. And I used to love how I built this because they would ask the questions like this, which is like, how do you go from, like, cows and musculature on cows and milk yield optimization to at home STD testing? Like, does it feel that natural a jump? Yeah.
+
+On the back end, it's more natural. Right? All of these things have DNA in them. And so if you're looking to do better DNA testing, you're just looking for markets where people care more about that. And anything human people obviously care a lot more about, are more willing to pay for in much larger markets.
+
+And so we sort of did like a market first approach of where could there be interesting things? And we narrowed in on antibiotic resistance in STDs as being like a particularly interesting area where they're getting harder and harder to treat because you get more and more antibiotic resistance, and if you're doing the DNA testing, you can predict what the best drug is gonna be early, treat with that drug, and then you're not using the most aggressive antibiotics. Do we have more STDs than ever? Yeah. This conversation is limited to summarize, so I didn't know that.
+
+But I thought we were having less sex than ever. Yeah. But more STDs. Wow. Yeah.
+
+That's worrying. Yeah. And, well, it's a while since I looked at the statistics because I've not been doing this for a while now. But when I was last in this, yeah, the statistics were just kind of a steady increase and then an increase in resistance. This is getting to the point where certain STDs are harder and harder to treat, and some of them might eventually become untreatable, or you have to be hospitalized to get a certain really powerful antibiotic to treat it, which is crazy.
+
+And so antibiotic stewardship was the whole thing. And so we did that with STDs. And then I so love this conversation. And then and then we found a fascinating market in sepsis. And so sepsis is a disease that kills hundreds of thousands of people a year.
+
+It's basically where you get bacteria in your bloodstream, and what kills you is not actually the bacteria. It's your own immune system. You're So not supposed to have bacteria in your blood. Right? Your blood is supposed to be sterile.
+
+And when bacteria get in there, your immune system kind of freaks out, and it triggers this whole downstream cascade where your blood vessels start to leak and all of your organs start failing, and it's basically really bad. And that's what kills you, is your own immune reaction to the bacteria rather than the bacteria. And so this is, you know, one of the leading causes of death in The US. Often if you're dying from something else, like if, you know, you have serious cancer, it'll be sepsis that ultimately ends up being what kills you because you get more susceptible to it with other diseases. And so it's leading cause of death, like increasing mortality.
+
+It's incredibly expensive. Outcomes are terrible. And so we were working on basically a better testing technology where from the earliest date you could detect these bacteria and what antibiotic they are gonna be susceptible to and treat people faster. Because with sepsis, basically every hour that you don't treat somebody is about a twelve percent increase in mortality. So you wanna get the treatment as soon as possible.
+
+Every hour you don't treat someone is a twelve percent increase in mortality. Yep. Okay. And so we started sepsis testing. So started sepsis testing.
+
+Does it instantly go well? No. So this company died at the end of twenty nineteen. Oh, I'm sorry. Yes.
+
+So the testing was working great. Prototypes were, you know, pursuing the FDA approval process. We went to do a series b round with ended up being a strategic Sorry. Sorry. Just so I understand.
+
+So we'd raise the a from Raise the a. And it's still the same company as this Milky Way. Same company. Yeah. Changed its name from TL Biolabs to Shield.
+
+Oh, love it. Yeah. Good good single name. Okay. So we go to Razor Series B.
+
+Bigger Tam, sepsis, death, more Bigger Tam. Yeah. Many many billions of dollars Tam for testing for this, and ended up getting a term sheet from a strategic, large public diagnostic company. Signed the term sheet, did three weeks of work on docs. We were in the second round of docs, and then their CEO killed it because it was too competitive with their core products.
+
+Meanwhile, we told all the investors that, oh, yeah, we've got the lead. We're good to go. Here's the paperwork. And so that was the death of the company. We had about three weeks' worth of cash.
+
+Would you be where you are today, though, if that round had come together? No. No. Because I don't think we would have pivoted as hard into COVID when COVID hit. Mean, I it would have probably been easier because we had at that point, we actually had a lab license.
+
+You know, in The US, you need this thing called a clear license to run these kind of tests, and we had got one of these licenses over, like, a painstaking two year process. And then in December 2019, as part of the wind down, I sold that license to a company in San Diego for a $150,000 to pay some of the creditors. And then five months later, acquired a company in Southern California to get the same license for 27,000,000. So timing is everything. Woah.
+
+Woah. Woah. Wait. Wait. So we're winding down the company, and we sell this license for a $150,000.
+
+Roughly its market value if there's not a pandemic. Totally get that. Cool. Okay, and so we're winding down the company. I wanna go chronologically because that's like a wild number.
+
+Shutting down the company in '20 Now '20, I guess? It was, yeah, right at the end of twenty nineteen. Okay, end of twenty nineteen, shutting down the company, strategic, a la Pooh Bell, fucked up. And then what happens then? So then I was kinda looking at what to do next and Were you personally devastated?
+
+This is five years of your life. Yes. Any lessons for founders, reflections on that? It's a lot easier to build a company the second time around. Like, there's so many mistakes the first time where you just you don't know how to do, like, thing x, like, the first time you fire somebody, like, how to build a good interview process, how to build a pipeline.
+
+Like, there's so many things that it's really easy to screw up the first time around. And then when you've seen them go wrong, it's so much easier to build it the second time around. And so, like, yes, it's the worst thing in the world to go through is having something you poured all that time and energy into, and like, you know, the seven day work weeks and the late nights basically go to zero. But as long as through that you learn and you take those lessons and you go solve an even bigger problem, I think, you know, you you got something out of it. Okay.
+
+And so this company is, like, winding down Yep. Need to find something else. What happens now? Yeah. Originally, the pitch behind Curative was we were gonna also solve sepsis, but in a completely different way.
+
+You're really focused on sepsis. Yeah. Yeah. When we were going through all of this work with the sepsis diagnostics, one of the things that kept jumping out in the data was when you look at other companies that had tried to do sepsis diagnostics, because we were not the first. A bunch of big pharma companies like Roche spent a couple 100,000,000, Siemens spent a 100,000,000, a bunch of companies spent a lot of money trying to make diagnostics.
+
+Kind of this like graveyard of dead sepsis companies. And when you dig into the data, you find this really interesting thing that in academic medical centers, when you try out these new sepsis tests, they work great. And you see much better outcomes, and you see people live longer, and it's saving lives. And then you try to replicate that in bigger studies, and they fail. And when you dig in and look why, it's when you expand that aperture of who's in the trial out of the academic medical center and into community hospitals.
+
+What's happening in a community hospital is they're so understaffed, they're so overwhelmed with the volume, particularly in the emergency room, they don't suspect sepsis fast enough. And as I said earlier, it's every hour is twelve percent increase in mortality. And the intervention that they have to do is actually pretty severe. They basically put a big IV line usually in your femoral artery. They're pumping you full of fluids.
+
+They're pumping you full of nasty antibiotics that have bad side effects. So it's a pretty aggressive treatment. But if they don't suspect sepsis early enough and jump to that treatment, by the time they get there, it's already too late. And so if you're in a community hospital and it's 2AM on a Saturday, is there someone on staff that actually suspects sepsis early enough, or does it wait until Monday morning? And so it doesn't matter if you have a better test if no one ever runs it.
+
+And so the original pitch behind curative is let's take the learnings from an academic medical center and go out to community hospitals and basically build mini hospital in a hospital that just manages their sepsis patients. So whenever they get somebody, you know, we will diagnose them as having sepsis out of the emergency room. We will then take on that patient. They would pay us a fixed fee. So no matter what happens, we're on the hook.
+
+If we can drive a better outcome by applying mostly just getting doctors to follow the instructions, but at scale, then you could drive better outcomes by getting those academic medical center type, like, clinical results, but helping a community hospital actually do that. So what happens then? We we start that business. Start that business. We raised million dollars of seed money.
+
+Justin was the first investor you mentioned at the beginning, Justin Matine. He came in right as I was shutting down Shield. He was an investor in Shield, and he wanted to put more money into to Shield. And I said, no. I I don't think you should do that.
+
+I think that company is is, you know, is not gonna make it, unfortunately. But I'm thinking of starting this new thing. And he was like, yes. I'm in. He didn't even know what it was.
+
+How much did he put in? Put in, I think, 125,000 at a $3,000,000 valuation. Wow. So he was the first Okay. First money in.
+
+First money in. Love it. And and so we had a pilot set up with the first hospital Wisconsin. This was a clinician that we'd worked with before. He was really enthusiastic.
+
+And then we got a call from his assistant saying, this is all on hold, and I can't speak to you for at least three months. And we were like, that's really out of character that he wouldn't at least call text us or that he's having his assistant. And when we dug in, they were getting ready for this thing called COVID nineteen, that they were expecting to see the first patient in their hospital. And so that was the first inkling for me of like, oh, crap. This is gonna be a big thing.
+
+This is gonna be bigger than people think it is. So they were shutting down the entire hospital. And so it started off for us as like, okay, well, we can't run our clinical studies. We can't actually launch this product because all the hospitals are in lockdown. Maybe we can go help out with this testing thing for a couple of weeks until all of this blows over, and then we'll go back to sepsis.
+
+And so at that point, we're like, we've moved into COVID nineteen testing. Yes. Yes. And so it all happened quite quickly from, like, a lot of me saying, no. No.
+
+No. This is not gonna be a thing. Like, don't worry about it. Like, just it's What was the moment where you realized? Like, where where were you like, this is substantially going to be a real thing?
+
+So I was, like, in my apartment in San Francisco looking at some data that I think was on Twitter, and I was like, oh, crap. If this continues at this rate, like, this is gonna be way more substantial than people realize. And so this was probably mid February. And so then I started to reach out about sort of setting up testing capacity to Well, first of all, we had the problem of finding a lab license, because I just sold the lab license. And so we didn't have a lab anymore that was capable of running these kind of tests.
+
+We had a test. So our chief scientific officer at Curative had, in his spare time, developed a COVID test. And one of the things they'd done at a previous company is they developed one of these flu tests and just offered it to employees to make them feel better. And so he said, hey. Can I develop a COVID test?
+
+I don't think it'll be very useful, but it might make our employees feel good, and it's like a good training exercise for the team. And so they had worked on through January and the early part of February a COVID test that they'd been developing basically in their spare time in evenings and in weekends. And so then when everything started to really take off, we actually already had the test. What we didn't have was a lab to deploy then. And so at that point, you then go back to the old one and buy it for 27,000,000?
+
+No. So I bought a different lab license. You bought a different lab license? So we reached out I reached out to a bunch of people I knew in the Bay Area that had facilities with this kind of license. Related on-site.
+
+Nobody wanted anything to do with it. And so I put it out I just put out an email to everybody I know. And there's actually a guy who was in the same YC batch as me who had become a VC. And he connected me to a group in LA, and they had this license, and they're using it for, like, sports doping testing. And they were in what I thought was LA.
+
+I remember telling Justin, Justin, I'm going to to LA. I'll be in San Dimas. And he was like, where the hell is San Dimas? It's, like, basically very far east of actual LA. It's still in LA County.
+
+It's a little city best known for Bill and Ted. It's a little town of 30,000 people. And that's where the lab testing is. And that's where the lab was. And so I flew out there to look at that lab.
+
+This was from San Francisco. Francisco. And to look at one other lab license that was, I think, affiliated with with one of the universities. You know, they had a good space. They had this license, and they were doing pretty minimal testing.
+
+So they're just kind of like a blank slate. And so it started off as a fifty fifty JV between Curative and this company that had the lab license. And we would bring the test, we would bring the expertise, they would bring the license. And it became pretty clear quite quickly that they didn't have the expertise to scale it up. Like, they were actively getting in the way of scaling it up.
+
+So we bought them out. And that was the 27,000,000. Where'd you get 27,000,000 from? Forward revenue from customers. So we were getting paid.
+
+We had our first testing contract. We were doing police and the fire department. I'm so sorry. How do you do you have a chief science officer who's created this brilliant task kit. Yep.
+
+And you go to, like, San Francisco State Or Government this council? Mostly yeah. So actually, our very first customer was department in San Dimas. Well, we did some, like, private testing for individuals that were paying for the tests, but our first government customer was the sheriff's department in San Dimas. And that came about because they got wind that we were setting up a COVID lab because people were freaking out about it in the town.
+
+And so one of their sheriffs reached out to me on LinkedIn and was like, hey, what are you guys doing? And so I connected with him and I explained what we're doing and how it was very safe and how we had this way of deactivating the COVID as soon as it went into the sample. And so there was no live virus on-site, and we were not presenting a risk to the community. And, actually, this was gonna be a good thing, and we're gonna be hiring a lot of people and kind of got him on board that, you know, we're doing we knew what we're doing, and we're doing this in a safe way. And then he was like, well, we really need testing.
+
+And then the fire department wanted testing, and then our first really big contract was the city of LA, and that came about from a tweet. So we had Laura Deming, who was a Yeah. Yeah. Remember. She's a YC and longevity Longevity person.
+
+Yeah. Exactly. So she was a friend and was trying to basically help with the pandemic. And so she actually drove me down to LA with a car full of PCR machines so I could, like, work on a laptop. And she helped with a lot of the early development work.
+
+And she tweeted, hey. We've got COVID testing capacity. Does anybody want some? And the deputy mayor of LA slid into her DMs and was like, yes, please. We would like to talk about that.
+
+Wow. So that was how our first big contract came about. And so you speak to the deputy mayor of LA? Yep. And then so they were doing a pilot.
+
+They said, look. We've got a couple of labs. You know? You're gonna have to demonstrate this because we're a complete unknown. Right?
+
+We've done. And COVID wasn't peak ramped now, was it? This was like- This was like early March. So people, lockdowns had just started, everybody was starting to freak out. There was basically nowhere to get a test.
+
+Unless you were ultra high risk and in a hospital, there was pretty much no chance you were getting a And so everybody was freaking out. This is when everybody was still, like, cleaning their, you know, supermarket bags with wipes, and nobody knows what's going on. Everything's shutting down. It wasn't so bad on the West Coast, but New York was, like, was really bad already by And this so they're paying ahead of time? So the best thing we could get with the city of LA, because they have obviously they're a city, there are certain restrictions, is that they would pay after delivery, but they would pay net one on the invoice.
+
+And so we would deliver the tests for a day, and then we would send somebody to City Hall the next morning to pick up a check for those tests. Wow. So the tests had been done. They were paying after we delivered them, but it was not, you your standard, like, net 30 or net 60 for a government contract. They were having we were invoicing them every day for the number of tests they did, and they were having somebody in their finance department, like, get us the check because we needed that to pay for supplies to basically grow out that testing capacity for where they want it to be.
+
+What's the single largest contract you signed? Probably one of the Florida contracts was maybe the largest. So we did a contract with the state of Florida for all of their nursing home testing. I forget what the dollar figure was, but it was, you know, in the hundreds of millions of dollars. They put it out out to bid, and we won it.
+
+Hundreds of millions. Yeah. But they tested every employee at every nursing home across the state once a week for a three month period. And so they did a great job of basically keeping things open, keeping these nursing homes open, keeping visitation, but making sure that the employees of those nursing homes were not spreading COVID to the people in the nursing homes. And so they wanted to test every single employee that was working at those nursing homes and then exclude the people that weren't that had COVID so they weren't exposing residents there.
+
+And so we ran this big program. A bunch of labs or they put it out to bid, and everybody said, no. That's too crazy. Like, that's impossible. We cannot possibly test that many facilities with that tight a turnaround time.
+
+Like, this is impossible. And we've been like, yeah. We can we can do that. We'll make that work. And we delivered it.
+
+What did you see that others didn't? That you have to kinda scale, like, something like that up from scratch. That the existing labs like, the lab industry in general is a very low margin industry, and it's built on efficiency. You look at the big labs, the Quest and LabCorp, and they are ultra efficient machines. Like, they're some of what they do with automation is incredible.
+
+But if you're asking them to 10 x capacity, that's literally the opposite of what they're built for. They are built for, we will get 1% extra margin by optimizing this bit of the process over here so that it is perfectly efficient. And they're really good at that. But if you ask them to 10 x that, it really doesn't work. And the mindset isn't there.
+
+The people don't know how to scale those kind of things up. All of the supply chain broke down. And so we basically said, okay. Start from scratch. Throw all of that away.
+
+Imagine that you're gonna have to scale this up to hundreds of thousands of tests a day. Where do you start? And so we built what we called an orthogonal supply chain, which is basically a fancy way of saying we don't use the things other people use. You sound like a McKinsey consultant specializing in innovation. Exactly.
+
+An orthogonal supply chain. Yeah. Great. Well, I found that was a good fancy word that was helpful from a sales stamtick. Yeah.
+
+Right. What it basically means is everybody was chasing the same consumables, the same supplies. Everybody was trying to use the same stuff. And if, you know, you can make one x of that, maybe they can increase to make 1.2 x. If everybody's trying to buy that, us also trying to buy that doesn't help.
+
+That doesn't net increase the number of tests being done. Right? It just makes us all squabble over it. So that's pointless. So you gotta find other ways of doing the testing using supplies that maybe wouldn't traditionally be used for this kind of testing.
+
+So we were sourcing swabs, you know, from other types of vendors that were being used for electronic testing and then sterilizing them. We were sourcing there's this kind of extraction material that you usually use, and magnetic beads is kind of the default standard. But there's this other way of doing it with filter plates, which is more scalable because it's basically just glass and plastic, and you can scale that up faster than you can scale up magnetic beads where they all come from basically two factories in China. And so we're like, okay. Well, we should never use magnetic beads because that's not going to scale as a technology.
+
+We need to go find vendors who can scale up the plastic and glass manufacturing and partner with them to basically 10x it. And so you kind of approach every single bit of the supply chain that way. You end up with this massive scale. Now outside of a pandemic, that doesn't work because people don't want 10x more testing than they wanted yesterday. But within a pandemic, you got to approach it differently.
+
+And so we peaked I think our peak day was 206,000 people tested in a single day. 206,000 people tested in a single day. And that was December 2020. So that was within eight months from zero to 206,000, and the company went from about seven to 7,000 employees those first nine months. 7,000 employees in nine months?
+
+Yeah. Yeah. It was a little crazy. Do you sleep at all? I mean, I'm I'm I don't sleep very much.
+
+No. But, like, in that time, what was the craziest thing that you did? I mean, some of the hiring, you know, you have to get licensed people for certain roles, but other, like, more administrative roles, you don't need licensed people. And so we would literally I mean, a lot of people wanted to work on the pandemic, which is very helpful. We'd have people, like, line up in the parking lot, socially distanced, like, down the street, and then give them five minute interview slots and just have somebody sit there with a clipboard, and it's, like, five minutes and next just to get the volume of people in the door.
+
+How much money did you make from COVID testing? I think the total revenue ended up being about 5,000,000,000 over a three year period. Five billion? Is that the largest private provider? Yeah.
+
+We were the largest non labcorp and Quest testing company. That is extraordinary. What is the margin profile on a COVID test? Really good during surges, and then really bad not during surges. So what we found was when there was a peak, right, so we get a new variant or usually winter was the biggest peak, but then we started having these summer peaks, which was kind of weird.
+
+Everybody would run to get tested, and these were all public testing sites. So these were in parking lots. These were the drive through tests. That was what we were doing. So if you went to a drive through testing site, like the biggest one was the Dodges Stadium site in LA.
+
+It was seven lanes of traffic, seven a. M. To seven p. M, seven days a week. So they were testing at the peak about 10,000 people a day coming through their cars, getting tested, and coming back to the lab.
+
+So when you're at peak capacity and you're filling all of the lab's volume, it's very profitable. Then those basically surges subside. Right? And you end up back at testing, you know, using 20 or 30% of your capacity, all your fixed costs are the same. You're still paying 7,000 to people.
+
+Now you don't have to buy as many consumables, but all of that infrastructure has to be maintained for the surge. And so this is, again, where it's like the opposite of the traditional lab industry where they have a very flat volume. Every year, people do roughly the same amount of blood work as they did last year, or maybe they do, like, predictably slightly more. But it's it's within a couple of percentage points. Here, you're kind of building it for that peak capacity.
+
+And then during the lulls, like maintaining that capacity is incredibly expensive. And so it was kind of necessary, and this was part of the way it was set up. They increased the price, the reimbursement price that they were paying for these tests because they needed to incentivize the capacity to be built. Because if you don't build that peak capacity, then when you have a surge, it all goes horribly wrong. No one can get a test.
+
+But that means you basically have to pay to overbuild it. Because during the dips, you have to have that capacity. You can't just shut it down. You can't build up 7,000 in twenty four hours in And so you need to maintain that. And so we would lose a lot of money in every one of the dips, basically.
+
+Well, you'd actually lose money. Yeah. We'd lose money on every test during the dips. Oh, wow. Yeah.
+
+So of the 5,000,000,000, how much is profit? So after all was said and done, the money that we basically put forward into the insurance business, the health insurance company, was about 500,000,000 that we invested into the health insurance business. It's absolutely astonishing. Yeah. Can I ask you, when we saw the vaccines roll out, did you know they were ineffective in the way that they've kind of turned out to be?
+
+It was not clear at the beginning. And I think also it's it's sort of changed. Like, when nobody's had any exposure to COVID, being vaccinated probably provides a lot more benefit. Once everybody sort of had COVID a few times, then the vaccine's benefit is much less because you've already had it. Also, the variants got weaker and weaker.
+
+When we were first rolling them out, I think in December 2020, there was benefit for a lot of people getting the vaccine. Did you get vaccinated? Yes. We did 2,500,000 vaccinations. That was another service we did.
+
+We also lost a ton of money on that. That was a terrible business. Why? Because the government wasn't paying enough. We lost money on every single dose.
+
+It cost more to administer them than were getting paid. Why did you do it? Giving back. A lot of our partners wanted it. So a lot of the partners on the government side we're working with for testing also wanted us to administer vaccinations.
+
+It that sounds awful. Was it a heart like, your business with COVID obviously being eased Yep. Completely changes, and you have to pivot again. Yeah. So that started very early for us, because I always come in and says it wouldn't last very long.
+
+Are you always aware it wouldn't last? Yes. When we started hiring people at the beginning, we told them this is three months. You have a job for three months. Don't bank on anything beyond three months.
+
+This is a three month gig, and we're gonna shut it all down in three months. So the the CFO and now the president of Curative joined at the beginning, and for her, it was gonna be a six month gig. She came out of retirement to help with the pandemic for six months. Now six years later, she's still here. But it was supposed to be temporary, and every time, you know, a surge we got through a surge, I was like, right, that's it.
+
+It'll be over now. And then they just kept happening. So we started looking at kinda what comes next. Middle of twenty twenty, like, really early. How did that search for what comes next change?
+
+You just started looking at middle of twenty twenty. It's not until end of twenty two, start of twenty three when that actual search is activated into real time plan. Correct? Yeah. I think we started probably, like, late twenty one is when we got really serious about health insurance.
+
+It just took a while to actually get the license. Yeah. Why health insurance? Well, it wasn't the first idea. We looked at a bunch of other stuff.
+
+We looked at other stuff in the lab testing industry. Unfortunately, it's just not that big an industry. And so even like, we had this interesting technology that could theoretically let you do a lot of lab tests that are individual tests today, like, as just one single test, which be scientifically quite cool. But even if you say, okay. I'm gonna displace all of LabCorp and Quest, that's about 30,000,000,000 of market cap.
+
+So that's, like the largest company you could possibly build is about 30,000,000,000. That is a big company, but coming out of what we did with COVID, I wanted to build a much bigger company than that. And so there's just not a big enough market in lab testing. So lab testing was was out. And then we briefly looked at trying to buy a hospital or multiple hospitals.
+
+We looked at one in Florida and we looked at one in Texas. And the idea was, well, if the hospital's kind of like the health system becoming the center of where care is delivered, they buy it, have bought up a lot of the primary care offices. If you can transform that with technology, can you drive much better outcomes? What we ultimately decided is it doesn't work that well because the payer mix is too broken up. And so as a hospital, your customer is like 50% of the government and then a whole bunch of like split up smaller insurance plans, and they all want different things, and they change their mind every five minutes about what they actually want.
+
+And you're trying to like keep them all happy. So your ability to really change things from the hospital side is quite limited is what we ended up deciding. And when you come back to it, like we looked at a bunch of preventative care things, we looked at a primary care chain, everything sort of ends up coming back to the payer. Like the payer is the one that drives behavior in The US healthcare system. If you are providing the dollars, people will go where the dollars are.
+
+If you say, I'm gonna pay for this service, people will go do that service. If you say, I'm not gonna pay for this, people will stop doing that. And so the payer is the one that's kind of driving things. If you could do one thing to change the structure of The US health care system today, magic wand, what would you do? I think you have to break up the negotiating into smaller units.
+
+Like, it's gotten to this point where I think it's it's quite an efficient system as a market when the counterparties are small. When everything gets very consolidated, it becomes incredibly inefficient. So when we look at, for example, health systems. Right? So we pay for for care at health systems.
+
+Some of that care you can get in other places. If we look at how much we pay a primary care doctor who's independent compared to a primary care doctor affiliated with a system, affiliated with a system, they get paid an average double. Same service, you know, same credentials. It's just that this one is part of a hospital system. And that hospital system will use the fact that they have a ton of beds, that they have this ultra special surgery center that you need.
+
+Like, we need to have that capacity in our network because some people need to be hospitalized. Some people need those services. That if you wanna get access to that, you gotta pay me double for my primary care doctors. And so when all of the players are small, when you have smaller payers and smaller hospitals, end you up kinda getting to reasonable negotiations. What's happened is you have these massive payers.
+
+Like, the market is ultra consolidated. You basically have, like, four large players that control the entire market on the payer side. And then you get these ultra consolidated hospital systems because that's the only way for them to survive. If they wanna, you know, fight with Blue Cross, the only way to survive is to get really big so they have the negotiating power. And then they just reach these loggerheads where nothing gets done and everybody's overpaying for everything and everything's inefficient.
+
+And when you have more competition in the market, more smaller payers entering, more, you know, smaller health systems, you start to get, like, an actual efficient market. When you're just negotiating for, like, hey. I have a third of health care in the state, and I have a third of all of the employees in the state, it's not an efficient market anymore because there's no alternative. You must reach a deal. If I am sick, is the best place to be treated in The US?
+
+Yes. Definitely. Seriously? Yeah. The US has the access to, by far, the most cutting edge techniques and facilities and drugs than the rest of the world.
+
+And they're willing to spend a lot more in order to preserve life. Do you know now that you wish you'd known when you made the pivot into insurance? I think I wish that I knew AI was coming. Like, the way we designed the business in 2022 when we first started, we had no idea that this wave of AI and LLMs was coming. Like, we were building a health insurance business because we thought it was a good business to build, and we thought it needed to be built.
+
+We needed better alternatives in the market for health insurance. And then in the last, like, eighteen months, how we do pretty much everything is now a completely different workflow. There's so much I mean, all health insurance does is like moving bits around. Right? Like, we don't have a physical product.
+
+We give you a little plastic card. But apart from that, our product is that we move bits around in a database that means care is paid for. That's it. And we do a lot of managing kind of managing a marketplace. We work with the providers to negotiate prices.
+
+We work with employers to negotiate how much they pay, and then we try to work with employees to keep them healthy. If we can get people to stay healthy, we can avoid the long term downstream cost of care. Essentially, it's marketplace business, and that has been fundamentally shifted by AI. How's it been shifted by AI? So much of that back office work, right, has been completely changed by AI.
+
+We now have entire departments that used to be people like rubber stamping things. The first one that went to zero people was our credentialing department, where this is a process that's incredibly labor intensive, where you have to check. All doctors that join our network have a valid medical license and aren't being sued for malpractice. And this is a person going to the medical board website, checking that the license record is there, checking transcripts from their school, checking a database of who's been sued by who, and then rubber stamping. And that used to take us two to three months on average and cost about $50 We've now built in house an agent that runs on Claude that does this end to end.
+
+And it goes to the website, it verifies the license, it goes and reads the transcript, it puts it all together, it stamps it for approval. And we're now averaging about twelve hours turnaround time for credentialing somebody, and it costs us about 20¢. And so this is like a mind numbing process that payers have to do, which is important. We wanna know the doctors in our network, right, are are validly licensed to practice medicine. But it historically has always been kind of terrible, and payers have been bad at it.
+
+Right? If you're a doctor and you join a network and it takes three months before you can see any patients, it's just bureaucracy. Right? Like, don't doctors hate that, and it's not actually adding the value that it should be adding. It's just creating paperwork.
+
+How many people did you have in credentialing? That one wasn't that large. I think there was, like, five or six people. We had a few other departments that have shrunk more than that with What other departments? We've seen a lot on the claims side, claims processing, right, is used to be a very manual process where claims comes in and people are, like, manually tweaking and editing it, and also on the underwriting side.
+
+Underwriting, you know, the process used to be a broker comes to us with a group, an employer that they're looking to insure, and they ask for competitive bids from multiple different insurance companies. And what that means is basically sending us an email with a bunch of PDFs and spreadsheets attached of who are the employees, what current claims do they have, what's the current insurance look like. And you'd think that over time, they would develop, like, a standardized ish format for how that should run. But now every single one is, a different spreadsheet format, different PDF. And we tried to sort of solve that problem with software and build, like, universal importers and universal intake.
+
+And it, like, it kinda worked, but what we found works amazingly is literally to give the files to an agent, tell it to write Python to get these files into a standardized format. Because they're not very good at parsing files, but they're incredibly good at code gen. And so you can tell it to write a Python script to convert any random file into this known format and then test it and loop and iterate on your script until it's working, and then you throw away that script. And so it's single use code that never gets used again. You just generate that code one time and then throw it away, and that works so well.
+
+And so now brokers, providers, employers, when people are sending us files, we always used to like insist, oh, you have to use our standard format for this. And they would hate it, and they'd get mad because somebody's sitting there in a provider office, like, manually reformatting these files into our spreadsheet. Now send us whatever you've got, whatever format. It could be scribbles on a napkin. It doesn't matter.
+
+The model will figure it out. The model will convert it into our standard format. It will do it in about fifteen minutes. And so you build these data ingestion pipelines that used to be hundreds of people sitting, moving spreadsheets around, and it's now a model writing Python code to do that same thing. And then every single time, you throw that Python away and start from scratch.
+
+Dude, I have so many questions to ask on the back of this. The first one is you mentioned that kind of the internal agent build out that you've done for the company and for your specific processes. Yeah. Do you buy the SaaS is dead theory that we rule? Why?
+
+Because I see the number of contracts we're canceling. Like, we just recently canceled our Salesforce contract because we have an internal CRM that was vibe coded, that is working better, that is managing our process better, is more integrated into what we're doing. We run our agents inside of it, and no no one was using Salesforce anymore. $600,000 a year, gone to zero. How long did it take?
+
+Two months. Is it worth because argument back, I always like to see both sides. Never I'm Yeah. Yeah. Is it worth the engineering hours to vibe code that and then to maintain it?
+
+The maintenance is is definitely one of the most challenging pieces. I agree with that. For most businesses of any reasonable scale, yes, it is worth it. Now whether they will have the tech resources to do that soon, I think that's like the bigger question, is kind of when will this happen? But when you build those things custom to your workflow, they work better.
+
+Like most of these big, you know, systems, you're paying an administrator. Like we had a full time Salesforce administrator. You're paying people whose sole job is to manage this, like, archaic software platform. Not that Salesforce is archaic, but, know, we have a few other, like, internal apps that we were paying for, like industry software that is taking multiple FTEs to maintain it, you can transition that into one great engineer. And then whenever you want a custom feature, you just go build it.
+
+Absolutely fucking wild. $600,000 a year on Salesforce. Yeah. Wow. And so we're seeing, you know, there's pockets of software that I think persist because they are more infrastructure based.
+
+Okay. Which persist? So we're seeing a lot of back end stuff like like Sentry, like stuff like that, right, where it's like kind of become part of your infrastructure. Slack has been, like, notoriously hard internally for us. Like, so many people have built integrations and, like, workflows that are now working in Slack.
+
+I think that while they keep putting the prices up, if they put the prices up too much, then eventually it'll make sense to replace that. But What else is on the chopping block? We're cutting about 80% of our SaaS spend this year. Wow. So we had like, in in one of our internal meetings, we have a slide of, like, when are SaaS contracts due and whose job is it to tell them that we're not renewing this year?
+
+We can do it in one fell swoop. Yeah. Well, they have renewals. We have to pay them through the renewal. Ah, is it all, like, legacy software like Salesforce, though?
+
+Some of it's like that. Some of it's, like, very insurance specific software. So, like, our claim system, for example, right, is this, like, massive off the shelf platform that we just migrated to a few years ago. This is again why, like, if I'd known AI was coming, we would have probably approached things differently. And it's just it's very hard to use.
+
+Like, it's hard their API barely works. It's hard to get the data out of their database. They won't let us manage it. But that's how insurance companies are running things. And so we've built our own claim system completely from scratch in house.
+
+It's now we've migrated most of the workflows off. We'll be fully off in July. I am a health insurer. You know other health insurers. Yes.
+
+I do not have the in house capability, potentially, technically, to build the agentic workforce that you are building. Yep. Am I screwed? I think some of the biggest insurers will struggle. They will not be able to keep up from a margin standpoint with where we can get to with agents.
+
+I think some of them do have technical expertise. It's more operational and kind of people ops. If you've built a company of a 100,000 people, and in order to get this margin improvement, 50,000 of them have to be laid off, somebody's fiefdom just got a lot smaller. And so they will do it slowly over ten years. It will happen.
+
+But will it happen quickly? No. And will we be able to compete more effectively in the meantime? Yes. How do margins change?
+
+Insurance is a very low margin business. So 85% of your premium that we collect must go out the door to pay for care. So if we get in a dollar, we gotta spend 85¢ They have to. By law. If less than that goes out the door, we have to give it back to the employer, which is another thing that's broken about US health care because that drives completely the wrong incentive where, actually, from an insurance company standpoint, if your profits capped at 15%, the only way to increase profits is to increase total spending, which is not what you want your insurance company incentivized to do.
+
+Why would I encourage people to go to the gym, eat healthily, if actually I'm not gonna get that back anyway? So this was part of Obamacare, and it's one of the, like there's some good things in Obamacare, but there was a lot of things that I think, like, the second order consequence was not considered. It sounds like a great PR thing to say we've capped insurance company profits. Right? That sounds good, but it's BS.
+
+It's like capping CEOs' fiscal base pay. Sounds great. Yeah. So let's just pay them 27,000,000 in equity comp and said, that's the reason why we have such egregious comp packages for execs because they cap salary pay. Ridiculous.
+
+With that, how's your anthropic costs gone? Yes. So, I mean, this is one of the, I think, the kind of leading indicators for us is that our anthropic cost over the last six or seven months has 6x'd every month from a base of a couple of tens of thousands of dollars now up to millions of dollars a month. Eventually, we're going to have to stop that spending increase because it'll get unreasonable, but we just keep finding new things to do with it. And then the other thing we found that's been fascinating, we're seeing a lot of areas where it's not that we are necessarily replacing the team.
+
+It's that we're repurposing the team, and they are now so much more productive. And so one area that has always been, like, a particularly challenging thing that makes it hard to build a new insurance company is we have to build this network. So the network is all the doctors and all the hospitals and all the people that we have to contract with. And there's about 1,200,000 of those in The US that you want to have contracted. That ends up being, like, sixty, seventy thousand contracts that you have to do.
+
+That's just a lot of work to go out, get their attention, do a negotiation, get them to sign an agreement, load all of their data, and have them in your network. And this has been one of the biggest, like, pieces of staying power of the big health plan businesses is they built that over a hundred years for Blue Cross and over, like, fifty years for United, Cigna, and Aetna. And so they did it slowly over a long period of time. If you're trying to from scratch come in and start a new health plan, you've got to reach out to all of those doctors and negotiate. And so we have a team of about 45 people who do those network contracts, and they reach out and they negotiate.
+
+What we launched earlier this year is an agent called Gwen, and Gwen does the same workflow. You give her basically a lead. Hey. There's a primary care office over here. Here's the address.
+
+And she will go Google it, research them, learn a little bit about their practice, figure out what other payers are paying them because there's a lot of this data out there and these transparency files now of how much are they getting paid, find their email address from ZoomInfo, reach out to them, and then basically ping them repeatedly until they answer her with custom emails like, hey. I know about your practice. I know what you're doing. Like, customize content to them. And then when she gets their attention, negotiate the rates back and forth, usually over, like, multiple rounds of negotiation, negotiate and redline the language.
+
+And that's another place where we found Python is great. These models are terrible editing Word documents. But if you tell them to write Python to edit a Word document, they're great at it. Great hack. And then sign the agreement.
+
+And so she now signs the agreements with my signature. She'll open up the DocuSign link and then click the button, and it's my signature on that agreement. So this has taken us from doing about 100 contracts a week to about 100 contracts a day. Last year, as an entire team, we did 2,300 contracts. So far in about the last eight weeks, the agent alone has done 3,500.
+
+And so what this is letting us do is, like, that team doesn't go to zero. We've refocused that team to work on these bigger contracts. Right? Because some of these deals we can do entirely over email. This agent is email only, and some of these providers will work completely over email to enter into an agreement.
+
+And actually, how many of them will do the whole thing over email surprised me. There's a lot of millennials, I guess, on the other end that don't want to get on the phone and would rather do the whole negotiation completely electronically, which is fantastic because the model is great at that. But some of them, the bigger hospital systems, the bigger doctor groups, they want to have a phone call. They want to meet in person. They want to learn who we are, and the team now get to spend their time going and having those in person meetings, going and developing those relationships, working with those bigger groups, and then even when it gets to the paperwork, handing the paperwork off to the model.
+
+And then all of the smaller, the individual PCP over here, the small behavioral health provider here, the therapist over here, the agent just gets it done and can sign a contract end to end in a few hours where you wouldn't be able to do that volume with people. Given the transformational nature of what you're describing, if Anthropic doubled their price, would it impact your usage? When we look at a lot of the financials of these core businesses today Yep. They are challenged businesses in their current infrastructure and pricing. If they double pricing, would it stay the same?
+
+If I say yes, I don't want our Anthropic rep to double our pricing. But it would. It would work. It would be fine. Yeah.
+
+So it costs with people, it costs us about 1,500 to $2,000 on average to do a contract. The average with Gwen has been about $70. So it would still work fine. And so that's what we've seen is, like, partly why the token use has exploded for us. Am I being a complete idiot then?
+
+But then if they 5x their pricing, if you went on the labor displacement theory Yep. It would still work. It would still work. What they're betting and what also we've seen is you don't just displace the labor. So here, like, I think contracting is a perfect example.
+
+We've not said, okay. We're doing a 100 a week, so we'll get the agent to do a 100 a week. What we've done is said, well, now that we have the agent, we can do 10 times as many contracts this year as we could do last year. So we're gonna do 10 times, and then we're gonna try and do 20 times. And we would just do a lot more volume than you could possibly have done with a human team.
+
+Everyone's like, oh, I lose my job. Lose my jobs. Do you think that's warranted? I think for a lot of these back office jobs, yes. So how how do we determine between I'm just gonna do more?
+
+A lot of people say with developers, we're not gonna get rid of developers. There's an insatiable appetite for more software, better software. How do we determine between functions where we'll do more versus will be replaced? So what we've tried to kind of differentiate at Curative is there's, like, two areas where we're really investing in people. That's technical skills and relationships.
+
+Those are two aspects that I don't see going away anytime soon, is we still have a team that are actually deploying all of this AI. They use a ton of AI in all of their day to day work. Right? They're not writing any code anymore. They're not even reading the code anymore.
+
+They're deploying all of this with Claude Code or Codex, and seeing, like, incredible results out of, like, one senior engineer now is so much more productive than they were a year ago that we're investing in having those people. At the same time, there's a side, particularly to health insurance, that is relationship driven that I don't see as going away anytime soon. Ultimately, we insure a member, and that member wants to be able to call and talk to a person. We have a lot of AI they can talk to. The AI is great.
+
+They love talking to the AI, but there has to be a person somewhere in the loop. We also work with these provider groups. We have a relationship with that provider group that we're providing a chunk of your revenue. You know, we work with you. You work with us.
+
+There's a relationship aspect there that has to be maintained, particularly for the larger groups by a person. And then on the sales side, we sell through a broker, and that broker wants to have a finalist presentation. They want to go to dinner. They want to go and play golf. And so what we've seen is on the sales side, like, that relationship is, if anything, more powerful.
+
+Do you think they still will in five years? A lot of people talk about agent agent transactions and how that changes the process. Do you think we will still have that heavy relationship into personal sell in five, ten years? In some aspects, yes. Because I think in some aspects, that's kind of becomes the foundation of trust, and it's, like, almost the scarce resource, right, of if you wanna do a deal that's important, then you're gonna use your scarce resource of people to manage that.
+
+It's also the bigger the contract, the more important it is to have the the whites of the eyes and the trust in the relationship. And most of these contracts right? Most employers, even our smallest employers, it's a million dollar contract at least. I always think they're like, when you look at accountants and lawyers and a lot of the people who bluntly could be replacing some of the more simple, especially NDAs or but you would never not have a law firm do it because if it goes wrong, they're getting fired. Yeah.
+
+But I think I think you'll see it work differently, though, where I mean, what we're seeing with with Gwen is we had a contract, a standard template contract that was drafted by a law firm, and then we have kind of like guardrails for what Gwen can agree to, but she just redlines it and then signs it. It doesn't go to a law firm for a review. Like, we're signing hundreds of these contracts a day. It would be too encumbering. It would be too slow, and they would just be reviewing it with AI anyway.
+
+So we kind of trust the agent to do that legal review within certain parameters. In three years' time, knowing what you do now about the capabilities that you use it for, how big do you think Anthropic will be? A lot bigger than they are today. Do you think it could be 5,000,000,000,000? I think it could be 10,000,000,000,000.
+
+It is just extraordinary, isn't it? Yeah. Because I think you just find all these new things that you can do that you just couldn't do before that, like, wasn't possible to do. So Quinn is sending on average 15,000 emails a day, customized emails to providers that know about their practice, that know about their work. And one of the things we found is, like, that relentlessness of the follow-up is what works.
+
+A lot of providers will get them on the ninth email. There is no way that a human is gonna email them nine times because, you know, people that's like you have to kind of have no shame to reach out that many times. Johnny, here's something funny. You mentioned Salesforce. I got Mark Benioff on the show because I emailed him 53 times once every week for a year and a week.
+
+There we go. Oh, yeah. Basically an AI model. I lost my personality. Very effective AI model.
+
+That is extraordinary. But that works so well in sales, it's and and the best salespeople will will do that. But it's really hard to scale that, and you end up getting people that reach out three times and then give up. And when you're trying to scale something up, if you can scale up that relentlessness, that is really valuable. So you fundamentally buy the companies will be inherently smaller in the future, and that's why we're seeing layoffs?
+
+Yes. Are layoffs today just an excuse for overhiring in 2021 and 2022? I think it's a mix. Yeah. I mean, I think there's definitely some of that.
+
+You know, it's also companies are seeing valuation boosts by doing it. So that's incentivizing maybe bad behavior. But some of it, for sure, is that these workflows are changing. How big are you today? We're about six fifty people now.
+
+How big will we be in five years' time? In five years, we'll probably be bigger. In the short term, I think we're gonna be quite a bit smaller. Smaller? Yeah.
+
+We're not done yet with all of these back end workflows. Does that go to 400? Somewhere around there. Wow. There's some aspects of the business that are our clinical workflows.
+
+So all of our members get a Care Navigator who stays with them for their entire journey, and that is just going to grow linearly with our membership. So we want you to have that human point of contact that is available, But the care navigators are now getting significantly more useful because they can actually use the agents to do a lot of the follow-up on their behalf, and they're not having to remember to reach out to this diabetic member every week about x. They can kind of manage it at a population scale. And so there, we're keeping the same headcount relative to our membership growth, but just letting them do so much more than they could do before. That's amazing.
+
+I was speaking to a major airline where they were saying actually about exactly that, they're like premium care customer service, where it's like they're able to give so much more for your recommendations for you and your wife's trip to New York, and everything's so perfect and tailored because all the bullshit that they used to do is gone. And for you as the end consumer, it's amazing. And the response time is so much better. 100%. You get a response back in a few That's that's the usual place where we see people ask Gwen if she's an AI, when she responds to your email within five minutes.
+
+Because in health care, if you get a response same week from an insurance company, you're doing so well. And people think that I'm an AI because I respond very quickly on email. And this is the point where like, I'm no, I just have no life. You said about kind of the different data inputs of, oh, you can just send us anything now. Yeah.
+
+I always was like, data cleansing, data structures would be the biggest inhibitor to enterprise adoption of AI. Is that totally wrong bullshit VC? I think if you approach it in the right way, then the cleanliness doesn't really matter that much because the models are so good at cleaning up the data if you give them the right context. And so that's one of things we found actually with migrating away from some of these SaaS vendors is we we moved away from Looker. Right?
+
+Google's Looker product for visualizations. It's super expensive, and we moved to do it in Snowflake. And it's been a lot cheaper. It's worked really well. Part of that migration is moving all of our dashboards and all of the things that fed from Looker would have taken, like, probably, like, a year and a whole bunch of engineers and data scientists.
+
+We did most of it with an agentic workflow that would spin up, find the next dashboard, figure out how to convert it into what we needed, and then close it down on the Looker side and boot it up on the other side. And it ended up being like a project for one or two people, and it took it still took a couple of months, but it was a lot more doable because we didn't have to have somebody ingest or, like, figure out that data. You can just feed that data into a model and let it figure out how to structure it going forward. It's just really interesting because I, you know, I often think about what role does not exist today that will be massive in five years' time. And I thought, like, data cleansing would be one of those roles.
+
+If I ask you what role does not exist today that you think will be very big in five years' time, what would you say? Agent supervisor? What does that mean? One of the things we found that's been, like, a bottleneck is when you launch these agent workflows, there's always things that they you don't want to let it do everything, right? So like with our contracting our sales workflow, like, there's a certain margin threshold where the sales agent can't promise a client that will do it at that margin.
+
+But we don't necessarily want it to say no. We want to make a business decision about whether this is the right thing to do for that client. And so you end up generating this, like, massive list of approval requests that is now much longer than it would have been because you're doing 10 times as much work. So you're now getting even if you're only getting an approval request 1% of the time, you're still getting 10 times as many as you were last year. And so one of the things we found is, like, actually, how do you manage all of those exceptions that now become, like, a really high volume?
+
+So we tried agents, supervising agents, which I think works to a degree. And maybe as the models get better as well, you can also have like a more expensive right? Like if we ever get Mythos and it costs a $100 per million tokens, you probably wouldn't use it for the core workflow, but you could maybe use it as a supervisor. But how you actually manage those agents at scale with, like, the volume of exceptions that they generate? Because you don't want them just rubber stamping yes or no either way.
+
+Like, you need a more nuanced decision there. If you were advising your younger brother or sister on how to prepare for that role, what would you advise them to do to be adequately skilled to do that? I think just play with the models. Like, I think a lot of people severely underestimate what they're capable of because maybe they, like, tried ChatGPT two years ago. Like, they're moving so fast, and they're so much better than they were even six months ago that if you're not, like, relentlessly trying them, then you're gonna significantly underestimate.
+
+And then also, like, where they are today is not where they're gonna be clearly in a few years, so you gotta skate to where the puck is gonna be. Where will they be in a few years? Ahead of humans on most capabilities. Are you excited? Yes.
+
+Because I think that opens up so many possibilities. Unlimited intelligence. Are you not worried about, in short term, societal unrest, labor displacement, and what that will do to a hollowing out and inequality increase in The US? I think that can be dealt with by significant action, whether or not we do that or not. What significant action would you do to mitigate that?
+
+I think eventually some version of universal basic income. And you buy that works. I think we have to build the social structures that give those people purpose and meaning outside of work, because I don't think that we're gonna have and I also I don't think that's a bad thing. Like, lot of these mid level jobs that are being replaced are awful jobs. They're people sitting at a desk with, like, fluorescent lamps shining at their face, reviewing random paperwork.
+
+That's not what people like you know, when you're little and you say, what do you want to be when you grow up? I want to sit in an office and rubber stamp insurance forms. Like, it's not a good job. I would be worried if my child was there. Right.
+
+So these are not like it's not like you're taking some super aspirational thing away from people, I think. These are jobs that will look back and say, god, I can't believe we had people doing that kind of work. That's crazy. You know, I walk with my mother a lot, I always say my job is to invest in the things that we say, god, I can't believe we used to it that way. And so do you remember?
+
+I would never put my credit card on the internet, or you'd never find your husband on the internet. You'd never get in a stranger's car and have them drive you where you wanna go. What is insane today that will be incredibly obviously, obviously you have your card online, you obviously meet your partner online. What is insane today that you think will be like, obviously in ten years? I think empowering agents to do things on your behalf.
+
+Like we've seen internally getting the team I think, like, Isaac, our our CTO and and co founder, and I have, like, trusted the agents faster than most of the team. And we're okay, like, giving the agent authority to do things. Like, it was a big internal dispute getting the agent to sign these contracts. So the agent opens DocuSign and clicks the sign button, and it's legally binding and has my signature on the page. And getting that figured out internally was very it took a lot of rounds of convincing people that that was okay and that we can do that.
+
+And so I think it will take time for people to trust these agents with stuff like, you know, give it your credit card and let it go book a a holiday. Right? Like, getting getting people to trust it acting on your behalf, I think, will take longer. But I'm thrilled that you signed me your house for $12. Was wonderful.
+
+Great. Yeah. Do you worry about the concentration of value when you look at the MAG-seven providing 85% of gains year to date in stock markets, and then Anthropic OpenAI, maybe one or two more? Do you worry about that concentration of value? I'm quite bullish now because I think a lot of what's going on in AI is gonna massively boost earnings in other areas of the economy that have struggled to grow earnings any other way.
+
+Like health insurance. Like health insurance. Like, how do you grow health insurance earnings? Well, it's been or you go chase government business, and you pay a bunch of lobbyists to get the government to overpay for care. That's all now backfired, and all the government business, Medicare and Medicaid is now like a bad business, and they're all losing money.
+
+Everybody has insurance. So unless you're gonna increase the total spending, how do you grow earnings? Well, if you can make it more efficient, so you're not spending 9% of your premium premium on admin tasks, that's a way you can grow earnings without having to deliver a worse product. You're in a really good business as well because it's unwaveringly not in the path of the model providers as well. Yes.
+
+They're not gonna an insurance company. I think in the path of like, we're big investments in Wallix, which is like business banking. Anthropocene is not going into business banking in Southeast Asia. I would be surprised. I think things that have some regulation around them and are complex industries, yes, they're gonna see the advantages of the models, but they're not gonna see competition from Anthropic or OpenAI.
+
+I totally get that. When I listen to you, I'm like, Jesus, if I was you, I'd I'd also take a chunk of my money and invest it actively into Anthropic. Can I ask you, have you taken secondaries along the way? No. No.
+
+We haven't sold any secondaries. We did there was a dividend at the end of COVID. We paid out some all the investors got 10 x their money back before we started the health insurance company, and then they still their shares today. We haven't sold any secondaries now. Are you fucking serious?
+
+They got 10 x their money back, and then they kept the shares? We didn't have that many investors, but, yes, they they all did well. That is an amazing deal. 10 x, and then you keep the shares. Yeah.
+
+What? That's why think that's why we've seen them double down. Right? It's like they made money with us before, and so, you know, this last round was was led by insiders. And how big was the last round?
+
+150,000,000. What was the prize? 1,300,000,000. Wow. Nice round, actually.
+
+Excellent. Not too much dilution, enough that it's really impactful cash wise to come in. Yep. Wow. Dude, that's insane.
+
+So can I ask you then personally? I asked this about you. Do you know Josh Browder? He's another Brit in the valley. Okay.
+
+Phenomenal guy. But, like, when you look at your personal allocation today, given our insider access and what we know, is there anything funky that you do with your money? Outside of curative? Yeah. I invest primarily in companies of people that I know, and I do very little investing if I don't know the founders.
+
+Does that work well? It's had mixed results, but some of them are too early to tell. Best investment? They're all they're all a bit too early to to tell. Do you have any energy investments?
+
+Yes. So there is a company that I cofounded with my wife, Subcritical, in the nuclear fission space based on an an idea that I had a few years ago that we need more power and that nuclear is a really good way to do this. It started off actually as looking for an investment. This was like one of my first times I was like, we should find a company that's doing nuclear power and try and invest in it and see if we can make it go faster. Because I kind of thought, I'm pretty good at making things go faster in really regulated spaces.
+
+Like, that's kind of what I'm what I'm good at. That's your thing? Yeah. That's my thing. You know?
+
+Everybody's gotta have a thing. And so Is that your hook on the first date? Regulated industries are making good on our first date. So after our first date, we both shared our genome files with each other, our VCF. And so she said she'd done this before, and the guy thought it was really strange.
+
+And we both, oh, we should share our genomes, and then compared and checked that we were compatible so that it was worth having a second date. And we were both totally into that. We knew it was meant to be. We were compatible by genome. We had two beautiful kids.
+
+We knew it was meant to be. I'm sorry. If you're incompatible by genome, you have like a If you both have like the same a ginger child? Well, that was a a concern. My brother is ginger.
+
+I'm sorry. So I carry the ginger ginger too. Yeah. Yeah. We we don't see him anymore.
+
+We we took him to the woods and said run free. Makes sense. Yeah. So I I do carry the ginger gene. I know if she had carried the ginger gene, that would have been a deep concern, but she locally doesn't, and so that was that was one of the key tests.
+
+You progressed to the second date. Yes. So we made it to the second date. What does no one know about nuclear, that everyone should know about nuclear? That it is very safe, and that it's not a science or engineering problem.
+
+Like, that was when when we started looking at companies to invest in, that was for me the the thing that I was sort of disappointed by, is everybody was approaching it as if nuclear is this massive engineering challenge. And sure. Like, engineering is hard. It is complicated. But fundamentally, we have built safe nuclear reactors since the sixties.
+
+They work great. The technology has not really changed or progressed since then. We know how to build these. That's not the problem. The problem is that due to a lot of the anti nuclear push in the eighties, we have had a regulatory environment that has been incredibly restrictive and difficult to get new nuclear reactors built, particularly in The US, but also worldwide.
+
+There's been this push to say, how do you guarantee that under any possible circumstance, like once in a million year events, that you will never have anything go wrong? And in traditional nuclear, that is very hard to guarantee. In traditional nuclear, one of the reasons it's difficult, you're basically balancing on this knife edge. So in a reactor, you have what's called criticality, right, which is where you have to produce enough neutrons each generation that they go off and do exactly one more reaction, and it keeps itself going. If you get too much of that, too many neutrons, it's a bomb.
+
+Right? It will be a runaway reaction, and it will blow up. That's very bad. That's only ever happened once by accident, which is Chernobyl. All the others have been, yeah, not criticality events, so you don't want that.
+
+If it happens not enough, then it just turns off. So if you go too far below this exact 1.0 threshold, you get no power out. And so you're trying to balance perfectly on that knife edge of exactly 1.0 where you can control it. And that is a hard problem to guarantee. This is the fundamental issue with nuclear regulation.
+
+How do you guarantee that under no possible circumstances will you deviate from that perfect control? And so I was initially pretty disheartened. I was like, well, we're not gonna get new nuclear power. This is not gonna work. And then I stumbled on this idea of what's called the energy amplifier.
+
+It's And not a new technology. It's been around since, like, the late eighties, early nineties. It was really pushed by a guy, Carlo Rubia, who used to be the CERN director. He was a new Nobel laureate in physics. And the idea is you always operate below that one point o threshold.
+
+So we are designed to operate at point nine seven. So that means you never have enough neutrons to keep the reaction going. The reaction will always fizzle out. So no matter what you do, it's gonna fizzle out. But normally, that would mean you get no power output.
+
+What you do in the energy amplifier is you point a really powerful particle accelerator at that fuel, and that puts in the extra neutrons to drive the reaction forward. But if you turn that accelerator off, all of your energy output just stops. And so you basically have this big on off switch where you can control fission, and you can guarantee that no matter what you do to it, the fission will never run away. Even if you put in 10 times as much power from the accelerator, it will never run away. There's nothing you can do to it to cause it to go critical or to have a criticality accident.
+
+And so it's a fundamentally safer way of doing nuclear fission that is just approaching it from a different angle. How will the composition of our energy providing change in the next five to ten years? Like, will nuclear be a demonstrably larger part of energy provision than it is today? Yes. I think what we're seeing kind of all across supply chain in nuclear is a push to get more nuclear online.
+
+And I think, you know, Subcritical is kind of leading the way there with a faster path to market than any of the other players, but there's a lot of people working on deploying a lot of new nuclear power. Which current provision will diminish significantly? I mean, I think any power from coal will will mostly go away. I think you're still gonna see a lot of gas just because particularly in The US. It's cheap.
+
+It works. It's fast. But I think coal is gonna go away, and then you're just gonna see more of everything. What company will be larger? Curative or subcritical?
+
+Subcritical. Yeah. Or subcritical? That's a great question. Curative has a larger market opportunity, but I think they're both Has a larger market opportunity?
+
+Yeah. I think they're both, you know In power generation? Yeah. The US spends or US employers spend $1,500,000,000,000 a year on health care, which is that's our direct TAM every single year. How much does The US spend on energy?
+
+Through energy that can be addressed through nuclear. It's a similar order of magnitude. Mean, you chose good TAMs. They're they're both they're both gonna be yield optimization. I feel like you've really, really taken this.
+
+I figured out the TAM thing. No. They're both, like, trillion dollar opportunities if we execute right. Yeah. Wow.
+
+We're also seeing AI on the on the nuclear side Yeah. In the design. Because design is, like, traditionally a thing that is done by a whole bunch of people sitting, doing drawings and mechanical engineering, and the models have gotten really good at that. And so we're seeing that you can do the design with far fewer people using AI to optimize a lot of the design parameters, where historically you might have needed a 100 mechanical engineers to design every single nut and bolt and part. You can do it with this with 20 really good mechanical engineers that are designing the critical pieces, the important pieces, and overseeing the AI on, like, oh, well, I need a little bracket that joins this piece to this piece, doesn't need a human to design that.
+
+I was actually meeting a company the other day, which basically said like, the challenge with hardware engineers is they don't often know what software engineering. And the beauty of today is like, we've turned hardware engineers into software engineers overnight. Yep. And that's amazing. But it's another place where we saw, like, CodeGen as a solution, and I think, you know, this is one of the bets Anthropic made and they're totally right on.
+
+You can generate really good CAD models by having it write Python to make the CAD model. Like, it's not good at necessarily good at, like, three d space visualization or outputting a drawing, right, as as vectors, but it's really, really good at generating plausible Python code that can draw that part. It is the most exciting time to be alive in many respects. Yeah. Well, that's why we ended up starting Subcritical.
+
+As I yeah. Very busy running Curative, but that was an idea that was just too important to pass up, and there was nobody else. So only one that is under, like, active construction of those systems is in China based on a US design from the twenty tens that The US stopped working on after Fukushima. How much money do you need to make subcritical significant? Each one of our deployments would be about a billion billion dollars of construction cost for a 300 megawatt facility.
+
+But it's not know, it wouldn't be the same, like, you wouldn't raise that as equity. It would be a mix into the plans of equity and debt. It's more infrastructure build financing. What do you know now about marriage that you wish you'd known at the beginning? Seriously, it's an amazing thing to build a company with your wife.
+
+Yes. It's it's a challenging thing as well. Yes. How do you make it work? So I we're very well matched, I think, is one of the things is we basically never argue, and that's how I knew very early on that it was meant to be is we're always on the same page about things.
+
+And so it's actually very easy to run a company together because we're we we usually see eye to eye on, like, how something should be done. Fatherhood? You said two kids. Two kids. 2.5 year old and six months.
+
+Anything that you would advise a new father, knowing what you know now? You should definitely have kids. Don't wait. I mean, I think there's too much, like, sentiment of people, oh, you know, live your life and wait until you're in your late thirties and then have kids. I think that, like, have kids early when you have the energy and can run around and not sleep, and it's one of the best things you'll ever do.
+
+You should just get on with it. Okay. We're gonna do a quick fire. Sound good? Yep.
+
+Dude, that was the most twisting and turning conversation ever from, like, the proliferation of STDs to fatherhood and nuclear. I mean, really, we crushed it. Number one, what have you changed your mind on most in the last twelve months? I think probably a year ago, I have changed my mind that there are workflows that can't be done with the models, with today's models. I think today, the current gen models can do every back office task we have at Curative.
+
+It's just a matter of deploying them, like getting them set up, getting them configured, having the right policies. And and I think a year ago, I thought there was opportunity. I thought there was things we could do, but I don't think I would have said you could do every single one of our current back office flows. What one change would you make to Europe if I made you president of Europe in this very strange title to stay in the race for competitiveness? You have to have some kind of, like, burden for passing regulation.
+
+There needs to be some penalty. Like, right now, you pass a regulation, that's like, okay. You you did a good job. Like, the goal is to pass regulation. There has to be some penalty.
+
+Like, the if you pass regulation, your country must pay some tax, additional tax for having passed that regulation. Just adding and adding and adding without, like, refining what you've got today and, like, really going and digging in and how is this regulation affecting things on the ground. Like, just more additive regulation is bad. You need to be looking at the effect of what you've done and refining it and iterating on it, and not just trying to add some new landmark regulation. That's very anti European for a gentleman.
+
+You're going to do very well. I'm a Texan now. Mark Benioff he spent 300,000,000 on Anthropic, equated across the developers that they have. It works out to be about 3.8% of developer salary spent on Anthropic. What do you think total percent of developer salary spend will be on Anthropic in three years' time?
+
+Between maybe two and five x be the the two and five x salary? I think that's probably Two to five x is the whole salary? Yeah. Woah. So from 3.8% of salary to two Yeah.
+
+Because I think the way I mean, the way we're driving workflows is that you have one senior engineer managing a bunch of downstream agents that are actually doing the work. And then we're now getting to the point where have, like, mostly unsupervised agents taking feedback from the team on things, implementing features, and then the engineers are coming in and actually checking that what it built makes sense. So they're becoming more the reviewer and, like, the architect, and then you have these downstream agents doing the two to five I mean, that's not, like, 3.8 to 20%. Like, 50%. If it's 50% Anthropic, it's like a $20,000,000,000,000 company.
+
+Yeah. I I think that that's what the workflows will be, is people are people are gonna be deploying more agents than engineers, and they're gonna keep the same number of engineers. We're just gonna build a lot more. Just gonna message my friend to let me into that new Anthropic round. Just message Larry.
+
+There we go. What's the kindest thing anyone's ever done for you? I think when I first was getting started, there were a lot of people that helped make it be possible to move to The US and kind of, like, made a bet on a kid coming from the North Of England to come to Silicon Valley. Like some of the earliest investors, the guy Josh Buckley, who was one of the first guys who invested in us during the YC batch, just because he liked what we were doing, he thought it was it was cool. But, you know, being willing to kinda take a bet on a kid.
+
+You know Josh is, like, my best friend. I didn't know that. I haven't seen him in a while. Yeah. I Oh, say hi to him.
+
+I I speak to Josh every single night. Okay. Barring, say, Christmas. Alright. Well, he he invested in counts.
+
+That is unbelievable. STDs. Oh, you know, investor mock. Was amazing. I didn't know that Androsh.
+
+Yeah. Yeah. He was, like, a month into the YC batch, like, came by the lab and was, like, super supportive of what we're doing. And I think just coming from, like, the British background, we couldn't even get meetings with investors. And he was young.
+
+I mean He was yes. But to get I mean, he'd been through YC and had a successful company, and it was just awesome to, like, have someone like that take a bet on what you're doing. Coming from The UK, where I was used to, like, the cold shoulder, no one was interested in what I was building and, you know, no one wanted to take a meeting. That makes me so happy to hear. Okay.
+
+Final one. What was the best advice that you've been given? I think one thing that I have learned is to always try and get a lot of different perspectives on a problem. I think I I would historically have sort of approached things from, like, one scientific viewpoint, and sometimes people would say, no. Like, take a step back and think about that problem more broadly.
+
+And one of the things I learned during the curative COVID push is we had to bring together a bunch of people from very different backgrounds. We hired a bunch of former military people who were just, like, incredible at deployment, but they speak a different language. And then we're trying to get them to talk to scientists. And then we hired a bunch of Silicon Valley developers. And they all, like, think about the problem.
+
+They're all trying to solve the problem, but they all come at it from, like, a completely different perspective. And a lot of times, I wouldn't have considered that point of view on doing it. And I think what I found is that the more of those perspectives that you can kind of get on a problem, the closer to ground truth you get. Like, you're never gonna no one of those people is gonna give you the ground truth. But if you hear a lot of perspectives, you can kind of get to that ground truth faster.
+
+Fred, that was the most extraordinary show that I've ever done in breadth, depth, variance of conversation. Thank you so much for joining me, and it's so great to do it in person. Yeah. Thanks for having me. But before we leave you today, we used Alfsance on an investment that helped us close an $8,000,000 deal.
+
+$8,000,000, baby. That's a lot of money. That's why I'm genuinely excited to have them as a partner on 20. Alfasance combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news. Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important.
+
+So you can make really high conviction decisions with confidence. But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important development surfaced, and your investment brief already waiting for you, see for yourself, head to alphasense.com/20vc. That's alpha-sense.com/20vc. While AlphaSense sharpens the strategy, MongoDB scales the product.
+
+Every serious AI company right now has the same problem. Agents need accurate context fast. Most infrastructure though, it wasn't built for it. Well, MongoDB is. Eleven Labs runs 40,000,000 agents on MongoDB.
+
+75% of the Fortune one 100 run their most critical apps on MongoDB. Trillions of dollars moving through MongoDB every single day. Instead of stitching together 10 different tools, you get one JSON native database, Vector Search, and Voyage AI embeddings in the same system, and it runs anywhere. No lock in. If you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and technical support to help you ship.
+
+Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, Framer scales the story.
+
+Framer is a complete website platform, not just a builder. From early stage startups to Fortune five hundreds, teams build on Framer because changes take minutes instead of days. Here's what I love. Framer is the pro AI website builder for creators, teams, and businesses that care enough to get every detail right. The agents close the gap between AI generated ideas ready website work because it all happens where the site actually lives.
+
+It lands on the canvas, stays editable, and can be published when the team is ready. So you can build custom code components, create and manage CMS content, optimize SEO settings, and ship everything all in one place. The agents bring speed and scale. You bring taste, judgment, and control. It's an enterprise level solution too.
+
+Premium hosting, enterprise grade security, 99.99% uptime SLAs, which is why the world's leading brands like Perplexity and Miro build in Framer. Learn how you can get more out of your site from a Framer specialist or get started by building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc for 30% off. Framer.com/20vc. Rules and restrictions may apply.

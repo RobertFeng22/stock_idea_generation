@@ -1,0 +1,415 @@
+NVIDIA's gonna have better networking. They're gonna have better HBM. They're gonna have better process node. They're gonna come to market faster. They're be able to ramp faster.
+
+They're gonna have better negotiations with whether it's TSMC or SK Hynix and the memory and silicon side or all the rack people or, like, copper cables, everything, they're gonna have better cost efficiency. So you can't just, like, do the same thing as NVIDIA. You have to really leap forward in some other way. You have to be, like, 5x better. The AI race isn't just about models.
+
+It's also about the infrastructure underneath them. Chips, data centers, power, networking, and the economics that determine who can keep scaling. In this conversation, Semi Analysis co founder Dylan Patel joins Aaron Price Wright, Guido Epenzeller, and me to discuss the state of AI hardware, why NVIDIA remains so difficult to compete with, and how companies like Google, Amazon, Meta, and OpenAI are approaching the next generation of AI infrastructure. We also explore custom silicon, AI economics, robotics, export controls, and what founders and investors should be paying attention to as the compute race accelerates. Dylan, welcome to the podcast.
+
+Thank you for having me. We've been trying to get you for a while. You're a busy man, but it worked out. Guido, why don't you introduce why we're so excited to have Dylan on the podcast and what we're excited to discuss? I think, Dylan, you've done an exceptional job in covering what's happening in the AI hardware space, AI semispace, and now more and more data center space as well.
+
+And just looking at it, currently, most valuable company on the planet is an AI semi company, right? The, I think, biggest IPO so far in AI was an AI cloud company. This is currently where it's happening, right? And any gold rush in the early days is the peaks and troughs that make money. And I think this is the stage that we're in.
+
+Super excited to have you here today. Awesome. Thank you. Happy to talk about my favorite topics. Amazing.
+
+Well, maybe let's start with g p five. We just had some of the research, Christina and Isabella, on here last week. You said it was disappointing. Why don't you share your reactions or what capabilities you were hoping to see or overall I think it depends on what tier of user you are. Right?
+
+If you're just using g p d five and before you were $20 or $200 a month subscriber, you no longer have access to 4.5, which, in my opinion, is still a better pre trained model for certain things, or you no longer have access to o three, which would think for thirty seconds on average, maybe. Right? Whereas g p d five, even when you're using thinking, only thinks for, like, five to ten seconds on average. Right, which is an interesting sort of phenomenon. Right?
+
+But basically, like, g p d five is not spending more compute per se. The model did get a little bit better on a vanilla basis. Right? Four o to five is is actually quite a bit better. But when you think about, you know, what is this curve of intelligence, right, it's like the more compute you spend, the better the model gets.
+
+And that's whether it's a bigger model, which g p d five isn't. Right? You can see it's not a bigger model. It's roughly the same size, you know, or you think more. Right?
+
+But, again, like, this is something that OpenAI's first thinking models, you know, the first few generations of o one, o three would think for a long time and waste a lot of tokens, if you will. And when you look at, for example, Anthropics thinking models, even when you put them in thinking mode, they think a lot less, right, to get to the same results or better results, right, as OpenAI was. And so OpenAI, I think, optimized a lot of, well, if I ask like, think the silliest one I had asked was, I asked o three once, is pork red meat or white meat? And it thought for, like, forty eight seconds. I was like, what are you doing?
+
+Like, they should just, like, tell me the answer. And so, like, the nice thing is that g p d five will think a lot less even if you select thinking manually, but more importantly, they have the sort of auto functionality, the router, which lets them decide whether or not, hey, do I route to the regular model? Do I route to maybe mini if you're out of rate limits, or do I route to thinking? And how much do I think? But in general, the thinking model will think less.
+
+So there's less compute going into a power user's average query than before. But isn't it even more interesting? OpenAI cannot control how much computer wants to allocate to you. Right? If we're in a high load situation, maybe tune the router a little bit so it's less, right?
+
+Maybe Skype. I have no idea what they're doing behind the curtain, but there's this meme out there at the moment that basically all they did which is a meme, right? It's not true but all they did was take all three plus a couple of smaller models, put a router in front, and offer that at a lower blended price, essentially, Right? I think there's a little bit of that. Cost suddenly matters, and they figured out a way how they can steer that.
+
+I think, yeah, and they talked about how they've been able to dramatically increase their infrastructure capacity. Because I myself was just regularly using three or 4.5, Right? And now I'm forced to use auto, which sometimes gives me the o three equivalent thinking model, but sometimes gives me just the regular base model. Yeah. Which sucks.
+
+But, like, I think for the free user, it's actually quite interesting. Right? The free user was not getting thinking models pretty much ever or not using them, or in many cases, just opened the website and asked their query, and now sometimes their query gets routed there. So sometimes they get a way better model, but now sometimes the OpenAI can gracefully degrade them Exactly. If they need to.
+
+Right? And I think the router points to the future of OpenAI from a business. You can look at sort of the model companies, Anthropic is fully focused on B2B, API, code, etcetera, or Cloud Code, whatever it is. OpenAI, yes, they have that business, Codecs and API business, but really, majority of the revenue is consumer. And it's consumer subscriptions.
+
+But they have no way to upsell, to make money off of all the free users. In any other application consumer app, the free user still pays via ads. But this is not compatible with AI. It's a helpful assistant. You can't just make the users result worse by injecting ads.
+
+Banner ads don't really work in AI either. So it's like, how do you now monetize them? And I think with the router, they're getting really close to figuring out how to monetize that user. With the new sea of applications, if you saw her product that she launched at Shopify, I think it was Shopify, was an agent for shopping. Right?
+
+And now this like immediately clicks like, oh, if the user asks a low value query, hey, why is the sky blue? Just route them to mini, right? The model can answer perfectly fine. And that is a chunk of queries. Right?
+
+But if they ask, what's the best DUI lawyer near me? Right? All of a sudden, this is like, you know, you're in jail. You have one shot. You're like, screw it.
+
+Let me ask Chad GPT what the best DUI lawyer is. And now all of a sudden, the model's not capable of it today, but soon enough, it'll be able to contact all the lawyers in the area and figure out what their results are and maybe search their, like, court filings and whatever. Right? Book the best lawyer for you or an airplane ticket. A cut as part of that.
+
+Yeah. Of course, they're gonna take a cut. Right? But this is a much better way of monetizing the free user. It's like, you know, it's like Etsy.
+
+10% of their traffic now comes from chat, and OpenAI makes nothing off of that, but they really, really will soon. Right? And partially, that's because Amazon blocks chat, but there's a way to make money from shopping decisions, whether it's booking flights or looking for items. And those you now say, free user, I don't care. I'm gonna send you to my best model.
+
+I'm gonna send you to agents. I'm gonna spend ungodly amounts of compute on you because I can make money off of this. But if it's a query that's like, help me with my homework, I'll send you, like, a decent model. Right? I don't need to spend money on you.
+
+And so this is how I think, like, opening, I can finally make money off of the free user. And I think that's the biggest, like, thing about the router. Right? This is super interesting. I think this is the first time that we've seen that there's a launch of a new model where, to some degree, cost is the headline item.
+
+Right? Mean, so far, was always like, Who has the smartest model? Who has the highest MLL use score? Now we have suddenly people who use models for coding for eight hours a day, and surprise that if you take a large context window and the best model creates thousands of dollars of cost a month. So, cost matters.
+
+And so, to some degree, so where you're on the Pareto frontier between cost and performance is the new benchmark for model competitive no longer cost alone. Is that what we're seeing here? I mean, I think definitely right. OpenAI said they doubled their rate limits for big amounts of users. They've dramatically increased the number of tokens they're serving from this launch, which effectively says this is an economic release.
+
+Probably also means the tokens are now cheaper. Right? Otherwise Yeah. Yeah. For sure.
+
+For sure. I I think the funniest thing is this whole cost thing you mentioned is, we've seen this in the code space. Right? Cursor had to pull away the unlimited clogged code. Initially, they have this super expensive plan, and it had, like, unlimited rates, and then they or only, like, a weekly rate limit.
+
+Now they have, like, hour based rate limits. And I saw the craziest, like, thread on Twitter where this guy said he changed his sleep schedule. Right? Modeled after, like, house sailors in the bay. If you're sailing, you can't sleep.
+
+Right? Like, solo sailing, they'll take, like, power naps when they get to the right spots so that they can still be safe. In the morning when it's not very windy. Well, but they can't sleep uninterrupted. Right?
+
+And so because Anthropic had to put rate limits that are not just week based, but number of hours based, and he, like, basically sleeps multiple times a day, but small chunks just so he can maximize the usage. And there's also a leaderboard on Reddit where people are, like, competing to see how many tokens they're using through their subscription, and there's, like, a dude spending, like, $30,000 a month. So I'm gonna find some developer in India that can do pair programming with so I can get the day cycle, he can get the night cycle, and we both can maximize together the quota for the account. Is that the future then? It's I mean, but it's clear.
+
+Like, people are taking advantage of the negative gross margin, like, sort of Yeah. Subscriptions that are offered. I think Anthropic probably makes a positive gross margin off of my subscription. I don't encode enough, but there's plenty of people that are definitely losing money. And so as you said, it's an economic It'll push more and more to, I think, just usage based pricing.
+
+If you have an underlying commodity that you're reselling to some degree that is that large a part of your cost of goods, you need to go to usage based pricing. How much do you think the customer capture and stickiness for these code products is? I'm curious what you think on that, right? Once you use an IDE, once you integrate one of the CLI products in, how sticky is it? Is it going That's switch that a billion dollar question.
+
+That's a very conservative estimate. Look, Annok Parathy has this great slide where he basically says, If you're building agentic system today, right? But fundamentally, what it is is of this loop, right, where half of the loop is the model thinking, right, and then trying to lose them. The other half is then the user verifying what did the agent do, is it the right thing, providing feedback, and trying to steer it in the right direction because we can't run forever. Eventually, we need to steer it back.
+
+Half of that is the model provider, right? They're trying to build the best models. The other half is really about, I think, designing the best possible UI to enable the user to get feedback. And I think there's value in that. So, I think there's a certain amount of stickiness in there, right?
+
+So, what are all the different tools, like, say, take code editing, right? How can I most easily visualize what the code changes are? How can I most easily visualize what they impact, which files? How can I, for small changes, get very quick feedback versus for complex ones, get complex feedback? There's some tools that actually draw diagrams for you of what they do.
+
+So, I think this will be the battle. I think there's stickiness in that. How much exactly? This is a great question. So in that sense, people should be doing subscriptions to get people locked in, right, instead of moving to usage based pricing?
+
+Well, I think it's the customers that don't want to do usage based pricing because it's so hard to guarantee. It's so hard for it to get away from them, and you actually want guarantees, and you're willing to commit to pretty high spend in order to not have usage based pricing. I think it's the model companies that want usage based pricing. I think with consumers, it's frankly very hard to not have usage based pricing just because the variability is so massive, right? If it's us coding versus somebody who does this as their full time job, right, you just have a factor of 20 or so difference in usage.
+
+That costs a lot of money, right? Think for enterprises, we could see, like, more flat fee pricing because we can average it out more. You have a developer that's using it all day. You kinda know, in a general sense, like, how many hours a day they're programming and what that sort of looks like. The vibe quotas are hard.
+
+Yeah. Yeah. Before we leave OpenAI, I wanna ask a broad question, which is if someone was sitting here and saying, hey, Dylan. I'll listen to anything you tell me to do. Any advice you have as long as it makes OpenAI more valuable, what would you tell him?
+
+I would say immediately launch a method for you to input your credit card into ChatGPT and agree that for anything it agentically does for you, it'll take x cut and then launch that product because where it does shopping, right? Because like, everyone knows that like Anthropic and OpenAI and all the other labs are buying RL environments of Amazon and of Shopify and of Etsy and of all the different ways to shop on the Internet, of airline websites. Just like, hey, integrate my calendar. I wanna fly to there on Thursday, make sure I don't miss a meeting. Cool, book.
+
+Do that integration super well. Know my preferences on whether I like aisle or window, all this stuff, and just take a take rate. I think this will make them so much money the moment they launch it. And I think they're working on it already, but I'd like to hear how he thinks about it, because he shifted his tone massively on ads over the last six months. He used to be like, no way.
+
+And now he's like, maybe. There's a way to do it without harming the user. I think this is how you monetize the free user. Right? So I think that's probably what I'd tell him slash ask him about, like a whole line of questions around this.
+
+Well, he's coming on the podcast in a few weeks, so Oh, nice. We'll ask him. I wanna shift to NVIDIA. NVIDIA's having a monster year. They're up almost 70%.
+
+What are the possible paths from here? How do you see it playing out? Depends how pilled you are on the continued growth, but I think you guys have a good vantage point. We have a good vantage point of how fast revenue is growing for a lot of these companies, especially the code companies, but even many other applications. I think we can clearly see the demand side is accelerating.
+
+And then if you look at the training side, I think the race is on. Meta's upping hugely. Google's upping hugely. If you just look at, again, just OpenEye and Anthropic and the compute that they have and are getting this year from Google and Amazon for Anthropic and from Microsoft, Coreave, Oracle for OpenAI, 30% of the chips are going to them, just those two companies. But that's actually like, okay, well, like, 70% of the stuff, like, who's making off well, one third of it is ads, whether it be ByteDance or Meta or many of the other people who are doing ads.
+
+So then it's still like, okay, well, where are the rest of these one third of the chips coming from? Well, they're mostly uneconomic providers who I don't think it's an obvious bet that they're going to keep raising bigger and bigger rounds. So what happens there? I think with the We talked about coding earlier. Actually, the Quen Coder three model is actually super cheap if you're running it on prem or if you're running it in the cloud with all these inference libraries.
+
+And so there's stuff like that as well. So I think the question is how much does it keep growing? Because clearly, I think the first third is definitely skyrocketing of open eye, anthropic lab spend. The second third of ads is gonna grow. It's not gonna grow like crazy, but I think there's definitely an inflection point that could be hit with Gen AI ads.
+
+I know Meta's been experimenting with it a lot, but I could totally be convinced that there's gonna be a huge inflection in take rate there, right, where you start showing me personalized ads. Like, every person that's an ad is, like, looks like me, and I'll be like, okay. Yes. Except, like, slightly better, so I, like, feel better. Right?
+
+And I'm like, I wanna buy it. Yeah. I have no idea how this is gonna gonna scale. Right? But if you ask the question how much could it scale?
+
+How much value are we creating here? Can we create enough value to actually keep growing for a long time? If you just take AI software development, right? Yeah. We know we can easily get about 15% more productivity out of it developing.
+
+I don't think that's right. I think it's way higher. No. No. With the straight like, I talk to a lot of enterprises.
+
+Like, a classical enterprise, straight up GitHub Copilot deployment, that gives you about 15%. We can do much more than that. But, bro, like, you know how bad GitHub Copilot is? Like, how did they how are look at their revenue ARR. This is a little overbar.
+
+Funny. It's so funny. If you look at their revenue ARR chart, it's like Cloud Code and three months has surpassed them. Cursor, you know, easily surpassed them. And then, like, even, like, companies like Replen or, like, and Windsurf slash Cognition are, like, gonna pass them.
+
+It's like, You appreciate the crunch. So, look, let's assume we can get this to 100%, so we can double the productivity of a developer. About 30,000,000 developers worldwide, give or take. Let's say 100 value add per developer. This might be a little high worldwide.
+
+The U. S. Is low, but worldwide is high. It's $3,000,000,000,000 Yeah, yeah. Right?
+
+So we're probably building technology here which adds $3,000,000,000,000 of GDP value. In theory, we could put that into GPUs because that's the main cost Just for coding model, not. From So the point of at least, in theory, the value generation is here to keep growing. Now how that translates to the industry is much more complicated. I think we've already seen AI's value creation so of there's the whole, like, the famous, like, oh, 300,000,000,000 problem or 200,000,000,000 problem now, 600,000,000,000 problem, I'm sure.
+
+So Quiz is gonna put out like a $1,000,000,000,000 problem, right? Soon enough, but like, like, there is some like reality in that, of course, but you know, ignores that like infrastructure spend today is accounting for five years of revenue, not like one, and the revenue looks like this, not like flat line. But I think the main thing is that AI is already generating more value than the spend, it's that the value capture is broken. Right? Like, I legitimately believe OpenAI is not even capturing 10% of the value they've created in the world already, just by usage of chat.
+
+Right? And I think the same applies to, you know, Anthropic and Cursor and whoever else you're looking at. Think the value capture is really broken. Even internally, I think what we've been able to do with four devs in terms of automation, our spend on Gemini API is absurdly low, and yet we go through every single permit and regulatory filing around every single data center with AI. And it's like and we we take satellite photos of every data center, and we, like, we're able to label our data set and then recognize what generators people are using, what, like cooling towers and the construction progress and substation.
+
+All this stuff is automated, and it's only possible because of Gen AI, and we do it with very few developers, and then the value capture that I'm able to generate by selling this data, by consulting with it is so high, but the company is making it. It's like they get nothing out of it. I think there's a value capture challenge here that far out exceeds the sort of creation. And as you get models like GPT-five or open source models continuing to drive it down, it's like the value capture is just harder and harder and harder for these companies because they're making, you know, 50% gross margin on inference if they're, you know or or less in many cases. In so many words, you're saying we're getting commoditized, and and therefore you can't capture the value, and thus you should temper your expectations of how much how much you can spend GPUs?
+
+Well, no. I think I think you can I think there's still ways to, like, inflect hugely on value capture? Right? I mentioned the ads are a huge value capture inflection. To happen before before we see massive increase.
+
+No. I think I think the other thing is, like, there's a lot of capital that's not been spent. Right? Like, the hyperscalers still can grow CapEx 30% next year, right, from what they're doing this year. In addition, companies like CoreWeave and Oracle, because they're tapping capital markets, can raise way more than 20 to 30% CapEx, and then you go down the list further and it's like, oh, the largest infrastructure funds in the world, like Brookfield and Blackstone, well actually they're turning all of their eyes to investing even more into infrastructure, AI infra, and then you're like, the sovereign wealth funds of the world, like the G42s, or you know, the Norway one or GIC in Singapore.
+
+Like, these people have barely started touching AI, and so I think there's a whole lot more CapEx that can come without it being necessarily, like, economically motivated day one. I'm more so saying, like, economically motivated CapEx can only grow, like, so much, but there's so much other, like like like, where it's not clear from you know, if you have a spreadsheet, you know, and you're basing it on real business that you should actually spend this much. But people will because they believe. I believe. I think you believe.
+
+Like, infra you know, people believe that this will be you'll get profit out of it, but there's no, like, 100% certain, like, you know, way to argue it. Yeah. How's Threatened, if at all, is NVIDIA by by custom silicon? I think that's the biggest thing, right, is when we look at orders from Google and from Amazon, right, especially, and and Meta. Their custom silicon is not not Microsoft.
+
+Their custom silicon kinda sucks. But the other three, they're really upping their orders massively over the last year. You know, Amazon is making millions of Trainium. Google's making millions of TPUs. TPUs clearly are, like, 100% utilized.
+
+Right? Yeah. Tranium's not there, but I think Amazon will figure out how to do that, and Anthropic will. So so I think I think that's the biggest threat to NVIDIA is that people figure out how to use custom silicon more broadly. And this sort of becomes the sort of, like, if AI is concentrated, then custom silicon will do better.
+
+And that's not even talking about, like, OpenAI's silicon team and stuff. Right? Like, if AI is really concentrated, then they'll do better, custom silicon. But if it gets dispersed broadly because there's all these open source models from China, and there's all these open source software libraries from NVIDIA in China, it makes the deployment costs rock bottom, then potentially Hear me out here. If Google's TPU is able to compete with NVIDIA, in theory, it could do it on the open market.
+
+NVIDIA is worth more than Google these days. Shouldn't Google start selling their chips to everyone? I mean, in theory, they should be able to achieve a higher market cap. I I absolutely think so. I think Google's even discussing it internally.
+
+I think it would require a big reorg of culture and a big reorg of how Google Cloud works and how the TPU team works and how the Jack software team and XLA software teams work. I totally think they could. It would just take them shaking themselves pretty hard to be able to do it. Yeah. But I I I totally think Google should sell TPUs externally, not just renting, but, like, physically.
+
+It's kind of funny if a side hobby in theory has a higher company value potential as you move business, especially as you think about the degradation of search since the core business. I mean Yeah. I think but I think, like, if you were to ask, like, Sergei. Right? Like, hey.
+
+Do you think selling chips and and racks is more valuable or cloud or or Gemini? He'd be like, no. No. No. No.
+
+Gemini is gonna be worth way, way, way more. It's just not yet today. So I think like today, you say NVIDIA is the most again, it's like a whole concentration thing. Right? If the world is super concentrated in terms of customers, then NVIDIA will not be the most valuable company in the world.
+
+But if it gets dispersed more and more, which arguably we're starting to see with a lot of these open source models getting better and better and better, and with the ease of deploying them getting better, then you would see I think you could argue NVIDIA will remain the most valuable company in the world for a long period of time. Historically, no pun intended, software has eaten the world in most markets. Mean, if you look at early networking days, Cisco was the most valuable company on the planet for a while. It's no longer. The guys that built services on top like Google or Amazon or Meta eventually eclipsed.
+
+Which is why NVIDIA is making all these software libraries, right? And they're trying to commoditize inference. Right? You guys don't, I think, even have an inference API provider investment, do you? Well, we have all kinds of model providers.
+
+Model providers. I'm talking about a pure API provider investment, I think. Right? Is that correct? I think I talked to one of the team members, maybe maybe Rajko or someone about, like, why you guys don't didn't invest in, like, you know, like a together or, like, a fireworks.
+
+And sort of the argument was, like, well, we think just serving models alone without making them will sort of be commoditized. Yeah. Right? We have some in the stable diffusion ecosystem. Like, with, like, a FOUL FOUL.
+
+Yeah. Decay to Yeah. It's a little bit different dynamics there, I think. They they tend to be make much more compound models than the the LM folks. Think Yeah.
+
+Yeah. Different. But but, like, you guys don't have one of these, like, know, base 10 or any of these, like, sort of, like, API investments because you think this is from someone on the infra team that you guys think it'll get commoditized because of software and video is making, because VLM and SD LAN, which is like open source software coming out of Berkeley and now sort of has their own environments now and supported by many. This being commoditized means that API providers aren't necessarily worth a ton, right, is sort of your argument maybe. I think that's relevant to this whole thing, which is, you know, why?
+
+Right? Like, why would you do this? Shifting gears, what about the silicon startups? What's your take on those? I mean, there's a ton of capital flowing into that, right?
+
+We've seen, not numbers, but probably billions being invested in chip startups? Yeah, for sure, for sure. I mean, whether you're looking at companies like I think it's pretty impressive that a few companies like Etched and Rivos and a number of other companies, Maddox and others, have gotten the amount of funding they've had without even launching a chip. In the past, yes, silicon companies would make money or raise money, but they would at least launch a chip before they get a big round. But Etched and Rivos have raised a lot of money without ever launching a chip publicly, which I think is I mean, it speaks to well, yes, silicon is super capital intensive if you're building a chip, especially an accelerator, which has so many moving pieces.
+
+And there's there's, like, there's, like, 10 different AI accelerator companies out there, right, like, are newish in the last few years. I think there's a lot more. Yeah. That that are like yeah. Yeah.
+
+Yeah. That's fair. And then and then and then there's the old guard, which continues to raise money. Yeah. Right?
+
+Like, Grok and Ceribris and Mhmm. And Samanova and and Tensor and so on and so forth. Right? Like or Graphcore getting bought out by SoftBank, and SoftBank dumping money into this effort as well. Right?
+
+There's there's a lot of capital being invested to disper dispel sort of NVIDIA's top dollar or top position, But it becomes challenging. Right? It's like, how do you beat NVIDIA? Right? Like, the hyperscalers, I think, are, like, kind of lucky in that they can they can do mostly the same thing as NVIDIA.
+
+Right? They're they're captive customer, which is themselves. Right? Right. It's a huge asset.
+
+And it's they can they can just win on supply chain. Right? Like, I'm using cheaper providers. So it's a margin compression exercise, essentially. Yeah.
+
+Yeah. And maybe maybe for certain workloads, like meta for recommendation systems, they'll have a better you know, they can specialize more. But for the most part, it's like, no. We're we're targeting the same workloads. We can just simplify supply chain or in house a lot of it and compress margin, and it'll be fine.
+
+But in the case of these other companies, it's like, well, they don't have a captive customer. So now you have to contend with, well, I'm using the same ecosystem. And either I can use some custom silicon provider who's gonna take a margin anyways on top, and that's gonna compress my like, what I can sell for. Or I can try and in house everything, but then it's like, this is really hard, right? Like, I'm gonna do all the software design.
+
+I'm gonna do all the silicon design. I'm gonna build all this different IP. I'm going to manage the supply chain on chips, racks, on everything, right? Ends up being a huge effort in terms of team size. All in the end, hey, I make a 75% gross margin as NVIDIA.
+
+AMD sells their GPUs for 50% gross margin, and they have a hard time out engineering NVIDIA, and they're great at engineering. They're they but yet they still take more silicon area, more memory to achieve the same performance, and they have to sell for less, so their margin gets compressed. That makes some sense. Look, the I think, historically, if you look at it, typically, new entrants in markets didn't win by marginally improving on something existing. That happens sometimes, but more likely, they jumped on some kind of disruptive technology leap, where it's like we have a different approach, we have different technology.
+
+Is that possible here? Mean, to some degree, this over simplifying a little bit, but I think part of the reason why the transformer model won was because it runs so incredibly great on GPUs. Right? Like, a, recurrent neural network is similarly performing, it looks like, but it it runs terribly on a on a GPU. So so did we sort of pick the model for an architecture, and now it's it's hard to come up with an architecture that, you know, really Well, it's it's hardware, software co design.
+
+Right? Like, there's, like, there's all this hype about neuromorphic computing. Right? Like, theoretically, it's amazing and super efficient. It's like, okay.
+
+Great. Like, there's no ecosystem of hardware. There's no ecosystem of software. It would take, like, you know, tens of thousands of people who are the best AI today focusing on that to even prove out if it's worthwhile or not, right, on a hardware side, on a software side, on a model side. And so, like, you look at, like, Grox or Rebis, SambaNova, they all, like, sort of over indexed to the models that were leading at the time when they designed their chips.
+
+And so they made certain trade offs. Right? They put a lot more memory on chip. And and NVIDIA was like, well, we're not gonna do that. A lot faster, at least.
+
+Right? Well, more like like, if you compare the amount of memory of SRAM on NVIDIA's chips, it's much, much lower Yes. Correct. Than SRAM instead of DRAM. But Right.
+
+Then they usually have less DRAM, so there's a trade off there as well. Right. There's less DRAM. There's more SRAM. And because there's more SRAM on the chip, you have to have less compute on the chip, and so they ended up losing.
+
+Right? Because the model sizes got too big and all this. Right? And so you have this super weird dynamic where they bet on something that was actually better. Have no doubt that Cerebras would run certain types of models better than NVIDIA or Grok or, hey, Dojo.
+
+Dojo runs certain Tesla's Dojo would run certain types of models way better than Nvidia's chips, because they're optimized to that. But then it's like, oh, well, actually, even in vision tasks, he's vision transformers now. So it's like, cool. Because model sizes grew, and all these things. So it ends up being a catch 22 in that you optimize for something.
+
+And so now, today, you have this new age of AI accelerator companies that are like, okay, we're gonna optimize for transformers. But the time they started designing, they're like, okay, transformers are dense models that are this big. What's the best know, the hidden dimension is eight k, and your batch sizes are this big, and your sequence lengths are this big, so let's just make a super large systolic array so you can, you know, create the maximum efficiency, and that turns out, oh, look at DeepSeek or, you know, go look at what the labs are doing. Actually, their their shapes are much smaller. Actually, you need to do a bunch of small matrix multiplies, not massive, massive, massive, you know, singular matrix multiplies per layer.
+
+And then it ends up, you know, oh, well, that chip you're designing for that is actually not super effective for Yeah. That. And And so the software is evolving constantly because of what because of what works best on NVIDIA, and you see that with, you know, whether it be what DeepSeek's doing or Alibaba's doing or what the labs are doing internally. And you even see this, like, for Google. Right?
+
+Like, their open source Gemma models make different decisions because the shapes of a TPU are different than a GPU. And those the GPU and the TPU are actually not that far apart. Right? Like, would say, yes, they're very different, but, like, Blackwell and TPUs are are very, very they're converging on similar designs actually. Whereas, like, to beat NVIDIA, you can't just have the supply chain, you know, win.
+
+Right? You don't have this captive customer. So now you need to do something, you know, that will give you five x advantage, right, in hardware efficiency for a certain type of workload, and then pray the workload doesn't shift. Right? Because NVIDIA is also optimizing their architecture generation.
+
+They've added a lot of stuff to make their model their chips way better for the existing models. But it's like they're taking, you know, large steps every year, every two years towards something, whereas you have to, like, go way over there in left field and hope that models stay over there. Right? Because you have to win by five x because NVIDIA is gonna have supply chain efficiency over you. They're gonna have time to market over you in terms of, like, a new process node or new memory or, you know, whatever whatever technology.
+
+Right? Even AMD. Right? They got to two nanometer before NVIDIA. They had higher density HBM.
+
+They used three d stacking. All these things on supply chain that should be better than NVIDIA, and yet they still lose. There's still the software angle. Right? NVIDIA is fantastic.
+
+Yeah. And and then there's software as well. Right? But it's like NVIDIA's gonna have better networking than you. They're gonna have better HBM.
+
+They're gonna have better process node. They're gonna come to market faster. They're be able to ramp faster. They're gonna have better negotiations with whether it's TSMC or SK Hynix and the memory and silicon side or all the rack people or, like, copper cables, everything. They're gonna have better cost efficiency, so you have to be, like, 5x better.
+
+But but to be fair, if if somebody had a viable competitor, which would even be marginally cost competitive, my guess is many of the big consumers of GPUs would immediately shift some revenue there just to have a number two. Right? Just to just to Hold on. That's that's AMD today. Right?
+
+And Microsoft stopped. Yeah. I mean, like, the the There's still pretty limited traction, though. Right? Sure.
+
+But Meta continues to buy from them, and Microsoft did buy a bunch, and then they stopped because it's like, well, yes, they're you know, AMD is giving you all these advantages, but ends up still not being better on a performance per watt basis, and they have a way bigger software team. They're somewhat competitive on, like, all these dynamics that I mentioned. Right? So you can't just, like, do the same thing as NVIDIA. You really and and do it better, right, or try and execute better like AMD.
+
+Like, you have to really leap forward in some other way. But that's the the design cycle takes so long that models will shift. Right? Because they're like, oh, what's the next generation TPU and GPU look like? Okay.
+
+Let's optimize for that. And the research path is, you know, like, great. Like, yes, neuromorphic computing could be the most optimal thing for us to do, but no one's working on that because you have to advance in the tech tree you've chosen. Right? If you restart the tech tree, you're gonna be like, well, this sucks.
+
+And so, like, if it branches this way and you're over here, you're screwed because you have to be five x kind of There's a mode. Because the supply chain stuff means that five x actually turns into a two and a half x, and then NVIDIA can compress their margin a little bit if you're actually competitive. And then that two and a half x becomes like a 50% better. And then yeah. So it's like it ends up being way too difficult to and the software stuff.
+
+Right? Everything, like, takes your five x and makes it like, oh, you're actually only 50% better. And defense supply chain for sure. Yeah. Defense supply chain.
+
+And then, like, they get they get that. Right? Like so it's like and and Lutnick himself said we had to do the this for rare earth minerals. I was like, interesting. China there's, like, provinces in China that have, like, rules that say the h 20 is not efficient enough to be deployed, which is, like, super bizarre because it's clearly the best AI chip China has.
+
+Huawei is still a little bit behind. Well, what's interesting is that, you know, efficiency is just not is is so much less of an issue in China than here because they just have the power infrastructure to be able to support. So even if they're running less powerful chips, you would imagine that it doesn't really matter because China has just such an infinite supply supply of power that they'd sort of be okay with it. So it's interesting. Which is it's a big challenge in America.
+
+Right? There have been companies that were like, wouldn't Jensen keeps saying he couldn't give away H20 in America for free, but I've literally heard companies now say, Yeah, no, I I wouldn't because I only have this much power. How am I going you know, in data centers ready to go over the next year? If I bought an h 20, I'd literally have less compute capacity, and then I'd lose. Right?
+
+Even if it was free. Like, it doesn't make sense. Whereas China doesn't care. They can build these things. They have the muscle.
+
+I'm I'm curious how this all shakes out. You know, China's posturing really hard. They even, like, put out something that was like, we're investigating to see if there's backdoors in the h 20. It's like, there's no backdoor in the h 20. Like, chill.
+
+You you know, it's like, you know, GPU GPUs are usually, like, firewalled from the public Internet anyways. Like, you you step through stuff before you get to the GPU clusters. So, like, a back wall backdoor wouldn't even matter. I don't know. I think I think it'll be it'll be interesting to see because China can definitely deploy way, way, way more power to AI the moment they decide to.
+
+But there's these, like, there's, like, competing interests. Right? Like Because they want Huawei to be better than NVIDIA. Yeah. And then this is how NVIDIA argued to the administration.
+
+They're like, if we don't do this actually, I think it's like a very, like, powerful argument that, like for example, within Triton, which is a common ML library. Anyway, ByteDance has open sourced some stuff that plugs into this that is super awesome, and there's all these other libraries. It's not just models that China open sources. It's software for NVIDIA that Chinese companies open source. In a sense, like, by NVIDIA selling GPUs is NVIDIA's argument again, like, was like, they were able to, you know, stop Huawei from building up a software ecosystem, and the Western ecosystem is better.
+
+But then on the flip side, it's like, again, if you believe the models deliver more economic value to society than the hardware, which which I actually think they do, it's just there's a value capture problem today, then you're giving China way more by giving them h twenties and soon a version of Blackwell that's cut down, like like Trump said, right, versus versus, you know, selling them the chips. Right? The economic value derived from selling them the chips is not as large as, you know, being able to somehow sell them AI services. So is is China gatekeeping power for AI? I don't think so.
+
+I think I think, again, like, there's a lot of what we see is that even with h 20 being sold to China into China and and and future versions of the chip, the h 20 e and other chips, we still see, like, Chinese companies like Alibaba renting GPUs outside of China because the GPUs they can get outside of China are just so much better on a dollar spend per performance basis. Renting them or even going through sort of like a Singaporean company that is effectively a Chinese company and building data centers and putting chips in them. So it's like I don't think China's limiting the power per se. It's that it's you know, you can only if you can spend like, Chinese companies are growing their CapEx way more than US companies on a percentage basis next year. The absolute dollar number is you know, obviously, The US companies are spending more still on AI.
+
+The percentage basis, Chinese companies are growing more next year, and you you still have the problem of, well, dollars spent to AI output in tokens or in whatever is gonna be lower because these chips are worse. So power is not the gating factor. It's always capital. Right? At least today.
+
+Right? Now China can spend a lot more capital if they wanted to. They're subsidizing the semiconductor industry to the tune of, like, 150, $200,000,000,000 a year through SOEs, through CapEx that's not generating revenue, etcetera. So it's not like they couldn't do this to the AI ecosystem, right, given, you know, Meta's CapEx is, like, 60,000,000,000. Right?
+
+And Google's CapEx is, 80,000,000,000. Right? Like, they could totally spend way more than that on a single effort, they just haven't decided to. And I just think for The US, our build outs are constrained by power. Google has a ton of TPUs sitting, waiting for data centers to be powered and ready, as does Meta with GPUs.
+
+We posted about how Meta is now building these effectively tents. Is this to some degree also coupled to their unwillingness to sell them to a broader ecosystem? I mean, they want to be confined in their own data centers, and they didn't ramp data center build out for their own hyper scale use cases quickly enough, right, then yes, that constrains them, right? If they were on the open market, will we still be constrained? Yeah, yeah, for sure.
+
+Because, like, companies like CoreWeave you know, why is CoreWeave valuable? It's really because they build infrastructure really fast. Right? Yeah. And and their software is nice, I think, but, like, a lot of their customers are bare metal.
+
+Right? Replace the GPUs whenever they're broken and network They they grew more aggressively, and I I think And no. Don't go anywhere. Jensen likes them as well, to be fair. Yeah.
+
+They'll go yeah. Yeah. That's very important as well, but they'll, like, go because it's it it it it unconcentrates the ecosystem, which is better for NVIDIA. Right? Have we worked at Intel?
+
+I know exactly what Chip was going through his mind. Yeah. I think what's really important is that like, CoreWeave doesn't care, right? They're like, Oh, crypto data center, I will convert it to AI data center, right? They bought a company for like $10,000,000,000 that's doing crypto mining, which is worth $2,000,000,000 a couple years ago, and it's not because their Bitcoin mining business is growing, it's because they have power data centers.
+
+Anywhere and everywhere, people are trying to build power data centers, and companies like CoreWeave and Oracle are moving to the actually, today, Google just didn't bought 8% of a crypto mining company called TeraWolf. Not because they're getting into crypto No. Because they need the data. Want the power. They need the power.
+
+Right? And it's like all the hyperscalers have, like, said, screw off to my sustainability pledges because they need power as fast as possible. Yeah. Right? They're, you know, they're they're doing things that are not that they take a little bit longer to move the ship, but even if you didn't do it in your own self built data centers, there's still a lot of challenges in the open market.
+
+There's a deficit. And that's that's constraining American chip build outs heavily. Yes. Others could maybe do it a little bit faster like CoreWeave or or others. Right?
+
+Oracle's got an open mind as well, but it's still constraining US build outs heavily. Even even though the capital's been spent, the chips are 60 to 80% of the cost of the cluster depending on what chips you're getting. So it's like they've already bought the chips. They just can't put them anywhere because the data centers aren't ready. Supplies to Google, applies to Microsoft, applies to Meta, applies to a lot of folks.
+
+I mean, it's really hard to build power infrastructure in The US. So Power, grid interconnections, transmission, substations, all of this stuff. Electrical contractors, electricians in Texas, if you're willing to be a travel electrician, it's like oil pay. It used to be that if you're physically adept, you could go make $100 in West Texas, but who the fuck wants to do that? Now it's like, well, you could go 200 miles away from Dallas in what's still a reasonable town and build a data center and work on the wiring within the data center and all this other stuff, the transmission stuff, and your pay is up like 2x now versus what it was just a few years ago.
+
+This labor problem's a challenge too. I think in China, they don't have any of these problems, but they just haven't spent the capital yet. But capital is an issue as well because of the scale of what's being spent. Right? Like like, NVIDIA's revenue this year is gonna be, like, over 200,000,000,000, and next year expects over 300,000,000,000, plus Google's gonna spend, like, $50,000,000,000 on TPU data centers.
+
+Right? And it's like, and Amazon's gonna spend tons and tons on Tranium data centers. It's like the scale of dollars is is quickly growing to nation state level stuff. And and what's more important is being able to decide to spend the dollars and what's cost effective. And so to some extent, China's still constrained by that, but they can smuggle chips in.
+
+They can build data centers outside of China. They can rent data centers outside of China and be more and have the most cost effective, you know, Blackwell chips or whatever. Right? ByteDance is, you know, either the biggest or the second biggest customer of Google Cloud for a reason. Right?
+
+And they're getting, you know, over you know, they're getting many, many Blackwell from them. Right? And the same with Oracle and the same with Microsoft and all these other companies are renting tons of chips to China anyways because it's more cost effective to do that than build it yourself. So it's not like China has this mentality where we only have to well, the government does, but the infrastructure companies don't, like Alibaba, Tencent, ByteDance, etcetera. So what's the endgame for data centers?
+
+I mean, like, we we need more power. We need more cooling. Will the m p every all data systems will be next to a nuclear reactor or lots of solar, you know, next to deep level, like deep sea water that we use for cooling or something like that? What's the think that cooling is like, the physical cooling of a data center are like you know, there's this whole narrative about, oh, It uses so much power, and it's like, not really. You know, farming alfalfa uses, like, 100x the water of of AI data centers.
+
+Even by the end of the decade, it'll be the same, and it's, alfalfa's, like, worth very little. So it's, anyway there's, like, it's, like, cooling is, like, not that you know, people have, like, experimented with, like, undersea data centers to reduce the cooling cost, but it's That doesn't make sense. It's like 10% savings, but then, like It's hard to get the water out of the ocean then then put their data center into the ocean. It's like if you wanna service it, like, yeah, you're screwed. Right?
+
+So the same with power. It's like we talk a lot about, like, the power is not actually that expensive. It's just hard to build. Right? I have to get to the right place.
+
+And I have get to the right space and convert it down to the voltages and and all the stuff that that chips need. So it's less the magnitude of power and more where it is how it moves. Well, the magnitude too. Right? Like, it's gonna be In terms of total worldwide energy consumption, AI data centers is still the full It's like like nothing.
+
+Yeah. It's a fraction of a percent. It's not Yeah. Even by the end of the decade, you know, The US will be, like, 10% of our Power BI data centers, which is still like Of electricity. Of our electricity.
+
+And in terms of energy, that's even a smaller fraction. Right? Oh, yeah. Yeah. Because you think about But shifting to electric vehicles also, you can probably make a bigger swing than than, you know, with all the AI data centers we can build in the first quarter.
+
+Like, it's like in Europe, like, that number's not moving up that fast, and all these other countries I think we need to build a lot more power, but it's not some crazy, crazy amount. It's just doing it properly is the hard Yeah. I agree. And again, the cost of power, you go look at these deals people are signing, they're still signing. Even though the price has skyrocketed from a few cents a kilowatt hour for these massive, massive purchases to 10, It's still you know, when you think about the full TCL cluster, you know, the GPU cost and networking, all of this stuff far outstrips the power.
+
+Yeah. And same with cooling. But what what percentage is power from like, if you if I do four year amortized GPU data center, what percentage will be power? 80% of the cost of a GPU data center if you're building Blackwell is capital. Yeah.
+
+Right? It's the GPU purchases. It's the networking. It's the it's the physical data center conversion power conversion equipment. All of this stuff is like 80% of the cost.
+
+And then 20% is gonna be your land and your power and your cooling and your cooling towers and your backup power and your generators and all this stuff. It's like nothing, which is why it doesn't matter if you spend, you know, 10% or 50% more on that. Because at the end of the day, the expensive thing right? Like, this is why what Elon did would seem silly. Right?
+
+They spent a lot more money on, you know, generators outside the data center and these mobile chillers to cool the water down for their liquid cooling instead of the more cost effective option because it got the data center up three months faster. So that three months of additional training time is worth way, way, way more on a TCO basis. The performance you got out of the chips and the time to market and all this is way, way faster, and therefore it was the right decision. Even though this part of the data center bloated cost, everything else is still there, and you're still paying for the chips. If they were sitting idle, it's not worth it.
+
+Right? It's by bypassing the grid, bypassing anything to do with interconnect, anything to do with public utilities. Exactly. Exactly. What's your take on Intel?
+
+Where is Intel going? I think the world well, The US needs Intel. National foundry? Think the world needs Intel because Samsung is doing worse than Intel on leading edge process development, in my opinion, based on even on various customers in the industry having done test chips at Intel versus Samsung. They think I think the industry generally agrees that Intel is further along the sort of the two nanometer class process technology than Samsung is, but both are way behind TSMC.
+
+And TSMC is is a monopoly in some extent. The number one question always people ask is, why is TSMC not making more money? Why are they only raising prices, you know, next year, you know, three to 10% depending on what it is? It's like TSMC is a monopoly. Like, they could raise a lot more, but they're they're good Taiwanese people rather than, like, dirty American capitalists.
+
+If TSMC was owned or was managed by Americans, I think most ownership is actually American in terms of stock it's on the New York Stock Exchange and all this. You know, they would have raised prices a lot more. And and so, like, there is this, like, difficult difficult thing to be done that, like, hey. There's one island that controls all leading edge semiconductors and not just all leading edge, like, majority of trailing edge production as well. Yeah.
+
+Something needs to be done. Intel is behind, but not, like, not, like, absurdly so. Right? Like, if something were to happen to Taiwan, Intel would have the most advanced technology in the world. Right?
+
+It's just it's not economic. Can you keep Intel as one company if you want want them to be competitive? I think the process of splitting it would take so much executive time and so much executive effort that you would have been bankrupt by then. Right? And that's the big challenge.
+
+Like, I think Intel should be separate. Right? But to properly split the company and for all the management time that's needed is, like, absurd. And instead, like, what you need is, like, you need Lip Bu Tan, who's the CEO who's CEO of Intel. You know, there's a lot of drama going around about him because he's he's one of the greatest semiconductor investors ever.
+
+Right? He's invested in so many different companies first. You know, he was on the board of, like, SMIC, which is China's TSMC effectively, which is, like, a big, like, drama, or some of the biggest tool companies in China, he's the first investor in them, because it was a multipolar world there, and he's making good investments. But now people are getting mad about that, but it's like, no, he recognizes the companies, he understands the supply chain. He needs to not spend his time on splitting the company because then he never actually fixes the company.
+
+Right? Intel's problem is that, like, it takes them five to six years to go from design to shipping the product, in some cases more. And when they tape out a chip, right, like, you know, you send the design to the fab, the fab brings back the chip, they go through 14 revisions in in some cases. Whereas, like, the rest of the industry goes through, like, one to three, right, revisions, if they're good, of like, send the design in, get the chip back, test it, send the design in, right, for a public launch. And they'll launch a chip in three years.
+
+So but if you look at Intel today, right, they still don't have a competitive entry on the AI side. And they won't. Right? Can you so what does it mean for their offering? I mean, they're still doing great on CPUs.
+
+They don't have a good AI chip product. Is that long term sustainable positioning, right, I mean, as a stand alone chip company? Mean, IBM still makes more money every launch off of mainframes. So it's not like x86 is dead. It's like you don't get the growth rates, but you could totally run this as a very profitable enterprise.
+
+And I think the same with PCs. There's some turmoil. There's some arm entry. There's some AMD competition. They didn't care about most of Well, I think it's a very it can be a very profitable business if it had one third the people or half the people working on it.
+
+And so Lip Bu Tan, to fix Intel, needs to go into both the design company and lay off a shitload of people, but keep all the good people and make sure that they're designing fast and they're launching from design conception to launches, two to three years, not five to six. And and that's on the design side and make that profitable. And then on the fabs, he has to do the same thing. There's all these people, like one of the heads of fab automation at Intel. Yeah.
+
+I explicitly told Lip Bu Tan, because we have a couple ex Intel people who are actually good in the company that worked on the fab side, and we're like, they were like, who's the worst people and friends? It's like, oh, this guy sucks. I explicitly told Lip Bu Tan he'd never talked to the guy because it was like four layers down. The company has like absurd amounts of hierarchy. It's like four layers down.
+
+He he goes to talk to the guy and he's out. Right? It's like like, he figures out, like, who's bad, right, and who's good. And he has to go in, and he's still like, hey. The vast majority of the team at Intel is the one who led the world in production and process technology for twenty years.
+
+Yeah. Right? But there's a lot of, like, built up crap. So he has to go figure this out. Right?
+
+He can't waste his time on, oh, all this, like, structuring to split. Like, I I think it would be better if the company split. I just don't think he can spend the time to do that. And if the design side of the company is, you're not really gonna get into AI, you're not really gonna You have to make some money there, but the fabs, I think, could truly become a competitor. But they're gonna go bankrupt by the time anything can happen, so they have to figure out how to get capital.
+
+So he has to figure out to get capital. He has to figure out how to clean up all the crap, make the yields go up, make the product ship way faster. All of these things are basic I think the goals are completely correct. Just reflecting back on my time there, I think the big challenge is that right now, if you look at Intel, they have essentially software, the chip design, and then there's the core manufacturing part. And they have three very different cultures.
+
+And it's very hard to get everything under one Right? And and so I think that is the big challenge. I think you you should even run the company separately. Right? Like but, like, can't physically separate them entity wise because it's gonna take so long to sever all these things because he doesn't have time.
+
+Right? Like, Intel is literally gonna go bankrupt if they don't have a big cash infusion or they lay off, like, half the company. Right? Which some could argue you need to lay off, like, 30% of the company anyways, but there's a lot of bad things that happen if that happens. Right?
+
+And they need to spend a lot more on building the next generation fab even if they fix the fab, and they don't have money for that. Right? So there's like there's like a lot more more important problems than, like, physically separating the company even though I think long term, yes, the fab has to be separate from the chips design software. Right? Like or chip design part of the company.
+
+Just like that's gonna make each company much more accountable, be able to service their customers better, etcetera. It's just that's gonna take too long, they're gonna go bankrupt by then. Awesome. I but I think I think I hope I hope, I pray, someone does something. Right?
+
+Like, get a big capital infusion. I don't know. The big hyperscalers are, like, muscled into, oh, okay. Wait. If TSMC eventually grows their margin to 75% because of the monopoly, plus they intake all this stuff like co package optics and power delivery and all this, like, all of a sudden, the cost is gonna spike.
+
+So we should actually just throw $5,000,000,000 at Intel each. Right? Screw it. And and that could actually give Intel enough of a lifeline to potentially get to something and maybe be competitive. That's that's the hope.
+
+Can we can we finish by finishing this game that we started when we gave Sam Altman advice? If if Jensen was here, what what advice would would would you have for him? If Jensen was here, you know, I think I think he has a massive, massive balance sheet. Right? Jensen does.
+
+He's he's cash free cash flow is, like, you know, ridiculous. The tax cut, the new Trump tax bill institutes something really incredible, which is that you can depreciate all of the GPU cluster costs in year one, which we put out a note about how the tax implications to Meta are $10,000,000,000 a year. And across each of the major hyperscalers, it's massive. It's like, well, NVIDIA's gonna spend tons and tons of cash, or they're gonna spend tens of billions of dollars of taxes. Why don't you get into the infrastructure game somehow?
+
+Now this is obviously gonna be, like, crazy because, like, now they're buying g p their own GPUs and putting them in data centers and doing stuff, and they're competing with their own customers, but they're already doing that anyways because their customers are trying to make chips. But they should accelerate the data center ecosystem with investments, right? Because really, we think we can have very high degree of accuracy on what they're going to do next year in terms of revenue because it's just the number of data center Watts that are being built. This is harder thing to shift up and down. Now there's a little bit of share difference between how much is TPU versus GPU, but it's like you have to accelerate the infrastructure, and you need to spend all of this capital that you're building.
+
+Okay, do you wanna go the route of doing buybacks and dividends? Great. You're a loser if you do that. You can make more money by reinvesting and building a bigger company that's not just chips into the ecosystem or servers into the ecosystem, but actually controlling the infrastructure end to end somehow. So I think there's something he could do there with this massive war chest.
+
+There's a reason Nvidia has done some buybacks, they've done some dividends and increasing, but the cash on their balance sheet keeps growing, and they're gonna have north of $100,000,000,000 of cash on their balance sheet by the end of this year, I think. So it's like, what are you gonna do with that? I think there's something moving into the infrastructure layer much more that they they could do if he really wants to be the king of the world. Right? Which I think he does.
+
+Sergei and Sundar? I I think I think they should open up the Komodo on TPUs. Start selling them, open up the software, open source a lot more of the XLA software, because there's open XLA and there's XLA, but the vast majority is closed source. Really, really open up the Komodo on that, and be a lot more aggressive. They're still pretty not aggressive on data centers.
+
+They're pretty not aggressive on a lot of elements of the company. The TPU teams next gen designs are pretty not aggressive, partially because a lot of the TPU team has left to go to OpenAI, the best people that I knew. It was actually really annoying. I knew, like, four people or five people, and they all went to OpenAI, and it's like, fuck. Like, now I don't get as much it's met some other people.
+
+Right? But it's like, know, I think they could be a lot more aggressive in many ways across the company. They don't have to be. Right? But they could.
+
+Right. Because AI, you know, like this Chad GPT, take rate, the shift of search queries, the monetizable ones, especially from two to purchasing agents is going to really screw Google long term if they don't, you know, get their act together. I think they've gotten their act together on DeepMind. There's still some inefficiencies, but Sergey works on works within DeepMind a lot, and they're driving hard. They're still a little bit behind.
+
+But like, I think physical infrastructure, TPU, how much money they could make, and how much they could take the wind out of everyone else's sales if they start selling TPUs externally and reorg around building data centers much faster so that they do have the most compute in the world, because they did. But now there's certain companies that are gonna surpass them potentially over the next few years if they don't really get their act together. So I think that's what I would say for them. Yeah. And also, like like, learn how to ship product together.
+
+Zuck. I think I think Zuck you know, it remains to be seen what goes on with superintelligence, but, like, they're trying to move super fast with the data centers. Screw it, we'll build tents instead of physical data centers because we only need these for five years anyways. The superintelligence moves, could say whatever you want, but trying to buy Thinki for 30,000,000,000 or SSI for 30,000,000,000 didn't work out. So then they spent not even that much on hiring, not 30,000,000,000 on hiring all these people.
+
+So I think that he recognizes the urgency with the models, with the infrastructure. So I really think he needs to, you know, if you read his website post about AI, like, I think, you know, he sees the vision, right? There's the wearables, there's integrating AI into that, there's being your AI assistant to do all this purchasing and stuff. I think he sees the vision, but I think he also needs to focus on actually releasing that faster, but also the products that they do outside of their core IP every time they launch something is kind of mid. Know, Right?
+
+Meta Reality Labs is doing well, but I think they should go more explicit. Like, have a ChadGPT competitor, have a Claude like, Claude code competitor. Like, just start releasing way more products because they're really just focused on their individual gardens rather than branching outside of it. Do do you think Apple should have that same sense of urgency? Or if Tim Cook was here, what would you tell him?
+
+The funny thing is some of their best AI people now at Superintelligence, they're building an AI accelerator. They're gonna they have AI models, but they're just way slower. They did mention on the last earnings call they're gonna allocate more capital to this, but it's like, guys, Apple. You guys are gonna lose the boat if you do not spend $5,100,000,000,000 on infrastructure. You don't think the current cereal will cut it?
+
+Think more and more you'll see people great, Apple has this walled garden, but they can only do so much to protect it. IDFA, they shut down data sharing to Meta, but Meta made better models, and now they have way more data and way more power over the user than they ever did before. Kind of it was good that Meta kicked the crutch off of them, Apple did. But the same applies to, like, AI. Like, yes, they have access to the text, and they have access to this.
+
+But, like, I think other people are gonna be able to integrate user data. And agents will be able to integrate all this user data, and they'll start to lose control of what the user experience is as more and more gets disintermediated by AI being the interface rather than touch, rather than touch pad and keyboard. And I don't think they've truly realized what happens when the interface to computing is AI. They market it, but that's gonna shift computing really heavily. They have great hardware, and their hardware teams are working on awesome stuff and form factors.
+
+But, like, I just don't know if they, like, get what is actually gonna happen to the world in the next five years truly well enough, and they're not building fast enough for it. What about Microsoft to that end? Microsoft has the same problem. Think they were super aggressive in '23 and '24, and then they pulled back heavily. Now OpenAI is slipping through their grasps.
+
+There's that whole thing there. They cut back on data center investments heavily. They were gonna be the largest infrastructure company in the world by, like, a factor of two x Yeah. Which would have been you know, you could argue maybe that was, like, too much, and maybe it wouldn't have been economical. But, like, they're losing grasp on OpenAI.
+
+Their internal model efforts are failing spectacularly. Like, they're on LLM arena right now, and they're pretty decent there, but it's like that's just, like, a sycophantic model. Like it's a code name, but, like, whatever. Like, MAI is, like, failing. Azure is losing a lot of share to Oracle and CoreWeave and Google and so on and so forth.
+
+Their internal chip effort is by far the worst of any hyperscaler. Like, they're just, like, miss execute. Like, GitHub how is GitHub not the highest ARR software code model? I mean, they they they only had the best IDE, the best source code repository, the best enterprise Salesforce, the best model company as a relationship, and they were the first to market. Right?
+
+So they had everything going for them. And, like, there's just nothing. Right? It's like like, co GitHub GitHub Copilot is failing. Microsoft Copilot is, like, still crap.
+
+Right? Like Yeah. It's unusable. It's like, what what is go like, you know, what is going on? Like, you needed to shake the crap out of the company.
+
+Like, I think they win a lot because they have the best business to business relationship with so many enterprises. That sounds worse on the on the planet. Yeah. But, like, they end up, like, not having the actual product to sell them, which is, like, really scary. So they need to really work on product.
+
+Yeah. Satya has done great on sales and stuff, but, like yeah. If Elon was here, what what advice would you give him? A lot of people at x AI are mad about the porn models, like porn porn stuff. It's fine.
+
+Like, you're gonna make a ton of money off of this. This is how you accelerate the revenue of that company. But, like, he's he's losing a lot of talent and and axing a lot of good projects, But Elon has a is a magnet to amazing talent and building stuff, so I won't bet against him. But it seems like since he left the administration and focused on stuff again. But I think I don't know.
+
+I think I think he's focused on a lot of things, and I think, like, Robotaxi starting to look good actually again. Like, I haven't ridden one yet, but I have some friends who ridden one. It's, like, looks pretty decent. He could, like, not make these snap decisions, which often are the reason why he's amazing. But, like, some of these snap decisions are hurting him.
+
+Yeah. I'm not sure if I can give Elon that much great advice because think maybe it's just, like, get off Twitter and and focus on, like, the products again, right, more. Yeah. But he is working on that stuff a lot. Yeah.
+
+I think that might be a good place to to wrap. Awesome. It was a great discussion. Dylan, thanks so much for joining us. Thank you for having me.
+
+Thank you. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal, business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

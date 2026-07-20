@@ -1,0 +1,287 @@
+Seeing your business idea come to life is exciting, but it's also incredibly complex. But Shopify can make it simple. They provide all the tools that you need to launch from day one. If you're nervous about building a website, Shopify's templates and AI tools will get you up and running with no coding needed. If you hit a wall in the setup process, Shopify's built in AI assistant, Sidekick, can help you build, troubleshoot, and keep on moving.
+
+And when customers arrive, boom. Shopify checkout means more people actually buy and can checkout with just one click. With Shopify to handle setup and checkout, you have more time to focus on growing your business. That's why Shopify powers millions of businesses worldwide. Household names like Gymshark and Mattel to businesses that are just getting started.
+
+All you need is the idea. Shopify handles the rest. Start your free trial at shopify.com/built. That's shopify.com/built. Shopify.com/built.
+
+Every day, shareholders meet to discuss important matters about the companies you invest in. Now Vanguard is making it easy to have your voice heard in those decisions. Alexa, take me to Vanguard Investor Choice. Got it. Texting you a link where you can set your proxy voting preference for your Vanguard index funds and be heard by the companies you invest in.
+
+Just say, Alexa, take me to Vanguard Investor Choice and make your voice heard. Vanguard Investors own shares of our index funds, which own shares of the companies they invest in. Available for Vanguard index funds that participate in Investor Choice, Vanguard Marketing Corporation distributor. We're supported by Anthropic, the team behind Claude. When I'm prepping for an interview, there's always that moment where I'm trying to turn a pile of research into an actual conversation.
+
+A founder's timeline, early decisions, big inflection points, old interviews, company background, all of it matters. But the real work is figuring out what connects and that's where Claude has been super helpful. It helps me work through the material, organize what I already know and find the thread, the thing that turns research into better questions. Claude is the AI for minds that don't stop at good enough. It's the collaborator that actually understands your entire workflow and thinks with you.
+
+Whether you're debugging code at midnight or strategizing your next business move, Claude extends your thinking to tackle the problems that matter. From research to strategy to the tasks that slow everything down, Claude helps you stay with the work and keep moving. For problems worth solving, get started with Claude at claud dot a I slash h I b t. When I pull up to a gas pump to fill my car, I'm not thinking about chemistry or engineering. I'm thinking about getting in, filling up, and getting on with my day.
+
+And it reminds me a little bit of the founders I talked to on this show because the best ones obsess over things their customers will never see. Tiny details, invisible improvements, relentless iteration, and not because anyone's watching, but because it makes the product better. That's what the mobile brand does. It engineers fuel the same way great founders engineer their products. Mobile Supreme Plus premium gas helps keep engines three times cleaner, which can mean better performance and improved gas mileage.
+
+It's for people who care about what's under the hood even if they never see it. Three times cleaner compared to mobile regular gas in port fuel injected engines. Actual results may vary. Visit mobilefuels.com for details. We were installing this restaurant, and they open.
+
+And within twenty minutes of taking, like, the first few orders, it's like the system is down. Now they've got a line, and they and they were, like, physically writing down the order on a piece of paper and dropping it off in the kitchen and taking the credit card number down on paper and, like, trying to do this manually and realize as part of the experience that, these systems are mission critical and, like, can't break. Welcome to How I Built This, a show about innovators, entrepreneurs, idealists, and the stories behind the movements they built. I'm Guy Raz, and on the show today, how a frustrating way to pay a dinner bill led to the launch of Toast, one of the most popular point of sale services in the country. There are about 700,000 restaurants in The United States.
+
+Big chains, tiny neighborhood cafes, family owned diners, fancy tasting menu places. It's a huge market. And if you could build something that even a fraction of those restaurants needed every day, you'd have a pretty good business. But restaurants are tough customers. Margins are thin, they can't afford downtime, and once they install the software that runs their business, they almost never switch it.
+
+For years, that software was clunky. It was expensive and really hard to update, and it usually lived on the server somewhere inside the restaurant, totally disconnected from the cloud. Most owners hated these systems, but replacing them felt impossible, which is where today's guest, Aman Narengh, saw an opportunity. The idea began with, what else, a frustration. A frustration I am sure you've experienced.
+
+You finished dinner, you're ready to leave, you're waiting for the check, you finally get the server's attention, and then you wait again for your credit card to come back. And that everyday annoyance inspired Aman and his cofounders to build an app that would let people pay for their meals from their phones. But it didn't work. This was back in 2012, so the technology was a bit clunkier. But that failure uncovered a much bigger opportunity.
+
+The real problem wasn't just paying the bill. It was the technology running the entire restaurant. Inventory, payroll, scheduling, kitchen operations, online ordering, loyalty programs, none of it worked very well. So Aman and his cofounders made a bold decision. Instead of building one feature, they'd replace the entire operating system for restaurants.
+
+They called it Toast. And even after the technology started working, they still had to convince skeptical restaurant owners, raise money from investors who wanted nothing to do with restaurants, compete with companies that had been around for decades, and survive COVID. But today, Toast supports nearly one in five restaurants in America and generates more than $2,000,000,000 in annual revenue. As for Aman Narang, he actually grew up in Nepal and in India and moved to The United States with his family when he was a teenager. In 2006, after graduating from MIT with a master's degree in computer science, he started working in Boston at a tech company called Endeca.
+
+Yeah. So Endeca was primarily ecommerce, and ecommerce search was their core business. So, back in the day, like, you know, twenty five years ago, if you went and searched, you know, Home Depot or Nike or Disney Store or J. Crew or pick your brand, and you wanted to say, like, show me all of the washers and dryers and this brand and this price range that are available now. And so that was the beginnings.
+
+And then they went in and started to build merchandising tools. Mhmm. When I joined Endeca in 2006, they'd already had a lot of success in ecommerce. And Steve Papa, who was the founder of Endeca, he wanted to build essentially a business intelligence platform because they had a lot of the underlying technology to be able to do that. And so myself and Steve Fredette, who is my cofounder Steve and John are my cofounders at at at Toast.
+
+Steve Fredette and I joined a team out of college called special operations. And you didn't know Steve at at he also went to MIT. Did you know him from MIT, or did you meet him there at I met him at Endeca. Yeah. I met him on my first day at Endeca, and we were building this, you know, business intelligence the beginnings of a business intelligence platform.
+
+And reason that's important is it was we're trying to break new ground with this technology. And so it's almost like a little startup, mini startup within Endeca. And so it was it was you start you you got to experience all the failures, actually, the first couple years of, like, trying to get to product market fit and had very little success really the first couple years and kinda saw the grind of that together. So alright. So you're working there.
+
+And and I guess, while I mean, while you're there, because you joined in 2006, so right around the time, you know, right before the iPhone comes out Right. Which I think has a huge impact on a good impact, positive impact on the business. And and you are involved in sort of building out the mobile side of their product. Yeah. We so when the iPhone came out, we you know, like, I'm a big believer that you've got these new tech you know, any any anytime you got tech shift like that, you gotta try to lean in, and there's so much tailwind.
+
+And so we almost quit to go build our own business at the time. And Even Steve. Steve and I almost quit. We it started off with, like, we built these ecommerce apps for some local brands like shoebuy.com, which is a Boston brand, and a bunch of other companies who wanted to go mobile. And so we built out their ecommerce mobile app.
+
+And then we're, like, wondering whether we could build a business just scaling that. Like, there's a bunch of mobile web companies at the time that could you could power your mobile experience. You were doing this all while you were still at Indica? All on the side. Yep.
+
+Yep. And, and we're fortunate that Steve Papa supported all this. He was okay with it, I think. Yeah. And then Steve Papa we we actually, I remember sitting down in the office with Steve and Steve and saying, we're gonna quit.
+
+We're gonna go build a business with the iPhone. And they said, what are you gonna build? I was like, we're not sure. We have a couple ideas we're exploring. And then he said, why don't you build this at Andeca?
+
+Because we've got, you know, 50% or whatever of the top 100 retailers in the world using our platform, and they all wanna go mobile. And so you could build Endeca's mobile business. And, we did that. And that was the first time I'd say we had real success because all these retailers wanted to go mobile. And, and in fact, we were, like, limited not on not on demand, but even supply, just getting all these apps stood up.
+
+And and, that business ended up being a meaningful part of the revenue by the time, Oracle bought Endeca, which was in, I think, end of twenty eleven. 2011, Oracle acquires Endeca for about a billion dollars. Mhmm. And you guys have an opportunity, presumably, to stay there. But but I guess this was sort of a a sign that maybe maybe you should you should go off on your own?
+
+Yeah. Steve, actually, to his credit, was like, hey. Like, now's the time with the acquisitions. It's good moment to quit. And without even telling me, basically, just quit.
+
+He's like, okay. Well, I'm quitting. I don't know if you're gonna quit, but I'm definitely quitting to go do this. And then we were talking to John was one of the best engineers. John Graham.
+
+John Graham. Yep. Mhmm. And so it's interesting that, like, it's me and Steve initially, and we're trying to convince John to join. He wasn't sure.
+
+But then Steve quit and then John quit, but I didn't quit. Because I was like, I'm not sure what we're gonna work out. You didn't know you didn't have a a you sort of had rough ideas, but you didn't exactly know what it was gonna be. You were just gonna kinda get together and start to Yeah. Yeah.
+
+We were exploring, again, a bunch of ideas. Yeah. Right? Everything from we had seen, like there's some local companies. For example, we've seen there's a company called LevelUp, I think, that was doing some food ordering locally.
+
+We had seen what Groupon had done. Obviously, we'd seen what Square had done. So we've seen a bunch of we we had some ideas that in in, like, local space, there were some interesting opportunities. But we were looking at all sorts of ideas, frankly. Like, there's a, you know, bunch of things we explored.
+
+And did you I mean, you guys were you know, you're relatively young. You'd been there for five years. But presumably, you got a little bit of money when the company was acquired. Yeah. We I mean, we got enough money to, like, put a down payment on the house and just get you know, have the like, not have to worry about a salary for a couple years kinda thing.
+
+So you decide to to leave. And I guess in December 2011, so not not too long after the acquisition, you guys incorporated to what would become Toast. I guess you it was initially called, like, OptiSystem, but you called it Toast. Uh-huh. You changed the name in in 2012.
+
+But before we get there Yep. Tell me about about what you start to work on. I mean, I you don't have a you sort of have rough ideas, but you don't know exactly what it's gonna be. And I read that you you spent about three, four months trying to figure out what it was going to be. So tell me a little bit about what you were doing during that three month period before you came up with the first idea.
+
+We were doing more of what we were doing, frankly, which is we were exploring what are different ideas that we could credibly, you know, go after. And we'd spend time just, like, you know, discussing and debating. And we were still at a deck at Oracle. Right? So it wasn't like we had to go there wasn't a ton of pressure to be like, oh, we need to be like when when you haven't quit, it's a little different, right, when it comes to the pressure.
+
+And then once Steve quit, it became a lot more real. And so there was this bar downstairs from where we used to to work. This is in Kendall Square in the Boston area. It was called Firebrand Saints, and they had this big patio outside right on Main Street. Mhmm.
+
+And, you know, like, on a on a busy night, you had a lot of lot of folks after work there. And and, like, you know, it take you ten plus minutes to get your check. Right. And when you just wanna leave, and the restaurant also wants to turn that table because if people actually want that table. You have to get the attention of the server, and you're, like, waiting.
+
+And yeah. Everyone's been in that situation. Okay. So you guys are in that situation. And so we just looked at each other and said, like, hey.
+
+Like, should we just build this? Like, should we build an app where you could use your phone to pay? And we didn't to be honest, in fairness, we didn't know a lot about the restaurant space at the time, short of just being diners and going out. But, I mean, it's like the way to think about it is, like, imagine today if in an Uber, we went back to a credit card machine, and that's how you have to pay. Right.
+
+People would be like, what is this? Right? And I think that option exists even today in restaurants, which we can discuss. But so we started to build this, which is like, okay. Like, what would it take?
+
+We convinced Gary Gary Stark who, you know, who's in the middle of Gary was the who's the owner of the restaurant, Firebrand Saints. That's right. Yeah. We joke now that I think he only let us build it because he felt he thought we were a bunch of nerds on you know, next to MIT's campus, and and he felt bad for us. But you pit you basically said to him, hey.
+
+If we build this way, this app to make it easy to pay, would you be up for trying it? Yes. We yeah. So we convinced him to give us a shot. Okay.
+
+It wasn't easy, but we did. And and then we went about saying, okay. Like, how would we go about building Yeah. And then we debated. You could have built it in mobile web, but we we felt like the right way to build it was to build an app that people could download and then put a card on file and pay.
+
+And so the three of you guys were actually writing the code, building this app just to Initially, it was Steve and John on this app. I I contribute I started to build once we pivoted to the point of sale. Okay. So you start with this app. And then how long does it take for this app to be built?
+
+Couple months? Yeah. A couple months. And what what does it do? So imagine, like, you know, you go to the table, server comes up, takes your order.
+
+And so the point of sale system is the it has the data on what's on your check. What have you ordered or the taxes, adding tip. Right? All that data sits in the point of sale. That's why they can print the receipt today that you can sign.
+
+Yep. And so we had to integrate with that. Right? And so the app basically would you'd you'd identify the table. You would pull that data.
+
+And then with your card on file, you would pay an adjusted tip. But it was largely the app experience and the integration into the system of record that ran the restaurant. Okay. So you have the app, and and it launches at you launch it with this restaurant. And Yeah.
+
+I mean, how'd it work? Well, I remember we had a launch party with our friends and family, and we invited them all to Firebrand Saints and convinced them to download the app and try it. And I think some people got through it, but it was it was actually quite buggy, I remember, because the infrastructure we were building on top of wasn't as reliable. It wasn't built for for cloud. Right?
+
+These systems are built for in store interactions. And and so beyond that first day when we had that launch party, when we got maybe, you know, 50 or so people paying, we were never able to figure out how to get users to pay with any sort of velocity after that first day. And we would like, I remember we'd go out Steve went out there a bunch of times and spent time to try to, like, get people to understand how this works and to At the restaurant or the restaurant. Yeah. Yeah.
+
+But it just it never really took off. And I think part of it was the experience was just not consumer grade, if I'm if I'm honest. Okay. Just to kinda set this up for a moment, because this is my understanding of it, and and maybe you can fill in the gaps. Mhmm.
+
+Because you you alluded to it a couple months ago, which is at this is 2012. Right? At the time, most restaurants had a point of sale system that was all it sort of it was hardwired into the restaurant. I think it was, like, Micros and NCR, the two companies that kinda dominated this at the time. And and, basically, what it meant was that you had a PC and you had, like, literally servers in the restaurant, and that was your point of sale system.
+
+So, like, if you wanted to get any data about restaurant, you had to be in the restaurant inside the system. You could not do that remotely. It it was not a cloud based system. This every restaurant was like its own its own server. I think there's a lot of learnings as part of that experience.
+
+One was I like, we grossly underappreciated how much these systems did. These systems took orders in the restaurant, and it was different workflows when you sit down at the table versus you go through counter service versus when you add a at a bar when you put a card on file versus a drive through. The kitchen had workflows to automate the the efficiency of a kitchen. So if you have orders, you know, coming in across different stations, you gotta bring them together. The prep times are different for a salad versus a steak versus a fried chicken.
+
+You had employees that were clocking in. You had schedules. Then there was software, and there was hardware because it didn't work on a typical laptop. You have to have hardware with a touchscreen that was restaurant grade. And then the other thing that was important was, well, we could have built these systems in the cloud, but the reason they were built with these physical servers is if you've got a busy restaurant that's bustling at 9PM at night and your Internet goes out, you can't have the restaurant stop working.
+
+Right. And that would that would literally happen if the Internet stopped or right? I mean, or the system, you know, there's a something happened to it. You have to have, like, tech support come out and fix it. Yes.
+
+And I think the the the naive naive maybe realization that we had was we could make this this technology a lot better by moving it to the cloud and by taking advantage of Android hardware because the Android hardware actually is open, which allows for, allowed us to build our own hardware, which was critical to building something that was durable and it could work in a restaurant environment. But we also, I think, grossly underappreciated early on what it would take Yeah. To build these systems. So so this was not, from what I gather, this was not working. And so, like, was there a period of time where you guys thought, well, we can still make this work, or was it clear pretty early on that this was not gonna work and and maybe, you know, maybe you go back to the drawing board or you try something new or or what?
+
+We were trying to find a way to make it work. And the mindset we had was was, you know, let's go talk to ASME restaurateurs in in in the Cambridge area. And it was really hard to get people to really understand the value prop of, like, oh, if you could check out faster, it would help you turn on the table faster. That just wasn't enough. Because you're thinking this is a no brainer, but restaurants are not.
+
+They're they're just not that interested in it. And even for folks that said yes, one of the other challenges we had was our system was integrated to one point of sale system. There's, I think, a system called Positouch, which is a local company out of Rhode Island, I think, if you recall. But there was a long tail of providers. And so the only way we could even make this experience work at scale is to integrate into what felt like over a 100 different systems.
+
+Because if you couldn't in integrate with a p with a particular POS, you couldn't work with that restaurant. Exactly right. Yep. Because without the integration, there's no way to get the check data. So how long before you guys kind of decide to just call it a day on that on that product?
+
+So now we're in early twenty thirteen. K. So it's been about you know, launched maybe in the fall, and so it's been three or four months of us trying to find a path. And as part of that experience, we got to know a lot of the restaurateurs in Boston and Cambridge. And the one thing we started to realize is, like, nobody really liked their point of sale system.
+
+And you would hear things like, hey. Why can't this be simple like my smartphone? Because I because they'd gotten used to downloading apps on a phone, and and the management of all of this came up. And when we on the one hand, we couldn't get time of day when we talked about this app. But when we pivoted the conversation to talk about their restaurant technology platform, They'd spent a lot of time with us.
+
+And just to be clear, the technology platform, it was probably very expensive because it was hardware inside the restaurant, a touch screen. Yep. And that enabled you to ring in orders, and then those orders would go to the restaurant, to the kitchen, and then they could see what to make. And then you could print the bill on it. And Yeah.
+
+So, typically, the way these systems worked is they offered a lot out of the box, and there's differences across different systems. And one of the things that was really important was that the core data of the menu and what's available and what's in stock and when it's open, and all that data sat in the point of sale system. So it was very central to the entire operation. Alright. So you're you're talking to restaurateurs, and they're saying, you know, the thing that really is really annoying is the system that we have.
+
+It's like, it's bulky. It it it's complex. It's and and this is getting the sort of the the gears in your head to to start to spin about, well, maybe that's actually the problem. Absolutely. In fact, I remember I had a conversation with the owner of a restaurant called Finale Desserts, Chris Cain.
+
+He was one of the first, I'd say, like, full service, like, busier restaurants that was open to giving us a shot. And I remember sitting with him and and pitching Toast, and and my pitch was anchored on a few things. Because, you know, these systems are hard to switch, and people would describe these switches as, like, root canals. And so I I pitched it as, like, yes, of course, we can do all the things you do today, but there are a few things that are unique and better. One, we have these handhelds so you can take the order and payment at the table.
+
+Two, you've it's got integrated ecommerce as online ordering was becoming bigger, you can you can people can discover you and order online, and you get incremental demand. And then three, we talk about how you can access and manage everything from anywhere. And so, when we sat down with Chris, he said, It's a good vision, but let me show you what it takes to run this. I think it was, like, they had a location, Harvard Square and in the Back Bay, and they had a had a a commissary for a lot of their catering. And it's like, well, I've got the point of sale system.
+
+I've got a company providing payments. I've got a loan with somebody. I've got the separate software for accounting, separate soft software for inventory, separate software for online ordering, separate software for gift cards in store and online. I've got apparel system, a separate scheduling system. And none of these systems talk to each other to the point where, and this really shocked me, like, the orders coming in online into the restaurant, this is in 2013, were coming into a fax machine.
+
+Yep. And so, we had as as part of that learning, while the potential of making these systems better was there, was also quite complicated because we had to then go figure out, okay. Not only are what are the pieces we're gonna build, but how do we integrate into the ecosystem? And the truth is, like, nobody wanted to integrate with us because we were nobody. And so we couldn't get these folks on the phone.
+
+So we just said to hell with it. Let's just try to build as much as we can on our own. Just to build, basically, to replace the entire system. As much as as we could. Yeah.
+
+One of the other realizations we had was we felt like in order for us to create our niche, we were gonna go all in in restaurants. Yeah. Because there were a bunch of providers that were building something more horizontal, where you could be a restaurant or a coffee shop or a flower shop or picture of small retail business. And we felt like our unique edge, because we had we had gotten a sense of the complexity of restaurants we're dealing with, was to go all in and build a purpose built platform for restaurants. And specifically, we wanted to go after these busier restaurants that typically were supported by, you know, systems like Micros or NCR or PuzzyTouch and others.
+
+Mhmm. Like, we had to go in and actually support these busier restaurants right from day one. Right. Okay. So you you have this now very ambitious idea.
+
+Essentially, build a cloud based system that would enable restaurants to do all all or most or all of the things that they were doing now, but in a simpler way. How I mean, at this point, it's still the three of you. Uh-huh. And and I imagine to actually do this in 2013, you would need a lot more people to start to build this. Yeah.
+
+So let's talk about money. I mean, did you start to to raise money at that point? We did. We did raise a little bit of money. We so I quit in early twenty thirteen, and that's when we pivoted from the app Yeah.
+
+To this point of sale. And Steve Papa, who was the founder of Endeca, invested, I think, about 500 k to get started. He believed in in this idea. He did I'm not sure. I think I think he believed in us more than the idea.
+
+And but what about, yeah, what about, like, institutional investors? Did you go and pitch people? We did. And and almost like, it's actually it was pretty humbling because we had gotten good introductions, you know, into some great folks. But, like, the feedback we've got is along the lines of, like, one, like, restaurateurs restaurants are a tough business.
+
+They go out of business. They don't buy online. Margins are really slim. Margins are low. Yeah.
+
+They're not tech forward. And and and and and you're trying to build, like, you know, this, like, platform that's gonna take you years to build. And, also, they're looking at giants, Micros and NCR. Uh-huh. To take them on, right, probably seemed like a, you know, a Sisyphean task.
+
+Yeah. You know, like, the the reason we we had so much conviction is, one, fundamentally, this was a a big category in restaurants that hadn't benefited from the cloud, hadn't benefited from Android and mobile. But, yeah, I think we I also we also knew that I I, like, I knew that Steve and John, and then we brought in a few folks. And we just knew we had some great engineers that we had worked with who had experience building systems like this and had a lot of confidence that that as long as we understood the problem well, we could build it. When we come back in just a moment, Aman and his team build the next iteration of Toast, and then comes the hard part, getting restaurants to buy it.
+
+Stay with us. I'm Guy Raz, and you're listening to How I Built This. This message is a paid partnership with Apple Card. I've noticed that a lot of people we talk to on this show, founders, entrepreneurs, creatives, they spend a surprising amount of time thinking about systems. Not because they love complexity, but because they're trying to reduce it.
+
+The best systems usually make life feel simpler, calmer, more manageable. Financial well-being works the same way because most people don't wanna spend all day thinking about money. They just wanna understand where things are going, feel in control, and remove some of the stress and guesswork from everyday life. That's part of what Apple Card is designed to do. You can apply for Apple Card right in the Wallet app on your iPhone in minutes.
+
+Once you're approved, you can use Apple Card right away with Apple Pay without any friction. And here's the fun part, you spend and then you earn unlimited daily cash back on every purchase every day, not a month later. That's it. It really is that straightforward. And you earn 3% daily cash back on anything you buy from the Apple Store and at select merchants when using Apple Card with Apple Pay.
+
+One more thing people really seem to like is being able to track spending right from their iPhone. You can see purchases, search transactions easily, and get a clearer picture of where your money's going over time. It just makes things feel a little more transparent and manageable. Easily pin down spending with Apple Card. Apply in the Wallet app on your iPhone today.
+
+Subject to credit approval, some transactions may not be displayed in maps. Merchant offers may change at any time. Apple Card issued by Goldman Sachs Bank USA, Salt Lake City branch. Terms and more at applecard.com. Success is a journey especially when it comes to your finances.
+
+One of the most common obstacles in our financial journey is dealing with high interest debt. It can often leave people feeling trapped, but it doesn't have to. If you're dealing with high interest debt, there is a way forward. A SoFi personal loan could consolidate all your high interest debt into one low interest monthly payment, helping you craft a road map to paying down your debt. It even comes with no fees required, getting you a financial win right away.
+
+Keep pushing on your journey to financial success. You could even get as soon as the same day funding. View your rate for a SoFi personal loan at sofi.com/gyros. Loans originated by SoFi Bank NA, member FDIC. Terms and conditions apply.
+
+N MLS696891. Fast funds term apply at sofi.com/gyros. When it comes to your health and well-being, the right care can change everything. That's why Cleveland Clinic has been elevating world class patient care for over a century. From the most specialized heart, neurology, and cancer treatments to the latest surgical innovations and beyond, Cleveland Clinic is here for every care in the world.
+
+Whether you're exploring advanced care or just looking after your health, all the info you need is waiting for you at clevelandclinic.org. Hey. Welcome back to How I Built This. I'm Guy Raz. So it's 2013, and Aman and his partners have a small pot of money, a handful of engineers, and an idea to launch a point of service payment platform for restaurants.
+
+Their next step, find customers. The business development was largely at this point, initially, at least, just talking to restaurateurs. It wasn't anything more than that. I mean, we have to figure out some key partnerships, but those are just but that was the focus to try to see if we can get restaurateurs to try it. And so we had some I mean, of course, there's there's only so much you can do with seven or eight people, but we got our first customer live in July 2013.
+
+And I think you you basically from what I read to save money, you also didn't get an office. Right? You had everybody working Yes. At was it your house? We were in my basement.
+
+So we, in fact, my basement was unfinished. When we were trying to figure out office space, I did the math and realized it was a lot cheaper to just put some carpet down and put some drywall. There wasn't there wasn't even heating down there. This is in Boston. And we just bought some bunch of space heaters and just set up shop.
+
+And so we just did that to save money and and eventually had 10 people there, I think, at the end in the end twenty thirteen. Alright. So by July 2013, you have enough of a product, I guess, to to test this out with, one or a few restaurants. Walk me through the first restaurant because I imagine they have a system in there. Yep.
+
+What are they I'm assuming they're not gonna get rid of it right away because I don't if this is gonna work. But it's a big deal to to shift from one system to another system entirely. I mean, you know, and then train everybody on it and to try to do that while still running a restaurant. So how did you convince the first restaurant to do this? The first restaurant was Dwell Time, and, this was in Cambridgeport.
+
+And the pitch we made to him was, we can build you something that's a lot more restaurant specific than the system he was using. And he was using one of these cloud solutions that weren't purpose built for restaurants. And then I remember, you know, we worked really hard for a bunch of months to try to get to what we felt like was something ready for production. And I still remember we were getting installing this restaurant and they open. And within twenty minutes of taking, like, the first few orders, it's like the system is down.
+
+And now they've got a line, and they and they were, like, physically writing down the order on a piece of paper and dropping it off in the kitchen and taking the credit card number down on paper and, like, trying to do this manually. And realize as part of the experience that these systems are mission critical and, like, can't break. So there's a lot of learning just in that first day. I mean, obviously, you guys would would start to work out the kinks, right, and and get the technology to be more reliable. But I wanna ask about the the overall challenge of getting people to adopt this.
+
+Right? Because a lot of restaurants were not obviously, they weren't happy with their point of sale systems. But still, like, this was gonna be a huge overhaul for for most of them. Right? So, I mean, did you have restaurants who were like, I don't know if I even wanna do this.
+
+Like, this is good just gonna be such a pain. Oh, all the time. You know, we would I mean, I think I must have pitched hundreds of restaurateurs in the first couple years, and very few said yes. But I think there are a couple things that mattered. One was it's not just existing restaurants.
+
+It's also new restaurants that open. And when restaurants open, they've gotta do the work anyways to set up something. And our value proposition was instead of spending, like, for a restaurant like Finale, for them to go buy a legacy on prem system, you know, you might spend 50 to 100 k upfront. And so our pitch was very little upfront, sometimes nothing upfront. They made a SaaS fee.
+
+And then we had built into the platform capabilities that, you know, that the staff and the ownership loved. And so we had a few data points. Mhmm. And I remember we would restaurants because the best thing you could do is, you you know, when we got some of these early restaurant tours up and running is is to get Steve and John and Tim and others, like, you know, actually at location, helping install, helping train, getting feedback, and then improving the software. With restaurant tours, I always say that the restaurant tours in Boston helped us build the platform because, you know, we had a hypothesis for what we we thought we needed to build.
+
+But until we got this up and running with with customers, like, you know, there was that's that's when the rubber hits the road, you learned a lot about what was apps actually needed. Yeah. I'm curious. I mean, from what I gather, you very deliberately only focused on initially restaurants in the Boston area. That makes sense.
+
+Yep. But you didn't wanna go you stayed on the East Coast. You didn't wanna go to California. I mean, at this time, by by 2013, there were, I mean, some competitors today. Yeah.
+
+Square wasn't I don't think they were quite doing restaurants or focused on restaurants yet. They were but small business. Clover, another competitor, was starting out as well. Were you very like, did you did you wanna kinda stay under the radar intentionally? Well, I think initially, it was we didn't have the capability to get out of Boston.
+
+Yeah. Because as I said, like, a lot of these restaurateurs would buy in person. They needed service in person. Their technology wasn't hardened, and so we had lots of issues. And then we, about six months in, maybe this is like early twenty fourteen, we were chatting with Steve Papa who was the investor.
+
+And Steve mentioned to us that one of the customers that we had at Endeca was a company called Gordon Foodservice, GFS, out of Grand Rapids, Michigan. And this is a distributor. Right? A food distributor? Food distributor.
+
+Yep. That's the core business. Yep. And so we got a meeting with with GFS through Steve and walked them through the potential of what Toast do for restaurant tours in terms of helping them run more efficiently, drive sales, help them drive their sales as a result. And that was a really important partnership for us that helped us get outside of Boston.
+
+So we we launched in in in in Miami and Chicago, thanks to GFS and their support, and then went from there. It's interesting because on the one hand, it seems like a huge opportunity, but it's also surprising that that there weren't many people doing it. There were, though, some. And I wonder when you guys found out or learned about some competitors also working in this space, how did it affect how you guys operated? Did it did it speed you did it make you move faster?
+
+Did it make you more vigilant? What did it mean for what you guys were doing at Toast? Well, when you talk to customers that were using Toast, that further reinforced for me that we were onto something because we didn't have the brand or the distribution or the funding really that some of these startups had. And yet, you'd hear them say, of the cloud solutions, because some of them had tried a few, Toast is the best one. I'm a big believer, by the way, in customer obsession and not being too competitor obsessed.
+
+Yeah. And we were already working as hard as we could. You know? We were, like, all in on this. Like, there was no you know, the only plan was to make this thing successful.
+
+And and so we didn't need any motivation to try to work harder or faster. And in fact, the hardest thing was once we got to a 100 customers, we actually and we had this GFS partnership. We actually started to see a lot of interest. And we weren't ready to scale. There were lots of things in the way we we had built the company to start was not scalable.
+
+And, you know, an example of that is just I remember one of our early customers in Boston was this restaurant and nightclub. And when we met with the owner, Billy, there, he asked me, Hey, like, what happens at one in the morning when you've got an outage or an issue? Like, what am I gonna do? And I said, Look, you know, we're small and scrappy, but we have great 20 fourseven support. So he went to our website, toastab.com, and to his credit, he called the phone number.
+
+And, that was a Google voice number Mhmm. Because we had six or seven of us. And my phone started ringing in my pocket. And, I remember we all kind of, by then, had realized that, like, we would wait for two or three rings to see if someone else would pick it up because no one really loved picking up these support calls. So on the third ring, I picked it up, and I I said, I told I told you I've got really good 247 support.
+
+We'll personally pick up these calls, and they're still a customer. But I think that just speaks to how we there's so many examples like that that we weren't ready to set up for to scale to and and make customers successful. And and and that was the blocker, not the competitive pressures. In fact, no one had cracked the code. And, you know, it it was clear that our execution was getting in the way, to me, of us actually scaling this company.
+
+When we come back in just a moment, how a new CEO helps Toast hit its stride and how COVID sends it right back to the startup stage. Stay with us. I'm Guy Raz, and you're listening to how I built this. Hey. Welcome back to How I Built This.
+
+I'm Guy Raz. So it's early two thousand fifteen, about a year and a half after launch, and Daman and his partners have been able to grow Toast to a few 100 customers. But on a day to day basis? The business was frankly struggling. On the one hand, there was some, you know, customers who were using it, and they were happy or at least cheering us on.
+
+And but there were a lot of issues. Like, I remember at one point, all of the hardware we would ship would, like, come back, and we had lots of outages and downtime. Our customers were not happy with our support experience. I remember that was one of those times actually even more than when we pivoted to point of sale. That was, in my mind, one of the low points for us because there was actually good signal here that customers wanted what we were building.
+
+And in hindsight, it just seems so obvious, like, some of the things that we did wrong. But at the time, you know, part of the problem here was, like, I was so focused on trying to grow the business and grow revenue that they probably didn't take enough time to step back and to work with Steve to build the systems to scale, the the capabilities we needed to scale. Right. And I think things got to the point where where you decided to to bring in a new CEO who could deal with some of these challenges. And and this was Chris Comparado, who I guess you knew from your days at at Endeca.
+
+Yeah. We we knew Chris through Endeca. And and so what did that mean for you? Like, what what did how did your job change? It actually did not change at all because, you know, when you're smaller and you're just try no one we weren't concerned about titles or any of this stuff.
+
+We're just concerned about trying to make the company survive. Yeah. And and so we were doing whatever it took. And I was largely focused at the time, even before Chris joined, on distribution and getting the partnerships in place and the sales team in place to get the customers because, obviously, we, you know, we had to show revenue growth because we were burning quite a bit of capital. And so I think in many ways, our jobs didn't change.
+
+But I think one of the first things that Chris did was when we got together was to step back and and spend time with us to try to understand, to articulate to everybody who we are and what we do. There was this, I think, maybe a 4,000 square foot office and cafeteria where everyone got together. And there was someone taking a support call from a customer who was fired up. And Chris is very passionate about customer experience. And our support rep just hung up on the customer because he was unhappy with the way he was being treated.
+
+And Chris remembers saying, we need to step back and rethink how we do things here. Okay. So you guys are growing, and then you hit a, you know, potentially disastrous moment, which is which is COVID, which had a hugely negative effect in many ways on many restaurants in The United States. Mhmm. And I think, you know, by you know, because I think by 2020, you guys had raised now, by this point, $400,000,000, your $5,000,000,000 valuation.
+
+And then within weeks, the country shuts down. You know, we for years, between 2015 and 2020, we were this business that was growing over a 100%. It was this this moment where we felt like we're ready to really take off. We had aggressive plans that year. And then I think April 2020, we'd gone from this company that was growing like this to maybe revenues down over 90% because restaurants weren't taking payments.
+
+And when restaurants aren't open, they can't really pay their software fees. And so we had to make the hard decision to cut, I think it was, like, 55% of the team. And then also to, like, get on a call with the team and explain, well, what's the plan now? I remember, like, none of us really knew, but the one thing that we knew was we had gotten here by being obsessive over what customers needed. Mhmm.
+
+And what our customers told us was they need tools to manage better off premise sales. That's the beginnings for us of the QR codes that you that you see at a table to pay or to scan a QR code to look up menus and order. And I think I that period, especially, especially is it just felt like like the basement stage Yeah. In terms of just the level of maniacal focus that we had and the speed with which we were building because we knew that it was everything was at stake. I think it was the first time since really 2014 where it was like, oh, this thing could be over.
+
+And unlike in 2013 or '14 when it was like hadn't hadn't really ever taken off, We had a business with thousands of employees and tens of thousands of customers at that time. So that was just really tough to even fathom. Coming out of the pandemic, you went public in in 2021, and now you're publicly traded stock. And and and I'm I'm gonna fast forward for a moment to 2024 because you actually come back to a well, I mean, you had been, you know, in an executive position before, but you come back to be become the CEO. Yes.
+
+So tell me about that. I mean, did it feel like, okay. I mean, probably, you know, maybe Chris wanted to to to move on and and and but I'm assuming he'd been there for almost ten years, and you felt like, okay. I'm ready to do this now. Yeah.
+
+I mean, I think Chris was had always said to us I think the words he used were, like, this was a tour of duty. And I think one of the things that I remember, someone I trust told me was, like, something on lines of, like, you know, no one's perfect. You're not perfect. There are a lot of blind spots you have that you'll have to learn. But it's not obvious to me that something the outside is gonna come in and do it better than you given the context and history you have in this business and the passion you have for this business.
+
+And so that that got me comfortable to wanna step back in. And I also felt like it was a partnership. Like, I I never felt like even one of the things that Chris, I think, did really well is it was always a partnership on the top. Yeah. And that was important to me heading into this phase as well.
+
+So I wanted to make sure that the key people around me were in it for the next talk next for the next leg of the journey. I think in in the last quarter, you guys had reported profitability, I think or or maybe it's in 2024. Wasn't that year. First full year profitability. But Right.
+
+In the latest quarter, I saw that I think you you now are between 1520% of of restaurants in The US. Does that sound about right? Small business restaurants over 20%. And so you have a an opportunity to get to 80 to, you know, the eight remaining 80%. And I'm sure there's a fierce competition with, you know, some of your your your rivals in the space.
+
+What is the what's the unlock? How do you get to that that those other you know, the remaining 80%? I think it's a for the first of all, like, one of the things that we focused on from day one was these busier restaurants. So even though we have 20 plus percent of the restaurants, we actually have more of the sales volume. Mhmm.
+
+Because the average restaurant that's on Toast has more sales than the average restaurant in America. And so one of the things in fact, our marketing campaign that we just launched was called built for busy because the busiest restaurants choose Toast because, again, we are purpose built for restaurants. We have a tremendous amount of opportunity now with AI. We know, for example, that if a guest comes into a restaurant three times, they're more likely to become a regular. And so how do you create the right campaigns to bring those people back?
+
+As an example, we launched this product recently called Toast IQ Grow. Toast IQ is the branding behind our AI platform. And customers that have switched to it have seen sales go up 8%. The analogy I like to use is you think about as a McDonald's franchisee, for example. There's a lot they do to set them up for success.
+
+And in the restaurant business, a lot of the decisions that are made about how much food to buy, which suppliers to pick, how to price your menu, what marketing to do, how to schedule your staff is not driven by data often. In fact, it's often driven by gut and gut and some data. But I think the opportunity for Toast within the restaurant business specifically is to leverage our data across the 20 plus percent of restaurants that are using Toast to help drive better outcomes for these customers. Yeah. You know, when you think about about where you guys got to, right, here you are, thirteen years in, and I think your market cap is, like, 15,000,000,000.
+
+It's gone up and down, obviously, but it's still I mean, it's a huge business. Right? And it's and you have really found, you know, a strong position within this category. Where do you you know, how do you protect the, you know, the moat? I mean, it's a bit of a sort of a a cliche question, but, I mean, you guys really took on huge players, NCR, micros, and, you know, back in the day where they kinda dominated this business, and they may still be involved heavily in the business.
+
+But how do you make sure that, you know, you are ahead of ahead of the curve, when it comes to, you know, what what might come next in this industry? Yeah. I'm a big believer in, like, not forgetting where you came from. And, one of the things we always push on culturally internally is what got us here was the hunger, the scrappiness, and the customer centricity. I also think, like, for the company on the offensive side, there's a tremendous amount of opportunity to extend beyond what we have done for the first ten years.
+
+So the past two or three years, we've gone into new markets. We launched in Canada, UK, Dublin, Ireland. We've got a team there in Australia. And we've built a, you know, product to support retail. And so think of grocery stores, community stores that have a gas station, liquor stores, hardware stores.
+
+We're starting to build out the platform to really support local neighborhoods, not just local restaurants. And so we see a lot of opportunity to actually expand the capabilities we offer while continuing to scale within the restaurant business. When you think about the journey you took in, you know, where you've where you were and where you've come to, how much do you do you attribute to the work you guys put in? How much do think had to do with luck and timing? You know, it's it's one of the best decisions I made.
+
+I remember when we were someone someone gave me some advice that said, you know, when you think about your your team, your cofounders, try to find people that are good people, that have good values because they would go through a lot together, and and you need you need that. And I'm very fortunate in that, whether it's Steve or John or Chris and really a lot of the management team. And so, of course, like, know, a big part of what got us here is the incredible skills that the team had and and all the work we put in. But I think there's a lot of luck too. Like, I think had we not raised that capital right before the COVID, may not have survived.
+
+You know? Had we launched the business in 2009 versus 2012, we may have tried to build it on iOS, which would have been the wrong call. You know? Back in 02/1213 is when payments were opening up without which the business model may not have worked. Frankly, Chris joining us at that time was important to helping us scale when we things could have gotten a lot worse, I think.
+
+And so there there's a lot of, like and there's so many like this. There's so many breaks that went our way, but it's a combination, I think. You know? Harder The you work, the luckier you go. That's Ahmad Narang, cofounder and CEO of Toast.
+
+By the way, remember the very first restaurant where they got their start, Firebrand Saints in Cambridge? It actually closed down in 2017, but was replaced by another restaurant, a rotisserie chicken place called Shybird. And when we called them up to ask which payment method they happened to use, they told us toast. Hey. Thanks so much for listening to the show this week.
+
+Please make sure to click the follow button on your podcast app so you never miss a new episode of the show. And as always, it's free. And if you're interested in insights, ideas, and lessons from some of the world's greatest entrepreneurs, sign up for my newsletter at guyros.com or on Substack. This episode was produced by Sam Paulson with music composed by Ramtin Ederabluy. It was edited by Neva Grant with research by Casey Herman.
+
+Our audio engineer was Kwasey Lee. Our production staff also includes Chris Messini, Alex Chung, Carla Estevez, JC Howard, Catherine Seifer, Carrie Thompson, John Isabella, and Elaine Coates. I'm Guy Raz, and you've been listening to How I Built This.

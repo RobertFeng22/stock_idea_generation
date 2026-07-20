@@ -1,0 +1,344 @@
+Damien Lewke (00:00:00) :
+It also teased out a really important piece of Product Market Fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect. Get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.
+
+Previous Guests (00:00:48) :
+That's Product Market Fit. Product Market Fit. Product Market Fit. I called it the Product Market Fit question. Product Market Fit. Product Market Fit. Product Market Fit. Product Market Fit. I mean, the name of the show is Product Market Fit.
+
+Pablo Srugo (00:01:00) :
+Do you think the Product Market Fit Show, has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests, thank you. Damien, welcome to the show, man.
+
+Damien Lewke (00:01:17) :
+Pablo, thanks for having me. It's good to be here. 
+
+Pablo Srugo (00:01:20) :
+Excited to chat with you on this one. I mean, it's crazy, dude. I feel like these days everything is faster, you know what I mean? In your case, you started this two years ago. Two weeks ago, you raised the $25 million Series A. Which is, I think it's still exceptional, right? That you can start a business and start a startup, and you raise a little bit more money. And then two years later, just two years from the day that you're like, hey, let's go. You raised twenty five million bucks. It's a big accomplishment.
+
+Damien Lewke (00:01:46) :
+Oh, thank you so much. It is, it's very cool. I think this time two years ago we had forty bucks. It was my money just to test that the bank transfer worked. Lots changed for the better, which is good, which is good.
+
+Pablo Srugo (00:01:56) :
+So let's start where we always start. That gets us right into the thick of it. When for you was the moment when you felt like you'd found true product market fit?
+
+Damien Lewke (00:02:04) :
+It's interesting. This is something that we are obviously on an ongoing quest, but the real key unlock for us was we got deployed into a Fortune 500 enterprise and two key things happened. So we'll talk about the sales motion, then we'll talk about what we did. Really, it was basically from POC start to close of deal took six weeks. There's a Fortune 500 that we all know, hundreds of thousands of employees. Really an amazing opportunity for, at the time, a seed stage company with a dozen employees and it was one of those things that seeing that speed, that turnaround was incredible. I think digging into it, so how did we get to that in six weeks? You know for us, it really was about delivering value out of the box. So we're a security solution and our whole focus is to find what other existing tools have missed. And what happened for us was basically in, I think it was like a day and a half. We caught something that no other tool had found and this particular finding, again in a Fortune 500 with many layers of management. Was escalated all the way up to the chief information security officer, so the C-level person who's in charge of all security and it ended up revealing a cultural divide within the company. Which was really interesting and valuable. So it found something that applied because it's a global business, and what they had done was earmarked budget without any previous negotiation, right? And it was kind of this like we proved it, they made the budget and became our internal champion immediately, and helped drive this extremely fast close.
+
+Pablo Srugo (00:03:27) :
+I'm curious to undertake on this, but I think it's a good story to pull on, right? Because product market fit is hard to define. It's easy for somebody to say, I have product market fit and then you get into it. And you try, and figure out, do you, do you not? And you can have ten people with ten opinions. But in this particular case, it's like, what is the most important thing for a CIO, right? What rises to the top of their pile? I think my formula, especially in B2B, is whoever you're selling into, they need to have meaningful budget. They need to be important in that organization and you need to solve a number one or number two problem for them. If you're doing that consistently, that is an early indicator. Certainly that you're delivering value, but it's an early indicator of product market fit. Seems like that was the case here.
+
+Damien Lewke (00:04:08) :
+Yeah, a hundred percent. I think like all founders, you got to take a bet, right? And we took a position two years ago that at some point, you would have threat actors that would do things that existing tools might have missed and we've been building towards that eventuality. And it was one of those things that the two kind of hit at the exact perfect time, and that's allowed us to prove that value to keep earning budget, and displacing solutions. Which is where we're at now as we scale and now validated by the Series A. I guess we'll go back a little bit because the journey to product market fit is a long and different one than you might expect. So, I've only ever worked in security. I was an operator in the defense industrial base here in the United States. I was fortunate to work at CrowdStrike, you know, from the CRC through and after the IPO. So I got to see hyper growth, was fortunate then to do some grad school and study at MIT's computer science AI lab, and then work in a security operations company. But basically, cyber is my jam and all of that informed my initial thesis about the company. But actually, it's been really formulated not just about my opinions, but constant customer discovery. Understanding, to your point, what your top two priorities are, what the real pain is, and how at first the idea. Now the platform that is Nebulock, can align with those and it really was a combination of. I mean, we're talking about constant calls, getting on planes, sitting with customers that got us to this point, and then. Honestly building an amazing team of practitioners, engineering, marketing, sales, and customer success leaders who really helped bring this enterprise to where it is today.
+
+Pablo Srugo (00:05:45) :
+Well, maybe then let's go through the story. You know, how you shared a little bit of your background. Obviously you've been in cybersecurity for a while. Cybersecurity is a weird one from the outside in, right? I'm no cyber expert, but I've spoken to quite a few cybersecurity founders and it's like, it just always sounds like the same thing. We find the thing that nobody else finds, right? And you're like, don't they find the thing that I thought that, you know? So, and I get it's a cat and mouse, I get constantly evolving. There's constantly new threats. But I don't know even how you could do this for an outsider, like you're in the game, you're in it. What do you see that is a gap that nobody else is solving? And why is it a gap? Try and give that context. And we could get into what you did, and how you turned that into a business.
+
+Damien Lewke (00:06:26) :
+A hundred percent, so Pablo, you touched on it perfectly, right? Where you're like we catch the things that other people don't catch, it's constantly evolving and really what that implies, my friend, is reactivity. And the challenge with security in general, and this is no fault of our customers or existing vendors but it is an inherently reactive game. We are waiting for the alarm bells to go off to take action and because bad guys innovate faster than we might be able to build something that catches them, we're constantly backpedaling. So the real focus for us was to go back to first principles and ask ourselves, how would you build a proactive by default system? So cybersecurity is all about identifying a bad thing that's happening, validating that that thing has happened, and then informing teams what to do about it. And our whole thought process was, instead of waiting for other systems to tell us stuff that's gone wrong, we know where the gaps are. Let's build a system that continuously looks for things that might have been missed and then, does that validation and information response to teams. So the whole focus was to be proactive by default and that has served us quite well in our growth.
+
+Pablo Srugo (00:07:33) :
+I get the idea, but again, even that. Like Huntress, I don't remember telling me, I spoke with Kyle back then. I think he was telling me, you know, proactive, find it before it happens, these sort of things. Maybe we get to have maybe an example. I know these things are very specific, so it's hard to maybe do. But an example of something that they would catch here, but you caught there, or you would catch there. At least under this kind of thesis.
+
+Damien Lewke (00:07:51) :
+Yeah, no, it's a great question. Huntress is an amazing company. I was fortunate to spend a little bit of time working at ForgePoint, which invested in Huntress. So really big respect for the ForgePoint team and Huntress. Yeah, I think there are three key examples I can give you. The first is, if you think about existing systems. Especially if you are running in a customer's environment, you have to balance like, do I detect all the things or do I detect what I'm good at? Because if I detect all the things, I promise you, because no two enterprise environments are the same. You're going to lead to a bunch of false positives. So every vendor has to run this very fine Pareto front of finding the optimal space. Which again, if I'm starting to cut stuff at some point, I'm going to miss things. So the real example here is, we'll focus on something topical like OpenClaw. So when OpenClaw first deployed, came out, right? Really exciting, cool productivity piece, nightmare for security teams. What we were able to do that no other system could was, we'd actually built some really comprehensive machine learning models around command line investigation and in GenSec systems, as it just so would happen, run command lines. So out of the box, as soon as OpenClaw hit the market, we were able to start detecting what OpenClaw was doing. More importantly, because we could also understand the intent of these command lines. We could actually see when the OpenClaw agent wasn't doing things like it should, like catching an OpenClaw agent touching a production DB. Which it should not have had access to, and being able to trace back, how and why it was able to create the accounts to access that. So that's a great example, right? The second piece really is focusing on what we call the telemetry, right? The raw data itself. So most security vendors, right? Back to that Pareto front, generate detections, they'll generate alerts but because they can't catch everything, there's this whole swath of data that is undiscovered, right? That doesn't really remain touched and our whole process is to constantly look at that data and go, what might be amiss, and use data inputs like context from the customer organization, right? They can upload a threat model or intelligence, right? What are bad actors doing with existing tools that are running on this system? And then finally, we've got a brilliant group of folks that do research and test, and build these agents. So we have these three new axes that surface things that otherwise might have gone missed and to that end, you know, over our company's lifecycle. We've run over three hundred million agentic investigations, and we've surfaced over four thousand active incidents that had otherwise gone missing.
+
+Pablo Srugo (00:10:23) :
+Is this like, and I'm always trying to simplify as much as possible. I understand the other point, which is if you flag everything, you're creating so much noise now. You're just lost in this all, you can't do it. So is this bringing AI to find the signal in that what normally is discarded as probably not relevant by more. Let's say, heuristic driven deterministic system, you're using agentic AI to say, let's look at that, you know, double, triple check it, and now pull out the signal out of it without all the noise that normally would come along. Is that a good frame of thinking about it?
+
+Damien Lewke (00:10:23) :
+Pablo, that is the perfect way of thinking about it.
+
+Pablo Srugo (00:10:23) :
+Boom, there you go, there you go. 
+
+Damien Lewke (00:10:58) :
+It was amazing.
+
+Pablo Srugo (00:10:58) :
+That's it, that's why I'm here.
+
+Damien Lewke (00:11:00) :
+Amazing.
+
+Pablo Srugo (00:11:01) :
+Oh, man. All right, cool. Well, I think at least I get it now. That's the good thing. That's, you know, one person gets it now. But so that's, I guess, the core idea. Maybe walk me through even just how you make the decision. This is what, 2024 at this point? Like mid-24? 
+
+Damien Lewke (00:11:14) :
+Yeah. 
+
+Pablo Srugo (00:11:15) :
+How do you make the decision, which is always the key moment of, do you just kind of cold turkey it? Okay, I'm going all in, screw it, or you kind of phase it in. How do you play that out going from employee to founder?
+
+Damien Lewke (00:11:25) :
+Yeah, great question. So ultimately I can only speak from my experience, but I definitely ascribe to the cold turkey school of thought. So, you know, my decision point basically is I got really quiet with myself and asked myself, if I made $0 and all I could do was tackle this problem. Would I do it, right? If I could accept that I would get no monetary benefit, but I could focus on this problem full time. Would I do it? And the answer was yes, that's when I made the jump. The best advice I can give to a prospective founder is be obsessed with the problem and not inherently your solution. Because your solution will evolve and change over time. If you're calling all the shots a couple of years in, you might want to ask yourself why that's the case. But for me, it was the obsession with the problem and just going, you know what, I got to do this. And thankfully, I made the jump and I'm very grateful that I did. It is a moment of uncertainty. It can be a bit scary when you got forty bucks in your bank account. You're like, oh, gosh, I hope this works. But it has been by far the most rewarding experience.
+
+Pablo Srugo (00:12:27) :
+But I would argue for somebody in your position who's doing something in their industry. Worst case scenario, a year later, it doesn't work. You're probably extremely hireable. You've got that kind of the downside protection. Which is different than if you go, and this is the good thing about going into your industry. When you decide like, oh, screw it, I'm gonna start a marketplace for whatever, right? And then you try to come back. It's a little tougher.
+
+Damien Lewke (00:12:47) :
+It certainly is. I will say this for what it's worth as a hiring manager. I actually am always excited to meet founder curious people or former founders. We have a former founder on staff here. You are also extremely hireable if you try something and it doesn't necessarily work out. Because the problem solving and skill sets that you build and learn, honestly, you know, there's that expression, right? We learn far more from failure than we do from success. To me, that says a lot about your character. So it's definitely something that I totally get but yes, you're right.
+
+Pablo Srugo (00:13:15) :
+I mean, I tend to agree. It always depends on the employer. You know, the bigger company or a small, but for a startup. I can tell you for our companies, the first ten, twenty hires, if they could be all founders, I'd probably be for it, right? We just try, and it's just because the level of management a founder needs, frankly, is zero and so somebody gone out for a year or two years, and done something on their own. It's like, okay, I know I can be like, this is the thing you're doing, and they're just going to go run off and do, which is amazing.
+
+Damien Lewke (00:13:36) :
+Yeah, a hundred percent, right? And early days, you have to have that kind of flexibility, right? You're wearing a million different hats. There's no structure. Having somebody who can just take something and run with it is invaluable to a startup.
+
+Pablo Srugo (00:13:47) :
+So, we're going through the story. So you've decided that you're going to leave. Are you alone? Do you have a co founder at the outset? What's the setup?
+
+Damien Lewke (00:13:47) :
+First time solo founder. So it was just me.
+
+Pablo Srugo (00:13:47) :
+Oh buddy, going on hard mode, I like that.
+
+Damien Lewke (00:13:58) :
+Yeah, I have conviction, I had conviction and you know, at the time it was the right choice. And I backed that up.
+
+Pablo Srugo (00:13:58) :
+And you're technical, so you could build the stuff and try to sell it? You could do both those things?
+
+Damien Lewke (00:13:58) :
+Yes, so again, fortunate in that regard where being technical I have the ability to kind of sit across both. But one of the core functions as we built this company is I've continuously hired myself out of a job, right? Hired myself out of the marketing leader role and we've got an amazing head of engineering, product, sales, customer success. That's been my constant focus, right? It's ultimately to bring people who are more skilled and more accomplished in each of these roles to develop that. But yeah, in the beginning, I sat across everything. Which was interesting.
+
+Pablo Srugo (00:14:38) :
+I mean, I love that and I actually want to take a tangent on this. Because it's more and more popular that, I mean, solo founders have always been a thing but I think with AI, there's just a rise. Statistically, there's just more and more solo founders. And especially, I would assume that a lot of that increase is actually from the non technical who before, could not start a startup without a technical co founder. Now they're like, wait a second, I could actually build a product. I could deploy something on my own. The question I have is, how have you, specifically, because there's different, you know, people play things different. I'm curious on how you did it. The fact is you therefore start with more equity, which is great. But you have more gaps, more holes to fill. If you're three co founders in theory, I'm like, I'm the salesperson, I'm the product person, I'm the CEO. Whatever it is, right? And so you're like, okay, cool, we don't need to hire VP sales, we don't need to hire VP. Did you therefore hire heads of earlier? Did you give them bigger equity grants than they would have gone into another startup that has two or three co founders? How did that end up playing out for you?
+
+Damien Lewke (00:15:31) :
+Yeah, you know, I've always focused on needs based hiring. I think that's another thing too is when you're especially early, you need to be pretty litigious about capital management. But yeah, I mean, my focus was to give folks who are coming in. Because it's earlier and it's riskier, compelling offers, right? To me, I've always believed, and my team knows this. Compensate the folks well. I think one well placed person is far better than four poorly placed people and that's why I think one of the most overlooked but valuable skill sets for a founder is to run an extremely diligent and focused recruitment process. Because you want to be certain. Because when you're six people, that seventh person is, you know, fifteen percent of your business. You want to make sure that you're doing the right thing.
+
+Pablo Srugo (00:16:18) :
+I guess, I ask it from the perspective, like, I'll give you the anecdote and curious if you have something similar to this. Maybe in a different role, like, founder I work with closely. Solo founder, non-technical, hired, you know, there were maybe fifteen people, twenty people, and they hired a VP. And some of the people I reached out to, to say, hey, do you have a good VP, blah, blah, blah. They're like, dude, it's so early. Why are you hiring a VP when you have fifteen people? And I'm like, the answer is you're looking at it from your perspective of me and my co founder, right? We split the roles and effectively they were operating as a VP. And so we didn't have a VP until we were fifty. Yeah, okay but this person is a solo founder. Therefore they hired these heads up earlier. I'm curious if you had anything like that. Maybe not on the VP side, but whether on the sales or marketing, or not really. If you think like compared to somebody who had two or three co-founders, it was actually, you build the org in a similar way, sort of thing.
+
+Damien Lewke (00:17:03) :
+You know, I'd say we definitely did it a little bit earlier, right? As a solo founder, the way that I've always thought about it is, I visualize it as either like a balloon or a bucket but it's basically how and where am I spending my time. And how, and where should I be spending my time, right? Where is there becoming an increasing need for the business such that we need to bring in somebody full time. So, you know, our Head of Eng. was first. We were nine people at the time. I was an engineering manager, I was our salesperson, we were still in stealth. It's not much marketing, but I was doing all the things and we just got to a point. We were all engineers at the time, where I was like, it's time to bring in an effective engineering leader but also, this is a personal belief. Bring in somebody who can grow with this business, right? That's why I actually like your VP of Eng. anecdote of, it doesn't matter about size of team. It's, hey, bring in the right person and ideally bring in somebody who can grow with this business. Because as I tell everybody here at Nebula, my desire is to build an environment and a business such that they are here for a good time, and a long time. And can grow as we grow. So that was really the thought process and the management of the team had gotten to the point. Where I was like, I can be of more service to this business if we bring in the right personnel and bring in somebody who's going to run this team, and scale it. And our head of engineering has done exactly that.
+
+Pablo Srugo (00:18:22) :
+Yeah, I fully agree. One of my number one things for these heads of roles is their network. For Head of Eng., it's yeah, okay, you know, this, that management, whatever. But can you bring in the next five engineers without running a full outbound process? Because that is going to dramatically increase your, not just odds of success, but just your rate, right? If like, I need two more engineers and this person is like, well, let me ping ten people that I already know and work with. That's going to be a huge difference maker. So I always find that that's a big one. Last question then on this kind of hiring tangent. How do you think about where to hire? Do you hire where, let's say you're really good at the thing you're really good at that. You've solved and now you can bring somebody in and you go to the next fire, or do you hire for the fires? In other words, I'm incredible at sales, so I'm going to figure out a sales machine and then once sales is figured out. I'm going to come and bring somebody in who can take over. I'm going to move to the next unsolved problem versus I'm going to stay in sales because I'm great at sales and I'm going to hire somebody else. Which of the two philosophies do you typically go for?
+
+Damien Lewke (00:19:17) :
+Yeah, I mean, as a founder, I think one of the most important parts of your job is trying to see around the corner, right? So you said hire for the fires. I like hiring for the fires. I think the way that we thought about it, again, using the VP or the Head of Eng., discussion, right? Was I could see around the corner and go like, okay, more of my time now that we've got a big enough team is going to be spent more on sales and marketing. And at some point we're going to launch this company. I need somebody who can take and run with engineering. And I think it's important to do that because as a founder, you have a responsibility to create an environment where when you bring in anybody. An IC or a leader, you give them the agency to be successful. So I think the key is you want to bring them in at a time that the business is still growing and there's room for growth versus like, oh my God, everything is broken. Please fix this brokenness. Because then you get caught up in tactics and really what you want to do is bring somebody in and allow them to grow with that position. So hire for the fires.
+
+Pablo Srugo (00:20:16) :
+But you'd rather be the one that figures out the unsolved part and bring somebody in to run with the thing that's already working versus the opposite?
+
+Damien Lewke (00:20:24) :
+Yeah, a hundred percent, right? Your fundamental job as a founder is two things. Number one, create an environment where people feel seen, heard, and empowered to do their best work. And number two, to de-risk the business. You are always selling and my focus is on the unknowns, to de-risk this business to ensure that we can continue executing.
+
+Pablo Srugo (00:20:41) :
+So back to the main storyline, you're the solo founder and you got the thesis. You've jumped fully on board on this. What's step one?
+
+Damien Lewke (00:20:49) :
+Yeah, step one, customer discovery. If there is one takeaway for anybody who's listening, if you haven't read it, read a book called The Mom Test. It is, in my opinion, the best book on customer discovery that is out there. Followed by The Challenger Sale, but that's a sales book. Yeah, I kicked off what I called the ninety in ninety. Ninety customer interviews in ninety days. So I spent ninety days mom testing people. So not going to them saying, hey, my name is Damien, I've got this idea, this is what it is, can you please tell me you like it? But rather going, hey, I'm thinking about this space. Talk to me about how you've solved this problem. How would you rank this in order of priorities? Where would I focus on if we were to build something like this? And most importantly, friends, if you're doing customer discovery, always ask at the end if they're willing to introduce you to somebody else in network. Because not only does that build a relationship with this person, but it means that you also get routed to other like minded folks. Not for confirmation bias, but rather you're going to get to continue to see either in role or industry segment different folks. So it allowed me to build a pretty comprehensive market map of where am I solving this problem, for whom, and how would they expect us to do it? And to be honest with you, Pablo, it actually changed some of my thinking. It altered key parts of our architecture. It informed me that the underlying thesis and analytical layer I wanted to build was correct. There was a whole other system I thought that we needed to build and invest in, and I was totally wrong. And I found that that was really helpful because what that allowed us to do is have a warm group of prospective customers, many of whom became design partners, and also a core roadmap. So that when you brought in people, again, thinking about the unknowns, it was, hey, this is what we're building, right? Can you come in and take these systems, right? Show me how you would do this. Versus, welcome to Nebula, here's your laptop. I don't really know what we're going to do today, but tinker around and do some Google searching. So it really helped in terms of focusing that and I think that is the one nuance about being a solo founder that is a bit different. You do have a responsibility to at least have an opinion about what it is that you need to do and the best way to drive that is constant customer discovery. So ninety and ninety, I've now spoken to hundreds. I try to speak to customers certainly every week, honestly, many times a week. Because the market is changing so fast and you constantly have to bring that feedback back into the company.
+
+Pablo Srugo (00:23:10) :
+I think out of all the things that founders need to do, customer discovery is probably the one that they do the worst job at consistently and gets skipped, and just done like. I remember I had a coach, I think it was a basketball coach and he'd be like, don't just run through the motions. Do the work, actually do it, right? Yeah, I got to pass, I got to shoot, whatever. That is how customer discovery gets done often and gets really bad results. Let's go through that in detail because this is one of the tactical areas that I really want to get a lot of detail about. So that founders listening could actually steal it. Talk to me about the process first of all. How do you get the first, you mentioned asking later on for more interviews, but the first ten, twenty, thirty meetings? What are you asking for? When you ask somebody for time, you got to be like, this is what I want out of it. What's the ask? Tell me as much as you can about just that piece of it.
+
+Damien Lewke (00:23:59) :
+Yeah, so really I had the added benefit of having worked in security. I had a decent network. Shamelessly, I was still helping out with research at MIT. I'd done some grad school. I was helping out part time. So I still have an MIT email. So people responded more positively from an MIT email.
+
+Pablo Srugo (00:24:16) :
+Always, yeah. If you're a student then it's, yeah, a hundred percent. Especially an MIT or Harvard one. 
+
+Damien Lewke (00:24:20) :
+But the key is take a moment to think about your network. I promise you there are people in your target area that you or a friend of yours knows. But what was really important for me before I kicked this off was, honestly, I cased my LinkedIn and then I hit up some friends. And other people I worked with, and I cased their LinkedIns. I basically built out a spreadsheet of who I was going to target and then the ask was really simple. Hey, I'm Damien. I'm building a company in this space and just looking for some early feedback. The give get was, you get a chance to get your fingerprints all over the idea. We aren't even at a product yet. Would you be willing to give me fifteen to thirty minutes of your time? It seems scary to send an email off into the void, but people are so much more receptive than you might think to give you thirty minutes of their time as you have an idea.
+
+Pablo Srugo (00:25:15) :
+What kind of conversion rate? I'm curious, you probably don't have the stats. But more or less, if you email a hundred people this, do you get fifty? Do you get eighty? What do you think, more or less?
+
+Damien Lewke (00:25:22) :
+You know, it's funny. You're like, you don't know the stats but I can give you. I think it was north of seventy percent. 
+
+Pablo Srugo (00:25:27) :
+Wow, okay. Yeah, that's big. 
+
+Damien Lewke (00:25:29) :
+Yeah, well, because people want to help. That's the key and I also asked friends of friends, right? So it was like, hey, I saw this person, you mind intro-ing us over email, here's the blurb, right? Make it super easy for your connections to do it and that really helped, right? The warm intros, from the warm intros to the discussion, to the follow on, it just gets that much easier. But if you've written more than fifty words in that email, it's too long, right? Keep it tight, keep it punchy, what's the give get?
+
+Pablo Srugo (00:25:56) :
+And then in the call itself, what was the structure? And did the structure change for your first twenty calls versus your last twenty? Or you just do the same thing ninety times over?
+
+Damien Lewke (00:26:06) :
+Yeah, so I'm glad you asked that, Pablo and it's funny you mentioned basketball. Conversation for another time, but I played soccer pretty competitively. I actually played overseas for a few years and one of the core pieces I resonate with is doing the motions, not going through the motions. Because what happens is, in the beginning, those motions feel odd or uncomfortable and by the end. They're second nature and it's that second nature that allows you to hit that buzzer beater or nail that cross, right? Those are the ways that this works, is it's building the muscle memory. So, of course, the structure of the calls changed and honestly, for all you founders out there. It's an important muscle movement to learn because it will help you as you start to do founder led sales. You'll learn how to better actively listen. You'll learn to key in on keywords and pain points, and time your questions and responses. So, structure of the call started out with this. Before I met them, I sent a background on who I was. So they knew who I was and they knew the question I was asking. Came in and it was like, hey, tell me about what you do. Tell me about your top three priorities this year and how, and where have you thought about this particular problem, right? We were talking about the false negatives and threat hunting, and security operations problem statement, right? And then you just actively listened. And then the next layer down was, okay, and what investments have you made there? How much money have you spent? And how does that work across, tools and people? And then finally, it would be like, okay, based on everything that you've said. How would you stack rank this in terms of existing problems? And if something were to tackle this, what should that look like? So it was really nebulous. But really, it drilled down into understand what's top of mind, understand their priorities, understand their investments, and then understand their opinion about what you should do. That evolved because the idea started to take much more shape, right? I already had an architecture, the architecture was evolving, and it ended up drilling more into, I'd say, a bit more focus around like, okay, again, top priorities, blah, blah, blah. But then it really dug into, how do you validate that? What metrics do you prove? How do you demonstrate business value? And then, okay, I have some data on business value. Okay, how do you think about pricing and budgeting, right? Is this replacing? Is this augmenting? How valuable is that to you? The idea was end state for the ninety and niniety to get a market scape in terms of who your ICP was, which verticals you might plan. But also understand what does their environment look like? What does their team look like? What are their priorities in general? How much money do they have? How do they value your solution? And ninety data points, as that discussion evolves, really builds that comprehensive data set. Which allowed me to raise money and be like, this is what we're doing. This is how they value it. This is how it's going to work and at the same time, bring in a team to help build that out.
+
+Pablo Srugo (00:28:52) :
+I'm really worried because listen, you've been listening for like, what, ten, twenty, thirty minutes now? Clearly you like it and the thing is, the next episode is way better and you're gonna miss it. You're gonna miss it because you're not following the show. So take your phone out and hit that follow button. This is why it takes, sometimes founders will do this and be like, yeah, I spoke with ten or twenty and it's like, first of all, you need to start broad. Because otherwise you're going to lead them to the thing that you want to lead them to. So you have to start broad to even validate that piece, takes probably twenty, thirty calls to get those patterns and then you use the next fifty or sixty or a hundred calls, whatever it is, to figure out all the other details, right? All the infrastructure, everything else they're using, and then come out with the ICP. And, you know, if it's this type of customer and with this type of role, with this type of setup. Then now we're really feeling the pull for the kind of product that I'm thinking about and that's what you have to come out of with Discovery. Which leads me to my next question on learnings. What is, do you remember an example or two of something that as a result of doing these calls, you learned that you otherwise wouldn't have or it might have taken you a long time, selling the wrong thing, to get at?
+
+Damien Lewke (00:30:00) :
+Oh my God. Yeah, absolutely. I mentioned this earlier, the architecture, I was so wrong. I thought we were going to plug into this one system called the SIM and we were going to pull all this data from it. So off base, we ended up needing to plug into an entirely different tech stack. The other thing is I wanted to build this new system that would run in their environment and I learned that that would add zero value. But if I had operated, and this is a personal suggestion but as a founder, yes, you have conviction. You want to be obsessed with the problem. You have conviction in your idea, but you do need to check your assumptions. Because if I hadn't, if I had not done this customer discovery, if I had not learned how they run operations and how and where we would fit. We would have built the wrong solution. We absolutely would have and we would have had to hard pivot, burn money, make some tough choices versus case the market, get a flavor for what that actually is. So, yeah, no, I had core assumptions that were very wrong. I'm very glad that I did the discovery because it got me to the right place.
+
+Pablo Srugo (00:31:00) :
+The other thing you mentioned is, you know, you asked just about everybody at the end if they could introduce you to somebody else in the network. Which, you know, you mentioned obviously just gets you more calls, it gets you more connected. It also, by the way, plays into this psychological bias, which is you're actually more likely to do a favor for someone that you've previously done a favor for, which is a really weird thing. You think favors kind of are reciprocal like if I do you a favour you, you owe me one sort of thing. Which there’s an element of that but actually if you ask me for something small like at the end of a positive call, hey do you know anybody else that would what to talk to? Just as a small favour? It's like, hey, you know, I actually do, here you go, here's an into. I’ve actually just escalated that relationship to one where I’ve already done something for you then you asked me for a second call or you ask me for, you know, hey, let's discuss maybe a design partnership or something like that. It's just, I'm actually just more likely to respond favorably to that. So that, I don't know if you experienced that at all. I'm curious what maybe the outcome was of all these calls.
+
+Damien Lewke (00:31:52) :
+A thousand percent is the answer, Pablo, right? People are more likely to help as you build a relationship and really what I ended up doing, especially if it was a really good one. We did some deeper dives with the ninety and ninety or about fifteen companies that I had two, three, four sessions with. Where we do an hour and we got into some more of the tactics. And that's how we found our first design partners. One suggestion for founders. It served me well to get out of this chair and get out there. I did bike, Uber, train, fly to meet these people and it was really, really helpful. Because, especially in today's distributed world, those in person connections, look, you need to be genuine, right? But, if you genuinely go out there and make the time and effort, people will respond to that positively.
+
+Pablo Srugo (00:32:44) :
+Was this for the first meetings or you did it only for the second meetings? How did you make this happen?
+
+Damien Lewke (00:32:48) :
+It varies. So one of the key things that I benefited from was there was a core industry conference about two months into the ninety and ninety called Black Hat that happened for us, and I just, on my own dime. Flew out to Black Hat, got myself a hotel room, paid for my Ubers and I just walked the floor. I walked up to strangers and I was like, hey, I'm Damien. Can I get you a coffee? But it was putting myself in those positions to be successful. So it was for plenty of first meetings and yes, definitely for second meetings. We had a bunch of folks, I'm based in Boston, Massachusetts. We had a bunch of folks in Boston and it was like, hey, this was great. Hey, do you want to go for a run? You want to grab a coffee? And then I'd get out there and meet them where they were in their respective city.
+
+Pablo Srugo (00:33:28) :
+After these ninety days, first of all, is it just you? Do you raise money? Do you have customers? What's the outcome?
+
+Damien Lewke (00:33:34) :
+Yeah, so I ended up raising money during the ninety and ninety.
+
+Pablo Srugo (00:33:34) :
+How much did you raise?
+
+Damien Lewke (00:33:34) :
+Yeah, so we raised a pre-seed to start. This is a $2.4 million pre seed led by Decibel, which is an AI and cyber VC. They're our day one investor. Back to obsession with a problem. I guess ours was a slightly different experience. I did not write a pitch deck. I wrote a manifesto is what I call it, but a thirty page document on why this company needs to exist, why the market is broken and starting to get early customer feedback into that. I'm kind of right place, right time. An investor came along and was like, oh, this is great. Let's do this.
+
+Pablo Srugo (00:34:09) :
+You published this or they just came inbound and you sent it to them?
+
+Damien Lewke (00:34:12) :
+They came inbound. 
+
+Pablo Srugo (00:34:14) :
+Okay. 
+
+Damien Lewke (00:34:14) :
+And we talked it out, yeah. They kind of found me right place, right time and, you know, what ended up happening, of course, as we raised the pre-seed. I brought in my first three hires and, you know, then we started cooking, right? The ninety and ninety had finished. We had a general idea.
+
+Pablo Srugo (00:34:29) :
+And timeline wise, by the way. This pre-seed is what? End of '24?
+
+Damien Lewke (00:34:32) :
+No, like July, August '24.
+
+Pablo Srugo (00:34:35) :
+Okay, mid 24. Okay, got it.
+
+Damien Lewke (00:34:37) :
+Mid '24, and then along the way, you know, we did the ninety and ninety, we start building and then we were fortunate to have Bain Capital Ventures come in and preempt our seed round as well.
+
+Pablo Srugo (00:34:48) :
+Which was when?
+
+Damien Lewke (00:34:49) :
+End of '24. 
+
+Pablo Srugo (00:34:49) :
+And that was another what? Like, $4 million? 
+
+Damien Lewke (00:34:51) :
+$6.1 million. So we were $8.5 million raised, yeah, so. 
+
+Pablo Srugo (00:34:54) :
+Where were you at customer wise in that second half of '24?
+
+Damien Lewke (00:34:59) :
+So we signed our first design partner when we had one employee, which was cool. It was actually at Black Hat. I can't share their name, but they are a paying customer now, and I'm very grateful for their early partnership. And actually it was really helpful, right? Before you even can deploy, cause the product was so early. You know, I pitched it as an architecture partnership. Hey, do you just want to give feedback while we start poking around and building this? It was so valuable. We had a few key early architecture partners back then and it made such a difference, Pablo. Because, yeah, we've done the ninety-ninety, we had the roadmap, but to keep getting feedback continuously, right? Just allowed us to, not just in terms of how the system worked, but customer experience, build right from the outset, which was really, really awesome to see.
+
+Pablo Srugo (00:35:42) :
+Tell me more about these. Everyone is doing design. I mean, you used to do beta, you know, and now you do design partnerships, architecture, whatever. Everyone's doing them and one of the challenges I have as VC looking at these is which ones are meaningful signal and which ones are just kind of playing along. It's not a high bar, generally speaking. It depends on the type of customer, obviously, but it's not the highest of bars to get somebody to be like, yeah, I'll use your product and give you feedback. I'm curious, your experience, how did you know that the feedback was real, that the pull was real, that the value was truly there and that many of these would convert to paying customers?
+
+Damien Lewke (00:36:12) :
+I mean, I'm actually excited to say that every single one of our design partners converted to a paying customer and that was a really, really exciting moment. But I work with a lot of founders now who are thinking about design partnerships. Because our design partner program did end up being effective. My suggestion is you actually have to break up design partnerships into stages. Early on your design partnership, you are not sending them a POC document that says you will be entitled to a discount after this time, right? You don't have something to sell yet. The idea is, hey, we're going to work through this and eventually you set the expectation. I'm going to send this and you will get a discount, right? Once this product goes live. But it starts with architectural partner. Early design partner. Hey, we've deployed it. Does this work? How is the deployment process? Are things breaking? How is your experience?
+
+Pablo Srugo (00:37:00) :
+And the ask is probably what time touch points? If somebody is not responding, you're like, okay, let's not invest our time there.
+
+Damien Lewke (00:37:05) :
+Yeah, you want to keep it super tight. So I get them to commit to thirty, or I got them to commit to thirty minutes every single week. I will not miss the meeting. Please don't miss the meeting. Let's do thirty minutes a week and most people are willing to find thirty minutes. And I would challenge, especially early on, if someone is not willing to give you thirty minutes a week. How much do they really value the problem you're solving? And then the final phase, which was as we were starting to shift into paying customers towards the end of last year. It was kind of end of summer into fall. It was really more feature design partners. Hey, we're building this thing, right? What's your feedback on this? What else do we need to do to earn this price that we've suggested? And that's really how we made the transition. So you want to phase the design partner approach and don't overcomplicate it, right? Ask for time, they'll commit to time. You build a relationship and eventually, if what you do is valuable, they will pay for it. 
+
+Pablo Srugo (00:37:51) :
+When did you start? When did you get your first revenue?
+
+Damien Lewke (00:37:55) :
+Yeah, Fall of last year.
+
+Pablo Srugo (00:37:57) :
+So there was a year of, you raise your pre seed and then a few months go by, you do design partnerships probably Q4 of '24, Q1 of '25, those six months, is that right?
+
+Damien Lewke (00:38:09) :
+Yeah, I mean, it was basically a year of design partners before we saw revenue. But the key was, it was a personal opinion, I wanted to get to a point where the revenue was a slam dunk and no brainer. Because ultimately, once you get on the revenue train in a startup, you got to start scaling.
+
+Pablo Srugo (00:38:26) :
+The clock is ticking and it's a funny thing you say. You really want to almost like you pulling it back. So when you let go, it's like whoof.
+
+Damien Lewke (00:38:32) :
+It's funny because it also teased out a really important piece of product market fit for us, which was building a repeatable POC process. So the idea, because we kept iterating through these design partnerships, right? And seeing what worked, and the cadences, was it allowed us to start structuring a real proof of concept process. So net new, if we were to engage, how do we engage? And, you know, back to this original point of, hey, what was your moment of Product Market Fit? By the time we hit that Fortune 500, we had a month long POC process that required two hours of customer time. We had a playbook that we knew how to run and it just kind of followed, right? That muscle movement had been built.
+
+Pablo Srugo (00:39:13) :
+And that was when? That Fortune 500 customer? 
+
+Damien Lewke (00:39:15) :
+March of this year. 
+
+Pablo Srugo (00:39:16) :
+March of '26. So a year after, let's say, you converted those first design partnerships. This moment happened. You had a year of, in production and trying out different POC structures to get there.
+
+Damien Lewke (00:39:26) :
+Yes. Oh, and Pablo, did we try a bunch of different structures.
+
+Pablo Srugo (00:39:30) :
+Tell me, you know, this is. By the way, another deep dive we're going to do. Because I've seen it firsthand. Again, there's bars, right? The bar to get somebody to be a beta customer design partnership is here. The bar to get a POC is there. The bar to get production level is that much higher and a lot of people get stuck somewhere in between. POCs, notoriously, you can just get them to be dragged out. Where it's like, well, somebody's not going to sign a POC if they're not interested. So clearly they're interested. So clearly it's going to convert at some point, but then maybe it doesn't. Maybe it takes six months. Maybe you don't have six or twelve months or whatever it is. So finding a way to lock that in where I've got a company right now I can think of firsthand that had to just iterate on so many different, then it got stuck at pricing. Then it got stuck on IT. Then it got stuck on whatever it is on legal and you're like, well, I don't understand why somebody would run a three month pilot. Get value, by the way, because the thing worked and it's been six months now, and they still haven't converted. So I would love to understand what you went through, the stuff that you tried that didn't work, and then what you ultimately ended up with that is now rinse and repeat.
+
+Damien Lewke (00:40:36) :
+I do just want to say I'm very grateful for our paying customers. But to be quite honest, Pablo, there were a few POCs that went three or six months or dragged out. And they dragged out really because of three core reasons. One, we were all excited but what I didn't do is set good expectations around, hey, this is how long the POC process is going to be. This is what we are doing and at this point, this will be done. The second piece, and it's just the way that we work, was also being really focused about scope of engagement. That does not mean you should pressure somebody in a POC to purchase your solution. I do not espouse the idea of like, it's two weeks, you agree to these success criteria, buy my thing. That's not cool, especially early, right? But you do want to set expectations. Hey, we're going to do this for a month. If we do things one, two, three, right? Would you move to a purchase? Which leads me to my third and the most important thing from the outset that goes back to this Fortune 500. Which is make sure that you have budget, or that they have the ability to spend money on what it is that you have built. Because there are a lot of people who are really helpful and extremely friendly, and they're down to do a POC. Sometimes they don't have budget or budget won't free up until later in the year. No harm, no foul. If you set a scope for the POC, great, you can get the tech win and move on with your life. And then you know that when the budget comes up, we have this agreed to, we can press go. The other piece that I think really helped us, and because we're an AI-native company, is really important. Is, nail your DPA, right? Have a really strong DPA, and know what it means to do data processing, and parallelize the legal paperwork. Do not do the POC and then suddenly be like, all right, hey, oh, by the way, we do data processing. They go, well, hey, wait a minute, we have our own DPA. This happened with one of our customers who I love, but we did a POC and we got to this point where it was like, great, we signed some stuff. Oh, now we have to go into procurement and some businesses will operate that way, right? And you cannot help that. That's okay. But as best as you can, it doesn't hurt at all to just ask like, hey, while we do this process, can I either do the procurement paperwork up front. So that the POC can roll over and do a paid engagement? Or can we run these two things alongside? That will not always be the case, but it will save you time and heartache. Because the worst anyone can say is no and that's okay. You're in the spot you were in before.
+
+Pablo Srugo (00:42:57) :
+So that's the high level and I think all that obviously foots. Take one of the examples you mentioned. Some of these did take three, six, nine months. There's no point in naming names. It's not the point. But take one of those examples. Let's go deep on it. What happened? Why did it take so long? And maybe what could you have done differently? And I'm sure you now do those things differently, but you just kind of get specific on one of them.
+
+Damien Lewke (00:43:19) :
+First of all, I love this customer and they are great. The real learning for me was I did not determine and figure out what the path to close is or was from a procurement point of view. So we spend so much time mapping stakeholders within the org and who has budget authority and all that stuff. And don't think at all about procurement, and legal process, and system. So basically we did the POC, it was a design partnership that became a POC, and they were like, yup, we love this, we want to buy. Great, let's buy. Cool, can you send us your MSA? We're going to send this to procurement.
+
+Pablo Srugo (00:43:52) :
+And you've done the work of saying, hey, this is the champion. This is who has budget, CIO has budget, blah, blah. So you knew that part of it. 
+
+Damien Lewke (00:43:57) :
+Budget agreed to, champion agreed to. 
+
+Pablo Srugo (00:43:59) :
+Got you.
+
+Damien Lewke (00:44:00) :
+All right, let's send it in for procurement. Hi, procurement, here you go and that was it, right? There was no like, hey, who should I be working with? Hey, should I, our champion was awesome. But there was also an executive sponsor that we should have worked with, right? Is there anyone I can do? So basically, what ended up happening, Pablo, was there was like this black hole of procurement. There was my champion, who is an amazing human being. Who can't push procurement, and we just had to work through their machinery, and it took weeks to get something turned around. Once we got it, we needed to make a bunch of edits and we ended up going through a few different iterations or red lines. And it just ended up dragging out. And it's because while I figured out my champion internally, what I didn't do was identify if there was another executive sponsor I could loop in and I didn't ask about their procurement process. I didn't know who the stakeholders were. I didn't know who I should be working with, you know, and who I should be introduced to. I just kind of was like, here you go. I hope this closes. There's no urgency. That was the problem and the key learning for me was, always have an executive sponsor and ask him about the procurement process. It's okay, I have been a customer before of security solutions. I was not always thrilled with my procurement process and that's not to say the procurement teams are bad. I love procurement teams. They're amazing people. But they have a responsibility to do what's right for the business and if you're an early stage company, they're going to push back. So it's important to understand who you're working with on the procurement side. That was the key learning. 
+
+Pablo Srugo (00:45:31) :
+I love that example. I think especially founders who have never worked at large companies forget just how large companies work and the fact is, first of all, obviously not everybody knows everybody. Second of all, not even everybody is a friend. They're not all swimming in the same direction where it's like, oh, if John really likes it, I'm in procurement. You know, I love John. I'm going to help John make this happen because that's my job. It's like, my thing is this thing. I'm interested on this thing over here. So you as the founder have to basically figure out, okay, the champion is the thing I think that we've all collectively learned. We know you need a champion in order to close an account. Cool, great, I've heard this thing from somebody that does enterprise. Who's the anti champion? Who's going to be the person, whereas the thing moves ahead, they're going to be like, nope, we're not doing this because whatever and how can you pre block that, right? So procurement is one obvious one. Legal is another one. IT, these are three buckets of people who, generally speaking, tend to be, let's say, or are potentially going to be on the other side. Being this person saying, wait, but it's an early stage company. It's risky, wait, but they don't have SOC 2. They don't have this, they don't have that, whatever. It's a cyber issue and go figure out how you can get that intro instead of six months down the road when you're like, okay, this is going to close next week. As early as humanly possible and go make friends. Make friends in as many possible places, right? So that the thing gets pushed through.
+
+Damien Lewke (00:46:43) :
+And this is why it really helps. For our first, I think our first like eight customers. I flew to meet them before we decided to send in the PO. Genuinely, it's funny, you know, I like my blank and blank. I did a five and five. I did five cities in five days. I flew to the West Coast, down the West Coast, back to the Midwest, and then back to the East Coast, right? I did like a cross country marathon to meet with customers. Because it allowed me to have these kinds of conversations and, again, build real relationships. That is another core piece. Again, early stage, people are investing in you because they trust you. It is your responsibility to be genuine and build real relationships.
+
+Pablo Srugo (00:47:25) :
+And so now are you doing this? Going to what works? And besides just having, you know, saying, okay, the pilot is like this, it's this long, et cetera, et cetera. Do you then go out and meet? Have you identified kind of every department that could block it and you're going in, and meeting them. Whether it's in person or virtual, whatever, and just trying to figure out who the key stakeholder is going to be along the entire way from zero to, you know, signed full contract?
+
+Damien Lewke (00:47:47) :
+Yeah, as best we can, right? You're not necessarily going to understand everything in every capacity, but if I can't meet you in person. I will take the time to catch up with you one on one. We now have an amazing sales leader and sales team that we're building, and scaling. It's a whole thought process around kind of when and how, and why I hired salespeople when I did. But yeah, I mean, I flew to meet a customer for 24 hours last week, right? Got on a late night flight, got back on a late night flight and every bit matters. And it was with the team and we got them lunch, and we spent some time with enablement. And also just spent some time asking about their lives, and how they're doing. And at the end of the day, we're all just people and I care about what we do and that we can make people's lives better. So it was important to build that relationship and I'm still getting on planes, Pablo.
+
+Pablo Srugo (00:48:30) :
+And for context, what kind of ACVs are we talking about? That you're doing all this work for?
+
+Damien Lewke (00:48:35) :
+Yeah, I mean, so in the beginning, you'll take any budget. But, you know, flexing into six figures for sure. These ACVs, and this is what I'm really encouraged by, is our ACV is continuing to climb and becoming extremely significant. Which is great proof of the problem we're solving.
+
+Pablo Srugo (00:48:52) :
+So you're coming into like $50k, $100k, but then obviously there's expansion later. That's kind of the bucket you're playing in.
+
+Damien Lewke (00:48:57) :
+Yeah, I mean, we've now closed and we've got several more coming. But we've closed several six figure deals now, and in the beginning, yeah, I'll take $20k, $30k if you'll give it to me. You take whatever you get. We're now at the point that we've proved the value and demonstrated something that is able to command a higher ACV. But the key is you got to build something that's valuable. You can't just be like, oh, it's this much because, right? You want to have value based metrics that show why people should pay that.
+
+Pablo Srugo (00:49:24) :
+You talked about revenue acceleration later and kind of waiting until you could really grow fast. How fast did you hit a million ARR?
+
+Damien Lewke (00:49:30) :
+Yeah. So, I mean, we're still scaling. So I can't really comment on ARR right now, but we've got a pretty aggressive target that we're looking for. The key really with scale is always to stack your pipeline and make sure as you get customer adoption that you're able to commit to that scaling process.
+
+Pablo Srugo (00:49:47) :
+Perfect, well, I'll ask the last question we tend to end on. Which is what would be your top piece of advice for an early stage founder who's kind of still looking for and finding Product Market Fit?
+
+Damien Lewke (00:49:57) :
+Continuous customer discovery. It doesn't matter if you have a solution built. I mean, people use product market. Product Market Fit is honestly a journey. You have moments where you see that you have it and we experienced that. But we got there because of, gosh, at the time, twenty one months of constant customer discovery. I think the best thing, if you got thirty minutes or an hour and you're not sure what to do with your time. Get on the phone with a prospect, get on the phone with a customer and ask them. That is the best thing that you can do is continuous customer discovery.
+
+Pablo Srugo (00:50:27) :
+Perfect, man. Well, Damien, thanks so much for jumping on the show, dude. It's been great.
+
+Damien Lewke (00:50:27) :
+Pablo, it was a pleasure. Thank you so much for having me.
+
+Pablo Srugo (00:50:27) :
+Wow, what an episode. You're probably in awe. You're in absolute shock. You're like, that helped me so much. So guess what? Now it's your turn to help someone else. Share the episode in the WhatsApp group you have with founders. Share it on that Slack channel. Send it to your founder friends and help them out. Trust me, they will love you for it.
