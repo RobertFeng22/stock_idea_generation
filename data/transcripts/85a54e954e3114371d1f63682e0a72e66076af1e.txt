@@ -1,0 +1,539 @@
+Our mission is to put intelligence on a billion machines, and we think that can have a profound impact on society. Applied Intuition is a physical AI company. We put intelligence on machines, cars, trucks, tanks, drones. It's a physical moving thing. We make an intelligent Digital AI, of course, is building software and optimizing ads and creating videos.
+
+That's all interesting and good, but really when you talk about the global economy, that's physical AI. In this intelligence revolution, the companies that impact the physical world might actually be bigger than the companies that impact the digital world. How many things are there where the idea of physical AI, physical intelligence are gonna matter? There's no reason autonomy should be this obscure, difficult technology. Our vision for that is a high school kid that can make iPhone apps should be able to make autonomous systems.
+
+That platform for designing and developing is what we're launching. It's called Dana. Everything that we've built and developed over the past nearly a decade, that's available in Dana. Which will we get first? A perfectly single way to real world environment for training autonomous devices or Grand Theft Auto six?
+
+Much of today's AI conversation is focused on large language models. But the next frontier may be physical AI, software that enables machines to perceive, reason, and operate in the real world. In this episode, Marc Andreessen and I sit down with Applied Intuition cofounders Kasser Yunus and Peter Ludwig to discuss the future of physical AI, along with the company's newest platform, Dana, which is designed to simplify how autonomous systems are built and deployed. They explain why physical AI presents a fundamentally different set of engineering challenges, where autonomous systems are already making an impact, and why the next decade could transform not just software, but the physical economy. Kasser, Peter, welcome to the AZNZ Podcast.
+
+Well, thanks for having us. Your name is? Yeah. We're just one of many. I feel like I think we've all each known each other for Yeah.
+
+Too long, more than I'd like to admit. Yeah. One time. We're lucky to both be the first investor among the first investors in the first round, of course, check sizes. And I was an investor for you, even before Exactly, yeah.
+
+Let's do that in a segue, we have a lot to talk about today, we have the biggest launch in company history to talk about today, but first of we just give an update, status, what does Applied Intuition do for those who are Yeah. For the people who don't know, Applied Intuition is a physical AI company. We put intelligence on machines. That's the simple way of describing it, and all types of machines. So cars, trucks, tanks, drones, you name it.
+
+It's a physical moving thing. We make an intelligent and the history of the company is we originally started by making the tools that would make the and then we got into the actual intelligence itself. In some ways, a very boring AI company in the sense of 83% of the company is engineering. We win by making really great products. It's not like a good sales or something like that.
+
+I don't think we're good enough for a sales enabled company. But, yeah, over a thousand engineers and based in Silicon Valley, but we have offices globally, 18 offices. And our mission is to put intelligence on a billion machines, and we think that can have a profound impact on society, both in the kind of pissy things everyone talks about safety. If you really talk to somebody who's been in a car accident or in a mining accident or in a farming accident, you those are real gnarly situations. Beyond just fixing that, if you can unlock productivity, I think we've seen the unlock in the digital world, and everyone's super excited about it, and you have trillion dollar companies emerging.
+
+I'm a pretty strong believer that I think when we look back twenty five years if you look back at the Internet now, you look at the original Internet companies that are doing serving or they're doing some analytics, and those are interesting. But really, when you look back twenty five years from now, big monolithic companies are Amazon that delivers you stuff, Apple. These are the true kind of companies that come of age. And I think when we look back twenty five years in this intelligence revolution, the companies that impact the physical world might actually be bigger than the companies that impact the digital world. I would love for you to talk about the following, which is when we first started the company, the knock on the company, I think, was, oh, well, it's making cars autonomous.
+
+Right? Self driving cars. But it's kinda like, okay. There's, like, whatever. There's Tesla and Waymo are building their own self driving cars, and then there's six or eight other car companies that matter, and then the company just could never get that big because there's just not that many customers.
+
+Yeah. So how should people think about, like, how many things are there that are things that move where the idea of physical AI, physical intelligence are gonna matter? Yeah. I mean, even today, even if you'd put that, let's say, view on us, automotive is 30% of our business, so 70% already is non automotive. Right.
+
+And I think if you fast forward another ten, twenty years, even the manufacturers themselves as a customer base will be a small amount. I think that mission, just keep thinking of a billion machines becoming intelligent, and you think about all the types of machines that exist. Automotive is just an easy one. I think it sticks in people's head because we all drive cars, and it's a big market. But I think it'll be a minority of the and we already see minority of the business.
+
+I think it'll be increasingly a minority of the business, but that doesn't necessarily mean it'll be small. Right. Automotive is still huge. Just as a part of the globe's GDP, automotive is something like 3% Right. Of all GDP.
+
+I think the way we always think about it is you try to get to your mission. Initially, the manufacturers were the distribution to that intelligence to consumers. But then you start working in defense, and you start working in construction, and mining, and agriculture. And suddenly, the manufacturers are important, but maybe the mining operator is actually really important, or the Department of War is really important, and suddenly they become customers, and all of those are customers of ours as well. Right.
+
+Yeah. I think if you split AI into digital AI and physical AI, right, digital AI, of course, is building software and optimizing ads and creating videos, that sort of thing. That's all interesting and good, but really, when you talk about global economy, that's physical AI. Then we're talking about manufacturing and mining and logistics and transportation, all of these things that Supply chains. Yeah.
+
+Supply chains. Exactly. Let's build on that though for a second, which is so things that move today are you know, historically, that move are things that have human beings at the wheel or at the controls in some form. Right? Yeah.
+
+Airplanes have had to get designed around a human in the cockpit. Boats have had to get designed around human steering things. Like, in a world of autonomy, do we already know what the things are that move, or are we gonna discover that there are a lot of new things that are gonna get built when you don't need a human in the driver's I think both. The thing that you have to remember is, like, you take, like, a a haulage system that's in a port, like a catapult or a kamatsu, the dirt mover in a mine, those are made for twenty, twenty five years. Mhmm.
+
+So the buyers of that of those products, they might not have gotten their full cycle ROI on them. So they're not immediately gonna buy something new no matter how much better it is. So one part of our strategy is you gotta make those things intelligent because they're not going anywhere. The second is what you're talking about, which is, well, that depends on a human in a cab. If you don't have a human in a cab, the machine can be smaller.
+
+It can be shaped in very different ways. You need to talk about mining underground. Right. The constraint actually is the human because the human needs to breathe, and it needs to be very dangerous. And so you can build a very, very different machine.
+
+We're doing both of those things. Right. And then the thing that we're not talking about is we're all talking about intelligence almost like within a system, but the system level intelligence is where the unlock is. And we're already doing work like that where you say, hey. Let's take an entire port.
+
+Let's take an entire mine. Let's take an entire query. And this heterogeneous mix of machines, they're all can talk to each other. And they can optimize and be efficient when one machine goes down or one machine has an issue. The rest of the mind doesn't have to stop.
+
+When it's human driven, we don't even know the machine's gonna go down because there's no analysis. The human is not plugged into the core systems of the machine. Right. So a simple thing like knowing when a brake system is gonna break is actually huge because you can start preparing for an advance. Like, oh, this wear and tear is higher than in other mines.
+
+You know? This is using an example. But the other macro point is if you look at agriculture as an example, average American farmer is 58 years old. The number is something like under 35. It's less than 10% of farmers are that young.
+
+So what's gonna happen? Right. The need for food growth is continuing to grow. The need for rare earth materials is continuing. So these demands are only growing, but the humans who are the bottleneck are decreasing.
+
+Trucking is the same way. And so you can really just unlock a lot more efficiency. So, I mean, one way to think maybe think about this is imagine if the cost for food decreases Right. Because it's way, way more efficient. So what's the downstream impact?
+
+Then imagine for goods being transported. Let's say instead of a few dollars a mile, it's 20¢ a mile. Right. And suddenly, I think the the unlock is very, very, very big. I think doesn't necessarily need for all the machines to be redesigned from the ground up.
+
+Right, right, got it. Makes sense. And then maybe just one more question would be just give us a sense of, parameterize the scope and scale of the company today. Yeah, north of a thousand engineers, and those engineers are obviously the classic software and AI engineering teams. But we also have engineers who really know safety systems.
+
+We also have engineers who really know hardware. Because the important thing that we're kind of just tipping around, stepping around, is all this stuff is hard because it ultimately has to meet the real world. And the real world has way more complexity and has a lot more issues, and we have engineering teams. I mean, we've deployed our models onto 50 some platforms. Mhmm.
+
+Even that sounds trivial, because mostly when you think about models, you think about deploying them through a browser or on a phone, and everything's abstracted away because you have iOS, and you have Android, and you have Windows, and you have Linux, and you have all these systems that have already taken care. In the real world, you don't have that. Right. And so we have engineering teams that can do that as well. Our claim to fame is we've raised over about $1,000,000,000 in the company's history.
+
+All that is sitting in the bank. And I always say that with an asterisk, it doesn't mean we're not gonna spend it next month. Good news, bad news. Yeah. Good news, bad news.
+
+And I think we talk about scale. We're at that phase where these giant markets are around us, and we can make the decision how aggressive do we wanna pursue those, because a decade of, frankly, execution and deployment into production. I think the hallmark of our engineering team is is putting products into production. That really is is a big thing. I don't know.
+
+How do you think about scale? Yeah. I I think that that's roughly I mean, the the mission of bringing intelligence to a billion machines, that is how we think about it. And then thinking about, well, what are the types of machines that will have the most impact on and focusing on those areas first, but we'll we'll get there. Io, let's go deeper into the differences between digital and physical AI, and more so into where where are we today?
+
+What what progress as as we made? What are some of the main major bottlenecks in physical AI? Why don't you unpack some of that? Yeah. I mean, I think a lot of times people think about the progress in physical AI is limited to basically two case use cases, and they're just because they're obvious and interesting, which is robotaxis and humanoids.
+
+They're very visceral. They're they're they excite you, and they're kind of sci fi. I think they're those are very interesting, and they there is real work being done by us and other people in in those domains. I think all the other all the other domains, I think, are gonna be just as important. I mean, you just you just think about what happens on a port.
+
+That's there's a huge unlock there. And that's, I think, that's the that's the area we're we're we're really focused on. It's like all the other nooks and crannies. If you look at, like, we we've talked before about rise of Cisco and how, you know, networking kinda went from, you know, first individual machines, and companies would get networked, and then entire countries were getting networked. There's a similar thing happening with AI.
+
+AI is getting to that level of kind of sovereign AI is now a discussion. Sovereign AI really is about physical AI, because that's where you're talking about AI in defense, you're talking about AI in the physical machines that are moving around. If you look just at the example of of Waymo from America and Pony from China trying to deploy in, let's say, the other countries, so not America, not Europe, not China, every one of those spaces, they're way more they're way more hesitant of saying, yeah, thumbs up. Your robotaxis can run unfettered on our in our country. And so if you look back just at kind of this arc of the Internet, you know, when the first Internet companies come, nobody's really thinking about sovereignty at all.
+
+It's like the browser goes everywhere, the Internet goes everywhere. That's almost the power of it. Then when social media emerges, there's a bit more of, hey, actually, not every social media, and then you have China not allowing Facebook to come in, and the the you have some Then you get into the next level of, like, the online, offline stuff. There's more resistance to Ubers, to DoorDashes. Suddenly, there's local players who are being favored very aggressively.
+
+When we get to physical AI, I think there's gonna be huge and also, there's, like, a larger, you know, geopolitical theme of of kind of a more fracturing than globalization. You're gonna have this demand for this AI should somehow be localized. And I think that has to play into our strategy as well. We're a technology provider, so we provide that technology across the globe. And I think that's something that's understated in this conversation.
+
+A few other things on digital versus physical AI. So in digital AI, the state of the art is you can train models effectively on the entirety of the internet, and then maybe augment that with additional data that's been collected and refined with some hired experts. This is sort of a hot field right now. But generally, you're talking about a foundation model that's built on internet data. In physical AI, the Internet data is is useful too.
+
+However, to actually build a foundation model in physical AI, there's also a lot of private data collection. You when we're talking about minds or logistics or any of these other fields, the data that's useful for training models there is not necessarily available. So we have to do a lot of work ourselves actually going out and collecting that data. And then the other key factor is safety. Right?
+
+If you're talking about building a smartphone app, don't necessarily care about is a safety critical application. But when you're talking about moving a machine that weighs many tons or think of a humanoid, could fall over on your children, you care a lot about safety and the evaluation of that safety, and that is really sort of getting to the state of the art of physical AI and really proving out the safety case around some of these city of Barrett models. Yeah. And I think you did talk about, like, humanoid data collection has been its own, you know, little area of interest. But when you talk about collecting data, like, in places like Korea, where they have North South Korea, we have North Korea, they don't allow mapping companies, let alone allowing an American company to come in and data collect.
+
+So we've figured out over the years, whether it's The Middle East, whether it's LATAM, how to get into these countries, work with the governments, and get the thumbs up to collect proprietary data. And so in in the way that it's it is similar to, you know, other digital AI systems. Your proprietary datasets, scaling laws, all that stuff is the same. It's just applied in a very, very different way. And it's almost like the way to think about it is like the diffusion of these models is very different because you can't it's not everyone can just access them through a phone.
+
+You you get and so so that, ironically, is actually plays in our favor. Because once we have a massive proprietary data center where we've been building, we already have hundreds of petabytes of data, and then we have our own tools, which are like, you know, synthetic data tools, neural SIM. We can use our own tools with our own proprietary data, and that allows us to build some of the best systems in the business. Because isn't there's kind of a chicken and egg thing, which is, like, in order to build an autonomous physical thing, you you need a lot of data. To gather that data, you need a lot of physical autonomous things running around collecting the data.
+
+So, it's like once you have a giant network of physical things running around, you have the data that makes them all work. Is there a flywheel aspect to that? What's the level of difficulty involved in booting up that flywheel? It's it's difficult, but it's also not difficult. I I mean, I think we we have one of the largest data collection fleets on the planet, frankly speaking.
+
+So that's how you bootstrap your way into it. That's just money and resources technical knowledge. But it's not like there's probably more than five companies that have that technical knowledge. So it's not extremely obscure. I think what is more difficult is then how do you actually have that model which is going to work on lots of different hardware and is, you know, is is tested appropriately.
+
+Because the you saw it, you know, in Cruise. Right? Cruise was this company that did amazing self driving work, and then one accident, General Motors owns them, and they get super scared, they pull back. So it's like just getting these things into production is actually more difficult than than it seems. I think we believed synthetic data was gonna be important, so we started our synthetic data team five years ago now, plus.
+
+More than that, yeah. Yeah, more than that at this point. We're a strong believer that synthetic data can accelerate autonomy development. Mhmm. We've just seen that.
+
+Mhmm. And then there are, like, lots of other, you know, secondary and tertiary, like, technical innovations that happen. Obviously, the transformer revolution hitting self driving, massive. Basically, everything done in self driving pre '21, '22, relevant, but you're almost like that's kind of the starting point. Mhmm.
+
+But it's also different than today being the starting point. Like, those four, five years are actually there has been a lot of work done. You can see it most clearly with Tesla, but there's other folks. In that process, the actual techniques, historically, and I'm simplifying here, imitation learning was the way the game, which was collect a bunch of data, and then the models would basically imitate what human drivers do. The real state of the art right now is end to end reinforcement learning in a closed loop, in in your tools.
+
+And so it's a little simplified to say the system learns itself. Mhmm. It identifies where the issues in the self driving system are, and essentially, you then find data like that or you synthetically create data like that. And then you, you know, you close that loop, and you seek, are you performing in those same scenarios better and better? I think if you fast forward some years, that will be a completely closed loop, like with no humans intervening.
+
+Right now you still have like, what's the fog error that we saw? We still see errors in the real world that impact self driving. Oh, yeah. It's like, well, are the bottlenecks, right? The bottlenecks, there's plenty of them.
+
+But whenever you're dealing with physical systems, you inevitably, you hit a lot of gnarly hardware problems. And it could be anything from overheating to sensor being slightly miscalibrated, or a funny a funny issue we saw yesterday was basically a fogging sensor, like fog impacting a sensor. But these are the things that you actually to solve for this stuff to work very reliably in the real world. Yeah. So I'm gonna ask you a question, and we can decide whether you guys wanna engage on it or not.
+
+It might be an opportunity or might I hate the question, which is were you surprised so Cruise was a super high flying Silicon Valley autonomy start up that was kinda running neck and neck with Tesla early on and so forth, you know, very top end team, and then they famously got bought by General Motors. One of my first distributions personally, so I had There we there go. Y Combinator Y Combinator company. And, you know, top end team, and they they were, you know, by all accounts making excellent progress. They got bought by General Motors.
+
+They became the GM autonomy program. GM got a lot of praise, at least, you know, at least in the in the in the tech in tech circles for being like, okay, being like the the legacy automaker with the biggest investor. I I called Peter when before before it was announced on that, and I said, hey. Cruz just got by you know, he's also GM family. We're both GM families.
+
+And Peter guessed it was. Said NVIDIA? I said no. He said I said go fish. This is Apple.
+
+I said no. I said general, explicit of motors. Yeah. That's right. So that's surprising to people who are from GM.
+
+That they were willing to buy it. That they Yeah. That they did it. Okay. Yeah.
+
+They did it. And then by all accounts, they were I mean, as far as I ever heard, they were making excellent progress, and then they had this, there was an accident. Was it an injury or fatality? It wasn't a fatality, it was a serious injury. Somebody was dragged for 20 feet.
+
+Yeah, serious injury, bad press, and then they put a bullet. The the GM CEO on board put a bullet in the cruise project. And Yeah. I know the crew that at least some of the senior cruise people were extremely upset Yeah. You know, the the by by the aftermath of that.
+
+Was it surprising that they reacted the way that they did? Know, full disclosure, General Motors is a customer, and I went to the General Motors Institute, so we have a lot of love for the company. But incidentally, and ironically, I'm reading a coincidental, should say, I'm reading this very famous book, which I had actually never read before, called On a Clear Day You Can See General Motors. Right. And DeLorean's book.
+
+Has one That one does. Has one been Have you read that book? So I years ago, I have. It's one the great all time book titles, and we should just pause and say, John DeLorean was like, what? He was like the super genius of the car industry.
+
+He was gonna be the next president of General Of General Motors, and then later on, he started his own car company, which was Which was in Back to the Future. Back to the future, and then that whole thing collapsed for a variety of reasons. But, yeah, he was like a legend. He was like one of the main principal drivers of innovation in the car industry. Exactly.
+
+Leia Coco Boblotts, this category. Yeah. And you gotta remember, is in this right corner. Sorry, repeat the title of the book. On a Clear Day, You Can See General Motors.
+
+And why was that the title of the book? Because there's a lot of bullshit. It's a very large complex. Yeah. Complex.
+
+Yeah. Yeah. It's like a it's like a nation state. Yeah. It mean, really.
+
+I mean, is. Right. I think people would say that, like, sometimes almost, like, flippantly. Right. But these companies are, like, extension.
+
+Like, Hyundai is an extension of the state. Toyota is an extension of the state. Volkswagen is literally, Volkswagen board members are members of the government. Right. So these are extensions of the state and and and almost every and there used to be old saying, what's good for General Motors is good for America.
+
+Right. And you cannot under state how important General Motors is the history of the American corporation. Sloan's My Years at General Motors, An Adventures of White Collar Man, if you run a large engineering organization, you should read that. That is the the this like, do you this this thing that that we talk as a modern corporation didn't just emerge. Right.
+
+Sloan and Kettering create Kettering's the head of engineering, created this with this arc you know, with levels and vice presidents, and how do you do functional and matrix organizations. It's there really is like the source code. Comes along, John, know, comes on DeLorean, and he says He writes that he's gonna be president, and he's so fed up with the company. But what was controversial was GM was doing really well at the time. GM was like a When we say like GM was number one in Fortune one hundred, it was like number one, two, and three.
+
+It was everything, and it was seen as the best company in America. So somebody to openly criticize the company. And so he has a hope He writes this book as he quits out of out of how annoyed he was how General Motors was being read led. He writes his book, and then after he, like, sobers up, he's like, I don't want that book published. And so he fights for years for his coauthor not to publish the book.
+
+The coauthor still publishes. So it's a real true insight into a large corporation. I'm incidentally just reading it out, even though I've, you know, worked at GM twenty some years ago and had, you know, know a lot about the company. And what's shocking is it's not only about GM, most of the major manufacturers actually still operate that way on the inside. And so the question isn't the the the point, I think, for everyone to take away isn't that these people who run these companies are stupid.
+
+Right. They're not stupid. They're it's kinda like, you know, when you're selling to the department of war. Right. And people say, well, why are you doing that?
+
+It's like, well, the distribution defines the business. Right. That like, so like, the distribution is this is a consumer product of of this this stat might be outdated, but when I worked in safety systems twenty years ago, remember GM used to pound into your head. On the top five consumer lawsuits in in American history, three are automotive. Right.
+
+We got the majority. Right? So it's a gift to be extremely careful. We had these, like, weird things, like, inside the company, you couldn't it wasn't red, yellow, green. It was, like, purple, or like, you'd always have to as decoder, because you know why?
+
+Because when they go to lawsuits, they're like, you let a safety system that was marked red go to production. Was like, no, it was marked magenta. Right. Right. So, can you imagine how infuriating that is?
+
+Every time you're like, what does orange mean? Does this mean I have to like so fast forward to your meeting that system. Well, slogan for a very long time was that it was quality is job one. Right? Yeah.
+
+Yeah. Versus safety is job one? Yeah. Yeah. Exactly.
+
+Safety is And and and that's the one two punch of automotive. It's quality and safety. Quality and safety. And quality really because because the Japanese really reset that that stage in in because that's a whole separate automotive history. We could talk about automotive history for for an hour.
+
+But the punchline is you have the Silicon Valley company meeting this immovable object. There is a parallel universe that cruises out there right now, even as a part of General Motors. So I think you always have to take it into the context of where the company is, where union negotiations are happening literally that year. And if you're the union, you're like, you can't make a billion dollars for us, but you're funding this thing Right. That's killing people, and it's sloppy.
+
+So I'm not saying precisely that's what happened, to be very clear, but it's a multivariate problem. My other hot take is, I worked at both companies, right, Google and General Motors. Those companies are way more similar than they are different. Way, way more similar than they are. Literally, people don't need to know this.
+
+The Google leveling system is the same as the General Motors leveling system. And I I used to say I used say, you know, this inside of Google Meetings is like, hey. Actually, some of the engineers I knew at General Motors are better than engineers here, and people would look at me like, I'm saying there's no god in church. It's like they're like, how dare you, you metal bun bending monkey from Detroit? I was like, no.
+
+Actually, like, making a modern combustion engine is extremely complex. It's not just like, you know, it's it's it's not simple stuff. And so the the the macro point, I think, is it's a bunch of things. I think safety is always at the top of their top of their list. I do think, you know, we've hired lots of cruise people.
+
+I think the way they dealt with that specific issue with the government, you you gotta you gotta dance a particular way when that happens, and they just didn't dance exactly right. And that just gives government bureaucrats more ammo Mhmm. To go after. And you're a big target like General Motors, you gotta you know, it reminds you, you guys ever see that movie like Goodfellas? You know, there there that the the one of the last scenes of the House of the Rising Sun, you know, the all the old bosses go in the back of the courtroom, and they're like and, you know, that's what happened.
+
+They're like the the the board was like, what do we do about Cruise? Like, what can we do? I was like, Kyle's a good guy. But And then it like, cue how's the rising sun? You know?
+
+People running through a San Francisco office. Just kidding. Don't make that an AI video. Just gonna a mean text from Kyle. Exactly.
+
+So, think there is a universe that would've survived, but it's tough. So, then a lot of what applied intuition does is kind of, as you said, like that dance. It's like how to be a great partner to these companies. Exactly. Bearing in mind their own real very real issues and constraints.
+
+I I think General Motors also had the topic of business model. Right? So you have Cruise was going after the robotaxi concept, but GM makes its profits from personal car ownership. Right. And those things can be a bit odd, so I think that was also a bit of the Bit of the equation.
+
+Right. Okay. Yeah. And I think it wasn't clear. I mean, by the way, you know, you, actually, all people, you spoke at YC at twenty in 2013.
+
+I was in the audience. I was a partner at the time. And you said something which I think is it's it's it's very, like, recursive here. We're we're feeding each other your own advice. It's the key thing in in new techno in the new technology business.
+
+Actually, everyone kind of figures out the technology, though that's still hard. It's so hard sometimes to build really complex things. It's when and how you deploy them into the market. The when becomes really important. You're two years early and you're doomed.
+
+You're two years late, there's too many competitors. You have to hit it at the right spot. And I think it's like I mean, a controversial thing to say is like, I actually think Cruise, you know, they were certainly moving at a much faster pace than Waymo. They started way behind, and you're talking about neck and neck when ultimately the plug was pulled. So who knows what happens in the long term?
+
+Our hypothesis in that same equation is actually the distribution. You let the manufacturers do that. Like, we run self driving trucks right now in Japan. They carry commercial loads. They're they're you know, they're safety drivers there, but they're autonomously running.
+
+And but you won't know that because the brand is Isuzu. Mhmm. That's the customer. And and why it's so good for us to partner with Isuzu in that case is that company's been around for almost a hundred years. Right?
+
+If I'm if I'm not mistaken, a pre pre World War two company, and they are you know, they know the government. They have test tracks. They know safety. They know their own trucks very well. So when we go and provide them with the intelligence and the integration into their physical machinery, that's a fantastic one two punch.
+
+I think today, the world is ready to consume AI in the real world, and that's a lot because of ChatGPT and Anthropic and all these you know, everything that's happened. So people are no longer like, what's a self driving car? And there's because of Waymo and Tesla. So the market is ready to consume. And I think you just have to meet the market in the way that the best way possible.
+
+In our view, that has always been, you go through some of the people who run the economy right now, whether it's a mining operator, whether it's a department of war, whether it's manufacturers. And we work with, you know, within each vertical with the right partner. But that's a fundamentally different view than a Tesla or a Waymo, which are gonna be vertical. Mhmm. We're we're really playing the horizontal.
+
+And I think the way we can always think we think about our companies, and we're kinda like a like chipmaker. Mhmm. You know, we we we actually look and talk and walk a lot like a silicon company, except we obviously do, we don't make chips, but, you know, we're our we have design wins, and then we have really large long term relationships, and then once we're in, we're in, it's really hard to, you know, to to take us out. So you need deep trust. Our our partners have really a lot a lot of deep trust, and we know their markets really, really well.
+
+The the things that Jensen knows is he knows his customers. That's why NVIDIA does well beyond the fact, obviously, they make a very complex technology. So how are these legacy car companies preparing for the future? Are they making more acquisitions? Are they going to?
+
+Are they building and partnering with you? How are they going to compete with tech native companies? It's like saying, how are governments dealing with AI? It's such It's a broad topic. And each manufacturer, like, even, like, you take Honda, Nissan, Toyota, three Japanese manufacturers with, you know, long legacies, they all approach it very differently.
+
+They're roughly in a spectrum of we're gonna build to we're gonna buy, and other both extremes. More than ever, we're gonna buy is the common answer, because they've been trying, and we've been there the whole time. For the folks that are gonna build, we provide them tools, And we talk a little bit about our new product that we're announcing here. And then on the ones that just want to buy, we sell them the actual intelligence that goes on the machines. And so we meet the customer wherever they're ready in their journey.
+
+The more nuanced version of that is, you know, the reality is, like, every every product is a different product. And so the amount of silicon and amount of dollars you can put towards it, towards sensors, what the customer's willing to pay, all that depends on what actually gets in In the long horizon, all these things will be fully autonomous. But the intermittent steps are very much what we saw in the PC, where you you have this slow step up to, one day, that'll be like, now nobody really looks at laptop specs and even maybe, frankly, your phone specs. But that's not the case from basically '85 to 2002, 2005, where finally people stop actually specking at all, and and and then they're really moving to laptops. But there's a similar kind of twenty year, I think, horizon there.
+
+Broadly, when we talk about machines and machines becoming intelligent, right, fundamentally, a machine is is a collection of these different components that are integrated. Right? And whoever does that final integration is oftentimes the company that puts their badge on it, the brand name, but many, many companies are building technology that goes into that machine. And so we now have a bunch of technology components and platforms that can go into these machines, but we also sell the core technology that can be used to develop them as well. And if you look, by the way, under the hood of a of a dirt mover or, like, combine or diesel truck, they'll have Cummins engines in them.
+
+But nobody says, well, because all these guys buy Cummins, this this means that they're, you know, whatever, Caterpillar is not a good company. It's like, no. That's just a component that they buy. They they had they have a different role. So if you when you look in the any of these verticals, there's it's just a complex web of folks.
+
+That's why I always say, like, the the chip kind of analogy actually works quite effectively because some none of those companies make chips, but they all buy chips. And so I think that that's the the it's a good way to think about it. So self driving cars, so, you know, we've all been talking about self driving cars for, like, I think the whole thing started, like, around, what, 2005 or something with the DARPA Grand Challenge originally, and so and then Google engaged on the program shortly after that. Yeah. Late double o's.
+
+Yeah. Late double o's. So almost 20 basically, around 20 little less than twenty years maybe. And there have been lots of predictions over the last twenty years of self driving cars are imminent at any moment. So I guess the bad news is we're sitting here today, most cars are not self driving.
+
+The good news is there are now self driving cars. Yeah. And so the way more cars are driving all over, you know, in the places they're deployed, it's become you know, I think people in San Francisco I think, treat it now as routine that they get into some I think you can call I think Tesla Tesla's like the AGI thing. It's like Right. You know?
+
+If we're talking twenty years ago, everything we're seeing right now is like a mind blowingly AGI. Right. The host keeps moving. The Tesla stuff's amazing. You can look at a bunch of manufacturers, Blue Cruise, Super Cruise, BMW, Volvo's Pilot, they're all quite impressive systems.
+
+They're not full self driving. Right. But, yeah. Well, it's it's full self driving x whatever remote monitoring is happening. Yeah.
+
+The the Tesla we have we have a home in in in Los Angeles, and you you guys may recall there was a there was a large fire in Los Angeles. Yeah. Yeah. And then the power then then the and then the California power grid was buckling even before that. So it actually turns out among the things CyberTrucks are good at is they're they're very good batteries Yeah.
+
+For powering your house. Yeah. And so literally, have Teprotrux as our backup battery for the house. And as of last year, whenever the FSD release, I forget the exact one, but there was one where it, like, at least a lot of people thought it, like, really turned the corner. 14.
+
+Yeah. And, like, that thing drives you I talked to somebody yesterday talked to somebody yesterday who has a model y who let the let the thing let the thing do the the full route all the way up Highway 1 through Big Sur. Yeah. Think mean disengage like the the and, like, miles per disengagement are are really high, I think miles is, like, in the thousands. Which is, like, very impressive.
+
+Yeah. Know the big for people haven't driven the big Highway 1 Big Sur, like, that's a that's a that's a stressful drive. Yeah. He said it was great. The whole anyway, so and I wouldn't have been talking to him had it not been pretty.
+
+Yeah. Right Would have off right off. Because he unbolted the steering wheel. So Right off the cliff. So and then, you know, Tesla's rolling out their robotaxi, you know, that is is starting to starting to show up in the in the wild.
+
+And so so on the one hand, those exist. On the other hand, you know, 99.999999% of cars are are not self driving, and then I would say maybe just one other would be the self driving trucks. There's been this recurring kind of panic in the press of the trucks become self driving, and the employment, all these truck drivers gonna be out of a job. And sitting here today, I don't know, are there any trucks on the road that are self driving that don't have at least a safety driver in the truck? And I think the answer is probably still Yeah.
+
+Still very few. So let's let's split let's split the there's multiple points that we brought up here. One is on the, let's say, personally owned vehicles. Right. And why are they not more ubiquitous?
+
+The part of that is the manufacturers are not good at deploying technology. Part of that is they're they're they wanna be safety conscious, but most of it is cost cost cost. The the what you're seeing in China, which is a China's kind of a different EV ecosystem mainly because they don't care about profits. When you're talking about business that doesn't care about profits, it changes the entire calculus of the entire industry that that doesn't care. But what you're seeing is you're seeing l two plus plus systems.
+
+So we can simplify the entire self driving conversation to, is there a driver behind the steering wheel? Right. So this is a driver behind the steering wheel still there, but generally, like Tesla drives everywhere. They're like sub $1,000. Right.
+
+There's an aggressive that's that's chip, sensors, the package, the software, everything. We, you know, anticipate that there there's a very aggressive once you get to, like, 500, the automotive OEMs will actually subsidize it for free. They'll just give it to you. This happened in nav systems. If you guys remember, nav systems used to be a big thing.
+
+You pay $4, 3,500 to get a nav system, and then suddenly it became free, and it just became default. I think that'll happen. The there's a weird thing, which is like, actually getting into a subset of your cars costs x dollars, and to get into all the cars costs x plus just a small incremental amount. Mhmm. These are just a fixed cost and the way that how many vehicles and the the way the assembly line comes and the way you have homologation, all these testing regimes, all this stuff.
+
+So I think you'll have wait, wait, wait, and then a lot. Yep. Every single OEM, without exception, even the lowest dollar OEMs are working on an FSD competitor. Yeah. So it it it'll it'll come.
+
+But it'll just like, you know, with a good analogy to think about self driving in the personally owned ecosystem is mobile phones. Right. We had we had the the satellite phones, then we had the Qualcomm, you know, Brick phones, then we had the Motorola razors, and from, you know, the late nineties to the late two, you know, double zeros, the review was like, when's mobile gonna come? There was a huge, and then it it comes, and we we go by by o seven from the iPhone launch, like, it's like four years when you get Uber, Instagram, WhatsApp Right. Snapchat.
+
+Right. Those are the killer applications. Right. So I think there's a very, very similar kind of wait, wait, wait, and then it's just basically ubiquitous in every vehicle. Right.
+
+If you had to ask me for what that number is, '28 SOP, '29 start up production, '29, '30, and then by the early thirties, it'll start becoming very cheap to free. Pretty much routinely by by the early thirties, you would just you buy a car, and you just assume it's self driving. Exactly. Yeah. Or it has the driver in seat l two plus plus system being very specific.
+
+Cyber truck Tesla have what Tesla owners have today, what Yeah. Will be in will be default. So then the question then the the, you know, the the other side of this is, why don't we have a bunch of Waymo's everywhere? Specifically, Waymo has a different technology. And without getting into the nuances here, but Tesla and many of the Chinese and Applied were very much in this end to end model architecture.
+
+This is a new way of doing self driving. Waymo, for the lack of a better word, is not that. It's not doesn't mean they're not learned. It doesn't it's just just not one end to end system. It's not one monolithic model.
+
+One of the proclivities of their their approach is it does depend on HD maps, therefore, is a geofencing concept. I think Waymo's trying hard to remove that bottleneck so they can expand geographically faster, but the reality of today isn't there. The other thing is when you have researchers, which they which Waymo really was coming out of an alphabet research organization, they didn't put commercial constraints. So the sensors are bespoke and expensive. The cars and the then the compute that are in there, they're they're just not economically feasible.
+
+And they've tried a lot to get that down, but it's kinda like it's a lot easier to go from something that's really cheap and make it more, you know, more feature full than something that's overbuilt and then trying to trim and make it really, really cheap. And that's the big debate. Who's gonna get there first? Tesla with full self driving or Waymo with cost and geographic ubiquity? But you know what we're not debating about?
+
+Is it gonna happen? Right. You know what we're not debating about? Like, is is is there's a big technical breakthrough that needs to happen. None of those things.
+
+So now we're clearly in the engineering side of self driving, which is just this grind down to, like, dollar per mile efficiency. And the moment that it's cheap, guess what? All the OEMs are smart. They'll just they just adopt it. It's not that OEMs are resistant because they don't think consumers want it, or they don't understand the technology.
+
+It's because they want a price envelope, which allows them to keep their thin razors, thin margins, and at a scale Right. Which is deployed across a 100 plus countries in v one. Right. And so if you're just doing a small deployment, it's very different. And I think and and that was the last thing I would say is the buyer of a Subaru or a buyer of a Suzuki have very different brand expectations than a buyer of a Tesla.
+
+Mhmm. And so including the age of the consumer and what they think will happen or or or what happen. So that that also the reason. So if you're Suzuki, you're like, my buyer's like not don't want this stuff, so I'm not gonna jam it into the car. It's not because they're not like technically competent.
+
+This is a different area. When do think when do you think it'll be routine? Let's say the 200 biggest American cities, like, it wouldn't be routine to walk outside, and you're you're just taking for granted that a robotaxi can come pick you up. It's twenty six now. I mean, certainly by thirty.
+
+Alright. Okay. Yeah. Certainly by thirty. And I I would say the the big, like, variable there really is, like because you what Waymo will say is that the dollars and cents per city already work.
+
+Mhmm. And it's like, well, a company that has basically unlimited capital, why are they not already in 200 cities? But then you see their launch schedule is pretty aggressive, and you're like, that that can that that can get there. So maybe because being aggressive, I would say 28. Yeah.
+
+Okay. Like, two years. I I would say I would say available in '30, but routine in maybe, like, '32, '33. Sure, because there's scale up, there's a volume. And also, if you live in LA, so, five years ago, I'd go to LA, people would be like, What's applied intuition?
+
+I don't know what self driving cars are. In the last couple years, now they all know self driving, and some of them even know applied intuition because they know from the other manufacturers. I think you fast forward another two to four years, everybody knows it. Now Mhmm. Does that mean everyone's taking Waymo's exclusively?
+
+Right. That answer is no, actually. Now there is a huge, huge if you look at the numbers, if you're Uber, you gotta be scared. I mean, they're just eating into into ride sharing. Right.
+
+Yeah. But to get a 100% ubiquity, I mean, that's that's that's another it has to be extremely cheap. Good. And what about long haul trucking? So long haul so that's what we so that's the passenger side.
+
+The long haul trucking, completely different economics, completely different business model. There are many companies right now, I would say probably north of five, that are running long haul trucks with drivers carrying loads between America and China. If you see that China is probably getting into double digits. Mhmm. So it's there.
+
+But the reason you don't know it and the reason it's not top of mind is it's not a consumer product. Right. And unlike on the Waymo and Tesla side, where investors are willing to essentially give you, you know, some market cap, you know, adjustment for the potential of they say the trucking business is like, you know, made You buy a car with your heartstrings, you buy a truck with a calculator. Yeah, it's a calculator business. And so it's like pure dollars and cents.
+
+And so I think you, as the provider of self driving trucks, if you're doing the whole thing, like some of the companies are, which we're not, you have to show every mile, I'm gonna save you this many dollars. And it's like, for sure, for sure, for sure, because the buyer's unsophisticated, And they're just like, well, I already got a staff. They can drive. And it's like and they're like, they're just not inclined. Now where we're playing in Japan, it's not random that we're doing trucking in Japan.
+
+There's a massive labor shortage today, there's an imploding demographic, you know, situation. And so there's a demand from almost every sector, and that's why we've we've picked that market to to to really grow. But I think, like, you can take, like, even more obscure, like, what will all queries, you know, literally, like, where you you know, you're you're moving cement, you're moving you're moving dirt. Not queries, q u e a r s Q U A R R Y. Yeah, Quarries, Quarries.
+
+Those are rock, stone. Rock, stone, When are those? I can tell you, the people who own those things, and run those things, want it today. So it's literally, then you don't have a point, we can't make this stuff fast enough. Right.
+
+The macro point, though, that people don't talk about, I think all this stuff's gonna happen. It'll happen pretty soon. It'll happen fairly soon. But the macro point that in legislation, and kind of the kind of economics, the political economy of this conversation is AI is really you see, you have this big pushback in digital AI, because we're the accounts that are like, don't know what's gonna happen to my job, and VCs, I'm sure all of your associates are very scared. But, like, in our universe They're betting whether they need us.
+
+Yeah. Yeah. Yeah. In our in our universe, it's the other way around. It's like you they're literally, I'll I'll I'll meet these, you know, operators, and they're like, we'll give you everything.
+
+Like, if you can do this, we'll give you everything. So then it's just up to us to, like, get there as as, you know, aggressively and physically Well, there well, there you know, the the share for a long time has been for trucking, for some reason, triggers the at least the press's imagination on, like, you know, sort of apocalyptic levels of job loss. Like, do will there Well, that's it's so wrong. Go ahead. There's not there's not enough truck drivers, and guess what?
+
+Nobody wants to freaking be a truck driver. Why is that? Explain that. Because it's a terrible job. It's like Because.
+
+You're you're like you're like By the way, grew up the main feature of the town I grew up was a truck stop, so I Yeah. It's the answer. Why is truck driving down the truck driving down You're asking me you know what? This is like talking to my kid, who's like, Well, why can't I put my hand on the stove? It's like, Because it's gonna burn your hand.
+
+It's like, But why? It's like, the third why, it's like, Come on, buddy, let's do this. That's it on a hard way. Yeah, let's do So, what's hard I'm kidding, just to make sure everybody knows, I did not do that on this side. Yes, yes.
+
+So what's hard why is being a truck driver a difficult job, or why would kids not want to do it when they grow up? So, let me use a parallel analogy, which is very clear, and then you can Sure. You know, people will say, like, nobody wants to work anymore. Then they say, well, you know, McDonald's has all these job openings. No.
+
+Actually, what it is is those people that used to work at McDonald's now DoorDash and Uber. Right. Because it's better for them. Better. Because they can open, they can start their hours, end their hours, and they don't have to there's no boss, and they don't have to stand on their feet, and they can surf their phone in between, you know, orders, and they don't like, that's the reason.
+
+It's not random. The market is efficient. Right. And so in the truck driving example, why does somebody not wanna be away from their family for four to eight days in a row Yep. Doing long haul trucking?
+
+The more sharp example is in Australia. Why don't people wanna go literally buy a plane to go to a mine and work on or you go off offshore oil rigs. Those jobs exist. If you want a job that pays 6 figures, they exist. Yeah.
+
+Even with such lucrative pay packages, it's not enough because people are like, you know what? I like kinda being around my family. Yeah. And I'm willing to take an incremental decrease in cost than in how much money I make. Yeah.
+
+And and then also, like, I think today, more than ever, things like back pain, and, like, being exposed to the sun, and cancer, and people that care about that's now part of these This is the thing, tell me if I have this right, but I believe it's because I think long haul truck drivers die, have a life expectancy ten years less than their peers, and think it's a con people say it's a consequence of several things. So one is some combination of nutrition and sleep. It's, you know, it's basically, you know, very difficult to eat well and exercise and keep What's your sleep score if you're a long haul trucker? Let me gather, no eight sleep on that. Exactly, so like obesity and then heart disease, hypertension, and so forth, they're all very high, one.
+
+Then two is I think the vibration is very difficult, stress in the body. And then the third is, you mentioned cancer, but I think it's the I think they truck drivers have, like, a much higher rate of melanoma on their left arm. Exactly. Yeah. There's photos of, like, a truck driver who's been driving for thirty years, one half their face, the other half's face is exposed to the sun.
+
+A more interesting, or even more stark stat, mining is one percent of the labor pool globally, eight percent of work related fatalities. Yeah. Do you think people are rushing to work in mines when they hear stats like this? Most major mines have a fatality regularly, which means once, twice a year, three times a year. And if you ever visit a mine, you'll see that everything is based around safety.
+
+Because once you experience one of your coworkers dying, then you're like, what am I doing here? Yeah. Like, there's other jobs I can take. And so it's I I I understand you're trying to enumerate for the audience, but these are not good jobs. Yeah.
+
+Right. And and and the best evidence is this is not a mining podcast. This is not a podcast about, hey. Long haul trucking is so great. It they're just not attractive jobs.
+
+Yeah. And even trucker even truckers don't want their kids to become truckers. Like, it's a it's a fair for that reason. Wanna you know, if they want their kids to be, you know, at very least, like, safer safer Yeah. Line of work.
+
+But do the do the notwithstanding all that, do they the how long will there be do you think there'll be safety drivers in long haul trucks that are that are self driving? Or or or let's say other even just somebody in the cab to deal with what happens when they arrive? We we know multiple companies that have driver out goals right now. Okay. So they are working to get drivers out right now without going into our own details.
+
+To be honest, it's not long. We're talking a few years. I think on the long end. Yeah. On the long end.
+
+Yeah. And the thing is it's it's there there's a software technology thing, which is one part of the problem. But the other part is it's the redundancies that you need in hardware and the validation necessary for those redundancies. And in many cases, that can actually be a long pull. It's like, oh, they're productionizing a fully redundant steering system, fully redundant braking system.
+
+That's that's not on high that's not on high volume production yet. And once you get that in high volume production, I get the quality up, then that's validated, and I can actually do these Leave the price down. Exactly. K. Do do you guys do do, like, it's the, you know, these little delivery robots?
+
+Like, is that do do you see a world where there's a billion of those running around? Yeah. I think so. I mean, the the the the product that we're announcing, I think, has probably come out around with this time is called Dana. So there's you can just simplify everything that applied intuition does into two buckets, which is the we've been talking mostly about the models that go on the machines.
+
+Mhmm. Then this is, as we say, onboard software or onboard AI. Then there's offboard AI. This is the tools to design and develop these same systems, the the models that actually go on the machines. Our, you know, vision for that is and the the delivery robot is a great example is, like, a high school kid or a middle schooler they can make iPhone apps.
+
+They should be able to make autonomous systems. Mhmm. So why can't they? Just ask that. It's a very simple question.
+
+Why can't a ninth grader make a delivery robot in their in their home? Well, they don't have the the actual environment that they would first develop the scenarios in. They would define the requirements. Hey. I want this robot to go on my high school campus around these, let's say, four buildings.
+
+Then how okay. Now that you define the the requirements, then you have the scenarios get made where all the scenarios that I can that can can be made by using, let's say, satellite image of the high school. Then now you have to train the robot, so you need some data. Where do you get that data? There's maybe enough publicly available data that can actually train a fairly rudimentary robot.
+
+Okay. Now you got that data from online, maybe YouTube videos, couple of other places. Suddenly, the robot's not doing now you need to deploy it onto the actual machine. So then you deploy it onto the machine, and then the robot runs into the wall. Okay.
+
+What happened there? The loop closes. That platform for designing and developing is what we're launching. It's called Dana, which is the street that applied intuition is headquartered on. And our our our you know, this comes from our tooling background.
+
+Mhmm. And if you look at, like, how tooling has changed in the digital AI world, if you look at, like, what Claude did to all mean, you you we also remember, like, you know, from Mixpanel to, you know, GitLab, GitHub, all these now everything has moved into a very different, almost IDE, frankly speaking. We think the same thing's gonna happen in the physical world. And so that that that's yeah. That's what we're that's what we're building.
+
+That's what we built, that's what we're launching. And we already use it in house to develop our autonomy system, which is you know, and we're working on the most kind of scaled complex systems on the planet in all these different verticals. So we're pretty confident that it's actually quite useful. We've seen massive productivity gains, but also, you know, we think like other companies will use this to build their own systems, because it it gets to that mission, that a billion intelligent intelligent machines. Fundamentally, where Dana is our agentic platform for physical AI, and everything that we've built and developed over the past nearly a decade, every tool, every technique, that's available in Dana.
+
+It's very actually easy to use with the agentic interface. And so workflows that used to maybe take days or weeks to run, you can now run those in minutes in many cases, and this just lowers the barrier to entry to building these systems. And just lowering the bar of what it means to develop an autonomous system. Right. Autonomy is still actually quite in the scope of software, it's quite exotic.
+
+It's not because of the things that we've talked about. Right. And we've just brought that down very, very aggressively. And it's kinda like, you know, the old adage of, like, how do you make a great product in software? It's like you either increase safety, convenience, or cost.
+
+Mhmm. And we wanna try to do all three of those things with with Dana. And our hope is, just like you said, like, you know, kids can develop robots for their own use, and that extends to humanoids. So we're not just talking about land based systems, or ones that are so humanoids, you can do drones. Right.
+
+The fact that right now, writing drone software and deploying it at the time is is quite obscure and almost hobbyist. Right. We wanna just make that absolutely, like, you know, maybe not child's play, but, like, teenager play. So this points to a world of, like, just, like, a lot more experimentation and entrepreneurship and, like, agriculture Everything. Bots and, like, basically, every domain construction Yeah.
+
+Defense. Just all of a sudden have a much larger number of people who are applying creativity and coming up with ideas and making things that move. Yeah. And if you've seen, like, with Claude, it's like, it's one thing just to make the engineer more efficient or bring more people into engineering, But then when these agents really run, you're getting into it's just like the iPhone example of you couldn't imagine Instagram Yeah. Before Yeah.
+
+Like, the iPhone. It's like imagine 2005 on laptops, you're like, ten years, there's gonna be this app Yeah. Where and you can put photos into like, well, phones don't even have have cameras. It's like, yeah. But it's gonna be, like, social.
+
+Like, what the hell? Like, so, like, Facebook? It's like, see, it's just hard to hard and so we think Right. By lowering that barrier, you're gonna get way, way more creative autonomy products. Right.
+
+Yeah. I will step with you. Decide whether to include this or not. So, kid is building autonomous bots in Factorio. Oh, nice.
+
+Yeah. It's one of his projects. So but he's he's, you know, he's had rolling because the the toolkit's not available yet, so he's actually training. And he's actually he's actually training models. Yeah.
+
+He's gathering data in the game, and, actually, he has, like, whole army of, like, bots that he's developed at Gone. Yeah. Yeah. So, like And then his mother is like, why are you playing that game much? And he explains, of course, it's a purely educational process and experience.
+
+But it's it's it's, you know, it's the kind of thing. It's it's like, yeah. It's like there, you know Like, there's no reason autonomy should be this, like, know, obscure, difficult, you know, alchemistic, you know, technology. And I think not only does that have a huge impact on society, it also allows people to understand that these systems are not like, you know, magic. Mhmm.
+
+It's like, if I can develop a a Roomba for myself Right. In my house Right. On a weekend Right. Using data Right. Then why then it's not suddenly so scary.
+
+Yeah. Right. And I think that's, like, that's that's important. And we can can it can support it can support people in all kinds of ways that we haven't even imagined yet because I yeah. Absolutely.
+
+Yeah. Exactly. I mean, you think about, like, you know, folks with disabilities. Right. You know, we always think about humanoids as, this very important task of folding laundry, which seems to be a lot of that.
+
+So we focus on, you know, the important task, but when you allow these tools to exist. I mean, you know, we started a tooling company. I mean, I feel so importantly that tools are like what separates actually advanced civilizations from, you know, less advanced civilizations. And our our first mark for the company was a monkey's head, and then we got a designer who said with this. Like, this is stupid.
+
+I was like, I thought it was pretty good. So, you were talking earlier about how when the technology got so good at mobile, that there was a wave of these companies, Uber, WhatsApp, Snap, Airbnb, etcetera, that emerged in quick succession. And so now that technology is getting there, or the infrastructure for physical AI, what are some use cases or companies that you can obviously, it's hard to predict the future, but where were you most excited for? Like, what what could we be talking about the equivalent here of in quick succession? I mean, I think, you know, midterm, we want Dana, if not the the short term, to really, you know, make humanoids way more real.
+
+There's I mean, how many? It's like a thousand core tasks in a home from from humanoids. And these companies, it's like such I mean, I'm if you talk to people who work in these companies, it's everything is difficult. Every step of the way is difficult. Collecting data is difficult.
+
+You know, cleaning that data is difficult. Training those models or deploying the model is difficult. And the bar being, I want a high school kid to make a humanoid. So that that's our our our our path, and we think there there could be a lot there. But that's like these the obvious stuff.
+
+I think the true non obvious stuff is gonna be we'll look back, will be will be way way more interesting. And and there were there's there's core ingredients that we're bringing together in data. We're making it way easier to actually get imitation learning to work, way easier to make reinforcement learning work in combination with that, where we have pre trained models that can be used as a baseline for a lot of things. World models, advanced simulation tech, all of these things come together, and then you're sort of limited by your creativity. Like, well, what do I want to do?
+
+And if you think about any kind of physical AI task as you are understanding the world, and you're manipulating something, and we can build that. That can be built now much more easily in this tool. I think sometimes people ask us being a tooling company, and you take self driving trucks. We deploy self driving trucks, and many of the self driving trucking companies use our tools. I I I think sometimes people ask, oh, look.
+
+You know, with Dana, are you gonna, like, enable all these competitors? That's great. Right. That's absolutely completely fine. If you look at Google and what Google did to web applications, there was a massive Internet.
+
+Google still succeeded through, you know, search and YouTube and and and other web apps, and other folks learned and used open source products, and then ultimately closed source products, and ultimately venture backed products. So we think we think this the the the same thing can happen here. I was in a robotic start up a while back that you you guys know well, and they had they were training you know, they were doing go through a training process, training their one of their arms to do the particularly a killer app that I thought was very appealing, was picking up dog poop. You training over and over again. The difference is that was for the and so, know, I don't know.
+
+Why not? Right? Yeah. Why not have the little I don't have the little robot follow you around me, walk to the dog. Yes.
+
+Yes. Pick up the poop. Yeah. And I think like like you I know somebody who built a I forget who it was. Somebody built a little lawn robot that would go around and pick up individual leaves.
+
+Yeah. Yeah. Because you got that problem right. Hey, you're you're rake you rake your yard, it's completely clean, and then like two hours later, there's like 14 leaves, and you're like, Yeah. Yeah.
+
+And the development costs the little bot to pick up the It's like if development costs are zero, then people will do that. I mean, yeah. I heard do you guys remember, like, the early iPhone apps that hits were, like, the beer Mhmm. One or the fart app? If you imagine that in, like yeah.
+
+If you imagine that in '98 with, you know, with the Symbian mobile, you know, whatever, the OS from my thing, who's Ericsson or somebody, that would be impossible. You need a team of, like, 50 people to develop, like, the beer thing for the BlackBerry. Right. So I think there's a similar type of thing that's happening. We're you know, we really wanna be a part of that.
+
+It would enable that. And if it makes making I think it'd still be a while before making a robotaxi is super, super easy. Yeah. But that'll happen. But there's I mean, the number of bots that could be the number of kinds of bots that could be deployed in health care is is almost endless.
+
+Health care alone is is almost home care home care. Yeah. And then in construction, you know, all the physical traits. It's like us sitting in 2007 and saying, let's we we should have an app store. Right.
+
+What type of apps? And we would come up with, a list of eight. And then they were like, there'll be a messaging one, and then there'll be a camera one. It's like, you know, you look at the app store, and it's like, you know, there's an app for, like, the hotel you go to, and it's like, you know, to to order, you know, food off the menu. Right.
+
+Yeah. Yeah. Makes sense. Yeah. Dee, we're talking, you know, earlier about the the differences between digital AI and physical AI.
+
+We were sort of hinting at LLMs, but world models are, you know, in vogue right now. Why don't you talk about the state of them as it relates to physical AI, and how should we should think about them? First off, world models means about a 100 different things, and we had a team at CBPR recently, and I was joking with them about just how many different ways you can define what a world model is, But when we're thinking about a world model, we're typically thinking about it in the context of a simulation, something that is effectively We started as a sim company. Yeah. Something that is sufficiently able to represent the real world and is reactive in a sense where you can actually have, let's say, an autonomous agent that's acting in this world, and the world model is behaving appropriately in response to that autonomous agent.
+
+Maybe, Peter, I think it's worth being super explicit here. We just go just one level lower. Determinism in simulators, kind of the sim to real gap, physics based rendering, all the way to this generated world. Where do we fit on it, or where Yeah. Describe the landscape, I think, maybe.
+
+Yeah. Yeah. So this is like let's say simulation broadly. Right? There's so many different ways of doing simulation.
+
+And so the more classical approaches of simulation, very physics based. And you can decompose physics in all different ways and all different levels of abstraction, and you can simulate with sensors or without sensors. And and is it is it just a body simulation, or are we actually simulating, for example, the light in in the environment where the Almost think about it like the way CGI is done. If we literally had technical artists, and we have technical artists who would create assets which would go in the simulator, which would mimic real, like, road signs and have, you know, reflectivity and material properties that you would see in the real world. But as you guys know, Hollywood is going through its own fundamental change, and now you've generated techno the same thing is happening in our universe as well.
+
+Yeah. So so that's sort of on the that's at the far end of physics based simulation, and and then the opposite end is is purely neural simulation. But within that spectrum, there's there's many different things you can do that are each useful in their own right. And so one of those things is a Gaussian based simulation, right, where you have a a a effectively, a representation of the real world that that has a a a three d representation, and that three d representation is consistent. Meaning that if if you, let's say, have some reference point, let's say a camera, and that camera moves within that three d world, because the Gaussian is actually representing the three d geometry of that world, you'll actually get very high quality output from that.
+
+There's a lot of value in that, and that's, let's say, one type of world model. But when you go further on that spectrum, into neural simulation, then you get into these where you're actually generating the video feeds. You can think of a neural network that's actually outputting a video as what's actually coming out of the neurons of that, And that can be reactive, which gives you some very interesting properties. Reactive is in the ego does something in the environment, and the other agents respond to the ego. Exactly.
+
+However, you're not guaranteed in that reactivity that it's accurate. Right? Now it's a question of, well, how can I align this simulation, this world model, with the real world and the way that the real world would actually react? And if you have perfect alignment between the real world and the world model, I think you've just solved the universe roughly. That's an impossibly difficult problem.
+
+But as we make progress towards that, it makes training physical AI models much easier because you can do more of that in simulation. But the hardest part, is we're always talking about performance. I like to say the labs, they have it easy because they can make models that are trillions of parameters, and those models can be super slow, and that's fine. We But don't have that luxury in physical AI. We deal in real time, like the actual clock real time, and so we have so many milliseconds before we have to do something, and those performance constraints, they actually constrain the problem in a lot of ways.
+
+So we can have very large models, and we do have very large models that are used in the off board environment, but once you go onboard, all of those constraints are very real, and now we need to train a much smaller model that has these safety constraints, these determinism constraints, and that's the hard part about physical it's also the moat. It is what makes our tooling and our competencies valuable because it's just really hard to meet all of these constraints in physical system. Which will we get first? A perfectly simulated real world environment for training autonomous devices, or Grand Theft Auto six? As long as they keep putting out great trailers, mean, I've I've I feel like I'm getting entertained without paying a dollar, and I'm reintroduced to Tom Petty because of Will you give us some timelines?
+
+Well, so so this is this Let's throw there for a second. Yeah. Listen. Go for it. Go it.
+
+Well, Look. Mean, so the whole thing the whole thing Grants have taught us, the big innovation was open open world sandbox gaming. So it's a it's a sim it's a simulated city, and at least in theory On that spectrum, we hire so many people out of the video game world. On that spectrum, it's absolutely real. Well, tell us about that.
+
+What's the spectrum? This is speculation, but I think Grand Theft Auto six will be perhaps the last major real world video game that's still really developed, let's say, in that legacy era of traditional computer graphics tooling. Technical artists and I think that Theft Auto VII will much more likely be like a world model based video game. You could imagine as AI tech evolves here, have this concept of this video game world model, and there's some sort of baseline, let's say, data store that represents the real world somehow, and then you have some translation layer that's actually turning that data store into something that you can see and run around in. It's fought through The game is a consequence.
+
+It could be the real world, right, as Reson said. You could have a complete recreation of the real world in the game. But this has happened with flight simulators, hasn't it? Isn't it? Yeah.
+
+The most recent flight simulators are literally, is the entire planet, rendered accurately, is my understanding, at least from the air. Is that right? Yeah. Yeah. And and, I mean, you're really that's where our our bread and butters when we started started the business.
+
+We hired so many people out of the Microsoft Flight Sims, I was gonna say. Surprised they didn't know, the But when you fly over New know, whatever, New York, or when you fly over Duluth in the flight simulator now, it is the real city. Right? Exactly. But there there's some tricks that they play there, and a lot of that is fidelity.
+
+You know, the real world, the more you zoom in Right. It stays a certain level of fidelity. And and so the the the tricks that you play there is you you basically are downsampling very, very aggressively. Right. And then as you get closer, you know, then it becomes more more high fidelity, where the real world isn't like that.
+
+Right. If you were to try to rebuild the world with this level of fidelity, it would, you know, it would it would take the all the energy of the universe. Right? It's it's it's it's it's quite complex. And that's probably, by the way, the best argument against us being living in a simulation is among the but, of course, then you would say, well, the simulator we're in doesn't follow the laws of physics that we're then kinda I definitely How we know that the simulator that we're in is rendering all the stuff that we can't see?
+
+Yeah. Yeah. Yeah. That's true. As far as I know, everything happening outside this room doesn't have any sense.
+
+Yeah. This is I mean, you you know, like, Buddhism believes. That's like we're this is a different type of a podcast. It's like, you know, when you open your eyes, the world is rendered, and then you close your eyes, the world That's literally religious. Exactly.
+
+I don't why it's necessary for it to keep rendering if I'm not there. Buddhism from first principles. Yeah, exactly. That'll get a lot of clicks, as you call this. Yeah.
+
+Well, just to be on the timeline topic, we gave us timelines on self driving cars. What timelines do you want to give us, if any, other interesting things that were worth tracking, like perhaps when we'll get laundry folded, or things that emerge because of humanoids. And I think also maybe just touching a little bit on world models, where we see world models going, because I think it's fundamental to what the work we do. Yeah, for sure. Yeah, yeah, so to answer the first question, laundry folding, it's not terribly far from being solved, to be clear.
+
+There is a lot of interesting research being- And then humanity can rejoice. That's in Proverbs four sixteen, I think. Well, I do think housekeeping is a killer use case for Physical AI. Peter thinks too that he always talks about in the company. One is housekeeping and it's entertainment.
+
+Peter's long on humanoid entertainment. Entertainment? Would I would I 100% agree with that. I think entertainment is a robot killer ass. I don't think anybody Yeah.
+
+What do you mean? Yeah. I like Tell you these. I mean, what Midwest white guys are really into this. I'm I'm just saying.
+
+What I think I think I I just wanna know when they go West world. That's all I want know. No. I actually have an entertaining I have a little I have a little a tiny little Chinese robot dog that's just like literally, it's just like a little it's just a little and it just like roams around, it just like Yeah. Would you pay to see Cirque du Soleil with robots?
+
+Like, yes. Yes. I I wanna see I wanna see kung fu, trapeze swinging. Spoken by like a compilers guy. I know.
+
+But my tech I want Westworld. I want Westworld. I mean, the funny thing is I was I was just saying, well, will people in, like, the suburbs of Detroit actually, that passes the test. I bet you people in Sterling Heights would actually pay to It's do actually true. I stand corrected.
+
+But back on laundry folding for a moment, it's actually not far from being folded if you remove the time constraint. And so the trick that's played, if you look at the latest research videos, is they'll say, Play it at 8x real time, or whatever, and that's for you to make it watchable. So the question is when can you actually reach human parity of performance? That's further off? When you decouple models from just the hardware, the hardware can do it now.
+
+That used to be a constraint. So the hardware's very fast and accurate now, which was actually There's still overheating issues that are still being dealt with, but it's not terribly far off. These are solved. I mean, it's far off from when I was a Mechie, that was fantasy. There's nothing can What's the movie that has the most realistic future vision of robots?
+
+Oh, man, Bicentennial Man. Is it? Okay. Yeah, talking about it. That one?
+
+I actually haven't seen that Well, like I like that scene. Think it's iRobot when Will Smith jumps in the car, and it's his his, you know, his, like, accomplice sits in the car, he's like, puts the car in manual, and she's like, what are you gonna drive this thing yourself? Like, out of like, you know, yeah, she's like, you crazy? What are you gonna drive this thing yourself? Like, that's what we're that's the flight intuition's, you know, like goal.
+
+Well, again, by the way, I I haven't seen this movie in a long time, probably since it came out, so my recollection of it was probably a bit incorrect. Don't worry. The Internet will correct you. But I think Bicentennial Man has fully self driving cars, and it also has the housekeeping robot, which is played by Robin Williams, and it's sort of like the friendly guy that will the friendly robot that will clean up and also babysit your kids and stuff like that. And it it seems like it's it's in the not terribly distant future.
+
+I got a different answer. You guys ever see that movie, Sam Rockwell Moon? Oh, yeah. Yeah. The the setup, don't wanna it's a great movie.
+
+Don't watch the trailer. Yeah. Just watch the movie. Yeah. It's the the premise is the tagline of the movie is 250,000 miles from home, you find who you are.
+
+And it's one guy who works on energy harvesting based run by applied intuition run by Lunar Technologies. I'm I'm I I don't wanna be whale I don't wanna be Whalen Yutani. I don't wanna be you know, that's from from the Alien franchises and then Tar Torral Corporation from Blade Runner. No. No.
+
+I wanna be Lunar Technologies in the Moon franchise not even franchise, but one. So there's one guy who works on this, and the base basically runs by itself. And he's just there to kind of mind it when things kind of some, you know, error signal. Well, The the reason why it's it's, I think, so accurate is because the state of the art for AI systems is these systems, they just need the occasional grounding. Exactly.
+
+They'll just go off and do something crazy, and then you're saying, No, no, stop doing that. El Alonso like that too. I mean, that's what coding master like. And and the reason other reasons I think it's quite accurate, they it's maybe uncouth now, but Kevin Spacey is the the the AI, you know, smiley face. And he's he's just there to kind of placate the human to to assist, but to also, like, he's like, oh, you're you seem like you're sad, Sam.
+
+And like, you know, like, that's the the the the but really, it's the one running the base. And hopeful I mean, I shouldn't say we wanna be lunar technologies, I don't know. They're they're quite a positive force in nature in that in that. But I think massive energy farm that's completely autonomous, that's gonna be the future. And I and I think everyone like, everyone reacts to things like that with, like, fear.
+
+And it's like, Guys, that's amazing. That means energy costs go way down. That's incredible, abundant life. That's an incredible positive thing. I just did this commencement speech at my undergrad.
+
+Did you get destroyed? No. You know what? I I Unlike Eric Schmidt. Yeah.
+
+Yeah. Yeah. Did you not get booed? Listen. Listen.
+
+My my this this is true story. My my wife started watching me. She said, I feel like you're yelling at me. I can't watch this. So I I I basically I mean, I I don't I'm I'm not like I don't I don't I'm not gonna say which tech leaders who just basically avoid it by, like, punting and saying I'm not gonna talk about it.
+
+I I talk about this stuff. And partly, it's the General Motors Institute. No one's like, these these are I I don't wanna I don't I I don't wanna throw judgment on, you know, the people we recruit out of out of MIT and Stanford, but I'd say GMI people are a little different, and they're like they're like pragmatic people. They under they you know, you don't go to a place like GMI if you believe a superficial view of what corporations do. Corporations are just people working on projects together.
+
+And by the way, people working on projects together in government, people working on projects together in nonprofits, they all screw up. And it's and so it's it's too simple to say AI corporations are are terrible. That's also you can't say the other side, which is like, it'll all be great. So you have a role to play. That's basically what, you know, what my what what my message is.
+
+And it's that's that's the case. I think if you feel like if if it if the the of the the I think the obvious, you know, abundance that comes from self driving truck self driving cars and the fact that people don't die, which is amazing, but then you also get this efficiency of cheaper energy, etcetera. If all those things don't still satisfy your your fear, you you as a person, it's up to your responsibility to really learn about that technology. You you you can't just say, well, I'm afraid of it, and my reaction is shut it down. That's not that's simple.
+
+It's the and and I don't say this just to say that they were competing with the Chinese, but there's a Confucian you know, saying that by Confucian is just no hand can block the sun. Mhmm. And the sun is technological progress. And if we as a society don't embrace technological progress, we will be left behind. Right.
+
+Somebody else is gonna do it. Somebody else is gonna do it. And it might if it's not the Chinese, who knows? It's maybe the Uzbeks or the you know, it's another country that is is recognizing, hey. My citizens are suffering, and I'm gonna use this technology to remove them.
+
+It is honestly, it's because we're living such a great society that we can have these, like Yeah. I would say stupid conversations. Like, there still are people who don't can't get food. Yep. And and and and someone will immediately quip if they were debating me.
+
+They would say, well, there's plenty of food. It's it's the capitalist system that doesn't no. No. No. Let's let's be very specific.
+
+There's plenty of food, but getting that food to those people is difficult. Yep. So that means we should let robots get that food to them faster. Right. Yeah.
+
+That's just that's just how it is. So I think I'm I'm and I think, like, we we we as, like, technologists, I think, sometimes we you know, it's, I think, an inclination just to say, leave these people behind. I think you have to bring them along. You have to explain it to them, but we also have to treat folks like adults and say, if you don't get it, after I explain it a couple times, Tim, you just don't get it. So there's, like, a middle ground.
+
+It's not everyone's an idiot, and every or we should just be technology will just be perfect, perfect, perfect. There's a middle ground, let's have that conversation to a point. Yeah. And then we just move forward, and we'll make society better, and then the results show it. I mean, there's people who still shockingly believe communism is the right answer.
+
+I mean, I just want to say why and I'm I'm, you know, I I am a capitalist. I can't yeah. I can't cannot admit that. But there's seventy years of history there. Like, we're that's not even a debate anymore.
+
+I mean, that that I think it could be a debate. If we're if we're sitting here in 1965 and having a debate, You say, okay. Maybe centrally controlled systems work better. There's no debate anymore, folks. The, you know, systems where individuals make decisions on their own interests actually work better for society.
+
+And so that doesn't mean everything is perfect, and you can't extrapolate. That same thing with, you know, AI. It doesn't mean everything's gonna be perfect, but net net, it's definitely gonna be better. And that's roughly what my commencement speech was without the boos. They Mark and these guys were booing, so they did they just cut it out.
+
+Eric was booing and throwing stuff, they just edited it out. You mentioned the Japan market earlier. Why don't you talk briefly about of the global ambitions, and how these technologies interplay, and what we're doing here? So I think America, particularly, is still the most advanced in terms of when you take account the business model. The second thing for a company like Applied Intuition, we're an extremely global company.
+
+We work with everybody, minus we don't have an office in China, but really everyone else on the globe. And we're a horizontal company, we're a technology provider. And I think more Silicon Valley companies, I think, can employ a little bit of what we do, which is work very, I would say, collaboratively with the local economies. As sovereign AI becomes more of a real thing, we have to, you know, build businesses that take that into account. By the way, we're not the first ones to do this.
+
+If you look at the history of America, you read the history of Standard Oil, you'll see that this is this is that was the history of companies. You'd work internationally. Aramco is not a random company. Right? You you build based on the geopolitical realities of the time.
+
+And so I think, you know, we've, I think, navigated it quite well. I've I've lived, you know, in Japan. I lived in Germany. I lived in Dubai. So also being Pakistani by birth, think I that's also influenced our company.
+
+Peter's only lived in Michigan and here, but he is German. So so but so I think innately, we're more we think about the globe more. I think when I was at both at Google and at YC, I was always surprised at how kind of almost myopic the companies are. Just always looking at the market that's just like within the 30 you know, between San Jose and San Francisco. It's like, actually, the market is really big.
+
+I think physical AI, the nature of it being physical, I think we we have to be a very international company. And I think we've had a lot of success being a very you know, being international. Yeah. Cool. I think it's a good place to wrap.
+
+Okay. Peter Kasser, thanks so much for coming on the podcast. Congrats on big launch with Dana. Yeah. Thanks for having us.
+
+Awesome. Great to see you. Great. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family.
+
+For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast.
+
+For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

@@ -1,0 +1,323 @@
+We can't spend money fast enough to service all of the demand that we have. We end every week with so much more money in the bank. I don't think there's an ROI problem right now. Even Figma is we're moving away from it in favor of cloud design more and more. Get a real internship as soon as possible because whatever you learn in school is probably gonna be outdated quickly.
+
+This is 20 product with me, Harry Stebbings, and today we have Oswald Nitsky, CPO at McCor, in the hot seat. Today, it's a really open conversation in a way that I don't think has been had with someone from McCore before about what happens if frontier models actually do what the data providers are gonna do, how does synthetic data cannibalize their business? Does open source help or hurt data providers because their biggest customer oh, yeah. It's the closed frontier models. This and so much more in our conversation with Ausvol today.
+
+But before we dive into the show today, most companies have tried AI. Most aren't seeing results. Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close. Asana is the operating system for human agent teams, your easy button for AI productivity across every team.
+
+Ready to go AI teammates, prebuilt for marketing, ops, and IT. No prompt engineering, no setup. They show where the work is happening, already onboarded in your workflows, ready to deliver. With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000. Asana, where humans and agents workflow together.
+
+Try it at asana.com. That's asana.com. While Asana keeps the work moving, Zerohash helps move money on chain. Every great software company eventually runs into money. Uber had to move it.
+
+Shopify had to hold it. Airbnb had to settle it. Money movement stopped being a fintech problem. It became a software problem. And increasingly, god, it's an AI problem too.
+
+Zero Hash is the infrastructure that makes global instant money movement seamless. One API integration for stablecoins, digital assets, and modern payment rails so builders can stay builders. Zero Hash powers some of the world's largest enterprises and financial institutions, including Kalshi, Stripe, Morgan Stanley, Gusto, and Interactive Brokers. If you're thinking about stablecoins, digital assets, and the future of money, it's time to talk to the team at Zero Hash. Visit 0hash.com/20vc to learn more.
+
+While Zero Hash powers on chain payments, Framer powers your website. When a new landing page turns into a pile of tickets and handoffs, Framer helps your team move faster. Here's what I love. Framer is the pro AI website builder for creators, teams, and business that care enough to get every detail right. The agents close the gap between AI generated ideas and production ready website work because it all happens where the site actually lives.
+
+It lands on the canvas, stays editable, and can be published when the team is ready. So you can build custom code components, create and manage CMS content, optimize SEO settings, and ship everything all in one place. The agents bring speed and scale. You bring taste, judgment, and control. It's an enterprise level solution too.
+
+Premium hosting, enterprise grade security, 99.99% uptime SLAs, which is why the world's leading brands like Perplexity and Miro build in Framer. Learn how you can get more out of your site from a Framer specialist or get started by building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc for 30 off. Framer.com/20vc. Rules and restrictions may apply.
+
+You have now arrived at your destination. Oswald, it is so good to have you on the show, dude. I've heard so many good things from Brandon, so thank you so much for making this happen, man. Thanks for having me. Super excited.
+
+I am seeing open, open, open. Everyone claiming that we will see the mass migration from frontier closed to open. Kimmy very recently came out with their new model. And I literally and I didn't really know. Does Open cannibalize McCore's core business?
+
+I wouldn't say that open source model improvements cannibalize our core business because data is most valuable on the frontier of model performance. So each of our customers has their own unique goals and is purchasing eval and training data sets to fill gaps in current model capabilities. Open models just raise the floor of what people are interested in As long as customers still have new capabilities that they wanna get better at, our business still continues to grow. Open source models just mean that nobody is buying anything that Kimi k three can already do. So if, like, 90% of enterprise workflows can be done with open models, which more and more people say they can be, and that 10% is really where you serve your customers and provide data, I'm naive.
+
+Does that not make it harder and harder to make huge amounts of revenue if that 10% in frontier moves further and further away? I'm not convinced that 90% of enterprise workflows can be handled by open models or frontier models right now. We think that these calculations might be based off of existing demand or things that come top of mind when current model users are thinking of what models could do. But there's a whole category of latent demand that people aren't even these are things that people aren't even trying to do with models yet. Most commonly, we think these are like long horizon tasks like setting up a procurement agent to fully automate your procurement team for months on end.
+
+You only check on it maybe once a week. We think that's just not even captured in these calculations when someone says, you know, enterprise workflows are being handled because nobody's trying to do these things yet. The market for data to support those use cases is growing, and that's where we see a lot of the the leaders moving to. Okay. So we see a lot of leaders moving there and seeing new capabilities that they never thought existed.
+
+But then we have, like, Alex Karp, and I thought a rather sedate performance. Normally, he jumps up and down much more, but, I mean, it was still rather energetic. The way he said about the incredible skepticism we see from large enterprises towards data and sharing data with the frontier model providers, To what extent do you see skepticism and fear from large enterprises in working with frontier model companies? We see it depend on the specific workflow and how core it is to the business. Things that are general things that every company needs to do like HR, procurement, it can be less sensitive and enterprises are more open to putting these workflows on proprietary models.
+
+It's the core work that the company is doing that's vital to its business that differentiates it from competitors where we see more sensitivity. So you can imagine this being the actual legal services that a law firm provides. Like, what what are the actual, like, memos that it's writing? What is the the advice that it's giving to to its clients? Am I the anyone who sees the irony, and we put the sensitive, sensitive data on open source, most likely Chinese models, and we put the HR and procurement data on the closed model?
+
+Am I a moron? Well, depends on where you run the open models, right, whether or not that's a bad idea. The beauty about open weights models is that the inference can happen in multiple places, so you could be you could make mistakes using them, but you have more control. When you look at that dispersion, what do you think is inaccurate? You said you don't really believe the ninetyten.
+
+What do you believe a more accurate representation is? Well, in our APEX benchmarks, we're getting closer to around 50 of long horizon workflows. Top models are scoring around that much. But there's a class of workflows that are just sufficiency based where you do it and it's done and you're good. This is something like updating a CRM.
+
+You couldn't really get much better at it. And then there's a class of workflows that we shouldn't even be thinking about in terms of, you know, binary, like, can the models do it or not? And these can be things like legal arguments or to an extent medical advice where you could always get better. And in those cases I think that the percentage framing is just totally off and we need to be thinking more about continuous uncapped rewards. When we think about it could be better, I had Lynn Crow, the founder of Fireworks, on the show the other day, and she was like, exactly that is why we'll have specialized models for every single company.
+
+Because it could be better, depends entirely on the company. One company wants to focus on growth, one company wants to focus on margin, another wants to focus on, I don't know, if we're in Europe, work life balance. And so you need individual specialized models for every company. Do you buy that we will have specialized models for every company? Or is that a little bit self serving towards fireworks?
+
+I buy it. Think it's also self serving towards MerCore in that we think that every specialized model will need enterprise specific eval and training data to show the model how to perform in its setting. And I think it depends on I think the diversity and the market for this depends on the value that customers can get from these specialized models. So there will be cases where the ROI is really justified, I think those cases will increase over time. But we certainly believe in this future, yeah.
+
+Switching back, Alex Co op's second point in that show was ROI questionability. You mentioned the word ROI though, which is what made me think of it. It's very present, and enterprises maybe have questionability around the ROI that they're getting. Do you think we have an enterprise ROI problem with AI today? I don't think there's an ROI problem right now.
+
+I think we're in a period of exploration and experimentation where there's more tolerance, more patience to get that ROI calculation right now. There's a lot of different projections around where token prices will go, where performance will go. Right now, we're we're starting to see some amount of tightening of the screws on spend here and there, but I think the the paradigm we're in is still let's see what happens because things are moving so quickly that the ROI calculation might shift too dramatically still. Two ways I wanna go in this. I'll take the first way.
+
+We saw Aaron from ClickHouse say that he's 6x to spend, and that's what they need to do because we need to be at the frontier. And then you see Uber and Microsoft and some forms of I think it was Grok or Axe or one of Elon's companies put budgets on per user head. What do you think is the right way to be navigating this cycle? If I'm a founder listening, what would your advice be on how I should think about optimizing the balance between performance and budget? It totally depends on the use case.
+
+So I've mostly worked at hyper growth companies where growth matters at all costs, right? Your willingness to spend for growth as long as the unit economics are fine. When you're looking at coding agent spend for your software engineers, that's not cogs for your work. Know, that doesn't like if that's really high, that could still be giving you compounding gains. If you're looking at like a customer service agent that has massive token spend and the revenue you're getting from the customers being served is way lower than the token spend, then you're definitely in a bad position.
+
+But my experience has been just these growth stage companies. I think for a lot of founders, considering their token spend, for if growth, if it's for improving the efficiency of your headcount, that's just what you need to do to to service large amounts of demand when you're starting up. Mister Benioff from Salesforce said that he spends 300,000,000 a year on Anthropic, which works out to be about 3.8% of developer salaries if he averaged the salaries. Do you think that is the going rate moving forward? Do you think that will be 20%?
+
+Or do you think it'll be 100%? Or will it be way less? I hope that we can move towards a future of better accounting of the outcomes being driven by token spend. Because even here, I think, in a company like Salesforce, we have so many a company of that size, Certainly, you're getting you should have different spend profiles depending on what the team is doing. Again, here you have teams that might be more like solutions engineering or forward deployed where you you have to think in terms about unit of unit economics and teams doing R and D where you can have more tolerance for spend.
+
+I think at the large companies you have to consider like which parts of your organization are doing what and how much tolerance should we have in different areas. I think macro, the percentage will increase over time to to more than 3%. Do wanna hear something funny? Brandon said on the show that it would hit a 100%, and he said that you already spend more today than you do on salaries. Yeah, yeah, yeah, we do.
+
+100% sounds reasonable. So as I said, I've only worked at hyper growth companies and that's what Merkor is and continues to be so every day as the growth just accelerates. For us, it makes sense because the demand that we have is so high. Like, the company is more than 10x in headcount since I joined. The revenue has also commensurately increased.
+
+We're we're just in a race nonstop to service our insatiable customer demand. So for us, it makes sense because we we can't spend money fast enough to service all of the demand that we have. Do we just build 10x more products quicker? Help me understand, do we have smaller engine product teams? Do we just build much more than we ever used to?
+
+How do you think about that? I think this paradigm makes the job of product management a lot harder because we're trying not to build 10x more product surface area. It makes things incredibly chaotic. We have moments in time where product surface area rapidly expands because people think, I can make all these features really quickly. This is like, could, you know, like, let me just like push these multi thousand line PRs.
+
+But we have we're constantly in this battle to try to simplify our product surface area and find the interactions and the workflows that are most scalable. So the trend that we see is we're, as a product team, constantly fighting to reduce surface area and simplify things. And we also see a higher ratio of PMs to ENG because engineering is less bottlenecked. So there's much, much more work to be done in, like understanding the workflows of users, the needs of users, and what products actually drive revenue the most becomes the bottleneck now to servicing more demand for us. If we think about the kind of pre AI era, how has what it takes to be a great PM changed for this new world?
+
+There's two major changes. One is that you don't really need to learn as many tools anymore. You just have to be able to use coding agents. A couple tools will do everything you need. Even Figma, we're moving away from it in favor of cloud design more and more.
+
+Less tool diversity for us. And then the other is everyone needs to up level a lot and think about business impact much more. I think that all work is starting to look like higher level. So the the kind of like the minutiae and the details get sorted out way faster. And all the PMs at Merkor have to think way more about is what I'm focusing my time on the right thing.
+
+I can do things very quickly now, know, it's like this skill issues have almost gone away. So now it's all about judgment and am I doing what is going to drive the most business value. Dude, I have to ask. You said that, like, a core job is retaining simplicity and deciding what to do versus what not to do. What did you do in product that with the benefit of hindsight you wish you hadn't done?
+
+And what did you learn? One interesting thing that happened this year was our annotation platform serves a lot of different workflows. The demand for human data is so large and it's so heterogeneous that, and our delivery team is so good at delivering projects and selling projects that we supported, I think, too many workflows for human data projects. And we built a tool that was extremely flexible in supporting all sorts of different research experiments that customers might wanna do. So the shape of data has changed a lot since it started with Instruqt GPT for for Gen AI.
+
+From supervised fine tuning to preference ranking to all these environment type projects, there's a lot of multimodal projects that have totally different formats. And your annotation tool needs to support these and different workflows. And customers will ask for all sorts of stuff. We try to serve every ask. We made a tool that's maximally flexible, has all sorts of we we had, like, hundreds of different projects running on it.
+
+That's just chaos to manage. And what we needed to do sooner was to put guardrails on the type of services that we support and work closer with our operations team to say like, hey, here's the best practices. You know, customers are going to ask for everything. Like, we can do it, but should we do it? If there's no enduring demand for certain workflows, maybe it's not worth the investment.
+
+So putting guardrails, narrowing down the services that we support was something we should have done a lot sooner than we did it recently. How do you determine enduring demand? So this is what makes Merkor a hyper growth company, is that we're incredibly tapped into the market and the ecosystem. It's really judgment from leadership, I think. It's very hard to say what will data look like in a year or two.
+
+And the best way to figure it out is to stay in constant touch with leaders from a diverse set of labs and constantly be validating hypotheses. I think Brandon does it very well, I think our operations team does it very well, but ultimately it's kind of a guess. Which lab has the most advanced and sophisticated data team? I can't speak too much to customer details, but they're all super good. Everyone's sophisticated, everyone blows me away in different That is such an unfair question.
+
+Okay, I totally agree. The the other question to ask is, has the worst t no. I'm joking. My my my question to you was, you mentioned another element, though, which actually didn't shock me, but I thought it was interesting, was the movement away from Figma. Can you talk to me about that?
+
+Because I hear more and more companies doing the same. As a product leader today, how do you think about that? And what was the thinking there? To be honest, I let the team do whatever is best for them, and this is a trend I've observed amongst almost everybody, is that Cloud Design has done a great job. People really like using it.
+
+It's easy to use. And we've just had a natural movement towards it. It's also a bit easier to not have too many tools, not manage too many licenses. And because Cloud is making all these other great features, people just gravitate towards it. And then it's a bit less friction to have the procurement team issue licenses for Figma for every single person.
+
+We were talking about ROI earlier for enterprises, and we're seeing Microsoft set up a services department. We're obviously seeing Palantir skyrocket, and services becoming an increasing part of everyone's business. Is that the future of AI enterprise deployment? And how do you think about the incredible rise of services in deployment? I have a bit of a hot take here.
+
+I think it's the future for the short term as the knowledge of how to use AI gets disseminated throughout industry. We have basically a concentration of a bunch of people in San Francisco who really know how to deploy agents, eval agents, be AI first in engineering and in other areas, that knowledge just isn't out there yet. And eventually it will be. And maybe you won't need at that point teams to go and set things up, set up AI agents for every enterprise, and it'll become more of like a a job function similar to software engineering. And so in the short term, it enables deployment.
+
+In the long term, products become more and more sophisticated that they're able to do it themselves. Because Matane from factory said to me, you know what? Services, they're just an excuse for crap product. I think that it's a knowledge dissemination problem. So I think that that's one way to look at it.
+
+The other way is why not hire someone to just do this agent deployment at your own company? And I just don't think the skill is out there yet. I don't think there's enough I don't think the talent is available for every enterprise to have their own expertise in it at this point in time, but that'll change over the long run. This is, I think, like maybe a decade long change. Do good engineers really want to be FTEs, though?
+
+There are a lot of different types of good engineers. There's a lot of things, a lot of ways to be a good engineer. And one way to be a good engineer is being a great communicator and cutting through to the source of a problem and simplifying. And I think that those engineers are great fits for FTEs. And I think that those engineers are also great fits to eventually become founders.
+
+And I think that that is a different profile of person who's incredibly valuable. And that's what a lot of people are looking for when they're looking for FTEs. And it's also like a profile that we look for generally, which is why we have so many alumni go off and start companies. Do you like that? I spoke to Brandon about this, but is it a good thing to have them a core mafia Because you also want to retain talent.
+
+I'm proud that of the people I work closest with on my teams, I've only had attrition to founding, and we've had quite a bit of it. It's a lot better to lose someone to starting a company than to, you know, taking another job. It's interesting from a personal level because I like these people. I wish the best for them. I really enjoy seeing it.
+
+It is tough, though. It makes the job of management a lot harder because we just have so many high agency people who are very ambitious and it's difficult, but I like it and I'd rather be in an environment like this than one where everyone's like all, you know, soft and, you know, oh, I don't wanna work. Oh no, I'm No wonder you left Europe. How has hiring changed in a post AI new world? When you look at the people that you add to your team today, especially in product, what do you ask today or look for today that you didn't before?
+
+I think touching on the earlier point of everybody needing to up level and think closer to business impact, we've biased towards more senior hires who are better at understanding what drives the business forward, finding kind of, like really crocking how we operate, how we make more revenue, how we deliver better services to our customers, how we keep our customers happy. I found that more senior candidates just get that a lot faster. And like I said, all of these, like, kind of like tool like, can you use the tool? Can you do all these other kind of, like, more junior things are becoming less relevant. So the hiring for us is biased towards more more senior candidates.
+
+Try to Do feed you worry that you're just falling for the kind of classic, I'm so sorry to be, like the fast growth founder mode, which is like your VCs come in and say, oh, you need to hire this person from Facebook. And you get the seasoned operator who fits exactly that rubric, And it never works. It never works. We're not quite doing, you know seasoned here is a spectrum. Right?
+
+We're not I'm not saying we're we're hiring people who have, you know, are in, like, formerly in executive positions. We are treating everything as an executive search where we want to find someone who's at the sweet spot. They're still hungry. They've done the job that we want them to do for a few years. And they're right in kind of like really hitting their prime.
+
+That's When do you think people hit their prime? I think 25 to 35. Oh, I just turned 30. I'm bang in the middle. Perfect.
+
+Good timing for you. Perfect timing for me. Okay. In terms of questions, what we look for in the take home assignments, has that changed? We've moved away from take home assignments.
+
+We do one take home assignment, which is like, can you just like use an agent to go, you're on your own for a bit of time, go use an agent, you know, give produce this artifact for me and we'll look at it. Do that once, you know that the person's AI fluent. And then we move towards a lot of whiteboarding because we wanna avoid like, we we'll do one round where we know where we find out if the person is familiar with AI tools. Okay. So cool.
+
+We do that. I'm familiar with AI tools, and now you're like, come into my room, we've got a whiteboard. What do you want what what are we gonna do? What do you wanna see? What what would impress you?
+
+We care a lot about being able to set up good experiments and understanding statistics, having good judgment, and then systems design as well. The reason is these are just skills that are so easy to kind of like be I'm so sorry. I'm so sorry to interrupt you. Good experiments and systems design, it feels quite wordy. What does that actually mean?
+
+We ask people oh, well, I don't wanna give away too much about our interview process, but there are we need to run a lot of experiments as a product team. We need to make sure that our team knows how to run a good experiment that actually reveals information and isn't just totally like fudge. And with AI tools, it's very easy to offload a lot of thinking, a lot of judgment. We wanna make sure that people still have the ability to have good judgment and know what they're doing and not just like regurgitate what comes out of of clot. That's so interesting, I completely agree with you.
+
+I have it with my team, which is like we do scripts for content, for reels, for I do all questions myself. I would never use AI and I'm very concerned about it because you lose the muscle to me. Can I ask you, how do you retain thinking, thought, creativity when so many people are so freaking hooked already? I think it's kind I tell my team it's kind of like phones, you know? They kind of fry your brain and they turn it into goop.
+
+But I love I do a lot of stuff on my phone. Like, I use my phone all the time. You just have to learn personally where that boundary is of like what's when is a good time to scroll through reels and when's a bad time, you know. In a meeting, try not to scroll through it. For work, that boundary, I think, is between kind of like the judgment and decision making and the execution.
+
+Right? So I want very careful never to delegate judgment or decision making to models because it's they make you think that it's doing the right thing, but you have to be paranoid with them still. Right? You still have to, like, double check everything. And that's what I I I tell my team is that, like, don't delegate your decision making like your actual job to a model because you're gonna you're gonna lose that ability and then you're gonna get psychosis.
+
+When you look at the experiments that you've run, does the data correlate to the outcome? I often think in investing. Sometimes I do no work and no diligence, and I make loads of money. And sometimes I do lots, and I make terrible investments to lose all the money. The inputs correlate to the outputs?
+
+Varies. It varies because we run a lot of experiments. Sometimes they do, sometimes they don't. We wanna get more that actually show good results and move the business forward. That's really the job of the team is to find the right experiments to run and make the narrative around these changes to our product have impacted the business in a positive way.
+
+That's a lot of the core job right now. So, you know, it's week to week, month to month, we get different results, but we try to trend in the right direction over time, and people start to learn the dynamics of the product, learn the dynamics of the users better and better to improve over time. When you think about product and engine running experiments that you mentioned there and running good experiments, how do you structure the teams today? And what does that meeting look like? We have a few different groups that do experimentation.
+
+So we have two major product areas where this is most relevant, our marketplace, which matches experts to jobs, and our annotation and eval platform, which is where experts log in to do annotation for eval or training datasets, where our operations team also logs in to run those projects and our customers will log in to see their data and run evals. So annotation platform, we call it Studio, Marketplace, called the Marketplace. These two groups, they're kind of like self contained in trying to do to make their individual product offering better. And we have two main modes of engagement within human data. Talent only, which is when we just send experts to our customers, and they'll they'll run the project.
+
+So this is like a a lab needs a doctor or a lawyer or whatever, and they're like, we're we're just gonna use them and, like, thanks for finding the best person for the job. You'll need to pay them, performance manage them, but, like, we'll do the we'll run the project. And then a managed service project where we give our customers data. So for the talent only model, we just use the marketplace. For the managed service, we use the marketplace to send people to our annotation platform, and then we'll give them we'll run the project and give them the whole dataset.
+
+Totally. Are they two separate product teams? They're two separate product teams. How big are the product teams? Around two to three per product area with also data scientists and a design team.
+
+Data scientists dedicated to each and a design team that flexes between them of just a few. Yeah. So you have like pods of like four, five? That's fair. Yeah.
+
+Will those ratios change over time, do you think, between PMs and design? Will that stay the same? I think that the ratio of PM to end will change over time to have fewer engineers per PM as engineering velocity increases with better coding agents. And we will be bottlenecked by understanding business needs, user needs. That's more of a PM job.
+
+We need to be very careful as a hyper growth company to grow the teams in lockstep because as the headcounts increased, you know, like more than 10 x in the last year, we just wanna be careful not to grow one faster than the other. The trend will be higher PM to end ratio, though. And so when we talk about the the good experiments and and making sure that we're running a really tight process, what does that look like in terms of the meetings? You have a weekly product team meeting. What is the right way to approach cadence of product team meetings and how to run them today?
+
+We break it down into so within these product areas, we'll have a whole PA, like weekly, it's product and Ang and a lot of other stakeholders as well. And this one is just like everyone, you know, kind of like it's broken down into pods. So as I mentioned, within that product area, there might be like, let's say, three product managers. They'll all have like a pod of these parts of the product that naturally kind of like segment work into. Our marketplace, for example, has a expert facing side and a hiring manager facing side.
+
+These are naturally two distinct pods. There are some other pods within here as well, like managing the expert experience, making sure that everyone has great customer support. There's never any issues with with any you know, with working from Recore. Each of these pods will do their own sprint planning. They'll come together in the weekly kind of like product area meeting.
+
+And we try to keep it efficient but maintain like a lot of visibility between the pods because they all need to have their roadmaps well aligned. Yeah. But we need to have weekly meetings to maintain accountability. Do them on Friday, bit later in the day, make sure no one's leaving early on the weekend. What do you not do in your product meetings that you should do to make them better?
+
+That's a good question. It varies by product area. So the challenges in like the marketplace versus like the annotation platform are a bit different. The main challenge as we grow quickly is having the right amount of communication and feedback from other teams. So like our marketplace and our studio team need to get information from each other.
+
+Right? There's cases where like something's wrong in one and it's effect it's it's popping up in the other. Something's wrong with one product and it's affecting like the expert experience when they're like on the other one somehow. That communication just like the the because the headcount and the team's grown so quickly, like the communication channels, like, just explode very quickly. So we need to do more kind of like cross product area collaboration.
+
+Keeping it efficient is just really hard as the team grows because we're you know, the nodes just keep moving around and there's more of them. What has been the secret to scaling supply on the marketplace side so efficiently? How have you guys done that so well? I'd probably put it down to three things. The first one is a great expert experience.
+
+Experts get paid on time. They get paid well transparently. Everybody involved in what the expert experience is cares deeply about not whether they're having any challenges and whether or not the work is dignified and well paid and fairly paid. And that is a requirement for a great referrals program because nobody's going to refer their friends to, know, their colleagues to some kind of job that's like, that sucks. So everybody caring about expert experience drives a great referral program.
+
+Additionally, a great sourcing team that's able to find people in every corner of the world with very specific skills helps us fill the gaps when, you know, we have spiky demand for a specific skill set. A people who shortsighted is just being wanting to be paid the most. I've heard that McCor pays the most. I wouldn't say it's like, you know, shortsightedness because we want to retain the top experts as well. If you get paid a lot on like one project and it's like I know there are a lot of other competitors in the space who will do some crazy like bonus payouts and stuff and for short term sprints.
+
+That doesn't get you to come back as much as a great experience with a lot of work, visibility into like what future work is coming up, the feeling of like I'm growing my skill set, I have the ability to pick between a few different jobs, I'm doing interesting work, I have great communications, right, from the people running the project. It's really hard to sign up for online work and then you just like have get hit with this like 100 page instruction document. It's a very foreign kind of job. That's part of the experience as well. Knowing that you're gonna get paid highly for a long time for something that you can do for a long time is what keeps people interested.
+
+Have you seen your margin improve over time? Or is it one where actually margins relatively fixed given the complexity? So so margins are an interesting thing in this business. We try to think about as a product team, how do we deliver the best value for our customers? That is independent of how do we price the project.
+
+So there are cases where you could have automatic quality control and synthetic data improvements to make the delivery better, situations where you could, you know, think about the staffing on the project to change the the cost of of the service. All of that, like, as as a product team, we wanna make sure that we could deliver the best value to our customers, and we can have the best experience for our experts. Margins are decided after the fact based on, you know, consideration of of costs. And, you know, now for a lot of these projects, the costs are driven from paying experts and LLM spend on things like synthetic data and automatic quality control. Does the it's not revenue, it's not revenue shouting from the crowds throwing peanuts, Does that annoy you?
+
+And is there anything there that hasn't been said that you think people are just, like, not getting? It doesn't annoy me. No. Because, you know, we end every week with millions more in the bank. Right?
+
+So it's funny how you can have I've been at other companies where I've seen interesting financial engineering and accounting and people can have all these different metrics, but we end every week with so much more money in the bank. Like, the business is is very healthy and we can't we can't spend money fast enough. So what people wanna call it is, you know, up to them, but, like, the the cash flow is insane. Does it matter that you have such high revenue concentration? You know, the frontier model providers, your biggest customers by far, some would say, that's a lot of concentration.
+
+How do you think about that? I can answer this from kind of like how it affects the product team. Yeah. We would love to move like, biggest challenge is moving down market so that every single enterprise can efficiently run human data projects for eval and training. And that'll diversify our revenue for sure because there's many more enterprises than there are labs.
+
+And that's a harder product to build. And that's the direction that we are taking our products, taking the company is to be able to self serve, run these projects very efficiently, have like AI project managers so that it's a lot easier to do this work for smaller customers. Because running a human data project for a lab is incredibly hard. It's a white glove service that requires a lot of people on the operations team. As we make that more efficient with better products, better processes, we can do smaller projects that are more heterogeneous for more customers.
+
+It's the direction we have been heading, which has reduced concentration, and it's the direction that we'll continue to head as every enterprise begins to have human data work for their proprietary use cases. What's so hard about it? Making it really simple? Explaining it? What is the challenge with democratizing?
+
+Running a human data project is just hard. There is so much information that needs to be transmitted from the customers, the end users of our customers to experts, and all the edge cases matter. Right? So people will try to write a guideline that says, like, here's how you here's how you make a data point. But the experts will have, like, some edge case that gets bubbled up and, like, what you do on that edge case matters a lot.
+
+So the process of making a human data project is basically, like, continually surfacing these edge cases, which requires insanely fast alignment between customers, maybe their customers, maybe other experts in the field, and the experts who are doing the annotation. And it also requires a huge amount of paranoia from the operations team to make sure that every data point is perfect, it fits whatever guidelines the customers have, and the projects are running on time, all the bottlenecks are removed. It's just an operationally intense process because it necessarily deals with edge cases and things that haven't seen before and are outside of model capabilities. The data types also change very frequently. So we've moved from supervised fine tuning to preference ranking to rubric based annotation to now RL environments across a whole bunch of different modalities.
+
+There's a lot of complexity within each project and then between projects. So I would boil it down to those two things of like the need for paranoia and the need for very crisp communication that make it challenging. What data type is not hugely in demand today that you think will be hugely in demand next year? The data type that's growing the fastest for us is environments. You you might have seen a lot about these RL environments on on Twitter.
+
+It's kind of like a, you know, hype term. Every company kinda like has a different definition for it. But we are certainly the leader in the category and view it as basically these simulations of apps that you might want your agent to use. And also as a rich start state, we call like the world that is basically representative of all the data you might have on your machine, like your laptop. And then we have tasks that train agents how to use those tools to accomplish something that's useful.
+
+It's a bit of a it's it's a bit of a complicated annotation process because the agent has to like interact with this simulated world. We have to make that start state which can be hundreds of files, thousands of files. And the shift here is that the data that the models are now the agents are being evaled and trained on looks a lot closer to what they see in deployment. Right? So if you wanna learn how to use something like Salesforce, you need a pretty high fidelity mock that acts exactly like Salesforce in your eval and training.
+
+And it's complicated to get this set up. Just like years ago, preference ranking was really hard to get set up. SFT was really hard to get set up when InstructGPT first came out. So this is the frontier right now. Labs are figuring out.
+
+Neo labs are figuring it out. Eventually, it'll get so smooth that enterprises can do it too. Are labs price sensitive on data acquisition? By data acquisition When go on a project with you, are they price sensitive? Are they haggling going, oh, well, Edwin at Surge gave me a 10% discount, Can I have that?
+
+Or are they like, just give me the fucking data? Well, there's always the aspect of negotiation and the procurement team trying to get a better deal. But we've chosen a great business where our work directly affects the business outcomes of our customers. Right? So we we have a great setup where if you're making an eval set, like in your lab, you're evaluating something that your customers want to do.
+
+If you could just do it better, you would make more revenue. If they're buying a training set, they're now hill climbing that eval set that they've said, you know, that represents what their customers wanna do. So as long as, like, the amount of money they're spending on data is less than the revenue that they're gonna get, they're happy to crank the lever. Like, people wanna crank it harder and harder because spend on Mecore directly translates to more revenue for our customers. Do you think we'll have a unbundled data provider world?
+
+You know, I I'm a venture investor. I see so many people that are like, oh, we're like we're like McCore, but for, like, domestic robotics. And you're like, okay. Cool. Good.
+
+Okay. Get it. But do you think we will see this kind of specialized data provider world where niches have thousands of players? To an extent, we're already in this world. It's not that successful though for the small players always.
+
+So how I would describe it is we're facing what looks like a cottage industry of founders doing annotation themselves. Right? So you have all of these small startups where as the skill bar for annotation gets higher and higher as models get better, you have startups where the founders are actually just making the data. And labs love this because it's just like totally mispriced. Know?
+
+They get like someone raises a bunch of money. They have loads of cash to blow, they're they go to these labs and they're like, I I need to you're like, I need to get your business. Like, please let me work for you. And then they're they're smart people. They're they're founders.
+
+They're formerly, like, great technical employees, But they're running the projects themselves. They're doing the annotation themselves. This is just like VC subsidized work that labs love. The problem is scaling it beyond a few data points or what what one founder or full time employees can do. And this is the position that we're in is we're having to compete against basically founder led annotation where some of them are even running it as cash flow businesses and they're just like taking the profits home themselves.
+
+It doesn't scale though. And vendors are our customers know this that it won't scale when you want a 10 x the throughput, 10 x the amount of projects. But it is indicative of the direction the field's heading in, in that we need higher skilled experts. We need the best people in the world to be doing the sanitation. Don't laugh.
+
+I'm I'm I have a bit of an ego, and so I like to feel like a special snowflake. And what I mean by that is, I would be like, oh, when Meta or OpenAI or you name your large company is buying data from multiple people, it feels like you're being promiscuous and cheating on me. Do you mind? And do you monitor budget and percent of budget that gets spent with you versus another provider? Of course, we do a lot of competitive intelligence.
+
+Our customers like us, so, you know, we they'll often share information with us. But everybody just wants models to get better. Right? So we're happy to have this kind of competitive pressure that tells us, like, where to go. If someone else is able to do something better than us, we'd love to hear about it and then do it better than them.
+
+Right? It's it's healthy to have vendor bake offs. It pushes us to make our services better. We do stay on top of it because we want to deliver better services to our customers. We wanna know who's doing better than us and then we wanna surpass them.
+
+So it's a totally healthy thing to happen as long as Merkur is winning. We said Frontier earlier. Yeah. I'm an investor in Ligure, and everyone's like, no. Your real competition is is actually Anthropic.
+
+And I'm like, if Anthropic go after legal and winning Cooley and Goodwin, something's gone very wrong with the world because they should be solving cancer and climate change. To what extent am I right? And how do I balance between Anthropic are coming for Ligure and Figma, and Anthropic is also working on the frontier problems that humanity faces today? It's a good question. I would look to precedence for from other big tech companies who've had a lot of different efforts like Google, Microsoft, you know, coincidentally also try to, solve climate change and cancer.
+
+But it's not their main business, and they have their hands in, like, a lot of different areas. But competitors still emerge. So you've seen like, you know, you remember Google plus, right? Yeah. That didn't go anywhere, right?
+
+It probably maybe it freaked some people out when it happened. You probably remember threads. I don't know the current state of threads. Apparently 400,000,000 users according to their marketing team. That's very interesting.
+
+Comment I too much on on that because I That's fascinating. I'd love to see the engagement. I genuinely don't know anything about this. But yeah. So it's in in I think if you look to precedence here, large companies often try to, you know, make new bets, diversify, but they lose to companies that have intense focus on their market.
+
+So we'll see how it plays out. But I would I would wonder if there's anything to learn from, you know, history with Google and Microsoft having having many business units, many efforts, but a core business that has driven all of their revenue. You know, I love Brandon. I remember texting him when there was the hack. It's tough when there's a hack because you're like, don't know what to say, but like, I'm here for you.
+
+Thumbs up. And I felt like such a VC because you're like, I'm here for you. Good luck. Fuck all hell that is. My question to you, how did that change your mindset and approach to product?
+
+It's a really hard thing to go through. I remember you were under intense pressure and stress. I seriously, I am sorry for that because it's horrible to go through. How did it change your product mindset? You know, I'm not an expert in security, but we hired a lot of experts in security and I listened to them.
+
+And that's that's the main change. It's just larger investment and learning from the experts that we've brought in house. Are we entering a golden age for cyber? What And I mean by that is we're seeing a huge amount of AI generated code, which in a lot of cases has holes. We're seeing a lovable and a replet and a, you name it, produce a huge amount of output.
+
+Are the threats going to increase much more significantly than we're anticipating? Most likely, yes. Where we see it the most is it's an interesting data type because it's competitive, and you can have these alpha go type situations for for cyber offense and defense where you can have uncapped rewards and performance and the the field's constantly moving. So we love this kind of stuff because it's like a game from like a data perspective. And we see very rapidly increasing demand for cyber defensive capabilities via data and very interesting data types.
+
+And this is an example of something where sufficient Wait, can you help me understand? What data types do people want around security that they maybe didn't want before there was this explosion in demand? Have to be careful not to reveal too much about customer work. The category is growing very quickly. And the nature of a lot of security work is that it's adversarial, right?
+
+So it's not this sufficiency style work like update a CRM and and then you're good. There's a constant cat and mouse game between like the offensive capabilities and the defensive capabilities, which, you know, to our point earlier about like the 90% of enterprise workflows that can already be completed, There's never going to be that 90% for security because the goalposts are always going to move. So most cyber as a category is growing and the nature of the data types is much more kind of like uncapped, evolving, adversarial in terms of the where the goalposts are. Can you help me out here? I you're Estonian by kind of heritage.
+
+I say to European founders, SF is the worst place to start a company. It is impossible to acquire talent. It is impossible to afford it. And then it's impossible to retain it. Is the talent war in SF as brutal as it seems?
+
+Yeah. It's pretty brutal. It is very difficult to hire. It is difficult to retain. It's difficult.
+
+I think it's harder than before, but it's easy when you're on a rocket ship, right? It's always easy. Well, like, when you're on a rocket ship, to get someone, it's hard to make the right decisions about who you wanna hire. When you've made a bad hire, what did you not see that you wish you'd seen? It's really hard to assess agency and ownership in the interview process.
+
+I am super freaking talented. I'm super talented. I'm a bit of an asshole. I'm not like a total asshole, but I'm a bit of a douche. Are you okay with that?
+
+If you're super talented, yeah. The company culture here is of high agency, high performance, high ownership. Personalities can change. You can learn how to work with people better. We care about growth and we care about we wanna hire people who give a shit.
+
+That's a lot harder to coach into someone than smoothing it out with your colleagues, getting some you know, making sure that we have happy hours, people all get along. Like that that's easy to work. You know, like, you got you can have a couple assholes. You they get drinks together a few times and then you smooth it out. It's really hard to make someone give a shit.
+
+Yeah. Also, you hire multiple assholes, they can just hang out together. It's fine. That's that's a group of fact. We don't we don't hire a lot of assholes.
+
+What? My my No. No. I I I can be also, like, like, happy hours? Like, really?
+
+We had a great off-site just recently, actually, with our annotation team. We went to Tofino in in Canada. It's on the West Coast Of Canada. It's the only place you can surf. And everyone did surfing lessons.
+
+We went to a floating sauna, and it was a great time. I thought it was actually great for the team and is a great use of of money, and everybody loved it. And I think that doing these, like, outdoor activities where people are being active is is good. Are you ready for a quick fire round, dude? Sure, yeah.
+
+What have you changed your mind on most in the last twelve months? Honestly, I think it's probably the our own environment market, because when we were starting it off last year, it was so complicated to do these deliveries. It was so hard to get it to work that I just thought it wasn't going to work out. I thought it wasn't going to scale, but then it did. So I was like, I was pretty surprised.
+
+What changed? The demand was very high and we just, we got it to work, right? We just had to try like a lot of different things to get environments to actually improve model performance. So we just kept going at it and it ended up working. I'm your little brother and I'm studying computer science at universities today.
+
+You sit me down and say, little brother, you should know this. What what should I know? Get a real internship as soon as possible because whatever you learn in school is probably gonna be outdated quickly. Where should I get a real internship? I know that sounds stupid, but, like, should I start my own company?
+
+Should I join a fast growing company? Should I join a super established company where there's, you know, adults in the room, so to speak? Maybe I'm biased, but join a fast growing company in San Francisco doesn't need to have adults in the room, but somewhere on the frontier that's indicative of where the field is going. A bit larger than 10 people, not super early, just to kind of like filter out the companies that might not go anywhere. Would you say that you're too late for me?
+
+Recore? No. No. It's locked like a startup. How many people do you have?
+
+Maybe 500. Culturally, we're a startup. We we're paranoid. We're in office all the time. We're fast moving.
+
+We wanna hold on to that as long as possible. I love it. That's amazing. Totally. Absolutely.
+
+Yes. Which competitor do you most respect and why them? I don't think about competitors too much. They're all kind of even in that they're all behind Perkore. We really try not to think about them as much as we try to think about our customers.
+
+So I respect our customers a lot. I love the work that they're doing. We stay on top of what competitors are doing, but every time I look at one of their websites, they're just doing something we did like a week or a month ago. You know, we write a blog, someone else writes a blog like a week later, that's the exact same thing. We make an update to our website, someone else makes an update to their website, that's the exact same thing.
+
+I spend a lot of Did you say that about Surge? It's happened before. Yeah. It's happened before. They're they're a bit out there.
+
+We honestly, like, I don't spend that much time thinking about them because I spend more time thinking about customers. We've seen it they're they're a bit out there in in that they they don't copy us as much and they do seem a bit different from others in the field. Hard to say why. They're very secretive. Yes, absolutely.
+
+Can you please paint the bull case for how Makor is a $200,000,000,000 company? Yeah, for sure. So it looks like we sell services. We're basically like a tech enabled services company. Our services are incredibly valuable in driving revenue gains for our customers, primarily through better model capabilities.
+
+Evals and training data are the primary bottleneck to model performance right now. If every enterprise needs to have specialized proprietary models, even if the capabilities start to saturate, the eval serve as the PRD for kind of like exactly what you want, but also the optimization objective for better performance. As long as more and more as long as better models are valuable to the economy, there will be demand for eval sets and training sets. If we can make that process faster and faster, we can serve a growing demand for human data for eval training, and then we also have a growing agent deployment enterprise arm as well. What line of revenue do you not have today that you think will be very significant in three years' time?
+
+I think that real world, like, physical data is going to grow significantly over the next three years. Robotics is an Robotics interesting area for us. The data market for robotics is nascent relative to Gen AI, relative to, you know, like autonomous vehicles as well. And we think that's gonna grow a lot. Do you scale supply ahead of demand?
+
+We, at times, retain exceptional talent to do work that might be valuable in the future. And we can do, like, off the shelf data creation to basically, like, make use of supply when demand is low and then resell that data later. In that case, we do, otherwise we don't. What was the best piece of advice you've ever been given? I got a lot of advice to join small companies, join startups, move to San Francisco.
+
+I grew up in Canada, I went to school in Toronto. I followed that advice, I think it was great. I've loved living out here and I like small companies, I like fast growing companies. It's been super fun and great for my career. Final one for you.
+
+What are you most excited about that you don't think enough people are talking about? Probably the same answers before in that, like, the three years out opportunity of robotics. I think there's a lot of discussion around robotics on Twitter and in I'm certain sorry, dude. Can you just help me out here? This is where I get in trouble.
+
+It's Friday afternoon. It's past six. Fuck it. I can say what I want. I don't get it.
+
+Okay? Whenever you watch your robotics doc, like, demo, they're like, you you see this kind of terribly moving robot around a home, and then after watching it, like, take one water out of a fridge in fifteen minutes, it goes, and Brandon was in the other room all along, all gonna and you're like, are you fucking kidding me? I had this absolute spacko in my kitchen for fifteen minutes getting a water, and Brandon was in my backroom doing it? That's where we're at? What am I not seeing?
+
+Help me, help get excited. Yeah. Think if you go back like, you know, a decade or so, like self driving cars had, you know, they had the people in them all the time. You would see crews driving around San Francisco and there was like a person in it for years. For years.
+
+Right? But now I take Waymo more than I take Uber. There's someone in I'm I'm thrilled for you. Welcome to London. We still have these people in cars.
+
+I love it, but it's in one city. It can't deal with like very ambiguous data. It's still like pretty irrelevant. It's made leaps and bounds in the past, at least in San Francisco and Austin, Phoenix. It's tough because, yeah, I guess the distribution is unequal, but it's an incredible service here in San Francisco and people here use it a lot.
+
+So like technically it works and it might be, you know, there might be like regulatory challenges or other challenges with scaling, but But you think we'll hit a chat GBT moment with robotics, which will cause an inflection in usage and adoption? Yeah, think I so. But I think it might play out similar to driverless cars where it's really hard to scale physical things as opposed to software. So it might be more of like a Waymo, Robo Taxi Cruise type moment than a ChatGPT moment. But I think the progress will be there.
+
+Dude, you have been fantastic. Thank you so much for putting up with this, like, incredibly wayward, poorly structured conversation, which was brilliant. And I so appreciate you putting up with it. Thanks for having me. Yeah.
+
+It was super fun. But before we leave you today, most companies have tried AI. Most aren't seeing results. Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close.
+
+Asana is the operating system for human agent teams, your easy button for AI productivity across every team. Ready to go AI teammates, prebuilt for marketing, ops, and IT. No prompt engineering, no set up. They show up where the work is happening, already onboarded in your workflows, ready to deliver. With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000.
+
+Asana, where humans and agents workflow together. Try it at asana.com. That's asana.com. While Asana keeps the work moving, Zerohash helps move money on chain. Every great software company eventually runs into money.
+
+Uber had to move it. Shopify had to hold it. Airbnb had to settle it. Money movement stopped being a fintech problem. It became a software problem.
+
+And increasingly, god, it's an AI problem too. Zero Hash is the infrastructure that makes global instant money movement seamless. One API integration for stablecoins, digital assets, and modern payment rails so builders can stay builders. Zero Hash powers some of the world's largest enterprises and financial institutions, including Kalshi, Stripe, Morgan Stanley, Gusto, and Interactive Brokers. If you're thinking about stablecoins, digital assets, and the future of money, it's time to talk to the team at Zero Hash.
+
+Visit 0hash.com/20vc to learn more. While Zero Hash powers on chain payments, Framer powers your website. When a new landing page turns into a pile of tickets and handoffs, Framer helps your team move faster. Here's what I love. Framer is the pro AI website builder for creators, teams, and businesses that care enough to get every detail right.
+
+The agents close the gap between AI generated ideas and production ready website work because it all happens where the site actually lives. It lands on the canvas, stays editable, and can be published when the team is ready. So you can build custom code components, create and manage CMS content, optimize SEO settings, and ship everything all in one place. The agents bring speed and scale. You bring taste, judgment, and control.
+
+It's an enterprise level solution too. Premium hosting, enterprise grade security, 99.99% uptime SLAs, which is why the world's leading brands like Perplexity and Miro build in Framer. Learn how you can get more out of your site from a Framer specialist or get started by building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc for 30% off. Framer.com/20vc.
+
+Rules and restrictions may apply.

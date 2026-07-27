@@ -1,0 +1,585 @@
+Alright, everybody. Welcome back. Episode two eighty two of the world's greatest podcast. It's your podcaster's favorite podcast. It's your mom's favorite podcast.
+
+It's the all in podcast. With me again, David Saks from my bio up to you, David Friedberg. It was a big week. It was a big week. The continuing number one story in the world is Kimi k three.
+
+It sparked a debate about banning Chinese open source models here in The United States, and it's gone all the way to the White House last Friday. We talked about it here. China's Moonshot AI released Kimi k three. Open source model, obviously, performance on par. On par.
+
+Not six months behind, not twelve months behind, but now on par with models like Opus 4.8 and GPT 5.6, which in and of itself is extraordinary, but about 50% cheaper. And this has created a bit of a panic similar to the deep seek moment that we had here back in early twenty twenty five. The White House, David Sacks, has gotten involved. Michael Kratzios, friend of the show, said, quote, we have information that Moonshot AI distilled Anthropix fable for the development of its k three model. Here's how the Trump administration has reacted so far.
+
+Monday, Axios reported the White House was considering banning Chinese open source models. Couple of weeks ago, David, I I think it was three weeks ago I I gave that to you as a hypothetical, and here we are. On Wednesday, Wired reported that Howard Letnick from our commerce department, friend of the show, does not want to ban Chinese models. So, apparently, palace intrigue, there might be different opinions inside Trump's White House. And instead, they want to incentivize more US frontier labs to develop better open source models.
+
+Polymarket says 45% chance US government bans an open source model in 2026. That was a brand new market. Started just it was at 22% a couple days ago. Sachs, you called it two months ago, our first victory fap of the episode. I think where it's all leading to is an effort to ban open source models.
+
+There's a lot of breadcrumbs leading here. If you look at a lot of the rhetoric around how models need to have guardrails and that with open source models, the guardrails can be removed and therefore they're dangerous. You see this rhetoric already in Anthropics blog posts. Any threat that they describe, they kind of go out of their way to take that shot at open source models. I think again, they're trying to create ideas or put predicate facts in the public record to justify an action later on.
+
+I think it's just a matter of time before they feel like they're at a position where maybe they can push for that type of ban directly. Alright. There it is, Sax. What's going on at the White House? What is the administration's position here?
+
+Why are we getting multiple is the White House testing and and probing to figure out what their position is here, or is it just this is a super dynamic situation? What's going on? Well, look. I mean, I have it on good authority that there is no decision by the White House to ban open source models, and I think they want that known. I think there's an ongoing conversation happening around what to do about Chinese distillation, and we should talk about that.
+
+But no decision has been made, and the president listens to a chorus of voices. He wants to get advice from as many people as possible. And I'm confident that if everybody weighs in, that the president will make the right decision as he always has with these tech issues. I think his instincts have been absolutely impeccable on this. And he's always supported a, let's say, lighter regulation, more open approach, and that's why I think The US is winning the AI race.
+
+So I think that's kinda where where things stand. Where do you stand? Where do you stand, Sax? That's what everybody wants to know. Yeah.
+
+I think it's important for me to make my opinion known in the spirit of, again, contributing my voice so the president hears all perspectives and then can make the best decision. Look, I think it would be a tragic mistake if the government were to take action against the open source ecosystem. That would do nothing but hurt America's position in this AI race. It would backfire badly. And I think that the key point here is that regardless of what you think about distillation, you cannot punish American developers for it.
+
+So, you know, you can't say that American companies and American developers can't use Chinese contributions to the public domain, that's just cutting off our nose to spite our face. I mean, obviously, American companies have to be able to use everything that's in the public domain because the rest of the world will be using those things. And let me just say, I've said for a while that Anthropic is guilty of regulatory capture of attempts to seek government protection. This is a company that is the fastest growing tech company at scale in history. They started the year at 10,000,000,000 of ARR.
+
+They're now over 70,000,000,000 of ARR. This is not a company that needs government protection. This is not a company is under threat from competitors or or whether they're Chinese or otherwise. And yet they have been very successful at trying to panic everybody into thinking that they need some sort of government protection. And the tell on this, the way that you know that this whole distillation thing is fake is because if stopping distillation was their primary objective, Anthropic would push to ban Chinese access to American models, not American access to Chinese models.
+
+Yes. They could and that is that is achievable. They could block it. So They're the ones in the best position to block it. If distillation if industrial scale distillation is a national security threat, they're the ones who need to stop it because that is the place where distillation occurs.
+
+You have to stop it at the source. Once you allow Chinese companies to distill, the horse is out of the barn. Yeah. And the reality is that I think that what's happening here is that in their lust for growth, Anthropic has done a very poor job at stopping distillation. I mean, they're saying that distillation is occurring at industrial scale.
+
+Okay. If it's industrial scale, it must be pretty obvious to see. So why is stopping is waves of accounts being created by students rolled up and sold on the dark web, you know, in in those kind of channels. So you got people in Manila, in The Philippines, I understand, and India signing up for all those accounts and then sending them to the dark web and selling them using IP addresses from America. Yeah.
+
+So that's how it occurs. But the more the more industrial scale it is, the more obvious it is to see. And Tramath has been saying for a while, why don't you KYC your customers? Well, they know that if they KYC their customers, it'll slow their growth. So instead what they're saying is, hey, ban our competitors.
+
+Well, that's ridiculous. I mean, they're in the best position to stop the distillation. I think that they're negligent about doing that or, I mean, if they really think it's that big a threat, they should use a few points of their 90% gross margins to do that. What you don't do is then say that American developers cannot use everything that's in the public domain. So it seems it seems to me that this debate is all backwards, that the question should be on Anthropic to explain why it's doing such a bad job.
+
+Alright. Not on the whole American open source ecosystem to be punished for Anthropic's failure. Alright. Friedberg, I have a really good question for you, but before we do that, Shammoth, can you give me maybe a little bit of what you're hearing on your sales calls for 8090? You're talking to enterprises.
+
+They're hearing all these reports, whether it's you, Dario, this pod, other places talking about, hey, open source is ready. This is the moment. Get control, AI sovereignty, etcetera. They must be calling you up and saying, hey. Okay.
+
+We're ready. Like, how do we get these things on prem? How do we do it? So what's the what's happening on those calls you're doing with the enterprise? And then can you maybe give people an idea of what distillation is just and and why it's so important here?
+
+Let's start with the second thing. Distillation is when you fire up a model and you ask it a question and you observe it and you take its output and you use that in training of your own model. Now multiply that behavior by tens of millions and what you exfiltrate is essentially trillions of questions and answers. And Sacks is right. If you really care about distillation, you implement KYC.
+
+You force people to make an account not just with a username and a password, but with some form of identification, maybe with a bounded credit card. There's all kinds of steps that you can take that would, frankly, slow things down in terms of revenue traction but would solve the distillation problem on its face. So that isn't really a thing. It's a bit of a red herring. The other thing on distillation is everybody has at some point distilled.
+
+The question is who is distilling from whom? And it looks like that funny meme where there's, like, nine Spider Men all pointing at each other. That's what this is because Anthropic has distilled from all of these publishers. They just pay a $1,500,000,000 fine. Apparently, OpenAI distilled from The New York Times.
+
+There's still an ongoing lawsuit. The Chinese labs have distilled from Anthropic. Wholesale stealing everywhere. Yeah. Well, I don't wanna call it stealing because it's not clear who actually owns the copyright in the first place.
+
+But here should be the important observation. These models are getting commoditized much faster than anybody thought. And how do we know this? Because there is no meaningful sustained advantage once a model publishes their performance criteria. What you see is literally within weeks, other models, some open, some close, some open weight, who are able to match and in some cases exceed the performance.
+
+So I think what's happening here is a handful of American companies have realized, woah, this value that we are seeing today may not be sustainable in a five and ten year period. And when you go and present a business model to Wall Street, you need to have that certainty. Otherwise, it impacts your valuation. And so I think a lot of what's happening right now, Jason, is a valuation preservation gain by the closed frontier labs. Because if you actually understood how commoditized these things are becoming and the velocity at which it's happening, you see that the real business model is not in the foundational model anymore.
+
+It's at the application layer above and it's in the infrastructure below, whether that's the cloud or whether that's chips. And so I think in the absence of regulatory intervention and in the absence of the United States government stepping in to put their thumb on the scale, what will happen is that as people learn about how value is changing, they're going to put more value in the application layer and more value in the infrastructure layer. That is bad for closed frontier labs, especially when they're mispriced 25 to 50x, the open alternative. And so this is an attempt to stop a competitor that is of the same quality but just much cheaper. Now there's another important thing here, which is if the United States government intervenes, it will tank the stock market.
+
+Okay. Period. Not debatable. Now you can debate which companies get tanked, and we we can probably play that scenario out. But for example, if they said no more open source, American companies cannot use open source, okay, let's just take at it from a stock perspective.
+
+Let's take an average normal company, Coca Cola. Hey, Coca Cola, you're trying to use AI to improve your business. You know what? You can only use these two options, and those things cost 50 to 100 times more than your other best alternative that you may use otherwise. That will eventually show up in your costs because AI is supposed to be this incredible thing that just kind of solves every problem and does everything for you.
+
+And so this incredibly important input into your cost model is now orders of magnitude, multiples greater than your competitors that are outside The United States simply because you're in The United States. So what would the capital markets do? They're going to say, wow, you have a crazy cost structure. This doesn't make sense. You're forced to absorb costs that aren't rational nor market driven.
+
+So then Coca Cola has to get rerated. But then you look at the people who are selling those tokens, and this is where Anthropic and OpenAI need to understand. If the government comes in and actually tells you that there's no open source, their valuation will crater. Why? Because all of that revenue is artificially being propped up.
+
+It's not being driven by market demand where you're being forced to compete. It's because of regulatory capture where you now get an artificial constraint, but it only works in one market. And so, anyways, all roads lead to market chaos Love it. Yeah. If anybody gets involved.
+
+So we should just not get involved. What it sounds like is you're saying that American enterprises will pay a token tax if the government gives anthropic and open AI a government enforced duopoly and enterprises are no longer free to use open source like the rest of the world. Dos Vedan. Yeah. Yes.
+
+Yeah. The markets with the capital. We will put ourselves on an island. Yeah. We'll be on an island of overly expensive AI.
+
+You can have Coca Cola or Pepsi or Coca Cola or Pepsi. Yeah. Well, this is not just bad. Choices. Have two beverage choices, but they cost 50 times more Yes.
+
+Than Coke outside of America. This is the point. We already have Coke everywhere. So you can buy 50¢ Coke or $50 Coke. Why would you buy $50 Coke when you could buy 50¢ Coke?
+
+Yeah. Alright. Let's get let me get Frabrig in here. Okay. I was gonna say just just just one thing on this.
+
+This goes back to my point of these proposals to ban open source that are coming from Anthropic, they don't solve the distillation problem. If distillation's a problem, you have to stop it at the source. In other words, if you wanna ban open source in America, the rest of the world will still be using Chinese open models. We wanna solve that problem. Yes.
+
+And that means they'll get the data and they'll get the reinforcement learning and then we lose the AI race guaranteed. Friedberg, let's take it from a Graham Allison and level up the discussion here, would be quite provocative to ban the Chinese models. How does Xi Jinping respond to that? How does the CCP respond to that? This is a crazy chessboard.
+
+It would seem like a pretty escalatory and would be going up the ladder. Yeah, Friedberg? Yeah. I look. I don't I don't think it's as relevant that the open source model is published by China.
+
+I get that there may be security risks that those can be estimated and addressed. I think on the three things that are worth highlighting on this this issue, I'm I'm very much aligned with Saxe and Chamac. And I think the three things are really around distillation. I don't think distillation is just about AI. You know, distillation is a process whereby you look at the end product that someone else has produced in thinking about and learning about how to engineer your product.
+
+It is a common technique that is used across every product category in every industry. One carmaker will look at how the other carmaker's car operates, and they will use that to help them design a better car. You know, at Google, in the early days, we would submit millions of search queries to Yahoo and Microsoft search engines to see what the result sets were, and we would compare our results against their results as a way of improving our search engine rankings and our algorithm. It was a very common technique. It doesn't mean we were stealing their algorithm.
+
+We didn't go into their servers and steal their software. We looked at the output of their software and used that to improve our software. It was called benchmarking. Right? It was benchmarking.
+
+Call it. There's been a million terms. Exactly right. And so I don't think that this matters as much. I think the question around copyright infringement or IP infringement That's our second story.
+
+Sachs is right. There's a terms of service question here, but that's on the service providers to fix. The terms of service blocking people from doing this if they so chose. But the copyright argument, the IP argument is really about, did they steal the software? They didn't steal the software and they just looked at the output.
+
+That's not IP infringement. That's not copyright infringement in a classical sense. And so I do think from a distillation IP argument perspective, it's the output, not the process that matters. So the question is, are they taking copies of copyrighted software and using it, or are they looking at the output? And so I think output, not process of engineering, is what you really need to assess here.
+
+Can I insert something? Freiburg can comment on it is I think a lot of people in the, let's say, policymaking community don't understand this distinction, but I think everybody in tech does and I think it's a big part of why there's a disconnect on this is there's a huge difference between model weights and outputs. Right? So the weights are the it's the file of numbers. It's the numerical parameters That's the software code.
+
+That's the code. That's the code. And if Chinese companies were to steal That's software. Weights, proprietary weights from Anthropic or OpenAI, that would be theft. That's right.
+
+But that's not what we're talking about here because no one's accused that. What we're talking about here is taking model outputs and then trying to learn from them. Using other people's software to learn. Yes. And it's exactly the situation you said with, like, the the Google searches or whatever.
+
+And here's the thing that's so hypocritical is that OpenAI and Anthropic have both argued that they are free to train on all the world's output regardless of whether the creator wants them to or not. That's right. That is their current position. That's like Chamath mentioned in the New York Times lawsuit. The New York Times is suing suing OpenAI right now Yeah.
+
+For going onto the New York Times website in violation of the New York Times terms of service, scraping all the information, and training on it. And OpenAI's argument is, look. We're not stealing anything. We're taking the output of The New York Times, and we are deriving our own model weights. 100%.
+
+Exactly what these 200 models are doing is is they are taking the output of American models and then they're driving their own weights. They're learning from it. Yeah. And so the accusation though, just so we're clear here, is that there is ethical issues around the industrial scale, covert breaking of terms of service. That's what the White House has been talking about as well.
+
+100%. 100 people understand, like, there is a bit of recognition of that. Yeah. Yeah. Look.
+
+Let me let me be clear that I'm not defending China in this. In fact, you know, look at my my bona fides. I was the first administration official to even talk about distillation. I did it in January 2025 when Deep Sea came out. I went to Laura Ingram, and I think I was probably the first person in the government to even explain this concept publicly to people.
+
+And moreover, you know, I was a co author of the Winning of the AI Race report in which the whole premise of it was that we wanna win. We wanna beat China. So, you know, I'm definitely not someone in this camp that doesn't want The US to win. I want The US to win. The question is how?
+
+And if we shoot ourselves in the foot by banning open source, which is to say not letting all of our American companies take advantage of open source when the rest of the world is able to, then that is a huge problem. Now I'm fine with Anthropic and OpenAI enforcing their terms of service. They need to do a better job. Stop the distillation from occurring in the first place. If there are things that the government can do to help them, okay.
+
+But I'm not sure what those things are. What needs to happen is those companies need to do a better job enforcing their terms of service. Yes. Okay. Now, Freiburg, you had you said I think you said you had three points you're making.
+
+I think you made one. I wanna get the other two out of you. Yeah. So the other one was just on the free speech argument, which is, look, What is an open source model? And I think the audience needs to understand this if you're not from the software industry, but open source is a downloadable package of software.
+
+You can think about it as downloading a a text, a book. You just got all the code. Once you get the code, you've got it on your computer. You don't have to be connected to the Internet. You can just run it and use it.
+
+And I think part of the challenge that's gonna be faced here, if there is any attempt at restricting open source, it's gonna open a can of worms on how do you actually enforce restrictions on open source because you're basically telling people once they've downloaded and gotten a copy of this free publicly available software, they're not allowed to use it. And that becomes a real challenge. I don't think we have a lot of great precedent for that. It's gonna be very ugly to try and stop open source. I do think there's a question on, like, copyright action.
+
+But if there is, there's a legal due process to go through to make that case and stop that open source from being available. And then my third point is just open source is better for the world. To Chamath's point, this is a 100 times cheaper. That is better for the industry, for enterprise. The beneficiaries are gonna be the economy, the consumer.
+
+Fundamentally, if you look back on the Internet, in the early days, Netscape made a proprietary browser and a proprietary server software, the Netscape software, and that and they went public and they were the first to do this and it was super it was super valuable and profitable. That company ended up getting crushed because of open source. The Mozilla Foundation was formed to create an open source web browser called Firefox, and then Google ended up hiring everyone made it Chrome, but it was still open source. The Apache Foundation set up the first HTTP server as an open source product rather than having to pay Netscape or Microsoft or Oracle for their server software. Anyone with a computer could download the Apache software and make a web server and be on the Internet and create a website.
+
+And what ended up happening is the value accrued to the Internet. It didn't accrue to the small number of software providers that controlled the gate and the portal of the Internet. Basically, everything got open sourced, and Google took off, and eBay took off, and Etsy, and Amazon, and all the millions of small websites, and all the millions of small businesses, and everyone that benefited from an openly accessible, open sourced Internet. If the Internet was closed and there was proprietary software gates and portals throughout the Internet that everyone had to pay to get through, the Internet would not have taken off and the economy wouldn't have grown, and all these jobs would have been created. AOL and CompuServe.
+
+Like, literally, we had that. And now now when we look at this analogy, the analogy here is if open source AI takes off, then all the worries that Bernie Sanders and Elizabeth Warren and all the socialists are harping and larking about are not gonna be the case anymore because you're not gonna see all the value of AI accrue to two or three or four companies and their small group of billionaire shareholders. What will happen is AI proliferates, and a million AI integrated enterprises all over the world will benefit. Everyone will benefit. The economy will grow.
+
+Jobs will be created, and AI becomes a power for good for creating an open economy. So but I know that some people that are listening to this in the government and that are on the other side are gonna say, but but but Chinese open source versus American open source, let it all proliferate. And frankly, if the Chinese are violating copyright stealing software, go after them for that. Put in place trade sanctions. Do all the you can do to stop that from happening.
+
+But fundamentally, open source AI will transform the global economy, and it will ensure that the economic value of AI will diffuse to everyone and not be held captive by a small number. Is why the 1% that controls open source, if they have it, that the oligarchs are gonna get their clocks rung, and we don't need to have a wealth tax. Chamathi, we're gonna add to this. Have to acknowledge that it's incredible how fast the value capture at this segment of the market has basically evaporated. I've never seen it in my twenty five years in Silicon Valley where a sector of the economy can absorb hundreds and hundreds of billions of dollars.
+
+And then you think that there's going to be economic pricing power many decades into the future, and it effectively evaporates in months. Months. It took off in months. Remember remember how big the profit was? It's evaporated in months.
+
+No. I got this is an area where I disagree with you Evaporate is a strong term. It it does look like it could slow down or it could or or it could plateau. Go ahead, Sax. Make your argument, and I'll give you my argument.
+
+Yeah. Yeah. But let me pull up the Anthropic revenue chart before you go there, Sax, because we can this will help mitigate it here and educate the audience. So as you can see here, we got a little bit of a stall in Anthropix revenue in the last couple of months, and it seems and and this is third party tracking, so it's it's not perfect data, but we do see that this is a a clear headwind. And then do you have the second chart I had?
+
+I talked on the pod just it was last week or the week before when we're having the discussion about open source and, like, I think it was Brad Gerstner from Altimeter was talking about, hey. Tokens are still growing. Well, there are routers that track open router. The better an open source model does and the easier it is to implement on your own servers and take it in house, etcetera, those are dark tokens. They're not recorded.
+
+You're not gonna see them show up on a revenue chart anywhere because they are free, essentially. You just need to have servers and energy to to do them. And here you see that now well over 50%, and a lot of these are coming from Chinese. By the way, Saks, I wanna be clear before you give the counter. I'm not saying that these companies won't make money.
+
+That's not what I'm saying. But what I am saying is that markets are very savvy in looking through current earnings and asking a very specific question, which is what does this revenue look like ten years from now? Does it go up? Does it go down? Is there more competition, or is there less competition?
+
+Is it effectively monopolistic, or is it more of a commodity? If it's a commodity, how many people can price this good? At what price is the market clearing price of that good in ten years? And all I'm saying is, normally, those variables get exposed. Those cards get turned over relatively slowly.
+
+And so you have five, ten year cycles to transition from being an exclusive provider of a good to effectively a commodity provider of a good. And all I'm observing is it's so unique that only technology could create a market where that cycle could get compressed into a few years because it is very hard, if you're an allocator of money, to sit there and look at this data and not wonder to yourself why it's not a commodity in five to seven to ten years. And when they get to that conclusion, which every capital allocator will because it'll be pretty negligent to not, it's very hard to assign huge future premiums. And where the real money is going, by the way, and we saw it in Google's earnings, which I'm sure we'll talk about, it's going to the cloud. It's going to the infrastructure.
+
+Yes. So, by the way, there's another cohort of people that don't want to see the end of open source because they want to serve the cheapest models possible because they know that's where all the margin capture is. What's your where where is this going, Sax? Is it both open we're gonna just see a proliferation? I mean, as far as I'm concerned, there is an unlimited appetite for on demand intelligence, and there's going to be I don't think there's an upper bound for how much intelligence you can tap as long as it's continues to get bad better, which then the thesis would be, yeah, it's a commodity and and the prices keep going down, but consumption keeps going up.
+
+What's your thoughts on You have to assume that this is exactly the example that you guys used. It's a web browser. And in a web browser, it's a mechanism to get to a place. And so the apps that are actually the places are where the value is captured. And I think if you assume for a second that intelligence becomes completely ubiquitous, it's widely available, the marginal cost of it is effectively zero, The energy to generate it is effectively zero, which I think is an accurate assumption.
+
+It's very hard to make the case of why this isn't like the browser. And it becomes just gets subsumed into the Amazon Web Services cloud businesses, Elon's Web Services, etcetera. Saks, where do you think this is going? Then we're gonna go to our second story which is the IP story. Third story is gonna be the markets and Google specifically in Tesla and SpaceX.
+
+Look, there's been a lot of violent agreement on this show so far. So let me just make the counterargument. I think that both open source and closed source will be big winners in this. I think the market is huge and they each serve their purpose. What happened is with the introduction of Community k three, there's a little bit of a panic in which everybody said, oh my god.
+
+All the Chinese models have caught up, they're giving them away for free, and they're gonna destroy our leading American frontier labs. And Anthropic and OpenAI are running around saying, listen. We can't continue to invest billions of dollars if Chinese companies can just steal our weights. Right? So that's the argument that they're making that government officials are responding to.
+
+The truth of the matter is that, look, when Kimi k three first launched, I was concerned about it because I was like, oh, has China caught up? Are they now able to produce a much cheaper frontier model? Then the details started coming out. So Ben Thompson on his blog went through some of the cost numbers and it turns out that Kimi K three is not that much cheaper to run. There's not a significant cost advantage to it.
+
+So that was that's point number one. Point number two is that China has not caught up. It's true that Kimi k three scored really well on the arena battleground for front end coding for web development, but that's just one test. That's just one dimension. There are areas where it scores really well, but there's lots of other areas where it doesn't score that well.
+
+So it is not a clear advance or a clear catch up to the leading American models. Moreover, you still have stuff in the labs by Anthropic and OpenAI that is way ahead of this and the reports are that Sam is going to Washington over the next week to go talk about GPT six point o, which is blowing the doors off. So I don't believe that China has really caught up. I think there's Sam's gonna go see daddy, and what is he gonna ask for? I think there's incredible unreleased models in the pipeline, and we need to let our horses run here and not slow them down with a bunch of unnecessary hoops.
+
+And if we do that, I think we're gonna be just fine. I don't believe that China has caught up. I still think we are six months ahead. And then just the final point on this, if you look at revenue, which is the test of real usage in the real world, Anthropic and OpenAI are blowing the doors off. They are by far the fastest growing tech companies at scale that we've ever seen.
+
+Jason, you showed this chart that supposedly shows a hiccup in Anthropic. Listen. Their internal forecast was to 10 x this year from 10 to a 100. We're in the middle of the year. They're already over 70,000,000,000 of ARR.
+
+They're easily gonna get to a 100,000,000,000, and we don't really know what this little blip is here. I think one thing it might be is that OpenAI, if you superimpose the OpenAI chart on this, they have reaccelerated over the past month. So I think that if you were to add OpenAI is excellent. Codex is good. Codex is excellent, and I think they're taking a little bit of share.
+
+And Sam is out there tweeting that we've got our mojo back, and they're taking their forecasts up. I think they were expecting to end the year at 60,000,000,000 of ARR, and I think they're forecasting more like 75,000,000,000 of exit ARR. So my guess is that if you were to superimpose OpenAI, Anthropic, and looked at them together and you were basically just to say that, you know, let's call it the frontier model duopoly in The US, you do not see any slowdown. You don't see any blip. They're taking their forecasts up.
+
+And the reality is that if distillation is going on, it's been a thing for you know, again, I pointed it out back in January 2025 with Deepsea. So it's been a thing this entire time that they've been growing exponentially. So I just don't believe that these guys are actually suffering in any way. I don't think they need government protection. I think they're growing exponentially still.
+
+This is a little bit of a case of, you you know, what do you call it in basketball when a player flops? Know? Flop. You flop. Yeah.
+
+You try to draw a Yeah. A flop. Yeah. Well or you you basically act super dramatic after a foul in order to draw the charge. You're foul baiting when you're trying to get a foul, and then you're flopping, which is just about making, like, an exaggerating like LeBron does.
+
+And that's exact yes. It's a LeBron. It's it's a flare flop, you know, where Flip flop. These guys are trying to they're trying to draw the foul. They're trying to get the government to intervene.
+
+Now why are they doing this? Because they're in the middle of roadshows right now. And, Tramath, to your point, I do think they get the legitimate question about why won't you be commoditized over time by open source. And by far, the best response to that would be that if they can lure the government into giving them a government protected duopoly, then that would be incredible. The best answer is what you gave, and Anthropic and OpenAI should own this because they're good at it, which is they're gonna go up the stack to the application layer.
+
+Well, they already have. Done it. Like I know. But they've done it in this way, which is a little ham handed in some cases, but they're excellent at it. These end user apps are really good, and they should just own that.
+
+And that should be their answer to Wall Street, which is, guys, we have the best model. We will eventually go up the stack. And if I were them, I'd actually practice the following answer. There may be a version of a model that I don't release and just keep for myself, and I'll just use in my own applications. How about that?
+
+Well, that would be super answer to your question. Anti competitive. Yeah. No. It's not.
+
+They're allowed to build a model and not release it and use it for themselves. Hold on. Hold on. Let me answer that. It it would be anti competitive in the eyes of their customers.
+
+It might not be in the governments. But if you are using them as a customer and you're lovable, which I talked to, and they're paying a ton of money or you're 11 Labs and you're paying them a ton of money and they say, hey. We got our latest and greatest. You can't use it because we're gonna compete with your company, They would stop using it, and they go to open source. I'll tell you why, Saxe, I think you're wrong on this issue.
+
+I think open source is having its moment. I work with startups. They are all moving off of these, and they're using open source, and they're using it at much cheaper rates because a lot of the jobs don't need the latest models. They can use these the last generation's models and people are moving them local. They're hosting them themselves.
+
+This is, I think, a non zero chance that this is gonna derail anthropic and open eyes IPOs and No. They're gonna they're gonna they're gonna be fine. They're gonna be fine. As long as everybody thinks they're No. Hold on.
+
+Let me finish, guys. I'm making my point. Shut the up for thirty seconds. I believe that this is going to derail their IPOs. I'm taking it from the top.
+
+It's gonna derail their IPOs. There's gonna be headwinds against it because I think that they're gonna have massive margin compression. I believe they're spending so much money that I think they're gonna get caught in a trap. I think this could be a trap for them. They overspend.
+
+They don't have the same profitability, and it doesn't pencil out. And startups are the future. The startups are what eventually the enterprise copies. I think you're wrong. Sachs, go ahead.
+
+Well, I'll come back, but let Chamath respond. I just didn't raise your spot. You're wrong. Totally wrong. I think you're wrong, Sachs.
+
+I think they have caught up for 95% of the jobs. This is a crazy headwind. I'm not saying that the IPOs are wrong, but I think that their market caps and the headwinds are coming. I think the answer is such chance that they're gonna get slowed down. I think the answer is slightly different.
+
+It's not that 95% of the bleeding edge tasks can be done by everybody. It's that 95% of the tasks can be done by many different models. That's the actual answer. And that's okay. And by the way That's exactly right, Chamath.
+
+I agree. It's also okay for Anthropic to say, you know what? I have this next generation class of model. I'm gonna instantiate, I don't know, a life sciences program, a cybersecurity business. That's where they can capture, as Sax was saying before, over time, trillions and trillions of enterprise value because I do think they have excellent models and they have excellent engineers and they have momentum.
+
+But if you're going to build a business model that tries to ascribe this layer as having a lot of terminal value, I think that that is a mathematical mistake. That's it. You can't do it. Open source can be a specific a headwind to these companies specifically because because all of their best customers, and I talk to them, whether it's Lovable or eleven Labs or the startups that were spending hundreds of thousands of dollars with them every quarter just last you know, six months ago, they have all moved en masse, GLM five two, making their own models. The cat's out of the bag.
+
+They are gonna start losing a lot of customers to open source, and Google and AWS and Elon web services are gonna host them. And how do I know this? Every time I do a job, I'm using Perplexity Computer, not not a paid partnership or anything. It just happens to be the best harness that I found. And I start with Grok, Nemotron, GLM five two, and I also put it into Claude and the results are as good or better.
+
+I in other words, I can't even tell the difference between these. Let's superimpose the the OpenAI numbers on top of the Anthropic numbers because I think it supports the the point of trying to make sure estimates, by the way. This is not, like, literally from the companies. Just wanna make sure people know. According to this company that I mean, look.
+
+Who knows how they drive this? We don't know that they're totally true. They're basically showing that OpenAI's run rate, which is ARR, it rose from 33,000,000,000 in May to 41,300,000,000 in July. So they're seeing acceleration. Like I said, I mean, Sam is out there saying they got their mojo back.
+
+They're gonna have their best twelve months forward looking ever. And look, anthropic is still growing really fast. We've talked about this on a previous show. It's not physically possible to grow 10 x year over year forever. You'll run out of compute.
+
+You'll run out of energy. You'll run out of everything. There's just no yeah. There's just no way To do things. Anthropic I mean, look, if any if anybody had pay.
+
+Said If anybody had said anthropic would be at over 70,000,000,000 in the midpoint of the year, back in January, they're at 10,000,000,000 Nobody would have said it. You would have said this is the fastest growing tech company of all time. The idea that they're at risk of getting their entire franchise destroyed, it's not in the data yet is what I'm trying to say. And moreover, Jamal, to your point, it's not only about the model. It's also about the harness.
+
+It's about the connectors. It's about the enterprise agreements. There's a lot of things here that you need in order to grow a business Yeah. Like this. And, you know, this idea that they need to race to get government protection because of a competitive risk that might happen in the future, I think it's just kind of unseemly and gross.
+
+I mean, this is literally the most successful tech company of all time, and they're racing to the government to basically say you need to protect us against our competitors. Arguments. Not just our Chinese competitors. Our potential future competitors. Competitors.
+
+They should hire Lina Khan. Okay. Frankly, it's gross. And just let me give a couple of examples because I know people don't have a lot of sympathy for Chinese companies. That's fine.
+
+I'm not defending Chinese companies. I'm defending American developers who need to be able to use everything in the public domain. Let me give you an example. Mura Muradi, her new Thinking Machines. Thinking Machines.
+
+They currently have the best American open source model. You know how it was trained? It was bootstrapped? It was distilled off a Chinese model, communicate 2.5. Now if you say that Chinese model is based on IP theft, what is Thinky?
+
+It's a derivative work off a model that Anthropic is trying to taint as being I p by the way, there's been no evidence of this. There's no evidentiary process. They are simply trying to paint with a very broad brush here and say that now that model is tainted. Let me give you another example. So Cursor rolled out its new product Composer two.
+
+They were able to post train that model using KimiK 2.5 on their own proprietary coding data. Okay. So think about this. They started with a Chinese open source model, and then they used their own data, and they came up with a new derivative product. This is the way that open source works.
+
+You take things that are in the public domain, you fork them, you make them your own. And by the way, once it's in the public domain, it's not a Chinese model anymore. It is open weights that are freely available to anyone. It's a file. Okay?
+
+And you take that. You fork it. You run it on your own hardware in an American data center. No packets are going back to China. No data's going back to China.
+
+Nothing's going back to China. An American company has taken open source contributions in the public domain, made it their own, and then developed their own model. And if you say that American companies can't do that or that somehow it's tainted with IP theft, you are basically gonna put a dagger through the heart of the entire American open source ecosystem, and that is exactly what Anthropic wants because they do not wanna have the competition. Freiberg, maybe you can close this out here, and then I'll put my I'll just zoom out for a second, and I'll say Stamp on it. Think about the strategy as well for China.
+
+If you think about the global economy of the last fifty years, The US has accrued so much value by being at the core of the knowledge economy and effectively a services economy. And in that sense, through the development of intellectual property of IP, of knowledge, and then the conversion of one bit to another bit, we've been able to derive trillions of dollars in GDP. Meanwhile, we outsourced manufacturing and created a sleeping giant in China where they have this incredible manufacturing capacity. And at the end of the day, if you think about the course of, like, human technology evolution and human prosperity, it's largely driven by our capacity to convert molecules from one form to another and use the least amount of energy possible to do that. That's that all of technology ultimately leads to that simple equation, molecule conversion, making that beautiful couch behind you at the lowest cost possible, making materials, making semiconductors, making all this stuff.
+
+Everything in our world is driven by molecule conversion. So at the end of the day, if the knowledge economy and the services economy gets compressed, much like AI and open source AI in particular, effectively flattens that value because all of that value is now open source, it's free, and it's simply a function of turning on a switch and running it. The value of The US and the Western economy has been largely degraded. And what's left is the value of the molecule economy, the ability to convert molecules and use energy to do that. When you look at the juxtaposition of China versus The United States today, we have one terawatt of electricity production capacity in The US, and they're on their way to having eight.
+
+We have about 10,000,000,000 square feet of manufacturing capacity. They have 200,000,000,000 square feet of manufacturing capacity. So they have 20 x the manufacturing capacity, eight x the electricity production plus all of their other sources of energy. And I think that's the the long game for China over a decade, two, three decade process, is by compressing the knowledge economy and the services economy, commoditizing it completely, they are left holding all the value in the global economy because they can make stuff and they can make it cheaper than anyone because they have the most electricity production. That's a very simple rubric for kind of how I look at the the long game that they're trying to play here.
+
+You believe they're trying to commoditize this very important space just like they did for Global knowledge. Cars, etcetera. And global services. The creation and movement of bits gets commoditized. And what's left over is the creation of electricity and the creation of molecules, both of which they have this very difficult to surmount advantage that's going to make them the core dependency for the world.
+
+That's what I think is kind of the long game here. And just so you know, this data comes from reports in places like the information or other sources or leaked numbers, and they try to just make charts based on it. Yeah. And by the way, I, you know, I have my own sources too. I've talked to investors in these companies, and I'm just telling you that both Anthropic and OpenAI are taking their estimates up right now, their forecasts up.
+
+So, I mean, look, I think in the future, it may be the case that Open source takes share. Fine. It's because the market's so big. And there is always a market for Open because Open is more controllable. It's more customizable.
+
+You can own it. Get the data sovereignty. You get the sovereignty, but it's also more work. So there are different use cases. There's different parts of the market.
+
+That's actually very interesting. The the more work part there, Sax, is super interesting. Like, three to six months ago, it was so much work to stand these up, and now there's so many intermediaries building the harnesses that default to it that that is getting worked out. But that has always been the issue with open source for sure is the amount of work it takes to implement. If you do wanna implement this inside of your organization, please make a call to 8090 and try the software factory.
+
+Use the promo code JCAL to get a free consultation at 8090. Alright. Free can they get a free consultation? Man, everyone's talking their books. Jay Cal?
+
+Everyone's talking their books. Actually I'm not. Including, I'd say, the Anthropic and OpenAI investors. It's amazing how many of these investors show two weeks ago when you opened the episode? Brad was like, let me tell you why this is gonna he's holding on.
+
+He's holding on to the No. Actually, I swagged actually out Brad. He's like, ugh. I actually give Brad a lot of credit because I do think that he's objective about public policy or as objective as you can be given that he does own all these companies. But, look, let me just tell you that, you know, I see a lot of folks who are suddenly China hawks and saying, we need to stop China.
+
+We need to stop I know. They're China hawks. Everybody wanted to sell their chips there. How about disclosing first whether you're on the cap table of Anthropic? Okay.
+
+Are you guys on any of these cap tables? No. I'm not. Not directly. No.
+
+Not directly. Yeah. At the same time. Yes. Indirectly, maybe got a little access.
+
+You know what it's like, Chamop? It's like when you you got that great flush or straight and you're like, please don't pair the board. Brad's like, don't pair the board. Please don't pair the board. Alright.
+
+Here we go. Of open source. I love I love this open source AI stuff. I love it. I think it's so awesome.
+
+The value So punk rock. It's it's just like there's so much to be done with it. It's just exciting and awesome and yeah. Chamath's point is exactly right. Most of the models can do 95% of the tasks.
+
+And if that's the case, then it's not like everyone needs to scramble to get the best open source model. You just need open source to do 95% of what you wanna do with AI. And then the other 5%, you get specialized or high value or you pay a premium. And by the way, if you're a big enterprise and you need to have wrappers and support and all these other tools for your employees, buy Anthropic or OpenAI or Grox tools or Gemini. Like, plenty of options.
+
+Make sure you have a good partner. Use the promo code j cal. You get a Zoom call with Chamath. Okay. Zoom call with Chamath.
+
+Just have a Zoom call with Chamath and take a selfie with him on Zoom. Oh, I'm sorry. But, yeah, anyone who's gonna sign a $10,000,000 contract with eighty nine, you get to have three of the four buds for a five minute Zoom call. Absolutely. You get to go.
+
+All gonna show up for million. You get to guest host on the pod. And anyone ready to make a pre purchase on a million dollars of potato seed, you also get to have Yes. Use the promo code saxie poo. Oh, yes.
+
+And if you'd like to guest host, the first person put a $25,000,000 check into Lodge Fund five gets to guest moderate an episode with your boy J Cal. Alright. Promo City this week. Alright. Anthropic Copyrights.
+
+Here we go. Anthropic has settled their AI copyright lawsuit for 1,500,000,000. Billy, on Monday, largest copyright settlement, Friedberg, in the history of The United States Of America. First major AI trading lawsuit to settle. There are many more in the pipeline.
+
+Anthropic downloaded 7,000,000 books from pirated websites to train Claude. And that alone, it may or may not be a crime. This has been adjudicated a little bit in the courts. They had ruled previously that AI on copyrighted books is legal under fair use, but there's gonna be some future cases. So this is a settlement.
+
+They didn't go to the bat. Lawyers getting a 101,000,000. Authors get 3,000 a book. 500,000 books were covered in it. Thus far, 91% of the covered authors have claimed their share.
+
+Tons of other ones are on the way. And here's your second victory pat fap of the episode. Content providers as a group need to get together and fight for their rights in unison. New York Times, Medicare the right to party? No.
+
+Fight for the right to get paid and to survive. And you can go the chat TBT and say, as a group, either give us these terms or don't index us. They are interfering with their ability to leverage their own content. It is profoundly unfair, and those magazines and newspapers need to what's that? Gonna get steamrolled.
+
+It's possible. YouTube is a great example. That's what's gonna happen here. There'll be a settlement where they are going to be able to claim their content. I will bet any amount.
+
+Let's get back your your your premonition here, JKal. This is, like, a of stuff. Propose the best. I am gonna go with my biggest winner Now twenty twenty four. Training data owners like The New York Times, Reddit, X Twitter, YouTube, etcetera.
+
+I think what we learned in 2023 was that the language models are starting to hit parity very quickly and that the real value is gonna be in and it may may even become commodities, and open source may win the day. So then I think the winner is folks who have the training data. You know, the best thing about this is watching Jason's reaction to Jason. I love you. Picture a picture of me just be like, oh, go J Cal.
+
+God. Freeburg, did we make a bet here? Did we make a bet? I don't know. He's gone.
+
+Well, actually, this so I'm this settlement, I don't think quite proves exactly what you want it to prove, J. Cal. Good. I'm happy to explain. Can I can I make a nuance here?
+
+Okay. Course. Of course. So okay. Look.
+
+And, you know, obviously, I'm not a huge fan of Anthropics. I think they're potentially destroying the whole ecosystem for their own purposes of regulatory capture, but let's just be very clear about what let's just be very clear about time, Daria. Yeah. Let's just be very clear about what this judgment was and was not. So Okay.
+
+What Anthropic did is they pirated all these books from LibGen and they trained on them. And the reason why they got in trouble is because they basically took stolen books. They didn't even pay for one copy of them. But if they had paid for just one copy of each book, they could not have been nailed for piracy. They would have been potentially under fair use, which I understand J.
+
+Kall is still being litigated in the courts, but that would have been their defense. So the reason why they got nailed with this $1,500,000,000 judgment is they wouldn't even buy one copy. It is still Anthropic's position and it's OpenAI's position that they should be able to train on all of these books under fair use if they buy one copy, and that issue has not been resolved yet. Now you should be able to see the total hypocrisy of their point of view relative to the previous issue, which is they believe they should be able to train on every creator's output in the world, you know, as long as I guess they bought one copy of it against the will of those creators, whether those creators like it or not. They believe it is fair use to train their models and derive their own weights based on fair use.
+
+However, they say that the one type of content that you should never be able to train on is their output. That is currently their position. It's completely epic critical. And, actually, if you go back to Anthropic's blog post in February where they define this concept of industrial scale distillation attacks for the first time, they coined that expression. And this is you know, I worry that people in the government policymakers don't understand that this is all part of a Anthropic op.
+
+No one used the terms distillation and attack together until Anthropic wrote that blog post. Distillation was simply an industry standard practice, but then Anthropic coined this idea of industrial scale distillation attacks. In any event, if you go to that blog post, search for the words IP theft. It's not in there. Anthropic did not claim even though they were trying to coin this new concept and brand this idea of industrial scale distillation attacks.
+
+They did not have the chutzpah to claim that it The was IP cojones, the hypocrisy, the chutzpah to claim that it was IP theft. Why? Because they maintain that it is their right to train their models on all the world's output even if the creators don't want them to. IP for we, but not for thee. Exactly.
+
+So so, J. K, I don't even wanna get into whether you're right or not on the fair use question. I'm maybe you are right. I don't know. Okay?
+
+But my point is about the hypocrisy. And they themselves never claimed that this was IP theft by the Chinese companies. What they tried to claim was that it was a national security threat because what would happen is these Chinese companies would distill off them, create their own models, and those models would not have guardrails. So Yeah. They were making a different kind of of argument.
+
+That argument never that argument, though, never found purchase with policymakers because I think that they could see that, yeah, look, guardrails are important, but, you know, it never really found purchase until Anthropic started claiming, oh, this is IP theft. But they have not been willing to make that argument publicly because they know that it would poison all of their fur use lawsuits that are happening. And, Shmoth, like you mentioned, The New York Times is currently suing OpenAI for basically a industrial scale distillation attack. I mean, OpenAI went on The New York Times website, used scrapers, slurped up all of their information at a scale that no human could achieve, and then they used that as training data and reverse engineered the model weights effectively. So my point is that even Anthropic and OpenAI won't publicly admit that what China is doing is IP theft because they are doing it themselves.
+
+It's totally hypocritical, and I don't think policymakers should be making arguments that these companies themselves won't make because they know that they will lose all these court cases. Freiburg, any thoughts here on and, obviously, this is still being litigated as we've discussed. It's a 150 major cases. New York Times is one of the music industry. Question, JK.
+
+Let's say you wrote You have a question for me. Say your book your book I don't know. Let's call it genuflecting the novel, the Great American Novel. It should be Angel in 11 different languages. So you write this book.
+
+Okay. Like your Harper Collins. And you opt to not submit it to AI because there's a restrict. You you you keep it closed. No one can read your Google search.
+
+Can't be on Google search. No one can read your book. You're not letting anyone read your book. You wanna pay for your book if you wanna read it. $10.
+
+And someone pays $30 for Jenuflect, the great American novel, and they read it, and then they write a review. They publish their review on the Internet. Now on the Internet, the reviewer talks about your book and describes your book gets web crawled by an AI engine, and the AI engine learns from that, learns about your book. And now there's some commentary made about your book when someone asks a question about your book in the AI engine. Do you feel like your copyright was violated in that sense?
+
+So the book the AI never ingested your book. It ingested metadata about your book. It ingested reviews about your book. It ingested third party analysis about your book, all of which was on the open Internet. It didn't just copy that stuff, but it used it to learn about your book.
+
+You're saying these 1,500 reviews for Angel How to Invest in Technology, Star's Timeless Advice from an Angel Investor turned a 100,000 into a 100,000,000. These reviews would then be the basis of the AI. So I guess I would have to be okay, but this like, you know, this eloquently brash blueprint for angel investing, that verified review Yes. Yes. I would be fine with that five star review being in there.
+
+Okay. So then you have no reviews I don't want. You have no knowledge. You have no knowledge of the project. J.
+
+Cal. Absolutely. J. Cal, how many of those 1,498 reviews did you not write? Three?
+
+Yeah. No. Actually, I'll tell you the secret. When you guys actually get asked to write a book or any of you have the capability of completing a book. Yeah.
+
+Because I because I'm 97 years old living in the 1988. Did you use to what bot what bot did you use to post that? '17. Now we know where he pointed that stupid open source AI slop cannon that he's built. That's right.
+
+That's I verified the purchase too. Slopkin. Friedberg, you make a great point. You make a oh, there it is. Genuinely, a great American novel.
+
+Practical wisdom for mastering ambition, building resilience, and winning at life. Work Animaster virtue signaling. Yeah. Animaster virtue signaling. Incredible.
+
+Incredible. That's beautiful. Incredible. That's beautiful. But, J.
+
+Cal, I mean, is my point. Knowledge can't be contained. It's diffused. And so the form of copyright is very clear. The case law in copyright is very clear.
+
+I cannot lift text out of your book, reprint it, and claim it as my own. That is a violation of copyright. But my reading of your book, my reading of the reviews of your book, the diffusion of the knowledge that arises from your book, that is ultimately going to lead to some abstract transformation of knowledge into a new output that someone might read. And I think it is very unlikely that we will find ourselves in a place where the idea that knowledge transferred digitally, processed digitally, and turned into other content is gonna violate your copyright in this I I understand your position. Yeah.
+
+There are workarounds. Obviously, we've always had cliff notes. Right? So if a book became good enough, somebody could write the cliff notes of it. You can't stop that.
+
+There's a four part test for this. We've we've talked about this for three years here on the pod. What I'd say is American companies should take 10% of their revenue if they're building these models and do splashy cashy and do settlements, and that's exactly what's happening. If you're a copyright owner, you should study what the music industry does. They are rabid dogs, and they will fight tooth and nail and keep you in the courts until you submit and make a settlement and agree that you're licensing it, and then that gives them that case law and that settlement to go to the next person and the next person and the next person, and that's why they've been able to successfully defend it.
+
+And then if you're competing with me, that becomes the issue. So if you said, hey. What's this book about, and what do people think about it? What are the best parts of it? And that comes from the reviews.
+
+Okay. Fine. Fair enough. The problem is and I and I'll I'll share with you. There's been some other lawsuits here that are making their way through courts.
+
+What's gonna be the problem is the application level layer that you talked about, Shammoth. As they go into the application layer and they use this, there's a there's a big court case here. Obviously, you know about some of these, but there are now other cases. There are music cases. There's a New York time case.
+
+The one that's kind of interesting is Thomson Reuters versus Ross. This is a final judgment on AI training copyright. There's a company called Westlaw. They're like LexisNexis, and people have been trying to claim that they can train on the outputs of something like Westlaw. And when you're in the same business as me, that has a special place in copyright law because I have you're you're infringing on my ability to use my copyright.
+
+And your argument, I think, Freiberg holds up that it wouldn't be yeah. It wouldn't stop somebody from buying the book. But the second you are actually competing with me, like, directly, that's when these things problems. And that's why I think the music industry is gonna win and and some other places are gonna win. But listen.
+
+This is Let me ask you a question. Territory. These lawsuits are brand new territory, and IP law does not actually have the nuance yet. So we're gonna, as a society, have to make a decision here on what is fair. I suggest just like the self regulatory group that we talked about last week, all the AI companies should get together, take 10% of your revenue, put it in a pool, and keep paying the people and getting permission from them so you can get updates on the content, so you can get the next book, so you get the next New York Times story, the next Reuters story.
+
+Ten percent's not gonna satisfy the rabid dogs. Let me tell you. They're gonna go for a 100%. Now, JK, let me here's the question I wanna ask you. Yes, please.
+
+Given that the fair use doctrine is not a decided matter yet, given that Anthropic and OpenAI are embroiled in huge lawsuits against very well financed content creators and those communities, and the outcome is indeterminate, and there's billions of dollars at stake, maybe even their entire product at stake, Do you think that they have potentially made a fatal mistake by arguing that distilling content against the wishes of its creator is IP theft? Do you see what I'm saying? Yes. Like, is this potentially a fatal mistake? See, here's what they could've You would bring that to the Supreme Court, and you say, hey.
+
+Listen. You are insane. Could've done. What Anthropic could've done is they could've said, listen. We have these Chinese companies are creating fake accounts, and they're using proxies to basically use our product in violation of our terms of service.
+
+Now using those model outputs is not IP theft because it's fair use. However, it's a deceptive business practice for these guys to lie about who they are when they set up accounts at scale. And so they're engaged in a deceptive business practice. And we're gonna do everything we can to stop that, but we like the government's help in stopping that too. However, we we're not saying anything about IP theft.
+
+Yeah. Wouldn't that be the more nuanced approach? Of course. Because I think that they're on the verge of being hoisted on their own petard here. Yeah.
+
+I mean, it's a cell I think the kids call it a cell phone. Right? Like, you basically it's just just a classic cell phone. And, you know, in most of these cases, settlements happen. So, again, if you just look at the music industry, the newspapers, the magazines, and some of those folks and book authors, they tend to be very meek.
+
+There's a new trend happening now, Friedberg. There a lot of content providers are saying to Google, take us out of the index because Google has one bot, and that bot does the Google crawl, and that bot also does the AI crawl. And what the industry is saying is, hey. Split that up. I wanna be in Google, but I don't wanna be indexed in AI.
+
+So people are now saying, hey. We'll take you out of the index, which Rupert Murdoch got right. If all the newspapers said collectively, do not index us, Google. We're no indexed. That would have made Google come to the table and give them a royalty and give them some money for being indexed.
+
+I did that. Dude, there was a there was a deal that happened, but it didn't it go the way you're describing. Well, because they didn't have a united front. Now I think the They United States wanted Google's user base, so they ended up doing a deal where they had this, like, paywall, like, exclusion rule where it's like you could show a certain number of free articles. There was a whole negotiated settlement.
+
+Well, I'm talking even long before that when the first index happened. But here's I you know, I I I think we are on the cusp of some type of a settlement getting done here, and I think that would be good for America America to take a leadership position in that because you do wanna keep getting that. But all of these content companies, they should be meeting with each other, the music industry, the New York Times, all of them to stop their content from getting used without their permission and from competing with them. That's my You know, you you only get a settlement when both sides can agree. And it seems to me that if you're one of these content creator lobbies and you see that Anthropic has just told the government that training on a creator's output without their consent is IP theft?
+
+Yeah. They have now they have now basically confessed to their entire product being stolen. And it seems to me that why wouldn't the content creators now assert that they're entitled to own a 100% of Anthropix revenue? It seems to me that this could be a bridge too far that, you know, that that they're so good at regulatory capture. They're so good at making these arguments and getting the government involved to create new regulations to protect them.
+
+But I wonder if this was just a little bit too cute. And again, if they had just positioned it slightly differently, if they said, look, these Chinese companies are creating fake accounts. That's a deceptive business practice. We're not saying this is IP theft. Right?
+
+But instead, they said IP theft, and now the whole startup community is activated. You saw that, you know, Gary Tan and 200 startups wrote that letter. Why? Because they know that if this IP theft thing sticks, that all derivative works of Chinese models are tainted now too. So that means the whole startup ecosystem is now at risk.
+
+Yeah. So I just wonder if these guys have just gone it's just all a bridge too far. I mean Yeah. If you're better off watching pulling it back. Yeah.
+
+And you lay down with the dogs, don't be surprised if you wake up with the fleas. Like, you they decided to engage in this. You know? So they they may have poked the tiger. I think I think it's pretty accurate.
+
+Oh, by the way, the publishing schedule for 2027 was released. We have some new books coming. You shared mine, Genuflecting. Coming to you now, Ferrari on my wrist, how to win at life and afford a $250 watch from David Sacks. Oh my god.
+
+This is pre Ozempic Sacks. We're gonna get need to get that done. Here it is. The fight to save America, destroying socialism, shrinking the debt, and winning AI by the the book. I mean That's a pretty good one.
+
+Think That's a good book. Love that. This is our new all in. Here it is. Chamath Palihapitiya, a sexual Italian summer.
+
+Whoo. A romance novel. This is the only person who decided to do fiction. This is fiction. Fiction.
+
+It's fiction. It's fiction, Chamath. I got Chamath's nonfiction novel also. Oh, you have his nonfiction as well. Here it is.
+
+Here it is. Enterprise sales. Chamath, dystopia, how my software startup fucked my Italian summer. There you go. It's great.
+
+It's great. Oh my god. Wow. That's coming from the all in The IT guy in Milan. Absolutely.
+
+This is this is coming from all in books. It's our new publishing label coming in 2027. We'll also have the Brad Gershuner, Bill Gurley, Elon Musk, and other titles coming. So we'll have those on future episodes. More more titles coming.
+
+Breaking topic here. Google and Tesla shared their results today, had a lot of talk about capital expenditures. Google blew the doors off of their Blew the doors off. I mean It was insane and outrageous, and they were down, like, seven to 10%. Google Cloud growing Because of their cash flow numbers.
+
+Because year over year. Yeah. Because of the cash flow numbers. And now it's on a $100,000,000,000 run rate. That's but one business.
+
+Tesla's CapEx surged a 148% year over year, and they expect 25,000,000,000 in CapEx. Google's CapEx forecast from a 195 to 205,000,000,000 this year said next year will be even higher. Tesla down 14, Google down 7% on our taping. Who knows? But both reported negative free cash flow.
+
+In other words, the amount of cash in the bank went down instead of up. And for Google, that was the first time ever. IPO update, SpaceX down 30% from its day one closing price, now trading 1,500,000,000,000. A lot of pressure on the stock. We'll talk about that as well.
+
+Obviously, they went public at 2,000,000,000,000. Got a big pop, the Elon pop, and there could be more downward pressure, or it could have found a bottom. You know, you never know with these things. This is unprecedented territory. We've never had an IPO this big, but some lockups.
+
+Here's the chart. Bunch of lockups are are happening at different staged intervals. So let's talk a little bit. Here's your SpaceX. I guess CapEx, Chamath, is being built out, obviously, for AI.
+
+And there is the case of OpenAI spending on CapEx in order to provide their service. But then there's also Google, which is making these CapEx investments to resell it as part of Google Cloud, incredible product. And then on the other side, they're using it for their own, obviously, infrastructure, and their business is just growing like crazy, whether it's YouTube or Google Cloud or even search is still growing. So I looked at this, and I said, well, this seems like a really good use of capital. Instead of just giving dividends, like building out this infrastructure to me sounds like an investment in the future.
+
+It seems like a buy signal to me, but the market is obviously disappointed. Why is the market disappointed? Is it a buy signal for you? Does it make you more excited about management and what Sundar and Sergey are doing over there, or does it make you concerned? Yeah.
+
+I'm more bullish. Do you know what Google's twenty five year average return on invested capital has been since going public? Take a guess. Seventeen percent. No.
+
+21%. No. 23%. No. 29%.
+
+Where is it going? Price is right. 35%. 32%. Jesus When you are a machine and a group of people and a business model that compounds money at 32% over a twenty year average, You give these guys the benefit of the doubt.
+
+These are not people that are flying fast and loose. They are methodically investing in their edge. And this is I go back to the first conversation. They are going to get massively rewarded. You know, there was a lot of Twitter chatter or ex chatter about Gemini usage and was it real or was it not real, and is their revenue growth really coming from AI enabled workflows?
+
+It's all malarkey. Google has an incredible search experience. They've seemed to be navigating this transition to use AI. It's been done very well. They have an incredible cloud business, and they have an incredible silicon business.
+
+The best thing that can happen to them is 500 different models proliferate, and they support all of them because they will make so much money at the silicon layer, they'll make so much money as the cloud provider, and they'll find a bunch of apps, including YouTube and other things, to make money from because you use the AI to target ads better or to help make better content, etcetera, etcetera. Fragmentation's good for them. Oh, it's great for them. It's a compounding machine. I think the reaction, by the way, is because, Jason, I saw a tweet from Ryan Peterson.
+
+I don't know if it's true, but he said Google will be spending 20% of this year's military budget in CapEx. So maybe what people are reacting to is just the scale of the investment they haven't seen. They're free cash flow negative for the first time since going public, so that obviously takes people by surprise. But they're in a huge investment period, and I think it'll pay off dividends even if they as Freiburg's first guess was half the number. So even if they did half the number, they'd still be overachieving Still a young young one.
+
+Yeah. I mean, Freiburg, if you look at Apple, I think they bought back half their stock. They've given hundreds of billions of dollars back in profits. And, gosh, it it seems to me giving all this money back, buying back in the form of buying back your shares, you know, or or giving tons of dividends, I think it's great that tech companies are now saying, wait. We have something to invest in.
+
+The the next big thing is on demand intelligence, and there is no upper bound for intelligence. Or I don't think anybody I certainly don't see, you know, anytime in the next ten years people saying, I got enough intelligence. I've got it. I've solved all the problems in the world. I think they're gonna keep wanting it.
+
+So what do you think about this incredible change in, you know, basically a $100,000,000,000, $200,000,000,000, you know, depending on the company, just going into CapEx? This seems like a savvy move. Right? This is all of us think this is a good thing. I mean, if you wanna bet against Google's deployment of capital into infrastructure because you'd rather have them give you cash for your shares today, you shouldn't own the stock.
+
+Someone else will buy it. I think Google wins in a lot of different ways. There's just so much to Google. There's the consumer business, which is a lot of stuff. There's also YouTube.
+
+There's also GCP. There's also this portfolio of other bets, which by the way, includes 10% of SpaceX and a good chunk of Anthropic that they own and so on. And Waymo worth a 100 I think they just took a $100,000,000,000 write up on Anthropic in the quarter. So they had a $100,000,000,000 mark to market on on Anthropic just in one quarter, and they own a piece of all these businesses. So there's a lot to like about Google.
+
+But just on GCP, I think that there's probably no better suited enterprise layer than GCP to take advantage of capturing value with AI for that enterprise setting. Why? I think you're I think you're just so much better because you have so much of your enterprise data, all your email, your drive, a lot of information that you would want to have AI have knowledge of and have AI have access to to improve workplace productivity. And then they're model agnostic. I mean, you can run any model you want and you can run any workflow you want, and you don't have to be tied in.
+
+A lot of other cloud service providers, cloud SaaS, they're kind of model dependent to run-in a certain way. With Google, you can better tune your system how you wanna tune it. I mean, what's the worst worst worst case scenario? The worst worst worst case scenario is they have the lowest cost infrastructure in the world to run other people's models as a service like Elon did with Grok with the Colossus. Elon web services seems to be doing pretty great.
+
+And look at the return Elon's making on the Colossus install. So I think if Google, in the worst case scenario, none of their application layer stuff works, none of their network effects work, and they don't have any good models, they're still gonna have the world's best infrastructure they can print cash on for yours if you believe in AI. So if you wanna bet my AI, I think the best public market stock to own is Google. And by the way, you also get YouTube. You also get the consumer.
+
+You also get everything else. The multiple is kind of ridiculous right now. We talked about this on a previous issue. I I think, Chamathin, you and I were talking about, like, what Apple should do next. And I I think we both came to the conclusion.
+
+It's like, why not have Apple web services? They have such great relationships with developers. They have the App Store. They have this deep development relationship. It's not so easy because you have to Well, to purchase a cloud service provider, you have to build some critical infrastructure.
+
+It's taken Amazon, call it, seventeen years to perfect it. It's taken Google, call it, twelve or thirteen years to mostly catch up. But the minute that you sign up to be a web provider, Jason, and a cloud service provider, what you're really signing up for is five nines of reliability and uptime, and that is just extremely expensive. Getting to the first two nines, you know, 99% uptime, if you're hosting something for a pharma company or a defense company, you can probably do it for relatively cheaply. Getting to the third nine, ninety nine point nine, probably costs you in the billions.
+
+Getting to the fourth nine costs the tens of billions, but getting to that fifth nine costs hundreds of billions. And that takes a real investment and real technical skill, and there's only three games in town. Yeah. I think Tim Cook's not the guy to do it, but this new CEO might be since he's an engineer. But they've returned in the last decade.
+
+They could buy new scaler billion. $7.55 in buybacks and a 140,000,000,000 sacks in dividends. Just let that sink in. 900,000,000,000. If they had invested that in Anthropic and SpaceX and other things, they just could have found some good uses for that money.
+
+But, Sax, any thoughts here on what's happening? Sorry. But who's to say that the investors that got that money didn't find a good use for it? Oh, yeah. So on society level.
+
+But I just think Apple could have been more ambitious if they just spent half that money instead of on buybacks and dividends on creating new products and actually releasing their car, maybe buying some interesting companies. I think they would no harm capital allocation strategy, which work for the stock. It's going to be really interesting to see if John Turners flips the script. I think he does. I think he's gonna be, like, engineer guy.
+
+And yeah. Alright. Enough on the markets. The market's gonna do what markets do. We will talk about Iran and other stuff like that when there's more news for venture capitalists to comment on.
+
+Right now, it's just on on. I know everybody keeps asking. I don't think there's much for us to say on it. I do think there's a lot for us to say in socialism corner, our new reoccurring theme here, Friedberg, every week, there's more news coming Socialism Corner. Patricia show my my videos on socialism going back six year Let's add to the Friedberg Socialism rants earlier this month.
+
+New York City dictator slash mayor Zohan Mamdani Jake, don't don't misuse that term, please. Come on. Jason, in a standard rental rip off hearing at New York City's Tenement Museum. After the hearing, he introduced a rental rip off report. Passed, bars landlords from charging applications for credit checks.
+
+It's gonna let landlords require a credit check or the 40 x rent income standard, but not both, legally recognized as tenant unions and more. He's obviously frozen the rent for a year at the hearing. An activist wore a COVID mask and referred to evictions as the violence of evictions. Here's your twenty second clip. The Mamdani administration is emboldening us so that we no longer tolerate the violence of evictions as a matter of business as usual.
+
+What the what were we just watching? Is that the do you remember the guy from Fat Albert who had the hat like that? Can we pull that guy up? From you remember the guy from Fat Albert who had the hat? What's his name?
+
+Oh my god. Is COVID still happening? I thought COVID was over. No. No.
+
+She just got a booster. That was like a super duper mask. That was a super duper mask. That just wasn't like a little cloth one. That was one of these Woah.
+
+Those big ones. I mean, combined with the hat, it was that was pretty there it is. I remember that guy from what is going on? Wait. Let's we're gonna give Friedberg a chance to do a rant?
+
+Because, I mean, I could do a I could do a rant on this But let's get Friedberg his this is Friedberg rare meat. Friedberg In 1787 in 1787, John Quincy Adams Here he goes. Published a work called A Defense of the Constitutions of Governments of The United States Of America. And in that work, he had a comment, the moment the idea is admitted into society that property is not as sacred as the laws of God and that there is not a force of law and public justice to protect it, Anarchy and tyranny commence. And then in 1791, he made the statement publicly, property must be secured or liberty cannot exist.
+
+In an essay series Can you unpack it and explain why he said that, Ethan? Fundamental to the foundation of The United States Of America was this idea of private property rights. Because if you think about where everyone that came to America was coming from, there were these tyrannical governments, monarchies or whatever, where some overlord or some cabal could decide at any point to take the things that you have. You had no private property rights as an individual. They could come in.
+
+They're like, that farm is my farm. You're actually a serf. I'm the lord. That thing is my thing. You have a right to use it because I invest you that right to use it.
+
+I am the all powerful. I am the tyrannical overseer of these lands. And it was that stasis that drove so many to come to The United States and say, we want a place where individuals, one person, can say I own something and no one can take it from me. Private property rights are the foundations of liberty in America. This idea that you can then claim acts of violence, that you can then claim circumstances of of extraordinary extravagant wealth and say to that individual, I now have a right.
+
+The government now has a right to take your private property ultimately leads to this tyrannical form. And it starts out as being an anarchic because and remember, anarchy is a temporary state. It's always in between one state and another. All anarchies end up in tyranny. Groups of people fight each other.
+
+They're all stealing from each other. Everyone just goes and takes and gets what they want, and eventually people coalesce. They form groups, and those groups become the more powerful groups, and the powerful groups end up winning, and they become the tyranny over the mass. And that is why all anarchies eventually evolve into tyranny. So anarchy and tyranny are one and the same.
+
+And fundamentally, what's going on with these socialist principles is that we are taking your private property, and you no longer have rights on your private property. Whether you are a landlord or whether you are a wealthy person that we've deemed to have too much wealth, we now will have the rights to come in and take your property and control it and take it from you. And it always starts with this framing of moralistic intent. We are good. You are bad for the following reasons.
+
+You have committed violence against the people that live in your building. You have taken too much wealth and none of us have wealth. We have a right to go and take your wealth from you. It has always started from this point of view that you are bad. So the first framing is that the private property owner is evil and that the private property owner has committed an act of injustice against those who don't have the private property, and that is the justification for taking away their private property rights.
+
+It is the beginning of this transition towards a tyrannical system, which will ultimately be what I call this kind of great American Politburo or whatever socialist framework gets set up by the the cabal of the socialists and and what they're trying to put together. So all of these little acts, seeming ridiculous and insane and inappropriate, in aggregate are the same thing. They're a transition away from private property rights, which is the foundation of The United States Of America. That's why I think we should all be so shocked. And to John Quincy Adams' point, we need to vehemently defend those rights.
+
+As soon as those rights start to slip away even in the tiniest way, it is a cascading effect, and everything will become tyrannical, and it will be very ugly in The United States Of America. Saxx, what are your thoughts here on Comrade Mondami? Yeah. I just wanna add a a layer to this this idea, you know, the these DSA socialists say that evictions are are violence and they basically wanna stop them. I think Freiberg's making the point that this deprives the landlord of their property, and that's true.
+
+But I think we also have to stop and consider what this means for the other residents in these buildings. I mean, first of all, if the landlords aren't making income because they got a bunch of delinquent tenants in the building. They can't now pay for upkeep and maintenance, and so these buildings become more dilapidated and that affects the the other tenants. But also, I have a friend who manages these apartment buildings and he makes the point that it's often these squatters, these delinquent tenants who should be evicted but can't, who make the worst neighbors. So when you think about the problems in a in an apartment complex where you've got people creating noise at night, maybe they're playing loud music, or you've had people punching walls, or there's disgusting smells coming from apartments, or they're misusing common areas, or you have drunken and disorderly behavior.
+
+I mean, this is all the kind of stuff that happens in these rent controlled apartment buildings. And you have to remember that there's long standing residents, a lot of old people, who can't afford to find a new place. They depend on the rent control. And when you can't evict that unruly tenant, yes, it it affects the landlord, but it affects the neighbors even more because now they're stuck in a downward spiral. And I think this is a problem with the progressive mindset across the board is that these DSA types are always these, like, highly educated and often affluent types, and they can afford to have luxury beliefs about public spaces because they never use them.
+
+Right? They don't use the bus or the subway or parks. And so when they get taken over by homeless drug addicts, they always defend the addicts as opposed to the middle class at work And easy thing to do if you don't live in the Tenderloin. Right. Exactly.
+
+And it falls the hardest on the working class because they actually need these amenities. They need the parks for their kids or they need to use a subway. Right? And it's really a problem when you get people shooting up or doing drugs or, you know, defecating in a subway. Or you're walking your kids to school.
+
+Like, the person in Marin County who has these luxury beliefs or on the Upper East Side, they just don't they're they're they're abstracted from this. They don't need to deal with it. Right. We talked about it's gonna And it's it's no different with these rent controlled apartments. I think that's the important point here is that if over a period of several years you can't evict anyone, no matter how problematic they are, you effectively turn these apartment buildings into the equivalent of housing projects and, you know, that really affects decent people of modest income who have nowhere else to go, and their quality of life suffers.
+
+And, look, you know, the private equity wives in their gated communities will still feel good about themselves because, you know, they prevented these evictions, but it's the people in the building who are gonna suffer the most. And at least and there, these people are not just thinking from first principles. If you want to solve the housing problem, anybody with any basic understanding of economics would just say, well, increase the supply and the price will go down. And it actually doesn't matter which supply you add. It doesn't matter if it's luxury units or multifamily or single family.
+
+As long as there's more housing and there's transportation to get to it and and to move people in and out, it'll be fine. As we've as I like, I'm sitting here in Tokyo, like, they figured this out a long time ago. Just build up and put more units in. They figured it out in Texas, Florida, Nevada. The only people who can't seem to figure this out, you know, is, like, New York, LA, and San Francisco just happens to be liberal elite enclaves.
+
+And it's not hard on a conceptual basis. Just allow people to build some more units and different types of units, and then the price will go down. Charmoth, any any thoughts here? The data from Austin says once you relax the permitting constraint, you'll get more units built. And for every unit that comes online, it literally drives down the rent.
+
+So if you want low rent, you need to have more units. If you want more units, you need to permit more aggressively. That's it. So it's just a decision. The same political will that it would take Mamdani to pass this law, he could actually pass some permitting reform, and it would do a lot more good.
+
+The thing on private property, the reason I asked Friedberg to explain it is I really believe what he's saying is really important. It's, like, funny to me this idea that at the limit let's just say you're driving your car and all of a sudden somebody jumps in it, and they're like, well, you know, now I'm here. You can't kick me out. Or, you know, you go outside, you leave your door open to go get a FedEx package or Amazon box, and somebody runs in and sits on your couch, and now all of a sudden, you can't kick them out. And it sounds so ludicrously dumb.
+
+If you force the owners of physical property to not be able to credit check and differentiate who they rent their apartments to, what's going to happen is rents will go up even more. So I suspect that what they should do is they should pass this law, and they should observe what the outcome is. And then you can do a pretty scientific AB comparison between New York City and Austin, and you'll know what works and what doesn't work. Yeah. Poof.
+
+I mean, here's the problem is is the socialists never learned. I mean, we already have got to rent control. In Argentina, rents went down. Yeah. Yeah.
+
+I mean, this is a problem with Jamath is that, look, if the socialists ever learned from their failed experiments, you wouldn't have Chicago, you know? It's just you're like, we don't need New York to go down the tubes to know this isn't gonna work because it's happened in so many other places already. Right. But somehow it just never seems to stop. They never seem to learn, so they should run the experiment and learn.
+
+I mean, what's crazy is you'll be learning, and it'll be a failure on the grandest stage possible. You're talking about the biggest, most complex city. Yeah. My gosh. Yeah.
+
+I mean and and, Sacks, what happens if a landlord cannot raise the rent reasonably? Well, they have no incentive to invest in new units. They have no incentive to upgrade new units, and there's this trap in New York City specifically. They have made these regulations for apartments such that if you do a renovation, it has to hit certain codes, and there are a ton of codes. Okay.
+
+So that means it's incredibly expensive. So now they have you have ghost apartments. Yes. Now the housing stock becomes dilapidated. And look.
+
+They're doing something even worse now, I think, which is they are banning landlords from doing credit and background checks on potential tenants. And they they say that you can't look at their income, so you can't vet whether they can actually pay the rent. They're banning eviction. Landlord. No more landlords.
+
+They're they're banning eviction, and then they're and then they're preventing you from doing the diligence to see if this is even a tenant who will pay the rent. We've lost the scripture. So what are you supposed to do? The interesting question is if you were forced to live under these rules as a landlord, what would you do? And the obvious answer is you'd start rent three or four times higher, and you force people to sign up to a multi month prepayment, and you'd slowly ease those conditions until you find a market clearing price.
+
+That's the only way to do it. So rents will not go down. Rents will go up. So run the experiment, and let's just observe what happens. That's a really good point, Jamath.
+
+Like, let's say that, you know, x percent of tenants are gonna become delinquent. Right? Because and by the way, what's their incentive to pay when they know they can't be evicted? Zero. So, like, actually, a pretty significant percentage of people could just decide, I'm gonna make rent optional.
+
+And so now the landlord has to absorb those losses. Exactly. And that means they have to pass on a higher rent to everybody else. You're gonna set the rent three x higher, and you're gonna slowly meander it down. And like I said, you're gonna have to wire in the first full year of rent.
+
+Well And good luck. How is that even more affordable? It's even worse, Sax. Not only do the landlords keep the dilapidated apartments, in some cases, it's better for them to just leave apartments, housing stock empty. So somebody leaves, they are forced to renovate it, and it costs more, you know, hundreds of thousands in renovations.
+
+So they say, you know what? I'll just leave it empty for now. And so you have 50,000 ghost apartments according to reports in New York City. Well, that's an Airbnb problem. That's like a No.
+
+They banned Airbnb in New York. You cannot get an Airbnb. Oh, really? Yes. So now That's really interesting.
+
+Yeah. Look. If you're if you're a landlord, okay, I mean, I guess one thing you would do is to sell and go to another jurisdiction. Another thing you could do is just wait this out because it's not profitable to run an apartment building. You can't raise your rents.
+
+You can't evict people. You can't diligence the tenants. So maybe you just leave the building empty and you wait this out. I mean, that's assuming you don't have too much debt on it. Right?
+
+Who are ghost apartments. Yeah. And then you have ghost apartments. Yeah. Alright.
+
+Listen. You've been thinking about coming to the All In Summit. This is your year. Speakers are world class. The events, the parties, the network.
+
+80% of the people there, founders, investors, were high level operators this year. Greater focus on network. The musical performances. Oh, yes. I mean, in the past, we've had The food.
+
+The drink. Primes. Diplo. Diplo. We've had so many incredible people.
+
+Go to the allinsummit.com. Alright, everybody. It's another amazing, all time, legendary episode of the All In podcast. Love you, boys. Bye.
+
+Bye. We'll let your winners ride. Rain man gave it to us. And it said We open source We should all just get a room and just have one big huge orgy because they're all just useless. It's like it's like sexual tension that they just need to release somehow.

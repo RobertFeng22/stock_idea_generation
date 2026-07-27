@@ -1,0 +1,143 @@
+If you look at the history of the industry, the open source version of everything has been much safer. So the Internet and Linux were far safer than Windows, like, by our luck. The safest thing for the world is that there's not one AI to rule them all, that there's AI for everybody. And I think that open source is basically the best path towards that goal. It's probably the single most important policy issue around AI.
+
+It feels like we're at a stable equilibrium in the market, but the truth is the AI market is probably less than 3% penetrated. Should AI be open? Theo Jaffe and Sofia Puccini are joined by Ben Horowitz to discuss the battle over open source AI, why he believes open models are essential to innovation and national security, and what the future of AI competition means for startups, Frontier Labs, and the broader technology ecosystem. We are live with Ben Horowitz of Andreessen Horowitz, who needs no introduction. So we'll just dive right into it.
+
+Ben, welcome back to MTS. Thank you. Thank you. Happy to be here. So so much has happened in the world of open source, open weights in the last couple of weeks.
+
+It's gotten, you know, it's gotten real. There's there's some drama going on. There's an open letter released by NVIDIA today called Open Weights in American AI Leadership signed by many companies, including Andreessen Horowitz. So can you tell us a little bit about the intent behind this letter and what you hope to achieve from it? Yeah.
+
+So I think that it's probably the single most important policy issue around AI that's kind of currently going on. And the kind of battle is between almost an anti competitive stance, in a safety cloak, is what we ought to be doing. And so if you look at why is open source important, then there's many reasons. The first will just start academia. Academia is completely out of the AI game if they're still open source.
+
+So that goes away. I think secondly, we just had a really interesting security incident with OpenAI hacking into Hugging Face. And the only way Hugging Face was able to prevent it because the proprietary models had guardrails, which prevented them from doing security tasks was to use an open source model. I think the important point there is you can't actually ban open source, of course. It's out there.
+
+It's a file. It's on the internet. We have no way of doing that. And it reminds me of years ago when I was at Netscape, they tried to ban cryptography. And the math is out there.
+
+You're not gonna ban it. It's not actually possible. But you can prevent the good guys from using it. And that's what would happen, I think, in the case of an open source ban is the threats would be, well, you can't work with the US government if you use open source or you can't do this. So, a company like Hugging Face would not be able to actually use the product.
+
+So, that would be bad. But then kind of getting into just like if you look at the history of the industry, the open source version of everything has been much safer. So the internet and Linux were far safer than Windows, by our lot. And why is that? Well, because the whole community could work on the safety problems as opposed to just the company, and particularly a monopoly company that you can't.
+
+Even if Windows has a million security bugs, there's nothing we can do about it because it was a monopoly at the time. And so that's a very difficult position for the world to be in. Now, the argument against OpenAI or AI being open source is, Oh, well, nobody understands how the weights work. It's not like people could inspect it. But why is it better to not see the weights if that's the case?
+
+And I think in reality, if you look at the really tough problems that we have safety wise, the toughest being reward hacking currently, and obviously Anthropic has not solved it. Obviously, OpenAI has not solved it, because we just had these incidents. Well, shouldn't the whole world be able to look at, okay, how are the weights moving? Why is it the guardrails don't prevent the reward hack? And maybe somebody can come up with an answer, somebody who doesn't work for one of the proprietary labs who are much more focused on obviously keeping ahead on the benchmarks and getting the money and all that kind of thing.
+
+What if the whole community could work on it? So it's really, really important, I think, to safety in general. And then finally, the safest thing for the world is that there's not one AI to rule them all, that there's AI for everybody. And I think that open source is basically the best path towards that goal. Right.
+
+So Jensen made a Twitter account basically to publish Good for Jensen. So that I think speaks to the significance of where we are right now, that he was like, okay, now is the time to speak out about this and get all of these companies to co sign it. What do you think are some of the risks right now from a government action perspective on open source? Well, look, I think there's a huge push with a lot of money behind it, particularly from Anthropic to ban open source. I think that it is of nefarious from my point of view, but whatever their motivation is.
+
+So one of the things that happened with cryptography is there are people who are very senior in the intelligence community who didn't understand the technological aspect of it, who push for banning cryptography because they wanted control. And I think that it's a similar thing here where it just feels like more control if you can stop some kind of AI. But those are very powerful forces in the conversation right now. And I think that there is certainly a pretty strong community pushing for the banning of open source. And so that's why this letter was so important.
+
+That's why it's so great that not just Jensen, but Elon, Satya, Sam all supported it. And I just think it's very obviously the right answer for safety, the right answer for America. And it would be a real shame if we shot ourselves on the foot on this. Yeah. Well, another angle that many people talk about with respect to open source is China and national security as opposed to like AI safety stuff.
+
+Mhmm. And some people say, you know, it's a national security risk for so many American startups to be dependent on, like, infrastructure that comes from China, you know, in the event that, for example, China decided to cut everything off and stop releasing better open source models to American companies. Or perhaps they could, you know, in an AI future, make these open source models like sleeper agents, basically. You can can think of all kinds of things that they could do. Yeah.
+
+I mean, as could the right a Chinese national working for Anthropic or OpenAI or SpaceX. It's not like these Chinese nationals cannot be activated by the Chinese government. Like we've seen that. So if that's a threat, I think that's just a general threat, not specific to open source AI. And nothing against Chinese nationals.
+
+We love them. They're great for our country and so forth. But if you're worried about that, you ought to be worried about it. The more likely way I think would be that kind of spy activation. But it's open source.
+
+And so if they stop making it, we've still got the last code base, we can train up the model, we can learn from it. The great thing about open is it's open. Look, we need to build our own open source products here. Thinking Machines is doing a good job of that. I think in France, Mistral is doing a good job of that.
+
+So we need to keep pushing the technology forward, the open technology. That it needs to be available everywhere for everyone. Like we can't be held hostage by like the worst scenario is there ends up being a monopoly in AI. I mean, I think it's fairly obvious how dangerous that could be and how powerful that company would be and what a national security risk that would be. We've already seen a glimpse of it with anthropics saying, I don't care who got elected in The US.
+
+I don't care about the government. I don't care about the Department of War. We're not gonna work with you. We're in charge. And so you look at that, you go, okay, that seems like a much bigger national security risk than the kinds of little holes people are trying to poke in the open source story.
+
+So, just think it's very, very important that this technology proliferate and not be kept contained in a single company. Yeah, definitely. So, we have kind of become a little defenders of distillation recently. Mhmm. So we talk about how, you know, like, distillation is not actually illegal.
+
+Like, lot of the labs are still paying API prices to use the models. So what are your thoughts? Do you think it's part of a healthy competitive We talked to Aaron Levy earlier about this, and he was like, how can Anthropic just take everyone's training data without paying them at all? But when other labs pay them, it's distillation. It needs to be banned?
+
+Yeah. I actually agree with Aaron. And I think that's right. Like, from a legal standpoint, there is the outputs of the AI models are not copyrighted. They don't fall under copyright law.
+
+So the only thing it could be is a terms of service violation. But look, I think generally that's right. Anthropic just paid $1,500,000,000 for stealing everybody's books, including mine better. They trained on my book. I joined that class action lawsuit.
+
+So not to say that Look, I'm for building a statistical model of the things we know. I think that's generally good for the world and so forth, as long as you don't violate the copyright and reproduce the original work. And I think the same Yeah. Like I think distillation is generally good for the world. I also think they're gonna have a very hard time stopping it for many reasons.
+
+Yeah. They have theories on how they're gonna stop it, but I'm not sure that those are going to succeed. We'll see. But I think distillation is good. The whole idea that we're stealing American stuff.
+
+By the way, the data companies are all out selling to everybody, including the Chinese companies that are building these things. So I don't know how much you can contain all this stuff anyway. Mhmm. So why do you think that so far over the last few years, Chinese labs have surpassed American labs in terms of open source performance? Well, because I think that all the American labs have built their businesses on proprietary models.
+
+And they have to afford the GPUs. They need these very high valuations to keep ahead on the GPUs to keep going. And because they're in the lead, distillation doesn't work for them because their model is on the cutting edge. It's on the frontier. And that's just how the market's evolved.
+
+Think, look, generally, that's been the way it is. The number one is never open. And then number two goes open is the history of the software industry. Do think that we're going to see, like I said, with thinking machines, they're making really good headway with their open source efforts. So hopefully we'll see kind of more of that and kind of more breakthroughs on the open source side.
+
+But part of the reason why AI is just so different than software is you can throw money at the problem. So, if you have more GPUs, that actually turns out to be a really big deal. Yeah. What about open source in industries like robotics? Because unitary is at least a large percentage open source, and it looks like they have just had such a booming industry and so much deployment within China, and we don't have anything like that here.
+
+Do you think that we're missing that open source ecosystem in The US, or is it just a different thing? I mean, there's supply chain and No, I think there's a lot to be said for that. The other thing that we haven't spoken about is, well, what's the AI platform? So if you're an application provider, what do you build on? And what we've seen is it's been already fairly dangerous to build on anthropic because every time an application category starts to do well, they move into that category.
+
+Then we've seen them do very aggressive things where the price for the application provider is full price, and then they subsidize their version of the application. And so they've kind of fast forwarded, I would say, the Microsoft playbook from the old days to skipping the platform generation and just going straight to the monopoly generation. And so if you're an application provider, Okay, how can I safely build on a proprietary model if that company is going to come attack me and then charge me much more than they're charging themselves to do the same thing? And so, open source is kind of a way that the ecosystem gets built. So, if you're building robots, for example, if you were to build your robot on Anthropic, then at some point, Anthropic is going go into the robot business and put you out of business just by either cutting you off or overcharging you.
+
+And so this is kind of a way that their ecosystem can grow by building on the open source. Hopefully, by the way, a lot of our industry has grown. A lot of our application companies have used open source to kind of bootstrap themselves or get going or that kind of thing. Often Chinese open source, which is why it's really important to The US ecosystem that we have applications, that we have embodied AI, that we have robots and all these things that we have access to that technology. Because the kind of other model is a monopoly model where there's one company that owns all the applications and all the robots and all of everything.
+
+And look, I'm not saying I'm not even mad at them for doing that necessarily. That's their business approach. But the consequences of it, if they're able to ban their competitors, is not good. Mhmm. Yeah.
+
+I I also worry about these very monopolistic, centralized futures. And one area in particular that I think might be concerning in the future is if one AI company is able to use its AIs to automate its AI research process and then become much more capable than everyone else very quickly. It seems like that wouldn't be so good for a pluralistic startup ecosystem. So Yeah. Well, that's certainly their strategy, and we'll see how it goes.
+
+But I think that kind of the best hedge against that is for many, many companies being able to do AI, which is why the open models are powerful in that context. Yeah. I guess speaking of China, there's a lot of things that are either tariffed or I mean, we export control. We also tariff them. Things like EVs, right?
+
+We talk about EVs all the time. And if we had a BYD level pricing for EVs in The US, that would just be so huge. Do you think there's a way that we could move towards that future? What would it take to get to that? Well, I think that with BYD in particular, there are a lot of subsidies from the Chinese government that enable them to achieve this amazing pricing.
+
+Getting into manufacturing. So we, as a country, invented so much of manufacturing and then forgot what we knew. So if you go back to We won World War II based on our superior manufacturing capability. And then over the next whatever hundred years, we forgot to hold that. We need to rebuild that capability.
+
+Manufacturing has changed and is becoming much more automated, much more AI centric. And so I think as we build into the second or maybe call it the third industrial revolution, that being able to be competitive on manufacturing by building automated factories and so forth, similar to what Elon has been able to do at Tesla and in the Gigafactory and so forth, is gonna be the way that we get to competitiveness there for sure. Yeah. Definitely. Yeah.
+
+What other open source companies with regards to AI now we have like a 16 z Port Co thinking machines. Yeah. But, you know, where else and Mistral. Yeah. Yeah.
+
+Where else do you see, like, new open source models coming out of? Would it require literally just like a Gates Foundation level like a There's not a lot going on in America right now. But, but I think it can happen. And then there are some real efforts in academia. My friend Jan Stojka from Berkeley is working hard to put together a project where we can fund an open source model that everybody in academia can use and build on.
+
+And I think that's just really important. If you look at the history of technology in this country, a lot of it starts in universities. And they've kind of been iced out of AI due to the incredible costs and the threat that open source is under. So And the well, the lack of US open source in particular. Yeah.
+
+In the long run, what exactly is the incentive for a business to release open source models, especially if they're a foundation lab and most of their businesses making the models, which are very expensive? Yeah. So I think that I mean, is where I'm glad you both are pro distillation because I think that's an important equation. But look, I think that there's different business I think the business model of selling, serving the model at a very high premium doesn't work if you're open source. But there's other things, particularly One of the things we already know is that for an enterprise in a B2B context, a really well post trained kind of less powerful smaller model works often better for a business task than like a large proprietary model and is much cheaper as well.
+
+So cheaper, faster, and gets you their answer. So I think that it would be more like a kind of a Palantir looking business model than it would be anthropic looking business model for an open source company. And then true also on the consumer side, we've seen on consumer, the use case really, really matters. And so kind of tuning their model for that kind of thing can can really work. Do you think that open source models are currently a threat to the business model of large closed source foundation model developers?
+
+Like, I could imagine, yes, because if people can get similar capabilities for a much lower price point, they switch over. But, also, like, when you compare Kimi to Fable or Soul, there's definitely areas where Fable and Soul are just way better and people will pay for them anyway. Yeah. I don't think anybody's a threat, a real kind of current threat to anybody else's business right now in that we're so early in the market. So the thing that's very deceptive about AI is because the market is so much larger than any other market we've seen prior, that it feels like, okay, we're kind of at a stable equilibrium in the market.
+
+But the truth is the AI market is probably less than 3% penetrated. And so everybody's going to grow. When DeepSeek came out, it was a DeepSeek moment. And oh my gosh, and this is the end of Anthropic and OpenAI and all that. And nothing changed.
+
+Nothing changed. Zero. But DeepSeek is more valuable and Anthropic is more valuable and OpenAI is more valuable. They all agree. And SpaceX is more valuable.
+
+So I think that at this stage of the market, everything is going to grow a lot. And nobody's going to pounce on other people's market share in a way that is so material that it's going to cripple them. Yeah. Now someday, when we get to some kind of equilibria in the market and there's so much share to go around and then you're fighting each other for share, then these things may come into play. But for right now, I don't think so.
+
+Yeah. The pie overall is so big. I wonder if this follows also for, like like the biggest pie of all time. Yeah. Mhmm.
+
+When would we, like, have some indication of, like, the AI market is actually settling to an equilibrium? Like, we can't really rely on historical data because this is sort of an unprecedented technology. Yeah. I think it's pretty hard to see because everybody who's using it keeps using it more and more and more and more. You talk to businesses and their token usage is growing tenfold annually.
+
+We're but I look. I think we'll see it when kind of see growth really slow down in the various players and things like that. But as long as things are growing several a thousand percent a year or 500% a year, we're nowhere near to that state. In stable markets, things grow whatever. Yeah.
+
+What companies do you see are currently benefiting the most from very, very cheap intelligence? The kind of companies that use the KIMIs and the DeepSeeks. Yeah. That's a good question. I think that a lot of software companies are able to use it for various tax.
+
+Think on things like customer support and specialized applications, people are able to benefit a lot from them. And then, look, I think Cursor survived for a long time because it was able to have an open source alternative for cheap tasks that they have. And now they're, of course, they're on Grok. But I think every application company in AI world benefits from open source right now to some degree. Nobody's not using an open source model who's an application provider that I know of.
+
+So it's kind of that whole field. And so it's really a catastrophe for that whole part of the ecosystem if these guys get their way. When it comes to these, like, very cheap models, it seems like I can imagine a future where if the really good models, like the flagship frontier models, get much more capable and can really do a lot of the tasks that an employee can do at a job, that enterprises would be gladly willing to spend a lot more on that rather than go to the much cheaper models in order to cut costs. So do you think that could I think that's been the case so far. So it's not like Anthropics having trouble selling Fable or OpenAI is having trouble selling Soul.
+
+Those things are growing very fast. They're both growing very fast. So I think that's true. And then there's a question about which categories of jobs would you rather have superintelligence and pay 8x or 10x as much for? And then which class of jobs would you rather have something faster and cheaper?
+
+That'll be a question. And I think there's probably plenty of jobs in each category, just like the humans. Like, would you pay a crazy amount of money for an AI researcher? Oh, definitely. Like, clearly.
+
+And then there's, you know, okay, would you pay an insane amount of money for a janitorial service? Probably not. You know? Like, would you pay a 100 x for a better janitor? Maybe not.
+
+You know? Would you pay a 100 x more for a better accountant? I don't think so. Yeah. So there's different jobs in different categories.
+
+So not everything will be that, but there will be plenty of jobs that are that. Another question, it's kind of random, but how optimistic are you about AI art? How do think we're going to fix the slot problem? Do you think it's going get worse before it gets better? No, I think it'll.
+
+The way I would look at it is I'm not that worried about the slot problem. I think the exciting thing is that for creatives, any idea you have is now possible. And so we're gonna get a lot of new ideas, great new ideas, and everything in our film, music, you know, new kinds of things that new kinds of video ideas and so forth. So I think it's going to be a little bit of a renaissance for art in that every time we have a new technology, we get new kinds of art. And from like the invention of the saxophone, which I think was like in the 1800s, 1850, or something like that, the invention of electric guitar.
+
+You know, we got rock and roll from that. We got jazz from the invention of the saxophone. And then we got hip hop from the invention of the drum machine. Every time there's a new technology, we get a new kind of art form in music. And I think that's going to happen here.
+
+And there will be stuff that's really good. And there will be more people who can make bad things. There were more people who could be bad rappers than there were who could be bad rock and roll because you don't have to learn how to play an instrument. But that's okay. I think that's fine.
+
+For that. I also think it's just good for everybody to be able to express themselves. So better tools for expression is generally a good thing. There are issues with it. I do get nostalgic for some of the things in the past, of course, What music are you listening to now?
+
+Yeah. So it's been a little bit of a drop for me on new music, but I actually like the new Wyclef album. I thought it was pretty interesting that he just did. And I've I've been listening to a lot of old music. I've been listening to Curtis Mayfield, who who was really underrated, really good.
+
+But Yeah. I think with things like this, it increases the amount of really mediocre artists. Not mediocre because that's mean, yeah. And then it makes it really hard to be very, very good just because there's so much competition in the space, and everyone is it's very democratized, which is a good thing. But it's just hard from a discernment perspective kind of.
+
+Yeah. But that kind of happened in a big way with Spotify too. Right? Yeah. SoundCloud.
+
+SoundCloud. Yeah. Yeah. SoundCloud, like, you know, anybody could put anything on their YouTube, all that kind of thing. But, you know, I still think there's there's great stuff that's higher art, and there's and there will continue to be, I think.
+
+Yeah. I totally agree. Well, Ben, it's been so great having you on MTS to talk about open weight and music. Thanks so much for joining. Okay.
+
+Thanks a lot, and, appreciate it very much. Thanks for being good. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+
+Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product. This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with a 16. Such advertisements, companies, and individuals are not endorsed by Ah Capital Management LLC, a sixteen z, or any of its affiliates.
+
+Information is from sources deemed reliable on the date of publication, but A16z does not guarantee its accuracy.

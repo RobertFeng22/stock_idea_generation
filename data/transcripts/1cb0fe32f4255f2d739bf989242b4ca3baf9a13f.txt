@@ -1,0 +1,555 @@
+Support for today's episode comes from Square, the easy way for business owners to take payments, book appointments, manage staff, and keep everything running in your business without running yourself into the ground. In my neighborhood, there's a shop that sells incredible locally made food, fresh breads, prepared meals, sauces, jams, all from producers within an hour's drive. And they use Square. And as a customer, I love the seamless payment, quick checkout, and easy receipts. Square's intuitive software and hardware simplifies everything.
+
+You can sell anywhere in store, online, or mobile while managing inventory and tracking sales in real time. With Square, you get all the tools to run your business with none of the contracts or complexity. And why wait? Right now, you can get up to $200 off Square hardware at square.com/go/built. That's square.com/go/built.
+
+Run your business smarter with Square. Get started today. Think about the last time you tried to launch a great new idea. You've got the passion, the vision, but then the moment you need to actually build a website, everything grinds to a halt in a bottleneck of technical requests and design issues. I've interviewed hundreds of founders on how I built this and they all tell me the same thing.
+
+Momentum is everything. That's exactly why Framer is such a game changer. Framer is an enterprise grade no code website builder for creators, teams, and businesses who want a professional site and care enough to get every single detail right. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/built for 30% off of Framer Pro annual plan. That's framer.com/built for 30% off.
+
+Framer.com/built. Rules and restrictions may apply. Success is a journey, especially when it comes to your finances. One of the most common obstacles in our financial journey is dealing with high interest debt. It can often leave people feeling trapped, but it doesn't have to.
+
+If you're dealing with high interest debt, there is a way forward. A SoFi personal loan could consolidate all your high interest debt into one low interest monthly payment, helping you craft a road map to paying down your debt. It even comes with no fees required, getting you a financial win right away. Keep pushing on your journey to financial success. You could even get as soon as the same day funding.
+
+View your rate for a SoFi personal loan at sofi.com/gyros. Loans originated by SoFi Bank NA, member FDIC. Terms and conditions apply. N m l s 696891. Fast funds term apply at sofi.com/gyros.
+
+I've always believed everyone in our company, whether it's a sales engineer or the receptionist, is either adding credibility or taking credibility away from our company. And I gotta have people always adding credibility. We empower everyone in our company to make the right decision to do the right stuff. If someone would come to our store or phone into the receptionist and say, my keyboard, you know, quit working, they're empowered to replace it. Every employee that ever I hired, I would tell them, you'll never get chastised for doing the wrong thing.
+
+You'll get chastised for not doing the right thing quick enough. Welcome to How I Built This, a show about innovators, entrepreneurs, idealists, and the stories behind the movements they built. I'm Guy Raz, and on the show today, how Chuck Surak went from mixing music in the back of his mom's VW van to building the billion dollar music and audio equipment giant, Sweetwater. There are a lot of ways to build a retail business. You can compete on price.
+
+You can compete on selection. You can promise faster shipping, bigger discounts, or endless convenience. But Chuck Sourak took a completely different approach. He believed that before anyone bought a guitar or a microphone or a keyboard or a recording interface, they should have a conversation, Not with a chatbot, not with a commissioned salesperson trying to close a deal, but with someone who actually understood instruments and recording gear. Someone who played in bands or spent time in recording studios, who understood signal chains and synthesizers, and could help a customer figure out not just what they wanted, but what they actually needed.
+
+That philosophy became the foundation of Sweetwater. It's a company that's managed to become the largest online retailer of musical instruments and professional audio equipment in The United States despite competition from retail giants like Amazon and Walmart. Every customer who calls Sweetwater is assigned a dedicated sales engineer. Every one of those salespeople goes through months of intensive training even before they ever answer the phone. And remarkably, Chuck never tried to win by being the cheapest.
+
+He truly believed that extraordinary service, not offering discounts, would be the key to building lasting relationships. And over time, it was. And the amazing thing about all this is that Chuck never set out to build a retail empire. He just wanted to play music, specifically the saxophone. He grew up in Fort Wayne, Indiana where he still lives and where Sweetwater is still headquartered.
+
+After he graduated high school in the mid nineteen seventies, Chuck turned down college, climbed into his mom's old VW van, and spent the next several years playing saxophone with a cover band in bars and clubs across America. We traveled almost every state in the Continental US. I think I missed a couple out on the West Coast, but back then, had a booking agent, and they would book you for a week or two weeks in a particular club. And then they'd give you a clue where you're going next week, or sometimes they wouldn't know. And they just tell you on on Saturday night, get in your bus on Sunday morning and start driving north or start driving south.
+
+And you'd call this would be for cell phones. You'd stop at a pay phone every so often and go, where am I going? And eventually, would tell you. I remember one time I left Charlotte, North Carolina, and he told me to drive north. And next thing you know, I'm in Sudbury, Canada and just barely in time for a gig that started on Monday night at 07:00.
+
+Wow. And did you make I mean, presumably, you're making enough money to, like, stay on the road, but I can't imagine this was a a lucrative lifestyle. No. Most of the places you played, you got free room and board. Quite often, you'd stay in the hotel or maybe they had an apartment they rented.
+
+You got free food. And, you know, I laughed. I said I made about $50 a week. I probably made a little bit more than that, but it barely paid for gas and getting to the next location. And that's why I ultimately quit because I just I was a decent musician, but I wasn't gonna be good enough to be a truly professional musician.
+
+Got it. Alright. So you're touring around. And and from what I understand, I mean, you become like the de facto roadie. Right?
+
+Like, setting up instruments and and speakers and making the audio system sound good, and I guess even inventing or, like, hacking audio gear for gigs. So, I mean, you were kinda like the sound engineer. Yeah. Absolutely. And so couple things I would tell you.
+
+Back then, equipment was very expensive, hard to get, much different than today. Heavy? Really heavy? Heavy. Big heavy speakers, all that sort of stuff.
+
+But I would run the the sound system with my right hand as I played my saxophone with my left hand. And so we didn't usually have a sound man out front. I would just run it from the side. You have a mixer. A mixer.
+
+Right. And so you would run it and you'd play the sax with your right left hand. Exactly. And then the other thing that was interesting when we were on the road, back then, there weren't a lot of stand alone recording studios. Most of the recording happened in radio stations.
+
+And so we would quite often on Monday morning go to the local radio station and record. You know, this week, we're playing at the Holiday Inn or wherever we were playing. So I got really used to using recording equipment. And through the years on the road, I would gather more and more of that equipment myself. So it's interesting.
+
+You guys would have to record little spots on local stations to promote your live shows at these bars or clubs. Yep. And and as a result of that, you start to get experience with these recording booths because you would they would just say, oh, go use that booth over there and, you know, record your spot and bring us the eight track cassette of it or whatever it was. Exactly. And, also, a lot of those radio stations had multitrack recording studios with either eight or 16 track recorders, so you could record every instrument on its own channel and then mix it and make it sound good.
+
+So you kind of even though you you love the sax, it sounds like you're really kinda developing this passion for the technical side of, you know, of setting up a stage and running the the the chords. And but when you come back home to Fort Wayne, you realize that maybe you could make a business out of this, like have a a recording studio? You know, I came back to Fort Wayne. I was really tired of living out of the suitcase and making the, quote, unquote, $50 a week. But I didn't know what I wanted to do.
+
+I really didn't. But I knew I wasn't gonna go go to college. I also knew that I had a lot of this equipment, and so it was a simple way to make money and just start helping my friends. And so that's really what drove me at first. Alright.
+
+So you're back in. You've got your VW bus, and you, I guess, you come up with this idea of converting the VW bus into a recording studio or, like, the the engineering booth of a recording studio. Tell me how you how you came up with this idea. Was it because there weren't any recording studios studios in Fort Wayne or or you knew musicians who wanted to record their music, like, maybe all of that? You know, I don't really remember.
+
+It just sort of naturally happened. I mean, I do remember it wasn't very long after I had the VW bus doing recordings. I started going to all the high schools and middle schools and saying, let me record your Christmas concert or your spring concert. And then I just got so, so darn busy recording everybody. And just to, like, paint a picture of this, it wasn't like they were recording in the VW bus.
+
+You had, like, the mixers and the sort of reel to reel in there, but you would run the cables from the bus into the auditorium where they were recording? Yeah. That's exactly right. I would record their live performance, but I would sit in the bus with my headphones on and monitor it and make sure all the levels are coming in correctly and mix it together and all that. Like an FBI listening booth.
+
+I never thought of it that way, but it's kind of. Yeah. Like in the movies you see in the seventies. Yeah. They're sitting there with the reel to reel.
+
+Okay. So you're you're recording by the way, what would they do with those reel to reel recordings? Like, why would they yeah. Yeah. That's a great question.
+
+So I would take those reel to reel recordings and then go back to the living room of my 12 by 55 mobile home, and then I would edit all the songs in order to take the extra pauses out. And and then we would turn them into LPs or records. And then they would sell those records. So it was a fundraiser for the school. Ah.
+
+And it was also an interesting way for me to tell the band director or the choir director, look. It won't cost you a thing. Just let me record them, and then I'll make my money by selling those records or we'll split the profits of selling those records to your parents. Oh, wow. So you would that's a great idea.
+
+So you would just do the recording for free. You see, you got church choirs and and the schools, and these were your clients. Like, who who else were you recording? Everyone we've talked about, but it would be choirs and bands, and I would record them in their auditoriums or their cafeteria. I did many, many presidents of companies, CEOs of companies.
+
+I'd go into their boardroom or the maybe the speech they were making. I remember one year I did a I recorded a speech of the CEO of General Motors. He was down in Defiance, Ohio. And all the way through his speech, he kept referencing the current year, and he meant to reference the next year. So he gets all done with his speech, and I figured out how to use a razor blade and tape and change all those references that he made.
+
+And I was a hero for them, and for many, many years, I got lots of their recording business because I made him great. Yeah. And by the way, this equipment at the time was not cheap. I mean, a reel to reel was it was it four track recorder? Or I started on a four track, and then I did most of my recording in the VW bus with an eight track recorder.
+
+And how how did you finance all this equipment? Well, anywhere I could make a few dollars, I would make a few dollars and put them away. And even even even when I was on the road, I was able to sock a few bucks away. And then with the recording, you know, in those days, was making $22 an hour Yeah. If I charge for recording, which wasn't very much, but it was enough that every dollar I made would go right back into the Okay.
+
+So I guess that year, '79, was the year you officially kind of founded this business. You called this Yes. CNB Audio, which would be which would become Sweetwater Sound, but CNB what does CNB stand for? It was Chuck and my first wife, Brenda. Okay.
+
+And and, like, I mean, you talk about recording CEOs and church choirs, or were you kind of looking to get into, like, bands and recording musicians who want to make records? You know, I wanted to do musicians making records. But in the early days, I paid the bills by doing all the recording we've talked about. But my goal ultimately was to do music for musicians that wanted to record real albums. Yeah.
+
+But I needed a location to do that. And and for the first couple years, I didn't have a location. All I had was that mobile home. So it was wherever they were recording, but you really wanted to have a space, build it out, and people could come there, rent it, record it, you could engineer it. That's what you were looking to do.
+
+Absolutely. And that started in 1981. And how did you do that? Where where'd you find the space? Well, I found a small house on the West Side Of Fort Wayne, and I built basically a two car garage, but that garage really was a recording studio.
+
+It looked like a garage from outside. But what's was interesting about it, where I built this or built this studio, the house was already there, but it wasn't zoned legally. It was zoned for residential. I had to be careful, and I didn't wanna raise the of the local zoning officials. So let's talk about Fort Wayne at the time in nineteen eighty one, eighty two when you've got the studio because, you know, it's we're not talking about Sun Studios in Memphis in the in the fifties.
+
+Right? I mean, Elvis and Johnny Cash hanging out there. You know, Fort Wayne wasn't like where tons and tons of bands were recording. Right? I mean, I can't imagine it was or or am I wrong?
+
+You know, every city across this country has musicians and bands that want to record. But you're absolutely correct. It wasn't a recording mecca. In fact, all of my friends, all my professional friends would go, a recording studio in Fort Wayne, they just didn't understand it. Right.
+
+Why don't you go to Nashville? Why don't you go to LA? Go to New York. Right. But I knew that it was possible to be successful there.
+
+I didn't know what level I was gonna do, but I knew I could be successful. And we had lots and lots of bands coming in. In fact, I was so busy. We would run from early in the morning till late at night. It was a very good thing.
+
+So you've got this business going. You're running the studio. And I guess there's a real turning point, and it happens in 1984. And I want you to tell me about this because from what I understand, you were invited to a trade show in Chicago, a a trade show of musical instruments. And while you were there, you discovered something that would essentially I I think it's not an understatement to say would actually change your life.
+
+Yeah. It did change my life. I had a friend that owned a local piano and organ store here in Fort Wayne, and he invited me to the NAAM show. And he said, well, that means the National Association of Music Merchants. And they have their dealer show once a year up in Chicago.
+
+I said, yeah. I'll go with you. He can he was just a friend, and I had bought some synthesizers through his store. So we become friends through that. And I went there, and I saw a prototype of a music instrument that just set me on fire and frankly set the world on fire for a while, and it was called a Kurzweil k two fifty.
+
+Ray Kurzweil, who's a futurist, he's still alive today, still doing some really interesting stuff. But he'd figured out how to record a nine foot grand piano and digitize it and put it in memory chips or ROM chips. And, you know, back in 1983 and '84, this was unheard of. But not only did it have a recording of a nine foot Steinway piano, it had an upright bass. It had a 50 voice choir.
+
+It had a 45 piece string section, but it was an expensive instrument. And so I saw a prototype, and I'm going, that is amazing. In my own studio, I have a small six foot grand piano that's always in a state of being out of tune because that's what pianos do. They're always getting worse. And I thought if I could buy this Kurzweil k two fifty, I would have a nine foot grand piano always in tune plus 39 other sounds that came with it initially.
+
+And so I bought one early on, and then I start reverse engineering how it worked. And I designed my own sounds for it, designed my own software for it, and, just took the instrument to a whole another level. This was a very expensive machine at the time, $20,000, which is roughly $6,365,000 dollars today. So this is not no joke of of an investment for a 28 year old guy to buy. Yes.
+
+I had a a small Yamaha grand piano, and I decided I could sell that piano and put some more money with it, and I could squeak my way barely into a Kurzle k two fifty. And that's what I did. But once you had this thing, it would generate a lot of income for you because you first of all, you're probably the only one in Fort Wayne who had this thing, I would imagine. I was the only one in the Midwest at the time that had one. And so at the end of every one of my recording sessions, I would tell my customers, would you like to hear your music with a 50 voice choir or a 45 piece string section or upright bass?
+
+And so I would get a couple more hours of recording time, and they would get a better sounding project. I also would throw it in the back of my VW bus and take it down to other recording studios. So one of the real famous studios is down in Anderson, Indiana, where the Gaithers used to record, and I would take it down there and do sessions, and they would pay me for the day for having it there. I'd take it up to Detroit, other studios like that. So you would play it in the studio?
+
+Either I would play it or maybe they'd have another keyboard player that would play it. And so you were not just engineering in the studio. It sounds like you you were doing more production work too. Absolutely. I love producing music.
+
+I mean, it's really cool because it's it's like people are well, they're paying you more for more studio time. So that's one thing. But but then I guess you start to have the ability to enable the user to make their their own new sounds with it, like their own proprietary sounds. We could do that also. We did a lot of that.
+
+We would record the strangest instruments or not even instruments, the strangest sounds and turn it into an instrument. It could be a door squeak. It could be rock sitting together. And next thing you know, you you put it across the keyboard, it can sound like a music instrument. So you could record into the like, there was a memory chip inside of the synthesizer you could record onto?
+
+Yes. That's correct. Which is wow. I mean, today, of course, you know, you just record your iPhone. But in 1984, that was really different.
+
+I mean, you're essentially going for people were still using reel to reel to record music at that time. And and these would be sounds like yeah. Give me an example of, like, a sound you would create. Like, what would you how would you do it? Well, being a musician myself, quite often, I would just record myself or other musician friends into the instrument.
+
+So as an example, I did lots and lots of recordings of my saxophone. Right. So a guitar player or keyboard player that didn't play saxophone could now get the sound of a saxophone in his music. And, you know, we record all kinds of things. I did a bagpipes.
+
+There weren't bagpipes built into the machine, so I recorded a bagpipe player. I remember one time I brought in a trombone player, a trumpet player, and I played saxophone, and we made a brass section sound. There was not a section of brass in there. That sound ended up being used by Stevie Wonder on his character's album. Yeah.
+
+I mean, how did so that that sort of segues into my question, which is you're a guy in Fort Wayne, and you're you start to make your own sounds. Right? Yep. But how did you you know, this is pre Internet. This is, like, still early fax machine days.
+
+Like, how did anybody find out that, hey. There's this guy in Fort Wayne, Chuck Cerwak. He's making samples on the Kurzweil, and they're pretty great. Like, how here he goes, Stevie Wonder. Like, how would help me understand how anybody even knew what you were doing.
+
+Yeah. Great question. There were two ways. The first way is there were a couple manufacturer reps work for Kurzweil, and they would travel around the country to other music stores. And happened to be one from Southern Indiana who called on all the stores in the Midwest, and he would see me as a customer, an end user.
+
+And he'd come by and trade sounds with me, and he'd take them to the other music stores. So that's one way. But the real way I really made it happen is there was a magazine back in those days called Mix Magazine. Mix Magazine covered recording studios around the country, and they would list their equipment. You know, they have a an MCI tape recorder.
+
+They have a an Atari console, and they have a Kurzweil k two fifty. And anytime I would see that they had a k two fifty, I would immediately either call them or write them and go, wow. You have a k two fifty? I have one too. And I was hoping to trade sounds with them.
+
+Generally, I found out most of the players were just players. They weren't technical. They weren't into the musical side or the making sounds for it. And they'd go, I don't have any sounds, but I sure would like yours. And it was kinda funny.
+
+In the early days, were on a floppy disk that was a three and a half inch, kind of a semi rigid disk that the Macintosh has used. And I'm running recording sessions, but I'm copying disks on the side. I'm kinda multitasking. And I'm frustrated that people want my disks, but I'm really busy trying to do a recording session. And it took me a while to figure out that there was a a great way to do both.
+
+You were recording samples onto floppy discs and selling those to people Yes. Basically. It sounds I mean, it sounds like was it all that I mean, I I again, I don't wanna minimize what you did, but it doesn't actually sound all that complex what you were doing. It just like, you were just the only one doing it. You know, anybody could do it pretty easily, pretty quickly.
+
+But to do it to professional levels where all the notes sounded correct and it didn't sound munchkinized and Yeah. Yeah. It was a real skill. It was a real art. And I developed a lot of software tools to make my music or my sample sound even better.
+
+Alright. And and were you I mean, selling the the floppy for how much were you selling for? Well, initially, I gave them away, and I was getting so annoyed that it was getting in the way of winning my recording sessions. So then I started selling them for $5 apiece, which is really funny. I sent out a dot matrix newsletter.
+
+And that newsletter, I had a list of all the sounds that I had, and and people would send me back the form with everything checked off. And, you know, I got $2.03, $400 for all the discs. So I guess you become at a certain point around this time a dealer for this machine for the Kurzweil k two fifty? And why was that a good use of your time? I mean I mean, what made you think I should just start selling these machines for Kurzweil?
+
+Actually, I wasn't that smart. But I mentioned the Kurzweil rep kept coming by and getting my sounds, and he would take them to the other dealers up in Chicago and Detroit and Minneapolis. And and, I kept telling about my relationship with all my friends. By then, I had about 300 friends around the country that had their own Kurzweil's. And he kept saying, why don't you become a dealer?
+
+Why don't you become a dealer? I said, oh, no. I'm too busy running my recording studio. And eventually, he talked me into it. He said, I'll set you up to be a parts dealer.
+
+That was in the fall. And and by Christmas time, I had sent out a newsletter again to all my friends and going, hey. I've just become a Kurzweil dealer. If you want sound block a or b or c or d, and each one of them had a bunch of different new sounds in it, I am a dealer for all that. So send me your check, and and I'll get the parts to you, and I'll help you get it installed.
+
+So through the month of December, I started getting check after check because the kind of people that had these machines, usually were pretty successful or they were universities, and they didn't have a great relationship with their local store. And so I was a little bit the lifesaver for people that had Kurzweil k two fifties. And I'll never forget. It was a couple days before Christmas. My my rep friend called me and said, hey, Chuck.
+
+I really need all those orders. It's gotta be done by the end of the year. You know, how are you doing? I said, I don't know. I'm really busy.
+
+I'm recording Christmas albums. I've got a pile of checks here. I haven't really figured it all out. But I said, I don't know. It's a couple $100,000 worth.
+
+He said, are you serious? I said, yes. He says, we gotta get paid. I said, no. I have checks from everybody already.
+
+So he got in his car and drove up to Fort Wayne, and we counted all the checks and ordered all the parts. And I did several $100,000 of Kurzweil parts. Wow. This is $19.85 to 86, I think. Right?
+
+Yeah. Yeah. You know, I read something that I just I thought was so interesting because I guess back when you become a dealer, you also become the customer service guy because I'm assuming they would call you up and ask for support or or help. But you really started to focus on learning as much as you could about the people you would sell stuff to. Tell me about what you would do.
+
+Well, you're absolutely right. And, you know, I always have tried to keep track of spouses' names and children's names and their interests, but but having a relationship with them over time, you figure all that stuff out. And you would by knowing, you know, a spouse's name or a kid's name, they might call you six months later and you could say, how is how is Bill Junior doing? Yep. And they would probably be blown away that you remembered that.
+
+Absolutely. Yeah. I mean, it's the whole music business from my point of view is all about relationships. It's not a transaction. It's really a relationship for life.
+
+Yeah. And that became the genesis of Sweetwater Sound. Alright. So and and I should mention, by this point, you know, you were called Sweetwater Sound, and and and that I've heard different kind of you describe different variations on the origins of the name. What what is this name?
+
+I mean, where does it come from? So when I was out in the country, a lot of farmers had little wooden signs by their property. They'd sell Bill's Acreage or Steve's Farm or whatever it was. And when I moved into Fort Wayne, I knew I didn't wanna be C and B Audio anymore. So this is about the second or third year of our business.
+
+And I had two acres of land, and I had a little creek in the backyard, and I literally just put a bunch of names on a piece of paper. And I'm thinking about this little creek in our backyard, and go, water, that's kinda sweet. And it became sweet water. And so I put a little sign. It was about two foot wide and a foot high that said sweet water.
+
+Didn't say what it was or anything, but that helped me get past the zoning officials, and yet my musician customers could find me. Yeah. Okay. So you are now growing as a dealer for Kurzweil. But meantime, are you still doing the recording thing?
+
+Because this you got a lot going on. You're making you're sampling. You're putting on discs, and you're recording people, and you're selling equipment for the the Kurzweil machines, the synthesizers. So I imagine that the recording studio part of your business has to kinda shrink a little. You know, by then, I brought on my first employee.
+
+And so we could keep doing the studio thing. He would do some of the sessions. I would do some of the sessions, and it just grew from there. But, no, I don't I don't believe in shrinking. You're you're always going forward or backwards.
+
+Okay. So around '85, '86, you become eventually the exclusive dealer in your area for Kurzweil. And so at what point did you sort of begin to become a person who wasn't a recording engineer, but a person selling studio equipment musical instruments? Like, how how long did that take, that transition? Yeah.
+
+So I told you that I became a parts dealer in December and started sending all those parts out to my friends in January and February. About, March of that year, I got a call from a friend, and he said, hey, Chuck. I wanna buy another Kurzweil k two fifty. I said, woah. You already have one.
+
+I just loaded yours completely up. You know, you probably have $30,000 in your machine. Why do you want another one? And he says to me, he says, Chuck, a Kurzweil only plays 12 notes at one time. And I hold my fingers up, and I go, well, I got 10 fingers.
+
+What do you mean 12 notes? He says, no. No. No. No.
+
+He says, I do orchestrations with full orchestras, and when I have to hire an orchestra for a day or two, it's thousands of dollars. He said, if I had another Kurzweil, I could do 24 notes at one time. And so I called the rep, and he says, oh, no, Chuck. I told you that to open a Kurzweil as a re as a retailer, a new dealer, you have to buy 10. And and I'm 10?
+
+Yep. Yep. You gotta buy 10. And so eventually, over the next couple months, I sold those 10, and over time, I sold a lot more. You know, back to your question, by 1990, I do remember one time with the Tascam recording equipment, probably the most popular brand of recording equipment.
+
+The national sales manager came to see me with his rep, and, they wanted to sign me up for the really basic basic equipment. And I said, no. I I wanna be involved with selling eight tracks and 16 tracks because I've had higher end customers. I've got people that have been buying these 20 to $30,000 synthesizers. And we went round and round, and the sales manager said, well, I've never opened up anybody for those higher franchises until you've been established for a while and all that.
+
+And I said, well, that's really what I need to do or I don't wanna do it because I wanna sell the better stuff to my better customers. And so much to their, I don't know, disappointment or chagrin, they went ahead and signed me up. I ordered all the stuff, and then I wrote a newsletter to my 350 customers at the time and said, I'm getting all this recording equipment. If you need a four track or eight track recorder or mixing console, whatever, I have it. Took about two weeks, and I've got orders for everything that I have coming in already presold.
+
+Wow. And I'll never forget this. I called the rep, and he was about an hour south of us here in Fort Wayne. And I said, Brian, guess what? I've sold all the stuff.
+
+I need to place another order. And he says to me, now? It was like 07:00 at night. And he says, I'll have to turn the light on. And I said, Yeah, I guess.
+
+You know, it's funny today because any manufacturer's rep today would be thrilled to have any business that would beg for it. But he was kind of upset that I was making him turn his light on at seven tonight to order the biggest order that he'd ever sold. When we come back in just a moment, how Chuck's decision to sell recording equipment and to intensely train his sales staff turns into millions of dollars in sales fast. Stay with us. I'm Guy Raz, and you're listening to How I Built This.
+
+We get support from US Bank. A question I love asking founders. What's the one decision you almost didn't make? The one that changed everything? Because it's never the obvious stuff.
+
+It's never I decided to start a company. It's the small boring Tuesday afternoon decision you barely remember making until you realize it's the reason everything after it either worked or didn't. Say you're eighteen months in, business is growing, you've got expenses coming from six directions, gas for the van, office supplies, your phone bill, team lunches that are actually client meetings and you're putting it all on whatever card you grabbed in year one. You're not thinking about it. Why would you?
+
+You've got bigger problems. But here's the thing, path a, you keep going like that. End of the year, you're sorting through statements trying to figure out what went where. You've left hundreds, maybe thousands on the table and rewards you never earned. Money that could have gone back into the business.
+
+Path b, you pause and get the US Bank Triple Cash Rewards Visa business card. Now you're earning 3% cash back on gas and EV charging, office supply stores, cell phone service and restaurants. You pick up an extra $750 cash back as a bonus And you've got a low APR and purchases and balance transfers for twelve months while you're scaling. Same business, same expenses, two completely different outcomes based on one small decision. Visit usbank.com/business to learn more.
+
+The creditor and issuer of this card is US Bank National Association pursuant to a license from Visa USA Inc. Some restrictions apply. This message is a paid partnership with Apple Card. I've noticed that a lot of people we talk to on this show, founders, entrepreneurs, creatives, they spend a surprising amount of time thinking about systems. Not because they love complexity, but because they're trying to reduce it.
+
+The best systems usually make life feel simpler, calmer, more manageable. Financial well-being works the same way because most people don't wanna spend all day thinking about money. They just wanna understand where things are going, feel in control, and remove some of the stress and guesswork from everyday life. That's part of what Apple Card is designed to do. You can apply for Apple Card right in the Wallet app on your iPhone in minutes.
+
+Once you're approved, you can use Apple Card right away with Apple Pay without any friction. And here's the fun part, you spend and then you earn unlimited daily cash back on every purchase every day, not a month later. That's it. It really is that straightforward. And you earn 3% daily cash back on anything you buy from the Apple Store and at select merchants when using Apple Card with Apple Pay.
+
+One more thing people really seem to like is being able to track spending right from their iPhone. You can see purchases, search transactions easily, and get a clearer picture of where your money's going over time. It just makes things feel a little more transparent and manageable. Easily pin down spending with Apple Card. Apply in the Wallet app on your iPhone today.
+
+Subject to credit approval, some transactions may not be displayed in maps. Merchant offers may change at any time. Apple Card by Goldman Sachs Bank USA, Salt Lake City branch. Terms and more at applecard.com. We're supported by Anthropic, the team behind Claude.
+
+When I'm prepping for an interview, there's always that moment where I'm trying to turn a pile of research into an actual conversation. A founder's timeline, early decisions, big inflection points, old interviews, company background, all of it matters. But the real work is figuring out what connects. And that's where Claude has been super helpful. It helps me work through the material, organize what I already know and find the thread, the thing that turns research into better questions.
+
+Claude is the AI for minds that don't stop at good enough. It's the collaborator that actually understands your entire workflow and thinks with you. Whether you're debugging code at midnight or strategizing your next business move, Claude extends your thinking to tackle the problems that matter. From research to strategy to the tasks that slow everything down, Claude helps you stay with the work and keep moving. For problems worth solving, get started with Claude at claud.ai/hibt.
+
+Hey. Welcome back to How I Built This. I'm Guy Raz. So it's 1990, just four years after Chuck bought that first Kurzweil, and Sweetwater's made about $6,000,000 in sales. But Chuck's product list is getting bigger.
+
+He's operating out of a tight garage, and he's barely keeping up with demand. Yeah. By 1990, we were selling quite a few different brands, probably 20 brands of equipment or so, and, just helping people with their recording, whether it was, synthesizers or recording equipment. We really weren't into the rest of the technology yet. We didn't sell guitars.
+
+We didn't sell drums. It was just stuff I understood and I knew, synthesizers and and recording equipment. And how were you financing inventory at that time, Chuck? Hand to mouth and sales from last month and the year and the month before. And then in terms of what you were actually carrying, your inventory, it would just grow organically because people would ask you if you had it, or or would you go to trade shows?
+
+Did you start going to trade shows and say, I wanna sell that. I wanna sell that. I wanna sell that. All the above. Definitely, they would ask.
+
+And if I heard it enough times, I would go, okay. That might be worth looking at. But I also was very careful back in those days what we wanted to carry. I only want I was a little bit arrogant about it. I only wanted to carry the really good stuff.
+
+And so there were brands of equipment that I just didn't wanna sell to my customers. If I didn't believe in it, if I didn't wanna use it myself, I wouldn't sell it. So we we tend to specialize on the higher end equipment for a long time. Tell me what a typical I mean, were you working seven days a week? Was it I mean, you've got, customers ordering.
+
+You've got a pretty robust business. You've gotta get the the shipments out. Obviously, it's not like today, which is the next day. Everyone expects the next day. But still, what do you remember about your lifestyle at that time?
+
+Because I think you mentioned your first wife did and maybe your marriage had split up by that point. No. She was around for about twenty years. But, you know, I would say that was probably sacrifice by being so engaged in the business and she had other interests, you know, that we separated. Thankfully, there were no children involved at the time.
+
+But, no, it was it was definitely a seven day a week and it was early in the morning to very late at night. I loved what I did, though. I mean, I never considered it work. And whether I was selling to a customer or programming our next database updates, I did that for a long time. You know, all the systems that figured out the UPS shipping in those days and salesman's commission.
+
+I wrote all the code for that, because I like I like technology. Yeah. I mean, it's reading about the story, it's like your growth is incremental. You go from, like, tiny 200 square foot mobile home to, you know, a little bigger place than 5,000 square feet. And then by 1991, you got 10,000 square foot place.
+
+So this is a robust business. I mean, you're just was there not a lot of competition? Were were there not a lot of businesses doing this kind of work? Or what explained, you know, really just the growth of this thing at that time? Well, you know, there were about 5,000 other music stores across the country, so there was lots of competition.
+
+Every town has two, three, four music stores. I don't mean this at all arrogantly, but what we really worked hard on is having relationships with our customers. What I heard all the time was I can't believe you can service me better out of Fort Wayne, Indiana than I can get out of my store in LA or New York or wherever it may be. And I never really competed on price. I always wanted to be a fair value, but I didn't try and undercut the local dealer.
+
+We just wanted to know the products better. We wanted to make better recommendations. We had this incredible service. You know, we we'll fix anything we sell. By that time, the Internet is starting to happen, we had all kinds of online educational tools.
+
+Our goal was to always add more value. And so if we sold a keyboard, we would include an extra bank of sounds. If we sold speakers, we would, show you diagrams on how to set it up and and that sort of thing. Yeah. I mean, now, you know, there's obviously, like, content marketing and all this stuff.
+
+You were essentially doing that before we called it that. And you mentioned the Internet. 1994, you got the domain for sweetwater.com. But the website was not an ecommerce website. It was a an education website.
+
+Right? That's all it was for several years. It was strictly education. There was no way to even place an order online. The technology was there.
+
+We just didn't implement it because I really wanted to talk to the customer first. I wanna make sure it's the right product for the customer. And what's amazing to me is virtually all of your business was just it was a mailing list you had, and you had this very nice but simple kind of, I guess, two, three page, not catalog, but document that you would send to people. And you would have your sales reps calling people, but you didn't actually become a catalog, physical catalog business until, like, I read 1997. That's correct.
+
+You know, we started, as you said, with the dot matrix, couple three pages, and then eventually went to a real catalog, which was, I don't know, six to 700 pages most of the time. And by then, we've gotten pretty professional. It wasn't full for color. A lot of times, though, it didn't even have prices. Again, we wanted the customer to call us.
+
+There was no order form. You know, as an example, when we started selling keyboards, you know, it's not just buying a keyboard. You probably need a stand for it. You might need a sustain pedal for it. You might need cables to hook it into other things.
+
+All that stuff does take some expertise to explain it to the customer. What you're saying is, oh, I want people to call in because then we can help them figure out what equipment they need to buy with other equipment and how to connect them. Absolutely. That's a lot of time, right, on the phone with somebody. So I imagine by the time you launched the catalog in 1997, you've got a significant number of people manning the phones.
+
+Yeah. We probably had 20 people or so around that time, but our whole deal was that one on one relationship. And so we know the first call or two with the customer would be a very long call. Our average talk time was twenty to thirty minutes because we would start to develop a relationship, understand how they're gonna use it, what they're gonna use it with, and that caused the customers to be very loyal and very sticky. You think about the other places they would call, and the other store would just quote a price, and we would spend time engaging with the customer.
+
+And at the end of the day, the customer would go, you know, I just felt more comfortable at Sweetwater. Yeah. I mean, it's really cool because it's it's like every time I go into a restaurant or a shop and I walk out and I and I've treated really well and it was a great experience, I know that business was managed well because the employee there, it's not their business. But if they treat it that way, you know that their boss is a good boss, that they're doing a really good job teaching that person how to do it. But oftentimes, you walk out of a place and it just sucks.
+
+And you and and I think to myself, it's not that employee's fault. This place is not managed well. How did you get these 20 people to learn how to forge those relationships with customers over the phone? We spent a lot of time training, but you're absolutely right. Customer service is just so critical, more critical today than it's ever been.
+
+But Yeah. In those days, I knew how important it was, and it was just the right thing to do. But, we started very humbly. You know? First, met at a little, breakfast place.
+
+You would meet them yourself? Oh, yeah. Absolutely. Yeah. Yeah.
+
+And I would meet with the whole team every Tuesday morning and every Thursday morning, and we'd spend an hour, hour and a half, sometimes two hours, and we would talk through things. We'd role play. We'd practice conversations, what call we the perfect conversation. And how do you handle situations like this? And we did that for week after week after week, and, it was just really important.
+
+I wouldn't let anybody get on the phone talking to a customer until I felt they could do a reasonably good job at it. Would the sales rep have their own customers, or could you just call in and get anybody on the phone? You know, I had so many customers from my early days that I couldn't handle them anymore, and I was all starting to run the rest of the business. Yeah. And so I start handing my customers off, and then they got more referrals.
+
+And and they all came to all the sales engineers came to us with a background of being somewhere, so they had their own friends and their own relationships. Got it. And you you you said a word. I'm gonna just double click on that. Sales engineers.
+
+Mhmm. These are this is a term you guys use. They're not trained engineers, but you call them sales engineers because what they also have the technical know how on how to help people solve problems? Yeah. Unlike myself, most of them come to us with a four year music technology degree.
+
+Uh-huh. And then we put them through what we call Sweetwater University. And Sweetwater University is thirteen weeks of eight hours a day where they're learning all kinds of stuff. You know, they're learning products specifically. They're learning technologies, but they're taught by 80 different teachers over those thirteen weeks, and they're not allowed to talk to a customer until they're through that whole process.
+
+That wouldn't be formalized, I think, for another several more years. Right? A couple more years. But even even in our early days, I say we started at the restaurant, and then we at our location, we had a place called the Blue Diamond Lounge, and we had training in there several days a week. And I'm not sure exactly when we start, you know, really formalizing it, but it was pretty formal early on.
+
+And did you like, one of the things that I find fascinating about, especially good sales reps, is they often have a script. Right? And so there's, like, they will know what the five or six things the customer might say, and there's all kinds of ready responses. Were you guys able to develop those kinds of techniques as well? You know, we didn't really do that so specifically because every conversation was different.
+
+But what we did do is what we call the perfect conversation, and that really meant that we weren't gonna negotiate the price until the selling was done. I wanted the customer to understand we're the right place to buy it. I want the customer to understand it's the right product. And once we get through all of that, then eventually, we'll talk about a selling thing. But for me to quote a price, which is what all my competitors did, you'd call around and go, I want a Yamaha this or a Gibson that.
+
+They would just quote a price. And to me, that's silly because I don't know how the customer's gonna use it or what else they wanna use it with. And so I was not gonna quote a price until the selling was done. We're the right place, and it's the right items for them. Okay.
+
+By the late nineteen nineties, you guys you hit about 12,000,000 in sales. It's amazing. Right? You've got a very good business. And you get approached, I guess, by your attorney and an accountant, and they're saying, hey.
+
+You guys got a big business here in Fort Wayne. You might wanna take some money off the table. What what tell me the story. Yeah. That's exactly what happened.
+
+And every dollar that we made went right back into the company and growing it and more inventory and the next salespeople we'd hire and all that. And so I really didn't have any money. And I was compelled by the thought of having some money. I'm thinking, oh, maybe we've reached our limit. Maybe $12,000,000 is the limit.
+
+For Wayne, Indiana. How big can you get? That's right. So we entertained and they were good people out of Chicago, the William Blair Capital Company. They're still around today.
+
+And so About how much of the business? About 80% of it. In in the late nineties. So you get a check, which I'm sure was nice, and you could feel like, okay. I've got some security here.
+
+But you stayed on running. They didn't they didn't intervene. They didn't get involved. You just kept it all. Okay.
+
+Not it. You know, once in a while, they'd have some comment, but basically, they let me run it. I mean, it was a good business when they bought it, and they let me just keep running it like it was. Okay. By February.
+
+Right? So you've got you own 20% of it. You're you're now able to buy stuff online. Right? But I I imagine most people are not ordering through the Internet yet.
+
+They're not clicking. They're still calling you or faxing you orders. That's absolutely correct. It took several years later. Really, the success of Amazon is what got people comfortable buying online.
+
+Yeah. Yeah. Because I remember the first I'm sorry. I didn't buy it with their shoe water, but in, like, 1996, I bought my first portable recording machine, which is a Morantz PMD two two two. It's the most expensive thing I had ever purchased in my life.
+
+Was like, this is $800 or something. It was so expensive. I was so nervous buying it. I I think I bought it from B and H in New York Mhmm. Through their catalog at the time.
+
+But, yeah, I would not have even in 1999, I was not ready to buy things online yet. Right. But you could. You made that that was available. Yep.
+
+And the advantage we had in those early days is we had great relationships with our customers, so they trusted us. And trust is a big thing in our industry. I don't mean this to sound as negative, but a lot of music stores, it's kinda hard to trust them. And we'd already proven that we had a good, solid, basic grounding of ethics, and so customers are comfortable buying things early from us or buying things online early from us. Okay.
+
+Let's let's go back to the Sweetwater University because I think this is really begins around 2001. And it's a it's a training program where you have these people who are just gearheads. Right? They're they they love this stuff. Yeah.
+
+Most of the people that we hired had music technology degrees or maybe they'd been on the road as a musician for a long time. But what we really looked for were people that had fire in their belly, someone really interested in in a company that was growing fast and would do the right thing for the customers. I'm I'm curious. Why did they need thirteen weeks of training? There's a lot of subject material.
+
+And like I say, we taught it with 80 different teachers, a couple 100 classes. We taught every technology, but then also a lot of specific brands and products and that sort of thing. So you would teach them how to work and and operate virtually everything you sold? Absolutely. If you can't operate it, don't know how it works, I don't know how you could sell it.
+
+So they're like tech support too in some ways. They are. So, like, this is a valuable person. Like, you you're investing a lot of money and time in this person. Well, thirteen weeks before they ever make a dollar for our company.
+
+And then we continue to invest in them. I mean, Sweetwater University was just getting you off the ground. You would still, as a sales engineer, meet two times a week every Tuesday morning and every Thursday morning for continual, training as new products come out, new technologies, that sort of thing. I mean, there's a there's a sort of a, you know, kind of a stereotype of a good sales rep, right, who's somebody who's just aggressive and just a just relentless and just closing the sale, closing, closing, closing. But you're bringing in people who were actually not coming from sales.
+
+These were people who were, like, music gear nerds. Absolutely. And we never wanted them to close close hard as you've described. We wanted them to present the right options to the customer and jointly with the customer figure out if it's the right thing for them. I've always preached that I never wanted to sell customer more than they really needed.
+
+There were many times a customer would call in for a very expensive thing, and I would find out that that was too much for them. And they really should buy a less expensive thing, but get all the other accessories to go with it. I've always believed everyone in our company, whether it's a sales engineer or the receptionist, is either adding credibility or taking credibility away from our company. And I gotta have people always adding credibility. We empower everyone in our company to make the right decision to do the right stuff.
+
+If someone would come to our store or or phone into the receptionist and say, my keyboard, you know, quit working or they're empowered to replace it. I mean, we might ask a question or two, but they're empowered to replace it. They're never to ask a manager. They never would use the excuse. Well, I have to get management approval.
+
+No. If you wanna replace it, you replace it. And, you know, the worst case from our point of view, we'll get it back. We'll fix whatever's wrong with it. We'll turn around and sell it as a demo or a used instrument.
+
+So it's not a lot of skin off our back, but it's the right thing to do for the customer. So you it sounds like you discourage, like, cover your ass type of of employees. Yeah. We we would never I've told every employee that ever I hired, I would tell them, you'll never get chastised for doing the wrong thing. You'll get chastised for not doing the right thing quick enough.
+
+So how would you retain people? Because the amount of money you're you're investing in an employee is so high that, like, you really don't want people to leave. We don't want people to leave, but they wanna stay. There aren't many opportunities like this. You know, you could go work at one of our competitors, but it's just gonna be a more traditional music store.
+
+I guess you could go back on the road as a musician. But to have a professional job like this where, frankly, in your first year, you're probably gonna make 75 to $8,085,000 dollars. In your second or third year, you're well into six figures. You know, we have people that are making nearly $500,000 now. Wow.
+
+And that'll that'll keep you. Yeah. That's a lot of money. In Fort Wayne, Indiana. I remember when I was hiring young people years ago, I would tell them the deposit on your house out in LA or some other big cities would buy your whole house in Fort Wayne, Indiana.
+
+Amazing. Anyone listening to that who is, like, starting their life, Fort Wayne, Indiana. Alright. So you've got you're running the business. It sounds like you're happy.
+
+The business is growing, but your investors get scared. Dotcom bubble bursts. And anyone who remembers that time, it's a blood bath. Right? It's like venture funding just dries up because all a lot of venture firms are just getting killed.
+
+You guys weren't, because you're not a .com company, really. Right? You were okay. You the the bubble didn't really affect your business that much at the time, or did it? No.
+
+Not at all. So we grew through that period just fine. But the way those capital firms work after about five years, they wanna flip the company and move on to something else. Okay. So five years, they decide we're gonna sell our 80% to a new owner, and you're aware of this.
+
+But what did you what was going through your mind? It was a mutual decision. It was about four and a half years in. They started talking about it, And I raised my hand. I said, you know, I'd like to buy the business back.
+
+I love what we're doing. I wanna buy it back. By the way, how much were you doing in sales by 2001? I don't know. In the 20,000,000 range or something.
+
+Maybe even more. I'm not sure. And they kinda laughed and scoffed at me because they figured out that I didn't have that much money to buy it back. And I said, no. No.
+
+No. I think I can pull it off. And they said prove it. And so my best friend who's an attorney and I went to, about 18 different individuals in Fort Wayne and said, we wanna buy the company back. Would you loan me 50?
+
+Would you loan me a 100? One guy loaned me a million dollars. Let's let's break this down for me. So you you you wanna buy the company back, which we will learn was a very, very smart decision, but, you didn't have the cash to do it. So you had to borrow money from and borrow.
+
+You weren't asking for investors. You were asking for loans. Right. High interest loans. Right?
+
+Yep. 12%. 12%. And can you tell us what how much you had to raise? You know, I don't know that I remember, but $6.07, $8,000,000 in that range.
+
+Right. But what I will tell you is I didn't have any money myself. Oh, you didn't? Even though you got cash from the sale? No.
+
+Because during that period, my wife and I got divorced. Right. And I gave her all the money. I kept the business, which kinda funny at the time, I tried to keep her as a partner business, and my attorney said, no way. I will not let you do that.
+
+Give her all your cash and you just keep the business, which was, you know, a really smart, wise move. But I literally had no money. I did have the inventory, and so I was able to pledge the inventory and borrow money from we went to 18 friends. 17 of them said yes. Then they did it because they had known me for several decades now and had trusted me and knew I was gonna stand behind everything.
+
+If you didn't have personal cash and you had to borrow it, that's a lot of stress. And that's a that's like sleepless nights kind of money that you have to raise. It was, but I've always in my whole life, I've always said failure is not an option. But what I will tell you during the 4.5 that William Blair people had the company, the one thing they did put in place was some good structure. So we had to do monthly reporting and all that sort of stuff, and that allowed me to understand the the totality of the business and where I thought it could really go.
+
+And so that probably gave me some confidence through the process. They imposed discipline on the on the business. You know, and the other thing I would add, I've been able to grow this whole thing. I didn't go to college. I didn't have any business degree.
+
+Didn't have, you know, a lot of that stuff. I taught myself almost everything I've done, and that four years was a great education, where they taught me how to professionalize the business. Okay. So you've got now you've taken over the business back. You've got some debt.
+
+But turns out the business is growing and the cash flow is good, and you can actually repay these loans faster. But I guess within two years Two and a half years. Yes. Two and a half years, you are now the owner, full owner again of this business, 100%. Yes.
+
+And it must have felt pretty great. It felt awesome. Meantime, this company is continuing to grow, and you guys introduced free shipping, I think, early, like 2003. It's been a long time. Yes.
+
+Which is expensive. It was expensive, but it just became accepted, and, we wanted to take that question out of it for a customer. We'll just ship it to you for free. It's fine. Okay.
+
+So let's talk about the growth of this business. I mean, it is now you've got a catalog. Right? We're in the two thousands now. It's not really going to become prima I'm imagining today, overwhelming majority of your sales are online.
+
+Yes. They are. I mean, we have a great local store, but most of it's online. Yes. But in 2005, 2006, when you're now the full owner, I imagine it's still catalog, mostly catalog.
+
+Yes. It is. And so how did you see what do you remember about imagining what this could be, like, where this is going? You know, by then, we started to have enough credibility with our customers and our vendors. I should back up.
+
+Our vendors in the early days, they didn't understand when I was operating out of my house. They'd never heard of such a thing before, and many of them wouldn't do business with us. And I remember going to trade shows and begging them to do business. I tried to explain to them how we were different. And no.
+
+No. You're just a mail order. You're just a catalog. You're just gonna lowball and hurt our other dealers. So it took a while to get their credibility.
+
+Eventually, they started coming one by one and and wanted to do business with our company. Because you weren't competing on price. You were selling customer service and support. Absolutely. But it was unheard of to most of those manufacturers or those reps that we were working with.
+
+They they didn't understand that people would pay more or pay the same price if they got a better value or got great customer service. Yeah. And I would say that we had to be in the ballpark with the price. We couldn't charge dramatically more. But if I could charge the same price as your local store and I would include a free bank of sounds or something extra that really didn't cost us a lot, but gave extra value to the customer, even down to technical support and and warranty, we offered a two year warranty on everything we've done.
+
+We've done that for a long, long time. Most of the manufacturers offer a one year warranty. Most of the local stores at best honor that one year warrant. I want to do a two year warranty. Most instruments will break in the beginning, an infantile failure.
+
+And if they do, they're covered under the factory warranty. And if they are gonna break on month thirteen or fourteen or fifteen, I don't like that. I I wouldn't not have wanted to sell that to the customer. So I will cover that next second year. And it's really been a relatively small amount of things we've had to cover, but it gives the customer much more confidence.
+
+Yeah. You mentioned it earlier. Anywhere you go today, especially if you're used to great customer service, most places you go, you're disappointed. And so it can be a huge differentiator, and it does not cost that much, but it's the right thing to do. When we come back in just a moment, Chuck's idea of service leads him to start buying other businesses in Fort Wayne, all while growing Sweetwater into the billion dollar company it is today.
+
+Stay with us. I'm Guy Raz, and you're listening to How I Built This. Welcome back to How I Built This. I'm Guy Raz. So it's the mid two thousands, and Chuck decides to start getting involved in other businesses, things like aviation and cars.
+
+His goal is to grow more jobs for Fort Wayne, which he does. And meanwhile, he's expanding Sweetwater's reach and introducing new product lines, including actual musical instruments like guitars. You know, the most fascinating part to me, and I don't remember exactly the year, but we were selling lots of technology, recording equipment, and all that. And I kept having customers ask about buying guitars from us. I had a lot of musicians that worked for me that played guitar, and so we finally took on a guitar called Godan, out of Canada, and it's a guitar that had technology built into it.
+
+It could talk to computers and other things. And we thought we'd start with this high end guitar first. And I kept hearing from customers, why don't you sell Gibson? Why don't you sell Fender and all that? And then I'd also hear from my friends, well, you can't sell guitars online, and that's what the manufacturers would think.
+
+But we did it by the same kind of stuff we've talked about. We brought every guitar in, and we did our own quality control on it, which you go, well, why do you need to do that? You would think they're all made perfect. Well, they're not. They're you know, some are made by Mary on Monday and Bill on Friday.
+
+And if we would take every guitar, we do a 55 check as we called it and make sure everything on the guitar is perfect. Then we would take really high quality pictures and show those pictures online. We'd weigh the guitar. Different guitars weigh different. They have different moisture in the wood and that sort of thing.
+
+And then you can now see those online at 03:00 in the morning in your pajamas and decide you want this one because it weighs three ounces less than that one. You place your order. The next morning, we'll call you and say thank you for the order. And, oh, by the way, don't you want an extra set of strings? Do you need an amplifier?
+
+All those sort of things. But we went from no guitars to selling over a thousand guitars every day. Wow. I know this as somebody who's ordered so much stuff from Sweetwater over the years that you get a bag of candy. And and I think a letter, like, you you I know it wasn't handwritten, but you have a letter in there, did for a long time.
+
+Yeah. The candy is just our sweet little way of saying thank you. We've done it for, I don't know, four decades now or something. It's just it's not it's not, very expensive, and it's just a nice way to say thank you. Okay.
+
+Let's talk about Fort Wayne because you've gotten into a lot of other businesses. It's too complicated. I'm gonna be able to talk about them all, but it started with flying. You you wanted to I guess, you turned 50 in 2008, around then, you wanted to learn how to fly helicopters, which would lead you to getting into that business. Like, I think you've had, like, twelve, thirteen other businesses, and they're all based in they're all around sort of Fort Wayne area.
+
+Yeah. Most of them are around Fort Wayne. There's actually about 25 of them today. But helicopters, I was at a air show at a local airport, and I saw a guy flying his personal helicopter. And I said, oh, Pete, that is so cool.
+
+And he said, well, you should do it. I said, no. I'm 50. I'm too old. And he said, no.
+
+No. No. I have a friend in his sixties that got his helicopter rating. So I went home, started working on my wife. And that Christmas, she got me an FAA logbook and how to fly helicopters.
+
+And by August, I had my helicopter rating. And, eventually, you would start a helicopter charter business out of this. Okay. I wanna just mention a couple of businesses you have. Amore, an Italian restaurant in Fort Wayne.
+
+Yes. You've got a live music venue there. Okay. Not surprising. You got a cafe there, aviation company, helicopter charter flights, charter helicopter companies, a car dealership.
+
+You've got an optometry shop and, that sells glasses and does eye care. Tell me about this because these are a lot of businesses that it doesn't seem like you really need to do them. I mean, Sweetwater that will get there eventually became enormous. But even as you were sort of acquiring these businesses, were you doing it just to diversify your business portfolio? Tell me what all of this is about.
+
+Well, you're absolutely right. Don't need any of it. But I love our community, and there were just lots of opportunities that became available. So as an example of the 25, six businesses we have now, every one of them has a general manager running it, and then he or she has a whole staff of people working for them. And so it's created a lot of jobs and a lot of opportunity for our community.
+
+And and you acquire these companies when they're gonna go out of business or, like, what's the story? Because you're not starting them. Right? All the above. Some, you know, were in distress modes.
+
+There's been others like sweet cars where I started from scratch. You know, fifteen years later, we cars you guys sell? All kinds of, one and two, three year old higher end cars. So Lamborghinis, Ferraris, Porsches, Mercedes, all that sort of stuff. Care a lot of people buying Lamborghinis in Fort Wayne?
+
+We do, believe it or not. And about 50% of our sales are local, the other 50% go around the country. But these were brands that were not sold in Fort Wayne at a new dealership, and we just found a way to bring these one or two year old cars that have a little bit of depreciation taken out of them. And now we can sell those kind of cars to Fort Wayne. What happened to the modest Midwesterner driving their Lamborghini in Fort Wayne?
+
+There's quite a few I went to a car show this weekend. I bet there were eight or nine Lamborghinis. I think we sold most of them, but it was fun to see. Yeah. Okay.
+
+So so a lot of this is around Fort Wayne and and bringing jobs to Fort Wayne. Outside of Sweetwater, I'm just curious. How many and what's the name of the company that oversees us? It's not called Sweetwater. It's No.
+
+Sarek Enterprises. Sarek Enterprises. Okay. How many roughly how many employees do you think Sarek Enterprises oversees? Yeah.
+
+We have about 700 right now. 700. And and it sounds like I imagine you're a businessman. You wanna you want these to be sustainable, but that's not really it's more about you grew up in Fort Wayne, and you've got the money, and you wanna support Fort Wayne now. Yeah.
+
+I've been very blessed. My wife and I have been so so blessed, and and we we just wanna do everything we can to help our community. Alright. So coming back to to Sweetwater, during these years, right, ecommerce is taking off. Right?
+
+Like Amazon and and Walmart got huge, right, online. And and I should say, Sweetwater does sell on Amazon, right, like like other third party sellers. But Amazon has gone after a lot of other competitors in big markets like Toys R Us. Right? But not Sweetwater.
+
+Why do you think that is? I mean I mean, Amazon could just decide to undercut you by, you know, by selling the same things you do, but for, like, 10% less. They could. And I'll tell you the reason we're on Amazon is access to customers. But that being said, Amazon has decided that there are other markets that are much easier to get into and to be an expert at.
+
+You know, I've mentioned it multiple times, but the expertise that we have and the investment we make in our people to offer they they don't wanna have people. I mean, you can't it's hard to call Amazon and talk to them on the phone. We encourage people to talk on the phone. We we have those sales engineers and tech support people that really understand the products. And I think people are comfortable buying little inexpensive things on Amazon or if you know exactly what you want.
+
+But when you have any question or anything like that, you'd be more much more comfortable buying that sort of technology from Sweetwater. It's interesting. Yeah. And again, I mean, I'm not you know, I buy tons of stuff on Amazon. I just bought a foam roller for my thoracic spine.
+
+Right? So this is a cheap purchase. Yeah. You're absolutely right. And we've had many big companies try and compete against us, and they've gotten in the business and out whether it's Circuit City or Best Buy or now we're not naive.
+
+We have to compete against Amazon. So that's one of the reasons that two years ago, we opened a warehouse in Arizona. We can now ship to Nevada or California in one day shipping. Can't quite do the four hours or whatever or two hours now that Amazon's about to do, but most of our customers will wait one day to get the product. And the other thing about being in Indiana, we can reach 38% of The United States in one day.
+
+So and FedEx and UPS both have big warehouses or distribution centers, one in Indianapolis, one in Louisville right down the road from us. So we can get to a big part of the country right away, and what we can't get, we'll get out of Arizona. Okay. Let's get to 2019. By this point, you guys are selling about 35,000 products on your website.
+
+Huge number of customers, 70,000 customers a month. That year, you're gonna do around a little over $800,000,000 in sales. And you build a an enormous warehouse distribution center, 580,000 square foot distribution center. I it opens in February 2020 in Fort Wayne to Yes. It did.
+
+You know, for growth. And that's exciting. It's high-tech. You've got, like, 580,000 square feet, and then bam, COVID. A week or two later, the world shuts down.
+
+You know what was amazing? We knew that warehouse was coming. Nobody knew COVID was coming. In fact, during the fall, we had ordered all kinds of inventory in anticipation of filling that warehouse up. We wanted it to be full.
+
+And, fortunately, all that stuff came in in January and February and early March, and now our warehouse is full. And then COVID happens and the world stops, including myself and Guitar Center and and many of our other competitors were told they couldn't ship anything. You couldn't have employees in your building or anything. It didn't take very long, and our governor said, no. No.
+
+Mail order is good. We want mail order to stay in business. So they gave us permission to open. And my wife and myself and my daughter, who was 13 at the time, and the local police chief and a whole bunch of others came in, we started packing boxes because I was desperate to take care of our customers because they were still buying equipment. And they were at home wanting to to get more equipment.
+
+We were selling equipment for streaming church services. We were selling guitars for first time owners, and our business that year grew by 40%. You were quoted, I guess, a retrospective article about COVID by an Indianapolis magazine. They you said, I was somewhere between panicked and trying to inspire those around me. Yeah.
+
+I would tell you that, six months, a combination of COVID and Black Lives Matter, was the hardest year in my forty seven years of being in business. And I was stressed and, it immobilized me for six months. Immobilized you. Yeah. I just in every day, it was tough.
+
+I I just didn't know what tomorrow would bring, and it took me about six months to get through it. And by September, I met with the whole leadership team of our company, and I said, I'm choosing not to participate, and we're moving forward. Not to participate in in what? Just the whole, the whole world of where it was at that time. When the Black Lives Matter thing came out, you know, I mean, to me, was just awful.
+
+I've been a big supporter of every person. I don't care what the color of your skin is. And I think the Black Lives Matter group, the people behind that were not necessarily good and strong. I believed in the movement. I believed in all bunch of stuff, but not the kind of rhetoric that was being thrown about.
+
+You felt like it was divisive. It was very divisive. And and, you know, as soon as you supported Black Lives Matter, then the police I remember very clearly putting a very small innocuous statement, and and I got a call immediately from the police department. And I go, no. No.
+
+I bought you guys all lunch last week. So I love the blue lives as much as I love the black lives as I do the yellow lives and the white lives and so on and so forth. So but I just chose to not to you know, that time I had forty years of of being in business, and I knew what my track record stood for and what I believed in. And I just wasn't gonna get stuck in that anymore. Do you make political statements?
+
+Do you get involved in in political issues, or do you just kinda like to stay out of it? I try really hard to stay out of it. Yeah. And it's interesting because I think a lot of companies have reevaluated this and upset have have kind of gone back to this view, which is the role of a business is to be a good employer, to be good to its customers, to make great products, to offer good value, but not to run the country or run policy. Like, that is not the role.
+
+I mean, you know, you look at the sixties and the Vietnam War, I don't think Pepsi or Coca Cola had a position on that. You know, they personally may have, but they didn't, as a business, didn't come out saying anything about that. Well, I think the the challenge or what was different is that we had the Internet. The Internet empowered so many people to have a voice, so they drove it, encouraged a lot of it. You know?
+
+And, again, that's the positive and the negative of it from that point of view. So it makes sense to me that this next chapter, which is I imagine you get through that year, 2020. It's an amazing I think you broke a billion dollars, over a billion dollars in business that year. And since then, it's been over 1,000,000,000 every year, which is a billion dollars. Right?
+
+It's unbelievable. Unbelievable. So you, you get through this year, 2020, clearly very stressful for you. But going through that year, because I was wondering, I was like, you know, in 2021, he decided to sell a majority stake of Sweetwater to a private equity firm. Now, I mean, you're turning over 1,000,000,000 in sales.
+
+Amazing opportunity to sell. But I have to imagine now knowing what I know from the previous year, maybe you were like, this was a lot. I just I think I need to step away. You know, it wasn't so much that. I had previously tried to figure out what's life after Chuck and what's what's the long term plan.
+
+And we have this problem in our country with estate taxes, and you have to pay about 50% of whatever your net worth is to just when you both die for estate taxes and Over a certain amount. Yep. Yep. And so so I realized it's a big problem. And so for two years, my financial adviser, my attorneys, all that brought in all kinds of experts and and had us look at various strategies.
+
+And I learned terms like irrevocable trusts and all these sort of things that we could, move our company to, and I just felt weird. And so December of that year, I said, well, why don't we consider selling it? And decided to go through the process. So they went away and we worked on what we call a book. They, you're talking about the bankers.
+
+Yeah. JPMorgan. Right? JPMorgan. Yep.
+
+So they, they sent out a copy of this book to 32 companies. And I was really clear when I started working with JPMorgan, there were some principles that I would not give up on. I had no debt, didn't need to sell it. I was in a great position. But going forward, they had to continue to support our community, whoever bought the company.
+
+They had to support our sales management process, the team. You know, they couldn't dismantle it. They had to they had really keep the company kind of the way I've been running it. And that was just a prerequisite or we weren't going forward. So sixteen sent back incredible offers.
+
+I mean, blew my mind, life changing, incredible offers. And we narrowed it down to two. And I just really liked the one that ultimately won. And, probably five years in August, and they've done absolutely everything they said they would do. And it's just been a great relationship.
+
+My wife and I still own a big piece of it. We just don't own the majority anymore. And that, of course, has freed us up to do lots of other things. Yeah. I mean, this, Providence Equity acquired Providence.
+
+Yep. A majority stake, and and and you retain a minority stake. Right. And how did you guarantee that they are going to do the things that you really need them to do or that you you have a certain view about your employees, the business, the community? How do you bake that into a guarantee forever?
+
+Well, I don't know if I can do it forever. Right. But when I did interview them and I interviewed them as hard as they interviewed us, and we talked to references of of other companies they had done. The best thing I can tell you is they've done exactly what they said they would do. And what they really did is they sped up some of the stuff that I was going to do anyway.
+
+You know, I'd have done things in sequential order, very monitored and measured, taking on selling band instruments as an example, or opening the warehouse on the West Coast, or they did it all at once. It was a little bit stressful for the team, but it allowed us to go even faster. And that's that's what they really brought to the table. So 2021, this happens. You come to terms, and and the company again has done Seawater's done over 1,000,000,000 in sales.
+
+So, you know, that acquisition was was certainly considerable. Part of this is you you decide that you're gonna move on. You're gonna step down as CEO. What did that mean for your day to day life? I mean, here you go.
+
+2021, you're running this thing. And then what is this, like, like, one day to the next? It's like you're not there's not, like, a million questions coming at you. You're not going to a bunch of meetings, like, just I will tell you, I didn't believe it ever happened, but the money was so amazing. Not only the money for me, but the money for all my team.
+
+You know, all my top people had a really nice payday. Yeah. But I stayed in my office until the day I saw the money in my checking account or in my savings account actually. I wasn't gonna leave my office and it was hard. It was really hard.
+
+My staff helped move me out of my office. I could have done it by myself. But I stepped up to chairman of the board. I'm still involved. I've got so many friends that are there, lifetime friends that are there, and, and it's my baby.
+
+But I've now sent my baby off to college and and doing really well. So, I mean, again, like, just emotionally, was part of you you know, there's still the emotional thing of, like, I'm not coming in every day anymore. I'm not. Sometimes people get sort of say to me, I didn't feel as needed right away. You know?
+
+I miss it. That's what I would say. I miss my friends. I miss going there every day, but I am fulfilled with other things that we're doing. And I'm glad I have that.
+
+You know, talked to a lot of my friends, of course, retiring right now, and I go, that scares the crap out of me. Yeah. How old are Chuck? I'm 69. Oh, you're a young guy.
+
+Yeah. I feel like I'm 39. I because I don't quite look it, but I really have lots of energy. I I'm up early, and I'm going late, and I sleep, you know, very few hours per night. And so I love what I do.
+
+And today, I think Sweetwater's got, like, 2,600 employees, roughly, something like that. Yeah. Yeah. You've got a a warehouse in Glendale, Arizona, and but most of the employees are in Fort Wayne. Yep.
+
+It's pretty amazing. I left. We were doing a billion five in business. This year, they'll do $2,000,000,000 in business. Wow.
+
+Yeah. It's crazy. I guess in the lobby or somewhere in the Sweetwater headquarters, you can still find well, maybe it's not the original, but there's a replica of that VW bus that this all started out of. Right? Yeah.
+
+My rusty old VW bus went to a junkyard over in Van Wert, Ohio. But many, many years ago, I got a version of it. It's kind of a facsimile of the original VW bus. And it's in there in the headquarters, and you can go see it. And and I guess your Boy Scout uniform's also in there.
+
+My Boy Scout uniform's hanging on the door, and there's my first saxophones on the floor right in front of it, and just a little bit of the story of Sweetwater and the Foundings. Yeah. It's pretty amazing. Chuck, when you when you think about this trajectory of your life, right, everything happened just for even for, like, the four years of going gigging around the country and starting this recording studio to a multibillion dollar businessman in Fort Wayne, Indiana. Again, it's amazing.
+
+How much of of this do you attribute to the work you put in and the hard work and the skills you brought to it? And how much do you think had to do with luck and fortune? Yeah. I'm not a big believer in luck, but it was hard work. I think it was the grace of God.
+
+And and the more you're given, the more you're, expected. You know? It it's it's just been amazing, but it's been a lot of work and a lot of support from others around me, whether that's customers or friends. I don't take credit for it all. There's no way that one human being can do everything that that I've been able to accomplish.
+
+I get credit, but I don't I don't I don't believe in that. Yeah. I reflect all the time. You know, I started with nothing, no business theory, no background, a rusty VW bus. I mean, it's just been an amazing, amazing ride.
+
+That's Chuck Cerak, founder of Sweetwater. And by the way, even with everything he's got going on these days, Chuck still makes time to gig as a musician on the instrument that kind of launched his career, the saxophone. Yeah. He played Saturday night, and I'm playing three times this week, three different bands. What are you playing?
+
+I play in a nine piece R and B soul band, and I play in a little three piece jazz trio, and I play in an 18 piece big band. And there's just various clubs and places we play around here. We'll plug you. What's what's the next venue? Yeah.
+
+The next venue, I play at the club room at the Clyde Theatre. The Clyde Theatre. When when is this happening? We're there a couple times a month, so I think we'll look at the calendar and find it. Hey.
+
+Thanks so much for listening to the show this week. Please make sure to click the follow button on your podcast app so you never miss a new episode of the show. And if you're interested in insights, ideas, and lessons from some of the world's greatest entrepreneurs, please sign up for my newsletter at guyros.com or on Substack. This episode was researched by Carla Estevez and produced by Casey Herman with music composed by Ramtina Rablui. It was edited by Andrea Bruce.
+
+Our engineer was Anli Huang. Our production staff also includes Alex Chung, JC Howard, Chris Massini, Sam Paulson, John Isabella, Carrie Thompson, Neva Grant, and Elaine Coates. I'm Guy Raz, and you've been listening to how I built this.
