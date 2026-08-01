@@ -1,0 +1,11 @@
+# 每周评估参数。evaluate.py 读取；每周迭代步骤可在白名单键内自动调整。
+benchmark: SPY
+horizons_trading_days:
+- 5
+- 21
+- 63
+entry_convention: report_day_close
+winsorize_pct: 0
+min_group_size: 3
+evaluate_legacy_cohort: true
+max_entry_staleness_days: 5
