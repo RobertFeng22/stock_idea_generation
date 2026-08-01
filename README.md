@@ -94,6 +94,23 @@ data/
 **去重**：用「过去 7 天」时间窗 + `data/seen.json` 双重去重。GitHub Action 每次运行后会
 把 `data/seen.json` 和报告自动 commit 回仓库，所以即使运行环境是一次性的，状态也能保留。
 
+## 每周回测评估（Evaluation Loop）
+
+`.github/workflows/evaluate.yml` 每周六 13:00 UTC 自动运行 `python -m src.evaluate`：
+
+1. 解析 `data/reports/` 里所有历史邮件，抽出全部推荐（精选 top-10 + 早期完整列表对照组）。
+2. 拉取每只标的与基准（SPY）的日线收盘价（Stooq，Yahoo 兜底；缓存 append-only，
+   入场价一经记录不再改动）。
+3. 计算事件研究式记分卡：市场调整超额收益、胜率、赔率（均盈/均亏）、盈亏比、期望、
+   t 值 / 二项检验、Rank IC，并按信心、来源数、排名、推荐周期、周 cohort 分组。
+4. **每周迭代**：把本周指标 + 历史指标 + 迭代日志交给 Claude 审查方法论，允许它在
+   白名单参数（`config/evaluation.yaml`）内自动调整，并产出对 `config/rules.md`
+   选股规则的改进建议；所有变更记入 `EVAL_CHANGELOG.md`。
+5. 报告存档到 `data/evaluation/history/`，并邮件发送。
+
+方法论参照：Barber/Lehavy/McNichols/Trueman (2001) 分析师推荐事件研究、
+MacKinlay (1997)、Fama (1998) 日历时间组合、Grinold & Kahn 的 Information Coefficient。
+
 ## 路线图（以后可加）
 
 - 说话人分离（区分主持人/嘉宾）、转录结果缓存到 `data/` 避免重复转录。

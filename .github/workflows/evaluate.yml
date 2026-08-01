@@ -1,0 +1,52 @@
+name: Weekly picks backtest & evaluation
+
+on:
+  schedule:
+    # Every Saturday at 13:00 UTC — after the US Friday close, before the
+    # Monday digest, so each digest can learn from the freshest evaluation.
+    - cron: "0 13 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write  # commits price cache, reports, changelog back
+
+concurrency:
+  group: weekly-evaluation
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weekly evaluation
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python -m src.evaluate
+
+      - name: Persist evaluation state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/evaluation config/evaluation.yaml EVAL_CHANGELOG.md || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update evaluation state [skip ci]"
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" || true
+            git push origin "HEAD:$GITHUB_REF_NAME"
+          else
+            echo "No evaluation changes to commit."
+          fi
