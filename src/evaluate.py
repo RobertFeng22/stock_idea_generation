@@ -73,6 +73,37 @@ TUNABLE_KEYS = {
 # 1) Parse archived reports into a picks ledger
 # --------------------------------------------------------------------------
 
+def _canon_podcast(name: str) -> str:
+    """Collapse episode-title variants of the same show into one label."""
+    for prefix, canonical in [
+        ("The Twenty Minute VC", "20VC"), ("All-In", "All-In"),
+        ("No Priors", "No Priors"), ("Invest Like the Best", "Invest Like the Best"),
+        ("Odd Lots", "Odd Lots"), ("Capital Allocators", "Capital Allocators"),
+    ]:
+        if name.startswith(prefix):
+            return canonical
+    return name
+
+
+def _parse_pick_sources(text: str) -> dict[str, list[str]]:
+    """Map ticker -> source podcast names from a report's detail sections."""
+    out: dict[str, list[str]] = {}
+    parts = re.split(
+        r'<div style="font-size:16px;font-weight:700;">(\d+)\.\s*([A-Z.]+)\s*<span',
+        text)
+    for j in range(1, len(parts) - 2, 3):
+        ticker, body = parts[j + 1], parts[j + 2]
+        chips = re.findall(
+            r'color:#0a3069;background:#ddf4ff[^>]*>(.*?)</span>', body)
+        pods = {
+            _canon_podcast(
+                html_mod.unescape(re.sub(r"<[^>]+>", "", c)).split(" — ")[0].strip())
+            for c in chips}
+        if pods:
+            out[ticker] = sorted(pods)
+    return out
+
+
 def _cells(row_html: str) -> list[str]:
     cells = re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row_html, re.S)
     return [re.sub(r"\s+", " ", html_mod.unescape(re.sub(r"<[^>]+>", "", c))).strip()
@@ -85,6 +116,7 @@ def parse_reports() -> list[dict]:
     for path in sorted(REPORTS_DIR.glob("*.html")):
         report_date = path.stem  # YYYY-MM-DD
         text = path.read_text(encoding="utf-8")
+        pick_sources = _parse_pick_sources(text)
         for table in re.findall(r"<table[^>]*>(.*?)</table>", text, re.S):
             rows = re.findall(r"<tr[^>]*>(.*?)</tr>", table, re.S)
             if not rows:
@@ -102,6 +134,7 @@ def parse_reports() -> list[dict]:
                         "sources": int(m.group()) if m else 1,
                         "multi_source": "🔥" in c[3],
                         "horizon": c[4], "confidence": c[5],
+                        "podcasts": pick_sources.get(c[1], []),
                     })
             elif header[:2] == ["代码", "公司"]:  # legacy broad list
                 for row in rows[1:]:
@@ -372,6 +405,17 @@ def compute_metrics(results: list[PickResult], cfg: dict) -> dict:
         lambda p: "first" if first_week.get(p["ticker"]) == p["report_date"]
         else "repeat")
 
+    # Per-podcast scorecard. A pick with several source shows credits each of
+    # them (multi-membership, so rows don't sum to n_priced).
+    pod_groups: dict[str, list[PickResult]] = {}
+    for r in ok:
+        for pod in r.pick.get("podcasts") or ["(未溯源)"]:
+            pod_groups.setdefault(pod, []).append(r)
+    metrics["by_podcast"] = dict(sorted(
+        ((k, _agg(v, cfg)) for k, v in pod_groups.items()
+         if len(v) >= cfg["min_group_size"]),
+        key=lambda kv: -(kv[1].get("avg") or 0)))
+
     # Rank IC per weekly cohort (does the model's ordering predict returns?).
     ics = []
     for week in sorted({r.pick["report_date"] for r in ok}):
@@ -584,6 +628,7 @@ def build_eval_html(metrics: dict, cfg: dict, iteration: dict | None) -> str:
                        ("by_rank_bucket", "按排名分档"),
                        ("by_stated_horizon", "按推荐时给出的周期"),
                        ("by_first_appearance", "首次上榜 vs 重复上榜"),
+                       ("by_podcast", "按来源播客（多来源标的各记一次）"),
                        ("by_week", "按周 cohort")]:
         groups = metrics.get(key) or {}
         if groups:
