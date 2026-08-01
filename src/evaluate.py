@@ -364,6 +364,14 @@ def compute_metrics(results: list[PickResult], cfg: dict) -> dict:
         else ("rank 4-6" if (p.get("rank") or 99) <= 6 else "rank 7-10"))
     metrics["by_stated_horizon"] = breakdown(lambda p: p.get("horizon"))
 
+    # First appearance vs repeat recommendation of the same ticker.
+    first_week: dict[str, str] = {}
+    for p in sorted((r.pick for r in shortlist), key=lambda p: p["report_date"]):
+        first_week.setdefault(p["ticker"], p["report_date"])
+    metrics["by_first_appearance"] = breakdown(
+        lambda p: "first" if first_week.get(p["ticker"]) == p["report_date"]
+        else "repeat")
+
     # Rank IC per weekly cohort (does the model's ordering predict returns?).
     ics = []
     for week in sorted({r.pick["report_date"] for r in ok}):
@@ -565,7 +573,8 @@ def build_eval_html(metrics: dict, cfg: dict, iteration: dict | None) -> str:
     if metrics.get("horizons"):
         parts.append("<h2 style='font-size:16px;'>固定持有期（已到期样本，超额）</h2>"
                      f"<table style='width:100%;border-collapse:collapse;font-size:13px;'>{AGG_HEADER}")
-        label = {"5": "1 周 (5 交易日)", "21": "1 月 (21)", "63": "3 月 (63)"}
+        label = {"5": "1 周 (5 交易日)", "10": "2 周 (10)", "21": "1 月 (21)",
+                 "63": "3 月 (63)"}
         for h, a in metrics["horizons"].items():
             parts.append(_agg_row(label.get(h, f"{h} 交易日"), a))
         parts.append("</table>")
@@ -574,6 +583,7 @@ def build_eval_html(metrics: dict, cfg: dict, iteration: dict | None) -> str:
                        ("by_multi_source", "按来源数（多来源🔥 vs 单来源）"),
                        ("by_rank_bucket", "按排名分档"),
                        ("by_stated_horizon", "按推荐时给出的周期"),
+                       ("by_first_appearance", "首次上榜 vs 重复上榜"),
                        ("by_week", "按周 cohort")]:
         groups = metrics.get(key) or {}
         if groups:
