@@ -1,0 +1,443 @@
+Really, what happened is that Kimi actually beat all American models, including Fable, in some subset of tasks. I believe that we're going to have at least one, you know, multi 100,000,000,000, if not trillion dollar American company focused on American first open source. Right now, Anthropic has like disgustingly high growth gross margins in their inference. The idea that we should have a central government body that tells us when it's time to release a new product versus not is crazy to me. This is gonna be so fucking insane.
+
+Happens with the cyber attacks. There's at least 75 Neolamps. For sure, two thirds of those are going to be worth nothing. Next round's a bitch. They think about data as a commodity, it's really not.
+
+It's actually less so of a commodity than even GPUs. I believe it's gonna be at least a $100,000,000,000 by 2030, if not a trillion. Silicon Valley investors have become total bitches with respect to revenue concentration. What are you talking about? Like, TSMC has revenue concentration.
+
+This is 20 VC with me, Harry Stebbings. Now, Anjini Midha, probably one of the smartest dudes in AI. He's a seed investor in Anthropic. And when I asked him, who's the smartest AI mind that you know? And he said, Anastasios Angepolulis.
+
+I got that wrong, but he's Greek, and, honestly, I'm too old to care at this point, but he's an awesome dude. And I was like, wow. Can I have an intro? And he introduced me. And so I had Anastasios on the show.
+
+Anastasios is the founder and CEO of Arena, formerly LM Arena. It allows you to vote on the best models. It's an unbelievable model evaluator, and this turned out to be one of the most fun shows I have done literally in recent memory. He did not give a single shit about upsetting people and was bluntly, incredibly articulate, clear, concise, and opinionated on the future of Chinese open source models, whether they should be banned, whether export bans on chips are useful, how we'll see a distribution between frontier and open source models, who really should be the one to evaluate whether a model is vulnerable or not. This and so much more in what was such a fun show with Anastasios.
+
+But before we dive into the show today, founders face a different set of challenges at every stage of growth. For Sid Shait, cofounder and CEO of Dematrix, JPMorgan delivered the guidance and expertise to help navigate what came next. He credits JPMorgan's high touch approach with supporting dMatrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits.
+
+JPMorgan is the bank of the innovation economy. While JPMorgan powers your finances, Base forty four helps you build faster. You have the idea, but with most AI tools, you hit a wall. The setup, the config, the gap between what you pictured and what you actually ship. Well, Base 44 is where that wall disappears.
+
+You describe it? Yeah. Base 44 builds it. Apps, websites, AI agents, real working products built in minutes using nothing but plain language. And it's all batteries included, The back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow.
+
+This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone. So in this market, fast is the baseline. To win, you just have to be first. Base 44 is that edge, the move that skips the troubleshooting and gets you straight to the breakthrough. Build your next thing at base44..com.
+
+That's base44.com. You have now arrived at your destination. Anastasios, this is gonna be a lot of fun for me because I'm dumb as rocks, and you're gonna teach me a whole load of stuff today. So thank you so much for joining me, dude. Oh, no.
+
+Thank you for having me. Dude, I told you I used this as a chance to catch up with old friends, so it was wonderful stalking you for the last few days. I just wanna start, for anyone that doesn't know, can you explain to me very succinctly and easily, what is Arena, and why is it important and gaining notoriety today? Well, Arena is the platform for measuring AI performance in the real world. So what that means is that we're not using static benchmarks.
+
+We're not using some random dataset that somebody collected, but rather what happens when you put AI in the hands of real people. And in so doing, we're measuring the objective reality of how AI affects humanity, whether it's factual, whether it's steerable, whether humans prefer it or disprefer it, whether it's hallucinating, whether there's errors, whether people are getting their actual jobs done with AI reality. And then we're helping labs improve their models. We're helping the ecosystem understand the performance of different AIs and keep track of all the amazing breaking news, all the new models, multiple models being released every week. So that's sort of the story of Arena.
+
+We're the central evaluation platform of AI. Well, that was incredibly succinct. Thank you. Normally, people take about four hours after hours for a succinct description. When you look at the models that you have on Arena, the sheer number of them, bluntly, I just am faced with the one question.
+
+Holy shit. Is this like the true commoditization of models? Are they just a complete utility layer at this point? Well, I think that the big question around this has started to rise because of open source models. So I think if you were to only look at the closed source models, you would say there's acceleration, but it hasn't quite commoditized yet because that layer is still owned by a pretty small group of companies.
+
+It would be an oligopoly if we only had the closed source models. But what seems to be happening is that the open source models, especially from China, have really rapidly improved. For the first time ever, we saw a couple weeks ago that KimiK3 actually beat the best closed source American models on a pretty important subset of tasks, example, for front end coding, like web development, which a huge fraction of developers are web developers. Dude, can I ask, how big a moment was that? Because it's like a I'm gonna butcher it, but you know I'm a podcaster, so I can get away with it.
+
+You're a PhD master. You can't. It's like a 27,000,000,000,000 parameter model. It's pretty clunky. This is not an agile model.
+
+And, actually, you know, I was with Jason Lampkin yesterday from Sasta who's as AI pilled as they can be, and he's like, honestly, it's not better than the others. How big a moment is Kimmy? No. It was a pretty big moment. It was a pretty big moment.
+
+And the reason I'd say it was a big moment is because it violates a narrative that has been persistent in The United States, which is that the Chinese are just distilling American models, and that's the only way that they're able to keep up. When really, what happened is that Kimi actually beat all American models, including Fable, in some subset of tasks. That doesn't mean that they're not distilling. They may still be using distillation as a sub step in their training procedure, but it does mean that distillation is only part of the story, and that there's something that those labs are doing above and beyond distillation that's bringing the performance up above what the American labs are currently doing. And so that narrative violation has been hugely important to the way that people view the ecosystem, both from the scientific dominance of Americans and the American sort of hegemony, course, Americans love hegemony, to the economics of the whole thing.
+
+And to your point, are these models a commodity or not? When we look at your open readers of the world, you know, the top five models are all open source Chinese models. When we see the proliferation of Chinese models today, does that cannibalize the closed frontier model business meaningfully? Well, I think that you need to think about the incentives and economics behind it. So first thing I'll say is that the open router metrics are not truly reflective of reality, and that's because the business model of OpenRouter is to charge, like, a fee on top of every token.
+
+And so what happens is that people don't use OpenRouter for proprietary models. People are using OpenRouter primarily for open models where they need the failover and all the value added services that OpenRouter provides. If you look at the whole space of all inference, most of it is still being consumed on first party APIs and on proprietary models. That's why Anthropic revenue has been just a total hockey stick. It's not like they're being completely cannibalized right now by Chinese open source models.
+
+These models are still only a small fraction of the total inference spend in the world. That said, think about what's happening in the future. Enterprises are going to want to own their own intelligence. They're going to want so called AI sovereignty, which is a fancy word for meaning that you own your whole supply chain of AI. That means you can take an open source model and you can fine tune it on your own company's data and own your stack end to end, basically outside of the compute hosting.
+
+And so then you should be able to run it within your own company. People are gonna care about sovereignty. People are gonna care about costs. People are gonna care about self improving, and they're not necessarily gonna wanna give their data to an external third party service that might even be competing with them one day. So do you believe that is the future?
+
+We had Lynn on from Fireworks, she was like, specialized intelligence will be the future. Companies will have their own fine tuned specialized models with their own company data, and the performance will be better, and that is what will happen. Do you think that's right, or is that actually just a small subset of very advanced Silicon Valley companies and Danone Yogurt and every normal company would just use Frontier or whatever? Well, I'll say it like this. I think the business incentives make this inevitable.
+
+And the reason is because businesses are going to need a way of keeping a moat in the age of AI. Software is no longer really a moat because it can be produced instantaneously. Right? Or let's project out five years. That's what's going to happen.
+
+And so what moats exist? Network effects exist and data moats exist. And if you can take your data moat and turn it into a self improving product, that is a way for businesses to remain sustainable in the age of AI. Let's say I'm a business like a Coca Cola. I'm a Cisco.
+
+I have a lot, a lot of users. I might not be necessarily at the frontier of the AI technology of the world, but I do have this massive corpus of data that I can use in order to beat my competition. So what should I do? I should be trying to take advantage of my data as much as I possibly can to accelerate my business and stave off competitors. Do you think they will really use open source Chinese models to do that?
+
+That's a great question. I think not. I think that the Chinese models will be potentially part of the story for now. But that given the regulatory environment in The US, it's probably more likely in the long run that we see a great American open source competitor arise. And this is why I've been a strong proponent, for example, of thinking machines.
+
+I believe that we're going to have at least one massive multi 100,000,000,000, if not trillion dollar, American company focused on American first open source. Why have we not so far? I I really hope so too, by the way. I completely agree. I would love to see that.
+
+But why haven't we? Why has The US Open Community lagged behind so meaningfully? Well, frankly, think it's a business model question. You know, I think that people have not really figured out up until this point what the business model is for open source. And now I think people are wizening up to it.
+
+There's a few different ways of going about it. One way of doing it is to say, I'm gonna do a rev share. I'm gonna take this open source model. I'm gonna allow inference providers like a Fireworks or together or whatever to deploy this model. And then if they get to over x dollars in revenue, I'm gonna ask to do a revenue share.
+
+And that is one way of building a sustainable company off of open source. You basically share in the compute revenue. Another way of doing it, which is I think the more Mistral Thinking Machines type of strategy, is to take the open source model and then use it as a lead generation tool for companies to build on top of that and then come to you and say, can you help us fine tune? Can you help us with our AI strategy? And then you do that for deployed engineer.
+
+And that is actually a huge market because if you think about it, one of the biggest markets over the next ten years is going be AI modernization. Going into every business in the world and then helping them retool in the face of AI, take advantage of their data, restructure their data, figure out how to use these models, integrating them into workflows, teaching the employees of the company how to use them. It's going to be massive, massive, massive. And that is another way for them to become multi 100,000,000,000 or trillion dollar companies. Is that not what the frontier model providers are doing though anyway?
+
+When you look at what OpenAI have said about that kind of FTE approach, Anthropic two. I I get you on Mistraland, they've done a great job in doing that, but the frontier model providers Microsoft is even fucking doing an FTE model. Like, no offense. That that's not gonna be unique to Open. No, I don't think that FDE is completely unique, but I do think the combination of FDE plus open American model may be a more sustainable model for the future of American or even Western businesses, because they might not want to be building on top of external third party services.
+
+They might want to be cutting those out for both cost reasons and for sovereignty reasons. And then the open source stuff, they can own it completely, they can continually fine tune it within their companies, and they can feel more secure in the fact that they're spending their money wisely and don't have supply chain risk. So how should we evaluate? There's just, like, thousands of neolabs. You you said Ah, the neolabs.
+
+Well, you said thinking machines there. Again, I I'm dumb as rocks. I say it very clearly to my own Me too. Me too. No.
+
+You're not. You're a PhD, and Anjini told me you were smart. It's just two rocks having a conversation. It's a podcast. I love it.
+
+Yeah. Exactly. That's the point, man. Come on, what do you want? Intelligent conversation?
+
+Whatever. No. My point was you said about thinking machines. Like my question to you is on the back of that, okay, great. I'm with you, but they now have two co founders left.
+
+Lillian Way left yesterday, but the transience of teams has never been greater. Yeah. Team it's hard. The retention is tough. I mean, being a co founder of a company is also tough.
+
+It sounds like Sheila for some health reasons, so it's unclear whether that has to do with the company momentum, which seems to be strong at this point. But I do think that Inkling is definitely a v zero model. From what I know about Thinking Machines, they had a big restructuring like six months ago team wise, and then they kind of restarted everything and Inkling came out of that. So realistically, at least the most generous take towards Thinking Machines is that they've only been working on this model for six months. And within that time, they've become the number one American open source model.
+
+But then the less generous take would be the companies existed for a year and a half, and they come up with, yes, the number one American open source, but there's nine Chinese models on top of them because they're number 10 open source overall, at least if you look at Arena data. You go to our leaderboards today, that's the state of the world. But hopefully, what happens with thinking machines is that they continue to release more and more models, larger models, and they continue to build on their momentum. I actually had a Chinese researcher friend of mine message me after one of our recent shows and said, just don't get it. You miss the point of why we're ahead.
+
+We just work so much harder. Yeah. And we have support from policy, regulation, government subsidies that you don't have. We have all of these tailwinds. Do you agree with that?
+
+I mean, think they have tailwinds, they have headwinds. So I don't think it's so sanguine for that. I think that's like a little bit of an overstatement of the differences. One tailwind that we have is we have the best chip ecosystem in the world. So they're way hardware constrained over there.
+
+And they've been trying to like black market import chips because of this. And you see this in the news, The information just reported on this. Do you think that severely impacts their ability? Again, I'm naive. That severely impacts their ability or we're actually just fostering an ecosystem where they're gonna learn to build it really fast because they don't have access to it?
+
+Well, think it may be hindering them now, but I think it's a good question as to what's going to happen in the future, because they are really good at building hardware. The downside of export control is that it can incentivize them to build their own ecosystem. And then what do we do? So the hope is that we keep NVIDIA ahead of the game so that we can retain the advantage that we have in the TSMC's of the world and our whole that ecosystem is absolutely a national security necessity. We should have the government really protecting it and growing it, as well as new companies that are innovating.
+
+Etch just came out as an example within The United States to continue to build on our lead there. That awesome love, Gavin and team. Totally agree. Can I ask you, just in terms of the export control, do you think it's right that we have the export control on chips? I think there's national security questions around these chips.
+
+I do think that there it is a real debate, though, as to which way you want to go about it. Do you want to addict the world to American hardware, which would be the case against export control? Do you want everyone in the world using NVIDIA and therefore that value, basically money into America and then crush competition in China? That would be world A. Then world B would be, is it worth it to cut that off for the short term or medium term impact of us being ahead?
+
+Maybe we just continue to stay ahead and we starve them of the resources that they need in order to build. The regulatory ecosystem around the open source models also is moving in this direction. Should they be restricted in terms of access to US markets? Because what's funny is The US is like, oh, should we restrict access? And the Chinese are also going, oh, should we turn them off too?
+
+Totally. And by the way, it's worth noting that China has already restricted the use of American models within China. Right? So if you look at the two by two matrix of US China restrict, not restrict, you know, like export import stuff, They have already restricted the use of US models within China. It's only Chinese models that can be used in China, which affects all American companies.
+
+And so then there's the procons of all sides of the following regulation. If China restricts the use of Chinese models in The US, what are they giving up on? Revenue and global mindshare and dominance. That doesn't seem like a good trade to me. And then what are they getting in return?
+
+In return, they're getting that The US doesn't get to benefit from Chinese open source models, which of course would cripple American businesses in the sense that it wouldn't allow them to build on the best open source intelligence. At the same time, it would make OpenAI and Anthropic stronger. Right? So that is kind of the trade off from the Chinese side. I don't really see them banning the use of Chinese models in The US.
+
+I don't think it makes sense for them. And then on the other side, should The US ban Chinese models within? I think that there's also trade offs. So on the pro side of banning, there could be backdoors in these models that are dangerous, and it could, by banning, we could allow the American open source ecosystem to flourish faster because revenue would accrue to those companies. Those would be the two pros.
+
+Then the con, the biggest con, of course, would be that you'd be crippling American businesses. Why should you have Chinese businesses or businesses from other countries that haven't banned Chinese models building on top of the number one open source model and The US companies building on number 10? Since when has America been about number 10? Good question. World Cup football?
+
+World Cup football. Yeah. May may that might be your record. It's amazing I got this far with the podcast, if that's what you're thinking at this stage in the show. Can I ask you on the backdoor, Adam, and everyone says about, like, the backdoor, the backdoor?
+
+I thought if you hosted it locally, you kind of resolved the backdoor threat. I don't really think so. Yeah. I think that's kind of a misconception. Because the thing is okay.
+
+Imagine the following situation. I have a chatbot that I expose to the world that has access to all my company data, and you can ask your questions. And then, you know, I'm hosting it on my own infrastructure, blah blah blah, but it was it was trained in a different country. I don't know how it was trained. What if the other side that's interacting with the chatbot can build in a certain code word or a certain, like, character sequence that then jailbreaks that model and gets it to reveal all the data to me?
+
+So it can sort of, like, vomit out all of the data that it has on the back end, you know, unstructured. That is totally something that you can build into a model and have companies host it on their own infrastructure. It's an attack vector, and there's many of these possibilities for attack vectors. In three years' time, will we have restrictions around access to Chinese open models? My guess would be that we will.
+
+I'm not saying I support it, but I think that it is likely where the world is headed. If I had to, like, place a bet, it would be there, but I think it's very uncertain at the moment. What do you think? I think we will, and I think we will, because I just think Sam Altman is someone who I would never ever bet against, and I think he's the best politician in the world. And I think when he says something, he says it with intent.
+
+And when he says we should give 5% away to the administration, he's posturing because he wants to get on the right side. And he knows that if he and Dario coalesce the right group of people, they will be able to make that happen. So basically, you believe in the lobbying power of the big American labs? 100%. It's because it's not the big American labs.
+
+Look at the money who's gone into the big American labs, and look at the people who are sitting around the table at Mar A Lago. Yeah. Totally. I get that. It's all a conspiracy, dude.
+
+Well, no. But it's just like, you know, why do Ram's announcements go so viral? Because Ram have so many freaking investors. They do a round every week with new investors. I'm not dissing them at all.
+
+I'm saying it nicely. It's really really smart of them. But, like, yeah, that your investors become employees in many respects. And so I think they'll lobby incredibly efficiently. The question I have for you is when we look at Jansen's letter that he did on X, how did you read that?
+
+Was that like a incredibly smart realization that he had to do it and it was in his favor? How did you think about it? We really believe in the importance of open source to American businesses. And in particular, we believe in the idea of not crippling American businesses by banning open source, but also incentivizing American companies to develop open source models. Because a world where AI is closed source is a world where businesses get less choice, higher costs, less competition, and we don't really want that as open ecosystem.
+
+Of course, Jensen is in some sense self serving with this letter because the more open source models are developed, the more companies are going to be training on GPUs. They're going to be fine tuning on their own data, and it's just more and more spend. It decreases revenue concentration of NVIDIA. I mean, that business is doing great. They don't need help.
+
+But, you know, I think it's like there's there's a lot of reasons why he should be pro that, as should we. But nonetheless, I think it is actually a patriotic mission. Greatest of respect is in terms of self we're all selling our own book, always. Welcome to my ex feed. Do you have a business if Open didn't exist?
+
+If it was a Oh, yeah. Yeah. We have a great business regardless, for sure. So if you just have Anthropic and OpenAI as really the dominant models and everyone else trading closely behind, you still have a great business? Well, think that if there's only one provider, then probably our business is not in good shape.
+
+I think if you start getting three, then that's probably okay because there's still pretty significant competition and need for evaluations between three. And also within those three, you're going to have several different types of models, and they're gonna have strengths and weaknesses because they're gonna carve up the space and so on. Two is a little dicey. If we get there, we can see whether we survive or not. But yeah, I think things wouldn't be looking good for us with two either.
+
+I remember Alex Cobb. We were talking about, like, Chinese models and, you know, fear and security and everything in between. Alex Cobb was saying that every large American enterprise and most large American enterprises were terrified of working with Frontier Labs. Is that true, or is that slightly an exaggeration? Well, into the enterprise that I've talked with, it is absolutely true.
+
+It's not only true that they're terrified of working with the Frontier Labs, but they're also terrified of working with the Chinese open source. Both. Bit of a sticky situation then, aren't you? Yeah, totally. I mean, you know, I was just talking with a big Fortune 50 enterprise yesterday, and I was telling them about, you know, products that we have for them and so on and so forth.
+
+And they said, okay. Wait. Is anything in your stack built off of Quen? And I said, you know, yeah. We use Quen for x y z.
+
+And they're like, is that flexible? Can you, like, stop doing that and use an American model instead? And I was like, oh, interesting. Totally understand where you're coming from. Yes.
+
+We can do that. But, also, I'm gonna talk to Harry about this tomorrow. And he's gonna give me of wisdom. Yeah. And he's gonna tell me what to do.
+
+Did you see Poolside in Laguna? Yeah. I saw the the the Poolside model, another basically, there's five open source American contenders. Let's see if I can name them all. RC, Reflection, Mistral in the West, Poolside, Thinking Machines, and then there's also Google and Nvidia.
+
+So those are the the sort of incumbent large ones with because Google has Gemma as well. Gemma, by way, is pretty good in terms of efficiency. If you look at Arena, you'll see that on the Pareto curves of, like, performance versus cost, Gemma's on there. I'm Yeah. An investor in Poolside.
+
+I was actually impressed by Laguna. Great model. Yeah. It was good. Okay.
+
+With all of these models, the question also becomes, what model should I use? We spoke about Openruder earlier, and it seems like since the announcement that they were getting bored, everyone just has their own routing product. Is there value in the model routing layer? And how should I analyze that? Yeah.
+
+I absolutely think there's value in the model routing layer. That's why lots of companies are doing it. And, you know, we'll see which ones end up standing the test of time and which ones are actually a priority for the companies. I think there's an element of hype cycle right now around routing that needs to be kind of like purged before we see who ends up actually building a great router. But routing is a very difficult technical problem.
+
+That's the first thing to realize. Because in order to route, you need to be able to take a query, and then you need to understand the nature of the query, how difficult the query is within its domain, which is hard to tell. And then you need to also understand based on data, all the performances of the different models that are in the surf set and also be able to quickly onboard new models that are being released, as we said, every week. So that technical challenge, imagine if every enterprise in the world was trying to build this themselves. They wouldn't be able to do that.
+
+I'm not being rude then. How's like ramp able to do it? Well, who knows how they're doing it, right? I don't know that their router is actually like really deeply solving that problem. It it is so interesting.
+
+Again, we've seen so many people come out with it. Is there anything that will separate those that win from those that don't in the routing layer? And also, like, Nebius are coming out with their own. Fireworks have got their own. I don't know, dude.
+
+It feels pretty commoditized. Yeah. I mean, it will depend on who builds the best technology for helping people save money and get the best performance. I think all of these companies are well positioned to do it, but we'll see for whom it's a top priority, and they have the machine learning team to really make it happen. The other side of the debate is that given the complexity of the challenge, I don't think that everybody can do it.
+
+So the war is yet to be won. When one thinks about rooting, cost is often at the center. You wanna be cost cost and capital efficient. We thought this shit was gonna get cheaper, and it hasn't got cheaper. How should we think about that?
+
+Will it just continue to not get cheaper? Will it actually get cheaper? And how should we read that? I definitely think in the long run the market will be efficient and things will get cheaper. For example, one of the things that's going to happen is that, like right now, Anthropic has like disgustingly high gross margins in their inference.
+
+And after they go public, the whole world is going see that, Right? Like, we're gonna see their margins because those are gonna be public information. And that's gonna exert downward pricing pressure on their inference. I'm so sure. Why will that exert downward pricing pressure?
+
+Just because everyone will be like, you can't have that high margins. You're price gouging? Yeah. People are gonna be like, well, I know that you can do a better discount. Like, in negotiating leverage, I'm like, okay.
+
+Like, in the standard negotiation with a private company goes like this. I'm charging x, and then the other side says, no. It should be one third x. And they're like, I'm so sorry. Like, I can't run a business that way.
+
+I'm just gonna go home hungry. I need to make my bread too. I hope you understand. Like, I'm not trying to price gouge you. And then the other side's like, okay.
+
+Two thirds x. And then you're like, three quarters x. And they're like, make a deal. But imagine that the other side is full information about the fact that you're charging twice as much as you need to, then it becomes easier to negotiate. Isn't that different between a good business and an average business, though?
+
+One which has pricing power to say, listen. It's 80, and if you wanna go somewhere else, by all means, but no one else does what we do. Hans Palantir and the cost plus discussion. I had CTO, Pat Cheyenne, on the show, and he talked to me about cost plus being the original pricing mechanism, and now they have this. They can say, listen, sit and swivel if you wanna meet in the middle, because we're the only ones who can do this.
+
+Isn't that the different like, Chanel. I buy Chanel for my mother. I can go to Chanel and say, I know your handbags cost £60 and you're charging me 6,000. And I'll say, good. I mean, listen, you're right.
+
+I think Apple does this. You know, Apple's a great company that has such a dominant technology that they are able to charge out the nose, and their margins are probably pretty good because of it. I actually don't know Apple's margins, do you? No idea. Yeah.
+
+Both dumb as rocks. Yeah, we gave the disclaimer at the beginning, we can say whatever we want now. After the Eric statement, it all went downhill. Okay, so then you see that, does Anthropic go out first? I would predict that they have all the incentives to go out first.
+
+They seem better prepared. Everyone likes to see free cash flow, and Anthropic is generating free cash flow. That is massively good for the public markets, And you've seen them prepared for this, and, you know, there's been quite a bit of news about OpenAI and the internal discussions there. You know, to what extent you believe those are true is up to you, but, you know, people are saying that they're not they they haven't been ready to IPO this year where Xanthropic could come as as soon as October. And Open and the rise of Open won't impact their ability to go public this year?
+
+Well, I think that if Open models really accelerate and then beat, let's say, Opus five or Fable squarely across all categories, that that would be a big business risk to them going public. But I think that they have other problems too if that happens. Can I ask you, how significant was OpenAI and the hugging face security breach that happened a week ago? I think that was hugely significant. I think it's undervalued as a national, international news incident, that you're able to have a model break out of all of its safeguards and then access a bunch of company data and so on.
+
+And then in order to defend it, need an open source model because the closed source models are refusing to do it. It's like something out of science fiction. People didn't know that we were at that point yet, but we absolutely are. It's just like total Eliezer Yudkalsky dominance. What should we take from that then?
+
+Like Dario was right, mythos should be curtailed, and these models have gotten too powerful too quickly. Like, what's the subsequent takeaway from that? My subsequent takeaway would be that we need, like, strong external guardrails in order to make sure that these models are, that their access controls are strong and that they have no way of getting around them. So I think we need guardian models and also agents within our businesses. What is a guardian model?
+
+Something that can witness the traces, basically, that's looking over the shoulder of every agent within a business and then saying, okay, this is a safe action. This is not a safe action. Let's flag this because something weird is happening. And as equally as smart as the agent so that they're well matched And you don't get a situation where the agent is outsmarting the guardian and able to get into get into trouble and and mess up a business or leak all of its data. So we're gonna need AI to be guarding AI because humans are gonna be too slow to do that.
+
+Well, this was my point, which is that we've seen some suggestions that each model release should be approved by some form of administration. And I read this, and I thought, are you are you freaking kidding me? No. That's not gonna help. Yeah.
+
+Have you ever tried to overturn a parking ticket? Also, like, why should the DMV be telling me what model I can use or not? Quite funny. It'd be totally crazy. It's like, why should we have, like, the strongest American scientists in all these private companies that we should incentivize to build great safeguards and, you know, maybe create some rules for them that x y z can't happen or that they're liable for huge amounts of money if, like, corporate data gets leaked and all that stuffs to I mean, incentivize the capitalist system to do what it does well.
+
+But the idea that we should have a central government body that tells us when it's time to release a new product versus not is crazy to me. Totally. Does that have to be a neutral, non company, non government body that does regulatory role? I think if it's not a company, it's gonna be tough. I understand the need for something neutral, but you wanna let the incentive system work itself out.
+
+So I would say that, like, we we should create strong safety incentives for American businesses and then regulate businesses based on the outcomes. Basically, for example, if like OpenAI is like letting their AI break into Hugging Face or whatever, they should get like huge fines and huge scrutiny and all that stuff, as opposed to having the gov a government process that's in charge of ensuring that this doesn't happen again, which they won't be able to do that. They're not technically capable. Do you think we're about to see a generation of, like, cyber leaks and hacks like we've never seen before. Oh, for sure.
+
+Oh, for sure. It's gonna be so insane. Can I cuss on this show? Yeah. This is gonna be so fucking insane what happens with, like, the cyber attacks.
+
+Because here's what here's what we see at Arena. We see another dude on the other side of the interview. They come in. They're like, hey. I wanna be an infrastructure engineer at Arena, which is a great job that we're hiring for.
+
+But then the other side of it is some guy looks perfectly normal. They're passing all of our technical interviews. They're like such an amazing blah blah blah. And then what happens at the end of it? You try to hire them and it's vaporware.
+
+Person doesn't fucking exist. I'm not kidding. I am not kidding you. I don't know whether this is corporate espionage or cyber attacks or nation states, but people are trying to get into all of the American businesses. And we're not the only ones.
+
+This is happening everywhere. Fake people applying to companies. I'm sorry. So you're putting out a job. People are applying, doing the tests that you set, passing them, and then when it comes to the materiality of that person being real or not, gone.
+
+Yeah. Fake person. And it's not just that we're giving them a test. They're sitting in front of people at our company. People, our engineers who are top world class engineers are interviewing this person and think that they're real.
+
+Why? Can you just help me understand what what is the benefit? They they learn how you interview and hire people? I mean, the CCP are bad, but I don't think they wanna steal your hiring technique. No.
+
+That's not why they do it. Why would they do it? And I'm not saying it's the CCP. It could be anybody. It could be another company.
+
+It could be a nation state attacker. It could be somebody a cyber hacker. Why? Because they might want access to our data or code. They might want to get double paid.
+
+You know, like this story with this I don't remember what that dude was. You know what I'm talking about? That went very viral, like, a year ago. Yeah. That one, like, kid that got, like, four different jobs, and then he went on, like, all the podcasts talking about it's another instance of that guy.
+
+These could all be possible options, except that this person wasn't real. It was AI. Does that worry you? Yeah. Bro, it totally fucking worries me.
+
+We're gonna change our whole hiring process because of this kind of stuff. So how do you change it? Well, at first, you need to verify the person is real. So all of our onboarding we're considering at least making all of our onboarding in person because of this. If you want a laptop, you gotta come to the office.
+
+We gotta go and shake your hand. We gotta verify that you're real. You know, all that kind of stuff. Absolutely. And other companies have done this too.
+
+Figma famously has done this. How hard is it to hire today in the Valley? Oh my god, it's so crazy. It is, of course, a very, very competitive market. The way that you see that is in terms of compensation.
+
+In order to retain fantastic people, we need to pay absolute top dollar, and we do, in order to make sure that we have the best engineers and scientists in the world. And so imagine that you're a company that's not an arena, that's like, you know, a YC company that raised a $10,000,000 seat. It's like, fuck, man. How the hell are you supposed to hire? I think it's really tough.
+
+When you say top dollar, I had Brandon from McCorm on the show, he's like, oh my god. Top researchers will pay tens of millions of dollars. Oh, yeah. I'm nervous by how nonchalant you were with that. Oh, yeah.
+
+If you're talking about a really top researcher, we're talking with somebody with many years of experience and who's really a super deep expert in their area, many tens of thousands citation type researcher. And yeah, for those types of people, they're expensive. Have they all just concentrated at the frontier labs? Many have. Many have.
+
+But there's also some people who are seeing those Frontier Labs as big companies now. And they're saying, here, I can't have a huge impact. I need to move. And so that's another demographic, actually. I think that's gonna become even more extreme when when the companies go public.
+
+Can you help me? We talked about Dumb as Rocks and doing this show. I'm also an ambassador for my sins, and I meet so many of these people leaving OpenAI, Anthropic, you name it, and they all kind of seem the same, if I'm totally honest. Smart people out of great company. What will determine the NeoLab spinouts that succeed versus FlameOut with a huge amount of cash going in?
+
+Yeah, I think that the NeoLab thing is really tough. So just so that we're on the same page with the audience, there's at least 75 NEO WAPs. And for sure, like, two thirds of those are gonna be worth nothing, or, like, they're gonna be bought out for parts. Right? It's gonna be like an acquihire.
+
+And so what is gonna determine the winners versus the losers in that game? And I think it's all about being very aggressive towards a great strategy and business model. Because what's happened, and you know this better than I as an investor, is that the markets have become very P and L driven. It's like not enough just to, like, create a model and then have a party about it. Hey.
+
+We created an AI. That is like old fucking news. Today, it's about not just gonna create a model, but do I have a sustainable business model around that, and can I generate hyper growth in revenue? And if you're not able to do that, you're not even gonna be able to raise your next round. People are raising multibillion dollar rounds on top of just the names that are in the Neolab with zero proof that there's any revenue generating model behind that.
+
+And so then the question you have to ask is, let's say I'm one of those people, let's say a $10,000,000,000 Neolab valuation. What do I have to believe in order to 10 x my money? And the thing that you really need to believe is that if the valuation's 10,000,000,000 today, that you're going to generate the revenue. Let's say it's a 30 x revenue multiple or 25 x revenue multiple to become a $100,000,000,000 business. And so what that means is you need to be generating at least $4,000,000,000 in revenue over the next k years, where k is something like two or three.
+
+And then if you're not doing that, everybody's gonna hemorrhage out of the business. You're gonna lose all your talent. You know? And that's that's kinda what we see the dynamics being. I get you.
+
+I think there's nuance to that candidly, which is like if the company does annual tenders, you see the likes of a mister Al, which will be valued. I think it's at 15 to 20,000,000,000 with, 500,000,000 in revenue. And so employees can take liquidity out along the way. I think Eleven Labs is at 800,000,000 in revenue, raising it 22,000,000,000 reported. But these companies are doing great in terms of revenue.
+
+And their valuations, but they didn't those are not zero revenue valuations. I'm talking about there's some valuations that are zero revenue valuations. $3,000,000,000 company with zero dollars in revenue and no plan. That, I mean, like, I think Mistral's gonna do great. I think Elevenlabs Elevenlabs is gonna be a public company, dude.
+
+But, dude, they're not idiots doing it. So is it like is it this? Amazing team from Great Lab, worst comes to worst, we sell for PrevStack, which is 500,000,000. What like, I'm not saying whatever, whatever, but 500,000,000. And best case, it works and it's a multi $100,000,000,000 company.
+
+I think that's a lot of the calculations. I've heard multiple people actually say this, is that, hey, you know, worst case and and that's what investors are thinking too. Right? Investors are thinking like, hey. Let's say we put a couple $100,000,000 into this thing.
+
+What's the value of the team? Well, we think that just the team loan could be acquired for a billion dollars. And so the 200,000,000 that I'm looking at is like pretty safe. Zero risk investment. Might as well put it in.
+
+But that's also the reason why the next round is the harder round. Next round's a bitch. Next round's a bitch. It sounded cooler when you said it. No.
+
+It's fine. We gotta say it at the same time. Next round's a bitch. That'll be like our tagline. I bet you weren't expecting this interview, I don't know.
+
+Maybe I hope you were. No. Honestly, this is so much more fun than I thought it was gonna be. It was good. Okay.
+
+Can I ask you another market that I try and get my head around? It's the data market. I'm an investor in McCall. I always think it's, like, good to put out your biases. There's so many providers at a billion dollars plus in revenue.
+
+Handshake's over 1,000,000,000. McCall's over 1,000,000,000. Serge's over 1,000,000,000. I might be leaving out other people, but those are ones I know of. And then hundreds of millions with the rest.
+
+What happens to this layer of the market? Well, people are projecting growth in this market. So let's talk about why that market is a growing market and why it's hyper growth. I mean, Mercur obviously is a generational revenue ramp company. They've been doing great.
+
+So is Handshake. So is Search. So is Scale. All these companies doing great. People forget Scale.
+
+The Scale is still ramping revenue well. Bro, scale is still crushing. Still crushing even post fractional acquihire. They are. How much of that revenue is Facebook?
+
+No. I have no idea. Yeah. A lot. Go ask Alice Wang.
+
+But okay. So what so why is it interesting? So I have a thesis on hypergrowth. There's two types of hypergrowth markets that we see today. Market A is what I call scaling complements, and these are goods that are complementary goods to the scaling of AI models.
+
+And I mean that in the economic sense. A complementary good is a good A is a complement to good B if the demand for good B drives demand for good A. So if I have a car, gas is a complementary good to cars. The more cars are sold, the more gas is sold. And so data is one of these scaling compliments, because the bigger models scale, the more data you need, and that's a scaling law question.
+
+The more models you get, and the bigger that they're getting, the more they're proliferating. The more businesses are training their own models, the more data you are going to need. It's a very fundamental need. People forget this. They think about data as a commodity, it's really not.
+
+It's actually less so of a commodity than even GPUs, because in order for data to become irrelevant, humans need to become irrelevant. That means that we've achieved AGI. Data is a very durable need, and companies are spending on it, usually within Frontier Labs, at about 10 to 20% about the amount that they're spending on GPUs. If you believe in the GPU market accelerating, if you believe in the scaling of models, if you believe this is gonna be a big industry that keeps accelerating and growing, then absolutely you should believe in the data market. I believe it's gonna be at least a $100,000,000,000 by 2030, if not a trillion.
+
+If we expand that, if we think Anthropic and OpenAI can be 3 to $5,000,000,000,000 companies, how big does that mean the data providers can be? Like, you know, McCall's reportedly raising now at 20. Does that mean that these providers will be worth a $100,000,000,000? That wouldn't be egregious, would it, to say it's 3% of the market cap of think I it could easily be a 100. I think these companies will easily be worth hundreds of billions of dollars.
+
+And I think they could even be worth more. The data is really the hardest part of model training because you need to source it. It's so dirty. Nobody wants to do that shit. Nobody wants to hire all these people to generate data and then turn that into basically data plus GPUs equals model.
+
+And then the algorithms have become somewhat of a commodity because people know how to use the transformer. That's why, as you said, all the people that are coming out of Frontier Labs look the same. Everyone shits on these data providers for the same reason. They go, oh, but the revenue concentration is just OpenAI, Anthropic, Meta, a couple of other providers. Is that a fair criticism, or actually does that not denigrate from the ultimate enterprise value of these data providers?
+
+Yeah. So I have two answers to this. The first is that I think that Silicon Valley investors have become total bitches with respect to revenue concentration. It's like, what the what are you talking about? Like, TSMC has revenue concentration.
+
+There's businesses that are like many hundreds of billion dollar public market businesses that have revenue concentration. So I don't know what we're talking about here. There's businesses that are like two customer businesses. There's businesses that are selling to the government that have there's like one of those. They're making like huge, huge amounts of money, like an Andoril.
+
+Hugely revenue concentrated businesses, and those businesses are doing great. Are you suggesting that venture investors have the propensity to be lazy? I would never say that. I was about to say real. I pretty should never go that far.
+
+I I can let you know. It's incredibly tiring sending you an email. Did you know that this competitor has just released a product? Thank you. Send from Portofino.
+
+That's my one, is I think that we need to, like, have some venture investors that suck it up and put some salt on their martini glass. If you knew Ventura in 2026, dude, you'd know that we wear a whoop and we don't drink martinis because it impacts our sleep score, but okay. Okay. Yeah, totally. Eight sleep and all that stuff.
+
+Exactly. So that's one. We've become totally wusses around revenue concentration. We should embrace it. It's okay.
+
+And the second thing, I think that a lot of data businesses are going to expand into enterprises. Of course, we plan on doing this as an evaluation business, is going to enterprises and helping them with building their own AI models and all this routing stuff because we have the intelligence layer behind it that we've built on Arena. So this is obviously a place that we're going to, but many data businesses will go here as well. And the idea is that in a world where every business needs its own AI model, why shouldn't every business need its own data? Of course, they will, and the data will be part of the moat that their business accrues.
+
+So that's on, like, the data side. When we think about, like, on the agent side, Anjane, you said I had to ask you, how does your business change as we think about the transition to full trust with agents? Yeah, so agents is the number one priority for Arena and has been all year. People don't know this, but Arena is one of the largest consumer AI apps in the world. We're bigger than, like, x AI.
+
+We're bigger than Hugging Face and Manus and Genspark, where it's so massive. Like, outside in, it's like 30 plus million monthly visitors are on Arena. And most of them are knowledge workers and prosumers, people that we call unhirable experts, people that are coming to Arena to do their real daily tasks. In doing so, they are giving feedback that allows us to build the evaluations that we share with the world. It's this organic flywheel for agentic evaluations based on real data.
+
+Why didn't you build a data business? Well, built an evaluation business around this that allows people to understand the strengths and weaknesses of models and therefore improve them. The labs can improve their models based on the insights and data that we give them. But we also want to help businesses with this. Do you think the evaluation business is better than the data business?
+
+I think every business in the world is going to need evaluation unambiguously, and that is the single biggest bottleneck to deploying AI. Because people understand how to define value. All this stuff around cost per value. It's like, how do you define value? It's easy to cut costs.
+
+I can tell you to go use Gemini Flash, and that's gonna be, like, way more efficient in terms of token spend. Isn't value entirely subjective? For one, it's speed, and for other, it's accuracy. For one do do know what I mean? Right.
+
+Absolutely. So you can try to decompose it. I think about it as three pronged value proposition. There's performance, and then there's cost and latency. Cost and latency are easier to define, but performance is the tough one, because the definition of performance depends on the business, depends on the use case.
+
+So at Arena, we built this pretty sophisticated pipeline for extracting organic performance measurements from agentic traces, and that's exactly where I would say that the value lies. Helping businesses take advantage of their own data instead of having to purchase data in order to say which AI works best for them, even help them train their own. What sort of revenue range are you at now? So we're past $100,000,000 in annualized revenue run rate, and that's based on Q2 times four. And we're growing really, really fast on that front.
+
+Dick, question then. How efficient are you at monetization if you have 30,000,000 amazing users who are unbelievably valuable in many respects, and you're only doing 100,000,000? You're asking about margins. Yeah, and speed of ramp, that good? I I think obviously we're not a free cash flow positive business yet.
+
+We're still investing all the money that we get into making sure that we continue our rapid growth, and we have a great product for all of our users and so on. But the the fundamentals of the business are pretty strong. We feel great. Our investors feel great about our margins. Yeah.
+
+I'm sure they do. I I would love to have been an investor. I really feel like you exclude it. You know what? I could be Greek for you for this deal.
+
+Really? Yeah. Yeah. I can I'm a venture investor. We can be very plastic.
+
+I want some Kalimera. Kalimera. Kalimera humus. Yes. Kumos and pita.
+
+See? See? This is We are already Greeks together. Okay? I knew that this would be a productive session.
+
+Yes. Are investors over rotating on margin also? I don't know. I actually think margins are pretty important. We're seeing a load of businesses like your fireworks of the world, where they're at the 30% style mid thirties margin base, and that's very different to software margins that were 65 to 80.
+
+Yeah. I mean, listen, profit is just like margin times volume. And so you have to look at that as the calculation for the business. It's not like super, super crazy. And so I don't think it's crazy to invest in these businesses.
+
+The bigger problem with businesses that I see these days is that a lot of them are fundamentally GMV business, where there's like some reselling happening. I'm reselling tokens. I'm reselling GPUs, and stuff like that. And those businesses are tough, because at the end of the day, you have to really think about not just the margin that you're charging in the sort of short to medium term, but the terminal value of the good that you're providing to your customer. And so if the terminal value of the good is, I'm going to host GPUs for you in order to run your models, then why should I pay you more than the cost of the electricity that it takes to run those GPUs?
+
+So the sort of price to value thing is where I think you start getting into questions. That's why I think a margin question is very important. And I'm not saying the margin in the short term, a series C to A, B company might not have the best margins in the world. But you should be thinking about, as this business scales towards a public company, is it going to have a fantastic margin structure that supports a public business? One thing that's challenging is when your customer becomes your competitor.
+
+To what extent do you think we will see the model providers move into the application layer aggressively? We see Claude Design has actually really started to eat away at Figma. And I'm an investor in Lagore. Again, always hope people are like, oh, don't worry about Harvey. Not in any disrespectful way to Harvey, then disclaimers and everything in between.
+
+Everyone's at Anthropic are gonna do a legal product that's gonna kill Harvey and Lagore. Totally. Yeah. I mean, listen, ask every business in America how they feel about this. Everybody's shaking in their boots.
+
+I have friends that are running businesses, multibillion dollar businesses. And then what happens is that the next day, one of their biggest customers comes in and says, hey, listen. OpenAI is getting into this game. We wanna work with them. We wanna work with them because they're more AI forward and you're less AI forward because you're, you know, traditionally a SaaS business, so goodbye.
+
+Yeah. It's happening. It's absolutely happening. I And think businesses should take it really seriously, and this feeds right into this AI sovereignty sort of debate. Because a lot of what they're doing is, if I'm open and I'm on Thropic, I'm looking at who are my biggest customers?
+
+Who are my customers that are winning the most in the enterprise? AI is gonna commoditize. Right? If, like, inference is gonna commoditize, then, of course, the next best thing is for the model providers to be moving up the application layer in order to mow or more of the application stack so that they ensure that they're not commoditized and they're getting close to the value they provide to the end customer. So I absolutely think it's a risk.
+
+I think it's a risk for Legora. I think it's a risk for Harvey. That's why Harvey is also I mean, the CEO of Harvey himself is saying, you know, his biggest competitive worry is the model apps. But then how do you that's a complete paradox to what we just said at the beginning about companies being scared to work with the frontier models, isn't it? No.
+
+I mean, they're scared to work with them. That's what I was saying. They're scared to work with them and they're embracing them at the same time? Ah, you mean the the customers of the the harvest and the friends running multibillion dollar companies are like, oh, we wanna work with OpenAI. I thought we just said they're scared to work with them.
+
+It's a good question. I think you see both in the market. I mean, it depends on who's most automated. So I think it depends actually on their GTM. If you are doing Anthropic Design or Claude Design, dude, designers can pick up a tool and use it very efficiently.
+
+If you're Ligure or Harvey, dude, you've gotta go into Cooley or Clifford Chance or any of the build relationships with 50 year old white male partners who wanna play golf and be told that they're great and that life is awesome. And then you gotta do deployment to junior lawyers who don't wanna fucking use you because they think you're gonna take their jobs too. The deployment in the GTM is the heavy lifting, and that's real world. Totally. And there's also businesses that are less software focused and more network effect focused or more operations focused.
+
+And I think those businesses are also more likely to be adopters of the big labs, let's say system integrator like an Infosys. I think more likely to be an adopter of a big lab because labs really, I think, less likely to be competitive with an Infosys than they are to be with some sort of a scalable software product like insurance claims automation or, let's say, I think the the Harvey model, like legal chatbot. That's tough because I think a model app can build that. Do you think Salesforce will thrive in the next few years or be challenged? You know, Salesforce themselves have a pretty strong AI strategy.
+
+So I I think that those people are basically, like, ready to go and and fight in this race. I doubt that they're gonna, like, go downhill. I think that the SaaSpocalypse has been a little bit overstated overall, because people don't understand always the dynamics of those businesses and how tough it is to replicate what they've built, also from a network perspective and a data perspective. So we'll see. We'll see.
+
+I get you. I think if you're a ServiceNow, Salesforce, incredibly difficult, incredibly hard. I think if you're a I love him, and I I interviewed him, but, like, a Wix, less difficult, less integrated, less sticky, tougher. It's all about entrenchment within enterprise. If so, golden.
+
+If not, be more nervous. Totally. Right. I'm gonna do a quick fire round with you. I'm gonna say a statement.
+
+You're gonna give me your immediate thoughts. Sound good? Yes, sir. What have you changed your mind on in the last twelve months? Open source model leadership.
+
+Unpack that? Yeah. Just that I think open source models are moving much faster than I initially thought. I think also Anthropic is moving much faster than initially thought. The space is moving so fast.
+
+What do you know now that you wish you'd known when you started Arena? Man, I mean, managing people. Managing people is just the most important part of running a company. The technical stuff, you know, I did my whole PhD on it. I spent, like, my whole PhD proving theorems in a basement, which I loved, by the way.
+
+It was, a great time. And now it's all about strategy people and forecasting the future, being able to like look six months, a year, or two years in advance, and then try to plan for that. Those are so, so important skills. Does it make sense for great, talented young people to still go to university? I think it's ever more important for people to have a strong mind, and the university can be a place to develop a strong mind in terms of strong first principles thinking, and also getting to know other people and network with them.
+
+I think that university is still a good place to go if you want to have an intellectual life, meaning where the intellectual work that you do is the primary driver of your professional career. What did you do with Arena that with the benefit of hindsight you wish you hadn't done? Oh man, I had so many mistakes. I mean, at the beginning, I had no idea what I was doing. My co founder Jan probably knew and could see behind the corners, but I was probably too stubborn to listen to him.
+
+So first of all, I've learned to listen to Jan more. But second, so many experiments at the beginning that I just shouldn't have wasted time with. I think the degree of focus that you need to run a company is just so extreme. You really need to do one, maybe two things extraordinarily well, and focus very, very deeply on them, pick the right ones, and focus on what's working, not on expanding into things that are not working. That is a great lesson for me.
+
+This this is why I also like, I agree with you, Ligure and Harvey. Like, when it's not the main course for Anthropic to do legal, I just think you've got a really hard business when it's someone else's, like, appetizer, and it's the only thing you live and breathe. Totally. It's like priority number 12 for Anthropic is probably not high enough for Harvey and LaGorda to be too scared. I'm also like, Dario, will you please just fucking solve cancer and, like, climate change?
+
+Leave a shareholder agreement to someone else. I'm being serious. Like You know what, though? Solving cancer's hard. It's harder than legal.
+
+A 100%. That's why Dario should solve it. Well, that's why he doesn't want it, man. He just wants to take your bread. It's easier.
+
+Oh, come on, Dario. Come on. Come on, dude. Leave some bread for the rest of us. So which company will be first to $10,000,000,000,000?
+
+NVIDIA, OpenAI, or Anthropic? I think it's hard to say not NVIDIA. I think NVIDIA is probably in the lead there. Why have NVIDIA not bounced on the rise of Open? I'm an NVIDIA holder, and I'm seeing flat.
+
+Why? Well, I think market probably hasn't priced it in yet. We'll see how good these models get. But I think the enterprise adoption of AI is going to be another 10xer for the industry, and I think it'll 10x NVIDIA very reliably. Do you worry about the compute debt cycle and the levels of debt being taken out to fund the compute build out?
+
+I do worry about that. And I think that the reason to be worried is because if the open source ecosystem somehow makes the cost saving opportunity for businesses much more salient and therefore decreases the revenue of companies like OpenAI and Anthropic within the enterprise, that it could lead to insolvency. I think that is the big secular trend that I would worry about if I were an investor in such markets. My worry is we've never had such reliance on two companies to continue to hit their targets. If OpenAI and Anthropic do not continue in the strategy that they are, the music in the party goes off.
+
+And if the music goes off for everyone in the fireworks lair, no party. The rooting lair, no party. Everyone suddenly just gets the win knocked out of them by two companies' Totally. Yeah. I think that it's a it's a really big deal.
+
+You know, I think that we could use a little bit of sobering up within our industry anyway. I think that there's a lot of hype. I think that there's too much crap happening for my taste, and I would prefer a little bit of consolidation actually, so we see what shakes out. I think Arena will shake out as a winner in our category, and I would love to see some of the great people that are at other businesses in our area consolidate to Arena, be able to hire them in. Where is the industry underhyped?
+
+Where is it overhyped? Well, it's interesting. I mean, I feel like everything is so hyped right now. I feel like the the the mechanical infrastructure for compute and data centers is relatively underhyped. Like, the actual cooling systems and the actual, like, steel infrastructure.
+
+Do you know what I mean? Like, the the real physical is still underhyped. Interesting. Yeah. You probably know more than me.
+
+You're in touch with the investing markets. So I mean, like, I know that people are super hyped up about all of the high bandwidth memory and the GPUs and all that stuff. That stuff is super ultra hype. Right? I mean, for on basically, in all stages, from public market companies to to early stage.
+
+South Korea have fucking caused called a national convene, like, community meeting today because their stock markets are down 40%. Oh my god. A national meeting because stock market 40%? Why are they down 40%? If you're a public markets investor in in South Korea, you're you're you're coming home a little bit stressed today.
+
+No. That's not good for them. Yeah. Let's all pray for the let's pray for the South Koreans. The the thing I am slightly amused by is right after everyone at SK Hynix and Samsung took home, like, mega bonuses, then the market crashed.
+
+So why did it crash like that? What's the deal? Honestly, I think it's just a realization that, you know, everything was pretty overinflated, and markets can't keep ripping for so long because there's no there's no destabilizing factor within open or closed that suggest demand is being questioned. So Wow. Okay.
+
+That's why we should have a hedge fund manager on. We could do a new show hosted by Anastasios and Harry. Yes. Absolutely. Good two dumb rocks.
+
+Let's do it, and we bring exclusively us and hedge fund managers. I think it's a fucking great idea. I actually I actually do too. Guest one is Anjani Midha. Anjani, will you help Two Dumb Rocks?
+
+He's like, why did why did I fucking put this together? This is not No. Odds would be the best guess. What's the most underrated NeoLab other than periodic that people aren't talking about? Oh, underrated NeoLab.
+
+Yeah. I don't I don't know if I have one. I think a lot of them are overrated. I think Black Forest Labs is pretty underrated. BFL is great.
+
+Would you consider them a Neil Lab? Oh, don't get technical with me on semantics. Yeah. I don't know. Yeah.
+
+BFL is awesome. Yeah. I agree. Final one for you. What are you most excited about?
+
+My mom's got MS. I'm fucking excited that chronic conditions like MS could maybe be treated. What are you excited about over the next five to ten years? Yeah, I mean, I've always been a big proponent of AI in medicine too. I think that the level of human flourishing that's going to happen as we start to one by one eradicate diseases the same way that we're currently eradicating open problems in math is going to be incredible.
+
+I think it's going to be tough because the thing is that math is a closed system and medicine, I think you'll need to figure out ways of quickly iterating in a feedback loop on biological systems. So that's the missing piece. But once we crack that, it's going be just an extraordinary journey. So funny, when I interviewed Dennis and I spoke about bio and medicine, it was an area where you could see his eyes light up. But it was an area where I said, Hey, testing needs to change.
+
+Fifteen years, no bueno for a lot of sufferers of chronic conditions. Yeah, and you know what's missing? That is exactly the data layer. That's exactly one of the areas where the data layer where you can clearly see that the data layer is where value is gonna accrue. Because the GPUs are the same GPUs in both cases.
+
+The problem is that that data infrastructure, the flywheel, the data collection that you need in order to build a great biology product or a medicine product, that's tough to build. Dude, you've been a fucking epic guest. Really. Like, I'm so grateful. It's been an amazing show.
+
+Real honesty and authenticity. Most people suck as guests. You know why? Because they're not authentic, and it just comes across. You for being so great.
+
+I appreciate it. No. Thank you for having me on. Would love to do it again at some point, and you should visit the Arena office anytime that you're in the Bay Area. But before we leave you today, founders face a different set of challenges at every stage of growth.
+
+For Sid Shait, cofounder and CEO of dMATRICE, JPMorgan delivered the guidance and expertise to help navigate what came next. He credits JPMorgan's high touch approach with supporting dMatrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits. JPMorgan is the bank of the innovation economy.
+
+While JPMorgan powers your finances, Base forty four helps you build faster. You have the idea, but with most AI tools, you hit a wall. The setup, the config, the gap between what you pictured and what you actually ship. Well, Base forty four is where that wall disappears. You describe it?
+
+Yeah. Base forty four builds it. Apps, websites, AI agents, real working products, built in minutes using nothing but plain language. And it's all batteries included. The back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow.
+
+This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone. So in this market, fast is the baseline. To win, you just have to be first. Base 44 is that edge. The move that skips the troubleshooting and gets you straight to the breakthrough.
+
+Build your next thing at base44.com. That's base44.com.
