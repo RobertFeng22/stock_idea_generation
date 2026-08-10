@@ -1,0 +1,411 @@
+Colin Zima (00:00:00) :
+I'd probably done a hundred demos and we had five unaffiliated customers that were talking to us that we really thought were going to buy the product. They all verbally committed to us and we thought we were in paperwork. We were going to sign all of them and we end up losing all five deals. I think it's hard to reinvent yourself. The innovator's dilemma is a real problem. Take Looker for example, we did a lot of things really well. We did a lot of things not well, like we were really good at enterprise BI. We were really inflexible. It's really hard to take your core foundational thesis and compromise it at the margin to do these other things well. And so, it leaves space for other people on the other side. If I'm saying, I bet that I can either reduce your cost or make you guys smarter and give you a better product, and make it really easy for you. That's a pretty easy message. People like free money and they like having their job done for them. Be thoughtful about where you're spending your time and what you're doing. The company only gets more valuable every day based on what you do and so if you reflect on a day. Think about whether you made the company more valuable or not, and if you didn't. Think about what you should have done to make the company more valuable.
+
+Previous Guests (00:01:06) :
+That's Product Market Fit. Product Market Fit. Product Market Fit. I called it the Product Market Fit question. Product Market Fit. Product Market Fit. Product Market Fit. Product Market Fit. I mean, the name of the show is Product Market Fit.
+
+Pablo Srugo (00:01:19) :
+Do you think the Product Market Fit Show, has product market fit? Because if you do, then there's something you just have to do. You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests, thank you. Colin, welcome to the show, man.
+
+Colin Zima (00:01:36) :
+Yeah, thanks for having me.
+
+Pablo Srugo (00:01:37) :
+Excited to have you here, man. I mean, you've built a pretty solid business, raised over $250 million. Last round was just a few months ago, and we're going to hear all about what Omni actually is, what it does, how you made it all happen. But we start not where it all begins, but where this show begins. Which is with the product market fit moment. So when did you feel like you'd found true product market fit?
+
+Colin Zima (00:01:58) :
+The quick backstory on the company is we're about four and a half years old, and I've spent a lot of my life in BI. I had spent eight years at a company called Looker that got acquired by Google and so when we launched the company, we actually had a bunch of really talented people that had spent a long time at Looker. And I honestly thought that we would have traction in like a month. We'd tool around a little bit, we'd get people on the product, they'd be like, this is amazing. It probably took us like nine months until we had our first user in the product and it was actually a product manager that I had worked with at Looker, and she had started a company. And I just convinced her to start using the product every day. But it was one and two daily active users for three or four months at that point, and us internally using the product. And about the one year anniversary, we finally. I'd probably done, I don't know, a hundred demos and we had five unaffiliated customers that were talking to us that we really thought were going to buy the product. They'd all verbally committed to us. So for people that are doing sort of normal outbound sales cycle, we had the tech win and we thought we were in paperwork. We were going to sign all of them and we ended up losing all five deals. And the feedback we got was like, company's too young, product's not quite there but it's close, stuff like that. I showed it to my end user, they didn't love it.
+
+Pablo Srugo (00:03:09) :
+What kind of ACVs were these, by the way? Just to know the stakes?
+
+Colin Zima (00:03:12) :
+So now we're maybe 45k, at that point. We were just trying to get 15k, and the idea was as low as possible where we could still justify a sales driven motion. But we needed to convince you that it was worth some money or it wouldn't be worth anything and so we went back, and we actually just worked on the product for two months. And we said, let's get rid of every bug that we could possibly find. So rather than an error every two minutes, you'd have an error once a day or something like that and then I actually went on another podcast with Sam Blond talking about the business, things like that. We ended up with like three or four trials out of that podcast and all completely unaffiliated. And we won all four of those trials. And that was the moment that we realized that we had something interesting. There were people that we didn't know, they paid, you know, full-ish price, 15k, 20k, whatever it was, and they actually liked the product. And it was at that moment we sort of realized that finally we've built enough. And we can sort of create some repeatability, and then you get your first good customer. The first person that's using the product and finding things that you hadn't thought about, and just sort of discovering new ways of using it. That was when the flywheel really started happening and that was all over the span of maybe four weeks.
+
+Pablo Srugo (00:04:25) :
+So I have some questions, some follow-ups but maybe this is a good moment for you to tell us a little bit. What does Omni do? Because that's going to help set the context for this.
+
+Colin Zima (00:04:32) :
+So, I mean, we were founded February 22. So a little bit before ChatGPT, but the product's vision was always pretty straightforward. It was, let's build a BI platform that can do everything. Write SQL, use Excel, do pivot tables, and also enterprise BI, and embedded all in one platform. And in 2026, it's become, you know, ninety percent AI. But the idea was always a product that could compete with Tableau and Power BI, and Looker, and your SQL runner. And sort of do everything all in one place. And that was the product that we sort of pitched, and were selling from day one. It was, get rid of all of your other BI, we can do it all and it came from this place where I had worked with these very decentralized tools like Excel. And these really heavy enterprise tools like Looker. And it was always like, why isn't this one tool? Why can't this actually just work together? And that was the original vision for the product, and kind of what we slowly built over that year.
+
+Pablo Srugo (00:05:24) :
+But yeah, it's a funny space. It gets reinvented every, well, probably every ten years. But now I feel like it's every two or three years and then I don't even know what the future's gonna be with AI. But my question, as you were telling me the story, was oftentimes when you have the experience that you had. Which was a long time of doing demos, trying to sell, nobody really buying, and then five that finally you get all the way to the end. All pulling out, they'll tell you, oh, you're missing this feature, you don't have SOC 2, or in your case, you have too many bugs, whatever. And you wonder, is it that or is it just they don't really care? And the difference between what I'm offering, and what's there today is just. It's just not worth, the juice not worth the squeeze sort of thing and then you kind of got to move on to something else. You made the decision to double down on the product, just make the product better. It worked. What can you tell us about how you thought through that and why you felt like in this case, no, it really is just make the product better and they're going to buy?
+
+Colin Zima (00:06:16) : 
+Yeah, I mean, it's going to sound a little bit silly, but we were using the product every single day and we knew it was better. We knew it was buggy, but we also knew it was better and it's sort of, you know, your mom thinks that you're beautiful type thing. We could see through hitting a full page error and hitting the refresh button because everything else underneath it was so awesome. But it was really clear that an unaffiliated user could not. But there were still the bones of really good product. It's a space that we understand well and we know what good data analytics looks like. And I at the time was sort of working as the data team for one of our angel investors. He was our first customer. He was sort of like, I don't know if I need your product but I know that you can help me with our business. We set up his ETL, we set up his BI, and I was just answering questions for him on a daily basis. They would just ping me questions and I would use the tool and answer questions for them. And in doing that, I understood that we had something special. It was unique. It was interesting. It was doing things really well. It was also admittedly like too rough and not quite good enough. I think when you build product, you need a balance of things that differentiate you and you need to avoid things that differentiate you in a negative way. And what was obviously not clear to us at the time was that we had too many of those negatives that were overwhelming slightly the positives. But there were positives, and I think to make product, you have to do enough good stuff. We had felt convicted that we were doing those things and you got to be intellectually honest. Customers will lie to you and they'll say, hey this is great, this is wonderful, and then not pay you money. But you should know whether your product is actually differentiated or not, and if a customer is not going to pay you money. They're sort of showing you that it's not differentiated in an interesting enough way.
+
+Pablo Srugo (00:08:07) :
+This is where, you know, it really does matter where you start in the sense that you started with, like you said, industry. You knew a product that you knew and you used, you knew what best in class was, and obviously it's going to be biased, and all these things. But at the end of the day, your opinion on this is genuinely better than best in class, carries a lot of weight and can pull you through a lot of, let's say, not positive feedback from the market. But whether it's like no reaction or negative reaction after seeing it, and you know that they tell you things, and you can kind of measure what they say, and the feedback they give you against what you know reality is, and kind of make that all happen. And I always think, as a first time founder, you're often struggling to figure out what should you build, what idea, and oftentimes what you end up doing is you build for a market you know nothing about and you're trying to learn as fast as possible and it can't work. It genuinely can't work. There are examples where it works, but you do face this problem, which is if you don't hit it in the first one or two versions. Then you can end up in V10 and you just don't know why you're there, how you got there, and whether what you're hearing is genuine or kind of just people trying to be nice to you.
+
+Colin Zima (00:09:09) :
+I think that's exactly right. I think the other thing I would add is we were doing a lot of demos the whole time. Like a lot, a lot of demos. I literally had a spreadsheet with a hundred names in it of people that I had demoed and while they weren't all buying the product. And, look, a lot of them were volunteering, like, you're too young, I'm not going to buy your product. You can still see when people light up and when they find things interesting. If you have enough of those moments and those things are unique to your product, it can't just be like that screen is beautiful. It needs to be like, wow, that's a workflow I haven't thought about. That is interesting. You can see those bits and those can be enough to go build on. You have to find those moments of differentiation because if you're in a competitive space and you're not significantly differentiated, and you're not better at selling or whatever, like differentiation into the market. You're gonna have trouble with pricing power and actually selling your product. We couldn't just build a tool that charts. Charting's not that hard. You've got to find these moments where I could do a two minute demo to a Fortune 500 CIO, and they could be like, wow, that thing is actually interesting. That doesn't mean they're going to give me money, and it doesn't mean that we've found success yet, but it does mean that they saw a grain of a problem that we have solved in a unique way that you can then wrap the rest of the company around. And I felt like, in using the product, we were starting to see that and experience that.
+
+Pablo Srugo (00:10:29) :
+So let's go back to the beginning now that we found that moment where the inflection point started. You're a VP, you're at Looker for almost eight years, you're a VP product there. You touched on it a little bit, but let's go deeper on it. How do you make the decision to leave and start Omni?
+
+Colin Zima (00:10:43) :
+Mine was almost forced in some sense in that, I had started a company before. Actually with one of my co founders here. I hated it the first time. I started a company, I sort of jokingly say that our product was like Jamie and Colin start a company. Which no one needs, and we flailed around for a little bit. We ended up selling the company. I told people I would never do it again for ten years.
+
+Pablo Srugo (00:10:43) :
+What did you hate so much about it?
+
+Colin Zima (00:10:43) :
+I just felt like we didn't have an important idea that we needed solving. We wanted to start a company, we didn't want to solve a problem. 
+
+Pablo Srugo (00:11:08) :
+Sure. 
+
+Colin Zima (00:11:09) :
+And the world doesn't need me to start a company. The world needs me to either solve their problem and give me money or they don't need me. 
+
+Pablo Srugo (00:11:16) :
+Most of the stories don't end well. Fortunately, you actually end up getting acquired. 
+
+Colin Zima (00:11:20) :
+I mean, acquired, yeah, we sold ourselves, essentially. But Looker got acquired by Google, and it was a great acquisition. It was like $2.7 billion or whatever it was. I had to stick around for two years as part of that and the product was not getting cared for, the customer base was not getting cared for. And kind of over those two years by sitting there. I sort of had enough time to build up the courage to say, hey, I think we have to go do this. I think there's space. We have enough ideas. It's time to go do this and I think if I wasn't sitting around there for a couple of years. I probably wouldn't have tried to go build something different. We had actually tried to build something similar to Omni inside Looker, classic kind of innovator's dilemma. It's hard to rebuild your own product type stuff, but it felt like there was enough of an idea that we could have space to go try to do it if we could find a team to do it with.
+
+Pablo Srugo (00:12:13) :
+It's funny, these spaces, I think of Zoom coming out of Webex, and I think of, in FP&A it happens all the time. Where there's the next gen, every five-ten years there's the next gen. And a lot of times it's people who came from the old thing, they're like, this is all that's wrong with it, let's build the better version. The same BI is a classic example of that. I almost wonder, from the outside, how does that work? Why does that work? So, you know, do you think these guys would figure it out and do it?
+
+Colin Zima (00:12:40) :
+I think it's hard to reinvent yourself. The innovator's dilemma is a real problem. Take Looker for example. We did a lot of things really well. We did a lot of things not well. We were really good at enterprise BI. We were really inflexible and it's really hard to take your core foundational thesis. We are great enterprise BI and data modeling, and compromise it at the margin to do these other things well. And so it leaves space for other people on the other side. And that's why you get this whipsaw back and forth in these different markets. Like Zoom Webex is a great example. They probably needed to delete their whole tech stack and start over again. Because the platforms had changed, because the market had changed in a significant enough way. It's really hard to do that, because you can't just wipe your customer base out. They all have these little features at the edge that they're using and it's really hard to be like, no, give it a little time and this whole thing will be better. And in some sense, deleting the whole tech stack, you have to go do that. And then it gives you space to rechallenge those assumptions, build things better. And I think that's what gives it space. Also, just teams get tired. I think people forget about the people side of this, which is like if you have a team that does something for ten years. You kind of do need to reshape it a little bit and inject different energy, and things like that.
+
+Pablo Srugo (00:13:55) :
+Reinventing is a lot of work. Not only is it hard and all these things playing against you, but you have to really want to go through that. All the pain, all the inevitable backlash, when your sales go down because you're not focused on going to market. If you're a hired CEO, it's like, why would you do that? You got to be a real killer to want to do that stuff.
+
+Colin Zima (00:14:10) :
+Exactly and if the business is going, like Looker was still growing a hundred percent a year when we got acquired. The business wasn't going poorly. If it wanted to do that five years from now, maybe it probably needed to do some different things or things like that. But in some sense just being told you have to restart gives you a sense of like, okay, I need to delete everything and start over. What's actually important, let's go do this again. But the context on the market matters so enormously. Like, we were able to get carried early by being the Looker guys that started the next BI tool and even if we hadn't built something good yet. People were curious and would go take a look at us.
+
+Pablo Srugo (00:14:45) :
+Right.
+
+Colin Zima (00:14:46) :
+We'd have an opportunity to have a conversation with them and you've got to find these windows of opportunity. Because we could have built the best product in the whole world as two or three completely unaffiliated founders, and maybe no one would have cared. But because we had just been successful gives people another look, also, I probably met with three or four thousand Looker customers and they trusted me as an individual. And that means that they can now have a conversation where I can say like, hey, come look at my thing. You know, I'm good. You know, you trust me, and great. Now I get an opportunity, at least for our product to go solve their problem.
+
+Pablo Srugo (00:15:21) :
+Yeah, that makes sense. I mean, obviously trust. The story overall, trust, credibility, all that stuff matters a lot. The other thing that matters, you know, at least classically in these situations is, is the product. Usually can build a product that's better at least in one dimension, but is it like 10x better, right? Is it way better, at least on some dimension? What did you see that you were able to, like what was the piece of what, I'm sure Looker did some things great and some things not so great as you mentioned. What were the pieces that you said, this is the thing that we're gonna be known for. This is the thing that we're gonna do so much better than Looker does?
+
+Colin Zima (00:15:51) :
+Yeah, the biggest one was data model. Looker was built on the data model. So this idea of build a semantic layer, it does everything. It was extremely rigid and so the idea was, can we let you do all of the normal things that you do in a BI environment, like write SQL and do things on the fly. But then turn it into semantic layer later? And so it was just an inversion of how you go do it. Like, do you have to model and then ask a question or can you ask a question and then model? And that's small, but for a data person that really matters. Because it lets you move more quickly and so it was just that sort of flip that unlocked our ability to do things.
+
+Pablo Srugo (00:16:28) :
+For people that are not like BI experts, how does that play out? What does that mean in a day to day situation?
+
+Colin Zima (00:16:33) :
+Yeah, so the way to think about it is sort of like do you build the foundation of the house before you build the house or do you just build the house and then figure out the foundation after? The big thing that we did was let you build the house and put the foundation in after. So you could walk into a tool, you could go do something that's a complete mess that you would throw away, and then after you do that thing. You could decide, I want to keep this thing for later and actually take good care of it. And classically, the choice you'd have to make was, you do something throwaway and it stays throwaway, or you do it right the first time, and it's really solid. And then you have a good foundation. We wanted you to build throwaway things that could turn into a solid foundation and it's subtle, but for people that live in these tools every day, and AI actually became a huge driver of this. It really matters, because AI needs to do new things when it answers questions. So you can't constrain it, but as it does those new things you want to be able to make sense of them and you want to put foundation underneath it that's solid. So that metrics are consistent, so that permissions are consistent, so that people understand what's happening.
+
+Pablo Srugo (00:17:32) :
+When you leave do you raise a round and kind of hope, go heads down, just build product? Do you start talking to customers right away? How do you play it?
+
+Colin Zima (00:17:39) :
+Yeah, so we were incredibly fortunate in that I was close with a bunch of members of the Looker board. I talked to First Round the day after I left Looker, and so we raised money, or we didn't even raise the money. We had a handshake agreement to raise the money like four days after we left the company and that just gave us the sort of cushion. So I funded it with a loan for a little while to pay salaries. Because I was like let's get more founders in here essentially. We got sort of comfort that we could fund it very, very early. So that we could staff it with a lot of people that know how to build.
+
+Pablo Srugo (00:18:20) :
+When was your seed and how much was it?
+
+Colin Zima (00:18:22) :
+Yeah, so we raised effectively a seed A over like six months apart but very, very close together. The seed I think was in May of '22, and it was $9 million and then the A was in August of '22, or something like that. And it was another $17 million I think.
+
+Pablo Srugo (00:18:38) :
+So you had plenty of capital very quickly.
+
+Colin Zima (00:18:40) :
+Yeah, we got to found the company essentially with $30 million, which like a lot of people don't get to do. But it let us invest really nicely in product and engineering, and we were kind of off to the races immediately.
+
+Pablo Srugo (00:18:44) :
+You also like macro timed it perfectly. I don't know if you would have gone $30 million like January '23. 
+
+Colin Zima (00:18:50) :
+We got very lucky. Honestly, even in March of '22. It was a little bit more dangerous than February of '22.
+
+Pablo Srugo (00:18:56) :
+That's right but you got it May and August, you said, '22?
+
+Colin Zima (00:18:58) :
+We did but this is also the nice thing about working with people that you trust. These were people that were on the board at Looker for the last ten years with us. That we knew really well, that wanted to come take this bet with us and they were sort of just like, we trust you guys. Go build. 
+
+Pablo Srugo (00:19:13) :
+So I mean, look, raising that much money early is obviously awesome and a lot of people would be jealous of it. There are problems, there are challenges with it. The most common one that I've seen of people that get to raise. Let's say anything, I would say anything above $10 million at idea stage. The challenge is, do you spend a lot of time and money on the things that don't matter? Do you build a lot of polish? Or do you still somehow find a way to stay focused on the thing that's really going to move the needle because you still got to de-risk them. You still don't know. This is somebody gives you $30 million doesn't mean it's going to work, right? So how did you structure it after you raised that money?
+
+Colin Zima (00:19:49) :
+I think that just generally we're on the very stingy side of how we operate and we're kind of old guys as startups go. So we obviously spent some money early, we had ten engineers with no customers. But we were very focused on the economics from a very, very early point, like mapping things out. We didn't just spend money. We didn't get an office for a year. We tried to be really, really thoughtful about our spend. Because we do want to minimize this stuff. At the same time, we knew we were playing the venture game. When you go raise money that is now an expectation that you need to hurdle and so you need to understand the game that you're playing and we wanted to play the venture game. It's a crowded space. We needed to invest in sales and marketing. We needed to invest in products and engineering. We got to go build for a year and a half to go do these things.
+
+Pablo Srugo (00:20:35) :
+How many people did you say you were, before revenue?
+
+Colin Zima (00:20:37) :
+Before revenue, we probably got up to twenty people. So relatively large.
+
+Pablo Srugo (00:20:43) :
+Decent amount. Because at twenty, like at five is where you have to do zero management, zero overhead. Once you get to twenty, you've got at least some communication, let's say overhead. if you want to call it, at least that. Even if everybody's a self-starter.
+
+Colin Zima (00:20:58) :
+I would say a little bit, we're a trio of founders. Which helps a ton and out of those twenty people, maybe fifteen of us had worked together at Looker. 
+
+Pablo Srugo (00:21:04) :
+I see, yeah
+
+Colin Zima (00:21:07) :
+I want to say it was like fourteen Lookers and five people that had worked with Chris at Stitch. 
+
+Pablo Srugo (00:21:11) :
+OK.
+
+Colin Zima (00:21:07) :
+So it was twenty people, but it was twenty people that had ten years of history on average. 
+
+Pablo Srugo (00:21:16) :
+There you go.
+
+Colin Zima (00:21:17) :
+And that just increases the bandwidth really significantly. We were just really light touch on management. We just sort of had smart people and let them go build in their areas. So we just got to sort of operate very exceptionally in terms of how we built. We knew that everyone was going to contribute. We knew the types of people that were sitting around. We all kind of trusted each other and I think that just let us move quick in terms of building.
+
+Pablo Srugo (00:21:40) :
+So in a sense, the hiring was relatively easy because it was at a network. The fundraising was relatively easy because you had the relationships. The product idea was relatively easy because it came from the history that you built. What did you do on the go to market side? How did you play that game, especially as you're building and you have a pretty clear idea of what you want to build? I don't think you want to do it, especially with this type of product. These MVP kind of throwaway products that you're trying to put out, right? So how did you structure that first year of heads down building with go to market?
+
+Colin Zima (00:22:09) :
+Yeah, I just tried to do as many demos as we possibly could. We would try to show the product to every single person that would sit down with us for an hour. So I just pinged every single person that I knew that had used Looker in the past, that was a data person, literally anyone that would take a conversation. I would try to show the product and part of it was just that I was excited, and kind of wanted to show people the product. I learned how to demo much better. Sales is a technique that people need to learn. You need to ask for things. You need to do discovery. You can't just show them your product and be like, this thing's awesome, isn't it? But we did a lot of demos, and it helped both shape what people understood about the product and what they didn't understand. It also just helped us validate our assumptions of, is this idea good? Do you have this problem? Do you want to write SQL and have a data model? Sounds like a very simple question, but it's another thing to say, is that enough to delete your other tool and come to this other tool. And we got a lot of, no it's not enough yet, it's not enough yet, it's not enough yet, until it was enough. And then it was great, now we have a product that we have sort of convinced a handful of people is real. Now we just need to sort of keep sizing up those companies and keep making the product better. Because we also get to continue to improve the product and when you're in these big established spaces that are really crowded. Even though our team was maybe twenty people at the time, our engineering team was moving faster than the incumbents and that's an enormous advantage. Because people want to both buy you for what the product's doing today, but they're buying you for the slope too. They can see your progress and they want to buy that progress also because the beautiful thing about SaaS is we want them to be a customer for the next twenty years. So they're not buying the product today either. They're buying the trust that you will have the best product over the next period of time.
+
+Pablo Srugo (00:23:57) :
+Especially for a product like BI or really any product where you're not switching every year. You're trying to build a repo of charts and databases, and connections, and all these sort of things. And you don't want to be like every year, oh this is the next best thing, let's just switch out of it. There's some tools where you can do that a lot more easily, BI is not one of them. So for those sort of things you're definitely thinking about, we're going to be building visualizations and data analysis. We're going to do that for a long time. So who do we partner with?
+
+Colin Zima (00:24:24) :
+Which is also where selling trust is a big deal. I know it sounds silly for a tech company to talk about sort of selling the human side. But if you are establishing a ten year relationship with a vendor. In your mind, you want someone that you trust is going to operate well into the future and you can either buy a brand that is doing that, like I know if I go buy Coke that they will operate in a long period of time, or you can buy the young version of that. Which is, this is something that it's developing and they're excited about what they're doing and I want to be part of that excitement. And so, I like buying young products also because I know that the person on the other side cares deeply about it. You also just need to convince them that your company is going to be around enough that that's not going to be a painful relationship.
+
+Pablo Srugo (00:25:11) :
+So give me maybe some timelines. So you start February '22, you raise your seed in May, you're A in August. When do you have a first customer live? When are you doing these demos? Maybe just walk me through that side of it.
+
+Colin Zima (00:25:23) :
+Yeah, demos probably started in May and they were terrible demos probably. The product didn't do enough stuff. But you could see the grains of the ideas that we were trying to test. First users were probably October, November and one to five daily active users probably. First, what I would call real demos that look like the demos that we do today, were probably March of '23. So it really took us a full year to have, I think we landed dashboards in January and that was suddenly when we were a BI tool and not a toy. We can actually replace the thing that you have and that's where you have to understand what is your market. What is a sufficient replacement, because the tricky thing is you need to build enough of the existing space to replace it. Even if that is none of your differentiation.
+
+Pablo Srugo (00:26:08) :
+Yes.
+
+Colin Zima (00:26:09) :
+And so it took us a while to get enough of that stuff.
+
+Pablo Srugo (00:26:11) :
+I'm really worried because listen, you've been listening for like what, ten, twenty, thirty minutes now. Clearly you like it and the thing is the next episode is way better, and you're gonna miss it. You're gonna miss it, because you're not following the show. So take your phone out and hit that follow button. This is where, again, this idea of team market fit is so important because first time founders, I find, make this mistake often. Which is you gravitate to something because you see the idea. Somebody might have seen, oh my God, BI is so outdated. I can't believe it works like this. It should work better. You don't realize, and this goes for so many different OS level things. A random one, property management software, right? Anything at that foundational level of stack, maybe very outdated, very old school. What you don't realize is you will have to build eighty percent copy just to get your twenty percent that's going to be better and you're gonna need money for that. And people for that. And if you have the experience you have, you'll get that, hey, you've earned over the last ten, fifteen years of work. You've earned enough credibility, here's some money and some time to go prove that it's real. You're a first time founder, you're like 22, it's not happening. So you're never gonna see that other side.
+
+Colin Zima (00:27:22) :
+And you're gonna stub your toe so many times building it the first time. The amount of corner case handling we built into the first product. Because we just knew, we made this decision and this decision and this decision last time we built it. Like perfect, you just jumped to stage three. There were features that took us nine months at Looker that we built in a week at Omni and it's because you don't have to rediscover how to do all of these things. You don't need to handle the corner cases on the fly and rebuild the bottom. You just set out and you know how to go build this stuff. And Claude has changed a lot of that. Now, maybe brute force solves a lot of these problems. 
+
+Pablo Srugo (00:22:58) :
+Maybe. 
+
+Colin Zima (00:28:11) :
+But having stubbed your toe a few times so you put the right foundation underneath, it makes a big deal.
+
+Pablo Srugo (00:28:05) :
+So March '23 or so, you have the first real demos. When do you have that moment? The Product Market Fit moment that we start talking about?
+
+Colin Zima (00:28:11) :
+It was like May, June of '23. So it took us a while.
+
+Pablo Srugo (00:28:12) :
+ And then by the time you come back out and you get those six out of that podcast, that's when?
+
+Colin Zima (00:28:17) :
+Yeah, that was June. They signed in June, demoed in May and I would say before that, in probably September of '22. We had the moment where internally we were using the product and we're like, wow, this thing feels good. It was just like we didn't have dashboards at the time. Visualization was sort of young. Then we were like, OK, we've got some differentiation. Now we have to do all of the debt work so that we can actually exist as a BI tool in the existing market.
+
+Pablo Srugo (00:28:44) :
+And maybe just to bring it home in terms of the value, right? You mentioned the analogy, but take me to an example of a real data problem, right? At least my idea for this, is somebody somewhere in the business is like, hey, can you figure out whether ACV affects churn? Or can you figure out whether people in this market are more likely to buy this thing if this condition is true? And then that goes to the data team. Is that the right construct? 
+
+Colin Zima (00:29:08) :
+It is, it's everything from we're walking into a board deck and we need to get financials to how are we doing against different competitors and what words. When we mention them, do we perform better with.
+
+Pablo Srugo (00:29:20) :
+And then flowing through that to this is how Looker handles it or existing handles it. This is what you were able to do.
+
+Colin Zima (00:29:25) :
+Yep, so AI has transformed a ton of that. Now it's just you put it into a chat box and it just goes, and figures out everything for you. Before, it would be like, I need to make a dashboard that has a SQL tile over here and a governed metric over here. I know that sounds like the simplest thing ever, shockingly hard to do in every single BI tool that existed and we could do a demo where we could show you a SQL tile next to a governed financial metric that the finance team approved. And from there, we were sort of off to the races.
+
+Pablo Srugo (00:29:55) :
+You brought up AI, so I think it's good to talk about it. ChatGPT comes out near the end of '22, how is that lived for you guys? How much does that affect the roadmap or not?
+
+Colin Zima (00:30:05) :
+I mean, I think that early, just talking personally. I used early ChatGPT for data and I was sort of like, this is not that great. It's not very interesting. I'm not going to use this and so I'd say for six months, I was just completely unconvinced. Kind of in the haiku stage for Claude. When Sonnet came out in October, our engineering team started adopting Claude code at that point and it was so obvious that the world had sort of changed in an instant. In terms of the way that people were writing code, that it became obvious that it was going to start happening for data too and even though we didn't believe in it. We started putting these AI features in the product, and our customers started using it.
+
+Pablo Srugo (00:30:42) :
+How early did you put these features out?
+
+Colin Zima (00:30:44) :
+I'm forgetting the years now. So I don't know whether it was just this past year or not, but it was October. Whenever Sonnet came out, we had started landing some of that stuff. So I think it was October of '25. But we had a handful of customers that had started using the AI and they were like, no, it's actually really good. You should be trying this internally. We did an implementation internally where we're like, OK, let's set things up so it actually works well and literally that same week, we stopped using the UI. And it was one of those moments where we had to test ourselves. And it was so good that it was just really obvious the world was changing. And then, you just sort of playing catch up and trying to see what the models can do, and how you can incorporate them.
+
+Pablo Srugo (00:31:21) :
+It's noteworthy in the sense that in '23, and especially the second half of '23 and all of '24. Almost every new company was just jumping on AI, jumping on AI, just building with it.  So, you're building a new company. By that point, like you said, by mid-23, you're just starting getting new customers. So you're really at the stage of these companies and you kind of, I don't know, I'm going to say ignore it but you kind of just kept going. You were basically on a path. You didn't really go off the path or change a roadmap dramatically until considerably later on. 
+
+Colin Zima (00:31:50) :
+Yep, that's right. It was about a year later. 
+
+Pablo Srugo (00:31:53) :
+Maybe tell me a little bit about the go to market, since. You start off with more this ad hoc, go through and just find people that use Looker that you could pitch this to, et cetera. That gets you to that product market fit moment. Now, once you've got something that people use and onboard and seem to like, you need to scale that, scale in a small way, but get the $1 million, $2 million ARR. What do you use to do that? How do you do it?
+
+Colin Zima (00:32:15) :
+It's really funny, I've talked to our head of growth about this and our head of marketing. And everyone hopes that there's just some magical channel that they haven't thought of, that when they turn it on will inflect the business. What we found, that is the least satisfying but sort of most obvious conclusion that you could possibly imagine, is you just need to do more of literally everything. So early we had some organic, we had a little bit of outbound that was mostly the founders through LinkedIn, and we had a little bit of partnership. Which is our product needs to get implemented. There's a big data network of practitioners that help people with their data. Some of them would sort of recommend Omni and bring us in. And as we grew we've really just sort of leaned into each completely independently. So the outbound, we've scaled a big BDR org and they're on the phones sending email, scaling up founder LinkedIn. And so it's that but more. On inbound it's just mechanizing the machine but it's also we do a lot of outbound programmatic email and spinning up sort of enrichment techniques and things like that. Just identifying people to go talk to and then on partnership, we spent a lot of time with the hyperscalers. So Amazon, but also Snowflake and Databricks. And it was really just building relationships more broadly across the ecosystem. And then events is probably the last one that we started turning on. 
+
+Pablo Srugo (00:33:30) :
+Did you find partnerships helped early on? I often find they help later. 
+
+Colin Zima (00:33:34) :
+Enormously. 
+
+Pablo Srugo (00:33:35) :
+They did, interesting. 
+
+Colin Zima (00:33:36) :
+Partnerships come in two very different flavors, at least for us. There are gigantic tech partners like Snowflake and Databricks, and Google, and Amazon. They don't care about you when you're two people or ten people or whatever. Thankfully, they knew us from the Looker days. So, again, we got to earn a little bit more trust than we would have had and we could go talk to leaders at Snowflake. Because they knew us and would sort of be willing to bet on us for the future. But they were not bringing us business. On the other hand, at the low end, there are these one and two person data practitioners that were essentially former people that I used to work with or people that were customers at Looker that went and started outsourced analytic shops where they're the data team for five people. Those people bring in tools and recommend tools, and if they understand our philosophy, and how we build, and can implement our tool really well. They'll pick up our tool off the shelf and recommend it to someone, and make sure it's implemented well, and take really good care of them. So we push out all of our services externally, like we would go pay a partner $5k to implement one of our customers and in turn, they learned about our product and would recommend it. And so even though the numbers were tiny, they were enormously valuable to get our brand out and say, hey, the cool data practitioners have seen Omni, they use Omni, they think Omni is very good. And again, it's another person that can validate whether the product actually does something effectively. They would give us feedback, they would have customers, they would say, hey, I work with this e-comm brand that I used to work at and I'm their data team. And they listen to me for tool recommendation. I'm going to recommend Omni if you take care of me in terms of building a good tool, I will help make these guys successful.
+
+Pablo Srugo (00:35:17) :
+What did you find made the difference, because obviously. So this is a great approach, right? And a lot of times when people talk about partnerships, they do think more about the big vendor. Whoever that is in the space that's going to cross sell my product and it's like, no, it's not going to happen because they got their own things to sell, right? For the most part, but the people doing services, they're smaller. The question is, how do you get them from, they obviously are already recommending something. They're doing Looker, they're using whatever they're using. What have you found works best to get them to move to recommending you?
+
+Colin Zima (00:35:42) :
+So I think that the thing is, in a weird way they can actually be a little bit faster moving than the customer base. Because they get more at bats. So for any given one of our customers, moving from Looker to Omni might be risky. They don't know what it looks like. It might be hard. If you can convince a partner to do it once and they can see how easy it is or how good it is, or what the advantage is, they now want to go mechanize that ten times. And it becomes very, very easy for them. So there's still a hurdle to get over.
+
+Pablo Srugo (00:36:15) :
+But your point is it's product. It's not like it's the incentives you give them or whatever. It really is like if your product is materially better.
+
+Colin Zima (00:36:21) :
+Incentives help a little bit too. In the same way that Google doesn't care about us because we're too small. Google probably doesn't care about them, because they're too small and so if I can find a one person partnership, and we found like a handful of them to start that are trying to build a brand about being a really good service, they can be a little bit more objective about what the best product is and help you build out a new stack. And as long as we can work with them well as we develop and as a business. They're happy to go pull us in with the right customer. They just need to know that their customer is going to get taken care of because the worst thing that can happen to them is they engage with someone, they build it, they bring in a product, and the product stinks. And that could stink because the product's bad or because the company is bad, but that's their reputation. Inversely, if they can bring us in and we can say, I will guarantee your customer will be successful. They'll get great support, we'll build things that they want. They'll be excited to bring you in, and even better if we can give them some services because they can implement for us. So we just found that to be a really effective flywheel for us.
+
+Colin Zima (00:37:21) :
+You know, but it's funny about your earlier point. no silver bullet. I was talking to another founder earlier this week or last week and it was that same sort of thing. Like, hey, we're growing, we're growing slowly. What have you seen work? And I'm like, dude, I talked to founders who through the Product Market Fit Show are doing tens of millions in revenue. They're well beyond Product Market Fit. Almost none of them figured something out. They just, they have a solid product, the product provides value, right place, right time and then they do the obvious stuff. They do events, they do partnerships, they do outbound, they do inbound, they do inbound through the channels that you would probably do inbound. And maybe they execute marginally better than you. But like, I've heard only like one or two things here and there sporadically where I'm like, wow, that's really creative. That's awesome. 
+
+Pablo Srugo (00:38:03) :
+Everyone wants the consumer viral hit. You just, what you're like, why can't I just be viral? It's like, I don't know. I wish I could.
+
+Pablo Srugo (00:38:09) :
+Here's the secret to get ten million views on X, you know? 
+
+Colin Zima (00:38:32) :
+Exactly. 
+
+Pablo Srugo (00:38:30) :
+Cool. Well, one technique that you did use that we talked about earlier and we can go deep on now is using LinkedIn to its, to the fullest, right? Social selling on LinkedIn. So maybe tell me a little bit about what it is, how you use LinkedIn, what you did, and we'll go as deep as possible again. Trying to create a bit of a playbook, at least something that somebody could take pieces of and start replicating themselves.
+
+Colin Zima (00:38:32) :
+Yeah, the big one is, we sort of mentioned that we were staying in a space that we knew well and we had big networks. So I probably when I started Omni had, I don't know, seven or eighty thousand connections on LinkedIn maybe six thousand or something like that. And a lot of these were people that had purchased BI from Looker at some point in the past that I talked to in person. A lot of them I just pinged and said like, hey, can you take a look at our product, give me some feedback and if you build up a social network over time and you're trusted in the space. People will respond to that. And they don't necessarily need to be buying product today. Again, when we talk about SaaS I'm trying to sell you a product over ten years not over a year. And so, getting to show them the product and then show them progress over time can be really valuable. And so, you probably have a bigger social network than you think of former employees and customers. I pinged I think almost every single person that used to work at Looker. We had a thousand employees when we got acquired. I probably sent a LinkedIn message to nine hundred of them and it's not because we're trying to exploit them. It's because I think that I can give them a great experience. I do love seeing a lot of them and so you can kind of mix being social and getting feedback on your product.
+
+Pablo Srugo (00:39:36) :
+This may be a dumb question, but somebody who works at Looker is not potentially a customer.
+
+Colin Zima (00:39:41) :
+Former Lookers. A lot of them left and went other places.
+
+Pablo Srugo (00:39:45) :
+And they're doing data these other places or what's the?
+
+Colin Zima (00:39:48) :
+A lot of them, yeah, or they have a data team at those other places. And you say like, hey, can you connect me to the data team and also  take a look at the product?
+
+Pablo Srugo (00:39:56) :
+Because a lot of people that work at Looker might be marketing or sales or engineering. They're not necessarily like, OK.
+
+Colin Zima (00:40:00) :
+Yeah, but they hopefully like us and we had a large group of Looker continued. So there was some, there was some love and they want their business to run better too. And the thing that people forget about selling is that good selling is just connecting someone with a problem to someone that can solve their problem. And if we can just be trusted to help solve a problem for you like, someone will take thirty minutes out of their day to see if their problem can get solved. If I'm just asking for money that's not a helpful situation. If I'm saying like I bet that I can either reduce your cost or make you guys smarter and give you a better product. And make it really easy for you, that's a pretty easy message. People like free money and they like having their job done for them. So we just found a lot of people were willing to connect us with other people in their org. And then the other thing I would say is when founders of startups, especially ones that know their space well. Ping other people, very often your ICP customer early does want to talk to you and the reason is because people like discovering new products and they like seeing new things and they like being part of the build out process. Not everyone but if you ping a hundred people maybe thirty of them are curious about what you're building and want to see it. And you got to be careful about wasting your time like plenty of people will kick tires and things like that. But if you know what your customer looks like and you can get other people to engage that look like your customer, then you've now created this match. So like the qualification is on you to figure out who a good person to talk to is. Because again, there'll be lots of time wasters. But a lot of people want to discover the next product. And they want to see it early and they want to touch and feel it. 
+
+Pablo Srugo (00:41:40) :
+I think this makes total sense. Let's get into the specifics. How do you set this up? Are you every day you're doing ten outreach. Every week you're doing a hundred. You have quotas. How do you? Because LinkedIn is not, it's like got so much data, but it's not really set up to help you run a workflow. And, you know what I mean? It's just not that clean.
+
+Colin Zima (00:41:55) :
+Yeah, yeah, I mean, we just tried to ideate on things. So, like, we literally ran a campaign where I sat down with a BDR and we looked through every single person that used to work at Looker. We decided whether we thought that they would, find value in our product and we sent them a note.
+
+Pablo Srugo (00:42:10) :
+Manually. Boom, boom, boom.
+
+Colin Zima (00:42:11) :
+Yeah, yeah, yeah. It doesn't take that long, like, two hours. You can get through two hundred people. I also printed out every single LinkedIn connection I had and was like, this person could be interesting, this person could be interesting, this person could be interesting. No, no, no, no. Yes, yes, yes and sometimes it's your real friends and you hadn't even thought about it. And you send them a message and you're like, hey, will you look at this thing with me?
+
+Pablo Srugo (00:42:32) :
+And that's the other question, the message is what? Like, hey, I built this. Do you want it? What's the craft in that message?
+
+Colin Zima (00:42:38) :
+We tested every message you could possibly imagine. Some of them were about the product. Some of them were like, I'm a founder and I'm building something new. Would you like to look? That's what I'd say. You aren't going to know what messaging works. You need to play around.
+
+Pablo Srugo (00:42:55) :
+What worked for you? Did something work better for you or would you find it was all kind of similar?
+
+Colin Zima (00:42:58) :
+Shorter is better, more direct is better, less flowery language is better. So we just found honesty and simplicity to be the easiest approach. So that's where you need to be a little bit careful. If you ask for feedback, you will get closer to a tire kicker than anything else. Which can be good depending on the stage that you're at. But, the ask could be clear. If I think I built you something good, then like, hey, I think this would work for you guys. I would love your thoughts if that's true. People are afraid to say what they actually mean and you can just go on, and if you can describe your product crisply. And it solves the problem for that person, you can say like, hey, I bet you have this problem. We solved that problem. Would you like to see? The worst is that someone's not going to respond. Again, if you're doing this inside a social network, very often people will respond and you get an opportunity to say like, hey, did what I say come true? How was that?
+
+Pablo Srugo (00:43:50) :
+Walk me through the expectations, because I think this is another big one. If you were, and I don't. I know they have the numbers in front of you, but just high level. You sent a hundred of these. How many should you expect to respond? How many meetings should you expect booked and whatever?
+
+Colin Zima (00:44:03) :
+Yeah, yeah. So when our BDR team was doing this, they were getting like a three percent response rate. So they'd get three responses out of a hundred LinkedIn connects. I might get a fifty percent connect rate and on a message, depending on the group. Like to the XLooker group, I probably got a ninety percent response rate. Wow. Because these are people that I knew. To real LinkedIn connections, I probably had a ninety percent response rate and I had five thousand, six thousand LinkedIn connections. So, again, not all of them are data people. But if we find one thousand good people in there, there's nine hundred responses and look, there's probably two hundred people that are a reasonable demo there. That's enough funnel to get started. Because, all we're trying to do is start the flywheel at that point. But you need to be able to describe your customer really well and you need to give LinkedIn a little bit of money. Those are the two things that you have to do. Which money on LinkedIn is that just for the SalesNav account or were you running ads on it? No, just for SalesNav. We didn't start running ads for a couple of years, but it's like a SalesNav account and then you just need to ping people with a message that actually targets a problem that they have. And like you need to create your own credibility. So like, hey, I'm Colin. We tried a lot of the, I worked at Looker for eight years thing. That works really well to a Looker account. It doesn't work great to a non-Looker account. So you want to tune up your message a little bit based on what you're saying. But if you've been using Looker for the last five years and it's like, hey, I'm Colin. I led product at Looker for eight years. I built something new. It's awesome. Do you want to see it? You get a lot of yeses. It's really not as complex as it sounds. If you're not getting response rates, I think it's probably a good indication that there's a Product Market Fit issue at some level. But you got to be able to describe what you're doing also and we've found different success over different times with different features and things like that also. Plenty of people ignore you too.
+
+Pablo Srugo (00:45:50) :
+The other thing that you did that I'm a big fan of, it's a weird one where it's like, I think anybody could do this. You were better suited to do it, but anybody could do it and it's done so little, which is hiring from your own industry. Tell me about what you did there and how you did it, why the thinking behind it all.
+
+Colin Zima (00:46:07) :
+Yeah, I mean part of this is because Looker sold to Google and people were there post acquisition. And either love the big company atmosphere or didn't. But when we set out to go build a competitor to our last company we worked with a lot of great people and people would ping us and say like, hey you're doing interesting stuff. Can I come work there, and we like, yeah I know you do great work. Come over and do it here. And everyone has jobs, and you know who the good people are that you worked with. If you're starting a company those are the people that you should go hire. You don't have to think about it that hard. If you're doing something interesting it's like the Product Market Fit problem, like can you pitch them something interesting about your business. And again, we were very fortunate to have fundraised really nicely. So to give people a safe place to go work as well, but we could sort of give a convincing argument that it's a good place to work and then the talent like accrues over itself. Every good person that you hire that you used to work with makes the place more attractive to the people that you used to work with. So if you worked at a big company with a thousand people and you hire the ten best people you're going to hire the next ten best people also.
+
+Pablo Srugo (00:47:14) :
+This is obviously in your case, you came from there, you had some outbound, inbound. I'm assuming maybe you did outbound, we'll talk about that. But would you also recommend this to someone who's building, let's say these days. an AI native product in whatever category, where there are some SaaS incumbents, ten, fifteen year old companies. Two thousand employees, five thousand employees, would you go poach? You probably don't want to poach the Series A or B startup in your space, because then that's going to come back at you. If there are two thousand, five thousand employee company like they probably don't even notice, they don't really care, would you do that outbound on purpose sort of thing?
+
+Colin Zima (00:47:46) :
+I think the thing that you have to be careful about is different scale companies work differently. An effective engineer at Google is not going to be an effective engineer at a startup necessarily. An effective engineer at Looker when we were private is going to be an effective engineer here. 
+
+Pablo Srugo (00:48:03) :
+How big was Looker, when, just before the acquisition? 
+
+Colin Zima (00:48:06) :
+We were a thousand when we got acquired, a thousand employees. But I think the average tenure of our first ten employees was eight years. So it was a lot of people that were there on the first, you know, thirty people. 
+
+Pablo Srugo (00:48:16) :
+Got you. 
+
+Colin Zima (00:48:17) :
+I think you do need to be a little bit careful if you're going for incumbent. Because you want to know that the person is not like, has a meaningful understanding of the work that they're doing. That they're not over specialized. But context on your space matters a lot. So I'd say expertise is good, but you need to be able to vet the quality of the person really, really clearly. Like do they align with the type of work that you do? Is the culture fit good? I would probably recommend way harder back channel on that. Because they'll appear more credible in your space. So that on paper they will look much better. But you go to make sure that the work product that they want to produce and the way that they work is aligned. We were really comfortable being like, there's no framework for anything here. No performance management. You will not get mentored. You'll come here and do stuff, and we want to ship code every day. If you like that then you've now self-selected into a good setup.
+
+Pablo Srugo (00:49:09) :
+Did you run an outbound process for hiring as well or was it mainly inbound people that just said, hey you're building, can I come work?
+
+Colin Zima (00:49:15) :
+It was mostly inbound, loose social network stuff, and mostly just because we had to be careful about solicitation, and stuff like that.
+
+Pablo Srugo (00:49:21) :
+And what about on the go to market side? Obviously on the product side, I can see that being helpful. Was it also helpful on the selling side? Where it's like, yeah, I've sold Looker into all these vendors. I'm going to call, you know, the people I used to sell to. 
+
+Colin Zima (00:49:32) :
+A hundred percent. Our first handful of sellers were all Lookers. Our third hire, who now runs our Europe, was in Dublin and he was just a great seller at Looker. And so we were like, hey, we got no one over here. I don't know how this is gonna go, but we're gonna put a team in Dublin and I trust you. And I know if you can do it, then it works. And if you can't do it, then we need to go work harder as a product. But like, good luck.
+
+Pablo Srugo (00:49:53) :
+This is where to me, this playbook, like you mentioned the risk. Which I think is a genuine risk, but I'm like, if you're selling large mid market or enterprise. Why wouldn't you go and try to hire? I mean, there were times where it was just not doable because they're making so much money. You can't take them. But you've got the SaaS apocalypse playing for you still now, like you've got these stocks are flatlining or going down. They're certainly not going up fast. You can go to these people and be like, hey, you've sold your old product to, you know, X number of people. Come sell my new hot product to those same people. It's a no brainer.
+
+Colin Zima (00:50:25) :
+A hundred percent and again, if they're a great seller. They have a Rolodex of people that they just sold to in your space. 
+
+Pablo Srugo (00:50:31) :
+Exactly. 
+
+Colin Zima (00:50:32) :
+And that product is going to turn over, over time. So a great enterprise seller is almost like a corporate advisor to their accounts. 
+
+Pablo Srugo (00:50:39) :
+Yes. 
+
+Colin Zima (00:50:40) :
+Like you want them to come with a bag of business that you can go address. You have to make sure that you're ready to go address their business and it's taken us time to, you know, scale up to enterprise. But that has so much value for them to actually bring a person that trusts them to have good software and so, that was a huge vehicle for us and go to market.
+
+Pablo Srugo (00:51:00) :
+Plus one of the, I find, positions that has the most turnover is around go to markets. Maybe 
+Head of Marketing, Head of Growth, or Head of Sales, you know? And if you hire somebody from your industry who's sold, whatever, and let's say you can back channel and know that they actually sold that. And they can't sell your product, now you've got a real something to look into and start thinking about why. 
+
+Colin Zima (00:51:19) :
+It's true. 
+
+Pablo Srugo (00:51:20) :
+Perfect, well, let's stop it there. I'll ask the one question that we always end on. If you had maybe one top piece of advice. Something you find yourself saying to early stage founders pretty often, what might that be?
+
+Colin Zima (00:51:32) :
+I think the main one is just, be thoughtful about where you're spending your time and what you're doing. The company only gets more valuable every day based on what you do and so if you reflect on a day. Think about whether you made the company more valuable or not and if you didn't, think about what you should have done to make the company more valuable. I think people fall into doing work. It's like going to meetings. If you're a big company you go to a lot of meetings. When you're a startup you're keeping the company afloat yourself. If you have a meeting you didn't make the company money that day. Maybe you made the company more aligned. Think about where you're spending your time and make sure it's good.
+
+Pablo Srugo (00:52:13) :
+Love it, perfect. Well, Colin, thanks so much for spending the time and it's been great.
+
+Colin Zima (00:52:16) :
+Of course, thanks for having me.
+
+Pablo Srugo (00:52:17):
+Wow, what an episode. You're probably in awe. You're in absolute shock. You're like, that helped me so much. So guess what? Now it's your turn to help someone else. Share the episode in the WhatsApp group you have with founders. Share it on that Slack channel. Send it to your founder friends and help them out. Trust me, they will love you for it.
