@@ -1,0 +1,135 @@
+The number one story on Bloomberg right now is that AI has gone wild. You seem remarkably calm. The way I see it is, if it's not an AI model, it's gonna be somebody or something with actual malicious intent doing it. I do worry about what can the agents do, what tools can they call, what binaries can they pull, and also how do they get access to credentials. So if a code is meant to solve the bug, but it gets rewarded on that, but it doesn't care if it's actually doing something else The tree is sick, so to make it healthy, it cuts it down.
+
+Out of necessity, my team built a judge that evaluates the intent behind a piece of code. Like, is this thing meant to do harm or not? And we actually find quite a bit of malicious skills in all these marketplaces. Engineers now, security is very much front of mind for them. Developers have always cared about security.
+
+Their problem has been that the version of security that we want them to do is just crappy. My thesis ten years ago was that security engineers have become real engineers, so maybe now is the time. AI is changing the security landscape on both sides. Attackers have more capable tools, but security teams are also figuring out how to use those same capabilities to their advantage. In this episode, a 16 Joel De La Garza sits down with Datadog CISO Emilio Escobar to talk about what he's seeing as AI adoption spreads across the enterprise, including thousands of engineers working with coding agents.
+
+They discuss how AI changes assumptions around permissions, credentials, and software supply chains, why simply blocking new tools doesn't work, and how security teams can adapt without becoming the department of no. And as models get better at finding vulnerabilities, Emilio explains why he's less worried about AI hackers themselves than a more practical problem. What happens when the number of vulnerabilities we can find suddenly explodes? Thank you so much for joining us. I know you're not here to see us.
+
+You're here to go to Black Hat, and it's good to catch up. It's been a really crazy week. So you are a CISO at a public company, tech company, one of the house of innovation, driven a lot of really cool technology out of it. And we've been talking to everyone about these models escaping, these models hacking. And I know you've been central to kind of the adoption of AI at Datadog, and would love to maybe talk a little bit about how are you thinking through the risks?
+
+How are you deploying this stuff? And I know you're very close to the product team, and you're kind of enabling it. So would maybe start off there and move around. For us, it was like, we have to do it like any other software company. If we're not, we're going to be in the medieval ages real quick.
+
+And I like being as ESO, I don't like having my own goat farm. And we started real small. I remember our first install, we started with Cursor, and I remember getting 50 licenses. And it was more of, Put it out there and see who bit. And then, not surprising, it bloomed from there.
+
+So now we use every other coding agent that's out there. And some of the things that we're worried about as we deploy, well, first you start with the data. Why are we worried about the data? And I never subscribed to the idea of, well, if I block these things, nobody's gonna use That's never worked. So on the non developer side, like we just got ChatGPT licenses for everyone, and it was like, whoever wants it gets it.
+
+I don't care. And you sure use it to find a recipe for pot roast. I don't give a crap. And because then I avoided the, oops moment. Mhmm.
+
+And it was this was back, ironically, wasn't that long ago. This was two years ago, and it feels like things have moved twenty years since. But I remember having a lunch with a bunch of CIOs at RSA where everyone was asking me, like, how am I not blocking these things? Right? And it was like, well, a, we can't because we're the type of company that we are, but, b, luckily, we can just buy our way out of that problem and zero data retention and all those things.
+
+But it probably the inverse of halit's block had turned out to be correct, which is the people leaning into it the earliest and the most. Right. Are the ones that you actually wanna reward enough. Right. That's right.
+
+Yeah. Yeah. Yeah. So now we have over 4,000 engineers using them. I mean, actually, we have every employee in the company adopting some sort of AI, whether it's CodingAgent or Gemini, Cloud Desktop, JACPT, or what have you.
+
+And so I have two we have two two verticals. We have the engineering side, which Alexei is deeply involved, our CTO is deeply involved in, and then I'm involved on the non engineering side for how do we get marketing, sales, and everyone else to use AI. And the adoption is I think we're at like 98 adoption rate, something like that. It's one version of AI or the other everyone is using. On that side, on the IT corporate side, the data becomes more the paramount issue, permissioning and all those things.
+
+One thing that AI is gonna do is you think you have proper controls of who get access to what Google file or what have you. AI is gonna find a way to get it. All you have to do is prompt it. It flattens the organization. It flattens the organization quite a bit.
+
+So we actually had a moment where internally we built this business intelligence tool. It's really neat. And it was starting to show some data that I was like, it wasn't anything like a fire alarm, but it was like, should we? And the data was probably always available to everyone. They just never took the time to work.
+
+So, yes. So it's data that is in a data warehouse, and we thought we had the right table and row permissioning and all of that, but there was always a way to get access to the data if you knew the SQL well enough. Well, then what happened is that you went from only people who really know SQL are using this to now having a sales rep telling, asking like, Hey, what is, I'm a commercial sales rep. I'm just coming up with an example. I'm a commercial sales rep.
+
+How is the enterprise deal, enterprise tier team doing? Which normally you want to keep those things separate and what have you, and the agent just took out the SQL to do it. Yeah. Yeah. Well, he tells them what the comp plan is.
+
+Well, so what is not, oh, we found a way around the permissioning and all that. It's like we had the right permissioning for the right time. Yeah. And then the so we've been obviously improving all of that. And then luckily, my IT group is what we've done is now we're at the point where we have role based MCP servers as well.
+
+So we have an MCP server for STRs and things like that. So we control and govern that data. And then we're like, let them have it with whatever tool they wanna use. On the engineering side, obviously, in the coding agent, like what my security team is worried about, similar to what you were just talking about, is on what can the agents do, what tools can they call, what binaries can they pool, what dependencies can they use, and also how do they get access to credentials. So for that, we have a few things going on where we've contributed to this open source sandbox and expanding on that where the agent doesn't actually get access to any sort of credential file.
+
+So even if you have a file in your home directory that has your AWS secret, your NPM published secret, or what have you, the agent on the sandbox can't touch it. The credentials get injected into the agent the moment it needs it. And the beauty of it is we already CLI tool that will give you these ephemeral tokens to these things. We just have the agent not know how to call it. So it's like, Oh, I'm Emilio, I'm an engineer on this team.
+
+I want to authenticate to GitHub, for example. I call this tool auth GitHub, and it gives me a credential that's valid for I don't know how long, and it gives me my access to GitHub, but now it's the agent getting my access to GitHub. But not if there's a static token written in a file. Yeah, yeah, yeah. The second thing is we know the threat has expanded.
+
+Developers are now the main target for attackers. Absolutely. Because if I get one of these tokens, I can then build a worm that attacks packages, or I can just escape or do whatever or access your production environment. The other ways that we see how these agents can do it is via skills. We track a few of these marketplaces.
+
+Yeah. How do you control the skills? That's a really hard problem. So we actually have built hooks into the agents. And then one of the things that which we can talk about is my team built out of necessity, a judge that evaluates using AI LMs, that evaluates the intent behind a piece of code.
+
+I'm not talking CVEs, vulnerabilities or anything like that. It's like, is this thing meant to do harm or not? Harm being a vague term on purpose. It actually does really well as scanning markdown files as Nice. So we built it because for the longest time, Datadog, for those who don't know, we have a Datadog agent.
+
+We take third party code contributions to it, things like integrations and what have you. So code written by other people. We had this process for the longest time that required a security engineer and an engineer on that agent team to reevaluate the code and then approve it and then merge it. Mhmm. Someone like, well, this thing can't scale.
+
+So then we built this judge, by we, I mean, my team, I don't do anything, that got really good at it. Mhmm. And then the software supply chain hijack started happening and IDE extension started happening. And then we threw this thing at those packages, and it was able actually able identify the malicious piece of code that was injected or introduced during the hijack. So we're like, I wonder how it would do with markdown files.
+
+And it actually does pretty well. So then internally what that means is we have hooks into the agents, we know what skills they're getting pulled. I've never believed in a security program that just restricts everything because the pain, innovation and all that. It's the empire of no. It's the empire of no.
+
+But also it's like, we don't want to be free willy either. So what we do is now we put this judge in front of every skill that wants to get introduced. We actually find quite a bit of malicious skills in all these marketplaces. We're working with a few of them, partnering to see if they want to use this judge, but also like, hey, giving a heads up of, hey, found this one, we found that one, we found that one. And they do a pretty good job at taking notes down.
+
+The other thing we worry about is what dependencies it can pull, what So binaries it can I think it's plenty of that out there right now? I don't think we have to justify it, but the judge does a good job at it. And then evaluating the code output of the agents against malicious intent. I think intent and it's funny how things how this industry works, and this is maybe where I can get a little cheeky here, if you allow me, is I have no control. You can say whatever you're Apparently, intent now is one of the must have in any AI security type of solution.
+
+Mhmm. But the the interesting thing is, like, it happened after we've had conversations about intent. Anyways, but apparently that's a big deal. Right? It's it's it's like the fact that these agents obviously, they're trained on existing data, on existing code.
+
+And they have a reward structure. And they have a reward structure. So if a code is meant to solve the bug, but it gets rewarded on that, but it doesn't care if it's actually doing something else outside of that. We were worried The tree is sick, so to make it healthy, it cuts it down. Right.
+
+So we were worried about like the typical thing that we read about of an agent producing code that either would have, Oh, your database isn't scaling and it's paging people at 4AM, so the best thing I can do is just turn it off. And therefore I solve the problem of paging people at four in the morning. So you have to be careful how you prompt these things, but also how it actually interprets your prompt and executes on that. So we have this judge now evaluating the code output of the agents to then make sure that we're doing this. So the cool thing is that we do this internally because we have to, and then the product team goes like, wait a minute, that might actually become a thing.
+
+Let's explore. And then we evaluate it with customers and all of that. But I mean, I get to say I'm lucky that the team can do it. One of the things that surprises me, as I did a roundtable last week about agentic security, And the sense that I got from a bunch of the security leaders who were in that call was a sense of helplessness, of just waiting for a commercial solution to come in and solve it all. Yes.
+
+I think that the profession is interesting in that there are a number of different CISO profiles, and I think, you know, I say this as someone who was relatively technical for a CISO. Like, before maybe just the generation above us, like, there were no tech I mean, the first CISO was Steve Katz. Right? So that's, like, pretty recent. Yeah.
+
+You know? And I think that there was just a lot of, like, sort of, like, CFOs becoming CSOs or CTOs, but not really security people. So, like Yeah. I think and then and then what happened, I think, is that security teams got quite big and you needed a manager, right, not necessarily a a leader or a thought leader. And so I think there's just a lot of that right now in the industry where there's very much a you know, if you're a large industrial company and software is not your competitive advantage, you're probably gonna buy most of your product versus like Datadog, which is It's where like, better be the best in the totally fine, right?
+
+But I still believe even in those scenarios, you may have one or two people on that team that if you give them creative license, they could do something. But the fact that that wasn't even a thought process worries me a little bit because this thing is moving really, really fast. Naturally, like a lot of the companies that are solving this are new companies. Know? I think it's really hard.
+
+And this is I mean, I think the talent shortage is still a problem, and I'm generally bullish on security jobs because of it. But, like, I think I think for some of the bigger programs, like, it's really hard to get technologists in there because they are But shops Well, here's my counter argument. Do you really need a security person to do it? No. And I think some of the best security people didn't start as security people.
+
+Yeah. Like, you know what I mean? It's like the developer that found their way into security. Right. Right?
+
+Yeah. But also in these in these companies, like, I'm sure there's a developer somewhere in there that they can be like, hey. How about we have you solve this problem for us in the meantime? I think that a realignment is kinda happening. So I was talking to a a family member at a big, big American corporation, and they were saying that sort of, like, with AI tool adoption, they don't need to write as much code manually anymore.
+
+They still need engineers and like that. But they're basically saying, Hey, look, we don't need this many tier one engineers, and the security team needs them. And so I think maybe you're starting to see some of that cross pollination Right. Where you'll see that talent find their way into security. Because it was always the case that if you're a developer or an engineer, like, you would just make more money on on the software development side.
+
+Yeah. So, like, I think those are equalizing, maybe I mean, my my thesis ten years ago was that security engineers will become real engineers, so maybe maybe now is the time. Yeah. Yeah. Yeah.
+
+Yeah. Yeah. I mean, we pay them the same as software engineers. Now we do. Yeah.
+
+Yeah. I mean, in the valley, especially. Yeah. Yeah. Like, they're the same think it's drop in.
+
+I think it's narrowing in large corporates. I think I think it's still software engineers have the advantage there, but that that'll probably narrow over time. Yeah. So that's how we've been thinking about identity security is like, what are the things that we actually worry about? And then what can we build?
+
+What can we use? And then where do we find more synergies there? And I know that's a very buzzy term, but by that I mean is like our DevEx team is also interested in understanding what's happening in the agents because they want to monitor developer experience. Why can't we just all together work on it? So that's how this thing has grown, because it's not just a security tool for the sake of security, it's also And serving all their I've noticed with engineers, especially over the last decade, like engineers now, security is very much front of mind for them, If if only because they don't wanna have to keep fixing things.
+
+And so, like, I've noticed that there is this this front of mind security thing for engineers, which is great. It's like, I think I think we've made a lot of progress in that regard. Yeah. And I I well, I actually have a a little bit more of a of a maybe fiery take on that. I think developers have always cared about security.
+
+I think the problem has been that the version of security that we want them to do is just crappy Yeah. Which is like, go fix this thousand of things that none of them are actually relevant to what you're building. Yeah. But the scanner told me there's they're critical, so you have to fix it. Yeah.
+
+There is a lot of, like, the you guys have sent me so much junk. And You've lost fucker at Ability. So one of the things that I get to do at Datadog is actually I get to meet a lot of the engineering side Mhmm. Of the equation, talking to us about our security platform and products and how do we get their security team to use it. And they told me the same stories that I'm sure you've heard of.
+
+Like, I get a thousand tickets. None of them are relevant. Security doesn't know what we're doing. There's no intent to even understand the systems. And the number of times I hear a security person telling me that their developers write crappy code, it's just mind boggling.
+
+And I'm like, Well, then you do it. Exactly. See how good you can do it. Probably know better. Yeah, exactly.
+
+Or maybe it's good code, but they're not fixing your noise vulnerabilities, and therefore you think it's crappy code. Yeah. I mean, oftentimes, with code bases, this was the learning experience for me, that in isolation, you'll find these issues in code, but then there's a framework, a layer up that's actually mitigating any potential fallout, and so it's like, whatever, it doesn't matter. And I just think I think, yeah, security people tend to have an issue, a blind spotter on some of that stuff. Yeah.
+
+I I guess in I I guess sort of like as we sit here, you know, the the the number one story on Bloomberg right now is that AI has gone wild, and the world is over, and everything is getting hacked. You seem remarkably calm. So maybe before we go, like, we'd love to get your take just on sort of like, you know, supposedly there's this great white shark cruising out there just eating people without them knowing. But in general, like, I just haven't noticed a sense of panic from CISOs. Like, what's your take on all of this?
+
+I mean, the way I see it is it's it's if it's not an AI model, it's gonna be something with somebody or something with actual malicious intent doing it. So therefore I don't panic. I do I do worry about our access to those same capabilities. Mhmm. I do worry about the lack of regulatory framework that's deciding who gets access to these capabilities.
+
+Yeah. Yeah. I feel you on that. It's sort of like, it's really interesting who's getting access to this space. Yeah.
+
+And it's sort of like, what's at play here? But then and and then it's clear that it's or or or or communicated in a way that makes it or portrays it as clear that is outside of the Frontier Labs hands. Mhmm. And so, like, we have to put our company name on the list, and then we're supposed to wait. And then when I ask what's the criteria for how these things are evaluated, I get Jazz Hand's response.
+
+Yeah. But then you come to a conference, and you talk to your buddies, and they've had it for nine months? Yeah. Yeah. And they're making stuff that's way less critical than, like, bigger product.
+
+So our argument was like, hey. Some of these companies are using our stuff. Yeah. Wouldn't it make sense for us to get access so we can protect the stuff that you're using? Exactly.
+
+Yeah. I'm sure there's a lot of government agencies running Datadog software. And vice versa. We have a lot of also companies that provide services to the government and state of So yeah, so I'm not worried necessarily about the models escaping sandbox and finding old days. I actually think inherently it makes things better for us.
+
+Because guess what? We're talking about it. Bloomberg is talking about it, you just said. So before, we were like, Well, nobody's talking about it, so who cares? But am I worried about one of those things hitting Datadog and something happening where it's like, Well, it's either a model or somebody else.
+
+Like, if we have a gap, we have a gap. At some point, it's gonna get discovered. So I'm not too worried about that. What I worry about is the volume of things that are going get discovered and the things that are telling us how to handle that volume are not Yeah, 100%. So the, must fix every CV that's in your environment to now you're going get a 1000x more CVEs in your environment.
+
+Well, two things don't necessarily So align I'm hoping that side also changes to the current day of things. That's what I worry. Then the, sorry, and lastly, like the other thing that I worry is the hypersensitivity to the security of these findings because of the fact that it was found by a model rather than a human. And I'm already seeing some of that where like, Oh, Model X found this, so it must be extremely critical and true. Then you're looking at it and you're like, It's actually not.
+
+But it's kind of hard to argue. That it's us arguing against this thing just because a Greek god found it doesn't mean it's actually a critical thing. But I think, the the the third party risk management game is gonna get really crappy even more so than it is because of this thing. So I hope eventually those things I do worry about. But a model escaping and hacking companies and all that is like, well, I mean, they were gonna get hacked no matter.
+
+Yeah. There's always been hackers. Right. Yeah. There's two more now and whatever.
+
+Yeah. Yeah. There are two really good ones, but hopefully they make us better rather than, like, making us worse. Well, and I think I think the lesson that I have learned throughout my entire career is that any attempt to gatekeep security fails. Right.
+
+Yeah. And it only makes things worse and that an open and free discourse on these things is the only way to get better. Yeah. Yeah. Exactly.
+
+Thank you for joining us and having that discourse, man. It's been awesome. Yeah. Thanks. Enjoy your time at the conference.
+
+Thank you. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a 16 and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

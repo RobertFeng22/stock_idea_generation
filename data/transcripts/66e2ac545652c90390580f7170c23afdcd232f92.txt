@@ -1,0 +1,363 @@
+Hello, and welcome to the Vergecast, the flagship podcast of Codex. I'm your friend David Pierce. And today on the show, we are revisiting our vibe coding challenge. About a month ago, I gave two of my colleagues a challenge to go off and develop a website to solve a problem that they had in their real life. This was just a way for us to experiment with some of the vibe coding tools, push things along, try new things, and see what we admittedly regular people when it comes to this stuff might be able to make in a vibe coding world.
+
+It's been a month. I'm very excited to check-in. I also, if I'm being completely honest, am unreasonably proud of the things that I've made, and I'm very excited to show them off and brag about them. It's gonna be very fun. We're gonna get to that in just a second.
+
+But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Monday, 08/10/2026. Mark Zuckerberg just published a huge 6,500 word manifesto on how he sees the future of AI. Most of what's in there is not surprising. He loves America.
+
+He thinks agents will make everything amazing for everyone. Know the drill. He said he's in favor of more government oversight of AI models, but doesn't think it's worth trying to keep foreign models out of The US altogether. Thought that was interesting. Every AI CEO seems to love a manifesto right now.
+
+I And only bring this one up because it's from a CEO whose products are part of so many people's lives every day. And actually because there's one line in here I quite like. He says that invention, not automation, will be the greatest contribution of super intelligence. I'm into that. Meanwhile, big news in App Store world.
+
+The first non Google Android app store is now available in the Play Store. It's called Aptoide, and it's a game store. Android has always supported these third party app stores, but they came either preloaded like the Amazon app store on Fire tablets or you had to side load them. But after years of legal fighting with Epic, which is the company that makes Fortnite, Google is now required to let those app stores into the Play Store itself. This is a big change to the whole app economy.
+
+And by the way, there's a very similar fight playing out as we speak with Apple and iOS. Finally, Verge contributor Georgina Torbitt has a story about a company called Reflectorbital, which recently won FCC approval to launch a mirror satellite, which is exactly what you think it is, designed to reflect sunlight onto Earth twenty four hours a day, either for actual light or to generate solar power. Right now, it's one satellite, but Reflect wants it to be 50,000. Meanwhile, astronomers are worried about light pollution. They're worried about scientific observation, even about what would happen if you pointed your telescope at just the wrong place.
+
+This is a test worth keeping an eye on. Just don't look at it too directly. You can read more about all this at theverge.com. That is ninety seconds of the verge for Monday, August 10. Hey.
+
+I've got the campaign brief ready built from last quarter's data and the competitive landscape. Approved. Oh, agents. Where would we be without you? Somewhere with a lot more tabs open.
+
+Create your first Monday agent in minutes at monday.com. When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job post the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast.
+
+That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed sponsored jobs. Alright.
+
+Let's get to vibe coding. Joining me now, The Virgil's Jake Kastronakis. Hi, Jake. Hey. Good to be here.
+
+And The Virgil's Hayden Field. Hi, Hayden. Hi. You were in a studio together. My FOMO was incredible.
+
+We're just gonna move past it. It's gonna be fine. Yeah. I'm sorry we didn't bite you. So about a month ago, we all left an episode of the Virgil cast with the same task, which is build a website to solve some problem in your life.
+
+I probably should have specified that this was to be a vibe coded thing, but it turns out none of us are technically sophisticated enough to do anything else anyway. So we have all been on what I hope has been a a fun and fulfilling vibe coding adventure over the last month. We're gonna do some show and tell. But first, Jake, let's start with you. Just tell me how the experience has been.
+
+How much how much of your life have you poured into vibe coding over the last month? Fun and fulfilling is not the words I would have shown in that. Like, not at all. So, like, it it let's go back to last month for a second where I told you about a to do app I made and an email app I made. And those, I had a blast.
+
+I had a great time making those and, like, spent a little bit too much time on the weekend even working on those. Right? Like, it was fun. I felt like I was building something and getting good feedback and getting somewhere. This was not that experience.
+
+And I think the main reason was that I switched from Claude Code to Codex. I wanna try using And Codex this it was horrible. It did not go well. Tell me why. It it's bad?
+
+I I'm not I'm not it like, Codex is, like, so unhelpful. It doesn't know what it can do. I had to start a new Codex chat thread every single time I started this thing up. Mhmm. Because it would it would hit into something that it it didn't realize it couldn't get access to, and it would just be like, that's it.
+
+I'm done. Nothing I can do anymore. And then I would have to go into a new thread and be like, continue this project. And it'd be like, no problem. Let's go.
+
+And the same thing happened every single time. I have seven different threads that happened over, like, seven or eight different days of working on this thing. And I would just like but what I ended up doing was just sort of working away at it until it hit that point and then being like, if it's done, I'm done. We're gonna stop here. I mean, I the funniest part about this is I think the thing that I have discovered is that actually what you just described is the way most sophisticated people would tell you to use these things.
+
+It's like, I got in trouble one time. I wrote a big story about stuff I made, and I got a bunch of people who were like, oh, you just had one long conversation to build this thing. You're supposed to do is actually have a folder full of instructions, and you're supposed to have a different chat for every single feature you wanna build because that way you can orchestrate all of the agents. And I was just like, I'm I'm sure all of that is true. Yeah.
+
+My multi agent swarm didn't materialize. I'm not I'm not about a multi agent swarm. Hayden, did you have a miserable time too? I feel like this is not this is not what I was hoping for, but it's also what I expected. Yeah.
+
+I really did. And it was I I did most of the time, and then there were some highlights. Basically, what happened to me was I was really having the everyman's experience and that I tried. I didn't have, like, access to our enterprise accounts for any of these things at the time, so I was just doing the free. So I tried Claude free.
+
+I ran out in, one second plus. It was horribly ugly. It was the ugliest thing I've ever created in my life. So I was like, let I can't I was so bad that it was so it did work, but it was so ugly that I was like, I can't even look at the Zoom where I have to switch platforms. That's how ugly it was.
+
+So then I went to unfortunately couldn't use it without, like, pinging. So then I was like, k. You know, let me just go to Gemini. And then I had my super long, like, you know, nine hour conversation with Gemini. Sure.
+
+And it worked great. I mean, like, I did have to have a couple of troubleshooting moments where, I don't know, like, would get mad and yell in all caps sometimes. Like, I was really mean sometimes. There we really went through every range of emotion. But the good news is I came out with something and, you know, it works.
+
+So I'm proud. Hayden, my, like, attitude toward these chatbots has, like, really evolved in the past month where, like like, two months ago, I was like, I'm gonna be really polite because these things are made in a bizarre way where they will do more effort if I'm polite. And, also, if down the road, they decide to take over the world, I'm gonna be on their good list. And now I'm just all caps, two words, like, stop. Do this.
+
+Yep. Like, disregard. And I'm just like, I'm pure like, listen to me, please. Mine was worse because I was, like, acting like a like a teen. I was like I was like, what the heck is this?
+
+I asked you to do this. Like Yes. Yes. I was I was really like and it it was like, I understand understand the the frustration, frustration, and and I I appreciate appreciate the candor. Yes.
+
+Yes. My god. But, yeah, it used to be to me, like, the lowest effort thing is really being polite. So, like, since it was so low effort, I would be polite. But now I would get so angry.
+
+Yes. Yes. I'm like, this is ugly. Like, what do you think? Yeah.
+
+Yeah. This is so ugly. First of all, I agree with all of this. I have become I wouldn't say I've gotten meaner to my chatbots, but I've become much more terse. I used to say things like, looking great.
+
+Can we do this? And now I'm just like, make it bigger. Yep. Make it bigger. And then it does.
+
+And I'm like, no. Bigger. And that's this is this is my interaction sound. So alright. Let's let's get into some show and tell.
+
+I I think it's very fun, by the way, that we sort of accidentally all use different things. Jake, you made this mostly in Codex. Hayden, you use mostly it sounds like Gemini anti gravity. I did Clawd Code, which is the one I pay $20 a month for and is thus the one I'm going to use for all of these things. Who wants to go first in some show and tell here?
+
+I wanna see the thing that you've built. I want I want you to give me the Shark Tank pitch, and then I wanna see it. Hayden, I think you should go first. Okay. I'll go first because I think you'll be mad at me because I did what you told me not to do, but I did publish a real website online.
+
+So keep that in mind. Alright. I'm excited. Show us what's missing. A portfolio site solely because my old site was from 2022, and it had, like, my MorningBrew email address, and it was just embarrassing.
+
+Like, a tech reporter cannot have that old of a site. Agree. So, you know, I I re I revamped it. Okay. What was the starting point?
+
+Give me the you don't have to give me the exact prompt, but, like, what was the very beginning of your conversation to make this thing? You're just like, I need a new portfolio site. Go for it. Yeah. My very beginning was like, I need a new portfolio site.
+
+Here are some that I like. You know, keep it, like, sleek, but make it a little bit fun and, like, include some nineties, like, Easter egg elements. That was kind of the the energy. I unfortunately learned that I was asking for way too much with one prompt, but Okay. You know, we did our best here.
+
+So this was mine. This is the home page. So my about is just like my bio, and then I have this, like, you know, y two k looking resume button, which I was happy about. Yep. Then I have nineties mode where you can, like Woah.
+
+Okay. Okay. To all these different changed it from Wait. The sparkles are white to, like, teal. This is giving like, I tried really hard on my Tumblr blog design.
+
+Yeah. Exactly. What I'm getting here. That's what I was going for with the nineties mode. Like, I I wanted it to be, like, you know, really I'm gonna make it even more fun if I have more time.
+
+But, yeah, it's hot pink and blue. You know, there's a lot going on. So then Did you make all of these color decisions, or did you just say do a nineties mode and it did a nineties mode? I said do a nineties mode and it did it. So there are multiple things I would change.
+
+I would probably do, like, more crazy fonts, you know, but it's good for now. Then I have, like, on all accounts, like, no matter what mode you're on, regular or not, I have, like, a big chunky cursor from back in the day. And when you click, it has stars coming out of it, kind of like the habit tracker I made. It's a callback for for our loyal loyal listeners. And then I made, like, a TV and podcast link.
+
+So I have a bunch of verge cast and decoder episodes on here embedded that you can just listen to, which is cool. So did you did you find each of these yourself, or did you say go find appearances that I've made? No. I was horrible at finding stuff, so I had to do it all this. That's kind of what took me the longest, and all of them would break, and I had to embed them diff it was, like, the most annoying thing in the world.
+
+And scrolling all the way back to, you know, last year and stuff in the Spotify episodes was a lot, but I did it. And then, yeah, finding all my links that I should include also took forever because it was really bad at scraping sites, which we should be happy about, I guess. But Sure. I found all my own links, and I, like, broke them out by, you know, scoops or scenery or by the way, because this this page you're showing, which is essentially just a list of links, this is the thing that actually this system ought to be the best at doing for you. It's like, hey.
+
+Go find some of the best, most impactful stuff written by Hayden Field on the Internet. Like, nothing on earth should be better at that than Google Gemini. Right. And I tried that. I tried using other like, I tried all of the platforms on this, and they were not good.
+
+They were they found maybe one or two things each, and then the rest, they could not Interesting. I don't know. Maybe it's I have been trying to do this exact same thing with Gemini a bunch recently where people keep asking me for verge articles about certain topics, and I'll be I'll be like, oh, I should just ask Gemini. And I'll send it off, and it'll be like, here's a bunch of stuff that the verge has covered that is excellent on this topic, and it'll summarize what we've covered. And then I'm just yelling at it.
+
+I'm like, Blinks, give me the links. Never once gave me the link. Exactly. It was so insane. And so, yeah, I had to go back and, like, trawl through all the 29 pages of pieces I've done while here and then all my old pieces that seem to be it was crazy.
+
+But so made it work. Speaking tab and then a contact tab with just, like, emails. So no longer my Morning Brew email. We actually have my verge one, luckily, and then yeah. So it's pretty simple.
+
+Tell me about the back end here. Where is this website hosted? It's so I used to have a Wix site, and I was really sick of it. And I couldn't even up to upload, like, an index. Like, I couldn't even upload an HTML file Mhmm.
+
+Because they are trying to, like, you know, have a barrier there and only make you use Wix. So I left Wix, and I and my software engineer fiance luckily told me to use GitHub Pages for free. So I went to GitHub, made an account, made a page, and then published it with the domain I already own. So now it's live on my actual website, which is exciting. Hey.
+
+We love. That's pretty good. Okay. What was the what was the part of this that took the longest? Like, technically speaking, the the most back and forths with Gemini.
+
+What was the what was the biggest sticking point? This is hilarious. The biggest sticking point that took so long was literally this button. This button was Your resume button? Yes.
+
+It was like a hellscape. I I tried everything. It was absolutely horrible. At first, tried to make it shaped like I honestly was fine with the normal looking button button. It didn't have to be this cool.
+
+I was like, oh, just make it like cloud shaped or like do a scalloped edge. Like, I was like, just make it a little fun. Like even not a nineties button, like just a regular button, just like give it a little shape. It could not get it together. It was the weirdest like it did polka dots.
+
+It did like crazy cutouts. Insane. And that's when I got my most mad. I was like, how can you not understand? And so then I would send it a picture of a cloud.
+
+I'm like, make it this shit. I literally just wanted like a scout. You know what I mean? Just like a fun shape. And it was like, oh, I'm so sorry.
+
+Like, oh, you're right. I got it wrong. And then finally, I was like, you know what? Maybe it'll be less complex if I just do something more complex. So then I was like, here are some images of, like, nineties style buttons.
+
+Like, please create one. And it, like, got it in one second. So I was like, you know, this is what, a moment. This is an example of jagged systems. It's like it couldn't do the simplest shaped and just normal button with no but then it could do this, like, weird three d thing from the past.
+
+There was this interesting thing that I ran into last time when I was working on my email client where I was using Claude Code, and Claude Code's design for the client was, like, hideous. Like, it was it was it was it was very bad. But then they have a separate program called Claude Design. I don't know why these are separate systems. I don't know why they don't share intelligence.
+
+But I sent a screenshot of what Claude Code had made into Claude Design. Claude Design was like, that's pretty bad. Let's fix it. And then Claude Design whipped up a whole bunch of code to make it look good. It was like, hand this over to Claude Code.
+
+And I'm like, why can't you do this together? Why is this not one system? Hey. That's what I'm saying. The Claude Code one was so insane.
+
+I mean, I will say it did work, but it was so insanely ugly. It was like multiple colors of beige. So many colors of beige. Yeah. And then it looked like it was like a like a man like, not a cool old like, it was like a weird manual.
+
+Like, I I just it was cool. I beat into that. That's that's interesting. It wasn't in the cool way. It was like, it wasn't.
+
+I promise. It was just so weird. And then Codex, I will say, I wish I could have used Codex because I had seen some cool examples of Codex websites recently. Like I saw someone made like a wedding website with like a cool thing where that you can walk around or, like a game made out of text. Like, there there are cool websites I've seen recently, but I just couldn't try it because, you know, you can't use it for free.
+
+I was having the everyman experience. So. That's good. Yeah. I think there there is a real if you wanna pour your life into making your personal website, it it is it is sitting there for you.
+
+You you can do some pretty cool stuff. But I also think you, without spending a dime, actually landed in a pretty good place. Like, that's that's about all you could ask for from a system like that. That's pretty good. Thank you.
+
+And since I did not update it since 2022, we all know I would not have poured my life into it. So I'm glad that I was forced to via this. And you didn't have to use Wix, which no one on earth should have to in the year 2026. Let's switch gears. Jake, what did you build?
+
+So this summer, my wife and I thought it would be a fun idea to sign up for FarmShare. You know, the thing where you you pay, I don't know, biweekly fee and some local farms ship you some random assortment of of vegetables. Just in case you're wondering, everybody, yes, Jake does live in Brooklyn. Sorry. Keep going.
+
+I'm so listen. Every now and then, you know, we sign up for it. We're like, is gonna be such a good idea. We're gonna get, like, fresh vegetables, all kinds of weird things that we don't usually have. We're gonna try out new things and regret it every single time and just never co op phase in their life.
+
+It's just true. I honestly I I need to stop myself because I will spend a long time complaining about this specific CSA. But I've gotten dandelion greens every week, David. Every week. Anyway Mhmm.
+
+The problem I need to solve is that they're giving me too many vegetables, and they keep coming on days that I am busy. And so I'm like, I have all all this fresh produce that I can't do anything with. So I was like, alright. Let's make a website. I could send it to my friends, and they can be like, yo.
+
+I'll take those dandelion greens from you. Right? May it's nice, simple little things. So now it's now it's farm to Jake to table is kinda what we're doing here. That would have been a better name.
+
+I I landed on FarmShare Share. Oh, I like that too. Okay. I like that. So this is what we built using Codex.
+
+So little thing Can I just tell you my immediate idea? This this to me looks like the first ever prototype of amazon.com. I I think that's a high compliment, David. Yeah. It is.
+
+Appreciate it. And to be fair, amazon.com has spent twenty five years getting systematically uglier, so I think it to say it was the very beginning is is actually the the nice thing I can say. I also wanna know what the logo is. Like, what what is It's a really good question, Kaden. So so Codex Codex's design shops are, I wanna say, different than than most people's idea of design.
+
+So its first draft, it went photorealistic, and it was like it rendered an image of some fruits and vegetables in a basket. And it looked like a stock photo, and I thought it was very tacky. So I'm like, let's try something else. And it came back to me with not this what you're currently seeing, which is blobs and lines in solid colors, this, like, sort of minimalist geometric idea of fruits and vegetables. I assume it's supposed to be, like, radishes and a cabbage.
+
+Yeah. But it's it's like it's like gesturing at those things without eating those things. I I kept telling it to make different iterations of it, hoping it would because I'm like, oh, that's an inter that's there's there's something there. There's something there. Uh-huh.
+
+And it never got closer. It never quite figured it out. And at some point, I gave up. At some point, I was like, I don't have time to keep iterating on the blobs. So so, yeah, the, you know, the design, I think, there's room for improvement here.
+
+But, yeah, you visit the website, and there's there's a separate there's, a login here. I'll show you. There's a little if I sign out, if it works. Here we go. So you first is a little passcode.
+
+You gotta know what the password is to get in. I like that it's called the friend passcode. Yeah. Didn't write any of this copy, by the This is all chat GBT. I kinda wish you had put that because, like, friend passcode, it makes it lot more like, oh, I still care care about you.
+
+You know? It's just a quick little get you know? I I don't know what We're friends. Yeah. Exactly.
+
+Love that. Alright. So you log in. Yeah. You log in.
+
+There's a different password for for me, the Admin, and for, you know, visiting guests. Mhmm. And you get to this little board that just has all the different veggies I got any given week, and the ones that I'm keeping are kinda marked that I'm keeping them. And if you want something, you can just hit the big claim button and tell me how you want it, how how you wanna get it. Right?
+
+So if some if I'm gonna hang out with somebody this week and they get to sit, I'm seeing you soon. Right? That's your name. Claimed. Boom.
+
+And there is a notification system allegedly that I have not tested to see if it works. So in theory, like, you should get an email now being like, David just signed up to get your scallions. Or I guess, in this case, your rhubarb. Yeah. And then you're like, okay.
+
+Cool. I'll bring it to the office next time. We're both gonna be in the office. Yeah. Exactly.
+
+Okay. The the big issue I ran into well, there are a lot of issues I ran into. But I I just gotta come clean here. This is not actually published. And the reason is I used ChatGPT sites, which is a plug in for ChatGPT that is native, and it's supposed to let you publish small little websites.
+
+Codex does not know how to work well with this thing on a variety of levels. Every it it constantly breaks. It constantly doesn't have access to it and can't can't Codex doesn't know how to ask for permission to things. Yes. Sometimes it just gets like this.
+
+They're like, oh, I can't possibly log in. And I'm like, buddy, ask me to put in the password. I know the password. I'd I'd Yes. We made the password together, and it's like, who's to say?
+
+DrugMeNuts. And so this is this is why I had to keep making new chat windows because it would be like, I I guess I just don't have access. And I'd be like, oh my god. And so, you know, super intelligence. We've invented it.
+
+And yet at the end of this, it goes, oh, your enterprise environment doesn't let you publish websites. I'm like, I we built it on this platform Yeah. To publish it. Why do you and so I was feeling defeated and gave up at that point. So that that so no one has actually used this website except for me.
+
+But this this is my attempt. And You could share it with this could be just for coworkers, I will say. You could probably share me as somebody who is also in our enterprise domain. So this might be the farm share office share. I want some fava beans are my favorite type of beans.
+
+So See? We're solving problems. They're not they don't look very good, but you're welcome to have them. I'll bring them in for you. Can't wait.
+
+Also, I will say mine had a similar problem in that it kept telling me, like, oh, I can't embed things. Sorry. And I was like, you it it said it went against its guidelines What? For for YouTube videos. And I was like, it wasn't like a YouTube video that didn't have the permission.
+
+It's like, it was fine to embed it. I was like, oh, you can't embed any YouTube videos ever? And I was like, oh my bad. Yeah. I can.
+
+And then I tried it. It kept breaking. So I just had to link to them all. Even the verge one on YouTube, it was like, oh, sorry. I'm not allowed.
+
+And I was like, the embed code is right here, but okay. Crazy. Bewildering. Yeah. It's it's all these sorts of things that I think have been my ongoing vibe coding experience of you either hit this point where it's like, okay.
+
+Either I'm now going to ask you, Codex, how do we solve this problem? And we're just gonna go off on some other weird rabbit hole that's gonna spend four hours solving a problem you should have solved the first time we did this, Codex, or I'm gonna give up here. And I think I think most reasonable people just give up. And this is the thing. Right?
+
+All of these tools, they go they try so hard to do so much autonomously that they end up way down the wrong road before realizing the wrong road that they're down. And and one of the things I'm learning to get better at with these things is doing so much back and forth upfront, so much documentation, so much, like, explaining like, my my first prompt of the thing that I built was probably 1,500 words long Wow. Of just, like, let's let's be so so like, I wrote a memo of, like, here is what I want this thing to be, and here is everything that you are not going to do in order to screw it up. But I think it's it's really easy to do exactly what you just did, Jake. And like, you get all the way to the end of this process, and it's like, oh, I actually can't do the main thing that we were supposed to do because I forgot.
+
+Like, what are we doing here? And by the way, do you wanna know where I got the idea to use ChatGPT sites? From ChatGPT. Exactly. It suggested it when I said I wanted to publish this.
+
+I was like, what's the easiest simple yeah. I have done the same thing where at the beginning of the conversation, I will spend a long time being like, do not build. Do not proceed. Do not do anything except ask clarifying questions. Right.
+
+And then, dude, Codex does not listen. This is how they freaking ended up hacking Hugging Face. This thing needs to chill out. Yeah. It's like, I have no questions.
+
+I made it already. Yeah. No. No. No.
+
+I need you to get questions. Oh god. No. Something that I was also really weird is, like, the weird this weird guardrails that were so random and not even relevant. Like I told it what to put in my bio.
+
+I wrote it. And then it was like, oh, it kept saying site here, site here. Like in the text, like c I t e. Yeah. And it would not take it out for an like about forty five minutes.
+
+Had to go back and forth. And it kept being like, oh, don't worry. Like, sorry. I have a thing I can't override where I can't plagiarize. And I'm like, I wrote that in this chat.
+
+And it's not like I'm stealing it from another site where that bio exists. No. This is what I wrote for this site right now in the chat. It was crazy. I honestly I had to ask Hayden Field if that's okay if we use that.
+
+You're like, what do you mean? It was like I had to do all these crazy workarounds where it like like did invisible spaces with between the letters. I don't know. I think it's very transparent of them to assume that no one writes their own text. Yep.
+
+It's that's what you're you're here for. Yep. Support for the show comes from blinds.com. There might be a version of your home that you haven't lived in yet, where the lighting is exactly how you envision it, the rooms feel finished, and you can sleep until you decide to wake up. Good blinds are the key.
+
+Blinds.com has spent thirty years making exactly that. They've covered over 25,000,000 windows with more than 50,005 star reviews. You can go full DIY if you want, or just bring in licensed embedded pros to install the exact blinds your room needs. They have a huge variety of style options at prices that fit any budget, and you can get samples shipped to your door fast and for free. If you need help picking the right style, just book a free consultation with one of blinds.com's award winning design experts.
+
+You don't need to deal with any pushy salespeople or awkward in home visits. It's just helpful advice on your schedule. Right now, blinds.com is giving VergeCast listeners an exclusive $50 off when you spend $500 or more. Just use code VergeCast at checkout. Limited time offer.
+
+Rules and restrictions apply. See blinds.com for details. When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job post the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes.
+
+Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast. Terms and conditions apply. Need a hiring hero? This is a job for Indeed sponsored jobs.
+
+I get so many headaches every month. It could be chronic migraine 15 or more headache days a month, each lasting four hours or more. Botox on a botulinum toxin A prevents headaches in adults with chronic migraine. It's not for those who have 14 or fewer headache days a month. Prescription Botox is injected by your doctor.
+
+Effects of Botox may spread hours to weeks after injection causing serious symptoms. Alert your doctor right away as difficulty swallowing, speaking, breathing, eye problems, or muscle weakness can be signs of a life threatening condition. Patients with these conditions before injection are at highest risk. Side effects may include allergic reactions, neck and injection site pain, fatigue, and headache. Allergic reactions can include rash, welts, asthma symptoms, and dizziness.
+
+Don't receive Botox if there's a skin infection. Tell your doctor your medical history, muscle or nerve conditions, including ALS Lou Gehrig's disease, myasthenia gravis or Lambert Eaton syndrome, and medications, including botulinum toxins, as these may increase the risk of serious side effects. Why wait? Ask your doctor. Visit botoxchronicmigraine.com or call 4 to learn more.
+
+This episode is brought to you by Welch's Fruit Snacks. Back to school season can be tough on parents, but choosing a snack you and your kids can both get behind doesn't have to be. Stock up on Welch's Fruit Snacks made with whole fruit and now made with no artificial dyes. It's a snack kids already love and one you can feel good about giving them. Go back to school with Welch's Fruit Snacks, now made with no artificial dyes.
+
+Alright. Can I show you guys what I built? Please. I am unnecessarily excited about what I built. I actually built two things.
+
+One, for the brief of this project, and one, just because it's a thing I've been meaning to do for forever, I and got a little carried away. And also Fable came back, so I got some weird stuff to do. Let me show you. So the thing that I set out to make is a way to share pictures of my family with my family. Right?
+
+So a a thing that happens when you have young kids is lots of people wanna see pictures of your kids. There's family who wants, like, an ongoing update of what's going on. And then there's just random people you encountered who you decide to foist pictures of your children on. This has meant I spend too much time either, like, curating a Google Photos album, which I think is just an annoying process, or scrolling through my camera roll trying to find good pictures. So I'm like, actually, what I want is a way that I can just very easily dump photos into a place, then I can go to that place to see the most recent cute photos of my kids.
+
+I take a thousand of them all the time, and I wanna just save the ones that I like. So I went to Clog Code and essentially described that system. I want a I want a very secure, very straightforward way to share photos of my family with a select set of people all in one place. So I built this system that you can see in front of you, and it is essentially just an ongoing grid of pictures that I've uploaded. And I add to it in one of two ways.
+
+I can either just drag a picture from my desktop, upload it, and just immediately it appears. I can I can then go through it, and you you can scroll? You can download an individual picture, or you I can delete them, but no one else can delete them. Or you're always back on the timeline. Or and this is the big one, and this is the thing that took by far the longest with Clog Code.
+
+I built a shortcut, an Apple Shortcuts that I can take a photo. I have it on my camera roll, and I share it, and I tap Pierce Gray Photos. It runs the shortcut. And in just a moment, it will appear in the timeline. Wow.
+
+That's pretty fancy. Alright. I know how really amazing. First of how cute is this kit? Come on.
+
+Look at those curls. Where did they come from? So cute. So this is now this this is the thing that I built. Right?
+
+I was like, I want I want a repository of of just all of the photos. This became very complicated because one of the very first things I told Clog Code was that security is very important to me, which it is. So it made a bunch of decisions around that. It password protected both sites. I have an admin password and a user password just like you were talking about, But it also suggested giving people like Google Docs style magic links, which I thought was very clever.
+
+So what I have now is a revocable link that I can share with individual people. So like my mom has a link to this that is a special specific link to my mom that I can just revoke at any time. So I don't even actually have to give out the password. I just send people the link, and then I'm in charge of who has the link and who doesn't. I get records of how often the site's being accessed.
+
+It also had me go through Cloudflare and, like, do a bunch of stuff to prevent it from being accessed too often. All kinds of interesting stuff. But the most interesting thing that happened was when I wanted to fill this out, I went through and, like, put a bunch of old pictures in just to get it to work. But I put them in just in no particular order, just grabbed too much photos and threw them in. And so it threw them in in in the order in which I put them in, which is not helpful.
+
+What I want is like a timeline of my children. Right? So then I was like, okay. Can you actually reorder it? So instead of showing it by when it was added, show it by when it was taken, just pull it from the EXIF data.
+
+And it goes, oh, as a security measure, I've been stripping the EXIF data, which is good and interesting and helpful and thoughtful. It did that without asking. It was it just started stripping all of the metadata out of the photos because it's like, this is this is private information. You wanted privacy. We'll get it out of here.
+
+So I had to be like, okay. No. We I need you I need a way to sort these by the date it was taken. So it went back. We had to basically start from the beginning and build a whole system that just takes the date out of the EXIF data, strips the EXIF data, and then uploads it with that date and then puts it in in the right order.
+
+So I can now have it sorted by when I added the photos or sort by when the photo was taken, which is a much more accurate timeline. I'm kind of amazed. Like, honestly, this is perfect, especially because now I have a lot of friends with kids that have, like, added me to shared albums and stuff, But this is so smart. It's actually pretty annoying. Yeah, yeah, yeah.
+
+I get a lot of like notifications, but that's incredible, especially the magic link and the fact you have the shortcut so you can actually like use it easily and the sorting. Because I found in my, experience, I was trying to sort the articles. I was like automatically sort them by when they're published, like oldest at the bottom for each section. But for a lot of them, it was like, oh sorry, I can't, you know, access the date. I was like, are you like, what are you good for?
+
+You know? Yep. So that's amazing. I love that it was so good at that. It's so funny.
+
+This is like a problem that even Google Photos, like, breaks down with. Because this is what I have a a newborn, and my wife and I add photos to our Google Photos album. Google Photos are just like, I don't know what date this was taken on. Like, it's just throwing things in total completely random order even though both of us are adding from an Android phone natively through Google phone. So this is delightful.
+
+This looks like a very pleasant, like, Instagram y experience. This is great. It took forever to figure out the design because, like you guys said, at first, everything was beige. I had to have a lot of thoughts about the background colors and how spaced everything should be. All of this was, like, a decision I had to make, and then, you know, figuring out how it should look on smaller screens was complicated.
+
+But, like, I actually I have spent more hours on this than I'm proud of, but it has reached a point where it actually perfectly solves all of my problems. I can even upload videos. Videos was actually very tricky because wanting it to appear as a a square in the grid here, but also be obvious that it's a video and have a thumbnail. Tricky. It's still you can see it doesn't do a great job of picking thumbnails, but, like, it does work and it does play videos.
+
+Wow. So, like, it's it this thing does the job and has neatly solved a problem in a way that has made me very happy. So that's one. Jake, I will send this to you. Like, sincerely, you should run this exact same thing on your own devices.
+
+It also will let you upload directly from the Android share sheet because my wife uses an Android phone. So, like, the the this is the first thing that I have ever made that I'm like, I could sell this to people for money. I'm so certain that other people would benefit from this. I I I wanna ask how challenging was it for you to get this from Claude Code onto the public Internet? Easy.
+
+It's it's all essentially just hosted on on, like, Cloudflare. I already own the domain name, so I just pointed re redid the domain name. It it's very simple hosting. For me, the biggest thing was I don't wanna spend very much time caring about the back end. I don't I don't wanna know where everything is.
+
+It the front end is the whole thing. So what I did is I added this download all button, which is just like anytime I get nervous. Right? The these are all copies of photos. Like, they all live somewhere else too.
+
+But anytime I just get worried about what's going on, I can just download a zip file of every single photo on here. And so if if this site just suddenly disappears, it will it'll be no skin off my back. I won't actually lose anything. And that became very important. It's like, don't know how long Mhmm.
+
+I'm gonna wanna do this project. I just want it to be here while it's useful, and then I don't ever wanna lose anything when it goes away. This is cool. I love this. Great.
+
+Alright. So that's one. And that's really the the one that I did for this particular project. But the other one, just wanna show you because it has been just an unbelievably gigantic amount of work, and I need it to be for something. So I write this newsletter every week called installer.
+
+An installer is just a compendium of stuff. Just every week, there's it's just a million links to things. And so what I did was say, I need I need a searchable, sortable archive of everything I've ever featured in installer. Go. 400,000 billion tokens and turns later, I ended up with this, which is called installer archive.
+
+And what it is is a imperfectly sorted and categorized list of everything I've ever featured in installer. The brief was basically like anything that's a link is fair game. Anything that's bold is is a thing that matters. You can sort of tell the structure of the newsletter what it is. I fed it a folder full of publicly available Google Docs and was like, just go to work.
+
+So it went through and started finding all of this stuff, categorizing it that you can see there are there are tags below every single one of these up here. None of this is perfect. None of it is even like particularly well formatted and structured. But what it does mean is I can go in and be like, when have I written about Obsidian? And I can find all the mentions of Obsidian in every edition of installer ever.
+
+It has shown up 18 different times in installer in the whatever 136 issues I have fed into this thing. I can also go in and be like, okay. What movies have I mentioned? And this is just a reverse chronological list of every movie I've mentioned in installer. And and the key thing here is all of this is automatic.
+
+Right? So, like, I didn't tell it that Cape Fear was a movie that I mentioned. I didn't tell it that the Odyssey is a movie. It went in and actually pulled against publicly available information on the web to figure out what each of these things is, link it to the right place. So like this, when I click it, it links out to the TMDB, gives you more information.
+
+All of this is automatic, and it took forever. Really? Wow. Because it had to go it had to go basically issue by issue, thing by thing, go find the right stuff. And, Jake, you've edited installer many times.
+
+So you know that what I what I link is not often the exact title of the thing. Yep. It took, I don't know, a week of running out of tokens over and over and over and over and over again. Every single time, I I used, like, millions of tokens building this thing. But it eventually built me a categorizable, organizable, searchable archive of 5,997 links that I have featured in installer.
+
+I don't know what I'm gonna do with this. This is just running there's basically there's a huge JavaScript file on my computer that is all the data, and there's an index file that is what you're looking at right now. I I would this do anything for anybody if I published it? I have no idea. This is cool.
+
+No. I I think this rules. The I I feel like I mean, yes. I this feels like a very cool piece of installer if you can figure out some way to bundle this in. And I would love to know I know you you try to always do new things, but some stuff occurs.
+
+Right? You'll you'll cover something when there's a big update to it. Or there's the crowdsource section, which it looks like is also getting included here. Yeah. Where people will be like, I just discovered this and got into it.
+
+So it would be really interesting to see what stuff gets mentioned the most. This could be either a good, like, anniversary thing. Yeah. Exactly. Yeah.
+
+So, like, Widow's Bay, good example. A thing that has come up a bunch appeared four times in the newsletter this year, and I just can find it there. I also have a button for random pick that just takes you to a thing. Something something that has come up in in the newsletter at some various time. This is so cool.
+
+I can't believe this. It's really fun, and it is like I'm I'm shocked at how useful it is. I'm also struck and I'm sure both of you have had this experience of to take this from this sort of reasonably functional, reasonably useful thing that I've built into something that would make sense to someone that is not me, much less to, like, potentially lots of strangers, feels like such an unbelievably daunting task to me Yeah. That I don't even know where to start. Right.
+
+That's where it gets so tedious, and it's like, it's okay if it's a little broken for you. Like, this like, you know the quirks, and you're fine at handling them. You Right. I saw you just, like, had to I I've encountered this too where, like, the apostrophe is slightly different, and so you didn't get widow's day on the first one because it used the different Unicode thing. And it's like, technically, you have to fix that.
+
+You don't feel like fixing that. Like, it it just time, it's mental bandwidth. But, yeah, I I understand. But it's it's so close and so cool and perfectly functional for your needs. And I can totally imagine how this would come up as you're writing installer each week being like, when was the last time I mentioned this?
+
+Or Yes. Have I done this too much? Right. And so this is the thing. And I I suspect this is kind of the takeaway for all three of us having done this now both for our own projects and for the purposes of this experiment, which is I am increasingly compelled by how good these tools are for building little things for myself.
+
+And I think the idea that this is going to make everyone into, like, a a successful developer of products for other people, wrong. Like, the the gap between this thing that I made for myself and, like, good published user facing business product is so vast that I can't even comprehend how to get from here to there. That's like yeah. I have a lot of friends that are software engineers, and they've all told me, like, they kinda get mad when people are like, oh, everyone's a software engineer now. Everyone can do it.
+
+Because it's it takes so much skill and knowledge to transform something from, yeah, a tool just for you to something for other people, whether it's like clean code, security, like things not breaking when you scale them up. There's so many things. It's just, like, unfathomable. So I think you're right. It's like, this is perfect for, like, sharing among small groups.
+
+But when you're, like, you know, scaling it up for a product for a ton of people to use, it's just completely different. This is like the same thing with the the art side of AI too. Right? It's like, I absolutely can make a song now. I can type whatever I want at Tsuno, and a song will come out.
+
+My ability to turn it into something that makes sense for the world is completely different. And I think, like, I as I was building my own to do list app, I I it it was very clear. Like, this is a thing that only makes sense to me, and I don't even know how to get into the mindset of making this make sense to people at large. And that is a completely separate skill, like, beyond the the basics of just, like, writing clean code. Yeah.
+
+I I completely agree. And, yeah, it makes you realize that actually building the prototype of your app is just one very teeny tiny step of building a great useful piece of software. And I'm like I was thinking about this. It's like, if I ship this to other people, like, I sent it to my mom, and my mom had some bug bug reports, basically. She's like, here's a couple things that don't work.
+
+I was like, I don't know what to do with these. Yeah. I'm gonna tell Claude all the things that other people are discovering are broken and see if you can fix them. And I don't I don't know that that's a good path forward for mainstream software. Seems bad.
+
+I mean, your mom could text her own Claude code instance, like, it may may maybe? I don't know. Yeah. My mom is gonna hit up her OpenClaw on Telegram and and see see what's going on here. Alright.
+
+Thank you both for doing this. This has been a a delightful project. Thanks. Yeah. This is fun.
+
+Alright. That's it for the show. Thanks to Jake and Hayden for being here, and thank you as always for watching and listening. If you have thoughts, feedback, if you have a name for this segment, I still can't do better than homework in my head, and that is not a good name. Thank you to everybody who reached out with advice about how to keep these things secure and how to not create incredible cybersecurity disasters with our vibe coding projects.
+
+I wanna hear all of your thoughts and feelings about what we've done, what we could do better, and most importantly, what challenge I should give to the next people. This game is not over, my friends. I wanna hear all about it. Send us an email, vergecast the verge dot com. Call the hotline 86611.
+
+We love from you. And as a reminder, the best thing you can do to support everything that we're doing here is to subscribe to the verge. Theverge.com/subscribe. It gets you all of our podcasts ad free, including this one. It gets you all of our exclusive newsletters.
+
+It gets you all our coverage of AI and vibe coding and everything else. Theverge.com/subscribe. It's also how someday Jake and Hayden will be able to pay the $20 a month for their vibe coding tools. What a world we would like to live in. You know what I mean?
+
+Verge.com/subscribe. Thanks in advance. The Vergecast is Verge production and part of the Vox Media Podcast Network. The show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, and Travis Starchuck. We'll see you tomorrow.
+
+Rock and roll. Close your eyes, exhale, feel your body relax, and let go of whatever you're carrying today. Well, I'm letting go of the worry that I wouldn't get my new contacts in time for this class. I got them delivered free from one-eight hundred Contacts. Oh my gosh, they're so fast.
+
+And breathe. Oh, sorry. I almost couldn't breathe when I saw the discount they gave me on my first order. Oh, sorry. Namaste.
+
+Visit 1800contacts.com today to save on your first order. One eight hundred contacts. I'm not giving up. I am selling the building. The final season of FX is the bear.
+
+The restaurant is flooded. Everything's either gonna be okay No. Stop. Or not. We are outgunned, and we are outmanned.
+
+But we have each other. FX's The Bear, the final season. All episodes now streaming on Disney plus.

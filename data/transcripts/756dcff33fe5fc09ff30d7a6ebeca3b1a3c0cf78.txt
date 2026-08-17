@@ -1,0 +1,315 @@
+If you want to ship more and build faster, you have to create a founder like agency inside your company. A single engineer can do what two teams of engineers could do two years ago. Suddenly, the market opportunity landscape is just much broader, and you can do more with software. How do you guys ship so much product? Companies have skewed in that direction, where they've seen this new agentic efficiency and power as a way to optimize cost structure.
+
+Our belief, I'm being a little cheeky, but to build everything, yes, the Opus four five Cambrian explosion moment. We haven't had that in agentic commerce today. I think there's a few reasons for that. One is we are merging so much more code than last year, and it is stressing every system. So we create something called Stripe Minions.
+
+You're not gonna iterate, not go into planning mode. You're just gonna say, this is what I want. Go do it. That's kind of where the world is going. You guys are, I think, over 2,000,000,000,000 of volume now.
+
+What do you think is sort of the future state of how we all access models and tokens? I'm very bullish on AI is making engineers dramatically more productive. Stripe's response isn't to build the same things with fewer people. It's to build more. In this episode, a16z general partner David George sits down with Stripe's Will Gabrick to unpack how AI is changing the way one of the world's largest technology companies builds.
+
+They discuss Stripe's internal coding agents, which recently generated 7,000 full requests in a single week, why teams are becoming smaller and flatter, and how Stripe is trying to give engineers the kind of agency traditionally associated with founders. Then they look at what all this new software means for commerce itself. From AI agents sparring software from other agents to micro payments, stable coins, and why Will believes the checkout page will eventually disappear altogether. I wanna start with just a state of Stripe. Yes.
+
+So what is Stripe today? And when we originally invested, it's a payment processor. But now, I think the average AI company uses 11 different Yep. Stripe products. And at Sessions, I believe you had 288 distinct Mhmm.
+
+Product launches. Yeah. So I wanna talk about velocity also, but just to start with just what is the state of Stripe today? So internally, we think about Stripe as having inverted our value proposition from being a payments company with sort of add ons to now being this multi product platform where everything sort of focuses on financial infrastructure, helping you grow by reducing the friction and increasing the agency to be more agile with your business model, to operate in more countries, and just go faster when it comes to everything that touches revenue and cash. So just practically speaking, went from payments to then billing, subscriptions, and invoicing, Connect if you're a platform or marketplace, Radar for mitigating fraud, Radar now for doing many more things than that, tax.
+
+Think we don't actually count, but somewhere in and around 25, 30 products that are sort of headlining branded products, and then of course hundreds and thousands of features below that. But again, the framework we think about is really reducing frictions and increasing agency. So a good example last year, we saw a lot of users for the first time experiencing free trial abuse, and this wasn't really an issue pre AI because most Stripe users are software companies. Yeah. High gross margins.
+
+Exactly. So token burden wasn't there. Yeah. So they're wasting a little compute, It's negligible. It's de minimis.
+
+But now, software has a cost structure. And so actually, I think Cursor was the first user that we I was gonna say. It was our portfolio where we first experienced it. And I guess Internet users can be crafty, but yes. Yes.
+
+Yes. And I think it was something like one in six users of free trials were abusive. And so you're just throwing money at these users who are just signing up for another account, another account, another account, maybe even doing model distillation and things like that. And so we of got in the bunker with them and just stood up in a weekend a pipeline where we were able to use our foundation model, look across the entire Stripe network, use our embeddings, and then after that put a reasoning layer on top of so we could sort of say, We think this is a free trial abuser because and point to those signals. And I think it's today, I think it's 11 labs recently told us that they're blocking 2,000 free trial abusers per day using Stripe Wow.
+
+Incredible. So you just think about how much money you'd be burning if you were well, how much money you wouldn't how much revenue you wouldn't be creating if you weren't getting these free trials. Exactly. They're have Yeah. False positives and the false yeah.
+
+Exactly. Yep. Exactly. And then on the increasing agency side, it's still just so hard to go global. Have go out having to register, calculate, remit taxes in so many geographies.
+
+And this new crop of AI companies, the digital goods companies, and they wanna just go global very fast. And so I guess ARIFs is a good example. They're using this product Stripe Managed Payments, where in their home markets, The US, let's say they have an entity in Europe, they are the seller of record. But in long tail markets, you know, the Kazakhsans and all over APAC where they haven't sort of entities, Stripe stands in as the actual merchant of record. We handle tax regulation, tax remittance, and everything like that.
+
+And so this just lets them cover 100 plus geographies and compliantly. Yeah. That's amazing. Yeah. And if you go back to the fraud example, if you identify abusive actors, there's actually a network effect in that business, right?
+
+Which is super powerful. And obviously, we appreciate it as investors in in many of the companies who benefited from Yeah. So if you look at the product set today Yeah. Obviously, the origin of Stripe was startups. So you can very easily stand up payments, you know, sell stuff online.
+
+And then famously, part of the beauty of Stripe's growth and business model is that you captured companies like DoorDash and Instacart when they were NYC. Yes. And then you grew with them along the way. How do you think about the product strategy as it relates to serving startups versus serving large enterprises now? So I think it was actually Colin at Clerk who summarized our strategy nicely on on X recently, where he said Stripe strategy is unabashed.
+
+I'm paraphrasing his words, but it's win all the startups and then win them again. Yes. And I think to some extent that's just a good business model because startups are very ambitious, they typically grow into the biggest companies of tomorrow, They're sort of canaries for what the next opportunity is. So another subtle reason to win all the startups and win them again is they actually have the highest standards of all of our customers. I looked recently at the CSAT for Stripe's reporting.
+
+And for our very, very large enterprise users, your reporting is great. We love the data you give us. It's way better than anything we get from any of our other because they're accustomed to the incumbents. Exactly. And then you look at it for start ups, your reporting is garbage.
+
+You have got to fix this. This is driving me crazy. And so there's this persistent sense that startups just make us better by being the fastest, by being the most demanding, and so on. But of course, once we start working with startups, we want to work with them forever. And so this pulls us upmarket and forces us to become as sort of surprisingly great.
+
+That's the standard we try to hold ourselves to for enterprises as for start ups. And now we're working with I don't know what the exact percentage is today, but it's not quite half, but we're getting there. 4,500 companies. We work, of course, with the Amazons of the world, Microsoft's, and at the enterprise, it's sort of a different sales cycle, it's a different post sale activation motion, it's a lot more required after you've already signed the contract, whereas start ups sort go live like that. But fundamentally, it's the same thing.
+
+You just stay close to the user, you hear their needs, you show that you're sort of provably better when it comes to the metrics they care about, and and, yeah, so it's really both at this stage. Yeah. Win them and then win them again. I love that. Yeah.
+
+That's a great that's a great dynamic. I wanna shift gears. So I think you guys publicly said that first half sign ups grew 50% Yep. Year over year. Yep.
+
+And that the median 26 cohort is generating 50% more revenue than the comparable 25 cohort. So, and then I think the 25 cohort was generating 70% more revenue than the comparable So, '24 what has changed? Yeah. Well, I think two things. One is giving rise to so much opportunity for new business creation.
+
+There's just things you couldn't do before that you can do now. You couldn't build a Suno four years ago, or you could maybe build a much worse Suno four You years couldn't build a Higgs field four years ago. There's just new things that you can do, and so suddenly the market opportunity landscape is just much broader, and you can do more with software. On the other side, the sort of cost of doing more software has decreased a lot because you just need many fewer engineers to build the things that you want to build because of, you know, agentic coding. And so we're just seeing this explosion in new software creation.
+
+When you look at the year on year increase in usage of Stripe billing, it's actually a lot higher than usage of Stripe overall because it disproportionately skews towards people creating software companies. Yeah. Yeah. Oh, that's fantastic. That's awesome to hear.
+
+I wanna shift now to some of the products that we talked about. Yeah. Right? So you have this proliferation of new products to serve all the needs of companies online. The high level question is, like, how do you do that?
+
+Like, how do you guys ship so much product? Yeah. Speed has always been near the top. Maybe user relentless focus on user is probably the top. Yeah.
+
+Powers most are. Yeah. Exactly. But speed is right up there. And it's interesting.
+
+I think a lot about institutional progress, and we study the great companies that have come before us and now are beside us. The Amazons are still around, of course. But you look at Stripe and you'd say, okay, well, we have sort of an adaptive version of how we set goals that's quite similar to Google's OKRs. Yeah. You know, our sales team is organized pretty similarly to Microsoft's.
+
+You know, we have a DRI culture similar to Apple's, and we, you know, have a product quality standard, how we do our product reviews is similar to theirs. You know, a lot of the day to day mechanisms that I use to sort of run the business, I've basically stolen from Alan Mulally, the former CEO of of Ford and Boeing Aviation. And so we study these companies and we try to bring it all into Stripe, and we think about just how do we create an enduring institution that can sort of outlast any of us because it's, you know, a great container for entrepreneurship. And then you should've reached today. And there's just no one to copy.
+
+Like, what do you do when a single engineer can do what two teams of engineers could do two years ago? And sort of the theory of mind right now is that Stripe needs to become, more than it ever has been before, a platform for founders internally. And there's always been a platform for founders externally. Yes. Yeah.
+
+Of course. The customers. Yeah. Exactly. And founders have always done incredibly well at You know, we actually, it was an indecent company, Metronome.
+
+Yeah. Of course. We acquired Metronome last year, and Scott Woody, the CEO, is thriving at Stripe. He's leading That's it. Yeah.
+
+Leading all of, you know, Metronome and billing at this point. We acquired Privy, which is a wallets infrastructure company, and Bridge over the last couple of years, and Henry is now leading most of crypto, Zach is leading OpenUSD and Bridge, of course. Asta from from Privy is leading up engineering for crypto. JR Far from Lemon Squeezy is leading Stripe Treasury at this point. And so just founders have always done very well at Stripe.
+
+But now you have this very interesting moment where senior engineers are just so powerful. Yes. And so you say, well, there's a few different ways our org could be shaped going forward. It could be that we just have many fewer engineers, and maybe that's what what the world would look like. And think a lot of companies have skewed in that direction where they've seen this new, you know, agentic efficiency and power as a way to optimize cost structure.
+
+You saw some layoffs. You saw, you know, companies shrinking OpEx. And our belief is that it's just an opportunity to I'm being a little cheeky, but to build everything. Yes. Yeah.
+
+And the best way to optimize your cost structure is to grow more. Yes. Exactly. We have reams of user asks going back many years that are unmet, and so we just wanna get through them all faster. And so while we have more and more productivity from those senior engineers, if you want to ship more and build faster, you have to create a founder like agency inside your company.
+
+Mhmm. And so the main things that are holding back our progress today are actually sort of back office things. You know, we are merging so much more code than last year, and it is stressing every system. It is stressing how do we get things into our seller systems? How do we get things onto our pricing page?
+
+How do we actually bring things to market when we can't train sellers on them fast enough? And so we are really trying at this stage to optimize every single phase of we think of it as sort of the critical path in Stripe from the ideas behind product development the user asks all the way to products being in users' hands. And so, you know, to your question of how do you go faster, it's really two things. It's one, just how do you create that agency for everyone at Stripe? How do you let everyone at Stripe be an auteur, like a founder, you know, a creative, and not have them held back by the morass of, you know, centralized Yeah.
+
+Exactly. And on the other side then, it's how do you, you know, with your dev prod team, just make the tools better and better and better. Yeah. We created something called Stripe Minions, which we've blogged about a little bit. And, you know, of course, we've got tons of developer tooling to help users iterate with agents.
+
+But Minions, we think of as, you know, the most like, of our most important metrics internally is how many PRs and what percentage of our PRs are created by minions. And the reason for that is that minions are one shot. Yeah. So you you give it a prompt and, it's going to build it, and then it's going to go through CICD, all testing, and then you're gonna review it. So you're not gonna iterate, you're not going to planning mode, you're just gonna say, this is what I want, go do it.
+
+And so we think, you know, that's kind of where the world is going. You know, it's the one shot or the glorified Ralph loop Yep. Where you're just letting the agent be super, super powerful. And so we blogged about minions, I think, in January, February, and they were doing 1,200, you know, PRs per week. And last week, I think 7,000 PRs came Wow.
+
+From Yeah. And and about 30% of our PRs in that week came from minions. So, you know, that sort of developer tooling and then the internal processes just get out of the way and make the tools amazing, and that's how we're gonna go fast. That's amazing. In terms of empowering senior engineers who are now more powerful than ever, have you made any dramatic changes to how you organize the company internally?
+
+So, obviously, the the Minions example is incredible, and I assume the 30% is gonna go to a very high percentage within a a year or something. But some of the things that we've heard from other companies is taking your most powerful engineers, putting them into business units, or closer to the customers. Yes. But then you have sort of coordination problems that come from that. So, like, how have you guys approached that empowerment?
+
+Yeah. So engineers have always been, you know, some of the most important product leaders at Stripe. Know, we build for engineers, for technical users. Of course, build for many personas at this point, but engineers have always been sort of the hero, you know, ICP for Stripe. And so because of that, engineers have always been some combination of engineer, PM, designer.
+
+Yep. And so I think we're just leaning even more into that. You know, we're building tools and platforms so that engineers can do a lot of the front end development themselves and front end design themselves. Probably just the shortest answer to your question is flatter. Yeah.
+
+Flatter. Smaller I assume smaller teams. Smaller teams, flatter. You had, you know, a lot of layers that were sort of orchestrating work and very valuably so in most Right. The time.
+
+Yeah. Exactly. But you just don't need that anymore. I was talking to one of our most senior engineers recently, in fact, the guy who built Stripe Projects. Because Stripe Projects was basically a PM and one of a very senior engineer in a few weeks and and a couple of other engineers who who jumped in as well.
+
+So I wanna give them due credit, but most of the PRs came from one guy, this guy Alexander. Now he's just got a screen. He's orchestrating 16 agents, and he's going a whole lot faster. Yeah. That's amazing.
+
+Yeah. Do you have a standard team size for projects like this? Is it like we've gone around, it's like, okay, one, you know, one, there's no social dynamic, and so maybe that doesn't work. And, you know, four is probably the max size, and we've heard everything in between. Do have a view on it?
+
+Not really. I mean, we still have I mean, you kind of want in a flatter org, you both want wider teams, right, because that means fewer layers of management. But then, you know, you also sort of believe you can have fewer people because each individual is more empowered these days. So I think those forces are offsetting to some extent today. And in fact, more like if you have a line managed team of eight people, they're just doing three x more.
+
+Yeah. Exactly. So you might have the same manager to the manager to IC ratio, but the team is doing three things rather than one. Yeah. Yeah.
+
+That makes total sense. So one of the things that you and I have talked about is, and you touched on it, but I I'd like to expand on a little more, is this idea that you can do all these new things with AI. And so where do you direct the efforts? Yes. And so you you guys have very clearly directed the efforts toward the front facing stuff.
+
+So building new products for customers. And lots of what is discussed in the market is back end facing stuff. So optimizing your call structure, as you said. Everything is a markdown file, and, you know, let's let's map out everything that everyone does in the organization and optimize it to death. Talk about your philosophy for why you want to go for the former and not the latter.
+
+Yeah. So I think there was an an early narrative, it still, you know, lingers for sure. And there's some truth to it of just we have agents now, we should be more efficient, we should be able to do more with less. And the main thing I actually think about on this front is making our people more productive. We have a tool internally called Kai, which is our knowledge AI tool.
+
+And we built it, I don't know, maybe six months ago, two people built it. Now 83% daily actives or sorry. 83% weekly actives, about 60% daily actives at Stripe. Seller productivity has increased by 20%. But we're not saying, wow.
+
+We need fewer sellers. We're saying, so we need a lot more sellers. The idea of payback of our sellers just got way better. We should have way more of them. Exactly.
+
+And then on the flip side, operational teams are just feeling much more productive. Their day to day life is more enjoyable. They're using better tools. They're having to do less manual work. And so it's almost trite in tech circles now, but the Javan's paradox, as such, becomes more productive.
+
+You don't want less. You want more. Yeah. Exactly. And it is very much the case for us when it comes to engineers.
+
+Our engineers are just magnificently more productive. And so I mentioned earlier just making Stripe a platform for founders, like internal platform for founders. You know, going forward you could say, well, because engineers are so productive, there'll just be fewer engineers in the world. And I just really don't believe that, and that's not what we're seeing at all. You know, you see that much more software creation.
+
+We you know, there was a narrative nine months ago about SaaS platforms and how they were vertical platforms, how they were all gonna struggle. Our new SaaS platform cohort is 103% larger than in 2026 than it was in 2025. So people are just saying, well, there are so many spaces that need a SaaS platform. I'm building it faster and faster and faster. And so I think there will be more software engineers in the world.
+
+We will need fewer of them to do the things we're already doing. And so Stripe then becomes, for new grads and early career engineers, more of an incubator of come in, figure out a high agency project that can help our users, let's get out of your way, let's create the paved paths, let's make it easy for you to go faster, and we should be able to just build more and more and more and not just random things, but adjacencies that sort of compound what we're doing today. So spend management is adjacent to treasury, and that might have been roadmapped for two years from now. Instead, one engineer has picked it up as a project and they're just building it themselves. Actually, I wrote the first commit for it, but they're now running with it.
+
+It's in more capable hands now. Exactly, so more capable hands. So, yeah, we believe the big opportunity and the one that we're leaning into is doing more with what we have, and over time, doing more with more. Yeah. I totally agree with that.
+
+And, yeah, I wrote a piece recently about founders being the asset class. Like, the the representation of our market of late stage venture, which you guys are probably at the forefront of. Founders are the asset class because founders are gonna be the ones who enable the companies to find the next product areas. Yes. And so this idea that you have to make trade offs today around, do we try and build new products for revenue or cut costs?
+
+Yep. Think for companies like Stripe that are run by you guys, there's probably always gonna be that next opportunity to create additional revenue opportunities, you know, find the new customer products that are a big hit, and that is never gonna go away. You're always gonna have the chance to build more. Yes. Absolutely.
+
+I do think it's a good moment for company leaders to create some resourcing back pressure because that back pressure drives more efficient and more expansive use of new tools. But I also imagine that in the years ahead, we'll have a budgeting process that looks not that dissimilar from what it's been in the past of we're doing so much with what we have, we can do even more if we continue to expand resourcing. But in this moment, I think it is a good time to say, well, let's really do a lot with what we have today because you still see increases in productivity from what you already have. Beyond that, from a user's first standpoint, just there's so much more they want from us. We've heard from a lot of users that for Stripe Tax, they want global filing.
+
+And it took us a long time to get to US filing on Stripe Tax, meaning that every state in The US will just automatically file for you. And it's hard, it's a hard problem because you are dealing with so many different jurisdictions that accept filing in different ways, and so it took us a long time to get there. Global filing was the next ask. You know, we just don't wanna have to think about this in any market. And we built that in about a third of the time that it took us to get to US filing.
+
+Wow. With much greater complexity. Exactly. Much greater complexity. And so it's just like, you know, an infinite list of of asks and opportunities like that.
+
+And so if you're just relentlessly focused on users, you're going to focus on on that. We launched recently a product called Stripe Treasury, and it's an interesting moment in sort of fintech right now because I think there is sort of an unbundling of what banking means. And Stripe is not a bank, does not aspire to be a bank, but does aspire to provide your banking portal and help you with global money movement. This is something that we've been asked for for a very long time. And so we built Stripe Treasury to allow our users to hold funds in dozens of currencies, you know, across many countries, and, you know, just build what the banking portal should be able to do.
+
+And so, you know, we we've, you know, focused on bringing, you know, this experience to users extremely quickly. And what we're finding in every case is that the timelines that we thought were the best doable two years ago are now being compressed again and again and again. And it's because the direction that we're finding from an agentic engineering standpoint is of akin to injection molding. You know, it's it's it's a bit reductionist. Yeah.
+
+But when you look at sort of the growth in consumer packaged goods and toys and things like that, a lot of it just exploded postwar. Yeah. And it was because we got really good in the forties at melting plastic. You know, it's the injection injection molding screw that sort of, you know, melts plastic very evenly and, you know, sort of injects it into, you know, a a metal casting. And that's sort of how we're doing code production at this point.
+
+You know, we're creating the molds and the templates. You mentioned markdown files. Like, those are extremely you need your agents files in every repo. And as long as you create those patterns and you sort of understand the pattern of how you integrate with financial institutions, you can hand off so much of the work to agents and they just get it done. And all of the time you end up spending is sort of on the back end at code review.
+
+But even then, agents are doing code review even better than humans did before. Yeah. So just, again, compressing timelines, it just feels like a much bigger opportunity than optimizing cost structure. Yeah. I think you may be the first person to compare modern AI based software engineering to injection molding.
+
+So this is this is great. We're we're we're covering new ground. And I've actually been to an injection molding plant before. Yeah. That's pretty amazing.
+
+It's pretty amazing. Yeah. Especially when you think about the fact that it was probably seventy years ago that it was created. Because it's James Watson Hendry, I think, the guy. That's right.
+
+Yeah. Yeah. Yeah. I've been in Pennsylvania. Yeah.
+
+There you go. Yeah. It's it's great. You know, if you you know, as an investor in Stripe, and a large large investor in Stripe, another way that I think about what you just described is the opportunity to optimize cost is finite. Right?
+
+You said long versus short. Yeah. I really like. Yeah. Yeah.
+
+Yeah. It's a optimizing cost structure is going short, sort of your own future potential, and just building faster, building more is going long, you know, your future potential. It's like the capital allocation equivalent of, like, returning cash Yes. As opposed to reinvesting cash. Yeah.
+
+Yeah. I I got it. Okay. I wanna shift over to a new topic, which you guys are on the cutting edge of, and which gets a lot of play, but almost in, like, a nebulous sense. So I'd I'd like to go a little bit deeper on it with you, which is sort of agents engaging in commerce on the Internet.
+
+Mhmm. So what is the state of where we are today? What are the bottlenecks? Yes. And how do you sort of view a framework for how that could be done in the future?
+
+Yeah. So we are and we talked about the OPUS four five Cambrian explosion moment. We haven't had that in agentic commerce today. Like, there isn't a just there aren't a ton of canonical use cases that you just see repeated over and over and over again. And I think there's a few reasons for that.
+
+One is we're missing primitives. Right. Yeah. And just that's something we're very focused on. We created with Tempo the machine payments protocol so that services can indicate what needs to be paid and how you can pay for it.
+
+So if you're selling, you know, an image or a piece of content online, you can request it and get a 402 response back. And it just says like, here's how you buy me. So that's a primitive. Like, we think machines will want to buy from from other machines. And there's really a question of like, what what should checkout look like for agents?
+
+Still sort of an open question. Know, browser automation's getting better, so maybe agents should just be, you know, crawling through checkout forms and throwing them out. I think there's still a lot of open questions Absolutely. Yeah. Like the yeah.
+
+That that's the skeuomorphic version. Exactly. There's gonna be a native version. Yeah. Yeah.
+
+I I think that's right. I know that's right. So we're sort of at the missing primitives phase, and we're sort of figuring that out. And then there's a sociological phase of just in what ways will agentic commerce be better than non agentic commerce. I think there's some very non speculative ways in which it'll be better.
+
+Like, just checkout pages shouldn't exist for humans, you know, with with Stripe Link and, you know, shop with Shop Pay. And it's very easy to get through a checkout page these days, but should you even need to go to one or should you just be able to say, buy it on a, you know, product display page? I think so. I think just checkout pages will go away. That'll be a thing in the past.
+
+Yeah. Okay. Yeah. Think they'll they'll go away. And so that's like a sort of non speculative, but maybe less ambitious form of agented commerce.
+
+I actually think that's interesting because you they will go away for human users too. Yeah. This is not just, like, only No. I think those go away. Okay.
+
+So Stripe link. Like, you have, like, 400,000,000 users on Stripe link, and then Shop Pay probably has some comparably large number, and you can you can use those and just automate the whole process. Exactly. Yeah. We launched recently the link agent wallet Mhmm.
+
+So that there's now just a link CLI. So an agent can just, you know, sweep up link credentials and go use them with, you know, humans in the loop to say how they can use them. The I think one of the places we are the most excited about Genetic Commerce actually is b to b. Okay. So we launched Straight Projects.
+
+Straight Projects is, you know, a way to scaffold apps, and that's sort of the the narrow definition of it. But the most exciting thing that Stray Projects is is a way to provision b to b services agentically. Yep. So you can go agent can go adopt Vercel for hosting, and they can do it without you needing to go to vercel.com and do anything. This is this has actually informed our investment thesis in a few investments recently Yes.
+
+Their developer tools. Yes. And we say, okay. Assume that the agents are gonna be the shoppers in the future. Exactly.
+
+Like, is this the one that the agents will want to pick? Yes. Exactly. Exactly. And that's a very good framework.
+
+You know, an agent can go adopt browser based. Yeah. And we actually had a really great demo a while back at Stripe where we used browser based live to via an agent to fill out an NCAA bracket. That's cool. That's perfect.
+
+Which I thought was awesome because I have three brothers and, you know, we all love sports, but I'm always sort of too busy to engage in the family pools. And so it was so cool to just watch the agent pick up a browser based session and fire up espn.com and do a bit of research and just fill it out. How'd it do? I don't actually know. I don't think we ever sort of ran the evals on it.
+
+I expect probably as good as humans are. It's probably better. Yeah. Exactly. Probably better.
+
+And so I do think agents sort of adopting b to b or sort of b to c services that are more utilitarian will be very popular. And so today, again as a primitive, we're just trying to make it easier for agents to adopt services. But I do think the sort of sociology will continue to evolve. The long running tasks are not sort of I don't know that we've sort of figured out exactly how to do them on the consumer side. Yeah, it's not there yet.
+
+Was trying the other day, I was using Plug Code to try to compose a song for my niece's birthday. Oh. Yeah. It was pretty cool. And, you know, in the past, without Asuno, I just definitely wouldn't have done that.
+
+Yep. With Asuno, I might do that. You might do it with the Higgs field as well, we were talking about them earlier. But I'm not sure that I wanna go create a $10.99 or $9.99 a month account with them. I just want the sort of micro consumption for that.
+
+And so along with the actual commerce primitives, I think there's these micro consumption APIs that need to start to exist. And Browser Race, we're talking about, they're sort of leaning into it. But I'm very bullish on all these services standing up not necessarily anonymous, but just ephemeral or one time consumption. And I think that will really unlock agentic commerce to you because then you won't have to say, well, I need to pay these guys $10 a month, and these guys $10 on these. You just would say accounts and all this stuff.
+
+You can't just use the service and pay. Agent, do this. Discover the services. Your budget is $15. Go.
+
+My my 10 year old has been creating rap songs. So so I'm very familiar with all of these services. Yes. Yes. And by the way, you know, the the quality is actually pretty good, he's you know, he posts them on Spotify.
+
+Yes. But but the execution maybe is not quite as good, but the lyrics are very good Yes. From AI. Yes. And the music itself is pretty good.
+
+So it's a Yeah. I would welcome that. Yeah. So the the critical thing, I think, or one of the critical things that you just said is this concept of micro payments or micro transactions. Yeah.
+
+So this has been something that has been talked about probably since the advent of the Internet Yes. As an opportunity. Like, why do you think now it could work? Well, agents really increase human agency, guess it almost sounds redundant, but talking about these applications, composing a song for your knees, filling out your NCAA bracket, whatever else, it's really hard to do without agents. It takes a lot of time, you're creating all these different accounts.
+
+And so I'm just very bullish on services leaning into saying you can use me ephemerally, you can use me in a very sort of lightweight way. And I think to make that work you're just going to need to support micro transactions. I think the case against microtransactions has always been, well, you're trying to consume content, and if you're trying to sell an article, you're always gonna be squeezed between subscriber business model and the free business model. Yeah. Like, hey.
+
+You you wanna capture the excess as part of the subscriber. Exactly. Like, one excess of the business model. Or you do it with ads, and just, like, their one or the other is better than what you're doing. And I think that was probably true in the past, but as you give agents more complex tasks, you know, you want them to be these little sort of hummingbirds, like going around the Internet, just slurping up a little data here, you know, pulling it over here, you know, some very transient femoral storage, doing a little compute over here.
+
+And you don't want the individual human to have to think about what they're using. You don't want them to think about what they're using in that these services are secure. Right? Right. They're Of course.
+
+They're bonafide, but you don't want them to have to sort of create accounts everywhere. So I think microtransactions will just be necessary for that economy to exist, the sort of agentic economy. And then on the flip side, they're now eminently possible because of stablecoins. Yeah. And stablecoins are, today, relatively unergonomic.
+
+So if you're a human, you know, you have to go jump through a bunch of hoops. Yep. But if you just give an agent a budget, they can easily, you know, take dollars, move into stables, or, just use a stored balance and find a way to check out, they don't mind the sort of back and forth Yeah. The core of stables. Yeah.
+
+Yeah. Totally agree with that. And, look, we've seen that transition that's happened in a lot of software business models Yeah. Today. Right?
+
+Yep. Like, the predominant business model of selling subscriptions and seats, and, you know, we've now seen a shift to consumption. And I think, you know, there's probably analogies where, you know, the consumers are better off because they can get get access to more stuff, and then the businesses can access more people, which they otherwise couldn't access with subscription service. So my hope is that that Yeah. You know, that does come into play.
+
+So on the topic of stablecoins Yeah. So we've covered sort of how you guys build software, how you move so fast in an AI development world. You know, we've talked about the idea of commerce, you know, agent to commerce. Talk about stablecoins. Like, you said there's a lot of friction in the process today, but just state state of the stablecoin market and what you see the opportunity to be for the next, call it, five years.
+
+So I'm an infrastructure nerd, so I always will go there first. And stablecoins are just a better platform for moving money than exists otherwise. We strongly agree. And better for a couple reasons. You know, there are certain countries that have rolled out really good payment systems.
+
+Most of them are nationalized. You know, UPI in India. Actually, it's interesting when you look at these economies, the percentage of sub $5 payments in India, I believe, on UPI is, I think, something like 86%, whereas Yeah. Wow. In The US, cards, I think it's single digits percent.
+
+Yeah. So, you know, there's some good, cheap, fast payment schemes that are nationalized. PIX, another one in Brazil, which has grown Yeah. New York. But you need a shelling point for the global economy.
+
+Right? Right. Just what can we all agree on? And that's where crypto rails solve this political problem. It's just this platform works everywhere.
+
+Mhmm. And so if we just all used it, the world, the global financial system would work better, be faster, be cheaper, so on. So if we all went to sleep tonight and woke up tomorrow and we all held stables, it would just be a better global Less friction and less cost Exactly. In the Now that might be one of those should work this way, may never work this way problems, and so we are sort of resolutely focused on trying to change that. We talked earlier about Stripe Treasury, and we decided to make stablecoins native to Stripe Treasury, so you can just hold a balance in stables just like you can hold a balance in USD or EUR or QPP or anything like that.
+
+So we believe that the opportunity for stables is just faster money movement, cheaper money movement, and more global money movement. Right now you can be a Stripe user in, I can't remember what the exact number is, but around 60 countries in fiat, But you can be a Stripe user in Sablecoins in I think about 150 countries. So just bringing more people into the online economy in a way that allows them to you know, transact with, you know, the AI companies. And, you know, as the as the economy the software economy gets more and more global, like, bringing more people into it is more and more valuable. You can build a powerful AI company with two engineers in Thailand just as well as you can do it in The US or as well as you can do it in Brazil.
+
+So, you know, for sables, for us, it is higher performance, more global. Yeah. And I like the position that you guys are in as it relates to stable coins just because, again, talk about meeting the market where it is. Like, people don't want to cut over full wholesale Yes. And just, you know, drop all their fiat and move over to stablecoins.
+
+And so I think the relationships that you have and the sort of comprehensive offering that you have allows for adoption to happen at the pace that the enterprises want adoption get to adopt at. Yeah. Or start ups. Yeah. Yeah.
+
+And all of this works, you know, when you really lean into it. Felix Bogar, Felix, I think is is is they're called now, which started as a remittance company between The US and and Mexico and now, you know, has other corridors as well, they built it all in stables. And a few years in, they're now between 510% of remittances along that corridor, which is the largest remittance corridor in the world. Yeah. It's amazing.
+
+And so, you know, you think about how long it takes companies to, you know, to move fiat money efficiently, you know, how long it took initially for the wisest of the world to do this, let alone the western unions before it, you know, these are great companies, but to get to five to 10% in just a few years is amazing. That's remarkable. Yeah. I'd love to have you talk a little bit about Tempo. Yeah.
+
+So, you know, obviously, it's a big important project that you guys are are in the center of. Talk about, you know, where that is and and what the aspirations for it are. Yeah. And I think this I'll I'll just play the infrastructure nerd card again for a second. There are great blockchains, you know, and I think there are, there was no obvious need for another blockchain outside of payments.
+
+And there's a whole lot of reasons why a payment specific blockchain can work really well. Privacy for one, because you know blockchains are generally public and sort of reverse engineer what's happening on blockchains. So wanna make sure that privacy is a first class primitive. Making sure that throughput is never sacrificed. Blockchains are disproportionately used for trading.
+
+And so when you see massive trading events happen, you'll typically see performance degrade a lot. Transaction fees, like finding a way to create a blockchain where the transaction fee is never gonna spike because other blockchains have Disability is important, yeah. And they have floating gas fees. And so the project there is just saying how do we move money as efficiently, consistently, and cheaply as possible? Still in the early stages of building out, getting a lot of great traction.
+
+You work working with companies like DoorDash, you know, making it sort of the default, but not only blockchain in Stripe, and feeling very optimistic about it. That's great. That's awesome. Last topic I would love to cover with you is just the sort of token economy. Mhmm.
+
+Mhmm. And so, you know, it sounds a little buzzwordy, but you guys are, you know, I think over 2,000,000,000,000 Yes. Of volume now. And I think, you know, you and I would probably share the belief that the token economy is going to be one of the biggest things we've ever seen. Yes.
+
+So, you know, what do you think is kind of the state of play for accessing tokens? Obviously, there's a lot of work that gets done in first party applications today. What do you think is sort of the future state of how we all access models and tokens? Well, love, I've always loved the word token, and the reason is that it just sounds like an approximation of money. Yeah.
+
+And increasingly, that's just what it is. We're seeing, you know, talked earlier about free trial abuse, multi accounting, and the attacks that we're seeing against users who have sort of general whose platforms are general purpose token consumers. You know, you can do just about anything with tokens on Cursor. Right? You can do just about anything with tokens on on Repli.
+
+So the attacks against these users are very sophisticated. They're very reminiscent of what we see, you know, in terms of people trying to steal money from Stripe users. And so there's this blurring that you see between tokens and dollars. And so for us, we think about wanting to help users move money, store money, send money safely, compliantly, and so on. And now feel this mandate to do the same thing on tokens, right, and to protect our users in the same way.
+
+And over time, think this is only gonna happen more. We talk about some of these long running agentic tasks, and a lot of them will replace services. You'll just be able to say, Close my books, and I used to pay a human in tokens for that, or many humans, now I pay fewer humans or a human, or sorry, in dollars for that. Now I pay fewer humans or a human Yeah, in tokens. In tokens, right?
+
+Because they're augmented by agents. So we just wanna make sure that moving between tokens and dollars is as seamless as moving and safe as moving between, you know, dollars and euros. Yeah. We're at the beginning of this journey, but we think it's gonna be a big part of the future of Stripe. Yeah.
+
+That's awesome. Yeah. It's it's it's super exciting, and and look, personally speaking, I think you guys have a real right to play a role there Yeah. Because of the relationship that you have with so many companies since inception Yes. All the way through to enterprise, as you Yeah.
+
+And we we use it's funny. We're we're always a little bit careful internally about talking about about rights, and so we talk about mandates. That's good. Yeah. Feel like Win it and then win it again.
+
+Exactly. Have a mandate to help users with this, and so that's why we're really leaning into it. We're also focusing even more on spend management for our customers. They're using Stripe treasury, they're thinking a lot about how much they're spending and how to reduce their spending, how their spending ties to the revenue. And, you know, a lot of token usage is actually in product.
+
+Yeah. So you see sort of two different types of token usage. One is, you know, to build things, and this is sort of the OpEx management side of token management. And then there's the product efficacy side of token management, just how good is my token oriented or sort of token driven product, how should I shift between different models to make it the most effective? And so we're really thinking about how do we help users on both of these.
+
+Yeah. For sure. I mean, certainly in the latter, this sort of, you know, position as an orchestration layer Yes. That helps you effectively get the most out of tokens and Yes. You know, also maintain some form of control.
+
+Yes. Think it's, like, never been more top of mind than it is right now. Yes. Absolutely. Yeah.
+
+And it's it's interesting because there's a hypothesis that, software will be severely commoditized, and it's possible. I think we're at the, let's say we're either in the singularity or creeping towards the singularity, and it's very hard to estimate what a future looks like where, you know, models are sort of recursively, you know, generating models and so on and so on. But we are seeing the exact opposite right now where, you know, software creation is exploding. Yes. Customers are monetizing faster than ever.
+
+We talked about our twenty twenty six cohort growing 50% faster than our or 50% larger and growing faster than 25 cohort. Right. That one being 70% larger and growing faster than the 24 cohort. And so, you know, some more software being created, it's being adopted faster than ever before. And then more Stripe products are being adopted than ever before.
+
+Eleven Labs is using 14 Stripe products. Sort of Wish it were 11 in a way, but actually I'm glad it's 14. Just make it '22. We're close with Matti, and he does everything in denominations of 11. So you gotta shoot for '22.
+
+Exactly. And there's a lot more to software than just building. There's the expertise about how abstractions should thread through your entire business, sort of keeping those up to date, you have turnover inside of your company, and so you build a system internally, and then it starts to sort of degrade, and that person leaves the company, and the expertise goes away. And so we think about just how can we help companies across their entire revenue stack, manage cash, manage revenue, close the books faster, grow faster, globalize faster. And that opportunity, I think, is just larger than it was ever ever was before.
+
+Yeah. Couldn't couldn't agree more. Yeah. So in closing, I wanted to just get your take, and this is I don't wanna get too deep into, you know, the role of humans versus AI. But one of the things that Stripe has always been universally recognized for and appreciated for, I think, is your taste.
+
+Right? And it sounds funny because you're an infrastructure company, but I think it's it's generally agreed upon. How do you continue to uphold that at such a large scale, and with so much of the work that you're doing now being done by AI? Yeah, it's interesting how much the word taste is being used right now. And it's sort of hard sometimes, the cynical view is that it's how we're all justifying our future value.
+
+Yeah, that no one actually has taste and it's just we're all reproducing machines of things that we had previously perceived. Yes, and my fingers are no longer as useful, but this nebulous notion of taste is, and models will never have taste and so on, which is probably just not true. Yeah, agree with you But on to your, more proximate to your question, product quality is really, really core to our culture and to our identity. It's for a few reasons. One is just we want users to have amazing tools that are carefully crafted, that can make them go faster, enjoy the journey of building a company that much more.
+
+It's not an easy journey, but if you have tools that are surprisingly great, feels that much better. So it's a big user lens. Another dimension of it is it's just more fun. You look at what you created with your team and you're like, wow, that looks amazing, versus you kind of janked this thing together and it barely works, and it just isn't as fun to go through the slog, the long nights, the long weekends, and so on, to build it. And I think the single thing I would say for scaling tastes at Stripe, well, actually two things.
+
+One is I think it has to be tops down. Just have to say it over and over and over again. It's like company strategy of win the Starps and win them again. It's like talk about quality and talk about it again. And then the other thing is just use the product.
+
+And make it easy to use the product. In aviation, simulation is so important. You can't just say, I hope the jet works. You have to prove to yourself that it does before you ever fly it. Or in Nvidia, they really hit escape velocity was when they, you know, went from needing to wait for the fab to give them the chips to try the chips to actually simulate Yeah.
+
+So chip performance. So we actually invest a lot in simulating the usage of products. Yeah. Wow. And so you can point to an account and say, you know, give me something that looks like that.
+
+Yeah. But make it, you know, PII, you know, free, you know, randomize the growth rates so I don't actually know how big they are, but just, the day to day problems that they face, the ups and downs of their business, the seasonality. Give me a sense of that, and then make it feel live. Make it so that I feel like I'm receiving disputes from customers and refunds are happening. Of course these aren't real disputes, they're not real refunds, but just give me the experience that user's having so I can really live in it and use that with my team.
+
+And so I think you have the mandate to use the product and we really ask our EMs to lead this because they're the ones who control the resources and they're the ones who can sort of say, wow, this does not feel good, it needs to get fixed, so we're gonna our next sprint is gonna be elevating quality. And the other side, it's how do you give people the tools to do it more easily? So scaling taste for us is, you know, culture, it is the, you know, shibboleths, and then it is the daily rhythms of just using the products and stepping into these issues. That's awesome. That's so great.
+
+Will, this is so fun to talk to you about all these topics, you know, obviously covering how you're building so much product inside Stripe, which is which is super unique and right on the cutting edge, I think, and the future of how we engage in edge into commerce and and stablecoins. You know, one of the things that I think you guys have said is, you know, how do we assure that we build the next Stripe inside of Stripe? Yes. And, I love that in closing, and, I really appreciate the time. Yeah.
+
+Thank you. Great to be here. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+
+Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.
