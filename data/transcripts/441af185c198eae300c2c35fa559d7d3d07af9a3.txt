@@ -1,0 +1,381 @@
+Alright, everybody. Welcome back to the all in interview. This is where we find the people building the future, sometimes a politician, sometimes a CEO, sometimes an investor, all the time an important discussion. And one of the most important discussions of the moment is balancing safety and privacy. And there is one company that has you know, is at the center of this, and we're so lucky to have Garrett from Flock here, Garrett Langley.
+
+Garrett, you and I spoke on This Week in Startups, my other podcast that I've been doing for sixteen years. I don't know how many years ago. That was six or seven years ago. Or seven years. Yep.
+
+And I've been following your company. Full disclosure. I was, like, trying to invest at one point. I I'm not a shareholder, but I've always been intrigued by what you're doing, on the margin sometimes concerned, and it seems like you've been so successful with Flock, which does safety cameras, license plate readers specifically. I wanna get into all the details today.
+
+But in the last year, because of the tremendous success of FLOC, it has been adopted in many communities. We're gonna get into that. And it's had a really great impact at reducing crime. We'll get into that. But there is now a group of people who maybe are have privacy concerns.
+
+And you and I have talked over the years, and we're gonna get into it. We're gonna go right at the controversies and everything and this grand debate we're gonna have. How much Yeah. Privacy am I gonna give up to get safety? And and it's really interesting to me that there's been so much energy on this recently because when I see that kind of energy as an investor or as a podcast host here and the world's greatest moderator, TM, I know there's something at stake.
+
+AppLovin started with an $8 domain and no VC funding and became one of the largest ad platforms in the world. Now that same engine powers app 11 ads for ecommerce. Your ads run inside mobile games reaching over a billion people with full screen distraction free attention. The platform finds buyers and optimizes for profit. You set the target, it does the rest.
+
+One cookware brand went from $416,000,000, turned profitable, and is on pace for 80,000,000 this year. Visit apploving.com/allin to launch your first campaign today. Tell us a little bit about flock safety and how many communities you're in now. And then also the drone component because people know the license plate readers. Maybe they don't know the drones.
+
+So let's just get that footprint and build a mental model for the audience here. That's great. Yeah. Jason, thanks for having me. So I started the company nine years ago with a pretty simple mission, which is to live in a safer neighborhood.
+
+And that was our initial pitch. You know, if you look at our first two or three years in business, it was just neighborhoods. We sold the neighborhoods, and we sold a license plate reading camera, which is pretty basic technology. A car drives by. We take a still image of the vehicle.
+
+We read the license plate. And then the system's gotten more sophisticated with time. We can detect things like a roof rack or a bumper sticker or dent or damage, But that's at at its core what the technology does. And if you look at, like, last year, to your point, we've had a tremendous impact on the country. North of a million crimes solved using flock.
+
+North of 10,000 people found who were missing, and that's everything from our grandparents with dementia to our children. Like, just last week in Atlanta, there was a stolen car that happened to have a two year old in the back seat. And, thankfully, because of very hard work by Atlanta Police Department and our cameras, that little kid was safely returned within the hour. I don't know what that would have happened if without FLAC. And that's one story, but that's my own city last week.
+
+And you look at July as a, you know, as a data point, last month was about 1,125 missing people and over 20,000 stolen cars. And those are the cars we use to drive our kids to school, to drive to work. And so we're in, you know, roughly six you know, just over 6,000 or so cities across the country, and it and and that the consequence, you know, of being that consequential is people have a lot of questions, and people have a lot of debates. And I think it's a it's a worthwhile thing to talk about what kind of society do we wanna live in. I wanna live in one where we're safer, and I wanna keep my privacy while I do it.
+
+But that is hard, you know, to find that balance is not easy. I remember when we had our first discussion, gosh, so many years ago on This Week in Startups, we were talking about it, I had brought up this, you know, hey. Well, what happens about abuse in the system? Because once in a while, you get a dirty cop. If you watch any kind of procedural TV, you watch law and order, you watch the sopranos, the sopran you know, Tony Sopranos got a dirty cop who's, you know you know, in the hole for, you know, some gambling debt, and they run license plate for them.
+
+Right? This is like a Yeah. Trope on the news. And it's a trope because it's common, not, like, on a percentage basis, but we all know that any system that records data could be abused. We saw it at Facebook.
+
+You had engineers there famously stalking their x and, like, reading their unencrypted messages, and the industry had to make a lot of changes. So I remember at the time you were telling me, hey. The settings, and this is where we're gonna get really granular today, the settings are set by the local community. And these cameras are installed by a local community. The communities I've lived in have had them.
+
+So let's answer these two questions. Number one, how does a community wind up having flock cameras installed? What's that decision making process like typically? And then we'll get into very granularly what you're recording, for how long, who has access, the audit logs, and then what's not recorded. Yep.
+
+No. That's a that's a great question. So, you know, one of the reasons, Jason, we struggled so much to raise money as a business is because it is traditionally and was for flock very hard to get contracts done with local government. You know, the the last company to go public that serviced local government was over twenty years ago. This is a really hard space because city councils have the final decision.
+
+And so every two weeks, a city council meets and their you know, the city manager's direct reports, be it a police chief or fire chief, public works, presents ideas, presents concepts they would like to get approval for, and FLAC is on that list. And so I think last year, we went we went to something close to 10,000 city council meetings as a business. I have a huge team whose entire job is just going to city council meetings explaining what FLAC does and what FLAC doesn't do. And and it's just a it's just a cost of doing business with local government. So it's really straightforward.
+
+And I was actually talking to the chief, our first ever police chief down in Jersey Village, Texas. I was talking to him a couple weeks ago. And, like, that video, that council vote six years ago is still public record. Yes. City council meetings are famously recorded.
+
+It's tough. It's a wacky environment. It it is. It can be particularly wacky. And but we we go.
+
+Right? Because we want people to know what they're buying. Yeah. So they they buy the product. And, you know, what has been true for the last nine years, as we we've always said, this is this data is a liability to an asset.
+
+You should have a set retention period. And that retention period for how long this data will be stored is gonna determine the efficacy of the product. And so if you delete this data in a day or two, it's gonna be less effective. It's still gonna be better than nothing. And if you hold this for thirty days, it's gonna be pretty effective.
+
+And if you hold it for a year, it'd be more effective. And we always believed city councils should have that final say for how long they wanna store it and who they wanna share it with. And so for the longest time, thirty days was our default. We've recently shifted that down to seven days. We think that's a reasonable trade off, but we still think cities should should decide or states for that matter.
+
+But someone who is democratically elected should have the final decision of how this technology works in their community. But what I think you probably agree with, as a technology provider, we have to set strong defaults. We we all matter is what we say in the industry. Yes. And, you know, if you think about the number of crimes, of a 100 crimes, how many would and I'm sure you have some idea of this.
+
+If we have a 100 crimes that occurred of whatever the nature are, how many are solved with seven days of data, thirty days of data, or require more than thirty days? Do you have that? We have a we have a good sense. Right? I mean, I'm gonna give you an aggregate data point across the whole country.
+
+We think 90% of crimes will get solved within seven days of data retention. Beautiful. It is, Jason, but I would tell you, I I I've probably talked to two or 300 police chiefs this week, and and they remind me, and I and I tell them, you should tell your city council this too. Yeah. The 10% we're talking about, but the 10% you read about in the news, though.
+
+Oh. Right? It's the it's the homicide that there was never a 911 call because someone was killed, and it takes five days to discover the body because of a welfare check, and then it's it's a complicated case. Or it's look. And I'm sorry to, you know, go to this topic.
+
+It's a rape victim who felt guilt, who felt shame, and she didn't call 911 until a week later because she wasn't ready. Yes. And that's real life. Right? Like, I I deal with this every day, so I'm probably less sensitive to it.
+
+But these victims deserve privacy. They deserve accountability for the people who It's a process to even identify the crime. So what you're saying is now with thirty days of the 10% remaining that, you know, we're just ballparking here. But that last 10%, how many of those out of 10 would be resolved with thirty days of data? We think the majority.
+
+And, look, we're not gonna lose we're not gonna we're not gonna tell cities how to run themselves. And to be clear, you know, there's states like New Jersey where state law is five years, and so every customer holds it for five years. In the state of California, there's a max retention in the state of Washington. You know, most states have now adopted regulation, and they set a maximum limit. But I think for me, Jason, what's important more than my just default is making sure city councilors and mayors are educated that they have control.
+
+They can make this choice, and they should actually go spend time with their police chief and figure out what does he or she think is the best for that community. And I think, look, there's some communities who are gonna push for two days or three days, and I think that's that's so much better than nothing because that Amber Alert and that Silver Alert, which are the things we all lose sleep over Yep. They're still gonna get solved too. Yeah. It's an outage.
+
+Lose sleep over. I got one at two in the morning the other day, and, you know, I wake up. I read it. I'm like, I'm not I don't know what I'm gonna do with this data at 2AM. I'm I'm in bed.
+
+But Yeah. Okay. So this seems completely fair in terms of how you're expressing it. Yeah. And to be clear, when I had you on Twist back in the day, I was like, well, don't you need to know who's in the driver's seat, and wouldn't you wanna get a picture of the windshield?
+
+And I was kinda finding myself advocating in my community, hey. I would be okay just as Jay Cal, the dad, and somebody who sometimes on the margins has some, you know, privacy security issues. They're not acute, like, for for, you know, I don't know, Sam Altman, tragically, and and what's happened at his house twice. You know? But I have my own security cameras.
+
+I use Unity. It's incredible. Yeah. Great products. And I have a license plate reader on mine.
+
+I have facial recognition on my that is on my private property, of course. Some of it does look out on public roads because I have access roads, so I am technically able to record the license plate of everybody who drives by the front of my house. I think that's legal to do your. Yeah. It is legal.
+
+So are there communities that are using other systems that are not flock and recording every single person in and out? Because when I go in and out of private communities once in a while, I see this four or five cameras. I know I'm on camera. So aren't people already doing full video in their communities not using FLAW? Yeah.
+
+No. Mean, Jason, you're spot on. Mean, we don't do facial recognition. We don't capture video. We don't look inside the car.
+
+We don't even allow in our system to search for people for our licensed surveillance cameras, and that's in direct conflict with some of our biggest competitors who do all of the things I just mentioned. And, unfortunately, or fortunately, we've been very successful. And as kind of the industry leader, the spotlight's on us. And and that's okay because my hope is the changes we're making, the changes we'll continue to make, will force the rest of the industry to follow suit. And I hope counselors ask questions of the systems they have if it's not flock, and maybe they'll switch to flock if they want a privacy first solution.
+
+And you guys have had a bit of a communication challenge. People were ripping down the cameras. There's an you know, people care about privacy, not just here in The United States, by the way. In The UK, people are ripping down cameras. There are a group of people who are entitled to this opinion, and I share it on the margins.
+
+When I had children, it changed dramatically because number one for me is security. I'm willing to give up my license plate data. If somebody knows my exact whereabouts for thirty days of my license plates, I'm okay with that. Yeah. Because I have children, and I'm okay with giving up that amount of price.
+
+I would be a little concerned, I think, with the with facial recognition, if I'm being totally But, you know, it's kind of a moving target. And I guess the reaction you guys had was and I think I I had talked to you about this, is you called them terrorists, like the people taking the cameras down and, you know, this kind of thing. Where does this audience who's ripping down cameras I mean, they're obviously not terrorists. I think they're, like, activists, I would say, be a better descriptor. But you guys haven't communicated this perfectly in my opinion.
+
+Correct. So where are people coming to you with valid concerns? Yep. And then how have you evolved your ability to communicate what you're doing? And that's one of the reasons I wanted to have you on this is because I looked at it, and I was like, I don't think you're doing a particularly good job of communicating this.
+
+And I also think the people who are ripping down the cameras, they think they're in a surveillance state with permanent records and facial recognition. So I think they don't actually understand the the nuances and contours of the product. So talk about where you got it right, where you got it wrong, and how you've evolved in communication. Yeah. No.
+
+And, look, I'm far from perfect, and I've made my fair share of mistakes over the last year, and good god, over the last decade, I couldn't even I tried to write it down one time, and the list got pretty long. And I was like, this isn't helping me move forward. I'm just gonna I'm gonna keep focus on what I need to do in the future. I mean, your point on vandalism, it's pretty sad because these individuals are getting kind of amped up from on TikTok and on Instagram to go take action. I And don't know if they realized they're committing a felony.
+
+You know? And I and I saw this individual who just got got arrested in, I think it was either Ohio or Illinois. And, Jason, he he's he's facing, like, fifteen to twenty years of jail. And I'm thinking, I I feel horrible. Right?
+
+Because, like, I I don't think he I hope maybe he realized it, but what if he didn't? And and the person who's on TikTok or Instagram that's pushing this, they're not they're not the ones cutting these things down. They're not the ones who email them. They're just they're they're doing this for likes and views. And, you know, that I I don't like.
+
+Right? Because when that camera's cut down and there's that Amber alert, it's not gonna work. Yeah. And and that and that, you know, I still don't have a lot of space in my heart for people who choose to commit a felony versus go to city council and and scream and and fight for what they believe in. That that is literally democratic process.
+
+They could join city council, and there have been number of cities that have decided to take flock down. Am I am I correct? And and the backlash has caused that, and you're okay with that if that's the community's choice. Would assume that. Yeah.
+
+And it's it's obviously disheartening when a city chooses to be less safe. You know? That that's tough to to hear when there's so many other options to reduce the efficacy of the product versus just take them out. You know, to me, the individuals who only look at privacy or only look at safety are both on the wrong side of the equation. Like, we've gotta find a common ground.
+
+That's the the point of the democratic process is common ground on complicated problems. And I think safety is up there on Marlow's hierarchy of, like, things we have to do for our community. I mean, it's one the most fundamental things that I believe our government owes us is an equal level of safety. And today, depending on the color of your skin, though, in your wealth level, and your race sorry, and your sex determines how safe you feel. Women feel less safe than men.
+
+That's a fact. Sure. But minorities feel less safe than you and me. That's a fact. If you live in a a less affluent city, in a less affluent part of a city, you feel less safe.
+
+And I think our government has an obligation to make us all safe. And that's what we're trying to do. And you'll notice that What are the privacy folks? Where do you find common ground with them? Yeah.
+
+And where do you feel obviously, vandalism is an easy one. Okay. That's an easy one. Yeah. That's an easy one.
+
+But there's a nuance here. Like, hey. I didn't opt into this. I don't want my license plate in there. Is there an ability for them to opt out?
+
+And what is the max Yeah. Now for the the amount that's saved? And then, really, this is a very nuanced point. What's the audit trail here? If there's a dirty cop as described who's into Tony Soprano for a 100 dimes for his betting on NFL games, and he wants to give the mob or somebody, like, a bunch of license plate data from Flock, what's to stop the dirty cop?
+
+What's to stop this? And do false matter? But also, like Yeah. What's the largest window people can use today on Flock? Let's let's let's hold the abuse thing because Yes.
+
+I think that's something that, you know, I was called naive. I I would say maybe optimistic. You know, I grew up in Atlanta. I trusted the police. I've always trusted the Atlanta Police Department.
+
+And, you know, over the last year, I've spent a lot of time talking to people who don't like flock. Mhmm. And I I finally got to the bottom of it. So I was like, why do you why do you hate this company so much? We sell a camera.
+
+Yeah. And I realized this woman was like, Garrett, I don't trust the police at all. And I was like, that that's the root issue. And I was like, but why? And she was like, they lie, they cheat, they steal.
+
+I don't trust any of them. And I'm like, okay. Man, what if you're what if you're right and I'm wrong? And so And that might be the case. That might be the case for her.
+
+Yeah. She's right. There have been many cases of police departments that have subverted, you know, even the wearable cameras. They turn them off. I mean, have ICE agents wearing masks and no numbers.
+
+So the public This is rightfully concerned. Is rightfully concerned, and they're bundling you as their partner. Now I get it. Yes. Now So that's where they have a valid concern.
+
+Yes. And so we said in you know, it's interesting. And I think if you make it a more macro topic, anyone in a position of power, there's a higher likelihood of abuse. Look at CEOs. Look at elected officials.
+
+Look at police. When you're in power, abuse tends to follow not too far behind. And so when we met, you know, six or seven years ago, we had the audit log. And my assumption was like, this is good enough. This is what most police systems do is they have this audit log.
+
+But what I didn't realize is he was meeting with a large agency in Southern California, and they've got something like a thousand officers a day that use flock. And imagine they're doing five or six searches a day. Yes. And imagine on once a month, someone, one person is supposed to review that audit log. Yeah.
+
+So they're they're gonna spot check 10 or 10 or 20 searches, which is the best they can do, and then move on. And so we built four months ago, built this new tool called audit assistance. As you know, we solved a million crimes last year, so we have a pretty good pretty good sense for what normal usage looks like. And then we had about, you know, just under a dozen abuses over the last eight years that we had detected and said, we also kinda know what abuse looks like. Tell us what does abuse look like.
+
+So here's a good example. This is the easiest one. Let's say you're an officer and you'll say you're trying to stalk me. You would look for me. You'd say, I'm looking for Garrett's car.
+
+It's ABC1234. And you'd search for it and you kinda figure out where it is. And then the next day, you'd search for me again. And then the next day, you'd search for me again. That's very abnormal.
+
+If you were truly trying to find me because I committed a crime, you would have put my tag on the hot list so that anyone else in the police department would have been also notified because you might be asleep, you might be off shift because I'm a criminal. So everyone has a right everyone's trying to find me. If you're stalking me, you don't want anyone else to know what's happening. And so that's, like, maybe that's the easiest one we can flag. But so we built this tool four months ago.
+
+We kind of put it out there not knowing is it gonna work well, how how how good is it, how much signal noise. And so you've seen the headlines over the last few weeks. We've caught a lot of bad cops. Really? Yeah.
+
+Oh, it's a ton. Yeah. Yeah. And it's it's a ton. It's it's more than I ever would have hoped.
+
+And you look at my home state here in Georgia where, you know, some of our customers have been with us for years, and I have to give those chiefs an applaud because they're not hiding behind it. They're publicly saying, I fired nine officers today, which is which is the the most severe offense in Georgia, for for abusing the system. They're out of my police department. I don't want them. Wow.
+
+And I think that's good. And, like, we should be we shouldn't be criticizing those guys. We should be saying thank you and who's next? Like, who else wants to have a clean police department? And so we we now are requiring that as a mandatory.
+
+It's not even a default. It's a mandatory feature you have to have turned on. We have to find these bad cops and get rid of them. They shouldn't have a badge. Amazing.
+
+And so this is very interesting, I think, because if we assume that, you know, let's just pick a number, 1% of cops do bad things. Some people might think it's all cops. Some people might think it's 10%. I'm just gonna say 1%. It it's a very small percentage, but as a in a in a city with 30 or 40,000 police officers like New York City has, I believe, and I think Los Angeles, ten, fifteen thousand cops, 1% all of a sudden becomes a 100 or 300.
+
+That's a lot of bad cops. And you have set in a way a honeypot for those bad cops. Yeah. And, you know, they probably don't know that this is being tracked. My question to you is when I make a request, I'm a rank and file cop, and I go do this, why should rank and file cops be able to do this?
+
+Shouldn't there be, like, a higher level person who they put the request in? Or maybe there could be, like, a supervisor and that supervisor. So it says, I'm looking into this case. I explain why I'm looking into it. And then a senior person, like a sergeant on duty, they have to say, okay.
+
+You can run that search. And then a third person has to look at the sergeant's okays, and they put a note on it. You could also build that into the system, which is, you know, I think, like a double key system Yeah. Where two people have to say okay to this, which now you're a dirty cop. You gotta find a dirty job.
+
+Yeah. No. No. I think what you're describing, we have the I can show you the screenshots of what it would look like and how it would work, and it's definitely something that's on the whiteboard for how we continue to curb abuse. I think the challenge we face, you've you've done with this in your software companies, we have some customers who have thousands of employees, and we have some who I was just on the phone with the police chief in Texas with 20 employees.
+
+The burden of what we you and I just described would be pretty pretty big for him with just 20 officers. He's also not using the product every day. He doesn't need to. There's only a town of 2,000 people. Audit log is very slim.
+
+Audit log is slim, so he doesn't need any of the things we're talking about. Yeah. And so I do think this this is where defaults do matter, and this might get you a level of nuance where, okay, for big cities, these these are rules. For medium cities, these are the rules. And for small towns, you have different rules.
+
+No different than their academies. And so to become a police police officer in New York City is harder. It's a longer academy than to be a police officer in a small town because there's just different expectations. So Yeah. Yeah.
+
+You're spot on. We're not done. Like, I think abuse is a problem that's industry wide. It's not just a flock thing. Yeah.
+
+And you look at, like, California, you know, there were 7,000 reported abuses of their state database last year. 7,000. Thousand of the state database. Yeah. Which means you should have some percentage of that in your system.
+
+And I saw the Washington Post did a story on this. And so the company is evolving and reacting to that. And so you are responsible now as a technology provider with the worst behaviors of your customers. And so the lesson there is even if you wanna say, hey. We just sell a tool, the reality of running this company, since it is you know, people have to give up some level of privacy to get that security, you actually have to own it.
+
+There's just no choice. And I think previously, your approach was, hey. It's a tool. Do with it what you will. You made that choice, which is not exactly an unreasonable thing to say.
+
+People sell laptops and cameras and guns to a local police department. They send tasers to a local police department. We don't say to the taser company, hey. You're responsible when somebody gets tased, and it was an inappropriate tase. It was an unjustified taser.
+
+But here we are. This is different. This is qualitatively different because America and Americans really value privacy. I'm going all of you. Sales tax rules are changing.
+
+Starting January 1, California will tax certain software for the first time. Numeral can help. Numeral is the sales tax solution for fast growing businesses, handling registrations, filings, tax rates, and compliance across The US and over 70 countries. So you can stay ahead of risk. With Numeral's guarantee, sell with confidence.
+
+You grow the business, Numeral handles the sales tax. Learn more at numeral.com. To your point, our our I think our view, my view of our responsibility has evolved. Now I would prefer if every elected official understood how all this technology worked perfectly and made decisions that represented their community values. I don't think that's a reasonable expectation because that means they also need to know everything about data centers.
+
+They need to know everything about waterworks. Like, they're relying on their police chief to tell them what is best. And that chief's relying on me to educate him on what I think is best. And so I do think the responsibility falls on us to give those strong defaults and then allow them to pivot against it and still respect the democratic process, but focus on the defaults. Yeah.
+
+And as the lead candidate, you're gonna take the arrows, but there's other people. My friend Jamie Simenoff, who's an incredible entrepreneur. Great entrepreneur. And a dear friend of mine for many decades. He has Ring famously.
+
+And during the Super Bowl, he did this thing like, hey. With Ring cameras and I guess, I don't know if they're considered your number one competitor because they sell to individuals and then allow the data to be used by police. If people opt into that, which is the individual's right, they were like, hey. We could find a lost dog. And then people lost their mind over that because they were like, hey.
+
+If can find a lost dog, then you can, you know, have somebody stalking what whatever people's valid concerns are, and they had to turn that feature off is my understanding Yeah. After releasing it. Yeah. No. I've I've I've I've known Jamie for long time as well.
+
+I don't think they're a competitor. I'd say they're friendly. We have the same mission, which is to build safer communities in America. And and I think him and I have learned a lot over the last year of, you know, maybe underestimating people's concerns with how technology could impact them and needing to maybe go slower in some cases. Like, we, you know, we haven't gotten into the AI topic, but it's an area where I think we're doing it smarter now because there's a version of Flock where we would have just ripped and launched AI feature after AI feature and said this is awesome, and we're going intentionally really slow.
+
+Do understand that? What is the opportunity and the concern with AI? What give us the practical, you know Yeah. You know, in if we were in a police state, if it was China and they're using this, like, the CCP has a a literal police state, that's very triggering for Americans because they see that, then they see flock on this end and ring on this end, and they say, hey. What's the distance between these two?
+
+And AI's the obvious one because they're tracking people with facial recognition, and they're watching their behavior. They're like, this person littered. This person raised their voice. Like, it's pretty gnarly. Yeah.
+
+That's very different. So tell us about the AI features and then what the detective wants most because the detective wants to close cases reasonably. And then what you're saying like, oh, gosh. That would close the case, but maybe it's too much of a privacy concern. Yeah.
+
+I mean, let's talk about a simple one that's kind of in debate right now, which is nine one one systems. Today, you know, when you call Delta, maybe you get an AI agent. Maybe you get a human. But you're booking a flight, so the risk of kind of hallucination is pretty low. Maybe they book you on the 7PM instead of the 4PM, and you're like, what just happened?
+
+But it's fine. Imagine someone broke into your home and you call 911, and we've now switched over our 911 system to an AI bot, and it starts talking to you about what you had for lunch. Yeah. No good. No good.
+
+The and the risk the risk is so high, and we have no idea how these things work. And there's no good way to control them. That's, like I think that's pretty well in SAP. And so you see cities, due to budgetary reasons and due to staffing issues, kind of leaning in pretty aggressively. And there's been some bad cases where the AI's gotten it really, really wrong.
+
+Mhmm. And so I think there's a smarter way to do it. Like, the smarter way to do it, it would be, okay. Look. We're gonna we're gonna have AI, but AI is only gonna pick up when the phone lines are fully busy.
+
+Yes. Okay. So it's like, okay. That's smarter. That's not what's happening.
+
+Like, there's a reckless way to do it, which is just flip a switch. Or maybe you start with just Do you handle 911 systems? We don't. We the the the industry you we don't do 911 calls, but I'm watching this unfold, I'm going, man, this is a, like, this is a huge risk. I look for us as suppose you could use AI to look at patterns and say, these are abnormal patterns for this car.
+
+This car is slowly driving up to this house, then driving away, slowly drove up to the next house, drove away, and it did that six times. Yeah. Is this somebody delivering a lot of burritos, or is this somebody casing the joint? Like, that would be what the detective would be like, hey. Yeah.
+
+Let let's get precogs here, precognitions from minority report to predict a crime. Yeah. Because somebody's case in the joint. Yeah. Yeah.
+
+That I don't wanna do. Like, I think we've been really we've been really consistent that we never wanna be a company that defines suspicion. That's really dangerous. Oh, yeah. But it's a it's a it's an interesting kind of, like, happy hour topic.
+
+It's like, what what does that world look like? But for us, I think there's it's really valuable that there's a human in the loop when it comes to public safety. We're talking about people's lives. We're talking about peep people's, like it's it's really important stuff. So we always wanna have a human in the loop, and I think there is some some products that we could build.
+
+But the difference is, like, it, you know, looking at knowing the cost of getting it wrong, you have to deploy this with third party proper attestation that it's that it's working as expected. It shouldn't be up to me. It shouldn't be up to my customers. Someone who actually doesn't want this to work should come in and say, well, guess what? It it does actually.
+
+Like, this is actually really good. It's And making officers more effective. It's making officers more objective, less subjective. Like, that should be our end goal is that AI is used in a way that increases the number of crimes they can solve and decreases the likelihood if they get the wrong person. That that to me is the ideal state.
+
+And I still think we should rush there. I think we should be really deliberate about how we get there. You've lost, I think, dozens of cities of the 6,000. So some cities are now saying, hey. This isn't worth the trouble or too many people protested.
+
+Take me through what's happening last year with those, I think, 60 or 70 cities maybe out of 6,000, if I got my numbers correct. Yes. 1% have said, okay. This isn't for us. Yeah.
+
+It's tough. Right? Because I want everyone to be safe. That's why I started the company. And I know what they've had, and I know the results we've had.
+
+And, unfortunately, the majority of the time, they're making a decision off of misinformation. I remember vividly that one of the first customers that chose to walk away did so because of facial recognition. They went online and googled ALPR facial recognition. They saw one of our competitors' website and said, we're getting rid of this flock then. They didn't realize they were looking at the wrong person's website.
+
+Yeah. And that's tough because, like, that's on me. Right? That's on me to better communicate to to these decision makers that, like, here's what we do. Here's what we don't do.
+
+That's been the bulk of it. I think the other thing that has been tough to see, Jason, is I I saw this one city in in Washington just just it's so sad. They turn the cameras off. The next weekend, a little boy gets shot. Car drives off.
+
+It's gonna be a cold case, and luckily, the city next door still had flock cameras. Found the car, made the arrest, and looked, kid that didn't live, which is horrible, at least their family knows justice was served. And so I think we're making really consequential decisions on on inaccurate information, and that's tough. And I just thought we have to do a better job as a company, like, communicating to our customers and their customers' customers, which would be their community about what this technology does and what it doesn't do. And and for me at least, when I when I speak to, let's call it, 99 people out of a 100 and explain the facts, they go, why is this a debate?
+
+This feels like we have control as a city. We can set limits. We can set guardrails. I want to be safer than I feel today. I've never met somebody who's like, wanna be less I predict as you explain this and you change the defaults and the audits get in place and the dirty cops get, you know, taken out of this, that you'll see some number of those cities, you know, and the city councils readdress this when things cool down a little bit.
+
+And, you know, this happened here in, you know, where I live now in Austin, Texas. Austin canceled flock or didn't renew whatever Yeah. In 2025 according to my notes. Then we we you know, people have guns here. I I have a gun.
+
+I carry a gun. Everybody's got guns. And so we had this crazy shooting with a bunch of kids, and it was a similar situation to what you're describing. They were committing these crimes in Austin proper. They drove out of Austin, and Manor Police Department did have flock.
+
+They picked it up. And twenty eight hours later, the three teens were arrested, and they were like juveniles, 15, 16, and 17 here according to what I'm seeing. And that was the wake up call here, and that brought it back to the front, and now everybody's debating it again in Austin. Okay. The a s l ACLU wants forty eight hours, I think, is their proposal.
+
+Okay. That's the ACLU. That's reasonable. Yeah. That's their that's a reasonable stance.
+
+This is the privacy organization's privacy organization, civil liberties. We get it. You know, most cops probably want thirty days. Communities are gonna set it at seven or fourteen days. That's it.
+
+You have competitors. Tell me about, like, the competitors' approach here and how you deal with that as an entrepreneur. That's funny. Just saying, hey. We're just gonna sell you the technology, and we're not gonna and we're just gonna keep our heads down, and we'll be the do they go in and sell themselves as a we're flock without limits?
+
+So to your earlier point, yeah, we've had close to 20 cities already turned their cameras back on. Oh, interesting. Yeah. Because they realize, like, they are now less safe, and they have an obligation to their constituents to to be safer. And it is it is it is tough as an entrepreneur because you wanna you wanna build as big of a business as possible.
+
+Right? But you also wanna do it in a way that when it's all said and done, your kids go, I'm so proud to be that guy's son or daughter. And so you have to make decisions that you you you're gonna be comfortable with ten years later. And I'd rather lose, you know, I had a of concerns about requiring, you know, accountability for all of our customers knowing very well that I was gonna, you know, upset a lot of customers potentially. And I said to myself, look, if a customer doesn't wanna be held accountable, I don't think I want them as a customer.
+
+And they can go to one of my competitors who doesn't have these tools, doesn't have these requirements, and that's okay with me because this is just business. Right? It's it's just a business. Now it's business I think serving a very important mission, but I I wanna sleep at night, and I do today. And our competitors, to your point, yes, they run more reckless.
+
+They run without these tools, without the scrutiny, and I think it's gonna catch up to them. It will catch up to them eventually. Yeah. I mean, as you are willing to lose customers who want the untethered system without, you know, proper constraints, yeah, you'll lose some of them, but I don't think you want them as customers anyway because it's gonna blow back on you. San Francisco famously with these ALPRs, automated license plate something.
+
+Automated license plate reader. Yeah. So the ALPRs, you said earlier, you're also keeping if there were dents in the car or the color of the car or, like, the the make and model of the car. Is that right? Yeah.
+
+So it's pretty it's pretty cool technology and pretty effective. Because if you think about what happens on a 911 call, most people don't instinctively look at the license plate and remember it. They see the thing that was unique about the car. Oh, it had it had damage on the right side. I remember so vividly we had this homicide case near me in Atlanta, and all the person could remember was that the back right tire was missing a hubcap.
+
+And so the detectives, would go in and say, okay. Show me all the cars in this fifteen minute window that did not have a back right hubcap. And that's the beginning of an investigation, not the end of an investigation. That's the the way to get started, and that's all they had. And because of that great detective, he's like, he's I've I've got to know him pretty well because he's, like, he's very good at his job.
+
+He worked his butt off and and found the found the person. But that was the start. And so, yeah. So you think of ways like San Francisco, and I I love I saw a tweet the other day, which was, you know, the flock effect. And it's like crime is down.
+
+Stolen vehicles is down. And, look, we we we are one small part of a very big transformation that's happened in that city, including stronger elected officials, stronger enforcement of the law, a strong police chief, a strong DA, a community that demands to be safe. Like but that's what that's what should happen. If you live in San Francisco, you deserve to be safe. It's one the best cities in the country.
+
+And San Francisco has a lot of problems, and people are very libertarian, privacy based, live and let live based. It is kind of the problem having lived there is that people are so open hearted from the summer. It and it literally comes from the summer of love and the fact that it was a mining town. Like, they just have this, you know, live and let live attitude. Obviously, you know, a lot of the culture that's emerged there is, hey.
+
+Let your freak flag fly. Do what you wanna do even to the point of, hey. You know, if people are stealing, why are they stealing? Like, what happened in their childhood? The the the the and people there have had enough.
+
+The fact that San Francisco and I and I think this is the correlation. Do you have the ability, do you have the entitlement to say, I don't need to worry about this because I have security at my house. I have a security guard. I have a personal driver. I have personal security, which, by the way, a lot of rich people have now some combination of these things at a minimum.
+
+Like, I just described, I have cameras. I have people, you know, all this stuff. And so, you know, you you start painting that picture. It's it is you you have to be extremely aware of your own privilege Yep. That you don't have to deal with crime.
+
+And then my brother was a cop during the stop, ask, and frisk era in New York. The statistics during stop, frisk, and ask, which was a violation of the fourth amendment, like, you're stopping people based on, like, they're hanging out. So it definitely was a little step too far, but New York in the seventies and eighties was dangerous as hell. Like, Like, there were a lot of guns on the street. My brother took a couple of guns off the street.
+
+Cops were in a really tough situation. The people in the poorest communities were the most in favor of stop, ask, and frisk. They they always leave out the ask because they're like, oh, we're just gonna stop you and frisk. You know? They would stop and say, hey.
+
+What are you up to? And, hey. You're hanging out in the corner. What's going on? And, you know, they just try to get a read on people, which, by the way, if you ever go to Israel or you go to some countries, they ask you 20 questions.
+
+Why are you here? Hey. You know? Where are you staying? Like, they wanna get a read on you whether you're going into Israel or Tokyo.
+
+They might ask you a couple personal questions, which would be offensive to Americans, but the correlation was really people who experience crime are in favor of it. People who live in Pack Heights, they don't need to worry about this, man. Something goes down in Pack Heights. There's 20 cops and 50 private security guards, you know, rallying around one homeless person, one vagrant, you know, one person who's in a car that doesn't look like I should belong there. It's like, they're gonna get swarmed in Pat Kines.
+
+Yep. No. I mean, you hit the nail on the head, and it's not spoken about as much, but it's worth looking at who is so against what we do and who is so for it. And it's typically people who don't have any other way to protect themselves, who need this, right, who want this. And and for those who have a gate and have a guard and have cameras and have a security system, and they have Jamie's incredible doorbell camera, right, and they have all these products and these services.
+
+They're like, why does why does anyone need to feel any safer? It's like, because most people don't have any of this stuff, and they don't feel safe when they go to bed. And, yeah, it's it's it's quite telling. I'm rooting for you to get everything right and to continue making communities safer. I'm also rooting for communities to make their own decision.
+
+100%. I think that is the key part of this that people need to embrace as well. If you have if you've chosen to live in a gated community, you have made that choice for security in all likelihood. And if poor people or people who don't get to live in a gated community and you were to ask, you know, people with a family, hey. Would you like to live in a gated community, or would you like to live with not in a gated community?
+
+Like, a 100 out of a 100 people. I I mean, maybe it's 95. I think if you offered, like, the average Joe or Jane, hey. Would you like to live in a would you like your community to be gated with three gates and there's a security guard? They'd be like, heck yes.
+
+But I can't afford that. How much is that gonna cost? So this is where, you know, I think people with children, people with homes, they they just have a different view of this than maybe when you're younger, and you can afford to say, listen. I don't have kids, and I care about my safety. I care about my privacy and my Yeah.
+
+And and I understand it. Like, I I don't want the government to have, like, a national flock database. I don't want the government to do facial recognition. I find that like a bridge too far. Yeah.
+
+The license plates for two weeks or thirty days, I kinda feel okay with it. I'm sorry if people are disappointed in me for that, but as a parent and, you know, somebody in a community, I'm okay with my community having license plate readers for up to thirty days. That's that's the decision I came to. Well, you know, and, Jason, I think to your point, I I had this interesting conversation with an elected official in Illinois who was one of our largest antagonists. She's very anti flock.
+
+And really sad, really scary. She was the victim of political violence. Someone shot at her house, and the police used a flock camera to find that person. And lo and behold, to her credit, she changed, but she did change, and she's now one of our largest advocates because she realizes you don't get to pick when you're the victim of violence. You don't get to pick.
+
+Sometimes it's random, sometimes it's intentional, but everyone wants justice when something bad happens. And everyone wants to know that they're gonna be safe. And so I think you're right that my my hope is that this is these kind of conversations actually lead to fruitful debates about how we have both, and we don't let, you know, necessarily allowed minority dictate, you know, us moving towards a less safe society. That'd be pretty sad. Yeah.
+
+And listen. You have been in what I would describe as a PR disaster the last year over this. How far through the PR disaster are you? You've changed a lot of the communications. Yeah.
+
+And it is this something Flock can recover from, or is this, like, you know, company killing, like, oh my god. We're we're screwed. Like, to to just be honest with us about, like, the PR disaster of the last year, how that's affected you and how that's informed how you, you know, run the company, and how damaging has it been? You know, I think the biggest damage is the internal morale. Right?
+
+Because because you go on to X or you go on to Reddit and you go, why are people so mad at us when we've been doing the same thing for nine years? And and why are they so mad at us for things we don't do? And we just we just want people to be safe. And that's tough. Right?
+
+It's really hard for your your your work to be challenged so viscerally. I think the interesting part is it's brought us closer to our customers, you know, because because we're because they they they have a job to do, which is to keep their community safe, and they see this as one of the the most, if not the most, critical part of of how they do their job. Like, there was a chief who was like, this is the best thing since DNA Yeah. In terms of fighting crime, and I agree with him. So that's on the good side.
+
+And I think, you know, the the business is in good shape. You know, we raised we raised more money at the beginning of the year. The company's still growing. We could be growing faster. If we used to have zero churn, now we have, to your point, 1%.
+
+Okay. Well, I would like to be back at zero, and I'm gonna fight as hard as I can to get the right message out there, to your point, communicate better, listen more. And I think if we do that, we're gonna be just fine because at the end of the day, everyone wants to be safe. That hasn't changed, and that will probably never change. Just like everyone wants to have food, everyone wants to have a roof, those are just these core needs to Maslow's hierarchy of needs.
+
+Safety is up there. And It's high. You know, I think for your company, like, you're gonna just have to lead, and you're gonna have to be ahead of these things. And I, you know, I look at Zuckerberg and Facebook. They've always been playing defense and catch up on the impact that, let's say, Instagram had on Yeah.
+
+Young teens and eating disorders and addiction to social media. X and Twitter had, like, political, you know, nonsense and, like, people trying to subvert democracy. Like, all of these social networks had a serious downside that's now been quantified, etcetera. It would have been so much better if he was ahead of it and said, listen. I have kids.
+
+Yeah. I understand where you're coming from. I think there should be an age gay. And he just wrote that manifesto last week, and I'll give him credit because I think he was looking at it saying, there are obviously selfish business needs. He wants to be part of the AI revolution.
+
+But I think he was also identifying and trying to get ahead of and show some empathy for, hey. Yeah. You you could lose your job because of AI. Here's how I think if you use the tools, you wouldn't lose your your your job. And if you have open source and it's available to everybody, not just the rich, and we give you agents and free AI that other people are paying thousands of dollars a month for, hey.
+
+Maybe that level's the playing field. And I think that's what CEOs have to do right now in this media saturated you know, a story can just go viral so fast, and you gotta just get ahead of it and anticipate these things and own them and just be frank about it. Tucker Carlson demolished you last week. Have you have you reached out to Tucker to go on his pod? No.
+
+I don't you know, I don't know if that's something that's in my my deck of cards, but, no, I appreciate it. I I like that, you know, I do like t shirts, I guess, is what I'd say. I wear t shirts. I I put polo on for you. I thought a collar would be appropriate, but I would polo too in the hot.
+
+Yeah. You look you look great. Yeah. You look great. But, no, I think, look, we we wanna we were on the Today show this morning.
+
+We're on Good Morning America. We wanna go to places where the community listens, and we wanna have meaningful conversations. And, yeah, we're not done. We got a we got a long road ahead of us, and I think, you know, we didn't get to drones. Oh, yeah.
+
+So how did they yeah. Let's wrap up on that. How did they drone So drones is probably our fastest growing business unit right now. You know, our LPR business is just under 50% kind of of our forward looking revenue. So it's a big part of our business, but we've got drones.
+
+We've got live video cameras. We've got some really cool software. And, you know, I think the story I'd share with you about drones, which is one of my favorite stories, is so these drones live in a kind of a HVAC controlled box, a dock per se, on top of a roof, typically like a police precinct or a fire department. And when a 911 call happens, instead of sending an officer first, you can send a drone. So there's this really interesting case not too far from you up in the Dallas Fort Worth area where a woman, you know, at late at night at a gas station called 911 and said, there's a man walking back and forth with a gun.
+
+I don't feel safe, which obviously is not illegal to to garnish a weapon in the state of Texas, but she was scared. Right? And then Well, you can wear one, but you can't be waving it around. Yeah. And he was fair enough.
+
+Fair enough. He and and so she called 901, and normally what would happen, right, is, like, one cop would've heard that flip on the blue lights, race down, and their hearts racing. He's got his gun ready, and someone's about to die. Instead, they launched the drone. The drone's at 400 feet, flying 60 miles an hour.
+
+So it gets there in under a minute. As the crow flies. Yep. And it's got a 40 x optical zoom, so it zooms all the way in. It's not a gun.
+
+It's a lighter. It's one of those toy, like, lighter things. Yeah. They call the woman back and say, hey, ma'am. It's just the lighter.
+
+You're okay. And I share that story because so much of my businesses are related around solving crime, but it's more than crime. It's about safety. It's like how do we help the community feel safe? And this is an example where, like, we demitigate it.
+
+We mitigated what would been a really bad situation for everyone, and we have thousands and thousands of stories like that where communities are safer now with our drones. They're safer with our cameras. And to your earlier point, we just gotta do a better job communicating how it all works, and we gotta teach our customers how to do that too. Because we're only one company. We got thousands and thousands of customers.
+
+We we need their help too in telling the story. Yeah. I think the the new tool you're talking about with the audit trail, I think that has great potential. I think a third party auditor. So if you sell the system, it can come with third party auditing.
+
+You know, people use Ernst and Young or whatever to audit books. What's the equivalent here of an auditor that would say, hey. The drone got launched. This isn't a dirty cop sending a drone to stalk their ex, you know, spouse or, you know, break somebody's privacy, and we're just gonna review in real time slash whatever every drone flight. Because that's now you start sending drones.
+
+Tucker's gonna look at that or ACLU is gonna look at that and say, okay. So now you're, like, peeking in my window. So there's gotta be massive safeguards on the drone getting deployed. Is it only deployed if there's a 911 call? Is that the This is the next big, like, chapter for law enforcement is is doing a better job implementing drones than they've done with historical products.
+
+Because you look at something like body cameras, and I'm not sure how much you follow this, there was massive outrage on body cameras. And now it's like, wait a second. This is actually really good. It's a better tool. And and same with non lethal weapons.
+
+And so, no, we we have there's still more work to do there. And to your point on the third party auditors, you know, one, you've got a city manager that is effectively his or her job is to hold the police chief accountable. And they could see the audit logs. They can go in there themselves. See audit logs.
+
+Yeah. They can see the audit logs. They can also see the flight patterns. So most of our customers have a transparency portal. It has the audit log.
+
+It has how many cameras they have. It has their drones. It has their drone flights. Now there's a lag. Right?
+
+We we wanna delay. Yeah. We don't want people racing and chasing to the crime criminal investigation. Yeah. So there's a lag, but I I look at that and and what's gonna be hard for our customers is getting comfortable with this ever growing expectation of both transparency and accountability.
+
+Yeah. And we're gonna push them. We're gonna push them hard, but the community is also gonna push them as hard. Of these things are, like, 911 calls in many jurisdictions are public Public record. They're public record.
+
+And same thing with radios, although some places don't have those as public record. They don't have the they have the radios encrypted. So drone flights is one where, like, you know, should drone flights just be on the website? Like, here's all the drone flights that occurred, and here's the 911 calls that are with them. Are people doing that, or yours does your software do that for them?
+
+We it would be possible. We've never had a customer ask to do it. We have this concept of, like, a spectator mode, which would be available for, you know, city officials and and command staff. But I think that your question's the right one. And I think as a industry, you know, we're gonna have to make these decisions sooner than later of what that default is because we have a default now, but there's very little state regulation.
+
+There's zero federal regulation outside of air safety, which is important, but but nothing, you know, on other countries or state regulation or city regulation for the LPR? Yeah. So the short so you've so you've got you've got New Hampshire at three minutes. And then Three minutes for license plate reading? Yeah.
+
+Okay. That's a But that's that's New Hampshire. That's New Hampshire, though. So for For the that free or die. Okay.
+
+Got it. And and then the next nearest state is twenty one days. Interesting. That's the state of Washington. So Okay.
+
+Well, here here you are, folks. Like, if you want to really live off the grid in Privacy, New Hampshire. Live the live free or die. Garrett, I appreciate your candidness, and good luck being in such a controversial space and getting ahead of these things. I wish you great luck with it, and we can agree, I think, publicly for everybody to agree and disagree on the margins about these things, but it's up to the community to make these decisions, I think.
+
+And I think that's the high order bit here, and I think that's what you're starting to really get right is, hey. This is your community's choice. You don't want it? Turn it off. You want it for forty eight hours?
+
+Put it at forty eight hours. We're gonna have some reasonable caps on this. I wish you great luck with it, and thank you to everybody for tuning in to the all in interview program. Bye bye.

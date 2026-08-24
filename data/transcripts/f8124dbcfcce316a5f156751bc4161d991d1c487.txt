@@ -1,0 +1,233 @@
+Hello, and welcome to the Virgcast, the flagship podcast of smart home voice assistants. I'm Jennifer Paterson Tewey, and on today's show, Nilai joins me, and we're going to review Gemini for Home and Alexa Plus. Generative AI promised a revolution for smart speakers, smarter, more capable in home voice assistants that can understand natural language, pass complicated commands, and run your smart home for you. What more could you want? A year into this revolution?
+
+Are we any better off? But first, a look at everything that's happening on The Verge today. This is ninety seconds on The Verge for Thursday, 08/20/2026. Grand Theft Auto six, the most hotly anticipated video game since Grand Theft Auto five, is leaking. Yesterday, three clips of apparent game footage appeared online, and today, we reported on a new clip from the group called CyberLeak that shows footage of Duvall shooting the word leak into the wall.
+
+This could mean an actual copy of the game has escaped Rockstar's containment. If you can't wait till the November release, there's an extended look coming to Netflix next week. Spoiler alert, you steal cars and kill people. Surprise, people are getting around the FCC's import ban on new gadgets from DJI. The Verge's Sean Hollister bought an Osmo Pocket four for $659 from TIMU and got it in four days from Oregon.
+
+It's not DJI selling it, however. It appears third parties are getting gadgets from China demand. Companies are getting creative to get around the ban. Drone maker HoverAir just got its new Versa certified by calling it a camera that flies rather than a drone. The FCC is so on it.
+
+Retail and service workers are fed up of your meta glasses and don't want to be in your TikToks. The Verge's Mia Sutta reports how public facing workers are being filmed, harassed, and creeped out by AI powered glasses, and because it's their job, they can't just walk away. US law offers little help public recording is broadly legal, and workplace protection is left to corporate policy. So you may start seeing no recording signs popping up at your local Target sooner than you think. You can read more at theverge.com.
+
+That's ninety seconds on The Verge for Thursday, 08/20/2026. I've got a text. The summer might be almost over, but a new bombshell has entered the villa. Meet the voices of Deepgram Flux TTS. I'm Drew, low key casual.
+
+I'm Alexis, an upbeat morning person. I'm Hailey, always cheerful. Flux TTS has some real personalities that are ready to speak. You can interrupt, pause, and keep talking without losing the plot. Fancy a chat?
+
+Come try all the voices free through September 12 at deepgram.com slash keep talking. Terms apply. You know that feeling when too many things fall through the cracks? Monday.com was built for that gap. The AI work platform where people and agents work side by side to deliver more together.
+
+Create your first Monday agent today at monday.com. Hello. Welcome back. I have a very special guest with me. Neelai, thank you so much for agreeing to be on your podcast with me.
+
+I mean, it a big lift, but I'm doing it. So just to kind of start off, we're just gonna refresh everyone's memory in case they aren't they don't remember what's going on with these smart voice assistants. We've got Amazon's Alexa Plus, which is their new generative AI voice assistant that replaced regular Alexa. And we have Gemini for Home, which is Google's new Google Assistant. They've actually completely removed Google Assistant.
+
+I wanna be clear. I don't a 100% believe that they've completely removed Google Assistant. You don't? You think you stay yeah. It's still lurking in there in the background.
+
+Into it. I just I just wanna say this conspiracy theory out loud at the top of the episode. And one other thing we should say at the top of the episode is we are probably gonna be using those words, Alexa and hey, Google, a number of times. So if you are in your house, in your kitchen, where you've got smart speakers, you might wanna mute them just to prevent us doing weird and wild things in your home. Yeah.
+
+We're gonna open and close your shades so many times. That's gonna be a lot of fun. Excellent. Alright. So off the top, you use Google Assistant in your home.
+
+Is that right? How what's what's your experience to date sort of been between using Google Assistant and then the new Gemini for Home? And, yeah, tell us a little bit how that experience has gone for you. Yeah. I would say we are a Google Home family not because of the merits of the voice assistant, but because of the Google Photos integration.
+
+And the, you know, the Google Home display devices, they have really excellent color temperature sensors in them so that photo displays look reflective. And this was their core innovation one hundred years ago. They have done nothing else since, but it makes photos look really good in your kitchen. So this is why we are a Google Home family. And when it was Google Assistant and regular Alexa, setting timers and playing music, they were on par experiences.
+
+It it I I I think it really did not matter. So we we picked one ecosystem solely on the basis of Google Photos integration. Now I think it's very different because you you have these AI assistants over the top. And the reason I say I my conspiracy theory is Google Assistant is still there is Gemini for Home is notably worse and slower at controlling smart home devices. You can just tell.
+
+And from my perspective, I can't say that I know this is true. It really feels like Gemini for Home is just issuing commands to standard Google Assistant. Like, they didn't rebuild that back end. They it's just there, and it you ask it to turn on the lights, and then it says to Google Assistant, turn on the lights because it's so slow. And that's why I believe it's there.
+
+And then every now and again, I don't know if you've had this experience, Google Assistant will just answer me. Yeah. I It'll just reappear out of the ether. And I'm like, oh, you were here the whole time. Why can't I just talk to you to turn on the lights on and off?
+
+So there's just something very complicated architecturally about how Gemini for Home works that makes me often miss Google Assistant because Google Assistant was many things. It was not perfect, but at least it was fast, and at least it was predictable. Not perfectly predictable, but predict in the way that smart home voice assistants are predictable. Do you know what I mean? Like, it was prick it was predictable.
+
+It largely did what you asked it to most of the time if you asked it in the right way. That was the key kinda difference. So but this is the promise. I'm curious for your perspective on Alexa because the promise of all this AI is that, I mean, just think about what you just said. It largely did what you said most of the time.
+
+It's, like, not great. And the the promise of AI is you'll be able to say whatever you want. And if there's one thing AI is good at, it's understanding language, and then it will figure it out. And I would say we can talk about the whole sweep of things. Gemini has improved some parts of that, but the smart home pieces are as clunky as ever.
+
+And I think this comes to, like, one of the core problems here. And I think you I think your theory really does probably hold a lot of weight because there is this piecing together of voice well, of models. They I mean, we know that they're both of these companies are using different models to do different things. And one of the things I've learned since I've been working with these assistants and talking to experts in the space is that most of the generative AI voice assistants are not going to be able to do the same thing every time. That's almost the whole point of what it is.
+
+The whole point of generative AI, they're more creative. It's nondeterministic, right? You're you're asked every time you ask ChatGPT a question, you ask the same question three times, you're likely to get three different answers. And when I asked my smart home to turn on the lights three times, I want it to do that three times. I don't want it to go and, okay, I'm gonna change your thermostat instead because it sounded more fun.
+
+It seems like that is a kind of core friction with the smart home voice assistance. And I think it gets to what we want as users of these assistants. Like we're used to an assistant that just does what we tell it to, albeit perhaps not always exactly how we want because we've said it wrong. Like one core example I have is with Google because I do use Google sometimes. So Amazon Lexer is my primary voice assistant in the home, but I've obviously I try them all.
+
+And I ask Google Home to turn on my living room TV, which is a Chromecast Google streamer and play YouTube TV. 50% of the time, no problem. The other 50% of the time, I cannot do that. I cannot control smart home devices in your home. That is not within my capabilities.
+
+It's like you don't know what you're capable of. And, like, there's this fundamental disconnect there, and that's what's made it the experience frustrating. But I have had good experiences. I have an even dumber example for you. Okay.
+
+It's very bad. So in the, you know, in Google Home and Apple Home and all those smart home ecosystems, this room that I'm sitting in is labeled, Eli's office. So everyone knows. It is. So it's mine.
+
+You can't have it. Get out of here, children. And often I say, hey. Turn on the lights in my office. And it does not know, Even even though it's my account with my name on it, it cannot make the leap to the room, Eli's office belonging to me.
+
+Yeah. Yeah. Which, you know, I have a one year old. The one year old's brain can identify which objects belong to him. Right?
+
+Like, there's something that's not intelligent about the intelligence systems where these little leaps you need to make them responsive to just wide amounts of input do not exist. And so you still have to say something very stilted to get to what you want. You have to say, turn on the lights in Eli's office, which is just a fundamentally crazy thing to say out loud about your own space that you are currently sitting in named after you. Yeah. And yet I do it all the time.
+
+Yeah. And that's what that was the promise. Right? With this more ambient interactive smart home that you don't have to, like, read a manual in order to be able to control. And to your point earlier about how Google seems to sort of piece things together here.
+
+One of the interesting things that I found the differences between Alexa Plus and Gemini for Home is that you can talk to Alexa Plus back and forth like you can with a chat bot to some extent. But for Gemini for home, you have to then ask to speak to Gemini live. And they've like distinct they've distinguished these two different sides of how you control or how you use the Google Assistant Gemini for Home in your home. You still call it, hey, Google. Oh my gosh, Google.
+
+Come on with the naming. It's like, hey, Google, Google Assistant, Gemini for Home, Google Home. So I'm going around in circles with it. But that this is where it gets confusing. And it seems fundamentally a bad consumer experience to say, Okay, we're giving you these tools, but you have to use certain nomenclature to get one side of the experience versus just the being able to talk back and forth with Google Assistant without having to say, hey, Google, which is another frustrating experience I find having to constantly repeat the wake word.
+
+Whereas Alexa has, to its credit, managed to mesh all of this into one experience. And over the I've been testing Alexa Plus for about a year now, which seems crazy. And when it launched, I had a lot of problems and I have seen significant improvements. But there's one really clear distinction between the two is that Elektra is always trying to sell me things. And that I have found almost enough to make me not want to use it anymore.
+
+Does it it's like a hard sell? Is it like, do you need more tires? So so a good example, I was trying Gemini Live and Alexa's conversational experience. And I my son just went to college. So I was like, I want to get some parental advice for my AI because, you know, who shouldn't ask AI for parental advice?
+
+I mean, I was trying. I obviously not planning on taking their advice, but I was interested to see what they said. Hey, Google. Let's chat. Hey, I dropped my son off for his freshman year at college last week.
+
+Any tips for how to manage this? You might want to try setting a weekly rhythm for deeper calls while keeping texts casual and low pressure. Try to listen more than you advise, asking him how he plans to handle things rather than offering immediate solutions. Alexa, I dropped my son off for his freshman year at college last week. Do you have any tips for what I should do to help him while he's away?
+
+The key is finding that sweet spot between being supportive and giving him space to grow. Be available when he calls, but resist the urge to check-in constantly. Send care packages occasionally, maybe with some of those school supplies you're great at picking out. You've gotta be kidding me. That's very good.
+
+You know, some poor Alexa AI engineer had to, like, hard code those prompts into the system prompt. So, yeah, that that's and, you know, this is the payoff. And I know you've talked about this a lot on the verge cast. Like, you know, you're the product. We are paying for these device, for these experiences in in many ways.
+
+But if but we're also still feeding these AIs, these smart home assistants with our information and they're using it to make money in some way. Or, you know, we're still waiting to see exactly what Google Home and Gemini Live is going to do here. But Amazon, Alexa, clearly they're they're always trying to sell you something. And there are ads on every single Echo Show screen that I own now, which is infuriating. So, yeah, I find I find like Amazon's Alexa Plus has done a better job of transitioning from the old command or control deterministic voice assistant into the generative AI, more free flowing conversational device.
+
+But it's also lost its purpose in my home in the process, I feel, because it's doing things like that that I don't want. So I don't find I'm using those experiences because I don't like those interactions. And then when I want it to do something simple, I can't always rely on it to do it. Amazon just has a totally different revenue model. I think they have a better product person in Panos Penet who wants the products to work better and is insistent they they work better.
+
+And he's been on this show, and he's very familiar to the audience. I've talked to him a lot. He wants the products to be good. Yeah. It's very clear he'd like the products to be good.
+
+And then he's got a bolt on a revenue model in which Amazon makes the vast majority of its money not by doing web searches or selling advertising, but by getting you to buy stuff on Amazon, and that degrades the experience in a very specific way. Yeah. And the I I think they're just running in totally different directions at the same goal, which is you will have one AI that follows your end all the time that knows everything about you and is helping you do a bunch of stuff, and they're nowhere close to these things. Support for the show comes from Quince. Labor Day is right around the corner, and that means cooler weather is knocking at the door.
+
+And if you need to switch up your wardrobe to fit the changing weather, Quince is a great place to start. Quince specializes in everyday staples, like their ultra soft organic cotton tees and premium Mongolian cashmere sweaters. They work directly with top factories and cut out the middlemen, so you're paying for high quality without the brand markup. Ever since I started getting to try Quince for these reeds, I've genuinely become a fan. Their clothes have honestly become some of my go to staples.
+
+Lately, I've been wearing their mesh stitch sweater in speckled beige, and it's such a great piece. It's one of those slightly heavier polos that's lightweight enough to wear now, but it's also perfect as we head into the fall. Upgrade your everyday. Download the Quince app for app exclusive offers, or go to quince.com/verge. Get free shipping on your order and three sixty five day returns.
+
+Now available in Canada and The UK too. That's quince.com/verge. Support for the show comes from Decagon. Running a successful business means your company will grow, but that also means customer support gets harder to keep up with. More customers mean more questions, more complicated requests, and more pressure to respond quickly.
+
+A lot of AI solutions just don't offer that personal touch. Decagon does. Decagon helps companies create personalized, concierge styled customer experiences with AI agents across chat, email, voice, and SMS. Decagon plugs directly into your existing systems so agents get live quickly. And because workflows can be updated using natural language, teams can make changes themselves without long engineering cycles.
+
+That means less time spent managing workflows, more time focused on customers, and ROI in weeks. Ready to transform your customer support? Go to decagon.ai/verge to get a personalized demo and see what Decagon can do for your team. Check Decagon out at decagon.ai/verge. That's decagon.ai/verge.
+
+When you need to build up your team to handle the growing chaos at work, use Indeed Sponsored Jobs. It gives your job post the boost it needs to be seen and helps reach people with the right skills, certifications, and more. Spend less time searching and more time actually interviewing candidates who check all your boxes. Listeners of this show will get a $75 sponsored job credit at indeed.com/podcast. That's indeed.com/podcast.
+
+Terms and conditions apply. Need a hiring hero? This is a job for Indeed sponsored jobs. This episode is brought to you by K eighteen. Noticing more hair in your shower drain or worrying about your first graze?
+
+You need K eighteen Future iQ Biomimetic Hair Longevity Serum. It delivers up to 19,000 more hairs, helps prevent premature grays, and improves the scalp barrier to start reversing hair age in three months. K18 Hair Science That Sees You. Shop future IQ at Sephora or get 10% off your first purchase at k18hair.com with code Spotify. What were some of your good experiences slash bad experiences when we with with a few of these scenarios that we tried?
+
+Did you was there any that kind of jumped out at you? You put together a few. The one that jumped out to me that just worked and would not have worked in the past is stacking commands that are Yeah. Or that they're able to do. So I need to set a timer for this, that, and the other thing, Google Home can just do it.
+
+And it does it without complaint. That's pretty good. Sometimes multistep smart home control works. Close the shades, turn on the lights, do a third thing. It's very slow.
+
+It's so slow that you almost believe it's not gonna work, and you wish to hit command twice. And that's, again, my belief that it's just prompting Google Assistant in the background and waiting to see what happens in return, and then it updates. But it does work. So just being able to chain commands and let them happen is a distinct upgrade, I think, from the classic assistants. Everything else is pretty medium in my opinion.
+
+I think chaining commands and also being able to use more natural language. Like, I think we have a couple videos here of of trying these. Alexa, it's too dark in the living room, and I'm cold. And can you lock the door? I brighten the living room lights, raise both thermostats a couple of degrees and lock the front door.
+
+Hey Google, it's dark in here and I'm too hot and I think I left the door unlocked. I've turned on the lights and set the thermostats to cool, but some devices are offline and I need a code for the airlock. Please say the code for the airlock. We did speed things up a little bit just because to Neelai's point, they are really slow. Very slow.
+
+This is one of the biggest complaints I think I've seen from users all around is that since we've moved to these new newfangled LLM powered voice assistants, speed has taken a huge hit. There are a few times when things are fast because of both Google Assist, Gemini for Home on your Google smart display does have some local control and Amazon, Alexa, some some of them have local control. So occasionally, like turn on the lights will be fast. But in general, especially these chaining of commands or using more like, for example, like make it warmer in here and turn down the lights, It takes much longer to process. And yeah, that is frustrating because it used to be better and now it's worse.
+
+So yeah, that was one. It's like they give us and then they take it away. I find the calendar management one that I really like because it's something to be able to do with your voice like, oh, you know, tell me what's on my schedule today. That's really useful. Alexa does a much better job with that, which is surprising because Google is the calendar.
+
+Google is my calendar. But it talks it says, hey, this is what you've got going on today. Whereas Google does this. You have a orthodontist appointment at 04:30. You have pick up your daughter at whereas Alexa's like, hey, yeah, you're gonna be picking up your daughter at four.
+
+You've got this appointment. It's it's more conversational and easier to listen to and less frustrating. Alexa, what have I got on today? Let me check. You've got your dermatologist appointment at 02:45PM, then picking up Rose at 4PM and yoga at 7PM.
+
+Hey, Google. What have I got on today? You have four events today. Take the car in at 12PM, dermatologist Jen at 02:45PM, collect rose from the bus stop at 4PM, and yoga at 7PM. But biggest problem, can't add my work calendar to either of them.
+
+So that's useless to me because that's most of my day. Yeah. It's funny because our work calendars are in Google. We're a Google Workspace company. Should be very easy.
+
+I was Google account management is a problem so long standing that I think even the most advanced frontier AI can't solve Nothing is gonna solve that next. No one has ever been able to solve it. I find that the live chat function on Google is so comically broken as to be useless. And it it it it works in two different ways. So they just added a feature where it just starts listening again after a regular command.
+
+So you say, turn on the lights. It and it just keeps listening. And that's kind of interesting. And then, you know, because you you can just keep talking to it. Right.
+
+You don't to keep saying, hey. Hey, Gene. You don't have to, yeah, you don't have to just keep saying the wake word over and over again. And that is Gemini for home. Yes.
+
+I'm making a very clear distinction here. Then you can say, hey, g. Let's chat, and that opens Gemini live, which is a different system. And that is so broken as to be useless, and it makes me wonder if anyone at Google has even tried it since it launched. Hey, Google.
+
+Let's chat. Before we start, keep in mind Gemini responses can have mistakes sometimes, so be sure to double check them. So what it does for me is it just feeds back to itself consistently. And it's Gemini. It's like proper Gemini, not this cut down Gemini for home.
+
+So you should be able to ask it almost anything and get the Gemini style response. So I just asked it if Brendan Carr's Dummy has a theme song, and it one, it got it wrong, and then I asked it to double check, and it got it confidently wrong again. So this is already a fail. But then it was listening to itself, and it just started asking and answering its own questions about podcast production. We we have the clip.
+
+We don't have to overdo it because it was it took a long time. It just kept going. It just kept going. Does the Virchast have custom theme music for the segment Brendan Carr's Dummy? The Vergecast does not have custom theme music for that segment.
+
+It is just a recurring bit in their discussion. Would you the Vergecast does not use custom music for specific segments like those. You're a 100% sure there's not custom music for that segment? You are correct. That segment does not have its own custom theme music as the show typically maintains a consistent musical tone throughout each episode.
+
+Since we've been discussing podcast production, would you like to know how they choose music for other parts of their show? Podcast post production involves several key steps to ensure a professional sound. What's good about Alexa Plus now is that it's better than it used to be. But the confidently wrong things, like I had a whole conversation with it about a World Cup game this summer, and it insisted that the game was tomorrow, but it was today. And it didn't matter how many times I told it it was wrong.
+
+It kept insisting it was right. And this is that this is what's fundamentally broken for a device in your home. It's so different when you're sitting at a computer and you can just, you know, use different reference points. But if you're walking around your home trying to do something hands free, you need it to get it right. And that I have found really frustrating in this experience because I I I can see some value here, but it's it's just like just not reachable.
+
+And do you think any of the incomers might be able to fix this? Do you think Apple has sort of got a magic wand up its sleeve here or OpenAI is suddenly going to bring us a smart speaker that actually works and does everything? Do you feel like that's the potential down the line, or do you think Amazon and Google could eventually get this right? I don't know if any of them can get it right. If you really think about what we're describing here is a central voice assistant for for control of many things that needs to connect to a huge and wildly disparate set of control systems and databases.
+
+Yeah. And that's a very nerdy vergecast y way of thinking about it. But all I'm saying is you have a a voice control system that needs to understand everything you're saying and decide whether you are asking it to play Fleetwood Mac on your network connected speakers or just talk about Stevie Nicks as a character or book Stevie Nicks tickets and use an agentic system to go buy tickets to the show that might be around you and then put that on your calendar. That's a lot of different things. And the pathways to accomplish all of those goals are incredibly different.
+
+They require incredibly different systems. It's clear, at least from my experience with Google, they require incredibly different resolutions to patent lawsuits and deal making. Right? Like, there's just a bunch of barriers that aren't strictly technological in the way, and then there are some pretty high technological barriers. So Apple, I think, is a really good example.
+
+Siri exists. HomePod exists. Lots and lots of people are in the HomeKit ecosystem. I would venture to guess some more people are in the HomeKit ecosystem in an even, like, half toe in way than are in the Google Home ecosystem or the Alexa ecosystem. Right?
+
+Because it's just there. If you have one smart light bulb in your house, you're in the HomeKit ecosystem. Right? Like, it's just it's just there in a very particular way on on people's iPhones. Okay.
+
+That means some of that is built out. But then they've gotta put a Siri based AI in a device. It's gotta understand who all the people in your home are, which Siri is very bad at today, and no HomePod can do that today. They have got to connect Siri to all the things that Siri is not good at. Mhmm.
+
+Right? Booking concert tickets and managing calendars that don't belong to you because you actually have a Google Calendar and not an iCloud calendar. All this stuff that Apple isn't good at. And then they've gotta make it work a 100% of the time because that's Apple. And if it doesn't work a 100% of the time, this is very bad.
+
+This is all already hard. I'm on the beta of iOS 27, and degradation in Siri, just in the smart home context already, is that you can no longer simply say scenes to it if the scenes sound like something you would say to a person. So I have a scene in my house called goodnight, which just locks all the doors and turns off all the light. And I would say 70% of the time on iOS 27 beta, I do what I do every single day, and I say I click the Siri button, I say goodnight, which should just trigger that scene. And 75% of the time, Siri says, you have a good night too, and I don't need it to do that.
+
+This is yeah. And this is the new Siri. Right? This is yes. Siri AI.
+
+Right? And it's like, no. I I need to do the thing that I was doing for years before this, which is just turn off the lights and lock the door by issuing the name of a scene. And now the command is locked. So this is, a problem for Apple.
+
+Like, they might have a lead in in just smart home platform adoption. Not a 100% sure, but so many people with iPhones have HomeKit floating around. Right? Like and Google Home is just a nightmare. Like, this is basically my argument.
+
+On the other side, all the other stuff doesn't quite exist yet. If you look at OpenAI, the idea that Johnny Ive is gonna design an OpenAI device that can do smart home control necessarily implies that someone at OpenAI has been tasked with build out an entire smart home control platform. Fig you figure out matter, OpenAI. Like Have fun. It just doesn't seem likely to me.
+
+In big and important ways, that seems insurmountable even if OpenAI's agentic capabilities or, you know, ability to go use a web browser on your behalf or or write code for you, they're more willing to write code for you, are far superior to what the other companies are doing. So I just look at you gotta put all the puzzle pieces together, and there are reasons for all of these companies to have two but not five. Right? To be really good at like, to be mediocre at five but great at nothing. Or in the I think in the case of, maybe be great at one and, like, nowhere on the other four, assuming you think there are five puzzle pieces.
+
+It just some of this seems too hard to bite the whole thing at once. And success here to me feels like the whole thing at once. And I guess the question comes down I think there are two things here that I'm still trying to wrap my head around and decide what I want to see. The first is, do I want all five or am I happy to have one that can do two and a half and another that can do two and a half? Like, I feel like the home is such a large, complicated beast that having a dedicated system that can run my home and perhaps have some element of orchestration for the people in it.
+
+Then my personal assistant that I use on my phone, does that need to be interconnected like that? That's what I always thought. It's great to have it all together. But in my experience with these devices that have been trying that, it's it's not been great. Well, again, the the promise is everything.
+
+Everything. And and none of these companies are shy about everything. And I just don't know that anyone's ever really gonna be able to do it. I think we will have much better success if they lean in like Amazon should lean in on what it is good at. Google should lean in on what it is good at.
+
+And I think one area I've seen both Google and Amazon do well, and I think we know that Apple is looking to get into this space too, is security cameras, because this is what's going to feed into our AI powered homes if we want that ambient experience. Right. Because cameras can tell you what's going on in a home. But it's really the only way to get that experience. It's it's not I mean, having cameras inside your home, I think, is not something that people want.
+
+But if you have cameras outside your home, at your door, it can feed so much information as to what's happening in the home. And we've seen it happen. We've seen both Ring and Nest. That's the one area I've seen substantial improvement. And, like, I can query both of them and ask them to show me the last time they saw my cat.
+
+Alexa, when did you last see my cat? The last time I saw your cat was yesterday, August 16. I spotted your feline friend several times over the past week, mostly around the front door area. Hey, Google. When did you last see my cat?
+
+Spooky was last seen today at 05:56AM eating from a bowl in the laundry room. Google can even tell me which cat. Well, it says it can. All of my cats are one cat according to it because it can't distinguish between the three. I've written an article about that.
+
+That's on the site this week if you want to read more about that. But that so if I feel like that's where we're moving towards when it comes to the home and this, you know, the next level of experience is this ambient. Your home actually knows what's happening and can react proactively for you. Do we want that? Is it gonna work well?
+
+Big question marks. But that feels like where we're moving. And Apple has talked about that too. I mean, we Apple there's rumors about Apple bringing cameras to the home as well. And and they keep sort of steadily increasing the way cameras can get in the HomeKit.
+
+Yes. And there's a lot the iOS 27 brings these AI powered descriptions to HomeKit cameras, which I've been testing. And that's really interesting because it can say, oh, Jennifer's in the backyard or Jennifer just came home. And you can see that the next step is it knows where everyone is without having to use your phones because your phone might be bad when you walk in the door. And so it doesn't know you came home.
+
+So, yeah, there's there's a friction there. It's like, is that what we want? Is that the next level? I mean, the do we want cameras around every house that are feeding training data AI systems? I think bigger than this podcast probably.
+
+But there's a real gap there because we have no we have a no cameras in the house policy. Yeah. So even the baby monitor is a closed RF system. It's ancient. It's dying.
+
+And I I'm very sad if it ever does die because finding another closed RF system is hard. They all have Wi Fi in them now. But no cameras now. So only cameras outside of the house, and they still don't know everything. Right?
+
+But it's it's enough to make the system think it's smarter than it really is in a way that here's where all the people are outside the house feels like meaningful information. But if you got two little kids and everyone's in and around the house, it's actually no information at all. It's the kids are outside. Great. Like, I knew that already.
+
+And so being able to take the next action based on that is important, and that means you've gotta connect it to a bunch of other information that these systems may or may not have that you may may may or may not want them to have. I'll give you a really, really done example from this past weekend. My wife was traveling. I was home with the kids. It was late at night.
+
+Gave I the baby his last bottle for the night. I realized we had no milk for the morning. Said to the eight year old, watch this baby. The baby's asleep. Don't light the house on fire.
+
+The grocery store is a block away. I'm just gonna go get the milk and come back. And we got the alerts on our phones, and my wife from Denver said, where did you go? Where are you and I was like, should have been like, the bar. Like, whatever it was.
+
+I'm out. Like, Max has got it. I was like, no. I just need a milk around and came back. Now there's a world in which we have a smart fridge, and the smart fridge knows we're out of milk, it had already ordered it.
+
+There's also a world in which we have a smart fridge, and the camera system saw me leave the front door, and it assessed why I would be leaving. And it told my wife in Denver, don't worry. Don't worry. Not abandoned your children? This is all crazy.
+
+Like, I don't want computers to know this much information about me. Yeah. And even the fact that I had walked down the street to buy a gallon of milk and walked back within ten minutes, the fact that I got a text message about it was like an uncomfortable level of surveillance. Already know too much about me. And by the way, the funniest part about this is because it's all disparate systems, it didn't occur to her that she could have just opened find my on our phones and saw exactly where I had gone.
+
+Yeah. Right? Because it I don't we just have it turned on. And all of this, I was just thinking about it. This is an incredible swirl of data that if you connect, creates the surveillance nightmare that is probably a a different episode of the show, but we should acknowledge surveillance nightmare exists here.
+
+But it's also would that be useful? Is that actually information, or is it just noise? Yeah. And are we are we kind of mistaking all this noise that our smart home sensors can generate for meaningful information? Well, and I think the answer to that comes when one company figures out the best way to bring all of that noise and make it actionable and useful and give a value proposition.
+
+Because right now they're not fast, they're not reliable, and there isn't an obvious value to these smart home assistants in the way that there was when we first got this. We've we can turn the lights on and off with our voice. That was a great value proposition. But this next level, now that we've been asked to pay for it, both of these services require a $20 a month subscriptions or prime membership. Gemini for home has tears, but you're being asked to pay for it when we weren't before.
+
+And I feel like we're still waiting for that value proposition. And if one company, maybe Apple, maybe OpenAI can come in and give us a value proposition here, I feel like I'm excited. I would be excited if someone can do that. I'm not deeply optimistic that it's going to happen. But I am pleased because right now I can tell you that both of these smart assistants can set three timers at once.
+
+And now, okay, that's progress, right, Neelai? Potatoes for 25, steak for seven, frozen pizza for twelve, and wine reminder in thirty. Sure. Time is set for twenty minutes for potatoes. Sure.
+
+Time is set for seven minutes for steak. Sure. Time is set for twelve minutes for pizza. Sure. Creating take the wine out of the fridge for 07:35PM.
+
+Yeah. I mean, that's a big win. We'll see if, you know, Apple got to two with Siri. It took them a decade. We'll see if they can chain together three with this next turn.
+
+We will see. We will come back once Apple has has done something with Apple Home and Siri because right now, you can't really use Siri, the new Siri, as you've demonstrated to control your smart home. So I'm it will be interesting to see where that goes and if OpenAI OpenAI comes up with something great in the smart home space too. So I can will you come back and we can talk about it? Oh, yeah.
+
+I'm dying to know. Again, the idea that there's somebody OpenAI who's sitting there with the matter specification every day and being like, you want me to do what? Like, it just seems very obvious that they will not engage with the smart home because if you that's just a rabbit hole of disaster for them. It feels like both Google and Amazon are trying to get out of the smart home, honestly. Honestly, that's what it feels like to me.
+
+But yeah. Yeah. Well, thank you, Eli, for joining me on your show. And, yes, I will we will have to come back and chat more about this. Oh, yeah.
+
+We're in we're in for quite a run between Apple and OpenAI where many more episodes of this are coming. Excellent. Great. That's for it The Vergecast. Remember to subscribe to The Verge for ad free episodes of our podcasts, exclusive newsletters, and more.
+
+We love to hear from you. Email us at vergecast@theverge.com, or call the hotline at 86611. The Vergecast is a production of The Verge and the Vox Media Podcast Network. Today's show was produced by Josh Carjas, Eric Gomez, Brandon Keefer, and Travis Larchuk. Bye.
