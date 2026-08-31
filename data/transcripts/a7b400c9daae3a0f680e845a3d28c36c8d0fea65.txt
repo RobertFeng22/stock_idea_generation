@@ -1,0 +1,433 @@
+I'm back with Dylan Patel, founder of Semi Analysis. Our version of a family Thanksgiving dinner is a regular yearly podcast. We are not actually related. We'll tell the people this. It will destroy the myth.
+
+Walk me through, basically where the world economy is headed is more and more becoming a function of where like lab economics are headed, where like the compute market is headed, etcetera. So I want to understand where the crazy future ends up within a few years, but let's start with just where we are today. So walk me through lab compute and lab revenue right now and maybe projecting out a year or two. Yeah, so when we go back to last year, even at the end of the year, most of GDP growth in America was just AI infrastructure. And as we look towards this year, about a third of the compute coming online is for the labs for OpenAI and Anthropic.
+
+Now it may be built by others and then rented to them, but it's at the end customer, it's them. As we go forward into the future, the the numbers for computer ballooning, right, we're at, you know, you know, a little bit over $1,000,000,000,000 of CapEx this year. As we go out into '28, it's gonna be more than $2,000,000,000,000. The labs are also taking an increasing percentage of this. And so ultimately, you've got a very interesting situation where the labs are going from companies that spend, you know, tens of billions of dollars a year to hundreds of billions of dollars a year to forecasting to spend trillions of dollars a year even at towards the end of the decade.
+
+And this is at least some of the contracts they've begun signing with their partners. And so this requires a big reshaping of what happens with their economics. Right? You know, so up until now, there have been companies that mostly lost money. Anthropic started turning a profit in q two.
+
+It's believed at some point in q three, OpenAI could potentially start turning a profit even with the big rise of Codex and and five point six and all this. But if we go back a year ago, everything that they all the money they had was venture funded losses. Right? If we go back to even the beginning of this year, it was venture funded losses. They've now turned the corner and are actually starting to profit.
+
+Now, that doesn't mean they're not taking in new capital. The new capital is still coming in to accelerate the growth further. But ultimately, there's more and more of their business is being funded off of their own revenue rather than capital injections into them. Over the last year and a half, their margins have really skyrocketed. The base cost of compute tends to be around 10 or 13 or $15,000,000 per megawatt.
+
+The most interesting aspect about what's happening now is before, again, they were generating, if they served a model, right? GPT-four being served on, know, NVIDIA Hopper GPUs was generating negative gross margin for OpenAI. But now when OpenAI serves GPT 5.6 or Anthropic serves Meet Opus five or Mythos, Fable five, revenue generation has passed well beyond the sort of incremental $1,015,000,000 dollars per megawatt. In the case of Anthropic, the the revenue has gone as high as $50,000,000 per megawatt. And and what that now enables them to do is, hey, if I spend $10 on inference capacity, actually generate $50 of revenue, and then I can turn around and incrementally spend all of that profit on training.
+
+One thing I'm very interested in understanding is how you see the centralization of compute happening at the labs or the relative ratio of compute that goes to the world versus goes to the labs. Where if you say right now, a third of marginal compute is going to the labs. By when is it over half of the incremental compute in the world is going to the labs? And by what point do the labs have basically a vast majority of the world's compute? Yeah.
+
+So earlier this year, you know, the beginning of this year, Anthropic OpenAI started at two for OpenAI and less than two for Anthropic. End of this year, they're both above five. So they've three, four x compute as a whole. When you you look at the incremental compute added, that's about 30% of the compute added this year. And as we step forward to next year, given what's already been signed and penned and inked, you've got something even more dramatic, right?
+
+You've got Anthropic OpenAI are taking as much as 40% to 50% of compute next year. And the centralization doesn't look like it's slowing down or stopping. In fact, it looks like it's only accelerating. Right. Now, who's building that compute for them will change.
+
+You know, next year, big at new entrants, for example, SpaceX is building a ton of compute. And they're actively going to lease quite a bit of it to Anthropic and OpenAI most likely because they're the ones who can who have the marginal capability to pay the highest price. In addition, OpenAI and Anthropic are also starting to build their own compute. OpenAI with their own chips, Anthropic with TPUs that they're purchasing from Google and deploying with FluidStack. And so when you ask, hey, when does half of the world's incremental new compute go to just OpenAI and Anthropic?
+
+I mean, it's really by the end of next year, it's already half of the incremental compute is going to Anthropic Because and compute is growing so fast, incremental compute is going to be basically most of compute. So it's very soon you're saying maybe within a year and a half or two years and most of the world's compute is owned by two labs or at least is serving the demand from two labs. How long do you think, so there's this trend where maybe world compute in gigawatts doubles every year, but the compute at the frontier labs triples every single year. But if you keep the current trend going, it goes from like two at the beginning of this year to close to like six at the end of this year, just multiplying out by three. 18 by the end of 2027, 54 by the end of twenty twenty eight.
+
+But are you like, okay, at that point, if they simply can't continue tripling given the amount of world compute or how, well, how do you see the world compute situation over the next few years? Yeah. So, if the incremental compute adds this year, 30 gigawatts next year, 50 gigawatts and the year after that 70, roughly, you end up with this really interesting phenomenon, which is, okay, well, a new Watt deployed this year significantly more efficient than the Watts deployed two years ago. So, actually, you know, a humongous percentage of the world's compute was deployed this year. Even though it didn't double the number of Watts deployed, I'm deploying GB300s and TPU V7s and Tranium 3s, which are way, way, way more efficient, 3x, 5x more performance per watt than the prior generation chips.
+
+And so, ultimately, you've got a huge ladder here. So, if Anthropic and OpenAI take on 45 of compute next year, You've got them in, let's say, December 27, they have taken on half of the world's incremental new compute. But that half of the world's new incremental compute is actually at a higher performance than everything else before it. Right. So you've got another multiplier on that.
+
+So by the time you're in like towards the end of 2028, if this trend continues, which I see nothing that's stopping it, you you've got them just controlling most of the usable, you know, flops in the world on their own. The thing I'm confused about is why you think we only add 80 gigawatts in 2028 if we enter in a world in which the price, the value of compute increases so much. That's the upper bound by the way. That's the that's the like, I'm so fucking bullish. Right.
+
+Okay. So let let let's let let's do some chain of thought here. So when I interviewed you a few months ago, you said in order to make a gigawatt of, I think, Vera Rubins, you need one sec. You need 55,000 N3 wafers, six k n five wafers, and a 170 k DRAM wafers. I don't know those numbers I'm gonna troll you, but the way you said wafers was so fucking in papers.
+
+By the way, when we first when we first moved to The US, I had the the VW thing pretty bad, and I was a vegetarian. Oh my god, Danny. And I remember you told me about this. It's like in North Dakota, I was in elementary school, and I'd be like Can I get a YGs? Can I get some YGs?
+
+Anyways, so that's for one gigawatt, right? Yeah. Now I had an LLM run your wafer fab equipment model and figure out how much how much the tooling cost to produce a gigawatt of compute basically every single year. And we said like 3 to $4,000,000,000 Now suppose you add in clean rooms and, Shell and everything else at the fab. So $6,000,000,000 of like fab CapEx produces every single year, a gigawatt and a gigawatt produces right now a $100,000,000,000 of revenue, but also that 6,000,000,000 in CapEx is producing a gigawatt every single year.
+
+And that gigawatt is producing a $100,000,000,000 every single year. So even over the course of five years, so you know, the first gigawatt is generated five years of profits, the second gigawatt that the fab has produced is generated four years of profits and so on. 6,000,000,000 of CapEx at the fab level will have generated over $1,000,000,000,000 of end AI revenue. Yeah. There's lot of OpEx along the way.
+
+There's a lot of other CapEx like the data center, the power. And you had to pay like the OpenAI for There's the R a lot of different people who need money here. But yeah, it's huge. But take away half of it for all these middlemen. That still means there's 100x discrepancy between fab CapEx and end revenue generated.
+
+More than that actually really, but we're just being very conservative. And as a result, this is capitalism, right? Like you would imagine that people are gonna figure out like we're gonna you have this huge discrepancy where you can turn $1 into a $100 and they're not gonna figure out a way to make more mirrors. I mean they are. Right.
+
+It's just these mirrors take some time to bake, right? But the emergency are so big. We're like, we could make a trillion dollars right now, but we're just bottleneck on the mirrors that go into the ASML machines. They'd spend, okay, how can we make more mirrors if we spend $100,000,000,000 on this, right? That's a situation we're going to be in pretty soon.
+
+And I'm just like, we're not going be able to solve that supply constraint and that just seems quite hard to imagine. No, there's definitely You've seen people do funny arbitragers here where they buy like turbines and then they try and resell them. Right. Because the value of a turbine is way more because it's the thing bottlenecking a data center. You know, I I think like if anyone had like $400,000,000 and the ability to convince ASML to sell them an EUV tool, they should totally just go buy one and and wait wait wait and then sell it for north of $1,000,000,000.
+
+Right? But but ultimately, like, yes, capitalism will cause these things to expand. But it's it's a whip, right? It takes a long time for the whip signal to get to the tail end of that. And so the supply chain doesn't react immediately.
+
+In fact, you go to talk to someone at Carl Zeiss, they're like, yeah, yeah, yeah. We need to make a 100 EUV tools by the end of the decade. I think when we first had our when we had our episode earlier this year, they didn't even think they needed to make that many. Enough mirrors to make a 100 EUV tools a year. And and so now they're they've like sort of they're like, okay, need to do that.
+
+But in reality, you know, because of all the economics of what's going on, it it should be even more. But it takes so long pill. Suppose that every single company in the firm, sorry, in the stack got private equity. Like somebody came in who was super AGI pilled and was like, we're going to maximize production. How fast is it?
+
+What do you think the physical constraints on making more things would be? Because we're the reason I ask is we're pretty soon gonna be in a world where the lab revenue or just AI cash flows because obviously the accelerators also have these huge cash flows will be so big that you can just fund extreme expansion of all this production from cash flows themselves. Yeah. I I I do agree generally. There's obviously some physical constraints.
+
+The way the supply chain is expanding currently, the 100 is roughly still the right number. For 2030? A 100 ASML tools for 2030. But, you know, if you said Carl Zeiss, here's $10,000,000,000, please fucking just expand production. That would change things.
+
+And you would have to do this with every company in the supply chain. I don't think it'll happen this year. Don't think it'll happen next year. I think it'll happen the year after because the world is capital constrained. But in a world where, say, the top labs are generating, let's say, even combined a trillion dollars in revenue next year, they're not able to say 10%.
+
+I don't think they're going do that, but. Yeah. Or hundreds of billions at least, right? Yeah. Seems like they realize where the world is headed.
+
+I feel like they could just make. So, thing is the labs can spend hundreds of billions. They're going to generate hundreds of billions of revenue next year. But ultimately, CapEx next year is like $2,000,000,000,000 So, you've got this big mismatch, right? The wafer fabrication equipment supply chain will do something on the order of $200,000,000,000 The data center market supply chain will do even more.
+
+The accelerator supply chain will do even more. The energy supply chain will do a number. You sum all this up, it's going to be well north of $2,000,000,000,000 of CapEx. So, the labs have not yet gotten to the point where their cash flows can fund this stuff. Of course.
+
+Yeah. Yeah. I mean, obviously they will like never get to that point, right? Because they want to keep Yeah. Want keep make your CapEx higher than your returns.
+
+But the key question I really want to understand is if, yeah, if the current condition continues to be like north of 50 gigawatts per lab by the end of twenty twenty eight. So between them, they'd have a 100 gigawatts. Those gigawatts, as you're saying, drive many fold more throughput or more performance by twenty twenty eight than they are now, right, because the hardware has gotten better. So not only have like flops for watt increase, but also the hardware gets better at working with AI workloads. Okay.
+
+So 100 gigawatts for the labs end of twenty twenty eight. How much is like world compute? I think that may be a little difficult given 2028 you start to have they've taken 80% of incremental compute. And I'm not sure what happens to markets then, right? You know, how much does the price of compute skyrocket for them to actually be able to buy 80% of compute?
+
+Is, you know, Google or Meta or Amazon willing to sell even that much? Also, one caveat when we're sort of talking about these gigawatt numbers is, you know, when Amazon is serving bedrock anthropic models, that counts as anthropic compute and sort of our world view because it is effectively, at the end of the day, counted as revenue for anthropic, though, like, there's a revenue share and credit back and all that. But ultimately, in 2028, it's it's, you know, if they get to 100 gigawatts combined, they have done really disruptive things to the market because anyone can make money off of 10 to $15,000,000 per megawatt compute today. You literally like, I kid you not, it's not that hard. Go get a GB 300 rack.
+
+Go download the Kimi weights. Go download VLM or SGLANG. Set it up. You know, Codecs and Fable can actually help you do this. It's pretty simple.
+
+I mean, it's not like it's, you know, it's not trivial, but it's not like rocket science and go put it on open router. It's very simple. And and you'll start generating more revenue than you're paying for the compute. And so this is this is sort of already led to this compute pricing 10 to $15,000,000 per megawatt start to inflect up. And to get to that 100 gigawatts in 2028, you have to believe that the labs can outpay for compute because anyone can make money at 10 to 15.
+
+You know, does compute now get to $25,000,000 a megawatt? Does it get to $40,000,000 a megawatt? But as you're saying, it's already the case that the labs are generating way more revenue per megawatt than everybody else. If they stay as far ahead as they are currently, you would expect that to be the continuing case. If there's like some kind of recursive self improvement where the AI labs are like relatively uplifted or they have models internally they're not releasing externally that are helping them make the next model better, you'd expect that to be even more the case.
+
+I don't you're already seeing this where like SpaceX or whoever's like slightly further behind will just sell compute to the highest bidder if they can't internally monetize it as well as the labs. So you I feel like it's continue expecting them to be able to gobble up like, bid for larger and larger shares of the compute. I think that is my worldview that they will continue to gobble up more of the compute. Yeah. But ultimately, they can't do it at at current pricing or anywhere close to it.
+
+For sure. They they do have to start paying $25.30, $50,000,000 a megawatt to really gobble up 70% of the world's compute in 2028. Yeah. To get to that 100 gigawatts by 2028, which is a very sort of aggressive goal. The other aspect of this that's really challenging is we've already seen a huge slowdown for the AI labs, right?
+
+This this regulation that they advocate for is actually slowing down the labs a lot more than it slows down, you know, sort of the open source Chinese language models. You know, OpenAI not releasing Astra. OpenAI stopping training for two weeks. Anthropic not releasing what their safety assessment set is Model two, which is widely believed to be the next version of Mythos. They're clearly not releasing their best models.
+
+And in which case, the revenue per megawatt stalls or even can start to decline again because other models are competitive again. So it's not that they're falling behind. It's just that they're not releasing their best What if there is some regulatory impact that prevents them from releasing their best models? Now, their revenue per megawatt does not climb as fast, then their ability to buy that incremental compute for a higher price than everyone else starts to diminish. And then maybe they can't get to that 100 gigawatts is sort of in a world where safety doesn't matter.
+
+I do believe that's exactly what happens, right? They can start generating $100,000,000 per megawatt or more, and they can pay $50,000,000 a megawatt. And no one else has any logical reason to do anything with their compute besides say, please, Dario, take everything off of my hands. But there are forces at play that which we cannot describe that would potentially slow this down. Yeah, yeah, yeah.
+
+I mean, I think a good intuition pump is just what if the AI models were literally as good as a fully automated software engineer? They're not currently there yet, right? Like I think they're far from just being able to fully automate the job of like a full white collar worker. But white collar workers earn 6 figures or north of that a year. And if you have a gigawatt that can sustain a population of, say, a million white collar workers, let's say roughly, right, that's like you could then off the back of that, that would be a 100,000,000,000.
+
+That's actually surprisingly low. Yeah. A 100 k per person, million population. Yeah. Yeah.
+
+Yeah. I don't know. But it'd be many hundreds of billions of dollars if you get like full AGI per I think the other aspect of this is and we've continued to see this, most of the value capture is not happening, right? Like most of the value that these models generate does not get given to OpenAI Anthropic. Thankfully, so far, it is mostly just being given to the users.
+
+Yeah, yeah. Right? Jane Street, with their exclusive contract with OpenAI for GPT 5.6 ultrafast mode or Jane Street, where they're like one of Anthropic's biggest customers, is generating way, way, way, way more value out of the tokens they're paying for than Anthropic is generating in terms of profit, right? Because they get to, you know, make money off of the market. Or Meta, who at one point was, you know, rumored to be, you know, as much as 10% of Anthropic's business.
+
+You know, they're generating way more efficiencies by optimizing their ad algorithms or what have you and getting engagement time 5% longer and, you know, all these things. They're making way more money off of using these models than Anthropic. And so the ultimately, you know, and that's what's required. So sure, if you had a million new software engineers, the cost per software engineer would also fall. One thing I'm confused about is does the market come into equilibrium?
+
+And if it comes into equilibrium, would you just expect the price of compute to equal whatever Anthropic and OpenAI can generate from it or be very close to it, but like a small amount of markup for Anthropic and OpenAI. Like right now it's really weird that there is a 4X or more difference between what compute sells for and how much money Anthropic can make from it. And in a world where the revenue per gigawatt continues to increase, if Anthropic's ability to monetize a gigawatt doubles or triples or something, it'd be weird if then the gap continued to increase. And so Anthropic just by like having some software, having some weights can take something that cost them $10 and then turn it into $100 Yeah. So there's a bit of this is always a fun question, right?
+
+Which is where does the value go in AI? AI is generating all this value. You've got, you know, the end user, which I think we all agree is generating more value than anyone else. Hence, they're paying a lot for these models. But then you have, you know, the app layer.
+
+Well, so far the app layer has generated very little value. And you've got the model layer, which again up until a year ago was generating negative gross margins and is now generating massive positive gross margins. And looks like it's on the path to generating, you know, $100,000,000 per megawatt. So turning, know, $10.15 dollars into a $100 as you said. But if we go back again a year ago, the hardware supply chain was generating all this gross margin while literally everyone else was losing money on it.
+
+Open Eye and Anthropic were just plowing VC money in. And as were many other startups and many of these hyperscalers are building infrastructure without knowing if there was going to be a payoff. So, ultimately, you had this like, you know, negative value being created on the model layer almost, if you will, because they were selling the tokens for less than it cost them on the infra side. And all the values being created used at the chip, the fab. Initially, in 2023, the memory guys were making no money off of, you know, HBM or memory for AI, even though theoretically their value they were delivering was humongous.
+
+Now, you've got well, actually, TSMC makes way less value than the memory guys. Is that actually how much know, they're capturing less value, So, you the value capture shifted around a lot Yeah. Which is very fun for people tracking the market or participating in the market like Jane Street as an example. There's lots of you gotta plug them There's lots lots you plug them that hard. So, you know, what happens, you know, going forward?
+
+Does Anthropic and OpenAI, they've slowly started to balloon in value capture. Do they balloon and take all the value capture? Well, that was the thought. And then Elon showed, actually, no. I can sell my compute for $25,000,000 a megawatt or $40,000,000 a megawatt to Anthropic and Google.
+
+Even if it's a short term thing, I've sold it for this price and I'll recoup my entire CapEx in a year. So, what's your prediction of how much the relevant tranche of compute like P300s or whatever that sold for 40 b a gigawatt. The SpaceX sold for 40 B a gigawatt to Google. What does that sell for at the end of next year? I think most compute will still continue to transact at sub $20,000,000,000 a gigawatt.
+
+Even at the end of next year? Because all of it has to be financed. For compute that you can build without financing, right? If Meta can build compute, Microsoft, Amazon, SpaceX can build compute without finding a customer just saying, fuck it, I'm going to build this compute. And then turn around and wait till it's already built.
+
+They now control what's going on. So, most compute is contracted well before it's built. Yeah. And so, this is sort of what Elon took advantage of in the market is, he actually had all this compute and he was like, Hey, Anthropic, I know you're making like 60 plus billion dollars per gigawatt. Why don't you just buy my stuff for a crazy amount of money?
+
+And obviously, it's not like Elon decided this or Anthropic decided this, sort of markets figured itself out. Other people, you go to a random cloud, they're like, okay, I'm going to build a gigawatt of compute or a 100 megawatts of compute. I'm going to spend the CapEx. I need to turn around and find a customer. If I want to find a customer, I need to find the capital.
+
+Who's going to give me the capital and the customer, the customer has to sign a deal and then I take the customer's commitment to the credit markets and I raise the capital. And so there's this sort of like completely different power structure where Meta who is effectively hoarding compute, them and SpaceX are plausibly the like number three. And the only plausible number three is because they're hoarding all this compute. They're using their balance sheets and capabilities to build compute, to build compute without end customer that's monetizing at a huge degree. And they have an actual balance sheet so they can go to the credit market and being like, Hey guys, I have you build a megawatt, you can make your margin, not a crazy margin, but you can make a good margin and I now have all this compute.
+
+Now Meta and SpaceX have this optionality of looking around and being like, Is my internal use case going to make me more money or should I go out there and sell it to Anthropic OpenAI at crazy margins? Yeah. So, now we've sort of entered a regime where SpaceX and Meta are saying, actually, I'm going to build the compute and I can start to rent it out for not 13. I can sell it for $25.50, and more. So as I've been doing video essays and other formats, I've been looking to hire a new editor for the podcast.
+
+But actively searching for editors has been quite time consuming because the vast majority of candidates don't fit the profile that I'm looking for. So I created a recruiter in GrockBot to see if it would help. I gave it a huge context dump where I monologued basically everything that I wanted, and then it spun up four other bots to narrow in on different parts of the search. One went through the last year of my email for relevant inbound. One searched my x feed and DMs.
+
+One went through the end credits on various documentaries I like. And the last one looked for editors who work for some of the YouTubers that I follow. Grokbot then took all these different candidates that these sub agents had found. It filtered them against my criteria and then delivered for me a final short list to review. To be honest, the first batch had a few good candidates I wanted to see, but mainly a bunch of duds.
+
+But after I gave Grockbot some more feedback about what it was missing, it came back with a new list of candidates that I'm actually extremely excited about. I ended up saving this whole workflow as a routine. So every week now Grock Bot checks my inbound email and x DMs for promising new candidates to potentially interview. If you wanna try Grock Bot yourself, go to x.ai/bot. What do think their revenue per gigawatt is by the end of twenty twenty seven?
+
+Like, for Anthropic or OpenAI by end of twenty twenty seven? I think I think it's highly dependent on who has the best model if they're allowed to keep releasing their best models, but I don't see why it wouldn't be 50 plus million dollars a megawatt. By the end of twenty seven. Oh, by the end of twenty seven? Yeah.
+
+That's where it gets more challenging. But I think I think it could get to, you know, higher than that. It's like $7,080,000,000 dollars a megawatt blended across the company, if not higher. Yeah. Yeah.
+
+And so I think if if that's the case, right, then what happens to the price of compute? Well, if I'm anthropic, incremental compute is worth it. Maybe I spend $40,000,000 megawatt on SpaceX compute. And if I'm SpaceX, you know, I I look to the supply chain. I'm like, well, you know, I've struck this deal with Jensen where he's now all of a sudden using Twitter.
+
+And and, you know, there's the Elon's saying they're exclusive to NVIDIA, but why doesn't Jensen raise his prices? And then, you know, SK Hynix and Micron and Samsung looked at NVIDIA and were like, well, why don't they raise their price? So, think I think the value capture, there's a bullwhip effect here, right, where just because someone has risen the prices doesn't mean the entire supply chain rebalances immediately. Yeah. But over time, the supply chain will rebalance and things will cost more and more.
+
+And to get that incremental capacity, you sort of have to, right? So, TSMC raising prices very slowly but memory companies raising prices very quickly. You know, substrate companies raising prices very quickly. Different parts of supply chains raise you know, Elon wouldn't have sold if it was 15, but he's selling because it's 25 plus. Yeah.
+
+Yeah. So, obviously, he rose his prices really quickly. Yeah. I I I'm sort of surprised you think, like, revenue per gigawatt doesn't increase way more than even like a 100 per When gigawatt by the end of next does RSI happen? When does take off?
+
+Right? I think I think Even if RSI doesn't happen, the current rate of progress continues. If you just look at how much progress have you made in, let's say the last year and a half, Like, what was the model from a year and a ago? Let's take, like, prod my problem with this is the best model that exists in the world was trained in February. Okay.
+
+You're saying maybe we we just won't be able to release the, like, best model. Says they're not training models for two weeks, man. What the hell? Yeah. Yeah.
+
+Yeah. I I mean, there's another there's one thing, internally, are they getting enough use for it? It's just they'll, like, bid up the price of computer. Or another is, like, this AI progress as a whole slowdown makes the regulation. Yeah.
+
+But they're not even allowed to use this, like, new model in like, Astra's not widely deployed internally even. Yeah. Yeah. But still, I don't know. Just, the the yeah.
+
+If you go if you have, a model that is what was the model released, like, let's say, the beginning of last year? Like GPT Four o? Is that four o? Yeah. That that's like you're talking about a four o to Fable size or Mythos two size leap by this point, again, by the end of twenty twenty seven.
+
+Yeah. Mythos two is not out. Yeah. Or like even Mythos, right? Like that leap again.
+
+Even Mythos is not allowed to be out. Right? They've neutered it. Yeah. Yeah.
+
+Yeah. Like we can't we can't use it to optimize inference performance. We can't use it to optimize all sorts of things. Yeah. Maybe there's like some slowdown in AI progress or the deployment of AI.
+
+That means that the revenue per gigawatt can be lower. But I I that that's the only way I could see it being only a 100 per megawatt by the end of next year. Yeah. I mean, as as long as the model gets better, the value generated out of Obviously, it gets who captures the value is still up for debate. But ultimately, everyone's going to raise their prices.
+
+Yeah. Yeah. Yeah. Because they can. And it's super inflationary, especially if the method of regulation is right now, so far, it's just don't release the models.
+
+But more and more, the method of regulation is New York's banning data centers. Texas is holding memoratoriums. Ohio saying you have to or at least trying to say you have to, like, pay everyone's property tax in a certain radius. These sorts of things are going to decrease supply and increase cost, and that's going to get passed on as well. So you start to end up in a spot where progress does slow, at least in the external sense.
+
+Yeah. Even if the models internally keep getting better and better. I see no reason why, like, you know, again, like in a takeoff scenario, why would Anthropic not have their best model six months ahead of what is externally available because of safety and regulation, but also, you know, the competitive advantage. And then that six month difference, if progress accelerates, is actually a bigger differential. So, that's the thing that would cap revenue per megawatt gains to a much lower growth than we've seen in the first half this year.
+
+Here's something I'm very interested in. As these companies go public and they're accountable to investors let's say end of next year, they have, I don't know, close to 20 gigawatts. So like 10% of the compute, two gigawatts. Let's say they want to go from 60% compute to, training to 70% compute to training. And their investors are like, well, if you're able to generate a $100,000,000,000 per gigawatt, you're basically saying no to like $200,000,000,000 of revenue in order to increase your training compute.
+
+As investors are like, what the fuck? You're already spending so much on training. Why are you spending even more on training? As a public company, do you think, yeah, what do think would happen if they're just like, no, we will keep increasing the share of compute we spent on training to offset the increase in revenue that each gigawatt of compute is giving us? Yeah.
+
+So, is sort of what I personally believe that the labs are going to allocate less and less compute to inference over time, which I think is very non consensus. Right? Everyone's sort of the standard belief of most people is, oh, most compute will go to inference. Most of it will go to forward passes for training, not maybe necessarily revenue generating inference. But ultimately, end up with if they're generating, you know, $3,040,000,000 dollars per megawatt today, you allocate 40% to inference.
+
+If you now get to generating $6,070,000,000 dollars per megawatt, do you still allocate 40% to inference and generate all this profit and then do dividends and share buybacks? Or do you go build AGI? Yeah. Yeah. And I think the obvious answer from Anthropic and OpenAI, and not just at the executive level, but also their board, is go build AGI because it's way more profitable.
+
+Right. And so, you're going to see them ratchet up their percentage of compute dedicated to training. While each increment of compute is getting more and more profit generating if they had dedicated to inference. Right. And so the whole point is, well, okay, if I'm selling tokens, OpenAI releasing ultrafast mode for just external or are they doing it internally too?
+
+And it turns out, no, actually, I'm going to allocate it to internal and external because my internal, you know, value that I'm generating from super fast AI or the best AI model is way more than what someone externally is. Yeah. And so ultimately, sure, I could generate a $100,000,000 per megawatt. But if I turn that towards AI research, what is the incremental progress that I get? And then what does that do towards my future earnings potential, the discounted cash flows of whatever the hell I've done, right?
+
+Yeah. And so, you know, they're not going through that calculation. But ultimately, it makes more sense to dedicate more and more compute internally. And the only reason to, you know, have inference compute be so large is so you can grow your training fleet. Right, right, right.
+
+I think this is an interesting economics question that I feel like we can have the models digest of what is the what would have to be true about a world where they reduce fraction of compute spend on inference? I think they have been over the last three months already. Interesting. I think parts of this year they were increasing fraction of compute. So let's just take month by month.
+
+You would agree that every month Anthropic has added more compute than the prior month. There might be some noise when they like sign a SpaceX deal or whatever, but in general, the amount of compute is a curve up. And so in January, added less compute than December. And yet, the revenue adds skyrocketed and then they've plat sort of plateaued. They're only adding they're not adding $25,000,000,000 of ARR every month now.
+
+And so that means the marginal megawatt they're getting is going higher percentage to R and D than it is inference. Interesting. Yeah. And so they are factually increasing their compute towards R and D today. Yeah.
+
+Yeah. I think this this is like self evident if you if you like look at what they're doing enough. Yeah. So, if I look at the numbers you said of like how fast world compute grows, here's some things I want to understand. So it seems like if I added the numbers you just said, it would be over 200 gigawatts of world compute by the end of twenty twenty eight.
+
+Right? Yeah. Globally. Okay. And how fast can that continue growing?
+
+Like global globally AI compute after 2028? Yeah. So 30 this year, 50 next year, 70 in '28. '29 should be, like, on the order of 90 to a 100. Like, then just a 100 more every single year or something.
+
+I think I think the the slope could continue to go upwards. I mean, it's hard to predict anything more than four years out, given who knows what's, you know, are we an RSI regime or, you know, when is the world economy growing at 10% a year? Because if you're at 100 plus gigawatts a year, you're you're at absurd revenue, GDP growth. Right. If you think there's 200 gigawatts globally in 2028, how much is in China by that point?
+
+And how does like, yeah, how does Chinese compute continue increasing through this whole trend? Because if the RSI stuff kicks off in the West before China has a large amount of compute, maybe we're living in a different world than when it doesn't. Yes. So China today So if we sort of level set back to 2022, The US was adding about 45% to 50% of the world's compute. China was adding about 30% to 35% of the world's compute and the rest being taken up by the rest of the world.
+
+Since 2022, we've had big regulations against China and a dramatic increase in America. So today, 70% of Watts are being deployed in America. And China is really a very small number. It's sub 10% of Watts being deployed for data center AI compute is in China. And as we step forward, they're still at a very small number.
+
+Their domestic production is quite small. Their purchasing from NVIDIA is still quite small. And a lot of that ends up in other places as well, right? You know, Malaysia or what have you. So ultimately, China domestically still continues to have 10% sub 10% of incremental new compute.
+
+So in 2028, it might start to inflect up, I think. But it's pretty easy to say China will have like 30 gigawatts of AI compute or less. By 2028? Yeah, in 2028. Okay.
+
+And then how fast does their hockey stick go up? I do think in 2028, they have a big uplift in what compute they're able to deploy. 2026, they're still mostly relying on a lot of the smuggled chips, you know, you know, a lot of the chips that TSMC made for companies that they thought weren't Huawei but ended up being Huawei or a lot of HBM that Samsung is shipping, you know, sort of but in '27, fabs start to go up. In '28, especially, fabs start to go up from SMC and CXMT and such, where domestic production is actually reaching many millions of units a year. And now they're incrementally adding, you know, five, ten gigawatts in just 2028 of domestically produced chips.
+
+Right. And what Those chips are definitely worse than the chips that NVIDIA will have in '28 or Google will have in '28 or OpenAI will have in 2028. So even even the gigawatt number overstates things you're saying. It's like 30 gigawatts, but it's really much worse chips. But then how yeah.
+
+How does it if you think the world is gonna add a 100 gigawatts the following year or something, you know, I know you said you can't really say that far out. How much is China able to add the subsequent year? Basically, wanna know, did they just hockey stick at the point at which they are able to start shipping large amounts of compute or is it still gonna be less than US plus allies? There's a lot left to, you know, whether or not The US passes the Match Act, whether or not tools continue to get export controlled, how fast China can build their new equipment that they're starting to be able to domestic produce domestically. But ultimately, you know, China China is definitely gonna hockey stick if there's anything.
+
+China is really good at is is scaling manufacturing really, really quickly. And, you know, I imagine, you know, China's China will start to be able to extract more and more purchasing of even foreign chips into into domestic China or at least close the gap in what The US is allowing the you know, NVIDIA to sell them or what have you. But but do you think China could do adding 50 gigawatts by 2029? Marginal incremental gigawatts in 2029? I think that's I think that's completely reasonable.
+
+Yeah. And part of that could also be purchased from foreign. Yeah. But I think it's completely reasonable that China in 2029 can do 50 gigs. But if most of those are the domestic chips, there is some factor there where that 50 gigawatts is really worth as much as 20 gigawatts in America or Yeah.
+
+I see. In from from American chips. Right. Right. Right.
+
+So, yeah, you're you're actually projecting a world where maybe the leading lab in 2028 has more compute that China will have in, like, all of China will have in '29 or even 30. If you if you weighed gigawatts by their quality. Implying that there's nothing to do to slow down The US labs. Yeah. Clearly, That's the government is starting and politicians are starting to do that.
+
+Yeah. Yeah. Yeah. Whereas China is not gonna slow down AI. In fact, the only thing they're gonna do is accelerate it.
+
+So honestly, I when I renewed Jensen and asked about expert controls, I am a libertarian person. I'm like, I wasn't, like, genuinely sure what I thought about this issue. I was steel manning what what is, like, the opposite view that he has and it because I think it's important to hash out ideas. But I'm like, yeah, maybe there's a world where we if we just cooperated with China, it would be better for us, especially since they control so much of the supply chain and the other things that we needed for robotics and other things. But I didn't realize the compute situation was as fucked as you're saying.
+
+Like, actually, the export controllers do seem to have, really, if they ship the amount that you're saying, that's a huge difference. By the time we have automated coder and even getting into like automated researcher, China is like way far behind on the compute stock. And so if that ends up being the case, that would have worked. I think that's actually a notable success. I would say the only caveat there is some of it is export controls, but some of it is also just financial systems, right?
+
+American financial systems are more willing to yolo into startups than Chinese financial systems. But once Chinese financial systems choose an industry to focus on, they'll subsidize it a hell of a lot more. Yeah. And so the Chinese semiconductor industry has significantly more subsidies than the rest of the world's semiconductor industries combined, which which points to, like, if takeoff is not as fast as sort of you're implying, but actually takes longer, then ultimately China will catch up drastically on the semiconductor side, which then is compute at some point. The other aspect of this that I would think is like I think is like noteworthy is Chinese companies today are not that far behind in AI models, at least percept perceivably by the public relative to the amount of compute they have.
+
+Right? The leading Chinese labs have a hundred, two hundred megawatts total of compute at most. ByteDance seed seed being the one outlier where they have significantly more than that. But, you know, Kimi is not running, you know, a gigawatt or anywhere close to it. Yeah.
+
+Whereas Anthropic is, you know, nearly five gigawatts by the end of the year, right? Or more, sorry. And so, you know, the question is sort of, well, does it matter? And I think right now, it doesn't matter that much, this difference in compute, because, when we break down the compute ratio or budget of a lab, historically, it's been, let's say, far it's been like 60% training, 40% inference. But that training gets broken down further.
+
+And as it's actually like 50% of the compute is research, like 10% of the compute is development, and then 40% is inference. And what I mean by research and development is, researchers are generating ideas, testing new architectures, testing new data mixes, testing new hyperparameters, whatever it is they're doing, new attention techniques, blah, blah, blah. But ultimately, when they do the training run, when Anthropic trains Mythos, it's sub 200 megawatts, right? You mean the pre train or the whole thing? The pre train.
+
+Yeah. It's sub 200 megawatts for call it two months. And then the RL is even less. But you think the RL was less to compute than the pre trained? At least in terms of single site inference.
+
+I mean single site of pre Yeah. Total compute was probably higher, right? Total compute. But it's like sequential, right? Yeah.
+
+So, at most, the most they ever used at one point in time was maybe 200 megawatts. And then, in reality, they had multiple gigawatts. So, most of their compute was going to the research, not the development of And a there's reasons for this, right? You can't It's hard to coordinate all these clusters. It's hard to co locate all of them.
+
+It's hard to do multi site training. It's hard to do RL. You know, generating even more rollouts during RL does not necessarily make it better. There's all sorts of reasons why you may not be able to leverage, you know, all two gigawatts that you have for training onto training. Right?
+
+Actually, I can only leverage 200 megawatts. As we get closer and as we get further and further down, implement automated coding, automated researcher, I actually expect the percentage of the compute budget that goes to research versus training to start to and to start to like become a lot more fuzzy or even higher for training. Also things like continual learning. Right? All of these things start to mean that more and more is actually going to training the model.
+
+If you end up in a world where you're doing 100 gigawatts a year, at current prices, that would be 5,000,000,000,000 of CapEx every single year. And then stack on the fact that you have to build the power plants way before then slash it's a thirty year asset. You stack on the fact that the data centers are a, you know, fifteen, twenty year asset, and you have to build that then too. So the 5,000,000,000,000, you know, you have to account for future years growth. So it's actually going to be more like 7 or 10,000,000,000,000 of I understand.
+
+Because you're not including the fact that like that doesn't include the fact that there's not the infrastructure for the power generation or whatever in the data center itself. Right. Exactly. Yeah. Yeah.
+
+And and the data center itself is when when you talk about AI CapEx, people are saying $4,050,000,000,000 dollars, but that's really just the critical IT. Yeah. Right? The servers, the networking, the fiber, the transceivers, optical communications, all this sort of stuff. It doesn't account for the data center itself or the power plants themselves Yeah.
+
+Which are being built ahead of time. Yeah. Yeah. Yeah. If I'm building a 100 gigawatts this year and a 150 gigawatts next year, well, then all of the buildings for that 150 gigawatts need to be built in CapEx this year.
+
+And if I'm building 200 gigawatts the year after that, all those power plants need to be spent. You have to buy the turbines this year. Yeah. Yeah. Yeah.
+
+Right? And so you've got this like a lot this like actually, it's much bigger than even $5,000,000,000,000 if you're building a 100 gigawatts. Right. So very plausibly, incremental CapEx every year is getting close to $10,000,000,000,000 By the end of the decade. Right.
+
+Which is gonna be like close to a tenth of the world economy. And like a third of, if all of it's going up in The US, it's like, well, The US economy will have grown as well, but still at the current size of The US economy, it'll be like a third to a quarter of The US economy would just be going towards data centers. And as I say that out loud, I'm like, maybe maybe you're right. Mean, just won't allow it. And that's the reason this doesn't happen.
+
+Right? Because like for this exponential continue, just like a quarter of the world a quarter of America's economy is just building data centers. Yeah. I mean, I believe in capitalism and reallocation of resources towards the most profitable thing. But at the same time, politics exist.
+
+Yeah. And credit markets exist and capital markets exist. So to enable, let's say, that 100 gigawatts by 2030 or let's even like let's even like pare it down to 2028 where it's like 3 or $4,000,000,000,000 of CapEx across all of these items. You know, a couple, you know, over, you know, two and a half towards compute IT CapEx and then another one to two on data center and energy and all the supply chain downstream like semiconductors and all that stuff. So, you're at 3 or $4,000,000,000,000 of CapEx, where does all this cash come from?
+
+No one is generating that much cash from the business yet. Right? Hyperscalers, they funded all of the growth up until now. Google, Microsoft, Amazon, Meta. They funded a huge percentage of it.
+
+They were more than half of compute. But they now don't generate cash. They actually spend everything on CapEx. And in addition, they raise debt and spend everything on CapEx. Right?
+
+You've seen Meta do it. Even Amazon, even Google. You know, Microsoft will be there soon. Everyone is raising debt to pay for their CapEx. So now who is the incremental person to pay for this that was not doing it before?
+
+Well, in the case of like Google, it was pretty simple for them to stop doing buybacks or Meta stopped doing buybacks and turn around and buy computer infrastructure. And that doesn't have a huge effect on the market, but it does have some effect. But as you step forward to 2028, where the hyperscalers are now raising hundreds of billions of dollars of debt, and then all of their supply chain is raising hundreds of billions of dollars of debt, who pays for this? And so there's a few different ways. You know, there's the semiconductor companies like NVIDIA and Broadcom and the memory companies turning around and deciding to fund some of this CapEx.
+
+There's the traditional infrastructure investors who are turning around and gathering capital and investing in infrastructure. And instead of bridges, it's data centers. And then lastly, there's everyone in the economy who's realizing maybe I shouldn't buy a home or maybe I shouldn't invest in credit for a home that's helping people buy homes or maybe I shouldn't buy government debt. I should just buy hyperscaler debt or I should just buy this data center's debt or I should buy Anthropix debt because Anthropix is willing to pay 20%, you know, rates for, you know, the incremental billion dollars to build their capacity because they know their revenue from it's going be huge. And they're going to pay 20 percent because it's still better than renting it from SpaceX for $50,000,000,000 a gigawatt.
+
+Yeah. So you've got all of this contention. But if you now do this, the whole world economy is like really shifted around. Antithesis is a deterministic software testing platform that enables perfect reproducibility. It also unlocks some pretty insane approaches to debugging, like time travel.
+
+With antithesis, you can jump to any point in the trajectory and start from there. So when there's a crash, you can rewind to the exact moment that something went wrong and freeze the entire system. The application, the database, even the environment itself. This lets you do something that would otherwise be impossible, which is to observe every part of a distributed system at the exact same instant. Time travel also allows you to add telemetry and logging to an event that has already happened.
+
+For example, you can rewind to five seconds before a crash and decide to capture all the network traffic. Most powerfully, Antithesis gives you a live terminal into your system that you can use to perturb anything you wish. Kill a node or disable a feature and then hit play and see what happens. Then go back and try something else. In production, you often only get one shot on goal with this sort of destructive analysis.
+
+If you restart a deadlock service, for example, the exact deadlock you needed to study disappears. But with Antithesis, the original timeline is always reproducible, so you can test as many hypotheses as you need. And if you don't wanna do all this time traveling yourself, you can just have your agents do it for you via the Antithesis API. Go to antithesis.com/thwarkash to learn more. So you and I have been debating off air for the last few days, whether there will be a sovereign debt crisis as a result of AI.
+
+And the logic is this. AI is, have a situation where, as we were mentioning, very little investment turns into a lot of money, right? So, the rate of return- What a fucking problem, dude. Yeah. Can't believe it.
+
+No, it is a huge problem for everybody else who can't turn a little money into a lot of money, right? So the rate of return is incredibly high. Even at the data center level, if you build a data center and you're like get rented out to Anthropic or OpenAI for like 10x what it costs you on a depreciated basis to build it. It's fucking crazy. And so you turn $1 to like $2 or $10 or something at the end of the year.
+
+That raises the rate of interest higher. Now, if the rate of interest goes higher and it does that for the entire economy and people are borrowing more and more money, they're competing against the other lending that the government would have done or the other companies would have done or that you as a consumer or a mortgage buyer would have done, then that's just making it basically more expensive for everybody else to borrow. This has huge implications for tons and tons of people. Sorry, I'm going go on a bit of a monologue here. But we've been thinking about this together.
+
+So, I think The US will be fine at the end of the day because they can If the data centers are built in America, you can fundamentally just like tax the data centers. But the way the current tax system is set up, corporate income is like less than 10% of federal revenues and 80% plus is payroll taxes and income taxes, which as more and more automation happens will shrink. At the same time on the spending side, currently 20% of tax revenue spending goes towards paying servicing the debt, basically paying interest payments on the debt. Now a lot of the debt is short duration. So refurbishes every five years it rolls over.
+
+Why why are you fucking laughing? Because, you know, it's like things we've learned you've learned in the last month. Yeah. Like, it's any different for you? I didn't.
+
+Like, you got a degree in fucking financial economics? I didn't. Did. The Internet thinks I'm a beekeeper. Few months.
+
+Few months. Few months. This is our business, Dylan. Yeah. Yeah.
+
+Yeah. Sorry. Sorry. And so I'm self conscious. Fuck.
+
+No. It's good. You're doing good. I just think it's funny. Million people listen to this guy who just learned about death this month.
+
+So you go from 20% of Suppose interest rates rise 1%, then over a five year basis, the fraction of tax revenue that goes towards servicing the debt basically goes from 20% to 25%. If there is five percentages, that would go towards like north of 40%. But if you take into account the fact that the government is borrowing $2,000,000,000,000 every single year, then that goes from like 40% to like north of 60%. So 60% of tax revenue basically just goes towards paying interest payments on the debt. Now, think The US is going to be fine because also the tax base will increase if we let data centers get built in America.
+
+Other countries are absolutely fucked in my opinion. I was just looking at which countries have a lot of debt, have very little tax revenue, and also a lot of their debt is serviced quite often. And those countries, like Pakistan or Nigeria or something, I think are just going to be very fucked in this new interest rate regime. So this crowding out effect is actually like the thing that I've like is the reason it's not like YOLO 1,000,000,000 gigawatts. Yeah, yeah.
+
+Right? You've got you've got all these industries and countries that use a lot of debt, whether it's, you know, all these impoverished countries that you mentioned earlier that are just going to default. You've got like consumer packaged goods, right? Like all of these like companies that make things you see at Trader Joe's or wherever use a lot of debt. All these telecom companies use a lot of debt and banks use a lot of debt.
+
+And so if interest rates go up in the market, not necessarily the government set interest rate, but in the market, the spread of interest rate between what the government says their federal rate is versus what everyone else is charging because Amazon wants to raise a $100,000,000,000 of debt next year or whatever the hell the number is. You know, probably less. But you end up with this, like, really challenging problem of where does the cash come from? There is some level that is funded by cash flows and cash flows keep going up. But the logical thing to do is to invest way more than your cash flows because then the returns in the future years will be amazing.
+
+So you have this delta. And then what's pushing down on the delta is all of these other things, right? There's regulations against data centers, regulations know, consumers getting mad, politicians getting mad, regulations against AI, the AI labs not releasing their latest models because of safety reasons. All of these things and interest rates going up are an influence on all of these things. So, all of these things bend the curve from what does capitalism want in terms of just pure simple economics to what is the complex system that we have want and bends it lower and lower and lower to where not as many gigawatts as should be built will be built.
+
+Well, the interest rate is part of capitalism, right? Yeah. But like, you know, like in the simple economic model versus like the more complex what we have. What is the rate at which you think Amazon or Anthropic or whatever will be releasing bonds for debt next year? They do hundreds of billions of dollars of debt.
+
+What is the rate at? What is the average rate? I don't think Amazon will do hundreds of billions of dollars of debt. To total, let's say the big tech The hyperscalers in total will rate and all the clouds. Yeah, yeah.
+
+In the modeling that we do, we have about $11,000,000,000,000 of CapEx from 2024 to 2029. Total. Total. And if you do you know, if you fund a lot of this with cash flows and as much as you can, you still end up with north of $5,000,000,000,000 of credit that need to be issued for this $11,000,000,000,000 plus You don't think the AI revenue continues even three x ing year over year? AI revenue does go up.
+
+I don't think it can go up forever. I don't you know, like, just like without, like, certain constraints being hit, I think certain labs will have certain incentives. And and labs are not the ones building all the compute in many cases, even though they're increasingly trying to go They'll have all these cash flow. Like, if their revenue keeps whatever. That's fine.
+
+But if you how much did you say the revenue will be? You think they'll not have that much revenue? No. I'm just saying till 2029, there's, you know, something on the order of $11,000,000,000,000 of CapEx. And six of that is funded with cash.
+
+And five of that is funded with debt. And if that's the case, $5,000,000,000,000 of debt being raised across the whole ecosystem does make interest rates go up. And then what prevents that? You know, there's a couple of things. One, do labs increase their revenue per megawatt more and keep inference allocations large?
+
+In which case, they're taking all this profit. They're accumulating all the profit across the S and P 500 because everyone's paying to, you know, reduce their costs. Of course, their profits will also go up, but, you know, cash has to come from somewhere. There's an upper limit on how fast the revenue can grow versus the value they deliver into the world, and there's a diffusion aspect of the technology. But ultimately, labs revenue keep going up.
+
+They can't cash flow fund everything. The optimal scenario is you actually use credit as much as you can to fund because even if cash flows from the labs fund a lot of stuff, you want to build more than that. Of course. And so there is some amount of credit that gets built. Our current modeling has $5,000,000,000,000 of credit and $6,000,000,000,000 of cash funded infrastructure investments through '29.
+
+And when you take that, you you've sort of got, you know, this is not enough compute relative to what this demand growth is from the AI models. And so you've got the obvious answer, which is revenue per megawatt keeps going up. Yeah. That that that makes sense. So how much do you think interest rates will increase by 2029 as a result of all this?
+
+Dude, you know, I was just vibing a number. But if you're vibing a number out, you know, growth in the world and economy is growing up a lot. So why wouldn't interest rates Yep. For Amazon go from, you know, from where they are today? I think Meta pay Okay.
+
+Let's like So this is going be extremely lived out. But recently, Meta's raised at like 5% to 6%. I don't see why they wouldn't pay 8% because they would happily pay 8% because the return from the compute that they're going to build is humongous. Right. And the market won't want them to, but if they want to pay 8%.
+
+The flip side is, if they pay 8% versus the five they do, five and a half, six they do today, you know, two fifty bps increase, that makes everyone else in the economy also pay two fifty bps more. Yeah, yeah. Which then causes a lot of things, right? Banks will scream because if their credit spread goes up, then their assets don't their debt themselves reprices faster than their assets reprice. And you ultimately end up with they're losing tons of money if their credit spread blows up.
+
+The other consequences of this are this is a point you made, but the if interest rates rise, the discount rate increases, which means that the discount cash flows of all equities Yeah. Greater, which means that even though the stock market as a whole might be doing fine, like S and P 500 will be fine. Yeah. Any individual stock will probably have just like cratered in value, especially the Buffett, like Berkshire type, you know, pay good cash flows for thirty year type Yeah. It's like why would I pay this much for, you know, Johnson and Johnson?
+
+Right. You know, like they're they're seen as a stable stock, good cash flows. They'll return their cash flows over time or a railway company. Like, why the fuck would I invest that much if my discount rate isn't 3% or 5%? It's now 8% And or 10 for developing countries, Basil Hopperin, who's a good friend and he's an economist, he made this point that we'll see a second Volker shock.
+
+So in the eighties, to fight inflation, fag chair Paul Volker raised interest rates like more than 5% or it's like something like 8%, real interest rates eight percent. And that caused some 40 different countries, mostly Latin America, to default in that decade. And I think that would probably happen again. In fact, okay, now we're getting into like Singularity talk. So we've been talking about happens if interest rates rise.
+
+I think this all happens before Singularity, but Yeah, that's what I'm saying. That's what I'm saying. So, were talking about like, know, before Singularity interest rates rise 2%, 3%, etcetera. At some point, I think it's very likely that the world economy will be doubling every single year. Okay.
+
+This is not happening in five years, but it'll happen eventually. It just like there will be there's this there's a researcher, Damon Binder, who's done great work on this. But basically, if you look at like input output tables in a fully automated economy, just like, what would it take to like double the entire stock of things in the economy every Yeah. If economy grows at 3% a year, then it's like, you know, rule of 70, it's like twenty something years. Right.
+
+But then but he was like, okay, well, right now we're bottlenecked by the fact that there's people and you can't like double people every single year. But in a world where like you can also double labor force every single year, how fast can the economy grow? And I think it could double every single year. At the very least, would be like tens of percent every single year. Okay.
+
+The rate of interest should be pretty close to the growth rate. It won't be exactly that because of consumption, but it should be pretty similar. So, then we'll go into a world, I think in the 2030s, where the rate of interest is like tens of percent. Like, I don't know, part of my brain is like it might be hundreds of percent, but like, okay, let's say it's at least tens of percent. I'm just like, okay, every country that is not involved in the production of AI defaults.
+
+Every stock that is not an AI stock is like worth basically zero because discounted cash flows are worth nothing. If the federal government can't figure out a way to tax AI, servicing the debt is more than the current tax revenue. All these other effects that I'm sure we're not even pricing in, like you can't get a mortgage, etcetera, etcetera, because fundamentally what is happening in this world? Like this is all nerd speak, right? But like let's step back.
+
+What's happening? Just now it started the nerd stage. We'd be entering a regime. We're just we're in a totally different growth regime, basically. And the economy is basically saying, hey, you like paying people you bar the government borrowing money to pay people pensions.
+
+The opportunity cost of that is extremely high now because that money could be spent building a robot factory that builds a robot factory that builds a robot factory. And so the opportunity cost of capital is going to increase a ton. And that's just like that's fundamentally what the cause of all of these things we're talking about. Yeah. So, as interest rates go up, equity markets get pummeled.
+
+Yeah. And even AI companies, right? People are like, you know, some people who really believe in AI are like, why does Micron or Hynix or Kyocsia trade at two or three times earnings? And it's like, well, if you're really AI pilled, everything in the economy should trade at like two or three times earnings. And if you're not AI pilled, then sure, they're they're over earning.
+
+Yeah. So it's sort of like a an argument for why, like, I I think memory is gonna do great, but, know, memory memory stocks shouldn't, you know, 10x or whatever again. Because if they were if we're in the market where there's that much demand for memory, which means AI's caused this drastic change in the economy, then everything should trade at like two or three x multiples and the stock market should fucking crash. Right. Right?
+
+And so in a sense, like Meta trading at don't know. I think Meta trades at like something they're like $1,500,000,000,000 company. It's like, what? Silly? They're worth way more than that, at least in a like a logical sense.
+
+You just look at their cash flows and and like all the infrastructure they're hoarding and all the compute that they're gonna be able to sell for crazy amounts of dollars per watt, either as tokens because their lab works or just Anthropic and OpenAI, ultimately becomes a question of like, you have to reallocate all the capital to the AGI. And you do that by pricing everyone else out. And so, the limiter on AGI is not how fast can the research engineers like, you know, our roommate, Sholto, can crank the gears. It's actually just like how much does the rest of the world let that happen? Right.
+
+Because they're going to regulate. They're going to obviously increase interest rates. They're going say, no data centers. They're going to say, stop building fabs. They're going to say, oh, shit, every company's equity value is tanking.
+
+So, how can I pay for AI, you know, to increase my business? Well then, you know, like, okay, then Anthropicana, I have to start, like, building their own stuff. And obviously, they're gonna eventually focus on you know, they're building their own chips already or at least designing their own chips. It'll expand out their, you know, their contracting their own data centers and building their own infra in the next couple years. You know, there's sort of like, how does this reallocation of the economy happen?
+
+But there's a lot of downward pressure on it not being, you know, just straight takeoff. Even if the models were capable of it, which which I think you and I believe we're in a world where models are capable of that. But slow takeoff is, at least in my hope, possible because everything in the economy and regulatory world, like governments saying don't release your models, governments saying actually you can't even use your models internally that much because that's going to happen soon. They're already saying you can't release your models. Which is actually the thing I'm most worried about is, you know, a singularity, which external deployment is actually helping, right?
+
+So, the fact that we're fermenting external deployment. Well, does prevent singularity? I mean, now it would lead to more revenue because models are on capable of our side. Yeah. But I'm worried about a world where it's 2030 and the government's like, going to wait six months before you can release your model US model.
+
+Six the months, 100x. Let's go. Yeah. In that six months, they do like recursive self improvement internally. They just have all kinds of crazy shit happening in the company.
+
+Meanwhile, the rest of us are stuck with models that are like at current pace, years behind. Yeah. So here's my thought. Okay. Suppose that the whole world gets in on this conspiracy to like try to slow down AI.
+
+I don't think it's a conspiracy. It's like, it's outwardly written. Yeah, yeah. It's almost like every politician. Suppose they basically prevent an entire, they slow down AI by a year.
+
+If compute is increasing two to three X every single year, they prevent a whole year of AI deployment such that you're a year behind where you would otherwise been. During RSI, you're getting three to six years of AI progress in a single year. But they can't They don't just limit compute. Right? They also limit the lab's ability to release the model internally.
+
+Right? We saw that. Hey, drop it. Had to stop giving methos to foreign employees for a bit. I didn't I didn't know that was true.
+
+Like internally as well? I mean, that's what they claimed and they I claimed thought it was just a different checkpoint that was not mythos, but it was basically mythos. Yeah. Yeah. But I mean, stuff like that is not going to be allowed either, right?
+
+Like, the government is dumb, but they're not that dumb. Right? Like, you know, I I would hope at least. You know, governments are going to not want companies, at least the US government has the cards here, or is not going to want Anthropic to use Meet Those four internally. They're gonna be like, hold the fuck on, right?
+
+Like, slow down, you know, because because all of these regulatory reasons, everyone who's elected is gonna hate AI. Even the people who are elected already hate AI. All the constituents. You're gonna literally have like I bet you at some point, your parents are gonna call you and be like, you're doing a terrible job. You're making every AI progress happen faster.
+
+Like, it's It's podcast. It's gonna happen. It's gonna fucking podcast. I mean, it's not hurting AI progress. I mean, maybe you educate people.
+
+Right? And maybe if they're smarter, they're progressing AI faster. But anyways, like you're going to have real world constraints on the progress and development and deployment of AI, even though, you know, it will happen eventually. It's like we could tear ourselves apart before we get there. Jane Street is hiring for two separate ML internships right now.
+
+One focused on ML engineering and the other focused on ML research. I sat down with Alok, who helps run the research track, to learn more about that program. I think this domain is fundamentally understudied. Often we have unanswered questions within our deep learning research team where we don't understand some, say, some market participants' behaviors or certain dynamics of how trading happens. These unanswered questions make for really good intern projects because they are ultimately topics that we care about and just haven't gotten around to figuring out yet.
+
+So even as an intern, you'll be contributing to real research, not working on some sort of contrived exercise. The Jane Street team follows Frontier LLM research closely. A relatively common intern project is adapting a recent paper to financial markets, which come with their own set of gnarly problems. Ultimately, we're trying to model thousands of interconnected, irregular time series. The signal to noise ratios are extremely low because we have a lot of competitors trying to do the same.
+
+So we have this adversarial, non stationary, extremely high dimensional problem that we were trying to solve. To be clear, you don't need to know anything about finance in order to be a good fit. As long as you have a background in ML research, Jane Street can teach you the rest. Their twenty twenty seven internship applications are open now. Apply at janestreet.comdorkash.
+
+One thing I find crazy about these scenarios is just how much of the world's future labor supply ends up in, very few companies and also how fast that labor supply grows year over year. So if like compute at the frontier in flop terms is growing four or five X a year. And further, the compute required to achieve the likeability is decreasing three X a year. So the compute at the frontier, basically the effective AI population size at the frontier labs is increasing 10x year over year. And so that doesn't really matter that much right now because AIs are not good enough to do full jobs or be like as autonomous as people in their capacity to do work or pull off schemes or whatever.
+
+But if the current trend continues, you have a world where OpenAI goes from having say 10,000,000 basically AI laborers this year to a 100,000,000 the next year, to a billion the year after that. And then pretty soon, even if compute scaling slows down, it doesn't take many more years before each company individually has more labor equivalence than there are people on earth. And I think that's like a thing that is very plausible by the end of this decade, that there's more AI labor, more effective population within a single lab than there are people on earth. So we talk often about centralization of power because of nationalization or whatever, but we don't think enough about the fact that we're actually moving very into a regime where most AI labor or sorry, most people, like in terms of like a work output or something, is just like concentrated within two labs who are consuming more and more of the world's compute. And so if if these AIs are misaligned, then most of the world is misaligned basically, because, like, most of the world's minds are there.
+
+But even if they're not, it's just very few companies have, a lot of influence or a lot of control It's with sort of there's the whole spat recently where it's like, I think Gavin Baker was like, Dario believes that there's only gonna be one company in And the then, know, Sholtau and Dario came out and were like, no, no, no. We didn't say that. But ultimately, you know, if you believe in RSI, you believe in the labs are the most effective user of compute and can generate the most value from the compute, then the only thing that's going to happen is centralization of compute. And if you believe in, you know, sort of AI researchers, RSI, AGI, then all of this exists. All of this is the base.
+
+This is even true if there's no RSI. The current effective population of the frontier is currently increasing 10x year over year for a given level of capabilities, right? So, if you get to the level of capabilities, which is a human, a very competent remote worker or like a very competent software engineer or a very competent researcher, that population of those would like 10x year over year at the current rate of capability. I see without RSI. And once you have RSI, it's even Maybe growing like 100x a year or 1000x a year.
+
+Or they're like, intelligence is increasing, but the population isn't increasing. Or some mixture of the two, right? Yeah. I mean, I guess, like, what world do you see, Dwarkash, where everything is not centralized? Because it seems to me that every force is screeching towards centralization.
+
+Right. And that's scary as hell. Yeah. I don't I don't you know, I would love for it not to be centralized completely. But maybe that's that's the whole point of a a machine that loves grace, right, is is is everything, and it makes our lives great.
+
+Yeah. It's so hard to think about the future, but I agree with you that I think the fundamental problem is that lab AI training has huge economies of scale because any effort you spend into training an AI for a specific skill or specific set of knowledge gets amortized across billions of sessions or billions of users. Furthermore, so that's like one effect. The other effect is if you're slightly ahead in the AI race and compute is in shortage, you can charge a much higher markup because you can better economize this scarce resource. So there's like two effects which are giving more and more to the person who's like ahead in the AI race.
+
+There may be more, right? So, if there's models that are learning from deployment and one model is like deployed much more widely than another one and it's getting much more like real world data. Yeah, your point is taken that like whether it's user deployment and continual learning, whether it's training, having these economies of scales, whether it's the incremental progress that the best AI model helps you to make the next AI model, RSI, all of these things. Oh, didn't even mention RSI. All of these point to centralization.
+
+So, I think one of the big intellectual projects honestly that we should spend some time thinking about async or at least I'll spend some time thinking about is what is a vision of like a decentralized, broadly empowered future after AGI that takes these economies of scale seriously. The alternative vision is that the government controls it. And maybe you think that you can trust the government more because it's not private corporation. I don't trust the government and I don't trust Dario and I don't trust Sam. Yeah, yeah.
+
+That's a problem, right? But there's no at least obviously, it's like very easy to be wrong about the future and you don't anticipate a key effect or something that changes everything. But ex ante, it's very hard to see a reason why they're or like how we avoid a scenario where we have to choose one I mean, it's why capitalism worked right. It's the decentralized decision making and decentralized power. Why super centralized capitalistic economies actually grew slower than super decentralized capitalist economies to some extent.
+
+You have to have rule of law and all But then AI flips all this on its head. Right. And ultimately, you're like, actually, private ownership is probably not the most efficient economy, and therefore, it grows slower than an AI economy, which is You do private ownership, but it's like, how many firms are really involved in this This is like the share of the economy that's not what, like 5% of the economy or something like that in The US. I'm sorry. 1,000,000,000,000 divided by 30.
+
+Less than that. Sorry. But, yeah, maybe 22% of the economy right now. It's like NVIDIA is a huge share of it and then Thropic and OpenAI and these hyperscalers. And obviously, there's other firms involved, but like a large share of the AI stuff is just happening from very few companies.
+
+So, it's like it could be private property, but like very few companies are involved. I mean, this is what the structure of the market is doing. So, you know, what what can prevent it? Yeah. No.
+
+I don't know. I don't unless AI progress slows down, unless governments regulate the fuck out of it. This is all that happens, in which case, you know, we're headed for a world where either we have super concentration of resources and we pray that that one company gets everything right or we have government slow everything down and people slow everything down and and you have a slowdown of progress somehow, hopefully. Yeah. And and there is a more of a balance of power and even as we go towards an AGI, ASI, RSI, everything along the way will still lead to someone's going to allocate, going to capture So, more it's kind of hard for a framework in which AI doesn't lead to super concentration.
+
+Yeah. Now, the one positive thing here is that today, Anthropic does not capture most of the value. So, we can talk all we want about, Oh, they went from $20,000,000 per megawatt to $100,000,000 a megawatt, but they're still paying 13 for a lot of the compute they're buying. But at the end of the day, the reason they've gone to a $100,000,000 per megawatt is because Jane Street is capturing $300,000,000 per megawatt or $500,000,000 per megawatt. Where Dwarkash from researching his podcast and learning about credit is capturing, you know, how many dollars per megawatt?
+
+Now, how much can you use? Tough. Yeah. Yeah. Yeah.
+
+But, know, I think I think that's the one saving grace is that the rest of the economy maybe profits so much more from Anthropics. Yeah, but the whole logic you were laying out earlier of them reallocating inference to AI R and D, whole logic of that is that the returns to labor inside AI labs is much higher than my returns. This hope. Return to outside. Yeah.
+
+This is my hope. I agree. In in all scenarios of the world, you know, there's 80,000 worlds and only one of them, Anthropic, doesn't own the whole world is is that is that, you know, again, power concentrates because I don't want to send the tokens outside. They're more valuable inside. Yeah.
+
+And so it's the same thing. Right? Why would I let Jane Street, you know, make all this money off of these degenerate options traders? Hey. There's there's some odds there.
+
+Come on. Jesus Christ. No. I think it's great. I think it's great.
+
+It's a good value for the world to make it an efficient market. Yeah. You know, Jane Street making all this money off of getting the world view correctly, making money off of degenerate options traders, whatever it is. You know, why would Anthropic allocate compute to that? If if if if the end, you know, monetization that Jane Street has per megawatt is 200, so they're willing to pay Anthropic 100.
+
+Well, what if Anthropic can just generate hundreds of millions of dollars per megawatt by using that compute internally? And that's that's what's happening. Yeah. Yeah. Well, on that somber note, I guess I guess I guess we'll meet again when the RSI is officially kicked off.
+
+You're not gonna you're not gonna hit me on your podcast again for, like, two months? Alright. Cool. Thanks, dude.

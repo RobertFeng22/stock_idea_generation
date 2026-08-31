@@ -1,0 +1,435 @@
+We're just getting started. This seems to be accelerating at an unprecedented pace. We haven't seen revenue growth like this in our lifetime. We went zero, twelve, 5,200, and we'll finish this year north of 500. We need to get to a billion dollars of ARR as quickly as possible.
+
+I'd put the over under at December 2027, and I would take the under. We can take the company public next year if we wanted to. This is a very special 20 VC with me, Harry Stebbings, the show you're about to listen to. Oh, it was not filmed in the usual recording studio. No.
+
+No. We went to Craven Cottage, the home of Fulham football. Why? Well, our guest today just got front of shirt sponsorship for Craven Cottage and for Fulham, most importantly, the team that play there. Welcome, Alan Katz, founder and CEO of Clickhouse, industry leading online analytical processing database management system.
+
+Try saying that after a couple of tequilas. But they've just crossed 350,000,000 in ARR. They have customers like Microsoft, Anthropic, OpenAI, Tesla, Netflix. If you're a great company, you kinda use ClickHouse. And Aaron is incredible.
+
+He was one of the leading execs at Elastic for years. Before that, he spent twelve years working with the one and only Benioff at Salesforce. Now he's obviously the cofounder of Clickhouse, which is worth over $15,000,000,000. I cannot wait for you to hear this discussion. It was so much fun for me to sit down with a dear friend and Aaron.
+
+But before we dive into the show today, founders face a different set of challenges at every stage of growth. For Sid Shait, cofounder and CEO of dMatrix, JPMorgan delivered the guidance and expertise to help navigate what came next. He credits JPMorgan's high touch approach with supporting dMatrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits.
+
+Limits. JPMorgan is the bank of the innovation economy. While JPMorgan powers your finances, Asana keeps the work moving. Most companies have tried AI. Most aren't seeing results.
+
+Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close. Asana is the operating system for human agent teams, your easy button for AI productivity across every team, ready to go AI teammates, prebuilt for marketing, ops, and IT. No prompt engineering, no setup. They show up where the work is happening, already onboarded in your workflows, ready to deliver.
+
+With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000. Asana, where humans and agents workflow together. Try it at Asana dot com. That's asana.com. While Asana aligns the road map, Base 44 helps you build faster.
+
+You have the idea, but with most AI tools, you hit a wall. The setup, the config, the gap between what you pictured and what you actually ship. Well, Base forty four is where that wall disappears. You describe it? Yeah.
+
+Base forty four builds it. Apps, websites, AI agents, real working products, built in minutes using nothing but plain language. And it's all batteries included. The back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow. This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone.
+
+So in this market, fast is the baseline. To win, you just have to be first. Base 44 is that edge, the move that skips the troubleshooting and gets you straight to the breakthrough. Build your next thing at base44.com. That's base44.com.
+
+You have now arrived at your destination. Aaron, dude, I've done over a thousand shows. I've never had a setting quite like this for a so thank you so much for for hosting at Fulham Football Club. Yeah. Total joy.
+
+Now I wanna start with just a little explainer on what is Clickhouse, and what does Clickhouse become in a five year period? Just to set the scene there. Yeah. Well, as one of our more recent investors, I think you understand the thesis behind it, which is it's the world's most popular open source database, and it satisfies a very broad array of use cases. And it's used by nearly every AI native company, Anthropic, OpenAI, Weights and Biases.
+
+It's known for its lightning fast query execution, extreme resource efficiency in terms of storing vast volumes of data. And when we look at, bluntly, the fastest growing AI companies, I think the single biggest question that I have right now is where are we in the cycle? You know, I'm really good friends with very smart people, and they get hired. I've seen this before. The levels of debt that we're seeing is insane.
+
+The prices and the valuations are so exuberant. And then I also look at adoption and revenue scaling, and I have these two paradox ical data points. We're just getting started. You know, one of the few benefits of age is experience. And so I've been through a few of these before in terms of the Internet and mobile and social.
+
+How does it actually compare as a builder? Because we hear a lot of pontifications from venture investors. How does it compare for you? Those cycles, in my experience, were much more gradual. This seems to be accelerating at an unprecedented pace in terms of how quickly these agentic experiences are maturing and how quickly these companies are growing.
+
+I mean, we haven't seen revenue growth like this in our lifetime. And the demands on the systems of these agentic applications is unlike anything we've ever seen. Totally agree with you there in terms of the revenue scaling. A lot of people always look to pick holes. One of the holes they often pick in the revenue scaling is the gross margin profile.
+
+Do we just see a new world of lower gross margins? When we look at, you know, companies like Fireworks, Lyn was on the show, she was like, yeah. We're 35%. We hope to be more over time. Do we just have a lower gross margin world, or do we actually scale into traditional SaaS margins over time?
+
+You know, a lot of these companies just seem to have unlimited access to capital right now. So they and they're growing so quickly that I think they can operate with gross margins that most public company investors would not be satisfied with. I think as long as they can demonstrate a path to margin expansion over the course of the next few years while still growing at these unprecedented levels with very healthy balance sheets, I worry less about gross margins like we did five years ago in traditional enterprise software. What should I worry about then as an investor? As I think about navigating this new world, again, you have the best customer base that you could almost ask for.
+
+Now I was talking about, you know, some of the fast growing companies on our wall the other day, and you're like, well, they're both customers. It was just Universal, the best companies we use in ClickHouse. What should I be concerned about, worry about when I'm investing, say, looking at these names? If you were to say, what's the single biggest risk would be durability of revenue, because the switching costs that you and I talked about are very high for infrastructure software. The switching costs can be very low for agentic applications.
+
+And we're seeing that with these model providers that are leapfrogging one another, what seems like every other week. I would call into question the durability of some of the revenue for some of these AI applications. When I look at, like, an Anthropic IPO at 2,000,000,000,000 and you look at Cloud Code being the kind of dominant Trojan horse behind that, would that not fall into the low switching cost? I would put it in that category. That's not showing up in our use of Cloud Code because our Anthropic spend is up a 100 times from what it was at the beginning of the year.
+
+Can I ask, how much do you spend on Anthropic? A significant amount. We weren't doing enough at the turn of the calendar year. So I sent an email to the company, and the subject was the AI awakening. And I said, I think we're moving too slowly.
+
+And I'm not seeing the adoption of these coding applications, for example, that I would expect to see for a leading database provider like ClickHouse. And the company rallied to the call, and we've seen just this explosive growth in terms of our use of these applications. And we're now looking at adopting more open weights models for us just the traditional frontier labs, but I think Anthropic specifically and OpenAI have the benefit of being both the model provider and the hardest provider that the open weights models right now are behind in. Do you think that is the right approach? So do you not think it's better to be independent because then you can actually do optimal model routing for different tasks versus being tied into one model provider because they are your harness also?
+
+Yeah. I mean, for example, some of these open weights models we'll use for code review, but we won't necessarily use to ship production code because we have concerns about the output inference. Totally. Yeah. You said there about love this AI awakening.
+
+The challenge then becomes and we had the president of Uber on the show who was much more skeptical of the ROI that it generated internally. How do you do you think about token budgeting cost when suddenly you're incentivizing this, hey. Run free, and then the bill might come at the end of the quarter? Well, the primary measure that we care about, as you know, is revenue growth. And if we see the sustained revenue growth that we've experienced over the last three years, and we're a very efficient company, as you know, some would argue we're too efficient, then I worry less about the expense that we're incurring on coding agents, for example, because we're covering a very broad surface area, and our roadmap is accelerating at a pace that we've never seen before.
+
+And as long as we can continue to ship features that satisfy this very broad set of use cases, then I can always rein in token consumption. And the cost of tokens, as we know, is going down, not up. And so they're becoming more efficient or less efficient, but our revenue is growing faster than it ever has. So I'll take that trade any day of the week. You said that you're too efficient in some people's eyes.
+
+Where should you have spent where you didn't spend, and how do you reflect on that? So we've got about a 100 quota carrying salespeople, for example, and I think you know our revenue scale is significantly more than a 100,000,000. Yeah. And so our average rep productivity is quite high relative to the industry average. Our competitors that we're going up against, some of these very large data warehousing companies, some of these very large observability companies have thousands of salespeople.
+
+They wake up every morning thinking about one specific use case. Our salespeople wake up every morning thinking about 10 different use cases, and there's only a 100 of them going up against an army of 2,000, 3,000 sellers for some of these very large data warehousing companies. So I think the one thing, and if I look back over the last two years, that I wish I had done differently was increasing sales capacity. That's so interesting. And so you should have invested more in sales team, sales leaders earlier.
+
+Well, I really wanted the pressure for the first few years to be on product and engineering. Because I looked at the two most popular infrastructure software companies over the last ten years, and I distill that down to Datadog and Snowflake. They were both successful but through very different avenues. Datadog had this PLG self-service developer led motion, so you could get started, deploy an agent, instrument your application, never talk to anybody in sales. Snowflake went heavy after the enterprise through, you know, very expensive sales and marketing.
+
+I just thought it was gonna be a lot easier to follow the Datadog playbook than the Snowflake playbook, and it proved to be the case. But at some point, you need to layer in an enterprise sales motion on top of some sort of PLG distribution. What do you know now about layering on that enterprise sales motion that you wish you'd known before you started? You know, I spent twelve years at Salesforce, and so I was kind of a a student of Marc Benioff's playbook, and so many lessons learned through that experience. And this was a long time ago.
+
+I joined that company twenty four years ago. What was your biggest lesson from working with him? If there was one takeaway. That you can overestimate what you can achieve in one year and underestimate what you can achieve in five. When I started, it was a three year old startup, and it was basically a glorified contact manager, you know, Salesforce automation.
+
+We essentially said, you're traditionally using Act or Goldmine or using a spreadsheet, you can use Salesforce for. But Mark had this bigger vision, He said, we're going after Siebel, SAP, Oracle, Microsoft. We didn't have the product set to go after those competitors, but he was such an incredible marketer that he created this perception in the industry that some of the largest companies in the world could adopt this technology, and that we would deliver on a road map that would satisfy the requirements over time, and he did. You said the word road map multiple times in different contexts there, but I do a show every week with Jason Lampkin and Rory O'Driscoll. It's very successful and popular, which is fun.
+
+Jason But said last week that if you are not well into your 2027 road map already, you are behind. Are you seeing dev acceleration because of AI tooling? And how do you measure actual ROI internally when attribution is really difficult? Yeah. We're shipping products faster than we ever have.
+
+We're entering new product categories two years ahead of where we thought we would. Really? Yeah. Both organically and inorganically. We've made six acquisitions over the last four years that have propelled us into new use case areas.
+
+And our organic road map shipping features like stateless workers, which is essentially infinite compute. We've shipped those faster than we ever thought possible. How do you think Nikesh at Palo Alto is a very good friend of mine. He's a very brilliant m and a machine. How do you think about the buy versus build versus distraction?
+
+What's that internal decision maker for you when you think about those six acquisitions? If I think that our product and engineering teams can innovate in a specific area that we're not in today, then I'll let that play out organically. If I see a founder or a group of founders that are building on top of ClickHouse, that are getting into a category that I think is going to be a future component of what we build as an ultimate data platform, then I think about doing something inorganically. We partnered again with six different founders, actually more than that. Some of these companies have multiple founders.
+
+Our most recent one earlier this year was Langfuse Yeah. Out of Berlin, which is three incredible founders entering agent observability. Every enterprise in the world is gonna need this technology. In terms of, like, the agentic future that we face, how does software and product decisions change when you no longer cater to humans, but you cater to agents? Well, even four or five years ago, software applications were designed for specific persona that had a role within an organization, and their query patterns were very predictable, and whether or not you ran a report or you looked at a dashboard.
+
+Agents don't have personas, and so while you would traditionally use a specific application for observability or data warehousing or CRM, agents expect that they're going to traverse across all these applications. And they're not going to be constrained by access. They're not going to be constrained by latency. The experience is going to be defined by the slowest point in that chain. And so, what's the number one requirement for agentic query patterns?
+
+Low latency, because they're executing dozens of SQL queries simultaneously across all these different systems. And the most important requirement is the unpredictability of those query patterns, the responsiveness, and the fact that they're much more exploratory than a traditional human, you know, report or query. Can I ask you, when you see the explosion of agent queries in this way, you'll also see the increasing awareness from agents to be more cost efficient? To what extent do you think you see a race to the bottom on pricing with the awareness from agents that they can't have an explosion of queries and cost being the same? Well, I don't see agents necessarily being cost efficient.
+
+I don't see them thinking about consumption and budget like humans do. And my mother have that in common. But the but the volume of queries is exploding at a rate that we've never seen. And so it's requiring these systems to completely rethink their pricing models, their consumption patterns, access patterns. And not only are agents hammering these services in an unprecedented way, but they're actually now selecting the underlying infrastructure.
+
+So, while you could go to Claude, or you could go to ChatGPT and say, what technology should I use for this specific use case? I'm thinking about a future where the agents actually select the infrastructure stack behind the application and positioning ClickHouse to be the default database for the next generation of applications that agents are building, not humans. And just so I understand, when we fast forward to that three year preference stack for agents, is number one latency, is number two Efficiency. Efficiency. Yeah.
+
+I mean, Tesla, for example, is ingesting a billion events per second into ClickHouse. That throughput is unprecedented. And so you need the ability to both ingest that efficiently, store it efficiently, and then be able to query that efficiently at a fraction of the cost of traditional database technologies. There just isn't another technology in the world other than ClickHouse that can satisfy those requirements. When you think about that agent buying process, trust and security are so important.
+
+Everyone is saying that we're at this golden age in terms of cybersecurity, and we see more and more security hacks. How do you feel about the security vulnerabilities that come with the agentic future that you are planning for in three years out? More on the enterprise side? We obviously see it on the personal side, but more on the enterprise side. Well, I think it's gonna require multiple deployment models.
+
+So you need to be able to consume services via a cloud offering through any one of the three major hyperscalers. You're going to need the ability to manage that data on prem behind your VPC and your firewall. So you're going to need to have the flexibility to deploy these applications as you best see fit, especially in the enterprise, where you've got highly regulated industries, a lot of data privacy concerns, a lot of compliance requirements. And so as a supplier to these customers, we think about how do we support them dependent on their deployment preference. And that's a tricky roadmap to maintain, as most companies pick one of those avenues.
+
+I mentioned Snowflake and Datadog. They're primarily cloud services. You know, you look at more traditional technologies that run on prem. And so if you force your customer into a specific lane, you're limiting the addressable market that you can go after. When you look at the agentic future of the three to five years that you're planning, what seems insane today that you think will be quite commonplace in three to five years?
+
+We can talk about the fact that agents will need to have an identity that they don't have today. They'll need to have a budget, And how do you authorize an agent to What do mean agents need to have an identity and a budget? So if you ask Anthropic how they chose to use ClickHouse, they'll tell you they ask Claude. What technology should we use for this specific observability use case? And Claude suggested ClickHouse.
+
+I'm thinking about a future where they say, hey, we need to build an application, provision the underlying stack. So you've got a database, you've got networking, you've got compute, you've got storage, and the agent's actually making that selection process. But they need to have authorization. They need an identity. They need to have a budget to be able to consume those services.
+
+We're not there yet today. So if I were in your shoes, I'd be thinking about what companies are best positioned to give that agent everything they need to build a software application. I'm sorry. Help me understand. Where should I be looking then, and why is that not included in the harness?
+
+Like, why is that not in the settings and preferences of the harness and the model provider? Because most companies aren't just gonna let their agents run wild and build whatever they want and consume as many resources as the agent deems fit. There's going to need to be some sort of governance and oversight with that consumption. And we're not there yet today. There's some human that is observing that consumption.
+
+They're monitoring the agentic spend. They're putting controls in place to make sure that things don't get out of hand, that they don't access enterprise data that they shouldn't, that they don't spend a certain amount of money that they're not authorized to. If you look out three to five years, those agents are gonna be fully autonomous. When we think about one that I think is very clear is also, like, specialized models. We both know Lynette and Fireworks.
+
+I think every company will have their own model, you know, trained on their own data. They'll supplement their own data with additional data, but I very much see that being common. Do you see a world of millions of specialized models? Do you think you actually have your Anthropics and your OpenAI has taken the large majority of enterprise and only very specific cases have specialized models? How do you foresee that given the access point you have?
+
+I think we're gonna have both. I think you're gonna have specialized models for specific use case, like legal tech. If you look at Harvey, for example, I know they're, I think, leading the category in terms of specialization. But I think the large frontier labs are still gonna be the dominant providers in the space. Can you help me out here?
+
+I'm an investor in Ligure. Why is that a better approach than Ligure's who obviously have not decided to dedicate their resources to building out specialized models? They they consume less click houses, the short answer to me to the question. Infrastructure provider, so like we're picks and shovels ClickHouse, so we're not like picking winners in these categories. Ligure could be a bigger company than Harvey a year from now.
+
+I can't predict the outcome of these specialized providers. I don't know their revenue scale. What's the average customer spend on ClickHouse? It's a good question. So, you know, we define a customer once they hit a certain revenue scale.
+
+We've got a long tail of customers that consume some of our services, but once they actually are in production at scale, we count them as a production customer. There's a chart that you can see with our revenue growth in our in our customer growth, and you can see they're growing at a at a at a similar rate, but revenue is actually growing a little bit faster because our customers are growing faster than new customer acquisition, which is the most important function for a company of our size is how many new customers can we onboard in any certain period. Because we've seen the expansion characteristics of these services are unlike anything I've seen in my career. You know, we had over a 130% net dollar retention at previous companies. We're over 200% because these use cases expand.
+
+You could be using us for data warehousing, then you use us for real time analytics. Again, these historically were like siloed applications inside of an enterprise. People are now saying we wanna put all of this in one data repository. We wanna build applications against it. We wanna expose it to our customers.
+
+We wanna expose it to our partners. And so we're just seeing this rapid growth. Average customer spend, I mean, we've got customers that spend tens of millions of dollars with us every year. We've got customers that spend thousands of dollars with us every month and everything in between. So averages can be a little bit misleading.
+
+If I were to look at the midpoint, probably around a $100,000. When they are making that buying decision, which competitor do you fear the most? The one that isn't in the market yet. Like, our competitors are right in front of me. I can see them.
+
+I know their strengths. I know their weaknesses. And what I worry about is the technology coming from the rearview mirror. I worry about the next click house. Like, people really didn't see this technology coming.
+
+It was open source ten years ago. That's when I first discovered it. It burst on the scene. Thousands of companies adopted it, but there was no company behind it. And so people dismissed it as just another popular open source database.
+
+There's been a lot before it. There will be a lot more after it. So I worry about what's the company that's gonna disrupt us in the same way that we're disrupting the competitors in front of us. You mentioned, obviously, Clickhouse being an open project and, you know, the amazing early traction that you had. When we look at the percent of tokens that are now going through open models, it is increasing exponentially almost, it seems, and it is removing from frontier models.
+
+What percent of tokens will go through open in three years versus frontier? Well, the easy answer is fifty fifty. In the same way that what percentage of enterprise software today is open source versus proprietary. I think it's a pretty even distribution. That would be a controversial prediction, though.
+
+I don't know. Look at the big two data warehousing providers, Snowflake and Databricks. Right? Snowflake is primarily a closed ecosystem. Databricks is built around open source.
+
+Would you argue which one's gonna be bigger? Databricks. Perhaps. Right? But then you add Datadog.
+
+Datadog's primarily proprietary. Other open source observability tools are open. Which one's gonna be bigger? Databricks. In observability, I would argue Datadog over Databricks.
+
+I just think I And dataware? Well, you never know. Three to five years is a long time. A valuable time. Underestimate Databricks.
+
+It's a great company. Do know what's shocking when you say that? It's like five years ago, ChatGPT wasn't out. That's the stark wow. I mean, are they gonna get into infrastructure?
+
+Will they be offering databases as a service? I don't know. But they I wouldn't dismiss Anthropic and OpenAI as core infrastructure providers. Really? Yeah.
+
+Not at all. I don't see them as competition today, but you see how they're entering new categories so quickly. Just imagine the surface area they're gonna cover in three years. They're building their own chips. This would not be extraneous.
+
+Yep. Totally get that. But the conventional wisdom would be that you see 90% through open, 10% through frontier. Yeah. In the conversations that I have today, everyone basically says frontier models will be used for cancer, climate change, extremely valuable, but very few tasks, and then the rest of everything will go through open.
+
+You don't agree with that? I I don't. Especially in the enterprise, they want provisions and protections that potentially open weight models, especially those that come out of China, cannot provide around indemnification, for example, and output inference. And it's going to limit the use cases that those open weight models are adopted for. Now, it's very important that we distinguish between open weight models and open source software.
+
+Okay? We're in the latter category. My predictions on enterprise adoption around open weights models is very different. For those that do not know, and I like to be not just for kind of Silicon Valley inner engineers, open weight versus open source in a minute. Let's focus on open source.
+
+Yeah. So open source is essentially where anybody can inspect the source code. Anybody can modify it depending on the license that it's governed by. You can deploy it with no attribution to the authors of the software. You can modify it.
+
+You can monetize it without any relationship of the people that are actually developing it. You can contribute to it. You can fork it. Now, open source licensing has evolved significantly over the last five years that affects some of those implementations. Okay.
+
+I'm pleased that you said that that you don't agree with that, and that, actually, there will be more concern around using open weight models and potentially Chinese models. When I speak to people on the show, they actually say that the biggest enterprises say I'm more scared to work with frontier providers than they are open source Chinese models. Because people don't trust the statement zero data retention. It's basically you saying, just trust me. I got you.
+
+You know? Some people will take you at your word, many will not. And so I think a lot of companies worry about sending their source code, for example, to a Frontier lab. Do you see that? I do.
+
+I see it every day. I mean, we have their own concern internally because you worry about the output from that code generation. You worry about, you know, third party indemnification if you were to consume code that's being derived from another repository. So what do you do in that case? You then go to an open model?
+
+You limit the use cases. You know, you can use it for code review, for example, but maybe not to push production code into an environment that your customers are using. But then what do you trust? You trust an open Chinese model with the more sensitive data? Because it again, this is what someone said it on the show.
+
+They're there. I was like, no. You must have got that confused. They because said for all, like, less sensitive things we use, you know, Anthropic, and then for everything more sensitive, use an open source Chinese model. And I was like, you mean the other way around?
+
+And they're like, no. No. No. That's the right way around. I think when you need the the legal protection that most enterprises do, you're gonna wanna work with one of the frontier lab providers.
+
+I think there's too much security concern around some of these open weight models. Is it justified? Today, I think it is. If I look out a year or two from now, I think a lot of these concerns will be addressed. You don't buy the backdoor to the CCP or cons You know, I personally don't like to speculate that, you know, by using some of the software, you're somehow gonna be engaging in some nefarious Chinese espionage.
+
+Exactly. I mean, it's quite fantastic to go there. Listen. You'll see one of the kind of most prominent open companies in the world in terms of ClickHouse. When we look at the American open models, we significantly lag behind.
+
+If I were to say, Aaron, I want you to spearhead open American models. What would you do to encourage, incentivize us to dramatically leapfrog China now in our open ecosystem? Well, obviously, I'm a huge fan of open source and open weights models. So I don't think that any sort of government intervention is wise in terms of limiting the adoption of these technologies, the distribution of these technologies, because I do think, you know, open source and open weights models are the future. And the future is defined, I don't know, three to five years.
+
+It's really hard to look out further than that. I personally wouldn't take your capital and say, I'm gonna deploy it to develop an open weight model. Do you see more and more enterprises want to go back on prem in this day and age? We do. Yeah.
+
+And even companies that I thought would never be going back on prem are talking about going back on prem. Like, some of the most innovative digital native companies in Silicon Valley are now thinking about moving their stack from, you know, one of the hyperscalers to an on prem environment. When we think about agentic workflows, a lot of what we've said kind of agent identity. How sophisticated are traditional enterprises when you speak to the CEOs, when you sell to them, what you see, what's the chasm between what you see and what they know? Narrow.
+
+It is. Yeah. I mean, I was at Canary Wharf yesterday meeting with some of the largest financial services companies in the world. They are leading the way in terms of their adopting new technologies in a way that I've never seen in the past. A lot of the times, historically, the sales cycles into these big firms would be measured in years, not quarters.
+
+They're now adopting technologies much faster than they ever have before. So you're seeing sales cycle compression in this day? Yeah. Mean, I open source aids in that because you can get started without any sort of vendor relationship. PLG products like Datadog and ClickHouse aid in the fact that you can just spin up an environment without ever talking to anybody in the sales organization.
+
+You can have this frictionless experience to where you can evaluate, deploy, scale the product without a traditional enterprise sales process. I think people just fundamentally misunderstand GTM and the business behind it. What do investors get most wrong when analyzing your business? Investors often say, like, where's where's the moat? Like, how difficult would it be for me to simply redistribute ClickHouse?
+
+What's the risk about one of the hyperscalers offering ClickHouse as a managed service? You know, it's been done before where AWS or Google Microsoft takes your open source and they redistribute it as a managed service. So now you're almost like competing against your core database. That has been an issue in the past. I think if you can maintain a competitive advantage with your cloud offering or your proprietary features that are very, very difficult to replicate, then you can maintain that moat.
+
+And I think very few open source companies get that right. I do want a weird transition back, but when we said about of agent preferences and agent you know, Anthropic using Anthropic to choose ClickHouse, does that mean, like, developer relations, developer community becomes less important? And how does the future of brand change when agents become decision makers? So I talked about you're building an application. Like, let's you're building a dating app.
+
+Right? So you can build it over the weekend. You you can vibe code it. Right? And in theory, that agent can select the stack.
+
+Right? It can select a managed Postgres service because you wanna support transactions. It can a managed Clickhouse service because you've got analytics and everything in between. You still have an enterprise buyer. You still have a huge data warehousing project at a top bank or a telco that's going to be driven by an engineer or a developer.
+
+And there's still going to be a human that's making that architectural decision on are they going to use ClickHouse? Are they going to use Snowflake? Are they going to use Databricks? You've got an observability workload. Are they going to use something off the shelf like Splunk or Datadog?
+
+Or are they going to embrace open source and use something like ClickHouse? For the next decade, there will still be a human involved in that decision loop. So it doesn't change the investment and commitment that you have towards brand? Not at all. Because budgets are still controlled by people.
+
+Right? And budgets correlate to technology decisions. And so a few years ago, I started doing things around awareness. Like, for example, for AWS reinvent Amazon's big cloud conference in Las Vegas or Google Next, I partnered with the chain smokers and I had them perform because I said there's not one party that everybody at re:Invent wants to go to. It's a bunch of like shitty restaurant buyouts and happy hours.
+
+I want one party that 60,000 software engineers are jumping over themselves to get access to. So I partnered with Alex and Drew and we started performing these concerts and they started performing these concerts in support of Clickhouse. So then I thought about how can we even drive broader awareness? And so a sports sponsorship came to light. I'm not the first person to do this, as you know.
+
+You know a lot of other companies that are sponsoring Premier League teams. Sure. We did a financing earlier this year, and then we extended it and brought in some strategic investors like yourself and David Sachs and Michael Dell and JPMorgan. We didn't need the capital. We had a billion dollars on a balance sheet.
+
+I quite like the affiliations of those names, so thank you very much for including me. Yeah. David Sachs and JPMorgan are very helpful. Happy to. So I thought what better way to spend this new investor money than to sponsor an English Premier Football Club in London.
+
+Why football? Why English Premier League? You can sponsor f one. You can sponsor, you know, LaGuardia do golf as well. Why football?
+
+I love the sport, but let's put that to the side for a minute. I think the value of these sponsorships obviously come in two forms. The first is awareness. And as we saw last night against Chelsea, this is a game that's being televised globally. So you've got millions of viewers that are looking at your brand or you're getting impressions, obviously.
+
+The second, which is obviously easier to quantify, is hospitality. And we're sitting here at Craven Cottage along the Thames. I think this is arguably the best sports experience in the world, and I've been to many. We had 20 executives last night attend an intimate Michelin grade dinner. You know, the c level executive come from Paris, one of the largest banks in Europe, just to experience that.
+
+Those types of relationships are extremely important, especially as we move up market. Do you think we will see the price of sports assets dramatically increase even further still? We had obviously the North Coastal buy. I always get it wrong, but I'm a Brit, so forgive me. It's not the Seagulls.
+
+It's the Seahawks. Yeah. Seahawks. Yeah. Which, obviously, I didn't love to see considering both Coastal is an investor in Clickhouse, but he was a minority owner in the 49ers.
+
+Why is that bad? Why didn't you wanna see it? Because I'm a San Francisco 49ers' lifetime faithful from Fulham. I didn't have a clue. I thought it was the seagulls.
+
+Well, it'd be like, well, you know, you turning around and investing in Chelsea, example, you wouldn't do that, obviously, as a Fulham supporter. I obviously would not do that. Right. No. Unless there was significant monetary gain, in which case I'd do it in a second.
+
+Well, Beno's a very savvy businessman, so I'm sure it's gonna be a good investment And then for Josh buys the Lakers for twelve and a half. And I'm like, to the point of, like, underestimating where value accrues, do think we'll see $20,000,000,000 sports teams? I do. I mean, we just saw that with the Lakers. I think it was the most expensive sports transaction in in history, 12 and a half.
+
+It was reported the Seahawks sold for 9,600,000,000. Yeah. It's all obviously, it's well reported what the English premier clubs trade for. I do think that. I mean, it's a experience you simply can't replicate through technology or anything else.
+
+There's something very visceral about it. We felt it last night to be there at the pitch, 28,000 rabid fans on their feet to launch the premier season, Southwest London Derby, Chelsea versus Fulham, three to two, five goals. Like, what more could you ask for? I totally agree. I think also in a world of AI, you actually crave those experiences more.
+
+I agree. That and music in particular, I think will be two of the most kind of blossoming. Totally get you there. How do you think about, like, spend for it? I'm not asking you how much you paid for it, but, like, how do you think about ROI effectiveness on, shit, we're commit a lot of budget to being in front of shit.
+
+Well, you know, we had 20 guests last night, budget owners from some of the largest companies in the world. Half of those are customers, half of those are prospective customers. So I can very easily measure the spend that I can gather from that basket of accounts over the next twelve months. How much of that do you solely attribute to a sports sponsorship? That's very difficult to assess.
+
+We could see top of the funnel metrics improve in terms of website visits, new trials. That could be a derivative of the awareness that we're driving through the sponsorship. Kind of one of those two ways, if not both. Dude, I was talking to your investors, and many of them said every round, I've wanted to invest more in in Aaron and Clickhouse, and he always cuts me back. What do you know now about fundraising that you wish you'd known when you started?
+
+The credit really goes to Yuri and Alexei. They're my two cofounders are spectacular. The best engineers I've worked with in my career by a very wide margin. And so I'm happy to be the interface to the investor community and maintain these VC relationships. But really, it comes down to how differentiated our engineering culture is.
+
+In terms of cutting back investors, I mean, as you know, when I evaluate an investor relationship, it really boils down to the value that they're gonna bring. The customer introductions that they're gonna make, the advocacy that they're gonna help How do you determine that everyone sells a good game? VCs, we sell cash. We get good at selling. I reference them like you would in any other relationship.
+
+So I talked to the companies that they've invested in in the past. I say, what's it like to work with Harry? What customer relationships has he made that have been valuable? Has he helped with awareness from his social presence? Has he helped with recruiting?
+
+How does he work with other investors? Do people perceive it as a positive to have men on the cap table? And those all need to be a unanimous yes before we start working together. Do you think you raised aggressively enough? We're seeing a new world by capital.
+
+It's more and more remote in a lot of cases. You know, I'm trying to build a generational company that outlives me. Right now, a lot of people look at fundraising as a very short term exercise, and they wanna have this consistent and steady step up in valuation. It's good for your employees. You give them liquidity through tender offers.
+
+It's good for recruiting. It minimizes dilution. It bolsters your balance sheet. It lets you forward invest. All of those things are true.
+
+But I'm thinking about a company twenty years from now, not two years from now. So whether or not we raise at 15,000,000,000 or 25,000,000,000 in ten years is irrelevant. Right? We need to have the right investors involved. We need to build a very durable, long lasting, sustainable company.
+
+We need to get to a billion dollars of ARR as quickly as possible. The most important metric for the company is new customer acquisition. We add hundreds every month. Our gross retention is north of 99%. Our net dollar retention is north of 200%.
+
+The addressable market we're going after is absolutely enormous. So I think less about valuations perhaps than I should. When will we hit a billion an hour? Within the next two years, if not sooner. Give me a date.
+
+We can do a bet. We can both do a bet. I'd put the over under at December 2027, and I would take the under. You think you'll get that before? I do.
+
+I'm gonna go for February 28. I think now it's, like, eighteen that's more than eighteen months. Yeah. It's eighteen months. I would definitely take the under on that time frame.
+
+What'd you really? Oh, yeah. We're at two fifty now? We're well north of that. Oh, well, that's unfair.
+
+You said they're about tenders. We see them more and more for employees, and I think talent acquisition is one of the hardest things today. Actually went in a lot of trouble the other day for this. I said, if you are trying to hire a star talent today, you can't. OpenAI and Anthropix simply pay, and they go to the frontier model providers.
+
+Is that true, or was I being glib? I think it's true depending on the category that you're in. I think if you're a digital native AI startup in San Francisco, it's a very difficult employment environment because you're competing against OpenEye and Anthropic and others that are extremely well capitalized and are putting offers that are extraordinarily aggressive into the market. I think if you're a infrastructure provider like ClickHouse, we look for a slightly different profile. You know, we're looking for database engineers, people that have experience with distributed systems, slightly different than what the Frontier Labs are hiring for.
+
+We employ people in 27 different countries, which gives us a competitive advantage. So I can hire engineers in Portugal and Germany and Singapore. You know, we've got single digit attrition, so we've got extraordinarily high retention. We have done some structured secondaries, and we'll continue to do so over time, but not with the frequency that I think some of the younger companies are doing. So I'm, you know, controversial in many ways.
+
+One of them is because of my vocal expressions about remote work. Why am I wrong? I don't think you're missing anything. I'm of two minds, and I contradict myself constantly about this topic because I spent twelve years at Salesforce. I was in the office every single day, five, six days a week, ten, twelve hours a day, and it was during this extremely formidable time in my career.
+
+I learned so much from those experiences being in the office amongst my colleagues and peers, learning from people with more experience than I had at the time. When I started this company, it was during COVID. And so we kind of had to be distributed by design. And I started it with some Europeans. And so people were in Europe.
+
+I was in the Bay Area. My co founder was in Utah. We started the company. We grew very quickly, found engineers that had a very unique skill set, and they weren't all in the Bay Area. They weren't all in London.
+
+They weren't all in New York. And so we built a distributed company. Fast forward to where we are today, we're almost 800 employees. We'll be a thousand by the end of the year. We are introducing in person options for our employees.
+
+We don't have this draconian return to work mandate or return to the office mandate, but we do have offices, and we have a huge office in Amsterdam. We have an office here in London, New York, the Bay Area. Is that specialized around different functions? Not at all. Really?
+
+Yeah. Both engineering and go to market, and we're seeing increased participation across the employee base and increased demand for office space. And if I look at a year from now, we're not gonna have six or seven hubs. We have an office in Singapore. We have an office in Sydney, Australia.
+
+We have an office in Tokyo. We're not gonna have six or seven. We're gonna have 16 to 20 offices around the world within twelve to eighteen months. If you could have your way, would you not have everyone be in office in some way? I wouldn't, and I'll explain why.
+
+We're a very international company by almost every measure. Over half of our revenue comes from outside of The US. 40% here in EMEA, 10% in Asia. Over half of our customers are outside of North America. And so we need to support our customers in a variety of different languages, in a variety of different time zones.
+
+I mentioned we're live in 36 different regions around the world across all three hyperscalers. There's no way that you can centrally manage that from one location. You need to have people in every single time zone. You need to have relationships with the hyperscalers in region. We go to market with AWS.
+
+We go to market with Google Cloud. We go to market with Azure. I flew to China to launch a partnership with Alibaba. Like, you're gonna need local language speakers to maintain those partnerships, and you can't do it from one or two or three centralized hubs. What phase of company growth was most uncomfortable?
+
+When were you the teenager at the wedding? The most uncomfortable phase was immediately following our product launch. It was at the exact same time ChatGPT launched. And these database services are different than consumer services. They take time for companies to evaluate and adopt.
+
+It's not like you're just going to use ChatGPT overnight, you're going to get to 100,000,000 users in two months. So there is this six month period and it shows up on that bar chart of revenue growth where revenue was slow out of the gate. Now we've hit this inflection point and revenue surging now that we have over 4,000 customers. But those first six months, you know, I raised 300,000,000 at evaluation that was hard to justify because we had no revenue. We had no product.
+
+Your prices were quite chunky. I mean, at, like, 50,000,000 in revenue, you were priced, like, $6,000,000,000. Again, just a point in time. Like, you don't get credit for where you are that you're investing in. LPs.
+
+When my LPs are like, dude, but your DPI is not what, you know, Gilly Renanza's. I mean, it's a point in time. Right? Yeah. But when you're giving credit for the next year Right.
+
+And that's how venture investing works, in my experience, on the other side of the table, which is you're not getting priced for where you are at that point in time. You're getting priced for where you're gonna be in twelve to eighteen months. And if you have a track record of execution and you have a track record of overachieving against your targets, then you can garner a multiple that is disconnected from the public markets. Which round felt most expensive and which round felt most cheap? The series b that Cotu and Altimeter jointly led at 2,000,000,000 felt expensive.
+
+We had no revenue. We had no product. We had control of an open source database. We had no customers. We had 15 employees.
+
+So that one, I felt like put a pretty big target on our back, and that's when the pressure really started to mount on building this differentiated product, and it took us a year. Those were some long days, you know, thinking about when are we gonna get this product into the market? What's the customer reception gonna be? We knew there was some latent demand. I didn't anticipate there was gonna be this much sustainable demand 3.5 later.
+
+Also, you didn't know that the AI wave was coming in the way and speed that it has done, which has been the propulsion of all generations. Yes. It was five years ago. Yeah. I had no idea.
+
+I knew that ClickHouse was the most resource efficient and performant database in the world. And so I knew that it would satisfy whatever trend was gonna come. Because in the database world, it comes down to price and performance. A lot of other attributes in terms of feature completeness, etcetera. But that's really what it boils down to.
+
+And I knew that ClickHouse had an advantage on both. Which one was the most cheap brand? Probably the current one. Yeah. I I felt this too.
+
+And I know it's obviously it's a lot of money in terms of, you know, $15,000,000,000. But when you look at what you have, the customers, the revenue, the slope, I'd much rather pay more for more than less for less. Does that make sense? It does. I totally get that.
+
+Can I ask you something I struggle on? Another thing that I get chastised for is you said about the infrastructure slope on revenue. Well, the slope on revenue being slightly slower because it's an infrastructure play. I often say that triple, triple, double, double is dead. You know, the one to three to nine to, you know, continues is dead.
+
+And we need to be zero to a 100,000,000 in a year now. Am I glib and wrong and that won't take into account infrastructure plays, or is that actually just a new world that we're in? Well, as I mentioned previously, I think the durability of revenue is the most underestimated attribute of these companies. Meaning, how high are the switching costs when somebody's using your product? And for any category that goes from zero to a 100,000,000 in a year, I worry what's the competitive moat that they have to preserve that 100,000,000 from that customer going to something else.
+
+So ours was a bit more gradual. We went zero, twelve, 5,200, and we'll finish this year north of 500, which in the database world is faster growth than we've ever seen, including all of the competitive companies that I mentioned earlier today in terms of the first three years of revenue growth. And it's over a very broad customer base. So we've got very little concentration risk. The basket of AI companies that's using us in nearly every AI companies built on ClickHouse from Harvey, Sierra, Decagon, Anthropic, OpenAI, etcetera, represents less than 12% of revenue.
+
+And so even if half of that goes away, the winners are gonna offset the loss from the losers. Is concentration risk a valid investor concern? You know, you see a lot of people say, like, oh, yeah. I'm an investor in McCore. McCore's 90% of their revenue comes from Frontier Model Pro.
+
+I'm like, so does NVIDIA's. Seems to be working for Janssen. Is concentration in terms of revenue a valid investor concern anymore? I think about it as an operator as a very valid concern. If I've got one customer that or one category or one industry that accounts for more than 10% of revenue, I spend a lot of time thinking about it.
+
+And that seems to be kind of the industry standard, that threshold, that if some dimension of your revenue base accounts for more than 10% of your revenue, you've got exposure. And I wanna limit exposure. Right? The goal is predictability, sustainability, durable growth. And if I've got one category or sector or customer that can have such a negative effect if they were to leave the platform, that's a concern for me.
+
+We said about switching costs there, and I think one big mistake often investors think is, you know, once I get to a certain scale, I'm gonna move off Elastic and build my own. Once I get to a certain scale, I'm gonna build my own payments processor. Shopify still use Stripe at the scale that Shopify is at. And, actually, most often, you just don't because it's not your core business. I'm intrigued how you think about that, especially given your time with Elastic and whether we do overestimate the I'll just move at scale.
+
+It comes down to customer value. Right? You need your customers to continually see value from your service, which means you always need to be ahead of your competition in terms of the ROI and the TCO calculation that your customer's gonna think about. On TCO? Total cost of ownership.
+
+So if you think about how much does it cost to run ClickHouse, how much does it cost to run a comparable service, and you wanna have that advantage. Those are the two primary attributes that you're gonna think about in terms of value creation for your customers. Do you think it's important to have an internal enemy? I don't. I I worry about creating adversity inside of a company.
+
+Well, you have so much adversity outside of your company. Right? You gotta deal with competitors, disparaging yourself and the company. You've gotta think about how you stay ahead of the competitive landscape. You gotta think about geopolitical concerns, and that's before you have any sort of personal strife in your life.
+
+That's just work. So why would you wanna introduce that into your company? To create fire in them that they wanna beat someone. Oh, that just comes down to hiring the right people. Like, we only hire people that are insanely competitive.
+
+Has your hiring changed in an AI world? How you determine talent? How you discover it? You know, I think we're a little bit unique. The average age of our engineering organization is in the mid to late thirties, which is a little bit different, I would imagine, than a typical venture backed company that's only had a product for three years.
+
+So we typically look for people that have a bit more experience. It's not to say we don't bring people into the company straight out of college, but we wanna make sure that they're paired up with, you know, somebody that's been building distributed systems for a period of time. A lot of people question the value of college today. Do you think that's justified? It's something I think a lot about.
+
+We've got two teenage daughters. And so as they think about college Would you tell them to go? I would, but I think it's simply around their life experience. You know? The and, again, I don't wanna take anything away from, like, the academic output of a four year degree.
+
+With the greatest of respect, you should. And I mean that, and again, is why you're popular and I'm probably controversial, that you should the curriculum process to update them is so long that by the time it's been updated, it's already out of date. I think it depends on what you wanna study. Well, if you're studying, obviously, neuroscience, then it's relatively If you wanna go into medicine, I think that we're gonna need doctors. You want that human interaction.
+
+Right? If you're studying software engineering, I think you're gonna be entering a market that's very uncertain in four years' time. Do you think this could all get a bit creepy? You said that we're still gonna need doctors. Well, I'm not really so sure if I'm totally honest.
+
+Like, I use chat GPT for most of my medical queries now, and it prevents me from seeing a lot of doctors. Doctors are pretty unaffordable to most people. Wait times in The UK for a GP at months. Yep. I don't know, dude.
+
+And and Dario wants to cure cancer, so I think he'll fix GP appointments, won't he? If I've got a serious medical concern or I need some very important legal advice, I wanna talk to the best lawyer in the world. I wanna talk to the best doctor in the world. And that's not gonna change for me personally. Now I represent a slightly different generation than you do, so that may be different for people behind me in life.
+
+But I do think those domains are quite durable. Do you think it could get creepy though with the AGI realization coming true? I don't. I think robotics would be probably more disruptive, frankly, to the medical industry. We had a family member have a procedure that was done entirely autonomously with just a doctor overseeing it, but didn't actually touch an instrument.
+
+But I think that will be the future. So listen. We're gonna do a quick fire, Hunter. I say a short statement. You give me your immediate thoughts.
+
+Does that sound okay? Yes. Why not? What job does not exist today that you think will be extremely common in five years? An AI finance function solely dedicated on AI consumption inside of an organization.
+
+That's all they wake up thinking about. In terms of token resource management. Correct. And then that job will be made irrelevant five years from then because AI agents will govern themselves. Which job will never be made irrelevant?
+
+VCs like to think it's ours. Professional football players. Dude, I'm 30. It's too late for me now. Professional athletes aren't going anywhere anytime soon.
+
+In The UK, we have a game. Okay? It's called and forgive the crassness, shag, marry, kill. Shag is short term buy. Marry is long term buy, and kill is a la Puebelle.
+
+No. Not for me. You have Meta, you have Microsoft, and you have NVIDIA. What is your shag, marry, kill on them? Which one would I shag?
+
+Which one would I marry? And which one would I kill? Well, that is a customer, so I don't wanna put them in the latter category. Microsoft's one of our power users. We power the largest analytical workloads at Microsoft, so I'll probably marry Microsoft.
+
+I had the opportunity to meet Satya a couple months ago. Was quite impressive. We do business with both NVIDIA and Cerebras and a lot of the chip manufacturers. So I'd I mean, I'd like to shag all three of them, but unfortunately, unfortunately, I don't think that's possible. Do you think we'll see a much more distributed chip ecosystem in the next few years?
+
+You see Etched, and you see a lot of other providers, Cerberus being one of them. Yeah. Absolutely. Yeah. I think a lot of the hyperscalers and frontier labs are gonna be very relevant providers in the chip ecosystem.
+
+What's one widely held belief about AI that's pretty agreed upon that you think is actually pretty wrong? A widely held belief around AI that's generally agreed upon but is wrong is that it's overblown and that we're in a hype cycle, that we're in a bubble. And I'll kinda finish it with where I started. We're just getting started. You know, I I can't pick the winners and losers, but I think the winners are gonna far offset the losers.
+
+Do you worry about the levels of debt being taken out exceeding any historical norms? I worry about the public exposure to these companies when they're publicly accessible. Right now, it's private capital. And so, you know, a lot of investors stand to lose money. A lot of investors stand to make a lot of money.
+
+Totally. But NVIDIA represents a huge amount of $44.09 a's for a lot of Americans. Yeah. But NVIDIA is a public company. Sure.
+
+So they've got public disclosures, and that's different than the private markets. Sure. But if it were to take a hit, you would see mass wealth or kind of monetary impact. Well, that's the case with any sort of inflated asset. I'm not suggesting Nvidia's inflated.
+
+No. But if you see concentration of value into a few names in this way, like, we've never had 85% of the stock market's value predicated in six companies. Yeah. But look at the value creation that's occurred over the last ten years. Is there gonna be some sort of compression?
+
+Possibly. You know? Are you gonna get back to the levels we were at ten years ago? Highly unlikely. What's the biggest lesson from Peter Fanton?
+
+Peter's great. He's on my board. This is the second company I've worked with him at. You know, Peter's very philosophical. I compare and contrast him to Mike Volpe, who's also on my board.
+
+And Mike was an operator, worked at Cisco for a long time, ran corp dev. I think he did over a 100 acquisitions. Yeah. Peter is a career venture capitalist, and he's helped shape and form some of the most influential and impactful companies in technology. And so he has this amazing pattern recognition to where he can a, he's an incredible talent magnet.
+
+He's been great for recruiting. When you get him on a call with someone, what are you asking him to do? Determine if they're good or win them over? Well, I typically tell him whether or not he's buying or selling, whether or not he's trying to convince this person to join the company or really evaluating this person critically. And that's gonna influence, I think, how he approaches that conversation.
+
+Who do you not have on your board that you would most like to have on your board? There really isn't anybody that I would put on that list right now. I'm adding somebody to the board shortly that we're gonna announce I'm really excited about. When I was starting the company, I met with a variety of different investors. Mike and Peter were the first two that I called.
+
+I met with Martin Casado in Andreessen, who's a friend of mine. And I would have loved to have him involved because I think he understands what we do in a very unique way technically. Why is he not involved? He was conflicted at the time. Oh, bugger.
+
+Yeah. I know. It worked out fine. What concerns you stay on? You know, what I mentioned earlier today, like, the competitive landscape I can see is clear as day.
+
+It's right in front of us. I know how we're gonna execute against them. I worry about the technology that isn't yet in the market, and that's gonna emerge, and how defensible our position is against that. Because that's what we did. We burst onto the scene.
+
+Nobody anticipated this was gonna be a company that's experienced such success and delivered such customer value. I worry about what that company is gonna do that's undefined. And so I go to the company and say, we need to constantly think about reinventing to be that disruptor so that we can basically disrupt ourselves. If I could erase one name, Snowflake or Databricks, which one would you rather I removed? Removed from the market?
+
+Well, I think it's well documented that Databricks is executing extraordinarily well in the market. I've got a ton of respect for Ollie and the company. We're going after adjacent markets. These are database technologies. So you squint hard enough, there's gonna be competitive overlap with all of them.
+
+There's plenty of white space on either side of the Venn diagram with us and Databricks. Did you see over $15,000,000,000 company on the Fosse growing technology and an incredible business? You also have two incredible children. What's the biggest advice on how to be a great CEO, be in London here with me at Fulham, and also be a great dad? Well, I think the attributes are very similar.
+
+You know, you take your job seriously, and you commit to it, and you think about how you can improve, and you ask for advice, and you surround yourself with people that have experience doing, whether it's parenting or running a company, and you replicate the best attributes of those people, and you leave the other ones behind. What do you know about marriage now that you wish you'd known when you got married about what it takes to be successful? We've been together for twenty four years. The the acceptance that it's it's not a straight line. The willingness to come together with that understanding and embrace one another's differences, celebrate the achievements of the individuals and the relationship, and realize that you have a shared purpose, especially when you have kids.
+
+It's a very powerful shared purpose, and that's very similar to running a company. You know? You want all of your employees to be aligned with the objective. And what is the purpose? What's the vision?
+
+How are we gonna get there? How are gonna execute? Final one for you. What are you most excited for when you look forward the next three to five years? You just met my mother, which is awesome.
+
+She has MS. I'm excited for potential breakthroughs in chronic conditions, which have traditionally just always been incurable. What are you most excited for? Well, if you'd asked me that question five years ago, I don't think anybody would have predicted where we are today. Right?
+
+I mean, ChatGPT launched in November 2022. That's less than four years ago. So looking out five years from now is nearly impossible. Obviously, the same medical advancements is is important. I wasn't looking for the Fulham Premiership sponsorship.
+
+I'm looking for qualification in the Champions League, winning the FA Cup. I'm looking for The US to advance further in the World Cup in four years when it's in Spain and Portugal and Morocco. Where will Clickhouse be in five years' time? I think, you know, I'd take the under on being a public company. We could take the company public next year if we wanted to.
+
+There's no rush. Why would you not? I think if you're looking at the world in, you know, three to five year time horizon, that applies. Again, like, I'm hoping this company outlives me, in which case whether or not we go public next year in five years is pretty irrelevant. I mean, when Salesforce went public in 2004, it had a billion dollar market cap.
+
+What do you think you get by being private? If you're ready to go public next year, I completely agree with you. Well, the markets are more irrational now, I think, than they've been in in a long time. And so it's pretty rough being a public company. Like, your stock can trade down 50% on a slight miss in a quarter, and we know that impact on employee morale.
+
+You And don't have that in the private markets. It is brutal. Every CEO is like, oh, no. Their head's down. It doesn't matter.
+
+It matters. I've I've come full circle on this. Like, I remember having dinner with Ollie a few years ago, and I asked him this question. I'm like, it feels like you guys are ready to go public. And he said, I kind of basically run a public company, and he walked me through that.
+
+And I said, well, there's really two dimensions that don't apply. You know, you don't have your employees looking at your stock price every day, and you don't have anybody shorting your company. Those are two material impacts of being a public company versus being a private company. Now the employee liquidity has more or less gone away because you can do structured tenders, and you can give your employees liquidity over time. The the bare thesis hasn't gone away.
+
+Like, you don't have people shorting your company when you're a private company, and so you don't have to deal with that in your day to day course of work. And then on top of that, a a lot of people have traditionally said, well, the bought joy of being a public company is you have this kind of tradable currency that you can buy companies with, which is helpful for acquisitions. Yeah. Well, Stripe is buying PayPal for 50 to $60,000,000,000 as a private company. Bit of an outlier, but I get what you're saying.
+
+And OpenRooter as well at 8,000,000,000. Yep. God, these are two pretty sizable acquisitions that traditionally would be unthinkable for a private company. So now I'm my question would be, why would anyone go public? I mean, it's a valid question.
+
+I think, a, it increases awareness. It's a financing event. You diversify your investor base. It's very good for employee morale. I've been through two IPOs.
+
+Is it? It's it's wonderful. You your community celebrates it. Your family celebrates it. Your friends, your colleagues from university.
+
+Like, it is a very nice short term thing, though, again, to the point of the the tumultuous journey that comes post. You know, like, great for a week and then at the whims of a volatile stock market. Yeah. But again, I believe in the public markets. I believe in the capital markets.
+
+I believe that, you know, in terms of price discovery, public markets are generally better than private markets in the long term. They behave more rationally than private investors who are willing to pay a premium to get into a company, betting on the come. Whereas in the public markets, you're really getting credit for where you are at that point. Maybe there's some speculation built into your stock price, but it's more grounded in the execution and the results that you're delivering. Totally get that.
+
+Listen. You've delivered incredible results. I have no doubt that you will win the bet that we have in terms of reaching the billionaire. I look forward to wiring you a thousand pounds when you do, but thank you so much for hosting us at Fulham. This is incredible.
+
+Yeah. It's a beautiful setting. Thanks so much for having me. But before we leave you today, founders face a different set of challenges at every stage of growth. For Sid cofounder and CEO of Dematrix, JPMorgan delivered the guidance and expertise to help navigate what came next.
+
+He credits JPMorgan's high touch approach with supporting Dematrix as it grew and expanded internationally. Whether you're in the early days or expanding into new markets, JPMorgan helps startups navigate complexity with real confidence, offering personalized guidance and deep sector expertise. Find out how JPMorgan helps founders at jpmorgan.com forward slash grow without limits. JPMorgan is the bank of the innovation economy. While JPMorgan powers your finances, Asana keeps the work moving.
+
+Most companies have tried AI. Most aren't seeing results. Not because AI doesn't work, it's because AI hasn't reached the workflows yet. That's the gap Asana is built to close. Asana is the operating system for human agent teams, your easy button for productivity across every team.
+
+Ready to go AI teammates, prebuilt for marketing, ops, and IT. No prompt engineering, no setup. They show up where the work is happening, already onboarded in your workflows, ready to deliver. With Asana, your whole company can work on the same plan towards the same goal, whether you're a team of 10 or a team of 10,000. Asana, where humans and agents workflow together.
+
+Try it at asana.com. That's asana.com. While Asana aligns the road map, Base 44 helps you build faster. You have the idea, but with most AI tools, you hit a wall. The setup, the config, the gap between what you pictured and what you actually ship.
+
+Well, Base forty four is where that wall disappears. You describe it. Yeah. Base forty four builds it. Apps, websites, AI agents, real working products built in minutes using nothing but plain language.
+
+And it's all batteries included. The back end, the database, the authentication, the hosting, the heavy lifting is handled, so you just really stay in the flow. This doesn't just take the busy work off your plate, but it gives you an advantage and pushes you past what you thought you could build alone. So in this market, fast is the baseline. To win, you just have to be first.
+
+Base 44 is that edge. The move that skips the troubleshooting and gets you straight to the breakthrough. Build your next thing at base44.com. That's base44.com.

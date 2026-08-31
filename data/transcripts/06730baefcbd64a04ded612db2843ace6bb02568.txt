@@ -1,0 +1,671 @@
+I've got a text. The summer might be almost over, but a new bombshell has entered the villa. Meet the voices of Deepgram Flux TTS. I'm Drew, low key casual. I'm Alexis, an upbeat morning person.
+
+Person. I'm Hailey, always cheerful. Flux TTS has some real personalities that are ready to speak. You can interrupt, pause, and keep talking without losing the plot. Fancy a chat?
+
+Come try all the voices free through September 12 at deepgram.com slash keep talking. Terms apply. This episode is brought to you by chat GPT. Hey, it's Bill Simmons from the Bill Simmons podcast. Have you guys heard about chat GPT work?
+
+It's the new way to use chat GPT for bigger multistep projects. And when you need more than just answers, give chat GPT work access to your apps and files, it can create real work documents like spreadsheets, slides, and structured reports. Get started at chatgpt.com by selecting work mode available on plus and pro plans. I'm Ina Garten. This fall, join me for happy hour with Ina, my new video podcast.
+
+Each week on the show, I'll invite guests for a delicious drink and a conversation at my kitchen table in New York City, and you're invited. Subscribe to Happy Hour with Aina on YouTube or your favorite podcast app for new episodes every Wednesday starting September 16. Hello, welcome to The Birdcast, flagship podcast of Lake America, a federally mandated database change that our nation's mapmakers will now have to contend with. I'm your friend, Eli Patel. Jay Kastronakis is here.
+
+Exciting week, Eli. Glad to be here. So much going on. David Rabel is here. Welcome back, David.
+
+Hi. Happy to be back. We didn't scare the audience away with our our our camera crash out last week. No. There was a lot more I would have loved to crash out with you about, but there's still time, guys.
+
+We we don't have to talk about Max. We we could just go straight into notice that that we were on time last week due to your interference. I know. Everyone is mad at me for not letting the show go for another two hours. I would have been fun.
+
+I would have talked about three d models of fake tracks of phones on video, and it would have been great. Oh, but this is just a Slack chat to put into Yeah. All pop podcast part. Is and I and this has come up, you know, years depending on who all the host change, but the demand that the virtual has to be ever longer exist. The problem is that it just slowly fades away into, like, a video of me crying about computers.
+
+Which I think people would also be okay with. That's just the last thirty minutes of your four hour livestream. It's just me looking at, like, a original Macintosh and being like, what we lost. It's not good. How we got banned from Twitch.
+
+Let's see. See, Macintoshes. There's a lot going on, Jake. What are we doing today? Yeah.
+
+There's a there's a lot to talk about. There was some big beta news. Nvidia might have saved The US economy. But first, we've gotta talk about Apple. Big week for Apple news.
+
+So Apple did two things this week. One was announce the next iPhone event, and we'll talk about that a little in a little bit. But first, they announced new Macs. So there's a new m six chip and the m five ultra. There's new Mac Studio and Mac Minis.
+
+I'm gonna read Apple's descriptions of all the new devices, and I wanted you guys to tell me what stands out here. Okay. Alright? Yep. So it said, the Mac Studio is, quote, the ultimate desktop for on device AI and the most extreme pro workflows.
+
+The Mac Mini, quote, delivers a massive leap in AI performance, supercharging a leading desktop for always on agentic computing. And the m six and m five ultra deliver, quote, a big leap in performance and AI compute. So what what what market are we looking at here? Preschools. Yeah.
+
+For sure. Well, at least we've gotten away from every computer is for creators and creators alone. Is true. That's that's a nice improvement. I the thing that I am really interested in here is the way that most people use AI today is through cloud compute.
+
+Yeah. And Apple has gotten really into bragging about their local AI compute possibilities. And I am interested in how many people are buying these devices for that purpose. Right? If if they're advertising a MacBook Air as being, you know, the leading machine for AI compute, I would be very confused.
+
+But the Mac Mini is sort of the sweet spot. Right? Like, those were blowing up at you went to like ClawCon, right? Yeah. The Open Claw Convention?
+
+Yeah. Is still, are the Mac minis still the hot device for this local AI stuff? So I saw some people tweeting a couple weeks ago, like, remember when everyone bought Mac minis for OpenClaw? But all of the replies were, but it's still my favorite computer I own, and I don't regret buying it. So Apple is in this kinda unique position where it's like, people are starting to sort of toy with this idea of local models.
+
+You know, maybe the m four Mac Mini was not the fastest local model runner on the planet, but people see a day in the future where they will relinquish their chains from Anthropic and OpenAI, and they're gonna be able to run mini Macs or whatever on their 512 gigabyte Mac Studio. So I feel like Apple's kinda just dipping their toe in that market and being like, we know people want this, and it's an aspirational idea to be able to unchain yourself from open to Anthropic. Maybe we can kinda sell to those people. But if we're not there yet, we can still sell to all the same people we've been selling to for the last forty years. And it sounds very cool that they have all these new additional AI compute abilities.
+
+I mean, this is the direction that Apple's headed in some ways. Right? Like Yeah. Mac OS 27, my understanding is there's already a split happening in where the compute is. There's some serious stuff that happens locally and some that's in the cloud.
+
+Nilay, do is your impression that Apple wants this stuff to be happening locally as part of their sort of big privacy promises, or is is this just sort of marketing still? This is a lot of marketing. I would actually pull apart the Mac mini and the Mac Studio Mhmm. Yeah. Here.
+
+That's fair. So the Mac mini delivers a massive leap in AI performance, supercharging the leading desktop for always on agentic computing. That's they're just talking about OpenClaw. A leap in AI performance is, like, meaningless on this scale. Like, some AI is happening here.
+
+Maybe you're running a a local model somehow, but, oh, the leading desktop for always on agentic computing is like, a bunch of people bought this to run OpenClaw. There's a new one called Instinct, which just raised a bunch of money, and it's a privacy nightmare from whatever we can tell. Like, they will literally train on your user data, and they gotta fix it. But, like, you're gonna buy a small computer to sit in the corner of your house and do computer stuff that you command over WhatsApp or iMessage or whatever. Like, that's the Mac mini, and I think that the AI claim there about performance has almost nothing to do with always on agentic computing.
+
+Mhmm. Like, I think that that's one sentence with two parts, and Apple is just excited for you to conflate the two parts. The the Open Claw fans were enough to, what, put the Mac Mini on back order for months. Yeah. But this is also a pretty small market.
+
+It's a small market, but what I'm getting at is, you know, if you bought a cheap Windows PC with enough power to sort of, like, be a computer, you, like, you would spend a lot of tokens with Quad just trying to close pots. Right. Which is, like, not a problem on the map. Yeah. And that that's, like, honestly a reason that I think a lot of people bought these products.
+
+In in the footnotes of that press release, they're comparing it to the m one. So so these these these leaps are are not all they're made out to be. Yeah. Well, I'm just saying, I think the Mac mini is one kind of product, and it is, in many ways, the best sort of price performance out of box computer to let a thing like OpenCloud run on, which is the always on agent to computing. And most of those tokens are being burned in the cloud to control your computer.
+
+Yeah. Right? And you're just giving cloud a computer, and it happens to your Mac Mini. So that's one thing. The Mac Studio is the ultimate desktop for on device AI is a wild claim.
+
+Just a wild claim. Because another kind of desktop you can buy is a PC with an NVIDIA GPU in it. Right. And I don't think there's a world in which Apple is truly claiming that the m five Ultra compete with high end NVIDIA GPUs at inference. If that's what they're claiming, then we should run some benchmarks and find out, but I don't I don't think that's the thing that they're saying.
+
+And I'm I'm very curious to see in this context what that means. It's dealt with my desktop for the most extreme pro workflows, which is the other thing they're saying. Yeah, by that, that that's the thing it's been good at for ages. But the ultimate desktop for on device AI, like, I feel like a lot of people running actual GPUs on their desktops have a lot to say about that. Probably true.
+
+They do offer a 512 gigabyte RAM model now. They do keep upping the amount of RAM that they can have on these things. So I think they're trying to court those people. I mean Yeah. I ran open I tried to run OpenCLAW.
+
+I couldn't figure out how really get it to work. But you didn't set enough tokens. But you didn't ask Claude to configure OpenCLAW. Yeah. This is the loop you have to give yourself up to.
+
+Yeah. I'm not Silicon Valley pilled enough for this. But You have to set up one agent to set up your other agent. Yeah. Yeah.
+
+Exactly. But you have to download, you know, this large local model. Mhmm. You know? And I was running this on, like, a Surface Book two from 2015 or something.
+
+Could not really run a large local model on there with eight gigs of RAM. So I feel like they're trying to court those people that are like, I wanna run the 2,000,000,000,000 parameter models. As far as inference speed, I'm not sure, you know, in comparison to, like, NVIDIA's GTX computers or whatever they're called. Well, this is what's so interesting. Like, I I combed the announcements to see all the different specs they're highlighting and the the benchmarks and how what percentage better all these things are.
+
+And you know how Apple is with fake charts and numbers. And when it came to the m five ultra chip, which is what's in the Mac Studio, what you can spec it out with if you really want power, They had almost nothing when it came to AI. Right? Which I think speaks to Neelai's point about Yeah. They're just trying to add some AI hype there.
+
+Right? That the Mac Studio is by all means a very capable computer. I think for creatives who are doing video editing. Yeah. I don't know that it's it's really the thing for running LLMs and doing inference.
+
+Yeah. Probably true. Probably true. Yeah. I mean, we're gonna find out.
+
+The the they're gonna come out. People are gonna put them into the test, and, certainly, we'll see if the upgraded neural engine can compete with the blah blah blahs when you're running Quinn. Right? Like Yeah. There's a whole bunch of stuff you can do with these computers that are are interesting.
+
+I think in the context of them also announcing the iPhone event this week, it's a pretty big signal that that event is packed. Yeah. And here are the new Macs. And these Macs just kinda sell themselves. Yeah.
+
+Right? Like, there you don't need to go market a Mac Mini or a Mac Studio. The people who want to buy them can buy them. And especially the people who are super serious about doing local AI workloads know exactly what they want to buy. Yeah.
+
+Like, those are not consumer products yet. That's not a thing regular people do. It it's a thing people who are really invested in wanting to do it are doing right now. And they're having fun. I'm not saying they're not having fun, but they know exactly what computer they wanna I'm also extremely curious exactly how much power you can get out of open local models that you can run yourself these days.
+
+Right? You can do something on the Mac mini. You can do something a little bit better on a Mac Studio if you spec it out. But at some level, these open models are are they just they don't hold a candle to the the tip top flagship models from OpenAI and Anthropic. And if you wanna do the beefiest work, you're probably just paying those, and you're running your whatever agentic harnesses so you can have a 100 different agents in a bot swarm, you know, run all of your coding for you.
+
+I think it kinda depends on the what you're benchmarking against. Right? Because if it was, like I think it was minimax or the Chinese model that basically was open source and free and definitely distilled on Anthropic because when you asked it what its name was, it says, hi. I'm Claude. That you know, whatever benchmarks they released were, like, 95% of what Anthropic had at the time.
+
+And I think that I think what people are buying these $18,000 computers for is the dream that they can be freed of this leash. Whether or not that's actually true I feel that. Is a whole another story. I I I mean, I would dramatically prefer to talk to these things locally, and it just does not feel like an option. And to the extent that I even could run something on my computer that is, you know, somewhat capable, I'm like, listen.
+
+This this computer is gonna fall apart if I ask it too many questions for this LLM. Like, I I I don't want to destroy my MacBook Air just to get some some bad AI answers. Yeah. Okay. So, couple other things about these.
+
+Number one, we should point out there are some price hikes here. Everything's getting more expensive. They actually very quietly hid a pretty big price hike for the Mac Mini. All the news is that it went up by a $100. But that's because they dropped the 256 gigabyte config this spring, and then they added it back.
+
+So, it's actually a $300 price hike, which is, I think, you know, one of one of the bigger ones for Apple. I think we're expecting probably some more next week. Yeah. There was one price cut, though. And have you guys seen this?
+
+I've not seen it in person, but I haven't seen it. Yeah. This is big news. It is the apple polishing cloth. It is now $9 instead of $19.
+
+I have heard the legend of this cloth. It is allegedly a very good cloth. It is. It's really good. You've used it?
+
+You have. Because it comes with, like, a few different expensive Apple products you can buy. It comes with it. And it's it's, like, it's beyond microfiber. It's nanofiber.
+
+Nano. Oh. However, it is Is that real? No. They got No.
+
+They would have tried to Oh find my god. But it is very good at polishing things that are already clean. How how is it how do you know it's polishing then? It it's already Wouldn't that be with the polishing is? My god.
+
+The dirt and grime, no. You gotta do you gotta use something else. But if you wanna polish your screen, which is why it has compatibility chart, that's what it's for. But it is a good non patented nanofiber cloth. Yeah.
+
+Very good. Wait. Hold on. I have a number of questions, so I'm trying to say. Are you are you really sitting on the word polish?
+
+Is it, like, definitionally important word here? Because, actually, to polish means to slightly, like, remove an amount of material. Like do know what mean? That's fair. Yes.
+
+That's true. I don't think that that's happening on the side of screen. No. Right. It's just wiping grease away.
+
+Grease. Grease and fingerprints. Yeah. Yeah. Alright.
+
+I'm just saying, if we're calling it a polishing cloth, what we're technically doing is very finely sanding our phones. I think that would be why Maybe there's a compatibility list. Like, these are the products that you can finally abrade in order to achieve a mirror like shine. For the record, it only goes back to the iPhone five. So if you're if you're going earlier than that, your screen will be damaged.
+
+Here's what I want you to do, David. I want you to make one of those time lapse videos. It's like polishing this phone until it's a mirror. But instead of, like, of those, like, cast iron pans, it's just you and the polishing cloth. And it's, like, every day you give it a wipe, but it's, like, ten thousand years long.
+
+Yeah. My Think about it. My my big question is why did they reduce the price by, like, 60 per like because they had to say something on a price cut. Do you think that they actually I mean, it did get them the goodwill that they hopefully were probably going for. But is that the reason, do you think, why they cut the price on this thing from 19 to $9?
+
+Listen. I'm just gonna say we reached out to them and said, you gotta tell us what happened here. Did the materials change? Did the product change? Is the size different?
+
+They would not comment on the record. So, I don't know the truth. We're gonna have to put this thing to the test. It's the only way to find out the truth about this new product. Ironically, it did kind of make people just talk about it, which takes away from as much noise about how much expensive how expensive everything else got.
+
+You know, there's some goodwill. No. Here's my I mean, I I'll just do my, like, Tim Cook supply chain spreadsheet conspiracy theory. Yeah. Let's go.
+
+So you gotta imagine Tim Cook. It's his waning days as Apple CEO. Right? He's he's like, what what is my legacy gonna be? I gotta set I gotta set this kid up for success.
+
+He doesn't know what's about to hit him. And he he he opens Excel in his Vision Pro because he uses every Apple product every day. So he's puts on the Vision Pro, and he's got, like, 40 Excel's windows open in mirroring, obviously, on his Mac Studio. And he's looking at where all of the margins for Apple products are. And he's like, man, I can't charge at 400% margin on a RAM upgrade on a MacBook anymore.
+
+The prices are through the roof. That's gone. Where am I gonna reclaim this margin? So then they reprice the storage, and they they bring back 256 gigs, but it's a huge price increase. And he's like, alright.
+
+I need to catch some goodwill. Like, I'm I'm not gonna sell accessories, dongles at 200% margin anymore because I'm gonna I'm gonna build in enough overhead on the storage and the RAM to make sure that in further price shocks don't knock John off his game. So he's just he's just moving the the cells around. Yeah. And he's like, alright.
+
+We're bringing down polishing cloth. I don't need to make the 10 extra dollars here because I'm gonna make 300 extra dollars on storage to hold us over until this market stabilizes. And he's just saying all this to himself in his very charming southern draw alone in his office in the Vision Pro in the dark. And and this is why Apple's share price is through the roof. Yeah.
+
+It's that kind of superb supply chain management. I'm so excited about our new RAM prices. That's what he's saying. Yes. We are so excited.
+
+So that was on Tuesday. All the Macs, the polishing cloth excitement. Then Wednesday comes, Apple sends out invites for its next iPhone event. Tagline is surprise and shine. They are gonna run out of these someday.
+
+They're gonna have to figure out a new approach to the taglines. It's September 9. It's the Wednesday after Labor Day. Notably a Wednesday because usually they're Tuesdays. Yes.
+
+But I don't think that they like press having to fly on holidays. They probably also don't like having their employees have to fly on holidays. That's probably the number one thing. So this is gonna be Ternus' first event as CEO. Yeah.
+
+And, normally, this is the iPhone and Apple Watch event. We're expecting the full lineups. Some things we're expecting different this year. There's supposed to be no standard iPhone 18, just the Pro models, and we're supposed to get an iPhone Fold. I'm curious, from both of your perspectives, it's been a big year for foldable phones.
+
+Do we think they are compelling enough yet? Right? This is Apple's putting their flag down. They're saying this is enough for mainstream audience, theoretically. Do we think that foldables have gotten there?
+
+The price is gonna be important. I think it's notable that they just recently announced the leasing program. Mhmm. Because they're gonna be leasing a lot of these foldables. Everyone from my hairdresser to my oil change guy has been like, I love my iPhone.
+
+I really love my iPhone, but some of those foldable phones on Android are kinda cool. I might switch over to that if Apple made that. Interest There's a lot I am serious. You're I am serious. Really?
+
+Your oil change guy? My oil change guy. You mean You're talking to Trump voters in diners? I mean, it's after it's after I tell them what I do for a living. So maybe they're just trying to What about this?
+
+I'm just I think people are intrigued. I don't the price is gonna be important. Very important. Yeah. Every time I see anybody with a, like, a razor, other people always ask about the razor because they they're fun to look at.
+
+Mhmm. Yeah. I think the question of whether you can go into an Apple store and look at something that will almost certainly cost north of $2,000 Yeah. And be compelled to say, you know what I want? An iPad.
+
+I mean, may maybe that is a question. Right? Are they trying to make this a mainstream product? No. No.
+
+I think the answer is no. I think one of the reasons you don't have an iPhone 18 is that you would have no choice but to raise prices on an iPhone 18. Mhmm. Whereas keeping the existing base model iPhone lets you keep riding that cost curve down. Like, all of that tooling is long since paid for.
+
+Mhmm. Right? Like, you don't have to pay new cost into that phone. So you can hold the price, which I think is very important for Apple right now. And at the very high end, you're just like, is this gonna work?
+
+Not to be totally rude about it, but it's it it feels more like a VisionPRO shot than a future phone shot. Right. So they they can introduce this at whatever price they want. They can see what the market will bear. And what the worst case scenario is, they attract a bunch of people to come to their stores and check this thing out.
+
+Yeah. I I think that absolutely. Again, I we haven't seen it. We don't know how it's gonna work. Mark Gurman had some reporting from Apple employees who've used it, and they're like, we love it.
+
+It's like, what else are they gonna say? Yeah. Yeah. But I do think the promise of these devices always rests in how good is it when you unfold it. Mhmm.
+
+And we have just seen over and over and over again that people buy these phones, and then they do not unfold them. Yep. They end up using that cover screen a lot. And so maybe the form factor shift here into that more square form form factor will lead to a new usage pattern. I don't think we've seen enough people with the Fold eight to to know if that actually happened, but that's the new form factor.
+
+And I think Apple has to answer a great question about, do you wanna use an iPad Mini sometimes? And maybe the I my my if you're reading this as cynicism and not it's not cynicism, it's just Apple basically has to sell people an iPad Mini. Like, the the software experience here is gonna be and you get an iPad mini. And whether or not Apple wants to say it or cop to it or think about it, it's gonna be the thing people say. Oh, it's an iPad when you open it up.
+
+And then that comes with all of that. And I'm just very curious to see how that unfolds, both on Apple side and how they talk about it, and on the consumer side and how people react to it. I do think that's gonna make for a very interesting event beyond the fact that we're getting new Apple hardware, which is not that common. It's gonna be a software event in a way that the September event usually is not because we're gonna get to see what they are doing to try to make the foldable experience feel like something that is worth opening your phone for. David, do wanna have a camera crash out?
+
+I can do I can do two of them. You, like, felt me. You, like, felt me. I felt you. Trying to trying to move along.
+
+What? Because it's No. No. Absolutely not. We're we're gonna sit in this for one minute.
+
+Because there's no telephoto? Is that what you're talking about? No. The telephoto is one thing. I I do think having the most expensive phone not have the best camera system is an interesting trade off.
+
+Mhmm. Although, I think at the high end, not everyone buys the Pro phone because it has the best cameras. That's just like a Partner. Interlinked causality. Like, that has been true for the longest time so that people think it is necessarily true.
+
+Yeah. I think people spend money on all kinds of things that are not the best thing all the time. Mhmm. So maybe you're buying the form factor. Maybe you're just buying the ability to unfold your phone.
+
+You know, like like, two thousands rappers would always talk about how they would drop their Bentley keys in the club. Yeah. Maybe this is just a thing that I grew up with, but this is, a thing. Like, you're flashing your keys. Like, maybe you just wanna flash your phone.
+
+Great. The thing that I'm really curious about is we have spent all of this time verticalizing video. Like, we have switched the aspect ratio of culture in, like, very serious ways. And Apple's like, it's landscape again. And I'm I'm very curious if you have a point of view on this.
+
+Yeah. I've heard a lot of takes about this from a lot of people. There have been people that I've talked to that have said, I really think the features were gonna go back to horizontal. I don't think we are. I think that when you unfold this phone, you're then gonna turn it vertically and use it like an iPad mini, And that's gonna be the way that people are still used to using their device.
+
+But I don't think that there's I mean, there's a world in which, you know, you it's the content consumption device. So you watch videos in a vertical format, but people still turn their phones sideways to watch long form video. So if you're watching long or short form video with the screen open, you're still turning your phone sideways. I don't think it's gonna have a tangible effect on how Wait. I just wanna make sure.
+
+Your bet is that iPhone fold owners are going to open TikTok, unfold their device, and then turn it, and then scroll on a giant iPad format. Maybe the first two times they ever do it. Yeah. Yeah. I'm very curious about that.
+
+When I say, like, we verticalize the culture, what I mean is the hottest money in Hollywood is, like, AI generated vertical microdramas. Yeah. Because that's the format. Who know I'm just like I'm dying to find out how Apple contends with the TikTokification of media in this event when they're like and then you unfold the phone, and you have a giant landscape display. Yeah.
+
+Where you can fit two vertical video feeds. Yeah. That's the move. That's the move. And and That's a 100% of it.
+
+They're not even super vertical. Right? It's like because it's not the same candy bar style where you have two full screen displays on the side. You there it is very squared off. So I don't know.
+
+I I don't think people are gonna start watching more long form content again. I don't think that's gonna happen. But Okay. And then here's my other camera crash shot question. Okay.
+
+I'm ready. Yeah. I just want I can't wait to figure it out. You're gonna open it, and then you're gonna have it's gonna be a big viewfinder. This is the other piece of the Gurman reporting.
+
+Yes. You got the big viewfinder, which means you are taking landscape photos with a giant viewfinder. Yeah. That feels like we're gonna get some really weird photos out of this thing. Right?
+
+Like, just framing wise, everyone's gonna go from vertical default framing to landscape framing. That's one thing. But then they will have a giant viewfinder, which necessarily just changes how you would compose a photo. My bet is that nobody is gonna do that. I think that everyone's gonna keep the phone closed while they take their photos personally.
+
+That's that's what When you get a weird, like, paperback book you I mean, these these are the same people who are holding up their iPad at a concert. Right? Like, that's that's what this That's what it boils you. Yeah. The first moment that you get the person with the unfolded iPhone fold at a concert.
+
+It's gonna be Like, broadcasting behind them. Yeah. Outside screen. Yeah. That's a meme.
+
+Like, we're just waiting for that to happen. Yeah. Because the countdown is on as of today. If you see it, you need to send us the photos immediately. I already get annoyed when people are recording the concert, and I can't see because their phone's in front of me.
+
+If it's the size of an iPad mini, I'm gonna be really Well, your view will be better because the screen will be bigger. No. The only rational thing to do is to bring a full size iPad and then stand in front of that person. Get to the front. Like, a full arms race.
+
+Because doesn't a full size iPad have the full camera array? I think it has two. I don't think it has a telephoto camera. It's got LiDAR LiDAR sensor. Yeah.
+
+For some reason. Yeah. So you can map the concert and and relive it in three d. In your VisionPRO. There.
+
+That's your three d scanned on a rail. You're like, I've got a full three d avatar of you saved on my iPad for further use. I don't need your Alicia Keys concert. I got my own. We got Alicia Keys at home.
+
+Okay. Those are my those are my camera crash out questions. Obviously, more will be revealed, but I'm dying to revealed. I mean, we're people are gonna use this thing. It's gonna it's gonna get away from Apple in the in, like, the best way.
+
+Right? Yeah. That's the the nature of these things is people start using them in ways no one can predict. And everyone's cameras the size that I've had many is just one of the most unpredictable changes to just how we have thought about making and taking photos in quite a while. That's true.
+
+It's gonna be fun. Very excited to find out. September 9. Alright. We've got a lot more to talk about.
+
+We're going into the meta settlement when we're back. At McAllister's Deli, strangers are just regulars visiting for the first time because the food we serve is food that brings people together. With a huge variety of craveable sandwiches, giant spuds, and handcrafted salads, There's something that everyone will enjoy. Come eat with us and enjoy our famous iced tea on us when you sign up for McAllister's rewards. McAllister's Deli, taste togetherness.
+
+Click the banner now to sign up for McAllister's rewards. Terms apply. See mcallister'sdeli.com for details. Free tea offer conditions apply. I'm not giving up.
+
+I am selling the building. The final season of FX is the bear. The restaurant is flooded. Everything's either gonna be okay No. Stop.
+
+Or not. We are outgunned, and we are outmanned, but we have each other. FX is the bear, the final season. All episodes now streaming on Disney plus. Alright.
+
+We're back. So big news this week in the world of Meta. Meta has had a lot of lawsuits flying its way. One of the most important was a lawsuit from attorneys general across The United States who had sued Meta, claiming that its platforms had been made addictive to teenagers and children in particular, and that Meta had deceived people about the design choices they were making. Lauren Feiner and Adi Robertson were on the show earlier this week to get into the weeds on that, but I really wanna talk about what this actually means for Facebook and Instagram as apps.
+
+Because there are kind of two halves of this settlement. One is that Meta has to pay some money. The other is that they have to make a bunch of changes to their apps. David, can you kinda break down for me what some of those changes are? Yeah.
+
+There's quite a few of these changes, and, honestly, I would love to see some of these as changes or at least options in my app as I am not a teen. One of them, two hour daily time limit that's cumulative across Facebook and Instagram, which can be turned off with the parent's permission. Am I my own parent? I hope so. There's a night mode where you can default block the apps from midnight to 6AM to help you sleep.
+
+School mode, so notifications can be muted from 8AM to 3PM. By the way, a lot of these exclude DMs Mhmm. Which is an interesting sort of idea there. I mean, obviously, DMs are extremely common in all of these apps, and arguably, Instagram is a DMing app that has reels. There are screen time prompts every fifteen minutes to let you know you've been on the app for another fifteen minutes, which is helpful.
+
+Algorithmic feed control. Teens can now choose nonalgorithmic feed as their default, and parrots can adjust the default. I want all of these things. This is really like a wish list of Yes. Of features for people who are like, these apps are too addictive.
+
+I do wanna step back for a second. So the states had had gone very aggressive at Meta. Nilay, my question is, you're looking at this list. Who won this trial? Right?
+
+Not or not this trial. In this settlement, who comes out ahead? It depends on who you think is getting what. Mhmm. Like, in a very real way.
+
+This is a list of regulations that if the states had passed laws to get, they probably would lose in court. Mhmm. Because a lot of these implicate the First Amendment very directly, and there's not some great body of precedent or academic research that would overcome the First Amendment problems with this. These are speech regulations. You can only speak on Facebook for two hours a day, says the state.
+
+Straightforwardly is speech regulation. Straightforwardly implicates the First Amendment. So if you're the state regulator and you're like, look at this big addictive platform that's hurting our teens. How do we get Mark Zuckerberg to do anything about it? You've won.
+
+Mhmm. Because they have agreed to the limitations that if they had fought you on, they might have won. And in fact, almost certainly would have won something. Right? That this would have been a ten year battle that would have gone to the Supreme Court, and we would have had 50 episodes of the vergecast about whether night mode implicates the First Amendment for teenagers.
+
+You could feel a lot of different ways about that. So in that very narrow view, the states have won here because they've accomplished a series of regulations that might help teens be less addicted to this one platform in a way that if they had literally passed a law and Meta had taken them to court, they might not have gotten as cleanly and easily as they have gotten here. I think a lot of people who spend time thinking about platform moderation and regulation are looking at this and saying, oh, Meta just ran away with this. Right? Like, Meta just hoodwinked these states because the money part of the judgment only pays out over ten years.
+
+Ten years. Only in 70% of it actually gets distributed over those ten years. So that's, like, $10,000,000,000 over ten years. And the last 30% only gets distributed if TikTok and YouTube agree to the exact same restrictions, which is bananas. Because who Meta has every incentive in the world to keep TikTok and YouTube from agreeing to this because they'll save money if TikTok doesn't agree to this.
+
+But they've also agreed to run an ad campaign agreeing to this, and they've given a huge, like, sign off on these are the gold standard teen safety regulations that all of the other platforms have to contend with. Whether or not you are worried about the First Amendment implications of the state's imposing speech regulations on these platforms. This is a big swirl. If you're a parent, you are looking at this. If you have, like me, your parents are senior citizens who are addicted to WhatsApp, you're like, oh, can I get this for WhatsApp?
+
+That'd be great. There's a lot of this that on its face is good and smart. It's the stuff we all want. Like, can see that this will disrupt the engagement cycle. This will disrupt the business model built around making the platforms more addictive, making them full of rage bait, all that stuff.
+
+This will disrupt that. This will disrupt Meta's ad revenue for young people because they're gonna be using the platform less. But hidden in here is a bunch of regulations that I don't know if the states would have gotten all on their own that Facebook is now going to impose on the other platforms. And I think that's pretty wild. So I I think from that perspective, Meta has kinda run away from this.
+
+They've been, like, hoodwinked the states into age verification at scale across the Internet. They've hoodwinked the states into going to TikTok and YouTube and whoever else and Snap and saying, hey. If you don't voluntarily impose these restrictions that may or may not have speech problems associated with them, we'll bring a lawsuit. And we'll say to the judge, well, Facebook settled this way, and we'll tie you up in knots for it, or you could just do age verification whether or not you agree with it. So on that perspective, you know, all of the policy people that I I pay attention to are kinda like, what what?
+
+Don't do that. Yeah. So, I mean, there's there's some real back and forth here. I I think it's very funny. You mentioned it, but Meta is running these full page ads in the New York Times and the Washington Post egging on TikTok and YouTube to adopt to these exact same rules.
+
+And I I am curious, is is there any reason either of these platforms would voluntarily agree to any of this? Right? It seems to me the answer is no, which is why Facebook did not. Right? Like, they they waited until they were sued by basically every state in The US.
+
+Yeah. I don't see a reason other than garnering goodwill, but it's not enough for the amount of money that they're making from all of these things. And I'm not sure that anybody's going to buy that meta is coming from, like, a righteous position here. No. No.
+
+No. No. Lose were this. The the weird thing about this is, you know, Adam Messeri was on the on the stand a few days ago, and it was brutal. Yeah.
+
+Because he's reacting to documents that literally say, don't show this data to Adam. No. It will create litigation risk for us. And he would have to say things like, well, I want my team to be honest with me, but sometimes sometimes they can't be because of this. And he's, like, looking at the lawyer.
+
+Like, they were stuck in a very complicated trap where their own research into what the harms actually were and how to combat them was being used against them Mhmm. To show that they knew there were harms and they weren't doing enough. And so, you know, Zuck's response to this was we should stop doing this research. Every platform's response to this is we should stop doing this research. Yeah.
+
+Because if you create the knowledge that something bad is happening, then you have created the liability that you didn't do enough to stop it. This is a very bad set of incentives. On top of that, you're you're getting well, the way to stop it is to impose controls on how people communicate on your platform, which you as the private company can do. But maybe you think that the government should not be able to mandate. In this country, the government usually can't mandate that stuff.
+
+Other countries around the world, very different. But in this country, the First Amendment usually pro prohibits the government from mandating that stuff. And you end up in this place where, oh, you can concede to the government all of these things, and you can neuter your competitors who get to do those things by saying, oh, we're gonna we're gonna make it so every attorney general in the country who participate in this can now run around with a huge incentive, monetary billions of dollar incentive to punish Google unless they agree to these rules, to punish TikTok unless they agree to these rules. And that is pretty you know, it's like it's pretty sharky. It might be the right outcome.
+
+I I I don't know that answer because I am a parent, and I dread the day my children get phones with social media on them. And I'm looking at two hour daily time in night mode and school mode and algorithmic feed control. I'm like, oh, these are the things that I want. Yeah. Right?
+
+If you don't build them into the software, I can't parent enough unless I impose draconian surveillance on my children to make them stop doing these things. Well, it's very interesting. Like, the these are these are all features that we we all believe we think that these will make the app less addictive. Right? Like, there's no autoplay on video.
+
+Right? That you can choose a a non algorithmic feed. We all kind of just have this this belief that these things will reduce usage. I think it's probably true. But this is probably the the first time we're going to find out at scale if that is true, which is a very big but important if.
+
+Right? Like, these things don't work, then it's just the time limit. It's just we're cutting you off after two hours, which is still a lot of time. And the other question becomes, as part of this here, it says that they have to do better age verification, which I feel like we've been through a 100 times. And teens are very good at getting around the age verification things.
+
+And Meta can say we're doing more intense age verification systems. We're using more of the data that we have to actually track how old you are and all this stuff and your time on other apps, etcetera. But people are still going to get around them. Oh, but they're that's built into this. The age verification systems they have to use.
+
+Meta has a choice here where they can use in a, quote, like, accredited third party verification service. And the ostensibly, the idea there is to create a market for these third party verification services, or they can build their own. And there are some acceptable levels of tolerance in that rule. And I think it's 10%. So they they can have a 10% error rate, and that is acceptable.
+
+And I think it's different per in in the different age ranges. So there's a little bit of tolerance built into this. It's like the 17 year olds, you expect more of them to be able to fake than our their ID? Yeah. There there's, like, something in here where it's like, if we detect that you're an actual child, we're we need to be more tolerant of that.
+
+There's some amount of we understand the technology is not perfect, and they will try to defeat it. So we will allow for some error rate. But what you're really getting, and this is true in all age verification, is you have to tell a big centralized service provider what your government name is. You have to identify yourself even if you're an adult because there's no way to only do it for kids. And that, right, that obviously creates a huge burden on adults who are not subject to these regulations, and Meta just horsepower it through.
+
+Right? And, like, great. Like, we all agree that this is a good thing. This has been up and down to the Supreme Court, and the arguments against it are super real, which is making adults in this country submit government mandated identification to the Internet every time they wanna do anything is actually a huge burden. It's actually another restriction on on your speech and your liberty.
+
+And here we are. Maybe the states couldn't have gotten it if they just passed this law because of that burden, but they got it because Meta caved. And there is an incentive to get YouTube and TikTok to do it too. And there's some piece of this. Like, again, when you say who won and who lost, boy, does that cut in 50 different directions.
+
+Yeah. And and it gets messier. Like, the state's job is not done. Right? Like, because there are there are parts of this where the states still have to figure out where the line is.
+
+There's this very weird thing going on where Meta agreed to limit the use of, what is it, extreme makeup filters, but that it's not defined what that is. So there's some system where the government is going to determine what that is? Cosmetic procedure filter shall mean any digital filter or augmented reality effect that distorts, sculpts, redefines, or idealizes the user's face in a way that cannot be achieved without cosmetic surgery or extreme makeup techniques. So nothing goofy. Now for the avoidance of doubt, it goes on to say, this does not include, one, fantasy character effects.
+
+Okay. And I just wanna be With specific definitions, filters that change a user's facial structure for the purpose of turning the user into a nonhuman or fictional character, e g an elf or an animal, e g, a dragon or puppy. Okay. Just putting it out there. A filter that turns you into a puppy So Memoji still work.
+
+Memoji Okay. Is Carved out in smoothing effects. Filters that smooth skin or alter appearance in ways that can be achieved by ordinary makeup techniques without altering the appearance of underlying physical facial structures or meaningfully altering skin tone. Really? And then lastly, parity and exaggeration effects.
+
+So to help operationalize this definition Mhmm. Wow. The States will provide meta No. Illustrative examples and guidance of AR effects that are cosmetic procedure filters and AR effects that are not cosmetic procedure filters in a letter to be sent within two months. So the states, someone in some government office is gonna have to sit around doing puppy filters that are okay and puppy filters that are not okay.
+
+Put that all into a letter and send it off to Meta. Are they gonna have to, like, bring in some makeup experts and have them, like, apply this stuff to see what is possible, where the limits truly are? When I say that this runs right into extremely weird government speech regulations. Mhmm. This is your extremely weird government speech regulation.
+
+Yeah. Now it is without question that letting a bunch of teens do extreme makeup effects and view one another in filtered ways does massive harm to self esteem. Like, that those studies have been done. They have been done about meta platforms very specifically. Instagram and teen girls are just the entire movie, the social reckoning, is about this thing.
+
+Like, this is not in question about whether this is bad. What to do about it at the government level is a First Amendment question. Yeah. And so instead of running that to ground, what are the limits? What showing does the government need to make in order to pass this regulation?
+
+Meta has just conceded. Yep. This is probably pretty bad. Why don't you guys send us a bunch of puppy filter pictures that are okay, and we'll we'll deal with it? And maybe that's fine.
+
+Like, truly, I think you can make particularly parents parents of teen girls are will make the argument that's fine because it will go into effect now. Right? The balance of harms favors them acting now. If you have other concerns about the First Amendment and the very notion of some staffer in a state attorney's general office looking at filters and deciding which ones are okay and which ones are not for kids, then you have a totally different set of harms to balance. And we're just gonna live through this version of it for five minutes before we decide if this is okay.
+
+But the it's funny to think about a dragon or a puppy filter is fine. An elf is fine, but something that makes it look like you got a nose job might not be fine. But the actual speech implication, the speech regulation implication is gigantic. Yeah. Do you know if each individual attorneys general has to submit a different example, or is this, like, all 48 attorneys generals get together?
+
+Project. Yeah. Did they get together? It says the settling states. So I'm this is just gonna be the worst Zoom call of all time.
+
+Yes. I am not a cat. Yeah. Everyone in every all the lawyers finally get to just full cat filter this. Yeah.
+
+There there's something here. Again, we're gonna write more about it. I think Addy and Lauren has a piece up today on the site just about how much we like, the people have given up in terms of speech regulation here. There's I know Adi's fired up about it. The the coverage there's a great piece from Mike Masticate Tech Toured about it.
+
+The amount that Meta gave up here in terms of speech regulation in order to make this go away is pretty massive. And then the turn of we're gonna make YouTube and TikTok do it too is also massive. So I oh, I'm glad you mentioned that because the thing that I am curious about is if if TikTok and YouTube do not do this. Right? Because it's still in question.
+
+Right? The states probably have to force them into it somehow. Does Meta have a big problem on their hands if YouTube has years without any of these restrictions? Right? And so instead of scrolling Instagram all night, you're just gonna be using YouTube shorts.
+
+That is a big question. That's a big I feel like a lot of people might just go to TikTok. I know that when I get annoyed at myself for using an app too much, I close it, and then next thing I know, I'm using a different app. So that's probably something that we'll be able to be doing. There's no worse feeling than closing TikTok and getting sucked in Instagram reels, which is just a worse TikTok.
+
+Yeah. Yeah. Meta is a winner in a lot of ways in in social media advertising. Bit like, businesses rise and fall on on meta social media advertising. That's just the way it goes.
+
+In a way that is not true of TikTok and YouTube. TikTok is big, but ever since the the the blip. Right? Like, you know, the change of control to Oracle, it just has not been dominant in the way that it was. Mhmm.
+
+YouTube shorts are not really a competitor with reels. I don't know if you have a different opinion of that. You spend more time thinking about YouTube than I do, but they're not really a competitor to reels in that way. That is the engine of culture, is Reels going viral or the engine of, like, social media commerce is Reels. Like, it is just that's the thing.
+
+So anything that harms meta and allows the other two to win is gonna be in favor of those two. But I just I don't see them holding off the government in this way now because the government has this tool, which is Meta agreed to this. Do you want these lawsuits? We got 47 state attorneys general who got nothing to do. Cross it off the list.
+
+Like, they're just gonna file the same lawsuit and do the same discovery and drag Sundar Pichai and Neil Mohan through the same appearance on the stand where they knew it and they did it anyway, and or you can just do this stuff. Yeah. Make it easy. I think that's a a a really important dynamic, especially as all of these companies spend gobs of money on AI build outs. Half of them are defense contractors or owned by Oracle or operated by Oracle, which is a defense contractor.
+
+Like, they need the government to stay off the back here. Mhmm. Yeah. So what what is the government's next step here? Right?
+
+Because this seems great. Right? If you've got a kid in middle school, you're you're you're set. But Beta's only agreed to this for ten years. And then then what happens?
+
+Right? Are are are they just like, ah, hopefully, Congress passes a law. Like, may maybe Congress is functional in ten years. So they're already they're I think today, there were stories about congress needing to pass the kid online the Kids Online Safety Act, right, which wouldn't do all of this, but it would do some of this. Mhmm.
+
+Yes. I I think you've got ten years now to see if these interventions solve a problem and to figure out how to write them into law in a way that doesn't immediately lead to First Amendment lawsuits. Mhmm. Who knows? But that's that's a pretty long time.
+
+Yeah. Also, short form video only took off six years ago. So who knows what's gonna be happening in ten years? This is very true. Very true.
+
+But we're all gonna be holding up iPads shooting in landscape and watching long form. That's only two years from now. Alright. In in ten years, it's gonna be a whole another story. It's gonna be the creeper glasses or something.
+
+Oh, boy. Okay. Alright. We gotta take a break. We're back.
+
+The hype desk is back. Brendan Carr is a dummy is back, and the lightning round. Do you hear that? That sound. Right?
+
+It that means that summer's officially here. It means that grown adults just sprint into the street for a frozen dessert shaped like a cartoon. But this summer, Mint Mobile has a better treat. Every plan, including unlimited, is $15 a month. And unlike ice cream, it won't, drip down your wrist or look nothing like the picture.
+
+Does anyone have any cash? Give it a try at mintmobile.com/switch. Upfront payment of $45 for three months, $90 for six months, or $180 for twelve month plan required, $15 per month equivalent, taxes and fees extra. New customer offer for initial plan term only greater than 50 gigabytes may slow when network is busy. See terms.
+
+This episode is brought to you by chat GPT. Hey, it's bill Simmons from the bill Simmons podcast. Have you guys heard about chat GPT work? It's the new way to use chat GPT for bigger multistep projects. And when you need more than just answers, give ChatGPT work access to your apps and files, and it can create real work documents like spreadsheets, slides, and structured reports.
+
+Get started at chatgpt.com by selecting work mode available on plus and pro plans. Look what TJ Maxx dragged in. The devil wears Prada two is now streaming on Disney plus and Hulu. We are digital. We are downloadable.
+
+We are streamable. The fashion event of the year is certified fresh. Pull yourself together. We have work to do. Critics say it's smart and witty and the perfect sequel.
+
+That's all. Get runway ready for The Devil Wears Prada two on Disney plus and Hulu. Rated PG 13. Alright. We're back, and it is time for the HypeDesk.
+
+Ashley Esqueda is here with an unsponsored HypeDesk. Hey, Ashley. Hi. What have you got for us today? Well, it's the it's the only thing.
+
+Right? Which is The only thing. Of the year. Maybe the decade. Who needs the who needs trials?
+
+Who needs any of that stuff? Grand Theft Auto six, Rockstar just presented a world premiere but on Netflix, which was pretty crazy. And everyone's talking about it. I mean, it looks amazing. I too am hype.
+
+I am here at the hype desk feeling very hype about it. Like, I wanna go commit some crimes right now. I'm ready. I'm ready. We're gonna hold on.
+
+Please. Everyone wait until the podcast is over. Until the crime is turned, please. I can't handle committed crimes the whole time. Right now, passively.
+
+Like. So okay. They've already had, I think, two trailers out. Now they have this big Netflix showcase. What is it, like, 20 to 30 what what is this?
+
+How is this an enormous trailer? It is in a very extended look at the game. It's the it's the full gameplay. This was all captured on a PlayStation five. They walk through different sections of different quests, different things that you're gonna be doing.
+
+Jason and Lucy are back. This is, it's now sort of like a a duo protagonist situation where you're able to choose who you wanna play as and then text your partner to, like, come help you on quest or stay and, like, chill out. You can make it a romantic relationship or a platonic relationship, which is kind of interesting. You can Can go back and forth between the two. Interestingly enough, Eli, the culture, it's so complicated.
+
+So, yeah, there's there are times where you will apparently, they like, whoever you're not playing as might text you and say like, oh, be sure to like lock up when you come home or like or if you're out too long, they might text you. And if you don't respond to them or if you if you don't go back home like in a certain amount of time, you might actually negatively affect your relationship with the other character. Sorry. Are we learning about how to have a healthy relationship from Random Funko? This is I'm dying to talk about this.
+
+Thank you. Thank you. Because this is what I wanted to talk about. I'm watching this showcase and I'm like, this looks amazing. I can't wait to do crimes and, and But have also, news came out a couple days ago that you're you will have to, exercise and like eat properly and stuff to like keep your character in shape.
+
+Like they can get out of shape. And so I'm like now watching this showcase, and I'm like, is Grand Theft Auto teaching us to be better as a society? I'm I feel a little bit scared about this, but also Grand Theft Auto is gonna be like like and by the way, men, you're spending too much time inside alone. We need to go outside, hang with your buds. Wait.
+
+I just wanna be clear. The big innovation in GTA five was heists. Right? I'm trying to rewind my brain. It's like, you're gonna rob a doc.
+
+Self care is the new is the new thing. And this one is like, you have to be nice to your partner to figure out how to, like, get to the next level. Am I gonna put all the effort in to take care of myself in a video game? You're gonna have to learn how to exercise, how to eat properly. You're gonna have to learn how to be in a healthy relationship.
+
+Guys, is Grand Theft Auto six gonna save us? I'm I feel I don't know how I I feel very mixed feelings about this. I'm already having, like, full body chills at at how a certain class of ex commenter is gonna call this game woke while still, like, stealing airplanes. Yeah. Yeah.
+
+While still stealing everything. My favorite part of the entire showcase was stealing cars is a little bit different. Like, it's just a little different now. And one of the things one of the clips they showed was she's Lucia steals a car, and then this this kid, this, like, Gen Z kid gets out of the trunk with his phone. He's like, what's going on?
+
+You stole my friend's car. I'm doing the trunk challenge. What am I gonna do, chat? And and then, like, there's and then they cut to a clip of him, like, in the trunk live streaming while you're escaping from the police. Incredible.
+
+Incredible scenes from Grand Theft Auto six. I I I was very like, oh, cool. A new Grand Theft Auto. But now that I have seen this showcase, I am so I'm so on board. But also again, to to your point, you like, I I cannot even take care of myself in real life.
+
+And so I don't know how I'm gonna do that in a game. I'm not really sure if I'm gonna be motivated to do that. So I guess I'm just gonna have a suit. You know, it'll be just like me. It'll be a super out of shape, like gangly person, like, basically running out of gas, trying to get it to 30 feet away.
+
+I run I just completely collapsed because my heart explodes. You're not texting your partner. Right? Texting my partner. Just it's very the ADHD is very strong.
+
+And so I yeah. I I it might not go well for me. Was this, like, the the the thesis, the gameplay reveal, or was there It wasn't. But it Was there fun part? Oh, there's so like, there's so much.
+
+All the things you love about Grand Theft Auto are back. There's strip clubs. There's there's drugs. There's killing. Like, all the all the things.
+
+There's, like, there's cartel wars and and shooting and action and stealing cars and all the feels less edgy than having to maintain a relationship while you're out committing crimes. That that feels high stakes. I feel like this is a existential meditation on on current events, like, our our strange times that we live in. It it it feels slightly more Are there GLP ones? Can you avoid getting fat, like, the strep pubs all day by doing injections?
+
+Straight up. I gotta be honest with you. I wouldn't be surprised if that was the thing you could, like, go buy. Like, if you like go buy it off peptides in this And if not, there should be because that seems like a thing you would be able to do in a in a rock star game. The mods are coming.
+
+The mods are a 100% coming. He's like, oh, I'm gonna open up a Jeep. Maybe that's the one of the secret exclusive stores that comes with the 99 version of the game. There's like a unethical pharmacist who's like, I'll sell you everything you need. It's crazy to me that they've been working on this game for so long, and they still managed to get in things that only surfaced in the last couple of years.
+
+Mhmm. Really wild. Maybe that makes it less surprising, but, of course, that's gonna extend the development time by a lot. Yeah. I also have to give, like, a huge I don't know what their optimization team looks like, but this game looks incredible on PlayStation five.
+
+Like, so good. And be clear, it was a PS five, not a PS five Pro. It didn't say PS five Pro. It just said captured on PlayStation PS five. The every man's PlayStation.
+
+Right. So did not say pro. So I it could but I don't know. I mean, who like, are they required to say pro? Like, I I'm not sure.
+
+Probably. Ashley, we should talk about the leaks really fast because this comes after what? Like, two weeks of kind of daily leaks of the game. And I feel like the conversation online has has suggested, oh, no. The game is spoiled now.
+
+And and I I'm curious after having watched this showcase, does that feel true? I'm gonna say pretty pretty wholeheartedly, no. I I think that the leaks so for those who have not been paying attention to that story, there is a person or persons, going by CyberLeak who had been, said that they were upset about the fact that there was no physical edition of the game and had this trove of clips, of gameplay clips, and was releasing them and leaking them and encouraging people to invest in a a crypto coin. They seem yeah. They were mad because there's no physical version of the game.
+
+Right? Yeah. Totally. Yeah. They seem to have cashed out on that.
+
+But so there may or may not be more leaks going forward. Rockstar responded to it a few days ago, said that they were absolutely heartbroken, which yes, it's absolutely heartbreaking for any developer to have their, you know, their work leaked, in a in a form that is not the finished polished version. So it is really terrible for them. Like that totally sucks. But yeah, so there were leaks and these these gameplay clips are coming out.
+
+A lot of people are saying, oh, now like these bits of the story are spoiled. But the thing is is like, I like, I'm of the mindset where it's just like, there's always in every Grand Theft Auto game. Like, I there's so much that that you could not possibly be unless there was just a even a full straight playthrough of like, the main storyline would not be spoiling Grand Theft Auto because there's so much to do in those cities. And Rockstar's even saying like, this is the biggest it's humongous. The map is huge.
+
+And so for them to say that is, I mean, like, I can't even imagine how much there's gonna be to do. The city feels so alive. There's just people everywhere of all shapes and sizes. They talked about they have talked about how they created like new, structures for the the character models, the NPCs, so they could have different shapes and sizes of people with different animations, to just really make the city feel lived in. So I am I I don't know that there's any way that they could spoil the the game for people.
+
+And I mean, like, even if it was just the full main storyline, I I don't know that it could be spoiled because someone is always gonna come up with something or find something absolutely crazy in a Grand Theft Auto game that, like, you just you can't cover all your bases. I do feel like spoiler you have to exercise. Might have spoiled it. Just to be clear. There's, like, a bigger video game industry story to tell here.
+
+Mhmm. Is is this the game that saves video games from whatever is happening to video games? There's a lot of pressure on on on GTA six to just be a hit and make everything okay. I so yes and no. This is kind of, like, very similar to where we are with the movies.
+
+Right? Like it took so long for the movies sort of recover after COVID for for different reasons, but we're finally now seeing this has been like the first good box office year, like back to business kind of box office year in a long time since like pre COVID. I think with games, this is GTA is such an anomaly that it is absolutely impossible to make this some kind of bellwether for the industry in my opinion, because it is so singular and you know, allegedly the, know, some some people are saying the budget's been like a billion dollars and it's just been in development for so long and it's so different from what the industry looks like for everybody else right now. Like all of the other studios that are operating that I just I obviously everyone wants everyone in the industry is rooting for wants to make a bunch of money. But I don't think any I hope which I think we all know.
+
+Like, I don't think the message here is like lean into more Grand Theft Auto's because really you're just sort of betting the entire farm on one thing. And so it seems like, and not every game is gonna be a GTA six. Like, not every no no game is a GTA six. Like, I just it it is, again, singular. So I don't know if there's I hope I hope the executives don't look at it and go, I want one of those.
+
+But that is usually that's usually what happens. Yeah. But Is this my Fortnite? I think fewer games would be better. Every studio should release one game every ten years, and we should all just get very, very hyped for it.
+
+People are gonna be playing GTA six for the next ten years. So you got they got time. This game is built to be played for years and years and years and years and years. Mhmm. And so I think, again, like, it's a singular thing.
+
+I I I think that you can't really extrapolate, like, the success or failure. Like, I don't think Grand Theft Auto six is gonna be a flop by any means. But, you know, I I really believe, like, you can't you can't really come it's so incomparable to anything else that exists. It's such a big zeitgeist y moment in video games whenever we get a new one. Yeah.
+
+I mean, publishers are moving their release dates around it to just avoid the blast radius of this game. Yeah. There's, I think, almost nothing coming out in November with the exception of, my one of my favorite things happening is, Devolver is putting out they they have immediately since the release date, like the first release date got released or got announced. Devolver was like, we're releasing a game on that day. We're not afraid of Grand Theft Auto six.
+
+Don't even know what the game is, but we're gonna release a game on that day. And then when they moved it, they were like, don't we know you're afraid of us and we're moving our release date to your new release date. We're doing it. And so I love that. I think that's very funny.
+
+But, yeah, everybody else just wants out. They wanna get away from it's just gonna be set people are just gonna sink their whole entire holiday season into that game. This is for the for the people who don't have a PlayStation five and can't afford one anymore, you can buy whatever indie game Devolver is putting out. That's true. I think it's a good alternative.
+
+Buy some buy buy a bunch of indies for a $100. Like, take your $100 and buy a ton of indies. You can totally do very naive question because I've never played a GTA game. Do you imagine that they're going to micro transaction the hell out of this game for like a long period of time? Or is that not something they're doing notably?
+
+I think GTA six, probably not. But then they're obviously like, you'll have DLC. But then GTA six online is a different thing. And so I think of that as, you know, I think there's value there or potential there. Did that do well for GTA five where they made a ton of money on that?
+
+I mean, they made enough money to make this one. So I assume Well Like, I guess GTA five. I guess so. I just imagine, like, it's a $100 game, which is a very expensive game. And they are going to sell a lot of them.
+
+Yeah. But is that a billion dollars is my question. You know? It's a great question. My understanding is that GTA five online has been just immensely successful.
+
+Immensely successful. Huge. Yeah. Okay. People mean, I still constantly and consistently being like when you look at things like Steam DB, like concurrent player.
+
+People are just really consistently playing it. Wow. Just even now. It's they're they really love it. Yeah.
+
+I'm sure there's a lot more to come here. There's so much more. Sweet. Thanks so much, Ashley. It was really fun to talk to GTA six.
+
+Thanks. Okay. There's only one thing more exciting than Grand Theft Auto six, and it's everyone's favorite podcast within a podcast about everyone's least favorite FCC chairman. It's time for Brendan Carr is a dummy. So that looks seven four.
+
+Oh, we're going. Oh, we're sorry. Opposite drop. It breaks out. It's set.
+
+Math math metal. Okay. That was awesome. That was very good. Very GTA Radio.
+
+It'd be good. Yeah. Yeah. Rockstar, if you're listening, we we can hook you up. Who was that by?
+
+That theme was submitted by Incidental Medication, who says Perfect. The most recent themes have been, quote, a bit too fluffy. Look. I'm not saying I agree. I'm not saying this.
+
+I love all of our things on submissions equally, including the AI ones, which Travis really dislikes. But it's true that we've been missing. We that we've been missing some edge. And you know what? If if you two submit a metal theme for Brendan Carr's a dummy, I will let you critique the other themes.
+
+I think That's good. Yeah. I think that's that's your the bonus in addition to the the theme getting played. I'm saying a lot of them have been missing drops. We've had a lot of builds and no drops.
+
+If you wanna get on the air, I can help you out. Alright. Brendan, this week is a short one, but important one. It's not the usual free speech disaster. Disaster.
+
+That That was was meta meta in The States earlier in the show. This one, I think, is more important. So there's a thing called the E Rate program, which is very boring. Every time I've had an FCC commissioner on the show, they all wanna talk about it even though it's the wonkiest thing. It's the system by which the federal government subsidizes Internet access for schools and libraries.
+
+And there's this thing called the universal service fund. It's on your bill. You see it. So when you buy Internet access, there is a tax on your bill for the USF. And in olden days, that tax paid to connect everyone to the phone system.
+
+And here in 2027, after quite a lot of wonkery, that tax can now be used to subsidize Internet access for lower income people and in particular, schools and libraries. So, of course, Brendan hates the idea of providing Internet access to schools and libraries. He's our guy. Like, of of course he does. He's a cartoon villain of a human being, and he is trying to cut it.
+
+And so he's opened a comment period to cut it. He says things like, today, the E Rate program spends around $2,500,000,000 a year, and a lot of new data is pouring in about the use of screen time for students. So we gotta save the children by cutting Internet access to schools and libraries. You see how there's there's not actually a connection between those things? And I again, I say this as a parent in a school district where the parents are like, maybe this Chromebook situation is out of control.
+
+Like, there's a lot of that going on. Kathy Hochul, the governor of New York, Kathy Hochul is on Decoder very soon to talk about phone bans in New York state. Like, there is a lot of question about computers and phones in schools. I'll grant you that. But we should cut access to the library because we're worried about screen time.
+
+Is that actually the move? So the comment period is open for this. The FCC people are leaving comments, and the comments are cut coming in from people like Lisa Winston, the superintendent of Huntington Beach City School District in California. By the way, Fierce Wireless did a great piece of reporting here. We'll link it up.
+
+But she wrote, our district's connectivity is not convenient. It is the delivery mechanism for state testing, student safety and wellness monitoring, emergency communication with families, and daily instructions. We get matching funding of nearly 1,500,000 over the past ten years that has helped build and maintain that infrastructure. So if Brendan cuts it, they can't run the tests anymore. They can't communicate with families when something bad happens because it's the Internet access.
+
+It is not screen time. Brendan, he's a dummy. He can't he he's connected two dots that shouldn't be connected. We got another quote here, a comment submitted to the FCC from the director of library system in Northeast Georgia. ERIC funding enables Northeast Georgia libraries to provide broadband access Oh, man.
+
+That library patrons use for daily activities, including completing online learning, applying for government benefits, filing taxes, and applying for jobs. That doesn't seem like the kind of Internet access you should cut. But right next to that are a bunch of right wing lobbyist groups that are trying to cut the universal service fund entirely. And Brennan, obviously, the author of project twenty twenty five's chapter on telecom regulation is right there with him. So he's trying to do it from the government level.
+
+There's groups trying to do it at the sort of litigation level about whether government has power to levy any tax whatsoever. And in the middle is not a bunch of kids who are addicted to Instagram at school, but literal school administrators and library administrators saying, no. We actually just need to pay our bills. Like, this is the fee that pays our bills. And, you the comment period is open.
+
+It's as stupid as ever when it comes to Brendan. I'm particularly outraged when it comes to cutting Internet access for disadvantaged people. That's the thing that the FCC should do. That is the great success story of what you would call the post Janet Jackson Super Bowl nipple FCC. Like, that was a bad point in our country's history when the FCC was such a speech regulator that they went whole hog at Viacom over that, and they actually pivoted.
+
+Like, both Republican and Democratic FCC chairs after that were like, yep. We got a little over our skis. We're gonna focus on Internet access. And now we're back, and we're cutting Internet access, and we're doing speech regulations of the view. Brendan Carr, everybody.
+
+You can submit a comment. You can go to the FCC's website. We'll we'll link the form. You should, and you should say that Internet access for schools and libraries is generally a good thing, and the USF is generally a good thing. Anyway, Brendan, if you wanna come on the show and defend taking literally candy from babies, you can do that.
+
+I would love to have you on the show. You can respond to any of these comments. We'll we'll dig up some other ones, Or you can say why libraries should not have their Internet access subsidized, which most people I think are happy to do. Anyway, that has been Brendan Carr's Dummy, America's favorite podcast for the podcast. Brendan Carr is a dummy.
+
+I just wanna harmonize with that one in ends. It's very good. It's very good. It's lovely. Always good when you've angered librarians quite literally across Okay, The United everyone.
+
+It is now at last time for the lightning round. We've got some stories queued up, a lot of big things. I'm gonna start with, I think, something pretty important, which is that my understanding is that this week, NVIDIA saved The US economy. Right? It's time for quarterly earnings.
+
+So Jensen's gotta get out there. He's gotta say, NVIDIA, we're doing well. They be doing pretty well at a minimum, or else I think the entire economy is gonna crash because everything is invested in AI, and all the AI relies on NVIDIA, and NVIDIA is circularly invested in everybody else. Oh, boy, did Jensen get out there. Jensen got out there and said some big things.
+
+Right? Jensen, quote, AI has reached its inflection point. It's doing useful work. Its tokens are productive and profitable. Now compute is revenue.
+
+So compute is now revenue. That's big. And that is probably why NVIDIA is making a lot of money. Uh-huh. He then goes on to say, quote, demand is accelerating.
+
+This time last year, one lab alone was driving the build out. Today, we have a golden age of new AI labs and startups, multiple frontier labs scaling in parallel, a thriving open model ecosystem, a physical AI coming online. The AI infrastructure build out is at full steam. This is all proceeding, NVIDIA projecting that their revenue is going to grow by 70% in its 2028 fiscal year. 70% in one year to where it's at right now.
+
+For where it's at right now. Yes. Which is Yes. Most of The US economy. Yes.
+
+So NVIDIA's doing okay. NVIDIA's doing okay. And by by that fact, The US economy will continue for a little bit longer. Nielo, do these numbers seem high to you? Do do you feel like the AI build out has reached its inflection point?
+
+No. Definitely not. Like, we're we're still trying to get data centers everywhere, including space. So there that's one thing. Right?
+
+Yeah. So the demand for the chips is related to the desire to build data centers. So, of course, NVIDIA can forecast demand because they have pretty good visibility into all the data centers that may or may not get built, including about, you know, a bunch of data centers that they are funding in a series of circular deals. This is a this is a big problem for The US economy, right, whether or not the circular financing will collapse inward upon itself. But they have a view into how many chips they're gonna sell.
+
+The more interesting thing to me about all of this is, you know, Jensen is on CNBC talking about the fact that commute compute is an asset class, which means you can invest in it, and you can see it grow and fall. And it's fungible, and, like, the chips have this, like, really long life that allows compute not the chips themselves, but compute a derivative of chips existing in data centers to be an asset that you can asset class that you can invest in. Liz has written all about this, but there's something that's happening here where we're seeing an earnings report based on, like, a very fundamental transaction. You need chips. NVIDIA sells you chips.
+
+Money changes hands into sleight of hand that compute is now revenue, that the circular financing deals will all pay off in the end, that NVIDIA as a investor in the data centers who are raising debt based on the value of the chips they're buying from NVIDIA with NVIDIA's money, that's all gonna pay off in the end. I don't I don't think we see any of that in these earnings. Do you know what I mean? I have to tell you. I I I was reading the Wall Street Journal's write up of this, and people are having just, like, literally emotional reactions to NVIDIA's earnings.
+
+The Wall Street Journal frames it as providing much needed relief to investors and lifting investors' spirits, relieving their anxieties about the AI boom. And I was like, there's a little too much built around NVIDIA's success here. And NVIDIA has made sure it is that way. Right. The the question for all of this and Jensen says it.
+
+The tokens are productive and profitable. This is Jensen's big claim. Mhmm. This is the heart of NVIDIA's earnings. The tokens are profitable.
+
+So if you buy a NVIDIA GPU and you spend the money to build a data center around it and you buy the energy needed to turn it on in all of the build out associated with that and you spend a dollar on that, you get more than a dollar's worth out. Right? The token generating the token is now profitable. That is actually unclear. There is some reporting out of Anthropic that they can run inference profitably, but Anthropic isn't public yet.
+
+And they also just said that their total addressable market is $30,000,000,000,000, which is. That's bigger than SpaceX said in its IPO. There's not a lot of reporting out of OpenAI about whether its tokens are profitable. There are claims. Now there are claims up and down that inference can and will be profitable for these companies to generate the tokens.
+
+We just don't have the actual numbers. We we just don't. There's they're not public companies, and they have not had any call to share these numbers with us. They might, and there's reporting this week. Alex Heath actually wrote a time cover story about OpenAI.
+
+And in that, he said Sarah Fry, the CFO, is running mock public company drills where they pretend to have earnings so they can be ready for the IPO. So, like, it's coming. Whether the transparency is coming, but the claim here from NVIDIA is the tokens are profitable, which means if you build a data center and you run them, then you will make a profit running the data center on NVIDIA chips. If that's true, then it's all gonna be fine. If that's not true, and I'm just saying we don't know, then a lot of things are gonna come to an end pretty quickly.
+
+Then next to that is whether actually putting AI in your workplace or doing a big AI digital transformation with the help of your friendly local private equity or consulting firm will actually make your business more profitable, and no one knows the answer to that question. Like, truly, no one knows the answer to that question because we've only just begun. So I NVIDIA is, like I said, they're selling a lot of chips. The second and third order of whether those chips are profitable is not in focus yet regardless of what Jensen's saying here. The the other big NVIDIA news this week that I wanna just mention briefly is there is a rumor.
+
+It's not confirmed, it's a rumor that they might buy Hugging Face for 13,000,000,000, which is kind of the hub for open source AI models. This would be a very big deal, very big hedge for them to make sure that the entire open source AI ecosystem is optimized for NVIDIA chips. So you can you can see the logic there. This is not confirmed yet. Who knows?
+
+Perhaps by the time this show airs, it will be. But that that is the next thing that has sent people into a tizzy. 13,000,000,000 is not a lot of dollars for NVIDIA. Also, notably, the company that got autonomously hacked by OpenAI. Yes.
+
+And I think we've been waiting for the day in which a company gets autonomously hacked by one of these companies and is not happy about it. Mhmm. Hugging Face is fine. Yeah. NVIDIA will probably be mostly okay with it because they're all sort of circularly financing each other.
+
+The moment when it's a company that's not within that ring of trust, it might be Well, it's very funny because they're like, we did get autonomously hacked, but look at how good the AI is. Right? Like, look at how crazy this was. Shows it's working. Yeah.
+
+It it was very notable that when that hack happened, everyone came out and said, this is awesome. Yeah. Because it's not gonna be awesome in the future. Yeah. It's gonna be a little less awesome.
+
+We have breaking news here. There's an open letter signed by over a 100 companies, including OpenAI Anthropic and Google, saying that we need a global surge in cyber defense and that AI enabled cyber attacks will become far more widespread and sophisticated. So we need to put cyber capable AI in the hands of defenders, starting with teams protecting essential services. So we need to use mythos. Yeah.
+
+We we need more AI to protect us from the AI that we forgot to control. Cool. I look forward to them all taking action on that open letter immediately. Immediately. By the way, we there's also reporting on just the in the details of the Hugging Face hacked have been reported now.
+
+They they released their internal report, and, boy, is it worse than people thought. Mhmm. Right? The the a bunch of agents and that open AI started a message board and, like, talk to each other and send each other messages and how it break out. It's very good stuff.
+
+If you like, like, cyberpunk movies, like the world ending Heist film. Sort of a heist. But, you know, one of the reasons NVIDIA might want to buy Hugging Face is to more closely align it with OpenAI, which is they are all tied up within different ways, and maybe keep keep anyone from from talking about this stuff too much. Because that's that this is how you get the regulation. Right.
+
+Okay. David, do you have anything for us that is not gonna destroy the world? Well, I was gonna make it about this Pokemon Sleep Fitbit Air. Wait. Pokemon Sleep Fitbit Air is an incredible series of words.
+
+Collab of the talk about it, I guess. Okay. Fine. So it makes sense to me that that Nintendo would make a Pokemon Fitbit Air. Sure.
+
+I guess. All these companies wanna address younger and younger markets. Obviously, that's what the Chromebook was for, to get it into the hands of children in school, so they eventually use more Google products and services. It's especially easy to get into the hands of children when you can go to the parents and say, we're gonna gamify your child's sleep to make sure they're on their phone less and they are spending more time sleeping. For those that don't know, Pokemon sleep I think a lot of people don't know, to be clear.
+
+Pokemon sleep is an app on your phone where the more you sleep and the better you sleep, you befriend and level up different Pokemon. So it is an app that is made to not be used because you're sleeping, and then when you wake up, you get to play with your Pokemon. And this has nothing to do with Pokemon GO? No. Okay.
+
+No. There's different game It's a different game you carry things around, and that helps you get Pokemon. Carry things around? Or you're you have to wear this thing. Oh, no.
+
+You just sleep. You just just sleep. You just sleep. You just sleep, and it gives you points. And it's very it's very simple.
+
+Right? Okay. For some reason, Nintendo has released a Pokemon Sleep edition, which as Marques pointed out on our podcast yesterday, it's a more blue, like, Steph Curry Fitbit Air than the official Steph Curry one is because it's actually, like, the the what is the team? The Oakland isn't Oakland? Asking the wrong guy.
+
+I don't know. I'm so sorry. What is the basketball team Steph Curry's on? Golden State Warriors. Did you say Oak okay.
+
+I don't know. Look. I'm not a sports guy. That was such a confusing question. I couldn't get out warriors because I was like, is this a trick question?
+
+Is this a trick question? No. What team is stuff for okay. Go ahead. So this is a special edition Pokemon Sleep.
+
+It costs a $129.99 instead of $99.99, so it is more expensive. It is just blue except for the fact that on the very bottom, there's a little sleeping Pikachu. I like the sleeping Pikachu. I will give it that. But it does say the word mark Pokemon sleep, which I don't think is great for a thing you wear all the time.
+
+Pokemon sleep, every time you say it, it sounds like a command. Like, were ordering a Pokemon to go to sleep with Pokemon. Sleep. Or, like, you you push the the band on someone's face and they immediately go down. Yeah.
+
+Yeah. The way that I can see this is Google wanting to address the younger market and get them into the health fitness tech stuff because Fitbit has released, like, kids editions of its Fitbits. Right? Now there's a kids edition. If you look.
+
+Pokemon is not only for kids, but it's targeted. Access the Fitbit AI agent that tells them about their sleeping the pro. How to get a better Snorlax level Yeah. While because your your sleep score has been bad. It is strange.
+
+In the press release they sent me, it has the little, like, fine print in the bottom, and it says the Fitbit Air is not is for kids 13 and older. And I'm like, well, there's a little bit of a mismatch here because I think that most parents are gonna be buying the Pokemon Sleep model of a Fitbit Air for younger than 13, but I don't know. This this both does not make a lot of sense to me, but also Makes lot of sense. Think it looks nice. It looks look.
+
+The material I have the regular Fitbit Air. I have the blue one. Mhmm. The material of this one is nicer. It is nicer.
+
+It's very deep blue. It's an extra $20. Better be. It's it's an extra $30. 30 well.
+
+Yeah. Which 30%. Okay. I didn't wanna talk about that because I just quickly wanna talk about the fact that Panic, which is another little game company, game publisher, they are passing on the Playdate tariff refunds to customers. So for those that don't remember, the government charged an illegal tariff.
+
+People that were importing things that were not made in America, the Supreme Court struck that down, and the government had to pay these companies the refunds back. And most of these companies did nothing with that. They just kept the money. They pocketed the money. Some of them kept the prices the same as the adjusted prices were.
+
+Everything's gotten worse. But this week, Panic sent out an email to customers that had bought things like the Playdate during that period and refunded them the difference that they charged for the tariff fee. That was That's great. I which I just think is good. Like, we need more companies doing this.
+
+We need to shout out more companies that are doing these good things. Yeah. That's lovely. I just wanted to note that. That's really great.
+
+It's good. Alright. I love that. Okay. Eli, close this out.
+
+I'm ending with camera drama of the highest order. Only way it could happen. You're just trapped in between us. I'm I'm sorry. This is very good, Kira.
+
+Bring it to us. Bring it to us. So Waymo this week put out a blog post called 10 AI lessons from driving 200 plus million fully autonomous miles. Now you would think this is just your normal blog post. Right?
+
+You're celebrating a milestone with Waymo. There's a cute little van now. People love a Waymo, especially when they all honk at each other in a circle disrupting the operations of cities late at night. But in this blog post, Waymo takes an incredibly hard shot at Tesla. So Srikanth Thirumalaei, who's the VP of onboard software, doesn't say Elon Musk or Tesla directly in this post, but he writes, cameras are incredible, but they aren't enough.
+
+For years, there has been a debate over whether cameras alone could solve full autonomy. Now after more than 200,000,000 real world miles, the data is clear. Safe fully autonomous operations at scale require more. That what they mean is LIDAR and radar, which we Weimos obviously have. They create a rich redundant worldview that no single sensor can replicate.
+
+This is incredible shots at Tesla, which is, I think, a few weeks away from the CyberCab launch event Yeah. To which only, like, very friendly YouTubers have been invited. But if you will recall, Elon, years and years ago, when they took LiDAR off of Tesla's, said he thought LiDAR was a local maximum and that Tesla would solve full self driving with cameras alone. And so now they're about to launch the CyberCab and Waymo, which is usually not in the market for drama in any way, shape, or form, especially because they're also part of Google, which is rarely in the market for drama, is just out here with a blog post being like, yeah. Your shit sucks.
+
+Like, I'm just like, as direct as they can be. After 200,000,000 real world miles, the data is clear. Safe, fully autonomous operations at scale require more than cameras. There is there's only one company they're talking about, Tesla, which is minutes away from the CyberKnob launch. I think this is pretty wild stuff.
+
+Now we're gonna have a bunch of Tesla fans point out that Teslas do have FSD. It is mostly camera based. Elon has proven to be more right than wrong about this thing over time, But FSD has a lot of problems. Right? The the coach of the 49ers just got himself hurt because he was relying on FSD and even said, I knew better, and the car still crashed.
+
+Like, that's the level of FSD problems that we have in this country now. Famous people who can afford drivers like, ah, the robot will do it, and the car crashes, and they are, like, not present for the start of the football season. Like, that's where we are with FSD. Some of it is cameras. Some of it is software.
+
+Some of it is Tesla's amount of risk. But it's funny that the iPad has LiDAR sensors, and Tesla's Yes. Is this a regulatory play? Like, are are are they trying to get regulators to be like, only safe robotaxis with LiDAR backup are allowed and try to edge Tesla out? I mean, I I I think there's a little bit of that.
+
+I think there's a little bit of just it is not yet settled how this technology should actually work. Right? We're we're still in a a race. Like, Waymo's are great. There's lots of Waymo's.
+
+You can you can get them in certain cities in the country. They are still not great at snow. There are lots of parts of in San Francisco, if you wanna get from Mountain View to the airport, which is the last time I tried to take a way out, it's like, yeah. We we can't do that. We're not we're not gonna do that.
+
+And so that's regulatory. Some of that's technical. Some of that is mapping. Some of that is safety. Like, there's a lot of that going on.
+
+And then, obviously, the CyberCab launch is gonna attract a lot of attention. I'm confident Tesla is gonna say they can do it with cameras alone because they're gonna get that question. And in Tesla's last earnings call They're not gonna get that question. Well, not from not from From from the people they invite. Never the people they invited.
+
+But it it's it will be present because they keep talking about it. So in their last earnings call, the Tesla head of AI said, historically, the so called experts have always claimed that you need LiDARs, radars, HD maps, and the entire kitchen sinks to drive safely. We show that's not true. You can have safe, comfortable, and affordable autonomy with just cameras. This should be a huge validation of Tesla's entire AI approach.
+
+So these companies are fighting. Mhmm. Right? The the technical approach is not settled, and somewhere in there is safety and whether or not you trust the car to actually drive itself, even if the cameras get occluded or the LiDAR doesn't work or whatever things can happen that can go wrong with a self driving car. But most of the rest of the industry has added LiDAR for all kinds of very obvious reason, including the fact that LiDAR sensors are getting cheaper over time.
+
+Yes. This this feels like an obvious trajectory. Like, obvious yes. They were expensive early on. Yeah.
+
+I do not think that they are groundbreakingly expensive anymore. Right? When it comes to something as important as safety, it feels like an obvious thing to go back on, but, yes, it will be very interesting to see what happens after the cyber cab officially rolls out. I'm here for this drama. I I want there to be more prodding at these safety records.
+
+If Apple can afford to put a LiDAR sensor in the iPad Pro Truly. Which nobody uses Truly. And then decide to save money on the polishing cloth Yes. I think that they're probably not that expensive anymore. Tesla's in a place where they have been so vocal about not using LiDAR for so long.
+
+It's their whole personality. Mhmm. They yeah. It's like they gotta they gotta give up on a a core piece of themselves. And if they really give up on it, all of these cars that they have advertised as FST capable will not be FST capable, and that will put them in a world of pain, which they already were because they were they were being really sketchy about what which cars were gonna be FST capable.
+
+Right? It was, like, hardware three or something they had promised, but now it's not. And that's like it's gonna be, like, lawsuit city if they ever go back on this and require LiDAR. So they're they've really boxed themselves in. Yeah.
+
+Okay. Eli, you teased it a little bit earlier, but what do we have coming up on Decoder? Decoder next week is gonna be great. It's gonna be governor Kathy Hochul. We have a lot to talk about there.
+
+And then there's one I can't say that was just I nerded out for an hour today. Was really fun. I I'm very excited for both of these. I think it's gonna be a fun weekend, Decoder. Cool.
+
+That is it for The Vergecast. Remember to subscribe to The Verge for ad free episodes of all of our podcasts, exclusive newsletters, and a whole lot more. We'd love to hear from you. You can email us vergecast@verge.com or call the hotline, 86611. The vergecast is a production of the verge and the Vox Media Podcast Network.
+
+Today's show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, and Travis Lorchuk. We'll see you next week. Eli? Back and roll.

@@ -1,0 +1,219 @@
+We don't need to compete with Anthropic and OpenAI on models right now. The interface between the human and the model is the key thing. If you looked at the competitive landscape, was almost silly. I asked Michael. I was like, what do you think about Cloud Code?
+
+And he said something to the extent, look. We are going after the biggest market in the world. You're always gonna have multiple competitors. That does not scare us. As founders, we all wanna be ambitious, and we wanna push, like, to the maximum point of Pareto frontier, but, like, you have to kinda know what the curve is.
+
+For us, the decision to invest in CurseFree was actually pretty obvious. I remember Andre Karpathy was using it. It was clearly a phenomenon. It's clearly the like, a known brand. They went and got all the users in record time.
+
+Now they have the asset, the data, the know how to build their own models. You really couldn't do the flip of that unless you started as a frontier lab. They were definitely a couple of oak moments. Like, remember when Two years ago, betting on an independent AI coding company looked almost irrational. Microsoft owned GitHub, Versus Code, Copilot, and had access to some of the world's best AI models.
+
+And yet, Cursor broke through. In this episode, Martin Casado, Sarah Wang, and Matt Bornstein look back at the decisions that shaped Cursor from its earliest days, building a standalone product instead of a plug in, resisting the push into enterprise sales too early, and staying relentlessly focused even as the competitive landscape changed around them. They also unpack how the company repeatedly reinvented itself as AI advanced, built a culture around speed and taste, and eventually applied the same intensity it brought to product to hiring, sales, and m and a. It's a conversation about cursor, but also a broader look at what it takes to build a defining company in a market where the technology, competition, and conventional wisdom can change almost overnight. So to kick off, I actually wanted to take us back to early twenty twenty four.
+
+And, obviously, you guys led the deal in I think it was May 2024 that year. But can you walk us through what was going on in the q one, q two of that year, and maybe how you guys started working with Cursor well before we ever partnered officially with them? So you have to sort of transport yourself back to late twenty twenty three, early twenty twenty four. I went back and looked it up. The leading models at the time were GPT four o, Claude three, and Llama three.
+
+That feels like forever ago. Llama three? Yeah. Yeah. That was actually pretty good.
+
+That was great. Yeah. Was a great model. Change in strategy, obviously. Now the leading coding harness was Copilot by, like, a mile.
+
+Yeah. Mhmm. Right? This was, the consensus thing. Microsoft was doing their Microsoft thing.
+
+Right? They had Copilot. They had Office. They had Versus Code. All of these things combined, they were gonna somehow win AI.
+
+And so it was clear that AI coding was sort of working, but it was a different universe compared to today. Right? Like, you had the sort of early signs that you could do meaningful work with AI, but agents didn't really exist, loops didn't really exist, reasoning didn't really exist at the time, so it's sort of a crazy time. There was a continuum of companies going after coding, right? So on one hand you had those that are like, the only way to win coding is to build a base model, and it has to be a coding specific one.
+
+And on the other hand, had, very presciently by the way, companies just focus on agents, right, and like HRSA was somewhere in between. And not only models, there were a million companies doing plugins too. And both of these were very reasonable things to do, done by very smart people. Right? Like that's what's so interesting about these new spaces, it's like smart entrepreneurs show up and do really interesting things.
+
+And in this case, model training was very reasonable thing to do because the models weren't that good at coding yet, and there was sort of a theory that if we focus on this and do a coding specific model, that's the breakthrough. People doing plug ins on the other side were sort of saying, hey, let's not toss out the whole IDE. That would be a crazy thing to do. But the interface between human and model is really important, so plug in is a great place to go. You know, it just kind of turned out that the thing that Cursor was doing was the right thing to do.
+
+Right? Like us, they were very bitter lesson pilled, but at the time they would have said, oh, there's no need for us to go train our own model. Of course, that changed later for different reasons, which we're gonna get into later in this podcast, but we it's don't need to compete with Anthropic and OpenAI on models right now. The interface between the human and the model is the key thing. This is something that I remember Michael and Aman saying a lot, and just saying very clearly from the earliest days of Cursor, code in the future will look like pseudo code.
+
+I remember Michael making this point a lot. When you look at old computer science papers, there's a section. Here's the algorithm, not in code, but in pseudo code, which I'm sure many people are used to. Don't exactly write in pseudo code now, but probably you could. Probably you could just take a pseudo code block from an old paper, and the models now would implement that.
+
+This is really what the cursor guys thought from the very beginning, and they've proven to be exactly right about this. Right? It's like this sort of natural language ish specification, like pairing the programmer's intent down to the minimum possible spec. That's what really sort of matters now. So anyway, we were in this world, as Martine said, we were talking to a ton of very smart, very interesting people working on coding in various ways.
+
+The Cursor team kind of stood out because not only did they sort of align with the things that we thought about the world, more importantly, smarter people than us and engineers working. At the time, the leading AI companies like OpenAI, Midjourney, Replicate, a bunch of others, all kind of use this and subscribe to this model. And the team, frankly, just seemed kind of special. Right? They had an unusual degree of focus.
+
+I remember we got Michael to come pitch our GP group, and 90% of the meeting was him saying no to things. Which is just like for founders out there working on products that you love, VCs will always ask you dumb questions about other things you might do, or things you're related to, or whatever, and Michael literally just sat there and very politely listened to all the questions and said, interesting. No, we're not gonna Wait, wait. Actually, on that point, can I ask you guys a question? Because I remember that meeting so vividly when you brought Michael in for the a, and one of the things that he said no to was actually and to your point on there were a lot of plug ins.
+
+Right? And so there was this maybe more consensus thought that a Versus Code fork versus the plug in into Versus Code would one would be better for enterprise, and it wasn't the former. It'd be the latter. And I recall, I think it was you, Martin, or maybe it was both of you asking him, well, are you gonna get enterprise customers with this medium? Right?
+
+And he looked at all of us in the eye with high conviction and well, I'm gonna turn it back to you. And what did you think of his answer, and what gave you guys the conviction to take a pretty contrarian bet at the time? They actually had a very reasoned articulation for why, where they were in the design space that makes the most sense. So for example, why wouldn't you build a coding specific foundation model? So what they said at the time was, it turns out that you don't speak to these models in code, you speak to these as humans in natural languages, therefore the model has to understand the breadth of human experience in language, right?
+
+And so that means in order to build a coding model, you're actually building a frontier language model, and that's just a very hard thing to do, and then of course there are other companies doing it, and there are much more focused problems like TAMP completion to do. So I think every one of their decisions was very reasoned in our opinion. They were also very product focused, which you actually don't see a lot in AI. So they really believe that you can build a product, the product, if it's really gonna be adopted, which by the way is very similar to how Elon thinks. And that dictated a lot of their decisions.
+
+If you really believe in the product, you would never do a plug in because then you're part of somebody else's product. If you really believe in the product you wouldn't do enterprise early, do it later because the product itself is the kind of go to market motion, and so there was a, I would say, and Matt let me know if you would agree, tremendous clarity on exactly what type of company they were and the decisions that they said all fell from that consistently, right? Where many of the companies we saw were kind of these pastiches of, we'll try all of these different things, we're not quite sure what's gonna work, so there's plug ins and there are services and there are whatever, whatever, whatever, this was a product company going after, but they considered it to be a product problem. Yeah. No.
+
+I think that's exactly right. I think they had the ambition and the courage to kinda do the maximal form of what the product would look like. Right? I think, you know, as founders, we all wanna be ambitious, right, and we wanna push to maximum point of Pareto frontier, but, like, you have to kinda know what the curve is. And they just kinda knew what the curve was.
+
+Right? And then get distracted by the sort of nonproduct things. I remember when we were trying to convince the Cursor team to let us invest in their company, I asked Michael once what he did for fun outside of work. I like, didn't understand the question. He's like, what do you mean?
+
+I'm like, when you're not in the office. He's like, what do you mean? I also remember, by the way, when we had the lunch after we did the investment, and I was talking about something about Internet days that were similar, and he was like, I was five. And we're like, oh. But, I mean, what's amazing about not just Michael, but all the founders is even though they were pretty young when a lot of these things happened, they actually were kind of students of all this history, which which is a trait that we see Alex Trempelt talks about this a We see this across all of our top founders that they're, like, able to study and really learn from what's kinda happened before.
+
+I'm gonna turn the question back on you. I think Matt would agree. For us, the decision to invest in Cursor at the A was actually pretty obvious. The team was phenomenal. It was incredibly focused.
+
+All of us were users. Half the team actually used Cursor. I remember Andre Karpathy was using it. Was clearly a phenomenon. Was clearly a known brand.
+
+The growth was asymptotic, so from an early stage investor it a pretty straightforward decision. It was a much less obvious decision for a growth investor, and so I think probably what you heard in that first meeting maybe was a little bit dissonant with how you'd both invest, but then you very, very quickly led the next round, so maybe talk through how you kind of got past the typical growth evaluation and got conviction. Yeah. I mean, I think the timelines are so compressed here. It's crazy to think back on because I remember you guys led the AA in May, June, right, early summer.
+
+And by October, we had done we did the b. And so it was clearly just vertical lift off. And there were a couple of things that summer. Right? You guys talked about Andre Karpathy tweeting about them, but they went on Lex.
+
+Incredibly thoughtful discussion of how they thought about their vision for, like, coding going forward. And so I think it comes back to, Martine, something you said, which is they were just reimagining everything. Right? And you you know, you just talked about this as well, Matt. But you can't you can't write growth memos that way.
+
+Never mind you. So, you know, you've got the bug, you know, because you were calling us and we were so centered. How did you convince David George? Yeah. I'm like, don't you?
+
+Not to show, like, you know? Yeah. You know, it's so funny because and I think you had to think out of the box for this one. I mean, of course, the the momentum was vertical, but there were so many things that they defied conventional thinking where I remember I the first time, you know, Martin, you you introduced me to Michael. We got a coffee that day, you know, as Mike you know, they move quickly.
+
+So I pulled some stuff together for them. Right? Because we're, you know, we're trying to show them, hey. This is the next stage of what growth looks like. And there's so many conventional pieces of conventional wisdom that they just completely broke.
+
+Like, we would say, hey. We'll help you find a sales leader because, you know, previously, it made sense to start layering a sales leader at 25 to 50,000,000 of ARR when self serve starts to peter out. Michael looks me dead in the eye and is like, self serve is not petering out. Right? And so then you start to pull these drivers that you're like, oh, these assumptions that would go into any growth model historically, you can't have that asymptoting at 25% growth in five years.
+
+Right? And so I think a lot of the growth investment decision at the time was throwing out some of the assumptions that we would typically make on how a company would, you know, eventually start to slow growth. I'm very glad that we did that. And then the second piece is we should talk about the competitive landscape. Right?
+
+Because you mentioned co pilot. I was actually gonna say, and actually, I think Matt deserves a ton of credit here, which is we talk about now in retrospect how it was a pretty easy decision on the series a, but, you know, Matt led the early deal, and he saw something a lot of people didn't, which was this, which is if you looked at the competitive landscape it was almost silly, which is you had a large incumbent, which is Microsoft, that had a company at scale that had the OpenAI weights and they owned Versus Code. Would So say that there's just no way that you could survive relative to this one single competitor, we'll talk about the other ones later, and I think that also was the thing you said about Michael was what I witnessed, would be great to hear Matt, which I even remember when Matt said this early on, he was like, You know, they have a good answer for everything, which when you have founders that are students of what they do, they're very consistent in their answers, and you know, and this is not listen, I think when we did the deal it was pretty obvious, but it wasn't so obvious six months before, you know, and Matt and the team had that deep conviction way back then, and I think for every one of these races, are mirrors of that.
+
+Anyways, is this kind Yeah. No. Totally. Look, I mean, people think venture capital is like an individual sport, like it's not at all at all. I mean, our whole team was working working on this at the time.
+
+You know, I think it was over a year. We literally had a cursor team on our team. Like, with an RT team. Was great. Rachel was great.
+
+Yeah. Yeah. Yeah. Yeah. You know?
+
+You you led the team. I mean, it was the same. So but but yeah. No. You're exactly right.
+
+I mean, I I mean, these guys are crazy smart. Right? They're, like, off the charts, sort of just just raw intelligence. Yeah. They're able to do this thing we talk about all, like, context switch between tech and markets really, really seamlessly.
+
+And and and they, like, ingest data, whether it's historical data or things happening in the market, and act very, very quickly, which you said before, Sarah. I agree with that, but specifically, it was just kinda crazy to think you're gonna fork something from Microsoft who owns the thing, and then you're going to compete with them with smaller models, even they own the OpenAI weights, they have enterprise Salesforce, and they have The greatest, yeah, enterprise distribution. Yeah. Ever. You know, it's the conventional wisdom, in many of these cases.
+
+One of the data points at the time was actually Marco on our team set up a dinner where Aman sat right next to John Schulman, and they talked a lot about Cursor. And I think John's thing was like, oh, yeah. I tried Cursor, but our code base I think he was at Anthropic at the time. Our mono repo just immediately killed it. Right?
+
+It's like I couldn't even load the code base. And think the next day, Aman came back. He's like, Oh, we made some changes. And you can not only is speed of iteration, but we just look for these little data points where it's actually doing a plugin or just writing on top of Versus Code is not is clearly not gonna work because, like, the smartest people in the world have tried it, and it doesn't work. Right?
+
+So it's like so these guys were sort of listening to it. And and historically, we as a team have always bet on the independent in in a large market. Right? If there's a leading independent, we'll always bet even if the incumbent seems very scary. I do think it's worth talking about competition because my, you know, my experience with you, all of our experience with Cursor is that there is always, a looming existential threat, we always forget about it, but of course Copilot was the big one, and then remember the whole Windsurf thing?
+
+Windsurf actually did this very smart thing where they went to YC, and there was a lot of YC users using it, so you kind of had this whole movement on Windsurf, and you know Cognition was a phenomenal company, actually was making real waves with agents, and they'd done a great job with that, and then you had the first version of Cloud Code that came out, and that was kind of like a competitive thing, and so you kind of go through, there was always some competition, and one thing I would say, and I would love again to actually hear your perspective on, is it is such a pleasure to work with founders that are entirely unfazed. Yes. You know, like, normally, like, you know, founders of these things happen are calling, and they're kinda freaking out and whatever. They were a 100% unfazed by the competition. Yeah.
+
+Paranoid, but unfazed. I'll never forget, you know, and we we we've been lucky to do, I think, all of all of their rounds starting from the a, but the one that was invested every cursor round. We did. Yeah. With That's crazy.
+
+Increasing amounts of dollars. But Sarah Sarah co led the b and the c. That's amazing. That's real conviction. That's amazing.
+
+That was a harder conversation to convince I was gonna say the c. The the team for the c. You know, at at the b, you could argue, god, just bet on vertical momentum. That was actually what was the c. Who grows from four to 50 in, like, four months or whatever, but the the or actually, no.
+
+It the it was the d. So the Claude Code not to take us on a time travel trip again, but Claude Code came out May 2025 Yeah. With a splash. You know, it wasn't the pickup wasn't right away, but obviously formidable. And I remember there was around, I think, a couple months after, three months after that.
+
+And I asked Michael. I was like, what do you think about Claude Coat? And he said something to the extent actually, you know, exactly what you're saying here, which is, look. We are going after the biggest market in the world. There's going to be competitors.
+
+In fact, there's been a rotating cast of characters from the very beginning. Copilot Microsoft Copilot was the first one. Claude Code is one of a rotating set of characters. And, you know, we think in big markets, you're always gonna have formidable competitors. That does not scare us.
+
+And, you know, I just remember being, yeah, somewhat blown away by the clarity of that comment, the lack of fear. Right? There's humility as well. It's humility mixed with bravado. And I just think that is kind of the winning combo when you're going after these juggernauts like that.
+
+And I know it sounds vague, but things like this, it's a ish thing. It's like, if you're smart and right, it actually gives you, I think, the confidence and the focus to have that kind of attitude when have this mega competitor of coming after you. Yeah. Then I'll say, I will say, they were definitely a couple of oh fuck moments, but they were always around models. Like, remember when Opus four five came out?
+
+Like, we're all on vacation, and I think everybody in the world class, and we were like, oh fuck. That's true. You know, these things are moving much, much faster than any of us thought, and then I think the same thing when the pre release of Mythos came out and people had access to it. These models were getting so good so fast. And I think another thing that the Cursor team probably doesn't get, you know, the the level of credit for is to the extent they cannibalized themselves so dramatically in, like, a Reed Hastings type way in a matter of two years.
+
+Right? So they were first an IDE, and then they, you know, moved to an agent platform, then they moved to a model platform. And it's very, very tough for, you know, founding teams to actually have the discipline to Yeah. Was the big thing. You know, Karpathy had that famous post, I guess he has a lot of famous posts where he's like, he was just tab, tab, tab.
+
+Yeah. Exactly. Like, that kinda doesn't matter that much anymore. Yeah. I actually think that's a good segue to maybe some of the other strategic decisions they made along the way around business model.
+
+And to your point on oh, fuck moments, I don't I don't know if they would consider this that because I don't think the vagaries of Twitter impact them as much. As their investor as the investor. Yeah. Yeah. As the rest of us just, like, scrolling all day.
+
+But was probably summer of twenty five where there was a lot of shit written about their gross margins, etcetera. And then, of course, you know, post the Opus four or five, maybe the January period. I mean, we should all talk about that because that was kind of those are both in different but interesting times. Yeah. I mean, thing I'll say is I just feel like X is driven by, like, tail chasing adrenaline sinking in shot and fright.
+
+And there tends to be a massive disconnect by what people say on X and like how the business is actually doing, and so even though there was a lot of this, the business tended to do very well. And it's so interesting, and so much of this often comes from investors, especially things talking about like business quality, but text transformations always proceed figuring out the business. Like, you guys remember the internet, like, didn't even figure out how to monetize it for a long time. Forget margins, making any money at all, right? And here you've got unlimited demand, unlimited growth, and margins, so I think this tends to be, you know, exits its own kind of echo chamber, as people say it, but also B, every single wave you have investors trying to say something that sounds smart, which is like picking apart you know, the business model of a nascent tech transformation, and I just think historically, they've always been proven wrong.
+
+Yeah. Yeah. For sure. I mean, you know, think I'm gonna borrow this quote from something you said, Martine, but, you know, first comes the technical transformation, then comes the business model. And in this case, like, I think the the strategy where they went and got all the users in record time, now they have the assets, the data, the know how, etcetera, to build their own models.
+
+Right? You really couldn't do the flip of that unless you started as a frontier lab. And it, you know, it's clearly paying off in this combo that we'll talk about later. But I think seeing that kind of backdoor strategy was really inspiring, and they they took a lot of heat for it. So, Martine, how do you think Cursor really became a sales driven company or or a company that's good at sales?
+
+Because, you know, early on, I think I I told Michael a few times too. It's like, you better invest in sales. He's like, nope. Not not gonna do that. They literally set up enterprise at cursor.com.
+
+It's like, if you're an enterprise, send your inquiries to this. But but, like, but, obviously, now they're very good at sales. Right? And and and or go to market in general, how do you think they made that jump? It's a great question, so here would be my best guess, which is they are very much just students of what do they do, they're very thoughtful, every raise, know, every product decision.
+
+And I think as they learn more about the market, they realize that the margins were in the enterprise. So very classically, if you view your competitive set, say the large labs, the large labs will basically subsidize or give away the single serve tier, but then they actually have they command great margins in third party, and they command great margins in the enterprise. And, you know, Crystal is really at scale. And and as the company has always gone, they decided, okay. Like, so, you know, for future viability, we need to go into the enterprise, that's where a, bulk of the spend is, but also a lot of the margin, the margin tends to be the value here, we've created a great top of funnel engine, and so this is existential and this is important, and then when they decided to do it, they really went and that may be the fastest ground on the sales team in the history of the planet, right?
+
+Mean, you were very involved, Sarah, for example, on recruiting. So maybe talk about that actual expansion, because it was it was Yeah. I mean, it's it's so neat to see you know that expression, how you do anything is how you do everything? You you really see it. So much of what you guys are talking about and how they thought about product, etcetera, was reflected in how they did hiring and go to market hiring in particular.
+
+And we gotta shout out Jordan and Roman and their their team there who in the early days built that from that that engine from scratch. They're just the most incredible some you of the most incredible people I've ever worked with, but or we've all ever worked with. And Well, all they also spend 40% of the time recruiting. Yeah. Yes.
+
+Absolutely. Which is amazing for for for technical product founders to spend 40% of their time recruiting. I've never actually seen it before, and it is so effective, and like a company really is the team that you build, and they took this to heart. Like everybody talks about it. Everybody talks about like doing A Class founders, whatever, but it's entirely different.
+
+It's like how often was Oscar, you know, hey, I'm on a red eye to Europe to close? I'm like, literally, like, I saved It was like it was constant. Totally. And, you know, there was that great piece that Brie wrote about their hiring practices that everyone should read. A lot of that focuses on their edge hiring, like the work study, all this stuff.
+
+Right? But even on the go to market hiring, when the thought that they would put into hiring a single AE. Right? And, of course, like, this is nothing new, but just the back channel back channel back channel ethos, they had that to a tee. They knew exactly what they were looking for in founding AEs.
+
+You know, I remember we would go there and sit in their office for eight hours helping them source stuff like that. And they weren't like, oh, we wanna do it the old way. We're like, that that's not gonna we're building a company in a new way. Right? So we want very specific AEs that fit this profile.
+
+We're gonna go get them. We're not just gonna wait for people to walk in the door. All of those things that have been written a bit on the side, they did that on the go to market side, and clearly to phenomenal results. I mean, they got to over 50% of the Fortune 500 in Yep. I think faster than anyone we've ever seen.
+
+Can you talk about specifically how they applied the lessons in edge hiring to AE hiring? Because this is something I think our founders deal with a lot. I've dealt with this a lot personally. How do you actually make that jump, and what lessons really do carry over? Yeah.
+
+Or or that you observe in person? No. Yeah. And and, you know, hopefully I think this has been written about, so hopefully, it's not sharing alpha. But the way that they think about sort of epochs of a person's career or of a company and who was the key dial in making that happen.
+
+I love this intense research period that goes on where it's like, hey. This these are the top 10 companies who have seen great in this type of selling. And then let's go a level deeper. Here are the top 10 teams in those companies, and then here are the one number one and number two single AEs who drove that change and accounted you know, again, back channel, back channel, back channel. Right?
+
+Like, who their boss, their boss's boss, and their boss's boss's boss would say, this is a superstar AE. And, of course, in the early days, it was like, can they deal with some uncertainty? Because you don't want someone who could just run a playbook. At this point, maybe they can get those people. But in the early days, right, the founding AE set was super strong.
+
+And I think figuring out what does the best look like at what period of time and then which individuals drove that, that's so applicable for engineering, obviously, building, but on the go to market side as well. And I think that nailing the right star who did it the right time is really hard. I mean, it narrows the base that you can hire from completely. But because, you know, I think Jordan Roman and the early team got that right, they just were able to scale it quickly without losing the cursor culture. Yeah.
+
+Which, you know, a lot's been written about the cursor culture. I'm curious, you know, maybe you guys can share your own impression of it. You know, I I mentioned earlier that, like, you know, kind of coding was all that they did. My impression at the time, and and, like, we you know, the the founders could could correct us on this. Like, my impression at the time is they weren't doing that because they were obsessed with work, and I think they're still not doing it because they're obsessed with work.
+
+They literally just love writing code and love systems. I think the three of us can feel that way at times too. That's a very understandable thing, and that seemed to be the driving cultural impetus. The time, was a very small team. Everybody had that attitude, and we're orienting towards the future of what is this actually going to be?
+
+And that kind of, from an end standpoint and product standpoint, like very narrowly focused on what they were trying to accomplish and like how how to run the team. But there's this huge paradox because I totally agree. I a 100% agree. However, if you actually detail their actions later on, that's not the conclusion you get to. Like, what do they spend their time on?
+
+It was like recruiting, go to market, understanding business models, biz dev, and so in a way, and again, I just totally agree, and again, on one hand you have a very product focused team that comes from the tech that literally wanted to build products that they wanted to use. Now listen, I think that high powered founding teams work on exactly what is needed by the business, and I think they did a very good job, and I think it allowed them to navigate the most competitive market we probably ever see. Has there been a more competitive market than coding? It's hard to Database imagine, there's so many wars? Yeah, you have very intense competition in relatively narrow markets.
+
+Databases are huge, but compared to coding, I actually think it's much smaller, right? I mean coding's kind of the meta category, right? It's like all expression of human thought in economic form is kind of like coding. I mean imagine starting competing with Microsoft, ending up competing with say Anthropic, you know, both of these kind of mega companies with tremendous amount of capital and power and distribution, in the meantime you evolve fundamentally your product approach, and you change your go to market, and then you engage in the most complicated M and A of all time, and all in a matter of two years. My god.
+
+Think this crazy. I think it's two years. Like the magnum opus of, like, you know, startups, sir. Just like No. Totally.
+
+There's definitely something to what you're saying. Right? Like, in the beginning, these guys were incredibly focused on the product and literally enriching their own lives. Like, literally, they would be coding for fun. Yeah.
+
+Like, when I finally got them to admit they did something for fun, it was like, oh, that's also coding. But like yeah. Which, by the way, the only Guilty. Guilty. Yeah.
+
+It's the only fun left to any of us, by the way. That sounds good. Know, how the models have, you know, brought the post scarcity future to us. It's, like, coding is, like, you know, the last bastion. You know, and there was always awareness, or at least I always thought talking to Michael, though, he was always aware of the game, if that makes sense.
+
+He truly was, and they were all truly in love with coding and creating great products. But they kind of knew that building an enduring company or a great company isn't just about product obsession. I I just got in sense he always kind of understood that and and, like, was thinking a couple of things. Yeah. If you listen, your goal is creating software, that's a critical it's critical to get the business right.
+
+Yeah. Yeah. I was gonna add an anecdote that's not related to them coding, but the other thing that, you know, we sort of seen across a number of founders, but Michael and Soile and Aman, they they sort of embodied this is this again, how you do anything is how you do everything. Right? And so, of course, this detailed attention to the product, very artisan.
+
+There's craftsmanship. Right? Overused taste. They have taste in spades. Yeah.
+
+Yeah. But it extended to how not only they did hiring on the edge, go to market side, but even the space they created, the events they throw. Like, I remember walking to their office and thinking, wow. In my early twenties, I would not have paid attention to putting, I don't know, twinkle lights here. They famously no shoes.
+
+Right? But you'd go in, you'd put on your slippers, and it would feel you feel at home. Like, hence why everyone was there working all the time because you're like, this feels great like home. And they, you know, they it was very Hege, the Scandinavian style. And I remember going to their second office when they finally expanded and complimenting them on a couch or something because I think I was redoing my own house at the time.
+
+And they're like, oh, yeah. We got that from a secondhand, like, very furniture dealer. And so they were going after a specific look and feel. And I just was struck by that because I was like, wow. That is not how I remember guys in their early twenties, like, thinking about the space that you create or in Yeah.
+
+How that leads to the product and, you know, mind space you're in. There's actually a nice adjacency here to a lot of the decisions they made, so marketing was a very obvious one, they were very, very particular, like we use X, that's not our voice, we're not spammy, we made so many suggestions that I remember were like, oh, let's do this event, no, that's not our style. So they're very good at saying no for stuff. I will say that they were also very good about this when it came to personnel, like if there wasn't a fit, make the hard decision pretty quickly. You very, very rarely see this with the teams, and they're very consistent about that, and so I would say it's almost this kind of untalked about, probably greatest strength of the company is that once they made a decision, it doesn't matter how hard that was, whether it's deciding not to enter a market, deciding to be very limited in what they're doing, they kind of followed through, or who would stay in the company, who wouldn't stay in the company, and so kudos to them for actually having the courage and the tenacity for these tough decisions.
+
+Which is sort of an Elon ish trait too. It's also very Elon Yeah. Isn't I actually think that these two companies, mean, we just like, you know, talk about the M and A a little bit, are very good fits. They're very good fits on like, a technical level, right, like Elon has a compute, they have the distribution of the data. On a vision level, they both think that, you know, code is the path to changing all of compute and maybe all of humanity, but also on a culture level, Right?
+
+They're very product engineering focused, very, very, very, very product engineering heavy, very fast iterating, you know, they make hard decisions very quickly, and so, I mean, I've been involved in a lot of M and A, and I would say this is probably the best fit I've ever seen as far as just the full package. Yeah. Could couldn't agree more. I mean, there there's a funny analogy with our experience on the SpaceX side. I remember we met them in 2019.
+
+Back then, it was fully a launch business, but the SpaceX team was like, no. We're gonna launch global communications. We're gonna power the Internet for everyone in the world. They had not they you know, nothing at the time. No Starlink satellites in the sky.
+
+And, of course, they they did it. Right? And if you think about the Cursor team telling us and, you know, they actually beat every forecast they ever gave us. But Oh, by a lot. There's just so many characteristics of moving fast, going after large markets, winning them in the feet of impossible competitors, you know, Comcast.
+
+Right? Right. In in the Starling case, that there's so many parallels, totally different venues, obviously, but fascinating to see that. There's another thing I would say also, which I think between kinda Elon and Cursor, like SpaceX and Cursor, is like, in both cases, the consensus was decrying the death of both companies so many times. So I think there's also this kind of like, you know, you know, cultural perseverance to the naysayers, which I I actually really respect on both sides.
+
+Actually, I do have one other real question I wanted to ask you guys. Cursor is also really good at doing M and A, like doing How does small the type deal, know, was actually gonna mention it. Yeah, go ahead. Yeah, I would love to know a little bit more from your perspectives, like why they were, and what the philosophy was, and all that. So I will say, listen, so there is such a war for talent right now that the companies that have figured out how to do talent via acquisition can really get ahead.
+
+Mean, there's just a lot of advantage there, and so the early motions that they did were of that nature, which is like really good team, you know, they'll just go ahead and do the acquisition. And what was really nice about Cursor, they were just never worried about operational complexity, they're just like, it doesn't matter how messy it is, we'll go ahead and do They also didn't really worry too much about their ability to set culture because they were just so good at it. Like, again, like, that was just part of it. It wasn't until later, like the acquisition, where they started thinking about acquisitions in terms of strategic direction, and of course, that was a much larger acquisition. And, you know, listen, I I think the company was so fast, like, who who knows to the extent that they would have figured out how to integrate all of these things and execute on them in the limit just because, like, know, like, now they're part of a a very large acquisition, but I will say that they approached these in the same way that they approached everything, which is incredibly thoughtful.
+
+They had a plan. They executed quite well. And so this may be the most concentrated company in the history of companies having done m and a. Yeah. Yeah.
+
+You know, and then everything else. Yeah. I was gonna say, I feel like there's this badge of honor now when a CEO of a company says, I have x founders in my company. Yeah. And I think it should be a badge of honor.
+
+Right? I don't know how many what that status for Cursor. Do you guys know? But I remember and they have so many great founders there, but I remember when they brought on Tito from Quala and then Adam Ward on the talent side Yeah. Actually.
+
+And just seeing firsthand the leverage that they got from bringing in someone who was a founder, CEO effectively, but slotted really well into the cursor culture and just take that to great heights and add to the acceleration. Like, I think that lay book you know, I don't know. I'm sure they're not the ones who started it per se in this new Gen AI era, but they certainly are, I think, one of the best examples of how to integrate founders really, really well into your company. It's funny. Right?
+
+Because Anthropic kind of gets that tag a lot now. It's like, oh, like, exec at company a just went to take an IC role at Anthropic. But, like, Cursor kind of did this first, and they weren't just, like, slotting people into IC roles. Like, they're actually building the company this way, which I I Absolutely. Yeah.
+
+I thought it's very it's very unconventional, but but, like, real It's actually operationally incredibly complex. Yeah. Yeah. Yeah. That's a conventional wisdom.
+
+Yeah. Yeah. Yeah. And I I think it's actually true. I mean, I think it's not that they, you know, did something that people think is hard, but it's actually easy.
+
+I think it's actually hard, and they just managed to pull it off. You know? Good credit to them. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family.
+
+For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a 16 and its affiliates may also maintain investments in the companies discussed in this podcast.
+
+For more details, including a link to our investments, please see a 16z.com forward slash disclosures.
