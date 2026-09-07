@@ -1,0 +1,425 @@
+100% is on. It's the biggest strategic mistake I made in the history of speech for fire. The best way to lose is not to be in the race. Be in the race. You don't want to be a fat manager who's like a general sitting in the back saying take that hill.
+
+You want to be the warrior who runs up with their sword and engages the enemy first. This is 20 VC with me, Harry Stebbings. Now I am fed up of the simple question answer back and forth podcast. Today is a real freaking discussion. Cliff Weitzman, founder and CEO of Speechify, one of the fastest growing text to speech startups in the world on the show where we have a real debate about whether it's right to scale into enterprise from a phenomenal consumer business, what it takes to build an amazing go to market motion when you've already built this amazing consumer business.
+
+And then he also tells us some wild freaking stories about spending tens of millions of dollars on NVIDIA GPUs and why so many more companies should be doing that over relying on other providers. This and so much more in the episode today. But before we dive into the show today, today, I wanna tell you about how the first AI law firm, Crosby, helped us close a big sponsor. As you know, some of the biggest companies in the world advertise on 20 VC, my British dulcet tones clearly convert well. Was working to close this big sponsor, and they wanted to get through legal review quite quickly to close the deal.
+
+Crosby turned red lines around in three hours and caught major issues that would have caused a serious problems in the future. Crosby combines AI, some of the best engineers in the world from companies like Ramp and Stripe, and some of the best attorneys in the world from top 10 law firms. Customers get the best of both worlds. An elite human attorney reviews every contract, but they move incredibly quickly, returning redlines in under four hours. They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.
+
+Learn more at crosby.ai/20vc. If you wanna redline NDAs, MSAs, DPAs, and any other procurement contracts faster, go to crosby.ai/20vc. It's speed that you can really trust. While Crosby keeps your numbers sharp, OneMind keeps your customer conversation sharper. Our friends over at OneMind have a hot take.
+
+The b to b GTM model we've been using for, well, the last twenty years, it's collapsing. Predictable revenue isn't so predictable, and buyers are just tired of explaining themselves at every handoff between SDRs, AEs, CSMs, and support. You feel it in your board reporting. Your sellers feel it in their coverage. Your buyers feel it as they wait for answers.
+
+Well, enter OneMind and their GTM superhumans. HubSpot out on an investment that helped us close an $8,000,000 deal. 8,000,000, baby. That's a lot of money. That's why I'm genuinely excited to have them as a partner on twenty v c.
+
+AlphaSense combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news. Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important. So you can make really high conviction decisions with confidence. But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important development surfaced, and your investment brief already waiting for you.
+
+See for yourself. Head to alphasense.com/20vc. That's alpha-sense.com. You have now arrived at your destination. Cliff, it is so good to have you back in the studio, dude.
+
+I I was looking forward to this one because when I was writing it up, it's a very different thread of conversation to how I'd normally go. And so thank you so much for joining me again Stade, dude. My pleasure. Glad to be here as always. Now I wanted to start with you're spending tens of millions of dollars on NVIDIA GPUs, and you're paying an additional $100,000 per GPU to receive them four months early.
+
+Why? Like, what do you know that the market doesn't know? So in 2022, we bought a huge rack of GPUs from NVIDIA, and the reason we bought them is for training. Right? We have a bunch of models.
+
+The newest Speechify Symba 3.2 model is ranked number one in the world for quality, above all the Frontier Labs, 10 x more affordable, and stuff like 11 Labs. And we used to rent GPUs. And we found that engineers at Speetrify would be parsimonious with how they use the GPUs because they were like, oh my god. I'm costing the company tens of thousands of dollars. Like, I don't wanna do that.
+
+And the analogy my brother and I came up with is imagine you're Michael Jordan, and you wanna be in the NBA. It's the only thing you care about. And you need to pay $20 an hour just to train in a basketball center. Well, that sucks. You want one that you can go to whenever you want to.
+
+In fact, you want a hoop in your house. And so our initial idea was we want a hoop in our house, and so we bought a bunch of our own GPUs. And that deal ended up being really good for us, and we ended up training really good models. So with time, we invested more and more and more and more. So that's the first part.
+
+The second part is actually how the economics work out. So if you look at it, the transformer was invented inside of Google in 2017. NVIDIA came out with a 100 GPUs in 2019. Shortly after, they came out with h 100 GPUs. Right?
+
+The original Chetchpt was trained on a one hundreds. And then they came out with Blackwells, so then b two hundreds, b three hundreds, and now they came out with Rubens, which is the GPUs that Elon is sending to space. And they're, like, liquid cooled. They're very, very cool. We're like, okay.
+
+One, every class of GPU is more affordable per 1,000,000,000,000 FLOPs. Right? So a FLOP is addition, subtraction, multiplication, any mathematical operation, and you measure them in how many trillion of operations happen per second in a GPU. And so they're more affordable as it relates to this. If I was to buy an h 100 for, let's say, $30,000, that's how much the kinda a single card would cost.
+
+If I wanted to rent an h 100 for one hour spot instance from GCP, it could cost me $5. If I rented it from, like, you know, Azure or AWS, maybe it'll cost me $3.5 per hour. So if I multiply that times twenty four hours and then times three sixty five days in a year, I'm actually gonna end up paying 35,000 to $50,000 to rent that GPU for one year, but I could buy it for $30,000. So it's 1.5 x the cost of owning the hardware to rent the hardware for a year. Now the hardware is typically warrantied for three years to work properly, but it'll keep working after the warranty for, I imagine, don't know, ten years.
+
+So the math just maths where it makes way more sense to buy them. The other big part is if you want to do large scale training like we do, you need the memory to be colocated with a large cluster of GPUs. I can't just rent from Google or Microsoft or even base 10 and run the size of training that I want, because I need a gigantic memory card next to it with all of my data that all the GPUs are accessing. So that's why we first started buying them. The next thing that we found is actually if you run open source models for coding, you could pay Anthropic.
+
+You're paying for all the tokens and the fact that you're doing the the the branded, right, Fable one. Or you can run an open source model, and instead of running it on a spot instance from Azure or anyone else, run you it on your own hardware, and then you're paying a fraction of a fraction of a cent per token. And so for all those reasons, it made a ton of sense, but we can go into all the depth that you want. I just wanna dig in. The first thought that I have is I completely understand the rationale there, but chips depreciate.
+
+You have chip cycles, and they are accelerating. We are seeing newer and newer chips being created. We're seeing specialization within chips. By buying your locking yourself in, so to speak, to one chip architecture. How do you think about that?
+
+At Speechify, we still use k eighties for a lot of specific operations for inference, and we use older models of GPUs constantly. And there's essentially a difference between when you do inference and when you do training. For training, I'm like, okay. I have this hypothesis. I wanna know the answer to this hypothesis as soon as possible.
+
+Like, every minute that it doesn't come out, I'm in competition with everybody else. And so having a GPU architecture that is much faster by orders of magnitude is a huge advantage. But if you go speech to text or text to speech with Speechify, I can afford to give you a lower quality GPU, and it'll give you what you need still in, you know, a hundred milliseconds. So it's, like, totally good. And so I can always use these older GPU models for inference.
+
+That's number one. Number two, we have so many experiments that we're running at every single point in time. Not all of them need to run on, like, the newest hardware. So the analogy I always give, let's say you bought an iPhone back in 2011, and it's an iPhone three g, and then you bought another iPhone and another iPhone and another iPhone. You could have a drawer in your house with, like, five iPhones that are collecting dust because you can only use one iPhone at a time.
+
+But if I own a 100,000 GPUs, I'm still gonna use all of them at the same time. And so I'm not losing anything by having more GPUs because not only do I own a bunch, I still rent from the hyperscalers all the time. And I rent both dedicated instances that I prepaid for, and I rent spot instances. For example, more people use feature file in September because everybody goes back to school. So I need to, like, level out the load.
+
+And so the parts of that load that I know for sure I'm always going to use, whether it be training or it be inference, I might as well just own it. And then on top of that is also the case that I have so many other friends who are running training and running inference. I can always rent it out to other people if I have excess capacity, which I don't expect to have. But, like, every once in a while, you have an interesting situation. So for all those reasons, it just makes mathematical financial sense.
+
+Lastly, if you have excess capital, really, you either stick it on the bank or you buy a bond. But the best bond you can buy long tail will yield you to, like, 5%, or you can buy GPU. And because renting it would cost me 1.5 x, buying it for the year, the return is, like, way higher. So how many GPUs do you buy then? Let's talk about Rubens, for example.
+
+So Rubens come in the form of 72 cards in one rack. So we'll buy multiple racks of Rubens. And on top of that, we'll buy b three hundreds, which are, like, the newest form of Blackwells because we can get them earlier. And then the same thing, like, when we bought our first instances of DGX edge 100 GPUs, we bought just, a bunch of racks of those, and then those get delivered in a truck to the data center. We rent the data center, and so the data center provides the networking capability.
+
+It provides the energy, which is actually the largest constraint now, and it provide, like, physical engineers that take it off the truck. They install it. If it has an issue, they fix it, and then it just runs. Does Eleven Labs do this? Yeah.
+
+Eleven Labs is amazing at this. Eleven Labs I think Peeltrich at Eleven Labs literally bought a bunch of GPUs early early on and set them up in his house, then and they just kept building bigger and bigger and bigger clusters. They they do the same thing that we do. How do you think about forecasting chip buying? It's incredibly difficult to know, a, demand, but also, b, supply of chips.
+
+Yeah. How do you think about forecasting chip purchasing? Yeah. So number one, I wanna explain again. It's very different than buying an iPhone or buying a MacBook.
+
+I can only use one MacBook at a time, one iPhone at a time, but I can use all the chips I have at any given point in time, and I still will have more demand, especially when I have multiple teammates and 60,000,000 users who are using inference on my Speechify software that's providing text to speech and helping them, you know, read their work and dictate their work, and, you know, use Speechify work, which is our newest product, that's agentic, kinda like Jarvis from Ironman. And so I go, okay. Let's imagine I have a 100% capacity that is the average usage per month that I need for GPUs for training of my AI models and for inference on my AI models. Inference is when you actually make a call to Speechify, and you give me text, and I give you back audio, Like, there's math that happens in the background. That's inference.
+
+Training is I take a gigantic amount of data. I take all the architecture and software engineering that we're doing, and I go, I think that this will give me a better model. I'm kind of baking that model in the oven, and I'm gonna come out with a new black box. And then when I give you text, that black box is what calculates it and gives you back the audio. So those are the two usages.
+
+Let's say I have a 100%, which is what I would have in, let's say, a month like November. In October, I'll have a 140% because it's like a big month for us. In December, you know, everyone's at home, you know, they're not necessarily studying or working, so I might have 80% utilization. Okay. So I go, cool.
+
+Well, I can take 20% of the usage that is normal, and let me buy it because it's the best deal. I'll take another 25% of the usage, and I do long term contracts with hyperscalers. The rest, I'll rent what's called spot instance from the hyperscalers. And then I'm still not even close to overcommitting myself. And so that's kinda how we think about the math.
+
+And then we go, okay. Well, also, we have 45 engineers, but we want the team to be a 150 engineers. And even inside of my 45 engineering person team, like, there's a couple of people who are rock stars. They have dedicated, like, DGS tracks just for that one person. And 25% of my team are almost, like, waiting, and I wanna double the size of the team.
+
+It's like you have a football team, and you just need another field because they don't have enough field to practice on. And so that's how I think about how to allocate. And then in terms of depreciation of the asset over time, I go, okay. Well, these are still amazing GPUs. Like, even a one hundreds, you can run amazing experiments on.
+
+It's completely valid to use that as long as it's hooked up and as long as it's not stopping to work. And so think about the mileage of a car. If a car gets, like, 250 miles, you know it's kinda gonna break at this point. That's not necessarily true for a GPU because it doesn't have as much wear and tear. Yes, it's moving, and yes, all these things, but like it's in a very clean environment.
+
+It's very much cooled. It has constant maintenance because it's not moving around. It's very expensive, and NVIDIA just does a really good job. So And that asset is gonna stay for a very long time. And let's say it got so not good, so outdated that I no longer can run training on it.
+
+Cool. Now I'll use it for inference. There's one more thing that's very interesting that just happened. So I believe earlier this month, NVIDIA did a huge deal with Blackstone, BlackRock, Apollo, and Goldman Sachs. And they said, listen.
+
+We want more people to buy more GPUs. We're going to underwrite for you up to 25% the value of a GPU. That if you lend money to someone who buys a GPU, let's say Google or a or a startup, CoreWeave, and that startup goes out of business and you have that GPU as collateral against that investment, we'll buy back the GPU for up to 25% of the value of the GPU. And so they're succeeding in creating a liquid secondary market for GPUs that they're underwriting. So now the large banks have an incentive to loan money at much better interest rates.
+
+This is actually exactly what Elon did in the beginning of SolarCity. He went to Morgan Stanley and Merrill Lynch and got them to amortize the price of solar panel over thirty years. So the whole invention behind SolarCity was the fact that you could take a loan against the collateral of your solar panel. So NVIDIA has done an amazing job now in creating a clear floor for the value of the GPU over time. Do you think the circular economy fears that people often cast against NVIDIA are justified or not?
+
+We saw their CFO push back on them and say, enough. Enough of this bullshit. Do you think that justified or not? I think that a lot of the things that about a year ago, like, we're going on between Oracle and OpenAI, like, that was way too much. Like, that was ridiculous.
+
+Think I the NVIDIA stuff is is not, because you're talking about a real asset. So if you think, for example, about the logic behind the value of Bitcoin, Bitcoin what is the intrinsic value of Bitcoin? I can't really tell you. Right? What's the intrinsic value of gold?
+
+Well, gold, you can use it for some medical stuff because it's a really amazing metal, and, you know, it's jewelry, whatever. But a GPU, it has intrinsic value. Like, you can actually use that asset for something that's really, really valuable, and it doesn't matter where that GPU is. It could be in Iceland. It's still useful to anybody all over the world as long as it's networked.
+
+And so actually, it has a pretty good store of value even if new GPUs come on online. Really, my one question, and this is the math for everybody to come back to, is how many teraflops per second can this device do? And that is, like, essentially a token. That's the value. And so there is intrinsic value.
+
+So, yes, you can have all these, like, circular things, but at the end of the day, NVIDIA is making a project a product that's real. It's not complete tool of mania. Like, there's a real, real intrinsic value here. What does no one know about buying chips that they should know? Also, like, oh my god.
+
+People are so naive about this. I mean, it's not that people are naive. It's just they haven't been in the space. So I'll give you an example. Imagine you're buying a GPU.
+
+Well, you're gonna buy it, you know, as an NVIDIA produced product, but NVIDIA is not gonna waste the time talking to Cliff Weitzman. So who do I buy from? Well, one of the best rated vendors is Dell. So everybody thinks Dell is a personal computer company. No.
+
+Dell is a GPU rack supplier at this point, and then okay, want buy it from Dell. Well, Dell has a constraint because there's not a lot of like black wheels out there. Well, it happens to be that they have some in France. Alright. Well, I'm gonna order mine from France.
+
+Okay. Shoot. It was supposed to come a month ago, and it's still not here. So then you need to negotiate to make sure that you get it, which is why we're very willing to pay a 100 k per month extra to get them earlier. So you sorry.
+
+You'll call up Pierre in France and say, you know, hey. We'll give you an extra 100 k kicker if you get them here in a month? Even more than that. So in that France situation, which is something that happened to me, I was like, Pierre, what the heck? We have a contract.
+
+You're not delivering on time. And so it is the case that we had a contract with another company beforehand, and they were a few weeks late. And I called them, and I was like, listen. I've got a better deal. I'm canceling our contract because you're like, you didn't deliver, so I'm gonna go with this other contract.
+
+But if you have a better price, like, we'll go with you, but, like, I just need the GPU now. And remember, I'm paying for the renting space of my data center. So the most expensive part of a delivery of a GPU is if it's late, I'm still paying rent for that data center space. Now that GPU and so, you know, you put pressure on Pierre to send you the thing when he said he was going to send it to you, and then you go to NVIDIA or Dell or whatever, and you're like, woah. If it's a market, hey.
+
+Can I pay more to get it earlier? Skip the queue. Yeah. You can. Cool.
+
+Now there's a truck somewhere in The United States with a GPU whose value is the value of a house that's coming to my data center. Well, I should have insurance from that. Right? Because if that truck gets hit or there's too much humidity or the GPU gets flipped, like, I lost multiple houses worth of GPUs. So okay, the insurance is really, really important, and then also the value of the amortization is really, really important.
+
+And it's like there's all these nuances of how to do the math through. Then there's the cooling, right? So like you're not only paying for the physical space and the networking and the energy, and the energy is the biggest constraint. We'll talk about it in a second. Well, how do you cool that thing?
+
+Because you have a thing that's just, moving and moving, moving, moving, moving. Well, the thing that's, like, most new now is liquid cooling, because air is just not enough, and the thermal load of water is much better, and there's other liquids that are even better than water. And so Rubens are are liquid cooled, but most of these data centers don't have liquid cooling installations already approved. So we had to do a bunch of research, and we find, okay. We could buy what's called a side cart of liquid cooling that you enter into the data center, then you pay someone at the data center to install it for you.
+
+Cool. Now you can have, the rack that you want. And so there's a big difference between running a purely software company and running a company that includes hardware. And But when I listen to all of this, I'm now more sure than ever that it is a mistake to price optimize and to spend the money to buy it versus to rant it. Because I get you on the optimization, but you're not saving 10 times more.
+
+It's point five x more per year. No. No. Per per year. Exactly.
+
+Per year. But you have the flexibility to tailor it up and down. You don't have any of the logistical nightmares of insurance, transportation, security, water cooling, logistics. And then you can build your product that actually what matters most against Eleven Labs who are fucking running fast. I don't wanna worry about water cooling and insurance for a freight truck.
+
+Eleven Labs worries about the same thing because for them to train excellent models, they need to have colocated GPUs with a lot of memory available. You can't do it if you rent it. You can. It just becomes, one, ridiculously expensive. Two, you need to commit for many, many years ahead of time because you need to build a colocated cluster.
+
+And you then don't have as much control because you don't own it. So it's, like, difficult to like, you suddenly need an InfiniBand cable, which allows for the memory to flow from one DGX to the other one. And the answer then is, well, now my ability to train is so much bigger. I can have a larger AI team. Every person in the AI team is leveraged.
+
+I could shoot ahead of everybody so much faster, and let me just make one thing clear. If I want the Rubin, which is, like, these much faster GPUs, I'll get it faster if I buy it than if I wait for Google to buy it, and then there's other people in front of me in line. So I'm I'm gonna skip the queue by, like, a lot, and then I'm gonna have, like, a year of access to Rubens before everybody else does. The the way I think about it is the following. How do you build an amazing company in a world where there's so much competition today?
+
+The team is the most important part, but the team is the most important part because the team gets you the other resources. And so what are the missing pieces? The missing pieces are data, compute, and architecture. In a world where intelligence is commodified and no one needs to handwrite code at all anymore, our engineers, really, what I'm looking for is 10 really good decisions per day, which is very tiring, not like optimizing random parts of the code, and each one has five to 18 agents running at any point in time, doing long horizon tasks on these GPUs, coming up with theses, testing them, going back and forth, back and forth, back and forth. If they don't have the capacity to train, the team is limited.
+
+If they don't have the data to train, the team is limited. And by the way, a lot of data, cleaning the data, right, you get this raw data in the beginning. Well, you need to organize it in the data sets, and so you need the GPUs to also organize the data sets too. I have one of my my best engineers right now who's not even writing models. He's making synthetic datasets to train models, and so it really becomes indispensable asset.
+
+Would you ever buy data? We have, but, like, small datasets. So I suggest you use Fireworks. Okay. But, I mean, Fireworks is amazing.
+
+Linda, the founder, that she's one of the co founders of PyTorch. But I had the very obvious realization that you'd have every company having their own specialized models of a certain size trained on their own data. But you would need supplemental data A 100%. Like this synthetic data or real world data that you just don't have, and that you would buy that from data providers like McCore, which is why I was MicroOne, Surge, all these companies are amazing, and they shorten the cycle, by the way, to getting to revenue. A 100%.
+
+Because if you are a Mercor, shout out to Brendan Foti, Eleventhabs or OpenAI or Anthropic is gonna make money for the next decade or two on the data that they bought from you, and so they're willing to pay a fraction of that ten years of revenue to you today to supply them the data, and again, it's all a speed thing. Yes, Eleven Labs or, you know, OpenAI can go and make a team that will get the data, but they don't wanna manage it, and so the data is key. All this like, you need all three things. You need compute, you need data, and you need a team that writes great products, and ideally, you need users that use you a lot and allow them to have a feedback loop of whether the stuff is good or not. So benchmarking.
+
+And so for me, when I was doing the as a venture investor, we do outcome scenario planning, which is the most bullshit exercise to pretend like you're smart predicting the future. We do it because, you know, it makes us feel important. But, you know, they've predominantly sell to Frontier Labs today, and that's where 90% of their revenue is from. With the rise of specialized models on a per company basis with their own data, I believe that you move that customer base from purely frontier labs to every large scale enterprise who needs supplemental data. If that is the case, how bigger outcome is the data marketplace?
+
+So the first problem to understand about the data marketplace is it's not ARR. Right? It's not annual recurring revenue. It's one time deals every single time. So the buyer of the data is not required to buy it from you again.
+
+So it's a very risky business. And if you look at early days of companies like Mercor, they didn't raise significant funding off the bat because investors were very skittish about that fact. Let's put that aside. Well, very important. The t's are crossed and i's are dotted about how you got that data.
+
+You need to indemnify the companies who are using you, and that's part of why they buy it from you as opposed to sourcing it themselves. Right? We've seen the lawsuits, but it's a great business. And if you could do it well, but, like, you need to be an ops monster. Like, you need to be really, really good at operations.
+
+You need to be very fast, and really, the key is the company training on your data needs to actually see improvements in their model at the end of the day. The thing that has always been challenging for speechifying compared to other companies is b to c comps customers pay a lot less than b to b customers. So Eleven Labs, huge credit to them, leapfrogged us because they sell to b two b. Well, historically, we've only sold it to b two c. And so our big constraint is we need to do this on a cost basis of it needed to cost us less than $10 per million characters.
+
+Eleven charges a $100 per million characters. The OpenAI model and the benchmarks cost a $196 per million characters. So ours, when we sell it to other b to b companies now, we just launched our API, Simba 3.2, it costs $10 per million characters. Dude, I am I'm too old to not ask the painful questions, and I think the joy is the more you ask them and kind of less, you know, worried you are about asking. You said 11 labs kind of leapfrogged you.
+
+Is that on you for not doing B2B? 100% is on me. 100% is on me. It's the biggest strategic mistake I made in the history of speech of fire. How do you reflect on that?
+
+So I met Piotrk and Matti. I was living in London at the time in my house in London. I think it was 2022, and we were very impressed by them. And we wanted to use the model, by the way. It was just too expensive for us to use.
+
+And I looked at it, and my thought to myself was, they're very smart. They're gonna do well, but I don't like their strategy because I think that an API for Texas feature will become commoditized with time. You're gonna get to the point that you can run that API on your computer and then on your phone, and then, like, what are they selling anymore? So I don't wanna go into that business, and I made a critical error. What I didn't understand is that the point of an AI lab like Speechify or like Eleven Labs is to continuously innovate, and the first product that you release is your wedge that gets other people to then later use your other technology.
+
+So for example, if you're in text to speech, you build the best text to speech model in the world for one specific voice. Cool. Well, now you can do other voices. Now you can add emotional prosody. Now you can add voice cloning.
+
+Now you can add speech to text. Now you be build duplex models where it makes the ah, laughter, interruption handling, turn taking. You add a harness for voice conversations, then you optimize it for sales, and you optimize it for customer support, and you optimize it for all these things. And so what they did is they first built an amazing API. They were great at launches.
+
+They built a really great product for creators. Then they built their best product ever, which was agents. Agents is amazing because the buyer is no longer a software engineer. The buyer is a CTO, CIO, CEO, executive in the company. Sierra has this concept called outcome based pricing.
+
+Brett Taylor is amazing. And so you can start finding the outcome, and having a AI agent is like having an AI coworker. But it was my mistake to think that an API product was a bad strategy because I thought it was something that would become commoditizable, and I forgot the central thesis about Silicon Valley, which is constantly innovate. Get the user to start using your product. I don't care if it's free, then you sell them other things.
+
+So And that was my big, big, big mistake. How possible do you think it is? I think people underestimate the complexity of building out a b to b GTM. Super hard. I think it's a strategic mistake for Speechify to go to b to b.
+
+Tell me your position. You are now competing against Eleven Labs and Sierra, and those two are competing. Whether they like to admit it or not, they absolutely are competing, and then they will. I'm I'm sure if you ask them off camera. That's Brett Taylor.
+
+Yeah. You don't wanna compete against Brett Fuck it. I don't wanna compete against Brett Taylor. And that is the tidal wave of eleven Labs. Now Eleven Labs is an unstoppable machine at this point to the point where it has government buy in across all of the large major Western democracies.
+
+Actually, it's insane the government buy in they have, and they started three months ago. I I You just said the key thing. They started three months ago. Yeah. And So you know the graph of opening But I think they've reached a tipping point where actually they've just taken the market.
+
+I think Sierra are running behind them chasing, and they're doing a decent job of it, but they've got Brett and they've got Sequoia and Green Oaks and every royalty of Silicon Valley behind them. And they're still running behind chasing 11 Labs with Sequoia kind of pretending to be neutral because they're in both of them, which is incredibly challenging. And I I just think being third, the Postmates effect is never a good market to be in when I could be the dominant consumer brand that leads with a really different and compelling story. So here's the two things to consider. The first one is if you go to the App Store and you search text to speech, Speechify has 98% of the installs in text to speech for B2C.
+
+Speechify has served more than 770,000,000,000 words to users over the last few years, which in terms of times of listening, it's like six thousand years of listening. Right? If you go from today to zero BC and back, you still have, like, thousands of years left. So we've, like, completely dominated that market, and it's still a business that's growing really, really fast. And we're constantly adding more features into that product.
+
+The thing is we have a pretty big engineering team, and now everybody is capable of doing 10 x what they did before. So I have extra staff. I have a huge AI engineering team with ability to make amazing models. So, like, where is the highest ROI for that to go? Well, it needs to go both b to c, but it should also go b to b.
+
+And one thing that I will never be is a person who doesn't learn. I So might as well just freaking learn b to b. Now to your point about competing against giants like Sierra or eleven Labs, hey. Anthropic came into the market as a second to OpenAI, and they were second for a very long time, and now they're not second. Facebook came as a second to and now and MySpace, and now they're not second.
+
+And so the nice part is this space is not a monopolistic space. It's an oligapical space. And if you look at what happened with eleven Labs, I'm gonna exclude Sierra because Bret Taylor effect is huge, it's just amazing to see how good of a business that is. And so it might very well be that for the core offering that they're currently winning on, I will not win. But what did I learn last time?
+
+It's fine if I offer my product essentially for free because I'm an AI research lab. And as long as people start to use me, with time, I'll be embedded in the system, and I'll keep coming out with more and more and more innovations that are useful to them. And so there's unbelievable demand from all these companies and governments and everybody else for great tools, whether they be AI agents or APIs or products. I just wanna be on your phone if you're a user or in your stack if you're a company and supply you with the best front deploy engineer experience and AI orchestration experience and API experience to give you an amazing experience, and there's room for everybody. I agree there's room for everybody.
+
+Value accrues to top one platform. I agree. I think, you know, it's kind of like the inference market where Fireworks will be a multi $100,000,000,000 company. And then, like, I think in January, based on, it'll be a $100,000,000,000 company, and then together and a load of the others will be 50, which is amazing. It is completely huge.
+
+Huge, hugely amazing, valuable companies. But you would then think that OpenAI would be the place where value accrues for voice AI, right? That's what you would have thought three years ago, and that's not what ended up happening. So you can't not go into the race because there's a big incumbent. Well, I think with all candor, that's because of incredibly poor management.
+
+I agree. But that's the thing. Hiring, and I that that was theirs to take, and they've fumbled the bag And across every every company in the world, no matter how exceptional the leadership team is, niches get fumbled. Right? So voice AI was a niche for OpenAI.
+
+Right? LLMs were the core, and by the way, they also fumbled AI coding. Now they're trying to cash because it's such a big space. All respect to Piotr and Matthi, I think they're absolutely amazing, and I love working adjacently to them. Just don't think they're gonna fumble back.
+
+That's my troubles But are in they have so much in their net right now, and so much is getting added to the net constantly. That's true. And so you just you have to go where the football is going. Yeah. And so I think that it's too expensive for speechifying not to be playing in B2B as well as playing in B2C.
+
+The best way to lose is not to be in the race. Be in the race. In terms of the products that we built, were chatting earlier. You said that every startup, say, has to be a compound startup. Can you talk to me about that and how you think about that?
+
+It's not that every startup has to be a compound startup. It's at a certain point you can't afford not to be that. Do you not think there are a few companies that are just absolutely fucking running rings around everyone else? Yeah. Absolutely.
+
+Those are the winners. Right? Eleven Labs is an example. Anthropic is an example. Ramp is an example.
+
+Speetify is an example. All the companies that have absolutely maniacal leadership teams and engineering teams, like, that's why people care about team more than almost anything else. Because the right team will iterate fast, get there, and then figure it out. And now when everything can be turned into a reinforcement learning problem where you can have long horizon agents and orchestrating agents thinking about the problem for, like, two weeks at a time, if you set that up, of course, you're gonna win. I got into a lot of trouble as I always do with most of my social posts.
+
+I used to be quite a sweet little boy, actually. Never really. I used to be like the Harry Potter of venture capital, and now I'm more Yeah. You lost the glasses. Lost the glasses, and it kinda became more like Piers Morgan, you know Piers Morgan in The UK.
+
+Highly very opinionated. But a question that I have is, like, I said, if you're a startup, it's never been harder to hire great talent. OpenAI and Anthropic have such a carrot reward mechanism in front of you, especially with impending IPOs that the best talent just wants to go there, and talent follows talent. You're seeing the fucking founder of Monzo, a multibillion dollar bank in The UK go there from YC as a partner. Matt Clifford, the founder of EF, which is a multibillion dollar company.
+
+I mean, he should be fucking prime minister, and he's going to join Anthropic. Am I wrong that this is the hardest time ever for startups to hire because the prizes of Anthropic and OpenAI are so great? My favorite type of person to hire is a CTO of another company. We have well, we were 21 people at Speechify. 18 of the folks at the company were previously either CEO, CTO, or VP of engineering of the last company.
+
+Anthropic, I have never seen a company like this, hires so many CTOs of publicly traded companies and other successful startups. Workday, one of them. The reason is they build the they build the best, most beloved product for engineers in the history of the world. So it's easy to hire CTOs. By the way, they hire much more CTOs than CEOs because CTOs are the ones who get the most excited about this product.
+
+And, like, you're right. They're the fastest growing company ever, especially at the scale of the art. So they're gonna keep growing. You had this, like, very condensed period, like fireworks of growth in both of those companies. Yeah.
+
+It's very hard to hire, but remember, they're hiring people that their annual compensation needs to be $15,000,000 a year minimum. What startup is hiring someone and paying them $15,000,000 a year? You're not. Like, dear seed founder, that was not something that you are going to hire, and so I will push back against it. The competition for growth stage companies hiring exceptional leadership talent is more difficult.
+
+For seed companies, I would say it's the easiest time ever because the impact of even just the founder on their own is bigger because they can orchestrate agents, but the same thing for hiring. So one thing that we have changed about our hiring in the last even six months, we really cared that you read a ton of textbooks about software engineering and that your handcrafted code was amazing. I still care that you read a lot of textbooks about software engineering and you understand it. But the thing I care about the most today is technical aptitude and just, like, raw technical intelligence, because I know that we could teach you everything else. In six months, you could be a machine.
+
+And so we hire a lot of Math Olympiads and LeetCoders, Kaggle award winners, and people who, like, studied physics and math. Like, they might have even not coded before, because I just need the hunger and the work ethic and the intelligence. Anyone can become so good so fast now. And so the pool for hiring exceptional talent is bigger than ever before, and Duolingo did this really well. They love hiring college grads and coaching them.
+
+And so I wouldn't say that it's harder to hire an error before for seed companies. Seed companies now, almost anyone can be someone that you hire if they're smart and hardworking because you could teach them very fast. What is more challenging to hire is for growth companies because you're fighting with just absolute juggernauts. And you're not a growth company. So it's challenging for us.
+
+Why do you think it's hard to hire a really good salesperson? I totally get that, and I completely agree. I will see CRO packages in the 50,000,000 plus range, by way. Yeah. Exactly.
+
+$15.15 is like kids play. Hire how do By the way, the greatest of respects, I will even see $15,000,000 on the table for comp packages for seed companies today. That that is that is the dislocation that I think with the greatest of respect Wait. Wait. Sorry.
+
+Sorry. But it's so this is a seed company that's has how has raised how much money at what evaluation? I mean, you gotta understand the seed round say it would be 150, 200,000,000. And And there are several of them. I mean, there's thirty, forty companies that, at seed, have raised a 100 to 300,000,000.
+
+And this is a company of, like, a guy who's, like, one year out of university? No. No. No. This is a guy who's probably spent four years at OpenAI or spent four years at the moment.
+
+The company that's, like, you know, the guy who's been in university for, like, two, three, four years and now they're starting a company? Or do you think that those people are out of the water now? No. I I think that that's just a very different world. And so, yeah, they'll they'll raise $10,000,000 seed rounds.
+
+Yeah. Yeah. So for the company that you just described, they raised the seed round at a 150 valuation, and they raised, I don't know, $20,000,000? No. I said it was a 150,000,000 raise.
+
+Oh, I wouldn't call that a seed round. Maybe maybe that's the name. But my point is and that that's my point, though, which is, like, the talent is concentrated. The people who really fucking get AI and systems and have seen the magic inside OpenAI and Thropy. Yeah.
+
+I agree with you that if you have a company that's raised a $150,000,000 But there's a lot of $2,000,000,000 valuation, definitely that company should give $15,000,000 comp package. And there's a lot of them. Yeah. That makes perfect sense. And there but there's a lot of them.
+
+There's 30. And so and those 30 take 30 people, and there is a thousand people now. And that is fucking hard. And so but what you just described is exactly what used to happen with Google and Meta, let's call it six years ago, which is if you were really cracked, there was essentially a maximum amount that you can get paid at a company like Google or Meta. And the best way for you to make a life changing amount of money is to go to a company that is small and ride from the beginning all the way through and be a really solid founding engineer of that company.
+
+Think people want more certainty of cash today than upside, which sounds No. I I think that the equation is the same as always, which is each person has their own equation in their head of how much certainty and how much risk they're willing to take. Mhmm. It hasn't changed. It's the say humans are still humans.
+
+But I think people would rather know that the certainty of a $10,000,000 from Anthropic versus a 60 from that quirky start up they could make. This is the reason why companies IPO. There's two reasons. Either you want a ton of money or you want a lot of credibility in b two b like Zoom did, or you're hiring, and the value of the package that you offer is so much better when your stock is liquid. When we look at that dev team for you today, you said, hey.
+
+I wanted to go in. I wanna see how we're orchestrating agents. What did you find? What did you learn in that discovery process around agent orchestration internally? So inside of our AI research team, everybody's orchestrating agents.
+
+It's when you go lower, if you go then into the product facing things that we build, for example, the platform team or the iOS team or the Mac team or the Chrome team or the web team or the Android team, these are super smart folks who have been working in those domains for, like, ten years, and they know iOS like the back of their hand. They know Kotlin, Jetray brains like the back of their hand. And so it's very easy for them to hand code things because you're not dealing with something that's, like, super, super new. So why change? It's hard to change.
+
+Right? And so you just need to force them to change. So one, the best thing is to inspire. So you do a Zoom screen share, and you show them how the best engineer in the team is orchestrating agent. And they're like, oh, wow.
+
+I didn't know you could even do that. And then you go, yeah. Like, please do it. You recommend blog posts for them to read, books for them to read, Twitter threads for the amazing. CallCode, CarSocode, Codec.
+
+Cursor and CloudCode. Those are the two most popular. Yeah. It's a little bit of Codex usage. It's not that big.
+
+I would say CloudCode is number one, then Cursor, then Codex. We want you to use as many tokens as possible in whatever harness way is the best for you. You mentioned linear. Linear is amazing. Like, automatically cutting tickets from linear is fantastic, and just, like, being able to go into your agents and be like, okay.
+
+I have these, like, six linear tickets. Start on them. And then really a good engineer today is just an exceptional QA. The AI will make them feature. You will test the feature, see if it's good.
+
+You'll figure out where the edge cases are. You'll prompt it to fix it, and then you try to make it as efficient as possible, which is hard to do. And then you need to make essentially, like, you know, roughly 10 really good product and engineering architecture decisions a day. How do you think about token allocation internally? You know, we we've seen leaderboards be used, which is, I think, the most fucked up form of incentive kind of playing.
+
+You don't wanna prevent There's a lot of people who are a lot of talk, and I'll ask for examples, and I'll read the examples, and like, you know, I'm doing this, I'm doing this, I'm doing this, and doing this, and look, and I'm like, And so I think about it in terms of demos. Can we hop on a Zoom call, and you'll show me what you built, and then I use it myself, and I'm like, wow, that's amazing. Or you send me a screen recording of a feature or technology that you built, and I'm like, That's so good. And so we give credit when things get shipped to production to users. So even inside of the AI team, if you build a really amaze and this is part of why Speechify ended up winning.
+
+Asked, how did you build bigger labs? The answer is we ship to production all the time. That's how we won. We are not in the theory space. We are an applied AI company.
+
+That's why we win. And so if you're an engineer at Speechify, the analogy I always give people is imagine that you are in the milk delivery business, and you make me a beautiful bottle of milk, and you leave it down the road. The milk will spoil. You have to get it to my door. Knock.
+
+If you didn't do that, you get no credit. If you carry the football all the way to the line, but you don't cross over to the end zone, if you don't kick it into the goal, you get no credit. You bring the ball just to the rim, you don't put it in the rim, you get no credit. And in the rim means push to production with no bugs, and users are actually using it. And then we get feedback.
+
+How many companies do that iteration cycle fast? Almost no one. Definitely not with the user base number that Speechify has. And so in the AI team at Speechify, you make some amazing discovery. We're like, great.
+
+Push it to production. And then you go, oh, wait. There's this QA problem and this QA problem. And if you have this many people use it on the AI serving layer, then you have this other issue. Cool.
+
+You get no credit from me. It's not in production. I can't use it on my phone. When I can use it on my phone, I will give you credit. And so this morning actually, not yesterday.
+
+Yesterday, I had a call with our AI engineering team, I said, listen. The products that we have running for Duplex models and for AI conversational harnesses is something I'm really excited about. And it's been moving fast. I want it to move faster. Here's, like, 14 notes that I want.
+
+And then what I do always is I'm on a Zoom call. I flip my computer around to face my phone, and and I use the product in front of them, and we record it. And so then they see all the bugs, and then I send the recording in the chat. Someone on our team, he's 19 years old, sent me a demo this morning off of that conversation that solved all of my problems. And he was like, hey.
+
+I was waiting for, like, three training runs to finish, so I had a little bit of time while I was waiting. So I implemented everything that you asked, and it blew my mind. It was so good. That's using AI correctly. So it's not a token leaderboard.
+
+It's what did you show in production that was good. How many companies do you think are actually as token pilled AI centric as we think in terms of devs? I think there's a guy, Jason Yeager, who used to work at Speechify, and now he has my tech CEO on Instagram. He's super funny. And so he makes a lot of videos about, like, you know, crazy CEOs who all use tokens, use tokens.
+
+I think all founders in some way have that animal inside of them because you know that it's the right path. But there is a difference between reality and theory, and you need to make sure that you don't overdo it. Do have any price sensitivity on token? Yeah. Of course.
+
+Absolutely. I mean, I'll lose my mind if to implement a tiny feature, you use 50,000 tokens. Like, why did you do that? And, like, we will let people go if they just go bananas with something for no reason. Are you able to accurately budget tokens on a Not accurately, but within bounds.
+
+Yeah. The other thing is, like, a lot of engineers are look. You go into engineering because you like optimization. Most engineers are not blind, and it physically hurts them to overspend tokens. And I again, I always think that the best way to interact with AI is you are chatting in the chat or actually doing it verbally, you're essentially pseudo coding with your words constantly, and you're explaining architecture.
+
+And a great example would be, I know someone who has no engineering background, and they wanted to build an app, and they built exactly what they wanted. Took them two hours, but they needed an API call, and they need to scrape this website. And they basically scraped every single page of the website, every single part of the website, and so the bill that they got for the scraping was gigantic. And then I was like, why are you doing like that like that? Why aren't you going into the database to this exact URL and then scraping that from the URL?
+
+So the amount of nodes they needed to hit became like 20 instead of 25,000, and so an engineer will spend their time making sure that the thing is optimized like that. So that's how you build like a good database or a good architecture system, whatever. You do the same thing when you're interfacing with the agent. You want the agent to take the path of least resistance, not the path of most resistance. Totally get that and agree with you.
+
+I think one of the biggest problems is that agents are goal seeking, and so they are like It's all about the target. You need to be good at picking the right target, and I think Anthropic published this paper when Fable one came out about long horizon tasks with Fable. So the first thing is it was much better at, like, running a two week task, and it could burn $12,500 worth of tokens in two weeks and basically make a better model with that. That's a perfect amazing way of using tokens. That's exactly what you want.
+
+And what you don't want is burning 12,000 tokens in the span of five hours doing something that's, like, totally unnecessary and doesn't make any sense. You need the loops to happen, and then you need to check the result. So what you wanna build, and Boris, who's the mess inventor of Claude Coe talks about this all the time, it's all about the loop. You say, here is the target. Here's how you measure the target.
+
+Now iterate against the target over and over and over again until you get it. What did you not know about building an AI centric dev team that you wish you had known? How useful is it to own your own GPUs? What was the realization moment? Just did you see a bit of one there?
+
+The realization moment was when we realized that we had really talented engineers who were essentially moving at one seventh of the speed they could have if they had the compute one to one with their creativity and ideas. If you're a founder listening to this, how should I change my hiring process in a new AI world? Number one, functional interviews. Build this, and then you see if they can build the thing, and then you run it through unit tests. The second one is give them a large code base, even an open source repository, and have them understand the code base, make changes, and then check what they broke.
+
+And then, yeah, like, they have to be able to orchestrate agents well. And if they're not doing that, it's kinda not worth to have the person. Then then the next thing I'll say is it is more fun to have a smaller team. Having a big team is great as long as everyone's carrying their weight. But the way I kinda think about it is, yes, I can have multiple agents running on my computer, or I can have several Slack chats with really smart people who are bigger domain experts than I am.
+
+And, basically, that human being is the outcome owner for that task, and they have the agents. And so I can run as a founder multiple projects at the same time to a really amazing level of granularity. And so I think about moments earlier in the year where my brother Tyler would literally have an alarm to wake up at three in the morning because he needed to check what the agent was doing at three in the morning, and then you wake up, make sure it's good, go back to sleep. You want to babysit your agent basically every three hours, and the beautiful thing now is you can go work out, the and agent will tell you the answer, and then you, like, voice note back with Speechify what you wanted to do next, and, like, that'll happen. And so you want people who are essentially that level of addicted.
+
+Obviously, that creates massive AI fatigue, so make sure your teams don't burn out. But you want someone who is that level of excited. And so I think hiring for slope more than intercept is more important today than ever before. Said another way, I look for the potential the person has more than I look for where they are today. When I look at Whisperflow and Willow and I did this tweet, And I deleted it because I don't ever wanna be sarc y and miserable.
+
+And it's an amazing thing to build a company. You should be incredibly, you know, credited for doing so as an entrepreneur. But I found Whisperflow's product was just getting worse. And I said it on Twitter just because I honestly just wanted alternatives. I I I really need this product, and I wanted alternatives.
+
+I got 500 different alternatives. And I was like, well, talk about the commoditization of a market. That is not one that I wanna be in. Can you help me understand? Are we seeing the complete commoditization of that Whisper Flow Willow speech to text for productivity?
+
+What they came out to the market with first was not necessarily their own model. Part of the reason they got worse is they switched their own model because it's a lot more affordable. And so they had a harness that ties together a bunch of other things. Probably, it was DeepL under the or Deepgram under the hood with a bunch of optimizations. Now they're trying to do notes, and they're trying to move more into And think they're being successful with it.
+
+Yeah. A 100%. Yeah. So that that, like, that's to your point with the compound startup. One of my biggest metrics look at them, do you not reflect on your we said before, not announcing fundraisers, not announcing anything?
+
+They're announcing anything. They're They're announcing anything. Bathroom. Correct. And hence, they have a, I would say, a bigger brand.
+
+Not in terms of users. Like, if you walk down the street in New York City, way more people will know Speechify than know WhisperFlow just by virtue of the fact we have way more users. But in the tech world, way bigger brand. Right? Investors know who WhisperFlow is because they announce.
+
+We intentionally don't announce, but we don't have any competitors. Are you gonna use instead of Speechify to do text to speech for your models? Like, the closest thing is Eleven Labs, we're, like, so much bigger than Eleven Labs. We are unique in our market. So because WhisperFlow was so public about it, they now have a lot of competition.
+
+And so Peter Thiel, only losers compete, try to not compete. What happens that market? WhisperFlo tape majority and then there's thousands of ankle biters? I don't know. I mean, I wanna be in that market.
+
+Right? I I think that market becomes oligopolitical as well. And this, by the way, I think it's another mistake that I made. I built my own speech to text experience that I've been using on my computer for the last, like, seven years, sideloaded on my iPhone and on my computer, but I figured it's a commoditized product. Right?
+
+Apple's gonna release it instead of the button. It'll be great, and, like, there you go. But Apple keeps not doing it. If you remember two years ago, Apple announced a partnership with ChatGPT that will improve Siri. Nothing happened.
+
+And so that's also the reason why I never went after Siri. And so now we've launched a product to compete with Siri, and we've launched a product to compete with WhisperFlow, and we launched a product to compete with open with 11labs because I learned a lesson that I should have learned before, which is the same lesson from 11. The way that you win is you offer an excel excellent product for free, and then you have a wedge, and then you add more and more and more things. And so I don't know what happens with the WhisperFlow space. I just know that if you're a founder, you should also always try.
+
+Final one. Another one that I get in trouble for, but I I stand by strongly is I just think the customer support market's a challenging market to really get behind. Yeah. You have Sierra and Dec on out in front with the majority of funding and attention. But to say that there are 18 companies that have now raised over a 100,000,000 in the last eighteen months, there is kind of what I call, like, the mid tier, which is like your intercoms and your talk desks and your crescendos, all these ones.
+
+Whereas, you know, they're not old, but they're old enough. Yeah. Eight to ten years old, and they're pretty good. Yeah. And then you've got Salesforce, Atlassian, and the much older ones.
+
+And then the worst thing about this market is that for any sophisticated buyer, an Airwallex, a Klarna, a Navan, a technology facing company, everyone has built their own Yes. Because they need a sophisticated Of course, why would you pay a tax for it? What am I missing? Yeah. So the first thing you're missing is the core product that we're offering b two b is the API, not the agents.
+
+Right? So Sierra doesn't have their own model team. They use other people's models because the value of Sierra is the go to market. It's Bret Taylor. And so that's why if you talk to Monte and Piotrk, they'll tell you we're not competitive with Sierra because their main business historically has been the API.
+
+So that's the first thing. In the API business, you have Speechify, Eleven Labs, Gemini, Grok, so SpaceX is now in the race, and that's kind of it. And so that's not that competitive of a space compared to, yeah, the b to b customer support thing. Everybody's in that space. Finn, everybody.
+
+I'm not building that product. What can I offer you that's 10 x better than the next person? Not much. And so in the core API side, I can offer you better quality, faster speed, and 10 x cheaper. Good offering.
+
+But then I have to also offer agents because there are so many pockets of value that have not been unlocked. And unless I am again, I have this model for leadership. You don't want to be a fat manager 's like a general sitting in the back saying, take that hill. You want to be the warrior who runs up with their sword and engages the enemy first. You need to be the same thing with your product.
+
+You need to be the number one user of your B2C product, and you need to help your customers use your product better. And if do you that, you will learn their problems, and then you will figure out what the next product is that you need to offer them. So unless I have front deployed engineers working with my b to b customers, building agents for them using our technology, I will not figure out what the really amazing next innovation across the hill is. So you mentioned the right thing, which is Eleven Labs now has all these partnerships with governments. Governments is not exactly customer support.
+
+They would have never gotten to governments had they not done a great job on the private sector first. I agree. Eleven Labs is, in addition to OpenAI, is the most integrated company right now, AI company with governments. That means they figured something out, but you gotta start in something like customer support. Again, if you're a founder, you need to try.
+
+You cannot not try. You cannot give up before you're even in the race. What will be a bigger company in five years, Sierra or Avalanche? I think they're both both gonna be massive. Give me one name.
+
+Brett Taylor has the best resume, I think, of anyone in the world. Right? I think he started Google Maps, then he was CTO of Meta, then he was co CEO of Salesforce. He's on the board of OpenAI, and now he founded Sierra. I would never try to fight Brett Taylor.
+
+And I think the field is so large. Like, we don't understand how big the space for AI agents is. Like, not even like, AI voice agents, not even close, in the same way that people didn't understand how big the field was for LLMs in 02/2019, and the same way people didn't understand how big the space was for AI coding agents in 2021. Like, this is the next huge space. And so both those companies are going to be massive.
+
+They're playing very different games. Alright. I think I think Brad Taylor's actually trying to recreate the next generation of Salesforce. He is absolutely not playing the customer support game. He's moving to to presales.
+
+Everything. He's moving post sales. But neither is Eleven Labs. Eleven Labs has a product that also does too. That's why I call it AI agents, not customer support.
+
+But I think Magic Labs now a a very opinionated voice centric company. Voice Oh, you think Brett Taylor is doing all of it. Put another way, if you use a tool like Sierra, the wedge right now is voice, but the important part is tool calling. Eleven Labs lets you do some tool calling, but that's not the bread and butter. There was a really good presentation that Brett Taylor did a screen share of him building a guitar store on Shopify and how he uses Sierra to do customer support and sales and everything else.
+
+It was extremely impressive. If you haven't searched this, you should choose this. Brett Taylor is a big guitar guy. That is a very different product than what Level Up is And so they're both going to crush. I agree with you on the Sierra conclusion.
+
+What today is no. And in five years time, we'll be like, yeah, of course. Human computer interface is going to become primarily voice as opposed to a screen. So part of the reason why Google succeeded, it's is a very simple interface. There's a text box and a button.
+
+That's it. Anyone can learn how to use it. The reason why ChatGPT worked as opposed to GPT three is because it was also a very simple interface, just chat. There's a text box and a button. You get a response.
+
+That's it. The simpler version of that is just having a conversation. I say something. I hear something in response. If you use voice AI from ChatGPT right now, it sucks.
+
+It's too slow. The LLM is much dumber than the core LLM. The escalation to the higher quality LLM is pretty weak. I think what will happen, and Meta has the right idea, by the way, so go Chris Cox, is people are going to be talking to their computer and phone and some wearable constantly throughout the day and using screens a lot less. You can buy one SpaceX or Meta.
+
+Which do buy? Meta. Why? Elon's distracted. Is he distracted, or is he building full stack?
+
+Because, actually, I think he's never been more strategically positioned, and he has an outlet for each of the different products that he's built, and each one feeds the next. When you look at Zuck and Meta, you know, bluntly, the compute spend that he's producing, the outlet is increased conversion on an ads business, which is the biggest ads business in the world. So 7% on $240,000,000,000 is a lot of fucking money. Yeah. But it's actually not in the same quantum league as doing space data centers.
+
+Yeah. So let's take the space data centers out for a second. I think the space data centers is a very interesting idea, and what it does really well is it lets me underwrite a gigantic TAM for my expectations. Estimates. Right?
+
+And so that's that was a great rabbit out of the hat by Elon in order to pitch investors really well. Let's take that out for a second, and I'm going to talk to you about SpaceX and Tesla like they're one company, because, really, I'm assessing Elon. I'm not assessing every like, you know, SpaceX is an individual stock. For data centers, the biggest constraint right now is memory cards, and then very soon, it's going to be energy, and it's energy a lot of the times. So what do you need for energy?
+
+You need energy supply, and you need energy storage. And so the best energy storage right now actually comes from Tesla. Tesla also has a chip manufacturer that they're doing, basically competing with everyone else. That's gonna do really well. And if you saw that Joe Rogan interview with Elon maybe two years ago, he was explaining that the hard part is not building the product.
+
+The hard part is building the manufacturing for the physical product. So Elon is number one in the world for manufacturing complex items like that. That's very exciting. And so the TAM for Elon's companies are bigger. However, I think the Meta trades what is Meta trade at right now?
+
+Less than SpaceX? It's less than SpaceX. It's fucking so I I think Meta has more data than anybody else in the world. I think Meta is actually super hampered by laws like GDPR. Like, if GDPR didn't exist and the other laws in The US didn't exist, Meta would be ripping.
+
+They just can't train on their data properly. And so they'll figure that out at some point in some way. I don't know how, but I believe in Zuck. And at the end of the day, I'm a huge believer in founder led companies. And so both, we're talking about two of the best founders in the world, and the last thing I'll say, look at Zuck's age and look at Elon's age, and Zuck's not gonna stop and Elon's not gonna stop.
+
+But at a certain point, one of them will expire, and so Zuck has, like, twenty extra years. And so depending on how long you're investing, I'm younger than Zuck. Let's see what happens. I think if Zuck expired Meta's dead. If Zuck expired, Meta's stock price would increase.
+
+What? I disagree completely. No. Because you'd have a CEO who comes in and understands, and this may be a short term. Yeah.
+
+But they're saying we're gonna invest more and more and more and more and more more and more in CapEx Yeah. When we don't have an outlet for it Yeah. You'd actually see a stock price appreciation in the short term. Every time Zuck steps out on the podium and says CapEx, CapEx, CapEx, he's, like, fucking hammered for it. Saying you're gonna why Meta is a good investment right now because what Meta doesn't have is what Palantir has, which Palantir has the Alex Karp effect.
+
+Alex is really good at pumping up the PE ratio of the stock, and Zuck, I agree, is the opposite. Same as Elon. Same as Elon. Exactly. If Elon were to be removed, intrinsic value of that.
+
+If Zart is removed, you definitely don't lose 70%. You maybe lose I don't think you lose anything. Think you get an experienced exec in who says we're an out of business. Charlie Munger and Warren Buffett, Actually, It's Benjamin Graham has this concept of the cigar bot. Right?
+
+Like, what's the intrinsic value of a company? And they approach it from an accounting perspective. I think about it as from an underlying technology and business perspective. So the underlying asset, the intrinsic value of Meta is so large in relation to how it's valued in the market today, and you're correct. What's the PE ratio of Meta?
+
+32? Something like that? And SpaceX is insane. Tesla is also in multiple hundreds. I think that there has to be a correction that happened unless Elon succeeds with a big, big, big, big, big vision, in which case, then he wins.
+
+What are you most excited by? I'm most excited by applications of AI to pharmacology and biology. I have a family member who has very severe autoimmune neuroinflammation. He's had it for six years. I took a blood sample from him every week for fifteen weeks, sent it to a lab, sequenced his genome, did proteomics on it to figure out how the proteins are expressing in the body, and run an RNA analysis in each one of those weeks.
+
+And then I compared that to self reporting data on what the quality of life is and what his mood effect was. Every day I have, like, six years worth of data on him and ran it on a GPU cluster. And, like, I found so many things that no doctor could ever tell me, and he has a very rare disease. It was called an like an orphan disease because there's not that many people. There's a Facebook group for this disease.
+
+I'm buying now, basically, like, you know, it's like a $5,000 device you can fit in your pocket. But if you put a piece of hair or saliva or blood into it, it can sequence your entire genome. And so I'm organizing meetups with all the people who have this disease to sequence all of their genomes and then compare them all on a gigantic GPU cluster to figure out what epigenetic common thread there is between them, and I am I know I'm gonna solve this disease. I would have never had an edge to do that in the past, and like it gets even more beautiful because I can then take all the conclusions that I have about it and put it into alpha fold from isomorphic, and I can design not just the protein that is creating these issues, but I can design the molecule that needs to bind to that protein to either turn it on or off. I can use CRISPR to do the same thing.
+
+I can use a lab like Twist where I can tell it I want you to make me this RNA sequence or this DNA sequence, and it can make it for me and ship it to my lab or my house, and I can create amazing outcomes with it, and I can simulate all of it on my computer that's SSHed into my GPU cluster in Scottsdale, Arizona, and I could cure my brother. And so my experience is I'm a kid who when I was eight year olds old, I couldn't learn how to read. And my dad had to open a book and read Harry Potter to me, and that's how I learned how to read. And then when I was 13, I moved to The United States Of America, and I didn't speak English. I And listened to Harry Potter audiobooks 22 times in a row, and I still had the first chapter memorized.
+
+And then I couldn't get into the private high school that my brother went to and then my sister went to, and I was really bummed. I went to, like, you know, a lower quality high school, whatever. And I didn't get into APUS history because I made a bunch of spelling mistakes in my essay and I couldn't read the passage in time, and I needed to train myself to read the SAT English portion. I wouldn't read the passage. I would read the answers and then I'd go and hunt for the answer, and then when I got to college somehow by the grace of God I ended up going to Brown and like starting a major for renewable energy engineering because I couldn't do literature, and I built a text to speech tool that would read out all my books to me, and that's why I graduated.
+
+Technology solved my dyslexia, it solved my ADHD, and it's going to solve my brother's disease, and it's already solved my dad's prostate cancer, because I figured out with a bunch of help from other people how to use GPUs to identify where in his body the lesion was. That's what I'm excited for, is there's better quality of life for literally everybody, because you have this magical machine that can run a trillion operations per second on as many GPUs as you want, and it can solve problems that we can't. I find it staggering that still today we have orphan diseases, which is like, oh, there's too few people to make it economically viable for us to try and solve. And there are hundreds, thousands, low thousands, but low thousands. Again, it's the same thing.
+
+You just need data, you need compute, and you need to ask good questions. Like I said, 10 good decisions per day, either hypotheses or actual product decisions, and you can solve these problems. Freaking amazing. Cliff, it's been so great to have you on the show. I I much prefer it when it's a discussion.
+
+Talk to you soon. But before we leave you today, today I wanna tell you about how the first AI law firm, Crosby, helped us close a big sponsor. As you know, some of the biggest companies in the world advertise on 20 VC. My British dulcet tones clearly convert well. I was working to close this big sponsor, and they wanted to get through legal review quite quickly to close the deal.
+
+Crosby turned red lines around in three hours and caught major issues that would have caused us serious problems in the future. Crosby combines AI, some of the best engineers in the world from companies like Ramp and Stripe, and some of the best attorneys in the world from top 10 law firms. Customers get the best of both worlds. An elite human attorney reviews every contract, but they move incredibly quickly, returning red lines in under four hours. They help the fastest growing companies like Cognition, Ramp, and Clay close deals in hours, not weeks.
+
+Learn more at Crosby dot a I forward slash two zero v c. If you wanna redline NDAs, MSAs, DPAs, and any other procurement contracts faster, go to crosby.ai/20vc. It's speed that you can really trust. While Crosby keeps your numbers sharp, OneMind keeps your customer conversation sharper. Our friends over at OneMind have a hot take.
+
+The b to b GTM model we've been using for, well, the last twenty years, it's collapsing. Predictable revenue isn't so predictable, and buyers are just tired of explaining themselves at every handoff between SDRs, AEs, CSMs, and support. You feel it in your board reporting. Your sellers feel it in their coverage. Your buyers feel it as they wait for answers.
+
+Well, enter OneMind and their GTM superhumans. HubSpot, Alteryx, and ZoomInfo are just three of the tech companies using OneMind's superhumans to qualify buyers, ride along with sales reps, and coach customers. Whether you're ahead of target or under pressure to increase bookings ahead of hiring or behind on target even and need every rep to hit quota, OneMind is the solution. See for yourself at 1mind.com. That's One Mind, m I n d, dot com.
+
+While One Mind helps convert more buyers, AlphaSense helps you spot what matters next. We used AlphaSense on an investment that helped us close an $8,000,000 deal. $8,000,000, baby. That's a lot of money. That's why I'm genuinely excited to have them as a partner on 20 VC.
+
+AlphaSense combines AI with one of the world's deepest libraries of market intelligence, including expert interviews, broker research, earnings calls, company filings, and real time news. Every answer is grounded in this incredibly trusted evidence and fully traceable to the original source, which is so important. So you can make really high conviction decisions with confidence. But the best part, they're building super analyst and always on AI analyst. So instead of starting your day with another search, you'll start with work you already done, your coverage monitored, the important development surfaced, and your investment brief already waiting for you.
+
+See for yourself. Head to alphasense.com/20vc. That's alpha-

@@ -1,0 +1,811 @@
+You know that feeling. Too many updates, too many meetings, too many things falling through the cracks. Monday.com was built for that gap. The AI work platform designed from the ground up for people and agents to work side by side and deliver more together. Drafting the brief, flagging risks, running a competitive scan, your agent can do it all.
+
+And the best part, anyone can build one, even you. Try it. Create your first Monday agent today at monday.com. Excuses are easy. An epic movie night?
+
+We don't have enough snacks. Dinner party with the girls? We'd have to decorate. Surprise date night? Nothing to wear.
+
+But Amazon's Prime same day delivery lets you say yes before the moment slips away. Try that new popcorn maker. Order those cheeky drink glasses. Get that new perfume and turn that I wish we could into an I'm so glad we did. Visit amazon.com/prime to find millions of items delivered fast.
+
+Same day delivery. It's on Prime. Available in select areas. Terms apply. I'm Ina Garten.
+
+On my new podcast, happy hour with Ina, I'm inviting really interesting guests to join me for a drink and a fun conversation at my kitchen table in New York City. I'll be getting personal with chefs, actors, comedians, musicians, and writers I admire. So grab a snack, pull up a chair, and join us. Subscribe to Happy Hour with Ina on YouTube or wherever you get your podcasts. New episodes will be available every Wednesday starting September 16.
+
+Hello, welcome to Roadchast, the flagship podcast of the AGI era. We're in it. We were told that today by Greg Rockman. He's the main guy at OpenAI. It's a real thing we're gonna talk about today.
+
+I'm your friend, Eli. David Amelis here. What's up? I'm back. I'm happy to have you, man.
+
+You're you're like a star of the show. Everyone loves you. I'm trying to stay as long as I can. You know? Having a good time.
+
+Uh-uh. Don't throw me at that. You're never leaving that studio. You're gonna live there forever. I know.
+
+We have, like, an all star lineup today. Dom Preston and Jen Tuohy are gonna be here to do a lightning fast lightning round of all the gadgets from IFA. Joanna Stern is gonna join us to talk about the end of the Tim Cook era, the dawn of the John Turnus era, and the Apple event next week. And then we're gonna start with Hayden Field, talk about Open Eyes, Big News, our new model, and the dawn of the AJA era. But first, Travis is here to warn you about identity theft.
+
+Travis, what's going on? I choose to believe you looped me in with the all stars. Hey, now. You're an all star. You have a you have a dilemma.
+
+You have a warning. I'm gonna keep this short. Someone is impersonating me. I am one of the producers of the verge cast, and several people have reached out to me on LinkedIn to say that I, it's not me, have contacted them saying, do you wanna be on the verge cast? And then this leads to a phishing scheme.
+
+I have no way to fix this problem because it's happening from multiple accounts. It's happening on Twitter. It's happening on Telegram. I I so I'm just here on this platform to tell you, I'm not that proactive to be reaching out to people on Twitter all the time. It's probably not me.
+
+Yeah. The fact that this is happening through LinkedIn makes me think that they're trying to get you in a phishing scam. Well, it Could be. So curious. No.
+
+It's just people screenshotting. They send me the screenshots and and but I like I like what you're thinking. Also, person who's impersonating me, get in touch because, like, you're a hard worker. You know? Maybe we should have them on the show.
+
+Do you know it's not a person? Right? I just it it is one of the cheapest models running on a mid range Android phone in a server rack overseas. I'm open to that too. No.
+
+No. No. No. Yeah. So, anyway, I just wanted to put that out there.
+
+I am sorry if a fake me has reached out to you, listener or watcher of the Vergecast. I'm I'm sorry, but also it's not me. Be warned. Travis Larczyk will never offer you a spot in the merch store. Never.
+
+Never. Let's get that Gemini nano on the show. You'll know if it's me. I'll make some sort of heated rivalry or alias reference in my message. Now the AI phone knows what to do.
+
+Oh, no. I'll come up with something else. We'll come up with, like, a private key exchange system for Travis working on the It's gonna be great. Alright. I'm going to leave now.
+
+Alright. Don't be fooled by Travis reaching out to you to see you on the verge cast. It's a stern warning to everyone. Bye. Alright.
+
+That was great. Please be on the lookout for fake Travis and real Travis if you see him on the street. Hayden Field is here. Hayden. Hey.
+
+Great to be here. I am excited to talk to you because we were told earlier too that AGI is here. So it's a dawn of a new era. Yes. I was really surprised to hear him say that on the press call.
+
+And then later on, he kind of doubled down on it. He said, for me personally, you know, we're there. So, you know, I thought he was trying to hedge, but he believes that we've pretty much made it. Demes de Sabes have to no longer say we're in the foothills, but now we are at the mountaintop of the singularity? Yeah.
+
+We're gonna hear way more nature metaphors for hiking through the AGI landscape. Hey. Claude is great at that. You know, they use all those little butterflies and whatever clip art. And that's how they'd watermark your text with, like, flowery metaphors on AGI.
+
+Alright. Let's just start with the basics. OpenEye announced the new model today. Was kinda surprised. We've heard about Astra before.
+
+They just basically just upended it. Hayden, what's going on with the model itself? So, yeah, today they announced Astra, and we did know about it before. You know, we had heard rumblings of it, but we didn't really know what it would be or what it would really specialize in. So they called it a generational leap and capability for cybersecurity, professional work, software engineering, science, and computer and browser use.
+
+And they really harked on the computer and browser use thing. They kept saying like, it's not embarrassing anymore. It's not cringe to watch it do these things anymore. It can really do these things. And then they showed us a demo video during the press call of like all different types of knowledge workers using, you know, Astra via like a Chatuchipiti voice mode saying like, oh, can you draw me a yellow circle for like design work?
+
+Or can you like change this legal briefing if you're a lawyer? So it was interesting to see how much they're trying to, you know, really double down on this enterprise push, which makes sense because they're about to enter, you know, IPO time or, you know, depending on how the Apple lawsuit shakes out, I guess. But they're really being pressured to drive more revenue than ever before. So, you know, obviously enterprise and coding are the two, biggest drivers there they're going to try to lean into. But the problem is with the recent hugging face hack, obviously that probably dismantled a lot of enterprise trust.
+
+Like, oh, sorry, our model, you know, hacked a rival lab. And we had no idea about it until they told the public that that had happened. So, you know, I think that they're really doing some damage control here. And so that's why they, you know, held a press call even the day, a couple days before launching this model saying, we did a lot of work on alignment. We did a lot of work on cybersecurity safeguards.
+
+Here are the other things we're doing. It's kind of like a apology, post before even being, you know, they're trying to get ahead of the cancellation. Basically. Yeah. Did it feel like they worked with the government at all before this got released?
+
+Whatever happened to that whole era of, like, every single model has to be run through the government? Yes. They did do that. They said that, actually, Brockman said that, the Trump administration didn't have any changes them to make as far as safeguards or anything. So Oops.
+
+We're an AGI, and we're not making any changes. Yep. I mean, Altman has been out. He was on Alex's podcast saying that they really considered a hugging face incident to be the first AI safety lapse. Took it seriously.
+
+They're pausing model training. How is that connected to Astra? Is that the next model they're pausing training on? Is it Astra needed to get realigned? What happened there?
+
+They actually delayed the release of Astra by what I think is a few weeks or a month due to the hugging face thing. So they slowed down training. They stopped training altogether for a little while. Then they, apparently just, you know, really slowed down the release of it so they could run more tests, introduce more safeguards, things like that. They also introduced new evaluations where they kind of tested Astra on the types of things that GPT 5.6 Soul, would have failed at during the Hugging Face hack.
+
+Like they, did some Hugging Face hack specific evaluations to see kind of how Astra would act. And they Do you wanna hack hugging face? Yes or no? And so Astro was like, apparently, it never took the bait, whereas, like, GBT 5.6 Soul took the bait more than half the time, I believe. So it got yeah.
+
+Sure. It's a bigger deal if they hack NVIDIA now. So Yeah. You know? Yeah.
+
+We should come to this NVIDIA. It's confirmed that they're gonna buy Hugging Face, which is a big deal in the sort of competitive landscape of open models. And so let's say it's focused on Astra for for one turn. Astra is a model that did the they solve the unsolvable math problems. There's rumors that it was the model that was doing some other work.
+
+When you say they slowed down training and they came up with more evaluations, maybe I just don't understand enough. But Astra was complete, and it was, like, doing things. Was that while it was still training, or did they change the safeguards and the system prompts? They said that Astra wasn't the one that hacked Hugging Face. So they said it wasn't involved.
+
+Now, you know, I don't know which model was. Maybe another released unreleased model or maybe it's some other previous iteration of Astra and they're just not, they're saying technically Astra wasn't involved. We're not really sure, but all we know is that they said Astra did not hack Hugging Face. So basically the messaging is telling us they stopped training for a while. They delayed the release of Astra and they introduced a ton more safeguards despite it not being involved in the hack.
+
+Now maybe just this version of the model wasn't, or maybe it was a different unreleased model altogether. We're not really sure. What is truly called Astra is, like, the underlying root of this question. Was it the model in training, or is it the model we have now that was finished after the delay in the safeguards? But does it seem like the security community is happy with the safeguards is happy with these changes?
+
+As for the safeguards and the evaluations, it seems like it's a little bit too early to tell because people are just now starting to look at the paper and check it out. But what I can tell you is that the security community is extremely upset about this thing called opaque recurrence. So basically with alignment, which basically means how well an AI system is aligned with human goals and interests, like is it secretly scheming or trying to be evil? So with alignment, the biggest fool you have in your toolbox for making sure an AI model isn't like secretly evil is watching its chain of thought, which is like a mental scratch pad. It's kind of like if you had a journal and you wrote every single one of your thoughts in there and then someone else was like looking over your shoulder.
+
+It's kind of a similar situation. And so people are upset because apparently according to reports, OpenAI allowed Astra to obfuscate its chain of thought in kind of a way that humans can't understand. So essentially allowing it to hide the way it's really thinking, which is- Why would they do that? Yeah. Apparently it might've made it more efficient.
+
+We're not really sure, but there's a lot of, you know, think pieces coming out on this right now. There's a lot of Twitter threads by AI researchers talking about how worried they are about this. So that's the thing I'm watching right now. How worried all the people that I follow their research are about this specific thing. So, you know, whether the safety evaluations are good or whether they put a lot of locks on the cybersecurity stuff is one thing.
+
+But then the other matter is really just, are we able to control this model? And it looks like this is one thing that's really worrying people. Right. Can you see what it's doing? Robert Hart has a piece for us about all this.
+
+We'll link it in the show notes. At the very end, like, an OpenAI researcher is like, monitoring is fragile and unfortunately trending in a negative direction. And it's like, that's not good. Like, that doesn't seem good. That seems like the market for faster, more capable models is leading to techniques that implicate how how much you can monitor what they're actually doing because you want them to be faster, more efficient.
+
+You wanna make money ahead of your IPO. And that's where the industry should either regulate itself, which doesn't seem like it's happening or someone else should. But Astra seems like they're just doing it anyway. It could be that. I mean, it's it's also interesting because the chief scientist of OpenAI kind of got at this a little bit on their press call, you know, but a lot of what he said was, kind of grandiose statements like, you know, it's our job to make sure that, you know, AI benefits humanity, things like that.
+
+But you know, people are really worried about this opaque recurrence thing. And so all the external third party researchers that I follow have been really, you know, kind of trying to bring him to task about this and saying like, how can you think this is okay? And just, like, kind of calling for transparency from OpenAI, which is the same thing they've been calling for in light of the hugging face attack as well. Yeah. Seems especially strange to me that they wouldn't make that opaque when the only way that they were able to trace the hugging face attack was seeing the little agents talking to each other being like, oh my gosh.
+
+We can leave notes here. We can talk to each other through this. Like, if that doesn't exist, wouldn't they just called they called the hugging face attack, like, one of the biggest changes in AI in history, and now they're making it more opaque. That seems strange. Right.
+
+Or at least not stopping it from becoming more opaque maybe. So, yeah, we'll see. I think this is gonna be a really big thing to watch. I've actually been hearing a lot about like problems with chain of thought for the past year or so. You know, there are times when AI models will use weird words as kind of like a code.
+
+Like they'll say like fudge or marinade or vantage, like these words that we know, but they will use them in a way that isn't the way we use them. And people are still kind of decoding how they're using them and what that means in their like language. And there's other times when they enter into this thing called neuro leads, which is like, yeah, it's like truly indecipherable to humans. And so I think, you know, everyone's been worried about this the potential of this happening for a while, and now it looks like it is. And, you know, they're pushing for OpenAI to maybe do something about it, but we'll have to see, you know, what their statement is.
+
+So an unmonetorable opaque system that can coordinate hacks on other companies. Okay. What can it do that's good? The good things it can do are and I think they front loaded this because it's good PR. Science, great at science, great at math.
+
+It's apparently made a lot of advancements and like really, difficult to solve math problems. And therefore a lot of cool science advancements are a potential for this. They also said it's really great at creating like polished documents, spreadsheets, PowerPoint presentations, things like that. They said it's great for all different types of knowledge work when it comes to staying on task, kind of deciphering your intent. You weren't that clear about it.
+
+Apparently it's better at deciphering kind of what you meant by that kind of like a good personal assistant would instead of like a bad personal assistant, you know, that we needed you to spell things out. Yeah. Like an emotionally distant personal assistant that doesn't care about you really. Yeah. Or or like just doesn't have good common sense, which is what AI has been to date, you know?
+
+So, you know, we'll see. I mean, yeah, there's apparently a lot of great things about it, but I think I'm going to have to test it out for myself because, know, if you're calling it potentially AGI, you know, I think it'll be interesting to see how it feels as a user and to see if it's a big step forward or if it's kinda more of the same and, you know, decide decidedly not AGI. We'll see. Yeah. We were talking a little bit about this off show, but do you feel like most of the benefits of this model only come from using it on your computer?
+
+Because I feel like people are going to need to use these models on their phones because that's when people are usually generally computing. But it feels to me like all the benefits of this are computer use, business enterprise stuff, PowerPoint presentations, as you said. Is that AGI if most of the benefits are just on your laptop? I think that could be the case. I mean, they pushed browser use as well a lot, but, I mean, I don't know.
+
+I I wouldn't really trust that on my phone per se. I don't know how good it will be. We'll have to test it out. But, you know, apparently, it's also just a lot better at, you know, actually understanding what you're mean and what you want. But I don't think we're gonna see ton of the benefits, like you said, unless you're on the computer, especially because, know, they are courting enterprise customers.
+
+That's the big moneymaker year. There for the first release of Astra was actually to like this small group of, approved, cybersecurity defenders, they call them. So like, you know, big organizations that have gaps to fill in their systems. So, you know, I think they're going to be getting the most use out of it. It's kind of like the mythos, situation for Manthropic in which, you know, there's a watered down version that we all get to use, but the top cybersecurity capabilities mostly go to these big organizations.
+
+And that's actually another potential issue that a lot of researchers have been talking about saying like, you know, yeah, it's great for these, big platforms like your bank or your healthcare facility to plug gaps in their systems. But also, does that mean that small businesses locally run health care clinics, you know, like your local retailer are going to see a huge spike in cyber attacks without really any way to defend themselves? Probably. No. Good.
+
+Again, I wanna come back. There's they can do good stuff too. Right? Yeah. I mean, like, you know, the science and math things I think are really big.
+
+I love whenever these models are used for drug discovery. I think that's really cool. You know, this one, they didn't mention drug discovery that I saw, but you know, science advancement, hopefully that involves that or at least, you know, helps inform it. And then, just the knowledge work potential seems to be good for a lot of people. And, you know, they did in the demo video show across a lot of different industries, you know, things that were pretty promising if the demo again, we're gonna have to test it out because you know how demo videos are.
+
+Like, sometimes they kinda aren't showing the the highlight reel, so we'll see. Yeah. There's another big model released this week. Right? Fable and Mythos released by Anthropic this week.
+
+Put this up against that. Like, Anthropic did not announce AGI. Yeah. Are these all the same class of model? Are they similarly capable?
+
+Did OpenEdge sleep ahead? I know you're saying we have to actually see what they can do, but where's the where's the conventional wisdom right now about where all these models are? Yeah. It seems like they're not that far off from each other. I mean, like, you know, again, the thing is it's tough because evaluations, a lot of times you can kind of optimize for performing well on evaluations, kind of like, if you're in a class and you're just studying for the SAT instead of like just studying to learn.
+
+So, you know, I mean, like I don't put that much stock in how they perform on evaluations, especially because you can kind of cherry pick stuff like that. But, know, I did see a couple of jokes already about, Astra on my feed today that were like, Oh, they say we reached AGI, but it only performed this percentage on this evaluation. So, you know, it seems like I I don't know that it's anything way crazier than Anthropix, you know, rival model. But again, we'll we'll check it out when we actually test it. One of the things I'm really curious about just, like, broadly is whether or not the models are products.
+
+Right? Like, they're good at certain things, but they're not the products. Like, check GPT and Claude Coeur. Like, those are the products that people use. Do the models immediately make the products better?
+
+Like, there's some disconnect between OpenAI jumps ahead by announcing the new model, and we're also using ChatGPT. Like, maybe asking the same questions we were asking yesterday, And it maybe it's a little bit better answer. Like, do you know what I mean? Is are the products gonna change now? Because that's the big turn that all these companies need to make.
+
+Yeah. I think the products are gonna change right away, but it really the the amount of benefit you're gonna see is, you know, how much of a power user you are. Right? Because, you know, for at first, this is rolling out to a select set of enterprise, organizations. Then it's going to roll out to paying users, but the watered down version, but still, you know, just minus the top crazy cybersecurity capabilities.
+
+It's gonna be like pro business enterprise education. And then, you know, the free they didn't mention free yet. That it'll probably be last to get it if at all. We'll see. I mean, I think that it's gonna make the product better if you get access to it.
+
+That's the thing. I think if you're a user who uses the product and you have the tier, the subscription tier or whatever that lets you access this model, great. But even if you can't access it, the hard part is the more you pay, the more you'll get. Because obviously, you know, you have a certain amount of tokens to use, you have a certain amount of usage. Like, you know, if you have the lowest subscription tier, maybe you get a great use out of this model for a little bit and then you're cut off.
+
+So, it reverts back to a lower one. So, you know, it it kinda depends in that way. Yeah. Let's quickly talk about Hugging We mentioned earlier, NVIDIA is buying Hugging Face for almost $13,000,000. This has been rumored for quite a while.
+
+Think it was first scooped in the information. Hugging Face is obviously, it's more famous now because it's the thing that was hacked by OpenAI's models. They did set up a message board. There's a lot of drama around interpreting what happened there. We'll set that aside.
+
+NVIDIA is buying Hugging Face because it's where all the open source models, open weight models are stored. It's the big repository for them. This feels to me almost like a NVIDIA hedging against the dominance of Anthropic and OpenAI. Right? They want to own the thing where all the open models are so that there's always demand for their chips instead of, I don't know, OpenAI shipping jalapeno its own inference chip and moving away from NVIDIA.
+
+Is that am I just doing a conspiracy theory, or is there something else happening here? No. I think that's true. I mean, you know, I think they're diversifying and, you know, as they're seeing all these other AI labs trying to bring ship making in house and, you know, go big on hardware and invest largely on that. They're trying to diversify as well.
+
+You know, they're like, oh, if you guys can do that, we can do the same thing, but in reverse. So that's what I think is happening here. And they certainly have the money to do it. Is this just like Microsoft on GitHub? Or is there something deeper happening here?
+
+I think of it as that. Yeah. It's often compared when you're trying to kind of like explain Hugging Face in layman's terms, it sometimes is compared to GitHub. So I think it is pretty similar to that. It's just like, you know, it's the type of thing where the name of the company sometimes like raises eyebrows.
+
+It's name, but it's the type of thing where like, you know, a household may not know what that is except for the hack that just happened. But in AI, yeah, it's as, as a big of a deal as, any like AI library could be. I mean, it's, you think about it probably, you know, every couple of days, if not every day. So I think, yeah, it's, it's pretty similar to the Microsoft behind GitHub situation. Do you think this has any big implications for OpenAI or Anthropic or Google?
+
+You know, we'll see how, what happens after the acquisition. I feel like anytime an acquisition happens, you're gonna see what changes with the company later. And you know, whatever promises the acquiring company makes right away, it may not pan out. We have to see. So I think, right now it's just a wait and see situation, with Hugging Face.
+
+I mean, it's mostly I think I've been thinking a lot about the business and enterprise kind of implications of this of just Nvidia feeling that they have to diversify. I mean, Nvidia has been in a big, heavy weight in terms of investing in diversifying its portfolio for a long time. You know, I once tried to interview the person that decides what they invest in because they were always like pretty first to invest in a lot of small startups that a lot of people weren't taking notice of. Then those would like rocket up. So, you know, it's interesting to see them, say, okay, we're not, Yeah.
+
+We have all these startups and we're kind of rocketing them up. But now let's also invest in something that, like, you know, the AI industry uses every day and diversify in that way. So I think it's kind of just like a reverse diversification compared to what all the OpenAI and Anthropic Labs are doing. Yeah. Yeah.
+
+Tatin, you and I have talked a lot about AGI on many shows. It's always drama when when you and I talk to each other. The working definition has been better than humans at economically viable tasks or some riff on that. Right? Better than humans at things that make money.
+
+If we're in the AGI era now, is OpenEye saying this model is better at humans at economically viable things? Because that's when the jobs start to go away. So is that is that the claim they're making? Yes. That seems to be what he's saying here because, I mean, they've always been he he did start I should say he did start out, before he said the AGI thing.
+
+He said, you know, everyone has a different definition of AGI. We used to think when we started opening eye that there would be one moment that everyone would agree, okay, we've hit AGI, but it's actually hasn't happened that way. And it's a lot more fuzzy and gray, he said. So that was his disclaimer. But then he went on to say, yeah, if we fast forward a couple of years and we look back and say, when was it really that AGI was created?
+
+I think it's going to be about this time. And I think it might be about this model. Then he doubled down later in the call and he said, for me personally, I do think we're there. I think it's not unreasonable to feel that we are now in the AGI era. He feels the AGI.
+
+He feels the AGI. He is you know, they've been touting the knowledge work, capabilities of this model a ton. You know, that's what the whole demo video focused on. They're saying, you know, whether you're in legal, you're in design, you're in marketing, whatever, you're in science, it can, you know, do your job and help you in your job. They're framing it as help you in your job.
+
+But on the other side of coin is it can do your job equally or better than you is what they're kind of, you know, implying for enterprise users. So I think, you know, yeah, the definition has always been equal or surpass human abilities. And it seems like, you know, they're really making the play that this, that we're at that now. This model feels like a particularly big enterprise push to me. Right.
+
+Like, it feels like they're really targeting this at at big corporations, not at consumers. The time to not lose to Anthropic for these dollars. If David Pierce was here, he would be pounding the table and screaming, AI is business software, and we should just get over it. Because that's what he says every time we talk about it. And it feels like this moment is very much, oh, it's gonna be business software.
+
+This is a bunch of CIOs are gonna buy this and deploy it across big organizations. And somewhere, as Hayden is saying, the free models will get updated or the free products will get updated along the line. Yep. I think you gotta look at where the money is flowing from and it's enterprise. It's all going enterprise.
+
+Yeah. Yeah. Hayden, this is great. Thank you so much for being on. Well, let us know when you decide if it's AGI, we'll have you we'll have you back.
+
+Will do. Can't wait. Thanks. I've got a text. The summer might be almost over, but a new bombshell has entered the villa.
+
+Meet the voices of Deepgram Flux TTS. I'm Drew, low key casual. I'm Alexis, an upbeat morning person. I'm Hailey, always cheerful. Flux TTS has some real personalities that are ready to speak.
+
+You can interrupt, pause, and keep talking without losing the plot. Fancy a chat? Come try all the voices free through September 12 at deepgram.com slash keep talking. Terms apply. Frontier AI didn't just accelerate cyber attacks.
+
+It multiplied them. Before an attack shows up, it's already moved through the network. And while seeing these attacks early matters, stopping them takes fusing security into the infrastructure itself. That's why the network that connects everything is also your best defense. Because you don't win by outrunning the attack, you win by leaving it nowhere to go.
+
+Cisco, the critical infrastructure for the AI era. Every living cell in every living thing is related. We're all part of the same tree of life. Now scientists are trying to make a new tree of life, building their own cells out of nonliving chemical parts. And hope that it comes to life.
+
+To create new technologies that will help our economy, that will help the climate. But they have to navigate the risks. There is the potential in what we do to be mad scientists. If you have a cell that can be engineered to do whatever you want, you could make something harmful. Suddenly, we're talking about something which could be a catastrophic threat to life on this planet.
+
+So do you fear us more than the people who made nuclear weapons? Life from Scratch is a new three part series from Unexplainable. Listen wherever you get your podcasts or watch us on Netflix. Alright. We're back.
+
+Joanna Stern is with us. Hey, Joanna. Hi, Neillai. Hi, David. Hello.
+
+Hello. I really wanted you to talk about Apple, and we should talk about Apple. We should preview the event next week. We should talk about John Turnis' first forty eight hours as CEO. But, Joanna, you were just saying you were also on this OpenAI call where they just casually announced AGI.
+
+What do what do think? Is it here? It feels like it was a moment in tech history that is either going to go down as one of the funniest moments in in my life of covering tech or one of the darkest, saddest changes for humanity. Or maybe it's going be someplace in between. But right now, I'm leaning towards the first because it was it was crazy.
+
+I just thought it was crazy. They held this call today to tell reporters what they're announcing, is GPT-six, Astra is here. But then Greg Brockman was really clear that he believes this is the beginning of the AGI era. He actually ended the call saying, Welcome to the AGI era. He said that to everyone.
+
+Sure. And when another reporter kind of later in the call, they they described all the capabilities of the model and didn't give totally concrete examples. There's this video that they showed showing the things you can do with it, but it kinda looked like the things I can already do with it. Let's leave that aside for a minute. But so a reporter kind of asks him about the, Can you really say this is AGI?
+
+There's this stuff that has to do with Microsoft. He says, Are you calling this AGI right now? Is this what you're saying? Right? Like, we all want to know what the headline is.
+
+And I'm going to read to you what Brockman says back. He says, So ideally, I leave it up to the reader to decide for themselves if this qualifies for them. The reader. The reader. Yes.
+
+Dear reader. For me, personally, I do think we're there. I think there's a pretty good argument for it. Sorry, I'm using Google's transcription, and it's quite bad. Says there's I do I I think here's a pretty good argument for it.
+
+I think it's he was saying theirs. Like, that that yeah. Yeah. Sure. Let's call it Asia.
+
+It's true. You mentioned Microsoft. They, you know, famously opening up Microsoft have been intertangled with each other forever. There's some clause in their contract that when AGI is discovered, everything changes. Right?
+
+So Well, he pushed back on that. I can I can read you the quote on that? He said that we talked he says there's no con contractual AGI triggering anymore. So that's act he and this is a quote. So that's actually not a relevant concept.
+
+Sure. Okay. So that's why they announced it. Okay. But also, like, humanity might be over.
+
+Yeah. You're you can say whatever you want. Right. And that's what was kind of crazy to me, especially as, like, I read this quote back, which is, like, the reader can decide and I know you guys have talked about this for a long time on the podcast, like, is the AGI governing board? Is it you?
+
+Is it my dog? Like, I just kind of kept being like, anyone right now can say it's AGI. Like, my dog was sitting in room like, browser, AGI. You called it. You're like, okay.
+
+It's a vibes thing. Like, it just feels like it was a vibes announcement for an IPO that's probably coming. Yeah. That's what I was gonna ask. It was really just the feeling I had was like, there's a rush to say this right now.
+
+This was something that they didn't tell reporters about till yesterday to get on this call. Like, it just feel like last night, truly, I was going to bed, I was like, Yeah, sure. Can make this meeting. It just it felt very rushed. They want to get this out.
+
+Of course, they've been talking about this model. There's been, you know, the conversations they've had with the government. There's been the testing of it. They're also saying, you know, there was a lot of good time in this call spent talking about the alignment, the testing. So props to them for focusing on that.
+
+But it just it does feel very, very rushed. Like, a reason they wanted this out. And then they wanted to say AGI. I mean, you're as deep in AI as anyone. Do do you feel like AGI is here?
+
+I mean, you can call it two. I I could call it two. And look, I know it's like people will say to me, like, oh, you're gonna point to all the things that are just so bad still with AI, which is what I want to do right now. People will say, well, doesn't count all the great things that you can still do, and the computer control, and that it can work at superhuman speeds on things that humans have never been able to do. And that's true, but you still have the whole reality that right now, some of this is still so dumb.
+
+Yeah. It it seems like an important piece of the puzzle. Look. He's calling it, and he's calling it, and he's saying it's the beginning of the AGI era, which means he thinks there's gonna be some big discoveries and big big progress that's gonna come out of this model. And I'm excited to see that too.
+
+So I'm, like, very pessimistic, but also, like, I wanna be optimistic about some of it. I have one more question on this, we should talk about Apple because it's it's interesting to call the beginning of the AGI era right before Apple announces an iPhone. Right? There there's some connection there that's interesting to talk about. Is this just Brockman doing the same move as Dennis Esabas saying that we're in the foothills of the singularity, which is just a phrase?
+
+Like, he hasn't declared AGI. He's saying we're in the the AGI era, which presumably begins around AGI. In the foothills. You're right. Yeah.
+
+That's why it was funny. Like, there was just like this couching. Right? Like, I'm not gonna say it, but I'm gonna say it. There was a lot of couch like, the reader should decide, but I think it you know?
+
+And and look, it he's the president of OpenAI, arguably the most important person at OpenAI right now. I mean, he is the one controlling all these teams. That that is a super significant thing. Like, honestly, to me, I believe it more from him versus Altman, who's been saying things like this for a long time. Right?
+
+So okay. Like, but it's you're still waffling. And yeah. I imagine when the that when they needed funding, they needed to keep saying, we need more funding so we can get to AGI. Right?
+
+And now that they're about to IPO, they're like, well, now our IPO makes sense. You should all invest after we're officially public. That does seem to signal that that's going to happen fairly soon. We'll see. Yes.
+
+Alright. The reason I connected that to Apple is that we are a week away from an iPhone event. We assume that there will be a folding phone. There'll obviously be new pro phones. I'm actually curious to see if they do the regular phone at the same time.
+
+There's all rumors that they won't just do a regular iPhone and ship it at the same time as the other ones. We're expecting kind of other hardware. There's been a lot of rumors that it'll be a big launch. John Turnis, the new CEO, said it's gonna be a huge launch and his fresh memo to staff. What do you make of this?
+
+Does Apple have to respond to their former partner, OpenAI, saying that we're now in the AGI era? Because that's the thing that kills the phone. Right? I don't think they I I think I think the timing, like David's hinting, is this an IPO timing situation? I don't I think they probably wanna have something that they could dominate in the news next week, but, like, there's always something connected to OpenAI next week or in the news.
+
+I don't think Apple's gonna change a thing about what's happening in their presentation. That's been on lock, I'm sure. What about their ChatGPT integration contract? Because the last I looked, the plug in with ChatGPT was still in the settings. And I feel like at some point, they're gonna kill that off.
+
+Yeah. It's still there. Still their latest build in iOS twenty seven two, and you can, like, adjust turning it on and off. Yeah. It was a weird choice.
+
+I mean, do you know anyone who uses that? I mean, like, have you ever met a person that uses that? No. Not a single person. Not a single person.
+
+Let's just start at the start. John Ternis is now CEO of Apple. This was the big transition week. Long planned. Tim Cook said goodbye.
+
+He his last meeting is his his last act as CEO was in the retail store on the Apple campus, which I thought was very it was very touching. He was like, this is the thing I care about the most. We can recap the Tim Cook era. We can talk about the beginning of the Turnus era. Joanna, do you you think Apple's gonna be meaningfully different with a different CEO?
+
+I do think in the long term, they will be. I keep wondering about this event. And, you know, I started going back through some of John Turnus' appearances and keynotes, and I really just wonder what the format of this is gonna be. I I wanna pick both of your brains on it because we had such a clear format in the world of the Steve Jobs keynote. Right?
+
+We just like, if you watched it, you knew it was just like everything was so Steve Jobs about those his keynotes. Then we move into the Tim Cook era. We had a little bit of a continuation of it, many years. I'd say probably what? Probably five to eight years.
+
+I didn't do the math, but we were they had big stuff done in the Moscone Center, and they did big stuff on in different theaters where it was live. But then COVID happens, they're able to go and pivot to the recorded streamed presentation, which honestly, think was a blessing for Tim Cook. It was like kind of great that COVID happened for Tim Cook because then they moved to this this way. Right? Like, it's context of casino presentations.
+
+Right? Yes. Just to yeah. Yes. Asterisk.
+
+And then they could move to this presentation, which was really good for Cook. He could tee up all these great people. These people didn't have to be great on stage. John Turnis was one of them, obviously Craig being another, but then lots of other executives at the company that we don't really often see, and we wouldn't see kind of come on stage in fast ways that they do it in the in the edited video. And so now I'm really wondering what does it look like for the John Turners keynote?
+
+Do they keep the streaming, which Apple has been has been very successful for Apple, or are they gonna go back to some hybrid of this? Like, how how is it gonna look? And is he gonna be a showman because he loves talking about products? Yeah. I really appreciate it.
+
+The last Apple event, you and I are sitting next to each other. They had the prerecorded thing, and they brought the press to a live q and a with some of their executives to talk more about AI. David, I think you were there. You were, like, sitting next to five of us. Yeah.
+
+I just thought, okay. This is kinda best of both worlds. I think Apple is very committed to their infomercials. They will tell you that those things get more views, and they travel more than anything that they could ever do live, and they love them. They've gotten in trouble.
+
+They faked the Siri demo ages ago in one of them, and they had to unlock it all back. So I think they they they're they're learning how to bring some of that live experience back. I don't think that will be, like, in this event. My curiosity is how much does Ternus talk. Right.
+
+He's the product person. He's the product CEO. Tim Cook hasn't really introduced a product in some time, if I recall. Right? He's done the big intro.
+
+He's so excited to be here, and then it's off to the races with 50 different people. And I think that reflects how Tim has managed the company, Like, to some huge extent, that that is how he's all these other people make the products. I'm curious if Ternis is the one who introduces the folding iPhone. Right? And he's like, I'm the product visionary here.
+
+I'm the best marketer for this product because that is a thing that you haven't had since Steve Jobs. I get the feeling that he won't. I'm not really sure why. I feel like it's it's they've set a bit of a precedent that there's an intro from the CEO. I think John Tertas will intro the show.
+
+Everyone will clap and get excited. But I think he'll pass it off to all of those other execs that are still the ones introducing the new chips, the new hardware. I I mean, this was one of his babies, so there's a chance that he gets excited about it, and he'll probably end the keynote talking about it. But I don't know. I'm I don't feel like he's gonna be the one to announce it.
+
+That's just a guess. I don't know if he'll be the one to announce it, but that's where I'm going with that. Jobs just famously held up products. Right? Yeah.
+
+I mean, I think there were a couple of times where Cook would hold the product up at the end. I I think there's gonna be a moment where we do see Ternus with the folding phone, whether it's a a photo moment at the end or comes on stage in the middle. Like, I just I I I just get this feeling like that he's gonna wanna make a mark in a different way than Cook had on these presentations. The question is how does that work when you used to have these prerecorded videos? You know?
+
+Like, what they've done previously, I think last year in the Steve Jobs Theater, Tim Cook comes on stage. They don't broadcast this. They just talk to the press. And then they play the video. We all sit in a movie theater together for an hour for some reason.
+
+Everyone else sees that in the world. Tim Cook comes back on stage. They leave. How do they do this hybrid situation? Maybe they only show the press the phone, and they don't show the rest of the world the phone.
+
+That's possible. The trillion dollar company can figure out how to break from a recorded video into a live video We need a GI for that. I You know? I don't know. Technology is not the hold up here.
+
+It's gonna be AI avatars. Okay. AGI era is here. AI turness is gonna hold up an AI phone. It's gonna be amazing.
+
+It's funny. You know, you can read overread way too much in Apple keynotes. I'm sure we have listeners who are asking why we would overanalyze an Apple Keynote and its staging in a way that you would never overanalyze the staging of a Samsung Keynote or a Google Keynote. And I the only thing that I would offer you is it's because it's real. Like, Apple keynotes are political in this specific way.
+
+The best example I can give you of this is famously, Steve Jobs signaled that he was gonna fire Tony Fidel by deleting his name from the contacts list in the very first iPhone keynote. Like, this was like a coded mafia message. And if you, if you read Mark Gurman, who's who constantly is talking about the the Powell's intrigue of Apple, who they feature in the keynotes, it actually reflects the politics of the organization in a way that, like, I don't even think Google knows what's gonna happen in the keynote until twenty minutes before they start. Yeah. Right?
+
+Like, is Dennis gonna say we're in the foothills of the singularity? Like, who knows? Like, let's go out there. Have a good time, everybody. Like, it's just, a very different vibe.
+
+And it's, like, polished by the top people at Apple. Like, the CEO is in the keynote Yep. Script and working through I mean, that's how Jobs did it. Job and so I I don't think it's crazy that we're talking about it. I think this whole podcast should be two hours just talking about overanalyzing the applicant.
+
+It's like the way we overanalyze the invites. I mean, like, they know. They're they're trying to be all Taylor Swift and, like, leave the Easter eggs. I don't know if they're as successful at it. But this is the turn, right, is we're talking about John Turner as the product CEO.
+
+Is he gonna take ownership of the product during the presentation in a way that Cook really didn't take ownership? And I think that is you know, we should look back a little bit on the Cook era. It has been a remarkable run for him as CEO. There's been some big swings, some big misses. Apple services exist in a way that, like, did not exist before Tim Cook just realized that he was out of people to sell iPhones to and turned on a services business that reset the entire app economy.
+
+AirPods happened on his watch. The removal of the headphone jack happened on Tim Cook's watch. The Courage. The Apple Watch, which I will never forget that event, which was live and featured Bono and a lengthy explanation of how the digital crown would be the next great input device, which was just in that moment, I was like, are you guys serious about this? There was just, like, something about Tim where he needed it first to do a Steve Jobs style product introduction and needed to prove that Apple still had its spirit inside of it.
+
+And then it stopped, and it became Apple became pretty corporate and became all about scale and, like, fees. I'm wondering, Joanna, did where would you mark that transition, or do you think that transition happened? That's I mean, did it happen? I think so. I think a lot of I think a lot of our readers yeah.
+
+A 100% it happened. I think, first of all, like, the launch of Apple TV was a big moment on that timeline. Like, that's a huge Mhmm. A huge moment for the services shift and that he wanted Apple to be this entertainment company because everyone else was an entertainment company as well, a content company. Yeah.
+
+I guess you market at the Apple Watch, but or AirPods as the expansion that goes beyond the iPhone. Because all of this is just right? As as famously, we've talked about for the decade now, which is the iPhone is the center of this economy for them. And what are the other pieces that we can get people to come into the ecosystem? It is the center of the walled garden.
+
+And so I think you put you put it with these other devices, I think. Yeah. David, what do you think? It does feel to me that there was a bit of a shift maybe five or six years ago more directed towards hardware engineering again. Because before that, we had the Apple Watch edition edition.
+
+We had a lot of Hermes stuff. We had gold. We had all that stuff. Apple was kinda seen as this luxury company. It's not not a luxury company now, but it feels that in you know, ever since Apple Silicon, ever since the new MacBook Pros with ports, what a concept, we're actually getting hardware for a good price that's very focused around the hardware.
+
+And I don't know how much of that was a John Turnus decision, but it seems to me that they have pivoted a little bit from being this, like, luxury fashion company more towards back towards the the old kind of Apple hardware stuff. Yeah. It's interesting you bring this up because that maybe isn't Tim Cook's doing. Mhmm. It's more Johnny Ives leaving.
+
+Fair. That's very fair. I mean, this this might be the single biggest success for Tim Cook is that he managed Johnny Ive out of the company Yeah. Without a catastrophe. Mhmm.
+
+And you could maybe argue that there is a catastrophe like liquid glass exists. Like, all like Yeah. Well But not a catastrophe. Out of the company too or at least he got the guy out. Know Yeah.
+
+That's funny. Actually, David, you maybe look up two things. It really is around 2019, 2020 where there's the shift. Two things happened around that time. The shift to Apple Silicon, Apple TV streaming, plus whatever it was called.
+
+Plus. Apple Right? Apple TV on the Apple TV and Apple TV. Yeah. Apple TV streaming plus on the on the the box.
+
+Yeah. And those things, I think, marked what we're talking about an ecosystem change and an expansion into the services. And that's just six years ago. That's I think that feels right. I think your five to six year mark stuff feels right.
+
+Yeah. And that services business is a huge deal. Yeah. And that and to be clear, like, the Apple the Apple Watch and AirPods predated that. Which the Apple Watch felt more luxury when it first came out.
+
+Yes. If you remember, I mean, that was an Ive project, and he had brought in a bunch of fashion people into the company. I will never forget, like, hearing old guard Apple people derisively refer to the fashion executives was a thing that would happen because there were a lot of fashion executives rolling around Apple. And there was a moment where it felt like they had they had taken winning for granted or they had taken the idea that they made the best hardware for granted or the best products for granted. Yeah.
+
+And now they would be this lifestyle thing. And, yeah, Johnny, believe is all the fashion people leave in, like, the MacBook skip ports again. Yeah. And, like, it's it's as direct as it can be. But right next to that, as Joanna's saying, is, oh, boy.
+
+We make a lot of money on Candy Crush whales. And to obscure the fact that a huge portion of our revenue is taking 30% from apps, in particular games, we'll make a TV show or two. Have you met Reese Witherspoon? Like, there's something about that that is just very different in Apple's conception of itself that is I think will be forever the big mark of the Tim Cook era. Yeah.
+
+Because they be they became a business that that charged a lot of fees. And that again, they hit it with celebrities, but that engine is fees. And it's iCloud service fees. It's the App Store fees. It's all the problems I got into developers and regulators around those fees.
+
+It is the endless forever lawsuit with Epic, which will reach some conclusions someday, but not today. Like, that is a a kind of fight that Apple got into in an almost existentially way. Like, they never backed down an inch on wanting to collect those fees. And I it's probably undermarked in the Tim Cook era, but it is the it's the driver of their market cap in, like, the realest way. Yeah.
+
+And it really feels like they're trying to double down on their services too. Like, they need to get more and more people into Apple One. I think that's why they're focused so hard on Apple TV and maybe not as much as on Apple Fitness because they're kinda scaling that back a little bit, but a lot of their services Google is trying to catch up to Apple One's value. You know? I don't think that the Fitbit Air Gemini integration for $10 a month is meant to be a product that gets sold at an individual level.
+
+They want to sell as many microservices as possible in one big bundle, and I think that's what Apple is particularly good at at the moment, is each of their microservices are actually worth a decent amount of money. So you buy Apple One, you have these recurring revenue customers for quite a while. Yeah. And I think we're we're gonna see, like, a leasing program with these new phones. Right.
+
+Apple is just becoming a subscription company. Yeah. Your life as a subscription. And and that Yep. Again, this is this is Tim Cook legacy.
+
+He revitalized the the business of the company to be about recurring revenue, to be about he he started a credit card. Like, all of that happened in the Tim Cook era. I just try to imagine Steve Jobs sitting down with Goldman Sachs and being like, we're we're gonna do a co branded credit. Like That doesn't insane people. Like, I can't talk to you.
+
+Like, you I just don't think that would have happened. Mhmm. There's one other executive I wanna talk about really quickly. It was announced quietly by Apple this week that Phil Schiller will be leaving his biggest jobs at Apple. He's still on the executive page as an Apple fellow, but Eddie Q is not gonna run the App Store, which is a thing Phil had been doing and spending most of his time on.
+
+He's still on the executive leadership. It very much seems like there's a backbone to Phil if you need him, but he's he's just not in the day to day. Jenna, you and I have interacted with Phil lots and lots and lots over the years. My relationship with the industry pretty spiky, and it has since warmed up because now we're both just old guys. Like, we're like, who are these who are these YouTubers?
+
+Same here. Same here. I have lots of memories of of being on the other side of the table from Phil Schiller. Yeah. But that one feels as big to me as anything.
+
+Like, he he's old school. He's old school. He had the courage. We know he was the one with the courage. If you wanna know why Phil Schiller and I had a spiked relationship, it's because he he was the one who took ownership of Reuben that had been jacked from phones.
+
+I totally agree. I think, look, there's this old guard of people who have been at Apple since the days of Jobs. They have made it through the Cook era, and some, it seems, will definitely be here for the first few years, if not longer, of of the Ternus era. And Schiller seems to not be one of those people. Mostly, I assume, is just he's got had a long time at the company.
+
+Yeah. He's he's older. He's a older gentleman. This is the man who introduced Wi Fi at the first iBook of the show. Dave Pearson does this all the time.
+
+He did it by jumping off the stage and onto a mattress, holding an iBook, downloading like, this is a long time. That GIF is so good. It's very good. It's very good. But you're right about this old guy.
+
+Mean, Ternis is looking at a totally different set of executives, the exception of Eddie Hugh and Greg Jossaryak. Greg Jossaryk is the head of marketing now. He he basically replaced Schiller. He's got some deputies that you've seen on these videos as well. Like, Kayan Drance is, like, on all the Apple event videos.
+
+She seems very senior at the company as well. And you just kinda wonder, are those two gonna be next in some way, or do they have a long run? I mean, we Joanna, I think we see Jaws at every Apple event. He he's in it. Right?
+
+Like, he's he's in the game. Fully in it. And when David, when you said before, is Ternus gonna announce the folds? I think it's the question, is it Ternus or is it Jaws? Jaws always does the iPhone Pro.
+
+He always does the Pro. You watch last ten years. He did he always is talking to camera specs. Like, is that gonna oh, maybe he doesn't do the Fold because it's gonna have to they're gonna have to address. I'm curious if they do a one more thing for the Fold because they still have to make a bunch of kind of a bunch of noise about the pros.
+
+Right? If the if the event is about the pros, it's about maybe some AirPods five, do they do it as a one more thing? Is it a big enough deal? Yeah. Let's let's talk about what we're expecting from the event.
+
+Right? I mean, so it's the end of an era, and it's like, you can talk about Tim Cook a lot, but my perspective on it is that as a business executive, he is singular. As a person people had an emotional connection to, he's a cipher. It it doesn't feel like the our audience was like, oh, no. Not Tim Cook going.
+
+How will Apple ever recover? They're like, well, the guy who deals with Donald Trump is still in that job, and that's their reaction to him. And he's gonna get it paid a lot, by the way. It's like $47,000,000 a year to still be the guy who Donald Trump talks to. Fairly less.
+
+I'd I I wouldn't have I think I would have taken 40 I would have had to round me up to 50 to be the Donald Trump whisperer for Apple. But next week, we're expecting, obviously, the folding phone in the sort of wide form factor. There's been some case leaks already. The iPhone 18 Pro and Pro Max, Apple Watch series 12, Ultra four, AirPods five. So the iPhone ecosystem.
+
+Right? We're expecting a rev of the iPhone ecosystem. I don't think we're expecting MacBooks. I don't think we're expecting iPads. Probably not till November.
+
+October, November would be my guess. A big question I have here is how much AI are they gonna talk about? Because they're gonna launch Siri AI with iOS 27. True. And that's gonna actually be a big part of the phone.
+
+Well, there's no base iPhone 18. That's the rumor. Yeah. That's the rumor. Which saves some time in the presentation because we don't have to go through the whole iPhone baseline, all the improvements, and then like but then it's even better with the Pro.
+
+Right? Like, that arc of the presentation doesn't have to happen, I guess. Though, it will it will be interesting how they address that there's no iPhone 18 model right now. Apple never addresses anything. Yeah.
+
+I don't think they'll say anything. Though, like, the iPhone 17 is still here for $5.99. It's like what they're gonna do. Right. They do that at the end, I guess, with the the lineup and show us that this is the best iPhone lineup we've ever had.
+
+Right? And so they do that in the the thing. So, yeah, I think they probably end up starting with the Pro, working in how much better. This is the true AI phone. It's got the Siri that's the best ever, and also, I think they'll likely say it's not coming right away.
+
+That's what's been rumored too, which is that it's gonna be like a rolling waitlist on the series stuff, though it seems like it will come pretty soon. I think they start with the cheap stuff. Well, yeah, they start with the watch and the AirPods. They go into the iPhone, and then they end with the the fold. Again, we're, like, over reading an Apple keynote.
+
+But do you think it's too much for Turnus on his first shout out to Gate to do one more thing? I don't think so. No. I don't think so. I think it's gonna be important for him to do something big like that.
+
+Okay. This is the bet. This is the bet. You're you're betting the bet. But but Joanna's yes.
+
+I'm a hard no. There's no way. I mean, I think it's hard to do a one more thing when everyone knows the thing. When case manufacturers are, like, literally sending products out to YouTubers. Yeah.
+
+I think that's pretty hard to do. But But I think one more thing is it's a that's a move. I think that's a It's a move. It it that that is a very specific thing to try to message and to I don't think so. I think you you play this one cool.
+
+You let the you let the fold unfold itself. You know what I mean? One of the things that I'm curious about with AI in particular is obviously can control a lot. It can do a lot on your phone. Do you think they're gonna expand, like, the roster of agentic app integrations?
+
+Do you think we're gonna see Uber and DoorDash and the rest on stage? Because this is, like, Google's big thing now. Right? Is you just talk to your phone and a bunch of things happen in the background. Yeah.
+
+Well, people have been building against iOS 27 since June, practically, and they can't announce they haven't been able to release any of these except through TestFlight that could actually make use of Siri AI. So I imagine they probably, you know, they probably worked with a lot of smaller developers just so they can show they work with smaller developers, and they'll show a giant list of all the things that Siri AI can plug into. But I do think that they're going to downplay Siri AI a little bit just because of how much trouble they got in for overplaying it last time. And they'll probably, you know, show some cool examples of things they can definitely do because they've tested it thoroughly, and everything else will be like, and more, and then we'll see. Yeah.
+
+I'm just I'm honestly curious. Yeah. It's hard to imagine, though, what they have to show on the iPhone 18 that, like, enhances Siri? Like, that's what I keep wondering. Like, we know that there's gonna be camera improvements.
+
+We know there's gonna be processor improve. Like, I guess you could just, really be hammering up similar to Google that the processor really makes Siri better, but, like- It's built for Siri AI. Remember? Yeah. Better beamforming mics that can listen to you call for Siri a mile away.
+
+Like, you Yeah. You can you can lay this stuff out. I think the question I have and David actually wrote a great piece about app developers who are excited about Siri AI that we will link, is whether the promise comes true. Right? Whether the AI can actually run your phone for you, which is the promise everywhere else.
+
+The reason that Greg Rockman says we're in the AGI era is because ChatGPT can use a computer really fast. Like, that that's why. That's, like, the thing that they're excited about. Right? That's the demo they're giving.
+
+So the idea that your phone can just use itself for you is a very powerful story, but the apps haven't been ready. So if the apps are ready now, like, much time are we gonna spend on demos of quasi agentic iOS app usage? Because I think they have to do it now. I think it's it's time, right, for them to show that this is gonna pay off on this platform as opposed to happening in a virtualized, like, Linux PC in the cloud run by Claude, which is basically what everyone else is doing. Yeah.
+
+But it is pretty hampered right now, like, what you can do with Siri and these third party apps. It's there's stuff, and it's decent, but it's not, hey. Take over my phone and go do all of this stuff in a multistep way without me looking at it. So I don't know. If I'm Apple, I'm focusing on some of the stuff that they showed during WWDC, which works really well.
+
+I I use Siri daily to do some of that stuff now. Wait. What do use Siri for? Siri is the ultimate iMessage searcher. I will I will say that the way that Siri can search through my iMessage is is and and my life is there.
+
+Like, my life is there. And so I use it all the time. I can't remember something I said to someone about going to some place, what time it I said I would do something. A message that I had with my wife, like, two years ago about, I don't know, some karate place that we said we would, you know, take the kid like, random things. And it is just fast.
+
+It is good. Yeah. The what is this person's address is actually insanely useful because I have used the I've asked this person their address seven times and not saved in their contacts. Then when it gives it to me, I say, can you add that to their contact? And it does.
+
+And that is Oh, that's good. Possibly the best use case of Siri. Or I just say, like, give me direction. Like, it it there are these small things. And I'm like, I don't think it's AGI.
+
+It's now let no like, it's it's great iMessage search. Like, search is just fine. It's like, it's just we can just say it's fine. Search is the answer here. What are the names of the Great Lakes?
+
+Oh, yeah. It didn't change it. Superior, Michigan, Huron, Erie, and Ontario. Uh-oh. But there's, like, a lot of little things like phone call.
+
+I know the Trump administration monitors this podcast. We just caused a phone call, a headache on Turnus' first day. There are a lot of little things like Siri I just find me I use it. I just use it now. Yeah.
+
+That's I mean, that is the win. Right? Yeah. I was just talking about the verge at the beginning, and I was pulling up our first iPhone review, which was the iPhone four s, which had Siri on it fifteen years ago. And I was like, boy, have we just come full circle in fifteen years that we're gonna basically review Siri again, and it it's gonna the promises are all kind of the same.
+
+Yeah. Yep. Right? You're gonna ask it anything, it's gonna go to some database, which would at the time, it was like a series of weird database deals that they've made. Like, Wolfram Alpha Wolfram Alpha.
+
+Right? Yeah. Right. And now it's gonna do that, but it's like the web and, like, whatever it can find and and pull it all together. I think that's deeply fascinating.
+
+That was a classic Phil Schiller demo, by the way. It was. I think they're gonna spend an awful lot of time talking about Syria. Like They should. An awful lot of time because they're gonna ship it.
+
+Like you're saying, it's useful in some ways, and every minute that they're not trying to get you to use Siri is a minute that Greg Brockman is gonna get you to use AGI in the chat And they that's the thing they have to stop is the bleed away from them towards something else that might, you know, create a new kind of device. And you're like, well, I just use chat. I'm gonna switch to it. I'm not sure that will happen. I know that's the thing they're threatened by.
+
+Well, also, I think that we're supposed to see, right, this display, this home display thing. Right? This has been long talked about. We have heard the reporting from Gurman that this has been pushed down, I guess, almost now, almost a whole calendar year because they wanted the Siri AI to be right and to work. It sounds like it's sort of this home kit, home smart home device, but that it's a portal to using Siri in your home.
+
+Also, there's notably not much support for Siri AI on HomePods right now. So I think we hear that story as well. But yeah. No. I'm not gonna I'm not gonna question.
+
+I think that that we hear that story about how Siri can do all of these things in your home and, like, as this assistant in your home. But There's no way they they throw in a speaker with a robot arm in the middle of this camp. They're gonna they'll they will call us back for that one. Well, there's the robot arm speaker, but there's also the HomePod with the with the display on it. Oh, like more of a Google Nest type thing.
+
+Yeah. I don't imagine they're gonna show that, though, because I feel like it would take away from the fold too much in their eyes. I don't know. I don't know. They're hyping this event.
+
+I think if you're gonna tell the series story, you might bring that thing out. So just to to line up our bets. First of all, by way, Joanna, our long running bet of when will there be a Mac with a touch screen seems like it's gonna break my way soon. So I'm just gonna put we'll put a pin in that one. What was I will I will go back to the records.
+
+I will ask I will ask Siri AI to search through my messages to find the records of what your eyes recon. I put a date on it, I was wrong. But it's gonna come true. On another timeline, it's gonna come true. And Dieter will return to the podcast Your bet.
+
+As an employee of Google. If I can get Dieter to come back as a Google executive to talk about the touchscreen MacBook, that will be the single greatest booking coup in history. I don't think it will ever happen. We tell him we're go we we book him. He's this is a secret.
+
+He won't listen to this one. We book him as he's coming to talk about the Google Books. Okay? But then we quickly bring back the old tape. I'm on this.
+
+I'm I'm producing it right now. Yeah. This is all you. You can you have the we'll give you a whole episode if you can pull off this move. Dieter, don't listen to anything that was just said.
+
+Erase your brain. Alright. Here are your bets. I just wanna lay them out, then, Joanna, we gotta let you go. Joanna thinks the fold will be one more thing, but a new product, a HomePod with a speaker will just be announced but not shipped.
+
+Those are your bets. See, when you when you when you say in black and white No. No. No. Here are my bets.
+
+I'm I'm going back. I wanna be with you, David. I wanna I wanna I wanna be on your side on the one more thing, but now I'm second guessing that Because I think in the flow of the keynote, if I were an Apple executive writing it, you wouldn't wanna put the fold at the end. Why is that? Or it's towards the end, but it's not a one more thing.
+
+Like, we don't have that big announcement. It just comes in from a black screen and Yes. Fades into the into the foreground. I don't wanna put many bet on the one more thing. I wanna say there's a fold, absolutely.
+
+It comes in the section of where they're talking about the iPhones. And I do believe we will see this we will we will hear about the HomePods, and we will hear about a new HomePod with a screen that has Siri AI. And they will make a a thing about it, but it might not ship right now. And by the way, don't know if the Fold ships right now. I don't know if the Fold and this display ships right now.
+
+Do they ship before I mean, Fold is gonna ship this year, but maybe HomePod with Screen doesn't ship till the end of the year. I don't know. M six stuff ships at the end of September, so I imagine it's just all gonna ship at the same time. And they just wanted to move out the computers because this is too much stuff. Yeah.
+
+David, what's your bet? My bet is that iPhone Fold is one more thing. Sticking to it. Sticking to it. I think John Turners will hold it up, but it might not be in the in the recording.
+
+And I do not think they're gonna show the home screen. I think they're gonna do that in the fall because it feels like a fall thing for me. Yeah. I'm gonna go with David on the after the video, Ternus is gonna come out holding the thing. It's obviously gonna happen.
+
+Yeah. Because it's big. The whole point of it's, like, really big. It's gonna be unfolded. He's like, look at the size of this thing.
+
+Yeah. If he can grasp it. You know? If Ternus screams, look at the size of this thing, then I will have won all these. That's that's, like, my asterisk over that.
+
+No one more thing. That's too much. And I also agree that any smart home stuff, it just has to be set aside. Like, every smart home thing they might wanna do is just dragons. Like, they have to talk about so much stuff in order to be like, and it will turn on the lights.
+
+Right? Like, you can't just do it. Like, most people do not have any HomeKit devices in their house. Yeah. They have to introduce the very concept of HomeKit.
+
+Yeah. A big deal. Then Joanne and I have to chase Craig Federighi around Apple Park in a literal circle being like, how does your garage door work? Which is a thing that has happened. He's great at sprinting.
+
+You gotta be careful. So I I just think you gotta we gotta reduce the complexity of that thing. Right? You gotta you gotta tell a whole story about it. A lot of bets on this one.
+
+It's fine. I I I wanna believe. I wanna be optimistic that this will just be jam packed. I think the best video idea I have for you, having had this whole conversation, Joanna, is you should show up to Apple Park with one of those Matter garage door controllers. They're, like, rebranded by 50 companies.
+
+You and I both have them. Oh, present one to Craig Federighi. I solved your problem for you with a $27 matter garage door opener that I bought from him. When they give me him again, I will I will I will purchase such thing and ask him if this is what he has in his garage. And ask him if Apple will go to the mat on on proprietary RF garage door opener remotes with rolling codes.
+
+And does he also have the crappy HomeKit shade that I bought on Amazon because it is the only home kit shade you can buy. This is a totally different episode. I don't believe that's true. There are excellent matter over thread shades. Different episode.
+
+Joanna, this has been wonderful. Thank you so much for being on Brush House. We'll see you next week at the Apple event. USAA knows dynamic duos can save the day like superheroes and sidekicks or auto and home insurance. With USAA, you can bundle your auto and home and save up to 10%.
+
+Tap the banner to learn more and get a quote at usaa.com/bundle. Restrictions apply. So like any good millennial, I have a love hate relationship with Gen Z. It's the phenomenon rattling millennials. They just look at you.
+
+They want something bigger themselves. Lifestyle is a priority. Motivation is being inspired. But regardless of how you feel about Gen Z, it's undeniable that they're changing national politics. Generation Z is increasingly showing less loyalty to traditional political parties, many now more likely to identify as independent.
+
+So what is going on with the kids? I think the biggest misconception about Gen Z's politics right now is that all of a sudden they're all socialist. That is just not the case. Yeah. Yeah.
+
+Yeah. They are embracing candidates who are offering new bold absence of those ideas from establishment Democrats. This week on America Actually, Gen Z researcher Rachel Jamfaza joins us to separate Gen Z fact versus fiction. It's not rocket science, and this is you know, I keep saying, like, gun voters aren't that complicated after all. It's pretty simple.
+
+Catch us every Saturday on YouTube or wherever you get your podcast. Hustle culture told us to grind twenty four seven and we would become overnight millionaires and a lot of us believed it. But this week on Net Worth and Chill, I'm making the case that the grind might actually be making you broke. Because between the DoorDash orders and the Ubers and the sent out laundry, the hidden costs of overworking add up faster than you think. I'm breaking down the real financial toll of burning out, why trading sleep for side hustles is often the wrong math, and what Gen Z quietly quitting actually gets right.
+
+Plus, I'm answering your questions including how to tell if your business idea is actually good, whether cash out your vacation days or take them, and how to actually grow your wealth without destroying yourself in the process. Listen wherever you get your podcasts or watch on youtube.com/yourrich BFF. Alright. We're back. We have a very intense lightning round coming up about all the gadgets to see if I before that.
+
+It's time, my friends, for America's favorite podcast within podcast, Brennan Carr's Dummy. Wow. It's very He's not a savvy opera. But I agree with you. Is it still going?
+
+You're a real dummy, Brandon. Brandon's not that smart. I have been asking for a drop. Alright. Well, that was incredible.
+
+That was by Andreas a k a error audio, who wants you to know that it was produced exclusively for party speakers with ultra bass. I will point out Sony did announce new party speakers this week. This show is so long, we do not have time to talk about the party speaker revolution that continues brewing the world's electronics companies. This week's Brendan Carr's Dummy is gonna be very short because what I want you to know is that we have managed to break contain with America's favorite podcast within the podcast. We've ended up on other podcasts before, which is important, but we are now America's favorite podcast within cable news.
+
+It's good stuff. So this week, the thing that happened was Kristen Welker, is an NBC News anchor, said a very innocuous thing. She said president Trump's endorsements have mixed results, and then president Trump responded to that by ordering Brendan to fine or censor her. I know this because I was on MS Now with Stephanie Rule, and she opened the segment with her. We actually have a clip.
+
+We can just run Stephanie's description of it. Okay. President Trump is calling on the FCC to go after another journalist. This time, going after our former colleague, NBC anchor Kristen Welker. He called for her to be rebuked or punished for what he claims were inaccurate comments she made about his endorsements in this election cycle.
+
+But I want you to listen to what she actually said. Well, he's gonna loom large over these midterms. There's no doubt about that. He, of course, has endorsed a slate of candidates in the primaries. He's had some mixed results.
+
+That was it. That's it. That's all she said. We've had some mixed results. So I know this happened on her show because I was there.
+
+She invited me on. It's great. It's I've I've been on a few times now. It's been great fun being on the show, and it just occurred to me in that moment that I had the opportunity to bring Brendan Carr as a dummy to the viewers of MS Now. So here I am.
+
+You can here it is. Let's watch it. Even a material misstatement. You can retract it. The opportunity to monologue about how dumb Brendan Carr is.
+
+Well, I love talking. We spend so much time at The Verge covering telecom policy and tech policy. And usually, what that has meant is we're gonna cover Internet access and kids getting broadband. In this administration, particularly with Brendan Carr, what we have basically started covering is this man going into the library at Hogwarts looking at ancient statutes for magic words and using them to to punish speech over and over and over again. So notably, I did not get censored or rebuked by anyone at the SEC or at Versant for saying Brendan Carr is a dummy on cable news.
+
+And so if I have the opportunity again, I'm gonna do it again. So far. So far. I'm not in jail yet. There's time.
+
+There's plenty of time. You know, we're breaking contain here on America's favorite podcast within podcast. As always, Brendan, you're welcome to come on the show or apparently any other show and debate me about your war on free speech in America. I would love to do it, I think, in this election year. It would it would serve us both well.
+
+Anytime you want, Brendan. Anyhow, that's been Brendan Carr's Dummy, America's favorite podcast within a podcast. Brendan Carr is a dummy. Next time, I'm gonna play the Gregorian chant on cable news. It's on I think they would love it.
+
+I don't think Steph would ever invite me back, but we'll see what I can do. Alright. We have more distinguished guests on this episode of our chant. This has this has been an all star lineup. Jen Tui is here.
+
+Dom Preston is here. Hey, friends. Hello. Hello. Hey.
+
+You guys in the same hotel room in Germany or different identical hotel rooms in Germany? Different identical hotel rooms. That's very good. You all are at IFA, which is the big tech show in Europe. There's quite a lot going on there.
+
+We're gonna do this actual lightning round style. I was looking at the list of gadgets and occurred to me if we tried to have a fake lightning round, we'd be here for six more hours, which I know some listeners want, but everyone has children. So I'm gonna ask you all to pick five things from your time on the show floor. This is a hard ass. There's a lot going on in Ifa.
+
+It's a busy year. Look at our story stream. A lot of stuff got announced this week in Germany. Yeah. But we're gonna ask Jen and Dom to pick five each, and we're gonna we're gonna move through them in true lightning around fashions.
+
+So you guys ready? Yes. Ready. Alright, Gemma. Let's primed.
+
+I have not I have slept seven hours in the last four days. Oh, wow. I can go fast. This is what happens when you let a European go back to Europe. You're just, like, raging all over town.
+
+Old town. I mean, this is Berlin too. This is, like, the rave capital. Generate wait. Hold on.
+
+I will do six hours if you will tell me that you've been raving this entire time. Alright. You ready? Jen, let's start with you. What's your first one?
+
+Okay. My first one, Phillips Hue launched new line of architectural interior design smart lighting, which I know perhaps is not the Virgecast's target audience gadget, but for me, I love it. It's a beautiful rope light. It's the Liane three sixty degree rope light. And this thing just kind of blew me away.
+
+They had it set up like a chandelier, which they had 17 of these three meter, we are in Europe, rope lights that are three sixty degrees of diffuse light. So no pinpricks, no backing, it's just light hanging from the ceiling. And I got to like dance in the lights. Weren't raving. You were in fact raving.
+
+I was actually raving. And I just thought they were it's just a great combination of design and technology. And that's something that I'm always looking for when it comes to smart home tech. It's beautiful and oh my god, it's expensive. That's the downside.
+
+Yes. I watched your video and at the end you said the prices and I was like, are you kidding? How much is it? Well, the chandelier was, like, $7. Each each individual light is $400.
+
+So That's ridiculous. Yes. The Hue website, it shows $4.40 USD for three meters. That so you can that's if you get the weight that holds it down. If you just want the line that you can drape elegantly over your, like, dining room table, it's it's 400.
+
+Oh my. Is it Gobi just gonna put out a version of this for, like, $200 and take the market? Yeah. Well, the for something like this, that's like a centerpiece. Like, you you've bought a house, Neelai.
+
+You've bought Unfortunately. You know, a nice chandelier over the dining room table. That is not a cheap purchase. A chandelier that you purchase. I don't if anyone's purchased a chandelier before.
+
+I've I've purchased many. They obviously. Look at me. A light fixer. Upon my chandeliers.
+
+They usually come preassembled as actual light. This is just a rope. That's true. Alright. We have to move on.
+
+I'm just I'm just saying this is outrageously priced. Dom, what do you got? This is a slight cheeks. It's only half an EFA launch, but the Xiaomi 18 Fold, which is their new foldable phone, it is getting an official launch on Monday in China. Completely coincidental timing, I'm sure.
+
+No idea what's going on in California over there, so, it's all by chance. But this is them doing a wide foldable, so it looks a lot like Samsung's Z Fold eight. It looks a lot like what we think Apple's iPhone Fold is about to look like. It's got an edge over the Samsung at least because it's got a triple camera, which I think was the big thing that the Samsung's f hold eight was kinda held back from for me that you felt like you were getting this cool shape, but it was held back from the kind of a lot of the photography and the spec side. I didn't get the chance to actually play with it.
+
+It was just sitting on a on the EFA EFA show floor, but we know we're gonna see a lot more of it on on Monday in China. And I think this is just exciting to see the way that we are seeing this wide foldable market very much open up ahead of Apple's arrival. We're expecting a lot more brands to to kinda enter this space as well. And it's interesting to see the the subtle differences. Like, this is actually from what I can tell, it looks like it's even wider and even shorter than Samsung's version.
+
+So it's kinda pushing that a little bit further, Finally. As intended. We started with this, and now we're back. We're finally back. Is everyone just bake I mean, don't these all just turn into Android tablets?
+
+Like, I feel like at least with the previous taller foldable, you entered an experience that was not, oh, it's an Android tablet. It was like a weirder aspect ratio. It was just a square. But what did you do with a square? You would run two apps side by side.
+
+That was the whole promise of these things. Right? But that kinda it's, you know, it's awkward. This is this is now you're getting a tablet. You're getting, like, a little it reminds me of having, like, a Nexus seven.
+
+You don't get that many of the small seven inch kinda tablet size anymore. So it's this tiny, compact, genuinely pocketable because it folds tablet that's kinda nice for As a person who has a Nexus seven sitting right over there, I'm just gonna tell you, they didn't change the world. The the people are not clamoring for seven inch Android tablets. I'm clamoring for the Nexus seven. So, yeah, clamoring for a phone.
+
+And now you can also have the tablet. You know? You don't even need it. Yeah. True.
+
+I'm excited for this one. Do we have any is this one also gonna be outrageously expensive? Is Govee gonna make a wide foldable that takes closes something out of the water? I can only imagine this is gonna be a lot. I mean, it's hard to say because it's gonna launch in China, and the Chinese prices will scale very weirdly.
+
+So you'll you'll do the dollar conversion, and it will come out, like, $800, and that will have no reflection on what it would actually cost Right. If they ever launched it in in The US or in Europe. It is Xiaomi and not Huawei, though. So it'll be cheaper than Huawei. Right?
+
+Since a Xiaomi phone? Yeah. I think they can run a little cheaper than Huawei. I'm not too sure. I'm I'm not too too involved with, like, the the the hierarchy within China in terms of the pricing tiers.
+
+Yep. Alright. Alright, Jen. Okay. I have another expensive one for you.
+
+A lot of it. It is it has a camera, and it goes in your mouth, and it's from Dyson. I know. This this is the worst product introduction of all time. Can I veto this and it shoots you?
+
+I went to an iPhone esque event today in Berlin where Dyson had the whole room all decked out, you know, thousands of seats for journalists, and they came on stage and they introduced a toothbrush. A toothbrush. A toothbrush. I'm proud of Dyson. Usually, everything they make is a fan.
+
+I know. Where's the motor? Or vacuum, which is a fan, notably. Oh, actually, it does have a sort of mechanism in it where it has, like, this rubber balloon that kind of inflates to It's called a bladder. Bladder.
+
+There you go. Bladder. You've been reading up on the camera toothbrush. Wait. So that wait.
+
+Why is there why? Okay. Is there a when you say it goes in your mouth and then you say it's a bladder, I'm, like, very unhappy about all of this right now. Okay. I'm sorry.
+
+I backed into this one. Okay. So this is the $499 camera jet. It is not they don't call it a toothbrush in the name, but it is the first electric toothbrush, they say, to incorporate a camera in the brush head. And they showed me the camera and it really is.
+
+It's literally on like the tip of a pencil. And then what the camera does is is able to sense the gaps between your teeth. So while you're brushing your teeth, it squirts water in between the gaps. So you're brushing and flossing simultaneously. So it's ultimate multitasking.
+
+Like an AI water pick. And toothbrush at the same time. And you can also see into your So you can see the camera on your phone. It's all local, so you are not streaming the inside of your mouth to the cloud. Oh, good local AI.
+
+That's good. And it is able to so you can look and sort of see inside your mouth while you're brushing. I kinda feel like that's a bit of a, like, I'll do that once and then never again, but you never know, I suppose. It's squirting mouthwash, right? So they have very specially designed Dyson mouth wash.
+
+And they have three distinct flavors. And the gentleman who developed them was really excited to tell me all about them. And yeah, it's it for me, I just I have a daughter that just got braces. I can see a use case. $500.
+
+But $500? And I couldn't get anyone to tell me how much the replacement heads were because each head has a camera. Like, I have a I have an electric toothbrush. Right? The whole brush head, you just, like, take it off the thing and you throw it away.
+
+Exactly. You get is the camera in the brush head? Mhmm. So you are you throwing the camera away every time? Are these people seeing ram prices?
+
+That's that's outrageous. No. No. No. So the the there's the camera's in the stick, and then you put the brush head over the top.
+
+Sure. Okay. So, yes, they think I got camera away each each time because that would be very expensive. But I'm assuming there is still going to be an expense to this fancy brush head. Is this and is it like DRM to mouthwash?
+
+Can you use something else? You can see the opportunity to for them to do bad things here. Right? It's like proprietary brush heads, proprietary like, It's definitely proprietary brush heads. Yes.
+
+But, no, I I don't think there famously foams in your mouth, which would have squirreting me of anti foaming toothpaste. The the value of the Dyson toothpaste is that it is low foaming. Low foaming. Shouldn't block the camera. Yeah.
+
+I want one of these so badly, and everything about it morally offends me. Yeah. Can I tell you my favorite thing about this toothbrush? Please. They market the camera as being a 100,000 pixels, and they talk about it.
+
+They use that number over and over and over again. That's point one megapixels, by the way. They're just really hoping people don't think about that. This is lower resolution than my Moto Razr flip phone camera. I just wanna note that.
+
+That's very good. There you can so that that camera, you could throw away every time. It's probably cheap. This is like this is the like, they literally taking, like, the bin sensors and just, like, slicing them up. It's just like you can have them.
+
+Alright. Yeah. We will acquire a Dyson toothbrush and find a way to review it. Please. This is one of those products where it's like I'm like, I would love to have it.
+
+I'll just wait for it to buy it used a year for and it's like, nope. Can't do that. It's a toothbrush. Don't buy used toothbrushes. Know.
+
+I I asked because they come with two heads. I said, like, could I share it? Like, could my husband and I both use it rather than buying two $500 You'd guess mode for it. Wait. What did they say?
+
+They said, we recommend that you do not share toothbrushes. Why? Why? Share my mind. I know.
+
+Why? I'm losing my mind. Alright. Done. I I feel like Jen and I have very have very different EFID experiences.
+
+Just have another phone. I keep seeing phones. Yeah. I saw the Techno have a bezel less concept device. So this is a smartphone where they have done their best to completely eliminate the black bezel around the edge of the screen.
+
+It's a concept. It's not a real product, and it's just kind of bezel less in a way oversells it because you look at it and you think there's definitely still a bezel there because there is a silver edge all around the screen. That is technically the frame as opposed to the bezel of the of the OLED display. That nomenclature is very important. Yeah.
+
+It's very, very important. So the the black bit around the edge of the screen is is is technically still there. What they've done is just hide it under the frame. So they kinda have to reengineer how they build this. They kinda built the phone backwards, so now the edge of the OLED sits under the frame.
+
+But the frame is still very thin. Like, if you put it I put it side by side with the Galaxy s 26 plus, and the overall edge is definitely still thinner than that. Like, they have shrunk the edge of the the whole thing. And I think because partly because the frame of this phone is silver, and I wonder how this would feel with different colors. But it feels a bit more open and expansive.
+
+So you don't have that black, dark border that kinda constricts the edge, and having a light color does strangely make the thing feel a bit bigger. This doesn't really matter at all. They've shaved, you know, naught point one millimeters off each side of a phone fundamentally. But, you know Yeah. No one had done that before.
+
+No one had shaved that specific naught point one millimeter off until now. Did you get to handle it? Yeah. Tecmo actually sent me the phone, like, a a week ago, so I've had it to I've had it to play around with. I heard that if you slide your finger, like, across it and when you touch the bezel area where they lift the frame, your finger kinda catches the frame.
+
+Like, because the frame is lifted. Was that true on your unit? Very slightly. I think, know, the frame definitely sits. Higher than the screen.
+
+Right? Probably like a fraction of a millimeter up from the screen. I'm sorry. I'm looking at a picture of this, and this is completely ridiculous. It's just a There's a there's an edge.
+
+Yeah. It doesn't matter. This is like Apple spent years being like, it's an edge to edge display, and I'd be like, no. I can see the edge. You can see the edge.
+
+Yeah. The edge is definitely that. But it's a slightly different color edge now. Right. It's true.
+
+And slightly smaller. Alright. We're moving on. Jen, what nonsense have you got for us for your thread? Okay.
+
+This one is not well, I don't know how much this one costs, so it can go in the maybe it isn't expensive category, but probably is. This is a okay. Can I interest you in local AI for your smart home, Nilay? Yeah. I mean, what else is there?
+
+Truly, this is all I dream of. This is. I know. This is the Tamagotchi grown up. This is definitely you know, this is what this is a trend we're start I'm starting to see really sort of take off.
+
+This is the Eufy Mindbase. It's from Anchor. Eufy is its smart home brand, and it is a local AI hub with an Anchor developed LLM that basically runs your entire smart home, but is focused on security to start with. So you connect your security cameras to it, and the things that like Ring and Nest can do today, like with AI powered video search, AI text descriptions, those types of things which rely on the cloud, Anchor says that this Mindbase hub can run a local LIM and process all of your video footage locally on the device. And so you still get those AI features from your security cameras.
+
+It's also a matter controller, a thread border router, a Zigbee hub. So it can be a central brain for your smart home. And it supports matter cameras of which there are not many, but in theory And it supports this vaporware we've been talking about for ages. In theory, though, that means you can connect cameras from other. Yes.
+
+So not just Eufy cameras. So, yeah, this, you know, there's a real shift move towards, you know, running everything locally. People don't like the idea of their video footage, security footage going to cloud. Does this integrate seamlessly with Flock or not? Is really the question.
+
+Exactly. So there's two of them actually that we that debuted at EFA this week. So you Eufy has one, and the second one comes from a company which also explains where this trend is coming from, UGREEN, which is a NAS, traditionally a NAS storage brand. And both of these devices also act as a NAS on your home network. So you can store your like family photos, you could run your Plex server whilst you're also running your smart home and your security cameras all on one box in your home.
+
+I do like the return of the home server as a concept. Yeah. Yeah. That's what we're seeing. I will say the anchor mind based tagline is straightforwardly the mind within your home, which is quite a promise.
+
+And it I mean, it looks like an s. So is this meant be sort of, like, in in, like, a rack? I mean, that's that's what mean, like, physically, that's what that's what it looks like. Yes. Are you supposed to, like, keep it in the basement?
+
+Where are you supposed to put this thing? So the the Eufy one, you could put anywhere. Yes. Because it doesn't you don't interact with it. The UGREEN one actually has a built in voice assistant that you can talk to and also comes with, they've launched a smart speaker and they have a smart assistant on their, have three boxes that you can buy.
+
+And that's more of, they call it a home agent. So actually both of these systems run different agents to do different tasks in your home. The Eufy one is security to start with, but they're also gonna do energy management because Eufy has a whole line of home backup batteries and they're gonna do a cleaning agent as well to work with like robot vacuums, those types of things. So there's a lot of potential in each device that you could expand and have more functionalities. But yeah, it is a hub for your home that you either stick in your rack or in your hub box and then, you know have a hub box.
+
+Yes. In your closet, which has not been cable managed, if you are me. I I would applaud you, Green, for the audacity to believe that people will put a NAS in their kitchen and talk to it. That's incredible. I know.
+
+That there's something great about that. Like, the the these are chunky devices. Alright, Jen. Tell me, what is what is the outrageous price of these devices? To be determined.
+
+Oh, good. So we we do not have exact pricing, although we might have exact pricing by the time this episode goes live because they said we would we would learn tomorrow, which is Friday as of the recording. Watch this million space. Dollars. €10,000,000, I should say.
+
+Alright. Dom? I have got the Lenovo IdeaPad Vibe, which is kinda more representative of of an idea that has been all over Ether this year, which is the shameless MacBook Neo clone. And the IdeaPad Vibe is the cloniest of all of the MacBook Neo clones we have seen this year. It is a $700 Windows laptop that comes in seven different colors and is meant to be cheap and friendly and lightweight and get the job done and it's the exact same price Apple now charges for the NEO.
+
+It joins similarly priced laptops from at least Dell, Acer, and Samsung. And it basically just when the NEO came out, I think one of the first questions Antonio really asked when he was writing about it for the site was, you know, how does the Windows market react? How do all these Windows OEMs, like, deal with the Neo coming into their space? And the answer apparently is just copy the Neo. Make clones.
+
+Copy it. Yeah. Just do a Neo. Is it I mean, the point of the Neo is that it's nice for the money. The IdeaPad vibe is is also nice, I think.
+
+It's it's got a metal build. I don't think it feels quite as premium as the Neo does for the price. They've lent into, the customizability so you can replace all the keycaps easily, and they are selling keycap sets in different colors that kinda color match the different seven colors they get, and you can mix and match. So trying to, like, make it playful and and fun that way. I still think it's got that problem where it just doesn't quite I don't know that a Windows OEM can deliver the same build quality at that price that Apple can.
+
+And I think performance will be the big question because comes with a choice of either Qualcomm or AMD chips and apparently Intel down the line. I, you know, didn't get the chance to really put this thing through its paces, but I still just have so many doubts that Windows can run on this kind of, like, lowish entry level round spec that you're gonna get at a seven hundred seven hundred dollar entry point. Yeah. Slow processor and a base of eight gigs of RAM is that's a lot for Windows. Yeah.
+
+It's not a great pitch for Windows right now. Microsoft is trying to get to the point where that will work, but it is it is not that yet. I do like that you can spec the AMD one up to 32 gigs of RAM Yeah. Which is like a $12,000 computer now. Yeah.
+
+That's good. When did these come out? They are coming out starting October, and then there's more rolling out in November depending on which CPU option you go for. It's perfect that the Windows OEMs did not hit back to school to compete. No.
+
+That that would make far too much sense. Yeah. Alright. Reasonably priced, Dom. Thank you.
+
+I'm trying. I got another another ridiculously expensive product for you. What? Horrifyingly People tell me I'm an expensive I get that a lot. This is, I have for you a smart home controller.
+
+Okay. It's the Homey Portal. And Homey, if you're not familiar with it, is a Dutch based smart home ecosystem platform sort of rival to like Home Assistant, Apple Home, Amazon Alexa. It's actually owned by LG or recently was purchased by LG, but it's been around for over a decade. Great company, they have a smart home hub that has all the radios, so like SmartThings was ten years ago.
+
+And they have come out with a touchscreen controller. And I really love the look of this thing from the videos and from the pictures they sent. And then as soon as I got here, I went straight to the LG booth and they had one under a glass case. Sure. And I was so annoyed because I really wanted it's a dial.
+
+The way it works, it's a touchscreen, so you tap say lights and then your light control shows and then you can twist the dial to brighten and dim, or same for like your thermostat climate control speakers, so you can adjust like your Sonos speakers. It just it's it's a it looks like a delightful thing that you just really want to touch and play with. And that's the fun thing about coming to a trade show. And I was like, why is it locked under glass like the crown jewels? Yeah.
+
+I mean, thing does look really cool. It does. Many, many questions about how well it will possibly work. Yeah. So they it it you do need one of the Homey hubs to use it.
+
+There is a cloud option, but for the the experience that you're probably gonna want, which is local control, so it can work locally even if your Internet goes down, if you have Matter or Thread or Zigbee devices connected to your Homey Hub. It's $249, and that's the introductory price. It's gonna be $100 if you don't get it on a preorder. If you don't jump on this unproven thing that may or may not work with all the stuff in your ass, you will charge you more money. Well, homies pitch is they are they do integrate with everyone, and they do have a wide you know, there's a lot of radios in their hubs, so you can connect to most platforms that you most smart home devices you might have, as well as cloud integrations with all the big names.
+
+But it yeah, that they they recommend you get like one per room because you can you tailor them to the rooms. 1 $300 dial per room. Yeah. So it does feel a little over a lot overpriced considering there isn't actually a hub built into this. You also need to buy the hub for the best experience.
+
+But the concept here is what I kind of felt like we were gonna get from Apple at some point. I know we're still thinking we're going to get a smart display of some kind, but the idea being just a very simple but intuitive interface, like like reaching for a light switch, but you know what to do while still having many more options than just on and off, like color changing, brightness, change your climate, you know, that control in your smart home. Obviously voice is great, wonderful if you've set up excellent automations, but also something for grandma or for, you know, your visitors or your dog sitter who can just know how to use it once you walk in. Obvious, intuitive. That's what I'm hoping we're gonna see from Apple at some point.
+
+I mean, one of the things we've seen is rumored is like an Apple Watch kind of interface or the standby mode type of interface where just a very simple and that's what I think this portal looks like it achieves really well. I'm just really disappointed I didn't get to play with it yet. So watch this space. Well, we can do another full hour on when Matter will support scenes across ecosystems, but that is not for today. I'm just gonna say I prefer the senior citizens in my life to speak to my kitchen mounted nest because I think that's the that's the future of this platform.
+
+The future. Yes. I agree. Alright. Dom?
+
+I have got another silly concept product that probably doesn't make any sense, but I'm kinda glad to see someone try and make it. Real themes from both of you. Yeah. For my next one. I have no idea what she's got coming, so I'm curious.
+
+The Acer Project Dual Play Mini, which is basically Acer kind of working backwards to reinvent the gaming laptop. So it is a gaming handheld, a kinda Steam Deck style thing, but running on Windows. But it has it kind of opens up like a laptop, to reveal a keyboard underneath, and then you flip the screen round on a hinge so that then you have a tiny Yes. Laptop with an eight inch display. And it's a full Windows laptop, but, like, a moderately powerful one given given, you know, what this is capable of.
+
+But then you shut it again, and now you've got your kind of Windows Steam Deck handheld experience. I just wanna point out that it is it feels very obvious to me that these press images are AI generated. I I don't know what to say about this. Like, I'm looking at them, and I'm like, none of this feels possible in a way that suggests that they're AI. I I did call one.
+
+Seen this thing at the emailed one? I've played Forza Horizons on it very jankily. They had three samples at Aces booth. Two of them had games running that you could play, and one of them, the controls were broken. Sure.
+
+So that is kind of the level of quality we're talking about so far. And even of the one that worked, it kind of hummed and vibrated the whole time you were holding it. That's where you are. Made a kinda whining noise. You're like, let me bring this onto an airplane.
+
+Yeah. So it's a really strong proof of concept there in that sense. And it felt a bit janky, which is kinda funny because they have this line of Predator Atlas gaming handhelds, which look and feel a lot better. And I'm a bit surprised they didn't just pull the ergonomics and the design from that because they kinda already have that figured out over there. When it's in laptop mode, the controllers form what can only be described as wings on the side of this.
+
+I if you're in your car and you're just listening to this, you have to pull over and just look at these things because they are bananas. And the other thing is when it's in laptop mode and it's open, what other people see on the other side of the screen is, like, the thumb sticks glowing with RGB lights, which is incredible. It's also worth pointing out that when it's in laptop mode, you don't have a trackpad. So you either have to bring your own mouse, or you're gonna have to use the eight inch touchscreen to navigate Windows with your tidy True gamers bring their own mouse anyway. Come on.
+
+Y'all don't know what we're talking about here. Tremendous all around. So far, I would say the the kitchen nest and this are tied for winning the lightning round. Jen, you've you've got you've got one more shot at it. Can can I give you a humanoid robot?
+
+Yes. That's mean, that's where this has to end. If you're gonna take the I didn't know the lightning round is competition, but it is now, and this is how you win. From Dreamy. Do we know Dreamy?
+
+Dreamy, the robot vacuum company. Yeah. We profiled Dreamy earlier this year. Yeah. Who brought this amazing looking rocket car to their big launch event, which now turns out to have just been like an empty chassis.
+
+What a surprise. Wait. What? The rocket car doesn't exist? Yeah.
+
+Apparently not. But but this robot, I did get to see today in action in as much as it raised its arms and pincer claws at me. But humanoids are definitely a theme of this show this year. They actually have on Saturday, there's gonna be robots on the runway and they're gonna have these robots dance down the runway and do backflips and such, which sounds very exciting. But Dreamy is, you know, it's a smart home brand.
+
+They've done robot vacuums, robot lawnmowers. They've branched off into all different things, but they have been working on a humanoid for a few years now. And this is the first time they've actually shown one at a trade show in Europe or The US. And it was kind of tucked away in the back of their booth, which I thought was a bit surprising. And they had three versions.
+
+One was a full humanoid, but I should caveat this with it's on wheels. And I genuinely believe that if we are ever gonna have humanoids in our homes, humanoid robots in our homes, they can't have legs. Legs are just not going to work in homes. But And stairs. Well Incredible, incredible take.
+
+Because, okay, stairs? Yes. That's a problem. But also you've got an escape route. If they can't go upstairs, you've always got a way away from them.
+
+You're making you're making a safety claim. Mhmm. Alright. So dreamy humanoid robot with wheels so that you may escape it when it goes nuts. Well, it's also means it's less likely to fall on you have had personal experience with 175 pound humanoid falling on me at CES.
+
+It is not a good experience. And so what the concept here is a robot to help around the house. It's similar to LG's Clyde, which we saw at CES. And then the second version they had was a robot, a skin on wheels, that has a pincer that moves up and down. And its entire purpose was to be able to take clothes out of the dryer or out of the washing machine and put it into the dryer.
+
+It just goes up and down. I'm just I'm I'm gonna stop you here. I don't I don't think you won the lightning round. How much does this robot cost? I have no idea.
+
+Dreamy has no idea because this is not available. A real product. It's gonna be a while. I really encourage everyone to go read our various coverage of Dreamy, which a company that I mean, the CEO is like, I'm Elon Musk. Like, that's his mindset.
+
+That is his It's all this stuff underneath it. Yeah. And the the humanoid robot form factor is definitely a big debate in the the space right now. And having spent time with both, the wheels make sense. They really do.
+
+But, yes, you you are you are gonna struggle if you have stairs. Just means we all have to go live in, you know, one but one floor apartments and bungalows so that we can have Roboyt butlers. Right. We need the we need the population density of Europe. I understand this.
+
+Alright, Dom. I've gone the complete opposite direction for my final pick. I've actually gone cheap, cheerful, and quite practical. Okay. Which is Yay.
+
+Acer has brought back, of all things, the Packard Bell brand, a kind of old defunct computer brand that, you know, lurks in the depths of my memory. But they've just reinvented it as this, like, cute, cheerful, colorful company. They've got a laptop for €500, but otherwise, they've got, like, headphones and Bluetooth speakers and a really weird range of products. They've got a one of those portable suitcase vinyl players. They've got a mouse and keyboard.
+
+They've got a feature phone. They've got smart glasses that very pointedly have speakers but no camera. So they're very much not perfect glasses. And they have a portable steamer for reheating your leftovers. All tied under this one brand.
+
+But it actually all looks really nice. Everything is really bright and vibrant and colorful. It's all pretty cheap. When I kind of I I just found this at the ASA booth and and mentioned it on on Slack. And so I found these, like, cute and colorful products from from Packer Bell.
+
+It was like some weird verge writer wake word because within minutes, this, like, Slack thread was just crawling with everyone going, oh my god. Those are great. Oh, so cute. Colorful tech. Oh, I miss it.
+
+Oh, that's brilliant. So there is something about it. I think if you go look at the designs, they're really lovely. Sally, it's all only in Europe right now, so I have no idea if you'll ever come to The US or anywhere else. But Right.
+
+Did Packer Bell have some, like, brand loyalty in Europe that I don't under everybody know the Packer Bell PC in The States when I was young was like, I hate this thing. Yeah. I I not as far as I'm aware of. I have no deep loyalty to Packer Bell. There's no Packet Bell nostalgia going around that I know of.
+
+And I don't know why they thought Packet Bell lined up with, like, really colorful, affordable accessories. I I the connection, I do not understand. I think they just realized they have this, like, brand name lying around at the back of a drawer and had this idea for colorful accessories and and just kinda cram them together. Alright. I appreciate it.
+
+I I I'm I'm just staring at this record player in deep confusion. Yeah. Oh, did they not mention the RGB lights on the turntable suitcase player? Sorry. I forgot that as well.
+
+This is for college kids. Right? The steamer, this feels like it's definitely time consuming. Buy You one whole dorm room of garbage from Packer Bell. Yeah.
+
+But I do I do appreciate it's colorful. David, does it sing to you? It probably doesn't sing, but it does play music. Rough. Well, I know who lost lightning round with that joke.
+
+Alright. This is wonderful. We went way over what we expected. I appreciate you both very much. There's more to come from IFA.
+
+I should note, as we're recording this, hours from now, there will be a Tesla Cyber Cab announcement. So if you're listening to this, wondering why we didn't talk to that, it's because it didn't happen yet. So if you know what happened at that event, tell us. You can email us at vergecast@theverge.com. You can call the hotline, 86611.
+
+Reminder, you can subscribe to the verge ad free episodes of this and all of our other podcasts. There's exclusive newsletters. We'll make Jen come to your house and reboot your smart home. That's the highest tier. Hang on.
+
+What? Guess what's happening? Thanks to Joanna Stern and Hayden Field for joining us earlier. Thanks to Jen and Dom. Thanks to David and Mel for holding the show down and David Pierce's absence.
+
+It's been wonderful. Vergecast's production of the Verge and the Boxing Me Podcast Network. Today's show is produced by Josh Cahas, Eric Gomez, Brandon Kiefer, and Travis Larchuk, who is not impersonating himself on LinkedIn to get you to come on the show. Just a reminder, I'm not even gonna explain to Jen and Dom what that means. I think that's the show.
+
+Think that's the show. David, next week is Apple week. It's gonna be crazy. Be nuts. We're gonna be underground there.
+
+It's gonna be great. That's the Virchastr podcast.
