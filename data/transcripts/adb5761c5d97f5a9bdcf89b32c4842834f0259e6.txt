@@ -1,0 +1,169 @@
+Language models are these general horizontal engines for processing streams of discrete text, discrete tokens. Those have had tons of applications from, you know, everything that we know and love today. And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding that can be used to generate, simulate, reconstruct worlds. Mhmm. And if we can build these with the right generality, they should be applicable to tons of different industries.
+
+Right? From entertainment to VR to construction to robotics. We live our lives in this physical built space all around us, We and need models to help us with these things as well. Language models gave AI a way to work with words. What happens when models can understand and simulate the physical world?
+
+WorldLabs cofounder Justin Johnson joins Theo Jaffe and Sofia Puccini on MTS to discuss Atlas and the broader idea behind world models. They explore how models could generate and reconstruct environments, what separates them from video generation, and applications across gaming, VFX, and robotics, including turning a few photos of a real space into a simulation for training a robot. We're live with Justin Johnson, who is a cofounder of World Labs, which is a startup that builds spatial intelligence products. And just today, they announced Atlas, the world's first multimodal world model that generates image and video frames with pixel perfect camera control and reconstructs them in three d, model the world, move the camera, and simulate space and time. So congrats on the launch.
+
+Like, the launch video looks really cool. Mhmm. Welcome to MTS. Yeah. Thanks for having me.
+
+Absolutely. So tell us a little bit more about, like, what this product is specifically, what you can do with it, what people will use it for. Yeah. So this is not a product launch. This is a this is a model announcement.
+
+So the products are coming later. This is the base model. It's gonna be used to power our future products from WorldLabs. But at its heart, it's a world model. It does basically three different kinds of things, generation, reconstruction, and simulation.
+
+Right? Generation is you want to generate new worlds that don't exist. Right? Like, I can start from a text prompt. I can start from an image prompt, then I can direct the camera and sort of fly through that world and whatever.
+
+And and have have the model generate a world that never existed before. So that obviously has tons of applications across many things in creativity, right, from VFX to gaming to all the kinds of use cases that people are using there. The second major capability of Atlas is reconstruction. Right? There, sometimes I don't want to generate a new world.
+
+Sometimes I have an existing space in in the real world that I like to model and bring into virtual reality or for the virtual world in some way. Right. Right? So there, what Atlas can do is is sparse reconstruction. I can take just a few photos of a space, as few as one, up to a 100 or more.
+
+And the more photos you give it, the more you can reconstruct that existing real world space accurately. Mhmm. And the third thing we can do is simulation. Right? And this is going after more robotics.
+
+Yeah. Well, both VFX and robotics. But there, we want people to take an existing space, recreate that space in three d, then simulate what a robot might how a robot might behave in that space. And we show some examples of all these different use cases on the blog. Yeah.
+
+Is the ultimate vision for WorldLab something more like environment for teaching robotics how to work, or is it more like a metaverse that people will, like, spend time in? The above, probably. Just kind of all the above. Yeah. I think it's all of the above.
+
+The central thesis here is that there's a new there's a different kind of horizontal model that we can build called a world model. Mhmm. Right? Like, language models are these general horizontal engines for processing streams of discrete tax, discrete tokens. Those have had tons of applications from, you know, everything that we know and love today.
+
+And our thesis is that there exists another category of model called world models that should be based in visual understanding, should be based in physical understanding, that can be used to generate, simulate, reconstruct worlds. Mhmm. And if we can build these with the right generality, they should be applicable to tons of different industries, right, from entertainment to VR to construction to robotics. You know, we live our lives in this physical built space all around us, and we need models to help us with these things as well. Right.
+
+So the model is the input that would go to all of those industries, like the I'm input curious, like, how this has evolved and why Atlas is a a big jump here. So I would imagine, like, one of the difficulties with procedurally generating worlds is that, like, after a certain point, like, feel I like, you know, with video models, like, ten seconds in, I feel like the output could start to get jumbled, especially if you have, like, a reference image. Mhmm. And then it starts to take its own direction. It starts to, like, hallucinate in its own way.
+
+So how do you fix this thing of, like, at a certain horizon, things would start to get jumped Yeah. Or distorted? Yeah. That's a great question. So here, we we built Atlas specifically around spatial control and the notion of a spatial context.
+
+So when we get when you give Atlas reference images, they aren't just images. They're actually grounded in three d space. So you can stage those images in three d and say, this reference image should be here. This reference image should be here. This reference image should be here.
+
+Then when you generate a video from Atlas, you're not just generate you're not just giving it a text prompt. You also go in and steer the camera and say, I want the camera to fly this way, this way, this way, this way with exact precise pixel control. So then we show some examples where even up to a minute of video, we give it more reference images and sort of leave breadcrumbs of those images along the trail in three d. Mhmm. And then you get that directorial control over the video that you're generating.
+
+So the the idea here is that even as you go to really long generations, it's not a slot machine. You're generating and directing and under and really controlling what the model outputs. Yeah. So, yeah, we were just talking right before we went on about our friend, Tys from OpenAI, did this project that went kind of viral that was like GTA, but it's San Francisco. So it like, I think it was like a giant Gaussian splat of the whole city or something, and you can, like, walk around in it.
+
+You can steal cars and drive around. You can fly around. It's not very high resolution. Definitely not as much as Atlas. You think, ultimately, this is something you'll be able to do with Atlas?
+
+Yeah. I think so. And I think there's actually two different features here of of, like, the tech path that gets us there. One is sort of the explicit three d route that you mentioned. Right?
+
+Like, the idea of generating a Gaussian splat reconstruction, then importing that explicit asset into a game engine or something else. This is something Atlas can do. Right? Like, it can be used to generate, you know, three d Gaussian splat scenes, and then you could import them and generate and build games around them. Another direction where this could go is, you know, you skip the engine entirely and go directly for frame generation.
+
+Right? And I have the model directly outputting the frames without any explicit three d in the mix anywhere. And Atlas is is built to do this as well. So it's it's one model that both handles, you know, two d when you need it, three d when you need it, and can handle both modalities in a native way. If you're somebody using this world model and you have all these inputs, like, how would you use how would you steer Atlas to do what you intended?
+
+Like, if you're, like, a film producer or video game developer, how would you work with it? Yeah. We have some internal tooling for this, but it it's gonna take a little bit more a little more little bit more iteration on the product side to figure out the right way to expose that. But the internal tooling is is actually pretty awesome. Right?
+
+You can basically take images, drag drag them into this interface, have this sort of spatial three d canvas for all your input images. Then they end up with this, like, proxy geometry in three d space, and you can steer your camera kind of with an FPS type control to, like, decide exactly where you want this thing to go. Mhmm. And that's that's a pretty complicated u user experience or user interface. So I think we'll probably iterate on on different ways to expose these capabilities in nice ways.
+
+How does it differ from Marble, which is World Lab's first product? Yeah. So it's a it's a totally rebuilt stack of models. Right? I think the central thesis is the same.
+
+We wanna build multimodal models that can input many different modalities, output many modalities. This is something that Marble did as well. But one one one way in which they differ is that Marble really put Gaussian splats really at the center of what many things that it did. So Marble could output videos. Marble could output three d scenes.
+
+Marble could output meshes, but everything was kind of bottlenecking through a three d Gaussian splat representation. So whenever we output videos or images from Marble, you were always generating a Gaussian scene then rendering those Gaussians back to images or videos. And this is really nice, but we wanted to break that dependency. So Atlas, you know, was built fully from the ground up to both rethink the architecture, to make it more unified, more easy to scale, and to have it have that sort of that branch between two d and three d happen earlier. Right?
+
+So that when we when we're generating two d outputs or video outputs from Atlas, you're you're not bottlenecking through a Gaussian splat scene anymore. The model is directly giving you those beautiful two d pixels. And then only you lift them up to three d only for the applications that you that you actually know that you need three d. So I guess at this stage, like, are we outgrowing Gaussians as a technology? Or, like, what, like, what is their role within all of this?
+
+I I think Gaussians are a tool just like anything else, and you gotta use the right tool for the job. Mhmm. Right? Like, if you're working on something like VFX, then the ultimate output is a two d image and or a two d image or two two d video, and maybe that's all you need. But for other applications, especially real time applications on embedded devices, like, think Gaussians and other explicit three d representations still have their place.
+
+Right? I think there there might be a world in the future where we're all streaming pixels directly off these models in real time from from powerful server farms, but, you know, that's we're not quite there yet. And even if we are, it's gonna be pretty expensive. So something like a Gaussian or a mesh is really useful for client side rendering, especially on mobile or VR devices, and also really useful for integrating with with existing workflows and pipelines. Right?
+
+Like, it's you know, I think we all believe in the future of technology, and we're excited that about building these solutions that, you know, give us whole new experiences. But the reality is that it takes a lot longer than these it takes a lot longer for these things to permeate than we expect. Right? So people in gaming and VFX and design and architecture, they have their existing workflows that work on three d representations. And, you know, instead of trying to switch them over all at once to a fully AI native thing, if you can get with AI into their workflows and meet them where they are Mhmm.
+
+Then that's another great use of of splats and other three d and other explicit three d representations. Got it. Yeah. One of my favorite video games ever is Microsoft Flight Simulator. Yeah.
+
+Which is you get in a plane and you fly around the world, and it uses, like, a lot of not quite real time, but it uses satellite data in order to, like, reconstruct a three d model of the world, basically, in reasonably high fidelity, not incredibly high, reasonably high. Do you think Alice will eventually be able to like like, what will it take to get Alice from where it is now to able to dynamically generate content quickly enough to do what Flight Simulator does? And, like, is is this even, like, the right tech tree for that? Imagine, like, Google Maps in this world. Like, you could just traverse, like, any space, basically.
+
+Is it kind of overkill, though? I mean, I think it'll happen sooner than you expect. Mhmm. Right? And that'll happen in one of two ways.
+
+Like, there's one sort of and and actually, you know, Atlas was built to to to handle both of those tech trees. Mhmm. One is the explicit three d route. Right? Like, maybe we're generating a Gaussian scene or a three d point cloud scene and then interpolating that on the client.
+
+That's something Atlas can do because of its native three d outputs. Mhmm. The other version, like I said, is is just directly streaming the frames. Right? And that's something that I think we'll be able to do pretty soon.
+
+Okay. I'm also really curious about real to sim for robotics. So, you know, taking, like, a real video and then building a simulation. Mhmm. So how is this useful, and how do you see this possibly being, like, helping evolve the field?
+
+Yeah. So I think there's there's a couple different ways that this is useful. One is for evaluation. Right? Like, you definitely want to evaluate robotics in the final situation in the final environment where they're actually gonna end up.
+
+Yeah. Right? If they're gonna if you're gonna have a robot working in a particular factory environment with a particular type of machine in a particular environment, like, you wanna make sure the robot works exactly in that intended environment. So there's a real so that's there's a really useful role in simulation at that, like, last mile sit that last mile part of of robotics training and evaluation where we build a simulation that matches matches the final use case as as accurately as possible. Even if you've got your big pre trained robotics foundation model that knows about a lot of robotics actions in general, then you could either fine tune that thing directly in that final simulation that matches the the end application or or even do evaluations to make sure that it's gonna work.
+
+Yeah. Right? So you you that that gives you an like, a different avenue than you know, you could just collect a ton of demonstrations of a robot either working in that space or a person tele operating the robot in that space. Mhmm. But simulation gives you a different angle to simulate those environments.
+
+Yeah. Interesting. So is there a world where, like, you know, you have your, like, general pretrained robot, but then you always need, like, a real to sim of a specific environment? And could that get us basically to, like, a working general robot faster by scaling this? Maybe.
+
+I I think there's a couple different tech trees that people are working on. One is this notion of fully in context learning. Right? Like, maybe I've got robotics foundation model, then I can kind of demonstrate the robot once how a task should be performed. And that's enough for the robot to figure out, like, stick that demonstration in the context, and now the robot can figure out that task.
+
+Another version is more of this, you know, real to what we're calling real to sim to real. There, maybe I've got my pretrained robotics foundation model, but I I wanna adapt it to this, like, particular environment. Right? Like this studio, like this table, like moving this microphone around. Yes.
+
+Then then it well, then there's a version of that where you could come in here and take just a couple casual videos with your phone or a couple images with your phone, use Atlas to reconstruct the space, and now stage all kinds of robotics inter interactions in that in in, like, this studio space in particular. And if you could lower the barrier to doing that, like, literally, you could do it in five minutes to, like, take five photos, upload it to Atlas, have it generate generate a simulation, maybe describe in natural language what you think what kind of task you want the robot to do, have an agent go build, you know, build that simulation for you, fine tune your thing like, RL fine tune your your general purpose robotics foundation model. And now you've got a robot maybe in the span of a couple minutes even that could come in and and is perfectly adapted to this space. Yeah. Like a very fast onboarding.
+
+Exactly. Yeah. That'd be great. I'm kinda curious about all the way back in 2023, 2024 when the original version of Sora came out, OpenAI's paper on it was called, like, video generation models as world simulators, which is seems like very similar to the vision of World Labs. And then, you know, they did Sora as that.
+
+They did Sora two basically as, like, a TikTok clone that didn't seem that interested in the, like, fundamental research direction of video models as world simulators. It seemed like a consumer product instead. And then they dropped Sora, and now they're not working on world models at all. So why do you think they they decided to drop it? Well, I don't wanna comment on OpenAI in particular.
+
+I don't really know much about their internal strategy or discussions. But our thesis is that world models are this general horizontal platform that can be used to go after a lot of different applications. Mhmm. And there's gonna be a ton of value unlocked there. I think there is maybe a sense of a bit of innovator's dilemma.
+
+Right? Like, you're sitting on LLMs, and you've got this as a really powerful thing, and you're you're leading the pack there. It doesn't necessarily make sense to try to invest in that next thing. But, you know, for us, we think that there is another category of models out here. There's a ton of opportunities out here, and we wanna be the ones to go and grab them.
+
+Yeah. Do you think that there's, like I'm curious about the mass, like, consumer applications of world models or the first ones. I feel like VR or AR feels natural, and then video games feels very natural. I feel like there could be like, we could start shifting in a direction where everyone's, like, vibe coding video games, and world models could be a part of that. Whereas right now, we're just, like, vibe coding websites some of kind.
+
+Right? Yeah. I think we're moving towards that. Do you see, like, world models being, like, that rapidly deployed so that everyone can kind of play around with them? Yeah.
+
+Definitely. And that's that's what we wanna do. So we wanna get this that's kind of like suits fits into our thesis about these these models as horizontal general things. Mhmm. Right?
+
+So if we wanna if we wanna expose these models to a lot of people, let them, you know, be consumable by humans and agents alike, and let them interoperate with other tools. Right? So if we can provide a model that has all these general capabilities in simulation, in reconstruction, in generation, in in explicit three d, in two d, and then we can have an age a coding agent go and stitch all these capabilities together, then we can let people really quickly iterate on really cool experiences. I'm I'm really excited to see once we get this into people's hands, what kinds of cool experiences people will build with it. Right.
+
+Yeah. I'm also curious, like, how you think they'll naturally work with LLMs. So are we all gonna basically be, like, adding another subscription to our AI stack? And, like, do you think, like, agents are very easily able to, like, work with world models in theory? Yeah.
+
+Definitely. I don't see why not. Right? Like, if you want once you offer offer something on an API, like, you know, you get certain things in, certain things out, like, you can they they interoperate with other pieces of software. Like, I think I think we've always wanted to build these things for both humans and agents to consume.
+
+Mhmm. Mhmm. Yeah. I do wonder if, like, GTA six is just the last great piece of, like, human written software before, like, all future video games are kind of generated on the fly with stuff like Alice. I don't know.
+
+I I'm I I disagree with that. I think there will always be, like, human in the loop with because video games are an art. Not saying I'm not saying there won't be humans in the loop, but I'm saying like Well, like, fully hand stitched to, like, video game? Yeah. Like, you know, you won't need to, like, you know, physically place, like, millions of different assets in a game engine or anything.
+
+Like Yeah. But but this is just the evolution of technology in general. Right? As we see, like, you know, from the like, some of the early Disney animation films where they go and they hand paint every cell. Like, that was already a new type of technology that enabled new a new way to make movies and creative experiences at that time.
+
+Mhmm. Right? Or some of the early Disney films figured out how to sync audio and video for the first time, and that was a really transformative experience. But, you know, new technologies come out, and creative people always find really interesting and innovative ways to enable new experiences. So moving from, you know, live, like, live action silent films to, like, animated animated early Disney films to, know, you the the kind of computer generated films, like, you know, the Pixar era of CG Yes.
+
+You know, into AI. I I view these as just new creative tools, and there'll always be people like, creative people behind the wheel that will be interested in creating new experiences. Yeah. I can imagine, like, a Pixar but in three d, like, in, like, a three d navigable space sort of thing emerging. Like, I think there's this is gonna be really good for creative specifically.
+
+Yeah. I think so. Right? And and what we've wanted to build on all these things is this aspect of creative control. Right?
+
+We never wanted to be to be building these generative slot machines where you just, like, pull the thing and hope you get out a good generation. Or or that you don't you don't feel like that generation was yours or that you controlled it or that you knew what you were getting out. Like, we wanna build these tools that have really deep control. Right? Like, whether it's three d control, whether it's text control, that you feel like you're a director in the thing guiding this model and deciding exactly what it outputs rather than just, like, the model spits something out, and maybe I can stitch it together after the fact.
+
+Yeah. Totally. How does Atlas perform with, like, difficult physics stuff? Like, for example, if I wanted to do a simulation of a black hole or something. Mhmm.
+
+Like, would it be able to say, like, oh, this is, like, a scenario where, like, normal object collisions don't really apply. You'll need to do, like, spaghettification or whatever. Yeah. Black hole's a good one. I haven't I haven't tried that.
+
+Maybe I'll try it this afternoon and and tweet it. But I You should do that. You should. You should. I'm actually really curious to hear.
+
+Yeah. My my guess is it probably won't do something super exciting for black holes. We'll see. We'll see. Yeah.
+
+Is the value just, like, just, like, hair or something? Hair is pretty good. Like, some one of think one of the most amazing applications we got of these out of this thing that was actually a bit of a surprise to us how well it worked, were these bullet time shots. So we can do this thing or you can take, like, a couple regular iPhones and stick them on tripods, just like three iPhones, take synchronized capture of some event happening, and then you can use Atlas to do these bullet time reframing shots, like the like freeze flame freeze frame fly around. And this worked better than any of us were expecting.
+
+It's completely insane. So you've got one of the one of our headline or examples there is a strawberry dropping into a bowl of oat milk, and then we can, like as soon as the strawberry hits the milk, the the the milk splashes up. We freeze time and, like, go in there and fly all around it. Like, it's just incredible this works from just three input views. Yeah.
+
+I I'm also curious about that, like, added capability of being able to, like, adjust where the camera is. Does that help like, what part does that help with? I can imagine, like, that helps if you're trying to make, like, a movie or something. But, yeah, how how is that a useful capability? Yeah.
+
+I think it's very useful as a so as so I think I think there's a couple of notions places where three d is useful. Yeah. One, like, we we already talked about the output side. Like, sometimes you wanna have that explicit three d output to plug into a workflow or a game engine or something like that. Mhmm.
+
+But I think there's an underappreciated value of three d as on the input side as well. Right? Like, even even in a situation like a VFX shot or something like that where where the ultimate output is two d, it's useful for the model to offer these two these three d control surfaces to let the let the let the human director figure out, like, what kind of model what kind of scene the model should output. Right. So in this case, you know, we can do this.
+
+You know, there you can control, like, precisely where does the camera move. Because I don't just wanna write in text, like pan in, pan out, truck left. Yeah. I wanna be able to grab the camera and make it, like, zoom exactly as I like. And there's really no way to con to to describe that explicitly in text.
+
+You really wanna be able to just, like, grab the camera and make it do exactly what you wanted. So Atlas has camera control as a native three d as a native input type. Right? It's multimodal, and one of those modalities is cameras. Yeah.
+
+So if you think it wouldn't do a black hole correctly now, like, what more would be required in order to get it to handle all kinds of edge cases in physics? Oh, pro I mean, so I think there's a couple different regimes of physics. So, like, anything that's, like, roughly Newtonian, like, we that that was in the pretraining data. So anything that's, like, roughly Newtonian that doesn't work out is probably just a a quick SFT away. Okay.
+
+If you want something that's sort of non Newtonian, right, like black hole physics or, like, you know, microscopic stuff, and once you're down in the quantum mechanics realm, I think then you'd have to rethink a bit the architecture and the data side. But the the black hole example is really interesting. I'll have to give this a try. Yeah. Yeah.
+
+That I I would definitely be very curious to see. Lower, like, at a nanoscale. Yeah. That's probably that's probably not gonna work. Yeah.
+
+Yeah. Not not yet. Not yet. But one of one of our one of our dreams we joked when starting the company is you wanna build these three d world models. And how cool would it be to use a three d world model to design a chip that we then use to train the next generation world model?
+
+I was literally just thinking that, Yeah. Yeah. Because they're talking about quantum stuff. You have your, like, semiconductor that also, I to me, what feels very natural is that, like, the natural modality for navigating these and even prompting the world models is just gonna be VR, basically. Yeah.
+
+Because you can, like, I guess, do WASD and then, like, move your mouse around to traverse a world. But I think eventually, you will have to basically, like Oh, not just eventually. We've had we've had Marble in VR for, like, a year at this point. It is a that that is a really transformative experience if you guys haven't tried it. Right?
+
+Like I haven't tried it. Then you were, like, really, like, stick on the headset and and, like, I'm in this complete AI generated world that I created. Like, it's it's quite it's quite amazing. Yes. Yeah.
+
+Yeah. Yeah. Absolutely. Yeah. I I I can't wait to to, like, see all of the amazing stuff that people are gonna do with Atlas once it's fully out into the world.
+
+Yeah. Yeah. Justin, thanks so much for coming on MTS. Yeah. Thanks for having me.
+
+Absolutely. This was awesome. This was really awesome. Yeah. Thanks for listening to this episode of the a 16 z podcast.
+
+If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.
+
+This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with a 16 z. Such advertisements, companies, and individuals are not endorsed by Ah Capital Management LLC, A16Z, or any of its affiliates. Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.

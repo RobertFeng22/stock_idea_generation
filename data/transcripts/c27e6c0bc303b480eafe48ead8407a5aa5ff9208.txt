@@ -1,0 +1,451 @@
+Often as a practicing mathematician, you have an idea, and then you kind of think it might work. Then you try for a few hours, a few weeks, and at some point, you give up. Whereas for GPT, like, okay. A human told me to do this. Like, let's just do this.
+
+And so that's why we're sort of in this renaissance of, like, reachable results. This is the best part about this problem, which is really nobody had any idea because the model just guessing in some insane way. It doesn't seem like there's a limit so far, but it doesn't have that context yet. It'd be nice for the world if we'll find mathematics on a lot faster. The ceiling for difficulty of a math problem is pretty high.
+
+Even if AI continues getting exponentially better at math, Plausible will never solve something like p versus n. What's the ideal way that this is being taken up by the math community? Probably most at this point are like, okay. AI is obviously doing some nontrivial stuff. So AI isn't just getting better at math benchmarks.
+
+It's beginning to make progress on mathematical problems that have resisted humans for decades. In this episode, A16z infra partner, Lisha Li, sits down with OpenAI mathematicians Mehtaub Swanee and Mark Selke to understand what's actually changing. They walk through recent results in sphere packing, coding theory and group theory, and explain why these advances can't be reduced to brute force. The models try different approaches, abandon dead ends, connect ideas across fields, and in some cases, produce reasoning that reads surprisingly like the notes of a human mathematician. They also tackled the bigger question.
+
+What happens to mathematics when proving a result becomes less of a bottleneck? From mathematical taste and human judgment to understanding an explosion of new results, Lisha, Mehtab, and Mark explore how AI could change not just what problems get solved, but what it means to practice mathematics. Well, thank you guys for coming. This is really exciting because I think math has been moving so fast with AI. I'd just love to get to both practicing mathematicians and who work at OpenAI to chat on some of these results.
+
+So we have with us Mark Selke and Itad Swani. We're connected actually because Yufei was actually your adviser. And so both of you guys have worked much more deeply in math since I have quit many, many... Like, over a decade ago. So this is very exciting to kind of hear your download of your thoughts on how OpenAI has been sort of approaching this and also just, like, where you think math is going with the incredibly rapid advance of how AI has been helping.
+
+We can start off with some very basic questions. What do you do to the set... Extent that you can, of course, share? And how did you come from being a practicing mathematician to working at OpenAI? Yeah.
+
+I mean, I guess we both broadly got excited last year when the model started to really take off in math. Yeah. So I joined a little bit before Metab. I saw the IMO gold medal last summer, basically. I thought, this is amazing.
+
+I want to see what the heck they did. Yeah. Let me go see. And then, yeah, I guess in the fall, Mark gave me a GPT five account, and then I started playing with the models and very quickly became convinced that, yeah, it was extremely exciting to play with them. And...
+
+Yeah. You you two were collaborating before then. Yeah. We... Yeah.
+
+We've known each other for a while. Yeah. Yeah. We had one paper we actually wrote jointly. Yeah.
+
+Yeah. So g p d five was your conversion. Yeah. What was the magic that sort of... What question do you throw at it?
+
+What process Yeah. So I think actually... Yeah. So I think how this started was, at least for me, the starting moment was something like there's a collection of problems called... So Paul Erdrich is a very famous mathematician.
+
+He posed a bunch of problems, and so they've now all been collected on this site. And so I specifically worked in combinatorics, a lot of these questions are among the most important. So it's always fun to flick through this light. But one thing that often happened to me that was extremely frustrating was I would look at a question, see that it's marked as open, and then not actually know if it's correct, not actually know if it was still unsolved because the literature is often quite hard to search. Yeah.
+
+And one instance, just plugged it into g p d five, and five minutes later, it found a reference. And this was a case where a few of my friends had actually started thinking about the problem on the site. I was talking with them. And, I mean, we had spent a few hours. It wasn't clear if the problem was within reach.
+
+It was just very nice. Okay. To be told, yes, this is in reach. Here's how you do it. And yeah, GPT-five told me this.
+
+And then I told Mark about this and this... Yeah. This is sort of... Yeah. This for me was quite a surprising moment.
+
+Yeah. And then we looked more into it and we found 10 more cases sort of like this. At the time, I feel like being better at maybe making connections between, as you're saying, like, the search for whether there has been a result or a related thing earlier is just kind of humanely hard, but maybe better for machine. But I imagine as the progress has happened in the last year, what has been impressive has kind of reached beyond that. And maybe through talking about it more abstractly or if it's more natural to talk about it through one of the problems that has been recently announced through, you know, Astra, and kind of enlighten me as to, how the recent progress has been a lot more than just searching through more areas, making these connections between the field, and perhaps just actually deeper, more mathematical reasoning that's similar to a working mathematician.
+
+Yeah. I mean, I think this, like, search point of being familiar with everything is still definitely like a relative strength that Yeah. Maybe informs, like, the types of problems that AI is solving now. I think there are some other relative strengths and weaknesses. Another relative strength that's pretty noticeable is just like it's very good at executing on some idea once it has it.
+
+Whenever you have an idea, there's usually some amount of getting everything lined up. Is epsilon, like, smaller than delta, this kind of thing. You have to get everything correct. And, like, for a human, it's easy to get lost in these kinds of details, and the AIs just kind of always nail these kinds of arguments, I find. Yeah.
+
+I feel like you guys will know more detail on this. But, like, for the unit distance problem, it was just... Like, the approach... There was definitely contributions from OpenAI, but, like, the approach perhaps was suggested even originally by Erdush. And then it's just that the actual reasoning was a very, very, like, momentous feat.
+
+And so for human, you're like, well, I only have a limited amount of time. And if after so many steps, it is still not clear. I mean, maybe you're like Andrew Wiles and you actually spent ten years alone and do something, but, like, it's not clear that the risk reward is not good enough. Whereas for GPT, okay. I'll...
+
+Like, a human told me to do this. Let's just do this. And so that's why we're sort of in this renaissance of, like, reachable results. Does that track? And did you feel like with the Aster results, is that sort of, like, where the strengths have been primarily or there's an extra ingredient or magic here?
+
+I feel I think the unit distance example is about... It's quite telling in the sense of maybe the exact construction. You can make it look very similar to what people had tried before. But I think, I mean, often as a practicing mathematician, you have an idea and then you kind of think it might work. Then you try for a few hours, a few days, a few weeks, and at some point you give up.
+
+And then a not so uncommon experience is that you find out a year or two later that somebody else got the idea to work that you thought that didn't work. So somehow getting an idea to work can even be a large portion of the battle. And I think, especially in the case of the unit distance conjecture, there's just a lot of extraordinarily finicky details. And very often when you're doing mathematics, you're kind of gambling against the problem. You're like, maybe I should try this approach, but it seems really unlikely and just not worth my time.
+
+And the model, I think in several of these cases, by combining what it knew and sort of having good taste, kind of made the correct math. And you can kind of see this in the summarized chain of thought we released. You can sort of look at it. It's reasoning like a mathematician, and because it knows a few very correct bits, it it makes the right decisions and eventually able to prune the search tree. It's not really trying everything.
+
+It tries a lot of different things. It's extremely dogged. I mean, it can't try every idea. It has to try a limited set of ideas, and it's able to kind of use its knowledge plus good mathematical judgment and and find the right path to go along. So, I mean, that for me was like...
+
+Because this was a problem which a lot of people have thought about. And the fact that the idea is not so foreign probably indicates that a lot of people had tried it, or at least a few very serious mathematicians had tried. And I think that's what made it really interesting to see. I think something else that I feel when I see these proofs is if I have an idea and I'm trying to execute, it might be that I have some wrong plan for how to get things to work. And as a human, if you have some wrong path you go down for a while, it can be hard to rewire your brain to start over and try a different path.
+
+The initial idea is kind of linked in your brain with these other things that ended up not working. It's sort of like your context window is, like, a little polluted, and you can't just make another clone of yourself from last week and say, don't do this. Try something else. Build your intuition in another direction. Mhmm.
+
+But it's very easy to do this with an AI. So I think this is another reason that it's like getting the details right once you have some good general direction is much less of a barrier all of a sudden. And when you say it's much easier to do with AI, it's like it's not actually being directed with human interference too. It's as you're saying in the reasoning traces. It's like making these choices.
+
+Maybe it backtracks, but then it's able to not be distracted by maybe the context in which it's thinking about the problem, like, via these machinery. And it's like, do you see it kind of go back as well, or is it just making good choices? Like, is it a lucky sample, or is it actually reasoning like a mathematician where, okay. It doesn't do well in this path, but it goes back, but then it doesn't let that pollute? No.
+
+I mean, it definitely makes mistakes, and then it goes back and thinks about it. I think it's somehow very calculating, very correct. I mean Yeah. As human mathematicians, you're not always perfect at making these decisions. And the first time something doesn't work, you automatically kind of downgrade how likely this approach is to work, you keep doing this a few times.
+
+The model somehow is much better able to like... It seems for several of the solutions we've seen, it somehow seem... It seems much better able to update, like, how likely the path is to work, like Yeah. Versus rejecting a path versus a human doing it. But I think even if it weren't, the fact that you could just start another model session over into, like, you know, it's always going to be the case that that Got it.
+
+Got it. Here. So in some sense, it is, like, still leveraging the fact that you could, like, run kind of parallel, you know, agents on the problem. Yeah. But if it were kind of backtracking, then does make it seem much more like a human, you know, mathematician.
+
+And perhaps it is kind of doing some of that stuff too because, like, obviously, like, we have to, like, make mistakes in in in order to, like, even gain intuition for, like, that solution space is, like, not, you know, not in the the set of paths that it could be in. I mean, I think this kind of thing happens with humans too where, like, if you get stuck on some approach, you might tell another human your kind of general idea, and then they'll come back and, like, figure out how to get it to work. And, you know, it's just Yeah. It takes more time to do this with humans. I wonder...
+
+I mean, know, maybe this gets to the extent that you can actually talk about sort of like... Obviously, don't talk about the training recipes or whatever, but it's it's interesting that if you're just studying, for instance, from math papers, it's like a very poor training set, like a priority for math because... I mean, maybe math textbooks are even a pure example of this. It's, like, really bad at actually reconstructing the motivation for why things were, know, you it's like, don't... I mean, maybe some people like it, but don't learn real analysis from Rudin.
+
+It's just like it's very clean already and crisp. And I think that that's bad because it doesn't show the struggle that made us formulate definitions in a certain way. Like, why do we even need to have real numbers be defined in this, like, super abstract way, etcetera? And so, you know, I think paper is also... I mean, unless you're...
+
+Most people don't write papers with the the context of I need to educate somebody to do to be a mathematician. And so, like, the actual maybe curriculum of, like, learning math is not inherent in, like, a lot of our artifacts as mathematicians. So maybe another way to ask this question is if the reasoning tracers are actually producing things that it's like, okay. This is actually more close to mathematical thought. Like, how does that arise?
+
+I mean, I... Yeah. I guess OpenAI has been, like, the pioneer of reasoning models and teaching AI to reason in this way. So we're doing a lot of work at of all possible directions on teaching models to reason better and for longer in all kinds of different domains. I mean, I think we're training general purpose reasoning models and kind of one...
+
+A lot of these behaviors that we're describing mathematically, backtracking or kind of starting again, I mean, these are these are not really specific to mathematic. I mean, we're seeing them specifically in mathematics in these examples, but kind of they're general purpose tools for reasoning. And I think if you work hard at reasoning, you should see these patterns eventually. Mhmm. So it's just emergent because it's...
+
+I mean, I do think that's why the OpenAI approach was so... I mean, it's like it doesn't rely on, you know, doing auto formalization in order to, like, guide the reasoning. I think that's, like, obviously more like us. But it's just, like, so not obvious that if you're just, like, training on, say, a corpus of, like, math proofs, auto formalized and lean, that you get get the sort of, like, projection of, like, how to think well. Like, put another way, like, with...
+
+Maybe maybe if we think about it with code. Like, code is such a good corpus to train on because it's one of the few datasets that has such large context. You just like... Mean, maybe you see this kind of with books, but they're less structurally interconnected. There's just, like, less structure there, I think.
+
+It's safe to say, like, on average in a in a book compared to, like, a piece of code. And so, like, with math papers, I feel like... But maybe what what we're so bad at with coding models is stuff that that dataset doesn't contain, which is, like, kind of the semantics. Like, the syntax is there, but there's a little bit of, like, the higher level semantics of what produced. Like, why do I have to write it this way?
+
+It's not... I'm kind of getting too too much of the philosophical, but it is just, like, really interesting how it's still emergent that it's doing good mathematics. And we'll probably get into this in more detail if you guys, you know, wanted to talk in more detail about some of the problems, which is just like it's it's not just doing, like, the expected, like, we'll push the brute force thing. Like, You clearly are impressed with some of the reasoning traces, and it's just not obvious that's gleaned from what we would imagine would be the easy training set here. Yeah.
+
+Absolutely. I mean, I think this kind of thing is one reason we decided it was important to release these summarized chains of thought for these kinds of results. Because if you've never seen these and you just see all these proofs coming out, you're not sure what it means. Like like, is the model just guessing in some insane way? Like, is it thinking in some totally foreign...
+
+Like, what... What's going on? But but actually, it... It's it's reasoning kind of shockingly like an expert human would. Yeah.
+
+Yeah. Yeah. It's it's very much like reading a colleague's notes. I mean, it's a little more disorganized in some way. They kind of...
+
+Like, especially if you work close enough with the collaborator, sometimes you'll just see them like spill out their thoughts in an email to you. It kinda... It it feels like reading a lot of those chained together. So it's, yeah, it's it's very... It's quite surprising the first few times.
+
+Were you two sort of very involved in choosing the problems to release in this, like, last 10 problem set that Astra has applied to? Which was your favorite? Yeah. We are definitely involved. Do you wanna start on Yeah.
+
+I mean packing maybe? Yeah. I guess... Yeah. So I guess my personal favorite among these problems is the following.
+
+It's it's extremely simple question, which is just like... It's just about how efficiently can you put a bun. My circles are not very good, and they're not all the same size. But But we're assuming they are. Yeah.
+
+So the question is just, like, how dense can you place a bunch of... So you have a bunch of spheres you have a bunch of spheres of radius one and d dimensions. So the question is, how densely can they pack? And so, yeah, so so in two dimensions, it's kind of like the... So so d equals one, this is not an interesting question.
+
+Kind of... It's just the real line, and, yeah, you can cut it up. A sphere in dimension one is just a unit segment, okay, you can cover everything. Mhmm. So in d equals two, it's kind of the picture that you know, that everybody loves.
+
+It's just like... It's just a bunch of spheres which sort of form, like, a hexagonal lattice. Mhmm. Hopefully, I've drawn it well enough, but I can draw the hexagon. Kinda betraying my naivete on this problem.
+
+Is that, like, obvious? Is it, like, a very elegant proof that it's It's not regular lattice? Yeah. It's not so obvious that this should work. It was only proven in the sixties, I think.
+
+There's a short argument, but it's not it's not so easy. Mhmm. Yeah. Where's the intuition? Like, what is kind of like the machinery of the argument?
+
+Mean, it kind of like I mean, it definitely looks like it should work. That's why I'm Yes. I think But so did. Yeah. I think this is the best part about this problem, which is really nobody had any idea about the problem.
+
+Yeah. So... Yeah. So, I mean, honestly, the best situation that I have for this is that, like, bees do this. And if there was a more efficient way, then probably bees would have honeycombs some other way.
+
+Because evolution is efficient. Yeah. I think beyond that, like, I don't have a great argument. I mean, and I think how little we know is demonstrated by the fact... So, okay, d equals three.
+
+The the answer is just like... It's what... It's how you pack, like, oranges in a grocery store. Mhmm. And this was only...
+
+This was proved by Hales sometime in the two thousands. And, like... And we don't have a short proof of this. Like, I think the shortest proof is, like, a few 100 pages. What area does it, like, draw from in order to So it's a lot of linear programming arguments, and it's very delicate, like, geometry.
+
+It's it's quite ugly, actually. Yes. Like This is like a famously ugly argument. Oh, no. And then the two most famous results are d equals eight and twenty four.
+
+Eight and twenty four. It must be some, like, weird subspace Yes. Yeah. Exactly. So this was done in It's like glowing something.
+
+Yeah. So this was done in 2017. Slightly prettier, though. Yeah. So so the reason it works out in these two very special dimensions is that...
+
+So this is called a lattice packing. So it's, like, kind of very regular. Mhmm. And it turns out in these two dimensions, there are two very special lattices. They're called the e eight and Leach lattice, and they're very nice, and they're, like, unusually dense.
+
+Like, kind of... They're just very, very pretty structures coming from other areas of math, and it turns out that they're the optimal structures. But they're still, like, regular Yeah. They're very regular. But, I mean, beyond this, so we don't know any more exact dimensions.
+
+We know these five dimensions, we kind of don't know anything else. And, I mean, like, to give an indication of how little we know, so there are two very surprising things about this. So you can define, like, delta d to be, like, the densest sphere packed in d d dimensions. So there's kind of an easy lower bound of, like, two to the minus d. Basic...
+
+Yeah. This is Mhmm. This is not so hard to show. Basically, any packing where you can't put it in another sphere has to have this density. So, okay, it's not ridiculously small, and we know that it has to decay exponentially.
+
+So it has to decay... Like, it grows like one minus c for some... At least for some hot density. So in large dimensions, you can only cover like a vanishingly small portion. But we know like basically nothing else.
+
+And so from it's just because like the high dimensional sphere, like Yeah. Thing where they occupies. It just like... Yeah. The volume behavior is weird.
+
+Yeah. So basically, I mean, basically, they don't want to touch next to each other. I I don't know if... I don't think there's a particularly short way to see that that it's, like, exponentially small, but it's known to be exponentially small. And for a long, long time, the best found was something like this funny number, like two to the minus point five nine nine d.
+
+And this was proved by two mathematicians in the seventies. Koptyansky. K. That's a weird number. Where is that?
+
+Spit out of It's not It's like combinatorial? Or It's it's It's the answer to some extremely ugly optimization problem. There's, like, there's, like, a nice underlying strategy. Okay. But that's nice.
+
+Yeah. What's the music of it? Yeah. Yeah. I'll I'll say one last thing about this.
+
+Yeah. So, yeah, I mean, were these two Russian mathematicians in the seventies. Yeah. It's actually very hard to find their paper. Like, one page...
+
+It's, like, two pages long. Mhmm. Yeah. They don't write very many details because paper was smart. But...
+
+Yeah. And so Two negative d's, there's just like the square lattice, like the dumb one or So so... Yeah. It's actually not so easy to... So the argument for this is as follows.
+
+Basically, imagine that you have a set of spheres, and I tell... You can construct a set of sphere so that you can't put down another sphere. Because if you could put down an extra sphere, just keep putting it down. So you have a set of sphere so that there's no other sphere which you can put down. That sphere?
+
+It's almost like a Just take any such packing. Okay. Yeah. Yeah. I claim that this has to cover at least two to the minus d fraction.
+
+The reason is that if you blew up each of these spheres by a factor of two, then they have to cover every point in space. Mhmm. And the reason is, otherwise, you could put down... If there was any empty space, you could put down a sphere there. Yeah.
+
+So I guess if you take the usual lettuce, there are actually, like, more places you can put things kind of diagonally. Yeah. Okay. Yeah. Yeah.
+
+So that's actually not... It's like a worse bound. Yeah. You can just keep plopping things in. Yeah.
+
+This is So this is, like, more... Okay. Good. Yeah. This is related to this, like, really funny fact where you, like, put a sphere on every point on...
+
+If you take a cube in high dimensions, you put a sphere on every point. And it's, like, vanishingly small. It's vanishingly small. It's so small that you can put another sphere in the middle. Yeah.
+
+Yeah. It fits. High dimensional sphere behavior is weird. Yeah. It's very weird.
+
+So so the great part is that... So the model shows the following. So I'll write two things. So this is Astra, I guess, probably the right way to refer to this. Mhmm.
+
+So, okay, I'm gonna write something called the LP bound. I'll explain this in a second, and it shows that it's smaller than this very nice number. Do you wanna say equals? Yeah. It's equals, actually.
+
+D to the two pi plus little o one to the d. And if you you can work out what this number is, it's like it's like roughly something like two to the minus point six. Close about. Yeah. It's surprising.
+
+But this one, you know, you're like, oh, maybe there's some, like, nicer kind of, like, structure there that that that fell out. And it's MO's... Alright. This is, like, roughly something like two to the minus point six zero one ...d. Mhmm.
+
+If that's the numerics. I thought it was six zero Great. Yeah. This shows mine. Yeah.
+
+So... Okay. So there are a couple of things. So first, what is this LP of d? So Vyasasovka's work actually builds on some earlier work.
+
+It turns out that there's a way to attack sphere packing via what's called a linear programming bound. So LP just stands for linear programming. So Konin Elkes gave an approach for serial packing based on linear programming. So it's like a it's like a linear optimization problem over a convex set, but it's all kind of infinite dimensionals here. Mhmm.
+
+And basically, what this reduces down to is you try to understand the follow... So what you try to show is you... Basically, you construct a function f. So this is in d dimensions, and it's mapping to r, and it has the following properties. So first, f of x.
+
+So this is a function in d dimensions. So it's always less than zero if, like, the size of x is bigger than one. And you second have that the Fourier transform of x, this is always nonnegative. So this is just... This is a linear program because the Fourier transform is a linear operator.
+
+And night race. So you're taking just some arbitrary f that satisfies property? Yeah. So you can take any f that satisfies these properties. Mhmm.
+
+And what they prove is that delta d is bounded by the ratio of the Fourier transform at zero to its... To the the four... The Fourier transform at zero... F of zero to the... To...
+
+Over the Fourier transform at zero times the volume of the ball of radius one half in data matches. And so... Okay. This this proof is not so short. For mysterious mathematicians, like, it's a half a paragraph to prove it, but it's a little bit tricky.
+
+And the point is... So it turns out... So this is a relaxation problem. There's no guarantee that taking the optimal left will give you a good bound on delta d. But...
+
+So what Viasoska did, and this was sort of the key... I mean, a large part of the reason she won a fuels metal in in 2020 was that... Or in 2022 was that she constructed a function in eight and twenty four dimensions such that this upper bound matches exactly these two very special lines. And these are kind of miracles of nature that both you can construct this function and that it gives you the optimal bound. But you can just...
+
+This is a very, very natural problem. I mean, it's a function with a very... Two very simple properties, and you just want to understand how this behaves in for large dimensions d. And that was a big mystery. There was a numerics paper by Cohen and several others, which conjecture that, just based on doing numerics, that this was the answer, but they had no idea why this would be the answer.
+
+And what the model shows is that actually the linear programming bound in large dimensions has this extremely nice asymptotic behavior. And the proof kind of explains where this is tunneled from. And because you understand this LP bound perfectly, this actually just gives a better bound on delta d. It turns out that this old bound can be kind of reinterpreted in this framework. And what the model does is it shows you the best possible bound you can get by this framework.
+
+So the model made the connection. And Yeah. What is the sort of like? What we... Yeah.
+
+What did the model do there? I think... So the model gives a function f, which... So first, it constructs a function f, which gives you this bound, and then it shows that there's no function f which does any better. So it's inequality, which is quite strong.
+
+We now understand this problem in high dimensions very well, and that's pretty remarkable. And the model was just kind of told, analyze this linear program in high dimensions. Go have fun. Got it. To give an indication of how this would know it, I think this conjecture was based basically only by doing numerics.
+
+Extremely clever numerics, but numerics. So, yeah, you have to kind of figure out why this is the right thing to aim for and it does. And that was pretty remarkable. Yeah, I mean, I had actually thought about this problem for about six months at some point when I was a graduate student and yeah, I remember just making absolutely zero progress on it. So it was very nice to be like, explained why it was true.
+
+So that was a pleasant experience. I think also in general, was one of these solutions which I knew several people had tried the problem, it's pretty remarkable because the model solution, especially for this being that the LP can't do better than this, was quite short. It's a few pages of complex analysis, but it's kind of exactly the right approach. Once you see it, it's like unbelievable. Like, why why hasn't somebody done this before?
+
+It was it was... Like, there are many types of good mathematics, but I think one of them is just like, you see it and you're like, oh, man. Why didn't I think of this? And it was really fun. And I mean, I sort of knew why I didn't think of it, but it was quite nice to see it and it was fun to see.
+
+Yeah. That's why I like this a lot. Yeah. So so this is the first of the 10 problems that Astra solved. Mhmm.
+
+But the second is actually closely related. Mhmm. So this was sphere packing. The second one is spherical and binary codes. Mhmm.
+
+So what's... You draw a code. You you drew a packing. It's it's gonna be the same picture. Right?
+
+Okay. Sure. Sure. Otherwise, we're gonna have his picture of hexagonal packing in our minds. Yeah.
+
+A spherical coat is literally just a sphere packing, but on another sphere. Yeah. So, I mean, a a spherical coat is basically just a sphere packing on the surface of another sphere. So... Yeah.
+
+Yeah. I'll accept the sphere. Yeah. Okay. So same same picture as before except you're kind of on a curved surface.
+
+Okay. Okay. Okay. So why is it called a code? Well, you can...
+
+I I guess the the reason is because of binary codes, which is again the same sort of thing, but now it's on a cube. Okay. Yeah. Fine. Let me me draw a picture of a cube and some like simplest possible code on it.
+
+So like when sending... So this is really about error correcting codes. What are error correcting codes? So it's like I send you some string of bits. Right?
+
+And maybe I'm worried that some of the bits I send you get corrupted. Right? So maybe just because of some errors in my system, this one gets changed. And we want some communication protocol so that you can decode this small amount of error and recover what I was trying to tell you. And normal English language kind of has this sort of property.
+
+If I make a few typos, you're gonna be able to understand what I'm saying. But if we have some really brittle communication scheme, it's not going to work. So codes are kind of the the way you you solve this. And mathematically, it just means, like, you know, what's a binary string like this? So the fixed length, it's like a point on some hypercube.
+
+Mhmm. And we want a dictionary of allowable code words that are, like, separated from each other. So, like, in this case, if I don't want any two to be adjacent, I would kind of take these four vertices, kind of the, like, even ones if you sum up the the digits. Right? And and, like, okay.
+
+I guess... Okay. In in this case, I guess if I if I have an error, you can't tell which one it's from, but at least you can tell it's like not... At least you can tell there was an error. Oh, I see.
+
+I see. Yeah. Yeah. Because it's like kind of sparse in the... Yeah.
+
+It's like it's not shoe adjacent so that like... Is this like when the Hamming distance is not Yeah. Yeah. Right. Right.
+
+You want... Yeah. So you want like a large Hamming distance between any distinct Okay. In dictionary. And, yeah, I guess if you take two opposite corners, then if I have a single bit error, I can always recover which point it was coming from.
+
+So one that it's definitely closest to. Yeah. So there's the same question in both of these cases, in a very high dimensional setting, what kind of rate can you get? And for binary codes, it's really an extremely practical question. It's sort of like if I send you an n bit string and there's 1% error rate, how much longer does my message have to become to tolerate that amount of errors?
+
+This is some fundamental information theoretic limit of communication. You can see certainly the spherical case, it looks very much like sphere packing. For example, if you make all these little spheres really small, then the curvature of the big sphere is kind of not going to matter so much, and it it looks like just packing spheres in full space. Mhmm. And in fact, yeah, these these problems turned out to be very related.
+
+So for these problems, there were similar bounds coming from these KL authors. There's something for the Sear and something for the Cube, but it's all kind of the same stuff. And our models found better bounds for these cases as well. Techniques look pretty different actually, if you write them out. So this full space analysis of this linear programming was using just complex analysis.
+
+But if you... The method for these cases, we're using representation theory. Both the sphere and the cube have a lot of symmetry. And basically, the idea of the proof was to really leverage this symmetry. There's some amount of this in the previous existing method, and really the improvement is to lean into the representation theory really hard and of make the algebraic symmetry enter in a more sophisticated way.
+
+And then it turns out that from the representation theory formulas, if you kind of take this, like, like, small sphere limit in the spherical code case, you you recover, like, part of this result and you recover this this value. So, like, this result isn't a special case. You kind of only went one direction of the bound from from looking at it from the code's point of view, but, like, there's, like, a very close connection. Okay. Yeah.
+
+Yeah. Because you guys let this, like, run-in parallel. So it's, kind of discovering... Or because you're not sort of, like, feeding it. So so the...
+
+So actually, this was the one case where there was some interactivity involved. Interesting. So for for all of... So except for this pair, it was just, you know, we had some problems. We we fed them in and we...
+
+You know, the the model the model came back with some solutions. Mhmm. What happened here is actually pretty interesting. So so we first asked it to improve the bounds for the codes. Mhmm.
+
+And it came back with an improvement that, like, used some amount of representation theory. And then we kind of asked it, Hey, can you push this further? What happens? And then it came back with some much more sophisticated representation theory. And it turned out that you got this conjectured value for full space sphere packing out of that method by pushing it as far as it can go.
+
+So then we kind of asked to directly analyze the sky and try to complete the picture. Okay. Yeah. Okay. So so the relationship, like, isn't a coincidence.
+
+Yeah. Yeah. It's, like, interesting when you're sort of saying the first prompt, which is, you know, maybe so basic. We're just like, can you push this further? It does require some judgment from mathematicians.
+
+And... But, like, eventually, you would imagine by scaling the models, you don't need to do that. Or there's another view that the harness actually does matter, and this is kind of part of the harness apparatus. Do you guys have any views on that with your working with Astra, especially generations of models and how how much you have to kind of input or how much the harness matters versus not? I mean, I...
+
+Yeah. I I guess there have been some, like, funny quirks like this that just come from, like, exactly what you asked the model to do, basically. Like, in in this case, what the model was asked to do originally for codes was to improve the bounds by some exponential factor. So it it really shows up in this leading constant up here. And it it improved the bounds and it it didn't try to push things too much further.
+
+Sometimes you see it do, but sometimes it just doesn't bother. But, yeah, just ask it again and it goes further. So wasn't a capabilities issue. Just didn't feel like it at the time. Do you call that judgment?
+
+Is the... Because, like, there... There's a... Yeah. What do you I mean, they think models tend to be pretty task oriented.
+
+If you if you if you tell it to do a task, it accomplishes the next, but it's pretty happy. So, yeah, the the task orientedness, it's like... But do we expect that level to kind of ascend up to... It's not that they will be less good at being task oriented. It's just like they'll ascend to the level of like, okay.
+
+No. Let's let's go in this direction. You'll have the judgment too because you guys have the judgment too. Like, okay. This is pretty promising.
+
+Looks like you're using a lot of representation theory. It doesn't seem like there's a limit so far, but it doesn't have that context yet. But, like, I guess what I'm trying to say is, like, this one is hard to maybe... Harder to extrapolate. But from, like, previous generations when you had to give it more maybe prompting more of that harness work, but eventually, probably had to give it less.
+
+So it probably gives you some confidence that there's this, like, really fast ascension. And and do you see... Yeah. Like, where is Somehow somehow solving a harder math problem is, like, you have to solve many smaller, like, somewhat less hard math problems. And and the fact that the math problems are getting harder is kind of an indication that you're...
+
+The model is able to take on more and more work in, like, a single continuous unit. And I I think that's that's the thing that looks very promising somehow. Like, any of these solutions, it's not like one idea, then you're kind of home free. You need several you need several pieces to kind of interact and talk to each other. The models, I mean, the the model doesn't come up with all the ideas at once.
+
+Right? It doesn't pull everything out in in an instance. So kind of the fact that it needs to sort of see how this piece interacts with another piece, that's kind of like solving a problem in itself or piecing together many problems in itself. It could just be that, okay, when you're telling it, okay, push this even further, That was of the same order of, like, magnitude as, like, all the smaller things it's solving as well in in each way. And so you don't think that's just kind of like a privileged direction.
+
+It's just sort of like, hey. Let's give it, like, one one more help. Or you actually think that there's... Guess I what I'm trying to get at a bigger question is, like, is there a good sense of, like, you know, taste? Because, like, when people talk about, for instance, how well the models are getting at, like, doing research, for instance.
+
+And that's what we we, you know, want a little bit of RSI. And and sort of, like, there's surprising things about how that improves, and then there's, like, the... Oh, you know, maybe right now it's at a level of still, like, a junior researcher. It's, like, not really asking, like, the right problems. And so I'm just trying to get, like, a...
+
+Maybe a sense of, like, where you're seeing that progress through the model advancements each generation. I mean, what is taste even? Yeah. I I think somehow I tend to be pretty utilitarian in my view of taste. And, like, if you're able to solve problems faster by making better judgments, like, I think that's, like, the best, like, general proxy I have for taste.
+
+And somehow, the fact that solving harder problems means it has kind of by definition means it has better taste. I think there there are these no... Yeah. I think occasion occasion because they are task oriented, you do occasionally get these these symptoms of like, oh, it clearly has made a breakthrough. It kind of understands it's made a breakthrough, and then it doesn't kind of push all the way to the limit because that's not what you asked.
+
+But that seems... Yeah. That seems seems rather minor compared to, like, the set... The the state of progress we've seen so far. Mhmm.
+
+Mhmm. Okay. Yeah. No. I think that's a pretty clear.
+
+Like, I think it's it's like maybe you're liable to get confused if you're trying to, like, do a concrete long horizon task and show taste kind of at the same time. But, like, you know, if if you if you have one model that's responsible for taste and one model that's responsible for going out and working for a long time at solving a hard problem kind of as the underling of the of the the supervising AI. I feel like that's kind of going to be fine currently. Oh, interesting. Because that is like saying that they...
+
+These two things are somewhat sep... Or if not separate, at least they shouldn't kind of pollute each other's context, which is a little bit... I mean, it could be potentially like a strong... Stronger statement than... I guess...
+
+Yeah. No. It's just kind of interesting because it's... It might just be, like, to your point, it's... You know, let's take the utilitarian answer.
+
+It's solving harder and harder problems. It's doing a lot more than just, like, you know, brute forcing something. It's making choices. It's like pruning, you know, a vastly large space of possible pads into something that's, like, really... You know, it's both tractable, but then ends up being like it's a diminishingly small path within that space.
+
+But, like, having... Like, why would would be, like, a separate model, a separate generation or something that's a different version of the model that would contribute to taste, or maybe that's totally... Like, it's too abstract. Doesn't make any sense. You know?
+
+We should just let the actual this might... Like, the related question be like, you know, what is what is the the thing that gets us to a better version of intelligence, the harness in the model, or is it just the model? And it's like, we we see this in, you know, at least in applied AI or, you know, startups where it's like... It's a continual battle of, like, you need the harness, but then the harness adapts very poorly to a new model because sometimes, like, a very, very minimal harness is still the best way to expose to the raw power of the model. But then now we also have these, like, training regimes where we require the harness to be, you know, trained with...
+
+I mean, part part of this is to keep things more proprietary and harder to... Harder for other people to use it. But I think partially, it's it's maybe actually that it helps, have more control on, like, the reasoning traces you care about. It's a long rambling way of saying it's like, yeah. I I don't actually...
+
+Like, I I... This is so interesting to see how the models have gotten better at math and maybe something that's, like, very abstract and hard to describe, like, taste. It's a way to tease out, like, what is actually necessary here. I think my only, like, nontraditional thought here is that, like, when you're working... I mean, just when you're doing any task, occasionally, you get pigeonholed and you, like, work really hard and just having a friend look over your shoulder and be like, what are you doing?
+
+And then just having that one bit of step back for ten seconds, this is often very useful. Yeah. I mean, I see no reason why humans would be so different than models somehow. Yep. Yep.
+
+Models would be so different than humans. Having having a few humans working together is often more powerful than just having one. Yeah. And it's like in this kind of collaborative thing, you actually... You kind of, yeah, artificially created it, but it's very similar and dynamic.
+
+But I I think a lot of taste is also like having a sense of what problems you or like some method you have in mind are going to be good at solving. Mhmm. Like, it's... I mean, certainly there's some amount of like absolute aesthetic point. Right?
+
+But there... There's also just like, having a nose for what you might want to pursue because you'll be able to make progress. And I think for that, there's... You would expect that as a side product of being good at completing tasks, you would you would get there sort of. Right?
+
+Let me know if we still wanna do, like, a section on soffit groups because I think, you know, up to you guys. It's definitely super interesting. So maybe the the first question is what is a group? Let's remind ourselves. So a group is a set of elements with some multiplication operation.
+
+And basically, this is how mathematicians think about symmetry. So so you're like... Basically, like, if g and h are elements of your group, then g h has some... Is some other well defined element of your group. And you have like associativity and you have an inverse.
+
+So for every g, there's some inverse, and there's some, like, specific elements in the group that is is kind of the identity. Okay. So it's some abstraction of composing operations. So these could be numbers. They could be multiplying matrices.
+
+They could be rotating something, which is a special case of multiplying matrices. And a group is SOFIC, if... Well, there's some precise definition, but roughly it means it... So I should say groups that can be finite or infinite. So if you have a square, all the rotations of it form a group with four elements.
+
+If you have a circle, then the rotations form a group with uncountably many elements. So SOFIC groups are either finite or countable. You should think of them as being countably infinite. So there's like the same number of elements as like the integers. And it's SOFIC, if in some sense it can be approximated by finite groups.
+
+So we didn't know if there was a non SOFIC group. So so the the the result that ASTER proved is simply that there exists a non SOPHIC group. Yeah. And without like... I mean, we can...
+
+You know, before going to to that proof, it is like... You know, it's like... I feel like a lot of the programs in math is like, okay. We are such finite creatures. Let's see how well our finite approximations are, you know, do.
+
+And in this case, especially for the countable case, it's like... Maybe you'll you'll be relating it to, like, the Aldis Leon's thing. It's just like it helps kind of anchor the picture of, like, it seems like such a... I mean, it's a nice result if it were true, but it... It's not.
+
+And it seems almost like reasonable. And so... Yeah. I I actually didn't didn't go... I would love to hear the explanation of, like, how it found a counterexample.
+
+Yeah. I mean, I I would say that, like, you know, the the hope that there was no non sofic group, so every group has this kind of approximation, like, maybe this is sort of like people hoping that there's a miracle. Mhmm. Because it turns out that groups like this have a lot of nice properties because you can run certain proofs for finite groups and then kind of approximate them in whatever way the definition of being SOFIC lets you approximate them and get the results. So so, like, there's this notion of being a surjunctive group.
+
+So there's there's some fact that any group which is sofic is also a surjunctive. Surjunctive is some property of like dynamical systems on the group. And I guess the original question was whether every group is surjunctive. This is some question of Gottschalk from the seventies. And this fact that follows this pattern of prove it for finite groups and then do this approximation is what motivated the question about if there's a non SOFIC group.
+
+Yeah. Maybe I'll say a little bit about this Aldous Lyons conjecture and Yeah. Sure. Yeah. Yeah.
+
+So I I guess I had heard of this a little bit beforehand because there's a related stronger conjecture in probability that was made popular by Aldous and Lyons. This conjecture roughly what it says is like any infinite graph with some nice property called unimodularity. Random... In modular random graph can be approximated by large finite graphs. So maybe the the way to, explain what these kinds of things are trying to say without getting into technical weeds is to say what they mean about the integers.
+
+So so how would I draw the integers as a graph? So this is called the Healy graph. You're just gonna connect nearest neighbors. Okay? So there's some kind of canonical way in which this is like the graph that represents the integers.
+
+Mhmm. Okay? And there's some sense in which you can approximate this by finite graphs. Why? Well, if you look at integers mod n, then you kind of get the same picture, but you have a big circle instead of an infinite line.
+
+And the point is if you look at any point here and any point here, in nearby, things look the same. You have to go, like, very far away to kind of see this global geometric structure that you have a circle and not a line. Mhmm. And in fact, the integers and integers mod n are both groups just by, like, adding numbers or adding numbers mod n. Mhmm.
+
+So these integers mod n are like SOFIC approximations for the it full integers. So this approximation is kind of why the integers are a SOFIC group. Mhmm. So so the the sophicity... The the statement that every group is sophic is sort of a generalization of the fact that you can do this approximation with groups.
+
+And this... Aldous Lein's conjecture is kind of a broader conjecture that like any network, you can do this. And it... Like, you don't require as much algebraic structure roughly. So it's it's kind of a broader conjecture.
+
+So so this conjecture was disproved earlier, like two years ago, and it was kind of a really tour de force work. It was two fifty pages building on another 200 pages. It uses quantum complexity theory. So it really builds this very complicated bridge, I think not very many people could understand this. So since this is a stronger conjecture, the disproof is weaker than disproving this statement that all groups are SOPHIC.
+
+But it turns out that the direct proof that all... That there's a non Sophic group was much shorter and easier than this this really amazing disproof of the Aldous Lyons conjecture. It's like 15 pages maybe. It doesn't have any of this very complicated connection with quantum complexity. It just kind of stays in group theory land.
+
+I mean, uses some important existing results by other mathematicians like Kuhn and Kuhn and Tom, but it's it's like a it's like a very reasonable normal kind of proof. Yeah. And and kind of spelling maybe the obvious, but, like, the the connection between the SOFIC group statement is just you take the Cayley graph, and that's the one that is... Like, what they use or for the eldest Leon. Yeah.
+
+Yeah. And so that's why it's like a, you know, a Yeah. So of Right. So, yeah, basically, happens is... Yeah.
+
+So for a group, you can take exactly a Cayley graph. So you you take some, like, elements that generate the group and you kind of connect elements that are adjacent. So so in this case, this is a Cayley graph of the integers. So so... Right.
+
+So when you do that from a group, you get a deterministic graph. You just get a single graph, the green graph. You fix some set of generators. So this conjecture is stronger basically because it allows a broader set of graphs that aren't deterministic. It allows them to be random but have some extra you know, modularity property that constrains exactly how it can be random.
+
+Mhmm. But... Yeah. Basically, that's that's the difference. Mhmm.
+
+Like, here, you kind of have to give a deterministic network instead of a random one. Mhmm. Yeah. Anything kind of interesting, surprising about the result? I mean, you mentioned some things, which is like it's it's stayed within group theory, the techniques.
+
+I mean, I think maybe it's like a a nice example of this general pattern that theorems produced by AI have generally been... Like like, the proofs are pretty short generally. They're like Like with a counterexample so far. Yeah. But I mean Yeah.
+
+One, it's like, okay. It's sort of a counterexample, but there's some stuff you have to do to analyze things. The difficult part here is that the property of being a sofit group is not so easy to get your hands on. So you have to find a concrete way of saying, like like, producing a producing a way of saying this group cannot be so big. Like Yeah.
+
+And the proof is actually... It's very short. It's almost a... It's a combinatorics argument, but it's a very delicate combinatorics argument. Model...
+
+Because now you need to both have the right statement and know what piece of the literature and then execute it correctly, and that's very nice. The difficulty of this problem is that it's just a really, really hard... It's, like, very hard to get your hands on, like, being approximated by any possible finite It's just like It's like, what is happening at that countable infinity that's, like, resisting this approximation? Like, do you guys kind of it's hard to explain, but there's some concrete combinatorial obstruction, which if you read the previous papers, you realize that that's what they couldn't rule out, and Astra found a way to kind of say, okay. No.
+
+No. If you add this one extra algebraic fact, this this, like, weird conspiracy can't happen. It's, like, very clearly trying to rule out conspiracy in the sort of previous authors had implicitly written about. Yeah. And those were the actual suspects.
+
+Yeah. Yeah. It turned out. So they were sort of on the right track, and then this did the last mile of... Well, whatever.
+
+However you quantify that. But but I I think it's... Like like, a year ago, I I would have been very surprised to learn that, like, all of these AI proofs are very short and elegant. You're kind of afraid that they're going to generate all these thousand page things and can't understand it. But it's been kind of the opposite.
+
+Yeah. Like, only humans can generate, like, 200 page proofs right now. Yeah. Well... And now so I was, asking, like, if you do that postmortem, it ends up usually engendering more mathematics.
+
+Because when you do that with humans, like, that's what, you know, breeds new mathematics. So maybe maybe if you kind of alter the prompt a little bit and be like, how would you, you know, generalize this or something? Like, I... Yeah. I don't know if that's been a technique for you guys to, like, have it explore and exploit what it has already developed.
+
+Well well, there has been some... There has been follow-up on this already, actually, by by Kunun Tan who this Oh, nice. Was always built on. So they they like The community is coming on. Yeah.
+
+Yeah. Yeah. Which is kind of what what we're hoping. Right? You know, we don't want to be, you know Come in.
+
+Writing lots of follow-up papers ourselves, but if if there's some interesting follow-up that, you know, it's like... We're very, very happy that that there's some there's some follow-up building out these ideas more and giving, like, more examples of non sulfate groups in this case. Yeah. Well, actually, maybe that's a great segue into, like, how... You know, what's the ideal way that this is being taken up by the math community?
+
+Because I feel like there's a spectrum of answers from working mathematicians, sense of, like, some... You know, probably most at this point are like, okay. AI is obviously doing some nontrivial stuff. It would be a disadvantage not to admit that in my workflow. I've definitely heard some stories where people are...
+
+I've, you know, would find it hard to either take AI as a coauthor or, like, how do you even do kind of attribution this way? But I don't know. Like, what... But maybe to paint the the more optimistic picture. So you're saying you want the mathematicians to be building on these results.
+
+It definitely generates a lot more results to be verified. So it, you know, puts pressure on on the community and the profession. Like, how do you how do you kind of expect the evolution of kind of uptake and and and collaboration with mathematicians? I mean, given that the fact that the models can produce sophisticated mathematics means that they can help you understand, like, sophisticated math... I mean, like, I don't know.
+
+Occasionally, like... I enjoy looking at the archive, and I want to understand some proof. And, like, I could read the introduction, but in practice, it's just much faster to take the PDF, put it into it into my favorite model, then get an output of what is the rough proof strategy. And somehow this, like, along... I mean, of course, models are going to help us produce exponentially more mathematics, but they also make it much easier to absorb it.
+
+Yeah. And right now, okay, it's still a bit of a challenge back and forth, but I I think it's, for me, at least, much, much faster at understanding. It's much, much faster to understand a piece of mathematics with a model than without it. So it's helping solve the problem it creates anyways. Yeah.
+
+I feel like that at least. And it... It's... You know, I I don't I don't view it as, like, creating much more harm. But, again, like, I don't have such, you know, high stakes in, like, okay.
+
+I'm I'm gonna get... I'm not gonna get tenure, etcetera. So, like, I I I agree. Like, making it more accessible. Like, if I'm not spending so much time absorbing an area, I can, like, put it into chat GPT and then expect to...
+
+I mean, you guys have an even more powerful model, hopefully releasing, for other people to enjoy as well. But, like, it's... I think, like, the the positive version of that is actually more people can participate in mathematics. There's, like, people might be coming with other intuitions, and they could actually maybe generate good mathematics. Is that sort of, like, closer to the vision of what you're hoping this is, you know, pushing towards?
+
+Or, like, what what what things do you think mathematicians should be wary of to kind of adapt fast enough to take advantage of AI? Yeah. I mean, think certainly there will be a lot of changes. Right? I guess in math, there are a lot of things that are kind of important for a given result.
+
+You need someone to come up with it, but you also need people to understand and absorb it and internalize it enough to do more with it and figure out where it fits into humanity's understanding. And a couple of years ago, proving the result was so hard that the other stuff was just kind of coming along for the ride. If you manage to prove this thing yourself, you're automatically gonna understand it quite well. You're responsible for maintaining it in in some sense and, like, you know, explaining it to other people. And, yeah, now this kind of...
+
+What was the main bottleneck before is kind of much less of a bottleneck. And, you know, these other kind of constraints come into play. So it... Yeah. The the the, like, optimal structuring for, you know, organizing the knowledge could could look rather different.
+
+Yeah. How does that look? I mean, does this make the field a lot more kind of empirical? Will people do sort of the hard... Like, the first thing that was scarce, which is like all the reasoning and then more...
+
+Mean, not that it's like a bad thing to make it empirical, but it's almost like it functions as a very different discipline. Like, a lot of the fun stuff is understanding. You know? And so communicating, maybe assembling, having still the human taste, does that sort of remain rarified and and that's how, you know, current mathematicians need to adapt and and reward, you know, contributions? Or or is this too much of a caricature?
+
+It's like something else. I think certainly understanding how to put as we get more and more mathematics, put it in a proper framework and sort of how being able to explain it to other humans so that they can also appreciate it. I mean, so implicitly we valued this, but it was usually because you were the person proving the results that gave everybody else the understanding. But I think increasingly it would be a function of you're helping, you're the human who can give this understanding to other people and help them with it. I think that communal understanding will, I think, become...
+
+It was much more implicit in how we viewed math and change, but I think it'll be an increasingly more explicit and valuable part of the subject. I mean, a nice thing about math is that the ceiling for difficulty of a math problem is pretty high. So even if AI continues getting exponentially better at math, might... Plausible will never solve something like P versus NP. And it could be that field kind of becomes more attached to these big mysteries and less to smaller mysteries that are more routine now.
+
+Yeah. Yeah. I think that's a positive vision of the I mean, also, like, I don't know. There are things I spent, like, months or years of my life wondering about, not getting to know and hoping that Yeah. That's, like, what a joy.
+
+Yeah. Some portion of them will get to know the answer to it. I'm I'm pretty happy about that. Exactly. No.
+
+I'm I'm excited about this, like, renaissance of results and understanding, and I feel like... I mean, this is such an infinite, you know, field. Like, it... No. No pun intended.
+
+But, like, it's just like... It... It's it's it's just... There's so much that you can actually create here. So...
+
+I mean, especially for somebody like me who's not gonna have the time to actually, like, practice mathematics. Now there's, like, a lot more that you can actually do in the activity of math. So... Yeah. Yeah.
+
+I think the the, like, the ability of someone who's not working on math is, like, their literal job all the time to, like, understand what's going on and, like, you know, learn about some of the mysteries they might have wondered about will will go up quite a lot. Also, you know, if you're if you're, like, if you're working on something that requires some math Mhmm. You know, suddenly, you you don't need to, like, find a world expert on this topic to to be able to, you know, use it in your own work. You can Sorry, mathematicians. Yeah.
+
+No. It... It's true. I mean, I think there was just, a dearth of actual, like, people who could could do that. And so I think this is helpful.
+
+Maybe it's helpful for theoretical physics, like, we'll see, but a lot of other applied areas as well. It'd be nice for the world if applied mathematics went a lot faster. Yes. I mean, I'm I'm of that opinion. Well, thank you guys for joining.
+
+This is a lot of fun, and I'm, you know, just so excited for how much the models are advancing. So maybe we'll have you guys back soon. Yeah. Thanks so much for having us. Yeah.
+
+Thanks for having us. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a sixteen z dot Substack dot com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.
