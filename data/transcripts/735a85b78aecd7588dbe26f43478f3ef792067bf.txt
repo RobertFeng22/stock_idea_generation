@@ -1,0 +1,251 @@
+This episode of How I Built This is presented by Engine, the modern travel and spend platform built for businesses that are growing. Book faster, save more, and watch your rewards stack up. Stay tuned later in the episode to hear how NGIN is helping thousands of businesses travel smarter. Building a business means being 10 people at once. The strategist, the spreadsheet person, the one fixing the office sink.
+
+US Bank made a card for exactly that kind of hustle. The creditor and issuer of this card is US Bank National Association pursuant to a license from Visa USA Inc. Some restrictions apply. Hello, and welcome to the advice line on how I built this lab. I'm Guy Raz.
+
+This is the place where we help try to solve your business challenges. Each week, I'm joined by a legendary founder, a former guest on the show who will help me try to help you. And if you're building something and you need advice, give us a call, and you just might be the next guest on the show. Our number is 1804331298. Leave us a one minute message that tells us about your business and the issues or questions that you'd like help with.
+
+Alright. Let's get to it. Joining me today is Michelle Whaler. She's the cofounder and former CEO of Beyond Yoga. Michelle, welcome back to the show.
+
+Hi, Guy. Thank you so much for having me back. I'm so excited to be here. We're excited to have you back. You were, of course, first on the show back in 2025, when you told the story of beyond yoga, and it was you and your cofounder Jody Groobrevsky created this line of yoga apparel for women.
+
+And for about ten years, you grew it really slowly, mainly through through, like, wholesalers, yoga studios, and then some department stores. But over time, your brand really started to gain traction, especially because you were one of the only big independent yoga brands. Fast forward 2021, Levi's bought the company for about $400,000,000, and in 2024, you stepped away from Beyond Yoga. By the way, if you haven't heard this episode, again, know I always say it, but it is true. It's a fantastic story, and we will put a link to it in the show notes.
+
+First of all, since you've last been on, any updates for us? What what's been going on in your life? So much. You know, I'm still in this mode of celebrating the win. I feel like the build of beyond yoga took such a long time and so much out of me, but, you know, I'm still savoring this win.
+
+And I also you know, I'm taking this as such a blessing, an opportunity to spend time with my family and my husband in a in a different way. You know, I Jesse was my business partner for the last ten years Yeah. At Beyond Yoga. Yeah. So it's really nice to just to get to spend time and have fun.
+
+And now I'm I feel very fortunate. I have this opportunity to explore what makes me happy outside of Beyond Yoga, And I've been able to, you know, kind of choose my own busy and explore. I've been teaching a course on how to create culture at USC. I've created this platform called Quincehill, and I use that as an investment and a mentorship platform. And for the most part, I spend my time talking to founders and giving advice, and that's been one of the things that really fills my cup.
+
+Yeah. You get a lot of people probably, and and you're investing in in businesses that they're looking at the twenty plus years that you did what you did and trying to figure out how to, you know, do a version of that. Yes. And, you know, I'm trying to share whatever nuggets of wisdom I have, whether it's, you know, the storytelling, whether it's, you know, sometimes people just want you to listen. Sometimes people need advice.
+
+Sometimes people need a connection to somebody who can do, you know, the web programming or the marketing or, you know, help them with inventory. And so that's the fun part. Like, for me, I always kind of wanted to be a matchmaker. That was, like, my thing when I was in high school and college. And now I feel like I get to be a matchmaker by helping people find the right things they need for their business, but also helping entrepreneurs find the right people that they need at the right time.
+
+I mean, now that you again, you have some distance from it and you and you've looked back on it, we did on the show, what is a a piece of start up advice that that many people get and maybe you got that you think is just a bunch of BS? Oh, BS. I don't think you need to raise money, and I feel like everybody tells you that you have to. I think you need to know what motivates you and what you want your business to be. And, no, you don't have to have it all figured out at the beginning, but I think a lot of people, like, come in it with an exit plan.
+
+And you don't need to do that. You need to think about what is motivating you, why are you starting this, and really lean into that and build a sustainable business and not focus on the exit. You know, once people start bringing on investors, that becomes the focus, and that changes the trajectory of your company. So as long as you can do things on your terms, I say do it. You don't have to be the next anthropic, and you probably won't be.
+
+But there's nothing wrong with building a smaller, sustainable business that gives you the freedom to live your life and support yourself, and you don't have to chase a mammoth exit. Yeah. Fair enough. Michelle, what do you say? Should we should we take our first call?
+
+I love it. Let's do it. Alright. Let's do it. Welcome to the Advice Line.
+
+You're on with Michelle Wheeler, cofounder of Beyond Yoga. Please tell us your name, where you're calling from, and just one line, please, about your business. Hi. I'm Carrie Angoff. I'm based in Paris, France, and I'm the founder of Elective Study Abroad, which reimagines study abroad for adults.
+
+Okay. Welcome to the show, Carrie. So study abroad for adults. I love this. Is that basically what it is?
+
+Like, adults can do a study abroad program? Yeah. Right now, we run weeklong seminar style courses for adults of any age. It's mostly, but not only retirees. Each course focuses on a topic that's brought to life in a particular place.
+
+So think architecture and cuisine in Southern Spain or world religions in Istanbul. And each elective is taught by a local instructor who is deeply connected to both the topic and the destination. Wow. Okay. So, Carrie, when did you start this business?
+
+Just last year. It's been about a year and a half. And how has it been going so far? I mean, this this sounds amazing. I'm sure every time you describe it to people, they say, wanna go.
+
+How's it been going so far? It's going well. By the end of this year, we will run five courses, with a total of 26 students, which sounds small, but that's the idea. It is a niche market, and it is meant to be boutique. The idea is that there's never more than 10 people in a group.
+
+And so everyone, especially people who are retired and have different backgrounds and different careers, kind of bring their own perspective on these topics, and the discussions can be almost as rich as the seminars themselves. Yeah. I bet. Okay. Before we dive in further, what is your question?
+
+So people are really enthusiastic about elective. Everyone tells me how much they wanna do it. I have strong click through rates, very specific email inquiries, and regular request to book calls to learn more about the program. But getting people to go from that excitement about the prospect of doing an elective to actually enrolling has been a challenge. So I've played around with things like deadlines and discounts to get people to book, but neither one of them seems to have a real effect.
+
+Yeah. So I'm looking for advice on better ways to create a real sense of urgency to get people to say, okay. Now I wanna do this. Got it. Okay.
+
+Michelle Wheeler, wanna bring you in here. You've got some a little bit more time on your hands. I mean, eight days studying, you know, art and culture in Montpellier or, you know, the history of the city in Palermo. I mean, sounds amazing. Sounds incredible.
+
+I absolutely think this is a fantastic idea, and so nice to meet you, and congratulations on what you've built. So I just wanna make sure I understand because I'm I'm looking at your website right now, and I see think I it's five different courses that are offered multiple times throughout the year. Yes. By the end of this year, we'll have run one of each of the of the five that you see. Yeah.
+
+Okay. When I think about this, I'm like, oh, this is you are selling an experience. You're not selling the class. You're selling an experience. And so when I look at the website, my first image that I'm seeing right now is, like, a bunch of people standing looking at a map, and then the second one is a bunch of people in a classroom.
+
+And I feel like that could be almost anywhere. And I wonder if there is a way in those first two images to hit people with, like, you know, if it's in Paris seeing the Eiffel Tower in the background or something that you just can't get anywhere else in the world. Yeah. And then my other thought is maybe you just need, like, a better filtration system before they're getting to you. Like, I see that it just says, like, book a call.
+
+Right? But maybe you need to have, like, a couple filtered questions before they get to that call. Like, are you ready to go on a seven day immersive experience? Are you excited to spend I would imagine this is expensive. How much does a general course cost?
+
+Average right now is, 6,200. Great. So are you willing to invest $6,000 in a once in a lifetime opportunity for yourself? You know? And then are you committed to being a lifetime learner?
+
+If you said yes enthusiastically to all of these, let's talk. But, like, maybe you can weed out some of those phone calls that aren't translating. Yeah. That's interesting. I I love that idea of kind of leading people down the path a little further.
+
+That's not something that I really hadn't thought about at all. The other point that you brought up is interesting because it's something I grapple with a lot, and it's precisely the reason why the Eiffel Tower isn't on the website is there are a lot of travel opportunities out there. You know? It's a tight market. And I'm really trying to differentiate this as an educational experience and that it's not about going to see the sites.
+
+It's about going to build this kind of community of lifelong learners, as you said, and have access to an expert and their connection to the city in a very different way. But I I do worry that maybe something's getting lost when someone is comparing it to other travel opportunities. Carrie, you know, I would suspect because you're you're talking to people. They're booking a call with you, and then they're not following up. And I would suspect that there are a variety of reasons why.
+
+I mean, I think of Backroads, for example, which we did on the show a few a few months ago. And Backroads is a huge travel company. People go on it because they wanna cycle. And it's you know, they're you are alone on the bicycle for much of the day, and then you're socializing with the group a little bit here and there. But if you don't love the group, it's okay.
+
+It's in this case, you are gonna be with a cohort for eight days. It's gonna be intensive. Now this is a self selecting group. These are people Yeah. Who really wanna immerse themselves in learning.
+
+So there's a pretty good chance that if you are attracted to this, the people who go on it are gonna be people you're gonna wanna be around. But I still think that what's stopping people from, like, really, like, hitting the go button is they're they're thinking, like, you know, I don't know. I won't know anybody. I I'm nervous about it. So a couple things I think you should you should think about.
+
+I think the first thing is you should sell the cohort. Yeah. You know? You should say, hey. It's not just the course.
+
+It's like, spend eight days with, you know, 10 other people who are just as curious about Renaissance or whatever it is, like, are just as passionate as you are. I also think you wanna get testimonials on the site. Like, maybe they're they're there. I didn't see them from people like, I was nervous at first. I didn't know anybody.
+
+I almost didn't go. I can't believe I even considered not going. It was life changing, whatever whatever it is, because I think you really wanna lean on that. And then I also I think you've got itineraries on here maybe. But if somebody does a call with you, you may wanna send a follow-up email.
+
+It's like, hey. Just want to send you the reading list for this program. Just check this out. Yeah. I've actually I'm in the process of updating some of the web pages now and adding in a button to click to request a sample syllabus Great.
+
+Because I think that's a great way to just increase the communication with the people, and it's giving them something that is not necessarily public, but I'm not gonna just throw it out there for anyone. You have to tell me you want it. That's my thinking anyway. That's great. Guy, you just made me think of something.
+
+You know, partnering with some, like, high end bespoke travel agencies or, you know, some higher end senior, almost like independent living Yeah. Places would be a good way for you to get a a group of people to go. You know? Like, my mom lives in an independent community where she's 79 and there's all of these people who she spends time with, and they are all retired. And they're looking for opportunities to do exciting things, but I think it is scary to go by yourself.
+
+So maybe if you partner with some of these different communities, you could get four or five people to book at one time. And I think that could be a great top of funnel for you. Yeah. I'll I that's a fantastic idea. One last thought I had for you, Carrie.
+
+I and this is a little counterintuitive because everyone's talking about social media social media, but I think you might wanna experiment with maybe even advertising in a print publication like the New York Review of Books or the, you know, the London Review of Books where you have a certain type of person who's older, you know, over 50, who is clearly intellectually curious. You might be able to you know, with a thousand dollars, not that's not not not consequential, but you could probably buy a small ad for a thousand dollars in one of those publications, and you might be surprised at how many people respond. Okay. Great. Good good thinking, Guy.
+
+Well, I will consider that. I it's it's hard to imagine an ad in a print publication working in this day and age, but that would make me really happy. Yeah. Yeah. Okay.
+
+Elective study abroad, Carrie Angoff. Good luck. Thank you for calling in. Thank you both. Thank you.
+
+Yeah. I'd love to do that trip. You know, we so when we travel, my wife, she she spends a lot of time making, like, reading material for me and, like, my kids when we go on trips. I mean I love that. Like, very extensive reports and, like, day to day itineraries.
+
+And then she spends a lot of time looking for guides, and it's amazing. Like, I've learned so much. So this just looks really cool. Really cool. I would absolutely try this.
+
+And I think it it seems like a great way to get an experience in a short amount of time, but, like, become an expert on something. I love it. Yeah. We're gonna take a quick break, but when we come back, another caller, another question, and another round of advice. I'm Guy Raz, and we're answering your questions right here on the advice line on how I built this lab.
+
+We get support from engine. A lot of founders start with a product or an idea, but at some point, the business becomes something else. Think about Brian Scudamore. He started one eight hundred Got Junk with one truck and a vision to make junk removal a real brand. That worked.
+
+And then it became hundreds of crews across multiple cities, trucks on the road every day, routes changing by the hour, and a team that had to be in the right place before the customer even called. Or Beryl Stafford who started Bobo's by baking oat bars in her kitchen. Next thing she knows, she's flying to retail meetings, demoing at trade shows, managing distributors coast to coast, running a national food brand out of what used to be a family recipe. Or Tom Hale, who built back roads around the idea that active travel could be a premium experience. That means guides in six countries, gear shipments, guest logistics, thousands of moving pieces that all have to land before a single trip begins.
+
+Different businesses, same truth. Here's what I've noticed after talking to hundreds of founders. The hard part is rarely the big idea. It's what happens when the idea works. Suddenly, you've got people on the move and all the logistics that come with it.
+
+That's the real test. And that's why I think Engine is worth knowing about. Engine is the fastest growing modern travel and spend platform in the country built for small and medium sized businesses. The average business traveler spends forty five minutes booking a single trip on a legacy platform. With Engine, that drops to as little as two and a half minutes.
+
+Last year, Engine customers saved $318,000,000 on travel, Average savings of 26% on hotel bookings. No contracts, no booking fees. More than a thousand businesses join Engine every month. Join them and get $500 when your business signs up and starts traveling at engine.com/xyz. As I mentioned earlier, every founder I talk to does it all.
+
+The big picture dreaming, the late night spreadsheets, the 6AM coffee run nobody asked you to make, and every dollar you spend on your business should work just as hard as you do. That's why I wanna tell you about the US Bank Triple Cash Rewards Visa business card. Right now, you can earn an extra $750 cash back, Plus, you get 3% cash back on eligible purchases at gas and EV charging stations, office supply stores, cell phone service providers, and restaurants. The things you're already buying. And here's the kicker, 0% intro APR on purchases and balance transfers for 12 billing cycles.
+
+That's breathing room when you need it most. Visit usbank.com/business to learn more. The creditor and issuer of this card is US Bank National Association pursuant to a license from Visa USA Inc. Some restrictions apply. Welcome back to the Advice Line on how I built this lab.
+
+I'm Guy Raz, and my guest today is Michelle Whaler, cofounder of Beyond Yoga, and we are taking your calls. And, Michelle, are you ready for our next call? Absolutely. Alright. Let's bring our next caller.
+
+Welcome to the Advice Line. Please tell us your name, where you're calling from, and just a little bit about your business. Hi, Guy and Michelle. I'm Grace. I'm calling from Nashville, Tennessee.
+
+I own Grace Ann Upholstery, which is a custom upholstery workroom that primarily serves interior designers and residential clients. I reupholster all types of furniture, anything from heirloom pieces like your grandmother's antique chair that needs to be recovered to brand new furniture that clients just want fresh fabric on. Thanks for calling in, Grace. I I definitely need you because I have this beautiful chair I love, and I have to get it reupholstered because my cats love it too. So, anyway, I I appreciate what you do.
+
+Tell me a little bit about, the business. When did you start it, and what's the story behind it? Yeah. So it was actually pretty accidental that I came across upholstery. I have a background in art history and decorative arts, and I've always been fascinated by furniture.
+
+In early twenty twenty, I was on an art studio tour and walked into an upholsterer studio, and I had never really thought about upholstery as a craft before, but I was completely fascinated by what she was doing and went down a rabbit hole and went to dictate classes and to study with, upholsterers from The UK. And then in 2021, I decided I was gonna start to offer the service to the community in Nashville. And out of my garage, I was immediately blown away by the demand. And so that's how I launched. Wow.
+
+And do you do this all on your own, or do you have people who work for you? I currently do it all on my own. I am looking to scale the business in the next couple of years and would like to bring on staff, but that is another challenge all in itself is finding the skilled labor for something like this. Got it. Okay.
+
+And give me a sense of how the business is doing. I mean, it's just you. You know, that's the bottleneck. Right? So you can only do one a few projects at a time.
+
+How is your overall business? I do it as a side hustle, so I have a full time job and a young family, but I bring in about $50,000 a year. Okay. Before we dive in further, what is your question for us? So my question is, when I launched in 2021, I again, I was immediately overwhelmed the demand, and I didn't handle it all so well.
+
+I was just I didn't really wanna start a business. I was just doing it as like a side hustle, but there was so much demand. And I I think I let some people down, didn't communicate great, and wasn't a great launch. But then in the last five years, demand has consistently been there. And now that I'm thinking about scaling, I'm thinking back on some of those designers and potential clients that I might have burned in the beginning or let down or fumbled.
+
+And I'm wondering if if I can hire my staff and improve my systems and really build the business, is there an opportunity for me to go back to those initial clients, and will they work with me? Wow. Okay. Michelle, I wanna bring you in here, obviously, because I think I'm sure early in early days of Beyond Yoga, you made tons of mistakes and maybe even burned some relationships. You had to, you know, repair, beg, plead, give you another chance.
+
+I don't know. Maybe not. Maybe you were perfect from the beginning. Well, first of all, hi. Very nice to meet you.
+
+I'm super into what you do, and I'm just looking at your website. It looks like you make beautiful work. So congratulations on what you're doing. I absolutely think that you can rebuild those relationships. People genuinely respond to people who are being authentic as long as you own what happened before.
+
+And I wouldn't spend too much time on it and just say, you know, I'm really sorry that we got off on the wrong foot. I wasn't, completely ready, but now I am. And tell them why you're ready now and how you can do it. I think a very important motto is under promise and over deliver. Mhmm.
+
+And that needs to be, like, written very large on a wall wherever you are. You also need to have your processes in order because if you reach out and then don't deliver a second time, then I think you're going to have a problem rebuilding those relationships. But I think most people will be willing to give you a second chance. So I would get your operation really streamlined before you start going back and trying to rebuild, And then I'd have a list of who these people are. And I would just pick them off kind of one by one, but don't reach out to the second one until you've won the first one back.
+
+You know, you wanna pick the smallest one first and try and learn. Because every time you're gonna learn a little more, and then you don't wanna, like, try and potentially mess up on the biggest account. Right? You wanna start with the small one, learn what worked, what didn't work, and gradually build from there. Yeah.
+
+I I completely agree. I mean, I think that there's something called the second first impression. Right? So which is what you're asking about. And I I I don't think it's a matter of, like, asking somebody to trust you.
+
+It's it's not like saying, hey. Please trust me again. I think it's more about showing them what you do. You can briefly own, you know, what happened and but but I keep it very brief. I mean, I think it's it's more about, hey.
+
+You know, we haven't talked in a while. I'd love for you to see the work I'm I'm doing. And, you know, and and maybe you would that would lead to you asking for an opportunity to do a small project first for for one of these designers. And I I agree completely agree with Michelle, which is you wanna overdeliver. You wanna overcommunicate.
+
+You wanna photograph the work. You wanna, ask for you know? And and I'm sure you're already working with some designers that that would be happy to provide testimonials on your behalf. Yeah. This is super helpful, and I totally agree with what you're saying.
+
+I think it's it's like, I have the demand, and I know I can hire, but, it's should I reach out to these designers before I have the staff, or should I get the staff on in place before I reach back out? It's like a chicken and an egg thing, but I totally agree. I need to, you know, update my website to get a better estimate process going and, working on my communication. And I think you're right. Getting all of that in place will just lead to a better experience when I reach back out.
+
+Agreed. And I think that there's also, a lot of fun to be had with a surprise and delight. And, you know, making when if you're working with a designer, if you are a rock star, you make them look like a rock star. But if you drop the ball, it makes them look equally bad. Right?
+
+So anything that you can do to make them seem like an added value to their clients is a win. So if you're making an, you know, beautiful upholstered headboard or a couch or a chair, if you have a little bit of remnant fabric that you can turn into a cool throw pillow that you just give as a little extra, that's something that's going to really ingratiate you with that designer. Either they can give it to their client, and that's makes them look good, or maybe they use it for something else, and it just provides more value. Yeah. Grace, I'm curious just briefly.
+
+I mean and and this may be revisiting old wounds. I don't know. But is there something that happened specifically or a story you can tell us about how you feel like you let down a previous client? I think I was really not great with my timelines. Again, I think I told people I could finish things quicker than I actually could, and interior designers will communicate that timeline to their clients.
+
+And then like you were saying, Michelle, if I don't meet that timeline, then they have to tell that to their client, and then they look bad. It was a lot about time management and thinking I could do more than I actually could. And and but has anything changed since then? So, well, I'm taking less projects. I've realized my capacity.
+
+Again, my kids are a little older now, so I'm you know, my daughter's not a baby anymore that I'm having to run-in and take care of. So that just realization of my own capacity. And then once I can hire, that will give me more capacity. I I think so too. I mean, the the minute you know that you that you I mean, you'll know when you can reapproach them, but you you can't, take the risk of letting them down again.
+
+Mhmm. Yeah. And interior designers bring me a ton of business. I mean, that's why I'm I'm so eager to win back the ones that I let down at the beginning. Yep.
+
+And when you're, you know, setting these timelines, you know, I would, first of all, get real methodical about it. Like, time yourself and really, you know, treat yourself like an assembly line almost. But when you're giving those projections to people, pat it. You know? And pat it by a good amount.
+
+I mean, not too much to turn them off completely, but then that's another opportunity to surprise and delight. You call the designer, and you've hit that deadline two weeks early. You can say, I just wanted to let you know we finished your project early. I'm happy to hold it until you're ready. But if you would like, we can get that delivered now.
+
+That's such a a tremendous win. And then if you haven't budgeted properly and you do need a few extra days, you're working towards that two weeks early deadline. So you've built in that buffer for yourself, so you're a winner either way. Absolutely. People love getting things earlier than they expected.
+
+Yes. They do. Yes. They do. Grace Ref, the company is called Grace and Upholstery in Nashville.
+
+Good luck. Thanks for calling in. Thank you. Thank you both so much. Thank you.
+
+Yeah. That is a cool business. I mean, it's a it's a it's something that you can't automate. It is an AI approved business because humans have our, you know, hands after to do that work. I mean, it it and if you get enough work, it can be a really big business.
+
+I mean, you can do very well. Reupholstering things can be very expensive. Yeah. And, I mean, it's so nice to have, like, a family heirloom or something, like, a really meaningful item that you can bring back. Like, my husband, his mom had this chair that was in their house, and she said she fed him as a baby in this chair.
+
+And Oh. It was destroyed. But we took it, and we got it reupholstered. And it's in my son's bedroom now, and I have, like, so much love for that piece of furniture. That is really cool.
+
+Yeah. That is super cool. I love that. Alright. We're gonna take another quick break, but we'll be right back with one more caller.
+
+Stay with us. I'm Guy Raz, and you're listening to the Advice Line right here on how I built this lab. Welcome back to the advice line on how I built this lab. I'm Guy Raz, and today, I'm taking your calls with Michelle Whaler. She's the cofounder of Beyond Yoga, and we are ready for our next caller.
+
+Can't wait. Hi, Michelle. Hi, Guy. My name is Angel Raymer. I am from Bristol, Indiana, and I am the founder of the Sacred Paws Soap Company, where I make self care kits to help people, think about themselves instead of thinking about everybody else in the most practical way, which is in the shower.
+
+Okay. Welcome to the show, Angel. Okay. So Sacred Paws soap. You said self care kits.
+
+And what is what makes the soap different or unique? Or So in each kit, I have a soap and a tumbled stone inside of the soap. And each stone is correlated to a type of feeling and type of emotion. So a rose quartz stone is for love. Amethyst is for calm.
+
+Grain adventuring is for luck, things of that nature. And so a lot of these are actually based on certain timelines of my life. So when I decided to do this business, I did a tiger's eye that gave me kind of the courage. And each box comes with a different affirmation tied to the type of stone that is inside of your soap. And so as you're washing, the soap will actually disintegrate, and the stone will fall into your exfoliating bag.
+
+And it's a experience that you get to have for yourself in the shower. Okay. Got it. Okay. And how long has the business been going?
+
+Since 2025 in December. And it's still early days. We're, you know, it's we're still in 2026. But how how have you been doing so far? I'm doing okay.
+
+I go to vendor markets once a month, and I have five kids. And then I work full time in a factory. So I'm doing the best that I can. I make the soap, and it takes six weeks to cure and get around. So I have to kind of time everything.
+
+But kind of when I go to the markets, people love the idea. I can go to metaphysical shows. I can go to oddity conventions. I'm gonna go to a music festival and to a witch's ball. But that kind of leads into my question.
+
+Okay. Please. So when I go to these markets, everybody loves the idea. Oh, that's so cool. This is so neat.
+
+I've never seen anything like this before, which is great. But online, I'm not really able to sell that emotion or tell my story, and that really puts a damper on any type of online sales or anything like that. So my question is is how can I emotionally sell something while I'm not there? To to explain. Okay.
+
+Okay. Great. Michelle, I wanna bring you in here. Thoughts, questions, ideas? So many thoughts.
+
+So many questions. Lovely to meet you. Your products are beautiful. Thank you. Like, this is like, I'm looking at your website right now, and this is gorgeous.
+
+And your price points are, you know, very achievable. I'm missing $30.35 to $38 over a kit, something like that. Yeah. So I I could see this going so many places. I feel like I could see this at Whole Foods and Airwine and all of those things, but it it sounds like you have an extremely full plate with a family of five, a full time job, and all of those things.
+
+So my first thought for you is how can I help you make money while you are taking care of your family and at your job? And that would be if you if your website was cranking. And I think your website has a lot of potential, but I'm completely missing the story on the website. And even I just tried to click on the about, and it didn't even give me anything. So I think that would be, like, the first thing I would absolutely focus on today.
+
+Like, get your story out there. And I think that this is not only a great moment to, like, buy something for myself, but I'm looking at this as, like, such a fantastic gifting opportunity. So, you know, right off the bat, I'm looking at this. It says give yourself a moment. I'd be curious to see if you used some language about, you know, some way of gifting it.
+
+Give yourself a moment or give give this to someone who deserves an extra moment. Sometimes we have a hard time taking care of ourselves, but an easier time taking care of the ones we love. Right? Then I'm looking at this, and everything says self care kit. Self care kit.
+
+I want it to say rose quartz or tiger and, you know, and then maybe next to it, tell me that this one is for, you know, love or energy or whatever the case may be. But, like, right now, the way it's structured is I'd have to click in for each one of them. Yeah. It's really difficult because since I work full time, I have to basically kind of save for the next big thing that I'm able to do. So that tells me that, okay, so my website is something that I need to save to get a you know, not necessarily professional, but, yeah, professional to kind of take care of.
+
+I I'm not sure you have to spend a whole lot of money, Angel. I I I agree with Michelle. I mean, I think it's about I think that what you wanna emphasize is the ritual that you're selling. Right? You're you remember I remember when I was a kid, there was a commercial on TV.
+
+Was like, Calgon, take me away or something like that. Right? It was like shampoo. And and it was a it was a woman in the bathtub shampooing her hair, and then she'd be in, like, The Caribbean. You know?
+
+I I love that concept that that wherever you are for five minutes, this product can take you there. And I I would I would think about really leaning into that. It doesn't cost anything. It's just a matter of changing how you how you put that on your site and how you use that to tell your story across channels. Okay.
+
+That's great. Thank you. Yeah. Any other thoughts, Michelle? You know, I I think that because this is a a product that people are gonna put on their skin, I think having some information about the you know, whether it's natural ingredients or, you know, you're trying to you're trying to tell a story on your website.
+
+You're trying to gain trust, and you're trying to showcase product. And when all three of those things are working, that's when you convert a sale. So I want you to, you know, showcase what are some of those amazing, pillars and why should I why should I trust this product and put it on my skin. And if you can have some of that visible right off the bat, I think that would be really helpful too in converting more sales. 100%.
+
+Yep. Angel Raymer, Sacred Paws Hope, thank you for calling in. Good luck. Thank you guys so much. Thanks so much.
+
+Yeah. Michelle, before I let you go, and a question I ask everybody who comes on to join me, if you were to go back to to when you were starting out, you know, knowing what you know about the business and and how to run it and and all the scars that came with running it for twenty plus years. What what would have been helpful for you to know when you were starting out that you now know? You know, one thing I think is really important is to remember why you started and to stay focused on that. I think part of being an entrepreneur is always seeing the next opportunity around every corner.
+
+And sometimes you can bounce from, like, one thing to the next to the next. And for me, I was very fortunate. I had I had Jesse, my husband, and who ultimately was my my partner. In the end, he was always saying to me, you know, are you on every butt in every class you go into? And if the answer is no, then please don't talk to me about swimwear.
+
+You know, you need to be the best, the number one activewear legging for women of all shapes and sizes. And until you have done that, please do not move on to, you know, the next big idea. And I think that kept me very focused and grounded. So I wanna be that reminder for other people. You know, what you say no to is almost more important than what you say yes to, so don't forget to say no.
+
+I love that. This is Michelle Whaler. She's a cofounder and former CEO of Beyond Yoga. Michelle, thank you so much for coming on the show. Thank you so much for having me.
+
+This was so much fun. And by the way, if you haven't heard Michelle's original episode on how I built this of beyond yoga, please go back and check it out. It's a great story. We'll put a link to it in the show notes, and here's one of my favorite moments from that episode. I went to visit one of our fabric vendors, and we were just going through all these fabric samples.
+
+And I was like, what is this? And I remember my sales rep, she was like, oh, Michelle, you don't want that. That's way too expensive. And I was like, no. I need this.
+
+What is this? It's fantastic, and it feels really good. And I was like, I don't care how expensive it is. This is what everybody is going to want to put on their body. Hey.
+
+Thanks so much for listening to the show this week. And by the way, please make sure to check out my newsletter. You can sign up for it for free at guyraz.com or on Substack. And, of course, if you're working on a business and you'd like to be on this show, send us a one minute message that tells us a little bit about your business and the questions or issues you are currently facing because we would love to try and help you solve them. You can send us a voice memo at hibt@id.Wondery.com or call us at 1804331298.
+
+You can leave a message there and make sure to tell us how to reach you. And by the way, we'll put all of this in the podcast description as well. This episode was produced by Carla Estevez with editing by John Isabella. Our engineer was Anli Huang. Our music was composed by Ramtin Arablui.
+
+Our production team also includes Alex Chung, JC Howard, Casey Herman, Elaine Coates, Chris Massini, Catherine Seifer, Carrie Thompson, Sam Paulson, and Neva Grant. I'm Guy Raz, and you've been listening to How I Built This. Thanks again to Engine for their support. If your business is growing and your team is traveling, Engine makes it simple and saves you money doing it. 33,000 businesses have joined.
+
+Now it's your turn. Engine.com/xyz.

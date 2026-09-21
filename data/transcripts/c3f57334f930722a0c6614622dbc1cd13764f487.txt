@@ -1,0 +1,201 @@
+He's generated $250,000,000,000 with a b in market value for Microsoft. Dottie Nadella, chairman and CEO of Microsoft. Since you've been the CEO three and a half years, the stock is up about I guess it's about a 120%. I'm good for my 80,000,000,000. I'm going to spend $80,000,000,000 building out Azure.
+
+Maybe after the industrial revolution, this is the biggest thing. That's our goal with our frontier model. Our model should be the best model that they can use as a base. We create technology so that others can create more technology. That's who we are.
+
+We're a toolmaker. Please welcome Satya Nadella. Alright. My guy, good to see you. Good morning, guys.
+
+How are you? Thanks for joining us. Crazy weekend, but here we are. Do we need to pace the frontier? So let's start with the common sense part first, which is we should do what it takes to build stuff that serves humanity first, and is in human control.
+
+You know, it's kinda crazy that we have to start with that level of common sense, but I think it's a good place. Then when I think about pacing whatever, the first thing that at least I believe is the broad diffusion of this technology is the most critical thing. Because the benefits of this tech showing up everywhere is really what it's all about. Right? So at the end of the day, if you sort of say serving humanity, let it actually reach humanity Right.
+
+In ways that it serves humanity. And that means you've got to have choice, you have to have competition, you have to have all kinds of business models, whether they're open weights, close weights, what have you. Then the other aspect I think that is not talked about when we talk about control is actually the control that, for example, customers have, enterprises or businesses have around this technology. Because sometimes this is so opaque. Right?
+
+I want my privacy. I wanna be able to embed my knowledge in a set of weights I control. I want to see all of the COT, that's being generated. I wanna use it to do fine tuning of my own models. My IP shouldn't leak.
+
+So there's an entire body of things that nobody's talking about as much, which is, my I really wanna make sure that this tech is in my control. Then we get to what is I think a real issue of safety, and we should take it seriously. Which is we should take all the time we want to test things. In fact, I love this idea of having third party testers. Oh wow, I grew up in a company that's always done testing.
+
+So it's novel that we should say, wow, they're having embedded third party testers. Right. Why not? It's a great idea. In fact, the only thing I would say is we should avoid like these, you know, cozy arrangements of who's testing what, who has access to what, and it should be broad.
+
+Were you surprised though then when both the SA landed and then it seemed like there was a circling of the wagons amongst the frontier companies? I I think that it comes my my suspicion is it comes genuinely from this place where when you start seeing in fact, it's fascinating. Right? We are when you start saying reward hacking and what's happening in these environments, right, with these agent swarms, There is the mundane. There is some DevOps error where somebody misconfigured a container.
+
+Right. Right. Or these API keys Or an API keys or yeah. Exactly. There's no monitoring.
+
+There's Internet access. There's sort of classic, I'll call it, basic DevOps. And then there is real novel new stuff, right, which is what is this, reward hacking, that you know, with these persistent agents and so on. And that's a place where I'll admit that the science is not there. It's I thought, Jakob's post, which is a good one, which he said he called it, we're growing intelligence, not building intelligence.
+
+So it's an experimental science. And so the more experimental science is, then you really need to make sure you're doing those experiments in controlled environments. Yeah. If anything, the place where I would love is taking even the hugging face incident in other places, more transparency on what would it take. In fact, one of the fascinating things right now is the insider risk.
+
+I mean, think about it. Right? If you're sitting in an enterprise, this is all test time compute, by the way. Right? So it's not like, oh, it's gonna only happen when in some training run.
+
+It can happen for a very mundane task that I give one of these frontier models inside an enterprise where I say, you know, I don't know, you know, telling David this. Suppose I say, hey, go optimize my working capital. It may fake my books. Right? Because this is like a new type of insider risk.
+
+Yeah. And so what is the way to do that? I would say, oh, go build maybe a causal model, like a semantic model that actually checks and verifies. So I think there's a lot of product buildings. I I would say making things more robust, which is classic engineering that we should be talking a lot more about transparently versus saying, hey, this is so mystical that, you know, we can't figure this out.
+
+Do you do you buy this argument that it's mystical? I I mean, I I buy the argument that we do not understand the latent space. Right? Other than I thought, you know, as you said, like, we understand the brain? We don't.
+
+We do functional MRIs and do neuro science, and we're trying to figure this out continuously getting a little better understanding. So I do think that in that sense, we don't exactly, have a complete under that's why, by the way, I also but I don't believe in new release. Right? So that's why I think making sure that the COTs are in language that we can all understand. In fact, they're transparent so that when and when I go back to an enterprise that's using all these models, and if you have the full COT, then you can Chain of thought.
+
+Chain of thought. And so then you can really go look at it deeply. In fact, you can have multiple models, and you can look at the COT across those. I think these are all things that I think will become very important. Satya, you've worked with you've worked with technologists for decades.
+
+And when you see as a leader of one company, Microsoft, which has very crisp communications with the public, And you see what's happening with Dario and his team, people coming out saying ten percent chance we all die. What do you think is going through those technologists' minds? Do you believe they actually believe that this is going to kill humanity? Or are they going through some psychosis? Or are they seeing something working on those frontier models that is terrorizing them?
+
+You're not a psychologist, but you have worked with technologists for a long time. Handicap what's going on in these organizations that's all the making people feel the need to resign and say we're all gonna die. Yeah. You know, it's it's hard for me to speak to what's happening in any of these places. But let let just say how we I grew up even inside of Microsoft.
+
+You know, for example, you know, one of the biggest things you learn as an early sort of engineering lead is how to deal with a short stopper bug. Yeah. Right? I mean, that's kinda like one zero one. Right?
+
+Which is why on your face, you're like, you know, you have a bug. What do you do? Do you stop, and fix, or you defer, or you go in and say, hey, this is such an edge case? That's kind of the judgment. So I do think and as the stakes go up, you want to be like transaction processing.
+
+I remember working on databases. Right? You know? Wow. Like, you know, you gotta take very seriously any bug, where if the transaction's gonna get lost.
+
+Right? Data loss is a thing that you stop the thing for. So I feel a little bit culturally in the AI industry rediscovering maybe because when you see and it's possible that they see stuff which are show stoppers before the rest. And if you see a show stopper, stop the show. Right?
+
+So fix the bugs. Yeah. But when you saw the the hugging face run, and it was super performative. Dwark Hess did his whole post civilizations. What do you think what's your take on that test they ran?
+
+Because they could have run a test where they had 3,000 agents defend a bunch of websites. Instead they instructed them to hack websites and the hiding of information, all this anthropomorphicizing whatever of the agents. I mean the way at least I understand it was it was actually basically trying to do an eval for CyberGym. And as I understand it, given that eval, it sort of figured out a way to say let's just say reward hack. And that's what led it to Hugging Face.
+
+In fact, it speaks to, I think, what's the, you know, clear issue right now, which is you can have these things if they're long running persistent agents become essentially like new insider risk. And so that I would start from the very basics of saying, okay, what does containment look like? So for example, like one of the things that I think is gonna be really an issue and a thing that needs great solutions is true aggressive monitoring of agent activity, that's behavioral. Evidence. Evidence.
+
+And so everything has gotta be auditable, and then every object it access. Right? If it goes and gets a secret, oh, it's going to go chain a couple of things. You should be able see it when it's starting to chain a couple of vulnerabilities to go hack. And so I think that these are the ways that you really have to sort of deal with these situations versus saying in in fact, I think the the core of my take is we will have to get the engineering process around building out this experimental science to be more robust.
+
+Yeah. Saks. So I think I think that's a great point. I I love how you differentiated in the Hugging Face episode between the mundane things they got wrong, like the misconfigured sandbox and Hugging Face had credentials sitting in a public repository and there's no monitoring. And then you have the genuinely novel behavior, the swarms of agents, the reward hacking, that's the stuff that has everyone freaked out.
+
+I agree that, you know, we have to now figure out how to fix the bugs or, you know, fix the deeper problem that's coming from that reward hacking. What what do you think that means for and and and I think to their credit, I think what the Frontier Labs are saying is we are now gonna slow down the pace of let's say raw power and shift towards reliability and predictability and what they call alignment, which I think is good business practice. I guess, what do you think that means for what we see in terms of new products for the next year or two? Does it mean we just kind of improve what we already have or do we see new capabilities? What do you think this is gonna be?
+
+Yeah, it's a great question, David. I do think there's already a massive model overhang. Capability overhang in the sense of the models are very good except the broad diffusion requires a lot of things. Right? It even requires essentially, if you're compressing workflows and changing workflows to happen differently, the amount of change management that needs to happen in order to even incorporate these systems is sort of what's taking time.
+
+So to some degree, I would say the and also the the ability to create these new form factors. Right? I mean, you think about coding agents, and coding agents became really usable, and you discovered that you could have an agent loop with a file system. And that was the breakthrough that just made coding agents work. And I think now maybe with Kua, right, so which is with Astra with Kua, could be a way for us to even do computer use, or we just use long trajectory tasks that can get completely automated.
+
+So I think these type of product innovations where the model plus the harness allow us to do things that then lead to broad adoption. Right? I even go back to the chat GPT moment for me, right, which was it was that RLHF at the very end that made a chat conversation possible. Mhmm. And so I think that yes, so there's some science, there is some form factor that then leads to broad diffusion, and we now need to find the next level of these things that are doing real work in the real enterprise.
+
+And in that context, by the way, the other thing is it's going to be a multi model work. Right? So at this point, just out of resilience. Right? I mean, think about it.
+
+Right? Every enterprise now comes to me and says, hey. This model does refusals here. This model, I want weights here. I don't and so the people are going to want multiple models.
+
+So one of the other things that we have to get right is some standards of interop. Right? Like even KV cache. Like, the heck can't I use multiple model families and have KV cache reuse? Right?
+
+We've had document standards. You and I lived through it. Right? We've sort of you know, you kinda have things that are interoperable in the real world everywhere else. So I think this industry also has to wake up and say, hey, in fact, if I were talking about the most important pressing things is, how do I have more standards on interoperability?
+
+How do I have a harness that is external to a model so that my memory is not tied to one model? I mean, is the first time you're gonna have a technology where your use of it and the exhaust in the data could not be yours. I mean that you know, it's like if I sold you a database and said, the data you put into your database is not yours and it's mine, it goes away if I took away the license, how would you feel about it? So therefore, I think we have some serious issues like that to deal with. I think that's a good segue.
+
+Sorry. Let me just ask one question to connect the economic incentive argument on what's going on. The argument is the frontier labs are facing token compression. $50 for OpenAI's kind of million token output versus I think someone estimated DeepSeq's new is like can go as low as 15¢ for a million tokens of output. Let's call it 60¢, 99% cost reduction.
+
+If that is the the big kind of economic crux of what the frontier labs are facing, why would most tokens be paying $50, most enterprises pay $50 when they could pay 60¢ for most of their tasks, doesn't that also beg the question, are they in the wrong business model? And I I ask this for you as the CEO of Microsoft, what's the right business model? Do you wanna be making the frontier model? Do you wanna be running the compute and charging for rent on your compute? Or do you wanna be in the application layer?
+
+I know you talk about this a lot, but I just love your perspective from where we sit today and how this all kind of I think the fundamental thing that I think we're observing is good old fashioned competition. For me, if I look back at it, we were we had like some real great closed source assets, Windows. What was the check against it? There was of course the Mac, but Linux. Linux.
+
+We had a great closed source product called SQL Server. What was the check against it? There was always a substitute called Postgres or MySQL. So I think that's what's happening. A little bit of it is there's real competition between closed source and the open source check is real.
+
+And that's good, quite frankly. Because without it, I don't think we're gonna have a broad frontier ecosystem or broad diffusion. Because otherwise, we'll just we'll be back to some, mainframe, lock in. That's just not a thing. To your point about, if anything, given that we will now hopefully continue to have a much richer choice in every layer.
+
+Right? So to me, hopefully we can start building these AI because today, the royalty of an AI product all going to just the model layer doesn't make sense if you really wanna build a product company. Right? It just cannot be. In fact, if anything like, that's the same thing.
+
+Right? Which is if you take the database, if there was no open source check on closed source, the prices wouldn't have been at a place where people could have built the app tier successfully, and with a margin. And so I think the apps are gonna become much more viable economically, which is great for the ecosystem. There are gonna be all these other layers of middleware, call it, right, which is, hey, what's my memory system? What's my harness and orchestration layer?
+
+So there's gonna be a very rich tools ecosystem there. The model companies will do fine. In fact, you know, the Pareto, they can manage the token pricing based on their model family. If anything, I want them to work on even the k v you know, these these standards such that we can use multiple model. In fact, it's better for them.
+
+In fact, I worked on Windows interop with Unix first. In fact, it was counterintuitive. Right? We used to think, oh my god. This interop means we'll be less used, except we were more used.
+
+In fact, we became it it weirdly enough win because there were so many variants of Unix at that time that Windows Interop made Unix better and Windows better. And in fact, we were able to penetrate the enterprise primarily because we did that interop work. And so that's at least how I think about it. Satya, one of these we're in this interesting moment where on the one hand you have these experts asking for regulation, asking for oversight, governance, it typically always leads to some restriction of freedom. General society is put in a position where now we have to opine on whether this is right or wrong.
+
+But then on the other side, most people's lived experience is not this magical productivity boost of AI. At best, it's integrating our Apple iWatch data to tell us why we're sleeping less. That's like functionally the bar for most people, or why is my kid an asshole into ChatGPT. So can you just help us bridge this? I mean, you see so many enterprise applications.
+
+Where's the magic? Like, where is the where are the gains in profits? Where are the huge upside breakthroughs that AI is creating that will somehow make all of this tension understandable for everybody? Yeah. It's a great it's a great point.
+
+I mean, I think this is the real question, which is how do we truly see this in the productivity stats? How do we really see it in the GDP growth that's broad based? It's not just supplier Right. Or supply side. I mean, the the one example that I I love and I get back to, in fact, health care is a good one.
+
+Right? If you think about health care and even the simple doctor patient interaction, in our case, have this thing called DaxCoPilot. That's the place which is the most tangible example I can always point to, when a doctor can spend more time with the patient caring for them versus just the entry into an EMR system. That's a good productivity gain. If it can triage the inbox for the doctor so that they can be more responsive, that's helpful for the patient and the care system.
+
+The administrator, in fact, keying, like the insure like because it's the triangulation of the payer, patient, and the health system. Yeah. That's of all in fact, most of healthcare is sort of all workflow cost. So taming of that workflow complexity, that's a helpful thing. But do you see that in Microsoft with the people that you're helping Yeah.
+
+Enable. Absolutely. We see that. And and by the way, even in in simple copilot cases, right, which is if you look at the amount most people think about jobs, which I think there is gonna be displacement, but the bottom line is what are the new jobs that get created is going to be one of the key aspects of it. But also a lot of knowledge work, unfortunately, is drudgery.
+
+Right? Who you know, I get up in the morning and I think about, like, man, all I do is email triage. Right? You know? Right.
+
+What if even just these workflows that are taking away time from things that you could be spending time on? Okay. Well, you're you're bringing up this great point. If you go all the way back to, like, the turn of the century, the industrial revolution, when we had a seven day work week, you know, lot of people forget why did we introduce the weekends. It was to sort of manage the tension between different religious groups that had to work in the same factory.
+
+And then when you look at long run GDP, outside of some exogenous events, it sort of is between two hundred and four hundred And basis so what happens is as productivity boosts come in, human work steps back, and you kind of accomplish the same amount of work. You think that that happens here? Is there a risk that we have a three day work week and we're just still growing at two and a half percent? Yeah. That's a great question.
+
+Or will we find new things? And this is where the excitement at least I have for what the real impact of AI would be, is instead of just thinking about, hey, it has helped me augment some workflow or simplify something that's happening today, is it inventing new things? Is it speeding up drug discovery? Is it taking the, I don't know, let's again go back to my example of, okay, the working capital management of a small business has become so much more efficient that suddenly it's no longer just, oh I have an ERP or a QuickBooks like thing, but I'm truly am making decisions based on the ability to introspect my invoices, my emails, and what have you and somehow optimize my, working capital. That's productivity that didn't exist.
+
+And so I do hope that we will start seeing GDP growth, which we did see in the industrial era during the first phase of it. Yeah. Right? So so that I think is what is needed, right, which is in order for all of this to play out, quite frankly, we do need to see at least 8% GDP growth that is real, and that's broad based. Satya, what's the what business is Microsoft in in relation to AI?
+
+Obviously, Azure has been crushing it. You're turning away customers, and you're doing a $175,000,000,000 in CapEx build out. But your CapEx is far below what Meta's doing, far below what Google's doing. They're doing secondary raises and raising debt 350,000,000,000. The Frontier Labs are spending 500,000,000,000.
+
+You were so early to the party with the prescient OpenAI investment. But then Copilot didn't exactly land, don't think. It didn't get great reviews. You don't have a frontier model. What's the business Please come back.
+
+But what's the business here? What's the Do you need to have a frontier model? Did we tell you there was one journalist on the panel? No, no, no. I mean it sincerely because I'm just curious, you're a great strategist.
+
+We know that about you. Microsoft missed the mobile revolution. Is Microsoft gonna miss the AI revolution if you don't have a frontier model? Because I always found it perplexing that you didn't. And what's the strategy there in all seriousness?
+
+Like, do you think open source is gonna win? You should have that play. Yeah. So let me walk you, through the sort of where we are and what we're up to on each of these. By the way, on the CapEx side and the build out side, we started early.
+
+So we if you sort of cumulatively look, it's a good I'm not sort of saying, you know, right right now speaking about a lot of CapEx is not a feature, it's a bug, but that's not said. But if you really go actually add up the math, given when we started, because we started multiple years before people woke up to even actually actually needing to build. And so that's kinda one aspect of it. The other aspect of it is we are calibrating our CapEx in such a way that we don't we don't wanna build for one or two customers. Right?
+
+So we wanna build for the long tail. Right? Because that's I think most important. And that's I mean, if you're a hyperscaler, you're not a supplier to two model companies. That's not a business.
+
+You have to sort of basically build a system that is great for lots of third parties, and our own one p. In that context, we are pretty thrilled with the progress we are making, with even Copilot, if you sort of look at the subscriber numbers we gave, which is this goes back in fact to Jamal's fundamental point, which is these are real enterprises using it for real workflows. And the fact that we now have 30 plus million, not over 400. Remember, the total knowledge worker base. Right?
+
+Right? Most people talk about 3,000,000,000 people, 4,000,000,000 people on the Internet. The entire Office three six five or Microsoft three six five is the the the sort of the standard when it comes to knowledge work. There's 450,000,000. That's including all students in the world.
+
+Oh, wow. Right? So when we talk like, the market, quote, unquote, as defined is maybe 300, 250 even of real enterprise users. And of that, we've got the penetration of close to 30,000,000 on that, and it's growing and so on. The aspect on the model side is we're thrilled about, obviously, our investment in OpenAI, the access we have to their IP, which we have for a long time.
+
+We're gonna use that. But we are well on our way building our MAI models. Right? If you look at it, we have a flash cyber model that, you know, with our harness orchestrating other models outperforms, on cyber gym, even Amethos. Same thing we're seeing in coding.
+
+Same thing we're seeing in knowledge work. Right? So our goal is to basically hill climb from the bottom, by the way, not distilling anything. So from the very bottom using our RLEs, our data, and then also have a differentiated position with enterprises going back to addressing some of the things that they want, which is, hey, can I have the weights? Can I have weights that I can then add to my knowledge?
+
+These are the things that we will do with our foundation. Your best advice, I think, to enterprises is AI sovereignty is important. Putting your data into a frontier model, probably not a good idea. And then you're gonna be that harness for them to to help them implement that. My advice is more like use all, but be independent of all.
+
+So for example, my acid test is you should always eval max evals that matter to you. Right? So what's the outcome you want? You should go run that outcome through all the models. Then here's the test I would do.
+
+I would pull out a model and see whether I can retain the eval. If I can't, that means you really are dependent on something that may or may not be yours. Right. Right? That's so so my fundamental enterprise architecture would say you should have a model system that fundamentally allows you to be able to continuously hill climb on your own on evals that are yours, while using all models, closed, open.
+
+If you want, you can even fine tune any of these models, but you can even substitute models. Satya, just to build on Jason's question, you had this incredible moment. I think we put it here where you said, you know, we're good for our 80,000,000,000. But just to expand the question, there's effectively this sort of bank of AI that has emerged, and there's this financing mechanism that just is so important to the entire ecosystem and now broadly to the entire economy. But you've been very disciplined.
+
+You have an enormous balance sheet. You're also an investment grade issuer. So you could do what Jensen did, but you've taken a very different capital allocation approach, much larger bets, very concentrated, and you've kind of stayed into your own ecosystem. Just talk us through your mindset as the capital allocator at Microsoft and that balance sheet. Yeah.
+
+So the way I'm sort of looking at our book of business, whether it's the hyperscale, our model, or our app tier, and the shape of the demand. And then what's the way to build out for it? And so if you think about these assets, right, there are two classes of it. There are the long lead, long duration assets, like the the land power cold shell, let's call it. Then there's the kit.
+
+The kit is the short term asset that you can much more be demand driven, in other words. I have to forecast, let's say, two years, three year out demand, and then also The kit means the racks, the chips. The racks, the chips, and what have you, and that's 60% of the cost or what have you. Right? So therefore so what we do is we go build as much.
+
+We lease. We even rent. Right now, we're even renting quite a bit because we kind of we're short on supply. But the overall goal is to build more, lease some, and then if we really need to surge, we will even rent. That's kind of on the on the on the assets.
+
+And then the chips themselves, we will try to be, first of all, make sure that we are matching demand. And as I said, my goal is not to have just two customers, three customers. It's great to have OpenAI being one of our largest customers. It's great that they are growing, but we need more. Is the kit over earning right now?
+
+Do do we is need the is the industry pushing for diversification, more silicon, more memory, more vendors? Yeah. What's happening is the workloads that are now at scale, they obviously grew up from what GPUs were there. But now the shape is so well understood that you're able to optimize for a very different world. Right?
+
+So you can sort of start building. Yeah. And saying, well, you know, there are these multiple phases in an inference or a training phase, so why not build silicon that's optimized for these? And that's just going to lead to a systems architecture that I think is gonna by definition have a lot more diversity. I mean, know you have Jensen coming.
+
+He himself, if you look at his own architecture, is changing quite drastically. Quite drastically. Yeah. And so I think that there is going to be a lot more choice even there in that layer. So ours, we have Jensen stuff, which is I think our primary thing.
+
+We have our own. OpenAI is building their chip, so that's also going to be there. AMD is in there. So we I I my thing is to run whether it's the OpenAI models, the Anthropic models, or our own models on a heterogeneous kit. Sax, I wanna let you get into it before we run out of time.
+
+Yeah. So, you know, we've heard now from the the various Frontier Lab leaders, Sam, Dario, Elon, Demis, that we need to prioritize alignment like we're talking predictability, reliability, robustness as opposed to maybe just say raw power. Do you think the Chinese labs will follow suit? I think that that's the dialogue that is, I think, should be prioritized. Right?
+
+Because at some level my own premise would be that China should also deeply care about the same safety concerns if The United States cares about them. Right? Why should it be different for them? It's not like they won't have the same hacking problem. It's not as if they don't wanna make sure that their citizens are benefiting from AI just like we will want our citizens to benefit from AI.
+
+So I think that there's a possibility of international norms around it if we really are concrete about what's the risk, why is this risk so idiosyncratic that the only people who are worried about it is the Americans? It doesn't make sense. Right? It's not like a thing that is sort of said, oh, I'm gonna only show up in The United States. I'm gonna be something.
+
+If it is going to go wrong, it's gonna go wrong everywhere at the same time. So I think the Chinese should care. I mean, they're a they are a superpower Well, you used the word idiosyncratic, and I think that is the right word is. I don't think we know yet. Is this, you know, conversation we're having in The US over the past week, is it idiosyncratic to us because we have, you know, the strong, I guess you could say doomer type school of thought?
+
+Or is it something that the rest of the world will basically feel as well? It's a great question. And if they do, then presumably they'd wanna act on it as well. Yeah. I I just feel my my take there is that we are ahead, we are who we are, which is we argue, we sort of we compete.
+
+We are more transparent, which is all, by the way, virtues as far as I'm concerned. So therefore, the fact that this debate is happening here, the world will be better off for it. So to some degree, Us setting, if anything, I would love US set, US to lead in the norms that allow us to diffuse this technology broadly and create safety standards that work for the world, including China. But what do think we should be doing that we're not doing, and what are you doing at Microsoft to change the narrative, the populist sentiment that we have to shut down superintelligence, stop building data centers, etcetera? So so to me, I think this is I am squarely focused on one of the to answering Chamath's question from earlier, which is whom is it benefiting?
+
+And give me concrete stories. Right? We talked about the productivity benefits a bit, whether it's in health care or in general knowledge work, coding. But I'll give you another example. Right?
+
+I was looking at data centers because after all, we didn't talk much today on that, but there's a real challenge on how does one earn permission to open a data center in a region. In fact, we just have some of the best longitudinal data now for a data center we built out in Quincy, Washington for twenty years, close to. Know, 2008 is when we started it. And when I look at that data, and what it has meant for that community, right, where the tax revenues have gone up 12 times, the paid in taxes have gone down by a third, The growth is higher than Seattle in Quincy, this is a rural town. They have a new school, a new hospital, a new town center, a new aquatic center.
+
+Wow. We have two and most people say, oh, there are not that many jobs. In fact, there have been 1,200 construction jobs in that region all through that twenty year period. Right? Because it's not like you just build it and leave.
+
+You continuously refurbishing, building, expanding. And how big how big is that data center? I think it's now going to be at least four, five hundred megawatts, and it sort of will keep expanding. Yeah. And so so these are so that's a real like, that community.
+
+So earning it, like just not saying, hey. These are all the benefits, but seeing it. But how do you get people to tell that story? Because that's what's missing today is those stories aren't being organically told, and if a Microsoft executive gets on stage and says, don't worry. It's good for the community.
+
+Yeah. No. I don't think yeah. So I think storytelling is one thing. The other one is I think we just need more people outside of the tech industry to say, yeah.
+
+Because if you go to Quincy, Washington, they will tell you, thank God for this data center. It's part of a so to me, that's when it's tangible like that. Because that's the only way to earn permission. Because at some level, the skepticism of any of us in the tech industry just saying things is so high that I think we have to now do the hard yards of actually doing things in the world which allow people to say, okay, I now believe you. It's a new muscle.
+
+It's a new muscle. It's a new muscle. Gotcha. I think you're a good spokesperson to flex that muscle. I hope you do it more.
+
+Thank you for being with us. Thank you so much. We appreciate you. Nice man. Good to see you.
+
+Thank you, sir. Appreciate your time.

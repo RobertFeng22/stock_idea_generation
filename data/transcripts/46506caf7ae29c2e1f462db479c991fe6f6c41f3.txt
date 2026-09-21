@@ -1,0 +1,347 @@
+Three out of our five founding members came from Facebook. Building a revenue team is a very rich problem set. It's something that everyone cares about. It could always be done better. What's the most exciting thing someone's doing with Lightfield today?
+
+We have this company, Power. They have this marketplace where they're aggregating folks that have various illnesses and complications that are looking for frontier treatment. So they've modeled all of this in Lightfield, and Lightfield actually helped someone with Alzheimer's find frontier treatment within days. Is there anything that you've done differently in this kind of AI era? As a CRM company in a red ocean space, we have to be an expansion company.
+
+If we can help you completely model your business and your customer reality, then the rest will be easy. What would be the one piece of advice that you'd go back and give yourself if you were just starting the Pivot journey again? Keith Perez built Tome to 25,000,000 users. Then he decided to start over. In this episode, a sixteen z's Alex Rampell and Joe Schmidt sit down with the Lightfield cofounder and CEO to unpack why he walked away from a fast growing AI product and what he learned from the pivot.
+
+That journey led Keith to a problem inside this Companies have huge amounts of customer data spread across emails, meetings, product usage, and databases, but no single system that understands the full relationship. They discussed Lightfield's approach to building a business world model, why Alex calls the shift intelligence is greater than schema, and how AI could rethink systems of record. They also get into how AI is changing the way Keith builds and operates, and why his advice to founders is simple: Ignore the noise, find real pain, and stay focused on customers. Welcome back to the a 60 z podcast. I'm Joe Schmidt.
+
+I'm joined by my partner, Alex Rampell, and Keith Paris. Keith is the CEO at Lightfield. Lightfield just raised a $47,000,000 series a led by us, and they're building a business world model. A business world model turns customer emails, calls, and meetings into a record that AI agents can use to get work done. We'll explore how Keith pivoted, which is very interesting, to Lightfield, how they built the initial product, and what customers can do with it.
+
+Keith, thanks for joining us. Excited to be here. Yeah. Maybe we'll start just going back to the Tome journey and how you got to Lightfield. Very atypical journey.
+
+You got two products now to explosive scale. Tell us a little bit about that experience and how you ended up at Lightfield. We started Tome mostly because we were consumer people, and we thought LLMs were gonna change the way people communicate. And we were working on selfie design, you know, in Instagram and Messenger, and we decided to go into the storytelling of ideas. We got this product out to launch around the time of GPT three.
+
+Yeah. And tell us a little bit about the product. So it was a presentation product where you could use GPT to generate presentations and generate pages and so forth. And we launched it around the same time as ChatGPT, and we just got explosive growth. We got 2,000,000 users a month.
+
+People were lining up when we didn't have enough inference to support them. Wow. Oh my gosh. And so you got that to amazing scale. Yeah.
+
+You then decided to stop and completely hard pivot. What was that decision like? How'd you make that choice? Why? Yeah.
+
+So I'd say there are a lot of metrics behind it, but deep down, think at an instinctual level, none of us like the product. Oh, for Which is kind of a funny thing to say. Like, I think at the end of the day, if you're a founder, you have to love the product that you're building, and you have to be excited for your customers to use it. Yeah. And we just couldn't, for the life of us, make good presentations.
+
+Wow. And what I mean by that is we could not see the path of a high quality discerning presentation maker using this tool Yeah. In an indispensable way. We couldn't see people like yourselves using it for memos. We couldn't see people using it in investment banking or consulting.
+
+We just thought the technology constrained us to being a tool for individuals and students. So interesting. Okay. So you go from AI presentations to Yeah. Nothing.
+
+Right? And so how did you make the choice of what to build? Maybe if I can Yeah. Rewind a little bit. Yeah.
+
+I mean, sometimes you get to this point, and you're like, oh, well, if the technology kinda continues advancing, advancing, then it will be good enough. Yeah. But that's also a little bit of a danger. It's called hopium. Yeah.
+
+But how did you decide? I mean, this is probably the question that you were getting at, but, like, why not just wait it out for the technology to get better? Because, I mean, the leap between GPT three and GPT six with Astra is extraordinary. But, obviously, if you're burning money and everything, you don't have the luxury of waiting. But I guess how did you think about just the shape of the curve and why not wait out the curve?
+
+Yeah. It's a good question. So we definitely thought about let's shrink the team and wait it out because we were seeing 3.5 to four and seeing the leaps being made. But I think the biggest issue was that the model just didn't have enough context to really understand the presenter, the audience, the relationship between the presenter and the audience, and no amount of general reasoning gets you past that. So we were like, this is going to be at best a great tool for a one shot pie in the sky presentation.
+
+And we just couldn't figure out how to turn that into something that we were excited about. Yeah. How'd you think about the problems that you wanted to attack next? I think the hardest part of what you just said and the most painful part is none of us liked the product. That's hard if that's your entire life.
+
+How did you decide what was the product you actually wanted to build? What was that process like? So I think we we had a lot of conversations internally about how wait a minute. Why did we even build this company? We built this company because we wanted to help professionals tell expert stories.
+
+Yep. Hard stories. So we're like, let's see if we can find the b to b use case. Mhmm. So we sort of looked at our user base.
+
+We had 25,000,000 users or something, and we found that the b to b users were sales and marketing. Yep. So we reached out to them. We went and got 12 pilots from, call it, like, 500 to thousand person companies around here. And we're like, hey.
+
+We'll do this for free. We'll do great presentations for you, and let's see where it goes. So we ended up being used by a couple of sales teams. And at first, we came in with we'll make your new business decks or we'll make your proposals. They were like, wait a minute.
+
+While you're here, can you do other things? Yeah. Can you guys do some research? Can you help us qualify leads? Can you help us understand companies for expansion?
+
+Yeah. And at that point, we were like, sure. Let's just follow the heat, see what happens. I think what makes early stage founders good at this is that you sort of have no priors. Yeah.
+
+You're willing to ignore the thing you built, and we're like, let's just follow this trail and see where it goes. And then the first thing we asked was like, oh, just give us access to your context box, which at the time I thought was Salesforce. So we were like, great. Give us access to your CRM, your call recorder, your data warehouse, more, and then we'll figure out how to do this work for you. Mhmm.
+
+Then we realized that, actually, the hardest part of doing this work was actually making sense of all of the data across all of these disparate systems, and it was sort of incomplete. It was conflicting. You know, the call recorder often had a different view of reality than the CRM. Actually, the work required to reorganize it felt like the most important work. And I think through that, we started to realize, wait a minute.
+
+Maybe this is the more interesting problem to solve, which is that if you can reorganize reality for a company in a way that machines can understand and also so for humans to understand, that feels like a way more interesting and enduring company than the one that we're on right now. Yeah. When did you know that you were onto something with the new product? So there's a a little bit of discontinuity. We didn't know we wanted a CRM first.
+
+First, we built a go to market assistant. We got people to like it, and then we couldn't get anyone to pay for it. That's tough. To say that we had all of these AEs using it every day, but we had no pricing power because it wasn't our data. Yeah.
+
+And there were 10 other companies and all of these companies competing for it. So we decided to shrink the team, start from scratch, and go and reimagine the CRM from first principles. Then I think we we built in the dark for about four months, and then we needed to find people to use our CRM. And it turns out no one wants to use your four month old CRM. So we Good figure.
+
+So we sort of looked at the only asset we had left, which was this giant office space we couldn't get rid of. And we were like, I'm gonna post on X and LinkedIn. You can sit in our office space if you use our CRM. And then we found 10 Negative pricing. Yeah.
+
+Yeah. Exactly. So we found 10 startups to come use the product. And for some reason, they were in it every day. And they were mad about everything missing.
+
+They were mad about how slow it was, but they were in it every day. And they were giving us Slack feedback about it every two hours. And it's like, oh, this is so different than Tome in the sense that we have this barely working, barely finished product that people are in all the time where they care about it so much they're going to give us feedback about it on an hourly basis. Yeah. Did you start off saying, I've used Salesforce and HubSpot and other things, and here's what I want changed?
+
+Or I guess, how did you triangulate the job to be done? Because then in one hand, like a CRM is just a repository, right? It's like customer relationship management. Here's the repository of all the information, all the customer information. But on the other hand, it's also like this if you've talked to anybody who's run a sales team, one of their biggest pain points is my stupid salespeople don't update the CRM, and it's often a stale, you know, repository.
+
+But I guess what were the governing principles, if you will, around what was broken with the world today? What were you gonna do differently? Or was it like, let's just have people with negative pricing in my office, and I'll figure out what they're complaining about and build around that. I think one of the things that benefited us was was honestly how naive we were at the space. Because if you're in sort of a growth stage company, the CRM is the tool that reps use to not forget things.
+
+Right. It's the tool that powers low level automation, and it's also the tool that powers forecasts. And think I think our naive view was actually, the most important thing here is the latter. You know? We if we can help you completely model your business and your customer reality, then the rest will be easy.
+
+Mhmm. You know, the rest should just be prompts and tool calls. And and because of that, I think a lot of the world ran towards CRM for work. Yeah. We ran towards, like, like, high fidelity business modeling.
+
+And because of that, we were like, what gets in the way of of this? You know? It's the the rep's manual entry. It's the, like, rigidity of the schema. It's the API quality, and and we were sort of on our, you know, on our island trying to to to world model instead of sending emails.
+
+Yeah. Can you talk a little bit about the very intentional decisions you made on the architecture and just, like, how you kind of built the primitives that allow this to happen? Because it's interesting now. It's, like, beautiful, and the experience is incredible, but, like, it only works because you made the right choices early on. So talk a little bit about the way you kind of did that from First Principles and what it now enables.
+
+Yeah. So, actually, three out of our five founding members came from Facebook or Google, and had this very naive view that actually, the the the most important thing in the CRM is modeling the relationship. Yeah. So we actually looked at, you know, the the sort of the Facebook timeline, and we're like, we just need to to to model the the chronological relationship between your business and this business. So we actually built out the activity log first of, you know, when did you first reach out?
+
+What did you say to them? What did they say to you? What meetings did you have? What documents were sent back and forth? You know?
+
+And then eventually, like, what are they doing in your product? How are they paying you? And we thought, like, working off of this activity log is sort of the right primitive. Interesting. So we have the system where it sort of builds the activity log between your relationship, and then it uses that to trigger sort of the traditional CRM updates that you'd expect, right, of, like, updating fields, updating stages, and so on and so forth.
+
+But you you you always have this, like, canonical log of relationship that everything's built on top of. And then how did you think about there's there's that chronological view, but then there's all of this other metadata that's never existed in any other CRM. Right? I mean, like, this was one of the things I remember initially really, you know, jiving with you on, which is there's there's so much other context. And, like, how do you then think about that as a part of this record?
+
+And I I don't know when that came in, or or was there, like, a certain workflow that you were trying to enable that triggered that? Yeah. So we we actually tried going fully unstructured, and we found that the queries just took too long. Yeah. Right.
+
+Is a problem. Right. You sort of have the, like, needle in the haystack problem. So we ended up finding this, like, semi structured approach where we store gobs of unstructured data in this activity log. Cool.
+
+And then the system can use the activity log to sort of infer causality and work through from there, and that's why it, like, works so much better than a data leak. Yeah. Yeah. And, of course, you can put anything in it. You can put your snowflake records in it.
+
+You can put your activity. Maybe give them because I I think I think this is a good point. Like, maybe give an example of, like, what does that mean? How how is it actually used at the end state? Yeah.
+
+So, you know, a good example would be we we have a lot of customer success folks on Lightfield, and they might be tasked with, hey. Is this account ready for expansion? You know? And if you ask Lightfield this open question, like, you know, what should we sell to them? What you know, when should we sell to them?
+
+It can now go through everything that this account has done. First, it's sort of the people interactions of what did they say to you? What what do their tickets look like? And then it can also go to the product usage, which is just stored as, activity log entries. You're like, well, they haven't logged in in a month.
+
+Maybe you should try to sell them more stuff. Yeah. And then if you want to, like, compare, because, you know, the most common question is, like, which of these accounts Yeah. Should I work on expansion? Now it can, like, traverse the sort of CRM schema and then dive deep into, you know, into the the log of each customer to to give you a good answer.
+
+So interesting. How do you think how did you think about making the initial experience and, like, the initial configuration of all of this intuitive for a small, mid sized, even large company? I think we had this view that's well, it's funny. We spoke to a lot of CRM consultants, you know, we started to write down, like, what is it that you do? Yeah.
+
+Right? And we found that, the biggest, most consequential decision they help you with is your your data model. Yeah. Yep. Right?
+
+Screw that up. It's over. It's over. Right? If you get the wrong stages, the wrong fields, you can't get the reps to go back in time and fill it out, so it's over.
+
+We're like, can we be, you know, effectively schemaless? Or just to say that, like, you know, we'll connect you to we'll connect to your emails. We'll give you a call recorder. We'll connect to your data warehouse, and then just assemble your relationships for you, and then you can fill out the fields later. You know?
+
+If you change your minds about the fields, you can just traverse the activity log and refill them. So we ended up with this schema less setup where you log in, you connect your email and more. Yeah. And then we we have built in enrichment sources, and then it just assembles for you in real time. So cool.
+
+Basically, intelligence is greater than schema. Yeah. Crux. Yeah. So it feels like a consumer product.
+
+You just press sync, you wait five minutes, and it's there. Well, if you go back to the really old days, it's like to save space because, you know, you'd only have these were all just relational databases. Right? And then to save space in a given table, like, each column, it's like, oh, it it's a I don't know how much you know SQL, but, like, you know, varchar. Yeah.
+
+That's variable character, and you would actually predefine how many characters that particular column could be in the table. Right? So, like, you'd say, like, name would be varchar twenty five. Yeah. Right?
+
+It's like, oh, shoot. This person has too long of an like, it's funny how far this has gotten. Because back then, when you were really, really managing every every bit and every byte, you would literally predefine the maximum number of characters for for a column in a table. And now it's like no schema. It's just it's just fun.
+
+Yeah. So The times have changed. Yes. Yes. Intelligence is greater than than schema.
+
+And maybe drafting off of that intelligence, you know, thought. So so much of the interesting things I think that are happening right now is you're giving someone the kind of chassis to commit intelligence at really hard problems. That example you gave on a c on a CSM saying, how do I upsell this customer? What's the most exciting or most random or interesting thing someone's doing with Lightfield today that they couldn't have done in the VAR car world or or another world before this one. So one of the things that I'm really proud of is we started with fully arbitrary schema, like custom object, custom relationship.
+
+It just doesn't matter, you know, in Lightfield the way that it does. Yeah. Other ones. So I I love the our customers that have strange business models where they just need to model different things. We have this company Power, and they they work with pharmaceutical companies that help them find clinical trial participants.
+
+And on the other side, they have this marketplace where they're aggregating folks that have various illnesses and complications that are looking for frontier treatment. So they've modeled all of this in Lightfield, you know, the the B2C side and the B2B side. And they're they've built automations to go and scrape the FDA and clinicaltrials.gov to give them a a world model of every trial going on in the world and then do matching on the b to c side as well as with the the right pharmaceutical company. So there's sort of like collisions happening. Wow.
+
+Lightfield actually helped someone with Alzheimer's find frontier treatments within days. That's incredible. So, I mean, one one question that we talk about a lot here is this kind of greenfield versus brownfield thing. So if you think about, like, startups, normally, into the brownfield is hard just because it's brown. Meaning, what does brownfield mean?
+
+It means that, like, it's been trampled by an incumbent. Right? Like, hence brown. So, like, try selling ERP, and you have a product that's much, much better than SAP, but, like, there's a saying that Joe's heard me use a million times. Like, the best companies have hostages, not customers.
+
+Like, SAP has hostages. That's a brownfield. Sometimes you can break in. I mean, like, kind of cloud versus on prem. What did cloud do?
+
+It's like it was brownfield, but I kinda just redefined the problem and said, you know what? You're using if you go back to, like, the CRM days, it's like you're using Siebel Systems Mhmm. That's running on your IBM a s 400 mainframe in your office. You're tired. Like, the guy that maintained it quit.
+
+He was 92 years old. Maybe now you should use a cloud based vendor, and that's kind of like, that's that's partially how that brownfield was done from on prem to cloud. But the other strategy is going greenfield, is saying, I'm not gonna bother with the hostages. I'm just going to build the best product in the world. And then brand new companies that are untethered from any existing software solution, they'll just use me.
+
+Mhmm. And I guess, like, when you were thinking through I mean, going back to the the the early days of negative pricing with the free office space being the negative price, I mean, did you think about, like, know, where, who are the right customers? How did you get to your, you know, what we call an ICP ideal customer profile? Like, maybe talk about that a little bit. Just to be totally real, you know, when we were starting the company, we didn't have a sharp enough thesis on how to get into Brownfield.
+
+So I I think we have this perspective that, you know, building a revenue team is a very rich problem set. It's someone that something that everyone cares about. It could always be done better. So we, like, we believe there's something in here, but we weren't sure exactly what it was. So we we sort of figured, let's just try to win a new company Yeah.
+
+First. And we're like, how how do we win a new company? It's actually my my chief of staff and I doing LinkedIn prospecting, emailing YC companies. You know? I mean, like, hey.
+
+Can we can we beat one of these start up CRMs? And and that was sort of how we got started. And we figured by listening really deeply, we would find, you know, the sort of wedge required to go brownfield eventually. And I think we sort of found it over the past few months, which is to say you get lots of iteration. So we got one of the nice things about serving an early stage startup right now is it's never been faster to go from pre seed to seed, seed to a to b.
+
+And we'd we've we now have customers that had, like, yeah, zero reps when they joined us now who have, you know, a 100 reps. So we've been start been able to, like, look inside and figure out, like, what problems are we solving for you that you actually care about. Yeah. And it seems like it was it was actually a little higher level than we had even anticipated. If you, like, looked at all of the AI CRM billboards around Yeah.
+
+Silicon Valley in the past couple of years, they've always been about, like, do the work, do the work, do the work, right, of, like, lead scoring, sending out outbound emails, and more. And I think our team always had this perspective that that wasn't really the wedge to to do brownfield. Like, Salesforce is gonna send emails. I mean, I guess they have as of as of today. Right?
+
+Yeah. And we were like, I think the wedge in Brownfield has to do with, like, you know, better understanding your company. So you can steer your company in this chaotic era of company building, but it took us honestly six months of having customers like that, staring at them for that to emerge. Yeah. Right.
+
+Well, one of the things that also emerges is if you're creating a better product and you have all of these people that are consumers of the product, of course, but, like, let's just take the Greenfield versus Brownfield distinction. The VP of sales that you hire at your Greenfield company has been acclimated and trained to use this thing. I actually remember when I when I started one of my first companies, I was so adamant about not paying $85 a month for Salesforce that I used this thing called SugarCRM, which And was finally, I gave up. I finally started paying for Salesforce. Why?
+
+Not because of product gaps or anything, but I hired this VP of sales, and he was like, I'm not using that F in I was like, It's easier, it's better, but that was also challenging. So it's also like this I mean, it's not like a new company needs to be in the business of training people per se, but there's also that gap. It's one of the things that is seldom understood about, like, Greenfield versus Brownfield is that, like, the Greenfield people hire Brownfield, like, VPs that actually, like, make product or sorry, make purchasing decisions. So how did you like, you know, I feel adamantly this is a much, much, much better product, but, like, how do you overcome some of the objections, if you will, from people who are like, you know what? I'm just perfectly fine using something that doesn't work as well.
+
+Mhmm. It's a good question. One of our design principles early on was that we figured we were going to be great at convincing the founder, the engineering leader, the product leader to use sort of frontier tech to understand and see the customers. But, you know, it was probably going to be a lot of work to convince that VP of sales that joins. Totally.
+
+This is the way. So we had this idea where for all of our sales led plans, we're we're like, we're gonna give this thing away for free to anyone in the company. And one, it helps the comp it helps Lightfield, you know, to just understand what engineering's doing, what customer support's doing, what finance is doing. The other thing is it'll create sort of real company network effects that make it harder to rip and replace us. Yeah.
+
+So we've been at a few companies now where, you know, the seasoned VP of sales comes in, and they're like, you know, this is cool, but I only know how to use Yeah. Salesforce because I've been trained that way. And the rest of the company is like, well, hold on. Yeah. You know?
+
+This is like how the engineers understand customers. This is how finance does revenue recognition. This is how customer success, does account scoring. Can you try harder to figure this out? You know?
+
+In which case, then, you know, we have the relationship. We jump in. We show them how we're gonna make their lives easier, and and we've got a fighting chance. You know, there's so many different ways to now do those tasks that were just a table in the past. And so do you wanna try to, you know, give those tables to people and try to make it very skeuomorphic?
+
+Like, here's the CRM that you're used to, and it it's also blue and blah blah blah. Or is it, you know, hey. Actually, you can now use natural language to do a lot of this. You don't actually have to look at all these dashboards. Light people just tell you when something happens.
+
+Like, how how how do you think about those kind of product trade offs, which I think a lot of systems of record are actually trying to figure out how do we bring people to the real future, which is now here. Yeah. Yeah. I think we've we've actually on the side of pragmatism here, which is to say that, like, right now, I'm the the de facto sales manager at the company, and I still run all of our meetings from the spreadsheet view in my field. I think we have this view of if we really wanna be, like, a real enterprise CRM, we can't be religious about the way people work.
+
+So we've leaned into we have great dashboards. We have great table views. Yeah. You can use those things if you want. And then if you're sort of at the frontier, you can do it all.
+
+And you want, like, c yeah. CLA or whatever. Yeah. Exactly. You can also do that.
+
+Yeah. Yeah. Totally. Well, I find it, like you know, so it's it's fine. I just bought a new car.
+
+I came from a BMW, which had, like, 9,000,000 buttons. Like, you know, if you go in an airplane, right, it's like you look at the cockpit, and it's like, how does the pilot know Yeah. Like, these there were, like, 9,000 switches. It's straight out of all Apollo machines. And, like, the really cool thing it's actually even scary.
+
+Like, you know, I don't know if you know this. Like, the newest Teslas, they don't even have they don't even have, like, a stock to change gears. Yeah. There isn't one. Yeah.
+
+Like, the most physical of physical buttons, it's just completely gone. But, actually, it's so simple and so intuitive that, like, a five year old can use it. I mean, hopefully, a five year old isn't driving a car, but you get where I'm going. It's like I mean, it it also it's like another way of kinda thinking about, like, schema versus schemaless. Right?
+
+It's, like, if you have all these knobs and switches, it's great. It's so advanced. Like, the VP of sales, like, part of, like or if you talk to finance people, they know all their buttons in Bloomberg. But, like, one of the ways that you're able to build something great is just make it so intuitive Yeah. That like even a five year old can do it.
+
+Yeah. There's a whole category on Reddit called Eli five, explain like I'm five. Yeah. Right? Like, so it it kinda feels like the cool thing I mean, I don't know if you're the you're the boss, not me.
+
+But like, it feels like that's kinda what you have. Right? It's like you have this old era which is, like, lots of knobs and switches and everything else. But, again, part of the benefit of plain language intelligence is that you don't need any of those things. Yeah.
+
+It's almost rendered anachronistic. Yeah. This is true. And we I feel like we we run into this in different ways, right, which is to say that we haven't won the war on, you know, deterministic dashboards. I think everyone wants to look at the same dashboard every morning when they're drinking, get their coffee.
+
+Me too. But they're all Hopefully, it's revenue going up. It's always always up. Yeah. Awesome.
+
+But I I think for for some of these, like, old workflows, we've completely reimagined them. One of the most classic sales workflows is the idea of a sequence. Right? Of, you know, you send out five emails at different times on different triggers to someone that, you know, might have expressed interest in your product. Yeah.
+
+And you used to have to express these things with arrows Yeah. And conditions and variables. Yeah. Whereas in in Lightfield, we're like, though, you just chat with the agent, the agent writes out a recipe for you. The recipe takes into account what's in your world model, and it it sort of runs with it.
+
+And, you know, at first, we had some sales leaders that were like, I don't trust this thing. Mhmm. I need my knobs. I need my switches. But then they sort of come around to, wait a minute.
+
+This is actually efficient, better Yeah. And I have to learn less. And I think we're, like, running into this in in sort of every aspect of of of running a go to market team. Yeah. There's there's, of course, this whole movement right now of everyone thinks they can build basically everything themselves, and, you know, software is dead, and what can I do myself versus not?
+
+How do you talk to customers that wanna try to build elements of this or trying to build all the elements of this? And just say a little bit more about that movement and and and how you're responding at Lightfield. First of all, I think just being a system of record, we have to be open minded. You know, it's our com it's it's your data. It's not ours.
+
+Yeah. Right? And we we we tell our customers that we take a lot of pride in the modeling and the accuracy of your business. We built our own email sync. We built our own Slack sync.
+
+We built our own Yeah. Data warehouse sync, and we are proud of how high performance our our database is. And then you can take that wherever you want. Yeah. So we've actually had a couple of customers that would, you know, use Lightfield as the core system of record, and then they'll try to build their own harness on top.
+
+Maybe they've got a company harness. Right? And, you know, we we're supportive of that. You can push it all through MCP or CLI. But after a few weeks, they almost always realize, wait a minute.
+
+Your harness was actually doing quite a bit. Yeah. It it had better entity recognition. It had better precision and recall. It was faster.
+
+And we're like, yeah, that's our job. Yeah. You know? So I think our take is, you know, it's your day to do what you want, but we're gonna work hard to earn the right to your productivity every day. Yeah.
+
+Where do you think, I mean, kind of on that topic, I mean, pricing is such a crazy question right now because there's seat based pricing where the seats don't make sense anymore, like, imagine running, like, thank god you run Lightfield and not Zendesk. Right? It's like, what are they like, how many seats do you need? Maybe zero. Right?
+
+That's pretty scary. Then there's kinda, like, outcome based pricing, but, like, what is an outcome? It's like, am I selling the thing? What if I just have like a happy customer forever? Like, you know, I'm still using CRM for that, so outcomes are kind of tricky.
+
+And then against all of that, you have this idea, which I don't agree with, obviously, but like people, like the software is dead, the whole SaaS pocalypse, like, you know, you're also gonna you know, supermarkets are dead, you're gonna grow your own food, car manufacturers are dead, you're gonna weld your own aluminum. Like, you know, there's you could take this to the extreme. But, like, I guess, where do you think about or how did you come up with pricing maybe is kinda question number one? And then what do you think about outcome based pricing in this space? Because it's not as like, support almost makes sense where it's like it's a cost.
+
+Can I bring down the cost? And, of course, like, you know, you can have software answer questions. Like, it's a knowledge base. There's a fixed number of of answers. I kinda match it up with the question.
+
+Whereas, like, it almost feels like the last job standing for humans will be sales. Mhmm. Right? But, anyway, like, kind of pricing, outcomes, competition, just curious how you thought about, like, how did you get to your pricing from negative pricing? Which I would not recommend you keep in perpetuity.
+
+But kinda how did you get to pricing, and how do you think about everything that's going on in that triangle? Yeah. It's a good question. We we started with both extremes, and we figured that that is the fastest path to to to to to find the efficient frontier. We started with pure seat pricing because it just matched the sort of Salesforce HubSpot world.
+
+It was, I think, it was received really well by our customers, but then the the head just the the head was using 10,000 x more than the tail. Yeah. And we realized that Using in terms of consumption. Yeah. In terms of consumption.
+
+And we weren't gonna be in business for a long time Yeah. You know, with with per seat pricing. So then we tried purest consumption pricing where everything is a credit in in Lightfield. And then we found that nobody touched anything. Know?
+
+Too expensive. Yes. It was it about the the worst three weeks of the company's life. We have all of these sign ups, but they're not doing Yeah. This is not good.
+
+Yeah. Then we started talking to customers. We realized they're sort of like and Joe, actually. We we did a finding, like, sort of four buckets of work that Lightfield does, and and we're able to distinguish between them. The first was sort of your, like, everyday CRM work of capture a meeting, fill out records, update tasks.
+
+I think most of our customers just expect that to be covered in a platform fee or expect that to be covered per seat pricing. They're like, I don't wanna think about the, like, error bounds of my core CRM when I look at my budget, you know, over the next year. So they're like, make that fixed. And then we found there are two other buckets. One was sort of pipeline generation where you're you're pretty down to pay consumption price in a pipeline generation.
+
+You realize there's enrichment. There's actually alpha for you. You Yeah. You'll get more meetings, you know, that that can convert to revenue. And then there's this other bucket of of workflow automations of where where I think there's just an expectation that you pay for those.
+
+Yeah. What's a good example of that, by the way? Maybe it's would be like someone signs up on our website for a demo, and then Lightfield does a little bit of research and realizes, oh, this should go to Henry Yeah. Because, you know, it's a it's a deep tech company, or it should go to Matt because it's a health tech company. And I think that's doing real work.
+
+Right? You can imagine the ROI on that. Yeah. So you so you'll you'll pay for that. And then the last piece is honestly intelligence and forecasting, which is, you know, maybe the most undiscovered part of Lightfield.
+
+If you've got this, you know, little, like, crystal ball or snow globe of your company, and now you're gonna deploy frontier intelligence to it and start scenario planning and figuring out what's next. And I think in that world, you'll definitely pay for the you know, you'll you'll pay for the alpha there. Yeah. I mean, I've I changed my sales process after letting GPT six rip on Whitefield for for a couple of hours on the weekend. So all of that is to say we sort of landed in this platform fee plus seat for core CRM, and we do consumption for everything else, and it's landed pretty well.
+
+To your other question about outcomes, I think the hardest thing about being sales company is that our outcomes are sort of dependent on the strength of your product market fit. Right. Right? Of course. It would be incredibly efficient for us to do outbound prospecting for OpenAI.
+
+Yeah. They'd have incredible outcomes. They are interested. It would be Call here. Incredibly inefficient, you know, for me to do outbound prospecting for a seed stage startup with no website.
+
+Yeah. Right? So I think where where we've landed at the moment is we have to charge for the work. Yeah. We can't quite charge for the outcome in this space for now.
+
+Yeah. Yeah. Maybe from when you started Tome to today, how has the actual, like, work changed? Something that I found amazing and just really fascinating about the company when we first met over a year ago was just how fast you guys were already shipping, and it feels like the velocity has just gone through the roof. So I'd be curious how you've designed company culture and tooling and all the decision making around basically velocity and just the the the step function change from before and after.
+
+Talk a little bit about that. Yeah. So I think I mean, one of the things I regret about Tone that we definitely fix with Lightfield is Henry, my cofounder, says this all the time. It's like, we had a lot of people playing house. You know?
+
+Just to say that you have the product leader and the marketing leader and the CS leader, and they all have their swim lanes, and they get really mad if someone gives them feedback about something in their swim lane. Yeah. And I I think because of that, it just you know, we were sort of slowed to a crawl and, you know, maybe put another way, it was impossible to pivot. Yeah. Right?
+
+Because you had all of these, like, appendages that weren't talking to the brains. So we were like and then we also tried to plan too far in advance, which I think is sort of challenging in, you know, in this era of company building. So we're like, none of that. No one has a swim lane. No.
+
+You know the expression man plans and god laughs. Now it's man plans and open AI lines. Yeah. Yeah. Exactly.
+
+So now we it's funny. Everyone owns product and everyone owns customer success, which is kind of an interesting setup. We do we have 40 people at the company. Everyone shows up to the same stand up every morning. We stack rank the most important problems.
+
+Some of them are delivery, some of them are engineering, some of them are CS, and then whoever's free just takes the Interesting. And we're and we do continuous planning. So every day, the list can change. Every week, we we we reassess the list. And then whoever's free just picks up the problem.
+
+But it's you know, because of that, sorry, because of the age that we're in, you know, anyone can ramp up on a customer through Lightfield. Yep. Right? Anyone can ramp up on our design system library because the LLM in Dutch Figma. And then, you know, anyone can autocreate tasks in linear because of Lightfield's connectivity to linear.
+
+So we sort of have this this this environment where basically everyone is a generalist, and engineers run projects, designers run projects, CSMs run projects. And then if you're a specialist, you sort of, like, work on more of the similar projects than not. Yeah. How do you keep that everyone's a generalist and everyone's, you know, kind of constantly coming up with something and working on the most important thing. Like, how do you keep that aligned with this very coherent, you know, view of the future?
+
+I I just don't know how you how do you how do you manage that process? Yeah. I would say that it's it's always this push and pull of, you know, each week, we, like, meet about road map being in GTM, and we just edit that. Yeah. And I were like, yes.
+
+We have this customer that asked for this. Like, how does it fit into the mission? It doesn't. You know? So I think it's just this, like, constant editing Yeah.
+
+To make sure that what's coming out of the company is coherent. Yeah. We also I would say that the bar to start a project is very low at Lightfield, but the bar to ship the project is pretty high. So we we still do company bug bashes. It was something I learned at Instagram when I was there.
+
+The company needed to like this before it goes to customers. Yeah. And I feel like those things combined keep us moving pretty fast. So cool. What's the thing that worries you the most?
+
+I would say speed. I was gonna say we're we're in this really interesting environment, and maybe I'll I'll I'll share something from the past. Before we started Lightfield, I read all of these, like, Tigas reports about people moving off of, you know, flavor of the month CRM to Salesforce. And I remember reading this one about one of your portfolio companies, Eleven Labs, where they run, you know, one of these startup CRMs. Yeah.
+
+And then the they couldn't get that company to build dashboards fast enough. And it was like four months. You know? And, you know, the the the folks at Eleven Labs were tired of asking for dashboards and moved to Salesforce. Yep.
+
+And that's actually the thing that makes me the most paranoid. Think we've got this incredible wedge Yeah. Of being just like the best CRM for new companies, and we just have to build everything so that, you know, those folks never feel the desire to go to the old world. Yeah. How do you actually, on that, how do you prioritize?
+
+I mean, is like the craziness about the new world, and it actually goes back to your point on everybody being a generalist, is that once upon a time, you would have a 10 person product design and engineering pod, or pick your number, but not a 100, not two. Mhmm. You'd have the product manager, you'd have the designer, and then you'd have, like, nine engineers. And you would have things that would be, like, booked out until, like, twenty twenty eight. And now anybody can just prompt their way into a product.
+
+Right? So, like, if everybody actually is understanding, like, what we need to do. But so on the one hand, it's like you could build everything much more quickly. Mhmm. But you still have to make trade offs of, like, am I prioritizing this customer that I know?
+
+Like, shoot. I have this amazing company. They're gonna churn unless I build this. That's a really good reason to build that thing. But, actually, that might not be a good thing because you have, like, 15 other customers that you're not gonna sign up unless you build the other thing.
+
+And this is a time you know, this has been a problem since, like, you know, BC era. But I guess how have you is there anything that you've learned and done differently in this kind of AI era around anybody can build anything and therefore you could theoretically have, like, unloaded product managers and engineers in your company? It's funny. We in Lightfield, we sort of built this this skill where we we we, like, look at the expansion potential of an account. And I think as a CRM company in a red ocean space, we have to be an expansion company.
+
+Yeah. Right? You know, I think in a competitive space, you often don't get the initial land that you would have expected because it's just important to win every company. But you're like, by year three, by year five, this is not gonna matter because you'll be a huge company. It will be an important part of you.
+
+Yep. Right? So I I think we take this perspective of, like, what's sort of the expansion value of this account over a three year time horizon, and and how do we prioritize? I think because of that, we've, like, leaned more towards building for our fastest growing customers than, you know, our average customer. Yeah.
+
+But but I would say at the same time, we have to build everything, and, you know, it's sort of a time of being a little more maximalist than usual. The other thing that's kind of interesting is that my observation is, I kind of like to joke that AI is almost overhyped in Silicon Valley, I don't think it is, and it's massively underhyped outside of this little region of the world. Mhmm. And part of it is, like, people haven't tried things in years. They're like, oh, I tried ChatGPT in November 2022, and it hallucinated something.
+
+Oh, that doesn't work, and then they just kinda put it to bed. Now they think it's gonna kill them somehow. But, I mean, how do you think about, like, long like, know, kind of it's it's related to greenfield versus brownfield, but, like, you can get Silicon Valley, but it's kind of crossing the chasm into, like, the rest of the country, the rest of the world where that's a very, very mean, it's the same type of customers. They have products. They have employees.
+
+They have salespeople. They sell things. They want reports, but they're not as plugged in to, like you can't just, like, advertise on one on one and and reach them. How do you think about Silicon Valley overhype versus kind of rest of world underhype? Yeah.
+
+I think for most of these system of record companies, you end up getting most of your revenue scale from actually the 50 miles out of here and more. I've always thought about this moment in company building as a trick to get reference logos, which is that, you know, we have customers that have raised, like, $200,000,000 that have three go to market people, they're going to be huge one day. So we just need to do amazing work for them so we can take their logos when we go to the rest of the world and be like, all right. We've got we've got health care. You know?
+
+Or we've got, you know, fintech or or or whatever it is. So I I just see the focus on Silicon Valley not as a not as efficient revenue capture, but actually just, like, efficient marketing capture Yeah. To go out there and be like, alright. We're excited to get into manufacturing. We're actually working with a bunch of great manufacturing companies here.
+
+Yeah. And now we can do that for you. Yeah. What is funny how customers think. Right?
+
+It's like, alright, you're using the exact same software, but somehow, if Joe is in a different industry than me, and he's a super happy customer, and I want the exact same I'm gonna use the Fields example, so just bear with me. But I'm storing the exact same stuff, but I don't know if I could trust you because he sells, you know, toothbrushes and I sell, you know, Coca Cola. Yeah. But it's like, if he sells toothbrush, oh, I must have the thing that the other toothbrush seller sells. It's really peculiar.
+
+I always found that where it's like, it's the but, like, somehow that goes back to referenceability. It's like customers, like, they just wanna know, like, it's like the old nobody gets fired for buying IBM. It's like, I wanna know that this works, especially for something that is a system of record. And I wanna know that somebody that is a competitor to me or a friend of mine or, like, somebody in like the same, you know, kind of vertical is using the product before I'm willing to make the jump. So do find that that's true almost because it's like you mentioned manufacturing versus X, it's like at the end of the day, a customer is a customer.
+
+Yeah. Right? Like, the context and the the the contact info like, all that stuff is the same. But, like, why why do is it is it just like they care because they there's just so much trust associated with the product? I think so.
+
+I think in in many ways, your your CRM is maybe harder to move off of than your bank. Yeah. Yeah. Until I feel. Yeah.
+
+Yeah. Exactly. Then we we We make it easy. Yeah. We've made it a lot easier, But I I I think in in terms of, like, the the mental overhead Yeah.
+
+Yeah. You just do not wanna choose the wrong one. Yes. And and because of that, I I think the the referenceability goes a long way. On on the way in, I was telling Joe that we, you know, we we do great with health care and health tech.
+
+I think part of it is, you know, that we do really well in these complex deals where there's, like, 50 different stakeholders. Our context engineering did really well. And, also, we we were hardcore about security at the start, so we signed BAAs, you know, and we did penetration testing for for years. And now it's so easy, you know, for us to win a health tech deal. And I think it's because we sort of have this, like, network that that we can reference and move on.
+
+I think that's just part of the game. You know? If I imagine even myself, like, you know, I don't wanna choose the wrong ERP. Yeah. You know?
+
+So I probably wanna choose the ERP that companies who look like me chose Right. So that I never have to think about this after I buy it. Yeah. Do you do you run into kinda going back to an earlier question. Do you run into people in this crazy era of saying, no.
+
+I'm not gonna use anything. I'm just gonna build it myself. Because that's the craziest. Right? It's like like, am I gonna be around like, is the guy that is working at my company who's decided to vibe code a CRM, like, it's free.
+
+Right? But, like, the support isn't free. Like, the salary that I'm paying him or her isn't free. But do you run into people that are trying to DIY, or is that is that kind of over over talked about? I think it's a little overtalked about.
+
+We heard it a lot when our ICP was the seed stage founder. Yeah. Where we would often hear, look, we can either pay you X, or we can do this over four weekends, and we were like, great. Good luck. Good luck.
+
+You should try it out. Call us in five weekends. Yeah. Exactly. And then they were like, none of this works right.
+
+It's hallucinating. It's sending out bad emails. I think on the larger company side, we don't hear, I'm gonna build my own system of record. We hear, I'm gonna build my own company brain a lot. And then we've had so many of these folks come back and be like, Actually, building a company brain or building a business world model is really hard.
+
+Maybe the hardest part of it is modeling the customers. We tried, and we don't like our results, so we'll come to you now. What are you most excited about for the future? I mean, think the thing I'm most excited about it's it's funny. I am I'm stoked about Lightfield becoming your sort of crystal ball for scenario planning.
+
+And the the the thing that gets me up in the morning is actually having folks use Lightfield to think about how many reps should I hire, what products should I build next, where do I go. And, you know, one of our customers who sells to enterprise discovered through Lightfield he needed to build a mid market product Mhmm. And built this whole new product line because of this thing he found. And I'm I'm just excited about us being that sort of, like, mirror Yes. For a company to make their their hardest, most consequential decision.
+
+I think this is this goes back to the point Alex was making on, like, okay. In this world of, like, maximalist, and you can you can build for anyone. Actually, answer is having a tool like Lightfield. Like, if you just have all of this data and all of this context, you can actually be data driven, and this is the exact opportunity to throw frontier intelligence at a really complicated decision. Right?
+
+And and it's something that historically would have required, like, really smart people and a lot of ops folks and SQL and, you know, a bunch of other stuff. And instead now you can just talk to Lightfield, you know, for an afternoon or a weekend and come up with a really intelligent plan to move forward. And I think that's one of the reasons that you can run your company the way you run it, which is really, really cool. Maybe my last question for you is there's a lot of people that may I think there at least there'll be a handful of people that are going through some Pivot moment that are watching this and, you know, thinking about the future where they're Keith and they're talking about their new amazing company. What would be the one piece of advice that you'd go back and give yourself if you are just starting the pivot journey again with the benefit of hindsight?
+
+I think the the most important thing to to remember is that almost none of the noise around you matters when you're in a pivot. You just need to find pain. You need to be inspired to build a product or service that solves that pain, and you need to be, like, maniacally focused on your customers. Yeah. And then the rest is total noise.
+
+I remember when we were going through this, people were talking about how their office reminded our office reminded them of the good old days. They were talking about how, like, the food wasn't inspiring. They were talking about, like, well, how are my options gonna get repriced? And, honestly, like, none of that matters. I think you can just put the blinders on and, you know, and and focus on the core.
+
+Yeah. Well, I we could not be more impressed with what you've done, the business you've built. The product is absolutely incredible. If you haven't tried it, you need to try it. It's incredible.
+
+Go check it out at lightfield.app. Keith, it's an absolute pleasure to work with you, and we're so excited for the future. Thanks for the honor. Thanks for having me. Yeah.
+
+Thanks, Keith. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

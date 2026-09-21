@@ -1,0 +1,547 @@
+As a business leader, there's a tragedy of the commons. If you want to stop, if you want to go slower, why don't you go slower? Like, I'm competing. I want to win. There's almost two camps.
+
+There's one camp which believes that this actually is an engineering problem, and there's others which actually believe you have to slow it down. Humans don't respond fast enough to the attacks that are happening. You need to automate all of those. And most organizations are actually not as close to doing that. Is RSI and recursive self improvement that the labs are doing leading us there?
+
+That's the big question. Something Elon said, this is some elaborate for d chess because on the one hand, you're saying all of humanity will die. On the other hand, you're saying, hey. What do you want for your IPO allocation? For the first time ever, a company at scale last week said that they're moving from the frontier models to GLM.
+
+Do you think that that's a trend or do think that's just like a one off anecdote? AI may already be smart enough for the enterprise. The problem is that it doesn't understand your company. Databricks CEO Ali Godsi joins a sixteen z's Martin Casado and Sarah Wei to discuss what's actually holding back AI adoption and why the answer may have less to do with building smarter models and more to do with giving them the right context. They also debate the push to pace frontier AI, recursive self improvement, and where the risks are real today.
+
+Ali argues that superintelligence remains far from what we currently see, while cybersecurity is an immediate problem as agents make attacks faster and harder for human security teams to keep up with. And they get into what Databricks has learned using AI internally, from building an organizational ontology to managing token costs and choosing different models for different jobs. Thank you for being here, Ali. Super excited. So we obviously wanna get to Databricks, but there is a broader conversation going on right now about AI.
+
+And Dario's waiting, Jakob's waiting, Elon's waiting. But we wanna hear what Aligodzi thinks. In terms of, you know, if you called the topic broadly speaking, pacing the frontier, etcetera, What is your strongest agreement with what's being out there? Where do you disagree? And maybe where is there nuance that's not being captured?
+
+Yeah. Happy to cover it. And me and Martin argue a lot, so I'm sure that's not gonna take long. We'll we'll try and rein it in this time. Try to stay calm.
+
+But well, I I do think first and foremost that there maybe we agree on this, that leaders have responsibility to not freak people out unnecessarily unless there's really, really good reason. And I think, you know, there's always different people in society that are at different places, you know, in their mind space. So, you know, talking about these kind of existential risks and, you know, scenarios where all of humanity is gonna be wiped out, I think is irresponsible. Like, it can tip a lot of people over, and it can cause a lot of, like, mental health issues. Unless you have something that's gonna wipe people out.
+
+Yeah. As I said, yeah. If if there is a actual reason for it, then, you know, that's a different story. But I think that right now, the existential risk is close to zero. So why freak everybody out?
+
+It's not actually needed. There are risks. We'll get into it. That's probably where we disagree. But first and foremost, think that leaders should not freak everyone out.
+
+And I mean, you know, if there's like technical nuances in how we're doing AI research and so on, well, researchers can discuss that. You don't need to every time go on TV and or blast on Twitter to millions of people that, hey, you know, I think there's like this percentage, 10% risk that all of humanity is gonna be wiped out, I don't think that's, like, helpful for a lot of people. Actually, I think causes a lot of harm for a lot of folks who get stressed out and actually are not in the nuances of all of this stuff and what it means. So that, I don't think we should do. I don't think it's fruitful.
+
+It doesn't really help anyone. Mean I think this is very true for the general public. Yeah. Like my sister, who's great, who's a school teacher in rural Arizona on Sunday texted me and said, Martine, should I prepare the cabin for, she's kind of a prepper anyways, but should I prepare the cabin for the AI apocalypse, I've got water set up, when are you showing up? I'm like, hold on.
+
+So clearly this has kind of spilled over the populace, which I agree, is unnecessary and has blowback. I think there's a second one, is, I don't know if you saw walking in here, I was checking X, and Elizabeth Warren just talked about pausing all of AI development, that of course is on the coattails of Bernie, who's also working with Bannon, Steve Bannon. So now, in addition to just scaring people, the federal complex is now spinning up, Mhmm. I think that could be actually quite contrary to what the actual goals of the message, and so there's more than just, you know, I think public hysteria at stake here. Yeah.
+
+There's a lot of politics going on, but I'm, like, in all of these groups and, you know, I see both sides. There's there's heavy politics happening on both sides, we should say. Like right? Oh, yeah. Yeah.
+
+Yeah. Yeah. Is Yeah. This is no. This is a this is a I think both parties that do not include Trump himself agree that that AI should be constrained at some level.
+
+Talking about the other side of this argument as well. Let me give you an example. Like Even even Greg Abbott. Right? Like, even Greg Abbott was like, you know, you can't have data centers in in Texas.
+
+Well, I'm not talking about politicians. I'm talking about there's politics going on on both sides. Right? Right. There is politics on the business side, people who wanna see great IPOs, and they wanna get returns on their investments, and they're like, don't mess up my IPO.
+
+Yeah. Yeah. And they wanna get like, hey. Can everybody just shut up so that we can get our money back? So there's that.
+
+And they're, you know, they have resources, and they're using them. And, you know, so there's politics on that side, and those are, like, not they're not sitting quietly and not doing anything, and they can pull strings, and they have connections. On the other side, there's other people that are like, okay. How do we weaponize this? This is awesome.
+
+This guy treated this. You know? Let's, like, let's weaponize this one. Let's plant this. If I you know, let's pump these, you know Bullet.
+
+Threads. Let's let's talk to the specific leverage point that everybody is using, because I actually think that this is, a classic case of a PR mess step, and it's not just the doom and gloomy type stuff. So here's the PR mess step I think, which is, it is not unusual for industries to try and regulate themselves. It's just not, right? And I think saying like, security and safety is important, it is with every techie puck, and we want to have some oversight.
+
+Was very, very sensible. The problem was, is this couching this notion of pacing. And there's a number of issues with pacing. First off, it's orthogonal to safety and security. Like, you can slowly build a weapon.
+
+Like, that's not different than building a weapon. People don't feel it's genuine because, like, these companies have been at a dead run. You're They're still buying more compute to be even faster. No. No.
+
+I mean, no. I mean, just haven't done it. They haven't done it historically, but also it kinda kinda feels like this kind of almost milk toast capitulation to the pause people. So you're like, well, say pause, well, I say pacing, which is almost like pause, but it's not like pause. So they chose this kind of flag to follow around pacing, but if you actually read did you read the the the document that I wrote?
+
+It's a totally sensible document. I read it. Yeah. It just has nothing to do with pacing. Right?
+
+And so I I honestly No. He does mention it. Look. See, I I kinda a little bit disagree. I look.
+
+There's a tragedy of the commons. There's this, hey. If you wanna stop, if wanna go slower, why don't you go slower? Why do you write articles? There's a lot of people making that argument.
+
+Yeah. But no. Mean, as a business leader, I understand that. There's a tragedy of the commons. Like, I'm competing.
+
+I wanna win. You know? And you're on the head. I'm gonna also the market equilibrium would suggest that pacing is probably impractical anyways. Yeah.
+
+So I I'm just saying that the you know? So it makes kinda sense where people say, hey. If you guys don't stop this, this strategy of the commons are gonna continue. I'm not gonna stop racing because, know, there's IPOs at stake. There is a competition at stake.
+
+There's also some animosity between the people. So, like, I'm not gonna stop unilaterally. I'll be a sucker. You know? Why don't you stop first?
+
+You know? So then they're saying, hey. Can can you come in and stop us? But, you know, I think that, you could also make the argument that if you look at the Hugging Face opening incident that by the way, think these companies are great, and I think they are probably investing a lot of resources. No.
+
+I agree. But it's very clear from if you read what happened is that they weren't monitoring every token coming out and having it you know? They were just, like, running these RL experiments, and then after the fact, coming in and checking up what happened. So they should have paced. They should have been much slower in that particular incident.
+
+Right? I I just don't wanna I just I don't wanna just quibble on submit on on on syntax, but like words matter with PR. Right? Yeah. So let's take the Hugging Face incident.
+
+When I read that, my reaction was not, Oh, OpenAI should pace. It's like, Dude, fucking secure your thing, right? Do security controls like we always have done. It is pacing though. It is pacing.
+
+Not pacing. Like, the history of the Internet, we had all of these things where we're like, let's pace the growth of Internet. Is pacing. Let's do security. Let's do control.
+
+Let's do, like, what mean, you you control You should do that, but it is pacing in the sense that, look, I I face this all the time. I have a legal department at Databricks. I have a security department at Databricks. And, you know, they are always like, hey. Slow everything down for everything, not AI.
+
+Like, literally every little thing. Like, oh, you're gonna go on a podcast. Well, what's the script for it? What are you gonna say? And, you know, let's review that.
+
+And, you know, what's illegal? You cannot say this. You can say that. You can say that. You everything you say have to be materially true.
+
+Cannot leave pacing people into the room with us right now. So, you know, so you're running a RL experiment. You're training the next model. Should the security team be there and look at, like, run all their monitors and look at everything? I mean, like, millions of hours of GPU hours of tokens were produced, and these agents were running, you know, amok in the sandboxes.
+
+It would have slowed them down significantly if we had security team sit and up look at all the stuff. I agree. I'm Now and they're saying that, hey. Like, you know, if we do that, it'll slow us down. And I'm not sure the other side is doing that, So can you guys come in and slow us down?
+
+Like, just tell us. Like, put some God rays around us. We'll happily then follow the rules and do the secure thing. Otherwise, it doesn't make sense because we'll get our butched. I just think, like, nuanced second order words don't work when, like, people are really afraid.
+
+You're like, I'm gonna pace, and therefore, things like these don't happen. I literally think we should have just been like, so if the safety and security is paramount, we're gonna put in these controls, like, that's the important thing. And I do think that nuance actually got lost. If you look at the Zuck said. Do you agree with did it.
+
+He was like, hey. We're gonna pace ourselves. We're gonna put in secure like, the reason we release this later is because of security. Well, listen. What I thought was so great about Zuck is, like, he was very focused on, like like, security, safety, and self regulation.
+
+Dario's first five words or whatever, we need to pace the frontier, right? It just puts you in a very different mindset than what he could have said is, we need to secure the frontier, Fine. We need safety in the front. I mean, they're like, at some level, I think they were trying to optimize both for the doomers, which cause for pause, and for politicians, and they kinda didn't satisfy either. I think because they do But those are people are actually freaking out inside the labs, and there are a lot of safety people that are freaking out genuinely.
+
+By the way, and not all of them are EA people and so on. People are like, hey. They're surprised. Right? Right.
+
+But here's the thing is that using the rest of PACE doesn't help either of them. Think I think it's like literally you're like you're you're trying to find this PACE is like the uncanny valley of making the doomer people unhappy and the policy people unhappy, because the doomer people are like, that's not a pause, this is pacing, and everybody else is like, well this isn't real. You're not gonna do it anyways, and and you're not focused on security. So so, again, independent of what we should do, which we should talk about, I just think that the way it was presented was just bad, and it just didn't work, and that's why These some of the these guys are, you know, they're not trained, you know, PR people. You know?
+
+And, yes, some of the stuff I agree I agree with I mean, I agree with trained the PR people. I agree with the core premise that we shouldn't freak the public out. Think that the substantial risk right now is close to zero. You know? But let's talk about the core thing, which is the the fact that, you know, anyone who's doing big reinforcement learning runs and they're giving it a reward function, so they're unleashing, you know, saying, hey.
+
+Here's, like, you know, 10,000 agents, and here's a $100,000,000. Let's put them in parallel and let them run on a gigantic cluster for a month or two. Try to solve anything, and it doesn't need to be a security thing. It could be, like, do anything. You know, solve this math puzzle.
+
+Really bad things can happen. Really bad things, meaning things get hacked, and it has you know, cyber is the primary one. Yeah. Right? That that is real.
+
+Right? I think of this making it, hey, this is an existential risk and so on, which I think was a mistake. I think it's not good to scare the public that way. I think it's become something that everyone, not just your sister, everybody around the planet is, like, now talking about. I've had all kinds of people that never care about this stuff, and they find this extremely boring, ping me and say, do you really actually think about this?
+
+This is really important in my accounts. Now I'm starting to worry about it. So then it becomes a political issue, and we have elections here coming up, but there's elections all around the world, so you're gonna see they're not gonna sit still in other parts of the world either. But I think that's our responsibility to talk about this in a balanced way and actually expose the risks. I think that superintelligence, that idea from that book is very, very far away.
+
+I don't see any evidence that we're actually marching towards that or that's gonna happen. Same. Apparently, some people yeah. Apparently, some people at the labs are freaked out that maybe there's progress towards that. And I think it comes from RSI, recursive self improvement, the models improving themselves.
+
+I would love to understand how much what are have they seen something? We don't know. There's, you know, kinda four criterias. If there if those four things are happening, I would love to understand them. One is our models the net if if we end up in a situation where following four conditions are happening, which is the next model require less resources, less GPUs to train, and, you know, super linearly, not just, like, tiny little bit.
+
+The next model, you know, takes less time to train as well, so the second condition. Third, accuracy of the model, the intelligence is increasing. And fourth, we can do the form of three again and again and again. You know? You know?
+
+It's not just just All all those at the same time. Right? All at the same time, not just any of Yeah. All four. If all four are happening, then you can imagine a way where you can you know?
+
+Because any of them does not happen. Like, for instance, if resources is constant, then that's okay because we're gonna run out of hardware, So then it'll pace itself. Like, we will not have enough hardware to do that. Not enough GPUs. Right?
+
+Time, the same. So it needs to be that you end up in this situation. So if it's if you just mean that the software is writing itself, we're already there today. Like Right. 90 some percent of the software in Databricks is written by AI.
+
+Does it matter if the last few percent is also written by AI? No. It doesn't matter really that much. But if you're getting these four conditions, then you might get a speed up where the next model, let's say, takes half a amount of time and half the resources, and it is more intelligent, and you keep doing that, you know, then you might end up in a situation where I don't know. By the way, I don't even know if that necessarily leads you to superintelligence per se.
+
+Still converge. Yeah. But it could, so then that would be more risky, so that it would be nice if they can share all that data and we can shed some light and transparency on that. I actually think it's a great breakdown that you have. I don't think anyone is using that as a definition actually.
+
+That's very I people I think there is a little bit of people freaking out about, like, oh my god. Emergent behavior. Now it's creating itself and so on. But I think, like, as I said, a lot of people, their definition is just, hey. If I'm not even coding anymore and it's coding itself Right.
+
+But I think they're conflating, hey. What's my value, and is it scary for me versus, hey. That then means we'll get that superintelligence that 2014 theoretically was hypothesized by Botstrum. Yep. Well, your point in compute, is a really good one that's missed in a I think a lot of arguments on RSI.
+
+Right? Because as far as we can tell, the minimum threshold for compute needed to train a good model just keeps going up. Like, it was a 100,000,000, billion. Now it's probably, like, 5,000,000,000. So that To train a model now?
+
+To to train, like, a frontier model. Right? Five to ten billion. Yeah. Right.
+
+Right. Exactly. Versus Million. Billion. Billion.
+
+Billion. Billion. Yeah. Versus your your second point. Very expensive.
+
+Yeah. Frontier is very expensive. To replicate the frontier six months later Yep. Is about one twentieth the cost. No.
+
+I think Sarah has a great point, which is it's this is a good argument against this whole thing, which is that the next model first of all, there's only one or two such runs a year that each of these labs do, and they take it's the opposite of the four criteria that I mentioned. Right? Which is it's gonna take more resources, more humans involved, and it's even more brittle, and they have to build out the data centers. I mean, like, the labs are not necessarily doing that, but others have to build the data centers, and they have to be gigantic, and they have to get the GPUs, and they have to get the networking right. They have to the engineering to make sure that they can tolerate.
+
+Because, know, every order of magnitude more GPUs you cram in there, you have to now worry about errors that before you didn't have to worry about. So you have to increase robot robustness of the so it's like a very brittle process, and if it fails, you've squandered so much money, so they're, like, very, very careful with that run, and there'll be multiple runs that have been botched. Yeah. So it's it's the opposite of that that, hey. The next model is faster, cheaper, smarter, and recursive improvement.
+
+It's the opposite. It's like it's taking longer, and it's more brittle, and it's more people, and it's harder to pull off. So I do think that that is true. Yeah. With respect to RSI, with respect to actually cyber risks and things getting hacked, we need to take it super seriously.
+
+So I'm gonna have another, let me test here. Like, I actually love your four criteria. Was like literally just waiting to argue with it, but I actually think it's better. I'm like, this is very good. So I'm a let me let me give you like a black box what?
+
+When you're dealing with these dynamic adaptive systems, like what are you gonna believe? Are you gonna believe like the numbers or your lying eyes? Right? So I think you kind of have to go to the numbers on these ones. So like what are the numbers to look at?
+
+I really think you should just basically, and maybe going public is the right way to do it. If these companies continue to grow, reduce the number of people and the number of amount of money that goes into them, then I would say something is definitely happening here. Like I do think that you can actually black box this and take a look, but none of those indicate like, they're hiring like crazy. They're running like crazy. That's not fair because, you know, companies are not necessarily efficient.
+
+Right? So, like, what if you have mean, OpenAI itself was doing, like, a million different activities. A very small team of, like, 10 people were doing LLMs, and the LLM stuff was useful. Twitter, there was a lot of people, now it's much less people on agree, it's just another litmus test. Have kind of two litmus tests, have your litmus test, which I think is great, but then you would actually have to have a way to instrument it.
+
+Yeah. And then we should have the black box litmus test. Like, I mean, if anthropic in two weeks is, 12 people and they continue to grow and they're putting out models at an increasing rate, I think we should probably take notice of that. That's sufficient criteria but it's not necessary condition, I'm just saying that there could be that, and really the right way to do this then to look at, okay, the pre training and the post training that's been doing, that's really necessary. Yeah.
+
+Because they have so much resources that they might be doing a lot of other stuff they don't need to do. I know. But they're doing it just and they can just hire the people because they have infinite money and infinite so, really, the people that are training the next model, is that team tiny, tiny, and it's actually getting reduced, and they're doing less and less work, and just the AI is doing it and then post training, and then they're all just using less GPUs. That's not the case. We've had this argument many times as an industry before.
+
+I remember when, like, we learned how to really cluster computers. Yeah. Because, like, the mainframe was actually kinda limited by things like memory coherence. Remember that? Like, you can only make it so big.
+
+And then we kinda went to the client server area, then we didn't have that problem, and then we started creating super computers, which were basically clustered computers. Then at some point, the internet happened. And that was kind of also roughly, like, when GPU started getting good. And do you remember that we would actually, like, export controlled PlayStations? Mhmm.
+
+Because we were worried that Saddam Hussein would use them to do simulation. And the arguments were very similar, which is, these things are getting infinitely powerful, we're using them to simulate nuclear weapons, which we were, like I was. Yeah. Like we can't, you know, this stuff has existential risk, actually they didn't use those words, but like this has the potential for like nuclear weapons or whatever, and we should stop it. And like, none of that came to path.
+
+Mhmm. So I think a very reasonable discussion is is is is is this time different? Yes or no? I don't have an answer to that. But I'm from DC, but, you know, you're a Yeah.
+
+I mean, look. I I think I was I'm I'm not old enough to remember, so ignorance is bliss. Wait. So I can take this. I I don't recall PlayStation as being illegal and saw that machine being I I just don't know.
+
+Or maybe I'll just are you? Maybe I'm just ignorant. This is, 1999. Maybe I'm old and ignorant. I mean, you know Maybe they didn't care as Sweden.
+
+Is that the Maybe it's just amnesia from age. Jesus. But Sweden Whatever it is. Sweden doesn't care about export controls in The US. Yeah.
+
+You know, whatever it is, I think it's it's at a different scale now, right, with the AI and, you know, with the you know, what we're doing, the pace of development and so on. They are freaking out the frontier. I do think cyber is actually one of the biggest one that we're gonna see. Right? Because it's there's just so much infrastructure on the planet.
+
+By the way, way, way more than it was whenever whatever Saddam or Xbox or whatever it was you're talking to. I mean, like, we've just interconnected way more things, and they're dependent, and, like, the planet just looks different today from Internet tech dependency interconnection than, you know So it's years ago. So I I just wanna make this point. There's so much in infrastructure that's insecure. Right?
+
+And if you're gonna unleash these agents, they're gonna find loopholes. They're gonna find exploits. They're gonna break in here and there. So so this is a real risk. So so we can't just and by the way Sure.
+
+This time it didn't do that, but you could imagine a scenario also where it starts hopping. Like, takes resources, and it starts executing itself elsewhere. So it kinda spreads like a virus So a little That's a real risk. So so And this is pure curiosity, I promise I'm not trying to be a foil here, but why do you think we just haven't seen very much then? Again, again, I'm much older than you, I remember very well, So literally when the Internet came out, by this point, we had literally taken out ten percent, we'd disabled hospitals, we'd taken out critical infrastructure, we'd caused tens of billions of dollars in economic damages from worms, All of that had already happened, and to your point, we had much less build out, less of the economy was on it.
+
+And so, AI has so many people that want to find risks and threats. We're running so fast, so much money has been poured into it, and we haven't seen anything commensurate with the early days of worms. What is that disconnect? Yep. Look.
+
+So I do remember that, those days. I mean, at same time. Yeah. So, look, I would just say that I I am sleeping well at night, and I don't think there's existential risk right now. I do think there's a lot of infrastructure that needs to be secured.
+
+Yeah. We have a product in the market, in in the detection market, LakeWatch, that helps you do detections. And the space is just there is moving so fast because, you know, you used to have these SOC teams, security operation center people, that would look at what intrusions are happening, how are we being attacked, and so on. And now the humans just can't keep up. Yeah.
+
+So this is the whole space, security cyberspace, is being transitioned into fully automated, using agents for detection on the other side. If we don't do that I mean, now we're rushing. We are rushing. The industry is rushing to do that super, super fast. If we don't do that Yeah.
+
+I do think you will start seeing those kind of things, like sites going down, you know you know, whole systems that stop working for a while, and there will be consequences, not existential, but economic damage and, you know, people getting hurt and so on could happen. So we just have to race very, very fast to do all of those things. It's just you don't have the the humans don't respond fast enough to the attacks that are happening, so you just you need to automate all of those. And most organizations are actually not as close to doing that. The banks are doing it.
+
+Some of the people that are super security conscious are doing it, but most of the industry today is running with old school security operation centers and people that are waking up every day, and there's, like, hundreds of emails of detections that have fired. Many of them are just false positives, so you don't need to can ignore them, but some of them are not. They just don't have time to go through those, and you need to identify that. You need to have threat hunting that's automated, where you're actually attacking your own systems automatically with agents and so on. It hasn't happened.
+
+So I do think, like, if we just say, hey, this is just like the Internet in the early days, bad things are gonna happen. So there is a race going on. Yeah. I was actually very surprised. Earlier this morning I was on a con like, feel like you and I are, like, pretty close, so we talk periodically.
+
+I feel like I know a fair bit about Databricks. I was on a call this morning where a founder was basically like, yeah, listen, like, you know, we're doing all of this, like, observability, agent threat detection, and we're using Databricks, I didn't even know that you had this offering, like, quite frankly, so like, I mean, this is just from an education standpoint, like, how how extensive have you gotten in, like, the agent AI observability security safety thing? Yeah. Mean, we gave a talk this year at RSA, actually, Ben Horowitz. But the issue is that data and AI is blending with cyber.
+
+These two markets are collapsing. Because I I think, you know at least Yeah. And the reason they're collapsing is that it used to be like, okay. Have, like, data and AI, the kind of stuff Databricks and these kind of companies used to do, which is like, okay. You have a bunch of data, you run AI and machine learning, and that just lives separately.
+
+And then you have the cyber world. Cyber world is, you know, we wanna detect if something bad if, like, bad people are trying to hack us, if bad people are doing things, we need to detect that. K? But now on the data and AI side, we have agents running. Internally in the company, people are having agents running.
+
+And the agents are also, like, doing things with other people's agents, and they're producing a lot of data, logs, trails, you know, fingerprints that are being left. And so, you know, then now we have internally these agents that are doing that. So these these worlds start merging more and more, which is like, okay. Well, we all the data that's being produced needs to be analyzed. And the scale at which you need to do that is just, like, many, many orders of magnitude more than just one or two years ago.
+
+So things have changed dramatically. Like, two thousand eighteen, nineteen, the time it would take from, you know, a CV vulnerability being sort of published until you see it actually weaponized in the industry would be, like, two, three years. That went down to, you know, 2022 significantly, but it was still, like, eight, nine months. Yeah. Yeah.
+
+So that's kinda fine. You have eight, nine months from a vulnerability to that was 2022. Yeah. Now if you look at this curve from 2022 until now, now it's down to, like, basically hours. Yeah.
+
+So Yeah. It's, like, down to, like, basically no time. Like, things get immediately weaponized. So so you need to just do it in an automated with the data and AI sort of platform approach. So these markets, I'm gonna argue, are they're just gonna collapse, actually.
+
+So it's a very specific question. I actually think a lot of, like, to pull back on the existential, ex risk discussion, it feels like there's almost two camps. There's one camp which believes that this actually is an engineering problem, and companies like Databricks can solve it, and they can solve it through product and through engineering solutions and through services, and so we just as an industry need to solve that problem. And there's others which actually believe, it seems to me, that there is no engineering solution, you have to slow it down, you have to use regulation, it's more like a nuclear weapon, etcetera. So does this mean you believe it is an engineering problem?
+
+Or are you not quite comfortable saying that yet? Because, boy, it was asked, why would you even buy Databricks, man? Let's just put this stuff in a national lab. Just pace it is the only solution I know. Everybody just pace themselves alone, and then we'll be fine.
+
+The bad guys Funny. There is no line of inquiry ever that gets to pacing, I don't think. I think it's like you pause it or, like, you, like, solve it. What we've learned here is that Martin really hates the word pacing. I will never use that word with you ever again.
+
+Okay. Clearly. Duly noted. More fun. Frustrated, Mark.
+
+Yeah. Is it an engineering problem that can be solved by engineers, or is there more to it? I actually think which problem are we talking about? There's two separate problems that I think are being conflated. Yeah.
+
+There is the superintelligence problem. Yeah. You know? And I think a lot of this comes from, like, Bodstrom 2014 superintelligence book. And if you look at the definitions, like, I think people don't have these clear definitions of what superintelligence if you read his book, those definitions are kind of crazy.
+
+So I think what he had in mind when he said superintelligence is, you know, AIs that I don't know. Don't know what the examples were. Something like could do anything. Something like they they write a whole PhD thesis with novel, like, peer reviewed stuff in a couple seconds. And they can do, like, millennia worth of thought, you know, in, like, instantaneously.
+
+And, you know, so this is, like, the level of, you know, how fast they are, how intelligent they are. So it's They can learn. Yeah. Yeah. It's just yeah.
+
+I mean yeah. But it's just many, many, many orders of magnitude. Right? It's like it's just the scale of the problem is just completely different. Yeah.
+
+So if such a thing exists, do I think it's just just an engineering problem to solve? No. I think that's actually very if such a thing would happen, I that would be very existential. Of course. And that's what everybody agrees on.
+
+So I think that's being mixed with now we have agents that are nowhere near that. This I said, it's not even like there's nothing like that, and we don't have anything towards that path right now. Yeah. But these agents are capable, you and can do something with them that you could never do before in the history of mankind. So I do think an inflection point has happened.
+
+Something has changed, which is we could get we have good security researchers at Databricks, but I could never say, let's get 10,000 of them in a sandbox for a month Totally. And have them do $100,000,000 worth of salary wage work. We can do that now. We just turn on a button, and we can get a 100,000 of them. Or mathematics.
+
+Like, we can say, hey. You know, we wanna solve a fee like, a conjecture. Okay. Let's get pretty good mathematicians, but let's have 10,000 of them collaborate, you know, and then you can, like, make very fast progress. So this, I think, is an this leads to all these cyber risk.
+
+I think cyber is the major problem here. Mhmm. This is, I think, you can solve with engineering. And I think it's like, we are working on it. Many others are working on it.
+
+There's still risks. They're not existential. I think we should do it. There is the superintelligence thing. Like, that's the thing that could do write a novel PhD thesis or, like, reason intuitively in 11 instantaneously without writing anything down, something humans can't do.
+
+Like, that kind of superintelligence. The question is, is RSI and recursive self improvement that the labs are doing leading us there? Are we gonna get there? Trying to do. Trying to do.
+
+Is that what's gonna happen? Yeah. And how fast is that gonna happen? That's the big question. And they've suggested that, you know, hey.
+
+We should have inspectors that come in and look at what we're doing. I think that's a good idea. Have them go in there and get the data. I would love to like, the question is, who are the inspectors? Because you can, like, you can stack right?
+
+You can stack that. Who do you think, Martin? Yeah. So there's a bunch of people that, like on either camp, actually, I wouldn't care if they're if they're the inspectors, I would not be very impressed by what they say, because they've already made up their minds even before they are they would go in there. Right.
+
+Exactly. But let's say, like, as an example, if Jan Bakun, who was one of the inventors of this, you know, deep neurolateral technology, right, one of the pioneers, If he he said, hey. There's nothing to see here. There's no risk. You know, I'm paraphrasing him.
+
+This this is nothing. This superintelligence is just nonsense. Keep on going. Go fast, fast, fast. None of us wouldn't believe it.
+
+I'm putting words in the pot. I mean, I'm not exactly If he was one of the inspectors and he went in there and he had a look and he came out and he said, hey. I've looked, and it's just what I said. There's nothing to see here. Just keep going.
+
+I would feel very good about that. I would say, okay. Well, I I would feel very or if he comes out and says, oh my god. You know, I you know, he's wobbling, and he would change his mind a little bit, that would also have a lot of interesting signals. So I think it comes down to who we pick as inspectors, and I think it's a good idea.
+
+Let's have some of them and pick pick a diverse set of people so that we can get different nuance points of view. What what do you think about this kind of Elon Musk view, which is like, it's it's less third party. It's more it feels like there's kinda three proposals. Like, the OpenAI, Anthropic one is a third party. Yeah.
+
+The Elon Musk one, as far as I can tell, is the labs cross check each other like peer review, like you do in science. Yeah. And then the Mark Zuckerberg one is please yourself. Right? What do you think about this middle one?
+
+That they should pace each other, like, you know, evaluate each other. I mean Like, I value you I think, like, if we have boxing matches in the ring, the boxers should just be the judges of each other. Would that work? No. They would scream foul all the time.
+
+Foul. Foul. Foul. Like, you know, it's like, you know, the the moment that the the moment the other guy the moment the other guy puts out the great model, and it's like, oh, big super intelligence risk. Absolutely.
+
+Like, you know, they have not been responsible. Like, you know, when vested interests are at play and there's, like, IPO plans and these two companies are so competitive and they have, this history also between them, yeah, they'll be very they'll they'll be very fair to each other, I'm sure. That's why you need the third party. Right? And why do we have judges in the world at all?
+
+Why do we have third parties at all? Like, why can't just people, like, figure things out between themselves? So so But, I mean, they should try. If they wanna do it, they should try. But I'm skeptical that they wouldn't just, you know, be biased in, you know, in multiple ways to to to self, like, you know, judge each other.
+
+So so I have to ask Ali. Do you think something Elon also said, I think it was on the all in, you know, summit. He was like, this is some elaborate four d chess because on the one hand, you're saying all of humanity will die. On the other hand, you're saying, hey. What do you want for your, you know, IPO allocation?
+
+Right? And so, I mean, that is probably a more cynical view, but, like, how do you how do you reconcile that? I mean, the the dissonance, I think, gets a lot of people. Like, how do you think that gets reconciled? Look.
+
+I think all of these things get mixed. Like, I think there are people that are freaked out, and I do think that the people are saying, like, hey. If there was regulation that would pace us, sorry to use the word, that would be good for us. Right? That that would be good for us.
+
+But I also think that people have vested Yeah. Right? These things like, you know, usually people figure out a way to always get all of these things to align in their you know, harmonically in their head. So, yeah, do I think that there has been a tendency in the past of, in general, using also marketing stunts by saying, you know, oh my god. This latest model is so good that I trained.
+
+It's, like, unbelievable. It's, like, almost scaring me. And then how the whole world, like, kinda starts focusing on it. Yeah. There's been that that kind of marketing going on.
+
+Yeah. But at the same time, also, as I said, the time from CVE to actually weaponize exploit has, like, been going down from years down to, like, minutes now, just in, like, three, four years. So it's real. The cyber attacks are real. And this is but but there's also a great marketing ploy to, you know, whenever you train a new model, make lots of noise around how much of a, you know, crazy risk it is to the world.
+
+It helps you, right? You know, maybe they're not in contradiction, these things. So so, I mean, you and I are networking folks, and there's a long history of forming third parties to help arbitrate things, right, like IETF or Yes. Know, IEEE or even like ICANN. I see where this is gone.
+
+No no no no. So my question to you is, so I think it's actually this is a very sensible proposal that they actually have. I actually agree with you. You probably want to make sure it's independent, is not fair right now. And there's gonna be lot of arguments of who you put there, and everybody's gonna disagree.
+
+Right. But you said, you know, why do we have judges? So that's actually, the state stepping in is actually quite a different thing than basically industry self policing. So at what point in time do you think it makes sense to actually consider federal involvement, or do you think now is the time to actually consider actual federal involvement as opposed to more industry self policing? Because this is a very different They are different, but they kinda bleed into each other.
+
+Like, you know, like, for instance, FINRA, you know, is not, like, a completely independent self it is, but, you know, it's linked to the government, so like I think these things will bleed over. Think it's you hard think that they evolve into historically, industry self polices, and then it evolves into regulation. Look, if they are saying there is existential risk, which they're saying, you know, and they're saying, come police us and regulate us, I think it's very hard for regulators to say, no. We're not gonna do that. So far, I've said that, but I think that's not gonna last very long.
+
+You know? It wasn't David Sack. It was like, I've never had a CEO ask us to regulate. My favorite thing is And the CEO said, I've never had a regulator that says no to that. Say no.
+
+The reality is the actual meta political machinery is actually in motion already, right? Everyone has a talking point, Obama has came out, it is a major issue. Do you think that there's a reality that it's too late, this will be a major issue in the midterms and we're actually going to like heavy handed federal regulation, and this is all gonna be paused, know, anthropic goes into the DOE, and we're we're past that point, or do think we can actually end up with, like, a sensible self policing regulation? Because this is the headlines you cannot. We should strive towards doing the right thing.
+
+Yeah. Of course. I think there's still some degrees of freedom of how things evolve, and there's still time. And, yeah, you're right that largely, if you have these companies where we're pumping in so many billions of dollars. Yeah.
+
+And the way reinforcement learning works is that you, you know, give it the reward function that's verifiable, like, we're gonna solve this math problem or this kind of, you know, this narrow area of programming and so on, and we pour in so much money into that, you can get quite good results in that narrow kind of that doesn't mean that you're getting that super intelligence. No. But you can even you can even you can even trick yourself into thinking that, like, less inputs are giving you a better outcome just because you're running so many experiences and you've thought about it so much, but it's actually very hard to do a closed experiment this way given how many resources are going in. Well the fundraisers are going up astronomically to your point. Yes.
+
+That's why these companies are going public. Right? I I think they would otherwise have They would stay I mean, as someone who runs a private company at scale, I think they would prefer to stay pub private otherwise Yeah. Why are they going public? Because they need the capital.
+
+And they consider the scaling laws and the capital to be a strategic advantage. So that's why they're going public. But I would say let's go back to the four things that I listed. Yeah. If those are true, you know, if those four are true, would you wanna be know about it?
+
+And is that would that be worrisome? That that could get out of hands. Now there's no evidence that those four are happening. But if if there was like, you know, no, we're that is actually where it's headed. Yeah.
+
+I I actually think understanding for any system Yeah. Like, sort of self propelling property is important. I mean, we've we've done this in the past with dynamic systems. Right? Like we've done this with like whatever, compilers, we did this with all the research on nanotechnology, like it's been a common interest of ours, and I don't think that that's new, that it's an interest which should continue to have the interest.
+
+I just think the fear is that these particular systems are net economic systems that are so complex, that the risk is crying that you're seeing it when you're not seeing it. And I think a lot of that's happening right now. But of course, if you see it, yeah, of course. I mean, want to know. But it is fair to say that the labs are now focusing a lot on RSI, and that's where they're headed next.
+
+And maybe they're just unjustifiably worried themselves, just like they were worried about GPT two. Right? So they were like, GPT two is world ending, and then it wasn't until GPT three and four came out. So I don't wanna quibble. A lot of the times when they say RSI, they're actually talking about autocatalytic effects.
+
+And autocatalytic effects have been in our industry for a very, very long time. So for example, there's no way you can create a computer chip without a computer chip. It's like you cannot do it. Anyone with computer science degree. You're right.
+
+It might my own compiler. Well that becomes closer to RSI, but like the steam engine was auto catalytic, listen, my full time job is people coming out of labs and starting companies, and they all say RSI because everybody says RSI, and like, maybe 1% of those are Axie RSI. Like, they're they're they're more like, we use AI for data cleaning. We use AI for making Let's let's make this thing. So you're saying it make basically, Catalyst in a sense that they're using AI to speed things up.
+
+It's auto catalytic. Yes. So so I would say of what we should be on our side another model. Right? You're using a model to build a GPU kernel.
+
+You're using a model to do data cleaning. Just like I use a computer to design a computer. It's auto catalytic, which every tech the Internet was autocatalytic because it allowed people to to collaborate remotely. So I would say Yeah. This is anecdotal.
+
+90% of the calories are autocatalytic, which is a 100% what you'd expect. And that's been going on for a while, though. I mean, that's not even new. But I would say that there that. But also now, the there is a focus on let's move towards, actually, can we get the model to train itself?
+
+This is kinda like the auto research that Karpathy did, but now they wanna do that. Are there are team there are teams that do that. It is not nearly as as many calories as you would expect. I just feel like I actually have a good sampling of this because they all come and talk to us. Right.
+
+So can we Everyone wants one of the inspectors. Can we get all that data and all of us look at that data? Maybe there's nothing to see here. You know? I personally don't think it's, like, very high probability that those four criterias are happening.
+
+Okay. Went on the pot this week and said we're an AGI era. Yeah. So now I asked the same question after he said that, and now everybody's saying we AGI. You feel validated.
+
+So, you know, people people follow what this but but what people have for a very long time, when I asked this question, said that AI is smarter than most of the people around me most of the time. That's that's been almost like since q three, q four last year, they've saying that. Then I asked them how many of you have, you know, hundreds or thousands of agents that you are managing that are coordinating with each other in swarms and negotiating and, you know, automating your life and everything around you. And if so, raise your hand. It's like almost nobody raises their hand.
+
+Of course, Martina has done that at home. Yeah. Most enterprises are on Microsoft Copilot. Yeah. Like, that's the extent of their AI Most what we've Most enterprises I talk to when I ask this question, they're like, no.
+
+We don't have any of that. So we're like, okay. What are you doing then? They're using a chatbot. Like, they're asking questions from a chatbot.
+
+That's basically very, very glorified, efficient Google search of the old day. The results, so it's just faster Google search. And then coding is happening, so people are using it for coding. Though the ROI is you know, we can discuss the ROI there. But there's no, like, agentic, like, work that's automated the whole enterprise.
+
+That has just, like, not happened. So then why is that? And I think that the real reason is, if you actually look at it, is the models are smart enough, but they just don't have the context that exists inside of any organization. Like, they have not been in every meeting. They don't know what's in everybody's heads.
+
+They don't know all the processes. They don't know there's always, like, a couple of employees who know everything in in every organization. You know, you go tap on their shoulder, and they're like, everybody's like, my god. What would happen if he or she quits? You know, they don't have that context.
+
+And if you just fused that and gave that context into the AI models, just the frontier today, I think there's so much productivity gains you could get for any organization on the planet. For that, we actually don't need smarter models. So we don't need a smarter model that can actually solve Navier Stokes or conjectures or do better on humanity's last exam. Like, we need it to just go from 60 to 70%. Yeah.
+
+None of that is needed. So I think, actually, people are very upset on some like, oh, if we pace the frontier but actually, if the frontier doesn't advance, it doesn't actually matter, I think, for vast majority of organizations on the planet. They're just so far behind in the adoption curve of actually automating things Yeah. And getting value out of this stuff. But it it would be disastrous to the labs because the price of intelligence is dropping asymptotically.
+
+I think it's one it's going down by one tenth every six months or something like that. So that would dramatically change their businesses if, like, weren't pushing the frontier. Yeah. But this is what we should focus on. Right?
+
+We should focus on, like, you know, there's, like, two sides. I agree. We discuss here a lot the costs. Like, there's cost benefit analysis that we should do on everything. Right?
+
+We've discussed the costs a lot here. Like, oh, is there, like, existential threat? Or is there cyber risk? Is there things we should be worried about and so on? That's like the cost side.
+
+What's the benefit? And I think now that this has become like a public thing and the whole public cares about AI, they're asking, hey. What what what's in it for me? What am I getting out of it? It seems nothing.
+
+Why are we So how do they get there? Like, what are some of the use cases you've seen to date that have maybe surprised you to the upside? Yeah. I mean, first of all, there's, like, so much worry worry about, you know, existential risk and so on. So I think a lot of people just don't know what a, you know, cool use case is where people are actually doing interesting things.
+
+We have a lot of use cases that are, I mean, just fascinating. One that I like is Crisis Text Line. So Oh. You know? They actually use language models with us to detect if teenagers wanna do self harm or suicide.
+
+Oh, wow. Yeah. You know? Awesome use case. Super.
+
+And it can actually so it actually saves lives. So that's a great company, and that's you know, that organization is doing amazing work. Another one that's kind of interesting is the Omnipod, which is for diabetes patients. They can put the Omnipod, and it uses AI to really learn your insulin release and your glucose levels and actually exactly release. You know?
+
+I don't know you remember. People used to, like, stick themselves. Right? But this now happens automatically, and it's, like, you know, self learned AI for your body. Wow.
+
+You know? It's a cool use case. Zipline is another one. They're doing awesome. Oh, yeah.
+
+You know? But when they started, it was, like, these drones that had you know, they were completely automated, all AI driven, everything from the, you know, battery optimization to the routes and everything, and they were delivering food in, you know, areas of Blood blood to refugees. Blood to refugees. Stuff. Yeah.
+
+Started in Africa and then elsewhere in the world. So, yeah, that's that's all that's all AI. It's AI use case, you know, built on Databricks. So it's a cool one. But there's more advanced ones also.
+
+Like, one that I kinda like, but it's harder to maybe explain is this model that we built, transformer based model that we built with Merck. It's called TEDDI, transformer enhanced drug discovery. Love that. Yeah. So and they published actually the research, so you can you can check it out.
+
+But it basically, it's a model instead of predicting the next token in English, it predicts what the gene regulatory network, the GRN, is going to respond, and it can really detect, you know, which cells are causal and which ones are just reactive. So they're they're just reacting. And, therefore, they can start using this in drug discovery and get costs down significantly for developing drugs that are targeting specific diseases. So that's a super cool use case. There are lots of these.
+
+You know, Genie, I mentioned, you you have this ontology, you can ask any questions. Novo Nordisk is using this. So, you know, they they built this GLP one drug. But what Novo Nordisk is doing is now they're using it for all of their trials that they're running. Oh, And it can it can compress the time it takes to get insights, versus if you're in an obesity study or something, from weeks down to minutes.
+
+So there are a lot of amazing use cases of AI. We should not forget these upsides also. Like we want all of these and we do not wanna pace these. Yeah. Exactly.
+
+You're totally right. And so how do they let's say if you map out the next twelve months, how do the enterprise actually get value? You you dropped the word context, but, like, how how do they operationalize that? I it's actually harder than most people believe, but, you know, first and foremost, we have to make sure that we have digitized everything that's happening in the organization. That actually you cannot actually just, you know, have a magic wand and make that happen.
+
+So, you know, every meeting has to be transcribed. You know? So you you have to be able to get all the context of all the meetings and everything that's happening. All the digital content has to be fed to the AI. So you have to build we we call it an ontology.
+
+We build that. But first and foremost, you have to collect that. That itself is a problem in many organizations because legal teams will say, don't record every call. Don't record everything. So you have to do that in a way where Can you define ontology for everyone?
+
+Because I know Palantir says the word a lot Yeah. But it's not like they own the word on like, what does that mean? And for the people listening, like, how should we You about know, ontology just means that in an organization, the relationship between all the abstract concepts of all the goals and all the departments and all the people and all the projects that are going on, what do they exactly mean? And what's the relationship between them, the people, the resources, and what that company does. So it's the difference between a person who is a new employee in the company and just started today Mhmm.
+
+And a person that has worked there five years. You know? Let's say they're equally skilled. They have the same educational background. They're equally smart and hardworking and all of that.
+
+But one, it's, you know, her first day today at work. The other one, she's been there five years. Yep. What's the difference between these two people? The one has an ontology of how that organization works, who the people are, how you get stuff done.
+
+Don't look at the org chart. That's don't go ask that person. Yep. He will not get anything done. You go ask this person, you know, he'll get it done for you.
+
+And and and then that's not how it works. You don't need to file that paperwork here. And, you know, and this is this project, this is what's going on. This is essential. So there's just a lot of ingrained knowledge that's sitting in everybody's heads.
+
+Who knows how an organization works? That's why it's people say in start up land, they say, hey. If you lose most of your people, that company can't recover from it. It doesn't you can't just replenish and hire new people. Like, the people are so essential.
+
+How do we get that context, that's the ontology, and give it to the AI? Part of that is we just have to have, you know, the recording and all of that. But the second part is how do you actually distill it down into a graph? Mhmm. Actually, a digital graph that you can then feed to the AI.
+
+So the way a lot of the agents work today, a Cloud Code or any any of them, Codex or Pie or, you know, OpenCode, or you can go through the whole slew of them. You know, they have this loop, agentic loop. It can reason, but then it goes and checks every resource one at a time. So we'll go to this MCP server for your question and try to see is the answer here, is there another one. It synthesizes it and gives you an answer.
+
+But it's kind of slow. I I liken this to if Google would have built Google Search this way twenty five years ago, we would have said, okay. We're gonna get 10 blue links. We search for key terms here. But instead of giving you 10 blue links, it would have gone to one website, summarized with an LLM what it does, found a few hyperlinks, jumped in parallel to a few of them, read a few websites, done that for ten minutes, and then giving you, like, its best 10 blue links it would find.
+
+Well, that would be very expensive. Cost a lot of money to do that every time go on the web. Two, it would have taken a long time, and then you gotta wait ten minutes. And three, the quality would be bad because you're actually only looking at a very small subset of everything that exists out there. Right?
+
+Mhmm. So how do they do it? They have an index. Right? You never leave Google servers.
+
+You search for it. It hits the index. The reverse index immediately gets you to 10 blue links within, you know, less than hundred milliseconds. We need to do the same thing for the AI. So the ontology is that we need to compute that index offline all the time.
+
+So it's almost like the PageRank algorithm that Google had invented back in the day, but it's more complicated. Because Google was just looking at a web where everybody can go on the web. Here, there are permissions the links existed and Yeah. Here, there's permissions involved. The data I'm allowed to access might not be the data that you're allowed to access, so there's privacy.
+
+Right. There's access control. Also, there's many different types of objects here that we're dealing with, not just websites. So the problem is a little bit harder, but it's manageable. You can actually do it.
+
+So, you know, the I'm convinced you can do this and you can get massive productivity gains out of it because we did this for Databricks. Yeah. Exactly. We did it for ourselves. Yeah.
+
+Yeah. Yeah. And we're like the company just completely changed. It's like not the way it was, I would say, a year ago because of this. I mean, you've been dogfooding Databricks for Databricks for forever, but maybe say more about the impact you've seen as an organization.
+
+Yeah. I mean, once we got this ontology and we started working on it and we actually have probably the largest of all of our customers. We have the largest ontology. Our ontology is bigger on us than any of our customers when they use, you know, us to build their ontology because Databricks uses Databricks more than anyone else uses Databricks. And so it's, like, millions and millions of nodes in the graph in the ontology graph that we have.
+
+So it's just, you know, what happens in an organization? What happens in an organization, you have a tree structure organization, and information flows up and down the tree structure. You know, if you can't make a decision, you escalate your boss, maybe they can tiebreak, they escalate it up. They need to get up to speed on what's happening, and they need to get all the context. And then they make decisions.
+
+Once decisions get made, you have to percolate them down in the organization. A lot of this can now be done by AI if you have an ontology. Why? Because, you know, what happens in a meeting? In a meeting, you go through some you know, someone has done the analysis.
+
+They probably have a PowerPoint deck with some pretty graphs in it. That person did the analysis or some smart person that used Excel, made some models, there's some numericals. So a lot of that you can now just do with AI. So the AI can do the analysis for you. It has all the context.
+
+It can present it in a way that you want. You can ask questions about it instead of having follow-up meetings. You can directly ask questions directly from the AI. So it's very similar. It's along the lines of what Jack Dorsey has said that you can do to the organization.
+
+It's just a concrete way of implementing it. Yep. So it's it's game changer for us. Like, you know, it's just everybody's on their phones now in the meetings on Genie, and they're, like, asking Genie questions. You can see soon as someone says something complicated or something, it's like, you know, you see everybody go through the process.
+
+Share that finance the like, the finance anecdote you you mentioned once at a board meeting? Yeah. It's yeah. Sure. Internal board meeting.
+
+Yeah. So Only a kosher. Yeah. Exactly. No.
+
+It's it's I actually needed for for one of our presentations. I need to know how many customers do we have in Fortune five hundred that is what's our penetration of Fortune five hundred? And I asked one of the people in sales ops because I thought she would have it. And she texted me back and said, oh, sorry. I can't log in to Genie right now.
+
+I'm on a flight. I said, well, if if you're just gonna log in to Genie, can do that myself. What kind of I asked you because I thought you had, like, something alternative that I don't have access So then I I was kinda a little bit angry, so I texted the CFO instead, Dave. So I texted Dave, and I said, hey. Do you know what our Fortune 500 penetration and he just copy pasted a screenshot of Genie back to me.
+
+That's it. So he also asked that. So I said, anyone do anything novel here? Is everybody just going to Genie and asking the ontology, you know, questions? It's like, let me Genie that for you instead of let me go That's what everybody's doing.
+
+Now we just say. We say, hey. Can someone just Genie this? Like, can I just get it from the ontology? So I do think it's a game changer, but it's not just you press a button and you have an ontology in an organization.
+
+And I think Palantir actually has done a great job of going to organizations and getting a lot of that tacit knowledge written down and getting it into the organizations. We automatically can take that and build the graph. And then we feed that graph into the agents so that we can answer the question and answer it in a way that business leaders would like to see it, which is in graphs, you know, analytical way, and a way where you can interrogate that question and, you know, continue asking questions and getting answers to those so you can make decisions. And then disseminating that information in the organ organization. Yeah.
+
+It's it's pretty amazing. You you sort of bookmarked the developers are obviously using AI questionable value. I wanna follow-up with you on that because I feel like you guys were one of the earliest. Mhmm. And I I say I don't wanna use the word token maxing because it has such a negative connotation.
+
+But I think in terms of applauding people who can use AI to become more productive, you guys were Yeah. You know, at the forefront of that. Right? And then, of course, there's this cycle of, oh, shoot. People are being wasteful.
+
+Now we need to value max. Like, what was your your own journey on that? And like, how do you guys think about value maxing, not token maxing? And then I'm gonna throw in Unity Gateway in this. Right?
+
+Because I think the managing of cost piece is actually getting more important and you guys are helping people do that. But maybe tie that in to extend it to a bit. Yeah. So around q four last year was when, you know, the models got really, really good, and we started noticing that, okay, it's actually starting to give much better productivity. So I actually started using the models myself to sort of start, you know, commit code into production for Databricks, like the actual because I wanna take it all the way to production.
+
+So I did that and and started pushing the organization that, hey. Everyone needs to do that. I have done it. Why are you not? Like, if the CEO can commit code to production in a very sensitive data platform that has all these security requirements, you should be able to do that too, you being any manager, anyone in the organization.
+
+So I started pushing everyone very hard, and we started making leaderboards in q four. And at the beginning of, I say, January, February when we kicked off the year, we were already full swing. Everybody was using this stuff, we're pushing, and we're managing this. But, you know, the whole token maxing thing was happening around, you know, February, March period, already it was happening. So, yeah, we just had the luck of being, like, maybe a few quarters ahead of folks to see what what was happening here, and it was getting out of hand.
+
+So we already had a gateway. So it's called Unity Gateway where we were already this gateway was being used to provide token capacity. So you can get OpenAI, Anthropic, Gemini, Grok capacity. Yeah. Like, any customer can come to us, and we'll just provide them that capacity because we have relationship with those, and any open source model.
+
+So we started putting in budget constraints in place and giving people warnings. Like, okay. You you have this much of your budget left. You're getting close to your kind of ceiling. So we started doing that per person and for group, and then we started doing great analytics so we could predict exactly where the costs were going.
+
+Then yeah. And then we added smart routers that could actually pick cheaper models if you're getting close to your budget or if, you know, you have simple questions, we started doing that. We also built a harness called OmniGen, which can multiplex between the different harnesses. Turns out, actually, the harness itself matters. Like, if you use the same model but different harnesses, there's almost two x different cost difference.
+
+Even exactly same model. Yep. You know, same version but different harness, you get two x difference in actual cost. So if you can change harness, you you can get a lot of leverage in the cost. So we started using all of this.
+
+That way, we were able to actually bend the curve, and, actually, our cost for AI has been basically the tokens have continued to go up, but the costs have been sort of stagnant. So that's been actually super, super important for us, and there's a huge demand for this. I think every organization is going through this now. Yeah. I for the first time and I I do a lot of board meetings.
+
+I'm on 20 something boards. For the first time ever, a company at scale last week said that they're moving from the frontier models to GLM. This is a large engineering organization. Do you see this? Do you think that that's a trend, or do think that's just like a one off anecdote?
+
+Because I've been hearing about I remember the first DeepSeek moment and like, NVIDIA Socket, and then that turned out to not be real. And then the Kimmy moment, then the next DeepSeek moment, none of it seems to have actually had an appreciable impact on the market. But now the amount of anecdotes that I have are pretty real and that seems to be happening. Yeah. Love your view.
+
+I mean, I think people want both. They want, you know, they want the latest model that's super intelligent for the difficult task where they get ROI. Yeah. But then there's a lot of mundane dumb things. Like, you know, you people literally use their harness to rename files and whatnot.
+
+Yeah. You know? Like, it's Yeah. You're paying, you know, orders of magnitude more for that. Please type that in yourself.
+
+Don't have the model do that. It's gonna spin for five minutes, and then it's gonna rename the file for you and cost you, you know, cents. But I guess what people I'm just wondering, do you actually see Mark's moving on No. People are moving on it, but what they're doing is that, you know, the pattern is either use you know, you you can you can use this expert pattern where you have, you know, small, cheaper open source model that uses an expert model, the big ones, or vice versa, or a way in which they can sort of ping pong them to each other. But also multiplexing harnesses and just changing harnesses so that you can control the costs is also what people are doing.
+
+You know, people have found, for instance, you know, there's Pi is very efficient when it comes to as a harness. Yeah. So, yeah, I I think there's gonna be a multitude of these. It's easy to the models themselves are sarcastic, as you said. Every time, they give a different answer.
+
+Yeah. And they're changing so much. Yeah. So there's just a lot of experimentation happening. So I think we're gonna get to a world where you're not always using the smartest model for everything, which is kind of the Yeah.
+
+Been the paradigm for the last couple years. Yeah. Like, new model comes out. It's super smart. They use it for everything, even really, really simple mundane tasks.
+
+Yeah. I'll tell you what I I I see. I see people using Fable and Astra for, like, architecture Uh-huh. A cheap model for implementation, and then Fable or Astra for audit. Yeah.
+
+Like, that seems to be like this emerging What are guys seeing in the startups? I mean, aren't they That's it. That's like that's the that's honestly the the pattern that How much open source? By token or by dollar? Either.
+
+So by dollar, open source is like 5%. It's very little, but by token count, it's over 60%. Yeah. I was gonna say I mean, we talked to, let's say, a Decagon or something like that. They well, I think it's different internal use versus external external for product, I think they're almost up to 90% open source.
+
+On the internal, and I don't wanna say for Dan Gon in particular, but a lot of them are like, we don't care. We'll just use Frontier. We're not thinking about cost control. But as it gets bigger Yeah. Right?
+
+You and I were in another board meeting where they actually did bring that down. Yep. Just from a waste perspective. Yeah. So I definitely see that moving more toward open source on the product side.
+
+And, actually, that's a Yeah. Related to another question maybe around open source, but post training specifically. I feel like you were kinda early. I remember talking to you in 2023. Yep.
+
+When did you buy Mosaic? 2023. 2023. Summer. So this vision that you had in '23 kinda came true in 2026.
+
+I don't know if you guys would agree. Right? Like, that's sort of what we're hearing across, you know, of course oh, just sort of like, hey. We're going to actually you're gonna own your own intelligence. Alright.
+
+Yeah. You're gonna be, you know, post ready to open source models, etcetera. And that's definitely what the startups are doing. Yeah. I don't know if that's what the enterprises are doing yet, but, I like mean, do you feel like you were early to that?
+
+Or Yeah. I mean, first of all, you know, there was when we started, it was also, hey. We're also pretrained in for you, which that's that doesn't make any sense. You know, you can they're so they're very good pretrained model now that you can use. Right.
+
+But that you can do actually post training on the model, and you can do reinforcement learning. Yeah. We're actually doing it at scale. And many of those startups are actually customers, so we actually help them re you know, using RLE or reinforcement learning environments where we can make the models very, very good at the specific tasks that they are doing. It makes a lot of sense for them to do that.
+
+If you have a repetitive task, so if have a startup, and it's offering a product, and that product does something specific, it's not just a general intelligence. It does something specific for you. It makes just a lot of sense to take a really good open source model, and, you know, use reinforcement learning and make it really good at that specific task. You can cut the cost down. You can make it really fast.
+
+You know, they control their own IP. So in that sense, that is possible. But large enterprises, they just need basic automation. Mhmm. And it's just too much for them to do this right now.
+
+Yeah. I think one of the challenges is, you know, you need good evals. Totally. And making good evals is hard. So while the startups can do that and they're motivated to do that, other organizations, the easy button might be just to use a frontier model than having to create your own evals.
+
+We actually generated even, you know, evals for the customer automatically in the product, and we had it front and center. But then people want didn't wanna use it. So we said, okay. Let's move it to the back end so that it's optional, and then they would never go to it. So I would say in general, the Why?
+
+They just don't wanna get into it. It's too complicated? Or I think you want quick Mhmm. Yeah. Yeah.
+
+That makes sense. Reinforcement of, like, you know, hey. There's a new model. I wanna try this out. I wanna get this problem solved.
+
+You don't have time to go do this, the scientific method of let's make an eval. Let's have a great baseline. And it's sort of like TDD, test driven development. Mhmm. You know, in software engineering, did people actually do test driven development?
+
+Very few did. Right? Everyone said it's the right way to do it, but nobody actually practiced it. So that's the same. That that's kind of a little bit of the curse of, you know, doing training your own model is the evals is the hard part.
+
+I know you you have an NFD model at Databricks. That's very popular word right now or acronym. But does it like, to get these at enterprises that large, is it a full FD model that's required? Or, like, how how do you and how's that evolved maybe? Yeah.
+
+Yeah. I mean, we we've had these FTEs, and it's the demand for it's gone up significantly. A lot of it is, you know, how do we build that ontology? Like, the ontology is automatic, but if you're not collecting any information, like, you're not recording anything Right. So that's one of the key things that we do.
+
+But also things like, you know, I wanna build an agent. I wanna put it on you know, I I want it to be customer facing, and it's to have really low latency, and I want it to have guardrails to not people coming to abuse it or ask it things that we don't want it to answer and so on. So we can build that, like, you know, like sports AI that Fox has. You can go chat with it about sport events. You can try to ask it actually about politics, and it's very good at rejecting you and moving and talking about sports instead.
+
+So so the FDA has built that. Wow. So, you know, we'll help the organizations actually get started with AI. It is important Yep. Because it's just many organizations do not have the in house expertise to build this stuff.
+
+So they need just a little bit of help on the side, and then they get started. So Yeah. Makes sense. So this is more related on the agent side, but I saw recently that I think a third party neutral third party, I think, did some tests that late base or Neon was actually the data the Postgres database of choice for agents. And I thought that was interesting.
+
+One, because, you know, what exciting Databricks. But two, I probably wouldn't have guessed that maybe a year ago. Surprise for sure. Surprise. Just because there's others out there that have, you know, great developer momentum as well, but it was pretty clearly number one.
+
+And so I'm curious, how did you guys crack this? And what what makes you win across the agents? Because if you win the agents now, you win the market. Yeah. I mean, I think a lot of credits should go to Neon and Nikita and team.
+
+And I think what they've done is they've just been obsessive about how do you make the models how do you make the models pick and agents favor Lakebase or Neon as a database? So what do they do? The agents wanna experiment. You know, they're going off. They're trying to build a little bit of software.
+
+They need the database, so they need the database to come up quickly. So they had this obsession that everything should take less than a you know, far less than a second. So, you know, database comes up in far less than a second. You can clone gigantic database. It's like kind of a petabyte database.
+
+You can clone it in less than a second. You know? So it's like highly elastic, highly responsive, and then they built this killer feature called branching. So branching just lets you branch the database, you can have many, many branches over the same database. And they just made this very, very lightweight.
+
+We saw this with other things with agents. Right? Like UV, you know, ripgrep, like, basically reimplementation of a lot of the tools on Unix, making them really, really blazing fast and lightweight Mhmm. And also sort of fail safe for agents. They've just did this to a harder problem, which is database.
+
+Right. So, like, now you have a Postgres database, and the Postgres database has all these advantages that it's really fast, it's nimble, it's fail safe. You can, you know, go back to snapshots. You can do those things. So I think that's why it's it's just easier for the agents to use this.
+
+They also made sure that it had a pricing model that was you don't want just because the agents are building some software and experiment, you don't want the costs to run up. Yep. You're okay paying for your database if it's, like, production use and lots of people are using it, but just experiment. So I think they were just obsessed. They were not trying to win the database war or try to be better than some other vendor.
+
+They were obsessed with how are we the best for the agents. Mhmm. That's a new persona because in databases, the obsession has been how do we help DBAs? How do we help app devs? How do we help help the people that are using the database?
+
+Yeah. Exactly. They changed the game and said, hey. How do we focus on agents and help agents get the best database they want? And, you know, now over 90% of their the databases that are created on Neon and, like, Base are actually created by agents, so it's not even humans.
+
+So, you know, numbers speak for themselves. They're By the it's it's remarkable. So I've started to use Neon as, like, my standard database, and it was bizarre to me because, like, normally when you enter a large company, things slow down, it's actually, like, the products got materially better. Yeah. Are they totally independent?
+
+Do they work with the rest of the like, how No. The the it's a great team. Mean, they work very closely together. You know, we love databases and data, so it's it's you know, we live that. But no, the team does a great job of just making super fast, snappy, and great for agents.
+
+Alright. Ali, what is your PDOM? Less than 10%. No. Close to zero.
+
+What about yours? I I don't know. I have say my my my only answer is my p doom without AI is much higher than my p doom with AI. How's that? Wow.
+
+That's a dumb one. I'm really sorry. I went on a technical with Ali on this one. Yep. Okay.
+
+For listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a sixteen z dot Substack dot com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

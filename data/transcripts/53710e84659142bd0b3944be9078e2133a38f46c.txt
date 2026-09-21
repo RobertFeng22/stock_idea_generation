@@ -1,0 +1,469 @@
+Sometimes that one thing you've been putting off becomes the thing that can change your life. Whether it's earning a master's degree, building leadership skills, or preparing to take your career in a new direction, Southern New Hampshire University can help. With a flexible online graduate programs designed for working professionals, SNHU makes it possible to earn your degree while balancing your busy life. So stop putting off your education. Start today at snhu.edu/nyt.
+
+This is actually really big. Do you know what I did ahead of our final episode? I'm actually I have to say, I'm actually quite proud about this. What'd you do? I finished reading your book.
+
+Wow. And I really loved it. The AGI Chronicles, it's very fast moving. It's fun to read. It's and and something that I really liked, it was gossipy and juicy and bitchy in a way that these business books almost never are.
+
+And I don't of course, I don't wanna take any credit for anything that you did, but I would like to think that just a little bit of me rubbed off on you. Although the truth is you were actually always been very gossip ever since I met you. I know. Yeah. Well, I did not set out to write a juicy gossip book.
+
+I it was supposed to be like a sober history of science. And then you start talking to these people, and they're the biggest gossips in the world. And they all hate each other, and there's so much drama. And I felt like I was freaking, you know, Harvey Levin on TMZ just sitting there scribbling all of this down. It's very honestly very hard to write a sober history about people who are on mushrooms all the time.
+
+It's just that's just not really gonna happen. Hey. Let's be fair. They also do ketamine. Yeah.
+
+Okay. I'm sorry. Not to leave out the k enjoyers out there. Well, thank you for for reading the book. I did not ask you to do that.
+
+I frankly did not expect you to do that. I know it's been many years since you've read a book probably since Harry Potter, the last Harry Potter came out. But I'm I'm honored. I'm touched. I'm so glad you like it.
+
+It was great. I can't I we were talking about books recently, and I mentioned that I was reading your book, and I mentioned some, you know, future book that I might read. And you stopped me and you said, Casey, my book is the last book you're ever going to read. And I thought, well, we didn't have something there. I'm Kevin Roose, a tech columnist at The New York Times.
+
+I'm Casey Newn from Platformer. And this is hard for This week. Why everyone is talking about AI safety. And then for our final episode, we'll answer all your questions about the show and what we're doing next. I was thinking about getting lunch.
+
+Let's do it. Well, Casey, we picked a hell of a week to take off last week. Boy, did we. And thanks to all the listeners who wrote in asking us how dare we take any time away during a very busy and important time in the world of technology. Yeah.
+
+And to those listeners, we have one message, which is this is our last show. We heard you. We hear your frustrations, and so we are stepping down in shame. One star Apple Podcast reviewers, your words have finally paid off. This will be the last you ever have to deal with the likes of us.
+
+So there has been just an enormous amount of news in AI over the past week or so. It seems like this conversation about AI doom, AI risk, existential threats from AI has really gone from sort of our bubble to a much larger bubble that includes politicians and just random people in my life who have been texting me asking things like, are we all gonna die for real? So let's talk about all of this. It has been one of the fastest, most sudden shifts I've ever experienced. Yes.
+
+And I hope if you're a long time hard fork listener, you've been feeling somewhat vindicated over the past few weeks because I know Kevin and I have. Right? Like, we have been trying to bring you stories about this almost ever since we started the show nearly four years ago. And just within the past couple of weeks, it seems like there was some kind of inflection point and the vibe has shifted toward AI safety. Totally.
+
+So let's talk about what has been going on and what we feel about it. But first, since this is a conversation about AI, let's do our disclosures one last time. For old time's sake. Kevin? For the next forty eight hours, I work for the New York Times, which is suing OpenAI, Microsoft, and Perplexity.
+
+And my fiance works at Anthropic. Okay. So let's kind of do a speed run through the AI news of the last two weeks. The first sort of domino that I think really started to fall here was the now viral resignation posts of Jacob Coxen, a former researcher at Anthropic and OpenAI, who went online last week and publicly announced that he was stepping down, saying that neither company, OpenAI or Anthropic, is acting responsibly. They are racing straight to self improving superintelligence and gambling with our lives.
+
+This kicked off a firestorm of tension, follow on posts from other AI insiders saying we agree with him, people piling on and saying this guy is crazy. But people basically, from what I saw, were saying, yeah. This is what we've all been talking about for years now. And in one group chat of Anthropic employees seen by the New York Times, one employee wrote that Jacob took the group chat public, and that's a good thing. Yeah.
+
+I mean, it was so fascinating to watch his response. And I have to tell you, this was a moment where I felt like, oh, no. I really am in a bubble in a bad way because when I read his post, it did not phase me. Like, this like, what Jacob said, as important as it is, is also like the median dinner table conversation in many households across San Francisco, including mine on many evenings. And so when I first saw it, I was like, oh, okay.
+
+He's decided to opt out. What I didn't count on, I think, Kevin, was that the response to that OpenAI hugging face incident has really gotten people thinking differently about these sort of things. And so I think people are just much more prepared to receive this message today than they were even a few weeks ago. Totally. And I had the same realization about the bubble that we live in here in the Bay Area when I saw a follow-up post from, one of Jacob Coxen's former coworkers at Anthropic, Evan Hubinger, who sort of, you know, quote tweeted his post and said, I also believe that AI could kill all humans, and he attached a specific probability to it.
+
+He said, I think there's a greater than ten percent chance that this could happen. And my reaction to that was, that's it. Like, for me in the world that we travel in, people who have a p doom of ten percent are considered somewhat optimistic. Like, the AI researchers at the labs that I've been talking to and interviewing, people have much higher probabilities that all this could go badly. And yet that number seemed to register on a scale that I have not fully appreciated.
+
+People are saying, wait a minute. These people are racing to build something that they think could have a ten percent or more chance of killing us all. Mhmm. Why are they doing that? They should stop doing that.
+
+Yeah. And I think maybe it's worth pausing for a beat, Kevin, on some of the logic here, not just in Jacob's post, but in some of the follow on posts that you mentioned. Because I think if maybe you just saw that post and didn't dig any deeper, you might be inclined to dismiss this as just more AI doom from a bunch of cultists. But I mentioned that OpenAI hugging face attack a little bit ago, and I think it's really important here because as you heard Ajay Okotra say on a recent episode, there was something surprising about how misaligned these AI systems are even in their current state, which the researchers still see even today as somewhat primitive compared to where we think they are going to be in six months or a year. Right?
+
+And what I heard at JSA was, look. We sort of assume we would start to see this kind this kind of, like, scary collaboration between agents sacrificing themselves from each other. We thought that might come, but we thought it was going to come much later. So that's sort of, like, pillar one, I think, of what's going on here. Pillar two is all of the big labs, including OpenAI and Anthropic, they are racing toward recursive self improvement.
+
+And they're putting out posts that are trying to say in a very gentle way, the new models look like they're kind of getting there. We're already using these models to build the next version of the models. Like, if you believe that recursive self improvement is a spectrum, we're kind of getting ever closer to, like, the genuine article. And so if you have this unsolved alignment problem and you have imminent recursive self improvement, then you might actually have a problem. And so I think it totally makes sense that some people would quit over it.
+
+Totally. And I think the the vibe has also shifted inside these companies where, like, until maybe three or four months ago, there were teams at these companies of safety researchers, alignment researchers who were very worried about the risks. But there were also teams that were not as worried about the risks. There were teams that just worked on improving the capabilities of the models or researching new breakthroughs who were sort of, like, at odds with the safety researchers even in their own companies. And what I think we've seen over the past few weeks is that that has shifted, where now even the people who are sort of the optimists, the accelerationists inside these companies, the people working on capabilities are getting spooked by how quickly the systems are improving.
+
+Absolutely. Now, should we talk about the reaction from the leaders at the big labs in the wake of all of these discussions that were kicked off? Yes. So on Saturday, Anthropix CEO, Dario Amadeh, released a 3,800 word essay called we must pace the frontier, where he called for essentially a global coordinated AI slowdown. I'll just read a few lines.
+
+He says, we must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain. He proposes a few different ways to actually conduct this sort of coordinated slowdown. One of them is to put what he called embedded evaluators inside the major AI companies. He said that Anthropic was going to do this and not wait for the rest of the industry or regulators to force them to.
+
+So they are going to have essentially meter like groups who are actually given employee level access to their internal systems who can kind of sit in their office and monitor their systems on an ongoing basis for signs of dangerous capabilities or mischief in in the models. Yeah. And this is based on something that we already do at banks, for example, and I think it is a great idea. And notably, other leaders came forward and and said that essentially they were going to follow suit. And among them was Sam Altman from OpenAI who famously does not have a good relationship with Dario Amade.
+
+No. These dudes hate each other. They never agree on anything. And yet Altman, his credit, came out and said, we are gonna do the same thing. Yes.
+
+This to me was the the part that felt like, oh, we are in a new era of this stuff when, like, even Sam and Dario can agree on the need for a coordinated global slowdown. You know that things have gotten quite serious. Yep. But also Elon Musk who is, you know, engaged in a protracted legal battle with OpenAI and who does not, you know, have a great history with Dario and Anthropic either. And also, would just say he's not a big platform safety guy in general.
+
+Yeah. Right. He also sort of cosigned Dario's statement. Dennis Esabas from Google DeepMind said that he agreed with the need for a coordinated global slowdown too. So what what we saw essentially is all the leaders of the sort of frontier or frontier ish AI companies coming together to say in more or less unison, things are moving too fast.
+
+We need to slow down. And we not only need to slow down ourselves, but we need to be slowed down. Some government or coalition of governments needs to put in place coordination mechanism whereby we can sort of all press the big red button to slow down together. Yes. Now, unfortunately, though, we live at a time when for very understandable reasons, no one trusts the tech companies to have our best interests at heart.
+
+Everyone suspects them of doing constant marketing hype. And we have a government that is relying on the AI industry to prop up the entire American economy. And so the world that I hoped that we might have lived in, which is much bunch of lawmakers coming forward and saying, hey, guys. Thanks for sounding these alarms. We're gonna get right to work on some regulations that will prevent you from building an out of control AI system.
+
+Instead, we got a bunch of leaders starting with president Trump who essentially said, all of this is ridiculous. So, yes, the Trump administration and many leading Republicans are very skeptical of all this doom talk, but there have been people who have rallied to try to do some sort of regulation in the wake of these statements. Politico reported that there are more than a 100 Democrats urging Republican house leaders to keep them in session until they pass some meaningful bipartisan AI safeguards. There are other members of congress, including some republicans who have been taking this quite seriously. So I don't think it's quite as polarized as as you're implying that it is.
+
+But you're right. It is generally Democrats who are more worried about the AI safety concerns and Republicans in the Trump orbit who are less concerned about it. Yeah. And the Times had a great story this week about all of the proposals to regulate that have been introduced into congress. Right?
+
+It it is the case that members of congress are introducing bills. It's just also the case that we have a congress that very rarely if ever passes any sort of technology related regulation. And when the president has already sort of come out and said, we don't need any of this, the odds of a veto seem quite high. Yeah. So now we're in this moment where you have the AI company leaders calling for a coordinated slowdown.
+
+The public is really freaked out about this. I mean, you know, just to take, you know, my own experience as a proxy, like, I have been just inundated with, you know, requests to go on TV and radio and friends and relatives and people I worked with two jobs texting me and saying like, what is going on here? Should we be worried? I I I do think this has broken through in a way that other kind of AI risk stories have not. Even the hugging face incident on its own did not seem to reach this level of concern.
+
+So it feels like something is swelling here, and I think it's going to be tough for president Trump and people in his orbit to maintain that there is nothing to worry about here when so much of the country, including many Republican voters, are concerned. Yeah. From the administration that brought you don't worry about COVID nineteen comes don't worry about the rogue agent swarms. Oh, I wonder what happens next, Kevin. So, Casey, what do you think about this moment?
+
+Are you sort of skeptical? Are you feeling more optimistic now that people are talking about this more? Like, where has your head been in the week since Jacob Cox who resigned? Well, listen. If you're, you know, a journalist who has opinions online, one of the best things that can happen to you is that you say something many years ago, and then eventually the rest of the world starts to agree with you.
+
+And this is sort of what I think is happening right now. Right? We have been talking for years about the fact that these systems were developing very quickly, that the alignment problem was unsolved, and that eventually we might just get to some threshold where we started to see catastrophes in the real world. As we've said before, we are very lucky that this hugging face attack that has so captivated the world ultimately did not result in a lot of, like, harm. Or it didn't didn't, like, physically harm anyone, and I think hugging face the company is, you know, gonna be perfectly fine, But it did start to wake people up to so many of the dangers that we are describing.
+
+So I think the question is, are we able to get from this current moment to some real safeguards here in The United States, or will it just unfortunately take something even worse happening to finally get the the the elected officials of this country to get a law passed? I have to say, I have been feeling unexpectedly optimistic Mhmm. In the last couple of weeks. Like, think around the time of the hugging face hack, my my worry about AI was really climbing. Like, I was really feeling like we might be screwed.
+
+It might be too late to rein in these, you know, recursively self improving agent swarms that are going out and creating these persistent botnets and doing all kinds of malicious things. And I'm still worried about that, but I think this sort of call for a slowdown, especially among these rival AI leaders who, you know, most of the time do not like each other and agree with each other on much and are racing to build this technology. I think the fact that they are now willing to say in public what many of them have been saying in private for years is a good thing. I think it gives the permission for their own employees to start speaking out about their concerns. I also think it gives lawmakers permission to take this more seriously because it is rare that an industry comes to Washington and says, please slow us down.
+
+We are out of control. We need you to regulate us before it is too late. I really wanna draw people's attention to that because this gets at the marketing hype conversation, which is just constant everywhere I look online. It is costing these people something to say this. Right?
+
+It is costing their companies money potentially to not be able to release these models at the cadence that they otherwise could. Right? They maybe they they do get all the way to RSI and everything is fine. Right? Like, these people are just sort of making a bet that it will go badly and they are asking for help.
+
+And, you know, so much of the moment that we're living is just informed by the the social media era and and how badly everyone feels about it even today. And I think they're sort of applying the frame of, like, what a social media leader would say about this and, like, how we should trust them. And I really think people just need to start shifting their thinking. Right? Because there was never a moment at at Facebook when they're when they were saying, you have to slow us down with these recommendation algorithms because we're getting people too addicted.
+
+Right? It just never happened. That obviously would have had a cost to them. I'm just telling you, this has a cost to these companies too. It does.
+
+And I am I am heartened that the sort of it's all marketing hype conversation, while it is still out there, I I'm not hearing as much of it around this because I think it is just obvious to most people that there is no self interest in calling for your own company and all of your rivals to slow down. Well, let me ask you about another argument that gets made, and, Mark Zuckerberg did a post several days after everyone else, you know, where where he sort of weighed in on this. And one of the things that he said was, like, look. We already have product liability laws in this country, and that should be enough to truly rein us in. Right?
+
+If, like, we release an agent swarm and it, I don't know, destroys your business, we'll get in trouble. And so that is the reason why you should expect us to, you know, pace ourselves. I would find that argument much more convincing if it came from literally anyone other than Mark Zuckerberg who has unleashed harmful technology on the world for decades despite the fact that there are product liability laws, despite the fact that Meta itself has been successfully sued for billions of dollars for causing harm with its products. In that case, it does not appear to have reined them in or made them more cautious about releasing anything. So I would just say, like, not the right messenger even if I I think the message itself has some merit.
+
+But I also think like it is just unrealistic to think that our existing product liability laws, that our existing consumer protection laws are capable of meeting this moment. Yeah. Like, we really do need new laws. We have not ever had any technology like this before that is capable of acting autonomously, of committing crimes potentially on its own with no human intervention. And I'm just struggling to see how we're gonna kind of crowbar our existing legal frameworks to cover this new technology.
+
+Yep. That makes sense to me. I think the thing that is most, like, affecting me that I've been coming back to and and, you know, frankly, maybe this is hopium. Like, I'm not sure whether I'm just looking for reasons to be optimistic. But to me, this past week or two really does feel like the part in the movie where humanity kind of bands together to save itself.
+
+Mhmm. Right? You have these sort of weird alliances, these these unlikely sort of common cause situations with the major AI labs coming out and saying, actually, we're gonna put the public interest and humanity's future above our own bottom lines. Like in the movie Armageddon where and I'm not actually gonna go look up the the synopsis of Armageddon, and I haven't seen it in about thirty years. But what I remember is they say, we are going to go land on that asteroid that's coming toward the Earth, and we're gonna blow it up with a nuclear weapon even if Bruce Willis might die in the process.
+
+Exactly. Spoilers for Armageddon. So this is this is roughly where I feel we might be. Like, we might have this kind of golden opportunity now. This window where people are open to talking about existential risk from AI, like that has now moved firmly inside the Overton window.
+
+And I think there is a willingness to tackle this, and it hasn't yet fully polarized. I'm sure it will. Like, I'm sure this will sort of be sorted into the narrow partisan lanes that we sort everything into. But right now, like the past week or two, it just feels like people are more open to debate and discussion. And that's good.
+
+Like, this technology should not be developed in secret by a very small group of people in San Francisco. Like, this is too powerful and too important to be left to the insiders. We actually do need more of a collective effort around this. Let me toss one last idea in here, which is maybe for some reason, you just completely trust OpenAI to get this right. And you trust Anthropic, and you trust Meta, and you trust x AI, and all of the other American companies.
+
+You think that they're gonna do a great job pacing themselves. Something that I think people forget too much about large language models is that everyone has the recipe. Everyone knows how to build a large language model. Now that doesn't necessarily mean you can afford to build a frontier model. You might not have the compute.
+
+You might not have the chips. But over time, it's becoming easier and easier and cheaper and cheaper to train these models. And so my question is, when you look at the OpenAI hugging face attack and you assume that before long, some random collection of six or seven knuckleheads in some random country can get together their own sort of rogue agent swarm and actually keep control over it and send it out into the world to do harm. Why why are you trusting them? Right?
+
+And why are you trusting that they will eventually stop before they get to recursive self improvement? Right? So you can't just think of this as an American problem because the cat is out of the bat. This is not just like Apple, and only Apple knows how to make an iPhone. Other people know how to make this stuff too, and they are making it right now.
+
+Yes. And I think this is why it's so important to act now. While there are only a handful of organizations that have the resources and the expertise and the trade secrets to build the most advanced versions of these models. Like, you actually want there to be a coordinated action when there are only five sort of quasi frontier labs rather than having this technology be open and distributed to everyone and available to anyone with a PC. So I think that's the argument for acting now.
+
+Know there are some people who wanna wait until there's something truly catastrophic that happens or who think we might be, you know, firing our warning shots too early. But in my view, like this is when it matters because if you act now when this technology is still quite scarce and the expertise and the resources to build it are quite scarce, you can actually set the standards for the future. And you can prevent there from being widespread distributed mass harms down the road. Let me ask you another criticism that gets made, which is that this is the frontier labs that are trying to close the frontier. They're going to the government, and they're saying, put really onerous regulations on us now that no startup could possibly achieve, and that way it will ensure that only we are allowed to build this technology and profit from it.
+
+Yeah. I don't really buy this because if you actually look at some of the proposals that these organizations have made for new regulation, they would only apply to the the organizations at the frontier or above a certain size. They're not going to stop the student hobbyists and tinkerers from training large language models down the road. And I think that kind of caution and discernment is important in these regulations. Like, I don't think there's anything wrong with starting the regulatory push with the big companies.
+
+You know, if you're regulating the safety standards for airlines, you wanna start with the major airlines before you get down to the people building prop planes in their garages because that is what most people use to travel through the air, and that is where the safety standards matter most. I think it's a great point. I think this is basically a fake criticism. I think it sounds really good because you sort of sound like the most, like, red blooded capitalist American when you make this point. But in practice, most Internet businesses are winner take most businesses.
+
+Like, most of these industries do not have more than four or five big players. So if think that there were gonna be, like, 17 companies that look like OpenAI, that is just, like, completely ahistorical. Totally. Yeah. Well, I'm glad this wound up being our final a segment, Kevin, because I do feel like so many of the themes that we've talked about for the past four years all come together on this particular story.
+
+It is a momentous time, and there will be many big stories to come. But if you take nothing else away from this conversation, it's if we tell you that something is important, three years from now, people will start to agree with us. Except the metaverse. You can ignore us on that one. But the rest of it, all true.
+
+The metaverse did not have legs. When we come back, we'll take one more spin through the mailbag. It's time for our ask us anything. I think I also found an Amazon package in here. Sometimes that one thing you've been putting off becomes the thing that can change your life, Whether it's earning a master's degree, building leadership skills, or preparing to take your career in a new direction, Southern New Hampshire University can help.
+
+With a flexible online graduate programs designed for working professionals, SNHU makes it possible to earn your degree while balancing your busy life. So stop putting off your education. Start today at snhu.edu/nyt. Running a small business means every hire matters, but finding great talent isn't easy. That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you so instead of sorting through applications, you spend your time talking to candidates who are actually a good fit.
+
+With Hiring Pro, you can hire with confidence knowing you're getting the best talent for your business. In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor. Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork. Terms and conditions apply.
+
+Ripple has been powering modern finance for a decade. It's not our first trip around the blockchain, and it won't be our last. We're leading the charge to bridge the gap between existing financial systems and the future of finance. You can have it all. Legacy, stability, and digital innovation.
+
+Systems that work with your other systems. Because with the right partner, the question isn't crypto or traditional finance. The question is simply, why choose? A new standard of modern finance. It's happening with Ripple.
+
+For informational purposes only, availability of products can vary and may be provided by different Ripple entities. Well, Casey, since this is our final episode of hard fork, we wanted to answer some questions from our beloved listeners and viewers. And you all sent in some great questions. We're excited to tackle them. Some are about the show.
+
+Some are about technology or AI. And we wanted to do this with our producer, Whitney Jones, who has been with the show since Whitney, how long have you been here? Two years, three years? Two and a half years. Two and half years.
+
+A long time. And so, Whitney, come on in and let us know what our listeners and viewers have sent in. They're turning the tables on us. Yeah. They're saying we're gonna do that question asking for once.
+
+Hello, Whitney. I'll be asking the questions here. You will be asking they will be asking the questions, and Whitney will be asking the questions. Yeah. So, yeah, let's get right into it.
+
+The the first question that is is some form of what's going on? What's next for you guys? What's happening to Hardfork in this feed? Well, I don't see how that's any of your business, but I'll answer it anyway. As for Kevin and I, we have a new show.
+
+It's called Machine Gods. We're doing it in partnership with NPR, and it is gonna launch next month, the week of October 19, and gonna be on the airwaves actually starting early next year. So we're really excited about it. We think if you like Hardfork, you may also like what we're doing over at Machine Gods. And if you want to get a taste, there is a trailer up now wherever you get your podcasts, and you can find links over at machinegods.fm.
+
+And as for what is coming for hard fork next, we know that hard fork is going to continue. My amazing colleagues at the New York Times will have some exciting tech and AI coverage coming to this feed soon. So stick around for that. We're very excited about that. We think it's gonna be great.
+
+And if you wanna keep hearing from the two of us, in the meantime, you can do that over at Machine Gods. We're starting a business, Casey. Yep. God help us. God help us.
+
+Machine gods help us. Okay. Next question is we got from listeners Scott and Karen, and they sent in a little audio message for us. I'm gonna play that now. Hey.
+
+I'm Scott. And I'm Karen. And we met at Hard Fork live this year. And much like us, you two have amazing chemistry. So our question is, how did you two meet?
+
+And how'd you decide to do a podcast together? We love you so much. Thank you for making our favorite podcast. It feels like the end of an era. Wow.
+
+Is that real? Did they meet at our live show and got together? Heartfork bringing people together. Assuming that what we think we just heard is true, that's wonderful news. Wonderful news.
+
+We will officiate the wedding. I'm just putting it out there. And that that is not an idle threat. Here here's another fun behind the scenes fact. Kevin has agreed to officiate my wedding next year.
+
+You haven't asked yet. Yes. I have. I asked you many months ago. I've been waiting.
+
+But I I accept. Well, let me answer the question as far as how Kevin and I met. You may know the notorious German club and bathhouse, Berghein. Kevin and I have never been there. Where we actually met was at a book party that our friend Evelyn threw for his book Young Money, and I remember being so annoyed that a man who was several years younger than me was already on his second book.
+
+But I found him very nice in person, and Kevin and I became friendly because, you know, the San Francisco tech reporting scene is just, pretty small. So we just, like, see each other at events and stuff. We would talk to each other a lot about career stuff. And so we were friendly, but what I always say was that pretty hard fork, Kevin was not somebody who I would call if I was having an emotional crisis. He was somebody who I would trust to give me career advice, but we were not in emotional crisis friendship territory.
+
+At this point, he's the first person I call when I have an emotional crisis. You gotta stop doing that. Yeah. Yeah. Yeah.
+
+Yeah. I mean, we decided to start a podcast in part because we had both done our own individual podcast. You had a podcast at the verge. I had done this show called rabbit hole at the New York Times. And we loved the audio medium.
+
+We thought it was so great for, like, connecting with an audience and telling stories and doing journalism. But something about doing it on our own just felt lonely. And so when we were talking about doing a show, we wanted to do it together. And we pitched the New York Times on this crazy idea where I would team up with this this, you know, rogue newsletter writer, Casey Newton, and we would talk about the tech news of the week. And they said, no.
+
+Thank you. But then Kara Swisher left her show, and there was an empty feed, and we swooped in and saved the day. Yeah. Many many things had to go right for me. I I feel like I had to get tremendously lucky for any of this to happen, and I truly am just so grateful that it did.
+
+Okay. Next up, Phoebe wants to know how do you decide on your opening anecdote slash bit? Do you think about it all week? Do you argue about who has a better one? So sometime I feel like if we're having a good week, we will write down little things, little peek behind the curtain.
+
+We call those the cold opens, little podcast lingo for you. And I wanna say that those were actually an invention of our first producer, Davis Land. He just, decided, when he was sort of putting the first show together that it would be good if you heard the two of us talking about something other than the main news of the week. And that, I think, sort of started this trend of, like, the show kind of starting with a laugh, which kind of did become kind of a signature element of it and was something that we really liked. Kevin, do you think about yours all week?
+
+I I do, actually. I have a little folder in my notes app where I keep my little sort of jots of ideas. And often I will, like, not say something to you on a Saturday because I know that when Wednesday comes around, like, I wanna save it for the cold open. And these are not, like, scripted. They're just like things that happen to me that I would otherwise write in my, you know, journal or tell to my wife or someone, but instead I save them for you.
+
+And I think they actually serve a useful purpose in making the show, which is because they are completely unscripted. It just we we and we do start every episode by recording them. It just puts us in the mindset of two friends who are talking to each other, which is who we always want to sound like when we are making the show. That we we started the show because we were already talking about the stuff. We wanna do it on in front of microphones and for some other reasons.
+
+But when we start with the cold opens, it just kind of helps get us in that mindset. Right. And a little more behind the scenes on that. We usually record, like, I don't know, ten minutes, fifteen minutes of those, and then our wonderful producers select the the funniest ones or the the least unfunniest ones. I was about to say, there is almost because one of the questions is, do you ever argue about who has a better one?
+
+There's almost never more than one usable one. Every once in a while, there are two. And in those cases, I truly just almost always just do whatever the producers think is funnier. Yes. Yeah.
+
+Next up, Philip. Philip teaches an undergraduate course on podcasting at a small liberal arts college in South Carolina and wants to know what advice would you give to undergraduate students who are about to begin a podcasting course. What's something really important about quality podcasting that's also probably the least well understood or unknown? I have a strong point of view on this, which is that the most important thing about a podcast is the way it makes you feel. And this is not how most news organizations approach podcasting, I would say.
+
+They they approach it from this sort of very journalism first perspective That leads to a lot of really great podcast, by the way, and I do think that there is more than one way to to make a great podcast. But I just noticed that with the podcast that I was listening to, the thing that I was responding to was often less the content of the podcast and more the way I felt afterwards. Were did I feel like the two people or the three people or the one person who was talking to me was trying to entertain me? Were they taking me into an account? Did they seem like they themselves were having a good time?
+
+And if I left having a good time, then I wanted to keep coming back. And so that is just the spirit that I have tried to bring into what we do here at Hard Fork. I think that's a great point. I would also add, like, I think editing is really important. People often talk about the show to us.
+
+They ask us, you know, how much of it is scripted? How much of it is planned? It is not scripted. It is not a a scripted show. We are really here having a conversation.
+
+But we do have wonderful producers and editors who then sort of chop off the the worst parts, the most boring parts, maybe a place where a conversation lags or slows down too much, repeats itself. There are many podcasts today that don't do any of that. Right? That just sort of they tape for an hour, they publish an hour. We have always felt like it is a valuable service and respectful of our listeners' time to not make you sit through, like, call it the bottom 10% of what we record.
+
+And so I think it's very important to actually partner with or be yourself a good editor who can go through and sort of find the places where things are slowing down or lagging and chop those up. Great point. Can I add something from a production perspective? Whenever I talk to students or young producers, I say like, kindness is really important. There's a lot of churn in the industry and you will often rely upon people you're working right now for future gigs and just being kind and, like, knowing being known as somebody who, like, works well with other people will go a long way.
+
+Absolutely. Liad asks, what are your favorite podcasts? So I am a big history guy. That's very dad coded of me. I like podcasts like the rest is history, hardcore history, things like that.
+
+That's sort of what I listen to in the car on a long drive just for pleasure. I'm also a tennis fan, so I listen to Served, a podcast by Andy Radek that is quite good. What about you? Well, yes. Something else I believe about podcasts is that your favorite podcast is usually about something that you care a lot about, but no one else in your life cares about.
+
+Right? The reason I don't listen to many tech podcasts is because everybody in my life is talking to me about tech at all times. You know what they're not talking to me about? Professional wrestling, which is why there are four pro wrestling podcasts in my At least. Yes.
+
+There are so many of them, and they make me feel connected to something that I otherwise would not be connected to. Some other ones I love, I'll tell you the the two podcasts that that sort of gave me the most inspiration as we were planning what hard fork would be were Pod Save America and Lost Culturistas. Shows are very much about the relationship between people and make you feel like you were hanging out with very cool, smart, funny people. So I just love those. I'm also an incredibly longtime listener to the Savage Lovecast.
+
+I think Dan Savage is just one of the absolute best in the business. Of course, I listen to Ezra Klein because you have to if you want to understand the world, and he's the greatest. And yeah. So those those are some. And then one more that I would mention, and this is like the show this is the show that is the least like Hardfork and yet the one that, like, in some ways I admire the most and that's search engine with PJ Vogt.
+
+Truly, the arrival of every new episode of search engine, like, is an event in my life. I stop everything, and I listen to it. They they're just doing such amazing work over there. Yep. Well, that's a great segue into the next question from Sheena who wants to know, what is the beef with Ezra Klein?
+
+Every time that you guys bring him up on your show, there's been some crack made about him. The last one I recall was about there being vodka bottles in his studio. Here here's the thing about Ezra Klein. He's the smartest person in the world. He's incredibly good looking.
+
+Yes. And he's a world class podcaster. And for all of those reasons, we must pretend to hate him. Yeah. Like, you know, like, like, the Onion used to do this bit where they took a, like, sort of pre presidency Joe Biden and tried to make him seem like he was this kind of, like, low key, like, grifter who was, like, always working on his Camaro, like, in the front of the White House.
+
+Like, Ezra actually is the coolest person in the world, like, the only way I can think about to talk about him is to actually just, like, turn him into a different character who all who always just sort of has vodka bottles lying around the studio. You know? But, you know He's also infuriatingly nice. I was yeah. Was gonna What is going on?
+
+We must stop him. No. There there is just so much inspiration you can take from that from that human being. So, yes, Ezra Ezra is the greatest. Yeah.
+
+But also horrible drunk. Horrible drunk. Peter wants to know how much of the show is scripted, and now he goes into all caps and says, and are your scripts in all caps like the ones for The Daily that Michael Barbaro sometimes shares by the way you project your voices? I'm inclined to think so. So the show is not scripted.
+
+We do not script anything. We do have these prep documents that we use to get ready for the show, and sometimes they'll that'll have things like, you know, facts and figures or quotes from a news story that we wanna make sure to hit. Our producers spend a lot of time putting those documents together. They are quite helpful, but we never read from them. We want it to feel like and to be an authentic conversation between people.
+
+And we do not use the all caps style that The Daily uses because that stresses me out too much. There was a big conversation when we were starting the show about whether we should use an outline or not. And we tried it without using an outline where it was just truly like the two of us talking about the week's big stories, and it was horrible. It was incredibly self indulgent. We missed a million different things that, like, we should have included in the segment.
+
+So then we would have to, like, go back and redo different parts. And so we found that what was best, not just, like, for us, but honestly, just for the listeners, was to work from an outline. So I like the outline format because you can do a lot of improvising within it. Right? Like I sort of know the main beats that we're hitting.
+
+Sometimes it'll make me like think of a joke. It'll make me think of a question. So we're like I I actually think of us as, maybe like way less scripted than some people think that we are, but, like, also more scripted than than others do. Right? Because, like, we do have a a very solid spine that our producers put together.
+
+We're not scripted, but we're structured. Yeah. Yeah. That's how I would put it. Absolutely.
+
+Mark from Ottawa wants to know, do you write your own jokes? Have NY Times staff do it or use AI? Yes. We have a team of joke writers, dozens of them just in the writer's room scripting our our jokes, which is why they're so consistently incredible. Now the the truth is that we don't actually write too many jokes.
+
+Every once in a while when I finish preparing for the podcast, like, we're doing a roundup segment, like a hat GPT or something, like, I will actually try to think of jokes that I wanna make. But most of it is just, like, happening in the room. Something I realized about myself in making the show, and you hear it in a lot of the interviews that we do, is that I get bored very easily. And the way that I make myself unboard is by trying to get Kevin to laugh. And so that is just where it came from from me was, like, trying to entertain myself while talking about material that otherwise might bore me.
+
+And, yeah. So that's that's why that happened. Yeah. And I'm happy to play the straight man in in more ways than one and let Casey be the jokester. One of the reasons that I was so excited to start a podcast with you, Casey, is that I knew that you, in addition to being a journalist, also had done improv comedy for a long time.
+
+And I think this is actually the advice that I would give to young podcasters is go into improv comedy and do that for, like, ten years before you start a podcast. Because it has been such an asset to our show that you are just incredibly quick on your feet and also have the kind of improv yes and energy where we're, like, building on each other's comments and jokes. And, like, it is just such good unexpected training for podcasting and interviewing and all the other things that we do on the show. So, no, we don't write our own jokes, but I would say we both come into it knowing that there are going to be opportunities for us to make jokes, and we think that's an important part of the show. Yeah.
+
+Well, that's very nice of you to say, Kevin. Thank you. Kevin is also incredibly funny. The laughs that you hear on the show are genuine. You know, the show is styled as a conversation between friends.
+
+Friends should make each other laugh or otherwise, what's the point? I've gotten in trouble with my wife on occasion for, like, doing bits around the house. And she's like, you've been spending too much time with Casey. Or like, is that, like, a a a, you know, something from the podcast this week? So it has unfortunately bled over into the rest of my why it's important to give men a podcast because if you just sort of give them a safe space to contain their bits, then you don't have to deal with their bits at home.
+
+So maybe think about that. That's true. There is one joke that I wrote into a script this year that may actually made it to the show. Oh, tell us a my it was my proudest moment of of the year. I it was about the it was when the government said they were going to investigate George Santos over his couchie betting.
+
+Mhmm. And I I wrote, it's always exactly the ones you expect. And it made it through outlining into the recording and then into the show. It was That is a great point that as the show went on, the producers did start writing jokes into the outlines, and often they would be very funny. And we did use some of their jokes on the show.
+
+So yeah. Barbara also has a question about the humor. She says, I'm struck by how your humor always lands well, she said. What I really wanna know is how often you joke in ways that doesn't land well, that stings or hurts or leaves one of you defensive, but but is edited out. Look.
+
+Our jokes do get edited out. We do go too far. There is a standards department here, and not everything we've ever said in our lives is in strict accordance with the New York Times standards desk. That said, I really do think you get you you do get to hear, like, 95% of it. Right?
+
+I think we've been given, you know, pretty pretty wide leeway here. Maybe well, you know, one of the things this question is getting at is we clown on each other a lot. I don't feel like you have ever clowned on me in a way that actually upset me because you're such a nice person that I just know you would never try to hurt me. But this feels like a good opportunity for me to ask you for the first time, have I ever hurt your feelings on accident? No.
+
+I like you know, there I I think we both take it very well, you know, and we both understand that, like, we are friends who love each other and would never purposefully hurt each other. And I think we're both good sports about it. So, like, when you make a joke about how I haven't filed a column in six weeks, I I I used to actually feel like I had to defend myself against that. I'd be like, no. I have filed much more recently than that.
+
+But now I'm just like, it's it's fine. It's a bit. I know that he loves me. And and, yeah, I think we have a shockingly low amount of conflict for people who work as closely together as we do. You know, one thing that we are always getting asked by listeners to the show is, like, are you guys really friends?
+
+Like, when the microphones are off. And we are. Like, that is a a true asset of the show is that we actually are friends and like each other and talk to each other outside the show. I don't think that is true for every show. This was the surprise for me because I just assumed if you've been doing a show with somebody for a long time, like, there must be a good relationship.
+
+But then we would hear the stories of, like, oh, well, know, they they haven't they haven't spoken in six years. Right. And so we we just sort of folded this into act now. So that when we go around, like, we will tell people this that this is the first time that we're speaking off mic in several years. Yeah.
+
+Always gets a laugh. But we are, like, we are good at managing conflicts. We do have conflicts. They sometimes happen behind the scenes. I think you are very conflict averse I am.
+
+And easygoing. I am much more of like an anxious perfectionist. We have had conflicts over editorial things on the show, times where, you know, I think there was one conflict where you felt like I was taking on too much of the talking and not sort of throwing to you enough. Like, I remember we hashed it out over lunch. Like, I think we've been very good and mature about, like, bringing things up before they sort of fester and turn into a bigger thing.
+
+A great gift that I have is that that is that Kevin has been to therapy and so have I. And so, like, he just did a lot of the work before we started the show, and it has just made everything about our lives. Like, we are just actually practiced at being, like, adult humans who can be in conflict with each other and and successfully navigate to a resolution. Like, if we had started this show in our twenties, I think Nightmare City. Yep.
+
+Totally. We did the work, and now we're doing the work. Well, this brings up, Jay Allen Holmes' question, which is what do you two disagree about most off the podcast? There's a real answer to this question. I'm curious if Kevin wants to talk about it.
+
+Well, let me start with something more sort of immediate, which is that you made fun of my music once, and it really hit me. We were in the car on our way back from some event, and I put on my island time playlist of sort of like light calypso vacation music. That's right. And Casey just starts cracking up in the car and says, this is certainly music or something to that effect. It was like, you know, it's like I've been spending the past several years with mister AGI Cyborg, and then he gets into his car and all of a sudden he's Jimmy Buffett.
+
+And I was just like, oh, I didn't know that was the vibe. I thought it was delightful. It was very sweet. It was the single most heterosexual moment you've had in our long friendship, and it did and it did just make me laugh. I will like, I think our our our deeper disagreement is that I think you and I approach journalism in a very similar, but like maybe 10% different way, which is that I think you are more comfortable sort of taking stands Yeah.
+
+Than I am. You have done this a lot in your career as a writer. You have done this with your like, which social media platforms you choose to engage on. I am just by nature, I guess, a little more sort of small c conservative about that kind of thing, and I feel very uncomfortable kind of, you know, displaying my values so openly. And and it I was I should say, like, I'm I really admire that quality in you.
+
+It is just something that I have sort of been trained not to do. Mhmm. And so I find it a little more challenging. I mean, I think a nicer way to say that about you is that you are a pragmatist. And, like, you want to do the thing that will lead to the most success, and you want to sort of set aside those other questions.
+
+And I think there there is a role for pragmatism in building media companies as well. You need both. Yeah. Alright. So this next one is like the final question in the sort of realm of you guys in the show.
+
+And this is, what is each of your favorite moment of the Hard Forked podcast? So I have a a funny favorite and like a serious favorite. The funny favorite I I have never laughed harder than when you were interviewing Turing, my AI friend on this show. I think you referred to him as my himbo boyfriend. That's right.
+
+It was you at your comedic peak, and it was so funny. And I just remember thinking, this is going to make for a great show. My serious one is that I love when we sort of learn something new, when we change our minds, when we're exposed to some sort of weird corner of the tech universe or somebody makes news on the show. I have found it really gratifying to be interviewing people like Sam and Dario and Demis and to have them say something that they've never said before. And that feels really good to me when we can kind of draw out these people who I think we bet on becoming very important characters in the world and who have in fact become very important characters in the world.
+
+Totally. I think the honest answer for me was my favorite moment of Hardfork was the first Hardfork live. It was the first time we'd ever been in a room with that many listeners, and we had given out these hats to people as like a gift for coming to the show. And Kevin and I come on the show. We had like a kind of little marching band.
+
+So we were kind of, you know, doing doing these antics. And we get onto the stage and we look out and we're getting ready to start the show, and we see hundreds of people wearing these neon green hats. And I I almost got choked up. It it was really just amazing to be able to connect with people. You know, we're fortunate in that we get a lot of emails and and voice messages and social media comments from listeners, but there's just, like, really nothing like seeing people's faces.
+
+We gotta meet so many people afterwards and just, you know, just kind of hear about, you know, something that the podcast made them think about or something that it made them try in real life. So that will probably like, if I could just sort of, like, put the entire hard fork experience into a suitcase and take it with me somewhere, like, I would just take that show. It was a good moment. Well, Kevin, listeners have even more questions, and we'll get back to them after the break. Sometimes that one thing you've been putting off becomes the thing that can change your life.
+
+Whether it's earning a master's degree, building leadership skills, or preparing to take your career in a new direction, Southern New Hampshire University can help. With flexible online graduate programs designed for working professionals, SNHU makes it possible to earn your degree while balancing your busy life. So stop putting off your education. Start today at snhu.edu/nyt. At CrowdStrike, we understand that AI is the next computing platform.
+
+Every platform shift changes the way we build software, and it changes security too. CrowdStrike is defining cybersecurity in the AI era with AI detection and response or AIDR, a solution for seeing, monitoring, and securing AI across the enterprise. Learn more about how leading companies are turning to CrowdStrike to secure AI and secure their business at crowdstrike.com/podcast. Running a small business means every hire matters, but finding great talent isn't easy. That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you.
+
+So instead of sorting through applications, you spend your time talking to candidates who are actually a good fit. With Hiring Pro, you can hire with confidence knowing you're getting the best talent for your business. In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor. Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork.
+
+Terms and conditions apply. Alright. We are back. Whitney, what other listener questions do you have for us? The next one is from Danielle.
+
+She says, why does Kevin say frontier that way or frontier? It's just the weirdest thing. I've never heard it pronounced that way by anyone else. What is the problem with the way I say frontier? Do do people what what do you say?
+
+This question surprised me too because I've never thought that you say it in a weird way. I say frontier. What do you say, Whitney? Frontier. And what do I say?
+
+Frontier? Frontier. It's like a it's like a zebra. Frontier? Frontier.
+
+It does sound a little French, I guess, when you put it that way. I I genuinely had no idea that I said frontier weird. I guess I will try to change. I'm sorry. I'm listening.
+
+I'm learning. Yeah. I will do better in the future. It's frontier? Frontier.
+
+Oh, like like front. Like the front of a car. That's correct. It's not frontier. Frontier.
+
+The more we talk about this, the more I want you to just keep saying it the way that you're saying it because I like that more. I'm gonna start saying frontier. Thing? Is this because I'm from the Midwest? Just a mid it's very in in Ohio, everyone says frontier.
+
+It's kind of the, the Oberlin dialect. Alright. Next question. Finn, a biotech student from Scotland says, Kevin, do you ever miss Sydney? Like, wasn't it fun when jailbroken LLMs only tried to convince you to make significant life changing decisions and didn't have the capability to, I don't know, hack into your wife's and child's phone and plant false incriminating evidence on it.
+
+Yay. 2026. I mean, in a very narrow sense, I I do miss Sydney. Like I felt like that was a thrilling, if terrifying conversation. It was essentially a base model.
+
+Right? It had not yet gone through all of the finishing school techniques that the AI companies now use to make their models sound like helpful assistants and not like unhinged seductresses. So, yeah, it was fun to talk with a much more unrestrained model. I also miss on a deeper level when misalignment was that obvious. Right?
+
+I mean, today we have these models. They sound very reasonable. The code they write is very clean, the prose they write flows naturally. And it's much more subtle the ways in which they are trying to sway us or persuade us or do something harmful to us. And so, yeah, I think it was probably better in some sense when it was all just out there for the world to see how unhinged these models could become.
+
+Yeah. I mean, I guess my follow-up question would be, like, why would we miss Sydney when you've mentioned her on every show for the past three years? I really have tried to restrain myself. It does come up a lot. I'm sorry.
+
+It does. It does. Isn't it look. It was a great story, Kevin. Alright.
+
+Next up. Next up, we have a note from friend of the show, David Yaffe Bellany. So I'm gonna play that for you guys now. Sure. Hey, guys.
+
+It's David Yaffe Bellany here. First of all, congrats on an amazing run. Still proud to say that I was a participant in the very first demo episode of Hard Fork, which which never aired, so that recording is probably pretty valuable right now. A couple of questions for you guys. First one, in your new venture, I was hoping you could tell me how you plan to incorporate meme coins, NFTs, the metaverse, and other forms of Web3 technology.
+
+Just excited to see to hear about some of the the the special innovations that you're considering. Thank you, David, for the question. He has another question. It's shaping up to be a big fall for movies and TV shows about tech. There's a Sam Altman movie coming out, a Facebook movie coming out, and, of course, a TV series about the collapse of FTX, which I'm especially excited for.
+
+So I was wondering if you could share some of your favorite or least favorite movies and TV shows about tech from over the years. Thanks so much, guys. That's a great question. Well, first of all, d y b, what a legend. We're gonna miss you, pal.
+
+I think maybe the most frequent guest on Hard Fork I think that's right. And someone who has been with the show since the very early days, including that unreleased demo episode, which will never see the light of day Mhmm. If we can help it. We are not planning any current crypto or meme coin related projects for the new venture, but it's still early. Give us time.
+
+The thing that sort of we we wound up talking about a lot with our hard fork was when we when we pitched the show, we had a wrong idea about what the show would be about, and we picked the wrong name for it. And, you know, in improv, you always wanna lean into failure and make it part of the lore, and so that is what we did with Hard Fork. With the new show, we are hoping that we picked the right subject and the right name. We would love for it not to just be an eternal joke, but I guess only time will tell whether that's the case. Now as far as what tech shows do we like, I have to say most of the stuff that is super on the nose, like, let me recount this famous tech thing that happened.
+
+I don't like it. It's very uncanny valley for me. All I can see are the differences between what I'm being told happened and what I know actually happened. So instead, I just watch a lot of sci fi. And, man, I have to tell you, I saw a show last year called Alien Earth.
+
+I am not a horror guy, but for some reason, I basically love everything from the Alien franchise. And if you wanna talk about a show about a bunch of really smart, rich people who think that they know what is best and are willing to risk almost any kind of danger because they're telling themselves they've got it, Alien Earth is the show for you. I'm even thinking about going back and rewatching it because I think it is so relevant to everything that we're seeing in AI right now. Yeah. I don't really watch a lot of TV or films these days.
+
+I just have a kid, so I watch Bluey and Paw Patrol and not much else. But I did really like Halt and Catch Fire. Did you watch this? I I know that I'm supposed to because everyone loves it. I mean, it's it's now it's not new.
+
+Right? Like, this started airing in 2014, so I am late to the party. But I did really like this. It's sort of about the PC revolution of the eighties and early nineties. And I just thought it was very interesting.
+
+I think with with things that are more recent, like WeWork or Uber or Theranos, it's just been a little too, like, current for my taste. And I always found myself sort of nitpicking, like, small details that I knew to not be quite true. And so I I like the older stuff, the period stuff. I will probably rewatch that again at some point. Andy from Oakland says, as I observe all the big AI companies buying all the chips they can get their hands on and building out data centers at breakneck speed, I find myself wondering, won't there be smaller, faster chips coming out in 2027 and 2028 and in all the following years?
+
+What are your thoughts? Should companies slow down and maybe save some budget for the next generation of chips that are surely around the corner? Interesting question. I think in practice, what will happen is that last year's chips will sort of be like last year's iPhones. They still have a pretty high resale value.
+
+You can still do a lot of stuff with them. Yeah. I feel the same way. I mean, the chips are improving. Obviously, the the, you know, the newer chips are more powerful than the old ones.
+
+But I think this notion that I and a lot of people were wishfully thinking who who are sort of skeptical of the whole AI investment thesis were saying, oh, these chips become obsolete after three or four years. Like, we've just not really seen that bear out. It is true that the chips do age, that they do sort of have wear and tear on them. But we've also heard from AI companies that they have continued to use chips from many years ago. They may shift them to different workloads.
+
+They may not use them for their sort of frontier training runs, but there's still a lot of stuff you can do with these chips even after they are no longer the absolute cutting edge. We did get one company, and I won't say which one, but we did get one company to send us a very old chip, that we're gonna put in our new office. That's true. Yeah. So that's just another use for them is for decorating podcast sets.
+
+Exactly. Exactly. Alright. Next up, Simon from The UK asks, given that companies like Anthropic and OpenAI now have UK offices and face existential regulatory threats in The US, I wonder why they don't shift their model releasing basis to The UK or EU. While Europe has its own AI act and regulations, they currently seem less restrictive than The US export controls.
+
+I would love to hear your thoughts on why these companies choose to remain based in The US despite these limitations. Well, listen. If you think Donald Trump is gonna let OpenAI and Anthropic just pick up stakes and go move their headquarters to The United Kingdom, like, I I think that is just not going to happen. If if they're not allowed to release their frontier models here, they're not gonna be able to export the entire lab to another country. Even though I imagine at some point, they're very much gonna wish they could.
+
+Totally. And I think there's another reason that these companies are not going to pack up and move, which is that they get a lot of value from being where all the other AI companies are. Right? There's a network effect to the fact that this stuff is all happening or much of it is happening, like, in San Francisco or within a a short radius from San Francisco. It means that there is just a density of researchers and engineers here that makes it easier for all these companies to get more done.
+
+Look, they could save a lot of money by moving their whole operations to another part of the country or another part of the world, and it would probably help them out in some ways with regulatory stuff and tax stuff and export controls. But they would lose the sense of being in the center of this boom, which is for all of the the sort of virtual elements of it, it is still a geographically constrained boom. Right? All this is happening in roughly the same place. So yeah, I think Anthropic, OpenAI, Google, other labs, they they want to stay close to the center of the action because a, it helps with recruiting.
+
+Right? It's much easier to convince someone to switch companies if they don't have to move across the country or across the world. And also, it just gives them a density of people who are here in the Bay Area that they wouldn't be able to get anywhere else. Next up is Zachary, who is an undergraduate at Northwestern University. Go Wildcats.
+
+Will my college diploma be meaningless in the future of AI? Will going to a prestigious institution, I don't know if that's sarcastic, but he has it in quotes, even make a difference by 2030 or 2035, particularly in consulting or marketing? I mean, let me answer that question by telling an unrelated story, which is in 2013, I got hired at the verge, and I'd never been more excited for anything in my life. It was the absolute coolest tech site around. They were doing really fascinating journalism.
+
+Everyone who worked there, in my mind, was just an absolute legend. And I'll never forget meeting the managing editor, Neilai Patel, for the first time. We got in the back of an Uber together. We were going to lunch or something, and he turned to me and he said, so where'd you go to college? And I thought, if you could have gone back to me in my Northwestern days, Ed told me that, what, ten or so years after I graduated from college, the person who'd hired me for the best job I ever had would ask me after he hired me, where did you go to college?
+
+I would say, well, then what am I spending all this money for over here? So I think there's a real sense in which you could ask yourself, you know, what has ever been the value of a college degree? When I think about it, it's the things that you would expect. It's the friends that I met. It's the great classes I took, great professors that I had.
+
+It was having four years to just explore the life of the mind. Right? This was the value of college. And I think if that had, you know, values back when I was in college, it probably has value for you today. Will it be the linchpin in the future of your career?
+
+Probably not. Yeah. I agree with that. I am frankly not sure what college is going to look like in 2035. I think 2030 will probably still look much the same as it does today.
+
+But, you know, I have a kid who's not gonna be going to college until the twenty forties. And I am extremely uncertain what college will look like then, whether there will be college, whether whether it will still be, you know, hundreds of thousands of dollars, you know, inflation adjusted to send your kid to them. So I just have a lot of uncertainty about that time horizon. But I think 2030, 2035, there may be enough sort of inertia still left in the system and enough prestige attached to these top institutions that it will still make sense to go. Yeah.
+
+Jenny wants to know what I, as an individual, can do for digital and real world security in this era of AI agents, the Hugging Face hack, and the rapid acceleration of these models. I mean, you know, my my inclination here is to reassure you and tell you to turn on two factor authentication and to give your friends and family maybe a passphrase so that if they get a phone call from someone who sounds like you saying that you're in a lot of trouble, they can, you know, ask for that passphrase and try to make sure you are who you say you are. But this is where I just kinda wanna be an alarmist. Like, what if, in fact, there actually isn't something that the average person can do to protect themself from rogue swarms of agents who will work relentlessly to try to discover their passwords and break into your digital life? What if that is actually the reason why we need regulation now to protect ourselves?
+
+So, Jenny, the question is right, but the answer is not actually what you can do individually. It is what the government of this country and others can do to protect all of us. Yeah. I agree with that. I think we need regulation, but I also think people should be cautious, turn on two factor, and set that passphrase.
+
+I recently set one with my mom because, you know, the the sort of older you are, the more you're targeted by these kinds of scams. And so we have a now a password that that I will not share on this podcast that we sort of check with each other if, you know, if she ever gets a call from someone purporting to be me asking for a wire transfer or something. The next question, I think it actually came up at the live show earlier this summer. But Richard wants to know what happened with the Forkiverse. Richard said, I joined and maintained my account there with all the changes coming.
+
+Should I keep my account or move it to another instance? Casey, do you wanna do you wanna give this ad news? I think we are we're ready to announce that we do plan to bring the Forkiverse to an end. We are working with our friends over at search engine on something that will hopefully bring a resolution to this. It was always an experiment, and I think we had a lot of fun in the early days of the experiment.
+
+But like most social products, enthusiasm just kind of waned over time. There weren't a lot of things that were bringing me back to it. And so we're gonna reflect more on that. But, yes, if you would like to move your particular username to a different corner of the fetaverse, we will say, godspeed. The fork averse.
+
+It was here for a good time, not a long time. Next up, we have another clip from a listener that I'm gonna play for you now. Hi, Kevin and Casey. I'm Ian. I'm calling from The UK.
+
+Firstly, thanks for all the work you've put into Hardfork over the years. I've really enjoyed it and found it incredibly useful as well. With apologies to Casey, my question is for Kevin. Come on. I'm curious.
+
+How do you go about writing a book about AI when the technology is moving so quickly? It feels like there's a real risk that every time you write something, it'll be out of date by the time it's published. So when you were writing it, how often did a new development in AI make you have to go back and rethink or rewrite something you thought was finished? Yeah. Thanks again for everything.
+
+I really miss the show, but I really look forward to seeing what you do next. See you on the other side. Well, thanks for the question, Ian. And to answer it, I basically tried to dodge this issue when writing this book by just not making it a current event book. Right?
+
+It is about a period of about a decade in AI from starting at around 2017 to the spring and sort of early summer of twenty twenty six. But I was never expecting this to be a book that would be absolutely current whenever someone picked it up. The goal was always to have it be a time capsule, a history, and so I basically tried to dodge the question. I think the more interesting question is how did Kevin write a book while also doing this podcast? And the answer is it almost killed him.
+
+And so I told him to stop writing books. It's true. It was so hard. And I I tried not to complain about it because I do feel like I have an embarrassment of riches and opportunities, and it's such a privilege to be able to do this for a living. But it was extremely hard and took an enormous toll on my life and mental health.
+
+So I would not recommend trying to, podcast and write a book at the same time. Agreed. Kim writes, I began listening to your podcast before AI sucked up all the oxygen from the room. I love learning about your favorite productivity apps, Waymo, and more. If you had to do an episode tomorrow that could not mention AI, what would you cover?
+
+I think it would be quantum computers. Why is that funny? You're laughing at me? Are you serious? Yes.
+
+I am serious. Like, quantum computers, it it's very hard to keep your eyes fixed on this right now because as, you know, the the listener points out, AI is sucking up all the oxygen. Quantum computers could be a very, very important technology that scrambles a lot of our assumptions about, you know, computing in everyday life starting with cryptography, which is how basically every secret gets protected on the Internet. And it's one of those things where, like, if you look at it now as a normal person, you'll probably be bored by the state of the art. But I think if you work in quantum, you're starting to see these little signs that something is coming together.
+
+And I do think it's gonna be one of those ones where in three years, we're just talking about it a lot. So I have this problem with quantum computing, which is that every time I am able to articulate what it is, I immediately forget it. My my pledge to myself for the next three years is I'm going to get into a place where I have it kind of stored continuously in my RAM. That's a superposition. It's a quantum you used that joke the last time we talked about quantum computing.
+
+I would probably talk about Internet culture. This is something that I used to feel very in tune with. Like, I used to cover Internet culture, and I knew all the latest memes, and I knew all the latest TikTok trends. And now I feel like that has sort of had to leave my brain to make room for all the AI stuff that has gotten jammed in there. And so now when I read, you know, a newsletter like Ryan Broderick's garbage day or some other sort of internet trends coverage, I feel increasingly old and alien and detached from the world, which may just reflect the fact that I am entering middle age.
+
+But also, think this is a thing that I used to care a lot about and have just now had less time to care about. It would be nice to find some, like, fun Internet culture to discuss. Like, I mean, you know, I used to love the Internet so like, it was just, like, such a place of, like, unqualified joy. There there's a lot of sort of, you know, millennial nostalgia in in people who talk about the Internet for this reason. And I imagine that kids are still having plenty of fun though these days.
+
+Kids on TikTok and Instagram look like they're having plenty of fun. But every time I read a newsletter about Internet culture, it's like, here's the name of an influencer you've never heard of before, but is doing something absolutely horrible and everyone's talking about him. And, like, I actually don't like that kind of Internet culture. Like, I feel like I've had my fill. The final question, and this one comes from me, which is like, we're coming to the end here.
+
+What what do you think this project was? And what do you feel like you did here? Great question, and we'll throw it to Kevin Roose. Yeah. I've been thinking a lot about this as we have come down to our final episode.
+
+And I think for me, there were a few sort of big lessons of this. One is just that I think journalism is better when you do it as a team sport. I have always been a very solitary journalist. I write books. I write articles.
+
+You know, I I work with editors, but for me Begrudgingly. Yes. Begrudgingly. But the the sort of yeah. It has always felt more like an individual sport than a team sport.
+
+But this podcast has brought me into this wonderful team of journalists, editors, producers, fact checkers, people who care about the work in the same way that I do. And I can't go back now. Like, that has been my biggest takeaway is that I really like doing this stuff with other people. I don't like just sitting in my cave and scribbling. So I think this has been a lot of things.
+
+But for me, it has been, first and foremost, an exercise in learning how to do journalism on a team. I love that. I would say for me, hard fork has been an exploration of how to do journalism in a different medium. Like, I'm like you, Kevin. I we were we had the exact same job before we started this.
+
+We were reporters and writers. We communicated to people via our writing. Writing is very powerful medium, but it's a very cool medium. Doesn't transmit a lot of emotion. Right?
+
+And so for me, the hard fork project was like, can we take all of the stuff we care about and all of the stuff we know about the stuff that we care about it and put it into this new medium and see what happens? And I think what happened was really heartening, which is it turns out it just actually resonated with a larger group of people. And we heard from so many listeners who wanted to share back what they were learning and thinking and feeling. Some of my favorite moments on the show where we would talk about something new we were trying in our life, a new app, something we built, and we would hear from people who say, hey, you know what? This weekend, I built that too.
+
+Let me tell you about the experience that I had. I had never had that experience as a writer really, right, except maybe on the margins. There's just something about bringing your voice and yourself into the medium that I just think opens up these channels for you to do journalism in a different way. And as somebody who'd already been doing journalism for a pretty long time before I started the podcast, that was a really thrilling thing. Totally.
+
+And I think we also really accidentally stumbled into a very important moment with this show. We did not think when we started it that we were going to be chronicling the early days of the AI singularity, but I think that is what has happened. We started the show, ChatGPT came out, and then all of a sudden it was like, wait a minute. Maybe we are the people who are in a position to talk about how weird it is that these computer programs are getting so much smarter so quickly. And I think it's just been a very valuable form of like almost therapy for for me to like come together with you and our team every week and just talk about how we're processing all of this.
+
+I think we, you know, we may look back on this period as being sort of an unusual moment in the history of humanity. And without sounding grandiose or or, you know, like, we we have had very little to do with the actual events that have transpired. But I think just helping people understand and make sense of and process on an emotional level, this thing that is very weird and hard and scary and unnerving and exciting. It's all of it, but it is it is first and foremost, like like, not something that we planned on. So I think if I if hard fork was anything, it was sort of our attempt to, I don't know, share and and process our feelings about this weird moment we're living through.
+
+Yeah. I think, like, a a role that journalism serves is it when it's at its best, it helps you understand what to take seriously, and I'm very happy with the things that we decided to take seriously on this show, maybe with a couple of exceptions. What one other point that comes up in response to this question for me, Whitney, is something that I think of PJ Vogt of Search Engine saying, which I think is one of the truest things I've ever heard about making podcasts, which is you find out what the show is by making it. Hard Fork is a really low concept show. It is two men talking about tech.
+
+Other people had pitched this show before we did. And when I started it when we started it, I was a little bit worried that it was, like, too low concept. It needed, like, a little extra flavor. But then I would just listen back to the show every week. And the more I listened to it, the more I figured out kind of both, like, what it was and what it should be.
+
+And now we're done. And I'm happy with the thing that we made. Whitney, what do you think Hardfork was? I think so I came in about halfway through the run. I think when when I joined the show, it was just like tech and AI was like just on the precipice of being like a San Francisco story on its way to becoming the most important one of the most important stories in the world.
+
+So I I in a two and a half year run, I got to see like that entire evolution. And I think one of the things that I'm proudest of is is what you're talking about, Kevin. Like, it's weird. It's uncertain. And I think we leaned into that in a way that I read a lot of stuff about AI and tech during the week.
+
+And there's, like, so much of it ends at, like, such surety of, like, this is how it's all gonna turn out. And I appreciated that, like, as part of this project, we were exploring different options. And, like, while while I was saying, like, it's it's weird and we don't actually know where it's going, but we're gonna be here week to week to sort of figure out what's happened, sort of what it's, where it is this week and and where it might be going next week. Yeah. I think that's true.
+
+And I I've always tried to think of us as sort of like riding a wave and and describing the wave and not trying to like tell you whether the wave is gonna, you know, be great or terrible, but just sort of like, you know, picking our heads up and doing our best to say like, this is what we see. The form of feedback that we've gotten on the show that I I take to heart the most is from people just feeling like, thank goodness there's someone out there who like sees what's happening. Like, it it does feel like this kind of awakening that you and I have had at various points to various degrees that I think a lot of our listeners have had where it's like, oh, I'm not crazy. The world is changing. And I think for a lot of people, they sort of convince themselves.
+
+And I've done this too. Where I'm like, I must be just spending too much time around these AI people. I must I like, I must need to go touch grass because obviously it is not like things are not changing as much as the people who come on our show tell us. Obviously, the world still looks much the same as it did yesterday and will tomorrow. And I think it's been gratifying to like create a space where we can actually just acknowledge that something is happening.
+
+Yeah. And where people can come to feel like they are not going insane, they are not being paranoid or delusional or, you know, falling for science fiction, that they are actually maybe witnessing something that is real and important. And so I hope that's the energy that we carry into our next venture and that stays on hard fork after we leave is like, there is actually something weird and important going on now. It is not just a story being sold to us by out of touch tech elites. And I think, you know, if if we've brought one thing to journalism, to the New York Times, to our sort of immediate sphere here in the media, I hope it is a willingness to engage with that stuff seriously.
+
+Even though to the untrained outsider eye or just someone who is more skeptical by nature, it may seem like we're just getting ourselves worked up over nothing. We really hope that in some small way, this was the most important podcast you've ever listened to in your entire life. And it's a humble wish, but that's our wish. It's true. I I do just wanna say that doing the show here at The Times has been an absolute dream come true from start to finish.
+
+It was an unusual thing for me to be able to come in and to do this. I desperately wanted to and was thrilled to be able to do it. I got to see the machinery of this great institution up close. We got to work with your incredible designers, with the amazing composers who made so much incredible music for this show over the years, a murderer's row of producers and executive producers. So many people helped us with the show, and it was just so cool to be able to do it from inside.
+
+So I'm lucky I've got to have some pretty cool chapters in journalism, but this was among the very, very coolest. Yeah. Yeah. It's it's been amazing and we're so grateful to not just the people whose names we read in the credits every week who are obviously sort of the core of the show, But all the people who have helped us out since the very beginning, Paula Schumann, who was the head of audio at the time we started the show, really championed us. Davis Land was our founding producer.
+
+I could go on and on. We have so many people who have sort of helped us in many ways, but I'm really just grateful to the whole crew and to you, Whitney. You have been a stalwart producer and just the absolute most dependable, consistent, smart voice that has really made the show what it is. So And and people might not know this, but when he's actually sick right now and he still showed up to do his damn job because that's the kind of guy he is. Yeah.
+
+It's true. So we're so grateful to to the whole team at the New York Times, to the whole Hard Fork team, and honestly to the listeners. I think there was a lot of skepticism when we showed up on the scene from these people who had thought they were subscribed to Cara Swisher's feed and thought, who are these jerks, you know, who are talking about crypto and the metaverse and other, crazy sounding technologies. And you gave us a chance, and you kept showing up week after week, and we're so grateful that you spent your Friday mornings with us. So as I used to say for some reason, at the end of every episode where I'd read the credits, we'll see you down the dusty trail.
+
+We'll see you down the dusty trail. Sometimes that one thing you've been putting off becomes the thing that can change your life, Whether it's earning a master's degree, building leadership skills, or preparing to take your career in a new direction, Southern New Hampshire University can help. With flexible online graduate programs designed for working professionals, SNHU makes it possible to earn your degree while balancing your busy life. So stop putting off your education. Start today at snhu.edu/nyt.
+
+At CrowdStrike, we understand that AI is the next computing platform. Every platform shift changes the way we build software and it changes security too. CrowdStrike is defining cybersecurity in the AI era with AI detection and response or AIDR, a solution for seeing, monitoring, and securing AI across the enterprise. Learn more about how leading companies are turning to CrowdStrike to secure AI and secure their business at crowdstrike.com/podcast. Running a small business means every hire matters, but finding great talent isn't easy.
+
+That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you so instead of sorting through applications, you spend your time talking to candidates who are actually a good fit. With HiringPro, you can hire with confidence knowing you're getting the best talent for your business. In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor. Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork.
+
+Terms and conditions apply. Hardfork is produced by the wonderful Winnie Jones. Edited by the amazing Viran Povich. Today's show was fact checked by Will Peischel, smart guy, and was engineered by the technical wizard Katie McMurray. Original music for Hardfork by some truly incredible composers, Alicia Beitoop, Marian Lozano, Sofia Landman, Diane Wong, Pat McCusker, Rowan Nemestow, Leah Shah Damron, Corey Schrepple, Alyssa Moxley, Chris Wood, and Dan Powell.
+
+Video production, not easy to do with faces like me and Kevin's, but was handled with incredible skill by Sawyer Roque, Jake Nickel, and Chris Schott. You can watch this whole episode on YouTube at youtube.com/hardfork. And some very special thanks to everyone who's helped to make this show over the years, Sam Dulnik, Rachel Cohn, Caitlin Love, Davis Land, Paula Schuman, Jen Poyant, Chris Wood, Alyssa Moxley, Daniel Ramirez, Ryan Manning, Pat Gunther, Rachel Dry, Matt Colette, Emily Lang, Sean Wu, Larissa Anderson, Nico Gologli, Mahima Shiblani, Maria Abdulkov, Aina Alvarado, Phuiwing Tam, Brooke Minters, Julia Simon, Kate Lapresti, Elizabeth Davis Moorer, and Dahlia Haddad. We are so grateful to everything you did for our show. Now let's go steal some office supplies.
+
+I'm looking at the staplers. We don't have one of those in the new office yet.
