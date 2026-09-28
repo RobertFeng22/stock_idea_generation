@@ -1,0 +1,125 @@
+Naveen Rao, cofounder and CEO of Unconventional AI, which is an AI chip startup. Best known for building and selling two deep tech companies. Naveen is kind of definitionally outlier founder. When I came there, we had about a $20,000,000 business and it was, you know, 7 or 800,000,000 when I left. I don't think you really understand something until you can build it.
+
+Just because something is tried does not mean it's wrong. I'm the opposite of an AI doomer. I think AI is the next evolution of humanity. We need innovation on hardware substrate to actually build true intelligence. Please welcome Naveen Rao.
+
+Hey, everyone. Great to be here. You know, switching gears a little bit to AI now, which you may have heard a little bit about. It's super exciting to be at this conference specifically because as was said in the intro, I'm the opposite of a doomer. I think AI is one of the most transformational technologies that humanity's ever created, and will enable us to get to that next level of evolution, which I'm here for.
+
+And this is sort of the anti doomer conference, so let's go. So before we get going, I'll tell you a little bit about myself. You know, I It's kinda weird. I'm really right where I wanted to be my whole life. This was me at about five or six years old, something like that.
+
+We had a computer very early on, so I'll date myself, but this was in 1978 we got a computer. This is probably in the early eighties. Learned to program when I was a little kid. I just thought it was like a puzzle. You know, learned to I became an electrical engineer, really because I enjoyed sci fi, and always wanted to think about how I could make an intelligent machine.
+
+And, you know, then after a career in building computers, I went back to school and got a PhD in neuroscience. And the idea was like, let's go back to that thing. How do we make computers intelligent? And fortunately, the whole world kind of moved in this direction. So, you know, as a technologist, it's sort of the dream right now.
+
+A little bit about me tech from a company entrepreneurship standpoint, like, I actually founded the first AI chip company called Nirvana Systems. So this was in 2014. If anyone remembers back then, there was no AI, or at least not in the common vernacular. And it was really hard to actually convince people this is important, much less to build hardware around it. Now, you heard from Jensen up here, like, the largest company in the world is a hardware company because of AI.
+
+So we were early on. I think I sold the company way too early to Intel, but I I ran I started and ran the AI group at Intel. After I was done with that in 2020, I actually started thinking about the next problem, which was how do we build bigger models, like the large language models we talk about today? And it was about how do I build the infrastructure to build those models? And so we started platformizing GPUs and enabling it to scale and making that easy to use for other people.
+
+And after ChatGPT happened in twenty twenty twenty two, we were kind of the best game in town for people to start building their own models. So it took off really fast. We decided to actually join forces with Databricks. That was in 2023, and and actually, that's a quarter of the total revenue of of Databricks today. So a lot of fun doing that whole thing with Ali and team at Databricks.
+
+And now I wanna tell you about unconventional AI, which is rethinking the foundations of how a computer works. So we're going back to first principles here to really trying to build a new machine. Computers have worked a certain way for a long time, and we want to rethink that for the singular purpose of making something very power efficient. And the goal has been within it was initially within five years to get to a thousand x power efficiency. I've actually revised this to three and a half years because things have gone faster than we anticipated.
+
+We've actually solved very deep scientific problems quicker because of AI, interestingly enough. So just a little bit, how are we organized? Like, we're truly a top to bottom company. We start with theorists. These are people with like math PhDs and you know, theoretical neuroscience, that kind of thing.
+
+They come up with, you know, concepts that we think would effectively give us more power efficiency from the perspective of moving less information around. And we then translate that into models that do real things, trained on real data and evaluated against real criteria. So it's kind of rubber hitting the road of these concepts. Then eventually, we have to actually build something physical. So these are people who architect a physical circuit, actually design those circuits, model them, and see if it actually works.
+
+So we try to connect this whole stack together. Then eventually, we have to build a system and and a board and all that kind of stuff and build a product. So is energy really a problem? I'm not sure how much everyone in this audience has thought about this, but interestingly enough I'll give you some some data points here. This is one company.
+
+This is just Google. I'm using Google because Google has actually talked about this publicly. Per month they cross 3.2 tokens. It's a crazy number. I never even I never were thinking quadrillions, but that's the world we're in today.
+
+And if I just take 10 joules per token of energy, this is actually on the lower end of energy spectrum for models, but let's just take that number and multiply it out. This is 12 gigawatts. The US puts about 40 gigawatts of energy into data centers today, and we're about half of the data center capacity of the world. And so, you know, we're under a 100 gigawatts of of data center energy in the world today. 12 gigawatts is going into one company just for AI services.
+
+So you can imagine if models get bigger, that that energy goes up. And if demand grows, which it is, that energy goes up. So we're gonna run out of energy pretty fast, in like three years or so is my estimate. So really just putting it graphically, this is what we have. You know, we have this huge market that's growing exponentially, call it a trillion dollar market in 2030, maybe it's bigger than that, And then we have this kind of linearized energy at the bottom.
+
+And so you've heard a lot about this today, but this gap is the problem. And we wanna solve that gap with technology. So I I don't know if people are aware of this, but the way we think about data centers has shifted over the last several years. It used to be about floor space. Can I get the floor space?
+
+Can I get the rack space? Then it was about networking equipment. Then it became about GPUs. Today it's about energy. First you think about energy.
+
+I get the energy contract, and then I have to figure out how to fill it and and basically create infrastructure out of out of GPUs and things like this. About 50% of the cost of serving a token, so every time you try something on ChatGPT, 50% of that cost is energy. The rest of it is the CapEx of the hardware and the floor space and all that kind of stuff. So today, sort of think about it oops. We kind of think about it as I get I get a power contract, I need to monetize every watt.
+
+And simply put, our business case is pretty easy. We're gonna monetize that a thousand x better than existing hardware. So then the question becomes, okay, great, that all makes sense, but can we actually do it? How do we build a better, more efficient computer? Well, biology actually provides some proof for us here.
+
+So the human brain, you may have heard this, runs on about 20 watts of energy. And what's even more remarkable to me is actually animal brains. So that red number is how many neurons are in the brain, and if you kind of scale it linearly down to like a monkey's brain, it runs on one watt. To put that in perspective, the cell phone in your pocket runs on about one watt. And other animals like, you know, rats and bats and things like this, they run on milliwatts of energy.
+
+So just something that's pretty relatable to everyone is a squirrel. You probably watched how accurate they can be. They jump between branches and they do it perfectly a thousand times out of a thousand. Their brain runs on eight milliwatts of energy. You could run over a 100 squirrel brains on your phone, and it it has very precise and accurate behavior.
+
+So biology has created something quite incredible. In fact, it's the right kind of physical substrate for intelligence. So this is a quote I love. I I don't feel like we truly understand something until we can create it. We've gotten a lot better at creating intelligence systems.
+
+However, they do it in a kind of inefficient way. What kind of inefficiency is there? Well, as I kind of hinted at the beginning, most of the energy in a computing system goes into moving information around. Just to put some numbers on it, the human cortex, the squiggly part of your brain, the outside of it, only moves about 16,000,000,000 bits per second. That's actually kind of a small number if you think about it because there's, you know, some 13 or 14,000,000,000 neurons in that cortex.
+
+A GPU or, you know, a high end computing system moves nearly 30,000,000,000,000 bits in and out of memory per second. That's outside the chip. Inside the chip, it's probably, you know, 10 a 100 x more than that. So we're moving a lot more bits in these synthetic systems than the brain does, and that's actually what drives the energy demand. And, you know, how did we get here?
+
+You know, computers have been around for hundreds of years, actually, in some form. They were mechanical, they became analog around the turn of the century, and they became digital back in the nineteen thirties, nineteen forties. So the operation of that computer in 1940, 1945, is actually very similar to how they operate today. There's not a huge paradigm shift. They actually have this memory on the outside, and you have some kind of computing, and you move bits back and forth.
+
+That operation creates a machine that just requires a lot of movement, but it's very fast. We built computers to be fast. They were always faster than the alternative. Incidentally, that computer in 1945 that was built called ENIAC was built to do artillery trajectory calculation, and it was built to do it faster than the alternative. The alternative were humans who actually did the calculations.
+
+Now the alternative typically is some other computer. This computer is twice the speed of that computer. That's how we sell computers. But it doesn't contemplate energy efficiency, and that's what we're changing. And, you know, these have been trends going on for a long time where the number of transistors kept going up, but we couldn't keep scaling the frequency.
+
+We couldn't couldn't keep scaling single threaded performance, and now we're actually not scaling efficiency any longer. Moore's law, if you may have heard of this, is like making transistors smaller, has largely ended. So we're not seeing efficiency gains just from making transistors smaller. So we need to rethink the problem a bit. So how do we do it?
+
+Well, a good intuition is that we cut out the middleman. So computers have been built up with these abstractions. So I mentioned digital. Digital means one and zero. That itself is an abstraction of the physical world.
+
+Right? We don't actually have systems that behave as one and zero. A transistor actually has states in the middle. But we engineer it to behave that way, and that that's an abstraction. So we kept building these abstractions up, and eventually we started creating neural networks and learning machines on top of it.
+
+Each one of these abstractions actually is lossy. It means it's inefficient. It it it doesn't contemplate all the complexity underneath it. That's why it's an abstraction. So what we're doing is kind of simplifying this in some sense.
+
+We find an abstraction of the physics of the semiconductor and connect that to the neural network. If you think about your brain for a moment, it has a bunch of neurons in it, but there's no linear algebra, there's no floating point math. It's actually the physics of the neurons give rise to intelligence. We wanna kind of mimic some of that with a semiconductor. And this is also not a new concept.
+
+There's actually computation all throughout nature. Birds in a flock, you may have seen things like this where, you know, a bird does a simple behavior, it looks left, looks right, it figures out where the next guy's going. And when they do that, they actually create these interesting flocking behaviors, this emergent behavior. And we see that with ant colonies. Ant colonies actually do intelligent things just by very simple rules.
+
+And this study is called dynamical systems theory. It's basically how I get these emergent properties from very simple behaviors of individual components. Our brain actually works this way as well. So we're taking these ideas and actually starting to build circuits out of them. So let me give you an example of such a such a system.
+
+So everyone here probably knows what a metronome is. It's just, you know, when you're learning to play the piano or something like that, it's just tick tock tick tock, physical thing moving back and forth. So this is kinda cool. If you put multiple ones of them on a rigid plank, and that plank can just roll back and forth, you'll actually see them start to synchronize, and that's just due to the physics of the system. They each push against the plank just a little bit, and even if they're off by a little bit from each other, they're all synchronized to exactly the same phase.
+
+You can actually scale this up to hundreds of metronomes on a physical system, and they'll all synchronize. So this is actually a form of a dynamical system that goes through some starting point of all these different phases and always synchronizes. You can imagine a slightly more complicated version of this where maybe they don't all synchronize, maybe half of them are synchronized with each other, another half are synchronized in an opposite pattern or something like this. But the idea is that this is a physical system that kind of behaves the way it does just by the inherent interconnection of the system itself. So we asked the question, can we actually use such a system, like like that metronome system, to do computation?
+
+We wanted to connect that to generative AI, that's what we really care about. So we released a model we called UNO, which actually demonstrated this. It's an image generation model that's built on a set of oscillators like that. And we simulated it and made it open source so people can play with it. But this was the first demonstration that I can actually scale something up, train it, and actually get useful output like image generation.
+
+And you know, this is kind of some of the analysis that we provided in that that write up. What you're seeing here is we call this state space trajectory. It's basically how the system evolves in time. You can imagine if you characterize the state of the system as all the phases of those oscillators, and then look at how it evolves through time, and you basically condition that on the output. You say I wanna generate an airplane or a car or a bird, it'll actually go through different state space trajectories.
+
+And so that's what you're seeing here is just an analysis of this, and these are actual images that were generated by it. Now, it turns out we actually started to build a lot of that fundamental science up over the last couple of months, and we found other things that enabled this to work even better. So this is a concept of what we call sparsity. Sparsity means that, you know, if I have let's say I have a bunch of elements all connected to each other, like we have on the left hand side there. So you know, if I have 10 elements and I wanna connect them all to each other, I have 10 times 10 elements, so I have a 100 connections.
+
+That's okay, but if I have a thousand, now I have a thousand times a thousand, which becomes a million. So this doesn't scale very well, we call this n squared scaling. So the more I add, it actually becomes way more hard to scale. Right? So that's not great.
+
+So sparsity allows us to actually say, well, can I throw away some of those connections? If I throw them away, now can I actually rescue the behavior of the whole system? And it turns out, you can actually not only throw away some of the connections, but you can actually get better behavior out of the whole system. It actually becomes more trainable. There's a lot of theoretical reasons for this, but we actually are able to do this in not only simulated systems, but actually real physical systems.
+
+So it's one of these rare things where you get something that's more efficient, that's actually more scalable, and even gives you more performance. So this is kind of a holy grail. It's been a problem for a long time, but we had to frame the problem the right way to actually find a solution. So And this is actually the first time I'm talking about this publicly. This is I wanted to do it at this venue because I think it's a really big deal.
+
+This is actually the first physical, dynamical computer ever built. We did this in five months. This company started Thank you. Started in earnest in January. We didn't even have a team, but we said we're gonna build this first physical prototype and do it, you know, this year, and actually we taped out the design, meaning we sent it to the fab on June 1.
+
+The chip is back in our lab, and we actually have results from it. So these are the first ever images generated from such a computer. Now, great, cool, but does it do anything useful beyond just images? You can actually do any kind of a task like sequence modeling or language models, but the interesting thing here is it's only 500 or so nanojoules per image. So to put that in perspective, a normal computer like a GPU is on the order of millijoules.
+
+So nanojoules is 10 to the minus ninth. It's really, really small. So it's many orders of magnitude more efficient than a standard computer, and it's because it just doesn't move information around. This is proof positive this works. So this is literally the first time we're talking about it publicly.
+
+Yeah. Thank you. So what's cool here is this is really the emergence of something new. So computers have gone from CPUs to GPUs going more and more parallel to compute and memory, which is even more parallel and fine grained. But all of these are what we call von Neumann architecture.
+
+They have a memory and compute, and we move back and forth. What we built is what's called a dynamical computer, which actually has compute and memory in one thing. We don't have a memory interface. Each individual computing element is a memory. There's a completely different way to look at the problem.
+
+And so we call this four d computing where we use the time dimension and the dynamics, and we actually use the physical three dimensions of die stacking, putting things vertically as well as in a in a planar form. So we have three dimensions from from the physical, and we have one dimension in time. This So is actually kind of a new way of thinking about a computer, and it it really is proving to work for efficiency's sake. So now what are the implications if we build something that's a thousand times more power efficient? I think this is actually pretty cool.
+
+So intelligence for watt is what we care about. Can we optimize this and make it better over time? There is actually a thermodynamic limit which you can never exceed. And the mammalian brains, though animal brains, are somewhere within one or two orders of magnitude of that. Today, we're on the far left of this graph, and we're about 10,000,000,000 times away.
+
+That's 10 one with 10 zeros after it from that thermodynamic limit. We think in that three and a half years, we can hit the the limits of two d lithography. And the the overarching goal of this company is to beat biology. We wanna make something better and enable, you know, compute everywhere, including compute in new robotic forms and things like this in the next decade or so. I think what'll be interesting is that we'll see the shift going from like big big data centers with gigawatts to many small data centers all over the place.
+
+I think this is a good thing. It actually makes things that are more environmentally friendly, more local, more adaptive. And as I said, I think enabling the ability to build billions of robots that kind of dynamically assemble to solve problems in our world is something that's I think is actually really cool. This is something that will enable us to think about bigger problems and do even more. And you know, I talked about AI being a trillion dollar market.
+
+Well, if we disrupt it by a thousand x, it's There's a there's a concept called Jeevan's paradox where when you drop the underlying cost of an asset, you actually consume more more than the drop of that asset. So if you make something half the price, you'll consume more than two x. If you can make something one one thousandth the price, you'll consume more than one one thousandth of it. And I think this will create the largest market that humanity's ever seen. I mean, that was extremely unexpected, I gotta say.
+
+That was pretty Let me let me start with actually probably the thing that's on everybody's mind, is to the extent that this works, Naveen, you probably saw Jensen earlier. Yep. There just needs to be an entire ecosystem of people that are beside you and around you, whether it's the fabs, packagers, etcetera, What does it take to get from this early version to something that sits in somebody's hand or that people use, and how do you see that path in terms of time and complexity? What does that look like? Yeah.
+
+Timelines, we're within two years of of getting it to a full product. I mean, there's a lot of what is the product? Yeah. A Is it VM that sits somewhere that you guys manage? Effectively, we're we're building a new data center product first.
+
+So it's a whole rack. It's a system. Right. And the idea is that basically we'll run those models on it, and so tokens in, tokens out through a network cable, but the inner guts are completely different than an existing computer. And do you expect that you'll have to move to support the existing model families and existing architectures, and will this work in a world where, you know, we've spent all of this time like, okay, k b cache, and let's all like, this all just so mechanically reductive based on, as you said, these abstractions that we've lived on.
+
+Right. So how do you expect the rest of us to kind of move towards this? Because I mean, I think you see that efficiency curve, we'd all want it. So how do we take advantage of it? Yeah.
+
+So I think there's a sliding scale between, you know, how much better something is and how much pain you'll you'll take to move to it, and you know, I I basically took the the tack of like, let's make it really really compelling to move. There is gonna be some work to port things over. We actually don't port at the operations layer, you port at the model layer. So yes, the existing models will work, but there's a fair bit of compute required to make that transition happen. And very basic elements like MATCMOL, does that exist in your it doesn't exist.
+
+It's I mean, you can characterize it as MATCMOL, but it doesn't implement it as MATCMOL. Okay. It implements it as a sort of time varying behavior. But each one of those time steps you can analyze is basically a matrix of the current state times the transition matrix. And when you're building a team like this, like, who are these people?
+
+These are biologists plus physicists plus what are these people? Yes. Like it's sort of like theorists that that come up with these like dynamical systems theory has been around for a hundred years. Yeah. So we got people from that world, and then we got people who actually build chips, and they don't talk to each other.
+
+They don't talk to each other. So we had to facilitate that. That's actually one of the most challenging things about this company, is the span of talents that we have is so big that getting them to kind of all coordinate and build one thing is actually pretty hard. Well, and what is this like CUDA like equivalent, if you will, just to use a bad analogy, that allows these people up here to talk to these people down there? Yeah.
+
+So we actually have built a set of libraries in Python. In Python. It's Python. It's not CUDA, but it's a language of sorts that allows you to kind of express time varying elements that have stochastic behavior. It's incredibly impressive.
+
+It's so ambitious. Thank you very It's great to see you. Great to see you. Amazing.

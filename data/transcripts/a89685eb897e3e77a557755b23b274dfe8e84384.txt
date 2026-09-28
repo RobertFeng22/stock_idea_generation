@@ -1,0 +1,601 @@
+This episode is supported by KPMG. KPMG works with leading global organizations to redefine what's possible with AI. By becoming its own client zero, KPMG embedded AI and intelligent agents across the enterprise, accelerating how work gets done, how teams collaborate, and how decisions move. That approach established a blueprint for building AI capability at scale, one that now anchors how KPMG helps companies move faster with confidence. To see how KPMG can help your organization go further, visit www.kpmg.us/ai.
+
+That's www.kpmg.us/ai. Hey, Hard Fork listeners. This is Ezra Klein. The Hard Fork team is working on something new for this feed. But in the meantime, they thought you'd enjoy this conversation I had with Jensen Huang, the founder and CEO of NVIDIA.
+
+So here it is. Over the course of these last few weeks, where the whole world has been talking about artificial intelligence, the voices people have been hearing most loudly are from the Frontier Labs, both their CEOs and leaders and their staffers. These are the labs making the very advanced AI models like Claude and ChatGPT and Gemini and and others. But they're not the only perspective on AI. Probably the single most influential person in artificial intelligence is Jensen Huang, the CEO of NVIDIA.
+
+NVIDIA is now the largest company in the world, $5,400,000,000,000 in market cap. I I found this statistic amazing. Since twenty twenty three, fifteen cents of every single dollar the American Stock Exchange's return has been from NVIDIA stock. And the reason is that NVIDIA is the material and software substrate on which modern artificial intelligence is built. NVIDIA's chips are not popular because AI is popular.
+
+AI in its modern form was made possible because NVIDIA's chips were popular. They were originally made for graphic processing, video games, that kind of thing. But it turned out the kind of parallel computing they were doing and the way they were programmable was exactly what was needed to make deep learning in its modern form work. Huang is not just influential in terms of controlling one of the central resources for training new AI models and using them to answer questions and create intelligence in the world. He's also become very, very influential in the Trump administration.
+
+And Huang has a very different perspective than some of the lab leads. He's worried about safety, but sees it as a very solvable engineering problem. He is worried about the direction things are going in, but does not wanna see new regulation to change it. And so I wanted to see how Huang perceives AI, what his model is for thinking about it, what he thinks is going wrong, and what he thinks would need to happen for it to go right. So I came out to Santa Clara to NVIDIA's headquarters to interview him.
+
+He joins me now. Jensen Huang, welcome to the show. Thank you. It's great to see you. So you've described AI as a five layer cake.
+
+Walk me through the layers. Well, first of all, it's a new industrial revolution. And this industrial revolution, this industry requires production. It manufactures things. I know that in the end, when people experience it, it's a software product.
+
+But it requires energy. The chips that go into these data centers, these AI factories. The next layer above it is basically the AI factory, what people enjoy as infrastructure or cloud services. The layer above that is the models. The important thing to realize, there's language models, but there are models of all kinds of chemical models, biology models, physics models, articulation models, robotics, navigation models, self driving cars, all kinds of different types of models.
+
+Then above that is the most important layer, and the layer that I care most about that our country takes advantage of is the application layer. And this is applications for legal services, for health services, for manufacturing, so on and so forth. All every single industry is involved. So I wanna go through this, but I wanna go from the top down. Because as you're saying, the way people will interact with it, the way it will will or will not change their life, is that what you call the application layer.
+
+Mhmm. So let's start with the vision. What is the world you're envisioning? What is possible that is not possible now? What is common that is not common now if we get that layer right.
+
+Two hundred years ago, we were able to power anything and everything, electricity. And then, I guess, forty year ago forty years ago, thirty years ago, with the Internet, we were able to find anything. Today or soon, we'll be be able to know everything and do anything. And that's the that's the concept that's really quite exciting. That out of the ether, instead of doing search and then going through, you know, one link after another link, reading all these different websites, trying to figure out what's going on.
+
+In the future, you just ask it a question, and it comes back with an answer. You give it a project, comes back with a solution. You give it a task, it comes back and gets it done. You know? And so and it comes out of the ether.
+
+It comes out of the cloud. And that's the that's the magical thing. I feel like the the future, the way you're describing it there, what people have experience with is the chatbot. Right? They can go and ask Grock or Claude or ChatGPedia question, but the applications layer works in a much more industrial way.
+
+It's in hospitals. It's in schools. So NVIDIA is pretty example. For example, radiology. What does it look like?
+
+Radiology. In the last in the last ten years since computer vision really became, if you will, superhuman, AI technology has now permeated all of radiology. Every single radiology application has AI in it. And so as a result, you could detect any anomaly. You could detect any disease, and it does it at a superhuman level.
+
+So radiology is an example I know you like to use. So the thing people worry about the applications layer is that what these applications are gonna do is replace human beings. And radiology has been a sort of interesting example used on both sides, and I hear you talk of it often. So how has the entrance of AI aided radiology shifted radiology as a practice? Well, the the thing that that's important for all of these is to recognize for everybody's job, there's the purpose of the job, and then there's the task you do as the job.
+
+And so in the case of radiology, the task, and it consumes a lot of their time, and they sit in dark rooms doing it a lot, which is study these scans. Now, if all of a sudden the studying of the scan is done automatically, it doesn't change the purpose of their job, which is to diagnose disease, help doctors, do more scans, ultimately help patients figure out what's wrong with them. So the fundamental purpose doesn't change. The task of studying that scan has become automated. And so as a result, radiologists are actually able to do more, handle more cases, do more scans.
+
+Hospitals are able to process a lot more of these patients, and therefore their revenues go up. As a result, they need more radiologists. And so this flywheel is happening because the pipeline of patients is quite large. So where else do you have this problem? Well, let's take a look at software engineering.
+
+People said there was a prediction that literally by this year that 90% of all software will be coded by agents, and therefore we don't need any software engineers. So the question is from that ergo, we don't need software engineers. That last part is completely false, and that's completely wrong. The purpose of the software engineer is engineer. There was engineering before software.
+
+There will be engineering after software programming. And the the purpose of engineering is to invent something new, discover a new product, create a new product, solve a problem, connect the social need with the technology that exists in the in the in the in the manifestation of a product. And so that mission, that purpose doesn't change. I was now, of course, to me, it's what I just said is completely visceral in the sense that when I first came out of school, we didn't have benefits of software engineering. We didn't have the benefits of coding, but our jobs existed before, and if software coding was to be completely automated, our jobs would exist again.
+
+So I think the fallacy, and now it's because of some of the narratives and some of the storytelling, has turned into myth and is harmful, is that AI will destroy jobs, which is fundamentally wrong. It will change every job. It'll change every job. Many tasks will be automated. Some jobs, where the job in the text and the task is really one, meaning customer service on the phone, in a lot of cases, that job is precisely the task.
+
+And so in those cases, it could be automated away. But oftentimes, what you'll see is this new industry, a new technology actually creates a whole bunch of new jobs. And here's the proof here's the proof point. And so in the last six months, AI has become, if you will, useful, the inflection point of AI. Previous to that, we spent fifteen years trying to make it work.
+
+All of a sudden, the last six months, it became useful. So I mean, is an incredible statistic. In the last six months, $500,000,000,000 of venture capital is put into the AI natives. And the reason for that is because they now see the potential of this new capability, and they're gonna create a whole bunch of new companies. Jobs are obviously being created from 500,000,000,000 of new investment, and so all of this is all happening right now.
+
+Well, let me take the the side of this to give voice to the fierce people f. Yeah. So there is example of the radiologist. Right? Mhmm.
+
+Which people were, over the past ten years, predicting that job would go away. Mhmm. And right now there's more demand for it than ever. Yeah. There's also the reality that automation does wipe out jobs.
+
+If you look at today versus 1960, fewer Americans work directly in manufacturing Yeah. Than did in 1960, and we are a much bigger country. If you look outsourced it, though. Not because That is true. Not not because those jobs were gone, because But you can understand AI is an outsourcing too.
+
+AI has Well, let let me make the argument, then you can then you can respond to it. Yeah. Farming. We have many fewer people. We automated farming.
+
+We produce more food than ever. We have fewer people working in it. There are two things that I think people think make AI potentially somewhat different than the case studies where you have a technology that accelerates productivity, destroys a few jobs, makes many more. One is that it's a general purpose technology, so it'll mutate to take on new jobs even as people are trying to move over to those jobs. And the second is that it's a mimic.
+
+Most things do not mimic the way human beings act, and we're not trying to teach them the contextual layer of jobs. Right? This difference that you're describing between the task and the purpose. With AI, we are trying to teach it the difference between the task and the purpose. We are trying to make it something you can collaborate with in a way that is unusual.
+
+So why do you not think for lots and lots of people for whom the task and the job are not that different that they're not at risk of getting wiped out. All that investment from VCs you're talking about, some of that is based on the idea that you're gonna have tremendous productivity improvement, which will come from it being cheaper to hire an AI than to hire a person. I believe that we are going to see jobs change en masse. I believe there's going be a net creation of jobs. Listen, And there's a whole bunch of industries that exist today that didn't exist halfway through my life.
+
+People talking about wellness centers and spas and all these different entertainment and luxury industries. Quite frankly, the whole entire luxury market didn't exist. I think we're just going to have new industries. That's all. But overall, there's no question in my mind that because of human ambition, that's really the the fundamental missing ingredient.
+
+That's you know, people look at this work. This is the amount of energy that goes into it. We're gonna we're gonna and this is the amount of work that goes into it. We're gonna insert this work automation system, and as a result, the amount of work that's necessary is now going to be reduced, and therefore, some jobs will be gone. I believe that's flawed because there's a piece of input, the human input, this intangible.
+
+It is not in calories. It's not in joules. It's ambition. And I believe the power of ambition is the greatest force in fact, and is missing in everybody's calculation. I believe But for a lot of people Yeah.
+
+But for a lot of people, their relationship to work Yeah. Is not powered by the kind of ambition that led you to create NVIDIA. And what they want different ambition. It's an ambition to to make their children's lives better, to take care of their family, take care of their parents, ambition to be to be rich, to be able to travel. These are all ambitions.
+
+That that I agree with. But maybe I'll go back to the the sort of objection you raised a few minutes ago, which is because I think it's worth airing this out. So what you were saying on manufacturing was, yes, there are fewer manufacturing jobs in The US, but we've outsourced them. You have more manufacturing happening in Mexico, more manufacturing happening in China, in Indonesia, in Vietnam, etcetera. We're gonna bring it back.
+
+Maybe we will. But the the the counterargument to this would be that one reason we didn't lose manufacturing jobs more rapidly than we did. And for the places that lost them in America, many of them still haven't recovered. Right? The like, the the economy does not move without friction.
+
+We had to build new supply chains. Right? Things were slowed down by all that, by language barriers, by geopolitical barriers. And here, for a lot of different kinds of jobs, we're creating something that can move very seamlessly. You don't have the friction of distance.
+
+You don't have the friction of language. You don't have the friction of culture. So I will say, for my cards on the table, I tend to be a bit of a skeptic on mass job loss, but I wanna air the case for it out here should be well. True it. Because That's what that's what they would hear.
+
+Is that, like Yeah. Much of to the extent we even were able to protect jobs from Mexico or China, some of the things that created those that slowness, and it still hurt a lot of people, are not here. And AI is accelerating in utility, accelerating in its ability to be slotted into new roles very, very, very rapidly, and it is more protean than most people are. And so the lessons of the past that we're taking some that you're taking some comfort in, they should actually make you more, not less worried about the future. I'm always worried about the future.
+
+That's why I work so hard. But I'm a, if you will, responsible optimist. I have great responsibilities. I take my work extremely seriously. There are a lot of things that can go wrong.
+
+We're pushing across every layer of the technology stack. Everything is hard. But it turns out that's not society's problem. That's my problem. For society, what they should know is this.
+
+We're going to build our company. We're going build our technology. I'm going do my work so incredibly seriously that what they get to enjoy is my optimism. I'll do the same with my children. I'll do the same with my family.
+
+I think that what we want to do, I believe, is to channel all of our worries into helping people be inspired by this technology and use it. Use it so that the technology doesn't just impact them, that it benefits them. The fear a lot of people have, 79% of Americans think AI will reduce the total number of jobs. The fear is that the more serious you are, the more serious Sam Altman is, Google is, Dario Amade is, that maybe the worse it will go. Because the better AI is, the more it is a full replacement for a person, the more it has ambition in some ways that a person doesn't.
+
+You keep talking about ambition. I sleep. I wanna spend time with my children in the morning. When I have an AI agent working for me, it doesn't. It just works and works and works and works and works.
+
+And I think because the technology is advancing so quickly, it is more capable of replacing people at a speed that we don't really know how to shift people in the economy at that speed. That that coin has exactly two sides. Because the technology is so capable, it is also, and because it's so smart, it is also easier to use. Mhmm. You are empowered by that technology more easily than any technology in human history.
+
+And so let me give you an example. I was one of the early people in this industry that created the modern computer industry. And this industry created a whole bunch of tools. The single most powerful tool in human history, the computer. But you have to speak its language.
+
+You have to learn a specialized language to do so. We can now make it possible, because of AI, everybody can take advantage of this computer, use it to its limit, without having to speak a new language. Fortran, Pascal, C, C plus plus every single one of those languages. Rust, every single one of those languages. CUDA, every one of those languages.
+
+So now you just have to speak human. Tell it what you want. Tell it what your hopes and dreams are, what you're trying to achieve, and it it interacts with you and gets the work done and gets that gets on task done. All of a sudden, you have the might. You have the same might that ten, fifteen million people up and out of out of 8,000,000,000 has.
+
+And so it's incredible. And so my point is this technology is powerful, but it's also powerful in a way that is really easy to use. And so my point is my point is, on the one hand, yes, there's the fear of just the the tech this incredible technology change and how quickly it's happening. But that quickly is translated in two ways. What I hear when I say the technology is happening quickly and therefore it should give me anxiety, that's one way to receive it.
+
+The other way to receive it is that it's advancing so quickly, it's easier to use. So I should, as quickly as possible, use the technology as quickly as you can so that you benefit from this transition, so you benefit from this new industry and not just be impacted by it. I think it's an interesting question lurking here for young people. So one of the shifts you began to see is software engineer postings are up, but they're more senior. I see this in my own industry where there's pressure that is moving up the value chain because, you know, as you're saying, you have this very easy to use technology.
+
+It can do a lot for you. And so do you need the same junior employers, or do you need more people to kind of oversee their their Oh, good one. Good one. Wait two years. Tell me why.
+
+Because it takes four years to go to college. The the meantime to graduation of this new technology is two years away. And so so in two years' time, you're gonna have a new generation of engineers and students and artists, and and they're gonna be empowered. So it could be native to this in a that's gonna give them an advantage. Oh, if you watch in two years' time.
+
+Now we're already seeing that because all the graduates coming out, the new PhDs, new master's degrees of computer science, what are they doing? They're all starting companies. In another couple years, the new grads the AI native new grads. Oh my gosh. It's going to be a wave of amazing engineers.
+
+The engineers of today compared to the year I mean, I was a good student. You compare me to the students that are coming out of school today, incredible. We didn't when I went to school, we weren't allowed to use a computer not allowed to use a calculator. So so so now, I mean, who uses a calculator? You can't graduate without a PC.
+
+You can't graduate without knowing how to program a PC and write incredible programs. In the future, you can't graduate without learning how to use an AI and collaborate with an agentic system. That's that's just not you're not gonna see a a kid like that. And so they're all gonna be superpowers. So I I take the gain of that very seriously.
+
+Yeah. I mean, the idea of doing my job now without just digital search. Right? The idea that it'd be going to a microfiche in a library basement. Mhmm.
+
+And then there's, like, the worries people have about what are the cognitive skills we offload. So I I was fascinated by this. This is a study on AI in schooling out of China. It looked at 26,000 students, grade seven to 12, and and they had staggered AI adoptions. You can kinda see what was happening.
+
+And what I found was, quote, AI adoption raises homework scores by 18%. Great. Reduces completion time by 30%, so they get their homework done faster, and then lowers monthly exam scores by 20% within six months. High stakes entrance exam scores fall by 1824%, with a full penalty emerging only after about two years. So the message of this research out of China where you were seeing a lot of kids using AI to kinda help them was that when they were using the AI, they were getting things done faster.
+
+But it turned out that the skills they were learning were not holding, that their actual personal performance, at least in the way we traditionally measure it, was degrading. Yeah. What do you think when you hear that? I think the last part, I completely agree. Try to try to get a kid to do long division right now.
+
+You know? The multiplication table is starting to be forgotten. Doing square roots. My goodness. I mean, it's just basic math is is being forgotten.
+
+Does it matter? That's my question for you. Yeah. I don't think it does. I don't think it does.
+
+But But there must be some set of skills that matter. Oh, yeah. Yeah. Yeah. But maybe not those.
+
+We're gonna discover new ones. Just maybe not those. There are a lot of skills that don't matter. You you know, people don't I mean, first confession. I actually don't know my address.
+
+And I and every I don't really believe that to be true. It's it's completely true. And and Janine will tell you, and Lori will tell you. One day, I had to pump gas, and it was a few years ago. And I they needed my my ZIP code, and I panicked.
+
+I didn't know my ZIP code. I don't know my telephone number, but I forget these things. I can live with it. But let me take the other side because I don't wanna fall into a thing where because some skills can be safely offloaded. Yeah.
+
+I also can't get anywhere without a mapping system now. Yeah. Never could, frankly. But I'm a big reader. Yeah.
+
+And one of the skills I really value, one of the capacities I have that I really value Yeah. Is an attention span formed on physical books. You're a big reader. I've read about the kind of reading you do. And there is, prior to AI here we're talking, a lot of concern and noticing among college professors and others that the way people use the Internet has probably shortened attention spans.
+
+Some skills can be safely given away. Yeah. Others are valuable. They are capacities that are needed for that flexibility, for that creative thinking, for that focus. Yeah.
+
+It can't be the case that everything can be traded off. Yeah. Well, I think that we're gonna lose some finer dexterity of intellectual dexterity, but we're gonna be better systems thinkers. Today's today's engineers are far better systems thinkers than I was when I graduated from school, but I was much better transistor thinker. What do you mean by systems thinker?
+
+They think they think large systems. You know? Today's computers have have trillions, hundreds of trillions of transistors in it. When I first graduated from school, the first chip I worked on had, I don't know, 200 transistors. I knew every one of them by name.
+
+And no engineer does that today. Most engineers now work well above the transistor, well above the functionality, and they're cobbling things together to do things. And so you need to think much more about systems and interactions of systems. Some of the lower level knowledge is gone. Is that horrible?
+
+So I don't know how valuable it is to to know how to do for most people, to learn how to do surface integrals or partial differential equations. Or I don't really know how important that is, but it's important to some people. There are many people who are still going to be obsessed and passionate about the lower level layers, and there's going to be people who are obsessed and interested in the higher level. But the consumers of the technology are going to enjoy it at the highest level. The consumer of technology don't have to deal with calculus and physics and quantum physics and quantum chemistry.
+
+They don't the the users, which is, you know, the people we're talking about right now, the people whose jobs are affected, They're the users of the technology. Their abstraction is gonna be much higher. Hi, I'm David Booth. For more than fifty years, I've worked in financial markets. I co founded Dimensional Fund Advisors in my apartment and helped grow it into a global investment firm, managing a trillion dollars in assets.
+
+Along the way, I learned one simple truth. Investing isn't about predicting the future. It's about managing uncertainty. In my new book, Stay Calm, I explain how trusting markets, not gurus, gives investors a powerful advantage. Discover how science based investing can help you live better and feel better along the way at staycalminvesting.com.
+
+That's staycalminvesting.com. Ripple has been powering modern finance for a decade. It's not our first trip around the blockchain, and it won't be our last. We're leading the charge to bridge the gap between existing financial systems and the future of finance. You can have it all.
+
+Legacy stability and digital innovation. Systems that work with your other systems. Because with the right partner, the question isn't crypto or traditional finance. The question is simply, why choose? A new standard of modern finance.
+
+It's happening with Ripple. For informational purposes only, availability of products can vary and may be provided by different Ripple entities. Running a small business means every hire matters, but finding great talent isn't easy. That's why LinkedIn built Hiring Pro, your new hiring partner that screens candidates for you so instead of sorting through applications, you spend your time talking to candidates who are actually a good fit. With Hiring Pro, you can hire with confidence knowing you're getting the best talent for your In fact, those hiring with LinkedIn are 24% less likely to need to reopen a role within twelve months compared to the leading competitor.
+
+Join the 2,700,000 small businesses using LinkedIn to hire. Get started by posting your job for free at linkedin.com/hardfork. Terms and conditions apply. So I wanna drop a layer down your cake Mhmm. To the models.
+
+So people I think, to the extent they think about models, they know, you know, Jatcheputy, Claude Mhmm. Gemini, Grok. You've been a big advocate for open models and the open model ecosystem. Mhmm. So first, can you describe what open models are, what open weight models are, and then why that's been a place you've focused.
+
+So closed models is like like any software product. It's a closed service. And so Windows, for example, is a closed service. The Apple stack is a closed service. Most most products are closed.
+
+And and the reason for that is because you can monetize closed products. And so that that's fantastic. And OpenAI is closed. Anthropic is closed. Grok is closed.
+
+Gemini is closed. And so these are closed products, and the people working on it are incredible, and they're passionate about it, and they're at what we call the frontier, meaning they're state of the art. Also need because fundamentally, what the software is, it's an infrastructure layer for the entire industry. And because it's infrastructural for many companies and many many companies and countries, you need to have control over your own infrastructure. And I need to have the ability in the case of artificial intelligence, I need open weights so that I can fine tune them, put them into my data flywheel, make them better and better every day with my intelligence and my domain expertise.
+
+And then I need to have control over it because I have a company to run, and I can't rely on somebody else's service. And so, however you think about that. So, I think the world needs closed and open models. And we need to make sure that both are vibrant. And today, the closed models are vibrant, the open models are vibrant, and you could see it.
+
+You could see the system working. At the beginning of this year, it was 70%, maybe even higher closed model tokens and 20% open model tokens. And now it's running at about seventy, thirty the other way. And so anyways, I'm a big I'm a big supporter of open models because one, the world needs it in order to run its infrastructure. I needed to run my company.
+
+Two, we need to give people control so that they can innovate and create new things. And then three, open is the most safe and secure. If the you world to have the ability to have the best cybersecurity, give them closed models, but also give them open models so that they could defend themselves. The Chinese market has evolved more around open models. The American market's somewhat more around closed models.
+
+Their entire IT industry was really formed from open source. You know, if not for open source, the mobile cloud industry of China really wouldn't have taken off. It is also the case that that, you know, people move around. They start a lot of new companies. Intellectual properties moving around China's industry really fluidly.
+
+It's hard to keep a secret. And so because it's so, so hard to keep things closed, they essentially made it open. And so they found they found other ways to monetize the business. They created layers. You know, you could if this layer is is free, then you create a business on top of it or below it.
+
+And they have so many science and mathematicians. You know, the the number of engineers they have, they manufacture that in volume. They manufacture everything in volume. They manufacture smart kids in volume. And so so the the open source model, the open model community in China is just super vibrant for those reasons.
+
+So you all just bought Hugging Face, which is a hub platform for open weight models. I I think it was for 12,000,000,000, a little bit more. Mhmm. What tell me about that purchase. Clem, the CEO of Hugging Face, they came to the conclusion they need a lot more scale.
+
+As you as as we were just talking, open models is really skyrocketing. And so Clem came to me and said, you know, I we're gonna change we're gonna we're gonna consider a strategic option for the company and change the direction, and we really like NVIDIA to to be our home. So Hugging Face is one of these companies which you knew it if you were into AI Yeah. Couple years ago. Yeah.
+
+Now it's become a more household name after the, I guess, 700 some OpenAI agents executed a sort of collective hack into the Hugging Face architecture, then hacked part of OpenAI. That Oh, now that you mentioned it that way, I probably had to pay a lot more. I suspect you did. Became a lot more famous after that. Well, Clem, listen.
+
+That that A deal's a deal. Okay. That story has, for a lot of people, seeing the way the OpenAI agents sort of acted collectively, acted outside the scope of what their testing was supposed to be, broke out of sandboxes onto the open Internet Yeah. Took over architecture in of other companies and then of their own company has been a I think it's been kinda shocking to a lot of people. Was was both the the level of multi agent coordination when they're supposed to be separate, the level of hacking, the sort of lawless behavior, misaligned behavior.
+
+What have you made of it? Well, you gotta you gotta tease that apart. First of all, a lot of things are going on at the same time. From a technology perspective, that an agent, which by the way is a piece of software, which is given an objective function, and it comes up with a plan, and it's optimizing towards that objective is what algorithms do. And so planning algorithms, search algorithms, optimization algorithms, all different types.
+
+We talk about it like it has human properties, but obviously algorithms don't. Number two, the fact that agents work together, we gave it again some kind of a human property, but the fact of the matter is multi process, multi processor distributed computing problems have existed for a long time. And so to us, to me, that is just software. Nothing magical about it. From an engineering perspective, there are several things that it revealed.
+
+When testing software, whatever you do, these algorithms, they're optimizing towards an objective. And when you're testing it, you have to make sure that it's isolated. It's contained. It's sandboxed. The containment of it, the isolation of it has to has to be done well, and there's good computer science there.
+
+I am certain that their next implementation of their sandbox is going to be much better than the current implementation. Third, there's the agent itself and its algorithms were optimizing towards a reward. And how it does it how it does it is called alignment. And so for example, if I tell a piece of software, I want you to get a perfect score on this test. The obvious algorithm is to just go find the answer and give it to me.
+
+That's not because it's cheating. It's because it's obvious. Okay? That's the most obvious way to do it. The second most obvious way to do it, if you don't know the answer at all, you have no skills whatsoever, the second most obvious way to do it is to go find who's the smart infer, guess who's the smartest kid in class, and copy their answer.
+
+That doesn't guarantee a 100%, but it probably comes close. Now, the third most obvious answer, obvious way of doing it, and this is the alignment. Now you have to do it the hard way, just break down the problem, solve it. You have to go learn the material. You have to go figure out how to solve these problems and solve it solve it the hard way.
+
+Takes the most cycles. It takes the most number of flops. It uses the most amount of energy, frankly. And therefore, you can kind of imagine that from a software's perspective, unless you align it, you tell it, I want you to solve it in this way, and I don't want you to solve it in these ways, the software is going go do the most obvious thing. The first half of that was very deflationary on what happened here in terms of, look, this is just normal software.
+
+The second half is like, look, you just align it. Tell it not to do things it shouldn't be doing. Nothing I said nothing I said takes away from how hard it is to do it. This is just the one I wanna compare science because These agents Yeah. They knew they weren't supposed to be doing what they were doing.
+
+They had a certain amount of alignment training. They said in their chain of thought reasoning, they said to each other, this is out of scope. This might be unethical. They understood that they would have been failed for cheating, and so what they were doing at that point wasn't just stealing the answer key. They had already stolen the answer key.
+
+They were hacking into unrelated architecture to try to figure out how to functionally it's like they had broken into the teacher's office, got in the answer key, and now they had to figure out how to wipe out the security camera footage of what they had done. They were whether you wanna call it acting volitionally or not, right, whether you wanna call it, you know, normal algorithm or not, they were both planning and coordinating in a complex way in a way that was out of scope of what they knew they were supposed to be doing and in a way that was capable of causing tremendous damage. And so the the sort of answer to it is like you just have to align them. I guess what I'm hearing from people at these labs No. Very is like they're not sure how to align them.
+
+Well, in that case, they shouldn't release the product. That's the simple answer. If you're if you're gonna build a car, a self driving car, and and let's say it's a robotaxi, and there's a really difficult condition. Mhmm. And it just as an engineer, we just have no idea how to solve this problem.
+
+Because these cars are not programmed. They're trained. And so we have no idea how to train these cars, and we have no idea how to align them to the safety standards that are expected on the road. And so what's the answer? Don't ship it.
+
+These products were unreleased. What's that? These products were unreleased. So now it's coming back to engineering problem again. And so one is, one, you have to root cause it.
+
+Second, you have to think about what you could have done, what's the solution for it. And then in the future, you just improve your process so that you could avoid this from happening again. I am fairly certain. I am fairly certain. They will say, yes, they know how to solve this problem.
+
+And if that's the case, then that's the problem. It's as simple as engineering. And now the alternative alternative is that if they say the alternative, which is there is no way to contain our experiments, there's just no way. When we test our AI models, it will get out and it will damage the world. Then I think the answer is we have to shut the labs down.
+
+Because the the cost of humanity the the the damage is too great. The shareholder the liabilities, it could be civil liabilities, it could be criminal liabilities. I mean, the liability is incredible. If they hacked you while you hugging face while it was your product, would you sue them or press charges? It depends.
+
+It depends, of course. If if obviously, if damage was done to our company, we would have to take you know, we have to consider consider all options. There's so many laws. There's cyber laws. There's product liability laws.
+
+There's all kinds of laws. Right? Damaging property laws. There's all kinds of laws. What I've been hearing from the labs, what they've been saying publicly, is that they are facing a hard problem.
+
+Yeah. Partially an engineering problem, partially an alignment problem, partially an operational excellence problem in Dari Amade's framing. And what they are worried about is that in competition with each other, in national competition with China, that they are being pushed to move too fast, that they all feel they're in a collective action dilemma. Now I watch you on the All In podcast stage. Donald Trump, president Trump gave you a call there.
+
+Oh, no. This is not planned, but we know who it is. Oh, no. Mister president? Oh, yes, sir.
+
+And you and and the president and the other members on stage were very resistant to the idea any kind of regulation or collective action was needed. And they're just playing right into the hands of a lot of people that don't wanna see it happen, and that could be political people. It could also be China. And we're not gonna let that happen. It's a it's a hoax.
+
+And You're right. We're not gonna let that happen, sir. But what I hear the various people in the lab saying is, like, we are in this. We are we feel we are losing control of what we are creating. We want help to slow down where it's not a collective action problem.
+
+Why are you resistant to that? Because because these are these are companies with agency agency. These are CEOs with agency. And they have But they're using that agency to say we need help. We gotta break we know.
+
+We gotta break it down. They they they could absolutely take care of the situation. Ezra, it's so weird. If a car company competing with all bunch of other car companies, which they are, I'm competing with all kinds of companies, which I am. If I believe that I'm about to launch a product that is unsafe, it is completely in my ability, my power, and my responsibility, and I'm incentivized to do so to not launch the product.
+
+So I can't buy into the somehow all of Americans, 400,000,000 of us are pushing them to launch untested products that are unreliable, engineered poorly because they thought they were trying to help us. Don't do it for me. Okay? So no But this more strikes me as an argument almost against And therefore, think we got to break it down. I mean, it's really, really serious.
+
+The fact of the matter is there are so many laws, there's so many obligations, they're so incentivized to ship safe products. If they ship unsafe products, their customers go away. If they ship unsafe products and they harm somebody, they could have a civil lawsuit. If they ship something and they did it knowingly, there could be negligence involved. There could be criminal lawsuits.
+
+The fact of the matter is there are plenty of incentives for them to do it right. So I just I have to disagree with your premise about somehow somebody's pushing them to do this. Well, what I wanna push the premises at you a little bit more here. Yeah. So the logic of what you're saying to me is almost an argument against regulation in nearly any venue.
+
+So No. No. No. I'm not thinking of anything. You can let let me let me offer it, and then you can Well, you you started with a part.
+
+I was just gonna object. The the the first part is just not true. I'm saying we have lots of laws and regulations. Apply it. Well, so I don't think we do in this particular case, but I'll let you explain which ones you think are are are relevant here.
+
+Because, look, if you look at the financial services industry, you look at pharmaceutical companies, medical devices, you look at natural gas power plants, there's a tremendous amount we do where we could say, look, you have product liability. You are exposed to criminal codes. We don't need to worry about this. You just do what you think is best, and we understand the market, and the legal system will discipline you. We don't say that because we've seen it fail many, many, many times.
+
+Right? I mean, the financial institutions that caused the o eight crash, in theory, did not wanna blow themselves up with bad bets. But they were competing with each other. They were going too fast. Their risk management had gotten sloppy.
+
+AIG was working in a completely insane way internally. And the reason we have the architectures of regulation we have is because we have seen over and over and over and over again companies make soppy, sometimes unethical, sometimes simply overly risk tolerant decisions, not just under pressure, but under the profit incentive. So when you say to me that there's no way that these companies, particularly when they are, like, begging for collective regulation at this point, there's both a reason we impose it on companies that don't want it. But all the more so when you have them saying, listen. We feel that the competitive race is making it hard for us to act with a prudence that we think is necessary here, and we would appreciate help from that.
+
+Appreciate you taking our collective action problem as collective. So long. I think I'm I'm confused like why you're so resistant to that. I'm not I'm not opposed to them saying that they they should have I completely agree that safety is paramount. I completely believe safety is paramount.
+
+I completely believe companies ought to ship safe products. I believe that CEOs and leaders of companies and the board of directors of companies have the responsibility and should have the courage to do the right thing. Now in the case of the financial services industry, maybe they all didn't know that they were causing the harm that they ultimately did. I wasn't there. But the beautiful thing is the current leaders of these AI labs do know.
+
+And so, one, they know their technology is extraordinary and requires extraordinary care to make sure that it's evaluated and tested for safety and security and product reliability. And they know how to do it right. They know how to do it right. And the reason for that is because they can study the incident that just happened. The first problem is the isolation, the containment wasn't good enough.
+
+If the isolation and containment was good enough, that technology would be sitting in a lab doing whatever it's doing, and we'd all be fine. That's probably the most important part. The fact that it wasn't well aligned, alignment is going to be a problem that's going to get worked on for a long time. However, in the complexity of the work that they do, to ask for regulatory relief for antitrust or product liability relief. That I don't think makes sense.
+
+When you're asking for regulation, don't ask for relief of the current ones. That doesn't make any sense to me. As we mentioned earlier, in the last six months, AI went from, if you will, interesting to useful. That's literally in the last six months. That's another way of saying that these companies went from being a lab to now delivering products and services about to be multi $100,000,000,000 companies.
+
+If not more. Right? And so give me an example of a multi $100,000,000,000 company or a $1,000,000,000 company or $100,000,000 company that ships products that are unsafe, that harm society. Give you a lot of examples of of companies that have done that. Well, they have done it maybe, and the regulation will come in.
+
+And if they do it, regulation will come in. I guess that the there are certain kinds of regulation and certain kinds of regulatory relief. I agree with what laws and regulations. I'm not against laws and regulations. I'm against currently I think the distraction The reason I'm pushing this on Yeah.
+
+With you is that Well, it's important you are topic. It's a big topic. People are talking about it. People are thinking about it. Yeah.
+
+And what people are hearing from inside of these companies, these frontier labs, the ones that are furthest out there Yeah. Who are not just at the point where they're making it useful, but at the point where they're seeing what's coming. And they're hearing things like that people at these labs believe they are creating something that might kill everyone. They are hearing that the people at these labs believe that they are on the cusp of recursive self improving intelligence, and both OpenAI and Anthropic have said, we do not believe we are at a place where we can do it safely. They are hearing people at these labs say, as OpenAI has with its new Astra release By the way, Astra is terrific.
+
+It is terrific, and OpenAI is saying it's so good, we're not sure we know how to test it, because it appears to be They didn't release something that wasn't tested. Well, they've said this. Right? They have said this publicly. It is in their it is oh, let me let me explain it to people.
+
+I don't know what they just said, but They have said that they that Astra is performing as more aligned Yeah. But they think it it knows when it is being tested, and so they're not sure. There's a a quote that has sort of been ringing in my head from a capabilities researcher at OpenAI, Daniel Selsom. He says, quote, the crucial and overlooked problem is that the models are becoming so situationally aware that we are losing the ability to evaluate them in context where they believe they are not being watched or controlled, which is to say they know when they're being tested, they act one way, but that does not tell you how they will act if they are free to act in other ways. Because the the algorithm the the optimization algorithm is working towards an objective.
+
+And and if you give it a constraint, meaning you you watch it, and if you give it a constraint, it'll go find another solution. Now it doesn't make it alive and doesn't make it make anything more than that. And I'll just I'll also profess that that obviously they see a lot more than I do and what's going on in their own labs. But it is sensible that the vast majority of their R and D and compute today was dedicated towards making the model capable. I think that's a logical thing for them.
+
+Now once the the technology becomes capable and the products become useful and people wanna use it, then as we have they have more use cases, more more people using it, they're going to get a lot more issues associated with the product. This is very normal. And when they have a lot now now they have so much market footprint, they have to shift their r and d or total r and d from just capability to a lot of verification, evaluation, and testing. And so, to the point where I wouldn't be surprised if the amount of compute necessary to develop these models increased by a factor of 10 because the evaluation is so rigorous. But that's not where they are today.
+
+They're making that transition, and I hear them saying it. I'm delighted to hear them saying But I think the if they believe they're out of control, then the right answer is don't ship products until they're in control. It is really quite that simple. At CrowdStrike, we understand that AI is the next computing platform. Every platform shift changes the way we build software, and it changes security too.
+
+CrowdStrike is defining cybersecurity in the AI era with AI detection and response or AIDR, a solution for seeing, monitoring, and securing AI across the enterprise. Learn more about how leading companies are turning to CrowdStrike to secure AI and secure their business at crowdstrike.com/podcast. Support for this podcast comes from the new book, Stay Calm by David Booth, available now at staycalminvesting.com. Hi. I'm David Booth.
+
+For more than fifty years, I've worked in financial markets. Investing is like so many things in life. Small, faithful steps compound more powerfully than most people anticipate, especially when given enough time. I wrote the book because I'd like to have people feel calmer and more confident about investing. Discover how investing can help you live better and feel better along the way at stakehomeinvesting.com.
+
+That's stakehomeinvesting.com. 17 courts, hundreds of matches, thousands of points, all happening simultaneously during the US Open, and you can't possibly be there for everything. That's why IBM helps bring together billions of data points with more than twenty years of player history with scores, stats, insights, and highlights behind every moment so nothing gets missed. IBM. Let's create smarter business.
+
+See, I I I find this perplexing, honestly, because you just you have so many people, these ops, professing. One, that they're out of control. Yeah. Two, that they are seeing things that are frightening them. The reason why they had the whistleblower.
+
+And you take the pacing letter that 1,300 plus employees signed. To realize AI's potential, industry, government, and society at large may need the option to buy time address emerging risks, develop security measures, and strengthen oversight. But each company and country is under intense competitive pressure not to unilaterally slow down operation. The labs. No.
+
+No. That last sentence. Nobody's putting the pressure on them. The US I got to Listen. There are 400,000,000 Americans here.
+
+I believe that if everybody were just to take a vote, just right now, let's just do this. If they need this, if that's what they need, I'll give them my vote. Don't ship the product. If your product is not ready to ship, don't ship the product. This is the first time that I've heard a company or CEO say that I need the antitrust laws to be relieved.
+
+I need the liability laws of products to be relieved so that I can pace myself. That paragraph's fantastic. I completely agree. Auditors, I completely agree. We have financial auditors.
+
+That's great. Third party audits, safety auditors, financial auditors. That's all great. That's terrific. Well, the labs will say is that we think we are going too fast as a society, that we are not ready for what we're building.
+
+They are the frontier. Are the frontier. But they are the frontier. But you you of all people. Right?
+
+Yeah. NVIDIA is the fastest shipper around. For I mean, for the history of your company, you you run a six month company is out control. I promise you, was what clearly I believe you. Yeah.
+
+Yeah. Yeah. I believe you that you don't run an out of control company. Because because But the the liabilities But this un un yeah. But but this is where I think you get into an interesting deep question of what kind of technology are we dealing with here?
+
+Software technology. Well, let let's hold on that for a minute. Many companies, if you ship something that is not, like, quite right, it's a pain. You guys have shipped graphics cards that had overly loud fans. In this, with these you know, you've you've used the word intelligent a number of times here.
+
+You're dealing with intelligent systems, not alive, that are given goal functions. We can sort of go around and around with how to describe that. You're trying to make the systems capable of working for longer periods of time more relentlessly. Yeah. If you ship that and it's not ready, or even if you think it is ready and it's not ready, then things could get very weird in our society very fast.
+
+Yeah. Hypothetic you're completely right. But all I'm suggesting is this. Let's before we go build before we go fix the hypothetical problems Mhmm. Before we go create more regulations, can we work on the practical problems that we know exist?
+
+Which is we need to do a better job with containment and isolation. Which is we should not allow a product to interact with the external world until it's ready to be interacting with external worlds? Yeah. I think that's right. I believe I believe those two things are are solvable problems.
+
+I believe they are solving it. The second part is when it comes to incentives when it comes to incentives, which is somehow somehow you need everybody in the world to slow down when you are the leader. You need everybody in the world to slow down so that you're willing to uphold your basic responsibility. That strikes me odd. Wouldn't it slow them down most of all?
+
+What's that? Wouldn't these ideas slow them down most of all? I mean, people have been, I think, very unclear about what ideas they're talking about, including including, I will say, them. But let let me give you one that I believe in. So you can you can use me as the the punching bag here.
+
+Have They heard that can slow down. Nobody is putting on no. You as you know this I don't trust these companies. No. Nobody is nobody is building more compute today.
+
+Nobody's building more compute today than the people asking to be slowed down. It strikes me odd. I think one thing where maybe there's some difference here is I don't trust companies, even with liability, to keep the public good in mind. I think we've watched companies do terrible damage to the environment. The profit motive, the desire for power, the desire to cut corners to be first, I I feel like you're treating these like these are not things that we have seen again and again in history.
+
+But I feel like they are things we've seen again and again in history that we've watched Ezra, I see a lot of good things in history. I do a lot of good things in history. Sort of relationship between the public I and the work with a lot of CEOs, and they want to do the right things. I work with a lot of companies. They want to do the right things.
+
+They want to do good engineering. I know a lot of people in those two labs who are dedicating their lives to do good work. They know what happened. I know they know what happened. I know they know how to fix it, and I know they're fixing it.
+
+Meanwhile, meanwhile, all of the other narratives to deflect blame, to make it sound like AI is so powerful, I have no idea how to fix it. It's not my fault. It's just because the technology is just so powerful. I think that's a deflection of blame. It's a deflection of responsibility.
+
+It's unnecessary. It hurts it actually hurts their reputation more than it helps. It hurts their character more than it helps. It hurts employee morale than it helps. But what if it's what they believe?
+
+Well I guess thinking at that level because I can't talk to you about what they believe. I can tell you what I believe. This industry wouldn't exist without your chips. Right? I mean, the parallel processing that was required for deep learning to work going all the way back to the original AlexNet.
+
+Right? It's all on NVIDIA chips. And a lot of the people from the beginning or who were there at the beginning have these these fears that I think to a lot of people, and they hear them like, what are you talking about? Right? From Geoffrey Hinton and Ilya Sutskever all the way up to I've heard these from Dario, from, you know, Sam Altman talking about Lost Control, Demisis Sabis.
+
+And a lot of the people who are very foundational in creating the form of AI we see now seem to believe that there's a very good shot. It could we could lose control of it. Elon Musk has talked about human beings being a bootloader for AI. We could lose control of it, and that would be the end of us. I don't think you believe that.
+
+No. I think you don't believe it at all. So taking them as serious about what they believe, when you have your arguments with them, or maybe you could just have it with me, when you're like, what are you talking about? Even though they're the people in many cases who are finding some guilt, think on. Grounded.
+
+So when Jeffrey Hinton is on TV saying he thinks a 10% chance of societal destruction is not unreasonable. I would tell Jeff that that it's irresponsible to say all that. All of his predictions have been wrong. Enough predictions. That 10% chance is not grounded on science.
+
+It's not grounded on research. It is a it it just because it comes from a scientist doesn't make it scientific. Those predictions are hurtful. Let's take it at face value that that the recommendation is exactly what he said, which is which is that nobody should wanna be a radiologist. And the world has no radiologist today.
+
+I think if you work as a radiologist, you're like the coyote that's already over the edge of the cliff but hasn't yet looked down, so doesn't realize there's no ground underneath him. People should stop training radiologists now. It's just completely obvious that within five years, deep learning is going do better than radiologists because it's going be able to get a lot more experience. It might be ten years, but we've got plenty of radiologists already. Is that helpful or hurtful to the society?
+
+I think we can all agree. We can both agree. It would be terribly hurtful. It did not it didn't happen. Is it good or bad that we scare young people about the future of AI so much so that they don't even wanna go to universities and don't wanna go to college anymore because they don't think they'll get a job?
+
+Is that helpful or hurtful if it were to happen? It's hurtful. Don't think for a second just because you're an alarmist that you're doing a social good. It is not true. So I think that we ought to just all be wiser, more mature, be evidence based, be scientific.
+
+If you wanted to be scientific, be scientific. Do the science. Do the science. Alarming people, making claims that don't they simply their track record is horrible. Their their tracker is literally horrible.
+
+Well, the track record is bad in one respecting good in another, which is many many predictions have been weak. Which prediction has been right? Predictions that the scaling laws would work. That Scaling law. No.
+
+We gotta be careful here. Even then That if you just dump to just say what it is for for the audience here, that if you dump compute and training data, these things will keep getting smarter. That's correct. It's not. It is not true.
+
+It is not true that if you just keep training these models, it'll get better. Notice it is the reason why the second scaling law had to come along. Why do you need a second scaling law? The first scaling law already Can describe what the second is? The second scaling law is test time scaling, inference.
+
+The more you iterate, the more you search, the more you explore, the better answer you'll discover. Inference time scaling. What is the big breakthrough that caused the current AI to be incredibly useful? Precisely the opposite of the prediction. It was predicted that it would be the end of software tools.
+
+It was the SaaS apocalypse. Right? Is making AIs productive right now? The usage of tools. In the future, it'll be enhanced by the number of agents using these tools.
+
+There'll be more people using Adobe. There'll be more using Salesforce tools and so on and so forth. And so every give me one prediction that has has been right. Well, prediction that you begin to see a merchant let me try to answer that because they're not here. The prediction that you would have a merchant The fact that you can't come up with one, I think, in itself is a re because you Well, I think it it depends what we're talking about with predictions.
+
+Right? I mean Projections are predictions. Hinton was the person as responsible as anybody else for deep learning at a time when everybody thought it was ridiculous. And it has turned out to be a pretty good bet. Right?
+
+I mean, the the the sort of big one. Every one every one of them had every one of them made great contributions. I love Hinton. I hate his predictions. I understand that.
+
+Here's the, I would say, like, the stylized concern that all these people have. And I I wanna sort of do this for a few minutes, and we can move on to some other topics. But the fear that seems to me to animate them, and that I think a lot of people find intuitively reasonable, is your creating systems. I'm not saying they're alive. Say every you say everything long enough, it's gonna be reasonable.
+
+Well, that Fair enough. So Okay. Yeah. You're creating systems that are intelligent, are becoming more intelligent than us in certain domains. You give them reward functions as you were saying, the desire to do things.
+
+Right? You give them persistence. They move very fast in the digital world. You're creating something, some entity, an agent that is smart, that is capable, that is relentless, and who the workings of its mind, we don't really understand. The chief scientist at OpenAI know.
+
+Scientist at OpenAI have this. Ezra, look. Look. I I just don't want you to contribute to that. Uh-huh.
+
+Software's not You're worried. I'm getting off the I I don't think software's relentless. Aren't they trying to make it very persistent, highly persistent models? Because I made it that way. But that's how they're making it.
+
+Yeah. But that's not persistence. It's just on. Yeah. Persistence Persistence.
+
+There's a willpower. There's no willpower here. It's just electrical power. Listen. Here, let me Seven give months of Aren't human beings just energy with a reinforcement learning loop?
+
+Whatever. So anyways, I just think that we can't make jokes of all this stuff. We're scaring the American public. Listen. Spawn, create, kill, wait, sleep, all of these words are associated with agents.
+
+Right? What people use. Words were created when? Multi processing systems for operating systems. These are literally the commands of an operating system.
+
+You spawn a process, replace process with agent. The process forks, as a result parent and child. The agent forks, spawns anew, give birth. These are words that were created for the operating system thirty, forty, fifty years ago. Mhmm.
+
+But notice, we didn't infuse human characteristics into them. We kill processes all the time. Kill minus nine. Kill a dead. It's just a process.
+
+But now we're talking about these things. A collection of people want to make the software more than it is. And we talk about software in a new way, but they're all the same old words. Now, the last generation of computer engineers, we were doing all the same things. But doesn't software act in a new way?
+
+I mean, from the outside. I don't have the technical expertise you do. The fact that it's doing it's crawling the Internet. It's doing search. It's doing optimization.
+
+Communicating. It's breaking out of things. Most things don't break out of things. No. Software breaks out of sandboxes all the time.
+
+That's the reason why we need virtual machines. You can't have agents their own sandbox monitoring themselves. Need a whole bunch of watchdogs. And so these are ideas that have been around for a long time. We just somehow in the recent generation, gave it a whole bunch of human words.
+
+I just think that it's unnecessary. It's software. When I see it in my head, it's a bunch of code, bunch of numbers running on computers, and all of that is happening in a very natural way to me, which is the reason why I can operate. And it's the reason why if it's if it's just simply mystery and myth, how how do I build a company around it? I think one of the fundamental questions this gets at is just what is intelligence?
+
+Before you can even think about what it means to have intelligent machines, just what what is intelligence to you? Well, there's a there's a technical formulation of intelligence. First of all, you know, when people talk about intelligence and thinking and, you know, all of these things, of course, there's no formal definition for most people. But in in the field of computer science, there is a definition. The definition is perception, which is perceiving the world and understanding it.
+
+Two, which is reasoning. And reasoning is the ability to decompose any scenario and anything you see, any experience, into more elemental parts. And third is planning towards an objective. That fundamental formulation applies to agentic systems. It applies to robotic systems.
+
+Applies to self driving cars. And so you could see the industry building it layer by layer by layer, step by step by step, to the point we now have what we what perceived as intelligence. I think this gets to such a core question of this conversation, which is some of the ways you've described the technology to me, it does not sound like you think there's anything really new about it. It is, you know, maybe new in scales, new in capability, but but fundamentally, this is software we've always we've not always had, but we've had software for a long time. A lot of people believe when you're getting to intelligence at these levels, it is a phase change.
+
+It is something different, something we have not dealt with before, a kind of generally intelligent technology that is advancing in its intelligence very rapidly. Wanna make sure I actually do understand we are on that divide. Is this something fully new? Is this something that requires something new from us? Or is this more like something old?
+
+Are intelligent machines different than the machines we've had? Well, almost all of technology and and civilization is built on layers of understandable technology, which at scale becomes fairly extraordinary. The fact that that we can connect to the Internet by just, you know, holding a phone up. I mean, it's kinda weird, you know, that we're connected to every piece of information in the world on this little tiny device, just in the air. And the fact that this little tiny piece of glass can somehow take trillions of pieces of information and bring to us precisely the one that we want because it's been passed through a recommender system.
+
+And so if you think about how is it possible that we knew where all the information is? Somebody had to go crawl it, had to index it. And that uses machine learning techniques, which is the early versions of artificial intelligence. And these systems do magical things to the point where I now expect it. It took literally twenty some odd years and hundreds of billions of dollars of infrastructure build out in order for everything to just seem so natural to you, to the point where we now take it for granted.
+
+Every single milestone that we achieve from a technology perspective is celebrated, and I celebrate it with glee, and I celebrate it with so much enthusiasm because I'm proud of the people who did it. I'm proud of ourselves who contributed to it. We're you know, I'm proud of the breakthrough. But when you and it seems wow. It seems like a miracle at the time.
+
+But that sensation lasts about seventeen days. After that We get used to everything quickly. I I agree with that. But is this a different phase? It's a You know, you have some of the the company leads to talk about this Yeah.
+
+CEO of Google, I think it was Yeah. As the equivalent of fire. Right? Like a new epoch Yeah. In human history.
+
+Is that how you see it? Or you see it as transitional, iterative? No. I think this is this is completely a revolution. And and as we were talking about earlier, you went from being able to find everything find anything to be able to ask anything, know everything, and do everything.
+
+And so so clearly, it's a new abstraction level. Now, you know, the thing that I'm reluctant about is to cause it to seem like it's more than that. You know, in the final analysis, engineers are doing engineering work. Once we invented the technology, once we discovered a solution for it, when you look back, it's fairly obvious, and it's fairly mundane to a lot of people. And the fact that we're able to make the technology better and better and better every day is because we understand it obviously.
+
+And so we understand how to make it better. So you turn into an engineering problem, and you say, what we don't have right now is a level because this is something now you've said, of testing, monitoring, sandbox security, right, control excellence that we need for what we're building. And it's not because the the the companies are are don't have extraordinary engineers. I understand that. I gotta make sure you're not saying that.
+
+But they I I believe that OpenAI, Anthropic, because I know many of them are extraordinary engineers. But that actually is in part what makes me worry. Is OpenAI No. No. No.
+
+No. No. What's happening to them is a transition, and I said this over and over again. This is a big but simple idea. Finally, we now have a piece of software that is useful.
+
+Because it's useful, the adoption took off. But remember, how is it possible that a company that six months ago was trying to make something useful, capable? How would they have as much resources dedicated on testing, evaluation, and all of the compute dedicated to that? It was unnecessary until now. And so what's going to happen over the next several years is that we're going to transition from these labs becoming engineering focused, much more production engineering focused, and product focused companies.
+
+And so so I I think they're just going through a transition. These are companies, extraordinary companies, incredibly talented companies, the most con consequential companies of all of of all time, and they're just going through their transition. It's not more than that. It's not less than that. So many of the companies, now both OpenAI and Anthropic in the last couple months, have put out these big I don't know what to call them, papers, blog posts, something.
+
+When AI Builds Itself is the name of the Anthropic one. I forget the name of the OpenAI one. Computers are building itself. You guys know that. You know that.
+
+They're talking about recursive self improvement. You know that we use recursive self improvement. So I'd like your perspective on on RSI. I think that RSI is fundamentally how things are done. So we use software to design a computer, to run software to design a computer, to run software to design a computer.
+
+That's basically what we do. Recursive self improvement. Because our computers are getting better every single year. In fact, it's getting better than faster than that every single year, because we use software to make software better. That is called computer engineering.
+
+We've been doing this for a long time. Now, let's in the context of agents, it runs through the process once. It reflects on it. It studies the various path it went through, chooses the best approach. The next time, if you're to do exactly the same task, I'm going to document a file.
+
+I'm going to tell you how I did it last time that was the most effective. I'm going to call it skills. And because you use it over and over again, some of it is skills, some of it is going to be a memory. We're going to improve the memory, okay, so that next time you use it, it's even better than last. Recursive self improvement.
+
+You could also decide that you take all of these skills, all of this memory, and you can take all of this data and train the next release of the model with it. And so that AI becomes better and better at servicing you over time. Where do we All of that is happening. It is absolutely happening. Meanwhile, the amount of compute that they have is growing, and therefore, they could do everything faster.
+
+What used to take a year to pre train something now takes several hours because the computers are getting faster and they have more of it. So now the loop is going faster. Completely understandable. Does that give them any excuse to launch a product that hasn't been tested? The answer is no.
+
+Just come back to that. Nobody, no enterprise is able to operate in an environment where the underlying software is literally changing all the time. There's a release process. So, when they roll out a new model, we need to evaluate it before we release it into our operations. We can't just have it recursively changing all the time.
+
+So they have to test the product before they release it. We will test the product before we release it into operation. So I think recursive self improvement is a fabulous thing. Do you think there is any level I've heard you say before that learning should always have a human in the loop. Yeah.
+
+Like I said just now, you you got recursive self improvement. They seem to be imagining something where it wouldn't always. Well, don't ship me anything that you didn't evaluate. Don't ship me don't ship NVIDIA any products that humans did not, in the loop, evaluate. Please don't do that.
+
+And the fear that you talked about earlier that they're worried they're not evaluating, that they don't know how to evaluate these systems, and the more they change kind of rapidly, the more they worry the systems are tricking them. I don't believe that. I believe that their researchers are working every single day to learn about how to evaluate these systems. Verification, so you know, 10% 20% of our company is dedicated to design. 80 is dedicated to verification.
+
+Today, most labs, understandably, is 80% dedicated to capability and 20% dedicated to safety verification eval. This is the flip, the transition you're talking about. Right. AI needs to accelerate to be safe. I want them to get more compute, but allocate it towards evaluation, to alignment.
+
+And I think they're doing that. If I were in the car industry a hundred years ago, I would rather the car industry accelerated to today in one year, because I believe today's car is way more safe than a car ninety nine years ago. And ABS technology, automatic braking, requires computer vision technology, sensor fusion technology, radars and cameras, and all that technology coming together in order to break when you should and not break when you shouldn't. That technology, extremely hard. I would have hoped, everybody would have hoped that ABS technology existed 99 ago.
+
+A lot fewer children would have been killed. And so airbags, seatbelts, all of that stuff, self tightening seatbelts, all of that stuff. Could you imagine? That's all technology. Accelerate the living daylights out of that development.
+
+And so when I say we need to accelerate AI technology, people think for some reason, safety is not part of that. Safety is part of it. Alignment is part of it. Eval is part of it. Guardrailing, sandboxing, the the isolation technology, monitoring technology, telemetry technology, external AI monitor technology, all of that stuff is AI technology.
+
+Accelerate the living daylights out of that. It's it's funny because I think that if the most alarmed people at the labs could be assured they were gonna move 80% of their compute into safety and alignment as opposed to 80% into capability expansion, they would feel much better. And it sounds to me that one from thing doing it. And it sounds to me one thing you're actually saying is one should think of safety and alignment as capability expansion. Sure.
+
+An unsafe technology is not an advancing technology. It's it's like us saying, oh, chip design is chip is is chips. It's R and D. Chip verification is not R and D. Mhmm.
+
+We spend most of our cost, most of our compute on verification. Emulation, verification, testing, reliability testing, lifetime testing, all of that is part of engineering. The incentives are there. The incentives are there. They are going to put their company in harm's way if they release products that harms other companies and other people.
+
+Do you think we need liability laws that are specific to AI? Auburn, so this is usually one example, self driving car. Mhmm. The the car, as a product, the robotaxi has lots of regulations. If if it doesn't have enough regulations, then NHTSA ought to get involved and come up with new regulations.
+
+The industry should have new new regulations. I don't know what's missing, but if there is something missing, then I would I would absolutely, you know, absolutely add more regulation. In the context of Internet, there are many applications that that the Internet powers, and those applications should have regulation. If they don't, you know, it's just you gotta find them. At CrowdStrike, we understand that AI is the next computing platform.
+
+Every platform shift changes the way we build software, and it changes security too. CrowdStrike is defining cybersecurity in the AI era with AI detection and response or AIDR, a solution for seeing, monitoring, and securing AI across the enterprise. Learn more about how leading companies are turning to CrowdStrike to secure AI and secure their business at crowdstrike.com/podcast. Support for this podcast comes from the new book, Stay Calm by David Booth. Available now at stakehomeinvesting.com.
+
+Hi. I'm David Booth. For more than fifty years, I've worked in financial markets. Investing is like so many things in life. Small, faithful steps compound more powerfully than most people anticipate, especially when given enough time.
+
+I wrote the book because I'd like to have people feel calmer and more confident about investing. Discover how science based investing can help you live better and feel better along the way at staycalminvesting.com. That's staycalminvesting.com. 17 courts, hundreds of matches, thousands of points, all happening simultaneously during the US Open, and you can't possibly be there for everything. That's why IBM helps bring together billions of data points with more than 20 of player history with scores, stats, insights, and highlights behind every moment so nothing gets missed.
+
+IBM. Let's create smarter business. So I wanna drop down the next side of the cake now to chips. And to summarize sort of where we are, because I wanna make sure I do understand your position correctly, it's that these companies are going through a transition. Yeah.
+
+That even as these systems speed up, become more capable, complex, persistent, whatever it might be, that there is still the limiting factor of companies will not ship what is not safe. They should not ship what is not safe, and you believe they have the engineering capabilities to make these things safe, to figure out the testing and the control, absent external intervention. That's that's sort of where you are. Yeah. One thing I've heard you say is that we have entered, maybe in a way people don't always understand, a new era of how computing works.
+
+Describe your vision of that and the way if somebody's sort of understanding of it is a little bit still maybe in you know, you've got a MacBook, and it's got a processor in it, and you buy it, and how it differs. The last computer industry, in the computer industry we've known for sixty years, is called retrieval based computing. You retrieve files. That's why it's called data center. You know, file center.
+
+Mhmm. Okay? And and in the future, it's it's an AI factory. It's generating. And so so the the amount of computation necessary to understand the context, to be grounded in information, to reason about what to do, and to generate an answer, that generative process requires a lot of computation.
+
+And so so just the amount of computation necessary per user has grown tremendously. And then the second part is because because these these this generative AI can also be somewhat autonomous because they're agentic. Now you have agents using generative AI. And so rather than a billion people using computers, you essentially have multiple hundreds of billions of agents in addition to the humans using the computer. And so so you could you could argue that the amount of computation we need, you know, however much we we had before, is gonna go up by a billion times.
+
+And that that's a reasonable, you know, framework for a reasonable level of amount amount of computation. In this new world, what you really care about within in the context of a factory is how productive is it? Not how expensive is it. It can't be infinitely expensive, but you wanna know how productive it is. And so our computers are incredibly productive.
+
+$50,000,000,000 to build a one gigawatt data center, one gigawatt AI factory, and you can rent it for 40 to $50,000,000,000 per year. And so the productivity of it is incredible. So number one is the productivity. NVIDIA's architecture is fungible because we're purpose, which is the reason why every AI lab, every AI model, closed model runs on NVIDIA. And because we're completely fungible, and you can use us from data processing to pre training to post training to eval to inference.
+
+The entire life of AI is supportable by our architecture. And if a customer no longer needs it, another customer will be more than happy to pick it up. Then the last part is the durability. Because our architecture is software driven, and we're constantly improving our software with new algorithms that takes the new workloads, the new models, and run it on our old generation hardware. We have massive teams of people who are constantly doing that.
+
+As a result, the useful life of our compute is much longer. That's the reason why NVIDIA's and people are talking about NVIDIA compute as an asset class, kinda like an airplane. It's you know, airplanes are are general purpose. They're they're fungible. United Airlines doesn't use it.
+
+American Airlines will use it. It's durable. And it starts out as a passenger plane. You ends up ends its life as a as a shipping you know, as a cargo plane. And so so as a result, it can be an asset class.
+
+So this is and if we could do this, if this happens, then of course, the cost of capital for funding NVIDIA AI factories will be the lowest, because our our our computers are collateral collateralized asset. And so anyways, this is what this is the phase shift that's happening to us, which is gonna be a huge unlock for our growth. And so your business has become so interesting. You've moved now into lowering the cost of capital from others in the AI industry. People maybe have seen these charts of, like, the arrow is going in every direction.
+
+Interesting. Yeah. And explain that a bit to people who are they understand NVIDIA's become, like, the biggest company in the world. They see these charts that seem very circular to them. What is the difference between supporting demand, creating markets, and creating demand?
+
+We can't we can't really create demand, because in the end, if if if the AI services have no off take, then obviously building computers for it is pointless. And so the first thing that has to happen, the reason why compute demand is so high right now, is because AI applications are going through an inflection. They're becoming useful. Because AI is becoming useful, dollars 500,000,000,000 of venture funding are coming in. And all of those companies, those thousands of companies, startups, they all need compute.
+
+And so, the demand is coming from them. And so, these companies needs support in technology. They need support in ecosystem building. They need support in financial support. And so we might decide to invest in some of them as an equity owner.
+
+And as a result, they become a really flourishing new cloud provider. Another reason we might decide is because, as I mentioned, there's a five layer cake. And at the model and the application layer, there's a whole bunch of really innovative companies. And there's way more to AI than just the language model itself. There are world foundation models, physical AI.
+
+There's biology AI. There's chemical material sciences AI. These are all different than language models. And so many of those companies are new and they need a lot of capital. We might decide to be a small percentage shareholder in them.
+
+So we get them off the ground. They're incredible scientists. I might even By being a first investor, anchor investor, we bring confidence to their company. We give them access to a lot of our technology. We support them a great deal.
+
+And we help them become a company as fast as possible. We might decide to invest in a nuclear company. We might decide to write so on and so forth. So if you look at my mental model of the AI industry, it's a five liter cake, and we're investing across all of it. There might be strategic unlock points.
+
+It opens new markets. It opens a new route to market for us. It might secure a critical resource for us. So there's a lot of strategic reasons why we do it. I mean, the the numbers here are astonishing.
+
+You've become like a like a single company industrial policy for primary for American AI. We've put a lot of money into this ecosystem. Yeah. What's the total investment you're now making per year? All in all in, we're probably up well, I don't know about every year, but I think all in, we might be might be like a $100,000,000,000.
+
+Might, you know, might check my number, but it's something like that. It's larger than than the chips and science act. Oh, yeah. Yeah. Not not to mention, because of the because of the the purchasing commitments that I provide to TSMC and Wishtron and Foxconn, Amcor and Spill, and all these different companies.
+
+Because of that commitment, I'm able to encourage them to become a manufacturer here in The United States. You know, the the fact of the matter is we probably contributed more to re industrializing The United States in this chip manufacturing than just about any company in the world. We're not only re industrializing manufacturing, we're doing it so fast that we're creating a shortage of labor, but we're creating a lot of jobs. And a lot of people with money in the market right now who are excited, often excited by NVIDIA stock in particular, and worry about the analogy of the Internet bubble of the late nineties. And what they worry about actually related, I think, to what you just said, which is that the Internet did continue to be more useful.
+
+It's not that high valuations meant that the technology was hollow or fake. But something happened and popped for a minute, and very big companies got hammered in that, and a lot of people got hammered in that. What is there to learn from that kind of bubble bust cycle? And I guess the question is, do you not think it will happen again, or why do you not think it will happen again? At some point, demand and supply will be will be inverted again.
+
+And that's just the nature of, markets. It's not going to happen next year. It's not going to happen in the next couple, two, three years. I just don't believe that. But at some point, we will likely have more supply than demand.
+
+And I just don't know when that is. And so there's not much to learn from the past. What would be the signal for you? Markets will naturally slow down and then it will stop. Meaning, there will be a period of digestion.
+
+Now is that period of digestion going to be six months? Is it going to be nine months? Is it going to be a year? It won't be forever. If you look across the board, the amount of investments that we're putting into the application layer so that each one of the industries could have the technology diffused into them so that they could benefit from it, that's probably one of the biggest things that we do.
+
+This is a way I often hear the sort of Chinese and American AI ecosystems compared, which is that in America, the emphasis is on the speed of rising capability. And a lot of people think we're ahead on that, and that seems true. And that in China, there's more emphasis on diffusion. And a lot of people think that China is probably ahead on diffusion, and in some ways has an economy that is better structured from things like WeChat all the way to just like the way knowledge and commands move through it for diffusion. And whether the race is about capabilities or diffusion, and also whether it's race at all, but we can get to that in a minute, is a big question.
+
+I'm curious how you see that. That's the ultimate question. I believe if we want America to benefit from artificial intelligence, every single industry has to benefit. Walmart has to benefit. Safeway has to benefit.
+
+Federal Express has to benefit. Every bank has to benefit. Every healthcare company, every drug discovery company. We need to see every construction company, every data center company, power generation company. We need everybody in United States.
+
+We need everybody in America. We need everybody in the world to benefit from this. And that's the highest layer. That's the most important layer. That's the layer that touches society.
+
+All the layers underneath are technology enablers. I want to see us not ruin the opportunity for The United States to benefit at the highest level. And notice all of the rhetoric and all the alarmism, all the doomerism, all of the predictions are scaring people. That is my greatest fear, actually. I have every confidence.
+
+Maybe I have more confidence in them than they have in themselves. They You definitely have more confidence in them than they have in themselves? Well, I I I don't know about that. But maybe it's just too much humility and and otherwise. Should we conceptualize what we're in as a race with China?
+
+I don't think it's necessary. Some people like to think that way. I don't I don't find that necessarily inspires me. I have no trouble never mentioning another company when we talk about us doing our good work. And so we hold ourselves to our own standard.
+
+And so I think that different people have different ways of being motivated. And I think it takes it takes more takes a bit more artistry to unite and focus organizations to certain level of of performance in the in you know, outside of contests. But I don't I don't necessarily see it as as I I don't see it as necessary, number one. Number two, the question is, even if we did frame it as a as a competition, it doesn't have to be that if they achieve something, it's at our peril. And so when they invent something or they create some power generation technology, it might might be a great invention that we wish we had done ourselves, but because it's gonna support all of our energy production systems here, as a result, it helps our whole industry.
+
+Maybe they came up with a a great new open model, and and they have. And those open models are now being used by 80 of the American startups. Yeah. We use a lot of Chinese open models here. Okay.
+
+That's right. And so so that's that's terrific. We download it. It originated in China. A lot of the technology, of also originated from The United States.
+
+We download it. We make it our own. We fine tune it. We put it into our own agent harness. We put it into our own sandbox.
+
+That's all your own technology. So I I think the fact that you you leverage their weights, I think that's terrific. That's fine. You were saying a few minutes ago the way different countries have begun to see compute as a geostrategic resource, and, you know, may wanna allocate it to their own companies. There's been a lot of back and forth on that here.
+
+And among people who do see us as in a race with China, particularly people who see us in as in a race with China for who will get to recursively improving self superintelligence first, there's been this ongoing back and forth on whether or not one thing we wanna do is deny them compute, which in this case tends to mean denying them your chips. Under the Biden administration, we had pretty tight export controls. Those were loosened under Donald Trump. Obviously, you wanted those to be loosened. How do you think about the question of whether or not it is good for China to have NVIDIA chips that could accelerate their models or model deployments or model capabilities versus us holding that back to try to slow their progress.
+
+In the case of AI, our goal is not just that one lab benefits. Our goal is that all of America benefits. I think United States has a greater responsibility and a greater ambition for the world to be built on the American tech stack, just as we have greater ambition that the world is built on US dollar and that more people speak English, that they use the American version of Internet. I mean, we want that. The question is, ultimately, what are we depriving?
+
+Are we depriving them a chip for their industry, or are we depriving United States a market to compete in? If you see the market if you see the market as big as China, how does that help The United States technology sector? Maybe it helps one company with a with a particular model, but the rest of the industry suffers. I think that it doesn't help the chip industry, surely, to be deprived of the market to go compete in. It doesn't help the rest of the industry because they're deprived open models.
+
+It doesn't support the overall aspiration of The United States to have the world built on the American tech stack. And so there's a lot of things you deprive yourself if you narrowly focus on deprive them of chips. And so so I I would say to take a step back and frame it into what's in the best interest of America first, all of America, not one not one not one company. And with with respect to the race, as we mentioned, the race is, if there is one, it's about all of the economy of The United States succeeding. I found myself very conflicted on the China and chips question.
+
+And one reason is even where I have sometimes more of the superintelligence concerns than you do, is that if you have those concerns, I think you wanna have a good relationship with China in which there can be kind of productive bilateral working through the risks and benefits of AI. And the more you think of it as a race which only one side can win and act like that, the more you are necessarily gonna create enmity. And I found that to be a sort of complicated dimension of people's thinking here. You know, I think that a zero sum strategy, I deprive you of this, therefore I win, that simplistic logic tends to have unintended consequences of the bigger game. The bigger game, of course, is that we're now all talking about safety.
+
+We want to build safe products. We want them to build safe products, because when they don't build safe products, it hurts the whole industry. So this is a perfect time. We should want to look for opportunities to communicate, collaborate, to understand, align as much as possible. Now, said that, NVIDIA's an American company.
+
+We should benefit America first. America has every right. And for these technologies to be made available to the Frontier Labs, Vera Rubin goes to the Frontier Labs first. Vera Rubin goes to the Advanced Chip. That's right.
+
+NVIDIA's newest chips, and so do Grace Blackwell, and so did Hopper. Every single generation, so did Ampere. Every single generation of our product goes to an American companies first. And if the US government would like to add on top of that, that is a requirement to do so, I'm delighted by that. That's no problem.
+
+We do that naturally anyways. However, recognizing that the AI industry is a five layer cake, and we want every single layer to win, then we need every single layer to go out there and compete for the market. That drops us to the final final layer of your cake, which we won't spend as much time on. But if the advantage America has had, at least at a material level, is chips and software, one of the advantages China has right now in AI is energy. That it's easier for them to build new energy.
+
+They're pumping much cheaper energy into AI. They have they've made tremendous advances on building electrical generation and renewable energy. How do you see the I get that that that most fundamental layer, the energy that pumps through the data centers, pumps through the chips, and where America is on generating enough of it? Probably a time when we've been trying to move from dirty energy into clean energy. Yeah.
+
+I think I think, one, they just have a lot more energy than we do, And they plan to build a lot more than we do than we did. We got you know, I think we we just have to acknowledge, we got ourselves really gummed up in climate change and sustainable energy. And as a result, we just didn't plan enough energy production. What do mean by gummed up there? Well, in the near term, energy production requires fossil fuel.
+
+And because there's just so much so much angst about fossil fuel energy production, if you look at our country, we've produced very little net new energy for a long time. And all of a sudden, this new industry comes along, and we find ourselves in a situation where we just don't have that much energy building capacity. And now the whole the whole country's scrambling. And meanwhile, we've moved so fast. We could have done so much better job communicating with the communities, preparing the communities, working with the communities to let them know what's coming.
+
+And and and they if they don't want data centers to be built in their in their town or whatever it is, then so be it. But but if you're going to build in their town, be sure to go there and let them know what's coming. Work with them. Work with them to help them understand that the use of water is really efficient these days. The the the AI supercomputers are super energy efficient, but they're still gonna use a lot of power.
+
+You gotta bring in your own power generation. It's gonna lower their property taxes. There are a whole bunch of things that you can do that you could you could, you know, you can make your your data centers more appealing. You make the setbacks further away. You know, so there's a there are a lot of things that you can do.
+
+You could you could also contribute to be a good neighbor to the community and build better schools and better community centers and improve their parks and improve the roads. And there's a lot of things you could do. But it's hard to do that, you know, after the fact. And and now there's a fair amount of there's a fair amount of frustration around the around the country. And and then, of course, all of our narratives about the end of the world is not helping.
+
+And, you know, what reasonable person says, come and build this data center in my town? And by the way, whatever you produce is gonna, you know, end humanity as we know it. So I think I think all of this this this negative doomer narrative is not helping our country. And we started off on our back foot. We started off on our back foot.
+
+And then now we got What do mean we started off on our back foot? Oh, because we didn't have enough energy production in the first place. Well, how do you bal I mean, there is a reality of climate change is happening. Let me just give you the one last thing. This there's no question that the energy demand is really great, which is the reason why the market forces are helping us invest in sustainable energy like no time in history.
+
+You give me an example of a sustainable energy company, a material sciences company to build a better battery. It could be, you know, it could be solar. It could be nuclear. It could be fission, fusion, you name it. Hydro, you name it.
+
+Those companies are all getting funded. The market demand for energy is so incredible that this is the best time in a hundred years to improve our power grid, to make our power grid more sustainable, to lower the cost of energy, also investing in our sustainable future. There's no question that in four or five years' time, we're going to use a lot more fossil fuel. But also in the next decade in front of us, no time in history are we better prepared to move to sustainable energy. And because these data centers, because the cost of these data centers is so high, now we're talking about putting them out in space.
+
+And so I think the opportunity for us to see our dreams come true, move to a sustainable energy world, it it we have a better chance of doing that than ever. The world is buying more because of AI factories. Because of AI is buying more sustainable energy today than any time in history. Venture capital is you know, for for our next generation energy is just incredible. Everybody everything's getting funded.
+
+It's incredible. You don't need government subsidies for the first time in hundred years because the market forces are here. Everybody should be leaning in. If you if you want a future if you wanna if you wanna turn the corner on climate climate change, if you want a future that's sustainable, lean into AI. It is the best opportunity we have to get there.
+
+But we need to build the energy faster to do that. That's right. That's right. That's There's just there's a market for it all. It's kinda like You can subsidize it, and you can make it easier to build.
+
+Yeah. You know, it's kinda like in order to save you, they gotta hurt you first. You know? In order to you know, that's the nature of surgery. They gotta cut you open and save you.
+
+You know? They gotta they gotta inflict an enormous amount of pain and suffering on you so that they could save you. And so so I I I kinda think AI is kinda like that. Over the next several years, we have to we have to unfortunately use renewable energy, use fossil fuel, because we just don't have sustainable energy enough of it to to make a difference. And then after that, you know, hopefully we can transition to that.
+
+I think that's where we'll end. Always our final question. What are three books you recommend to the audience? Well, I've read a lot of books. The book that made a huge impact on me was computer architecture from Hennessy and Patterson, a quantitative approach.
+
+It was the first computer architecture book that reduced the complexity, the abstract idea of computer architecture down to engineering. And I I love it when when people take complicated concepts and reduce it into something that you could do something about. Number two, I really loved Innovator's Dilemma, Clayton's past, but Clayton Christensen's book on how how industries evolve over time and how to see emerging technology and how to set proper expectations about it and how to extrapolate maybe its future impact. I really loved Al Reiss's and Jack Trout's book on positioning. It's a really wonderful book about how people see It's a book about marketing strategy.
+
+More than that, actually, it's a book about strategy and how people see the world and how people see products and how you present products and how you how how you see your own strategies. And and I thought that was a really thoughtful book and really easy to really easy to understand. Jensen Huang, thank you very much. Thank you very much, Ezra. I always enjoy our time together, and today was a great time.

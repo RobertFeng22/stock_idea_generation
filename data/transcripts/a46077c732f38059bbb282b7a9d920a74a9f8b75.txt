@@ -1,0 +1,303 @@
+Where the fuck is all the automation? AI is so unbelievably smart, and yet it's so useless at all other stuff. It doesn't matter how much AI coding agents you use. The software actually isn't getting better. Maybe you're writing it faster.
+
+It's like arguably getting worse. OpenAI has been trying to automate customer service since 2020. What I want instead is smart software. I want to expand what software itself can do such that things that should be automatable can then be automatable. My favorite thing that you guys say is we built prod, not god.
+
+That's so good. Because if we had any other kind of, like, big lab leader, even if they had joy, they would cover that. And then your view is so different. You're like, no. We're gonna create a way better world.
+
+For nuanced reasons, I don't think we are on the path of RSI. In the SaaSpocalypse story AI can write software, but what if the bigger opportunity is putting intelligence inside the software itself? In this episode, Ben Horowitz and Martin Casado sit down with TypeSafe AI founder Diogo Almeida to talk about JEV and a different vision for how AI changes computing. Diogo argues that coding agents make it faster to produce the same kind of software we already have. JEV is aimed at expanding what software itself can do, giving developers a new primitive for turning natural language intent into decisions that programs can actually use.
+
+They get into why reliability matters more than impressive demos, what a new era of programming could look like, and why AI might make existing software dramatically more useful rather than simply replacing it. And beneath all of this is the question that drove Diogo to build TypeSave in the first place. If AI is already this smart, where is all the automation? Today, we have the founder and leader of TypeSafe, Diogo, with us, who is a bit of a hero to both Martine and me. He is not only building like a really interesting product, but creating what we think is a very important movement.
+
+So we're super excited about today. Welcome to Thank you. Maybe you can give us a brief on what is JEV, what is TypeSafe, why is it important? Is this a curse friendly or no? Yeah.
+
+Oh, Yeah. Oh, okay. Cool. Parker, you talk. Okay.
+
+Okay. Okay. Cool. So I was actually asked sounds when you're ready. For, like, a elevator pitch, which I tend to ramble on, and I don't do well.
+
+But, like, I realized my favorite elevator pitch for Jeff is Yeah. Where the fuck is all the automation? Like, this is, like, so unbelievably tragic. Yes. So much intelligence.
+
+AI is so unbelievably smart, and yet so not that I hate on chatbots or coding agents. I love them myself. But it's, like, so useless at all other stuff, and it's tragic. It's tragic so that we have so much, like, diamond in the rough, but not polished for work. But TypeSafe is making AI for software.
+
+You know, we want to make AI powerful, not just for humans in the loop, but to actually build real software. And Jiv to us is our first model in this whole space to make it way, way better, to like make automation. Yeah. And so it's been interesting because it's kind of caught fire in software world. So one of the things that made us go, what the hell is going on here is like every developer we know is calling us and going, oh, this is freaking awesome.
+
+It's great. It's fast. It's great. Everything's better. Then how does that because everybody thinks of, well, we've got Cloud Code, we've got Codex, don't we already have that?
+
+Like, what's the difference, and then how does that lead to real automation? Oh, I wish I had, like, some slopped visuals because I have a favorite slopped visual for this. So Yeah. I like Cloud Code and Codex. Mhmm.
+
+I love the description from Gary Tan on them. It's just in time software. Incredible way to describe what they're doing. And, like, it makes software on the fly, and you can, like, program software in natural language, but it has the same expressive power as software. Mhmm.
+
+What I want instead is smart software. Like, instead of automating software engineering, I want to expand what software itself can do such that things that should be automatable can then be automatable. And, like, in a more flowery language, I wanna express things like intent. I want to expand the vocabulary of what we can do, and I can talk about, like, all sorts of, like, weird sci fi things I want. But, like, programming is, like, hyper specifying valuable things and then infinitely replicating them.
+
+It's so freaking cool, and I wanna just make that more. Interesting. So one way to think about it is instead of kind of a tool that somewhat replaces a software engineer with a faster, maybe not even as good software engineer, what you're saying is, no, no, no, we're gonna super empower the software engineers we have to write way, way better, more interesting things. Yeah, yeah, so, by the way, I just think so many people miss this point, and it's such a subtle point, and it's so important to actually tease it out, which is, if you use something like Cloud Code or Codex, which is great, or Cursor, which is great, they write code, but that code is the same thing a human being would have right. Maybe it's better, maybe it's worse, but it's basically still code, just like code looked ten years ago.
+
+And the thing with JEV is whether or not you're a Cloud Code or a human, you have this new primitive, this new thing that you stick in your code that actually expands the power of software. So instead of writing code, it is something that you include in your code, which by the way is interesting because it's this very powerful primitive, which would be great if you explain, but it's also a little bit different than like how programmers think. For example, like it has this notion of probabilities or So an intelligent layer inside the software. Yeah, think of it like a library that you can use natural language to describe what you want, and you give it kind of a state machine, and then it will choose what to do with some confidence levels, which we kinda haven't really had before. Oh, there's a lot of tricks there.
+
+I will jump into one thing first, which is Yeah. I love the first thing you said in the direction of where the fuck is all the automation. Yeah. I love software so much. I wish I could be writing it all day.
+
+Yes. It's would not recommend being a CEO to people, but whatever. And, also it's wild that AI is so cool and software has been unchanged in ten years. Totally. Exactly.
+
+Know, like like that to me, like, one can square this together. And the most we can do is add like a little chat bot in the side sometimes that can take actions, but not all actions because some of the actions are not reliable enough. Okay. So I just wanna give like that tiny aside. I love the point.
+
+I'm gonna jump back to the point about like, this is a little bit of a different way to think about it. Yes. I think that machine native doesn't exactly match bits perfectly, and, like, that's actually the art form that we are trying to do. In our onboarding on day one, I draw, like, the Venn diagram of, like, what AI is good at, what is valuable in code. We are in the middle.
+
+Yeah. So, you know, we don't output, like, extrapolated floats, for example, because, like, AI is just bad at that. Sure. But things like probabilities are not exactly novel, and it's similar to the is JEV just a classifier argument. Yeah.
+
+JEV is absolutely a classifier. Yeah. Like, classifiers are sick. Classifiers were designed to be Yeah. They're designed to be useful.
+
+And, actually, it's the same interface Yeah. As, like, some of those ML concepts. Of course. Because these came from, like, practical people who are trying to make systems work. And what I'm seeing is happening now is that JEV actually my guess is that JEV probably is better than having an MLE team from 2019 Okay.
+
+Making the stuff for you, and you can just program it on the fly. Who knows what could be built? Cause like, there were not that many good MLE teams in 2019 No. Very true. To fill like narrow things and to be able to like collect data sets and measure it and all of that, and it is just the beginning.
+
+By the way, to this point, do you think there's a slider bar here where like on one end is like language in, language out like we have today, on the other end is, like, a like an existing imperative program, and then you can kinda move between the two? Or do you think, like, this is, the point in the design space, which is language in kinda state machine out, which is gonna solidify as the general purpose thing for programmers? Oh, that's a tricky one. So I will say the answer in my heart. Yeah.
+
+The answer in my heart is that it is a slider. And actually, when I design for the properties we have, I might have made mistakes due to my personal preferences. Yeah. But, like, intelligence per dollar is my north star right now. And it could be wrong, just to be clear.
+
+Intelligence per second might be more valuable in the short term. But even, like, our interface, like, calling the input state, this is intentional. Like, it's to say Oh, that's great. I didn't catch that. It's meant to be the inside of programs.
+
+So so in my heart good. Because, like, so we are really optimizing. A lot of the work I do is for even more complicated arrangements of the internals of program state. Can you put intelligence in there? Think that this is going to be an ever present battle to have.
+
+I we're very intentional about our design. And also pragmatically, I think certain things happen, like, it's easier to make an AI at these milliseconds, so it'll be more like a database for a while than, like, a standard library thing. But I would love it to be a standard library thing too. Can I just put back a favor? Like, what is the alchemy that creates a Diogo?
+
+I mean, like, you speak When a man and a woman love each other. Like, listen. You speak like an AI researcher, you speak like a systems person, you speak like a programmer. And normally, these things have been, like, not super overlapping, and you're taking AI, which we've been pushing towards being a being, and you're making it a programmer's tool. So maybe a little bit about your personal journey that My history into AI is somewhat unorthodox.
+
+I was a mathlete. I was a award winning mathlete. The way I describe it is I was good enough at this is a cringe. I was good enough at math to get girls. So that's quite good.
+
+No. That was a thing. Yeah. Didn't. Have to get get quite good.
+
+And what kind of girls do you get when you're that good at math? That's amazing. Woah. That's I Our audience needs to know. Oh, no.
+
+We have to inspire the youth here. Don't do it. Youth, don't do it. It's not worth it. Just be cool and chill and interesting, and Yes.
+
+Don't overcompensate. Wow. I can't believe I said that. I was a mathlete Yeah. But I actually never oh, man.
+
+This also is a little cringe. I never really liked math. I never really tried. I was just like big fish in little pond. And to me, math was act I math was always the path I was set on, but I hated it because it was always about, like, winning competitions.
+
+But then computer science is actually a lot like math. It's basically like math, but cool and useful and fun and interesting, and I still love giving algorithms interviews. It's not is it the best thing for me to do? I don't know. But do I love it?
+
+Yes. And does it, like, allow me to, like, suss people out out really well? Yes. It does. So I love computer science.
+
+I consider myself to be computer scientist much more before AI researcher despite my history. And, like, what actually got me into it was I also won a Kaggle competition, not from sophisticated math, but from, like, just automating, like, the fuck out of it. You know, like, just like more nested loops, more you know, like, it it it solved it like a systems problem. Wow. You know?
+
+So that event eventually got me, like, I was forced to speak at NeurIPS, normally an honor, but I hated it because I just wanted to be in the mines. Was that from the Kaggle theme? Yes. Oh, wow. Yeah.
+
+Actually, the Kaggle host of it was Isabelle Guillaume, who was the co inventor of the SVM. Actually, think the first author of SVM. I'm not a 100% sure I'm first author. And she just basically saw that I was like this person who really didn't fit into the research community and then adopted me and showed me like like, it got me to meet all the AI people and that, you know, my career was just pushed into that direction. And from there, OpenAI?
+
+No. It was like a start up with Jeremy Howard. No kidding. Yes. Love Jeremy.
+
+Yeah. Fantastic. Cool. And then Google Brain for a while. Wow.
+
+And then Retire for a while. Yeah. And then eventually I was like just kind of tired of not doing anything. And I was like, know what? Actually, AI is pretty damn fun.
+
+And I joined OpenAI because of that reason, and it worked out really well. Amazing. Really, really well. Yeah. Incredible.
+
+So you you said something there that is so unusual in today's world, which is AI is really, really fun. And then the company has such a different demeanor and view of AI than everybody else. My favorite thing that you guys say is we build prod, not God. That's so good. Because if we had any other kind of big lab leader, they'd be trying to, even if they had joy, they would cover it.
+
+And then your view is so different. You're like, no, we're gonna create a way better world, and it's gonna be awesome, and there's gonna be, not only are there gonna be less jobs, there'll be more jobs, there'll be way better jobs, and everybody's gonna have a great time. And like, just being around you, like, you clearly believe that. So tell us about that, and like what this, because for us, TypeSafe, Jev, it's more than a company, it's a whole movement towards a positive future that most people in the AI world kind of don't like. Yes.
+
+Or they're not with it. I think they don't get it. Yes. And you know, like the it's just a classifier complaint. It's like an ML level concern while everyone else is having, a JEV party.
+
+Because it's like, holy shit. Like, we can do all the things that we wanted to do, and I don't I think if you don't, like, get developers, it'll be hard to understand what's really going on. Yeah. So 100%, I agree with that. I do think that there's, like, a pretty negative world painted that I obviously disagree with.
+
+I think it really comes from this, like, you know, mono model Kool Aid that everyone believes. I think AI write one big brain to rule them all. That's one that's one way to it sounds sounds much more ominous. Yeah. But that's that's what people hear.
+
+Yeah. For sure. That's what people that's what people hear. Yeah. But, you know, like, will that one is that one brain really on the path to rule us all?
+
+Like, we have not automated really basic things that I don't think we want people to be doing. Yeah. You know? Like, it there's lots of really, really basic stuff. And I think that oh, man.
+
+It it it pains me when the world is discordant with the reality. Yeah. And, like, part of the pain is, you know, on the where the fuck is all the automation. Like, how can we have AI be so freaking smart? Mhmm.
+
+And, like, there's so much so much financial incentive to automate stuff. Like, yeah, you can make an excuse for diffusion. I don't buy it at all. Yeah. I shouldn't name names, but like that obviously is not true.
+
+Part of the problem is like the discordance with the reality. And the fact that AI has like so much potential is what made it really tragic for me that we had not released this. So now it's a little bit of a party for me, but I was afraid of AI. And all JEV users are like, there's the happy AI, the people on JEV, and then there's the morose AI, the people who are not. It's quite a kind of fascinating dichotomy.
+
+And to your automation point, I had a funny conversation this morning with David George, who runs our Growth Fund, because we're talking about the new tools. Was like, have you tried the Muse thing? He's like, oh, it's awesome. I was like, what'd you do with it? He said, I finally canceled my New York Times subscription.
+
+And I was like, that is hard to do. But, you know, it's a kind of a it's a very tip of the iceberg of the things that are horrible things to do that that we need to automate. I think that if we were gonna be really intellectually honest, and we are really aiming for the north star of automation, we cannot fall into the same anti patterns that AI has fallen into, which is really focusing on outliers and demos. Right? Like, a lot of people ask me, like, what are your favorite use cases?
+
+And I'm like, I'm not sure if they work. I want them to work in the background such that, like, someone would trust that to run and not page them. And, like, people can build on top of that too. And, like Composable. Composable.
+
+Composable. But, like, other things, like, safe. Right? Like, it's a different type of safety where, like, if you wanted to actually, like, run with resources associated with it, with access to things, you need guarantees for that or, like, at least statistical guarantees. And And so it doesn't go rogue, breaking, breaking, breaking, that type of thing?
+
+Well, I I don't I think our models will be doing that anytime soon Yeah. Unless someone, like, does the software to do that, which would be very cool flex. Very cool flex. Should I figure out how to give credits for that. But but not in a way that we're not responsible.
+
+Right. Right. Right. I'm just curious, like, how how long has this intuition been percolating? Because I remember talking to you maybe in was it 2017?
+
+It was so long. We did talk about that. Yeah. Yeah. And then a lot of these ideas were in you you were talking about data being important, you're talking about, like, you wanna focus on the task, and like but like so I I just like, you know, was this like, did you know that this is gonna end up being a classifier, or was this just an intuition that, like, there's just kind of another way to view this entire kind of AI movement?
+
+Mhmm. You know? So actually, a fun story about that chat in the talk from 2017. I think my talk was actually in a very similar theme. I think it was called something like AI modular in theory and flexible in practice, is very software sensitive.
+
+Totally. Yeah. So I'm a little bit consistent in that. I I think that this really started right before ChatGPT. Like, right when we released these things, I did not have intuition about this.
+
+And honestly, I was not even I was very, very pleasantly surprised by the generalization capabilities of RLHF. When is this? Must be end of twenty twenty one, like Yeah. Okay. Fourth quarter of twenty twenty one.
+
+Like, we were it was really, really general. Like, if you read the paper, it's unlike other papers that are, like, trying to prove their point. It is us actually, you know, scientific method ish trying to disprove, like, it cheating? And, you know, my favorite query was why is it important to eat socks before meditating? We'd made sure that was not on the Internet beforehand.
+
+And, like, the models were able to, like, make plausible you human looking answers for this. And that to us in the team was the thing that clicked like, this is not cheating, which you should always be afraid of cheating in in ML. Right. And then what really got me burnt was I we released it. You know, we did a you know, I'm obviously a big capabilities guy.
+
+I did a lot to release that model. I I really thought that that model had, like, a decent chance of being AGI. And when it didn't, that was, like, when my whole world came crashing down. Oh, interesting. I was like, why?
+
+Oh, so you were kind of on the other train for a bit. Which like, the crazy train? Or Well, no. I'm just like, no. I'll I'll do RL generalizes.
+
+Like, maybe we have AGI. RLHF generalizes pretty well. RLVR is the thing that doesn't generalize as well from what I've seen. Right. And AGI in so Well, I I was just saying more.
+
+I mean, like, you were behind in chat GPT. You were behind, like, in these early GPTs. That was a very different goal, which is, like, creating a chatbot that will talk to the human being, was not a programmer's tool, etcetera. So I'm just wondering, like Oh, well, actually, early early, like, in 2020, OpenAI, when we talked about AGI, people used to describe it as ilia in every if statement. So it's not It's not.
+
+It's kind of like a But, like, is it, like, part we were talking about OpenAI culture. Yeah. Part of it is that it's, like, intentionally vague. So it's a wide, like, tent so that everyone can be inside of it. But, like, I am not for nuanced reasons, I don't think we are on the path of RSI, and I still don't think we're in the path of RSI, and I did then.
+
+I do think that what OpenAI defined as AGI is extremely doable. Automating most of the world's economically valuable work Yeah. Actually sounds Yeah. Like, oh, man. I don't like, there's a there's a lot of work out there.
+
+A lot of it is very rote and simple. And, like, by volume, in order to be able to, like, outsource work, you need, like, simple instructions that, like, basic people can do. Yeah. And as far as I can tell, the intelligence of that has been available in the models for, quite a while now. And, like, my oh, man.
+
+You know, chip on my shoulder is like, why is this not available? And and then the the and since RHF, the the industry just, like, kind of bifurcated into gigantic overpromise, underdeliver. I think GPT three was actually quite calibrated back in that day. But because humans evaluate how good the models are, it looks really good because they are the judge, but we've been optimizing that judge instead of the automation part, and that has been the missing thing. So I would say there was really, really then that it, like, hit me, you know, like, why is this thing not more useful?
+
+And so you think that the measure that we should have is to what extent can you automate actual productive tasks? That the That that's When you say over prop when you say over prop, it's an under deliver. That's the dimension in particular you're talking to. The ability to automate tasks. I like, I think in my heart, it's like cool sci fi.
+
+You know? And I think that Totally. I think that that is the canary in the coal mine for cool Like, sci are you really telling me that we like, math is solved or, like, even, like, two years ago, GPQA, that Google proof question answering is solved, but we still can't handle a drive through. Right? Like, it's it's it's it's a very hard thing to hold in your head at once, and I think a lot of people don't have good answers to that.
+
+Can just test one thing which may may not make sense, but I won't I just mean, isn't there an argument though that, like, the real the distribution of the real world is is is different than the digital world, right? It's heavy tailed, there's a lot of exceptions, we don't have all the data, and I mean, couldn't be the case that the reason we're not doing productive stuff in the real world is just like we're not we don't have the data for that distribution. We're not training on that distribution. And this is why it's just been basically relegated to, like, these lower dimensional manifolds, like whatever math or code or I don't entirely buy the data argument in my opinion. I do believe that there's a a long tail for sure.
+
+Like, that that would be kind of crazy to deny. And I don't think that in my, like, canary in the coal mine situation, we need to automate that long tail. Like, I think that I think we need to be incredibly pragmatic on everything, and, like, building reliable software is always an investment. Right? Like it like, you know, what were the three great virtues of a programmer?
+
+Laziness to not to do it again, hubris, and there was a third one. Yeah. No. I remember. This is from the Pearl days.
+
+Yeah. Yeah. Yeah. There there's a third one wall. Yeah.
+
+I I wish I wish I could remember it. Yeah. But, like, it's about, like, the laziness to, like, spend, you know, like, ten hours to do, like, the five minute task instantly and to never have to do it again. Like, it only make like, it should be an ROI decision for people who, automate stuff. Like, I would just like it to be automatable.
+
+Yeah. Yeah. And I think that people will just make, like, new kinds of work, hence the JEV in JEVINs. Yeah. New kinds of work once that stuff is doable.
+
+But, like, as, like, a a benchmark, I feel like it's useful to see can we actually automate the stuff that it really, really looks like, yeah. I should be able to automate. I see. OpenAI has been trying to automate customer service since 2020. Yeah.
+
+You know? Like, it it it's, you know, like, it's not. It's just pretty amazing. It's wild, you know? It's wild.
+
+Well, I inside companies, there's very little that's automated right now. And the projects haven't worked. Other than programming has worked amazing. Can you maybe classify the types of problems you think that are easier to automate now? Because it was kind of interesting.
+
+So we've actually looked at support before the current generative way. And it was interesting. You'd meet a company, and the company would say, we we answer 95% of all, like, you know, like help desk calls, and, like, that is so many. But then you actually look at the data They're all the same. And you realize it's all password resets.
+
+And then, but if you did it by, like, uniqueness, it was only something like 50% or so. So it just feels like when you're dealing with humans and natural systems, like, there's just kinda this very kind of, you know, like a long tail of exceptions. And so to what extent did, I every probably every hour I have somebody ping me like, I'm using Jeb for this new use case. I'm like, I had no idea. Know, like, you know, and so like to what extent did you even predict like the broad range of use case for it?
+
+Like, did you assume that was gonna happen? And have you been surprised by that? Or Extremely surprised. Did not assume it would happen. This launch was, like, not something like, if anyone expected this, they are probably insane.
+
+Yeah. Yeah. Right? Like, it is I I don't think someone could expect a ChatGPT for developers because ChatGPT was for, you know Sure. Like like, you know, the normal users.
+
+And it's weird. I actually don't even know what percentage of the people who are part of the JF party are developers themselves. I can't imagine nondevelopers using it. I don't know how they would use it. But even my nondeveloper friends are just, like, part of the party in Twitter and memeing and everything like that.
+
+So number one, phenomenal. Number two, this will be hard to convey in this short message because, like, it's been, like, blood, sweat, and tears for years now. Like, the amount I care about reliability is it's it's a lot. Like, reliability is what this thing is. If you don't understand that, it'll be very hard to make, like, a copycat that's bench maxed.
+
+Like, it's I feel like every nine of reliability is going to be so valuable for everyone, even if it's not the most valuable thing market cap wise Yeah. Because it will just enable new applications. And, like, we are fighting for, like, all sorts of, like, weird nines of reliability that, like, we don't even fully understand because we are just, like, you know, like, really getting the this, like, electric motor of AI of intelligence Yeah. Like, into people's, like, workstations, and they can figure out what to do with it. What what does reliability mean in this context?
+
+Is this is this, like, availability of the model, or is it like I call the model and it returns the same thing? Or like, how how do I think about reliability? Yeah. So For something that's inherently kinda stuck in? So not so much the former thing.
+
+And the second thing is closer. Like, I would describe the first thing as kind of, like, uptime or SLAs. Okay. The second thing I would maybe call closer to determinism Yeah. The something, thirdly, I would consider more like robustness.
+
+So robustness, I would kind of describe as similar intelligence every time. Oh, interesting. So, like, not exactly determinism because I think determinism, it's useful for unit tests, but not real systems. Sure. Think about, like, if you add a UUID to a prompt, it should be the same because it's the same functionally.
+
+But it's not exactly deterministic. Right. Right. Right. I think that there's another layer of it that I don't really know what it's called yet.
+
+Like, maybe this is what I would call, like, some form of intelligence, which is it doesn't have to be the similar function every time, but it needs to be smart every time. You know, like, if you were in that situation, would this be an understandable thing for a human to think? Because a developer can program around that. And actually, to me, the highest honor of reliability will be to get to the point when people can program against JEV without making example queries. Like when you just trust it, you'll be in like Perma Flow state just creating crazy software.
+
+And, like, that's where a lot of software is today. Right? Like, I I I don't think it's totally unrealistic, but I'm gonna gonna be fine for it. By the way, this is kind of a weird question. So, like, I mean, feel feel free.
+
+Like, if if it's too weird, just feel free. But it occurs to me that actually the value of things like coding agents goes down if you have a primitive like this, in a way, which is like, you could be like, you know, whatever. Some, you know, Codex builds all the software for me, but it doesn't actually use JEV, and so like the software itself it creates is somewhat limited. Or you can be like, okay, I as a human being, I will write the software without using a coding agent, but I've got this very generalized primitive that makes writing software easier. So, like, do you feel like see a future where it's like the coding agent's using JEV, and then you're telling the coding agents, and then do you have like redundancy, Or do you feel it's, like, humans HIPAA This is more of, like, a coding agent question than it is a JEV question.
+
+Oh, yeah. For sure. Yeah. Yeah. My vibe is that I'm not in the coding minds as much as I'd like to be.
+
+Yeah. So you are you you two might be in there more than I am, which is sad. But my experience is that they are really good at syntax and really They're bad at semantics. I would say incredibly bad at architecture. Yeah.
+
+And so, like, to me, architecture is like the most human creative part of software. So I love using coding agents. I think that, JEV is almost certainly not in distribution. That would be spooky if they trained on our user data. So it's probably not.
+
+But I think that when it is in distribution, I I see no problem with, like, having it to do the syntax. And the thing with architecture is that maybe the models are actually, like, not just crap at architecture, but maybe they're fiftieth percentile at architecture. And if you don't know anything about architecture, it would be fine. So these are all, like, gray area trade offs in order for you to navigate, and sometimes speed is the the knob for your company or project to turn. Like, you're willing to do a fiftieth like, a fiftieth percentile architecture instead of a sixtieth because you want to move faster and have codex work overnight or something Actually, like Ken, along those lines, one of the interesting things or phenomenons in the market already is that when the coding agents came out, it was the SaaS pocalypse, and all their values dropped through the floor.
+
+And then when JEV came out, every SaaS company is like, this is the greatest So thing explain that. I don't know what else to say, right? I think it's quite natural. In the SaaSpocalypse story, the the story that I feel like has panned out really poorly is that software is very cheap and perhaps easy to replicate, which Mhmm. I think I could I could believe the former.
+
+I could not believe the latter because a lot of the stuff happens beneath the hood. Totally. I'm maybe overly a software fanboy here. Yeah. All of us.
+
+Yeah. Okay. Okay. Okay. I didn't know where Yeah.
+
+Might be the coding We we have a lot of legacy around that. Yes. 100%. Yeah. So I don't think that really panned out.
+
+So SaaS seems like, maybe the markets don't agree, but, like, I think SaaS is providing the same value it used to. Maybe the markets are just scared. Mhmm. But I think that SaaS will be one of the largest winners of, like, the whole AI game. And I want to, like, work really, really well with, like, all the biggest, most boring, most, like, in the know of user problem SaaS companies, because I think that they are the best positioned to know what workflows to automate, what do people need.
+
+Like, that's what their bread and butter is. And to spend the big like, know, software is always a CapEx investment. And but, you spend it ahead of time in order to make this experience even better that gets, you know, like, distributed to all of that massive users. Right. So I think that it's gonna be I'm I'm I'm not gonna forecast anything about the financial markets.
+
+Yeah. But I think for as far as, like, a capabilities games goes, it's gonna be like an inverse saspocalypse, and I am so jazzed about it. Wish I should make a name. Yeah. Got that.
+
+Yeah. But that the Yeah. That's sassapalooza. Woah. That sounds a little too fun.
+
+Well, the SaaS applications are gonna all of a sudden get dramatically more useful. And by the way, the kind of capital investment, so much of a SaaS company's capital investment is actually getting to all the customers. So if you've gotten to all the customers, and then you make, you know, not just put a chatbot on your SaaS product, but actually make the software way, way better, that's a hell of a thing. I don't know if this is a realistic dream or not, but I think that there's a world where, like, the multi choice choice forms just disappear. You know?
+
+Like, I I feel like they are Yeah. Yeah. Like, they are always, like, something mapping natural language that usually the software already has into, like, a JEV like output. And I think it's literally It's literally from the eighties. It's like it's called we used to call it four gs LSD.
+
+Remember that, Martin? Fourth generation language. Yeah. Actually, also, I think this is from the eighties. This might be an insult.
+
+I was born then. Yes. The like, I think that do what I mean is going to be, like, be taken to the absolute next level. Yeah. Absolutely.
+
+Yeah. Shout out one JEV application. I don't know if it's reliable, so I can't promise anything. Yeah. But it was so freaking cool.
+
+Someone was using, like, a voice to control your computer, and it was basically constantly making decisions on, like, is this a command, or is it inserting text? No. It's Where's inserting text? Like like, that sounds so unbelievably cool. Bad.
+
+It's cool. Like, I feel like interfaces could just change, and maybe we're gonna have to make it cheaper or faster, you know? Yeah. Then you're at Star Trek. Oh, you know, there's just such a profound intuition here, which is if you use AI today to generate software, right, you're still creating the same software that you did before, but if you actually look at the average PR for a large company, it's like but what it doesn't do is provide new capabilities to the software, right?
+
+Kind automating this thing which in the limit ends up being relatively minor, and now there's actually a new capability, and so it could just be the case that software just actually gets better. Yep. And and by the way, even before Geva, they just it didn't even occur to me that, like, it doesn't matter how much, you know, AI coding agents you use, the software actually isn't getting better. Right? So maybe you're writing it faster.
+
+It's, like, are you really getting worse just because, like, there's less oversight? So think this is And often, we're insecure. For sure, for sure. But actually now can make an argument, like apps will have new functionalities as a result of this, because there is this new primitive that you're providing that I mean, like, in in in a way, like, it speaks natural languages and it can reason. Yep.
+
+But it marries that to a state machine. I if people take that as a takeaway, that would be, like, the greatest compliment ever to what we are doing. Yeah. Like, I actually feel like it's almost two grand of a vision to expand beyond the three logic gates that we have Yeah. Yeah.
+
+Into, like you know, it our types are kind of, like, one of the same logic gate, but, like, one that's, like, a little brain in there. Yeah. Like, that would be the greatest compliment to, like, the the the type safe legacy because, like, that is that's a very Huge. Nontrivial, huge thing for the world. I'm not gonna, like, overpromise, under deliver that, but I will fight for that.
+
+Yeah. I mean, listen to I mean, there's, I think, pretty open questions to what like, how deep can this get as far as, like, like, really serious stuff, like state consistency or durability or, like, real systems level stuff where you actually need to like provide strong guarantees. And so a 100% this will change things like whatever, analyzing logs, analyzing emails, providing a UI, talking to the human, like that for sure. But like, you know, you could argue that over time this becomes like a smart database, you know, and so and also air traffic control system. I've anything which we really need.
+
+A little scary. Like, I think automate the easy work before the hardware is always my philosophy. But I also think there's going to be, like, an entire era of probabilistic programming that's opened up. Like, my By the way, know there's a huge history of probabilistic programming. That basically died in, the seventies.
+
+Right? I'm familiar with it. I I actually think it's going to be, like, with the same like, you could also call it Jeb, like, neuro So your cofounder, Eric, came from that background. He was telling me Oh, they cool. Call it Bayesian.
+
+Oh, yes. Yes. Yes. He did a lot of biology stuff. It it it goes up and down.
+
+Yeah. But, like, what I mean is a more I'm not a fan. My brand is pragmatism, incredible pragmatism. I'm not a fan of, like, biologically inspired stuff at all. It's never worked.
+
+Have you ever noticed that? I mean, I I think it's never worked. It's useful to motivate crazy people to work on things for decades until it works, and then they refine it into, the engineering story of AI. Neural nets for sure. Yes.
+
+Yeah. But, like, you know, the a lot of the stories about how it worked were not accurate. Right? So, like, the hierarchical features of applications really did end up working because, like, otherwise, Resonets wouldn't have worked. Longer story.
+
+I I do think that it opens up, like like, from a systems perspective, I'm not excited about this part cause it's really I'm excited for the world, not about me programming this, because it sounds like really complicated. Yeah. But I think that as we have, like, lots of intelligence at lots of, like, different cost and speed trade offs, the super systems y types will be be making trade offs at, like, you know, like, Jeb's gonna be, like, a thousand times too smart for them. They just want, like, an approximate link to have an approximate guest to, like, optimistically route here and there. It's gonna be, like, so crazy, the this type of stuff that's available extreme systems.
+
+And the good news is we get to rebuild systems again, which is great. Right? We have a new no, seriously, we have a new primitive. It's kind of a new way to think about doing software. Like, I mean, we did this, we did this with the Internet, and we did this with Bain Friend to client server.
+
+I mean, we do this periodically. And by the way, just because of the cybersecurity issues, we probably have to rebuild almost all the systems to just make them safe. Would think. I think it's pretty clear that there, like, there's no no Or at least a critical the Yeah. The critical infrastructure for sure.
+
+Yeah. Yeah. Do you do you think about this more in terms of, like, apps, SaaS, analytics, or more in terms of like systems, foundations, or all the above? For what I would think of, or how? No, just general application for this.
+
+When you think about like like you're working on Jav and like, and you kind of envision that people are adapting it, like how how, you know, like, do you do oh, maybe do you even have an opinion? I have a little bit, and it's so the way I think of it is a little like like deep into, like, the TCP guts. You know, like, UDP TCP, you know, like, it's unreliable. You're still speaking my language. Exactly.
+
+And, like, I I so, like, when I think of AI no. No. I mean, like, when I think of AI and this is why I care about intelligence per dollar, to be clear. When I think and how I got to this conclusion, I work backwards from AI based economic revolution. AI everywhere, you know, sci fi and everything.
+
+Like, all the software is AI all over the place. And I ask myself the question, what percentage of the calls to AI? Imagine it's like a function Mhmm. Which what percentage are, like, for human consumption where you need the style and everything? And yeah.
+
+And it's gonna be, like, many nines. And actually from that same question, how many will be at the first layer versus, like, deep in the guts? Yeah. Right? And I think that it's going to be many nights in the guts, but it will start at the first layer.
+
+But, we need to if you don't aim for the guts right. That that's weird. If you don't aim for the guts, you you it's it's it's going to take you a while to get there. I mean right? I think people don't understand to what extent AI was kinda ships in the night with software.
+
+Even if you try to embed AI in software, it kinda didn't behave, right? Because software doesn't really take natural languages, and you do all this weird stuff, you stick in the prompt, like, here's the JSON output that you want, and here's the schema, and it would never listen to it. And so and so what you ended up doing is just taking the output and giving it to a human. You're like, the hell with it. Right?
+
+It's like another LM. That is what a while loop is. Like, the agent while loop. Right? So it's like it's like from first principles, it needs to be human in the loop, which is the chat Yeah.
+
+Or an agent, which is the while loop because, like, the natural language needs to be fed back into another And I will say, I I have watched this there was almost like this kind of, like, five stages of grief. You know? Like, People will pick up AI and like, I'm gonna use this within my software, right? And then it would go with whatever denial, like try to make it work, and anger. Then they go to acceptance, which is like, okay, never mind, I'm just gonna give this to another LM to a human being.
+
+So it's been very ships in the night. I think this is the first time I have seen Yeah. When someone was like, actually, you can take an LLM, you can take AI, and you can actually map it to, like like, a state machine, and you can do that productively. And I hope so. I will not want to overpromise underdeliver as well.
+
+Like, I don't know if it's ready for all the applications that have been overpromised. Mhmm. I really, really want it to, and my team will fight for that, obviously. Like, we really, really care about reliability. We could have released so much sooner.
+
+I don't think people realize that, and I don't think that honestly, I don't think that they will. I based on what I see at the Twitter discussion, I think it's people will never get it, but, like, it'll just have, like, that good vibe of, like, oh, I can trust this. So But it's the anti frustration machine. It's it's it's a I hope so. I hope do what I mean.
+
+Right? Like, to me, that is about, like, smoothness in the world, like, having everything, like, just move more smoothly together and interlink like a gears. Yeah. I actually have my whole, like, AI utopia on, like, different axes that I really, really want, and, like, do what I mean is a huge part of this. You know?
+
+Like, imagine if all technology just did what you mean. That is it's like, that's not sci fi. Look at how smart AI is. Right? Yeah.
+
+No. It's a it's amazing. And and maybe that's the thought to close on. Oh. Do what I mean.
+
+Yeah. I love it. Thank you, Diogo. This has been a great conversation. Hell, yeah.
+
+Really enjoyed it. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward slash disclosures.

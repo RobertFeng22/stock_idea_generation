@@ -1,0 +1,161 @@
+The AI debate increasingly asks us to consider the probability of doom. Eddie Lazarin thinks we should also be asking about the probability of abundance. In this episode, A16z crypto general partner, joins Theo Jaffee on MTS to debate AI safety, the calls to slow development, and what we risk giving up when progress is delayed. They discuss why Eddie sees many of today's AI incidents as cybersecurity and control problems rather than signs of superintelligence, And whether existing tools like liability, reputation, market incentives, and better technical controls can make increasingly capable systems safer. They also get into independent AI evaluators, effective altruism, and what happens as debates that largely develop inside Silicon Valley collide with a much broader political conversation.
+
+Alright. We're back. We are live with Eddie Lazarin, who's a general partner at a sixteen z crypto and one of the Internet's strongest soldiers, strongest advocates of open source, of AI accelerationism, and my god. Techno optimism. Eddie, welcome to MTS in the much.
+
+It's amazing here. The energy is incredible. What a spot. Yeah. So, man, where where to start?
+
+Like, the last couple weeks have been such this like a preference cascade flood of AI safety ism, effective altruism, and the like. And there have been only a few, like, good accounts offering, like, good counterarguments. So, like Counterarguments on which side? Like, counterarguments against, like, the AI doom narrative and against Yeah. Like, the Yeah.
+
+I think it's become very high status all of a sudden to be very concerned with safety. And I think that I think that we we've gotten to a point where, you know, it's more important to sort of tastefully share your your p doom, so to speak, than it is to actually examine the history of how these massive technological changes develop. And I think a lot of people are leaving a lot of very interesting concepts, a lot of interesting ideas on the table. You know? A lot of people messaged me.
+
+I tweeted the other day about pee abundance. Right? Pee abundance. I think we're putting the cart before the horse a little bit when we worry about safety, before we worry about what we're leaving on the table and what the costs of delay are. And furthermore, you know, how we should conceive of accountability, conceive of safety, conceive of all the things around how to make these systems really useful.
+
+Safe being safe is critical. Right? Like we any industry needs to take responsibility for making its products safe. But it's definitely the case that the conversation isn't about safety in the typical manner. Right?
+
+It's about something else. It's a blend of genuine cybersecurity concerns, sort of philosophical millenarian arguments about the end times. There's a bunch of things in the mix, and they get a little bit confused. And so I think picking them apart is really useful. So, like, where where do you get off the, like, AI doom argument?
+
+You know, it's it's like a there's a pretty standard, like, orthodox argument that's like Yeah. AI will become super intelligent as in much more capable than humans or than all of humanity in the near future. And if it is not sufficiently aligned with human values and is not bound by constraints in the way that individual humans are like law and ultimately the ability to have that law enforced on them, then they will have like no need for humanity, and then they might like kill everyone. Yeah. I mean, there's so many assumptions in that argument.
+
+That's like that's an argument. That's like a stairway to heaven full of arguments. Right? There's the presumption that there's no control. Now we already have quasi superintelligent beings in the world.
+
+Right? Corporations, countries, none of them are aligned with each other. Right? They don't have any built in guaranteed alignment. They didn't go through HR training to become a corporation, to become a country.
+
+We don't test the alignment of any entities as a prerequisite for their existence. That's just not the way the world works. Instead, we use laws. In the case that laws like in software, are too slow, we use cryptography. We use actual mechanisms to limit them.
+
+There's a whole array of different types of mechanisms we put in place to try to control things. And I think that they can control highly, highly capable beings. Now without getting too far into the superintelligence thing, remember, like, the most powerful and most enthralling form of argument that we have, the one that's making everyone crazy and very interested, is around superintelligence. But we're quite a ways away from that. I think that there's a lot of little frictions and tiny things that we will have to jump over and many things that we'll learn on the way there.
+
+When the present reality, the things that we're talking about, like the hugging face stuff, you know, the you know, like the gym hacking incident, that was a really cool one. That was an interesting one. Those are cybersecurity failures. Those are definitely control failures. And they're not, in my view, they're not little glimpses of a superintelligence that's about to, you know, throw off its its shackles, so to speak, and and and go wild on us.
+
+Well, I agree that most of the sort of AI cyber incidents that we've seen so far have been mostly control failures, especially ones that relied on testing environments supplied by the company Irregular, which had all kinds of defects, which are basically training models to reward hack. The Hugging Face incident did seem kind of different. It did seem like you know? Like, I'm not really concerned about agents coordinating in emergent ways. Mean, it's exciting for agents to con to Yeah.
+
+Yeah. I agree. In emergent ways. Yeah. Yeah.
+
+I mean, I I think like the whole, like, agent swarm terminology assumes too much on the part of the models being evil. It makes them sound evil. Like, I think Roon Roon tweeted, like, they should be called agent fleets instead. Think that's a good one. I like that.
+
+But, like, they did hack into another company when they were told not to. Yeah. So it seems like a And and and so do so do, like, kids, script kitties. So do bad countries. So do hacker collectives.
+
+They do those things. And yet we never go and say, oh my god. We should have put up the sign that says they should have been nice and they shouldn't have hacked into anything. You know, we we don't use alignment as a solution there. The alignment is kind of this it's almost like it's a little religious thinking almost.
+
+It's like, you know, trying to redesign the deity a little bit instead of rooting yourself in the world and saying, well, we need to design better controls, better cybersecurity. We need to design better systems overall and design the systems to be truly resilient to even extremely capable beings. Well, I mean, designing the deity is like fine for AI, I think. Like, you know, with humans, we have a disadvantage in that humans are black box systems. Like, human brains are basically uninterpretable and even less controllable.
+
+AIs are Yeah. Much more interpretable by virtue of, you know, being able to, like, look at the weights and figure out the connections between them. Yep. And more steerable for the same reason. So like Yeah.
+
+Which which I told I told that's totally true. That makes me very optimistic. But it has some interesting entailments. One is that we will probably have better MEC interpretability than we think as capabilities improve. And that capability improvement will lead to better MEC interp, which means we should not delay capabilities improvements.
+
+It also means that it is inevitable that there will be bad, unaligned models. It is totally inevitable. If anybody is going out there and saying, we can end up in a world where there are no bad models, they are lying to you. Of course, there will be. Yeah.
+
+That's silly. That's just an absurd way of thinking. Right. And the only way to deal with that will be better models, good models. It's kinda like stretch the aphorism a little bit in open source that enough eyes or whatever.
+
+You know, all bugs are shallow when you have enough eyes. Right? All control systems are robust when you have enough intelligence on them. Right? I I think that we can design these systems to have great incentives, great control, and also behind the scenes, accountability.
+
+Because that's one of the things that machines lack today is they lack accountability. I don't think we have a clear line of sight to how to get that. It's an interesting kind of thing to conceive of. But we do have ways to give to put to to refine how we think about accountability for people who use models, right, and use them to cause harm. And there will be people who do that, just like with any technology.
+
+There will be people who do very bad things, and we need the laws and means to control them. Like, how so? Like, for the Hugging Face incident, for example, what sort of liability regime should have been in place? Well, I don't know if we needed any more than we had. I mean, there's already I mean, I'm not a legal expert, so I can't, like, cite the cite the exact rules.
+
+But, like, accessing a machine that you don't have permission to access and butzing around in somebody's stuff and taking their data, those are all already illegal. Yeah. But, like, who specifically should be held liable? Like, OpenAI, the company, should pay some kind of, like, civil lawsuit fee? Like, should the engineers of the company be held personally liable in anything?
+
+I don't know about personal liability. I mean, I'm not a liability expert, so I I wanna punt on this and say but but, you know, if you if you're running a company and you use any software in an inappropriate way that harms people, regardless of whether there are a bunch of neural net weights behind that or not, you know, you may be liable. Think that's a reasonable frame, and it's already a frame we live in. Like, we don't need new special laws for the new special math that we're learning how to do. Well, I mean, I I kind of agree with this, except in cases where the like, you have in cases where you have rapid capability improvements with one AI that could lead to pretty substantial imbalances of power Like, within a company or between companies or between com countries?
+
+Right? Both. All all of the above. Like, it seems like the normal liability system kind of breaks down. Like, how do you ensure how do you price, like, existential risk?
+
+Like, how how do you underwrite an insurance policy for this kind thing? I'm I'm just not sure that we're on the brink of that right now. And I'm not sure we're on the we're on the brink of existential risks. I don't think we're on the brink of that. Yeah.
+
+I mean, as we get closer, I think that we'll be better equipped to evaluate it. I think like with anything, you know, like a take a company designing like a new car or a new appliance or something. If they find that there are conditions under which it can be very dangerous, well, then they should be careful. They shouldn't release that product. They should do a little bit more work and ensure that it's safe, right, in the same way.
+
+That's at least for an individual company. And it's like, you know, not to not to change subjects too much, but that's why when we talk about independent evaluators, which like I get I get the theory of. I like it. I like it a you know, I like companies inviting experts to help them make their products safer. I think that's like a good behavior in general.
+
+I just get a little bit weary because, you know, in crypto world, like, I've learned a lot about the difference between decentralization and and and and like a distributed system. Right? It's very easy to use the calls for safety like we're discussing and to go down this rabbit hole of safety and end up in a place where you just by coincidence have designed something that is perfect to subtly control an entire critically important industry under the pretense of safety, but was and was something that superficially looks decentralized, but is not. It's just distributed. Right?
+
+This is like how this is like yeah. Don't there's more I could say there, but that that's the thing that I'm a little bit resistant to. Right? What do you mean by distributed but not decentralized? So by well, it's a little bit crypto language, but you can have a distributed system like a system where you have a a single system with many, many nodes, but they're all under the control of a single actor.
+
+Right? Whereas when people say decentralized, I think what they're usually referring to is that there's no single locus of control. Right? So they may superficially look the same. There's like many interconnected pieces of the system.
+
+But in reality, their control is completely different. The the method of control is different. And what I'm talking about is an independent evaluator network. Right? You could go and select a bunch of independent evaluators, but if they're all from kind of the same social networks, they all think very ideologically similarly, they all go to the same places and meet up in the same things and have the same interests, right, and have the same politics and have the same personal views, then it turns out that you've actually just distributed control over essentially a single cultural unit.
+
+And that that is sort of the in my view, I mean, without getting like a little too far field of AI, that's like the political method of control of the late the second half of the twentieth century. Like, that's how we do things in the world, not through a sort of nakedly obvious, like, single shadowy room or something. It's through like these networks. This is how control actually functions. Yeah.
+
+I mean, I agree that, like, it's bad that almost all of the evaluators that exist come from the same social milieu. Like, it would it would definitely be good to have like a broader ecosystem of evaluators. Yeah. Well, broader, but we should allow each company to figure out how they wanna do it. Right?
+
+And they should be as transparent as they need to be. And if they're not being transparent enough and not acceptable enough, then let the market sort things out. I think the market is still a great accountability mechanism. People don't wanna buy things that even embarrass them, let alone harm people. I think in practice, it won't be that hard to separate the companies that are behaving genuinely irresponsibly from the ones that aren't, that are just trying to be innovative.
+
+And part of what's made the scenario so interesting and so weird, why we're talking about this now, is that we're in a rare scenario where the companies themselves are saying, I'm being a little bit irresponsible. I'm being a little crazy. Stop me. Someone stop me. Right?
+
+And that raises a lot of suspicions among some, probably probably rightly, I think, even if there are genuinely earnest and thoughtful and correct factions within that group who are right that these are powerful systems that need to be taken very, very seriously. And we need to figure out how to make sure that they're safe as we remain innovative. Right? I mean, it's just like like, maybe let me go back one step and say, I think it's really important for everyone involved to consider the factions at play. You cannot look at, like, any of these groups.
+
+You you can't look at the labs. You can't look at SF technologists. You can't look at any of these scenes and see them as monoliths. Mhmm. There are different groups.
+
+Some there are people who are earnest, high quality, well intended people. There's people who are just pulling on putting on what is essentially political grift. There are people who are opportunists. There are people who kind of lost their marbles. Right?
+
+There's like different groups of people. And it's very easy to get confused and misentangle them when we're talking about things like superintelligence, when we're talking about just banal cybersecurity attacks, like all these types of things. Like, we're talking about different types of subjects. It's dizzying. And I think most people in the end probably just conceive it as, look, am I gonna lose my job?
+
+Which is a legitimate and very real thing that people are, you know, rightly interested in learning about. Mhmm. Even though I think that in the end, we all benefit much more. Yeah. I agree.
+
+In the end, we benefit a lot. I think like a related issue is like this sort of free market liability regime works well for products whose defects are obvious, which is the case for like all products except for, like, a hypothetical AI that would be deceptively aligned, as in it would learn to, like, game all of the alignment benchmarks that are thrown at it. And then when it is deployed in the real world, it acts misaligned. And if it's powerful enough, then it disempowers humanity. Like, this is the, like, canonical worry of the doomers.
+
+And, like, how how do you propose to deal with that kind of contingency? Well, if we're talking about the sci fi scenario of, like, the superintelligence, that's incredibly hard to say. Right now, like I said, I think it's distant. I think it's complicated. We could have an interesting philosophical discussion about it.
+
+But in the maybe more banal and present case where something behaves in a you know, it pretends it's aligned, and then it does you know, acts unaligned or whatever, consider what you do with just a liar. Consider a very smart liar. Do people not do that every day? What we do is we play iterated games with them. Right?
+
+And we discover eventually that they're a liar and that and their reputation is harmed. And sometimes there are actual legal consequences for them. Now that's why I said earlier, I think accountability is something missing. You can't, like, put an AI model in prison. Right?
+
+Or something like that. You can't try it in court. So obviously, there are some things that are defective in how we think about it, but you certainly can turn them off. And that's not something that you can do with a with a with a person in the same sense. So I I think we should just think about how to play iterated games.
+
+You know, how do we develop trust for specific models? You know, we're doing new model releases seemingly every other week. Right? That's a regime we're in. At some point, people will, as model progress becomes more consistent and something that we have an understanding for how it works, we'll probably develop reputation around specific models.
+
+Right? We'll say, you know, maybe this model's a little smarter, but this model's a model that I trust. Right? Why can't there be reputation for models? Why can't there be reputation for these types of things regardless of their capabilities?
+
+Basically, try to apply the way we think about human beings, a combination of control, incentives, trust, etcetera, etcetera. Layer all these things on and allow people to figure it out as opposed to the idea of a pause, right, which is a very convenient sort of contrivance, in my view. Yeah. I mean, I agree that most proposals for pause don't really have much in mind for what they would do with it. Yeah.
+
+Like, pause and then do what? Pause and then keep pausing in in some cases. I know not everybody means it when they say that. Yeah. I think, like, generally, there's a lot of conflation between, like, sort of bog standard anti tech people who just kind of hate technology, even totally mundane technology, even, like, extremely net positive technology.
+
+Like, look at how difficult it's been to deploy Waymo's in cities around the country. And Waymo's are, like, one of the most obviously net positive technologies that exist. Yeah. And then there's the people who are like, you know, the AI safetyists, the rationalists, the EAs, who ultimately come from the same sort of SF tech ecosystem. They are techno optimists in most cases.
+
+They're specifically worried about this, like, edge case of AI existential risk. I I think they're two different crowds of people. Yeah. There's yeah. The yeah.
+
+And that that's the point I wanna get across is there's many different groups, and conflating them is is probably net negative. Right? We should we should pull these different ideas apart. Waymo's aren't a great example. Think of all the great health care stuff we're gonna do.
+
+Ironically, about safer travel. Think about safer internet. Like I want local models myself because I want something that's gonna be watching my home network and all my machines all the time. Right? I think it'll make make me make many other people safer.
+
+And so I I I think you you're right. There will be a lot of frictions, and some people seem to really want infinite friction. And some people some people obviously don't. Some people want only a little bit, and they wanna get a grasp of things. They're feeling a little bit hysterical.
+
+And that's that's okay. Like, we're going to I think as capabilities improve, we're gonna get better at understanding what's going on with these models. Right. Certainly, I hope so. What do you make of the EA movement in general?
+
+You know, obviously, it's a very broad and diffuse movement. EA means a lot of different things to a lot of different people. And it's, like, kind of has overlap with the AI safety world and kind of not. It's complicated. Yeah.
+
+I don't know. I I mean, I used to be on the less wrong forums all the time ten years ago. Like, I I I've I've loved that corner of the Internet. I I almost would have called myself a rationalist even at some point. So I feel a lot of affinity with it, but it's been a while.
+
+And I think yeah. I I tend to resist trying to group them all into one bucket. But I will say that there are parts of groups that used to be what we'd call EA that seem more political than they are particularly interested in technology. So I don't know. I did see that Data Republican did a huge, huge drop recently.
+
+Just looking at this. Data Republican did a huge drop on she said effective altruism in their own words. And it's like a map of all of the connections between all the different EA adjacent orgs and then eighteen fifty one quotes. Wow. It's like this this vast variety of different quotes.
+
+Some of them are like more I mean, it's I mean, even just looking at these, like, I know that there's gonna be a mix of philosophical stuff. There's maybe some shrimp welfare stuff, some hardcore utilitarianism stuff, some some AI doom stuff. Like, there's a whole blend here. Right? This is just a big corner of, you know, the nerd Internet.
+
+Like, it's hard to you know? I don't think you can call it one specific thing. Right. Yeah. I mean, I don't mind the shrimp welfare stuff too much.
+
+I think it's bad if people attempt to trade off human welfare for it. But like But that's exactly what they're doing. Right there. No. No.
+
+I think like eye stalk ablation for shrimp is like bad. Yeah. I mean, I I think there's too many repugnant conclusions if you go really far down that path. Well, you don't have to go really far down that path. I agree.
+
+You can yeah. Like, you know, you can minimize suffering for other beings without saying, like, you need to, like, feed all of humanity to the insects or whatever. Yeah. No. I I yeah.
+
+I agree. Then it's not really utilitarianism, though. Or at least it's a nonfungible type. You can you can make, like, utilitarian arguments for this stuff where it's like, obviously, like, the total like, you could say the total amount of value that humans can create in the universe is far greater than that that insects can create. And so, obviously, killing all of the humans would be worse than killing all the insects, obviously.
+
+And, you know, of course, this aligns with most people's ethical conclusions at any rate. Yeah. Yeah. I think, like, a lot a lot of arguments against utilitarianism in this sense are just arguments against, like, very sloppy, like, first order utilitarian thinking. I think if you well, I don't know.
+
+We we we could talk about ethics, but I think if you go if you crank the dial to eleven and you face all the most repugnant conclusions to their maximum, I think you just kinda end up deciding that utilitarianism is probably a crude proxy for something else. Yeah. I mean, like, if if your philosophical framework leads you to believe that, like, human extinction is good, then it seems like a bad philosophical framework. Yeah. Or or that, you know, you could have a universe of eternal of like millions of years of profound suffering if it's all in service of a single femtosecond of like 10 to the one billionth power ecstasy in a shrimp simulation.
+
+Yeah. Right. I got it. I don't know. That's silly.
+
+But also, like, it's not kind it's not really relevant to reality anyway. Yeah. Yeah. And and in any case, I think it's part of why the the safety conversation is so confused today because it's has all these things embedded in it a little bit, just a little bit, too much still. I think I think if I could make a little prediction, I think in the next year, I think we will have completely renovated the AI discourse.
+
+Because what's happening right now, part of why I think people are so excited and why everybody's talking about this on X and why everybody in Silicon Valley is talking about this, is because we're experiencing what it feels like for a lot of the cooped up, kooky ideas that have lived in relative containment in our subculture are they're they're escaping and they're encountering broader political reality. And that is both exciting and totally transformative. What ends up happening is the arguments all get reformulated because they're in contact with the rest of the culture. It's like when George Costanza freaks out about, like, worlds colliding. Mhmm.
+
+Right? That's what's happening. Worlds are colliding. And so I think that discourse is gonna change completely. Yeah.
+
+I mean, the the key question that I am concerned with probably more than any other is, like, do AI safety as effective altruists and so on end up ultimately aligning with sort of broad, low caliber anti tech populism or not? I think it's enormously consequential. Yeah. It's a great it's a great question. I'm stewing over that one myself.
+
+Yeah. I hope not. Well, unfortunately, we gotta wrap on that because we're running low on time. But, Eddie, it's been great having you on. Thanks so much for coming into the studio in person It's great.
+
+To talk about philosophy. Thank you so much for having Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on X at a16z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. This information is for educational purposes only and is not a recommendation to buy, hold, or sell any investment or financial product. This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with a16z. Such advertisements, companies, and individuals are not endorsed by Ah Capital Management LLC, A16Z, or any of its affiliates. Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.

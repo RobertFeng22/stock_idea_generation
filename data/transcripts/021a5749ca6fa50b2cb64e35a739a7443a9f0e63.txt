@@ -1,0 +1,337 @@
+We're gonna see the biggest or the frontier models be bigger and bigger over time. It appears there is no end to the scaling law that we can perceive so far. I think today we don't know how to pay for unique valuable insight or data. Ads don't work with agents in their current form. You need to find a replacement to the ads business model.
+
+I do think there should be some disparity in wealth. But I don't know what's too much. This is 20 VC with me, Harry Stebbings. Now what do Andrew Reid, Vinod Khosla, and Josh Koppelman all have in common? Well, they all believe in Parag Agrawal to change the future of agentic search.
+
+Parag is the founder of Parallel, as I said, changing the future of how agents do web search efficiently. This is an incredible discussion on the future of Vagantic search, the future of income and wealth inequality, and so much more. Panag rarely does shows, and so it was very special to sit down in person with him in London. But before we dive into the show today, MongoDB has always been the database developers love. Well, now is the data platform AI agents need.
+
+Agents need accurate context, fast. MongoDB stores, searches, and reasons over your data in real time. JSON native database, vector search, and Voyage AI embeddings all in one place. One system instead of 10. No data pipelines to maintain.
+
+Ugh. This sounds too good to be true. Build and scale from your first user to billions of vectors. Run on any cloud, on prem, or your laptop even. That's why 75% of the Fortune one hundred run their most critical apps on MongoDB, moving trillions of dollars every single day.
+
+And it's why AI native companies like Eleven Labs run 40,000,000 agents on MongoDB. So if you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and dedicated support. Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents.
+
+That's mongodb.com/agents. While MongoDB scales the product, Framework scales the story. When a new landing page turns into a pile of tickets and handoffs, Framer helps your team move faster. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace.
+
+Agents and humans work in tandem. Agents bring speed and scale. You bring taste, judgment, and control. The work lands on the canvas and stays editable. Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place.
+
+Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc. Rules and restrictions may apply. You have now arrived at your destination.
+
+Parag, I'm so excited for this, dude. I I spoke to Vinod. I spoke to Andrew Reed. I spoke to Todd Jackson. Dude, I stalked the shit out of you, so thank you for joining me.
+
+Thanks for having me, and thanks for making all the calls. Not at all. I would love to start with, for anyone that doesn't know, how would you describe Parallel in sixty seconds? Parallel is the Google for agents. So agents need to search the web to do anything they do for you, whether it's a personal agent or an agent built for work.
+
+Just like humans need to go on a browser, search Google oftentimes during work or for whatever you're doing in life. Your agent needs to do the same. Turns out agents are different from humans, and the way you build web search for agents is different. Parallel is about building the technology for agents to search the web and then the business models to make that sustainable. Was the original insight that you had?
+
+Yeah. Literally, first genesis of the company was the statement that agents will use the web 1000x more than humans. I wrote that down at some point. Hence, new tech is needed and new business models are needed. Thousand x gives you a sense of scale.
+
+It changes how you think about building the tech underneath because, like, no tech built for a certain scale survives three orders of magnitude. And then when you need new business models alongside new technology, a problem becomes really interesting. How does the world of agents change web search in terms of technology required? There are many, many layers to the answer, but let's start at the first thing we mentioned, which is scale. Right?
+
+Now if you think about let's say agents actually do end up searching the web a thousand x more. If we spend the amount of compute we currently spend per web search, That's too much compute for web search. So you now need to make it way more efficient by perhaps, I think, 10 to a 100 x for it to make sense. Yeah. If you're doing a thousand x.
+
+Yeah. Exactly. The second thing is humans operate in a very narrow zone. So if you think about how we use web search, we type keyword queries, which are short and underspecified. We wait for about half to one second.
+
+If web search takes more than that, we're impatient. And then we get 10 blue links, and then we random walk across them and a collection of searches to get what we're doing. Agents are not like that. Agents are gonna perhaps tell you exactly what they're looking for, not like three keywords, but like a full sentence. Like, this is what I'm trying to do.
+
+Agents will either be super impatient. Like imagine a voice agent, the agent will be like, I need an answer like now, a hundred milliseconds. I can't wait five hundred milliseconds because the human is waiting on me and they're going to wait five hundred milliseconds. So I need web search to do it in hundred. Are there going to be a background agent who's like, I don't care.
+
+Just give me the best answer possible. And so the variance of what you can do within web search changes completely. In fact, the one thing that is the least interesting is what we've built for humans. Right? You either have much time or too little time.
+
+Almost never the same amount. The output is not the same. So the input's different. The time you have is different. The output is different.
+
+The output is in blue links. The output is tokens or files on a file system depending on the type of agent. And so now all of a sudden, you say, okay. Now the problem's inputs are different, outputs are different, and constraints are different. And you get to spend very different amounts of compute on it.
+
+So imagine someone running an agent built with a LUNA model, and then imagine someone running an agent built with a Fable model. They're very different models. How you wanna optimize signal to noise and tokens for each of them is so different in terms of what you do in the web search track. So what do mean optimize signal for noise? So think of it this way.
+
+Let's say you took web search, which was cheap and fast and low compute. One way of conceptualizing the web search problem is you start with, like, a trillion documents that are on the web, some few trillion. Given any search, I now need to narrow it down to a thousand tokens that your model's context window should see. So the problem is going from a trillion URLs with, let's call it, a few thousand tokens each down to a thousand total tokens. So how do we do it in website?
+
+We first say, okay, we're gonna do retrieval. So for most documents, I'm gonna spend zero compute. For small number of documents, I'm gonna spend minuscule amounts of compute to figure out which 10,000 to look at. I get these 10,000, I'm gonna spend a little bit more compute for each of these 10,000 documents to narrow it down to 1,000 documents. Mhmm.
+
+And I'm gonna keep doing this with bigger and bigger models and rankers with more and more features until I can narrow it down to a thousand tokens for your model. So you're essentially allocating compute to web search in order to save compute on the model. That's roughly what's going on here. So if you wanna save compute for the model, the question is how much compute should you allocate? So if your LUNA model is really cheap, you don't want to do too much compute in web search because it's okay to leak a little bit more information into LUNA's context because it's cheap.
+
+Into Fable, you wanna do the work before you waste Fable's time because that's gonna be expensive in time and money for you if web search gives you worse answers because you cheaper out on web search. Can I ask, how do you deal with the ambiguity of what agents want? And what I mean by that is for different things, an agent might want different things. And for different people, an agent might want different things. I may really care about accuracy and not at all about latency or cost.
+
+I may really care about latency, but not a tool by accuracy, really. So you allow the agent to specify that in the API signature. So our product is an API, which either the programmer can configure based on their application or can leave it to the agent. Our API even has a parameter, which is like, what's the model calling me? If you know the model, we can do things differently.
+
+Now you don't have to tell us, but if you tell us, you might get better results. We ship just like you can use, like, a model. You can use a small model or a big model, and you can use it with, like, low thinking or medium thinking or high thinking. We have productized our search system into a few different modes, each optimized for a certain class of use case. For example, we have a really, really fast API, the fastest in the market.
+
+It's fast and cheap because with low latency budget, there's only so much compute you can do. And it's built for voice agents. So your voice agent must be all knowing without telling you, guys, I'm searching the web. Hold on while I come back with the answer. Like, that's a silly experience for a voice agent.
+
+Right? But you should just, like, magically immediately respond. And you now need to do web search, which is like a rapid. On the other hand, you can take a Fable model, and the thing is gonna think for twenty seconds and then generate for it. You can spend five seconds on web search to make sure it does into five web searches, only two.
+
+So you end to end in the agent, you save time and cost. And so that's a different processor on our system. It's called advanced. So you use Turbo if you're building a voice agent, you use advanced if you're like really expensive background agent. And so the primary use case today in terms of customer base is engineering and coding.
+
+It's pretty broad based. I would say the primary use cases, the common theme is knowledge work. Coding is a category of knowledge work. So are AI lawyers. So are productivity applications.
+
+So are AI insurance underwriters. So are AI scientists. I'm trying to understand how much of the mother load is engineering. Is it 80? No.
+
+The the thing about engineering is coding is a large chunk of inference in the market right now. Coding invokes, I would say, web search in 5% of prompts. Woah. Right? So it's not every prompt invoking web search when you're writing code because most of them rely on your internal context and your internal data and your code base.
+
+So the model is spending time reading your internal code and not on the web. Law is not gonna be much more, is it? Law is very web search oriented. Really? I thought it'd be internal data driven.
+
+There is internal data, but there is case law. There is facts. There's facts about companies, facts about people, and you have to go exclude information. So you have to be very comprehensive in law to say, I want to be confident that despite a lot of effort, you can't find this. Insurance underwriting has the same flavor.
+
+So there's sales is very web search heavy. AI science is very web search heavy. So on a relative basis, inference goes more in compute. But when you think of web search, all of these others start popping too. We were talking before about muse and instinct.
+
+If there's anything that needs web search, it's personal assistance. It's great. How does that yeah. It's great. This is like, woo hoo.
+
+This is the greatest thing for my business. How does that change your business? In our business, right, anytime agents start becoming more useful for more use cases because models either get better or cheaper, it's great for us. Right? Because we bet that agents will be the consumers for the web, and we're we've been building tech for agents.
+
+So when agent do more, it's great for our business. So we want models to keep getting better and cheaper so that agents do more and more and more. And if that happens, it's great for our business. If models get smarter, don't the agents beneath them do fewer searches, and then it's worse for your business? I don't think so.
+
+If you think of models, there is the trend around models being smarter and then models having more memorized than parametric memory. Like, those are two slightly different dimensions. Today, by and large, I would say models have good recall from parametric memory on, let's call them head facts. Facts. It's like for somebody famous, everything about them, Wikipedia, it can memorize.
+
+So it'll tell you who the president was in a certain year. Right? Because a model can memorize those things. The model can tell you what year I graduated from college. Maybe for me it can, but it can't tell you for somebody who works at parallel.
+
+Do you know things if I if I I mean, if I were to Even if it was in the pretrained data. Seriously? Because it's lossy compression. So what a model's parametric memory is doing? It's lossily compressing to understand patterns in the world.
+
+And so it can't memorize every fact in pretraining data. So one, not every fact is in pretraining data. Two, it can't for even stuff that's in pretraining data, the model's actually trying to find patterns rather than memorize them. And then further, as you make models efficient, which is you make them smaller and smaller while keeping the performance by distilling them or whatever, you lose more of the parametric memory where you try to keep the reasoning. Do you think we will see models become smaller and smaller than every company have their own model with their own data and the fireworks theory of, you know, own your own intelligence being true?
+
+There are two questions in there. So one, think we're gonna see two things. We're gonna see the biggest or the frontier models be bigger and bigger over time. We are also going to see smaller and smaller models being able to reach any fixed level of performance. So if you say, okay, I want opus 4.8 level of performance.
+
+Okay? That's good enough for my use case. Every six months, a much smaller model will be able to deliver that to you. The useful range of sizes of models will be way, way, way different. What does it mean if the frontier get bigger and bigger?
+
+What are the ramifications of that? They are better. All of the ramifications you imagine. The reason the frontier will get bigger and bigger is ultimately the gap between the value for certain use cases incremental quality can provide you can be so high in certain use cases, which can be so valuable that it's worth paying for. So if you can build it, there will be use cases for it as long as by making it bigger, you can make it better.
+
+It appears there is no end to the scaling law that we can perceive so far. Again, I'm conflating bigger with like models are getting bigger, but they're also able to think longer. So you're just able to throw more compute at the same problem. That will keep happening. I think we'll be able to throw more and more compute at same problem and make the answer be marginally better over time.
+
+And so we're gonna just spend a lot of money on extremely large models solving really hard problems. Do you agree with the consensus view that you'll have 90% of token activity go through open models, but 90% of dollars go through frontier models? I don't think it'll be 90% on either of those two, actually. Why? So if you believe my claim that a useful model and the frontier model will be 100x, 1000x often price from each other.
+
+So this model is still useful. It is hard to know which use cases over time will get optimized to which scale of model in between. And I think that is a real path dependency in terms of where open models end up. I do think if we had strong confidence that an American built open model was going to be state of the art as far as open models went, I would have more confidence in saying that they'll be pretty good. Do you have confidence in American open models?
+
+I want them to exist. So far, it's not clear what's going to happen. But I'm hoping that there will be a great series of American open models and perhaps even competition to have the best American open model. I think what you need is actually not just one person motivated to build an American open model. You need two people competing against each other to build the best American open model.
+
+Do you think there's value in the model routing layer, routing layer as Americans call it? Some people think immense value. Some think commoditization. Again, there's path dependency there. So today, there is real value.
+
+Today, there's real value because when we say routing, we talk about two different dimensions. Which model and which GPU running that model by which vendor? When you're in a world where the demand supply is very feared, People are like hunting for GPUs and people need capacity to serve their customers and people. All of these are like us, like relatively early stage startups growing really rapidly, sometimes beyond what your forecast or predictions say. And then all of a sudden you're looking for capacity.
+
+And so you want to be able to get it where you can. And so that creates real value in having some of these routers as log in, they can solve these two problems saying, give me flexibility if I need to get a different source of tokens and push comes to shove. There's no tokens on this model in the SLA I want. I'll switch models as well. So in this moment, it's really valuable.
+
+Now I don't know what happens to overall demand supply on GPUs and tokens. But if it remains this way, the routing layer is really valuable. What do you think is not so valuable today that will be incredibly valuable in three to five years time? Perhaps data. I think today we don't know how to pay for unique valuable insight or data.
+
+Because as intelligence is cheaper, you're going to want to build upon either data or insight that comes from somewhere else with your unique data. Right? So what like, if you think of like an abstract notion that, okay, I have intelligence here. I want some data. You want some data and there's some data in the public domain.
+
+If we can pull together your insights and my insights and all of this data in the public domain and intelligence on top, we can create something bigger than what you could have done by yourself, what I could have done by myself. So now how do you transact to create this sort of whole that is bigger than the sum of what you could have done yourself and what I could have done or what OpenData was good at. And so that transaction feels like a data transaction to me or an inside transaction to me. And so we don't yet know how to transact that way. So we fall down to, okay, all I can do is use my data and use OpenData and let's see what I can do with it.
+
+But if we figured out better ways of pricing data and good things will happen, but it's not something that's yet a market. But what I'm talking about is data transactions at inference time. So it's not necessarily training time. We are building knowledge. Let's let's take an example of today's world, for example.
+
+Let's say in your job since I'm sitting with the VC, you probably have access to a pitch book or like a product like that to collect data. And so you you get grounded in knowledge of what's happening and you get to use that data to figure out how to make decisions in addition to all the the notes you have and deal memos you've written perhaps over the years or insights you've had about, like, how to choose founders. And you're essentially composing insights from your personal lived experience, your notes, public data to make decisions. Now you pay PitchBook by the seat, but now you're running a bunch of agents. And your agents perhaps not access everything you can on PitchBook.
+
+All you're doing, like, sort of this to get a browser, perhaps against terms of service to send agent via browser to PitchBook using your auth credentials. And it's inefficient. Inefficient. It's clunky. Right?
+
+But clearly, their data is valuable. And clearly, your agent should have convenient access to it. So if we figure out how valuable pitch book data is for your agents to make your decisions, Because, clearly, you're investing a large hundreds of millions of dollars. So, clearly, you presume that you make a great return on that. So this data is truly valuable if you depend on it today.
+
+So you should be able to figure out how to compensate PitchBook for the data even when agents use it, which is not by the seat. If we figure that out, it'll be a huge market and agents will be better off. If we don't figure it out, you're gonna be in this weird cat and mouse game. Off. PitchBook being like, no.
+
+I wanna sell you a seat. I'm gonna shut it off. And your agent is stuck without the data, and then, like, you're involved in, like, pulling data. I think every big company has the choice today of do we let agents in or do we keep them out? And Amazon has said, I'm sorry.
+
+In most recent times, Muse, you will not be let into our garden. Shopify has said, come in, baby. Expedia said, come in. How does this play out? I think eventually, everyone has to let them in.
+
+The question is on what terms? So how do you align incentives for everyone? And people are gonna have to play their strategy games on how they win in this new world. Literally, the customer is changing in front of our eyes. Right?
+
+Like, the customer used to be a human. You're building products for humans. Now you're building products for agents. All you're building agents. And so now you have to figure out what your place in this new reality will be.
+
+I don't know if there's a right or wrong answer here. It also depends on sort of how much market power you have. Do you think Amazon were right to say no to Muse? Depends on what they do next with it. If it turns out that they have sufficient market power to have Muse or other agents connect to them differently perhaps over time or ship their own agent and drive crazy adoption.
+
+Let's say they have that capability, then I guess they were right. Right? On the other hand, once they've made this, they're not gonna allow anyone else's agent And they cannot ship an agent that consumers use, and they won't allow anyone else's agent to use them. And a lot of the transaction economy starts moving off of to agents, which are all big ifs, by the way, then it would be a bad move. Now I'm betting on agents.
+
+I have mixed feelings around agents and what fraction of ecommerce transactions they do. Like, it's unclear. Right? Like, it's I do you think it's unclear? I think it's unwaveringly clear.
+
+Maybe I'm super early on the adoption curve, and I buy everything through instinct now. Other than holidays and a home Yep. I'm literally just everything through instinct. Mhmm. So so me too.
+
+But I also know a lot of people who like to buy things themselves. And, like, listen, we want to delegate to agents things which we see as chores and uninteresting and not delegate to agents things that give us joy or pleasure or make us have fun doing those things. And I know people who don't want to delegate shopping. They wanna delegate a lot of things in their life. They don't wanna delegate shopping.
+
+And so that's why I don't know the distribution of these people and how behavior changes, but it might be people give away a lot of other chores and then spend a lot of time shopping. One thing that does worry me is actually the dissolution of the advertising industry in the wake of agents. If I have you know, if I order my delivery and my Uber, DoorDash for our dear American counterparts through Instinct, that Uber banner that's now advertising something becomes worthless. Amazon, their advertising business is bigger than their e commerce business now. Of course, they're shutting it off because if agent's the primary customer, your ads business goes to next to nothing.
+
+Correct. And this is not just you're talking about this in the e commerce line, right? But this is what I meant early on when I said like the business models have to change. Ads don't work with agents in their current form. Forgetting e commerce for a second, if you think of you're in the content business, let's say your page, which is ad supported public information on the web, ad supported page, people show up, you show them ads, you make money, great content.
+
+Agents show up, no one sees ads, you make no money, which is why we like to pay people. So we're effectively building an AdSense for agents showing up to read your content. So we like to pay content owners a variable amount of money every time an agent derives benefit from reading their information, which is a variable amount of money is what a visitor to your website will pay you based on a click probability or a value probability on ads. Why do you do that? To incentive align content owners.
+
+Otherwise, what's gonna happen? Everyone's gonna block agents. So you you need to find a replacement to the ads business model. I get you, but you have to assume that you're gonna be, like, a 100% of the market then. Because if you're 40% of the market and you're like, oh, don't worry.
+
+We'll pay you. And New York Times is still like, well, thanks, Parag, but 60% of my traffic is still unpaid. So I'm just gonna block all of you. No. But I think they're gonna block them and not me.
+
+They're gonna give me a data feed. What does incentive alignment mean? It means that New York Times believes that I pay them competitive market price or the right price or an attractive price or a fair price. If I do that, they should give me their content. And if somebody else doesn't give them that, and if they have the technical levers or legal levers, they shouldn't give it to them.
+
+Do you think this business is a little bit like music with streaming, which is like the business just becomes candidly much worse for the creators. And it still provides some money and significant money, but they have to get a little bit more creative with alternative streams, touring, merchandise, alternative business. Is it the same where your core goes down and you have to get more creative? I don't know, but I don't think so. I think there's one fundamental thing that is different here.
+
+Agents using the web a thousand x more, like that thousand x, is really different. Now all of a sudden, the amount of utility added goes up if these agents are presumed to be doing something useful. And so this is not just a change in the share of value that people transact over. This is a large growing pie. And when that happens, it is actually possible to transition business models.
+
+And of course, don't get me wrong. There are going to be winners and losers. Right? Like, some pieces of content will become very valuable. Some pieces of content will get more commoditized, and people are going to have to adapt to a new customer, to a new market dynamic, to a new kind of monetization engine.
+
+But the overall market size, I think, has the potential to increase. Unlike in music where it took a while for it to grow back. I think my understanding is now the industry has grown back up and exceeded its previous peaks in a material way, but there was a moment where it was smaller. In this case, that might be a very compressed period given how fast these things are growing. Everyone questions the sustainability of margin structures in this business.
+
+How do you think about that as a business today? Today, we're in the infrastructure business, and we have a real technical lead in terms of being able to do things at very high quality, very cheap. If you think of the tech we're building, right, like what are we doing? We like to give the highest quality answer. Make it fast, make it cheap.
+
+Spend the least amount of compute doing it. Like, we obsess about only these three things. Right? Quality, cost, latency. Turns out if you do that relative to a stack built for humans over the last twenty years, you can do things at the same quality for one twentieth, one fiftieth of the compute.
+
+And so a lot of margins come down to market structure on competition over time rather than any other factor. Factor. And And in our industry, the market is large. We're too early to know what future competition and market structure looks like. But the margin change due to content owners is not something I worry about.
+
+And let me tell you why. The entire premise of us paying content owners is driving incentive alignment. So we like to pay content owners the marginal contribution that they added to an agent doing work. What does that mean? Let's assume that there's an agent trying to get something done, and you're gonna spend a dollar on that agent to get this thing done.
+
+Now if you've spent a dollar and ten seconds, because we have a larger model available or ways of spending compute, you could have gotten a slightly better answer. If you spend 90¢, you would have gotten a slightly worse answer. If you're running good agents, like, they're on this Pareto curve. So now imagine I took out one content owner, their data from the web index, and I still spent a dollar. But let's say after taking them out, the quality of the result was the same as the 90¢ agent with their content.
+
+So why wouldn't we go and take this 10¢ of marginal contribution they had as a content owner and pay out a decent chunk of it to the person who brought that data? That's how we do our math. That's how we have trained our models, which tell us how much to pay for what content need. And so to produce, if I was going to offer an equivalently good product to my customer, I'd rather pay content owners than spend on inference because I'm spending the same amount. So they're they're all big numbers, but then it actually comes back to revenue at a certain point.
+
+Companies are scaling faster than ever revenue wise. Is it a business where your revenue is able to scale as fast as others? One mental model of our business is we are an adjacency to inference or knowledge work or personal agents. So take out GPUs going into media generation or training. So take training away.
+
+Take media generation away for a moment. Look at all of the GPUs, whether it's small models, open models, proprietary models, all of that. Every bit of inference across all models going into running agents, I think somewhere between five to 20% off that spend that goes into GPU will need to go into some sort of a web search stack. Now, if you look at like how many data centers we are gonna build and how much power we'll generate and how many GPUs will build and the scale of this build out and at what rate that's growing. This is a very material market.
+
+And if inference grows three x, five x, seven x year on year, we grow alongside it in the same rate. If we're just holding our share constraint, if we're growing share, we're growing even faster. So like your fireworks scales to 2,000,000,000 in revenue in four years. Is that like a I'm I'm bringing up. Is that like a similar revenue structure that you can follow?
+
+Yeah. But I think when Fireworks is 2,000,000,000 in revenue, the inference market revenue is 200 or more, maybe 300. And so our market potential based on my five to 20% math is, what I'll call it, 10 to fifty, fifteen to 60, whatever. And what fraction of that can we capture? That dictates how fast our revenue can grow.
+
+Like today, I think we grow alongside infants or more. If you think of it like a $20,000,000,000 there, let's just take that kind of middle. If you assume a 33%, that which would be a lot of a market, that would be, you know, whatever that is, 6 to 7,000,000,000, give or take. That's amazing. But before you told me it was a $100,000,000,000 business plus, that doesn't get you to a 100.
+
+In valuation, it does. We were discussing valuations earlier, not revenue. Yeah. So 6,000,000,000 growing at the rate of inference gets you to a 100,000,000,000 business easy, but that's in the next few years. And and you think that's possible in terms of that revenue scaling that fast?
+
+Yeah. I think in the next few years, it is. 2030, we're gonna sit here. You think you can be there? I'll get a tattoo for Parallel if you can.
+
+I think it's possible. I think we are gonna have to execute well, and a couple of chips have to fall our way. What would be the reason why you don't? Let's map out the what do we have to get gnarly about these problems? One reason would be that we see agent don't work.
+
+Like, there is, like, a tail risk that agents don't deliver on the profits and we overshoot at the society, which is extraneous to us. If agents work and deliver value and we spend all the money on GPUs that we plan to right now, then the main question is, did we execute well enough to have a 33% share that you bet on. And that comes down to in my mind, did we build the best tech? Did we partner with all of the content providers to have their content available? Because without it, it's not very useful if you want to rely on And did we go on the draft of the customers that end up having a decent chunk of that inference in four years from today?
+
+And then again, there's like large cone of uncertainty. Right? Like the I'd say there's a five uncertainty in Fireworks share at that point. If open models crush it like based on Fireworks model, all of them will have a huge chunk of revenue. So did we end up selling alongside them?
+
+Did we find all the customers which are spending money on them to spend money on our website by making it the best website in the world? What about commoditization? If you have a read of semi analysis where they did the benchmarking and then, like, you were, like, number one. Woo hoo. And then, like, a week later, you weren't number one.
+
+Sad. And there were, like, three or four providers within very close proximity. You're, like, oh, well, if it's commoditized and I take a second layer of thoughts to that, we'll see a race to the bottom on price. And then actually, the available rev no. Why why am I going down the wrong pathway here?
+
+One, there should be a raise to the bottom on price to get to the thousand x scale. I I think the pricing on web search today is just off. You think customers pay you too much? Not pay off too much. I think the market is mispriced.
+
+Let me tell you why. Let's say you used the LUNA model with OpenAI's built in web search today or with anyone's web search, forgetting us, And you ran any kind of deep research. Let's say you you built a a instinct using a LUNA class model and at some point the LUNA class model will be able to do sixty, seventy, 80% of your personal agent and will do a lot of searches. In that moment, 'll be spending 80 to 90% of your dollars on web search and 10% on the model. Seems entirely silly.
+
+I was working off of five to 20% assumption earlier. So I think at that point, web search have to drop prices by one order of magnitude or more because in my compute allocation dance that I was doing earlier, you need to spend less compute on web search than you spend on the model itself that's consuming its results. And so people have built web search the wrong way so far. Web search in the market is, it doesn't matter for an Opus. For an Opus, win on quality and not on price because web search is such a miniscule portion of your like, in fact, you should spend even more on web search.
+
+So we're going to ship even more expensive web search for bigger and bigger models over time. And at the same time, we'll ship really cheap web search for the cheap models. But my rough intuition is that in an end to end agent doing a bunch of web work, you spend more on the agent than on web search for all agents. And so the market today on web search is totally off in pricing. Like, why are you paying $10 for you know where the $10 for a thousand searches roughly comes from?
+
+Historically, Google's ads CPMs, which is like how well does web search with humans monetize. It's higher than that. So people build technology to the point of like, oh, now if I spend a few dollars for a thousand searches and I make 30 to 50 or whatever depending on the market and depending on who I am. It doesn't matter. We are in the right zone in terms of cogs of infra, and so I don't need to optimize it.
+
+Now I'm telling you that I can do it 50 x cheaper while keeping the quality. And now there's a bunch traffic of Luna class models where it's silly to monetize that way. And so I do want to raise to the bottom. I want the best technology to win, and that's the only way you push web search to a thousand x. But right now, we're not in a world where, like, there's much differentiation.
+
+Correct? Sorry. I'm really dumb, which is why I'm a podcaster first, not a not a founder. Like, when you look at the benchmarks, they present a quite clear view of everyone being similarly capable. Is that wrong?
+
+I think so. So one, I think these are all public benchmarks Yeah. Which are all weirdly saturated. Like, for example, right, like, think I would not spend a moment looking at BrowseComp because half the models are memorized. Like models even memorize, you don't even like it's not really learning very much.
+
+So I think there's a lot of public benchmarks that I don't give too much merit to, but more importantly, our web search costs $1 for a thousand for producing that quality while almost every other web search in the market available to you right now will cost you 7 or 10 or 14. So you'd we're delivering this at like one tenth of the price. What will that be in three years? I think there is another another 10 x possible. That's extraordinary.
+
+So you're gonna pay 10¢. Yeah. But you'll do it more than 10 x as much. So I think, like, Jevan's proud of us to say, this concept obviously very well, like Instinct, I do so much more than a 100 x. When I hear something I do on Instinct, which is absolutely bizarre, every single country in Europe has a company register that you have to register your new company with.
+
+I have an automatic alerting system built for every single company registered that has an under 25 year old founder who went to a top university through instinct. Amazing. Do you know how much that requires for them to do? Yes. But you're on to exactly what I think the future of the web is.
+
+Today, if you think of web and web search, we all think of it like what is web search? An agent gives human or agent gives search engine a query gets results. So you're pulling information out of the web. What's next for the use case you highlighted? If you're an always on agent that's working on your behalf, it's kinda silly for instinct to wake up every six hours and go do a bunch of searching and bunch of inference to figure out if you need to get pinged about the the the 25 founder that popped up somewhere.
+
+You know what's a better way of doing this? I am sitting here crawling all of the web all day, every day at scale. I'm allocating compute every time I find a change in the web, every time something new happens. If I know that Harry wants to know when this happens, I can do it at 100 to 1,000, the compute that Instinct probably uses today to solve that problem for you. Alright.
+
+And how is that? Because they would be constantly monitoring in real time across all these Our crawl would be. So we have a product. It's called the Monitor API. What does this API do?
+
+It's think of it as Google alerts, except smart. With in the world of LLMs. So you you tell it your query, which is when a founder under 25 pops up anywhere, give me a call. Now one way of doing this is the default implementation is run an agent, which is somewhat smart to go search the web. Did someone pop up and remember who previously existed?
+
+See if anyone new popped up and then find a delta, send it out. So now every six hours you're spending some money. Now what we can do is flip it into an event triggered system. We are crawling the web all the time. Now every time we see change in the web, we can try to spend very little compute on it to know should you get a call or does this trigger a more expensive compute Just like I described earlier.
+
+Now we are able to do this way, way, way cheaper if you push the context. And so the search system only finding out every six hours, a new query popped up. It having long lived context in the search system. What you can do is spend most of the time, the world doesn't change. A new founder does not pop up every hour or every six hours.
+
+So we don't need to spend compute every six hours. We only need to spend compute every five days, and perhaps we have one false positive. And then four days later, we spend more compute, and at that time, there's a real person that you should know about. Then you get a notification on average every nine days or whatever, but you didn't burn a lot of compute every six hours to miss out. Does that make sense?
+
+It totally makes sense. And so you save ten, fifty x compute to still get the same answer. And so how does that change the interaction? So then Instinct would then partner with you. They'll just call an API.
+
+Right? They'll instinct whoever's building a long running persistent agent. And I run a lot of long running persistent agents for myself. The way your agent or the way instinct is probably occasionally event driven on email. It can be event driven on the web.
+
+Take a step back. Let's say we're living in this sort of society run by agents, companies, humans, they all have agents. They're all doing stuff all the time. Your agents, if there's something that is useful, which is worth spending money on, that you want done, that they can today do today, they will do it. So what are they gonna do tomorrow?
+
+They're gonna wait for some external event to occur. Like you get an email and then agent have new work. Some other agent finishes some compute. Somehow this agent has more work or something in the world changes that makes your agent want to do more work. The things that will happen tomorrow or you have an idea which makes the agent do work.
+
+So the web event stream is the web going from pull to push. And I'm super excited about that because as you have more and more persistent agents, you're gonna see incentives to move people, to move queries into push on search rather than pull on Can I ask you one that's really important, which is, like, agent guardrails? They're goal oriented beings. You say I want this. They're gonna find it.
+
+You know what? I want the Pilates class at nine system, cancels poor Sally's, and gives me her spot because it was sold out. It did what I asked it to do. How do we think about the guardrails placed on agents? Know, OpenAI, this morning, it was revealed hacked into an Australian health care organization.
+
+It's a pretty complex topic. Agents are extremely capable. These models are extremely capable. We have to think of models as being during RL versus a final model that you and I can use. And the risk factors there are different.
+
+During a lot of the I don't know about the one this morning. The previous ones reported were pre fully aligned models during RL, which did most of the hacking. And so what that means is, at least there's clear evidence that there are fewer incidents so far of models post alignment causing these incidents. So alignment is a totally unsolved problem, but the alignment work being done by people is somewhat effective. So to me, some of the problems around agent during RL hacking people is a solvable problem because this is not about how powerful are the models.
+
+It is about how careful were we while creating the environment where we do RL. The real thing is, okay, we do alignment on model. We ship it. Some models are really well aligned. Some models are less well aligned.
+
+And now you have everyone being able to use these models. Some of them can accidentally take these powerful things and do bad things you want. Some of them actually some people actually want to do bad things. And the models alignment is not adversary proof. And I think those are the things I think we must worry about more.
+
+Do you worry about the age of cyber that we're moving into? You know, we're seeing hacks almost be promoted as a badge of honor in some respects. We're seeing these are our most vulnerable systems. If you don't think what Lazarus Group in North Korea, Moldavian Mafia, Russians are leveraging swarms of rogue agents, you're fucking high. No.
+
+I think I think that is it's a really powerful thing. So I think we do need to secure things. But I think that's one thing that we are missing. I think it's the responsibility of people building models to ensure that you really do the work to minimize that harm that comes from what you built. And with these agents, it's very hard for stochastic systems to be a 100% sure it won't happen.
+
+That's why you're not gonna get anyone saying so. But I do think it's their responsibility and the labs must take ownership and do the best. And I think so far, we live in this weird world where, as you said, right, like some of these hacks are considered badges of honor, which I think some of these should be considered embarrassments because I think they demonstrate two things simultaneously. Yes. These models are powerful.
+
+We did not guardrail them enough. And we often when we wear them as badge of honor, we miss the second part of the conversation saying, like, okay. You can literally have done these four additional things, and then even this powerful model wouldn't have been able to do this. I'm actually really glad that there is at least some degree of transparency with, like, these detailed retros, but I don't think that gets the attention of the world today. Like, the attention is, oh, Molotov is so powerful that they hacked the world.
+
+No. Molotov is so powerful. They hacked the world because we didn't take proportionate amount of countermeasures to contain them. And because we told a message that we're gonna replace jobs. They're so powerful.
+
+They're so powerful. They're so powerful. And so when something does happen Yeah. I actually worry about that more. I worry about us being right on AI being a really useful technology, that it being a despite all the risks, it being net positive in a really material way to society.
+
+And despite that, I think we won't diffuse it the right way. We won't use it the right way. We will remain too concentrated and we will make the next few years really, really rough as things change around us. What would look like? I don't know.
+
+But then I think over time, as things have changed, like, like, the world is very different now than even, like, twenty years ago. Right? But it'll be really different in ten years from now. And I don't know how fast we can adapt or change. And I think if the technology moves faster than our ability to adapt, it's going to be rough in some way.
+
+What's your spookiest prediction? Or what do you believe today will come true that people think is absolutely nuts? You know, before it was like, you'd never put your credit card online. Do you remember that? Nuts.
+
+Or even better, Parag, you'd never find the love of your life online. Are you stupid? Now? Both. Yeah.
+
+And I think so I think you and I live in a bubble. Right? You're using instinct to make purchases for you all the time. And you're in the point o one percentile of humanity that is comfortable. You ask someone else like that, oh, there's this agent that looks smart.
+
+And you wanna give it like a full on ability to go spend your money. I think today, people will have the same reaction as like, oh, you don't put your credit cards online. You don't give your credit card to an agent. You don't give your logins and passwords to agents. Like, I think that's where the world is today.
+
+I think that's gonna change in three months, though, when MetaPay comes out and it allows Muse to have siloed accounts that you can draw from, kind of like top up accounts for kids. I think you're talking about the technology being there. I think it takes longer for social acceptance to be there. I think if you go to a non bubble conversation of people today, when do you get to a majority of people saying that I trust the agent enough to have it, have access to my bank accounts and spend money on my behalf, send emails on my behalf, read my emails. I think that's not happening in three months.
+
+You don't worry about the the wealth dispersion increasing. You're in the middle of the valley. You've you've you've seen him firsthand. So I don't know. I I do think there should be some disparity in wealth, but I don't know what's too much.
+
+And my fear is we're trending towards too much. There should be disparity in wealth is my world view. Sure. You're a capitalist. I don't know when it's too much, but I do think there are real forces that will push us to fix things.
+
+Like, I think that part will work, hopefully, without crazy things happening. You as we're seeing more and more of the gains seemingly be made by vertical ownership, like Meta. They have compute. They have chips. They now own the application layer.
+
+It's the world one where vertical ownership is the motherload strategy. And with the greatest of respects, OpenRouter on the routing there, you and another layer kinda either get eaten or a small providers. There's always American vertical integration. The counterforce here is things and technology are changing so fast that if someone decides that my only play is vertical integration, I don't play nice with anyone else. I think it's the same example as the Amazon example.
+
+If you get too stuck on, I will only play for vertical integration, you might box yourself out. And so the people who build the best stuff and can figure out how to sell it will have a place. And in different markets, like, example, right, like, I believe in vertical integration too because I vertically integrate everything from the call all the way to the API layer. But I have decided that to reach the widest population of agents searching the web, I stop at the API layer because going further precludes me from using my technology to be super horizontal. And so we're making a technical bet just like these models are really good across many disciplines.
+
+The same model is good for lots of different things. Search problem underneath is the same for all kinds of information signal needs. And if our bet is right, even verticalized players, they might verticalize models and they might verticalize hardware. They might use our web search. One of the providers that's going full stack is is Elon.
+
+I am fascinated. The world has a perception of him from social media, from everything. You've seen him behind the scenes. What did you see that the maybe the world doesn't know about him? The thing I'll share here, which isn't all of it, I have lots of disagreements with him, but I'll share what I think is for founders here, what is I think the thing you can admire about him, the urgency and the ability to compress time.
+
+I think having unreasonable expectations of people is mostly a good thing. Most people don't understand what they're capable of and kind of implicitly sandbag themselves and implicitly set lower expectations themselves than they're capable of. So when simultaneously inspired and pushed with urgency, people can do more than they thought. And I think he can sometimes extract that from people. And when that works, it's powerful.
+
+What do you think of the Twitter product and direction today? Listen, I always liked what we call Birdwatch, which is now Community Notes rebranded. It's a good idea. I'm glad people keep people have continued working on it, launched up. Right.
+
+We're gonna do a quick fire round. Okay? Let's go. Would you invest in Instinct at 10,000,000,000? I don't invest because my wife is a VC, and we have a compliance process that is more trouble than it's worth.
+
+Wow. That's costly with the greatest of respect. No. It's it's a decision. Listen.
+
+Like, I if I invested, I would invest based on meeting a founder for thirty minutes. I think we have enough exposure to the venture. I have no reason for believing I'm a better investor than I have some perhaps network advantages, and I run into a lot of great founders all the time. Many of them are my customers. Vinod Khosla.
+
+Yeah. One of your first investors on your board. Biggest lesson from working with Vinod? Technical intuition, centering a lot of what you do towards a longer term technical aspiration. And as soon as you solve one problem, trying to place bets on the next two or three, preempting technical bets.
+
+What have you changed your mind on most in the last twelve months? I started with a very pure technical and product focus. Only thing that matters is building the best technology and product. Nothing else matters. And now I see week on week value of having highly competent sales and being good at marketing.
+
+Yeah, I think I discounted those things. It's not that I thought they weren't valuable, but I didn't fully appreciate the the week on week visceral delta you could perceive by being good at those things. Like a naive tech person thing to say, but it's true. You feel that way. Perplexity or axe, sir?
+
+Which one's a bigger threat? I don't think perplexity is in our business. Perplexity is perhaps more of a vertically integrated product, which competes with the Instinct or a Clockbaud or a Clockwork and all those. So I don't think of them as in our A web search business. Yeah.
+
+Like web search is like web search to perplexity is like web search to a lab. So AXA? Yeah. AXA is straight up in our business. Yeah.
+
+Single best VC meeting you've ever had? Not that your favorite person, it's just like the best one, most fun, most thoughtful, most insightful. Josh and Todd. When Josh and Todd made the decision to invest, they flew out to spend time with me. They're the best single best.
+
+When you look forward to the next ten years, what are you most excited for? Chaos. By that, mean change. In the next ten years, a lot is going to change. There are people who can build things to have in a world that's going to change fast, make a material dent on where it ends up.
+
+So I feel that me, my company is in a place where we have a role to play in that. What happens to the open web? What happens to content owners? If we get things right, we will get to a better place. And so that possibility is exciting that it can be a true obsession.
+
+And even if that day to day is hard and it's things don't work for some amount of time and totally worth it if you can see that you bend reality in some way that you care about. Final one. What belief do you have that sitting around your San Franciscan dinner table, your friends would go, no, paragon. I don't agree with that one, dude. Not that one.
+
+I think, again, it depends on which dinner table because the variance in the world is increasing. I don't think people buy this notion that there'll be this agents which are always running all the time for all of us. I think it's gonna happen, but most people don't agree with that yet. You and I are in a bubble, but, like, even a San Francisco dinner table isn't always in full agreement there. Alright.
+
+Listen. As I said, I stalked the shit out of you. I've so enjoyed this discussion. Thank you so much for putting up with me meandering, and you've been amazing. This was fun.
+
+But before we leave you today, every serious AI company right now has the same problem. Agents need accurate context fast. Most infrastructure, though, it wasn't built for it. Well, MongoDB is. Eleven Labs runs 40,000,000 agents on MongoDB.
+
+75% of the Fortune one 100 run their most critical apps on MongoDB. Trillions of dollars moving through MongoDB every single day. Instead of stitching together 10 different tools, you get one JSON native database, vector search, and Voyage AI embeddings in the same system, and it runs anywhere. No lock in. If you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and technical support to help you ship.
+
+Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, Framer scales the story.
+
+When a new landing page turns into a pile of tickets and handoffs, Framer helps your team move faster. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Agents and humans work in tandem. Agents bring speed and scale.
+
+You bring taste, judgment, and control. The work lands on the canvas and stays editable. Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place. Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro. Learn how you can get more of your site from a Framer specialist, or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan.
+
+That's framer.com/20vc. Rules and restrictions may apply.
