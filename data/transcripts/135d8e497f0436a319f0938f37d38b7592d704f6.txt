@@ -1,0 +1,365 @@
+If you're giving up on your user interface, if you're giving up on evolving your experience for a customer, I think that's a brainless bet. I don't think agents will replace all the interfaces. For the first time in a long time, we're solving foundational design challenges again. There is certainly some customer pushback in some places to, quote unquote, Chinese models. There is not customer pushback to open models.
+
+The jury is really out on the benefits of building specialized models at the moment. Right now, the production of technology is faster than the consumption of technology. We're moving from a world of information asymmetry to imagination asymmetry. This is 20 VC with me, Harry Stebbings. So in today's show, we sit down with Mike Cannonbrooks, founder and CEO at Atlassian, to discuss what happens to traditional software in a world where agents are able to extract information from databases.
+
+Do they still carry value? Where is enduring value in a world of agents? How does Atlassian think about building the context layer that will power enterprise AI agents? And what does this mean for the next generation of enterprise software? This and so much more in an incredibly revealing, but also just awesome discussion with Mike.
+
+I've known him for years. He's an incredible dude, and this was so much fun to record. But before we dive into the show today, base 44 is one of those products I used, and I just thought straight away, man, I wish I'd had this when I started 20 VC with $50 and no contacts in venture. I wanted to see what it could do, so I built a guest research hub for the show. Upcoming guests, company notes, previous interviews, sponsored contacts, follow ups, all in one amazing location.
+
+I described it in plain English. A few minutes later, I had the product open in front of me. Database, login, back end, and hosting already handled and just all in one. It made it so easy, and that's what I loved. I didn't write a long spec.
+
+I didn't stitch five different tools together. I built the thing, and I started using it. For any founder listening, that's the point. The faster you turn an idea into something real, the faster you launch. Apps, dashboards, internal systems, AI agents, whatever you need to build, Base forty four gets you there.
+
+Go to base44.com/20vc. That's base44.com/20vc. While base forty four helps you build faster, LARADIN helps you measure AI impact. Every company now runs two workforces, humans and AI agents. Is the first unified dashboard across both workforces that measures their work and optimizes their impact.
+
+Laredon answers four questions. Who's using AI? Which tools? What is it costing? And was it actually being produced for every team across every vendor?
+
+AI ROI stops being a guess and becomes a number that you can consistently and confidently measure. Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Larridin. Thousands of AI tools and millions of dollars of AI spend are measured. You bet on AI. Larridin proves that it's working.
+
+Visit larridin.com to learn more. That's larridin.com. You have now arrived at your destination. Mike, dude, I love our conversations. They are always my favorite.
+
+So thank you so much for joining me today. Oh, thanks for having me back, man. It's appreciated getting invited back. I must give those interesting answers. I saw you a little rant the other day.
+
+I loved it. You give honest answers, which I don't always get. The thing that I really wanna start on is we see a world of agents, and agents remove a lot of human need and interaction with data providers or data sources. How do you think about a world where value shifts as agents retrieve and do tasks for us and the potential for an Atlassian to be a data provider, not a doer? I think there is some premise of the question that's slightly incorrect.
+
+Don't hit me. I think... Look. I can see for certain tasks that is the case. Where the tasks are very functional, that is the case.
+
+Where the tasks have a lot of taste and interaction and collaboration involved, I don't think that will be the case, certainly not in the same way. So it's very hard to give an answer across all types of tasks. You know, one might ask, there are certain types of shopping. If you take a consumer task, not something that we do, obviously. So so a previous safe example, there are certain types of shopping.
+
+I just wanna get the thing and move on. If I'm buying, I don't know, charging cable off Amazon, just give me the charging cable. I don't I don't care. I don't need anything. Right?
+
+And if there are other types of shopping where I may enjoy the experience, I may wanna go to the store, I wanna do a lot of research, I wanna do it myself, there's gonna be a whole range of things. And so, yes, for some tasks, it's gonna get rid of the pedestrian. I just wanna get the thing done. But in the enterprise collaboration world and in the business workflow world, agents are going to help and are already helping, I would argue, in in in a lot of cases, move the work forward to let people honestly focus on higher value creative parts of the job. I think that will change a lot of jobs, but I don't think it's necessarily negative nor do I think it's bad for Atlassian.
+
+I think it's great for Atlassian. So we wanna help be a part of that agentic world, but the experiences of how we do that is a long way from from solved and settled in in enterprise software. If I were to ask you on the flip side of that, what is the core strategic decision that will determine the success of Atlassian in the next twelve months? What would your answer be? Yes.
+
+I'm I'm well on record. Headless is brainless by definition. Look. I think, again, we're continuing this before, Mike. You stand by that.
+
+Absolutely. Because when people talk about headless in that way, if you're giving up on your user interface, if you're giving up on evolving your experience for a customer to solve the problems that you set out to solve for them, you are not a significant part of that experience, yes, I think that's a brainless bet. That does not mean we're not big on MCP. We're not big on CLIs. I think we have one of the top five, top three MCP servers in the world.
+
+Like, we're hugely big on MCP and its ability to allow agents and harnesses to contribute data to our platform and to the Teamwork graph and to read data from the Teamwork graph. And it shows off... To be honest, MCP and harnesses show off the results of our graph, right, how great quality our our context graph is to solve all manner of problems for our customers, and that's great. But if our interfaces and our design is not evolving to solve some problems or some significant part of the problem set better for the customer, then, yes, I think you're going to be in trouble. So then you fundamentally disagree then that in the world of agents, interface and design becomes less important.
+
+Absolutely. I think it becomes more important. I think design and experience is one of the keys to success in the AI era. Like, we are massively invested in design and experience at the moment in a way that we we we never have been before, and we've always been quite a large investor in design experience. We have continued to upgrade our experience in a way that I would say few enterprise software vendors have done over the last twenty years.
+
+It's really easy to make an app. Always think with a current, you know, say, better than 90% of apps out there today, that's easy. But in five years' time, that app will be better than 20%. You know, experience degrades as we have higher and higher standards. To upgrade app experiences is really hard.
+
+It takes a lot of work. It takes a lot of r and d. It takes a lot of difficult craft work to continue to do that. We're in an era where we're all gonna need to uplevel our experiences to handle the AI era. But I do think design experience is even more important in the AI era.
+
+I think it will be the differentiator. If you argue that technology creation is increasingly cheap, technology creation is abundant and verdant, The differentiators, to me, clearly, one of them will be design and experience, will be what makes you stand out as an application or as a product or a service. So you don't think we'll have horizontal agents which stretch across a number of different vertical providers and do functional work for us, you think the design and the experience of those vertical providers will remain incredibly strong? This is not a leading question, by way, sir. I don't...
+
+I I... It's a too simplistic view of the world. I think we will certainly have some horizontal agents that handle a breadth of tasks. I think you will also have vertical agents that go very deep in a singular task. I don't think agents will replace all the interfaces.
+
+I think all three of these can be true at the same time. So as an example, we have lots of agents that run-in a lot of platforms from, you know, obviously, Claude and Codex and and Cursor and places like this, Teams and Slack, that access the Atlassian platform and contribute data back to the Atlassian platform. That does not mean that's the best interface to do all the jobs on the Atlassian platform. It can be very useful for a lot of different things. And vice versa, we're announcing a lot of features with our partner at Figma, for example, and another set of features with our partner Databricks.
+
+In both cases, allowing you to get to Figma functionality and Databricks functionality from within the Atlassian platform is really powerful. If I'm reading a conference page and I wanna just select a piece of text and say, can you check this number for me? And it goes off to Databricks or to Snowflake through the Timographs data context and gets you back the answer or gives you a small chart, that's great. That's not saying Confluence is a BI tool. Like, it's not gonna be the power of what you need.
+
+But sometimes when you want a quick answer retrieved from somewhere else, it is a very different experience than if I want to live in that world doing that thing. Same with Figma as an example. Right? You can interact with the Figma agent inside of the Atlassian platform in lots of places. You can interact with the Atlassian platform from inside the Figma interface in a lot of places.
+
+It's the definition of a to a. I think it's one of the best examples of a to a across multi craft teams. But both those interfaces have strengths in their area of doing things. Right? I don't think there'll be one Uber agent that sort of just does everything magically.
+
+I'm I'm a big a big bear on the magic button thesis of AI, that there'll be one button we press, and it does it all for us. I don't think that's how it actually is going to work. So if I go back to that question for you, which is the core strategic decision that will determine the success of Atlassian in the next twelve months, what would you say it is? Well, one of the top handful would certainly be continuing to invest and have the best enterprise context graph in the world, continuing to stay ahead. I do think what we talked about before, continuing to evolve the design and experience in the agentic era is going to be a really interesting challenge.
+
+Like, I love spending time with our design team at the moment. For the first time in a long time, we're solving foundational design challenges again. Right? I I would say the mobile era is the last time where we had to think about completely new design paradigms. A lot of the features we're announcing here in Amsterdam are really foundational design breakthroughs.
+
+How should agents appear in a broad collaboration platform? How should I interact with them? How do I deal with the problems of humans interacting with agents, agents operating on behalf of humans, knowing what is AI and what is not AI touched content. And is that a good thing or a bad thing? It's like one thing for a 100% generate a piece of text.
+
+There's nothing for it to help you write something. Right? And and, like, how do we explain all this to somebody? And and where does it matter? Provenance and accountability are incredibly important.
+
+Speed and understanding. Do I wanna see everyone's agent traces? No. But do I need to understand what they are and learn from them? Yes.
+
+Lots of foundational design problems that I think will improve customers' results, but that's... It's a really... It's an interesting time for that. What is the foundational design problem with agents that we have not solved yet? I mean, text boxes suck, firstly.
+
+Giving you a little text box and saying, here is a one line piece of text that you can type characters into, and it has unlimited power. And it's just a blank white line. And you're like, well, that's a terrible user interface to start with. Right? And we're trying...
+
+We're seeing lots of attempts at changing this problem. It's an incredibly powered agents and and and chat in general and LLMs are so powerful, and most users just stare at them and kind of use them like Google search. Right? Like, that's the reality of what they do. But how do you explain the power to them?
+
+How do you give them the right power at the right times? There's a lot of talk about agentic UI, you know, the sort of word ribbon that changes which functions it gives you at which times, and how does it take that as those functions evolve? There's a lot of this that's a challenge, firstly. Secondly, agents doing things on behalf of users is an increasingly common pattern. Again, I think software teams are really at the forefront of a lot of this, but I think it'll come to legal teams and HR teams and marketing teams.
+
+It's all gonna be the same. You know, if I'm using Codex and it does something for me, for example, if I'm just writing code and Codex creates a pull request, Did Harry do that, or did Codex do that? Or was that Codex on behalf of Harry? How much of that was Harry? Why does it matter?
+
+Because if you've been heavily involved, it changes the nature of the content. And we need to understand where that comes from because people are gonna wanna see, I just want the human comments here. I want just the agentic comments. And then put valid reasons to see both. This is a really interesting design challenge.
+
+Right? The provenance of where content has come from is a non simple question. Right? We see this with the anthropic watermarking features. It implies that watermark text in AI is bad.
+
+That's not true. The question is, did I contribute one or two ideas? Did I say, hey. Write me an essay about agentic design, and it wrote me 3,000 words? Or did I say, here's my essay on agentic design.
+
+Help me make it better, and it just helps me refine it. Completely different, same set of text, same watermark. How do we help you solve this problem? Right? And then you have a lot of business processes.
+
+Every company is just a system of processes put together, a big organic system that's constantly trying to improve its processes. How are we thinking about improving the process versus working on what is flowing through process, and how do we evolve how we how we run that. We see a lot of this in the software factory thinking that is very prevalent at the moment. And it's not a great analogy, I think, always because a factory is a very mechanistic defined edge thing, and software is fundamentally very creative. Right?
+
+But the idea of it is I'm working on the factory as much as I am watching what's going through the factory, but I'm not stirring or chopping or doing the things anymore or stamping out steel. Right? That machines that do that, but I still need to operate the factory. I still need to initiate. I still need to handle exceptions.
+
+I still need to steer and cocreate and coguide often. The interfaces for when I jump in and when I don't is a real challenge. Right? As there are more things going on in a company, how do I have confidence that when things go wrong, I will be notified? And when they're going right, I'm not notified.
+
+But if I need to get into the detail, I can. But I don't have to see all the detail because it's just a sea of things going on. So there's so much of this that's it's just really... It's really exciting. Right?
+
+A a field of of change in design and experience right now. You spoke about kind of the watermarking of different content types that we've seen. I think in five years' time, we'll have watermarked content for human created content because it will be 90% AI created content. That sounds very strange to a lot of people today. What do you believe today that is quite spooky today that will be incredibly common in five years' time?
+
+If you think of parallels, finding your wife online would have been crazy twenty years ago. Now 60%. Putting your credit card online. I remember when I started buying on eBay, my parents wouldn't let me put my credit card in. And when we, when we started selling software, you wouldn't believe it.
+
+We would have... We had a fax machine, and you would download a PDF off our website. It was a PDF. I think we had a word version as well. You could download the word document or the PDF.
+
+You would write in your credit card number, and you would fax it to us. And we would come in in the morning with these rolls of paper on the ground, and we would punch it into a physical machine. That is how we originally put payments for Internet. Scott, get off your fucking honeymoon, dude. We got another one.
+
+We we never, like, have shipped a disc ever. So we're, like, in the Internet era, but still payments back then were fax numbers. That's how companies wanted to pay you, and you would bang it into a physical machine, like, type the number in. So, dude, what's your kooky thought that you think will be actually incredibly prescient for five years' time? I think in five years' time, maybe the watermarked AI...
+
+I think there's a good chance that the whole watermarked AI, the reverse of what you said is probably true. We don't know what is an AI touched content. And we also don't think that is good or bad. We don't attribute quality or subjectivity to AI affected content, AI improved content, AI in... Of any form.
+
+Just like today when you go to the movies, we don't say which... I wanna see films that aren't color graded. Like, it's not a thing. You just go and watch a film. You want a great film.
+
+There's CGI in all sorts of films you don't expect. You know, they they film in Sydney at nighttime, and they make it daytime with CGI and stuff. And does it matter to me? I don't think so, really. Right?
+
+I I care about the quality of the story. I think where their text is, how many people are like, I don't wanna read your content if word helped me with the spell checking and grammar checking. There's some version of that that's similar. I guess there's some version where it's entirely AI generated slop. And so it's like, how will we think about this spectrum?
+
+I suspect we all just get used to dealing with the fact that it may be entirely synthetic content and, hence, artisanal crafted things will stand out more. I still think we'll probably have human judgment that makes things stand out. EWO is some of the biggest companies in the world. I was chatting to Jason Lampkin the other day, he and was like, dude, I tell you, I tell you, none of them wanna work with the open models that are Chinese. They just don't want it.
+
+And I'm a big investor in fireworks. I believe in open models. I think it's a great thing for the ecosystem, but I am fearful that enterprises don't wanna work with largely Chinese open models. Do you see that, and how do you think about that statement? Jason's increasingly trying to run one of the smallest companies in the world, I think.
+
+So for good or bad, I always find his takes amusing. I think that is something that will probably evolve. We want to be very customer led in our decision making. And there is certainly some customer pushback in some places to, quote, unquote, Chinese models. There is not customer pushback to open models.
+
+We use a lot of Neemotron in our platform, for example. We have a deep partnership with NVIDIA. That is fine. Right? We use some Mistral.
+
+We use a bunch of other open models in different parts. Our job, again, is to apply AI on behalf of our customers. It's not to pick a model. It's to use the best model for the best job, blending all the models for the best price for the customer, and to get the outcome they want. Right?
+
+Applying the AI is our job. But if there is customer pushback to something like a Chinese model, quote, unquote, that is something that we have to be very careful of. And so we don't use any Chinese models in production. We're very clear about that. I think what people don't understand is the distillation and the back and forth where knowing it's a Chinese model is kind of really interesting.
+
+But a lot of The US models are increasingly using Chinese models to train themselves, but they don't say that. And so you end up with all these weird loops where I'm like, I don't know if that disappears over time. I suspect it does, but I think we'll have to see and watch. I do talk to customers sometimes and say, do you use Linux? And they say, yes.
+
+And I say, is that European? And they say, yes. And I said, well, I think it's, like, 40% of contributions or something like this is quite high nowadays come from China because there's amazing software engineers in China doing all sorts of things. But because it's open source, we think, oh, well, someone's, like, checking all of that and actually with AI, we can check that even better than we ever have been able to before, and they're happy to use Linux. So So you think this skepticism is overwrought?
+
+I think there's a geopolitical issue around who has this sort of strategic control of the world. That is a different issue from should we use a model that was trained in China or by Chinese nationals or by... Like, some version of these two are very different questions, if you know what I mean, in terms of who's run the world, America versus China. That's a big question. It's out of my my league and my I...
+
+I'm sorry. This is why, dude, you you know, years ago, you remember when you first met me, I was at Harry Potter. But they're not... They're kinda one and the same because the people building the models are not able to leave, and their families are not able to leave without letting the government know where they are going, when they are going. And so they are actually merging.
+
+But I'm not commenting on any of the social issues or other issues in that area. What I'm saying is from technological perspective, for someone to say, I'm not going to use a piece of technology that is open. Right? If I'm saying I'm not gonna use this piece of open source code, I'm like, but I have the code. Well, if I...
+
+If you choose not to use a new choice, that's totally fine. That's your choice. But for an enterprise to say, I'm not gonna use a cheaper alternative that'll give me better results when I know what's in it, I think it's gonna be a very hard long term choice. And I suspect people are gonna take those open weight models, which they are already doing, and fine tune and train them and call them their own. Most of the people who are training their own model, large company x claims they built amazing model for purpose y, and it's got some wacky name.
+
+We've seen many, many times. Almost every single time, that is... If it's not Nemotron, which it's usually not, it is a Chinese model that they've trained or added their own fine tuning specialization on top of, and then they call it their own model. And I'm like, hang on. That's bullshit.
+
+That is the same thing. Right? You've added to it, you've tweaked it. You haven't trained it from scratch. That was actually gonna be my question, which is, you know, we've seen Harvey, and I think it's Ramp, talk about the benefits that they've seen from building their own models.
+
+You very clearly said last year that that wasn't a strategic focus for you and that you weren't gonna go down that route. Now with the benefit of hindsight, has your thinking changed when you see all of these companies come out and talk about the benefits of building their own models? Have you been validated? How how has that thought process changed? It's a great question.
+
+The jury is really out on the benefits of building specialized models at the moment. There are definitely cases where specialized models are doing really well. Most of the people building specialized models, I would argue, are not in those cases, though. There are certainly... If you have a lot of proprietary data, if you have very specialized applications, there are definitely approaches to that.
+
+Right? So if you're doing, you know, certain robotics, for example, and world model, there's a lot of reasons why people are actually doing it that makes sense to me. There's a lot of others that I don't think will stand the test of time. They may have at the time of shipping a price performance benefit for a specific application. True.
+
+Will that price performance hold up over time? I'm not sure it will as generalized models get better and better and better for a lot of applications, firstly. Secondly, a lot of people who say they've trained their own model, I think they're being a little bit fast and loose with words as far as I'm concerned. We could say we've trained a bunch of models at Atlassian. I say that's bullshit.
+
+We have a bunch of very specialized open weight models that we fine tune for particular purposes that give great price performance for our customers that I don't claim to be our own model, I would say. Like, that's where I think the claim is often vastly overweighted. Most of these people are taking a Chinese model generally, applying some domain specific intelligence. You see they train them for, like, a million bucks, and I'm like, there's no way you train this for a million bucks. You took someone's billion dollar model and tailored it.
+
+If you wanna think about it generically for a particular application, that's totally fine. But that's not really training your own model, I would say. Right? If you're not starting with raw data, if that's their definition, then we do that a bunch in a bunch of different places. But it's not my definition of building a model from scratch.
+
+What if it played out, would prove that thesis and your conviction to be wrong? They could continue to show exponential gains over and above using the latest foundational model on a sort of price per watt basis. So we are seeing many more applications. And it's very hard to answer these questions generically because it depends on the the the the target application actually and the time to answer or or solve a problem or a question, the cost, and the period of time you're in. If you took a...
+
+Look at an agentic harness, it is a way of applying a set of prompts and configurations, if you wanna think about it in that way, to a certain type of model and reapplying it many, many times. If wanna you think about it as looping, so that you can get much more value out of a given class of model. And, yes, if you apply better models, you get better results from a lot of those harnesses. And harness design is really, really important nowadays, but it's not model progress. These specialized models have to prove that they can stay ahead of the generified model for a given price performance ratio.
+
+I don't think I see many of them doing that. Certainly not the vast majority of them doing that because you would need to have a continued specialized dataset and a problem that doesn't get generified away. Many people who I think had startups, hopefully none of whom you've invested in, that were building their own models two or three years ago, I think now the financial models have just basically smashed what they do. Right? Like, the the quality of the generic model has improved far faster than their ability to stay ahead with whatever specialization they were doing.
+
+So I think I would need to see the reverse of that. Lucky, none of my companies have. So great relief. The question that I have on cost is, Mike, it's actually a joke we have with founders that I interview because I interview a lot of, like, very fast growing company CEOs, and they're all private. And I go, how do you think about the cost trade off, frontier versus open, where maybe, you know, there's a little bit of a detriment in performance?
+
+And they go, you're kidding me, dude. You've seen how much money I've raised. And they're always like, can you take that bit out? But I give a shit about cost. No.
+
+You do. I mean, you're a public... How do you think about that without the luxury of give a shit on private, and I've raised a bunch of money? I mean, I love all these private companies that have raised a bunch of money and don't have to care about cost because they're not building the discipline to care about cost. Some of them do.
+
+But over time, discipline is really important. Anything you do in life, about discipline at some level. Right? But what if your product is two to 3% off theirs because they have the ill discipline to always do frontier? I guess that depends if you continue to fund them and believe they'll be funded forever.
+
+It seems unlikely given the history of technology, but maybe. I think cost is really important, but it's not just because of that. I think if you look at a lot of examples out there, it's very easy to use a very expensive model to get pretty good results pretty fast. I think using a cheaper model or an older model and getting good at applying that to problem sets is a real advantage for most technologies and prices and costs. I think customers that that we spoke to, so large enterprises around the world, they're incredibly sensitive to this type of stuff nowadays.
+
+They really, really care about the price performance. They are increasingly doing so. We have a whole raft of products now that will show you your token spend either across the board in terms of your talent, either in in DX, in your engineering organization, right, understanding where you use which model, where you're getting value, which features you're using it for, where you should change to optimize your spending because this is a bigger and bigger budget item, and they see it's only gonna be a bigger budget item, and so they have to care about the spending. Now that I don't think is any different for them buying a generic model or a foundational model of any of the big three or four or five as it is buying a product where their costs are gonna be baked into whatever that product they're buying is. So I think that cost discipline is going to arrive continually more and more.
+
+And I think it's a strength of ours, for example, in how we are able to use our FinOps strength to continue to reduce the price of features that are used heavily. I think that is a core strength and attribute of a great technology company will be its ability to manage technological cost. And that'll be rooted in intelligent model routing on a per task basis to optimize cost. Model routing, model blending, applying the right model at the right time, using the right harness that, again, picks and adjusts itself. It's a real burden area of exploration right now.
+
+Right? And we we... You have this. The more you can get good at it, the more, again, you can apply AI to smaller functional areas. If you look at the so called decision models, JEV and the 15 clones that have emerged over the last three weeks, which is insane and amazing and scary all at the same time, they are often used for tasks that previously would have been too expensive to use even like a g p t three or g p t four level model for.
+
+And that's great. Right? Because we're now applying probabilistic thinking to more and more feature sets. I think we're all just gonna see better products as a result. How do you think about the model routing layer?
+
+Is this an internal capability that every company will just build out commoditized? Is there particular prowess in it? We obviously saw OpenRouter, as the dear Americans call it, bought for for a lot of money. Maybe it's brilliantly strategic. Maybe it's not.
+
+I I don't actually know. How do you think about it if it is a core FinOps strength, as you mentioned? I think for companies of our scale, you have to be very good at doing that yourself. There is a constant challenge with scale. I think any large technology company is probably gonna do that internally, and that may involve using OpenRoute plus many other things, plus your internal router and everything else.
+
+Right? Like, these things can be continually laid upwards. For smaller businesses or businesses where technology is maybe not their expertise, those are just very practical solutions. Right? There are many, many model routers and gateways with lots of claims about what they'll do.
+
+I think, generically, it's very hard to just route automatically, I think, is what they're showing. You need to give enough steer or intent, and I think harnesses will also be a part of this. So this is... You're sort of talking for generic LLM calls. The more using harnesses, they're doing their own sort of routing.
+
+The more you're using SAS or the... You know, you come to the Atlassian platform and you use Rovo or any of our AI features, you will get model routing happening for you automatically, and it's our job to blend those costs and give them back to the customer for the the best quality answer for the cheapest quality price at the best speed. This triangle trade off, we're always looking at an any given feature. That's part of our USP to the customer. And you won't use third parties.
+
+That's internal routing. That is all internal routing. Yes. Yeah. We have an an an entire AI gateway team.
+
+It's not a small team that is doing that, but we have to do it at, firstly, at massive scale. And secondly, we want to continue to reduce that cost where it makes sense. So I say to product teams all the time, don't over optimize for cost in the short term. Build amazing magical features. If they're taken up by customers and what we thought was magical, the customer thinks is magical and it scales, now let's start working about the cost.
+
+Right? So think a little bit in advance. Can we possibly get this cost down? But then worry about that later. Right?
+
+If five people using a feature, I don't care how much it costs. If 5,000,000 people use a feature, I'm going to care a lot about cost. And in the middle, I usually have a fair bit of time to keep optimizing. What costs a lot today that you don't think will cost a lot in five years' time? Model inference.
+
+Maybe slightly spicy take is that the amount of energy startups, capital, time, smarts, brains, people who would rather have gone to work for McKinsey or some NASA or something else working on some version of the price per watt performance of inference is crazy. And I suspect a lot of those take years to come through from new chips to better data center design to ways of distilling and getting things out of foundational model. Like, there's lots of... The overall progress of that, I can't believe doesn't bring our price per performance unit of an LLM, we don't have a good term for this, down at a precipitous rate just because the volume of capital being applied, the volume of brain and talent being applied is so large. Is anyone arguing that that's the case?
+
+So I think they're just arguing that Chevron's paradox means that we will use so much more inference. You know? I I have instinct running about 50 different searches continuously in real time every every second of the day. We just use more. We will, but it'll still mean the cost comes down.
+
+So where the cost is near free, yes, it will explode. If something's free, use an unlimited amount of it. Right? And you don't care. You throw it away, whatever.
+
+Like, if it's not got a a waste component to it, which is ostensibly a cost, then, yes, that will be the case. I think there's always gonna be an economic curve to that, though. Right now, the production of technology is faster than the consumption of technology. It is ahead. We've reached a tipping point.
+
+We can build features faster than customers can consume them in a realistic way that changes their business. There's gotta be a point where that just... It doesn't stack up anymore. Right? There's not gonna be an infinite usage of all of this stuff.
+
+Right? Your phone has amazing superpowers. It's a supercomputer in your pocket. Do you burn the CPU a 100% all the time? No.
+
+You don't. You're not even close. Right? So so what happens to this inference layer of value and talent cohort where you mentioned the votericarization of chips, the different providers? What happens to it, Mike, in the next few years?
+
+Look. I think it's just incredibly positive. I suspect for those who want to use those models to achieve things, whether you're coding, doing architecture, improving business processes, whatever it is that you are doing, creating art, I think we should see that as a very positive thing. We are going to get higher value technology. We are gonna get better products and services for every consumer.
+
+It is going to be a creativity driven economy. One of the the phrases that I've I've liked the most recently, and I I give Didier, the the founder of Culture Amp, the the credit because it's his his phrase, I believe, or at least he's the first person who told me. We're moving from a world of information asymmetry to imagination asymmetry, which is such a great way of thinking about it. Right? It's no longer I know something that someone else doesn't, or I have a particular business knowledge.
+
+Those knowledges are becoming less about the asymmetric value than can I think about how to apply AI and these technologies to problems in unique ways? That's the creativity that we're all kinda having to see in business now, which is if you're a first principle thinker about business, it's awesome. Right? It's the most dynamic and exciting period that we've ever lived through in technology, maybe ever will. I get why it's scary.
+
+I also think it's it's imagination. You're applying new things in fundamentally new ways. If we live in this imagination asymmetry and you were to review the last twelve months, where do you think you have not shown enough imagination where you needed two more? That's a good question. I think the biggest problem I have is time, which is maybe what all of us have as our problem.
+
+I don't mean that in some big philosophical, like, life and death way. I'm a venture capitalist, my friend. I sit on the sides and throw shackles in when someone calls me. Time Yeah. You seem to work fairly hard and fairly long days on a lot of different things.
+
+Right? So Dude, dude, that's because I'm a podcaster. Terrible decision as well. You have you have 50 instinct tasks running simultaneously. I haven't even had a chance to to install instinct yet.
+
+Heard about it. That what it is conceptually? So I think trying to carve out enough time to think is what I'm really trying to do at the moment. That deep long thinking. There's something about the time slicing of the world.
+
+You know, people talk about the move from, you know, movies to TV shows to YouTube to TikToks. Right? It's like, you know, books to to magazine articles to to newspapers to, like, tweets or whatever. Like, everything's getting shotted so much more. And in the agentic world, you can kind of get into this, like, push the agent, do the thing, push the agent, do the thing, push the agent.
+
+And sitting back and long thinking and still absorbing these changes and trying to look at them. We're living through a period of history, I think, where there's a lot of change on a day to day basis. But trying to see the year to year changes is much harder, and it requires sort of a a deep thinking, you know, that that I'm trying to create the space to do. I haven't had... It's been a hectically busy year.
+
+I haven't had a lot of time to do that, but I'm really, over the last two or three months, have been actively trying to do that. Even if it's only a couple hours a week, it's very easy to be busy. And I think in AI, even easier to be busy. Right? All of your agents and things running your claws and instincts and muses and whatever are gonna keep attacking your attention.
+
+How do you create time for space for real thinking is is, I think, going to be something I need to get better at. Mike, just to give you context, my instinct is an automation to buy Laura Piana shoes for my girlfriend. This is not some incredibly intelligent, sophisticated workflow just to give you some boundary. Maybe in Silicon Valley, they're doing some things, man. Mine is just, like, buying Brunello cucinelli.
+
+I think you'd be surprised. I think a lot of the agentic, consumer use cases, right, people have talked about how much of it is basically, like, shopping and travel. Dude, if you're an aggregator or you're an advertising engine, I... Good luck. A question for you.
+
+You know, we see a lot of data marketplaces, whether it's your Macaws or your Surgeons paying for a huge amount of data from small companies, medium sized companies. You talked about the context graph earlier. Data feeds that context graph. How do you think about the cost of data, the cost of acquiring data, and what this market looks like as we evolve? Look.
+
+I think it's a little bit different. The corporate decisions and knowledge that underlie the teamwork graph are about us trying to help a company that has made decisions, projects, documents, data often. For example, how many times are PowerPoint slides the place where people put actual facts and figures? A lot. Like, data is stored in databases.
+
+I'm like, yeah. There's a lot of data stored in PowerPoints, and it didn't actually ever make it to a database. How do we take all of that organizational knowledge, history, decision making, wrap it into a social graph of the people in the organization, and add code, the technological services created by a company, and mix all that together so we can give you great answers and learnings and decisions. And there's lot of inference we can apply on top on behalf of the company as well as being a continual self learning. Right?
+
+The Teamwork Graph's job is to infer ahead of your agent before your agent is asked a question to infer the best possible answer to that. Think about it like Google's index of the web. It doesn't go and crawl all of those websites to answer your question. It does that in advance. It has a lot of really smart indexing and inference technology to create an index so that it can answer questions very cheaply and at scale.
+
+That's our job, but tailored for every single company that has a wholly different set of information. That's very unique to each individual company. I don't think they're going to sell that information. I'm not sure it's particularly useful. I know we saw Makar or Google, I forget who actually end up winning buying the Sabb.
+
+It was Spirit. Spirit Airlines data. $30,000,000 for a million emails and a bunch of other sort of corporate data. I don't know if that will become a trend, but I think the value of that data inside a company is very much the same. The important part is that it's alive.
+
+So the social graph of a company is valid today and only today. Tomorrow, there will be different people in a company than there were today. Some people left, some people joined, and the social graph is gonna continue to shift and change in terms of who works with who on which projects on which areas. Our job actually is to be very fresh with that graph. It's to take history and to infer learnings from it, but that has to be fresh and constantly built on top of.
+
+I say this all the time when it comes to our our memory and our dreaming and how we understand the history of an organization. Knowing that I wrote Java code in 2003 and what code I wrote is totally useless to Atlassian in 2026. Knowing the fact that I used to be a programmer, a bad one twenty plus years ago, is kind of useful because you may explain a concept to me in a way that a technology savvy person would understand. That's about as useful as it is. Right?
+
+Today, I'm a full time manager of people. I am a full time storyteller. I am a part time dabbler in design and experience and products. Right? That...
+
+That's that's my job, and I love my job. But the history of it is very different. If I looked at your history for the last ten years, I'm sure stuff you did ten years ago, some of the echoes and memories of that are useful for you as learnings today, but the actual facts and figures of what you did aren't very useful. So an organizational graph has to be very fresh and current with facts and very historical in its learnings and memories to help the organization as best as possible. McCore is a little different.
+
+Those type of companies are looking for large scale generated generic datasets to sell at scale to many other providers, right, to make those broad intelligence platforms valuable. Trying to think of a good analogy. Maybe if you think about self driving cars, a self driving car needs to understand all of the bits of a road, and it's a very specialized dataset about roads, you know, corners, signs, traffic, babies in prams, cyclists, all this sort of stuff has to be able to identify them and understand their dynamics and physics and these types of things. Know that a cyclist is not gonna jump into the road. Right?
+
+And and it has to understand all this. It doesn't have to know when Albert Einstein was born. It's totally useless to a self driving car to know when Albert Einstein was Mike, if you could acquire one company and their data would have the most transformational impact on your context graph, what company would that be? I mean, acquiring companies for data isn't particularly important to us. So there's no hole in your context graph, so to speak?
+
+It's not so much a hole in the context graph. It's the customer's context. It's not our context. We are helping them put it together. We are helping them learn on the knowledge and the work they've accrued communications.
+
+We're helping them connect meaning, connect the dots across that. We're helping their agents connect those dots. We're putting it into a giant graph. We're building a big lexical and semantic search engine on top of the graph. And then we have a query language that makes sense to agents through MCP and CLI.
+
+And we're helping them add their own custom data to that. Right? An investment firm cares about stocks. A manufacturing firm cares about, you know, supplies of materials. Health care firm may care about hospitals and beds and things like theirs.
+
+There's specific data, and then they all have meetings and documents and knowledge and code and these things. We're trying to put it all together in a way that they can retrieve it and the learnings from it. Right? We're building an index for them. It's not the data that makes a a difference to us per se.
+
+Can I ask you a weird question that I don't know the answer to? As we see, like, OpenAI protrude more and more into Docs and Microsoft Office, you're a student of the Internet, Mike, in a brilliant way. How do you think about Anthropic and OpenAI's intrusion into traditional applications that you and Microsoft provide? And what does the voice in your head say when you think about that at night? Look.
+
+It's it's an interesting question. Both of them are deep Atlassian partners, and we really value our partnership with them. I think they're probably partners with a whole lot of firms. Right? Their business is in some ways selling computing services, if you wanna think about it.
+
+Right? They're also in the business of applications to some level. Where those lines emerge, I think, is gonna be a highly fought over variable future. I don't think anybody knows the answer to that question. I will say if it comes to things like docs, we faced this question with Confluence for a long time.
+
+Confluence is north of a 1,500,000,000 ARR business. That was our last disclosed number a couple of quarters ago. It would be a public company in and of itself. It is still growing well north of 25% per year and at a very large scale. So it would be a very good public company just on itself.
+
+And ostensibly, it's just content that you could put 15 other ways into your computer. You probably have 20 ways on your computer right now to write down a piece of text from ones that come with your operating system to ones that come with your, you know, workspace provider. In and of itself, writing content is not a definitive advantage. It comes back to design, experience, purpose, integration into other workflows. So there's a lot of other things that I I think go into that that's helped us build a very successful business there.
+
+I think that will continue to be the case. Can I ask a really hard one? And you can tell me how, please. Sure. I don't I don't want to, and that's just rude.
+
+I love your focus on design, and I love your craft, and I feel it in your voice. Carrie and Linear always talk about, like, the craft of design too, and I do feel it in theirs. People seem to feel the craft of the linear design maybe more than they do in Jira. How do you think about that? And is that unfair?
+
+And say if it's unfair. Yeah. I think it's unfair. I think there's always gonna be changes in those types of things. I think what's important is never to rest.
+
+What has made Atlassian successful for two decades and hopefully will for many decades to come is to continue to invest in up leveling every part of our software experience. The standard of what, as I said, was good design ten years ago is totally different to what is good design today. And it will be totally different ten years time. The ability to sustain that year on year for a long time is quite different. It's a totally different way of thinking about continual progress and delivery.
+
+JIRA and the Timor Collection have had an amazing year of growth, and accelerating and growing faster than they ever had at massive scale. And that is in the number of users and attention. And a large part of that is because of the design experience. We're showing off really foundational design changes, speed, performance, and efficacy of what it is we can achieve for customers. And in those areas, I think we we just we just run our own race.
+
+I think that's the best thing. Ultimately, it's about customers' experience of the quality of the software in a whole. And it's it's a long race. So would say that to anybody. We've been here for a couple decades, and we intend to be here for a couple of decades still.
+
+I'm in my mid forties. I don't consider myself to be middle aged, but I love what I do. So Do you just think you're built differently, Mike? Honestly, my biggest problem right now, and the show is successful because I'm very candid, I'm I'm worried. I'm seeing a load of 20 year old founders tap the bid.
+
+I don't wanna do this. I'm selling fast. I'm twelve years in. I've got more energy than ever. You're a little bit longer in the future than me.
+
+24. You just love the the journey? Yes. I I think you have to enjoy what you do. I think it's uncommon everybody to manage their own energy supply.
+
+Do get do you get lonely? Do I get lonely? No. No. But, like, without Scott, I have a cofounder, Kieran.
+
+He's not technically, but he kind of is. Do you miss it? No. Yes. A bit of both.
+
+So, I mean, if you mean am I lonely in terms of, man, I have an awesome executive team and I work with 10,000 of the smartest people. No. I always say that I get to work with an incredible number of very smart people on a daily basis solving hard problems. And if you designed a job for me, I'd be like, that is what I wanna do for the rest of my life. If you mean in terms of Scott, just...
+
+I see him pretty frequently. It's not like he doesn't live like, I'm in Amsterdam at the moment, and he travels a bit as well. But like, I don't know. We hang out at least monthly, and we drink wine or beer and talk about Atlassian and software and AI within the first three minutes of of what's going on. So it's not like he is uninterested in what we're doing.
+
+It's not like I don't get near daily text messages. Aren't we doing this? So he's he's very active for a retired person, which is great. You got years of experience, but everyone has their own journey to run. Right?
+
+And I think that's okay. I think what I was trying to say beforehand is you have to understand where your energy comes from. I think it's one of the things that I wanna make sure I get across to my kids is figure out what it is that gives you energy and try to do more of that thing, and you'll be okay in life just in a generalized world. Right? I think a lot of those people you talked about...
+
+And I get it in the AI era, man, the the mental health challenges of being a founder have long been written about and have never been written about enough, I think, because it's a very stressful job to feel like you have other people's livelihood and and less so at at sort of my, you know, time. But if you're at that early, I've raised money. I gotta get to the next raising. I gotta build this business. I've gotta get to profits and revenue and customers, and your reputation and name is wrapped up.
+
+And then I I see why this... It's incredibly taxing. I think we should start by saying all founders are amazing people, that they've taken on some insane challenge. They win. They lose.
+
+They fail. They succeed. They're still taking on that same challenge. I think the people that you're talking about, they get into it for the wrong reasons. It's very hard to sustain the energy.
+
+If you don't enjoy creating products or services in whichever industry you're choosing, don't think you're gonna be able to do it for very long. I think there are very few people that are purely motivated by money or being in the right circles that that's gonna sustain you for a five, ten year period. Right? I think you're probably doing this because you really enjoy it. Give me a microphone and a smart person to talk to you.
+
+You're like, ah, this is great. Dude, I get to interview, like, people like you every day, and it's the most incredible learning thing. Right. Don't care that I get paid. And that's awesome.
+
+So you figured out what your source of energy is, and it's one of the things. It doesn't have to be the only thing, but it's one of the things that give you that source of energy. I think when you... I I saw you you were ranting about this on another one of these walks down the street the other day, and I think it's totally true. But I've been here long enough.
+
+It sounds like I'm very wise old man kind of scary. You see this with each of these sort of iterations of the technology industry. There is a latest thing that attracts a lot of capital, that attracts a lot of people. And when that latest thing turned out to be like yesterday's thing, and it still can be incredibly meaningful. Right?
+
+We saw this when mobile took off. There was all these people that arrived to build mobile apps and mobile companies. They didn't sustain. The ones that won and sustained are often directed in the same same area. So Now my worry is more that it should be hard, and I completely agree with you on the challenges of founders.
+
+But we've made it so normal now for someone to come out, raise $15,000,000 as a pre seed. It ain't that fucking hard to raise $15,000,000 now, hire some people, and then, honestly, to play the founder game and then tap out the minute you can. I think we've made it too easy in some respects, and that's venture capitalist fault. It's a capital society. Right?
+
+So we can't... There's... Like, that's the the market price for those types of things. I hope that people at some point realize working with smart people on difficult problems for long periods of time, the people I work with are a large part of the reason that I'm still doing this. Right?
+
+The people that we get to create with is the source of energy. And I think that's... Doesn't sound like it's in those people's, you know, DNA to do that, and that's that's gonna be hard to sustain. Mike, we're gonna do a quick fire because I could talk to you all day. Sure.
+
+So what have you changed your mind on in the last twelve months most? The likely future price of inference. It goes way down. I think so. Further than I thought.
+
+What does no one say about having money that you think should be said? That it is a wonderful thing and a big burden at the same time. Why is it a big burden, honestly? I think it's a huge responsibility. I think it's just something that's temporarily held as a legacy, and you have a responsibility to do, I think, societally profitable things with it.
+
+Societally profitable, not personally profitable. And I think you feel that that that burden. It's lots of interesting things come with that. How do I bring my kids up to not be assholes if they're brought up rich? Man, ask me in twenty years' time.
+
+I hope I get that right. I I think probably try to be yourself. I read a quote from I think it was a Goldman's old Goldman Sachs CEO says you can tell a lot about people when they get promoted as to whether they grow into the job or swell into it. And I feel like man, I've been desperately growing every year I've been in this job. And I definitively do not feel like I deserve this job.
+
+And I have to work crazy hard to deserve it next year or to grow into it or whatever term. I think it's the same, probably some similar version of this with with your kids. If you are curious, if you are humble, if you have gratitude, if you display all those properties, you're probably given the best chance to understand where it is that that that comes from. But I'm sure it's a huge challenge. Tell me if you figure it out.
+
+Actually, I I I got given some brilliant advice, which is it's just like the National Geographic channel. Watch the elephants. The baby elephants watch the adult elephants and copy them. So if you want your kids to be hardworking and kind, maybe be hardworking. Show them that you missed bath time because you were working hard on that Amsterdam trip to make money for the family, and take them to the coffee shop and be really kind to that barista and ask them how their day was and let them see that.
+
+Or if you don't want them to retire at 45, cheat on your wife, and be horrible to the barista, and you'll probably have assholes too. Yes. If you're asking, do they copy the way that you act and treat people? I I I think I think that's definitely true. That was the advice that I took.
+
+What's the best advice that you've been given? My... You sit around some pretty interesting tables. I think the phrase that I would say, certainly for the last handful of years, I would say, wage peace on yourself. I think lots of things are really hard, and having a good attitude and knowing that you tried your best at something, whether it succeeds or doesn't succeed, etcetera, try not to be too hard on yourself if you've if you've done all the right things.
+
+And I think for a lot of people, especially in the tech industry, their bars on themselves are incredibly high, and that can be in its own way a new sort of stress. So, you know, touch grass, wait a speech on yourself. Final one. What do you not know that you will be capable of achieving that you do need to personally scale? I'd probably say the same thing I said before.
+
+It's like how to create moments of slow thinking, moments of slowness in the world that is moving increasingly fast. Think I that's going to be a skill that we all need to develop. If we think the the notifications on our phone and the pings from social media and all these sorts of things are distractions, if you're not able to handle that today, jeez, I think that the the accelerated technology pace, that's gonna be really hard. It's a real world out there. Like, sometimes in the tech industry, everyone just lives in a screen like this.
+
+I wanna claim I'm staring at a camera in a screen. Right? And all these bits and digits and things, you know, there's a real world out there of stuff that we're creating and and slow down to go fast. We've gotta learn how to slow down and how to really do that that deep thinking at a time when everything appears to be more fractionalized and speedy. And so it's a real challenge.
+
+Mike, do you know how I define a good person? I do not. Someone who's willing to help with no immediate or clear benefit to themselves of that help being given. You've always been incredibly kind to me. Thank you.
+
+Seriously, I really appreciate it. You haven't needed to, but I really appreciate the relationship. Hey. No worries, man. Anytime.
+
+Let me know how I can help. But before we leave you today, base 44 is one of those products I used, and I just thought straight away, man, I wish I'd had this when I started 20 VC with $50 and no contacts in Venture. I wanna see what it could do, so I built a guest research hub for the show. Upcoming guests, company notes, previous interviews, sponsored contacts, follow ups, all in one amazing location. I described it in plain English.
+
+A few minutes later, I had the product open in front of me. Database, login, back end, and hosting already handled and just all in one. It made it so easy, and that's what I loved. I didn't write a long spec. I didn't stitch five different tools together.
+
+I built the thing, and I started using it. For any founder listening, that's the point. The faster you turn an idea into something real, the faster you launch. Apps, dashboards, internal systems, AI agents, whatever you need to build, Base forty four gets you there. Go to base44.com/20vc.
+
+That's base44.com/20vc. While base forty four helps you build faster, LARADIN helps you measure AI impact. Every company now runs two workforces, humans and AI agents. LARADIN is the first unified dashboard across both workforces that measures their work and optimizes their impact. Larrudin answers four questions.
+
+Who's using AI? Which tools? What is it costing? And was it actually being produced for every team across every vendor? AI ROI stops being a guess and becomes a number that you can consistently and confidently measure.
+
+Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Loudoun. Thousands of AI tools and millions of dollars of AI spend are measured. You bet on AI. Larridin proves that it's working. Visit larridin.com to learn more.
+
+That's l a r r I d I n dot com.

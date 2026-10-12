@@ -1,0 +1,211 @@
+He's been called the most hated man in America because he jacked up the cost of a life saving drug. Raised the price of a life saving drug 5000%. He became the poster child for capitalistic greed. Martin Shkreli, seven years in prison. We definitely plan on raising the price.
+
+That's for sure. You can be prosecuted for not maximizing profit, and you have to do everything in your power to make as much money as possible. And if I'm the enemy for you, good. I'm happy, man. I'm fulfilling some need in your life.
+
+Purchase the only copy of a legendary Wu Tang Clan album with no immediate plans to play it. It's not a good record. Ego is the fountainhead of all progress. Please welcome Martin Shkreli. Welcome, Martin.
+
+You're like... Thanks for coming out. Oh, yeah. Nice to meet you. You wore Brad's outfit today.
+
+Exactly. Alright. Welcome, Martin. We got so many topics to go into with you, but I wanna start with one. You've basically taken down quantum computing.
+
+You said you think that this is a fraud, that people might be going to jail. So two part question. Number one, maybe you could give us your thesis on on why this is a fraud or Fugazi or Fugizi, whatever it is. Discratiade. And a Discratiade.
+
+And then two, your best advice for those CEOs when they do go to jail, you've got a little experience. Yeah. Best advice in terms of you don't seem to be the kind of guy who would thrive in prison, but from what I understand, Martin, you... You're like a shock collar. You're a shock collar in prison.
+
+You turned into Lex Luther and you were running the yard, I understand. So break us through the quantum trade and, you know, best practices when you go to the Husqvar. Yes. I I have to shout out my my wife, Chelsea. So Chelsea, very few people know her, but she's, I think, a big deal in technology.
+
+She was one of the first people at OpenAI. And her father, believe it or not, was one of the first people at NVIDIA. In my family, I was one of the first people in prison. So I thought I'd switch the gene pool, you know, shifted over a little bit. But Chelsea studied at MIT and taught quantum computing with Scott Aronson, the preeminent guy And, in you know, we we...
+
+She she got to teach me over many hours, you know, penetrating my thick head, you know, what exactly quantum computing even is. And I think a lot of people sort of synonymize it with faster computing, which sounds great. It's really not what it is at all. No. And I think the basic point of quantum computing is that there's one algorithm.
+
+In fact, the whole field was invented because of Peter Schorr's thought experiment. Peter considered this idea that there are kinds of algorithms that you can run faster in different media. That was a revolutionary idea in computing. But it's not really a revolutionary idea for business because... And this is my thesis, of course.
+
+Because there's one algorithm that runs faster in a quantum computer. And so if you ask somebody which computer can sort a deck of cards, if anybody know the famous algorithms book, CLRS, you know, the first five pages are about sorting algorithms, bubble sort and merge sort and things like that. And I asked quantum fans, well, which one can sort it faster? And they said, well, of course, the quantum computer. I said, of course not.
+
+That's not the case. The modern quantum computers run at a clock speed of hundreds of hertz or thousands of hertz, not at the gigahertz that we're used to. They're single core, and they're single threaded when it comes to doing a job like a merge sort or something like that. So the only thing it's really good at, which indeed is a magic trick, is going from exponential time algorithm, which is integer factorization or elliptic curve discrete log problem, which I wanna mention a little later, shout out to the ECDLP problem, the quantum computers can do those in polynomial time, which is remarkable. And to a nerd, that's the greatest, coolest magic trick ever.
+
+But to a business person, unless you were in the business of factoring numbers, there's there's not a whole lot to be excited about here. So the other algorithms that Quantum could do are not much faster. So they'll never beat an NVIDIA machine. They'll never beat a million NVIDIA machines. And Quantum doesn't have storage.
+
+There's no such thing as Quantum RAM. So you have to design a problem that has a really, really small input. You cannot put the world's compute into it. Every time somebody pitches OpenAI, from what I've heard about quantum computer, they they say no. We're not interested.
+
+I I think I'm closer to you in my perspectives on quantum, but let me take the other side. Let's just take the other side. Yeah. The other side would say, look, we're in this very early primordial phase of actually, you know, constructing the transistor. And from the transistor, what we're going to do is put a bunch of these things together, we're going to figure out gates, we're going figure out logic, we'll then be able to build some reasonable operating system on top of it, we'll have some reasonable mechanisms to write software to these things, and none of that really exists.
+
+So do you buy that we're just at an early phase and this is why we're frustrated that there's a computational limitation except to a very narrow use case? Like do you believe that that could be possible? Yeah, no, of course. I think the issue though is do you buy would you go long punch cards and vacuum tubes. Right?
+
+Mercury delay lines, core memory, these are all things that disappeared and went bankrupt. Those are those were stocks at one point. CTR, you know, computer tabulated machine got incorporated into IBM. But... Okay.
+
+So but your critique is business model and timing or is it technological? I think it's both. You know, I think that when you talk to Google or IBM or Microsoft and ask them why are spending hundreds of millions of dollars a year on this, they say, well, someday there might be something that comes out of it. That's not a great business to me. Well, is very shocking.
+
+Mean, you can probably tell the story, but how many machines actually... How how many machines does IBM and Google actually have? Very few. So Google has a few prototypes. IBM has a little cloud.
+
+Chelsea and I have tried every single quantum computing quantum computer in the world. We cannot multiply 300 by 200 on any of these. And you're shorting them? Yeah. I've been short them.
+
+Unfortunately, we lost millions of dollars shorting quantum computing companies, but I told my wife that we gained billions in insight. Right. It's not easy to time the markets. Yes. It's definitely...
+
+So where is the natural computational edge? I mean, some people would say it's going to be towards encryption and defeating encryption, because now we can actually use what it's to good essentially brute force solutions to things that we can't solve today? I think it's crazy to even think about it because we have a computational problem that we're trying to solve. And every time somebody uses the word AI, I actually think of the word MapMul. These are MapMul machines.
+
+I think that as we... Matrix multiplication is what he's referring to. Right. So multiplying two lists of numbers is what a GPU spends 99.9% of its time doing. Sure.
+
+But it does it in n cube time. Now, what's funny, I think things like complexity algorithms are going to be parlance, you know, in the next five to ten years as we move towards a society. So n cubed means if you want to multiply a thousand element square matrix versus another thousand element square matrix on a NVIDIA machine, it takes a billion operations. That's a lot of operations. As we learned about this computing stuff with...
+
+Through through my lovely wife, I was flipping through nature, which is what we do as a hobby, and I saw a paper from Microsoft that was called AOC, Analog Optical Computing. In New York, means something different, but AOC in this case is... Yeah. And what I saw in the corner of my eye was that matmoles in light are free. Yeah.
+
+They happen in instant time, which is a really remarkable thing. So we're investigating, maybe we'll start a company or something like that, but the... There's a couple of startups like Neurophos, Opticore, Lumai that wanna make these photonic MapML cores, which would run circles around what NVIDIA does. Now, of course, that's not the whole story. There's a lot of details and nonlinearity and storage and...
+
+Beyond the the hatred for quantum and your raging short that may or may not be winning, you were a hedge fund manager. Correct? Yeah. And the famous episode, just to catch everybody up, was you bought a drug and then you inflated the price of the drug. Is that what happened?
+
+Can you just give us the Sure. Just the Yes. The history and what takes you now to? Yeah. I started at 16 at Jim Kramer's hedge fund.
+
+Kramer was actually a tremendously effective and skilled trader. But Kramer's idea of investing was to, you know, buy and sell all day, every day, everything. And he somehow squeezed profits out of it. That was the way you do it sort of in the eighties and nineties. And he actually made 23% a year net net of fees.
+
+And so you worked for him as a 16 year old? I worked for him at 16. How did you get that job? Just being in Manhattan, having a big mouth and, you know, it's a great city. Loving stocks, loving investing.
+
+Bill Gates is my hero. And I found a way to, you know, get into that. And Kramer one day pointed at me and said, genomics, you're going look at genomics. And I said, okay. And it was a lot of fun and I went to a tiger cub.
+
+I started my own fund. I realized I was a much better entrepreneur and private equity guy than a trader. We found that the marketplace for molecules had huge amounts of alpha, whereas the marketplace at public companies, we could buy a drug from... I bought a drug from Bristol Myers for 2,000,000, and that same company is public today. It's worth 6,000,000,000.
+
+So that was my first startup. And it was a really inefficient market. Pfizer would sell you a drug for a million bucks that was worth a billion dollars. They didn't care. Sell you the rights to the drug.
+
+Yeah. You productize it, price it. Yeah, absolutely. I'm sorry, what do mean? You just knock on Pfizer's door and they're like, take what you'd like for a million dollars.
+
+We saw this and we built two very similar companies that our biggest constraint was finding people to vet these assets. I started a small... Clinically. Yeah, just reading papers, reading patents, going to universities and small drug companies and big drug companies, making relationships. It's called business development in our field.
+
+And our biggest bandwidth problem was reading these papers. So I started a small NLP company on the site in 2015. We had Watson. It was great. And we tried to read every it wasn't great we tried to read every paper that was published in medicine.
+
+Was 40,000,000 papers. And having humans do that is a really tough thing. How do you take a molecule and flip it from 25,000,000 to 6,000,000? What are you doing in that six or nine months that you own it? I think so what I did with Sparsentan, a drug that I named and is now FDA approved, now a blockbuster drug, is Bristol discovered and developed it for hypertension, which is sort of a dead, sleepy market that nobody really needs.
+
+Hypertension, high blood pressure. Yeah. And so we moved into a disease called FSGS, which is a disease that never has had a drug approved for it. So you sort of try to angle it in a way that makes sense. And in that case, the drug got FDA approved.
+
+Thirty thousand people who have focal segmental glomerulosclerosis and never had a drug before now have a drug. I can be a good guy too. And I think the, you know, that that was, you know... It's it's the art of that field. It's a great way to make a billion dollars.
+
+It's... Is this what Royalty Pharma does? Roy Van. But is is this also what Royalty Pharma does? They'll come in...
+
+Yeah. Royalty is a bit of a different player. Genius guys, obviously. They they... Their big claim to fame was they went to NYU, was getting this big royalty from from Remicade and they bought it for like one times earnings.
+
+Yeah. And then that royalty 20x'd. They buy the cash flows at a bigger discount than how they're being... Brad, I know you weren't getting in here, so you can jump in here. Martin, take this framework now.
+
+You know you know kind of the big levers in the market today. Right? What's expected in terms of compute? What's expected in terms of this capex build out? Are you spending much time looking at that, and do you see any boogeyman there?
+
+What are you worried about? What would you be shorting? What would you be long in that complex? Yeah. I mentioned photonic computing before because I do think in in twenty years, these h one hundreds are in the scrap heap.
+
+B one hundreds are in the scrap heap. B two hundreds are the scrap heap. There's... We're we're gonna find ways to do this better. I think it's insane that we're thinking about space.
+
+I think it's insane we're thinking about nuclear. Sam Aldman finally said publicly that he thinks photonic computing is on a rival podcast. He... That photonic computing could be the future. So I'm I'm just wondering why we think this is a sane idea to cover the earth with computers when we can make a faster one.
+
+I think that that doesn't mean NVIDIA's not along. And I'm long semis right now. I think Jevan always wins in the end. Everyone Jevan's paradox is Yeah. You know, the crap out of everything.
+
+Alex Wang told me Jevin's gonna, you know, take care of all this. It'll be a million x compute improvement. There are guys in the Valley talking about better transformers that are a thousand times better. If there's a thousand times more efficient transformer, that's bad for NVIDIA. There's no doubt about that.
+
+So, you know, we're not gonna have a million x demand. Now, we we we might in another way, but there aren't a million x more people. You know, whether we have a million x more compute needs, you know, we'll have to see. For now, I think there's... You know, my guess, like anybody else's, is long, but I probably would have guessed in 2000 that Yahoo and Cisco belongs too.
+
+So it's it's a tricky place. So how do you man... Do do you run a hedge fund still? I don't. Okay.
+
+So you're managing your own money When you think about portfolio allocation, are you thinking about it in the way you did when you ran your fund? Are you looking for specific high alpha events or startup or disruption and really going long behind those and not really thinking about competing with the market? Yeah. I I I'm sort of nimble. I mean, I think this this Dario trade was like a great reason to go long.
+
+So I sort of piled in, you know, onto the sphere, but I really I The sell off yesterday was sort of like a headphone? Yeah. Think it was ridiculous. Yeah. What did you think about his essay?
+
+I think I think that... I want to pay deference to him creating a trillion dollar company, but I kind of hate the guy. And I think that he... You know, it's not easy to make Why why do you hate it? I I think he's a fearmonger.
+
+I mean, I also think that he... You know, imagine you and I started a business and I I said, I'm gonna show you Pandora's box. Here it is. And you say, wow. That's amazing.
+
+And he said, thanks a lot, Martin. I'm going down the street. I'm gonna start Pandora's box too. I said, what are you doing? You know, it would...
+
+I would probably sue you for trade secrets or something. This is exactly what happened. So you're saying because he was at OpenAI and then he and his five or six cofounders leave, you're saying that like... Would you be would you be friends with that guy? Would you like that?
+
+Well, mean, I think the thing with Silicon Valley is that it kind of happens a lot. And, you know, it's it's sort of hard to pinpoint what is a patent versus what is, retained knowledge. I'm not excusing it, I'm not saying I know anything that happened, but... The Waitmill guy went to jail for it. Well I think that that was because he was found to have actually stolen physical documents that were Okay.
+
+So you have you have an issue with sort of the origin story The fear mongering, the ridiculous, you know, hyperbole. Right. You know, he says the AI is gonna help drug development... Well, me ask you my... Total bullshit.
+
+And what effective altruism? Yeah. Even worse. Why? Why is...
+
+What do you find so loathsome about this group of people? Let's unpack it. Yeah. So so I helped popularize and and I even think, I would say start the EAC movement, which was this counter insurgency. I I think that...
+
+Sorry. There's EA Yes. And then there's EAAC. Which was intentionally named... EAAC is effective altruism.
+
+EAAC is? Effective accelerationism. Effective accelerationism. Which means? Which means?
+
+That's a great It may... It it does mean sort of move fast and break things. And, you know, it's no secret that Zuckerberg came out the other day and said, you know, we should move fast in AI. I think the fear mongering is is a little ridiculous and there'll be a time to panic. It's just not now.
+
+Physical AI presents those opportunities. You know, for now, I mean, you can turn off the computer. It's it's it's not that big of a deal. I think nerds get carried away. You know, if if you ever were a nerd or a jock, I was, believe it or not, a little bit of both, the jocks know what to do when they're...
+
+The spotlight's on them. You know, the nerds don't and they clam up. And some of them, instead of saying everything's fine, they wanna draw attention to themselves. They wanna say, well, the thing I'm working on is really amazing. And the reality is that, you know, this is just software.
+
+It's it's it's not the end of the world. It is the most important kind of software ever made, as you said earlier, but it's not gonna kill us all. Dario also said that we'd be fully unemployed within, you know, one to five years, about two years ago. Well, he's got three years left. He also said that we'd cure all diseases.
+
+I don't think there'll be a single AI relevant drug in the next ten years. AI does not help drug discovery. If you've ever built drugs and raise your hand if you've made a drug, gotten FDA approval for a drug. Okay. I'm pretty sure that's it.
+
+You know, it's pretty hard. It's pretty hard to do. And and and we've had computers for a long time. I built a Cray cluster to analyze drugs. Now I can use, you know, GPUs.
+
+It's great. But there isn't much AI can help us with in drug discovery, other... What is what is the revenue cycle that's driving valuation? So just unpack it from a hedge funder. You're sitting there, you're like, well...
+
+It's a hedge fund. You see these run rates. Right? I think Jensen mentioned it yesterday, $400,000,000,000 have gone into venture that has been redirected into AI. So do you interpret that as VCs funneling LP money to buy tokens effectively?
+
+Yeah. I think so. And and... That's your argument. Yeah.
+
+And I think you're gonna have one... So there's a valuation trap in there, do you think? I don't think so. I think that what you mentioned earlier, productivity, I mean, there is infinite demand for intelligence and infinite demand for work. You know.
+
+When you said the workforce, said, I think Brad's making a mistake here because if if you take the TAM and limit it to knowledge workers, you're really undercutting the TAM. Yeah. For sure. And, you know, the... There's...
+
+Trying to be conservative. Yeah. There there's there's no limit towards intelligence. One example I used to give and my my buddy started Left AI OpenAI and started a company called Core Automation, which we're really excited about it. Think I mentioned the other night.
+
+He invented the reasoning model at OpenAI and he's got a somewhat under the radar startup. I think that you're gonna have AI starting businesses. And that's, I think, part of his plan is to is to have within, you know, OpenAI, OpenAI Pharma, OpenAI Motors, OpenAI Aviation, OpenAI etcetera and you know, he'll have his versions of those and you're gonna have a whole S and P 500 within OpenAI or Anthropic or wherever. So I think that the opportunities are boundless. And and one last thing is that McDonald's can afford to spend $10,000,000,000 and say, OpenAI, give me 10,000,000 GPUs.
+
+I wanna know what the best next sandwich we should launch is. That's an NPV positive. You know, if the intelligence is worth it, if it's not asymptotic, at some point, you know, more tokens doesn't get you a better answer. But, you know, when that day comes where where you say, know, instead of hiring McKinsey or a focus group, I need 10,000,000 GPU minds to think about what is... What should McDonald's do right now?
+
+What is a good analog for the open a... Oh, sorry, for the AI marketplace? Meaning, you see a handful of providers of a critical resource, you see incredible valuations, that obviously attracts a lot of incremental capital, that breeds a lot of competition, there's various different solutions. Jensen made the analogy yesterday of like, it's kind of like water, you still have $8 water, but you still have the free water, and there's a world in which, you know, all flowers bloom. What's your mental model?
+
+How do you equate this to previous markets that that we would understand? Oil or other... It has to be like the Internet. You know, at least part of it, you know, has to be like the Internet where the only winners... Specifically.
+
+Yeah. The only winners would be consumers and and businesses. They get this tax free kind of Internet Cisco and some other guys will get a little bit out of it, but the the main highway that we're all gonna benefit from, which we already are, is we have free intelligence in our pocket. So the... But that I would interpret what you're saying then is like, we have to now right now be guessing around a, who's gonna over earn and b, the duration of that over earning.
+
+Sure. And I think it's meta. Timing. I think it's meta. Meaning the company meta?
+
+Yeah. They they have they have Why is that? They they have the distribution with Muse. They showed that they stole product chops. I think we're still in day one of of AI.
+
+I actually think that, you know, the chatbots are this... We're gonna look back and laugh and say these are the early... Would you own? Would you go out today and buy OpenAI and Anthropic? Yeah.
+
+Yeah. So we have OpenAI obviously through a few different ways. And I think that Sam's hedge with hardware is is really brilliant because the... You know, he'll always have the best model I think, but being able to deliver that model is probably gonna be more valuable than... You know, and that's what we saw with Muse, you know, this really creative product work that that that Alex did shows a, you know, a new avenue for them.
+
+What did you think about Elon's suggestion of competitor peer review as kind of this third way, this middle ground pragmatic solution to balancing safety and and speed? You know, they said at the Wright Brothers, if Warren Buffett could go back in time, he'd go back and shoot the Wright Brothers and stop the aviation industry from ruining capitalism. I think that Nick Bostrom wrote this book, Superintelligence, that scared the hell out of Elon. And, you know, maybe... I don't know if I'm not advocating for violence, but, you know, it would it would have been better if some of the EA kind of folks never sort of had this like narcissistic kind of self importance that is driving some of these fear mongering.
+
+And I think OpenAI doesn't believe it. I think they're in this as wanting to not be too different from Anthropic. Thankfully, you know, some other guys have the spine. Meta has the spine to call it out and say this is nonsense. The president has the spine to do the same.
+
+Jensen has the spine to do the same. It's just computer science. It's not that big of a deal. Some of these EA guys are pretty brilliant. Dario's no dummy.
+
+Dustin Moskowitz. Sam Venkman Fried. Sometimes you can be really smart at one thing and really dumb at another. Let me ask you this question. Do you...
+
+And and I actually, yeah. I'm good example. Well well, so this is this is actually my point. I I feel like some of the smartest people are unconventional thinkers, and you're you're clearly a brilliant person. People that are brilliant are generally brilliant because they're not conventional.
+
+They're they're they're heterodox in some way, but in the same vein, if you have that brilliance, perhaps it's also hard for you to be conventional in the ways that are perhaps call it law abiding. And... I've crossed that out. Yeah. And by the way, I just like, so I I wanna just ask your opinion on Sam Bankman Fried.
+
+Yeah. So you've met the guy, you you're I think. Right? I give him advice. Yeah.
+
+You give him advice on how to tough it out. But can you just give us your sense on the guy, you know, he was early in anthropic at the beginning. Look at the portfolio of investments made. Yeah. You look at the portfolio of investments he made, across the board it was crazy in 2021, 2022.
+
+Looked like shit. Genius. Yeah. Genius. Can you just tell us a little bit about what got that guy off track?
+
+Is it that he was so out of the bounds as a thinker, that's what got him all the alpha, but in the same way it also got him in trouble. Or was it speed? Yeah. I think I think it's both. Know, I think that one of the problems if you grow up as an intellectually gifted person, you have this big albatross.
+
+I think this happened as well to Elizabeth Holmes. You know, Raj Rajaratnam is another example of, you know, hedge manager that was was a decent investor. You know, it was much more that he, you know, I think you you know, to keep it short, you have this self conscious. You have to live up to something. And sometimes wanting to live up to that big thing can be very detrimental and just failing and admitting that you are not that great at that is not that bad.
+
+I had a hard time admitting I was not the best hetero man from the world, but I was a wonderful entrepreneur. That simple refusal to admit that put me in prison. Have you changed your views on our behavior? Like, what has changed about you from prison? Like, what's what's the what's the change?
+
+I I think that, you know, psychology is a really powerful force. You know, we all do things. Our... All of our actions are motivated by some innate drives that that we don't always understand. You know, I didn't realize how petrified I was of not being seen as a great trader.
+
+What a stupid thing. You know, what a big deal. You know, you can be a great long term investor, value investor, entrepreneur, you know, startup guy, whatever. You know? Dad.
+
+What's up? Dad. Yeah. A great... How's going?
+
+A great a great scientist. Whatever. Yeah. You know? But if you really like fixate your own mind on I have to be this, then that can be really detrimental.
+
+Putting aside your case, valid or not, you know, if you were targeted for whatever reasons, what did you learn during your time in the in the big house? And how did it change you as a person? Because you're very different, you know, you seem to have gotten a lot sharper and a little bit more methodical in your approach to life. So take us through what you learned in that time. Oh, thanks a lot.
+
+I think that the... One of the interesting things about prison is no matter where anybody's from or or what they did or whatever, everyone sort of has a lot of these same real common features that bind us as humans. Everyone's sort of upset that their friend didn't stay in touch or longing for that person that that, you know, they miss or whatever the case is. And it's really refreshing, you know, to remember that, you know, we're we're, you know, no matter what heights we achieve, that at at bottom, you know, we're... Like you said earlier, we all wanna be the best dad we can or or whatever the case is.
+
+There's... You're you're... Look, I think you're just a very independent thinker and you're also you're willing to say the things and communicate in a way that other people don't. That's why we wanted to have you here. And I think, obviously, this was a great showcase of that.
+
+We really appreciate you taking the time to be with us. Thank you. Thank you so much. Yeah. It's great.
+
+Thanks, Bert. Nice to meet you. Nice to meet you. Hey, man. Come back anytime.
+
+Thank you.

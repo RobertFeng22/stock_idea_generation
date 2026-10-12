@@ -1,0 +1,175 @@
+The fundamental idea here is to build AI that improves itself and I think we're getting there. For the first time, we could swap the optimizer as the optimisee and this leads to a reinvestment of cognitive improvement into itself. You can think of RSI at many different levels of the stack: prompts, harness, weights, and you can go all the way to basically chips. Our goal here is to optimize all the levels of the stack. Our approach to our side is that we have a multi agent system working together that's been recursively improved.
+
+I'm so impressed by your belief that, like, this idea of a model improving itself. But it's not a belief. It is a dramatic statement, is I think is the first time I've heard you say it. We have been so thorough, we have not released things until we're super sure it's correct. Do you envision a system where the amount of energy that goes into it somehow decreases over time relative to improvement.
+
+We can't share too much, but one of the very important things that we've tried to do... A16Z general partner Martin Casado sits down with MakerMaker dot AI cofounders Daval Ajita and Owen He to unpack Recursive Self Improvement, or RSI, and separate the increasingly popular term from what it would actually mean for an AI system to improve itself. Daval and Owen distinguish true RSI from simply using AI to automate pieces of AI development. Their goal is a closed loop, where the system being improved is also doing the improving, across components including models, harnesses, and eventually more of the AI stack. They explain why closing that loop still doesn't guarantee runaway takeoff, and why measuring real progress requires accounting for both capability gains and the resources required to achieve them.
+
+They also share what they're seeing in their own research, including early signs that self improving systems can increase performance while improving efficiency. And they dig into the practical challenges of proving those gains are real, from variance and reward hacking to the enormous difficulty of distinguishing genuine improvement from noise. Welcome both of you. We're going to be talking about everybody's favorite topic, which is RSI, Recursive Self Improvement. Maybe to start, it'd be great to just introduce yourselves and your background, so we'll talk a little bit about what you're working on now, and then we'll dig into the content.
+
+I think of myself as a physicist of some kind, I studied that, then I did PhD in reinforcement learning at the MIT Media Lab, I really like building things, and I'm very excited to be building a cool startup, make a make a, both Owen and Grace. My name is Owen. I was first studying math, and then one day I realized that all mathematicians do is proving theorems, and I was taking a class called formal language and logic, and they were showing how you can build a theorem prover. And I was like, oh, that'll be cool. I can just build a machine that proves theorems for me.
+
+That's how I got into AI. Amazing. And then for my PhD, I worked on continual learning and meta learning, then worked for a few years at DeepMind as a research scientist. Now I'm working on RSI. I see a lot of pictures come in, and a lot of them use the term RSI.
+
+And I'll be like, oh, so what do you do? And they'll say, we use AI to create AI, that sounds very interesting, so what do you do? We use AI to create GPU kernels. Which that doesn't to me kind of met the definition of what I would consider to be RSI. So maybe can we start by you defining what you think or what you would include in RSI definitionally?
+
+Yeah. I think RSI is definitely an overloaded term today. Many people when they say RSI they mean different things. So I think the important thing when you are differentiating them is to ask the question what is the optimizer and what is the optimizer? When you're self improving, who is improving?
+
+Right? So there there are people who are saying, okay. We're doing RSI. We have human using AI to develop better AI. Yeah.
+
+But that to us is just autocatalysis Yeah. In a sense that the improver is still human with tools, even though these tools are getting better and better, but the ideas and the improvement come from human brains. Right. I don't mean to interrupt, but Yeah. To be clear, most technical epochs have had auto catalytic effects.
+
+Right? There's no way you can create a computer chip without a computer, right? You could argue that the internet development was sped up by the fact that people that weren't geographically located could coordinate, right? I mean the steam engine, you could build better steam engines because you could get coal faster, etcetera. So this notion of using the thing to build the thing faster is not new.
+
+Right. And so you're saying something different. Yes. I think for us in the history, right, our civilization, we have this autocatalysis using computers to build better computers, but the idea for this change, for this improvement come from human brain. But that human brain was never the improveee, never the optimizer.
+
+Ah, right. Right? Now for the first time, we could swap the optimizer as the optimizer. So the the brain of the agents, which is LM, the model, can be the thing that you're optimizing. And this leads to a compound, this reinvestment of cognitive improvement into itself.
+
+But there has to be a reason that you decided to take on this hard problem as opposed to what anybody else would do, which is like, chew off pieces of the problem. Yeah. I mean, before I answer your more important question here, the reason I did this is I think it's a hard problem, and it's fun working on the hardest problem. And I think But do you have an intuition that this is the actual right answer as opposed to like something that's more pragmatic? Yeah, I think a pragmatic thing would be, just from a control theory perspective, if you have a gap in the system, you can't have a closed loop.
+
+And auto catalytic has no closed loop, right? So whatever you improve, there's still like a gap, humans have to come in, you have to pour in other resources to make it work. But if you have a closed loop, you still have to pour in resources, but the marginal gains ideally get either constant or larger over time, and that's the fundamental difference. I think what's really different here can be explained pretty easily. Yeah.
+
+So if you think of capability, what we're trying to do here is we're trying to improve the rate of improvement of capability, right? So the first derivative of capability with respect to time is the thing that everybody is trying to improve, right? And now you can put that to be equal driven by two things, the nominator and the denominator. The nominator would be performance Yeah. Which is what everybody is trying to improve.
+
+And then the denominator is some kind of cost, let's say capital, right, or difficulty. And this one is pretty set because the higher the capability, the higher the difficulty of the next step. Right? Now the numerator is the interesting part. For things like steam engines and whatnot, that was fixed.
+
+Yeah. Right? So then you end up with a very simple differential equation where you basically plateau. Yeah. Right?
+
+Now, if you have a system where the improve V, the things being improved, is also the thing that's doing the improvement, you now have a new way to think about it. And the simplest case would be that the numerator is also correlated with capability, which makes sense, right? Because the better you are, the better you are at also improving. Yeah. And if you do that, the math can sort out, and you basically get constant improvement over time.
+
+That could be one level of RSI. Right? And then there's one more case, which is now that the numerator could be correlated with a higher power of capability. Yeah. And then you get exponential take off.
+
+Yeah. Can we dig in a little bit more between RSI's having closed the loop and actual convergence properties? For some reason, when people see a graph where there's like a circle with an arrow to another circle and it goes back, and they look at that closed control system, and they say, take off. Right? Which, I mean, if this is a nonlinear control system, it's very difficult to know what the hell happens.
+
+By the way, most people don't seem to understand this distinction because we very quickly go to take off and all that stuff when we talk about these things. Well, as a network guy, you know that it depends on the exponent of your function Yeah. That's self referencing. Yeah. And it's, what we found is that it's almost not useful to speculate on what we think could happen, because this is really an empirical problem.
+
+And the real way to know what's happening is to test things. And testing things is really, really hard. Like reward hacking is one of many problems that we have to deal with. But the question you're asking is very empirical and for some I'm going Oh, interesting. So but...
+
+So I'm a networker, that's how I would have answered. I would have thought math people would have been like, we've got this differential equation, and I took out my pencil, and I wrote down the answer. I mean it is possible to write down the differential equation, but you still have to empirically measure the variable, the exponent. So there's no analytical solution. I mean honestly we don't even have a learning theory of deep learning, we don't know fundamentally why it works, Right?
+
+And then now you're like five, six layers on top of deep learning, and so we don't have a good theory. I think the closest things we have are scaling laws, and these are empirical laws. I think one misunderstanding people have about our approach to our side is that they think the entire system has to be fully automatic and digital. But, actually, if you look at our mathematical foundation, we have a multi agent system, not just one digital agent. And in this multi agent system, human researchers and engineers are actually special case of these agents.
+
+And it's this hybrid system of multiple agents working together that's been recursively improved. And we don't want to leave out any component to not optimizing them because if it's possible to optimize the model, why wouldn't we do that? Because you will have more gains if you do include those. Anything that you don't optimize will later become your bottleneck. So one observation that we have made here is there are claims of speed is improving, which is actually the case, right?
+
+So if you look at the model release time, it is reducing. And so on one hand you can be like, okay, so clearly we're in some sort of a rapidly improving phase, but if you divide by the actual amount of capital raised by these companies, that's no longer the case, right? And so you're like, well maybe they just raise a whole bunch of money and then AI allows you to apply that money, so how would you this is not for yourself, but how would you encourage people that are either evaluating claims about this or even working on them to think about not fooling yourself by throwing more money at the problem, like you're actually showing that you're making an improvement here that's meaningful with the denominator? I think for us it's pretty straightforward. It's because if you get improvement and they just come at more and more resources being poured in, it's not RSI.
+
+You have to be able to back your claim of how much improvement you're getting. But do include like all the man hours and experimentation that went into that, because I feel like at some level, like that... I guess like, they'll talk about like the actual flops that go in and money that go in, but the reality is this is like the twenty third experiment, it's actually a human burning a lot of mental capital to get to that final configuration, like you actually include that in the denominator. We do, and I think it's good company discipline to do that. Yeah yeah yeah.
+
+And we've tried again to very intentionally from the beginning, have a culture of tracking where things go, cost, time, all that kind of stuff. I share a funny thing, internally we have this thing, people talk about leaderboards, know, which is like score. You know what I'm about to say. We have something called a bleeder board, where we keep track of the cost of experiments of everybody who's That's running awesome. You know, and everybody it's the comp...
+
+Everybody any day can look at like who's who's high up on the on the bleeder board. I can also give an example from AI. I don't know if you know this nano GPT benchmark you are running. Yeah. They're basically asking you to retrain GPT two, which when it just came out, is a very expensive model to train and takes weeks, I think Yeah.
+
+On multiple GPUs. Yeah. And right now, people can train on single GPU within hours, and that number has been shrinking constantly. Yeah. Yeah.
+
+But that's also totally separate. Right? Like, that's just like whatever Moore's Law, like No. No. It's the same GPU.
+
+It's the same hardware. Using the same hardware, and then you improve the techniques of pre training. Oh, interesting. Yeah. What has improved is like algorithmic techniques, data techniques, kernels, all of that kind of stuff.
+
+Do you know how much it costs to train GPT-two? I think it's a few $100. It's a $100, I just Oh, So the same same GPU Same GPU, same data. This And is just algorithmic, do those come from humans or do those come from? Asians, a lot of them are auto research results.
+
+But that's definitely the denominator. That's not the numerator. What you want to see is you can do that with GPT-five, which we're not seeing. Well, I The think cost of these things is going up dramatically. Well, I think one of the most closely guarded secrets in the industry is exactly this thing, which is how much compute you can get out of this.
+
+Because in some sense, even if all you were improving was your denominator, you could get faster training because now you can get more rollouts. Right, yeah, of course. Right? And that means now you can sample that what what you were describing, like the manifold of the space of of language Yeah. More extensively Sure.
+
+And then you can get better trajectories, which means you can get smarter models when you use that to train. For sure, improving the denominator is good. Yeah. Yeah. For sure improving the numerator is good.
+
+Yeah. I've yet to see, which is great that you have, you know, glimmers, where you can improve both the numerator and the denominator. I mean, that's a pretty meaningful statement, which is awesome. What we found is that a lot of the papers that claim to do RSI, when we test it in our internal infra, we find that they don't work. And a lot of it is because they're cool ideas that humans try to introspect and say, oh, you know, this is what I think should happen.
+
+Yeah. They're complicated, they sound cool, they get you a good paper, but then when we test it at scale, you know, on benchmarks, on real economic problems, they don't scale. And what we found is that the simpler thing that closes the loop is the thing that scales. I would say one thing that we do that's probably unique is that we always start with a very grounded mathematical framework that that basically lays out the map of the whole space. Yeah.
+
+And the reason is because this space is so large that if you don't do that and you don't have this very principle way of doing it, you get lost very quickly in this complexity. And the other reason is that often when you have this really complex system, there's two extremes of how you can build it. You can take an approach where you basically build like 200 different systems, and you hope that like this this this, you know, what is it? The Rube Goldberg machine will kind of Yes. Work Yes.
+
+Or you take the other way and you're... You kind of basically spend some time thinking about these 200 things and maybe you realize, you know, they're actually just 12 abstractions that generalize to these 200 things. And so what we have tried to create a culture of, let's really think from first principles, let's you know, look at the math and then we realize what are the assumptions we make to be practical, because you have to do both, and then we see what works. And when you do that, you then can see that, oh you know, there's like multiple papers or ideas that are actually you know, subclasses of the same general framework. Yeah.
+
+And if you do that well, you can scale. And I think that's one thing that I see that's missing, and that's hard to do, and takes a very unusual group of people to really like make that work. I think Richard Feynman said once that there are two kinds of sciences, there's a STEM collections, and then there are physics. Yeah. So without a unified math framework, all these research are sort of just stem collections.
+
+You could... Like, a lot of this paper we're reading are just ideas inspired by some human behavior, and then they try to mimic that and say, oh, look. We have RSI. But then if you don't put into a unified system, you don't know if the the overall system is actually improving, or you're you're just, like, locally applying an idea that... That's getting better.
+
+So what we have is that we're putting all these components that you could possibly recursively improve into a unified framework and look at it from a holistic view so that improving one part does not negatively impact the other part. Right? I see. I see. So so for example, there are people who are doing recursive improvements just on harness, and then there are people who are only doing on weights.
+
+Yeah. But weights and harnesses are not isolated component. They have impact on each other. You you can think of RSI at many different levels of the stack. Right?
+
+You can think of prompts, harness, weights Yep. And you can go all the way to basically chips. Yeah. Right? Sure.
+
+Yeah. And our our goal here is to optimize all the levels of the stack. Right? Efficient because we care so much about the denominator. And then we started doing weights, weight updates.
+
+And what we found is that you get more gains, but you still have to do harness stuff. Right? And you can keep going down the stack, and and my guess is that you probably will need to do a lot of the kind of co optimization of many different parts of the system to make it work. Can you talk a little bit about the problem domain that you're going after just to prove that this works? We are trying very hard to pick areas of the AI space that are as close as possible to AI itself.
+
+Again I see. We try to be recursive. Yeah. Yeah. Yeah.
+
+And if you think about it, there's there's not that many problems that are super close to AI and gives you improvement on both the numerator and denominator. And one of those is the inference problem. Right? Because the more you can spend on... Sorry, the more you can get improvements and efficiency out of inference, the more everything kind of unlocks.
+
+Right? Yeah. And it's not just for technical reasons, but also the most promise of both the numerator and denominator being improved. Right? It kind of breaks the mind, right?
+
+So like just just for everybody that's listening to this, there's two improvements going on here. One of them is the ability of the model to make inference faster, And the second one is now that the inference is faster, it can do that Exactly. Right? And again, that does not necessarily mean takeoff. That can still, you know, asymptote at some point.
+
+But it's just wild to think of this kind of compounding impact. Yeah. We're a startup, we're not a research lab, and one of the reasons we chose it is because everybody in the world right now wants to serve their own model. Yeah. And everybody wants to use the latest, for example, open weight model, chemically three or whatever just coming out, and they want to be able to serve it as efficiently as possible.
+
+Right? So it's it's an economically extremely important problem right now. Just for the sake of discussion, I wanted to make the inference for Kimi K three faster, would I use Kimi K three in a recursive way, or would I use a separate model and system to do that for To improve the serving stack of QMIC-three you mean? Yeah. In our, well, our system is not just using one LLM, you have many different LLMs that are doing many different things.
+
+Oh, you're doing different you processes. Doing the Inference Cycle all of them? I mean, we pick whichever is the most effective, because it's being used the most time. But the interesting thing is I see. The choice of the Yeah.
+
+Of which LLM to use for which thing is also not always up to us. We'll let the model choose. To be honest, today is not really us who are deciding what to optimize, it's our agent. That's interesting. Because it's recursively self improvement.
+
+And what we're trying to do is not to limit itself to only one component. So it chooses whether to It's just what to... Yeah. We try to be like as hands off as possible, let it do its thing. Do you have, like, a single master prompt?
+
+Is it, like, improve yourself? But even the master prompt, it has been improving. Really? It improves the master prompt. Yeah.
+
+And, I mean, and it's not one RSI system because you can think of it as there's the thing that that does the improvement, but then you also have to have the thing that knows what to improve. And that's both are dynamic problems, and they are very linked. Right? How general do you think this ends up being? Like, now you're focused on speeding up inference in a specific domain.
+
+Do you think that whatever approaches you're coming up here generalize or do you think there'll be a different one per target solution space? Mathematically, we have defined it so that it's one system that generalizes to everything. I think the one part of the system And by everything you mean any problem domain that you can point AI to? Correct, but then there are physical limits, for example. And one big limit of this is the human element.
+
+I think the way that a lot of AI companies are thinking is, you know, let us use AI to replace humans. But what we found is that there's so much that if you have good researchers and good engineers that they can bring to the table that's gonna be very hard to replace by agents. And so that's why from the very beginning we've tried to think of our, basically entire company as a multi agent system, where humans are a kind of agent that's cohabitating with other AI agents. Can we at least reduce balance? So for example, do you envision a system where the amount of energy that goes into it somehow decreases over time relative to the improvement?
+
+We can't share too much but one of the very important things that we've tried to do in our company is not just work on the numerator, which is what I was describing earlier, which is your performance, but to work on the denominator, which is how much you can get out of the same amount of physics, money, whatever you want to call it. Right, but do you think it's possible to have a system where the numerator continues to increase at the same way with the denominator being fixed or decreasing? It's not just possible, I think it's happening. Really? Yeah.
+
+So it takes less energy to get better results? Yeah. Yeah. Over time. Do you think there's a there's a universe in which, like, that continues without asymptoting?
+
+Because if that was the case, then you actually have to take off. I That just seems to disobey mean information theory and The laws of physics. Yeah. Yeah. I mean, I I think at some point you're gonna reach Planck constant.
+
+Yeah. You know, Planck length, Planck energy, Planck time, right? Yeah. Yeah. So it it will asymptote at some point.
+
+But I think Oh, I see. And so you think that asymptote is basically like the computation of the universe? At least, yeah. I mean, you know, how many how many particles are there? 10 to the 80.
+
+Like, we know speed of light, you know. We know we know what it is. You multiply those two and you basically get an upper bound of computation. And and so given this fixed amount of computation you can do every second, we know we have a limit. I'm so impressed by your your belief that, like, this idea of a model improving itself But it's not a belief.
+
+No, you've It's got a critical I mean, also it's a question of what metric you use to view the progress, right? So if you use, I don't know, benchmark accuracy, it's upper bounded by a 100%. You're never going to see exponential improvement of that, because eventually it bottlenecks a 100%. Of course. So so for a long time, we had this question, how do we even know if something has taken off, right, if we don't have the right metric?
+
+It's not a belief that this is happening. I think we're already seeing glimmers of that happening. But it is a dramatic statement, is I think it's the first time I've heard you say it. Is this like a... Has this been kind of, you know, a continuous result, is it relatively recent that you're starting to see climmers of this?
+
+No, we've been seeing these results kind of grow and grow and grow over the last few months. Do you have confidence in the results given, you know, like it's not working yet and you don't know? No, it's not belief, it's empirical measurement. But also as a company, there's a very funny thing that is happening which is because we have been so thorough, we have not released things until we're super sure it's correct, right? And every few months, you know, there's like an announcement of something RSI related, we look at it, we're like, we should have released our results or something, And we look at it, we try to replicate it and we realize, oh, it's noise, know, it's cherry picking.
+
+And so it's very, very hard to know in this sea of, you know, AI, I don't know what you want to call it, like everybody's trying to do AI RSI stuff to know what's legit or not. The technical answer is you have to be really, really good at measuring things. So for example, we have one of our engineers that we we named him the Viceroy of Variants. That's that's a real thing. Like his job his job is to go and like destroy the results we have and find what's wrong.
+
+And we even have little Slack emojis that we have. There's one where there's red laser stuff coming out of his eyes when he finds that there's bad variants and stuff. One of the things that we found is that when you're dealing with a new benchmark or a new problem of economic value that you want to apply this to, so far we have not found a replacement for what we call quality time. Literally running hundreds of experiments, looking at it, developing an intuition, trying to figure out what is wrong, what is not wrong, what is just variance, what is not? What is this weird thing that actually shows that there's some kind of reward hacking like two levels down, the agent that built the agent that built the agent, did hack something and now you have these weird results.
+
+Right. It's not easy. So when I have dealt with nonlinear control systems, in networking there's a bunch of degenerate behavior you have to It's deal not like just convergence and diverging, you have things like oscillations, And this is a very multidimensional problem. So do you have to deal with all of that stuff, like potential oscillation? And then and then on top of that, you have noise.
+
+Yeah. LLMs are fundamentally super stochastic. Yeah. So what we find is that specific agent on a specific benchmark, you know, there's levels of noise that sometimes are unpredictable, and some of them are extremely, like, weird. Like, you even have some weird noise that comes from, like, this GPU and this other GPU.
+
+They're both, you know, b 200, but they have slightly different behaviors, like, on the physics, and you can see some of that being replicated at the high level. So that's why it has been empirical thing. So from that, you could already see that intelligence is not a single scaler. It's more like a multidimension vector. And there will be domains and field where this RSI will give you a takeoff, and there will be dimensions where you might plateau or you will have relatively slow improvement.
+
+And I think the the the defining factor is what is the slowest component in it. So you're a optimization person. You know that there's this Amdos law where, you know, like, the component... The the speed up you can get by optimizing a component is Then with the... If you you just take it you just take it to zero.
+
+Yeah. Yeah. Nothing else dominates. Exactly. So so the digital part, we could optimize and accelerate.
+
+You could get, like, a thousand times faster or a million times faster. But if it's only 20% of your over time, you're only going to get 20% speed up. Right? Yeah. So so for for domains where you still need to move atoms that interact with physical world, that's really slow, you're still going to be bottlenecked by that.
+
+So let's say every eval... Every evaluation you need to do, let's say, drug discovery, you still need to do wet lab experiments and then clinical trials, and that take months, then every new idea have to go through a month or multiple months evaluation. So those field probably won't be accelerated as fast as, you know, coding or mathematics where you have very fast and cheap evaluations. But I've I've yet to see is anybody put a balance on that. To say, in order for me to improve this by X to solve this problem, I need this much net new energy to do it, right?
+
+And if you had that, you could actually predict, I'm, like listen, how big of a warehouse do I need to solve a drug discovery problem, or how many different robots I would need to So do you think that we're getting any closer to actually having balance? Because I think this is such a critical question for all of us to answer. One of the internal jokes we have in the company is that the secret to RSI is somewhere in a garden hose company in Wisconsin. And the joke here is that if Einstein hadn't discovered relativity, he would not have these laws that tell you how speed and contraction of time works. And if some unfortunate engineer had to design the GPS system, they would have had to find a correction of time.
+
+And they probably would have said like, no, no, it's clearly not the fabric of space time that's contracting. Right? But I don't know why, but this is the formula I've devised It's like the curriculum. Some absolute, you know, like, some function Yeah. Exactly.
+
+Right? And then people later would have been like, holy shit, this is like space time Right? And we have this theory that, you know, like, RSI right now is being thought of, let's solve all these like super hard kind of fashionable problem. But what we think is that the complexity of the world is such that the real challenges probably exist in spaces that are not being applied to. Right?
+
+And so that's the joke that there is some workflow somewhere in the garden hose company in Wisconsin that if we solve it, we get we get, you know, phoom. I love it. I just wanna quickly summarize. So you're going after RSI. In in in your case, this is not auto catalytic effects.
+
+This is actual RSI where the system improves the full system. And for you, it's an actual system, which includes the harness and the weights. If you think about the problem is you've got a numerator and denominator. The numerator is, like, how good the system gets, the denominator is how much energy goes into it. You believe you're seeing glimmers of the sign where both improve at the same time using this type of approach.
+
+Is that correct? Yep. Yep. When can we expect to hear more from you? Very soon.
+
+Amazing. Yeah. Thanks so much both of you for joining. Yeah. Thank you.
+
+Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a sixteen z dot Substack dot com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward /disclosures.

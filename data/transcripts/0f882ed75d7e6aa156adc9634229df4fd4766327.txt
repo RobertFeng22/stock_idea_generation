@@ -1,0 +1,351 @@
+Agentic workflows tend to perform better on AWS than anywhere else. Compute sandboxes, gateways, agent permissions versus people. A lot of those are things that we have built and are building and thinking actively about. The top frontier labs gobble up every available GPUs. At the same time, you want to promote newer companies that are gonna become the enterprises of tomorrow.
+
+How are you thinking about balancing? From the very beginning of when we launched AWS, startups have been the lifeblood of the core of what we do. These are the innovators that are at the edge of technology, understanding what's possible. We're very intentional about keeping capacity available for the startups. We recently announced we're gonna be buying 2,000,000 NVIDIA GPUs over the next couple of years.
+
+Your CapEx is same as what? 200 or something? $220,000,000,000 for '26. And we don't anticipate slowing down anytime soon because the demand is just massive. With all the debate around AI extension risk and the hugging face attack, what are CEOs asking you about all these things?
+
+Amazon plans to spend $220,000,000,000 in capital this year, and AWS CEO Matt Garman says they don't anticipate slowing down anytime soon. In this episode, a sixteen z's Raghuraguram sits down with Matt to unpack what's driving one of the largest infrastructure build outs in history and how AI is changing the cloud itself. They discuss how AWS decides who gets scarce GPU capacity. They're shifting bottlenecks from power and chips to memory and construction, and the company's bet on custom silicon like Tranium. They also get into what changes when agents increasingly write code and manage infrastructure.
+
+And that shares what AWS is seeing inside its own teams, where agents now write code and engineers increasingly manage teams of agents, accelerating how quickly new products can be built. Welcome to the pod, Matt. What a time we are living in, so I have a lot of topics to talk to you about. Awesome. Thanks for having me.
+
+I'm excited. Yeah. Absolutely. So let's start, actually, right from the beginning. So you were the first GM for EC two, and that was 2006, right?
+
+And today you guys are what, 160, 170,000,000,000 in revenue? Yeah, about $169,170,000,000,000, yep. Yeah, growing thirty Thirty seven. 7%. Yep.
+
+That's 37% at 169. Yeah. Crazy. There's a ton of... It's interesting to think about it from day one when we got the first dollar of revenue.
+
+But Yeah. Yeah. The interesting thing is we're still at the early stages of what the business can be, and what the opportunity is for customers. Most workloads, there's a huge amount of workloads still that live on prem today, and the amount of compute that people are doing every single day is more than it was the day before. And so, you see the tailwind from AI, you see the tailwind from migration into the cloud, and the business has grown really fast, and it's been a super fun thing to be a part of.
+
+Yeah, it is, it is. I mean, they'll be writing history books about this, and business books about this for a long time to come. I wanna touch on the on prem, that sort of boggles my mind. I obviously did my best to keep them there You for a long a lot of stuff on prem back in the day of Yeah, yeah, but Trying to now get all of that to move into AWS. Yeah, so we can talk about that later, but so if you think about EC2 in the early days, and you got your start with obviously selling to startups, and today, the AWS cloud service, I mean, as you reflect on the evolution, what stands out?
+
+Yeah. Part one, and then part two, we'll talk about how this nature of how you serve startups has changed. Sure. Well, like you said, actually, it's funny. So I actually interned for AWS in 2005, when we were first kind of was an internal project, it was my business school internship.
+
+And my project was actually to come up with an analysis of who we thought AWS would be most interesting to, and the answer was startups, like, probably not surprisingly. And so, from the very beginning of when we launched AWS, startups have been the lifeblood of the core of what we do for a number of reasons. One is the value proposition is just so attractive Yep. What AWS provides to startups. And we spend a lot of time and effort making sure that we're great partners to the startups, helping them not just provide infrastructure, but also advice on how to get your company up and running, and how to think about your architecture so it'll scale eventually, and a whole bunch of things that we do for the startups.
+
+But we also think that for us, it's just good business because Yeah. The start ups today are the enterprises of tomorrow. And it's an imprecise number, but today, we estimate that maybe 30, 40% of AWS revenue comes from companies that was a one time startup in AWS's So it's fun to see, for us, to see the companies grow over time, and to get bigger, and become enterprises effectively. And so that's why we invest so much in startups, and why we pay so much attention to the the brand new two people in a garage type startups. And and not just because of the business outcomes, but also because that's who we learn from.
+
+These are the innovators that are at the edge of technology, understanding what's possible, pushing our services to say what they'd want more of, what can help them go faster, what can help them achieve their outcomes. And a lot of times, they're pushing more than the banks or the healthcare companies or the governments. The startups are the ones that are pushing that envelope, it really helps us to be better and make sure that we're ahead of that wave where the banks are gonna want some capability five years down the road that startups want today. Yeah. Yeah.
+
+And compared from then to now, how have the startups changed and what they want from you? Obviously Yeah. They all want a lot of GPUs, and we can talk about that, but besides that... Well, will say, there's a couple of things that have changed. One is, startups started at a much smaller size than when we first started.
+
+Right? They might have gotten $10,000,000 of funding, and they had a app idea that they were kind of slowly iterating on. Now it's from day one, they're valued at a billion dollars. They have $200,000,000 of funding. Yeah.
+
+Yeah. It's a a team and an idea, and all of a sudden, they're worth a billion dollars. Just go from our offices to your offices. That's right. That's right.
+
+And, like, the size and scale and ambition of the ideas, I think, requires more capital. They're bigger to start with. They're obviously more expensive too, right, to go after kind of a training a model or doing something that that a lot of the folks are doing today. So that's number one, which is just the size that they start from is really big. But I would say number two is that some things haven't changed.
+
+Right? They actually are still thinking about, okay, once I scale, how do I think about an architecture? How do I think about security? How do I think about performance? How do I think about having all the capabilities that I need?
+
+How do I think about setting up my I'm set up so that when I have more than three employees, this thing is gonna work and scale, which is a lot of times why they like AWS as opposed to just going to a Neo Cloud or something like that. They actually need all of those other security and and capabilities that come around from from training. And so I think that's something hasn't changed and is exactly the same. I think the scale at which the ramp up is definitely different today. I also think increasingly we're seeing teams that want a cloud that is great to work with agents and not just with people.
+
+Mhmm. And I think that's where we've Yeah. Spent a lot time is do you think about... Exactly. How do you think about broad scale?
+
+How do you think about performance? How do you think about an interface that is a well defined API interface that agents can actually easily traverse and work across? And so that's also something that we both, I think, we're naturally set up to do well, but that we've actually doubled down on to ensure things like how can you start a database in three seconds, and really get to some capabilities that agents are excited about. Have you introduced any specific new services that are explicitly targeted at agents? Are people building agents?
+
+I'd say what we've done is we've optimized some existing services, so that they can both work for people and agents. And so the answer is, we definitely have some services designed for building agents. Yeah. We have things like agent core and Bedrock and pieces like that. But when we look at just taking an underlying component like s three, right, which is where the vast majority of companies store their data and have their data lakes.
+
+It turns out, like, a lot of the use cases for people and agents are similar, but you wanna have... And one of the things that we have in preview right now, or in in beta, is called AWS context that allows you to build a context layer so that agents can actually more easily find all of the data they want across your various data lakes. And so whether you have your data stored in Aurora, or you have it in s three, or you have it in somewhere else in AWS, you can kinda build this context layer where when people aren't necessarily gonna access data in that way, but agents actually are happy to go across lots of those different things. And so, there are some services that we're building like that, but for the most part, you also care about what does latency look like, what does throughput look like, how do you make sure that the underlying engine is actually fast, scalable? They actually care a lot about tail latencies, which is interesting.
+
+Yeah. Where people are... They don't always care about the p nine nine nine s three latency, like agents do carry and get blocked by that. And so that's the thing that we've cared about for a long time. And from a performance perspective, it's one of the things that really pop that's why agentic workflows tend to perform better on AWS than anywhere else.
+
+Yeah. Obviously, we see a lot of companies starting out, and the very common refrain, of course, is that agents are writing all the code for them, right? And agents are selecting the databases and the email servers and everything that you can name it, right? So has there been a lot of thinking that's... And obviously they read the documentation.
+
+Has there been a lot of thinking on the AWS, like, your... Feels funny to say it, quote unquote legacy RR services that have been around for a decade. How do you re architect them? I think... So, yes.
+
+I think there are some things that we've thought about. Actually, the core underlying building blocks, I think, are in really good shape. I think there's a usability layer that we're thinking about of how we make easier to use for... We'll call it the very simplest... The use case you call out where somebody is just coding up an app really quickly and they ask Yeah.
+
+It to deploy. We find the vast majority of our customers will go and tell their coding agent, whether it's Kiro, whether it's Claude, whether it's Codex, they'll say, I wanna build on AWS. Here's my credentials. Here's my stuff. This is how I wanna deploy it.
+
+And then agents are great, and they go do it. There are use cases though where you're just... You're already not on a cloud. You're just trying something. You say deploy.
+
+And frankly, a lot of times that'll go to some of our partners that have an easier to use layer on top. Mhmm. True love, by the way, too, and and we love our partners on those fronts too. But I do think that there are some things that we're doing where if you're brand new, you don't already have an AWS, you already haven't set up your IAM. A couple of months ago, it was much harder to start up an account.
+
+Right? It's been like this for twenty years, but you have to define your VPCs, you have to define your IAM roles, all these kind of things, which are actually super important things once you get to be large. And what we hear from customers is, like, it was a hard trade off because they know that they're gonna want those in months or years down the line, but for now, they just kinda wanna use the services, not worry about that. And so, what we've actually launched is, if you go create a new AWS account today, and we're slowly rolling this out, I don't know if it's actually full all the way out yet now. Yeah.
+
+But you don't have to do those things. You don't have to give it a credit card, you can sign up with your Gmail account. You get a just... All of those things are handled in default behind the scenes, and within less than thirty seconds, you're up and running and and can be operating in AWS, full AWS account, which is, you know, for those type of systems, much more what the agents want to be able to do, because they don't wanna have to go through all that setting up your VPCs and your Yeah. And and pieces like that.
+
+So, there are some things where we're adding kind of some ease of use to that, which we're we're quite excited about and we've seen some really positive feedback from customers on them and we'll keep doing more things like that over time. The the great part about that though, is it's not like a a simplistic account and then you have to migrate. If you basically say, okay, now I actually do wanna scale into the... I wanna develop an organization. I wanna go and and kinda fine tune some of the things.
+
+You can easily come just... You're you're already in a real AWS account, and you can actually then go and do all of those things later when you need them. And so there's no migration or move later, and so that's part of the hard work that we really think about, which is how do we make it not a choice for the customer, but an easy on ramp into the depth of features that we know customers and startups are gonna want when they start Yeah. Yeah. Got it.
+
+And what has been some of the hardest things to accommodate as agents have taken over? I mean, you made a name. Mhmm. The way you guys became the phenomenon that you became was serving developers, And then infra teams. Now developers are substituted by agents, and pretty soon infra teams are being substituted by agents.
+
+Are there... What has been some of the hardest things for you, you as the largest service provider in the world, to handle that transition? Well, you know, look, I think, like I said, much of our infrastructure is Yeah. The core is actually pretty well set up to to handle the scale, which is good. I I think there's been a couple of things which are interesting, which are, I think, interesting paradigm shifts where you could argue that some of our systems are...
+
+I wanna say over engineered, but as an example, many agents wanna create a database, do a little bit of work, and then have the database go away. We don't really need that database to have five nines of durability. Exactly. Right? And so there's some things that we rethink there where when you're creating an Aurora database, like, does your production database, like, you do want five n nines of data.
+
+You know, you want... You you you need durability. You want availability. You want all of those things. And for the agent use case, that's that's arguably...
+
+Or maybe not arguably, like, engineered for for what we need. And so, you know, it's hard we don't... And we kind of have this this, like, a belief that we don't we don't really wanna have, a non durable option that's Yeah. That's gonna cause problems either. Because you never really quite know if the database that's created wants to stay around for a long time or a short amount of time.
+
+And so we're we're trying to do the hard work to think about how do you accomplish both of those things where you can create it quickly and throw it away, and you don't really waste a lot of resources. But but but if you do want it, and it can be terrible and stay for a long time, it can actually grow into a big production database. So those are some trade offs that we think about actively as we think about how does the the the more traditional kind of this is gonna be my production system kind of capabilities match with with with some of the more transient nature of the infrastructure that agents want to use. So that... That's one, I think.
+
+But there's there's there's a bunch. Think the scale and speed and latency of creation of of durable resources is another one that's interesting. You know, I think the other one that we actively think about too is just are there new building blocks that agents are gonna want that we just didn't really need before? Exactly. And so, compute sandboxes, gateways, agent permissions versus people, or or service role permissions.
+
+A lot of those are things that we have built and are building and thinking actively about because they are just brand new building blocks. It's not using the existing building blocks differently, but it's brand new ones where pretty pretty clearly, you wanted different permissions for agents. You don't just wanna give it Raghu's permissions Exactly. And let it go do whatever you can do. You actually want, you know, very time boxed short term permissions to just go do a task.
+
+You actually may not wanna give permissions to a whole tool at all. You may wanna get very fine grained commissions Exactly. What an agent's able to do. From a sandbox, where you actually want a sandbox that you wanna Virtualization is having its act too. That's right.
+
+Right. Exactly. That's... And and they're they're different. It's similar.
+
+It's the same idea, but it's, you know, how do you have that lightweight and Yep. And think about... Unfortunately, we've done a lot of work with Firecracker, our our kind of micro VMs. In fact, a lot of the sandbox companies, startups use Firecracker. They they all use Fire...
+
+Which which we invented ten years ago maybe or something like that. And it's it's it's really purpose built for... I mean, not... Wasn't purpose built for agents, but it's actually quite good for agents because you can spin them up really rapidly. They have a great security boundary, and you don't have a lot of that virtualization overhead that you have from a traditional large VM.
+
+So, you know, I think those are some some new building blocks that we're thinking about, and and more emerge every single day, you know. Yeah. And, yeah. So, I've not told enough to agents, I'll come back to it later, but it's such a fascinating topic. Super cool.
+
+But let me switch gears a little bit, and ask about something that every one of our startups face, and we get asked most frequently, which is, how can we get GPUs? Right? Yeah. I mean, obviously, you guys are running massive GPU farms, and increasing it every day, but the top frontier labs gobble up every available GPUs, more power to that. How do you deal with the internal, at the same time you wanna newer companies that are gonna become the enterprises of tomorrow, like you How are you thinking about balancing Yeah.
+
+It's a great It's a question. And small companies that don't have a lot of credit and whatnot, so... Well, yeah. It's a great question, and and a couple of these things make it more challenging too. One is the the CapEx expense needed to go deploy kind of all of the compute that everyone needs right now is massive.
+
+Right? And so we are... I think So your CapEx is still as what? 200 or something? $220,000,000,000 for '26.
+
+It's... I I... By by... At one point, I saw that it's, you know, it's it's a pretty... I mean, that is a larger expense than we've ever had, maybe any company has ever had in a in a single year.
+
+And and we don't anticipate slowing down anytime soon because the demand is just massive. And so, some point, you're limited by how fast can you build data centers, how fast can you deploy capital, how how fast can you get memory and chips, and all of those kind of things. And so, all of those are different points constraints that were, you know, whether it's power, data centers, capital, memory, chips, they're all kind of constraints at various times. Construction people that build buildings like Yeah. You know, construction people are are are at a premium today.
+
+And so, all of those, we, you know, we we work really hard to make sure happen. And then, with the capacity that we are able to deploy, which is still a huge amount and and and not enough, we know, we really think intentionally about what is that allocation strategy. And so, we're great partners with the the large frontier labs, the Anthropics and OpenAI's, and Meta and other large customers. And so, those folks are are really good customers of ours. Yep.
+
+And and we wanna make sure that we invest in them. We have large enterprise customers, whether it's Salesforce's or or JPMC's or, you know, other large companies that that have demand for fewer numbers of GPUs, but... Or or accelerators. Sometimes they want Tranium, sometimes they want NVIDIA GPUs. But we wanna make sure that we can support them as well.
+
+And we're very intentional about how we make sure that we have capacity for start ups. And and so what we do is we actually do allocate, and we basically say, okay, we're gonna keep... We we could... You're right. We could sell every single, you know, GPU or or AI accelerator we had to probably just the the frontier labs and call We it a choose not to do that because we actually wanna keep growing the the full ecosystem.
+
+They get a large number, but but we wanna keep supporting the broader set of customers because we actually think that both the whole ecosystem will be more healthy for us. There's some diversification, but it's also just we know these are gonna be big companies over time. And so we try to support them. I saw recently that we say, you know, yes, in some way, shape, or form, but something like 60% of the the requests we eventually get. Sometimes it's a little bit later.
+
+Sometimes it's in a different region. Sometimes it's a slightly different configuration than the customers are looking for. But we really try to lean in and and and try to allocate as much as we can, and every single start up that you have wants more. Yeah. Exactly.
+
+Yeah. So, we're working hard to try to make sure that we have all of those, but, you know, it's it's hard. Like, that's that's it's, you know, like, this is the... As as a lot of people say, it's a good problem to have. Yes, it is.
+
+It's it's a problem nonetheless, and and we're, you know, we continue to look at at... You know, we we recently announced we're gonna be buying, you know, 2,000,000 NVIDIA GPUs over the next couple of years. Like, we're we're landing a massive amount of capacity. And 2,000,000. 2,000,000.
+
+Yes. So, you know, it's a lot. And it's over the next couple of years, but... And and who knows if that's enough? We're kinda Yeah.
+
+No idea that that's... At some point, again, we're limited by other other components as well. But it is. We're we're very intentional about keeping capacity available for for the start ups, and I know it's painful to not have enough, but we we keep pushing. When did your capex cross, I mean, pure AWS, I mean, Amazon was a bigger company Yeah.
+
+Cross like, let's call it even 1,000,000,000 or 10,000,000,000 a year? Oh, I don't know. I'd have to go back and look. I'm not sure about that, but it it's definitely scaled up over the last couple of years in a pretty So meaningful it's something like this. The the...
+
+Yeah. The AI build out has has definitely ramped our our CapEx spending, and so I'd say over the last, you know, call three or four years, our our CapEx has definitely accelerated pretty pretty meaningfully. I don't know when we crossed a billion, but given we're at $2.20 now, it's probably been I a mean, we've we've been spending CapEx for a while, and the and the company has been really good about funding that. And obviously, the AWS business is good one that we like to invest in. Yeah.
+
+Yeah. Of course. And and, you know, I think we were... For the longest time, actually, we, you know, we we were investing ahead of where the demand was. And, know, I think one of the one of the most painful things is that with the real ramp of of GPUs, like a lot of the elasticity has unfortunately, you know, kinda Yeah.
+
+Gone And so, hopefully, we'll get back to... And in our core computing and storage and things, that elasticity is still there. But but, you know, the the... But but... So we've been spending for for quite a bit of time, and and we feel really good about the spend that we're making now, which is, you know, I think I get lots of questions sometimes about how you feel about that spend, and like, are you nervous about Bubble and other things like And I will say, you know, we...
+
+Because of the position we have, like, one, we do take this diversified approach, and so not all of our capacity is bundled up in one customer. And I think you go to some of these, whether they're neo clouds or some of the the other providers out there, and, you know, you'll see sometimes concentrations of 30, 40, 50, 60% with one or two customers. We're nowhere near that, obviously. We're, you know, single digit percentages at the highest, and and and usually it's less than that. For one, I think we have a lot less risk on on one particular customer, but also because we have that rich set of services, like, AWS is where people really are coming to launch their production workloads.
+
+And so, the majority of our usage today actually is either core compute and storage and inference, which is part of that application. And so, those are the workloads that I think just aren't gonna go away Yep. Because we see enterprises getting positive ROI. You go talk to the customers and you say, at the capability today and the cost today, are you seeing positive returns to your business? And almost to a person, they'll say, like, oh, yeah.
+
+Yeah. And so you're like, well, that's not gonna go away. There's no bubble in which they they stop spending on that. You know? And so, you know, and you know this, like the VC model, like, is every billion dollar startup gonna make it?
+
+No. They won't. But, you know, that's that's kind of the game. That's been that's been true for fifty years. Yeah.
+
+Yeah. They haven't always been billion dollar startups that have changed, but the principles are the same. Right? You you bet on 10, and one makes it and pays for the other 10, or whatever the whatever the percentage is. Hopefully, it's hard to Yeah.
+
+One out Right? And so that that... There... You know, you saw that with the Internet, where there was a bubble and a bunch of of Internet companies didn't make it, and the Internet's still a thing. And and a lot of the companies that had durable businesses Yeah.
+
+The Google, the Amazons, the others, like, that they did pretty well. And so, us, we think we'll feel really good about that investment, and the continued investment going forward. You guys have a view of the demand Mhmm. That's unparalleled, right? Right.
+
+Because you're seeing across the globe, you're seeing across every segment, enterprise, and the big labs, and AI native companies, and so on and so forth. So if anybody should call it, you should be able to call it first. I would hope so. Yeah. That's our plan.
+
+And honestly, spend a lot of time thinking about it. We're very intentional about how we spend, you know, our shareholder capital, and and we think that we're making great investments. We have a lot of good protections of how we intentionally invest that money, but but yeah, we're we're very bullish on, and you know, I think Andy's been public about saying this, the potential for AWS is really really large, and over the next decade, potential is there, and anytime you have an opportunity that's that big, wanna invest to go after it. As the scale of these numbers go larger and larger, right, has your planning and process dramatically changed in terms of... I mean, you're not writing billion dollar checks, you're writing like $50,000,000,000 checks, or $20,000,000,000 checks, or whatever it is.
+
+Yeah. Yes and no. I mean, think, look, a lot of times we're still very bullish about the investments and lean forward, But there there... The process act... So there's a lot of things that have completely changed.
+
+Like, probably even If I think about mid twenty twenty eight demand Well, and there's things that we have to think about now that we just never had to think about. And so if you go back fifteen years, if we needed more power, we asked the power company to give us Yeah. Another, you know, couple of megawatts or whatever it was. Right? Tens of megawatts, like, and Yeah.
+
+And they would just give it to us because 10 megawatts wasn't that much. Yeah. And that was plenty for us to keep growing. Now, we have to bring our own... We bring our own power.
+
+And so we we pay for power projects. We pay for renewable projects. We're one of the biggest renewable power purchasers each year for the last ten years. And so it's... You know, we're regularly bringing on new solar projects, new nuclear projects, new Sorry.
+
+You're talking about behind the meter, or are you talking about working with the operator? We'll do both. Okay. And so both of those things. And so oftentimes with these power projects that we bring on, we'll pay the the capital and and pay for the project, and then it'll go into the grid, and then we'll get credit for that.
+
+I see. Okay. We'll bring those on. Sometimes we'll do behind the meter too. Like, it's it's a mix.
+
+At the at the scale that we're doing, you have to think about all of those things. But but, you know, that's that's planning where you're thinking, you know, twenty years out of how you're gonna think about power, how you're gonna think about transmission, how you're think... Gonna think about that capital, and and that stuff we'd never had to think about before. So that's planning we just never had to But, you know, we always had to... It's, know, the the other things is when we used to think about server demand that we needed, we'd, you know, we'd have, you know, multiple quarter demand things, and we'd talk with our Yeah.
+
+Our suppliers and things. Now, we we work multiple years out just because the the size is so much that we have to think about kind of what do we need for '26, what do need for '27, what do we need for '28. And so that's... But, you know, but it's also one of the value that we bring to customers. Right?
+
+That's a thing that, legitimately, customers can't do themselves. They're not gonna do power printing. They're not gonna plan their memory footprint in 2028. Like, they're just... They they can't do that.
+
+And so, that's one of the real values that we bring to to our broad set of customers is just that's just a whole set of things that you don't have to worry about, and that we spend a huge amount of time thinking about. Yeah, yeah. You guys are generally, I think for the record, the largest buyers of practically every component of a server, correct? I don't know that. I am sure that we're one of the bigger purchasers of components out there for sure, And who knows about everyone, but that depends on how you think about them and how you measure, but...
+
+So the data I was leading to is where do you see the constraints being most severe, let's call it 27, 28, and where do you see the constraints easing up? Yeah. It's funny, it's... So I'll answer this in a roundabout way, but you know, remember that in undergrad, we actually... This is...
+
+So this a long time ago, and I never thought this would be like a useful book that I read. But we read we read the goal, and then Oh, of course. Yeah. And so it turns out there's never one constraint. Yeah.
+
+There's always just the latest constraint, and so you have to think about all of them. And as soon as you hit one, there's another one. Right? Yeah. And so, you know, what do you just...
+
+Like, what is the constraint that's gonna happen in '20 '28? Like, I actually don't think there will be one. I think it's like every month. For us, it's do you have enough power? And then as soon as power is no longer the constraint, you know, it might be memory.
+
+It might be TSMC capacity. It might be, you know, HBM. It might be networking components. Yep. It it could be, you know, there's a a blip somewhere in the supply chain and, like, you know, connectors or, you know, whatever it is.
+
+Right? At some point, you have to think about all of those pieces. And it's, you know, it's it's not also the... Kind of where they happen matters too. You know?
+
+So it's... It may be like, hey, we have a ton of power in Indonesia. Yeah. But we don't have enough in Germany. Yep.
+
+Right? And so you you think about kind of where in the world you want that capacity to because it turns out that not everything is totally fungible. Some is and some is not. Yep. But maybe disk drives, it might be SSDs, it might...
+
+Like, we we think about every single component, and we have, you know, tens, hundreds of thousands of components all that we track and think about. And and some we rely on our, you know, our our suppliers to to manage. Some we direct... Much of it we directly manage. And and, yeah, that we have a whole team that does that, and they're fantastic.
+
+They're they're industry leading, and and we we kind of... We we saw this problem coming probably a decade ago, and really started not just thinking about, okay, how many servers do we need to track, but just thinking all the way through the supply chain, you know, four tiers, five tiers down. Yeah. What is the component that that could cause an issue for us, and making sure that we had kinda guaranteed supply on that. If you think...
+
+If you remember... Gosh, I don't remember when this was. Was over a decade ago when there was, like, the floods in Thailand, and and Yeah. And no one had disk drives anymore. Yep.
+
+And so that was There was disk drive crisis, and then there was memory crisis. Exactly. And so, know, it's like, I think we think through all of those things, and so we also think about where is there diversification in manufacturing, like all of those kind of pieces we try to work through, and we're never gonna be perfect on it, but there's always a different supply constraint. Yeah. So obviously there's a lot of wide ranging debate about data centers, right?
+
+And it's clear that folks like us, where we stand, but do you think as an industry, we have not done a good job of explaining why data centers are good for America, and generally the world, but... Yeah. How do you... What's the internal talk amongst Andy's team on how do we deal with this? Yeah.
+
+Well, look, I I think, and and I think you'll hear more from us over this, and I agree. I think we need to be more vocal and be more upfront, because we actually do a ton that's that's really beneficial, both for communities we operate in, for the... You know, we we think a ton about how do we bring renewable energy to these data centers, how do we think about being water positive. Actually, our our our data centers use a a really, really small amount of water. We mostly use free air cooling.
+
+How do we think about being great participants in the communities where we are, and and how do we bring high paying jobs to the communities we operate in? And not all data center operators do that. Yeah. Think there are some well there are some well chronicled examples of others out there that are not great at that, and they just don't really pay attention to regulations. They think that the rules don't apply, or they just, you know, launch really quickly without thinking about those.
+
+And I think that it causes problem for the whole industry because everybody kinda gets lumped into that. And so so, look, I think we'll be... We we I think you're right. We, you know, vocally self critical. We need to be more vocal about the benefits that we do bring and think about additional ways that we can help communities understand the benefits that that we bring to them, both for the the services they use.
+
+Right? If if you usually go to a community and say, well, do you not wanna use Netflix? And they'll be like, no. No. Like, I I I still want Netflix.
+
+Like, I said... And, you know, like, it's important for us to think about and and highlight the benefits that we bring where... I I recently saw a report where one of the communities that we operate in, the... Everybody in that county pays $5,000 a year less in taxes because of the taxes that we bring to that. And we don't we don't tell them.
+
+They don't even know it. Yep. Right? It's just invisible to them. And so I think we just need to be more clear about those benefits that we bring.
+
+Because I think if you told the communities, by the way, your tax bill is $5,000 less than it would otherwise be if we weren't here, they might have a little bit of different thought about the building that's over there. Yeah. Yeah. So... And and...
+
+But but not everyone does that. Not everyone kinda Presumably, there's more transparency that's not yet And look, think much of the data center community, not just us, is actually pretty good actors. And there's just a few that aren't agree. That that that kinda, I think, have have caused some of the angst recently, and I think we just need to do a better job of highlighting, you know, who's who's being good citizens and who's not. Yeah.
+
+And before we leave the hardware topic, I wanna touch upon Trainium. Mhmm. And your whole history with building your own chips. We were one of your first partners using Nitro a long time ago. Mhmm.
+
+Since then, Graviton made tremendous progress. So what was the thinking that led to saying, look, we're gonna do our own thing, and then how has that progress been, and whether Yeah. You would have actually a fascinating story, and I think it's a great example of where Amazon AWS will innovate and will iterate over time and continue to think bigger about what we can do, but but but kinda prove our way there as opposed to, you know... And so, to take this as an example, it's probably about, I don't know, ten... It's probably about thirteen, fourteen years ago, we were seeing that there was a pretty significant virtualization tax on the overall number of resources.
+
+And and we were kind of thinking about how do we... Our customers were telling us I want bare metal performance, and they, you know, they're comparing Yeah. Having all the resources of a of a server. And so the first thing that we did is that we took a a network offload card and virtualized all of our network virtualization and pulled it off onto an offload card so that network virtualization got closer to to bare metal performance. And back then, it was not quite bare metal, but it was close...
+
+It was closer. And then we got really excited about that. We said, okay. What if we could move storage virtualization off as well? Right?
+
+And and and none of the network offload cards could do that. And then we we found this one company who had some ARM cores on an offload card, and they were doing it for other reasons. I can't remember their original purpose. But we're like, could you use those to do storage virtualization and some of these other functions? And they're like, maybe.
+
+And so we really iterated with them. This is the Anna Perna team. Yeah. This is Anna Perna team. And and just loved that team.
+
+Like, really innovative, really mission driven, really wanting to solve problems. And so, we acquired them, and we said, look, could you build us a slightly bigger card that actually could take all the network virtualization off, and basically give us a bare metal server that has no virtualization on it, no VM virtualization, everything is through APIs on the card. And because we had this view that, one, performance would be much better, research... Resource utilization would be better, it'd be... We doing The security isolation.
+
+And security isolation would be much much better. And we tell people, you know, could then legitimately tell people, we have no access to any of your VMs that are running there. And and and this has been a huge benefit for us for the last decade, where frankly, like, we have been leading and and others have been kinda slow to do this because they... This is not a generalized thing that people can do. But so we got to that, and we basically said, look, we're we're making a lot of progress here.
+
+What if we take, you know, and there's a bunch of ARM cores that were on this offload card, and we said, if we turn that into a server? And we did that first with Graviton. It was a very underpowered, very small server that we launched. And and customers were excited. They're like, I'd love to have an ARM server.
+
+This is super interesting. And so, we went down the path, and and Graviton, you know, and part of what we did is we looked and saw that there's the the slope of, you know, ARM cores were getting faster Yep. And where that you saw the power utilization and and the graph where that... And you you knew the intercept was gonna happen for where this architecture was gonna be really good for for parts, and they just needed somebody to drive the ecosystem and and get some of the pieces in place. So we did that with Graviton, and Graviton's been a a runaway hit at this point.
+
+Have you been public about what percent of your fleet is Graviton? We land more Graviton ships every year than than than any other type. So it's it's it's very popular. And it's... You know, look, we...
+
+They're 20% cheaper at a 20% better performance, and they have been like that for the last kind of five, six years. So that's a... It's an easy value proposition that... And I think the vast majority, something like 90 plus percent of our top 100 customers all use Graviton in some way, shape, or form across their fleets. And so that's been a huge win for us and for customers.
+
+It's been the single big... Single easiest way that customers lower their bill is to move to Graviton. They can offer... We've we've had examples where people have moved their whole fleets and cut the number of servers they had in half. Wow.
+
+Their performance is so much better. It's amazing. And so, half is on per servers, each server costs less. Like, it's it's a it's a big win. And so, then about five, six years ago, we said, you know, we saw the rise of of AI compute happening.
+
+Not nearly expecting what it was today, but still saw saw it was gonna be a big material Yes. Mover. So we went in and built our first chip in in Tranium, and we're now, you know, in market with the third generation in Tranium three, and I've seen fantastic results. So it's, you know, we're we're sold out for capacity through probably, I don't maybe towards the end of next year or something like that, and and and we... We're trying to...
+
+Again, trying to figure out how we can save some capacity and get startups to be able to use some of the capacity because it's... We see great results. So most of, you know, the the the majority of of traffic on Bedrock all runs on Trainium, and we have great deals with both Anthropic and OpenAI to build on top of Trainium, as well as a set of smaller start ups, and, you know, I think we have half dozen to a dozen startups that are building on top of Trainium now too. Yeah. So now, the name suggests it's a training chip.
+
+Yeah, we're better at But everybody's using it for inference too. So where is the lean architecturally, and where is it going? It's a good point. Look, the Volkly self critical, we're terrible at naming, and so it's not it's not our strength. Originally, we had a chip called Inferentia for inference and training for...
+
+Training them for training. And then as the models got bigger and bigger, and it turns out you actually wanna run the inference on these really large systems, it turns out that Training requires turns out that Tranium is actually maybe the best inference chip on the market right now. Yeah. From a per... Absolute performance and cost performance point of view.
+
+And so Is it It's it's the better memory memory bandwidth? Where is the How much it's just... It has it has... It's just architecture is a little bit than than than others, and and it's much cheaper. And so from a cost performance perspective and absolute performance perspective, training is great.
+
+And so, we're, you know, we we use it a ton for for inference, and and as I said, Bedrock, it drives much of the Bedrock inference today. And... But it's also a good training chip too. And it's, you know, I think we're... We we, you know, a lot of our broad set of customers usage is not in training models, but is in using it.
+
+And so that's where a lot of people get to use it under the covers, that's where we're excited about it. But but a lot of the big customers are interested in it for training clusters as well, and particularly as you get to Trainium three and four, which we've announced, we haven't launched training four yet, but announced it. Folks have kinda looked at that architecture and said, yeah, yeah, that's the future of where all my training clusters to be as well. So we're we're quite excited about the future where that goes for these really broad Yeah. Clusters also.
+
+But but yeah, it's both. Yeah. Now, let's get back to talking about agents, from a perspective of large enterprises, or large medium enterprises. Yeah. Where are they in their adoption, and have they...
+
+What sort of benefits are you seeing them reap already, and what is the roadmap for them as far as you can tell from your vantage point? Yeah. It's it's a really good question. I think it's one that that we've spent a lot of time thinking about. And when I talk to customers all out there, today, they view...
+
+You know, they're getting a lot of value out of what they've done today. And I would say the agents that most enterprises have built are are relatively simple and straightforward, and they're starting to think about... And they're mostly non autonomous. Right? They're still kind of people in the loop, if you will.
+
+And so I think we're... And and by the way, there's... Customers are still getting lots of value out of that today. And so they're really thinking about how do I have these be autonomous, but in a safe way. And I think there's two things that that I think hold customers back today from just continuing to to scale.
+
+And it's it's already a pretty big business today, but I think it's... It has a massive opportunity to really change every single customer out there, and every single workflow, and and really thinking about it. And so, number one is just how to think about it. I think what we originally saw was that enterprises had a workflow, and they're saying, I would have the enterprise... I would have an agent go do this same workflow.
+
+Yeah. And what we encourage them to really do is think not just replicate, you know, Bob does step one, two, three, four, five, so agent is gonna do one step one, two, three, four, five, and then Bob's gonna check it at the end. That's not really the model you want. You want to actually step back and say, if I wanna accomplish something, how can an agent do it differently? It can do it in a massively paralyzed way.
+
+It can try 50 different things and get to that end. And how do you help it get to that right outcome, and rethink how a computer would solve a problem versus a human solving a problem. And so, of the things is us just helping customers understand how to think about that, and really kind of have that blank slate, because that's where you really get value, is not just replicating what you're doing today, but but thinking from a greenfield approach about how you go solve a problem completely differently. And I'm sure that's how many of your startups are thinking about this too. Yeah.
+
+How do you help customers greenfield solve a problem, not replicate the thing that happens today? So, that that is number one. People running fleets of agents and swans or whatever you wanna call them. Yeah. Very common these days.
+
+And and and you just wanna think about it, you know. And and so enterprises are not as as... Again, this is one where you learn from the startups and you try to... How do you apply that to an enterprise world where they're, you know, an insurance company is not necessarily as forward leaning, but they would love to figure out how they can have a better, you know, approval workflow or something like that. So, that's number one.
+
+But then the second one is this this, how do you turn those into fully autonomous workflows, and how do you actually trust the agents? And so, we're spending a lot of time thinking about how do we build services to help enterprises feel like their systems are secure, and that they can trust an agent to make a decision, that they can have the right guardrails, that they can have the right permissions on their data, that it's not gonna delete production systems, that it's not gonna make tragic mistakes. And right now, I think that nervousness is probably holding people That maybe appropriately, by the way, is holding enterprises back from just saying, okay, go nuts. You don't actually want an agent to just go crazy and accidentally deleted production database. That's gonna be pretty bad.
+
+So, that's how we're we're kinda actively working through this with customers on how do we both help them architect, and frankly, invent new technologies and capabilities that are gonna help them solve that problem. So that that is one of the areas where I think we'll continue to innovate, and and we'll get there. I think we have some really good ideas, and and some good technologies brewing that I think can really help. So, are enterprises learning how to do eval systems and so on and so forth to keep the agents They need help. Straight in the road?
+
+Honestly, like, you'd you'd... Like, both, like, evals, how do you have a constant loop of testing? How do you how do you think about, you know, goal seeking in a in reasonable way? How do you have your data labeled in such a way that it actually even makes sense that the eval can actually kind of approximate what you're gonna be doing in production? How do you measure in production and and back test it so you're not seeing drift?
+
+All of those things are problems that that enterprises don't know how to solve today. I shouldn't know if anyone really is great at solving these today. It's why you've seen so many FTE teams kind of spin up, and and AWS's and our partners are really leaning into the the FTE motion to go and help, and this is the single biggest area where customers need help. And and when we think about how you you you... And my view is we wanna train our customers to be able to go and do this themselves.
+
+Right? This is not the traditional motion where I wanna have a people driven business that goes on forever where you just keep paying consultants Yeah. Over and over and over again. Our our view on how FD should work and and and is we wanna go into a customer who's ready to accept the, you know, to really kind of accept owning this when we're done. And in forty five days, do work where we can teach them how to make an eval, teach them how to get their data in a labeled way, do work alongside with them.
+
+And then at the end of forty to five days, you leave and that customer is is good and ready to go and trained up. And that's what our customers tell us they want. They don't wanna be beholden to a external workforce for the next five years. Yep. And...
+
+But they need help today. Yeah. You've made a massive investment in FTEs. Yep. So taking that even one step further, right, some of your industry peers have said, look, you can't have all of your data going into the big frontier model, what enterprises should really do is to take an open source model and then post train on your own data and workflows and phrases and whatnot.
+
+Where do you stand on that? Are you seeing customers actually trying to do that, or Yeah. Do you do how do you think about that? It's it's great. The first point, I I wholeheartedly agree on that first point, like, the customers, enterprise data is their most valuable asset.
+
+So, from the very beginning, it's why we built Bedrock like we did. We have a guarantee that your data never leaves your VPC. And so, your... If you're running inside of Bedrock, your data doesn't go back to the model provider. They never see your prompts That stays inside of your own trusted environment.
+
+And so, that that is why enterprises kind of run... They they prefer to run on top of Bedrock, it's why you see that business growing massively. Like, hundreds and hundreds. I mean, it's... Every every month, we see that just business just...
+
+Every week, see that business exploding, and then... And that's why you see OpenAI workloads migrating to Bedrock. It's why you see Anthropic really growing really rapidly. I mean, so whether you're using open models or or closed frontier models, I think Bedrock is a great solution that our our customers told us, by the way, like, you know, we... If you remember three years ago, I got a lot of heat Speaking of bad names, that's a good name, though.
+
+Yeah. Bedrock is a good name. That's good. But we we got a lot of heat actually for being slow to the AI world because we actually built the foundations of this where we said, look, we're not just gonna rush out of service. We really wanna think about how do we make sure that we protect our customers' data and build a service that we think is gonna be durable for the use cases that we knew about.
+
+And if you remember, we got a lot of heat, and we said, look, we're gonna go build the right thing. And now, as people move from proof of concepts to production, vast majority of them are landing in AWS on Bedrock. For for much... One of the reasons is because of this. It's also because of the the set of services that we have.
+
+We also offer open models. We offer proprietary models. We offer a whole set of capabilities around those agent core. We build these building blocks, so it's easier to build agents with any of the models that you want. Whether they're in Bedrock or out of Bedrock Yeah.
+
+For that matter. You can use Gemini or other things for it. But but I think that's a... It's a it's a differentiating piece for us, and it's a super important thing to think about, because having that data go back into the the model provider, I think, is a is a dangerous thing. You talk about open weights models though.
+
+I do think that there's a... And scenario that I'm excited about. We're we're really ramping up our support of open weights models and and trying to build a good environment. And and frankly, is where today, I think, and I think it's true, a lot of customers believe that they have meaningful proprietary data. That if they could mix in, you know, do some post training, do some fine tuning to an open weights model that they could distill down, they can actually get a better performing model at a lower price.
+
+There's a bunch of pieces in here that have to work out well. They actually have a good eval to actually prove that that's true. Most people are doing that in SageMaker today. Think I there's more that we can do to make that easier. But actually, like, if you go look at where are people doing that, they actually do it in SageMaker on AWS today.
+
+Oh, really? They actually host the inference via SageMaker. SageMaker's getting a new lease of life as a I mean, it is. It's it's... It was always kind of a model building platform.
+
+Right? And now, you know, there's... If if you think about what enterprises are doing in this world, that's what they're doing is they're basically effectively building their own custom models, and so that is Yeah. SageMaker is a is a great place of doing that. And I think there's some things that we need to keep building on to make that easier and easier to do, and to test across different open weights models, things like that.
+
+But that's a... It's a it's an evolving space, I think it's a super interesting one, and it's one we wanna make sure that we have all the right things for for customers to be able to do if they they have the the right data and expertise to actually go down that path. And with all the debate around AI extension risks and the stat and the other, and the security vulnerabilities, and so on and so forth, and the hugging face attack. How are enterprise... What are CEOs asking you about all these things?
+
+Yeah. There's a bunch, and look, they mostly wanna say like, and it goes back to this, like, when I launch agents, how can I trust that they're gonna do what I want them to do? And so, we're increasingly... We have been for a while. Like, we're basically...
+
+We're heavily investing in building capabilities that allow people to deploy agents safely into their environment, and think about those controls. And some of those are, how do you make sure the agents have the right permissions? How do they have the right sandboxing? How do you make sure that you have the right set of guardrails? How do you how do you really intentionally think about what you want the agents to do and not do?
+
+Is there a human in the loop or not? And so, we we spend a lot of time with our customers thinking about how do you think about safe agent deployment, and get better over time, and and what other capabilities do we need to go build to help people deploy agents safely into their environment. So, there there's a lot there. The other age... The other angle on that, which a lot of people are worried about, which is just are some of these really powerful models gonna be attack Yep.
+
+Surfaces and and and kind of mythos fear. And so, I I kind of have a view on their their... Yes, that is a real risk, I think, to to customer environments, but it's also a real opportunity. And so, we we recently launched a service called Continuum that uses these powerful models to help customers go secure their environment. And so we'll look across their environment, look for vulnerabilities with them.
+
+We'll use some these powerful models and and and help customers find vulnerabilities they haven't found before. Yep. And most importantly, by the way, prioritize which ones, because we know context about their environment, how it's set up, where their permissions are, where they may have compensating controls that that make it harder or easier to do. And so Continuum is incredibly popular with customers. Actually, we're really bullish about what's possible from AI to help with AI powered security.
+
+Because, look, at at some point, customers are gonna need security at machine speed, not at human speed, not at like an alarm, someone goes in, look at it. And so that, you know, we're running fast to go help build that for customers, to help them protect their environments, and and I'm very excited about what the the Continuum team is building on that front too. So within AWS itself Mhmm. Like, how... What's the state of usage of agents in the broad and Yeah.
+
+Well, Continuum is basically us trying to expose what we do internally. And so we we use AI extensively for our own security. We use AI extensively for our own software development. We use agents... Actually, one of the things that's really cool is we use agents across our entire business.
+
+And so we we rolled out Amazon Quick to every single Amazon employee, and now I see HR teams building agents to to help drive what what used to take teams of people weeks to do that a single person can now do in a couple of hours to think about kind of team planning resource management. I have finance teams that are building agents to to go think about how do they go pull tax rules from everywhere and ensure that we have compliance on a bunch of different pieces. And super cool to see that things that used to be blocked by software developers Yeah. Actually, the the the line of business folks are able to go and and unblock themselves and and innovate more quickly. And so, QUIC has been an enormous blow, and and that has has grown like wildfire.
+
+We see customers like small startups using it all the way to the the largest enterprises in the world rolling it out to their entire customer base to get the benefit of kind of being able to access all of your enterprise data and easily apply agents and and capabilities to to help you accelerate your jobs. And so, we use it across everything from software development to security to driving HR I mean, guys are notorious for measuring every everything about your operation. Where have you seen the biggest gains? Yeah. It's I mean, obviously know the answer for software development.
+
+Like, that's the real answer. But just the derivatives of that. But, yeah. I mean, the software... I mean, the speed of software development has been...
+
+And and and really product development as a whole, not just coding So you've seen actuals. Absolutely. The the pace at which we're deploying new products is is is massively different than it has been in the past. I think you can see this where, you know, AWS has always been known for rolling out features really quickly. And and it's, you know, we've we've seen a turbo boost on that in the last year or so as as we've get...
+
+We call them frontier teams, as they think about agentic development as opposed to kinda traditional development. And it's, you know, it's not code completion. It really is agent first, the agents write all of the code, you're just managing a a team of agents and and driving that. And it's it's been fun to see the the the pace at which innovations for customers has has been massive, and it has to be because that's Yeah. The That's the promise.
+
+Our customers out there have a almost insatiable appetite for new capabilities, and Yeah. And that's what we gotta do. Yeah. So organizationally, are you like, do you have any insights on how organizations should change, and how don't lose. Will say that Agents manage people, people manage agents.
+
+There's like, there's gonna be of people for a long period of time. I do think organizations will change. I don't know the magic answer yet. But we're actively thinking about it. Inside, you're just trying various experiments?
+
+Yeah. We're trying experiments. We're thinking about pods. As you think about, you know, here's one example is in a product organization, you used to have a team that would own a particular kind of capability for a long time, and you might have 10 people working on that thing. Well, today, can innovate so rapidly that one, doesn't have to be 10 people, it can be three to four people.
+
+Yep. And they build something so fast, you actually wanna move them to different projects and and problems. And so, thinking about how do you both operate and and maintain the things that you built while being agile and flexible to move around on an organization that's as big as AWS is active things that we're experimenting with and playing with. But it's it's fun, and it's enabling for our employees. They actually love it because they can build faster and do But but there's real work there.
+
+Yeah. It's a fascinating time. And so thank you very much for your time. We could be talking about this for hours together, but thanks for all your insights. Yeah.
+
+Thank you for having me, and and thank you. We we we love having all your your companies as customers, and we love learning from them, and I appreciate having me here. Yeah. We'll keep sending them your way. Excellent.
+
+Thank you. Thanks. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+
+Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com forward /disclosures.
