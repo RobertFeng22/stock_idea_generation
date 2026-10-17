@@ -4,6 +4,6 @@ horizons_trading_days:
 - 63
 entry_convention: report_day_close
 winsorize_pct: 2.5
-min_group_size: 10
+min_group_size: 15
 evaluate_legacy_cohort: true
 max_entry_staleness_days: 5
