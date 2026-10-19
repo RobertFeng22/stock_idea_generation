@@ -1,0 +1,547 @@
+This is an existential issue for us. We could easily stop, but if we stop today, we lose. Functionality, capability, safety, security, they're all at exactly the same place. Priority number one. It's our third pod back together.
+
+Yep. In the last ten days, you've been at the She State Dinner at the White House. You were at the White House Summit where we did the accord on superintelligence. And just yesterday, you were there with your parents when the president presented you with the National Medal of Science. You were the only investor at the table.
+
+You were the only investor at the table now that we reflected on it. Yeah. Well, tell me, being there with your parents yesterday, it struck me five out of the six people on stage were all born outside of The United States. How did that feel? Well, first of all, it's a great honor all by itself.
+
+And it's a reflection of the contribution that the company has made. And obviously, we invented a new computing model. This is probably the most pervasive computing model in the world today. It's the only computing architecture that's in every cloud. It's in every computer company.
+
+It's used in every field of science. It's used by gamers, it's used by creators and builders, and it's used by scientists. It powers intelligence. If you take a step back and you look at what the company has accomplished, we started out building a graphics chip for gamers, and I'm still proud of that. And of course, and and we've now shipped one and a half, $1,670,000,000...
+
+Billion units. Right. That's how many generations of... I mean, raised generations of scientists and kids and designers. Know?
+
+And so so I I think the impact of the... And and here we are. You know, we're the infrastructure that powers the intelligence of society. And so, it's an incredibly proud moment for me to receive the award on behalf of the company. Now, for my parents, I wanted them to go and I gave them literally twenty four hours lead time.
+
+They don't travel that much. They don't travel that much. My dad didn't even have a suit. Wow. Yeah.
+
+So, he ran out and bought a suit. He looked great. They looked great. Yeah. It was a brand new suit.
+
+He showed up and I didn't realize he had a suit. I thought we were just going to wear some shirt. And so he went out and bought a suit. My my mom got a new dress, you know, and and literally in twenty four hours. Yeah.
+
+Oh, I know how it works. Oh my gosh. It's incredible. And so so we got him on a... We we chartered a plane for them, got him there, and they were so happy to meet the president.
+
+And and president Trump walked my mom because she has a hard time walking, and the two of them were were walking off stage. And he he held her Yeah. And walked it... Walked her down the stage. And they were just incredibly incredibly proud to meet her, meet him.
+
+And... But for them, it's their American dream. You know, my dad, I still remember, I think I was like five years old or something like that. And he had just come back from The United States on a business trip. He was working for an air conditioning company.
+
+You were living in Taiwan? We were at the time, we had just moved to Thailand. Oh, no. No. We were just about to move to Thailand.
+
+And we were in Taiwan. He had come back. And he was he was in The United States working for a company called Carrier, their air conditioning company. And he was here for training. And of all the places in the world, they landed him in New York.
+
+Okay? And so, you could just imagine a kid in the late 20s, I guess mid late 20s, and never been outside of Taiwan, goes to United States, New York City of all places. Yeah. And he saw the future of the future. And he came back, you know, mind blown.
+
+All the things that he bought at the airport and brought it back. You know, was a... He bought... He he brought chocolate. He brought...
+
+You know that cheese that you have in a tube back in the old days? It's kinda like white cheese. It's strange cheese. It comes in a tube. That's great.
+
+And he brought back all kinds of strange things. And he says, this is... We should go there someday. And the first opportunity they had, they sent my older brother and I to United States. And it was his dream.
+
+I don't think many people realize that. You came to The United States ahead of your parents. And they joined a few years later, but it just hit me like a ton of bricks that five out of the six people on that stage yesterday were born outside The United States. You and I have talked about the need for with all the other stuff going on, a real strategy and an immigration policy that makes certain that we're still the place that all the great builders in the world want to come build. This is America's superpowers.
+
+In a lot of ways, the intellectual property creation capability of our nation is unlike anything else in the world. And the reason for that is we attract the world's best. We are the place where they want to come and build their lives because of the opportunity it provides, the freedom that she offers, the opportunity that it provides, the spirit of invention and entrepreneurialism and the can do attitude. In The United States, everything is possible. We start with, of course, it's possible.
+
+Of course, we could do that. Instead of, I do a lot of travel and of course, you can't do that. Of course In other places. In other places. And we take it for granted.
+
+But the spirit, the energy that comes around with the culture that we've created here, just can't be understated. And so I think the flow, the inflow of intellectual property into this come... Into this country is unlike anything else the world's ever seen. It's true. And we want that.
+
+We want all of the world's great minds to come here, bring their great ideas, you know, make them realize them here. Right. Realize them here and let us, you know, let us let us, keep that flywheel going. You know, I I really... It's a it's a delicate system.
+
+It's a delicate balance I get. It's a delicate balance I get. And so we have to do it lawfully. Have to do it rightfully. Right.
+
+But we we surely wanna do it. Yeah, for sure. So I want to start high level, just where we are. Then I want to dig down a little bit into the safety and regulation and getting this right, where we are in terms of the compute build out. And then finally, we're going to finish up drilling in a little bit to NVIDIA's growth and what's going on there.
+
+But you've been really good at calling the future. Two years ago, were sitting here and you said that the market was dramatically underestimating the amount of compute build out that was going to be required and was going to happen over the course of the next five years. You said it's not going to be $1,000,000,000,000 it's going to be $2,000,000,000,000 at a minimum in terms of cumulative compute build out. And of course, now we're over that. You said before everybody was thinking about it that inference, compute was going to 1,000,000,000 x because of inference time reasoning and thinking.
+
+And then last year, of course, before we saw Opus 4.6, before we saw Cloud Code, you said we're entering the age of agents, right, where we're going to unlock a lot of these capabilities. And of course, we saw OPUS 4.6 and Claude Code really took off. So where are we now, right? We have Elon and Sam and John There are only three things that I said that came true. There there is another 200.
+
+Why don't you just keep it up? That... Let's just... Let that be the podcast. So our so so so our investor day in a couple weeks is on, you know, entering the singularity, this acceleration.
+
+We have Elon and Sam and Dennis all say, hey, we're in the foothills or entering the singularity. We have, you know, model solving Navier Stokes as you know. So when you look into your crystal ball, where are we? And are we inflecting? Are we accelerating into a different phase of superintelligence?
+
+And so let's unpack that. First of all, it's fairly logical why the amount of compute that we're going need is a billion times more than where we were just recently, the Sikkala, last year. And the reason for that is because thinking and problem solving takes a lot more inferences than repeating something, regurgitating something that you memorized. So, when you're a ChatGPT, you give it a prompt, most of that knowledge was encoded into a large language model. Unfortunately, of course, it hallucinated.
+
+And so, the next click was... It was generative, but it was also grounded or conditioned by ground truth. And so, it would have to go out and do a search, do a quick search, comes back with the ground truth. And then from that conditioning, augment it with its own what it already learned pre training, and it would generate new whatever the answer is. Well, most of the things that we want to really do that are interesting requires you to reason step by step, to come up with several options, plan.
+
+And you might decide, let's see how these things all roll out. And then based on the answers of all of those, I reflect on the best answers so far, the best path so far, I might choose one or two or three of them, roll them out, okay? Prune the rest of it, and then just keep on doing this. And people, we do this. That's the reason why we say great strategists love strategic optionality.
+
+You don't want to prune things too fast on the one hand, but you also have to optimize your resources. Well, AIs are doing that. They're keeping their strategic optionality, they're rolling things out, they're pruning, they're reflecting, they're pruning, so on and so forth. All of that thinking, all of that exploration just takes a lot more compute. And not on top of that, because it's able to now do productive things, we're going use it for more things.
+
+And so the compounding of both, it uses more compute to do its job but it's doing a good job, therefore, going to hire it to do Exactly. More Okay? And so, that all compounds. At this point, I would say that the big observation from last year is that on the one hand, we want the models to get better and better and we still want the models to get better. The scaling laws of models are going to continue.
+
+However, the attachment of a harness, basically the exoskeleton of the large language model, kind of the body of the brain, that allows it to manage working memory, manage knowledge. How do you go from working memory to short term, to long term, to basically formulating your knowledge graph, which is what we all do. We kind of think about, hey, what did I learn and how does it fit into everything that I know in the past? And you know how when we go to bed, we do compaction? Things that don't make sense or don't matter, we kind of eventually forget.
+
+But the things that matter, somehow it gets reconnected. And so, we're doing that offline. And so, we got working memory, we have offline knowledge extraction and creation, knowledge graph creation. That whole part of memory is a big deal. The other thing is, of course, tool use.
+
+We've taught these tools, these AIs, how to interact with the most important tools that humans have ever made. It's no different than if you were a robot, comes into our house, it's more likely you're going use all the tools that I have in the house than to go off and build it from scratch. SPICE is still going to be useful and Verilog will be useful and simulators will be useful and design compilers and Photoshop and AutoCAD and Dassault, CATIA, and all the Siemens tools, all of these different tools that we've been using to run our company, build our companies, design things, operate things, they're all going to be great tools for the agents to use. But the agents had to learn how to use it. And so these two areas, knowledge, knowledge and working memory and tool use, huge unlocks in the last year.
+
+So, now, all of a sudden, you could put these large language models encapsulated in their harness or exoskeleton, and you can put them into your company, connect them to the information, the ground truth that you have, connect them to the tools that they can use, and all of a sudden, they start doing amazing Now, easiest part, frankly, was coding. That's kind of the first on ramp to useful work. And in a lot of ways, coding is easy because both the customer and the tools that they use are fairly accustomed to things that has tremendous use but are not extremely easy to use. And so, in the early days of coding, it wasn't extremely easy to deploy, but software engineers found a way. And so so now now I think the next click for us is now...
+
+And and you guys have probably been playing with Astra. OpenAI's Astra is really fantastic, and we're using it in all these different places. And so now the next phase of these agents, they're able to do design work and a lot of creative marketing work and we're using it to go... You take a picture and give it to Astra. It literally recreates it into CAD.
+
+It recreates it into the CAD, which is incredible because we need the CAD so that we interact with the CAD and make fine tuning and adjust. So, Astra could really give us the first initial implementation. Incredibly productive. Now, you take Astra and the latest release and you apply it to all of these different domains, think that besides software engineering, we're going to see designers and builders and creators and this whole area, scientists and all of this unlocking. Now, the challenge, of course, is how do we deploy agents safely and securely into the world's enterprise?
+
+This is exactly the same question again with safety and And we'll talk about We'll come in on that. What I'm struck by is that all of this occurred this year with OpenAI and Anthropic having, I don't know, two, three gigawatts of compute each. So relatively small amount of compute relative to what's coming. And so again, what I'm interested in is the way the economy generally works, or people model the economy, or they model a company, is linear deceleration. They're not very good at modeling acceleration.
+
+But here we have this double exponential. We have massive amount of new compute coming on board. So if OpenAI and Anthropic are, I don't know, three to 5x ing their compute next year, does it stand to reason? I mean, we solved Navier Stokes. We'll look back at this and say, that was a tiny amount of compute and intelligence, the worst intelligence we're ever going to have from here forward, solving a millennium problem.
+
+So when you look at what's coming online next year, do you expect that we're going to have major breakthroughs in long running agentic problems that we can use these swarms of agents on? Well, Navier Stokes is really a great example. Remember, OpenAI did not solve Navier Stokes from nothing. They solved it from the foundation of a lot of great scientists and a lot of great mathematicians and a lot of great previous work. Earlier, I said, we're at the tipping point of a lot of these different fields because we're at that phase, that point with Navier Stokes with a great deal of foundational work already been done.
+
+If we could just apply the exhaustive exploration of AI to the previous done work, we're going to see one breakthrough after another breakthrough rather quickly. But we do need a lot of compute to do that. The reason for that is because a large amount of exploration was necessary. If it was simply somebody resolving some fundamental first principle theory in order to discover the breakthrough, if it didn't require a vast amount of exploration of space, search space, not space space, but search space, if it didn't require that, then somebody would have found it earlier. People are pretty smart.
+
+And so, I think that there are many problems like this that are just on a precipice and really wants to just have that massive amount of intelligence exploration to get us there. In the coming years, my expectation is that the cost of intelligence would fall fairly quickly. And the reason for that is because obviously, we're bringing more compute online. These models are getting smarter. When you're smarter, you could be more efficient.
+
+And so, combination of these two things, the cost of intelligence will come down, is of course what they want. And this is no different than Moore's Law. If you go back thirty some odd years, we have three decades of computing cost decreasing by a factor of two every single year. And we want intelligence costs to decrease by a factor of two or 20 every single year because the consumption of it is going to It's more than makeup That's right. More than makeup work.
+
+There's a massive empty space in the world that wants to be filled, empty vacuum of opportunity, and we just got to get the cost down. I guess what stands out to me about Navia Stokes is that they had 10,000 agents working together on It looks like a to me, that sounds like a hyperscale company, basically all pointing agents to work together towards a goal. And I think in the early days right now, it's a lot of paralyzed search exploration. But I think the goal is that more of these agents can work together to a common goal and that we can solve a lot more. And to your point, I think our math says it probably cost about $4,000,000 of compute to solve this instantiation of Navier Stokes.
+
+The cost to do something like that over the next few years is going to drop by another 5x, 10x, right? So the number of things that we're going to be able to do is rapidly expanding. Our ambition is going to go sky high. The original GPT probably cost, let's pick a number, say, maybe $20,000,000 to do. If you wanted to train GPT-one now, it'll probably cost you what, dollars 1,000, dollars 100 maybe?
+
+It's like $100. Okay. And so, you went from $20,000,000 let's say $10,000,000 to $100 And we did that in ten years. Yeah. Okay.
+
+And so, I fully expect, meanwhile, our ambition got so large that the models that we're training now, 3,000,000,000,000, 10,000,000,000,000, 30,000,000,000,000, we're talking about gigantic models now. And we want it to be- and so, our ambition for the capabilities of technology has gone up. Meanwhile, our use of it has gone up between ten years ago to now, probably, I don't know, a million times. And so, I don't think this trend is going to stop. I think there's a fairly insatiable demand for intelligence.
+
+The smarter you are, the more intelligent you are, the more ideas of applying intelligence The you more I've learned in life, the more I realize there's more to do. And that's because every single... Every time you learn something, it opens a new door. Every time you learn something, it opens a new door. And every time you open a new door, you see more opportunity, you see more challenges, see more problems.
+
+And so that's kind of the... That's the future. People say we're going to have more time. I completely disagree. I think for most people, this intelligence is going to unlock more opportunities and they're going to want to pursue it because you're ambitious.
+
+Give me an example of a family, a father, a son, a husband, a wife, a mother who doesn't want it, who don't have ambition for their families to have more. They just don't have the opportunity and these things are going open up opportunities. If you go back to 1930, Keynes talked, he made a prediction about the Industrial Revolution. And he said, in one hundred years, the economy will have 8x, but the workweek will go to fifteen hours a week. He was right, the economy did 8x.
+
+We had massive abundance and productivity gains from it. Except we're working eight hours But a we didn't go to a fifteen hour week. And what he got wrong was the human spirit. He didn't realize that work is purpose. Discovery is purpose.
+
+It's deeply encoded in I think our DNA. And I'm working harder than I ever have, having more fun than I ever have. Not because I have to, like my grandparents did. Right? I'm doing it because I want to.
+
+Yeah. And and so I I agree with you on that. Yeah. I'm I'm fascinated with this idea. You know, the singularity postulates that, you know, we...
+
+We've kind of now have all these agents that can work together on long running tasks. They can stay on task. I love your Keep each other on task working as a team. Hey. You're off.
+
+That's right. I love your idea that, you know, we build on on top of all the things that have come. Right? Mhmm. And so if I think about full self driving as an example Mhmm.
+
+We talked about it for a decade, and we really didn't get there. Right? But all of the sudden, like you go on Twitter, everybody experiencing Tesla FSD, experiencing Waymo. We're here. Somebody asked me how was the drive here this morning.
+
+Said, I don't know because I got in my car and I hit FSD and I didn't pay any attention until we pulled into the parking garage. Right? I was working the whole way here. But if I think about that in the fields of science, the breakthroughs that are going to come in the fields of pharma and genetics, right, we've been laying down the tracks for thirty years. We're gonna breakthrough on on on a lot of massive cures for the world.
+
+Of course, ChatGPT is already helping parents plan their day and solve their kids' health issue and helping them get get better educated. Talk to us a little bit, though, as to why that's having such a hard time breaking through, Jensen. We have all of these things that are out there improving lives and that are right around the corner. And so that's curious to me as to why that's not breaking through. I guess let me take a shot at it.
+
+And we'll ultimately not really know. I've spoken to a lot of people. They told me what they thought. I mean, one of the things, of course, is AI or superintelligence soft matter. You can't look, you can't see it.
+
+And so you got the whole world talking about this technology but you can't see it. You can't touch it. And even though they're already benefiting from it, when they do search, they're already benefiting from it. When they go shopping, they're benefiting from it. When they're using Netflix, they're benefiting from it.
+
+You go to Walmart, you're benefiting from it. The fact that FedEx is getting stuff to us. It's all leveraging superintelligence and accelerated compute today. But we don't do a very good job telling that story. Often think They're benefiting from it.
+
+It's it's invisible. Right. So if we shut off the data centers and shut off superintelligence for a weekend, I think everybody would notice. I know you had a question about robotics in particular. Yeah.
+
+I guess you've said notably said a few times this year that the ChatGPT moment for robotics is here. I think you've also said that it could be your next $100,000,000,000 market. I guess what are you seeing now in inflection point in this year that this is around the corner? I understated the $100,000,000,000 because we're already the first six months of this year, we did $10,000,000,000 in physical AI. Physical AI is basically AI that's somehow interacting with the physical world.
+
+And it could be photon counting CT machines. It could be ultrasounds. It could be new imaging radars, next generation of five gs. Not only does it understand radio waves, it's going to understand signals of all kinds. It's a sensing network.
+
+Of course, robotics, self driving cars, manufacturing systems, visual inspections, geospatial satellites, imaging the world and reconstructing it into three d. And so, basically, if you look at the entire electromagnetic spectrum, there's AI stuff going on from visible to invisible spectrums. And we're doing work across that entire thing. And as an AI, there's the perception part of it, there's the reasoning part of it, and then there's the planning and actuation part of it. When you finally get to planning and actuation, then that's self driving cars and robotics and things like that.
+
+In warehouse delivery vehicles, pick and place robots that you don't have to program as precisely because it learns by itself, all the way to people talking about consumer robots coming into your house, making your bed and things. Or healthcare robots, hospital robots, lots of really good examples there. Precisely delivering exactly your prescription to the patient, having robotic care literally 20 fourseven every single second to keep patients safe. And so, just lots and lots of great examples, entire surgical rooms that are going be completely robotic. And so, lots of great technology being deployed.
+
+And so, if you look at this whole thing, we're the world's largest physical AI company. We did $10,000,000,000 in the first six months. We did $10,000,000,000 in the last year. And that was our first $10,000,000,000 year. The year before that, we did five.
+
+Okay? And so, when five, 10, let's say we did 20, who knows? So, maybe the 100 was a little understated. And I think the reasoning part of it is everything that matters to us in the final analysis touches the physical world. And we live in the physical world.
+
+And so, think the market opportunity for bringing software, computing, intelligence into an industry that largely historically was mechanical and electrical, that's a big opportunity. I mean, look at look at obviously what Elon has done to the to the automotive industry, turned it into essentially a computing industry, a technology industry. And so, I think every car company is gonna be a technology company. Every shipping and receiving's company, logistics company is gonna be a technology company. I'm super excited for FedEx.
+
+They're obviously gonna be an AI company. They're obviously gonna be a technology company. Walmart, obviously gonna be a technology company, an AI company. So super excited for them. Yeah.
+
+The the entire telecommunications industry will be reinvented again into an... Into a technology industry. Mhmm. They were a technology industry a long time ago. They became a services industry.
+
+They're gonna be a technology industry again. Mhmm. And I'm delighted to work with AT and T and Verizon and Europe around the world as they reinvent themselves. And so, take a look at every one of these industries that touch the physical world. And there's a great idea for reinventing them with AI.
+
+I was just in Washington It's weird. People can put us in chips. And so we're actually in warehouse and logistics. We're in health care. We're in automotive.
+
+We're in telecom. Every industry in planet. Every industry in the planet. And so, we're in life sciences. And so, all these entertainment, obviously, for a long time, NVIDIA was really vastly an entertainment company.
+
+And so, each one of these verticals, NVIDIA has a massive stack that's inside of it. And we're very deep in the ecosystem. And we have excellent partnerships there. And one of these days, people might not categorize us as a chip company anymore. The playbook would be to take the Alfa Romeo automotive, I guess, playbook and insert it into each one of these industries.
+
+Yeah. That's the final contribution. But in each one of these, it takes three computers to build a physical AI platform. And so, you need the computer to create the brain. That's the training system.
+
+But very importantly, and this is where you're going to see the labs also do this, they need to build a digital twin of the internet so that they don't have to put their AI agents out into the internet to learn how to use it. And so, just like we created Omniverse as the digital twin of warehouses and buildings and cities and the physical world, we put our robot into the digital twin, the digital twin learns how to be a robot. And then we deploy it into the last computer, which is the computer that's inside, for example, a robot or a car or surgical instrument or whatever it is. It takes three robots, three computers and three complete stacks. We build complete stacks for each one of them.
+
+We're the only company in the world that does that. Then if you're a company that wants to build it end to end, you could use two or three or one of our computers, we don't care. So each one of our computer has a software stack. We do the same across all of our verticals. But of course, these capabilities cut both ways, which is why we hear a lot of people talking about safety.
+
+You've been highly critical of the doomer narrative. You can only get there if you build the technology responsibly. That's right. And so, the first thing is build the technology responsibly. Notice the word build.
+
+It's an engineering word. About technology, it's about engineering. Engineers, scientists, researchers, we have to build this technology safely, responsibly. And the question is, can you? And the answer is absolutely yes.
+
+Because if you can't, then you shouldn't build it at all. And so, we either have to believe we can or we shouldn't build it. Okay? And so, I believe we can. And so, here, let me just reason about it with you.
+
+So, the first part of it is, some people say that AI is uncontrollable because it's impossible to align perfectly. Alignment means this for all the audience. You tell somebody, I want you to do this. And so, the mission is clear. The mission is clear.
+
+And it's clear to you because you said it in English. Okay? And so, it could be, I want you to solve this quadratic equation. And so, the mission is to solve the quadratic equation. The alignment is how do you do it?
+
+There are many ways to do it. For example, you memorized it. And so the answer is whatever it is. Or you saw the answer in a textbook, so you looked it up. You refer to a reference.
+
+Or you went to a drawer and you know that drawer had all the answers. You opened a drawer, you picked out the answer. Some people call that cheating. I call that opening the drawer and retrieving the answer. And that's what computers do.
+
+There's a lot of different ways you could solve that problem. Now, of course, that one is very explicit. Here's another one, be successful in life. The mission is easy to say. And in fact, we say it to each other all the time.
+
+We say to our children, we say to our friends, let's do our best to contribute to society. Well, now the question is how? There are so many ways. How do you reasonably align in everybody's culture and background? And some people think that contributing to society means to be generous, to be kind.
+
+Some people might mean that contributing to society make a lot of money and then be philanthropic. Some people might so on and so forth. Isn't that right? Yes. Okay.
+
+And some people might just think that that building a company alone is is... Or doing something alone is is a sufficient contribution to society. Creating a beautiful piece of art or... All of it is true. Correct.
+
+And so the question is, what's the alignment? And it just depends on your background, your culture, maybe has something to do with where you live, where you came from. There's just infinite number of ways. And so my point is this. Alignment is going to be a forever problem.
+
+Yes. If we depend on perfect alignment in order to ensure safety, then we're never going to get there. And so the answer is this. The way we treat, the way we think about babies and when we're raising kids and we have pets or whatever it is employees. You start with containment.
+
+You give them the rights that the access to tools, the access to information, the access to whatever responsibility, capabilities that they have, funds, resources. You give them access based on the job that you ask them to do. You start out with zero trust. When you hire somebody, you start out with zero trust. When you have a baby that's one year old, you put them in a playpen, you assume zero trust.
+
+Zero trust, you give them minimum rights and you expand that boundary as you learn more. And so whenever we have a new AI, we have to assume the same thing. Whenever you're testing an AI, zero trust, minimum boundaries, minimum rights, and you expand it as you test and give yourself confidence. So containment, very tight containment is really important to any autonomous system. Second thing you do, monitoring.
+
+And the monitoring has to be out of band. And the reason for that is because if you're... If you tell an intelligent person, hey, listen, I'm gonna sit here and watch you do your work to make sure you're doing it right. Right. Okay?
+
+I'm gonna sit here and watch you make sure that you're serving customers properly and that you're working hard enough. Okay? That autonomous system is going to behave differently than when you're not watching. So if Brad's in the room with me or not. Exactly.
+
+Exactly, okay? And so the monitoring has to be out of band and it has to have the ability to observe that the autonomous system is doing something that was inconsistent with the policy or inconsistent with alignment and you have the ability to either escalate or shut it down. Just turn it off. And so those kind of capabilities have to exist. That's engineering.
+
+That's technology. And it's possible. And we announced it recently called OpenShelf. We have over 100 companies now joining us. We've got lots and lots of activity around the world because everybody wants the same thing.
+
+Starting at the highest level, When I looked around the table at the White House, everybody around that table, their parents, they have kids, I think there's this view in the country that there are some leaders of superintelligence that are just YOLO ing, that don't really care, they're being reckless, they just want to grab all the money. And yet when I looked around that table, there wasn't a person in there that I saw that wants to be reckless, that wants to YOLO. In fact, everybody there wanted to find the right balance between fast and safe. That was the president's directive. And I...
+
+We we debated a little bit what that meant. Right? There are different versions of how to implement that. But, you know, what would you say to the American public who fears that we have a reckless president or reckless leaders? Did you see any evidence of that?
+
+You have kids. Mhmm. Do you worry about the future that you're bringing into existence with superintelligence? Safety and security technology are part of AI. There's some weird formulation that AI technology and safety and security are orthogonal.
+
+It's like the airbags and the braking system and the radars, cameras, the ABS, the lane keeping, all of that technology is somehow independent of the car. You guys understand what I'm saying? The only thing that matters to the car is the engine. In fact, the whole car is part of the car's technology. When I say we need to accelerate AI's technology, what I mean by that is we need to accelerate the security technology.
+
+We have to accelerate the safety technology. They all have to be accelerated. If you ask me right now, I think everybody would say, let's accelerate security. Let's accelerate safety technology. Nobody says, no, let's pace that.
+
+We should accelerate that. It's all part of the same thing. You can't separate capability, functionality from safety and security. They go us one. And when you deliver the service, nobody's going to say, I really like the functionality of your service, but boy, is it wreaking havoc.
+
+And so, think it's all one thing. And we treat it as all one thing. And the industry has to treat it as one thing. And when we say accelerate, we have to mean accelerating the entire package. And right now Including the safety.
+
+Including especially the safety. You mentioned pacing. Especially safety. You know this. Some people read Pacing the Frontier by Dario and thought that meant slowing down.
+
+And I thought a funny moment in the room was when the president called on his new best friend Dario. He referred to him in that way. And he said, explain to me you know, the... Your version of fast and safe. And Dario started off by saying, mister president, you said whoever wins AI wins.
+
+Right? And he said that we're all speeding up, that they're speeding up, that they want to go fast, that they want to win the race with China. But also acknowledge that along the way, your point you just made, we have to make sure the safety systems are also speeding up and also keeping pace. So I thought that was an important moment where you had... Because I think people have positioned him as though he's in opposition right to this.
+
+But it seemed to me that you were all very much on the same page. Went to the cabinet room with him and Greg and the other Frontier Labs to sign this agreement. Was there any chatter in that room about differences of opinion? Or was everybody you obviously got it signed. Did anybody have to be put in a headlock?
+
+Or did everybody go willingly? No, everybody was very constructive, very productive. And I think that without exception, everybody is dedicated to advancing the industry safely and securely. The reason for that is because if it's not safe, it's not secure, the functionality will never get a chance to speak. And so, the capability will never get a chance to shine.
+
+And so, we know that the priorities are at all times safety and security. Of course, recognizing that this industry came through a transition just recently. It wasn't but six months ago this technology barely worked. And so the functionality and... Without functionality and capability, what's the point in making it safe and secure?
+
+Nobody even cares about it. And so, the first job of AI is to demonstrate it could do something useful. And it really reached that point six months ago. And so now, it really wants to be deployed and broadly deployed. And so, there's no question that the industry, the entire industry now, has a strategic imperative, an incredible imperative, and great urgency to make sure that whatever we deploy is safe and secure.
+
+And so, think everybody is completely convinced. Aligned functionality, capability, safety, security, they're all at exactly the same place. Priority number one. And so, the question is winning. I would reframe winning not of the technology industry winning, not of just the AI industry winning.
+
+America winning means every industry in America winning. Health care. That's right. Nothing would give me more joy. The definition of America winning is when we talk about Lilly winning, Walmart winning, FedEx winning, every single one, Boeing winning, the US military Every citizen winning.
+
+Every citizen winning. And so, are universities winning? Are high schools winning? That's the definition of winning. There is no winning if it's just a technology one, but nobody used it.
+
+The greatest risk is, of course, we're going to... I'll just take it. I'll just say baseline. There will be no technology- there will be no AI technology industry if we don't build it safely and securely. This is an existential issue for us.
+
+And if we make it an existential industry for everybody else, well, that's not going to happen because it'd be an existential issue for us first. So, having said that, the definition of winning for us and this is the part I always have to change a little bit, I want us to pivot. I like that. Want us to And when I see AI winning, America AI winning, I'm looking down from... These days, we spend a lot of time in the air and we're looking down.
+
+Every state's winning, every county's winning, every community is winning, every company's winning. Everybody won because we could afford to spend more on health care. We could afford to spend more on education. We could afford to spend more on interstate commerce, highways, etcetera, all of infrastructure of the country. What I hear you saying is the definition of winning is that when we look back twenty five, thirty, forty years from now, the economy needs to be 10 times as large.
+
+Everybody's lives need to be better. And existential and primary to all of that is it has to be done in a way that's aligned with human interest, which this is the last question I have on this. I know we have a lot to get to. Most people don't understand what our security framework is in the country. I've said we have the most robust superintelligent security framework in the world.
+
+We're clearly the only country on the planet that's actually sanctioned a model and pulled it off the shelf with mythos earlier this year. But I describe it as a three legged stool. We have the frontier model review of every new frontier model by Casey and the Department of Commerce. So they do all their work. If new model's coming out, they review it.
+
+They test it for whether or not they think it's gonna cause a problem in the marketplace. Now we have the White House accord on super intelligence that you help to architect, internal and external audits, board oversight, and all of the liability that comes with that. And then third, we have the SI force now led by Jay Clayton, of course, Emile and Scott and Andrew. And that's doing critical industry coordination, cyber, etcetera. So these three legs on the stool.
+
+There are people out there. I heard Gates recently saying, we're not doing enough. We need new laws on the books and everything else. That three legged stool seems like a lot to me in a very short period of time that's come together. As a leader of one of the most important companies, obviously, in superintelligence, do you feel comfortable for that future that we're trying to usher in?
+
+That is a good step forward where we need to be right now. Yeah. The best way to get to the future is take action quickly. And if we argue about what's perfect versus what's first, we'll end up arguing about perfection and we'll never get there. And so, I love the fact that these three legged stool are actionable.
+
+They're tangible. They have real teeth. Happening now. It's happening right now. We're doing it now.
+
+We're taking action now. And the reason we're taking action now is because it's good for our company, it's good for our industry, it's good for our country, it's good for society, it's good all the way around. And if we don't do these things, the outcome is less desirable. We don't get to pursue that optimistic future that we all dreamt about. And so, if you go back and look at another industry, I don't remember another industry that is currently at its current state and have now formulated all of these cross company, cross industrial, government to industry coordination to make sure that we advance this in a responsible and optimistic way.
+
+Yeah, I just think it's so important for people to understand because when I hear senators talking about it on television on both sides, to be perfectly honest, they don't Well, they have to learn about what we're doing here. Right? They don't even know what we're doing. Extraordinary amount. And by the way, these aren't voluntary things.
+
+There's not going to be a frontier model that gets released that Casey is not reviewing and the Commerce Department is not reviewing. They've demonstrated they have the authority under export controls to pull them off the shelf. Do two things. One, come and spend some time and learn what actually has to be done. What's the problem?
+
+If you want a solution, you got to at least understand what the problem is. So one, come and just learn about it. We got plenty of time and all the time in the world for this stuff and just come talk to us, come talk to our industry and learn. The second thing is learn about the solution that we put in place and try to see if we can make that if there are ideas to make that better, of course, we're all completely open minded. But be constructive.
+
+I thought that was part of the fourth point on the accord on superintelligence was this is not static. This is dynamic. This group is going to get together routinely. We're going to update the framework as required when the technology evolves. But I want to move forward now to compute.
+
+Of course, long running agents that work in teams of thousands or millions to solve complicated tasks, it all consumes massively more compute. Dylan, our friend as semi analysis has said, we're going bring on board 43 gigawatts of new AI compute next year. Just to contextualize it, we'll share a chart with people online. That's more than all of the AI compute that exists in the world today. So we're gonna bring that on board next year.
+
+The year after that, another 40 gigawatts of compute. You are the one... You know where every single GPU is allocated. Right? So as you sit here, does that sound right to you?
+
+Do you think we're gonna bring on that much compute? And do you think that, you know, some of the things we're hearing out there about permitting permitting issues or bottlenecks in the supply chain or, you know, pro local protest? Do you think the number is going to be materially different than that based upon what you're seeing? I think the demand is definitely there and more. The demand is definitely there and more.
+
+The challenge, of course, is that there are a lot of obstacles. When you move from digital to the physical, there are a lot of obstacles. There are land permitting, There's power generation that you got to bring online. Of course, you need construction workers and outfitters and plumbers and all kinds of Created a million new jobs just building these things. Created a million new jobs And their skills are not fungible.
+
+They have a lot of skills. And particularly, the ones that are building these $50,000,000,000 data centers, you're to want some people with great skills. And there's a critical part of every single one of the build out of these things where you need some very specific skills. And then there's, of course, whatever moratoriums that are happening, whatever issues that we're seeing around the country. And so, think my guess is that land power shell, the build out resources will be one of the most important obstacles to reaching that.
+
+So, company, as you know, now speaking specifically for us, there are several things that we're doing to mitigate that. And one, because we're the only company that serves every CSP, we serve every NCP. We have great enterprise businesses through Dell and HP and Lenovo and others. And because we serve every single industry and work across the entire lifecycle of AI, everything from of course, data processing to training to post training to inference to agentic processing and all of the tool use that we accelerate, our exposure to our go to market is the largest of all. Every contract manufacturer in the world is working on my behalf.
+
+Every go to market is connected to our architecture. And so, if one particular state, one particular community, one particular data center has a hard time, our demand is so much greater than our supply at the moment, we'll just adjust our supply chain accordingly. The other thing that we have, I don't love this answer as much, you know, NVIDIA is also the infrastructure for the planet. And so, it's in Europe or... And we've got early developments now in Africa, in Central Asia, in Southeast Asia, in Latin America, in Middle East, and so on and so forth.
+
+And so, I don't love that United States can't keep up. But for our business specifically, we have such a global reach and there's build out demand all around the world. If we don't build it out here, I think we just all have to recognize that every country in the world would love to have it built out there. And so, I think that our business specifically is probably the most resilient. And the reason for that is all the things that I mentioned.
+
+We cover the entire spectrum of AI. We cover the entire spectrum of computing. We're in every single cloud, every single region. The resilience of our company is much greater, but I do think that land power and shell is going be a challenging part next year. I guess what I hear from the street is there's this idea that maybe there's 50 gigawatts of announced chips that are underway or talked about, and maybe 35 to 40 gigawatts of compute or land power shell that might come online.
+
+So what compute fits into that land powering shell and on what timeline is a question up in the air. But I guess if we think of through the entire Clark, just to interrupt you there. And of course, as you know, NVIDIA's architecture is the most productive. It generates the most tokens per watt. And so if the world's amount of watt power, energy reduces, it shifts their choices to the most productive version.
+
+And the reason for that is that they still want to make their revenues. And so, all of my CEO colleagues, they all have high expectations for revenues next year and people have... They need to deliver it. Their shareholders are counting on them to deliver it. All their partners need them to deliver it.
+
+And so, when the amount of power reduces, the quality of the compute you put into it has to be the most extraordinary. We're the most productive computing resource you could put in the world today. We're the most rentable. We're fungible, we're durable. And so, the forces around the world because of the shortage of resources is shifting interest towards us.
+
+Our market share was already very high. But surprisingly to everybody, not only are we a large company and our market share is high, our market share is actually increasing for these reasons. And so, you're going to see us go from in because we offer so much more per gigawatt than we used to. We used to be a GPU company, then we became the largest and fastest growing networking company. We're now gonna be one of the largest CPU companies, surely the fastest growing one.
+
+Mhmm. And so because we're offering more and more and we're computing for storage, we're in computing for the knowledge infrastructure, and the amount of... And now we're in security with OpenShell and Sentry. And so, the offering that we offer into one gigawatt went from, I guess, about 18,000,000,000 or so per gigawatt to 20 some odd billion per gigawatt to now 40 plus per gigawatt. My sense is that that's going to keep on going up.
+
+So, not only are we growing share because people are shifting towards our computing platform, we're also growing share because we offer more to the world's CapEx. And to the world, it's a dollar share of the market. Yes. Yeah. If you look at- just go back in just six years ago, our percentage of the world's CapEx was in single digits.
+
+Then I think right now, with the world's CSPs, we're probably running about 40%. But we're also expanding the market beyond the CSPs. And outside of the CSPs, whether it's on prem or new clouds, half of our business, our percentage of CapEx is probably, what, 80%? And so between half of our business being 40, half of our business being 80%, and both of us doubling every year. And so you could see that our percentage of the world's CapEx is, in fact, even growing.
+
+Yes. One buyers of of NVIDIA is somebody we talked about two years ago, Elon, when he started building Colossus. And we were blown away a couple of years ago to see him stand up a couple 100,000 hoppers in Memphis. And I remember you saying nobody can do it like him. Now he's raising another 40,000,000,000, gonna buy maybe million plus Vera Rubins.
+
+He's He's moved from the case to the end. He says he wants to have 10 gigawatts by the end of twenty twenty seven. That's hundreds of billions Yeah. Right, spent on Vera Rubin. It's an unprecedented ramp at scale.
+
+You were with him again yesterday when he was also presented with a medal. Is Elon that much better at building compute today as he was then? Is it now obvious to you? Is it a foregone conclusion that SpaceX will be the largest AI hyperscaler in the world? Well, we used in the two parts of our chart, Elon used to be under enterprise.
+
+That's the way we reported the numbers. Now, he's part of our CSPs. Of course. Yeah, yeah. Of course.
+
+They're massive. So, I'm delighted that I love working with Elon. He's using our technology for his own AI in training models and such, deploying models, of course. GrockBot is super cool. And the demand for GrockBot, the consumption for GrockBot is really skyrocketing.
+
+And then of course, he rents it. And so, the combination of these three things, he's fairly unique in doing that, I guess Google does that. Right? That would be yet another example. And so, I think he also has the advantage that he loves the intersection between computing and the physical build outs.
+
+He loves that whole area. And nobody knows more about energy than he does. One particular new market that we're going to go explore together is putting data centers out in space. And so, our two engineering teams are working super closely together to create a new type of server, a new type of architecture that might be super good in space and on Earth. Well, saw that Starship launch last week, had its first orbital rendezvous and was launching those v three sats that literally captured the imagination and kind of broke Twitter for a moment.
+
+Just people mesmerized by watching these launch into space. I wait to be a payload. I mean, not a person. Do you think... Does that get...
+
+Do you have increasing confidence that we will have a material amount of compute in space via Starship by let's call it 2028, 2029? Elon's put some big numbers out there, but do you think that we can get to material inference in space in that timeframe? Only NVIDIA compute. Only NVIDIA. Let me tell you why.
+
+It's not just about the technology. NVIDIA's performance per unit energy is the world's best. And so, we call it performance watt. But the most important thing is this, the productivity of NVIDIA's compute is so good, meaning the return on invested capital is so good that you could put it out in space and the launch cost is a small percentage of it. The launch cost is not inconsequential.
+
+And so, you're not going to put low cost computing out there. You're going to put high value computing And out so, we're the highest value computing system you could imagine, the highest computing system in the history of computing. And so, we're the perfect fit, really, to launch into space right now. Irrespective of the launch cost, it'll still be excellent ROI. So, do we get 500 megawatts in space by 'twenty nine?
+
+Well, I'll let him tell you. I think It's Elon's launching 100 launches a year right now? I don't know what exactly it is. It's going go to multiple a day. Yeah, right.
+
+And so, you could put Vera Rubins in there and it'll justify it. The is there. His return on investment is so good on it. And so, the productivity is excellent. It's fungible, meaning you put a satellite on space.
+
+If you don't have a customer to go rent it, it sits idle. And you certainly don't want that. And so NVIDIA compute is going to be fully fungible. And there'll be lots and lots of renters. We work with every single closed model company in the world.
+
+We run every single open model in the world. We have thousands of startups working with us enterprises around in every single industry. And so the computing is completely fungible and is durable. You'll sit up there and we'll keep up. And the reason for that is because we keep CUDA upgrading the software.
+
+We're the only hardware company in the world that you pay us eight years ago and we're still updating your software, new algorithms. And so, we'll update the software for as long as the satellite's up there. And so, it's going to be really durable. And so, I think the combination of these three traits along with the technology makes it the perfect payload for SpaceX. It costs trillions of dollars to build all this CapEx.
+
+You guys have leveraged your own balance sheet to help folks like the Neo Clouds build that out. In order for finance people to get it to pencil out, they need to see payback. You talked about some companies seeing one year payback, dollars 50,000,000,000 in the first year, some spot pricing out SpaceX perhaps. But if I look at the total incremental offtake, the revenue of all the labs this year. So if I add up the two frontier labs oh, yeah, get yourself a snack.
+
+And we add up some of the inference labs, it's about $200,000,000,000 We need to see that double next year to $400,000,000,000 We need to see it double the year after that to $800,000,000,000 in order to get in the zip code of the payback on trillions of dollars of CapEx. We we had this massive unlock this year with with clogged code that led to a 10 x increase in anthropics revenues. What's your confidence that the labs can continue to two to three x their revenues every year in order that we get the payback that's gonna be required just to to to build out trillions of dollars of CapEx? I mean, you're investing in these companies. You have you have big investments in these companies.
+
+Do you see that level of growth continuing in these companies? Oh, yeah. People misunderstand what's going on. So first of all, particularly I mean, NVIDIA represents, call it, 80% of the revenue share of AI infrastructure in the And world so my description of the universe of computing, NVIDIA computing matters here. They're really basically, call it, three segments.
+
+Three large segments is probably slightly more than that but let me just categorize in three large segments. The first segment of our computing is just baseline computing, meaning you use it for data processing, molecular dynamics, physics simulation, fusion simulation, fission simulation, you name it, quantum chemistry, quantum physics, and so everything. The world of simulation and data processing, not to mention computer graphics. And so, all of that processing done on our GPUs, if you just said there was no AI at all, just classical machine learning, XGBoost at Visa, Mastercard for fraud detection, our recommender systems to figure out what news to recommend to you. It's just all of that stuff combined.
+
+Classical computing, not AI, not deep learning, not agentic systems. I'm going call it a third of our business. And that business is growing, call it 30%, 40% per year. In the absence of any AI labs, NVIDIA is not zero. We're quite a large company.
+
+And so that's number one. The second part is the AI labs, people see two, but we work with every one of them. MetaMuse is doing fantastic. And it's vastly NVIDIA. And there were zero last year or a year before that.
+
+It was just recommender systems and now they're killing it with Metamuse. And of course, Grok didn't exist three years ago. We didn't run Gemini before. We run Gemini now. And starting this year, we started working with Anthropic.
+
+And so, if you just look at our compute, people see a couple of labs, but I see more than that. I see five, six labs. And so, these labs are all doing great. And if you told me that that represents not quite one third of our business, let's say, a quarter of our compute, fantastic. So, let's say that's a quarter.
+
+So, when people are looking at 80 NVIDIA and we now run the infrastructure of the world and I just said 25% of it, maybe 30% of it, is the Frontier Labs. Call it a third is just processing in general. And another third this is the part that's really great. Because we're at the beginning of a new computing platform shift, just a vast number of new startups are coming out. So many great companies.
+
+And some of them are, of course, doing consumer stuff. You know? One of them really doing great. Noah Instinct. I was just gonna mention that.
+
+And Noah's doing great. To all kinds of physical AI, biological AI, material sciences AI. Jeff Bezos, this new company, Prometheus, they're doing fantastic. And so, the number of companies across the spectrum of industries that have been started, thousands of them. And what do they do?
+
+They rent NVIDIA computers. So they're renters. And so what is... A third of our business is kind of cloud computing for the next generation. It's kind of like AWS for today.
+
+And so it's just not AWS for the future. And that represents about a third of our business altogether. My sense is that we're in the early innings of the build out of this new computing architecture. It's a real big mistake to recognize just a couple of companies and think that they're funding the infrastructure. And then one observation, open models.
+
+You know that I've been a great advocate of open models. And the reason for that is because open models opens up new opportunities. And if you look at all these startup companies, 80% of them use open models. And they're not using it to compete with the Frontier Labs. They're using it to unlock a new opportunity somewhere else.
+
+It could be in physical AI, could be manufacturing, it could be healthcare. They're doing something completely, completely different. They're taking these open models and many of them taking Neimotron and these models are then customized into super intelligence. And so if you will, I see the general closed labs will be artificial general intelligence and it gets super good. And then you have all these vertical companies that are focused on a particular domain and they have proprietary data, they teach it to do something very specific.
+
+And they achieve super intelligence for their domain. So again, if we go to your compute math, which I think a lot of people are using to forecast the future revenues of the labs, for example. You said, hey, if you stand up a gigawatt of this compute, can get 40,000,000,050 billion dollars out the other end. But if we took the number we talked about earlier, 40 gigawatts of compute coming online next year, and if you took $40,000,000,000 out the other end, that would be 1,600,000,000,000 of revenues coming out the other end of that factory. But of course, there's something it doesn't work that way, right?
+
+At the end of the day, you got to look at the demand curve and the rate of diffusion to determine the revenue that's going to come out the other end of the factory. And what I hear a lot is that people are nervous. They've seen over the course of the year maybe the labs revenue slowing down a little bit. And they're nervous that at some point, you're going to have the proverbial bubble popping, right? Where we have more supply coming online than we have demand at a moment in time, that AI is more like these step functions rather than just this parabolic line straight up.
+
+I guess the question to you is, are you worried about a moment in time where everybody gets nervous about financing the build out and then we don't get the build out? Well, all these different things, you just got to break it down. Break it back down to first principles. And the part that people are trying to extrapolate, the $100,000,000,000 of AR or $125,000,000,000 worth of AR they're trying to extrapolate, is a small part, not a small part. It's just a part of the overall infrastructure build out.
+
+And so the question is, are people going to continue doing shopping online? So that third of the build out, let's call that a third, you said it's third of your business, take that to the bank. That's not even a debate. So, a third of I the build out is said going be a few couple was it a couple of years ago that as we exit this decade, infrastructure build out will probably be somewhere between 3 to 4,000,000,000,000 a year? Obviously, it's closer to 4 than it is closer to three.
+
+Per year? Per year, yeah. By the end of the decade. Yeah. If you said that 1,500,000,000,000 of that was just compute, just compute.
+
+Now, why is it going to be so big? Well, it was half a trillion before AI started. And if I told you that over the course of some six, seven, eight years, it became 1,500,000,000,000 because the world's just consuming more compute. Right. I mean, it's not illogical.
+
+Right. On top of this, remember, Moore's Law is over. Right. There was a time if you wanna get twice as many transistors, you just wait one year. Right.
+
+And if you want twice as many transistors, you get another... Wait one year, same price. But if you want twice as many transistors now, doesn't matter how long you wait, you have to pay twice as much. Okay? Because Moore's Law is over.
+
+And so whatever whatever computing capacity that the world wants, every single year, if you want twice as much, you're going to pay twice as much. And so, on top of that $500,000,000,000 that was growing just naturally, because the world just use more and more digital, you're to have to effectively give it an X factor just to account for the fact that Moore's Law is over. And so, without AI, the semiconductor industry was on its path to become the largest industry in the world. And I've mentioned that long ago, just people forgot. Was just one of those things that I said I just said that two years ago.
+
+And so, that's just one part. And then don't forget, because we're in a new computing platform shift, there are going to be a whole lot of startups. Innovation is part of the economy. New companies And we come said it's accelerating. If spent, if you go back to Moore's law, general purpose compute $5,000,000,000 per gigawatt, today it's 50 for a Vera Rubin.
+
+The question is, is Vera Rubin deliver 10x more value in The the punchline is I don't think it's necessary to extrapolate any of the labs into multiple trillions of dollars. Unnecessary to do that. Yeah. I think that's a... I mean, it's an important one because I think people...
+
+You know, we just saw yesterday, you know, even in the market, you know, some chatter about was OpenAI's revenue 70,000,000,000 or 50,000,000,000. I think you and I They're gonna be insanely successful companies. Correct. Yeah. But you saw the pullback in a lot of the infrastructure companies, right, on the fear that, oh my gosh, OpenAI doesn't have the money, won't have the money in order to pay for the infrastructure.
+
+I think the point that you're hammering home is that when we look at the 40 gigawatts of infrastructure build out next year, at least a third of it is just going to, right, general purpose compute replacement, the the the the basic stuff out of the hyperscalers. That a third of it's going to kind of neo cloud sovereigns enterprises, everybody else who's using this, all the startups. And a third of it's going to not two labs, but to many labs, right, including Grok and Thinking Machines and all the other We're putting way too much pressure on two labs. Yeah. I'm delighted to partner with them and and support them.
+
+They're going to be two of the most consequential technology companies ever built in history. They're going to be magnificently successful. But they don't have to be anywhere near $1,000,000,000,000 in revenues to be successful. And I think we're putting way too much pressure on that. Then the rest of the industry, we still do have to build out a few trillion dollars of computing infrastructure.
+
+Just to keep going, let's shift a little bit How good is this, guys? By the way, what are these called? These are dried plums. Yeah. Dried plums.
+
+The old dried plums. Yeah. This this one particular store in Taiwan is one of my favorites. Kind of a licorice y. There is licorice.
+
+Yeah. Licorice... A little licorice Salt, sugar, cinnamon. That's a little twang to it. Yeah, yeah, you got it.
+
+Okay. You said as to next year, demand for NVIDIA's chips well over 100%. You guided to 70% revenue growth. You gave a year forward look because you said supply is constrained. That's all I had at the time.
+
+That's right. I got eighteen months to work. Right. You said you were very I'll come to work every day. You said very confident and plenty of time to work with the supply chain to do even better.
+
+You expected to do even better and then not disappoint customers. So are things going even better? And has the order book continued to grow? Because the other part of that is, right, you took a snapshot at a moment in time. And of course, people are continuing to place orders.
+
+So do you think there's enough slack in the supply chain you can squeeze more out? And is the order book continuing to grow as more of these capabilities are unlocked? Let me just tell you why I told everybody. The challenge that we have is we have giant order books. Every single CSP, every single NCP, every single OEM had already placed orders on us.
+
+Startups, big companies, small companies, they already placed orders on us. And the reason for that is because we work with them on a depending on the size of the customer at least a year. For the largest ones, two years forecast. And so we already have a very large order book. And because I was in the process of allocating, and what I was allocating to all of our customers is a lot less than They want it.
+
+They want it. Yeah. If I didn't publicly say what we had, everybody would be second guessing or being shortchanged or being... You know? So it was my way of essentially handling every single conversation where I'm disappointing people.
+
+So pretty much every customer would buy more from you if you could deliver more. By far. And then since then, of course, we have new orders almost weekly and daily. So, in addition, however, we're getting more supply. And some of the supply that is limiting us is land power shut downstream.
+
+And so, a couple of weeks ago, we announced two gigawatts in Australia. And so, that's a very big deal. Two gigawatts to us is like $80,000,000,000 And then I'm hoping when I go to Europe with GTC, we'll be able to announce some new partnerships there and unlock more land PowerShell. And so, land PowerShell is clearly one of the obstacles. And this is an area where NVIDIA has a huge advantage.
+
+Because based on what we build, if there's a new cloud this new cloud like CoreWeave or EBS, and they would like to scale out their business, NVIDIA has the entire full stack, complete AI infrastructure. And so, we could support them as they scale out. And so, we could build in places and we can build with partners and customers that nobody else can. And so, I think this gives us a lot more resilience. But nonetheless, as we continue to increase supply upstream and downstream, one of the critical areas is substrate.
+
+Substrates are getting larger and there are more chips. And so, it's working against them in two ways. Every single chip that's being shipped uses more And of the so these organic materials are really hard to make at the precision that we need because as the packages get larger, the thermal coefficients and the way we stack things make it really hard to handle things like warpage and various manufacturing defects. And so, at the scale that we do, we have to be very precise and we need really great partners. And so, that's supply constrained.
+
+Those are just some examples. Silicon photonics is supply constrained. And so, everything is supply constrained. And so, we're going to keep working on it. I have eighteen months to do so.
+
+Every single week that goes by, we increase. But nonetheless, we keep increasing more supply and the order books keeps going up. And so it's going be hard to close that gap for a few years. Take a look at this chart. This is like a deposition.
+
+No. It's right. Excuse me. It usually goes like this. Mr.
+
+Huang, please please now Exhibit A. Please now look at exhibit The deposition. Okay. So the gray line, this is... Was the consensus at the start of 2025.
+
+This was the consensus for NVIDIA at the start of 2025. The blue line was altimeters forecast way back then. So we were a lot higher than the consensus. The green line is now where the new consensus is based upon your guidance. And so one of the things that blows my mind about this is the 25 people who get paid to just forecast what this company is going to do.
+
+Their consensus of all their ideas, right? It was off by a couple 100%, right? Just at the beginning of '20. Oh, no. At this time last year.
+
+At this time last year, not even 25. Timeline? Yeah. Yes. That that was the consensus at this time last year.
+
+Okay. One year ago. Last week. Okay. So in a year, the consensus forecast has shifted up by a 100 to 200% for this company.
+
+Mhmm. Extraordinary. Like in in my twenty plus years of doing this, you don't often see consensus being off by that much. And yet the stock's only up 20%. Okay?
+
+You literally doubled what the revenue forecast was and the free cash flow forecast was for the company. You're now trading at 13 to 14 times earnings depending upon who you're looking at. So what do you think the market is saying about Nvidia or about the confidence in the expectations of the market to cause that to be the case? Because usually, if you see it shift up by that much, the stock would have shifted up by a lot more. First of all, for a company to be as large as us gaining share tells you something about the resilience and the size and scale of our advantage.
+
+Is that advantage increasing or decreasing? Is your moat increasing or decreasing? Increasing. Your competitive moat is increasing at scale. Yeah, let me give you an example.
+
+Let's just do a thought experiment right now. If you had to hand somebody a $100,000,000,000 check to place a purchase order right now for a next generation, If you want to get in line for Vera Rubin Ultra, it's close to placing order time. Sight unseen. But they have the confidence. And so, let's say, you got to place $100,000,000,000 on somebody, one.
+
+How do you know it's going be any good? But because NVIDIA builds it, you know it's going be better than Vera Rubin. And Vera Rubin is awesome. And the reason why everybody had confidence in Vera Rubin is because Blackwell was awesome. And so...
+
+And and the world of computing, the the workloads that these computers do are so complex. You can't just have... Like, measure one benchmark. Right. Right.
+
+You know, it's $50,000,000,000. Yes. And the number of technologies that have to come together to deliver the performance is insane. And so the question is, sight unseen, who can you place a 50,000,000,100 billion dollars order on? We're literally the only one.
+
+Now, back when it was a $1,000,000,000 PO, that was challenging enough. But if you had placed $100,000,000 PO and the system is sitting right in front of you, you could benchmark the chips. How do you benchmark these systems? Just building it is a miracle. So, if somebody wants to do an evaluation, I'm happy to support it.
+
+But you're going to need to give me a giant data center and we're going need a couple of years to retrofit it. And so you can't even benchmark these things anymore. Interesting. And so it's exactly what happened with TSMC. The reason why we give 100% of our business to TSMC is because they're the only company in the world that I can plan five years out Right.
+
+And know it's sight unseen, know that that transistor is gonna be really good because it's better than that one better than that one. Yeah. And that they will have capacity for me and that they know how to work with my business team, that they have the agility to handle all of my ups and downs and, know, for example, to deal with with the fact that I went from gray to blue to green. Yeah. Exactly.
+
+Okay. Exactly. Yeah. They have to be big enough to go... Help me go from gray to blue to green.
+
+Exactly. There's no other company in the world that can help me do that. That's right. And to have and and to have all these different process technologies from silicon photonics to logic to memory to push pull push pull, packaging. I mean, the number of things that we do is so dynamic.
+
+How do you possibly do that with a company that is one tenth their size? It's impossible. I think the big idea is this: because we're building infrastructure for the planet and NVIDIA has become an infrastructure company, And because these infrastructures cost so much money and technology is moving so fast, we're practically the combination of the trust, the fact that we run everything. So, it started out with some GPT models, but look at the flash attention mechanisms that were invented, the way that we paralyzed the models and sharded across NVLink '72 and how all of that changed, MOE changed, now people are talking about transformer diffusion models that are hybrid, SSMs that are transformers hybrids, and all these different technologies are all... Right?
+
+The evolution of all that, we know that it all runs on CUDA. Right. It is the only... We we don't know whether you need to do more pre training, post training, or just agentic inference. Well, it turns out we run it all anyways.
+
+Right. And so you could build a $50,000,000,000 data center and know that the fungibility of the work, and if something were to happen, for whatever reason unknown, you wanted to, if you will, sublease half of your capacity to somebody, NVIDIA is completely fungible. So we're fungible in workload. We're fungible in models. We're fungible across customers.
+
+And we're deployable everywhere in the world. You start a company in Europe. You start a company in United States. But guess what? You would like your customer.
+
+You want to serve customers in Europe. Want to serve customers in Japan. Well, it turns out we're already there. NVIDIA's NVIDIA's infrastructure is already there. So OpenAI wants to go to Europe, nothing...
+
+We'll take them there in a heartbeat. If they wanna go to India, in a heartbeat. If they want... Isn't that right? If Anthropic wants to go to Japan, Korea, in a heartbeat, we're already there.
+
+All of these architectures are already there. And so I think if you take NVIDIA in a whole and then you come back and you say, okay, I want to do the thought experiment. I want to place $100,000,000,000 on some money. How do you do it? A year ago, were sitting here and the consensus forecast was that you were going to be flat or shrink in 2027.
+
+Now, the consensus forecast, you're going to grow 74%. Okay? So I just want to let people let that sit in because a lot of people follow these consensus forecasts. Right? And it was really wrong.
+
+Okay? They were forecasting Did they go back and listen to your podcast from last time? Right. You told them. I explained it.
+
+Listen, ladies and gentlemen, I did explain everything. And so I look out at 2029. There was a there was a... Wasn't it an ROI question? Yes.
+
+And then there was there was this Yeah. Custom versus general purpose. The reason why NVIDIA's general purpose is so I can have all this fungibility. That's right. The benefit of fungibility is low risk.
+
+Right. And low risk really comes into play when you're placing big dollars. When you're building out 50,000,000,100 billion dollars worth of infrastructure, you need to know that that infrastructure is going to be really good for a long time no matter what. So, specialization is the enemy of fungibility. Specialization is the enemy of durability.
+
+And so long as I can prove that our performance is extraordinary, and we prove that every single day, The moment we can prove that, then fungibility and durability translates to rentability, which translates to productivity. And financeability. And therefore, financeability, which leads to the lowest TCO. Right. Right.
+
+Exactly. Yeah. Well, now you're buying back the largest amount in history. And on my math, you could probably buy upwards of 10% of the company back within the next two years. At Goldman, you called NVIDIA the first growth value company.
+
+Sounds a lot like Apple's pitch to Oh, that right? Is that right? Yeah. Or or more... Yeah.
+
+Or that they that they could It return the worked. Yeah. For sure. Went from $300 at the time, 30 to $300 $300 plus. In a lot of ways, we're going through a similar transition.
+
+Example, the thing I forgot to mention is, and Brad, I think you were about to ask me about that. Most of our investment and financing partnership strategies is trying to set up two business models, two new business models. One business model we've been working on for some time and will be accelerated in the near future is software licensing. The body of software that we have in our companies is extraordinary. And that data center is so large, imagine all the software that runs in it.
+
+And we provide the entire stack. Well, our entire stack is completely industrial strength. For the CSPs, they want to run their own stack. And so, we license it where we give them our software open source, and then they take it and they modify it and they integrate into theirs, and then they operate their services. But for a lot of the world's companies, they don't have the IT department.
+
+They don't have the software department do it. They need me to maintain it. And so, because AI in the last several years was largely focused on training, but now they're moving into deployment. They need to operate these as factories. And they need to know that I'm on the hook, I'm on the SLA to support it and maintain it, keep it secure, keep it safe for as long as we shall live.
+
+And so, license for our enterprise business will be very, very large. And so, if our software licenses just roughly say, simple math, a couple of thousand dollars per GPU per year, And we have millions of GPUs. We ship 20,000,000 GPUs a year, growing. And so, half of it goes into world's enterprise, it adds up. Okay?
+
+And so, I'm fairly certain this is going to be a very big part of our business software license. And then, of course, there are some clouds that rely on NVIDIA for our full stack. They rely on us for our offtake, our ecosystem. They also rely on us for maybe as an investment partner in helping them secure their financing and capital. They've secured Land Power Shell.
+
+They're a regional champion. They've got all kinds of stuff working in their advantage. But these three areas, they need our support on. And so, in those relationships, it's very likely that we'll move to rev share. And so, we'll make an investment, we'll get the benefit of the sale upfront, but we'll also have the benefit of rev share going forward.
+
+And so, we're not a cloud service provider, but we're going to be providing offtake and providing software support for them for four, five, ten years. And so, we ought to get some economic return on that. So, we'll So, share some story I just described two new growth vectors independent of the hardware sale of our company and it's much more related to the installed base of our platform. What's the benefit of software licensing if you have no installed base? And how could you have rev share if there's no offtake?
+
+And so, the installed base element, the richness of our software stack, the richness of our offtake and the ecosystem that we have around the world, that's going to fuel that. One of the ways so we're talking about this trading at 13 times. When Tim and Luca went to see Warren Buffett and one of the reasons that Buffett has said he doesn't like technology companies is they have this hit, they produce an enormous amount of free cash flow, and rather than ever giving any of it back to the shareholders, they go and spend it on something else. And oftentimes, the something else isn't as good as the thing that caused them to generate the cash flow in the first place. You guys are now spending over 50% of your free cash flow buying back your stock, effectively returning it to shareholders while you have this exponential growth at the same time.
+
+As we've already discussed We said 50. I think this last quarter we did 60 some odd. Correct. We're going to increase we invest in really high quality companies, as you guys know. And the last couple of years, whoever Nvidia buys from, whoever Jensen buys from, you got to invest in that company.
+
+And now, the new word on the street is whoever Jensen invests in, you got to invest in that company. And it's true. And the reason for that is because like you, we're in the ecosystem. We're in the flow of information. Know who's doing those investments together.
+
+Yeah. And we know a lot of smart people. And we want to back these people when they want to do something great. And so, we're on the inside. Have a lot of information.
+
+And so, our investments are well informed. And not to mention, NVIDIA is also an ecosystem and so we can help them succeed. And so, there's a lot of different reasons why the investments turn out great. But as a percentage of our total cash generation, it's going to decline very rapidly, partly because OpenAI and Anthropic isn't going to come around again. That opportunity is not going to come around again, frankly.
+
+And then secondarily, our cash flow generation is growing quite fast. Right. And to that point, it seems to me that if you're buying back that much and the durability of the revenues, I think, as you've described here today, is longer than people expect. And I think that's the one place. People are still hanging too much on this is only going to last as long.
+
+Ezra asked you this on the pod the other day, how long until the bubble burst? And I think you said something about two to three years you have good visibility that the demand is there and who knows kind of after that. And I heard some people saying, oh, it may only be two years before this burst. But when I look at this, like this is fundamentally a rearchitecture of all global compute forever, Forever. So unless there's a global depression, then every single year, people are going to have to consume an enormous amount of NVIDIA compute.
+
+Yeah. And so the way to think about that is we were running in the CSPs were running about 500,000,000,000. The whole industry, the whole world is running, call it, dollars 1,000,000,000,000 of IT buildout each year. Every year, more gets built. And every five years or so, some gets depreciated or turned off and taken offline and so on and so forth.
+
+And some them some of it lasts longer. And so that old world was in the retrieval way of doing computation. And the new way of doing computation, I've predicted that going out of the decades. So three, four, let's say four, let's say five. And my sense is that we're going to continue to grow from there.
+
+If you told me that the annual capacity building, infrastructure building, refreshing, combination of new and old refreshes runs around $10,000,000,000,000 I'm not even a little bit surprised. Just again, for people listening, you think $4,000,000,000,000 of annual spend by the end of the decade because every time you consume tokens, every time you use intelligence, you have to run the machine. The factory has to run. And I think you've described that. That's about 50%.
+
+If you assume that $50,000,000,000,000 of global GDP is related to knowledge work, if we get a 20% productivity gain over five years on that, like you've seen inside NVIDIA, you've seen much bigger productivity gains inside NVIDIA. But if you see that productivity gain, then if we get $10,000,000,000,000 of incremental economic activity Yeah. Right. By 2029, 2030, that seems very reasonable. And you're just saying we'll spend half of that on CapEx, on the intelligence to produce it.
+
+And so maybe that's a good place for us to take a bit of an off ramp. You've been incredibly generous. I could go on forever. But I kind of want to wrap where we started. When we look back If this was one of those eating, drinking podcasts.
+
+A mukbang. We could keep going. We could keep Yeah. But it wasn't so long ago that the human condition was described as nasty, brutish, and short. Right?
+
+Was that last week or? Innovation has really driven all human progress, mostly in the last two hundred years. More time with family, longer lives, less time doing drudgery that humans really didn't want to do, safer. We're the first generation where 63 years old is considered young. Exactly.
+
+Exactly. People call me young man. Safer, better lives. All of this despite all of these concerns that you and I hear out there. And by the way, those same concerns were expressed at the beginning of the Industrial Revolution.
+
+What's your level of confidence that in five years from now, we will have made the right decisions and the world will be that much better place that we describe because of the investment and all that we're doing? Are you more confident as we sit here today than you were twelve months ago? I'm 99.99% just in service in honor of a good friend not using zero and one hundred. I'm 99.99 confident that too many of us care too deeply that the outcome turns out well. That we will dedicate our might, our intellect, our resources to ensure we get there responsibly and optimistically.
+
+And so there's just so many people doing the right things. Now oftentimes, there are people who pontificate about these things, and they're informed by several things. And they don't realize that there are a lot of people, industries, incredible researchers and engineers outside their sphere of information that are doing amazing things all by themselves independent of them. Just because they didn't say, they didn't say it doesn't mean a lot of smart people are doing smart things. And I say this all the time inside the company.
+
+Even without my leadership, without strategies, the company is doing smart things all by itself. Smart people do smart things. They do more impactful things when you organize a line, but amazing people are doing smart things all by themselves. And so, when somebody tells me that you're worrying about us, it's good that we worry. And we should express our worries.
+
+We should express our concerns. But we shouldn't predict the end of the world. Yeah. They're underestimating the human condition. They're underestimating the human capacity.
+
+And they think for some reason with maybe it's just hubris, maybe it's arrogance, that unless they do it, it won't get done. Unless they do it, it won't get done. The fact that matters, this company is doing amazing things whether I say it or not. Okay? And I get all the accolades and the blame.
+
+But in cases, I'm fair, especially the accolades. And the reason for that is just these- when you surround yourself with amazing people and you create the conditions by which everybody wants the same outcome, the good outcome, the good version of it. And I think most people do. That's the reason why I say we need to hold ourselves accountable and responsible. But we should express a future that's optimistic.
+
+And I am 99.99% certain that surrounded by all the amazing people in the world, we're going to get there together. Yeah, agreed. And I think you're a national treasure. We're lucky to have you helping to lead the charge. The nation's indebted to you for getting everybody together, getting us all on the same page, building the framework, there's going to be more work to do.
+
+But as a father of two and I know you have kids, you're going to have grandkids. We don't care about anything more than actually building a better world for them. We could easily stop. But if we stop today, we lose. We lose the opportunity at that better world.
+
+So, we'll wrap it there. Thank you, Jensen. Thank you, guys. And Brad, thank you for I've never met a greater patriot, somebody who cares so much about the industry, but even more so the country. Your gift in your enthusiasm and just tireless energy in coordinating, pulling together a lot of people in order to do something great like what you did.
+
+Incredible. As a reminder to everybody, just our opinions, not investment advice.

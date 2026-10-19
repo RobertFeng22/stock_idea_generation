@@ -1,0 +1,387 @@
+I think absolutely it's worth taking a Discard for Sequoia and Benchmark. We spend probably roughly 30% of our engineering salary on coding tools. It's actually gone down the last two months, while tokens... The number of tokens that we've used has actually gone up. I I think I really underestimated the demand for inference.
+
+Everything just works. This market is so big. There's just so much demand for it, and I don't know if it's gonna get less anytime soon. This is 20 VC with me, Harry Stebbings. Now I remember sitting down with my friend, Miles Grimshaw, when he was at Benchmark, and he said about this incredible founder he met, Harrison, the founder of LangChain.
+
+It's since become a multibillion dollar company. It is a leader in the ability to create and monitor your agents. And today, we welcomed him to the hot seat to discuss why it is so hard to build agents today, what no one knows that everyone should know about what is coming with agents. And then my favorite, some really kooky predictions, which no one else believes will happen, but he knows will definitely happen. This and so much more in the show today with Harrison.
+
+But before we dive into the show today, what do Uber, Cursor, and Harvey have in common? Well, they made the really wise decision to build on Fireworks. Fireworks is the specialized intelligence platform behind many of the world's leading AI products. Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand. But getting models into production is only the beginning.
+
+As AI usage scales, the best model for one request isn't always the best model for the next. Well, that's where Fireworks Nexus comes in. Nexus connects to the AI coding tools and harnesses your engineers already use and intelligently routes each request to the best model for the job, helping you optimize for quality, latency, and cost without changing how your engineers work. To see intelligent model routing in practice, visit fireworks.ai/20vc to create a free account, and use the promo code two zero v c 50 to claim $50 in credits for 20 v c 50. While Fireworks powers AI, Laredin helps you measure its impact.
+
+Every company now runs two workforces, humans and AI agents. Laredin is the first unified dashboard across both workforces that measures their work and optimizes their impact. Laredin answers four questions. Who's using AI? Which tools?
+
+What is it costing? And was it actually being produced for every team across every vendor? AI ROI stops being a guess and becomes a number that you can consistently and confidently measure. Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Larridin. Thousands of AI tools and millions of dollars of AI spend are measured.
+
+You bet on AI. Larridin proves that it's working. Visit larridin.com to learn more. That's larridin.com. While Larridin tracks AI impact, Superhuman helps you move faster.
+
+Can I be honest with you for a second? Here's what my week actually looks like. Back to back meetings all day, and the real pressure builds up in the gaps between them. I'll come out of six founder meetings with a whole stack of follow ups waiting, and my inbox, it's hundreds of messages. And somewhere in there is the one thing that really matters, which I always tell my mother is her.
+
+I've tried AI tools for this, but they always lived in another tab. I'd have to stop, go find it, paste in the context, write the perfect prompt. It was just enough friction that it never really stuck. Superhuman Go from the makers of Grammarly, totally different. It's right there where you need it, when you need it, in the doc, when I'm reading, the email I'm writing, when a thread gets dense, I highlighted and asked Go to pull out what matters without losing my place.
+
+And after a run of back to backs, I asked what was actually decided, and Go turns it into clear action items or drafts, the reply I need to send. It's already up to speed, and I'm always the one in control. Try Superhuman Go from the makers of Grammarly and find out more at superhuman.com. You have now arrived at your destination. Harrison, dude, I'm so looking forward to this.
+
+I've been looking forward to it for a while because I remember Miles telling me about you when he was at Benchmark and just singing your praises. So I wanted to make it happen for a while. So thank you for joining me. I'm excited to be here. For those that don't know, sixty seconds, what is Langchain and where do you like sit in the stack?
+
+We build tools to make it easy to build agents. So we build developer tools primarily. We have an open source framework, which basically connects the model to everything else that you need to build a useful agent. So tools, data, computation, things like that. And then we also have Langsmith.
+
+Langsmith is observability in Evals. Agents go wrong all the time. How do you know how they go wrong, and how do you measure them so that you can increase their performance over time, that's what Langsmith does. Why is it difficult to build agents? The hard part about building agents is they don't behave how you want them to behave.
+
+So the models are these, like, nondeterministic black boxes. Right? And they take natural language. And inside the black box, they're also nondeterministic. And so what that means is that the input you get is, like, infinite in dimension.
+
+It can be anything. You put a chatbot in front of someone, they can type anything that they want. Right? And so that makes it really hard to know what they're gonna type. And then once it goes into this model...
+
+And by the way, agents are not just one model call. They're a series of model calls, they're interacting with other tools. And so you have these small block... Black boxes that are then put inside this large system, and you get basically these cascading types of errors. So you have this this very big kind of like input space.
+
+You have this very big output space because two similar inputs can go in and they can arrive at completely different answers. And the thing that's making all this hard is the LLM itself. Yes. They're very, very smart, but you exactly what they're going to do, and they change answers based on small changes to the input. And so you build the system, but it's really non robust.
+
+And so getting the system to behave reliably, like, that is the hardest part. Like, when we talk about agents three years ago, four years ago to agents today, they've gotten a lot better. And the main thing that's happened is, one, the models have gotten better. And two, we've figured out how to build systems that basically harness these models better. And and that second part, the harnessing of these models, is what we focus on.
+
+How does your business change in a way that people don't see as the models get better? The main way our business changes as the model gets better is we basically have to erase big parts of our product. So what I mean by that... And and Cursor said this really well as well. I think this was one of their actual operating principles as a company is like erase the product or delete the product, I think is what they called it, where basically, like, these models get better and things that you had to do six months ago, you no longer have to do.
+
+And so this is very relevant in our open source. So our open source is all about basically the the harness and the framework for taking these models and helping them do things. And the right way to take these models and help them do things changes every month, three months, six months, choose your time period, but it changes pretty rapidly. How do you build for such an uncertain future? Do you just have to get in bed with the labs to know the roadmap so you don't waste six months building something that then narrates?
+
+There's no easy answer. On one hand, what are you going to do? Not build. Like, that's what I like to say to founders who ask this. Like, what do I do?
+
+Like, stuff is changing. You know, the models are changing. If I build something now, it might not be relevant in six months. What's the alternative? You just don't build anything.
+
+And so I think you have to make kind of like educated guesses as to what parts are going to be around and what parts aren't going to be around in the future. So for example, early on, the way that we would do tool calling in Linkchain was by having the model generate JSON, DSL, and then parsing it. And that was something that I think we all thought or knew was like a little bit of a hack at at at the time, but we had to do it because that was the only way to get it to to actually steer things because you have to get it to do this type of tool calling. And then a few months later, OpenAI came out with tool calling. And I think we recognized pretty early...
+
+And this is like a more native version of tool calling that's directly in in in in the model and in the APIs. And I think we recognized pretty early on that that was the future, and so we invested a lot of efforts and just completely switched from JSON parsing to this tool calling. And so I think you have to basically recognize what things are short term hacks and what things are long term kind of like will always be there. The models will never know your proprietary data. They will never be able to kind of like actually get the output of APIs.
+
+You have to take their, like, API call, pass it to the API, get the output, and then continue in the loop. And so I think the system around the model connecting it to other places will always be there. But a lot the hacks we do around chain of thought or planning or tool calling, things that can just be much more closely integrated into the model or into the model API will go away, and I think you just have to be quick to recognize that and go on. Why do we need neutral harnesses? We see, you know, bluntly, very brilliant agent builders from the models themselves.
+
+Why does your layer not just get eaten by them? I think the reason we need neutral harnesses is that there is a lot of state that you build up either before you build the agent or as part of the agent running. And the state can include things like memory, whether that's short term memory or long term memory. Memory also comes in different form factors. It can be from interacting with the agent versus from the agent learning from the environment.
+
+And the reason that this state gets built up is the agent interacts. It goes out. It learns. It chats, and and it learns things to make it better. I think I think one of the most interesting things right now is how to make these agents do better over time and learn.
+
+And some of that learning and some of the doing better over time will be in the model weights, but a lot of it is outside the model, and a lot of it is in this in this context. When you build up this context, you really don't want it to be linked to a single kind of, like, model provider. The reason for that is that then it becomes linked there. You can't go to other models. Being able to change models is very offensive and defensive.
+
+So it's offensive in the fact that you wanna be able to take advantage of the best model when it comes out no matter who it's coming from. It's defensive in the fact that you don't wanna get locked in, so can't raise rates, things like that. So you wanna be able to switch models. The harness can be very tied to the model. It can also be neutral.
+
+The context right now is really intricately linked to the harness. So the harness's job is to basically take the model and interact with all the other things. All the other things includes data and APIs, but also includes memory. And so if you build this memory in a way that is linked to the harness and the harness is linked to the model, then you're kind of stuck. So the true value of the harness structure is the portability of data that it allows the user?
+
+Yeah. You wanna basically not be locked in to models, and if memory, if context starts building up in a way that is specific to how one model wants to interact with memory or wants to interact with context, that's very bad for portability, and then that puts you at a disadvantage building your your business going forward. We talk with a lot of people about owning their intelligence and what that means, and there's a lot of different versions of that. The version that that that we think, like, owning your intelligence means, we we think there's a few different components of that. But one key component is having kind of, like, this open and controllable agent.
+
+Like, you wanna be able to adjust all the different pieces. You wanna be able to adjust the model. You wanna be able to adjust the harness as well because sometimes these model labs are training harnesses to be really good at the things that are in distribution for them, which oftentimes is coding, and coding is great, and there's a ton of use cases around coding, but there are a ton of use cases that aren't coding. And maybe they'll write code as part of it, but they're using that as as a way to do sales, as a way to do research, as a way to do these... The law, as a way to do these other vertical specific things.
+
+And so when you get out of distribution of what the the model labs are training on, you wanna have control over, like, what the harness And then you also want control over the context as well. So model, the harness itself, and the context make up kind of like this open and controllable agent architecture, and we think that's a big part of what it means to own one intelligence. I just wanna back up a little bit. When we think about, like, agent value, so to speak, some people say that the value is actually in the verification, like whether it did well or not, because that unlocks the next step, which is automation. If value is derived through verification, who wins?
+
+The harness? If value is derived through verification, I think the people who win are the domain experts, the people who are able to kind of quantify what that value means, which is very hard. Building evals is a very hard job. And so I think a lot of the value will accrue to whoever can write those verifiers, capture that domain knowledge. I'm massively bullish on vertical agents for different domains for this reason, because I think the domain experts who are best suited to write those verifiers or build those evals, as we kind of talk about it, They will be able to build harnesses and models.
+
+And it it won't be just the harness. It won't be just the model. It will be some combination of them. So so very practically, if you're getting started building a vertical agent, I would highly suggest you start at the harness layer. You do context engineering.
+
+You kind of, like, tweak the harness. And then when you've got users, then you start tweaking the model in post training. I think it's it's much higher ROI to start at the context or harness layer first. And so I think we'll have all these different verticals. They'll be able to quantify what good looks to them in a very domain specific way, and that'll let them build not only, like, vertical agents, but also vertical agent experiences.
+
+Different agents might have different experiences. And so I think, like, a lot of the value massively bullish on vertical agents, and so we want to enable a lot of that. You said if I was building that, I would start at the harness layer. We're seeing a lot, whether it's Harvey or I think it's Ramp, build their own models. To what extent are they actually building their own models?
+
+Mike Cannonbrooks at Alasdians, don't know, show we really say that it's largely kind of, respectively, BS, and they're fine tuning open source Chinese models. Is that true? And and how do you think about that? I think a lot of it is they are post training open open weight models. Absolutely.
+
+I still think that's a valuable thing to do. I don't think there's kind of like anything wrong with that. I think that... I think there's different, like, dimensions that you can go in terms of owning your intelligence. I think the cheapest way is you just control the context.
+
+You use an off the shelf harness, off the shelf model. The next level down is you start tweaking the harness, and and that gives you more control than just the context, but it's a it's a little bit more expensive to do. The next level down is is you post train an open weight model. And so you might take an an existing open weight Chinese model and post train it for your domain. And then the very kind of, like, bottom layer is they actually train a model from scratch.
+
+I think many folks are training kind of like a model from scratch. I think most are post training. I think if you're training a model from scratch, you're probably at NeoLab. I think those are one of the few that are doing But, yeah, the ramps and the Harveys of the world, they have a ton of talent. They have a ton of data.
+
+They have a bunch of usage and are trying to think about really optimizing it, and so they've gotten all the juice they can out of the context, all the juice they can out of the harness, and now they've arrived at basically post training of these models. Can I ask you, the jury's kind of out on the efficacy of these specialized models in the post training realm like we mentioned there? Some reports I've seen say that massively more efficient and better, and some less so. How do you think this will play out? I think what we've seen in regards to post training is that a lot of the post training that practically makes sense right now is probably for, like, simpler tasks that make up a larger harness.
+
+So what I mean by that is, like, when you have an agent harness that's doing interesting work, it's actually very rarely just one model running the loop. That might be the core of it, but there's a bunch of other model calls that happen either as like guardrails or routing or sub agents or sub workflows or things like that. And so a lot of the places where we see post training being efficient now are for simpler tasks, like classification or extraction or summarization that might be a tool the agent uses or a guardrail or things like that. I think those types of post training right now make a ton of sense and will continue going forward. I think the question that is more unanswered is for this core model that's driving the loop.
+
+Because the the main way an agent works is there's an LLM running in a loop calling tools. And so the question is for for this model that's driving that loop, will those be kind of like post trained models, or will those be kind of like frontier models? And I think this is where we see more of like a back and forth, where like every time a new frontier model comes out, the better they are at just running this kind of like core loop. We do see people like Harvey and Ramp and others kind of like experimenting with post training models for this core loop, and so I think Harvey recently in the past month or so announced something exactly in that vein. Question.
+
+Think If you were building your own vertical application, would you post train your own or not? Not to start. Absolutely not to start. But like if we're talking like five years in the future, assuming that I'm getting a ton of usage, I think it could be a realistic possibility. One of the things that harnesses also need to do, I imagine, is model routing, depending on request.
+
+How much value is in the model routing layer? Model routing is so interesting, and I think it's one of the hottest and maybe most divisive topics right now. So a few thoughts. First, there's a question of where the model routing should even be. Should it be at the harness level, or should it be in the gateway level?
+
+And this is getting a little bit into the technical weeds. What the difference? I'm sorry. The difference is in the harness level, it's in kind of the code of how it runs. And in the gateway, it's just an API call.
+
+So the benefits of putting it in the gateway level, because it's just an API call, you can drop it into any harness. You could put this this routing that's happening at the gateway level into Claude code, into any harness without having to change the code. The downside, and why I think we're more bullish on routing happening in the harness as are, I think, Factory and Cognition have also written things about this, is that in the harness, you just have more knowledge of what's going on. You have more awareness of the state. When you have an API, it's generally assuming that it's kind of like an OpenAI chat completions API, and so it only takes in a certain amount of state.
+
+You have more state in the harness to know, hey, like what's going on with the prompt cache? You want to try to keep the prompt cache warm and available. You can also change the prompt more easily. So a lot of these models have different prompting strategies. And so if you do the routing at the harness layer, you can more easily change the prompt.
+
+And so I think a lot of what we've seen is, one, this debate between kind of like gateway and harness and where does routing go. I think we probably believe it belongs in the And just so we understand, the open Routers and all the other providers, which there are several There are a lot. They are in the gateway. They are in the gateway. A lot of...
+
+Obviously, OpenRouter, incredible company, incredible usage. Had him on the show. Love Alex. Alex is great. I think a lot of why people use OpenRouter and Vercel and other gateways is largely for the model access.
+
+So I think there's also a difference between a router and a gateway. And so I would probably say most of OpenRouter's usage, and Alex obviously knows the numbers a lot better than I do, but if I had to guess, I would guess a lot of it just comes from being a gateway, not a router. So people specify the model they want upfront, and OpenRouter just provides a single API with a single API key for accessing that. In terms of like smart routing, I think that's actually being done like way less than people think. I And think when it's done, it's built into the harnesses by folks like Factory.
+
+I think Factory does a tremendous job about this. They've written a number of technical blogs that are very well done in terms of how they do routing. But I think right now, I I pretty strongly believe that, like, routing, you have to be harness aware. You have to know what the task is. You have to know what the harness looks like.
+
+So I don't think you'll have routing that works for law and works for finance and works for coding and have it all be the same. It's gonna be very domain and very harness specific. I'm sorry, when I listened to you, it seemed so unwaveringly obvious that routing should be at the harness layer, given the context and memory that is stored there. When I have such an obvious response, I like to understand why am I stupid? What is the bull case for it being at the gateway layer?
+
+I think when people talk about it at the gateway layer, I think there's maybe like two things that they're talking about. So one, it makes it way easier to port. So you can take Cloud Code. People love Cloud Code. Right?
+
+If you tell people, hey, you can't use Cloud Code. You have to use this other harness. And there are other good harnesses out there, but let's pretend for a second that you love Cloud Code. And you want to let them keep on using that, but you want to do some semblance of kind of, like, routing to maybe, like, a deep seek or or an open source model or something like that, then the only way you can do that is at the gateway layer because you don't control the harness. Side note, this is another argument for open source harnesses that you can control and modify.
+
+And then the second thing is when when people talk about kind of like routing at the gateway layer, I think they're oftentimes implicitly assuming that there's a domain. So there's kind of like two general domains that you could maybe argue that you can build general routers for. And I actually think OpenRouter has done this to some extent. You could argue coding. Coding is like the the most popular domain.
+
+That's where all the usage is going. Let's build a router that works really good for coding. Maybe we won't be like harness aware, but we'll be like use case aware. So we know different models are good for different things in coding, and we can put it at the gateway. The other thing you could say is like, hey, we've got this, general chatbot.
+
+Like, we're not trying to be best in the class at law or best in the class at finance, but we're just gonna be like a general chatbot across the company. And, like, we can know well enough that if you say, hi, how are you doing? You don't need, like, Opus for that. You can use a cheap model. And so I think when people talk about routing at the gateway level, they're implicitly kind of assuming that you're doing either, like, general purpose chat or coding, and you're not doing, like, a domain specific thing.
+
+As soon as you get into a domain specific thing, I really think it has to be at the harness layer. You're not gonna use an off the shelf gateway router for that. So in two to three years' time, you think the majority is within the harness given the benefits that come from that context. But for very horizontal tasks, it will sit in gateway. I think that's exactly right.
+
+If you're building a vertical agent, I think routing needs to be in the harness. If you're thinking about a general purpose horizontal task, like just general chat or coding, it maybe be in the gateway. Is it a commodity? Like, does everyone just build it? I don't think routing is a commodity.
+
+I do think people will build it, but I think building it is quite hard even today. And I think part of the reason for that is the models just change so rapidly. So like, you argue that certain models are better at different things, but then a new Opus or a new OpenAI model comes out, and it's just better at everything. And so then the value of routing kind of goes down. Do you trust evals?
+
+I think evals are useful, but I wouldn't trust them fully. And so what I mean by that is I I I think a lot of the academic evals that are out there that are used when a lot of the models come out are not really that useful anymore. I don't... I think all the models that come out are kind of benchmark maxed against those evals, and so you don't learn a lot. I think internal evals that you have and that you build for your domain absolutely can still be useful.
+
+And so I would... I mean, this is the main reason that building evals is such an important part of building a vertical specific agent. I think you have to have some way of measuring things. And and I think you can generally trust those evals. But even then, one of the most important things to do is just look at the data.
+
+Just, like, look at the data and see what it's doing. Don't rely too much on kind of, like, a single number. I think this is why you want to have traces. You want to look at what's going on. Maybe your evals aren't perfect.
+
+Evals are really hard. You can have some sense, but maybe models are doing better, but in just a different way that you didn't know how to capture before. And so I do think, yes, I think you can trust vertical specific benchmarks, but you have to evolve those as well. And that's one of the main things that we've seen because these models just get better in different ways. Can I ask you?
+
+You mentioned traces there. If, like, traces are the, like, exhaustive agent work, where is the value then? Is it the app, the observability layer, the model layer? Where is it? If you're building an agent, I think the value is at what makes that agent good at the domain or vertical that you're you're working in.
+
+So what I what I mean by that is, again, I think there's different ways to control what an agent does. There's the context, there's the harness, and there's the model. Having specific proprietary things for for any of those can be an advantage. I think controlling the the context is the easiest and and the most obvious thing to do when starting And that would be data. That would be data.
+
+That would be memory. That would be specific APIs, specific tools that you can use. Controlling the harness is, like, a little bit harder, but still... You can still put a lot of your domain knowledge around what should do, both routing and things in there. And then the model is the hardest control, but potentially the highest ceiling.
+
+The thing that lets you iterate on each of those is evals and traces. So there is a ton of value in these, but there's only value in that you, like, capture insights that you bring back to the context or bring back to the harness or bring back to the model. And that exact process can look different. So post training, great for bringing these insights from traces back to the model. For bringing things back to the context or memory, you're probably gonna wanna run like another agent over those traces and then have that agent output kind of like learnings from memory.
+
+And then for bringing the... These learnings in the traces back to the harness, you're probably gonna wanna run an agent over those traces and update the code of the harness itself. And we actually have something that does this for people. It's called engine. It's an agent in Langsmith that runs over traces and tries to update code.
+
+And then when you update these things, you're gonna need to know that it's actually better, and this is where Evalues come in handy. Can I ask, how does continual learning change agents and how they work? Continual learning, I don't think so much changes how agents work, but I think it changes the systems that you wanna have running around the agent. So what I mean by that is is is I think the core loop for a continual learning agent, the core inner loop maybe to say, will will still largely be the same. It will be an LLM running in a loop, calling tools, interacting with the model in in an environment.
+
+I I think what continual learning adds is an outer loop, an outer loop that looks at the exhaust of agents and then and and then does things with it. And, again, what what it does could be different depending on what continual learning means for you. So I think continual learning is also one of those words that doesn't have a super precise definition or maybe How would you define it? I I would define it as a system that gets better over time as it runs. And again, there's different ways it could get better over time.
+
+Could update the context. It could update the code of the harness, or it could update the weights of the model. And the outer loop will look roughly the same for all of those. It will look like take traces, get learnings, fix something, measure it to make sure it improved, and then repeat. But that exact kind of like changing, again, updating weights of model, very different from updating a text file that is like a memory file.
+
+If we look at the the context layer, we mentioned data being a part of that. We're seeing data companies scale to hundreds of millions of revenue in the fastest time ever. I mean, like, ever, ever, ever, and everyone is selling data. How do you expect this market to play out given your neutrality on not being involved in it, but being adjacent to it? Will this be a market of consolidation in years to come?
+
+How do you see it play out? I actually think the the data market is still, like, pretty early in the grand scheme of things in so much as we're talking about kind of like a context layer for agents. So what I mean by that is, like, there are a bunch of databases that are... Clickhouse is maybe, like, a really good example of one that's doing incredibly well recently. I think they're still largely focused on kind of, like, their database.
+
+They're good old fashioned database. They're good at storing data and querying data, but it's still in pretty kind of traditional ways. Clickhouse existed pre pre AI. When we talk about kind of, like, a context layer for agents, and again, like there will be a bunch of data produced from, like, software systems and great. Like, I think, like, existing databases, Clickhouse, Mongo, Elastic, whatever, are great for that.
+
+When we talk about a context layer for agents, I think a key part of what exists there is, yes, there's a database, but I actually think there's a system around the database. I I think, like, a context layer for agents will look more similar to, like, an agent around a database than just a database. And the reason for this is that taking all of these learnings and ingesting them into a database, you need some sort of, like, intelligence to do that. And I think that intelligence is actually really, really hard. The hardest part about memory is actually not the database at all.
+
+When we talk to a number of companies, the way that they do memory is they just store it in a single file. Very, very kind of simple. The the hard part is taking all of the observations that happen, whether it's from the user interacting with, like, the... Let's say, it's a traditional SaaS interacting with the the software, or the user interacting with the agent and distilling that into information that's valuable enough to go into this context layer. That's the hard part in memory right now.
+
+Why is that so hard? Because it's tricky to get LLMs to do what you want them to do. And this type of, like, meta reflection, I think, is something that LLMs actually still struggle at a lot. Like, reflecting on kind of, like, prompts and improving prompts, reflecting on agent architecture, improving agent architecture. We should build a benchmark for this internally.
+
+We act... We do have some benchmarks for this in terms of engine, which is our agent that's running on things. But I think this type of meta reflection is still really difficult for agents. I think it's also generally, like, a hard thing for humans to do as well. Like, I don't know if we actually understand...
+
+Some people probably do, so I shouldn't say this. But I don't know if we understand, like like, what like, what what goes on inside our brain? Like, I feel like our brains are still kind of like complex things that we don't fully understand. And so if we're trying to now replicate this kind of like learning process in a system, I think there's a bunch of different pieces. And so I think models aren't great at kind of like reflection, and I don't think we know what this system should look like.
+
+What should the inputs be? What should the outputs be? What should the harness for this agent be, what should the different workflows be. Will the models be meaningfully better at reflection in twelve months? Probably.
+
+I mean, seems like they'll get better at everything. Do you think the speed of model improvement will continue in the same manner of acceleration that it has done, or do you think we are approaching some form of asymptotic plateauing? I think the speed of model improvement is something that's probably really tough to say without being inside of a lab. I would say I think there are a lot of tasks for which the model improvements will flatline in the sense that, like, it's already good enough. Like, I think there are a bunch of tasks where the models are just good enough.
+
+Which would be like coding? Yeah. Coding's getting there, like summarization, routing tasks. There are probably more difficult tasks or tasks that we don't even know to think about, know to throw a model at. I would probably say, like, this type of, like, meta learning is one of those tasks that the models aren't good at now.
+
+I would imagine is very important to the labs in terms of kind of, like, cracking RSI or or things like that. And so I do think the models will get better at that over time, and it's possible that that progress actually looks much faster than than previous. Think I it's really tough to have an educated opinion without being inside of a lab. There are some tasks where it's saturated. There are other tasks where I think it will probably just increase faster than before.
+
+What about agents today? Sounds crazy that you think will be incredibly common in two to three years. I mean, I think this memory layer for agents is still massively unsolved. I think one thing about agents that is rare today but will be incredibly common in the next few years is is this memory layer. So what I mean by that is if you look at, like, Instinct or Muse, I think one of the things that they've nailed is this kind of, like, personalization and learning and seeming like it's something for you, whether it's because it's speaking in the tone or because it's just following up, like that proactiveness.
+
+And so I think memory is super, super early. We've been talking with folks about memory for like two years and trying to do things in the open source. We we launched an alpha and then... And it killed a commercial solution for memory. It's just so early on in memory, and it's so domain specific.
+
+What memory looks like for Instinct or Muse is actually pretty different than what it probably looks like for a company or org harness, and it's pretty different than what it looks like for legal or finance or things like that. So I think memory is one thing that really makes a difference. You see this make a different... I think Instinct and Muse have done a great job at this, and so you see how it makes a difference there. But I think it's still very, very early on, and I would expect all products in a few years to have some aspect of memory in With respect, is that not quite obvious?
+
+I think the fact that memory will have an impact is quite obvious, and that's why you see so many people interested in it and have... Having it be interested in it for for the past few years. I still think it's non obvious what the answer is. I still think it's incredibly non obvious what the answer is. I don't think anyone knows what the answer for memory is.
+
+Why did you kill the commercial solution for it, given the obviousness of it and the clear need for it in in almost everything? We killed it because we didn't find product market fit. Why didn't we find product market fit? I think we actually tried to be too general. I think memory so early that I think a lot of the solutions that you wanna build are actually very, like, domain or agent specific.
+
+And so you would build vertically specific memory solutions? What would you do differently? So, again, going back to what the hard part of memory is, I think the hard part of memory is that process for learning from facts about what to remember and that agent that that that does that remembering. As I said, I'm I'm massively bullish in kind of, like, vertical agents. I think having those agents be good at learning things specific to their domain is is a key part of of that.
+
+And so I do think these kind of like learning agents, at least to start, probably have to be domain specific. And I don't know if there's like a general... Like, what what does the what does the harness for these learning agents look like? It probably looks pretty similar to a lot of the harnesses we have now. It probably looks pretty...
+
+We build deep agents. Deep agents is an agent harness. Probably looks similar to that, and, oh, I'm running the loop. But it's got specific instructions and specific tools, and maybe there's some specific sub agents that are really good at navigating existing memory structures or or distilling kind of like facts. And so I think you'll have you'll have agents for memory things.
+
+I just think they'll be domain specific. Do you think you will have vertical agents for consumer applications? I understand, and I agree with you when you look at finance, accounting, sales, marketing, legal. You mentioned muse and instinct. They would be horizontal agents.
+
+Do you think we'll have vertical consumer agents? I think my take on the consumer space is that you'll both. You'll have both horizontal and vertical agents, and the horizontal agents will interact with the vertical agents. Where does it make sense to have a vertical agent versus not? I think for most apps, it probably makes sense to have a vertical agent.
+
+And I think the reason that having vertical agents makes sense at all is is probably twofold, maybe more, but two that jump to mind. One, a lot of these apps have knowledge about you and can learn things about how you interact with that better than a general horizontal agent could. So back to the point about domain specificity, how how you interact with music for, say, like Spotify is very different than how you might interact with Strava. And so those apps are actually probably best at learning things about you. And I think the best way to expose those learnings is probably through an agent.
+
+The other thing is a lot of these apps have a ton of APIs. And so you could say, hey, Spotify, don't build an agent. Just expose a bunch of APIs. I actually think it's better for... It's a better experience if there is an agent that kind of like wraps those APIs and exposes a single or maybe multiple, but like probably a single, like, natural language interface for a horizontal agent to interact with that vertical agent.
+
+How does the infrastructure change when agents are the fundamental interface with sites? And what I mean by that is, you know, I wanted tickets to a specific concert, and I said check every five minutes and buy any seat that comes available, da da da da. And for three days, it checked every single five minutes. The volume of queries was a thousand times what it would have been with humans. How does the infrastructure require change in a world of interaction or human interaction?
+
+When agents are interacting, it makes the number of requests go way up. I think I think you saw a story about how... I think it was Resi that blocked a user's account because they were using Instinct to to pull it, I don't know how frequently, but pretty frequently. And so I think there's just way more strain on the infrastructure. How how does that percolate down to lower layers?
+
+I I don't know if I have an opinion on that yet. I think you have to build systems that can be much more bursty, that can scale way way broader. I don't I don't know if I have more specifics on Do think providers will allow agent usage or not? I think the future is providers exposing their own agent and having people either interact with that agent or having people's horizontal agents interact with that agent. So my horizontal agents, sorry, just to understand this, would interact with Resy's vertical agent.
+
+I think that's exactly right. Why would that work? Because that still doesn't solve the two core problems of advertising for a lot of these businesses. They lose their ads model and then upsell. They lose the, like, anything else you might like also on the side.
+
+You get reduced basket size. Why why would agent to agent work? I think you could include some of those things in the agent response. So you could do advertising for specific things on on Resi or Etsy or whatever and include that in the agent's response. Like, hey, I found these three things.
+
+You might also want to consider this other thing. That's now a natural language response that goes back to kind of like the the main agent. I think also to the point around the strain on the systems, if you have a vertical agent, it's gonna be better and more efficient at interacting with the underlying systems than a third party agent will. So I think it will make it a lot more efficient for for them to do that. When we look at the amount of queries and the volume that changes with agents, It takes a lot of tokens to do all of this work.
+
+How does the cost of tokens and cost of that intelligence change over time? Because we always thought it would get cheaper. Hasn't gotten much cheaper. How do we actually think about that? Cost is one of the big things that we talk with people about right now.
+
+I think there's a few different dimensions to this. One, I think like the frontier models are relatively getting cheaper over time. Astra is, like price per performance, fantastic compared to a lot of things that existed a year ago. Two, there's just way more demand. When you start talking about agents talking to agents or multi agent systems, there are just so many more tokens that are getting burned, and so the costs are going up.
+
+We see this in coding primarily. Coding costs have skyrocketed, and I think a lot of organizations, including ours, are now thinking about ways to kind of like pair pair those costs back. How does this end up getting resolved? I mean, if you look at how we're tackling coding agents, I think there's a few hints there. So so when we're tackling coding agents, think of it in three steps.
+
+One, we think of basically just, visibility showing kind of, like, how much things will cost, how things have cost to admins. Two is cost control. So you could say something like, hey, you know, go get me a reservation, but don't spend more than $5, like, doing it. And then third is actually impacting the harness itself. So I think primarily a lot of harness engineering has been done around making the agent more efficient because that's the...
+
+Or sorry. A lot of the harness engineering has been done to make the agent just like better, more accurate because that's the biggest blocker. I think as cost becomes more concerned, we're seeing people care more about things like prompt caching, which are really good for kind of like reducing costs. We're seeing model providers actually make this easier by... And this getting a little bit in the weeds, but they introduce things like where where you can change the tools that are available to an agent mid flight.
+
+Previously, this would have busted the cache and caused like a massive increase in in cost. Now you can just add those dynamically and keep the cost the same. So I think we're seeing more attention to both the model APIs and and harnesses in terms of, like, controlling costs. When you talk to large enterprises today, what matters most to them, is it accuracy? Is it cost?
+
+Or is it security? Another thing would be latency, by the way. So so we so we run developer surveys every year where where we ask developers what they care about. For the last two years, the number one response, basically double the next two, has been accuracy. So that's still the the primary thing.
+
+The next two are latency and cost, and security is, like, a a little bit after that. Pretty close. When we talk to large enterprises recently, I'd say, like, cost has has risen in terms of concern. I'd still probably say it's below accuracy, but it's probably higher than latency. And then security is...
+
+For large enterprises, security is higher, but still probably below accuracy and cost. What percent of your engineering salary, give or take, not specifically, but do you spend on coding tools? I think we spend probably roughly 30% of our engineering salary on coding tools. It's actually gone down the last two months, while tokens, the number of tokens that we've used, has actually gone up. And so this has...
+
+We've done this by three steps. First is basically just visibility. We tracked all of our coding agent usage to Langsmith so we could tell who was spending how much, what they were spending it on. We could do analytics over that. Second is just basic cost controls.
+
+We set kind of like a budget. And and if you if you hit the budget, can talk to our VP of engineering and and he'll almost always like increase it, but it's just a safeguard against kind of like agents being used incorrectly or going in a in a in a bad loop. And then third would be we control the harness. So one of the things we've done is we actually built our own in house cloud coding agent. So not not a IDE, not a not a terminal based agent.
+
+We we let people use whatever they want for that, but we built our own cloud based agent, Oop... OpenSUI is what we call it. It's actually the only way I code anymore because I'm in Slack all the time, and so I just message it from Slack and it kicks off. But in that harness, we've done a bunch of work to control costs. So things like prompt caching, but also things like routing, we've built into this harness.
+
+And I actually think that's like a pretty repeatable three step process for kind of, like, getting coding agent spend under control. Just first, visibility. Second, like, basic controls. Third, like, try to improve the harness itself. Totally get that.
+
+I do just wanna unpack that. You mentioned that visibility, see who's spending what. Were the people spending the most the most effective? Sometimes the people spending most are the most effective, and other times they're not. So what I mean by that is we have a few senior engineers who spend a lot, and I a 100% trust that what they're doing is well worth it.
+
+No questions there. We've also just had some cases do do more to, like, kind of, like, silly mistakes or kind of, like, improper setup than anything. We've had, like, massive spikes in usage. So so an example of this, we we had one or two tasks where some plug in was being used that basically, like, would would screenshot or take a snapshot of of the DOM of a web page and send that back every turn of the agent because they were doing some front end engineering, and they wanted to take what it looked like and just send it back. It would just run this massive loop.
+
+And so I think we spent 40 k in a week on on that one thing. You know, when it gets to that, like, again, like, I think we're pretty kind of, like, liberal as a company and trust people, but I I know that's probably not worth it. So And that's just like an example of like... Again, it's... It wasn't malicious.
+
+It wasn't even intended usage really. It was kind of just a mistake. And so I just think just like catching that is well worth it. So it depends a bit on the side of the spectrum. 30% of salary, as you mentioned.
+
+That's guesstimate. Yeah. A guesstimate. Totally fine. What is that in two years?
+
+I think the hard part about estimating coding agent spend is that orgs are just changing so rapidly. So what I mean by that is I think there's a future where orgs are much smaller and coding agent spend is, you know, the same as human salary or or or more or an order of magnitude more. And you have a small number of people that are driving and executing incredibly rapidly and incredibly performantly. And I and I think that's an enticing vision in terms of of of what you think about. I don't think many companies, including us, are are probably there.
+
+I think we still see that we need a bunch of different people with a bunch of different backgrounds and a bunch of different expertises collaborating on things, and there's a bunch of communication and overhead and review. And, like, yes, it would be ideal to have one person driving a 100 agents and just, like, driving everything that, like, makes up, you know, a large part of the product. But I think we just see that it's still a very human component to it. And so I spend a lot of time thinking about kind of, like, org design. Is it possible to have, like, small teams, one person teams, two person teams that are kind of, like, driving agents?
+
+I think it's very tempting. And in that situation, I would say, like, you know, agent spend, maybe three x the cost of... But then also, you know, the engineers who can do that are incredibly valuable. And so maybe it actually will just stay the same because the people who can actually do that and who can drive all those agents, there's fewer people, but you're paying them a lot more. And so the spend actually stays the same.
+
+So I think org design is very, very interesting right now. And so because of that, I think it's actually really hard to answer that question. To me, that number is so central because it is the fundamental determinant of Anthropics enterprise value. If that number goes to 5%, then the $2,000,000,000,000 IPO might be a little bit overpriced. If that number actually goes to 300% like it is in McCall's case, then it's dramatically underpriced.
+
+And so that's why I focus so much on it. Do you agree that number underpins Anthropix value? I think it's probably right that that number underpins Anthropix value. I think the tricky part is that the only place we've seen agents really have effect is in software engineering so far, though. And there are a ton of other places within an enterprise that I I would argue have yet to kind of be affected by by agents.
+
+And so I think it's possible. Again, software engineering, think very difficult to predict. But but I think there's basically two levers here. One is like what happens in software engineering? Is it the same as today?
+
+Is it more than? Is it less than? But I think undoubtedly for the other domains, it will be a lot more than it is today. And so I think from that perspective, I think that's very bullish on Anthropic and OpenAI and other model providers. I think another question that a lot of people are asking is about kind of the proliferation of open models and how that changes the landscape.
+
+You work with some very large enterprises. One of my dear friends, Jason Lampkin from SASTA says that I'm not gonna do his accent because I'll butcher it, and I've done it before, he got rather... He said it wasn't very good. Do you find that large enterprises are fearful of working with open source Chinese models, or actually, they don't mind? We see that some enterprises are fearful of working with open source Chinese models.
+
+We we we see others that don't care. Seriously, not fear is justified. I don't really think that fear is justified. I think there's different concerns. I think one concern is that the data that it runs on will somehow go back to the Chinese labs.
+
+And again, if you're if you're using Fireworks or hosting it yourself, I think that's just ridiculous. I think there's other fears that the stuff that they've been trained on will cause it to respond in a way that's, you know, not consistent with the values of the enterprise or something like that. Think I that's where evals come in handy, I think that's largely unfounded. But, like, sure, maybe for some domains, there's there's some realness there. So I think it's probably largely unfounded, but for some domains, because of that kind of, like, response, like, I could see there being some some nuance there.
+
+Do you think in the next twelve months, we'll have comparable US open source models? I think in the next twelve months, we'll absolutely have comparable US open source models. I think you look at everything that NVIDIA is doing to kind of, like, work with the ecosystem. I think they they care about it tremendously. You look at...
+
+Reflection had a model launch recently. I think it was still a little bit behind some of the Chinese models on some benchmarks, but I think there is a tremendous amount of attention in that domain. And so I think absolutely this will catch up. When you look at the state of land, say, today in terms of open models, what does the world not see that you see very clearly given your position? I think when it comes to open models, I think there is a lot of usage of them, but I do think they're for more narrow tasks than people think.
+
+So I think we see a lot of people using more open source models and more post trained models than than I would have maybe expected a year or a year and a half ago. But I still think they're primarily for these simpler tasks like routing or guardrails or extraction or summarization. I don't think they're really driving the the core agentic loops for a lot of these main agents. And and so I think open source models are are kind of divisive cause you have some people on on one end who are like, great. They're they're good enough.
+
+Let's use them for everything. And and I don't think they're quite there. And then I think you have other people who are like, you know, the frontier models are just going to keep on getting better and better and cheaper and cheaper. And like, yes, that's true. But if you really know what you're going to do, so you have to have a high volume use case.
+
+And if there are a few components of that that are simple enough tasks, I think it's very good ROI to start kind of like post training models for for those use cases. How do you see the inference market playing out? You mentioned that Fireworks very openly. We're a big investor in Fireworks, and I love Lynn and the team. But everyone's trying to do it.
+
+You you... We had Chase on the show from Crusoe who also have that as part of their business. You know, friends with the Nebius guys, they also do it as part of their... How does this business play out? And how do you think about the need to do all of the stack versus inference only providers like a Fireworks or a Base 10?
+
+I think when it comes to how things will play out with respect to inference, there's two things that I I think I really underestimated from the start of Lang change now. One is the demand for inference, and two is the demand for, like, coding agents. I think both of those markets are just tremendously bigger than than I thought three, four years ago. I think actually it's it's Eric Visserie at Benchmark who said this on either a tweet or podcast recently where I think he basically said, like, everything just works. Like, this this market is so big.
+
+I think Thomas Tungs as well had something around just, the market for inference is just so big that... And I think Eric said it about more broad stuff than just inference, but I think applying it to inference, I think any inference will work. That's like, you know, there's just so much demand for it. And I don't know if it's gonna get less anytime soon. And so, yeah, sure.
+
+Fireworks will work. AWS will work. Crusoe will work. I just think there's so much demand for it. Why would you not be investing today?
+
+Like, I... So I can give you some examples. I think the the customer support space is, like, wildly uninteresting. 20 providers all funded with over 100,000,000 in the last eighteen months. You got Salesforce and Atlassian and big incumbents there too.
+
+You got kind of mildly old ones like Intercom and Talkdesk doing it too. Okay. Cool. All like robotics, like, tape, but there's so much money going into robotics. We're massively far away from having a chat GBT moment.
+
+Humanoids, in particular, really struggle in form factor. I just think funding in that excitement exceeds the capability significantly would be my answer. I like to think I'm somewhat of an optimist, and so I I do think this technology is transformative. And so I think there will be ton of opportunity, and so I might answer that. And through that, we can back out what I wouldn't invest in.
+
+I like... I I I think inference, we already talked about, I think there's a tremendous there's tremendous Let's do this. You're you're you're my newest partner in Welcome. The It's so good to have you on your first day. Thank you.
+
+Number one, we should have inference. We should have inference. K. There's gonna be way more software written, so we should also invest in like lower level kind of like infrastructure primitives. Modal, incredible company.
+
+Temporal, incredible company. So they don't compete with Modal does on some things, yeah. But they also do more. They do sandboxes. So we've got inference layer, one, the coding layer.
+
+I would say inference and then like infrastructure. So like low level infrastructure, temporal, modal, super base, convex, vertical agents. I think vertical agents are going to be a good layer. Any specific verticals? I don't know if there's any kind of like verticals that I would overweight so much.
+
+I think the important parts are having like domain specific kind of, like, point of view and and really diving deep there. I think Patrick Collison said this on a recent podcast, I think with Amjad from Replit when he was talking about, like, what the next startup he would build. It probably wouldn't be, like, a sexy area. It would be some area where, like, technology maybe or at least AI penetration is low, but there's a lot of domain expertise built up there and kind of going in there and and really transforming that. The key part is basically just having some domain expertise that can either be captured in data or logic that goes in the harness and eventually, maybe the model weights, but but I wouldn't start there.
+
+Having having some domain expertise that can be captured there and and then putting it to work. I think, by the way, there there there are maybe like three things that I would look for in all of these, and I think are prereqs. If you look at all of these teams that that are succeeding, one, think, like, the talent that they have is tremendously strong. Like like, Modal has an incredibly strong kind of, like, talent team. Lin and Fireworks.
+
+Right? They wrote PyTorch. Like, how cool is that? Right? When we met them, you know, when you're kind of meeting founders, the last time you do the brief intro, it's like, I built PyTorch.
+
+Yeah. Oh, well, that that that works. Yeah. Yeah. A good tick in that box.
+
+So so I think to build, like, especially this really deep infrastructure, you have to be, like, super technically strong. And there's just not that many people that can do that. Two, you have to go, like, really, really fast. Like, this this... Like, being able to iterate quickly, I think, is incredibly important.
+
+The market just changes so rapidly. I think I think speed and execution speed... When when I think about kind of, like, our advantages at Linkchain, I we think do it really, really quickly, and I think that's one of the advantages we we have over other companies. And then the last thing would be brand. I think like a lot of companies that made it in this AI area AI era basically caught lightning in a bottle and then, like, rode that wave and captured that.
+
+You look at, like, Lane Chain early on. Like, we went very viral and and have executed against that. Cursor, a great example. They went very viral, executed against that. JEV, even Claude Code, ChatGPT.
+
+Like, it seems like the space is moving so fast. And because there are so many competitors... And maybe this is even because of it. Because there are so many competitors, there there were, like, a 100 different frameworks that came out in the the two months after Langcheng came out. But I think we had a brand advantage that was built up, and I think that was a durable advantage that we kind of, like, rode.
+
+And so Instinct, another example of this, is probably a bunch of personal assistants. I think if there is a... In terms of, like... It would probably be at, like, maybe higher valuations than is rational. But in terms of some of these funding rounds that are getting done, where there's a breakout company with a really strong technical roster that has proven that they can execute quickly, I think you just don't look at the price and you just invest.
+
+Is being first more important than ever before? I think so. Absolutely. Yeah. You look at...
+
+Mean, it's possible to catch up. I think OpenAI's an incredible job of catching up with Codex. But being first, Anthropic and Cloud Code, that... Wow. What an advantage that was.
+
+But to your point, yeah, Langhain comes out. And then months after, more and more come out, but Instinct, same, same. But actually, the durable brand monopoly that comes from being the haloed first is very real. I think that is super real. I also think that you have to execute incredibly well after that.
+
+Counter example to what I just said, like, just because you're first doesn't mean that you're guaranteed success. AutoGPT. I don't know if you remember the AutoGPT project, but it came out a few months after LangChain, was the fastest growing GitHub project of all time. I haven't heard much from them since. And that's not a knock, because it's very hard to kind of like execute with speed.
+
+But I think like just because you're first in an area doesn't mean that you'll you'll kind of like survive. I never like to knock people, so I find it like helpful to like praise them instead in some respects. If you were to write a memo joining the firm for why we should invest in $9,000,000,000 JEV round, what would your bull case be for JEV? Bull case for JEV is that there's a new type of inference and new type of model, and the model category is literally named after them. And so there's...
+
+They're gonna ride that wave, and they're a very talented team that can execute on that. I don't know the team super well. I think that would have to be the assumption for for a round at that value. From everything that I've seen, I I... That seems to be the case, but but that would be the bull case.
+
+They basically invented a new model category, are associated with it, and have a talented team that can execute on that. Does taking money from Benchmark change the trajectory of a company? A 100%. I I think Benchmark... When Miles and really the whole Benchmark partnership invested in us, it was me and Ankush.
+
+We were two people. We really thought of them as kind of like a third cofounder. You know, when when I think about company building from from two people to where we are now today, which is like 400 people, they have been kind of like our our most consistent kind of like partner in that in that journey for sure. You know, I am I am not a VC. I've never done VC.
+
+There's probably also other market dynamics where great, Benchmark's involved and that signals thing. And we're very lucky to have Sequoia join us after, like, two months, three months after the Benchmark round, and they've been a tremendous partner as well. Who was it from Sequoia? Sonya from Sequoia, who is one of the most plugged in people in the spaces. How do their styles differ?
+
+Benchmark is maybe a little bit more what's the core nucleus of the company, and, like, that's... Like, we're we're gonna be a sounding board for that, and we're we're gonna kind of, like, help with that. So so what I mean by that is I feel like, yeah, a lot of the company building things, positioning things, would go to them for, and they would spend time there. Sequoia's style, I think, is they help with, like, everything. Like, they are just a machine.
+
+So they help with recruiting of ICs, of executives. They help with marketing and launches, and they all really Is it pretty work? I think so. Yeah. I mean, we've gotten a lot of our candidates from from Sequoia references.
+
+Really? Yeah. They they have a talent network, and we've gotten in a bunch of really, really strong candidates from there. Would you say to founders it's worth taking a discount for Sequoia? I think absolutely it's worth taking a discount for Sequoia and Benchmark and and probably other of these top one tier or tier one VC firms, but those are the ones that we work with.
+
+What do you know now about fundraising that you wish you could tell yourself when it was just the two of you? I think there is, like, this game to fundraising almost, and I I I definitely didn't know that going in. I'm a first time founder. Like, where I spend all my time is on product, basically, so I'm very focused on that. I do think there is this game to fundraising where you wanna fundraise without fundraising.
+
+You wanna, like... Once you get one term... You wanna get one term sheet and then, you know, tell others you have a term sheet and Post a revenue graph on Twitter, and then it leads to all these inbound. Yeah. Do you fucking like this?
+
+I fucking hate it. Maybe I'm too old for this game now. It's just posturing. It's like, Harrison, do you really like me and wanna build a business with me? I'll give you the same price and the same money than whatever.
+
+Let's just do this. Stop fucking posturing. I don't like fundraising at all. Think, I mean, kind of what you were saying. I want to build something great with people I enjoy working with.
+
+I think, yeah, especially for the scale of ambitions that we have, we need to fundraise to get that done. I think that that was the approach that Benchmark kind of took when we were fundraising from them as well. Like, hey. Let's figure out, like, you know, if if we like each other and wanna work together. By the way, that was very good negotiating by them, and so I think they, you know, they're very good negotiators as well.
+
+But when we... When I look at, like, our most recent rounds that we've done, like, we raised from Tom at at IVP, our series B. I'd been chatting with Tom from, like, I think right around the Sequoia round for, like, over, like, two and a half years. And so that was, a relationship that we just built up over over time. And I got to know him and he got to know me.
+
+And so when it came time to to fundraising, I feel like there was, like, less games in in... Involved there, and I really appreciated that. I would love to do a quick fire round. So I say a short statement, and you give me your immediate thoughts. Does that sound okay?
+
+Let's do it. What was your single favorite VC meeting? First pitch with Benchmark. So many legends in the room. Who is the coolest to hang with?
+
+Bill Gurley. Were you intimidated? I think I was too naive to be intimidated. He's also just like a big man. Like, it's it's an intimidating figure looming over you.
+
+What is the single most important thing you believe about agents that most of the ecosystem would disagree with? It's still really hard to build them, like really, really hard. Maybe people would agree with that, but I think it's just underrated how hard it is. What have you changed your mind on most in the last twelve months? Market for inference is massive.
+
+I remember talking with the board about whether we should do a gateway a year and a half ago, and we didn't see what value we could add over something like Open Router. And I think that was a 100% the wrong decision. What's been the hardest technical thing for you and the team to build? We built our own database for storing agent traces, SmithDB. How do you think about competing with ClickHouse and being a customer?
+
+Kind of weird or normal? I think there are 500 different companies that we are frenemies with. And so I think I've personally gotten very used to it. You can invest in one IPO. OpenAI at 1,500,000,000,000 or Anthropic at 2,000,000,000,000?
+
+OpenAI. I think they have more diverse different paths to really tremendous exits valuations. Totally get that. What do you know now that you wish you'd known when you started in 2022? I wish I knew what harnesses today looked like so we could have built them earlier.
+
+Final one for you. What are you most excited for when you look forward five years? I'm really excited for what we... What creative things we can do with AI. I think a lot of AI...
+
+You know, and a lot of what we work on is, you know, helping enterprises be more efficient and and delivering outcomes. I think creative things like Suno are are tremendously interesting, and and I wish we'd see more of those. Totally agree. I remember having Mikey on the show. That was a fun one, actually.
+
+And this has been so much fun to do, Harrison. Thank you so much for putting up with my waywardness and divergent schedules, but you've been an amazing guest. No. Thank you so much for having me. But before we leave you today, what do Uber, Cursor, and Harvey have in common?
+
+Well, they made the really wise decision to build on Fireworks. Fireworks is the specialized intelligence platform behind many of the world's leading AI products. Companies use Fireworks to deploy the latest open models, specialize them with their own data, and run them in production with the speed and reliability modern AI applications demand. But getting models into production is only the beginning. As AI usage scales, the best model for one request isn't always the best model for the next.
+
+Well, that's where Fireworks Nexus comes in. Nexus connects to the AI coding tools and harnesses your engineers already use and intelligently routes each request to the best model for the job, helping you optimize for quality, latency, and cost without changing how your engineers work. To see intelligent model routing in practice, visit fireworks.ai/20vc to create a free account, and use the promo code two zero v c 50 to claim $50 in credit for 20 v c 50. While Fireworks powers AI, Laredon helps you measure its impact. Every company now runs two workforces, humans and AI agents.
+
+Laredon is the first unified dashboard across both workforces that measures their work and optimizes their impact. Larrudin answers four questions. Who's using AI? Which tools? What is it costing?
+
+And what's it actually being produced for every team across every vendor? AI ROI stops being a guess and becomes a number that you can consistently and confidently measure. Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Larridin. Thousands of AI tools and millions of dollars of AI spend are measured. You bet on AI.
+
+Larridin proves that it's working. Visit larridin.com to learn more. That's larridin.com. While Larridan tracks AI impact, Superhuman helps you move faster. Can I be honest with you for a second?
+
+Here's what my week actually looks like. Back to back meetings all day, and the real pressure builds up in the gaps between them. I'll come out of six founder meetings with a whole stack of follow ups waiting, and my inbox is hundreds of messages. And somewhere in there is the one thing that really matters, which I always tell my mother is her. I've tried AI tools for this, but they always lived in another tab.
+
+I have to stop, go find it, paste in the context, write the perfect prompt. It was just enough friction that it never really stuck. Superhuman Go from the makers of Grammarly, totally different. It's right there where you need it, when you need it, in the doc, when I'm reading, the email I'm writing. When a thread gets dense, I highlighted and asked Go to pull out what matters without losing my place.
+
+And after a run of back to backs, I asked what was actually decided, and Go turns it into clear action items or drafts, the reply I need to send. It's already up to speed, and I'm always the one in control. Try Superhuman Go from the makers of Grammarly and find out more at superhuman.com.

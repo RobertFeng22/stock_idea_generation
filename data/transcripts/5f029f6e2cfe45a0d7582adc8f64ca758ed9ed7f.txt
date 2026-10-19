@@ -1,0 +1,311 @@
+In the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors because they effectively have arms and legs, which are payment credentials. Amazon recently blocked Muse, and there are many reasons for this. You can either be antagonistic to agentic commerce, or you can be highly receptive. What's happened with the rise of, you know, Muse and Instinct is once they have access to payment credentials, their utility increases. So we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents.
+
+Everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS. The largest online merchants, the largest neobanks, and the largest Frontier Labs all use VGS to secure payment credentials. It's a really formidable position to be in. Where do you think VGS is going to go? I think we are AI agents are moving from recommending what you should buy to actually buying it for you.
+
+That creates a deceptively hard question. How do you safely give an AI access to your money? In this episode, a sixteen z general partner Alex Rampell sits down with VGS chief strategy officer, Terry Angelos, to unpack the emergency payment infrastructure behind AgenTic Commerce. They discuss the new wallet wars, how payment credentials could move safely between consumers, agents, and merchants, and why new agentic tokens could allow AI to transact without breaking the protections consumers already expect from credit cards. They also get into what happens when an agent buys the wrong thing, why some merchants may actively resist agentic and how the economics of everything from credit card rewards to subscriptions could change when an AI is constantly optimizing on the consumer's behalf.
+
+Because giving agents the ability to spend doesn't just make them more useful, it could reshape who controls the customer relationship itself. Hi, everyone. I'm Alex Rampel, partner at Andreessen Horowitz, and I'm here joined by Terry Angelos. And I'm very excited about being joined by Terry because Terry and I started a company called TrialPay in 2006, long, long time ago. Twenty years ago.
+
+Twenty years ago. Alex looked very different. Yes. You look the same. So I think you're insulting me and I'm complimenting you and hopefully not the other way around.
+
+But today, this is the really cool part. One of my first investments here was a company called VGS, which stands for very good security. And some people might not get that's actually a pun or a joke because one of the most famous cryptography companies was called PGP, which is pretty good privacy. And obviously, it's very good private... It's not just pretty good privacy.
+
+It's incredible privacy. It's unbreakable privacy because it's very hard to factor very large composite numbers into their primes, and pretty good privacy is actually very good. So that was kind of the original name for very good security. So I led this investment a long time ago. Trialpay got bought by Visa.
+
+Visa, under your leadership, invested in VGS, and now you're back. And you're the chief strategy officer and board member alongside me at VGS. Yep. It's been a very fun and incredible journey. And I think if you look at VGS today, it's a payment infrastructure business.
+
+We secure credentials for about a third of all e commerce by GMV. And we have the largest online merchants, we have the largest neo banks, and the largest Frontier Labs all use VGS to secure payment credentials. And I think today, part of the reason why we wanna talk about agentic commerce is because VGS is involved in helping agents get those credentials, helping wallets hand those credentials to agents, and also to merchants who have to receive these credentials. And so we're sort of in the middle of these really interesting conversations and handovers between credentials. But maybe we should dig into what a credential is.
+
+I mean, credential is a fancy way of saying a credit card for laypeople. It gets a little more complicated than that when you really dig into it. But you work with... I don't know which merchants I'm allowed to say that you work with. You work with all the big ones.
+
+But like, why don't we take an example merchant that you work with kind of pre AI, pre ejected commerce, and just explain what you do. Like, why do they use VGS? What do they use you for? And how pervasive is it? Yeah.
+
+Let's assume we're working with a very large online ordering platform. And so that company effectively has to store your credit card every time that a new customer comes into that site and hands over a credit card. That company doesn't necessarily want to be exposed to that card number. And so VGS is involved in capturing that card, securely vaulting it, and storing it. And every time that the online ordering service wants to transact with one of its processors, it goes to the vault and retrieves the information in such a way that the online ordering company never actually has to touch the payment information.
+
+Now, one of the things that I think has made VGS a lot more interesting since the days that you first invested, it's been a decade of becoming sort of the most trusted vault online, is that the card networks have also introduced a form of tokenization so that in our days back in trial pay, we would actually store a 16 digit PAN and we would encrypt it. That PAN is a primary account number. A PAN is a primary account number. Credit card number. It's the 16 digit number that you have on your card.
+
+We would encrypt it and vault it. And then when it came time to charge someone, we might unencrypt it and give it to, I think, Chase Paymentech back in those days. Today, that doesn't happen. Today, instead what happens is rather than store that 16 digit card number and use that, you actually go to the network that issued it. So Visa, MasterCard, Amex, Discover, and you say, I would like another version of this card that's actually domain bound just to my merchant domain, which is safer because if there's ever a problem, the only number that I have only works on my merchant domain.
+
+And I am going to use this when I send it to Chase Paymentech. So VGS as a company vaults all these credentials on behalf of the merchant, also gets all of the network tokens, which is the primary way that these credentials are passed to the payment processor and to the network. And that's what we do today. And so because of that complexity of interacting with the card networks and doing this across multiple processors. So actually, here's a question for you, Alex.
+
+If you're a merchant with over $1,000,000,000 in GMV, how many payment processors do you have on the back end? Well, it depends. So there are plenty that just have one, but you are better... Mean, but this goes to the use case of VGS, which is rather than being locked into one payment processor, you'd rather unbundle that, and you'd rather be able to pick and choose which payment processor you use. But also, if you have kind of a shared infrastructure that is storing credentials, what if one credential goes bad?
+
+What if my... I just had a Capital One card. Great example. Capital One bought Discover card or Discover Network. And then my my fancy Capital One cashback rewards, 1.5% Visa card, it became a Discover card.
+
+And every week, I get notifications from very sad merchants. We are unable to process your card. Why are they unable to process my card? Because that old card number doesn't exist anymore. Even though I still have a relationship with Capital One, I just got a new card number from them.
+
+Yeah. Granted, it's a little bit complicated. It's on a new network. There's also the possibility, like, merchants can't just say, oh, we know that this card became that card. One merchant cannot do that.
+
+Yeah. But a large vault can do that. And then as the actual networks themselves, like Visa and Mastercard and actually Discover too, they have these account updating tools. So you could say, Hey, I'm a merchant. I have all of these card numbers.
+
+And I think, what is it, every year like 10% of cards expire? Yeah. So about a third of all cards get turned over every single year. No, even more. Like 25% mathematically, because it's a four year expiration, and another 5% due to, in this case, Capital One buying Discover or fraud or something else.
+
+Back to that question, by the way, for a merchant above a billion dollars, it's about three to five processors that merchant will have. So now They don't have to. They don't have to, but they should. No. Average is that we see across the ecosystem.
+
+For them to do that because different costs, different approval rates, different regions, like you want to shard Correct. In in kind of computer science terms. You wanna... You have all of your cards. And if you just say I use the same processor every single time, that's just not a good idea, or it's not as good of an idea as I can have multiple processors.
+
+But in order to do that, I have to be able to securely send the card number to the processor that I've chosen. Yeah. That's right. And in fact, once you have multiple processors, then the job of vaulting and getting updates is multiplied by the number of processors. So maybe I have a 100,000,000 cards as a merchant, but I have to store a 100,000,000 with Chase and a 100,000,000 with Stripe and a 100,000,000 with Braintree.
+
+And each of those vaults have to be updated at And their so what VGS does is serve as an independent vault, neutral infrastructure on behalf of the merchants for the vaulting and the updates, such that the merchant can then send a Visa token to the merchant via Stripe. Back to your kind of annoying Capital One issue, if you're a VGS merchant, that should not happen. So there are mechanisms when Capital One is switching from Visa to Discover to get those updates. And certainly that's the case if there's fraud or something else, and that's the role that VGS is playing. Yep.
+
+Exactly. So so hopefully everybody has a good understanding now of what very good security does, VGS does. So out of nowhere... And this this was a good business years ago. I mean, I've I've been a believer for a long time.
+
+And then this whole thing called AgenTek Commerce showed up. I guess how does the world change? And you guys were at the center of this because, again, I don't know I don't know what what companies that that work with you have a lot to say or not. But let's just say, like, a lot of AI companies have decided to to work with, with VGS. And for what reason?
+
+Well, the reason is you don't... If I say, hey. Buy me flowers. I go into my my little chat tool and say, hey. I'd like to buy flowers for my wife.
+
+It's Mother's Day. She'll get mad at me if I don't buy them, and she'll be happy if I do buy them. Please buy them. I don't wanna give my credit... Maybe I do wanna give my credit card number to, we'll call it, chat app, but they don't wanna store it.
+
+And then even if they do store it, they have to communicate it to the merchant. And how do they do that? And, like, the better option is you have a third party that already knows how to do this. Yeah. So you you take out of scope.
+
+I mean, it's interesting. Like, I don't know if most of our audience knows what the PCI DSS rules are, but that's the payment card initiative digital security system, if I remember correctly. Did I get that right? So if you've heard of PCI compliance, that says, well, if you're going to be a merchant and you accept credit cards, there is a document. I think last time I read it, it was over a 100 pages of all of the rules that you have to do and maintain in order to be PCI compliant.
+
+And why is being PCI compliant very important? Because every bank demands it. You cannot process credit cards unless you are PCI compliant. You cannot issue credit cards unless you are PCI compliant. That's why it's this payment card initiative.
+
+It's all of the... You know, Visa and Mastercard might be enemies, but on this, they agree. You have to be PCI compliant. One of the nice things that VGS takes PCI compliance out of scope. So you don't...
+
+You basically say, I can just run my business like a normal business. I don't have to follow these 100 pages of rules. VGS just focuses on that. Right. Which kinda goes back to, like, I wanna buy flowers for my my beloved wife, and I want to have my chat application do that for me.
+
+Turns out VGS is pretty well positioned here just by being the back end infrastructure, but now can take a pretty vital role in this whole process. Yeah. Mean, I think in the last three months, we've had this huge leap from agents being what I would call spectators to agents being actors. And how do they act on my behalf? Well, if you give them a payment credential in a safe way, I can go from recommending the flowers for your wife to buying the flowers for your wife.
+
+So like, I'll give you an example. Just last night, my wife and I had been talking about getting a piano teacher for our seven year old son. And it's complicated because you have to know our schedule, and he has soccer three days a week, and we want someone who can come to the house. We have to know the schedule of the piano teacher. And I asked ChatGPT about this a while ago, and I got some recommendations.
+
+But just last night, I asked an agent, and it did the entire transaction task for me. It found a bunch of people, asked me a few questions, checked the schedule, and booked someone for the very first lesson. So that is infinitely more useful than dumping yet another task on my doorstep. So agents have all of a sudden become significantly more helpful and useful because they effectively have arms and legs, which are payment credentials. And so what's happened with the rise of Muse and Instinct and Town and other AI agents is once they have access to payment credentials, their utility increases.
+
+And so we sort of have kicked off what I kind of call the wallet wars, where every wallet is now rushing to connect to the agents. And of course, as an agent, I want a wallet that has sort of two things. One, the most number of consumers that already have a credential at that wallet and a wallet that has a very broad merchant reach. And so, right now this is sort of companies like Stripe Link. They have about 300,000,000 consumers that have an accounted link.
+
+About a million merchants use link. You have Shopify with Shop Pay, similar consumer size, probably more like 1,700,000 merchants. Then you have PayPal, which has got over 400,000,000 accounts, depends on how that's actually measured, but they have on the order of 30,000,000 merchants. So these wallets are connecting to the agents and I think are providing a lot more utility. So it's interesting though, because wallet wars have been around for a while.
+
+So remember, not not to speak ill of our our old employer. Remember V. Me? Yes. Right?
+
+V. Me. V. Me. But it was something before that.
+
+I forgot. They changed the name to V. Me. But there have been many attempts. Like, why why were there wallet wars ten or fifteen years ago?
+
+Because it turns out that being the default stored credential for a consumer... Right? Like, if I can if I can get trained in a Pavlovian way where it's like, oh, I see flowers. I use PayPal. Well, PayPal is better off for that.
+
+That's correct. Or one of the things that we worked on at TrialPay was how does a Visa... It's very good for Visa. It's very good for Visa's issuing banks. If the default card in your Uber wallet...
+
+Because Uber is a wallet too. Yeah. You can store eight different cards or credentials within Uber. Being the top of wallet is very, very important because when digital wallets came out, like, I I kind of like to think before digital wallets, had what I like to call dead cow wallets, you know, an actual... I think I have one here.
+
+Give a demo to our audience. This is called a dead cow wallet. It has lots of lots of credentials in there. But before, Capital One would pay Samuel L. Jackson to say what's in your wallet.
+
+Why would they do that? Because when you go to Chipotle, they want you to pull out your dead cat wallet and say, like, I'm gonna pay with my Capital One card. Yeah. Right? And that was the...
+
+Whereas for when digital wallets emerged, it's like, I'm Shop Pay. I'm PayPal. I want to be your default. And then actually, the interesting thing is, like, within that wallet, there were other credentials, and those guys were competing to be the number one. Like, If you recall at at at Visa, when we were dealing with Uber and Airbnb, there was tens of millions of dollars paid by the issuers, so like Chase and Amex, to prefer their cards on those platforms.
+
+So that's one war, which is like, this is my card. To sort of promote this to the top of wallet. You're talking about the actual network war where Visa and we helped Visa become a default card at Uber. And now you have this other layer, this abstraction layer of I am a wallet that actually processes the transaction, the shop pays, the links, the Paypals. And so we talked about how a checkout looks a bit like NASCAR because you have multiple different buttons.
+
+Pay with PayPal, pay with Google Checkout. Remember Google Checkout came out They how were yet another... But there are like... There are consumer wallets and then there are merchant... Because the interesting thing is that I could...
+
+I kind of think of VGS as a merchant wallet to an extent. Mean, I like, it's it's a strange metaphor to use because a merchant isn't paying for things. A merchant is receiving payments. But, like, once I receive the payment, like, where where do I put it, especially if I'm billing this customer again and again and again? And, again, for PCI reasons and whatnot, I don't wanna store scraps of paper with, like, your c...
+
+That that secret three digit code that, of course, is not secret because it's on the back of your card, but I need it to process it. I don't wanna store your 16 digit, you know, credential and just keep it in scraps of paper and, like, my my my, original, cash register. Like, I need something to go receive that for me. On the consumer side, it's like, I don't wanna remember. Like, what was the original purpose of a consumer wallet?
+
+It's that it's 02:00 in the morning. I wanna buy flowers for my wife. My wallet's downstairs. Like, I don't know where my wallet is. I wanna go pay on $1,800 flowers right now.
+
+And if I just enter my PayPal credentials, they were a wrapper and linked to all of my my kind of... All the credentials in my dead cow wallet. Like, that that was the purpose back then. But what I find interesting with all of the gentic commerce is it's kind of the same thing. It's like, you know, you're you're...
+
+It's still 02:00 in the morning. You know, you you still wanna buy flowers for for your wife for something bad that you did or, you know, Mother's Day or whatever. Something good, Ellis. Something good. Right?
+
+You know, I... Always always time to buy flowers. I mean, make sure... We're sponsored by one eight hundred Flowers, so make sure to buy there. So you wanna go buy and your agent doesn't have access.
+
+Like, it... It's the same problem. Right? It's like the agent could say, hey, Terry. So Where is your credit card number?
+
+And that's more work and more friction versus it has access to it in the same way that you just gave access to all of your cards, all of your bank accounts to PayPal to reduce the friction when you were doing things manually fifteen years ago. Yeah. Look, I think the word wallet is a bit overused. There's sort of different versions of it. One is the digital version of your dead cow wallet, which is that it just stores the payment credential.
+
+And when you go to a merchant, you hand that credential to the merchant, right? That's kind of what Apple Pay does, right? I shop at Apple Pay, or sorry, when I shop at a store with Apple Pay, Apple is effectively giving my Capital One Visa card, effectively tokenized in the wallet to the merchant. The merchant receives this credential and it decides whether it processes it through Chase or Adyen or Stripe or Braintree. Then you have wallets that actually take care of the transaction for you.
+
+So think about Shop Pay or Lync or PayPal, where the wallet is in fact transacting with me, collecting the money from me and remitting that back to the merchant. And what's happening with agen tech commerce is we're sort of getting this sort of blend of the two. And it's such a new ecosystem that it actually has parallels for me back to the early days of the internet. And for those people who were around in the sort of AOL era, Stripe in many ways is like the AOL of agentic commerce. And I mean that as a compliment in the sense that they've figured out how to make agentic commerce just work in a way that's a very kind of of world garden approach.
+
+So a few examples here would be, if I use Stripe link, link's only available at a million merchants. So it's great if in fact the item that I want is available at one of those million merchants. But very often it's available at someplace where there isn't a Stripe link connection. So a good example was, think I two weeks ago, I had this event at my house. I wanted to buy some outdoor lights, and I asked Instinct to go and help me find these lights.
+
+And it found the lights at Walmart, which makes a ton of sense. Walmart has lots of inventory. And the agent went, loaded the cart, and when it came time to pay, Link didn't have a connection to Walmart. Link has my card, but it can't just give my card over to the agent and over to Walmart. So Stripe did something pretty interesting.
+
+They purchased the chandeliers on my behalf. They issued their own, actually, is like a Visa virtual card, a one time use card, made the purchase, and then they charged me, Terry, at a second transaction. This is a little bit how DoorDash works today. You spend $100 at DoorDash, and then the dasher goes in and pays the restaurant. But in the case of this Walmart transaction, this is the point about it sort of being the AOL, it worked just great.
+
+The item showed up, the transaction went through, I was charged the right amount. But if there's a problem with the chandelier, typically I call up my bank, Capital One, and I say, Hey, I had this transaction with Walmart. Something went wrong. And they say, Well, we don't see a Walmart transaction We a Stripe transaction. We just see a Stripe transaction.
+
+And in fact, you will find this pretty funny. I know someone who, in the sort of testing phase, did this exact flow on their Amex card, called up Amex and said, hey, this transaction with the merchant didn't go through, but Amex only saw Stripe. So they gave them a phone number to call whoever this link merchant is. The person called them. It went straight to the cell phone of a Stripe engineer because Stripe's not set up to run a chargeback, you know, sort of Well, this is the main...
+
+Like, one of the reasons why Visa and Mastercard have such impregnable positions is because they intermediate everything and they set the rules and chargebacks are very important. Yeah. Right? Like, what if I I paid for something? It's a trust mechanism.
+
+I pay you for something. I pay you for lights. You don't deliver the lights. Like, oh, shoot. I don't have money anymore.
+
+What do I do? No. No. No. You actually have rules by which I can kind of lodge a complaint.
+
+Yeah. And then there is a central intermediary that helps, you know, adjudicate those complaints in a way that is, you know, more more or less fair that both parties agree. I mean, it's part of the problem. Like, this is why crypto, cool, but, like, it's kinda... It's a bear instrument.
+
+I pay with crypto. I'm never getting that back, which, again, can be a a bug or a feature. But for your lights example, like, if the lights don't work? You want to have Visa and Mastercard in the middle. Right.
+
+That's that's high, high utility, actually, even for the merchant. Because now I am... I'm much more willing to buy with a merchant knowing that if they don't actually deliver a product that works, I can get my money back. Yeah. So that trust mechanism is very important.
+
+But, again, if you if you add all these kind of interesting and very clever engineering steps, it just... The the the purpose, it doesn't work as well. Yeah. So in fact, this is, like, I think the right sort of direction of travel from the AOL ecosystem to the open standards ecosystem. The card notebooks have actually come out with a new type of standard, they're called AgenTeq tokens, that will allow a wallet like a Stripe link or a Shop Pay or a PayPal to hand over a credential to the agent in a safe way, and then have the agent hand it to the merchant in such a way that when that Walmart transaction occurred, it's my card.
+
+In fact, like one sort of addendum to the Walmart transaction, after I bought the chandelier, everything was fine, I got an email from Walmart to say, hey, Terry, you paid for delivery. It was like $6.99 Why don't you sign up to Walmart Plus? And here's an offer. If you sign up today, we will credit the delivery toward your Walmart Plus subscription. So I said, great.
+
+I hit the button. And of course the transaction failed because the card that they had was Stripe- It's a one time use. One time use card. And part of the, you mentioned rules and norms, part of the norms of e commerce is that Walmart spends a lot of money to get me as a customer, and then they have the right to try to have a relationship with me, upsell me, cross sell me. And in this case, because we were using the sort of AOL version, they weren't able to easily allow me to subscribe to this new service.
+
+With the new agentic standards, what should happen is if any of the wallets don't have a relationship with the merchant, but they have my card on file, my Capital One Visa card, that should be tokenized with the agent. There's a whole process by which the agent says, I'm about to make a transaction. I'm a verified agent. I'm going to spend no more than $100 The token is nothing more than a new 16 digit number. We give that safely to the agent.
+
+Agent gives it to Walmart, and then Walmart runs the transaction, but it's my card that is being charged. And that preserves this ability to have a follow on transaction. It preserves all of the rules around chargebacks. And so three months ago, this was at zero. It did not exist.
+
+VGS is by far the largest provisioner of these agentic tokens. We do it for the agents, we do it for the wallets, we do it for some of the merchants. And this was zero three months ago. Now we're doing a few million of these tokens per week. So I expect that as we make this transition from the walled garden to the sort of open standards, this will be the way that agentic commerce evolves.
+
+Yeah. I mean, it's one of the reasons why this like kind of long, I mean, this is a positive, like VGS has a very boring business of why is it boring? Because we have a vault. And anybody who's in a vaulting business is kind of... It's not a...
+
+It's not an exciting business. Like your job is to be not exciting and be safe and be secure. It's And like things go in the vault, then every now and then things go out of the vault. Right? It's not like a one way door.
+
+Because this... The way that I always thought about VGS is there are these credentials that you store. So it's like you get these 15 digit Amex numbers or 16 digit, you know, Visa, Mastercard, Discover numbers. You store them. You give back, like, a, you know, a token.
+
+This is not a crypto token. This is just like, here... Here's something that you can use. And then there are verbs that can be performed on those credentials. Right.
+
+So if I am, you know, a big burger chain or something, we don't know which one, but, like, you work with a big burger chain. Right? Like, I I have a consumer app that has, you know, tens of millions of users. I know that whenever that user says, I wanna buy a hamburger, like VGS plays a key role. It's a very boring role, but I retrieve and charge.
+
+Right? So I retrieve it with the purpose of sending that to a payment processor and saying charge Terry $9 right now, I but never have to touch that credential again. You know, very, very boring business, but you've gotten to... I mean, what what percentage of cards do you think you've seen or touch or store? It's probably what is 80% of cards in America?
+
+We have, like, 10,000,000,000 credentials. Billion credentials. Think you're touching on something really interesting, which is vaults are going from single player to multiplayer, and that makes them a lot more valuable. So for example, put aside agents, the fact that merchants have multiple processors means that the vaulted VGS is effectively vault for each of those processors, right? Because the network token stored in that vault now have to be sent to Chase, Stripe, Adyen, Braintree, Razer Pay.
+
+Right. That's multiplayer. With agents, if you have a vault, let's assume you're like a large frontier model. Here's a good example. You're a large frontier model.
+
+You're revolting cards in order to charge for your subscription. But now the agent wants to use that credential to make a payment. And so the vault used to be single player. It used to be just to make sure that you could pay for the subscription. But now you can effectively give that credential according to these open standards to the agent.
+
+It's now multiplayer. And so I think any business that is going from single player to multiplayer inherently becomes more interesting. I mean, even 1Password, right? It used to be a single player vault, and maybe I share my credentials with my wife on a few things. But now it's multiplayer because I'm trying to give it access to multiple different parties.
+
+Well, this is a really complicated thing going back to, like, the rules and procedures of what Visa and Mastercard have done, which is normally, I just have to... There there are almost, like, three steps to a transaction I kinda think of. Number one is, is this identity real? Right? Like, in general.
+
+Like, is this a real card number? Right? That's important. But wait a minute. I can have a real card number, and you're a thief.
+
+It's still a real card number. So kind of step two is once I validate it... Because there actually... There are two ways of validating a card number. There's one, there is a...
+
+There's like a cyclicality check. Right? You kind of add up the... Yeah. It's check sum.
+
+Right? But it's this mod 10 check of the credit card number. Is it valid? But that doesn't mean it's a real card, but it means that it's like a valid... It's in the valid universe of cards.
+
+But I can go check with the bank. Is this an actual card? That's step one. Step two is, is the person that I'm interacting with the valid owner of this card? So, like, if you if you went to a jewelry store twenty five years ago and you wanted to buy something for $15,000, they'll take the credit card number.
+
+They'll take your credit card, your piece of plastic, but they'll do two things as well. Remember I used to be... You used to have to sign the signature of the back of the card? Like, I thought the first card that I ever saw that just got rid of that altogether was Apple. So the Apple card, I mean, even though they want you to use Apple Pay, if you get the physical Apple metal card, there's no place to sign on the back.
+
+None. But they would also say, can I see your ID? Like, I remember I bought I bought something very expensive one time. It might have been jewelry for my wife that I sometimes buy flowers for as well. This was probably twenty five years ago.
+
+And they wanted to see my ID. They checked the signature. Why? Because they knew that the card was valid, but they wanna make sure that I am the actual owner of the card. And then number three, and you probably only see this in Vegas, but it's like, are you of sound mind to make this transaction?
+
+So, like, if if you went to a to a casino in Vegas and you pass, you know, number one, card's valid. Number two, it's like, yep. Here's your ID. Here's your signature. It matches entirely.
+
+But there's step three. It's like if you've had 15 drinks and you can't even speak properly, they're probably gonna not let you pay. Right? So this was kind of like the old world. And if you bring that metaphor to the new world, well, it's like, well, is the card valid?
+
+Yeah. Does the person Oh, the agent. Well, but this is tricky. Right? It's like the card is gonna be valid.
+
+Like, that that part solved the problem. But the second part, it's like, what does that mean? Right? Like, is the person that I am interacting with is my interlocutor. Yeah.
+
+I love that word. Is is is the person that I'm interacting with, are they the valid owner of this card? It was always a hard problem to figure out on the Internet because I can't, like, signature picture. Like, what does that mean? You're an IP address, and maybe I've seen you before, and I've checked your login.
+
+But now I have an agent. And then that part three is pretty important as well from a liability perspective because you do see these anecdotes on on x and whatnot of people that are on instinct. They're like, What do you mean you spent $900 you idiot? And like, where does the chargeback come from? So, I mean, this is exactly what these open standards solving for.
+
+So let's take an example where I instruct my agent. In fact, this is a real example. I was looking for a hotel for a trip we're making for my daughter's gymnastics tournament. And I said, go and find a hotel in San Diego and don't spend more than $500 So the first question when that agent is provisioned is to your question is like, is this a real card that's a sole problem? The second one is, is the request for the agent a valid request?
+
+And the way that this works with the networks is that agent actually has to be registered with Visa or MasterCard or AmEx. And so there's a whole sort of mechanism there. The third question is like, is the agent of sound mind? Did it get it right? Was it drunk?
+
+Exactly. Did it hallucinate? And so that part, I don't think we fully understand yet because if there's a mistake that the agent makes and the card network did everything right, they validated that this was your agent and your instruction. In fact, part of the way these new standards work is you give it context. You say, this is a hotel reservation at this amount.
+
+It's hard for me to know if you got the actual dates right. If there's an error there, then that dispute mechanism is sort of unresolved. But I think we will get to that point and probably the agents will have to take on some responsibility. Well, it's this idea of delegated authority. Yeah.
+
+But it's how do you... Like, who is liable? How does this change? I mean, it might be something where if two agents are competing for your business, like, hey, Terry, please use me. I'm Muse, or please use me.
+
+I'm Instinct. What is one of the value adds that I'm going to give you? I will take on. Because if if the merchants are smart, they're not gonna be like, I don't give a crap that, like, you got the wrong hotel room or you did this. It's like you told...
+
+You gave your card. You delegated authority to either an AI agent or your human assistant or your wife or whatever. Like, it... I don't care. I need to know if I'm accepting payments for something that there's no excuse at the end.
+
+I mean, this was called for, for for those that know this term friendly fraud once upon a time. There's this concept of I can buy something. We used to see this at trial pit. Alright. I spent $10,000 on virtual gems.
+
+My wife and I shared the... I didn't actually do this just for disclosure. But let's just say I did. I spent $10,000 on virtual gems for some stupid game. The credit card bill comes due at the end of the month.
+
+I'm like, honey, I never spent $10.00 on... That wasn't me. I don't know. Like... And you you refused the transaction not because you didn't get the service that was offered, but because it's so embarrassingly terrible.
+
+Yeah. And merchants had to deal with this all the time. Yeah. And in many cases, like, the the the banks would say, well, if it's a $10 transaction, it's not even worth fighting it. We'll just give it to the consumer every time, which created moral hazard.
+
+But delegated authority gets really tricky here. I mean, maybe if I can ask a different question because this is probably the more important one. You saw that Amazon recently blocked Muse, and there are many reasons for this. It's mainly that Amazon is an advertising company, and they want you and your eyeballs going to their website. They don't want your agent because the agent...
+
+You can't monetize an agent's eyeballs because the agent doesn't have eyeballs. But I kinda think of it as you can either be antagonistic to agentic commerce, or you can be highly receptive to agentic commerce. And I don't actually think... I think it's an oversimplification to say anybody who's antagonistic is is a light eyed, and they're gone. It's like, well, Amazon has a reason, like a real financial reason to be antagonistic because advertising is is so much more lucrative for them than just selling things.
+
+Like, the highest value skew is when they they get your eyeballs and they they sell the eyeballs. But I guess how do you think about this this kind of playing out? Because it feels like being enabling technology for merchants to be receptive to AI commerce is highly, highly, highly valuable. And... But act...
+
+By the way, at the same time, helping the antagonistic ones filter out the agentic commerce is also highly valuable. Because, again, sometimes they have a reason to do that. But if I can make it so that, you know, chat GPT services like, yeah, you should buy here, and I make that as simple as possible, It goes without saying, like, I'm probably gonna get a lot more transactions than somebody that inserts 15 captchas and says, in order to proceed with this, and then Muse is gonna say, hey, interrupt your nap. You gotta go do these 15 things. No.
+
+No. No. You're gonna go with the one that is receptive to AI commerce. Yeah. I mean, I think this is one of the most fun sort of fronts to watch in agent and commerce.
+
+And I think we're gonna get multiple different versions of this. We have Amazon, which I think has many reasons to block your agents, as you said, they're effectively in the advertising business. You have Walmart, which is very similar, right now hasn't taken that step. And in fact, you might argue that if you are one of the largest retailers on earth with the best last mile delivery, that this is all good for you. And then you have the series of merchants that are sort of under the Shopify umbrella, which a lot of small businesses that really this is probably a new like vital channel.
+
+So maybe there's like fear on the Amazon side, and maybe there's greed on the Walmart side, and maybe there's like no choice on the SMB side. And each of these actors or each of these merchants are going to experiment with how they deal with agents. I think this reminds me a little bit, I know we sort of have a different view on this, of how open banking was rolled out, which is, do I have the right as an Amazon customer to delegate my login to an agent? And does Amazon have the right to say no? This is what happened with Plaid and Chase and the banks.
+
+And in the end, what tended to happen was there was this like long negotiated settlement where the likes of Chase said, Hey, you can access, you do have the right to this information, but only on my APIs. And my APIs limit what information I give you, they tokenize the bank accounts. And I might charge a lot And I might charge you some money for it. So actually, think the interesting question is, I think we may have plenty of opportunities or plenty of merchants who just welcome agents. We may also have merchants who have their own agents.
+
+And in fact, this is what happens if I go to a Best Buy and I want to buy a flat screen TV, I assume there'll be a salesperson there with an agenda and he or she will say, Let me show you some flat screen TVs. Now their job is to help me, but their job is also to get a commission. So we might have, in the case of Chase and Open Banking, it was much more a case of like security and control. In the case of Amazon, it might be, I am an opinionated API. I have an opinion on what you should buy, Alex, based on many, many different sort of data points about you.
+
+And then my agent may have an opinion about what I want. And so that's gonna be a fascinating battle or communication. And in the end, I think consumers probably win, but we don't know what that's gonna look like going forward. Right. Well, maybe on that, like, what do you think is overhyped versus underhyped in terms of everything that's happening?
+
+I mean, in general, my rule of thumb is that Silicon Valley overhypes things, but then the rest of the world underhypes things. So, you know, everything here, every conversation is AI. And it feels like you go to Iowa, nobody's talking about AI. But then you show it to them, like, holy shit. How is this real?
+
+Because they tried it three years ago. And, like, again, I I just bought a new Tesla, and I remember I had a... I had an old Model three. I think this is a good metaphor for what we're talking about. Like, I had an old Model three in 2017 with self driving.
+
+Didn't work at all. It was a joke. Eventually got, you know, got a different car, and now it's like, it actually works. But I was skeptical because I was used to the 2017 thing. Yeah.
+
+Right? And I feel like a lot of that is playing out with AI right now, where if if if you would try ChatGPT with all the hallucinations and everything in 2022, you're like, oh, it's a cute toy for, like, writing poems, but... Or doing my homework in English class or something. This is not gonna actually buy things for me. This is not gonna write code.
+
+It does all these things right now. So I guess what what do you think is underhyped versus overhyped in terms of everything that's going on? Yeah. So maybe maybe I'll start with with with overhyped. Like, I don't think we're going to get a bank run on savings deposits where agents are gonna sort of maximize yield and move my money around between different accounts.
+
+I mean, a perfect example, I am a very happy Mercury personal account customer. I'm also a Chase customer. And ideally I should put all my savings in Mercury where I get a very good savings rate. And then at the last moment, when I have to make bills, sort of pay bills, I'll move over the cash you know, over to my existing bank Chase. But their bill pay just works better, and it has more integrations, and I have more kind of setup.
+
+So I think there's enough friction in the world where we won't see some of the crazy volatility in financial services. I think maybe what's underhyped, there is a lot of demand that is unmonetized. And this is both at the sort of part of the world where you could expect more GDP. An example of this is we actually have a group cycling WhatsApp group, and we have a person on that group who every, it seems like every six months when our friend Seth comes up with a new recommendation for what tires to get, because he looks at rolling resistance. And every time he does this, I'm like, oh, I should remember to buy those tires because they're safer.
+
+But I only buy it every sort of two years. If my agent was in that group chat, I would be buying tires every time Seth makes a new recommendation. You're dramatically under monetized on your bike equipment, Alex. If the agent could find things that could help you with cycling and just bought them for you, there's more GDP coming out of Alex on cycling. That is underhyped.
+
+At the same time, agents are going to save us money. So there's probably many places where I have some subscription and it's just been a hassle to cancel, or I did some trial and I forgot about it. So I think agents will simultaneously save us money, maybe use that savings to help us buy sort of new items. So I think we have yet to experience the always on nature of these agents. And as far as I can tell, human desires and needs are infinite.
+
+So there's always something else that I will want. And so I think that's under Maybe on this kind of antagonistic versus conciliatory or whatever the opposite of... Antagonistic would be here. I mean, a lot of what people are very excited about with the agents is it gets something for you that is intentionally hard and is not really subject to the laws of economics. The laws of economics are like, you know, the cure for high prices is high prices.
+
+If it's really hard to get a restaurant reservation because you have to call at 7AM, well, now everybody has a tool that calls at 7AM. And therefore, the first five people that have the tool, now they have an amazing tool. The last five people, like, no. No. No.
+
+Like, it's it's, you know, it's so crowded nobody goes here anymore kind of thing. So how do you think the world changes? Because it feels like right now, this is the weird this is the weird position that we're in is that a lot a lot of the early wins, if you will, the consumer successes are around like, oh, it saved me money. It did this. It's because of the asymmetry.
+
+Yeah. Right? Like, a very small number of people have the tool. The merchant or the counterparty has no idea what's going on. I can't wait.
+
+You know how, like, as a consumer, I've been trained to say, no. No. I wanna talk to an agent or press 0. Or it's like you can look up how do you get out of the stupid phone tree. I can't wait for the other side to say, no.
+
+I have to talk to Terry. I ain't talking to Muse. Yeah. Right? Like, wouldn't that be funny?
+
+You call Comcast. You're like, I hate you. You suck. Your service is terrible. You went down 10 times.
+
+This is... I do this all the time. And then... But I, of course, have... I actually did this with Codex because it turned out Comcast is blocking news.
+
+They know the IP addresses or something, so it won't let you log in. So I just have chat GPT, you know, Codex Astra, like, log in on my computer, does everything. But I'm waiting for the day when Comcast says, we know this ain't you. Right? Like, put Alex on the line because I'm not giving something to his agent.
+
+And that's going to... Because right now, again, that's what I mean by the asymmetry. It's like the small number of insiders have this tool. But you know what? It's not gonna...
+
+You can't scale that infinitely because the world is going to adapt. Although I do have news for Comcast. The GPT Astra and Alex are about the same sort of foes. So so be careful if you if you get them on the phone. Yeah.
+
+I think you're pointing out something that we have yet to appreciate, which is what happens when you actually read the terms and conditions and go to the edge of what is allowed and disallowed. Example, the other day I was looking at flights. I wanted to buy a flight that was on the edge of the price that I could pay that would get me an upgrade. And that's a kind of hard thing to do. Sometimes I overshoot it.
+
+My agent did that perfectly. Sort of any case where it's very difficult to uncover the terms and conditions. A good example might be what happens to rewards? Rewards on cards are only there because I get you this very sort of big headline reward on dining, but then you also spend it on fuel. And if agents are intermediating all of our transactions and I'm only getting points on the card that gets me, I'm only using the card where I get points, the whole points reward ecosystem falls apart.
+
+So many, many of these things could start, anything with a sort of breakage model in it is going to start to fall apart, and then we will have to have new terms and conditions. So maybe that's better, maybe that's worse. I don't know, but it'll certainly be be different. And maybe what what are you kind of with all of these themes? Like, what...
+
+Where do you think VGS is is going to go? Because I... Again, I find it so interesting because it's the world's most boring business around... It's this giant vault that stores all of the payment credentials for, like, most... Like, everybody who's listening to this podcast, I almost guarantee you have a credential that's stored at VGS because you interact with the merchant that uses VGS for storage of credentials.
+
+So that's a... It's a really formidable position to be in, and it's been growing remarkably just because like, yeah, you need to... Every merchant needs to store the credentials of the consumers that they work with. But like, where do you think is the most exciting of everything that we've talked about for VGS's future? Yeah.
+
+So I think there's sort of three eras of VGS that are kind of overlapping and compounding. And you talked about the first area, which is the vault. This is ten years as sort of becoming the most trusted store for credentials across the internet. Very hard business to execute on, but that's the sort of privileged position that the company's in. The second era has been what you talked about sort of information going into and out of that vault.
+
+So that's a third of those credentials have to be updated. That's become very interesting and complicated because each network has their own standard for how you update their credentials. And each network has created multiple network tokens that represent the vault. Just storing the information would be one thing, but you have to store it and get a series of tokens from the networks so that the data is effectively refreshed. The third era is what we call the network era, which is this role of brokering the credentials among multiple parties in a way that makes sense according to the rules and that adds value to all of the ecosystem players.
+
+And we're sort of starting to do that now with agentic commerce. There are other cases where VGS is actually working with the banks on the tokenization front. So if you're tokenizing the cards and you're storing the cards, you're on both sides of this ecosystem, which allows you to do some of the information swaps that you sort of talked about earlier. All of these combined, of these combined, we'll continue to be a vault, we'll continue to add services. And as we add more services on more merchants and on more issuers, we continue to get network effect where you can broker credentials among the parties.
+
+And I think agentic commerce is just fuel into that ecosystem. Well, Terry, this has been fun down memory lane. One of these days we should do... Do we ever... I think we actually did a history of Trial Pay one a long time ago.
+
+Yeah. I think we should we should redo it. It was it was one of the first podcasts that we did. The the studio wasn't, you know, wasn't as nice. But I think what's consistent between that first podcast and this one is you should be buying more flowers for Yes.
+
+For your wife. Yes. I think that I think that's a great idea. Alright. Well, thank you very much.
+
+Thank you for having me. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com/disclosures.

@@ -1,0 +1,333 @@
+This episode of How I Built This is presented by Engine, the modern travel and spend platform built for businesses that are growing. Book faster, save more, and watch your rewards stack up. Stay tuned later in the episode to hear how engine is helping thousands of businesses travel smarter. We get support from US Bank. A question I love asking founders.
+
+What's the one decision you almost didn't make? The one that changed everything? Because it's never the obvious stuff. It's never, I decided to start a company. It's the small boring Tuesday afternoon decision you barely remember making until you realize it's the reason everything after it either worked or didn't.
+
+Say you're eighteen months in, business is growing, you've got expenses coming from six directions, gas for the van, office supplies, your phone bill, team lunches that are actually client meetings and you're putting it all on whatever card you grabbed in year one. You're not thinking about it. Why would you? You've got bigger problems. But here's the thing, path a, you keep going like that.
+
+End of the year, you're sorting through statements trying to figure out what went where. You've left hundreds, maybe thousands on the table and rewards you never earned. Money that could have gone back into the business. Path b, you pause and get the US Bank Triple Cash Rewards Visa business card. Now you're earning 3% cash back on gas and EV charging, office supply stores, cell phone service and restaurants.
+
+You pick up an extra $750 cash back as a bonus and you've got a low APR and purchases and balance transfers for twelve months while you're scaling. Same business, same expenses, two completely different outcomes based on one small decision. Visit us bank dot com slash business to learn more. The creditor and issuer of this card is US Bank National Association pursuant to a license from Visa USA Inc. Some restrictions apply.
+
+Our presenting sponsor today is Anthropic, the team behind Claude. Every founder on this show started with a hard question, not the marketing plan, the 2AM kind. Is this idea any good? Am I the one to build it? Should I quit my job?
+
+Anthropic got built the same way, a public benefit corporation founded on one hard question. How do we make sure AI goes well for people? So they asked over a 100,000 people their hopes and their fears and are publishing what they find, even the uncomfortable parts. Me? I've got my own hard question about AI.
+
+Here it is. If everyone has access to something that can help them write the business plan, build the prototype, analyze the market, maybe even come up with the idea, what separates the people who actually build something from everyone else? I don't have a clean answer yet, so I've been sitting with it with Claude. There's hope in hard questions. Ask yours at claud dot a I slash h I b t.
+
+If you travel often, you'll wanna hear about this unprecedented offer. For the first time ever, new Delta SkyMiles Reserve American Express card members can earn two Delta comfort round trip flights for travel within the 48 contiguous US states, Puerto Rico, or The US Virgin Islands. Plus, you can earn 50,000 bonus miles towards your next getaway. And who doesn't appreciate an elevated airport experience? Delta SkyMiles reserve card members get access to the Delta Sky Club, your preflight oasis to recharge with 15 visits and four one time guest passes each medallion year when flying Delta together.
+
+That's up to $950 in annual value. Value estimate based on $50 per visit rate to purchase additional visits or bring a guest to the Delta Sky Club. Make every trip feel more rewarding with the card that upgrades your travel. Apply today at delta.com/cardsocial. Offer ends 11/04/2026.
+
+Minimum spending requirements and terms apply. Flights are fulfilled as flight certificates valid for Delta Comfort or Delta Maine to select domestic destinations. Book twenty one plus days in advance up to $80 per person in taxes and fees apply. Other restrictions apply. Does your team want a website that looks and feels handcrafted but is still fast to ship?
+
+Well, Framer is built exactly for that. With Framer, you design on a visual canvas with responsive layouts, hosting and a CMS built in. So the work is production ready from day one and you can get it done with help from Framer's AI agents. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace.
+
+AI agents and humans work together. The agents bring speed and scale, and people bring taste, judgment, and control. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/built for 30% off of Framer Pro annual plan. That's framer.com/built. Rules and restrictions may apply.
+
+Hello and welcome to the advice line on how I built this lab. I'm Guy Raz. This is the place where we help try to solve your business challenges. Each week, I'm joined by a legendary founder, a former guest on the show who will help me try to help you. Joining me this week is Tara Bosch, founder of the low sugar candy company SmartSweets.
+
+Tara, it's great to have you back on the show. Welcome back. Honored to be back here. Thanks for having me. So, of course, you were first on the show, in 2024, and you told us, about the origin story of SmartSweets and how...
+
+I still think of of how you experimented with making gummy bear recipes in in your kitchen to building a company that that sold a majority stake for, reportedly, for $360,000,000. This is an amazing story. We will put a link to that story, to that original original episode in the show notes if you if you guys haven't heard it because it is a terrific episode about a founder who was very young. He used... He dropped out of college at 21, and you had no background in food science, and then you built it into this incredible brand.
+
+I know, Tara, you are... You... You're not operationally involved in smart sweet sorting anymore, but you are in startup mode. You've got a brand new company called Snackish, which I... I'm excited to hear more about.
+
+Tell tell us about this new venture that you're doing. Yeah. Serendipity, honestly, kind of did its thing. I spent a lot of time being in service of other entrepreneurs and empowering other women. And kind of somewhere along the way, that kind of inkling came up of, you know, it also would be amazing if there was ever another authentic why and an incredible group of humans to build with, to bring another vision to life.
+
+And after setting that intention, my daughter, who was four at the time, became obsessed with the yellow chip bag and was carrying it everywhere with her. And it was the same visceral pull I had with Smart Sweets where I was like, wait. Why can't you feel good about eating chips every single day? Yeah. So that sparked the vision for Snack ish, which is to create the everyday snack for a new generation and change what a chip can be.
+
+Wow. I'm I'm looking at the website now. So it is a... These are high protein potato chips. Yeah.
+
+And I mean, I think that protein, right, protein is here to stay. I think it's... I don't think it's a trend. And it it it... It's just a matter of time before this category of snacks you get, you know...
+
+And you have a lot of protein snack brands out there, but that really protein fiber, like, these these things become just normal in in... Right? I mean, I think that's sort of where it's heading. Yeah. I agree.
+
+I think the the thing that has to coincide with that is taste and that experience of whatever you're enjoying and the emotional connection to it. I mean, chips is what we're starting with potato chips, but the innovation goes far beyond that to really any salty snack you can think of and wanna feel good about enjoying every day. So... Yeah. And and what's your role in the company?
+
+Are you the CEO? Yeah. I started it, I mean, in in the same lens of SmartSweets. My daughter, Willa, I think the really special thing is I really built Smart Sweets for my grandmother, and now I'm building Snackish with my daughter. So it was actually...
+
+She'll be the first to tell anyone that Snackish was her vision, and Smart Sweets was mine. But she comes to retailer meetings. She comes to the snacktery. This is your your your daughter's, like, a young kid. Right?
+
+Yeah. Yeah. She's five now. Okay. Got it.
+
+Alright. But on her way to, like, the, like, the C Suite, basically. She's she's been a big big driver for the vision behind Snack ish. So is there is there a consumer in mind right now that you think this is going to particularly appeal to? There's really kind of two groups, and it's kind of shows up, through what's on shelf today in the category too.
+
+The first is really the better for you chip where perhaps they use avocado oil. But when you enjoy them, they still leave you feeling crummy afterwards. And then there's the functional category with the protein chips where you could eat a bag every day, but they just don't feel... Leave you feeling emotionally connected to the product or taste great. So you don't really feel like reaching for it every day.
+
+So Snack is just kind of that bridge of those two kinda groups. So it's just she primarily... She may be, you know, going to her Pilates class, her spin class. She has children, but she still wants to find better choices. She doesn't wanna have to hide in the pantry and eat her favorite bag of chips.
+
+She wants to enjoy it with her kids. And then there's also the woman who, you know, she may have just graduated college, and she's just entering the world. And she's a wellness girly, but also loves to go out and have fun and will eat traditional chips too. So we're not targeting an extremist or like a protein maxing demo. Right.
+
+We're really targeting kind of your everyday person who just wants to feel good about eating chips. Yeah. I'm curious. You know, you are obviously an experienced operator. Right?
+
+But when you started SmartSuites, you were a total outsider. Right? You knew nothing about the industry. And I wonder how... I mean, this time, it's different.
+
+Right? Because you are experienced and you're coming with resources to do this. So is there less of a... I don't know, an urgency? I mean, is there less of that kind of intensity that you had the first time around?
+
+I think it's just as intense, and it's just in a different way. I think I don't feel that I'm experienced this time around. I think this time around, I have the blessing of having some preexisting relationships, for example. But I still very much feel like I don't know what I'm doing, and I'm waking up every day putting one foot in front of the other. The difference, would say now, is I'm very at peace with the unknown and knowing that I will figure it out.
+
+Alright. Well, we will have, I'm sure, lot of opportunities to talk about some of the ways you're you're doing marketing and and also your experience with Smart Suites. Let's bring on our first call. Are you ready? Amazing.
+
+I can't wait. Alright. Let's do it. Welcome to the advice line. You're on with Tara Bosch, founder of SmartSuites, and now Snack ish.
+
+Please tell us your name, where you're calling from, and a little bit about your business. Hi. Hi, guys. So I'm Lindsay, founder and CEO of XO Marshmallow, a gourmet better for you marshmallow brand that's reimagining this nostalgic sweet treat, and I'm based in Chicago, Illinois. Great.
+
+Welcome to the show, Lindsay. XO Marshmallow. Yes. And I think when I think of marshmallows, like, I'm sorry. I think of, like, the jetpuff, you know, like, pro...
+
+That probably is the 90% of the category. Right? Those big plastic bags of marshmallows. I'm assuming that's not how you sell them. Right.
+
+So you're describing what I call a bag of boring, and that's not us. So you're used to, like, artificial ingredients, the same flavor, just, like, super processed. So we currently sell our marshmallows in boxes of 12, but you can use our marshmallows the same way you would the bag of boring hot chocolate, s'mores, Rice Krispie treats, but we encourage people to just snack on them straight out of the bag. Alright. How...
+
+Tell me how this business started. I mean, how did you start this business? Yeah. So I used to have a cofounder, and we started this business together ten years ago. She was in her last year of law school and looking for an inexpensive gift to give on a law student budget.
+
+And at the time, those Pinterest hot cocoa in a jar recipes were very popular and she found one. And at the end of the recipe it said, if you're feeling brave, try making marshmallows. She did. People loved them. She experimented with flavors during her graduation party and promptly told her family, I'm not gonna be a lawyer.
+
+I'm gonna play around with this marshmallow thing. I was on the other side of Chicago going through something very similar. I had started a clothing store while I was an undergrad and I ended up meeting this girl through social media. We started connecting. I sold her marshmallows at my store for a little bit.
+
+We became business partners, and I grew up in East Texas where we went camping, and I had so many wonderful memories of marshmallows. So, like, how can we take this incredible memory I experienced growing up and bring it to somebody's pantry every day? So you took a... Just a left turn into marshmallows. Okay.
+
+Yeah. So you now sell marshmallows mainly online direct to consumer. Is that where most of your sales come from? Right now, about 90% of our sales are d to c. Okay.
+
+Great. And and tell me a little bit about, your overall sales. So what do you expect to to generate in, let's say, revenue this year? Yeah. Just a little under 5,000,000.
+
+That's pretty great. So... And and how are you staffed? How many people do you have working with you right now? I have 11.
+
+So Okay. We self manufacture. There is no co man for this style of You own your own production facility? Yes. So I'm in about 10,000 square feet right outside of Chicago right now.
+
+Alright. So you launched about ten years ago. You're you're doing about 5,000,000 in revenue a year, and mostly 90% of your sales are d two c. Before we get into that, what's your question for us? Sure.
+
+So a little bit of background before we get into the question. We are looking to to move into grocery. So a big part of this year has been reformulations. We're pulling all the corn out of the product and moving into that shelf stable packaging that takes us from four months to eighteen months. We have a lot of interest from grocery stores, but, creating velocity and moving product off a grocery shelf is fundamentally different than driving D to C sales.
+
+So how do we leverage the community and cultural relevance that we've spent the last ten years building to drive grocery sales without cannibalizing our high margin d to c sales? Alright. So now 90% of sales d to c, that's great because your margins are good on on the sales. But you wanna be in grocery. Tara, you know quite quite a bit about that, you know, Target and grocery stores and Whole Foods.
+
+First of all, thoughts, questions, ideas for Lindsay. Yeah. We live in the same world of whimsy. The... On your journey.
+
+Thank you. I think it's it's incredible that you're kinda reaching this fork in the road where you're thinking of, okay, we should really scale. We wanna go the path of grocery. And your question on does it cannibalize one another? We really found that the split was always, like, 70% wholesale, 30% g two c, but grocery really became, like, such an impulse buy, you know, where she may not be thinking about it two weeks before she wants to enjoy them to order them.
+
+And so having that accessibility when she's in her grocery shop and pulling them off shelf, I see them as living together in unison and serving very different functions versus cannibalizing one or the other, especially at this stage in growth. Yeah. I think that's a really good point. You know, my customer's complaint right now is the cost of shipping and the time it takes to ship something. And to your point, that's because, you know, marshmallows and candy are this impulse item.
+
+I'm just trying to figure out, you know, I I feel like I've got D to C down pretty well. I've I've done it for ten years. I'm just like, how do I take that marketing and drive it into grocery? I feel like when it comes to grocery, I'm a ten year old startup. It's it's it's like I'm in year one.
+
+Right? Mhmm. You know, I wonder, Tara. I mean, we're talking earlier about, like, the Jet Puffed marshmallow, right, which is... Probably dominates, you know, maybe 90, 95% of marshmallow sales in The US.
+
+And I don't think there are that many or certainly not many national marshmallow brands. Right? There are... There's there's the Jet Puffed. I think it's Kraft.
+
+I don't know who makes it. Mhmm. And then, you know, there's like Peeps, but you eat those on Easter. And there might be, you know, a couple of vegan brands out there, but it seems to me like there's an opportunity to jump out especially with ingredients. Interesting, you know, all natural ingredients, maybe even something like a prebiotic fiber fiber.
+
+I don't know if that's possible. But, you know, something where there's the utility of it. Right? And I wonder if if maybe there's an opportunity there. Yeah.
+
+So we are pushing ourselves a little bit to be what we consider a better for you indulgence. Right? It's still candy. It's still sweet, but better for you. So we've taken all the artificial colors out of our products.
+
+We've taken all the artificial flavors out of our products, and then we're removing corn. So it is going to be a cleaner product, especially compared to the existing offerings. We've talked to our customers about this idea of protein maxing or fiber maxing the product because I consider myself a very customer focused CEO. And the feedback we've gotten consistently is we don't want to get our protein or fiber from our marshmallows. So it's finding that balance between better for you versus healthy.
+
+Could you do, like with smart sweets, a lower sugar version, you know, sweet enough? Right? Because a lot of times, as you know, the sweetness profile in so many confections and foods in The United States is way higher than than you find in Europe, for example. And sometimes it just over indexes, and people don't really need that much sweetness. Yeah.
+
+We are looking to find ways to lower the sweetness level of our marshmallows anyway. Part of the positive feedback we often get is I like that this product isn't too sweet to begin with. I personally, even for owning a marshmallow company, I tend to like our more savory flavors as opposed to the more popular flavors like birthday cake and cotton candy. So we are trying to find ways to lower the sugar without necessarily becoming a sugar free brand. Mhmm.
+
+That makes sense. I mean, yeah, it's kind of a fun fact, but marshmallows is what I was recipe testing in my kitchen originally alongside gummy bears. And so very familiar with the kind of limited manufacturing that exists in this category and the really unique opportunity you have if you can scale the back end and really become kind of that kind of next generation marshmallow brand. I was having the same thought. I think the sugar, you know, it's...
+
+If you're having, like, four to six of your marshmallows today, roughly how much sugar is in them? So if you're having four to six marshmallows, it's about 20 grams of sugar. Yeah. So I think I'm I'm biased, obviously, so take it with a grain of sugar. But I think one of the key insights with Smart Sweets that we identified was creating the permissibility to eating candy every day in the same way with marshmallows and thinking of that lens of what is that threshold with sugar.
+
+That's the tipping point for giving people that permissibility to truly eat marshmallows every single day as a snack. Yeah. That's definitely something to think about. You know, I... I'm gonna throw something out there, and you may hate this idea or you might like it.
+
+I think that you should... You you... You've got your core product, right, which is the snackable marshmallow. What if you offered a skew that was made with allulose, which is a sugar alternative, which doesn't spike blood sugar. So there are a lot of people, not only diabetics, but people who are, you know, doing low inflammation diets that are okay with allulose.
+
+It's naturally derived. Most people can digest it well, and I think it could work. I think it could work like sugar. Yeah. We are playing around with allulose a little bit with...
+
+We just hired a a special food scientist who actually built out the Peeps factory years ago. Mhmm. So she's very familiar with marshmallows and experimenting with allulose. I'm a little on the fence about it only because I know some retailers like Whole Foods and others They don't do allulose. Right.
+
+They've to ban it. Right? So I think there's an opportunity to have a line that is either sugar free or made with allulose that isn't part of the core group so that we have both options. Mhmm. There are so many ingredients too nowadays, especially for your application, stevia, monk fruit, different combinations of like...
+
+And I was using agar agar, and it worked actually really well in the marshmallows. So, yeah, the the past exist. And it's interesting too through that lens of, like, launching mass versus natural channel. I always found that the natural channel was more forgiving from a early stage startup in terms of giving the end caps, giving them merchandising opportunities, not being as dollar and cents from the beginning, which was really helpful with smart sweets because we didn't have the budget to pay what some of the mass retailers would require from the hot. Absolutely.
+
+And that's kind of my thought is roll out in natural and even Midwest locally first. So we are bootstrapped. We're profitable. We we are raising for the first time. But until that happens, we know that we're gonna have to scale at a relatively efficient rate.
+
+I mean, I think that there's also something with the marshmallow category specifically where there's so much like use... Specific use cases for them, like camping or campfires. So how do you take that category and then make it every day? And so I think that snackable element's a key insight. There was a brand called Smashmallow Mhmm.
+
+Who was really trying to do that. Yep. And I think ultimately manufacturing held them up. Yeah. That's that's our biggest concern right now is the manufacturing side of things, and that is why we're raising is to be able to build out capacity here.
+
+It's it's challenging. To your point, there was a company that existed, both had capital issues as well as manufacturing issues. I do have their former director of manufacturing now on my advisory board. So I I will say we will be able to jump a little bit of steps just because I kind of have the the plan in place. That's great.
+
+Yeah. Worth looking into what happened there and trying to learn from those lessons. Absolutely. Yeah. Awesome.
+
+Well, the brand is called XO Marshmallows. Lindsay Shanks from from Chicago, Illinois. Thanks for calling in. Good luck. Yeah.
+
+Thank you guys so much. Yeah. When you started SmartSweets, there were some brands out there that were that were doing low sugar stuff. Right? But but but it was an opportunity to stand out.
+
+Yeah. Absolutely. Yeah. I think the key the key insight with us, there was no one taking it to that next step of everyday snackability. And for her, I think there's a huge opportunity there.
+
+I would eat marshmallows every day. I wanna eat marshmallows every day. Stay with us because after the break, we'll talk to another founder working to take their business to the next level. That's after the break. I'm Guy Raz, and you're listening to the advice line right here on how I built this lab.
+
+We get support from engine. A lot of founders start with a product or an idea, but at some point, the business becomes something else. Think about Brian Scudamore. He started one eight hundred JUNK with one truck and a vision to make junk removal a real brand. That worked, and then it became hundreds of crews across multiple cities, trucks on the road every day, routes changing by the hour, and a team that had to be in the right place before the customer even called.
+
+Or Beryl Stafford who started Bobo's by baking oat bars in her kitchen. Next thing she knows, she's flying to retail meetings, demoing at trade shows, managing distributors coast to coast, running a national food brand out of what used to be a family recipe. Or Tom Hale, who built back roads around the idea that active travel could be a premium experience. That means guides in six countries, gear shipments, guest logistics, thousands of moving pieces that all have to land before a single trip begins. Different businesses, same truth.
+
+Here's what I've noticed after talking to hundreds of founders. The hard part is rarely the big idea. It's what happens when the idea works. Suddenly, you've got people on the move and all the logistics that come with it. That's the real test.
+
+And that's why I think engine is worth knowing about. Engine is the fastest growing modern travel and spend platform in the country built for small and medium sized businesses. The average business traveler spends forty five minutes booking a single trip on a legacy platform. With engine, that drops to as little as two and a half minutes. Last year, engine customers saved $318,000,000 on travel.
+
+Average savings of 26% on hotel bookings. No contracts, no booking fees. More than a thousand businesses join Engine every month. Join them and get $500 when your business signs up and starts traveling at engine.com/built. Confidence.
+
+It's listening to your gut. It's moving forward even when the path ahead is unclear. For nearly one hundred and sixty years, Pacific Life has helped people keep their promises, building confidence for generations. Whether you're confident in your financial future or just beginning to envision it, we're here to help. Ask a financial professional how.
+
+Pacific Life, the power of a promise. Pacific Life Insurance Company, Omaha, Nebraska. And in New York, Pacific Life and Annuity, Phoenix, Arizona. Welcome back to the advice line right here on how I built this lab. I'm Guy Raz, and my guest today is Tara Bosch.
+
+She's the founder of the low sugar candy brand SmartSweets and the new snack brand Snackish. And we are taking your calls today, so let's bring in our next caller. Let's do it. Hi, Guy. Hi, Tara.
+
+My name's Vivi. I am the founder and designer of Vivi's Vacation. I'm currently calling out of Hawaii, but I'm usually based in New York, and it is a sustainable swimwear label. Welcome to the show, Vivi. So, I'm looking at your website, Vivi's Vacation.
+
+And so bathing suits, swimwear. Yes. And tell me about, about the bathing suits. I mean, are they... I...
+
+Yeah. Tell me a little bit about the sort of the aesthetic or the thinking behind the brand. So I've been very fortunate to be born and raised in Hawaii, and my mom is from Brazil. So swimwear has always been a huge part of my life, in and out of the ocean, growing up surfing. So I began making bikinis by hand in high school for myself, then for friends, gone to college, and then worked as a fashion designer in the industry.
+
+So I have a lot of experience around swim. It's a very... The way that they make swim in Hawaii and the quality of Brazilian swimwear fabric is so different than anything that you can find easily in the market within like the main, Continental United States. So I really focus on high quality swim. Where are you making the swimsuits right now?
+
+I used to make everything myself, but recently found a manufacturer, and they are made in Brazil, sustainable fabrics and everything. So incredible manufacturer, incredible team there. And and you you said you started working this in high school. Yes. And and when did you formally launch the business?
+
+When did you start selling these? So I guess, like, the first launch would be my senior year of high school, and then I went to RISD to study apparel design, and I would operate, like, on a seasonal calendar. So I would slowly design through the school year while working on other projects, and then I would launch for a pre order window. And then I would sew them myself. My mom would help sew sometimes.
+
+We would listen to how I built this while we were sewing the bikinis, And which is then I did that for a few years, and then I kind of paused as I was getting my footing working as a corporate fashion designer and adjusting to like the life of a... Like going to a nine to five as an adult and all that, and, relaunched very recently with actual stock, which has been so different in, like, mid July. Wow. Okay. And and right now, you're selling direct to consumer, I'm assuming.
+
+Right? This is on your website. And tell me a little bit... So you relaunched this recently, and tell me how you're doing. I mean, I I can't imagine you have a huge marketing budget.
+
+Right? No. Right? So you're probably still small. Or or tell me how how you're...
+
+Yeah. How are... How have sales been in the last, you know, since you launched? Sales have been good. At my peak, I got, like, 60 orders in the span of two weeks, which was incredible.
+
+That was my biggest summer ever. Currently, I've done about... I've sold about 15 sets so far, and launching towards like the end of summer isn't ideal. But it's been great because I've been able to get like a first round of orders out and then having the time to sort of restrategize, like rework the website and aim to hit, like, a second round of orders for, holiday season. Yeah.
+
+Well... And also, I mean, you know, Thanksgiving, Christmas, lots of people are going to the beach. So, to Hawaii, in fact. Alright. Before we we get in further...
+
+Dive in further, what's your question? So I've only sold online, and this whole time, it's sort of been, like, you try to make a TikTok or, like, an Instagram reel that gets a lot of traction. And it's like, if the algorithm works for you, it works for you. If it doesn't, it doesn't. And it becomes so crucial that you've really done that edit down.
+
+So my official question would be, what was your process or system for editing down to the most important elements of your product then translating that into packaging, social media posts, email blasts, and website headers? Great question. I wanna bring Tara in. Tara, say hello to, to Vivi, Vivi's vacation. You...
+
+You don't have to answer the question right away, but you, of course, had to figure that out with Smart Suites. You had figure out what what what the packaging was gonna look like. So first of all, thoughts, ideas, or or questions for for Vivi? Congratulations on your adventure. It's so inspiring that you had an idea and the courage to act on it when you were in high school, and so inspiring for others that hear your story as well.
+
+It sounds like you're really clear on your reason to believe. And that sounds like it's really the fabric and the quality and how it's made, and you have such an authentic story behind that. I think if you're thinking across channels, what's so important is, you know, how are you gonna communicate that value prop in three seconds or less to the consumer on shelf? When I reflect on SmartSweet's journey, and it was actually inspired by a podcast that I had listened to that Tim Ferriss was on when he was talking about how he was marketing his book, The Four Hour Workweek. And it was the essence of, of course, like, you want all women to be wearing your swimwear, but identifying the niche that you are creating the most value for and then infiltrating their world.
+
+And with social and TikTok nowadays, you can get so specific in different niches. And there's so many ways that you can really show up in their world from a social perspective and make Vivi seem like it's much bigger by infiltrating the niche. It it does make me think too, I guess, how how niche is too niche when you're looking for your target audience? And then how do you find that perfect balance of casting that net, but... Then also, like, meeting the needs of your niche customer?
+
+Great question. I mean, I think the blessing that you have is you have customers. Right? So you have people who have bought the product and have resonated with it and perhaps also people who have bought it again. I always found such great nuggets in picking up the phone and calling the customers.
+
+It's... I know it's it's so easy these days to just be behind the the keyword in the phone, and that works too in DMing them. But asking people to have a ten minute conversation, it was incredible the amount that I learned and then also the consistent threads that were the emotional connections as to why somebody felt drawn to the product and why they were repurchasing. And you might find an answer hidden kinda within the thread of similarities of those conversations. That is really, really helpful.
+
+Yeah. That's the beauty of Instagram. It's like you can just DM someone and then get... Have that customer feedback and interaction. It's like the phone doesn't have to have to stop anything.
+
+It can connect you. Yeah. Vivi, we, we've got an episode on the... Another protein brand. This is a pasta protein brand called Banza.
+
+And, what really made that brand stand out was the orange color of that box. If you if you go to the pasta aisle today, your eye is gonna catch that orange box. They have done a great job at packaging. And I'm think... I mean, I'm looking at your designs.
+
+They're terrific. I don't know if this is necessarily the answer, but I'm... I... When I think about Brazil, I think about green and yellow for obvious reasons as their their their flag. But I wanna see at least starting with your website, and and hopefully that filter into the overall brand aesthetic.
+
+Something that really tells us why this is premium. I just see it. You say premium, but why? Why is it better that it's made in Brazil? And I wanna see that reflected starting with your website, which will help you kind of codify and and focus your your creative energy on on sort of telling that brand story.
+
+Right? It's not enough to just say sustainable swimwear. This is something different. You have a different proposition. I don't know if you're on this website.
+
+I don't think you are. But I think you should be. I think you... Your story may be a pip image of you surfing in the North Shore Of Hawaii wearing one of your swimsuit. Something like that.
+
+Right? I think as a consumer, you wanna know, okay. Well, what's the story? There's a... You...
+
+And you're part of that story here. Yes. This is so so helpful. Vivi, thank you so much for calling. The brand's called Vivi's Vacation.
+
+Good luck. And and, yeah, good luck. Good luck to you. Thank you so much. Know?
+
+And and a lot of people say, oh, apparel is really tough category. It is a tough category. So is snacks. So is any... So is anything.
+
+You know? And and people say, oh, you know, this this is saturated or that saturated. And the reality is there's... As you know, there's always... Especially when you're talking about, you know, a category with...
+
+Let's say, I don't know what swimwear is, but let's say it's a, you know, tens of billions of dollars, right, a year. If you can just carve out, you know, half a a quarter of a percentage of that market in, you know, in The US or North America, it's got a huge business. Yeah. And to your point, there's a reason to not act on any idea. But she, like, she has such an authentic story, and it it translates.
+
+It was great feedback that you had on making sure that shows up in her story and the site and how she's connecting the story to the product. And and you never know. I mean, she may... Especially with, you know, a brand that's... That is coming from Hawaii where...
+
+I mean, there could be one post. Just... It could go, you know, could go viral. Yeah. Alright.
+
+We're gonna take another quick break, but we'll be right back with another caller. Stay with us. I'm Guy Raz, and you're listening to the Advice Line right here on how I built this lab. Welcome back to the Advice Line right here on how I built this lab. I'm Guy Raz, and today, I'm taking calls with SmartSuite's founder Tara Bosch.
+
+So, Tara, what do you say? You ready for our next call? Let's do it. Hi, Guy. Hi, Tara.
+
+Thank you for having me. I'm Ali Aguilar based in Los Angeles, and I am the founder of Romanticize Collective. And it's an experience club bringing original, whimsical ways to create, explore, and play into everyday life. Okay. Welcome to the show.
+
+Thank you for calling in, Ali. So I don't understand what the product is. Explain that to me. I get the whimsical joy. What do you sell?
+
+What do you make? Yes. So right now, it's in the format of a subscription box. So instead of products, I deliver experiences. So you get an experience guide and then intentional items to bring the experience to life.
+
+And right now, there are four that are delivered every month to our members. Okay. So it's a box. And what's inside? So the idea is rooted in getting you out of autopilot and bring a little more magic into an average Tuesday.
+
+So that could be anything from making homemade cavatelli pasta from scratch. Another could send you out into your town where you're exploring like a tourist again or have you looking up at the night sky under a meteor shower. Okay. So it's like it gives you prompts, but also it it gives you, like, the ingredients to make pasta? So for that one, it would be...
+
+The guide would kinda give you a backstory on cavatelli and where it originated from, and then I'll put together playlists to kinda set the Italian vibes. Yeah. It'll have a tutorial, a recipe, and then the items are a wooden pasta block and the roller. So you would go out and get the flour, but that's kinda getting you to actually do the experience. Alright.
+
+So so it's a subscription... And that's the... The revenue model is a subscription box. Right? Currently.
+
+Yeah. And, so tell me how this idea came about. Yeah. So my background is, in real estate and development, and I've done that for high growth tech startups. And in those environments, you know, it's always about the next milestone, the next launch, go, go, go.
+
+And I realized I'd gotten really good at prioritizing that and kind of deprioritizing the things that light me up. So things that made me curious or got me to create or explore, or just simply play again. And I was like, how can I make this more accessible to weave into my life? And so I kind of came up with a subscription model where it was delivered to your door. It was guided for you, already curated, and you could easily do it on, a Tuesday evening.
+
+And so you you started this business. And, I'm sorry. When did you start it? I launched in January of this year. Okay.
+
+And how is it doing? Give give me a sense of your of your numbers. Yeah. Right now, we have 30 recurring members, so done just under 20,000 in total sales. And right now, we're trying to figure out a sustainable customer acquisition Yeah.
+
+Alright. So be... Before we dive in further, tell us what your question is. Yeah. So, kinda relates back to the subscription model.
+
+So I'm curious how you know when to keep refining, how you market and grow what you've built, so in this case, the subscription model versus when it's time to evolve the product or the business model to better deliver on the mission. Okay. Tara, wanna bring you in. What's the sign that you look for when maybe you should try something else out or or maybe sunset something or or double down on something? Yeah.
+
+You're you're creating joy. You're creating moments of joy and experiences around that, and the world always needs more of that. So that's awesome. How do you determine what experiences you're including in the boxes? Seems like there's a pretty broad spectrum of, you know, someone going stargazing or someone cooking.
+
+And how do you decide kind of the, like, threshold that it's an experience that all your subscribers will like each month? Yeah. Right now, I'm constantly iterating on that. So it's four unique experiences that I design every month. So I'll either root it in things that are happening that month.
+
+So the stargazing was around, the massive meteor shower we had. So I'll kind of think, okay. Is there a season or a major event or a whimsical holiday that I can craft something around? But they're all intentionally... One is always getting you to create.
+
+One is exploration, reflection, and then another can just be like a whimsical way of of doing something simple. Those are kind of like the core themes I try and diversify in each one. But eventually, like, any subscription model eventually is meant to be customizable to your desires and and what you wanna bring into your life. That makes sense. Sounds like you're in that kind of early validation of the, like, product market fit and, like...
+
+And what is that sweet spot? Have you talked to your current 30 customers to understand what's keeping them coming back? Some of them, but I definitely... I wrote that down. I know you mentioned that of doing those calls.
+
+I think that would be a good way to just get more of the feedback around the emotions and what people are liking and not liking. Yeah. Definitely. I think the the overall thesis of what you're trying to do is is smart, and there are a lot of opportunities around this. You know, this sort of analog or or tactile experiences.
+
+A lot of in person experiences. I think it's gonna be a bigger business as more and more things just become AI and no... You know, people can't tell the difference between what's real and what's not. And so I I I see the kernel of something here, and this is like version one point o. Right?
+
+The the... This... And it may be that you you continue to do boxes, but they they are something different or it may evolve into, you know, into something that you aren't even... Can't even imagine now, like meet ups or, you know, or or sort of groups around the country or or this... Or a network or some some community building thing, right, that is...
+
+That serves the purpose of this idea that that that we need to have these tactile, these real world offline experiences. So I would give it a... You know, I I think to Tara's point, I would touch your customers and get as much information as you can, as much data as you can. And I would continue to experiment with that while thinking about the bigger idea, right, which is to get people connected in a different way. Yeah.
+
+One question that's coming up for me too that... That's like when you chat with them, figuring out, are they opening the box, doing this experience, and then are they telling their friends and family, and are their friends and family subscribing? And if they're not, why? What's holding them back? Think of, like, FreshPrep or, like, that kinda where it's like, oh my gosh.
+
+I made a dinner right away. It comes up in friend conversation. You're like, this saved me so much time. The ingredients were in the box, and then your girlfriends signed up with her family the next day. So if people aren't kind of having that natural waterfall effect, what's stopping them?
+
+And I think that could be a really good nugget to understand how to evolve from a product perspective as well. Yeah. No. That's really good feedback. Thank you both.
+
+I I think the overall vision is, like, this is how it exists today, but essentially trying to make experiences as accessible as buying a consumer product. It's, like, the same way we can have something delivered to our door and consume it and it's done. You could also, you know, learn how to do a new thing or experience a world somewhere far away. I'd be curious, like, given that it's experiences, kind of micro experiences delivered to you, is there another format that you guys envision for this model? I would...
+
+I mean, you're in Los Angeles. Right? I would think about testing out some kind of in person thing. Thing. Right?
+
+I mean, I think that could be a huge value proposition. Right? You're you're... If you buy the box and and there's an opportunity to actually meet up with a few other people and maybe, like you say, you you experience your own city. It's worth experimenting because I also think aside from offline, you know, people wanna...
+
+You're seeing people buy books, right, instead of reading them on screens. People want to be around other people. Right? And I I I... So I...
+
+It's not easy, but it might be worth trying to experiment with something in the box and in a real world experience. If you have some people in the LA area, for example, that you can experiment with. Yeah. I'm doing an event. It's funny that you say that.
+
+I am testing that at the end of the month, doing a collaboration with a local women's group. So bringing one of the experiences from the box to real life. So it's kind of like a scavenger hunt in Culver City, and then you're gathering items and then doing like a junk journaling experience. So it'd be interesting to test that. Yeah.
+
+There's a couple companies too, think, that are operating at scale. I can't think of one of the names, but where they they plan the trips that you can purchase the road trip, you know, and... Or the itinerary, and they're very experience based too. And it could be interesting to connect with some of those founders and even from, like, a cross collaboration opportunity and things like that from a brand awareness perspective. Okay.
+
+Thank you. Yeah. Well, it's a... It's awesome idea. I would keep experimenting.
+
+Aliyah Gillard, the brand called romanticized collective. Good luck. Thanks. Tara, thank you so much for doing this. It's so great to have founders come on and, you know, and give advice.
+
+It's it's one of the great advantages we have on the show, which is we can bring all these founders who've been on and and have them come back and and help us out. I feel so honored, honestly, and so inspired by the entrepreneurs that came on today and shared their stories too. It's... Yeah. It's it's it's really cool.
+
+The world needs more people having the courage to act on ideas than ever before. I agree. Tara, before I let you go, just one question for you, which is if you could go back to when you started Smart Sweets in, you know, in the in in the basement, like, mixing mixing up the ingredients. If you could go back and say, hey. Here's something you need to know as you're starting out.
+
+What do you think would have been helpful for you to know? I think the clarity of what the world looks like five years from now with your vision in it and being so crystal clear in that. There was a quote, and I can't remember who it is by, but it's always resonated. And it was the essence of it's not that you can't get to where you wanna go. It's that most people don't know where they wanna go.
+
+So clearly defining, like, what is that point? I would have defined that even with more clarity from the beginning. And once I did, I saw how that catapulted the vision forward. That's pretty abstract, I know, but it dovetailed into all of the specific decisions like retailers launching nationally or not and things like that. Yeah.
+
+It's great advice. Tara, thanks again. And by the way, if you haven't heard Tara's original How I Built This episode, you've gotta go check it out. Here is one of my favorite moments from my interview with Tara. We put a launch date for December 2015.
+
+Come second weekend of December, they call me and they say, hey. We are not going to let you use this recipe, this formula. You can use another formula with chicory root fiber as the bulking agent. And immediately, I knew what they were telling me was, we're gonna give you a recipe that's actually not digestible. That's gonna blow up people's stomachs.
+
+That manufacturer took the recipe and ended up going on to launch a product themselves. Hey. Thanks so much for listening to the show this week. And by the way, please make sure to check out my newsletter. You can sign up for it for free at guyroz.com or on Substack.
+
+This episode was produced by Chris Massini with music composed by Ramtina Arablui. It was edited by John Isabella. Our audio engineer was Anli Huang. Our production staff also includes Alex Chung, Carla Esteves, JC Howard, Katherine Seifer, Casey Herman, Carrie Thompson, Sam Paulson, Neva Grant, and Elaine Coates. I'm Guy Raz, and you've been listening to How I Built This.
+
+Thanks again to Engine for their support. If your business is growing and your team is traveling, Engine makes it simple and saves you money doing it. 33,000 businesses have joined. Now it's your turn. Engine.com/built.

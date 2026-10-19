@@ -1,0 +1,823 @@
+Support for the show comes from Comcast Business. AI has made cyber attacks faster, cheaper, and easier to scale. Attackers can exploit security gaps long before patches are available. If you're a business owner, you need to stay ahead of threats. If you're only reacting, it might already be too late.
+
+That's where the Comcast Business 2026 cybersecurity threat report comes in. Learn more about today's threat landscape and the best ways to stay prepared and ready for what's next. The 2026 Comcast Business cybersecurity threat report uncovers how AI is accelerating today's attacks and how to build defenses that keep pace. Read the report at comcastbusiness.com/cybersecurity. Cyber confidence starts with Comcast Business.
+
+Support for the show comes from Jira by Atlassian. Your work is scattered. A thread here, a DM there, docs everywhere. And it's not only your team searching for context, your AI agents need it too. Jira taps Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with agents you already use, like Claude, Cursor, and GitHub Copilot.
+
+Assign them work directly or connect your agents through MCP. The result, less token waste, more accuracy, and more time moving forward. Learn more at jira.com. That's jira.com. Support for the show comes from ServiceNow.
+
+AI is moving fast across the enterprise. But without visibility, it's just chaos. Different tools, different models, different teams using AI in completely different ways. ServiceNow turns that chaos into control. With the AI control tower, you see all your AI across the business in one place.
+
+What it's doing, what it's done, and what it's about to do. So you stay in control. To put AI to work for people, visit servicenow.com. Hello, and welcome to the Vergecast, the flagship podcast of CarPlay entitlements, which are a thing I know about against my will. I'm your friend David Pierce.
+
+Neil Epzel is here. Hello, sir. I know so much about carplay entitlements. I am so excited to talk more. I I am I am forcing more home view talk into the top of this episode because carplay is about to become more important in your life, and I think that is so funny.
+
+That's the worst. By the way, can I just shout out? Jen Toohey is amazing. It was so much fun to have her on the livestream afterwards. And we saw comments that were like, you should let Jen talk more, and she's British and polite, and you just run over her.
+
+I just like talking to Jen a lot. Yeah. That's it. That's what I've got. Like, it it is fun to talk to our reporters who are deep nerds and stuff, and approximately one person in this world wants to talk to me about Z Wave, and it's Jen.
+
+That's it. That's confirm that. Yeah. I I just want you to know, I I just get excited to have another nerd who cares about my nerd stuff here. Jen does not care about CarPlay.
+
+The only other person who cares about CarPlay as much as me is Joanna Stern, whose home view videos were like, CarPlay, and then she, like, excitedly texted me about it. Yeah. So I'm I'm working on it. We're gonna bring it all together, and then we'll we'll make a show that, like, four people enjoy, but I will have the most of And all four of them are the hosts of the show. It's a show for no one except the hosts.
+
+It's gonna be great. I'm excited about it. We have a lot of stuff to get to you today. We have a bunch of AI news. We're gonna talk about this thing where people are starting to slink back to x, which I find fascinating.
+
+We've got some SpaceX stuff going on. We've got a lot of we've a lot of news to get to. I But do wanna start with a little bit of home view stuff at the top here. We did the livestream on Wednesday about Apple's new smart home entrant play here, but one thing we we talked a little bit about and we're a little bit confused by and got some feedback about was the app situation on the home view. And I would say both that we've had some time to learn about it and read about it and talk to people about it, but also that I feel incredibly vindicated because it is really confusing and essentially makes that no sense.
+
+So, Neil, I do you just wanna, as best you can, sort of lay out the app situation on the home view as we understand it now? There is no app situation on the home view. Well, it's not exact... It's mostly true. It's it's so true.
+
+The app situation on the home view is approximately the same app situation if you went onto Amazon or Alibaba and bought a $299 CarPlay tablet for your car. Yeah. That's basically right. Yeah. They sell those.
+
+You can just get one. They're in the TikTok shop all the time. Yeah. You can just get one. You just, like, mount it to your car.
+
+They sell some that are so big, you just mount them over your vents. I've I've always been taken with these. Yeah. One day, we'll do an entire episode on just people who own older model Ford f one fifties ripping out the entire dash and putting in CarPlay tablets. There's a whole ecosystem there that I'm passing by.
+
+That's basically what Apple did here. They they made the home view. They built some first party software to do some things Yeah. In particular, make FaceTime calls and the home app. Yeah.
+
+It's not totally dissimilar from what you get kind of out of the box with the iPhone. Right? It's like you get you get alarms, you get Apple calendar, you get the home app, you get messages, you get podcasts. It's it's sort of the the, like, bog standard set of Apple apps are on this thing. Right.
+
+But there's no app store, and then there's a bunch of Apple apps that aren't there. Right? Like, if you are an Apple Music classical person, which has its own app because classical music is organized and complicated different ways, that is not available to you. Apple News, the thing you might wish to scroll on your display is the chaos of your family makes French toast around you. Not available here.
+
+All of these things are gonna be CarPlay apps. And if you will recall, on the day of the HomeView launch, it seemed like what Apple was gonna do was take CarPlay and then, like, rework it for the HomeView. Mhmm. And instead, it seems like they're just gonna force everybody as a CarPlay app into supporting the HomeView. Yeah.
+
+There's a thing in the developer terms that essentially says if you make a CarPlay app, it will work on the home view. The end. There's like... You you you barely even have the ability to turn it off. It's like if it if it is in CarPlay, it will be on the home view.
+
+Does this approach make any sense to you? Because I confess this does not make any sense to me. No. It it... First of all, Apple's entire deal is apps.
+
+Yeah. And they're already asking a lot of developers. The iPhone Duo is gonna require a lot of developers to support yet another screen size. There... There's some amount of rumor in the rumor mill about a touchscreen Mac.
+
+Developers are gonna have to think about that in some new way. I mean, this is a new hardware category for Apple. It is a new way of thinking about how you might interact with Apple devices in your home. And of all of the things you would ask developers to do, hey. Think about, like, a true, cool, fun, multiuser app for our shared screen in the kitchen.
+
+Seems like top of the list. Right? This is a new category. Yep. And instead, Apple has chained it to the iPhone in a way that means...
+
+I mean, they've sold a lot of iPhones, but they've chained it into the iPhone in a way that means you can only ever sell some fraction of the number of iPhones that exist. And so the app model is that, and the user model is that. And it's a lot of iPhones. Don't get me wrong. I think most companies would be happy to sell a significant portion of of a fraction of iPhone imagine somebody who isn't already in the iPhone world is even going to be really looking at this thing.
+
+But maybe that's kind of the point. Right? Like, this this thing is an accessory of an iPhone. It's it's an Apple Watch in a very real way in that it actually, there is no reason whatsoever to buy it separately from owning an iPhone. In a way that, like, you can own an iPad and an Android phone and live a life that makes sense.
+
+This doesn't... This will make no sense if you are not an iPhone family. And if you recall... And I know you recall because you wrote the wired cover story on the first Apple Watch, which I'm mad at you about. I do in fact recall.
+
+Right. The Apple Watch started as, like, a remote control for your iPhone apps. Mhmm. Like, that was a lot of the app model for the Apple Watch is Yep. This is just a little screen, but the app is actually running on your on your phone.
+
+And over time, as the processor got more efficient and more powerful, they brought the apps to the watch. This is why I was basically screaming where is the computer on the livestream this week. The watch became a computer, and then it started running the applications, and now the watch is a vastly more independent computer even though it's still connected to iPhone a lot of ways. The home view does not appear to be a computer. Right?
+
+It is the the model of that first generation Apple Watch where it's a remote for your phone is right there. And then it's... On top of that, it's very funny they picked CarPlay as the app model for those little remote control apps. CarPlay... The way to think about CarPlay is that it is just a second monitor for your iPhone.
+
+Yeah. Right? It is screen projection, and you plug it in or you wirelessly connect. Your iPhone detects a second monitor that's a CarPlay app, and it shares a screen with custom interfaces for the apps that are running on the phone. This is fine in a car.
+
+It's also it's also not. Like like, isn't fine in a car. And this is the thing. Like, CarPlay, I am the pro CarPlay person on this podcast by default. I don't think CarPlay is very good.
+
+Right? Like, the... This experience is not good. Like, the the simplest example for me is Spotify. You don't get anything remotely approaching the full Spotify experience in CarPlay, which makes some sense when you're driving and you should be tapping as little as possible.
+
+But if I'm gonna have to do the stupid CarPlay search thing where it goes, what do you wanna listen to? Pause. Bing. And then you talk every single time I wanna use the home view. That's awful.
+
+Like, this is this is a thing that clearly has enough processing power. It has enough screen. It's going to be plugged in, so it's not like there's a power issue. There... You're also not driving.
+
+You're not distracted. Right. I... There is nothing preventing this thing from being a computer except that Apple doesn't allow it to be. And I guess part of it is the way that it's thinking about switching between users.
+
+And if you wanna have a bunch of apps logged in to a bunch of different things, like, can see how that model locally would get confusing, but that model's confusing anyway. And if what you're telling me is that this thing is going to learn to seamlessly switch between CarPlay devices... Have you ever tried to switch CarPlay devices, Nikolay? Like, I I don't know. This just makes me more concerned than ever that this thing is actually going to work in a way that works for me.
+
+We obviously have to get it and review it. We will see. But here's my my big question for you is this is a lot of new hardware from Apple coming out. Right? With...
+
+Where the Duo is soon to come out. This thing will come out. There... There's the new Apple TV, hot new hardware from Apple. There are rumors today that there will be a touchscreen MacBook from from Gurman.
+
+Potentially very soon. Potentially very soon. There's a lot of new hardware from Apple. It's a big push. Right?
+
+New CEOs, hardware CEO. Here's all the new hardware. And it feels to me like the question we're gonna ask at every single turn is, did you get the software right? Right. Did you make the right software decisions?
+
+And if I was gonna be super rude, I would say none of this hardware is particularly, like, beyond the industry. The HomeView in particular, right, is like... It's an LCD display on a previous generation chip. Sure. But, like, yes.
+
+You you could have made this at any point in the past one hundred years, Apple. Sure. I I will grant you the Duo has a lot of, like, engineering in it, but foldables have been around for five years. So the the wins here are all gonna be software wins, ecosystem wins. Right.
+
+And I... It's it's interesting that all of my questions about all these devices are around, do we get the software right? Is the ecosystem paying off in the way we want it to, or is it actually holding us back? Yeah. And I I truly do not know the answer to that question.
+
+I don't either, but it's been interesting to see, like, the app developer community has raced to support the Duo. Yeah. Apple Apple has gone out of its way to help people do this, but also even for a relatively new device that I suspect will not sell in giant numbers just because it's so expensive, app developers are all over this thing. And the App Store situation for the Duo on day one is gonna look great. There...
+
+This is what Apple is good at. This is Apple's main advantage over Android in particular. I've been using a lot of different size screen Android devices recently. I had the Alexa tablet. We have Google Books, and I am I am just struck over and over by the fact that Google is unwilling or unable or both to convince developers to support nonphone devices.
+
+Just can't do it. The keyboard stuff doesn't work very well. The large screen stuff doesn't work very well. Apple is good at this. And and for Apple to come out with something like the HomeView that it ostensibly believes is going to be a big mainstream device.
+
+Like, Apple gave developers a better story for the Vision Pro than they're giving the HomeView. And it just... I'm I'm just confused by this. And I think the long run, it'll probably be like the Apple Watch, like you just described. Right?
+
+It starts as an accessory and slowly over time becomes a computer. But that was a a new piece of hardware with tons of new ideas and really, really intense constraints. Tiny thing, tiny battery, tiny processor, lots of new stuff going on. This should have none of those problems. Like, if if ever there was an Apple gadget to just over horsepower into existence with an App Store, it should be the one that is plugged in sitting on your kitchen table.
+
+I'm just confused. Like, actually, the one thing Apple is best at is putting enough processing power and RAM in its computers to make its experiences work. Yeah. Like, I think there's two reasons people like CarPlay. And I'm like you.
+
+I'm like, it's it's fine. It's there. I use it in in in our cars, but I don't think it's the best thing ever made. But I think there's two reasons people really like it and are are very, very, very vociferous. They'll never buy a car without it.
+
+One is just the library of apps. And every time we do, like, a decoder or CarPlay episode, we get all this email about it, and one always sticks out in my mind. It was a reader who's like, I have a Bible app. The maker of the Bible app is never gonna write an Android automotive app and put it in the Play Store for your weird Android car. Yes.
+
+Right. There... There's no way to get that app, that big library of app. This is like Instagram on the Windows phone. Mhmm.
+
+You can you can make all the Windows phone you want. You don't have Instagram. You're dead. There's some long tail of apps that CarPlay supports, and that means you have that, and every other alternative does not have the one app you want. So you're back to CarPlay.
+
+The second, and I I think this is just tremendously important, is that it is using your car's display as just a second monitor. And so all of the logic, all the application is running on your phone, which has enough processor and enough RAM and a fast cell connection, and so the computer is good. Yep. Like, that's it. Where...
+
+And every carmaker under specs the the processor and RAM and everything else in their car. So you you, like, can't compete with a new iPhone with any car. You just can't do it. Maybe Rivian and Tesla can do it, but I think everybody has the same questions about performance of those systems over time. Sure.
+
+Apple is, like, very... They know that this is what they win on. This is why you have a $300 Apple TV. It has more horsepower than any TV app developer can possibly know what to do with, except for the one or two game vendors who think they're gonna make it happen on there. Right?
+
+Yeah. What are you doing with all that power in the home view? You you should just let people run their apps. Yeah. This...
+
+All the way back around to should this just be an iPad? Yes. We got so much response that essentially amounted to what if Apple had just made a really kick ass MagSafe mount for the iPad that just worked? I'm like, yeah, that would have been the thing. Justice for the Pixel tablet.
+
+You know what I mean? Like, Pixel tablet got everything right. We also missed one detail that a couple of people pointed out that I think is a very big deal, which is that the new Apple TV remote, which is easier to find, is backwards compatible like, a long way back in Apple TVs. So screw the new Apple TV just by the new remote. I I think that's what I did with the last Apple TV.
+
+They they just got me on the remote upgrade cycle. Remotes and polishing cloth are are how Apple really I feel like I've upgraded my Apple TV remote more often than my iPad. That's... Shit. That might be true.
+
+I agree with that. I've got a lot of Apple TV remotes now that I think about it. It's like those and left AirPods are the the other thing I upgrade all the time. Alright. We should switch gears.
+
+We should talk about some AI news. The big news of this week was that Google released Gemini four Argon, which is its sort of reentrance at the frontier of the model race. If you remember, for the last, what would you say, three or four months, the the scuttlebutt in the AI industry has been that Google fell behind that with with Fable and with Mythos and all of the stuff that OpenAI and Anthropic were doing that they were way out in front, and they had essentially left Google behind. Google then shows up with Gemini four Argon, which it says is just as good as those other models. It's also vastly cheaper, and it has sort of announced itself back at the front of the race.
+
+Robert Hart on our team also wrote a great piece this week pointing out that Meta, which just released a model called Wonderful, which is... I don't I don't like Meta. What's Meta? It's wonder. It's Muse Wonder.
+
+I know. And then there's the big one, the full one, which is Muse Wonder four. Yeah. But they did wonderful, and I don't I don't like that. It's like it's like...
+
+I just don't like it. Everything about Meta and AI is a little too cute and oddly a little too sexy. Yeah. It's it's got, like, a little bit of an ass on it. You know?
+
+But, anyway, what what do you make of some of the news of this week? It does feel like there is this sort of renewed sense of real competition in this space for the first time in a minute. Even as all these companies are reckoning with questions about safety and trying to figure out the product stuff, like the... This who is winning at models race does kinda feel like it's back on. Did you watch Zuckerberg and Alexander Wang on the Cheeky Pint podcast?
+
+I mean, everyone watched Zuckerberg drink the Guinness. I was gonna say, we all saw the meme of him enjoying a... Quote, unquote, enjoying a beer. I watched bits and pieces of interview, but not a not a ton of it. Why?
+
+I'm I'm I'm fascinated by where where meta is right now. So I I watched most of that interview. As always, it's it's very fun to watch Zuckerberg talk about communication styles. So I think they asked him about Wang's, like, tweets with the butts, and Zuckerberg was like, well, you have to be authentic. And I was like, is that is that actually what you think?
+
+Butts are who I am. It's like, authenticity. Alright. Whatever. Anyway, there's a part of that where Zuck in particular was talking about the bet they made on training their own model.
+
+Mhmm. And Wang was like, we need our own reasoning model. And at one point, inside of Meta, that was, like, frowned upon. And he was like, I think we're gonna fail. I think we're making the wrong bet.
+
+And he convinced Zuck to do it, and he, like, we're gonna write a $200,000,000 check. We don't know if this is gonna pay off. And Zuck was like, but we have to because we are a full stack technology company. We need to control the thing that powers our experiences. And so Meta just in, you know, in, like, Zuckerberg fashion was like, we're just gonna win.
+
+We're just gonna do this until it's clear that we shouldn't anymore say in our metaverse. Right? Like, but this... We need to have this technology in order to make Muse work. And the dynamic there that I think is utterly fascinating is they launched the consumer product that people are interested in without the more powerful model.
+
+Yeah. True. And then... Right? And then now if you pay them money, you'll get Muse Wanderer, and over time, I think they'll figure it out.
+
+But Meta is a consumer products company. They're good at it. You can feel a lot of ways about Meta. Mhmm. But, again, I will come back to the Oculus Quest two was a great consumer product.
+
+They are good at defining a consumer product, marketing it, making it a good consumer experience, and then ruthlessly and shitifying it with Instagram ads. Whatever it is, but they're good at And I think it's very interesting that their priority was launching the product that was interesting, that made investment in the model seem worthwhile. Mhmm. Right? So they need a reasoning model because they want Muse to be more capable, but they need...
+
+They were happy to be like, Muse is finished. We can give it to people with the capabilities it has today, and then over time, it will get more capabilities. The same way that... I don't know. The iPhone come...
+
+Came out, and then they're like, OLED screens, and then the iPhone changed. And now they're like folding OLED screens, and the iPhone changed. Right. But the the product, like, made a promise and kept it. I think Google is releasing all these models left and right, and they have no idea what their product should be.
+
+Right? To the extent that OpenAI and Anthropic are... Have products in market, they've both figured out that they... Their products are enterprise products. Right?
+
+They're... They they are business software companies as you keep calling them. Yep. And they're more powerful models. You know, the...
+
+I I love that everyone's demo case for all these models is like, it can use Blender so well. Yeah. And it's like five people in the world need this capability. Yes. I'm sure they're very enthusiastic, but they haven't made the consumer products.
+
+And Meta is the one that has, like, truly figured out, okay. There's a flywheel here between our consumer product and our massive investment in the models and what that will enable the consumer product to do. And I... It's great that there's a race in the frontier, but I... And and I think that's fun and interesting.
+
+I... It just... Man, none of these companies apart from Meta have, like, put it forward. Like, here's a great... Even Dots from OpenAI is enterprise software.
+
+I saw Casey talking about how much he loves Dots the other day, and he's like, I run a business now, and I do business stuff with my Dots. And I was like, very few people are in that position. Sure. And that's and that's well and good. Right?
+
+The idea... Like, the idea of these things being business software is is good and fine and is going to be very successful. I've been reading Kevin Roose's book, the AGI Chronicles. It's very good. It is...
+
+It's really, really good. And there is a there's a point he makes very near the beginning that there are... There were kind of two big ideas about AI that are also sort of two big ideas about AI products. And one is do you make narrow AI to solve narrow problems? Right?
+
+Like, you do you build and train and refine a model to do English to French translation? You can do it very well, but it is very specific and very narrow. Or do you do the big, huge one model to rule them all approach, which is much harder and requires vastly more compute, but that these researchers found over and over would actually over time outperform the narrow models. And he he ties this to Google as a company which looked at AI for a really long time as a way to make its existing better. And it's like, okay, we need we need this new way of doing translation to improve Google Translate.
+
+And we can do really great summarization. Oh, that's gonna be so useful for Gmail. And they they looked at these things and they said we have a set of products. How can we how can we poke AI at them? And you can still see that inside of Google.
+
+Even now Gemini, like, is a product. Google is bad at understanding how to talk about Gemini as a product. And so it it just exists kind of outside of itself while most of its energy is focused on how do we put Gemini into your Gmail and into your Google Docs, and how do we beat you over the head with it every time you use one of our products so that we can put AI in there. And in some ways, makes a lot of sense. You get you get a huge distribution victory.
+
+Google has all of these business clients. Gemini four is much cheaper than some of the other ones, which is a big deal that doesn't get talked about a lot. Mhmm. But, like, these frontier models are very expensive, and Google is running a promotion where they're I think 80 percent cheaper than the comparative models. Like that's a big deal.
+
+But there there is no sense to me. I have no belief that Google is even capable of doing what Muse did, which is one entire new thought about how people are going to use AI. Yeah. Like, it's it's so telling that Google tried to build this thing backwards out of Gmail rather than start with something wholly new. Oh, no.
+
+I I think it's... It it is even worse than that. Google announced Gemini Spark at IO. Yeah. They they're...
+
+They announced the product. They had the other product, the browser use product. I forgot what it called that they canceled. Mariner. Yeah.
+
+And they they... That's what should be inside of Gmail. Sure. Like, what what do these products... What do agentic products, like, truly need?
+
+They need access to your email. Mhmm. If if you were if you were to break it all down, like, what is the number one thing they they need to be as effective as everyone wants them to be? They want your email. God, Muse is so thirsty about my...
+
+Can I can I just tell you? This is a total diversion. Can I tell you my favorite new thing that's happening in Muse? I play fantasy football. I'm in two leagues, and every every Monday night, I get a report on how the week went.
+
+And then every Wednesday, I get, the, like, waiver report on who picked up and dropped players. So now five days a week, maybe, I get some kind of update from Muse with fantasy football advice. Yeah. Yeah. Yeah.
+
+Never asked it to do this. Engagement bait. Yep. It's incredible. It just reaches out and it's like, hey.
+
+Here's who I think you should pick up off the waiver wire. And I'm like, I didn't... You and I have never talked about football. Muse a bit different. Doing that?
+
+No. I haven't. I'm sort of enjoying it, to be honest. Okay. Well, so Meta's Meta's good at consumer products.
+
+They're good at engagement bait. They're good at making you come back and use the thing again. They're good at notifications. Like, they're good at this. Yeah.
+
+Really, really good at this. My... The... It's like every time... Talking about AI is so much like talking about a dream you had.
+
+Like, the stakes are so low for everyone else. And for you, it's like, I almost died. It's like, no. You didn't. You're fine.
+
+You're sitting right here talking about when you were asleep. Anyway, so mine is constantly digging. Again, I gave it my spam email, so it's always doing the same kind of engagement that it hit me. And I told it to stop. I was like, I want you to stop proactively reading my email.
+
+I just want updates on the three things that we agreed on, which are mostly like, did I get a class action notice and did you fill it out? Just make me the like cheapest money you can make. And it won't stop. And I was like, you have to stop. And I was like, I want you to pay me $200 every time you proactively read my email without permission.
+
+That's right. And it is still trying to figure it out. Like, it is just in the background somewhere at Meta, some data center is just spinning cycles trying to figure out how to do this. It has not done more proactive email reading. Somebody's like, how has this one user used 11,000,000,000, But he hasn't prompted us in in two weeks.
+
+It's still going. It's still... Every now and again, like, did you figure out this scheme where you're gonna stop proactively reading my email? It's like, I was still figuring out how to make money. It's really Let me know when you've done it.
+
+It's very good. The Roost book is good. It is fun to read. All these people truly hate each other. Kevin had a book party in New York, I saw him speak at it, and he said the book could have been titled fuck that guy.
+
+That's a really good book to... Yeah. Because, like, they all truly hate each other. Yep. And it is very true that Google, in particular, has the innovator's dilemma.
+
+All of its products are huge. They all throw off a lot of cash. They can't disrupt them too much. There isn't a business model for consumer AI yet. They haven't figured it out, And so they're they're trying to just increment all of those products.
+
+And they really should just put Gemini in Gmail and be like, do you wanna just read your email and send me some notifications on what to do? And I think they're they're terrified of doing that. Right? Like, I I... Whereas the upside for Meta, they get it right, is is sky high.
+
+Yeah. So we'll see. But I... That to me is... I'm just looking at...
+
+Yes. It's great that the frontier models are are pushing out there. It's great that, like, CNBC in the morning now, like, the very straight laced morning anchors on CNBC are like, RSI is coming, and then we'll all be dead. Weird. It's weird that that has permeated the consciousness because of the capabilities of these models.
+
+The products are still not there, and it's I I think it is worth giving Meta some credit. Yeah. They figured out a consumer product before anyone else did. And if you look at the home view, you're kinda like, well, I know what that thing should look like. Yeah.
+
+I have to assume that right now at Google, there is either a furious effort to buy instinct at almost any price Mhmm. Or a furious effort to build that exact thing. Because Google has every single bit of necessary infrastructure to have built an AI bot that works in your messaging app and didn't do it and lost. And, like, at some point, the the bidding war for that company is gonna be outrageous, and I suspect that it's happening as we speak. Two more quick things we should talk about before we get off the AI train.
+
+One is, are you caught up on this weird story about the OpenAI employee, like planting a bug in one of the conference rooms? I don't have anything to say about this story. I just think it's wild. I mean, it's a great story. Yeah.
+
+The part that really got me was that he tried to hide it with toilet paper, but tell the rest of the story. Okay. So the... As I understand it, basically, OpenAI discovered that an employee had planted a bug in one of their conference rooms ostensibly to record and take trade secrets. This is one of the, like, important conference rooms that not even everybody has access to.
+
+They they planted it behind the TV in the USB port, which I think is just a really funny way of just totally dooming the idea of USB ports on television. Like, we gotta get power from somewhere. It's a really good place to hide a recording device. I'm just saying, like, I'm not condoning it, but if you're gonna put it in a room, that's probably the place to put it. So, anyway, this person has been arrested.
+
+There's been a bunch of information that has come out you know, they they booked a one way plane ticket out of the country. Lots of this story left to tell, I think, but this is also like OpenAI is embroiled in a lawsuit with Apple over the allegation that they're stealing trade secrets from Apple that is, like, an an official part of their interviewing process. Like, the the secretiveness and the value of those secrets in this industry, I think, is just starting to create a huge mass of these stories. Okay. So first of the opening AI guy, he used his wife's ChatGPT account to to find ways to hide a recording device.
+
+This is the best fact in this entire story. I didn't know that. The FBI found that his... It was his wife's account, which was obviously tied to him and someone. They'll never catch me.
+
+And he was like, what are the best ways to hide a tracking bug? Like, incredible facts in this story. And then he had booked a flight to Saudi Arabia after he'd planted the device. So he was he was trying to... A one way ticket with the family back to Saudi Arabia.
+
+Just very, very good. And then I mentioned the toilet paper. They they found a a like a thumb drive size recording device and he had for some reason wrapped it in toilet paper and stuck it into the TV. Yeah. Listen, you're you're the TV guy.
+
+Can you explain this on TV? Because it's worse. I feel like if if I walk in and I see a thing in the TV, I assume it's there. If I see a thing in the TV wrapped in toilet paper, now I have questions. I do feel like there's an element of this where he used his wife's chatty d count, and it hallucinated ideas about how to hide thumb drive.
+
+And it was like, no one will ever notice if you're wrapping it to toilet paper. When what he should've done is gotten a label maker and printed out, like, eth three, and there's, like, plug... You know what I mean? That's good. Right?
+
+Like, some other thing, like, EyeLock. Like, he should have printed, like, you know, the EyeLock dongle? Or just write the name of the conference room on it and then plug it in. Everybody will just assume it's supposed to be there. Exactly.
+
+You just, like, whatever the conference room... Like, ours at Vox Media were always named after cities, which is very confusing. Uh-huh. So you just print, like, Chicago on it and just, like, plug it in there. It's, like, fine.
+
+It's, well, it must it must belong here. The number of times at our company when people would be like, I'm in New York City. And they're like, yeah, no. Not new information, guys. But, yeah, that's a good story.
+
+We'll we'll track that that one as it comes. The one other one really quick is Character AI, which is a company we haven't talked about a ton on this show, but was one of the early what if the AI bot was your best friend slash sexual partner kinds of companies. Filed bankruptcy, it turns out in that process was under investigations stemming from a a kid who committed suicide not that long after talking with It's Bot on Character AI. This this investigation found or was in the middle of finding some pretty alarming stuff. But now in a really interesting way, there are lots of questions, including one of the questions we asked on on the site, which is what happens to all of this data now?
+
+Right? Like, the... What happens in a in a bankruptcy proceeding is it is basically shipped for parts and sold. And presumably, of the parts is going to be vast quantities of user data, including about children. This is kind of the first one of these that has gone through this at at this sort of scale.
+
+It it... We also... I think four zero four Media had a really good story about the finances that go into this and just the unbelievable amounts of money that are being burned in all of these companies. But this is like... This is a tiny case study of what I suspect is going to be a lot of companies that burn through a lot of cash and have a lot of user data and are going to just go belly up out of nowhere.
+
+And what happens after that? I don't know that anybody knows yet. Well, Character AI was kind of doomed in the middle of its story. Right? It was started by Noam Shazir, who was one of the early LLM engineers at Google.
+
+It was like very frustrated that Google wouldn't do a chatbot. So then he left to do Character AI because he thought everyone was gonna fall in love with LMs. Then Google did a reverse acquihire, right? And they brought him back. And so like Character AI is like dead man walking because Google just like hired the team out from under it.
+
+Fair. Yeah. And so like, it was always like, what are you gonna do with this? I think that four zero four docs, the bankruptcy docs that they reported on, they were making like a million dollars in revenue. Like, it was like nothing against all of the spend that they'd taken to start the company.
+
+So at some point, they should have been actively trying to manage what happens to this user data because it was just abundantly clear when Google did the acquihire, this company was gonna die. Yeah. There's no... Like, what I'm talking about, there's no consumer products, like, kid's gonna legally bang a chatbot is not a consumer product. No.
+
+It... But these companies are also in a position of they're they're running so fast, and they're burning so much cash, and, like, every day is an existential crisis in so many ways Mhmm. That this will not be the last company that didn't think hard enough about Yeah. No. Agree with that.
+
+Stewarding of that stuff. And it... I think a good question is how valuable is this user data? So the other thing that was on my mind is, like, Spirit Airlines went out of business, and there was a auction for their corporate data. Right?
+
+Because if you have a bunch of data about ticket booking and flight schedules and itinerary and overbooking and fee and just, the operations of an airline, that's really valuable if you're trying to train a model that can do other enterprise tasks. You know, a bunch of the user data that's like, do you love me? Like, we are... They already they already stole all of Tumblr. Like, they don't need more of it.
+
+You know? You would hope. So, like, I I think we're gonna find that there's, like, markets for different kinds of data as more and more of these companies go under, and we see what happens to more and more of them. But... Yeah.
+
+I mean, there... Should there be a federal privacy law protects user data when companies like this go out of business? It probably should. Yeah. Agreed.
+
+Alright. That's enough AI talk for one day. Let... Let's get on to something less controversial, which is the state of social media and x. But first, let's take a quick break.
+
+We'll be right back. Are you a pet owner? Every six seconds, a pet owner in The US gets hit with a vet bill over a thousand dollars. Always an unwelcome surprise. That's where Fetch comes in.
+
+Fetch is the most complete pet insurance for dogs and cats. According to consumeradvocate.org, you get paid back up to 90% of vet bills at any vet in The US and Canada with claims paid back in as little as two days. Go to fetchpet.com/save right now for your free quote. That's fetchpet.com/save. Support for the show comes from AWS AI.
+
+AWS AI is powering transformation across the world's leading organizations, moving AI from possibility to production at scale. Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars. Across industries, AWS AI is helping businesses innovate faster, lead with confidence, and transform what's possible today. AWS AI is how.
+
+Support for the show comes from Bitwarden. October is cybersecurity awareness month, and here's an upgrade that actually gives you something back, time. With fewer password resets, less typing thanks to autofill, and no more trying to remember which variation of your dog's name you used this time. Bitwarden is the trusted open source solution for passkey, password, and secrets management. It makes secure password management available to everyone with a free forever plan for individuals.
+
+That way, all users have a reliable way to create, manage, and autofill strong and unique passwords across accounts and devices. Bitwarden uses end to end encryption to protect vault data, while secure autofill helps reduce phishing risk by matching credentials to the right sites, giving users greater peace of mind when logging in. Bitwarden is trusted by over 15,000,000 users and 80,000 businesses across 180 countries and 50 plus languages. Get started with a basic free plan for individuals or protect your business today with a free trial. This cybersecurity awareness month, check out Bitwarden.
+
+Visit bitwarden.com to get started. Alright. We're back. Neil, are you an ex... I actually...
+
+I'm... I realized I don't know the answer to this question. I check it every day now. There's a lot of AI conversation there, and I think it is important to see primary sources. Every now and again, I will snarkily reply to someone who is racist and remind them I'm from Wisconsin.
+
+It's actually the thing that's the thing I do. I would say that's a reasonably representative use of x. So that's pretty good. So the reason We're gonna have this whole conversation. I just want everyone to know that is my experience of x.
+
+Yeah. That's that's fair. I bring this up because over the last, really, couple of months now, there's been this slow sort of steady drip of people with some mix of fiery resolve and their tail between their legs going back to x. If you if you rewind, like, three years ago, maybe four years ago, kind of in the in the twelve months after Elon Musk bought Twitter and started to ruin it and turn it into x, a lot of people performatively left the platform. Announced they were leaving the platform, renounced their support for this place I am one of these.
+
+And left. I left quietly. I... This was made... This choice was made easily for me because I left on parental leave in December 2022, which happened to be a really great time to stop tweeting.
+
+And I just... I never I never posted about it. I just never went back. But I think, like, the the the verge has explained in public how we feel about x. But then recently...
+
+So I think the first one that really came across my radar was Max Stories where where John and Federico, two of the folks at Max Stories, decided that they were gonna go back to x and start posting. That caused a a mini revolt. Not even a mini revolt. Right? They lost a bunch of their staff.
+
+People got really mad at them. Yeah. Full scale revolt. People are very upset. And then just in the last week or so, our friend Casey Newton on platformer wrote that he is now going to start posting on x again.
+
+And then our friend John Kruber wrote about basically that x is the thing again. I don't know John's particular stance on posting on x, but he pointed out basically that X is still the best social network. No. Wait. Hold on.
+
+That's not... That... Sure. I... In...
+
+Of its kind. No. I... Well This compare... In in the universe of social networks in the category of things that look like Twitter.
+
+The total... The title of his post is x once again marks the spot. And he basically says, Mastodon is a wasteland, blue sky lost, threads is like an empty space filled with people. What are those things? Those are all things that look like Twitter.
+
+It's like you won the Academy Award for best sound design in a feature film about dinosaurs. Like, yes. And that... In your category, you might... But best social network is a whole different thing.
+
+Sure. Sure. Radically different thing. Sure. Different thing.
+
+Between Twitter and the Twitter clones, the... There was a there was a... Everybody believed they were leaving for something else. Lots of people loudly talked about how they were leaving for something else. Again, I'm one of those people.
+
+And people are are are slinking back. Some people. How do you feel about this? I feel like Meta really blew it with threads. They have a legitimately bigger product with more people, and they were so anti news and anti real time feeds that they just lost.
+
+They they... What Katie Naudipalse calls it the gas leak social network. She's a great writer, business insider. It... You go on there, and it is just the weirdest algorithm with the weirdest engagement bait.
+
+People getting things wrong on purpose, look left and right. Old tweets from, like, a hundred years ago being refarmed for engagement. Everything that's wrong about Meta is is just in your face on threads. They have some of the most interesting product design ideas about what a Twitter like can and should do. Yep.
+
+I haven't done this yet, but if you're a podcaster, you can have your podcast card appear between all of your posts on threads. There's... They have some, like, real time NBA chat stuff going on. Like, their product ideas are good. Meta is a good consumer product company.
+
+Their algorithm ideas are so weighted to engagement that it doesn't matter. Yes. And it it is by far bigger than x, by far. Mhmm. We can...
+
+We'll set Blue Sky and Mastodon aside for many minutes. We can come back to them. X has decided to win in one category, and I think this is why everyone's confused and angry. They have decided to win an AI conversation and tangentially venture capital circle conversation. Sure.
+
+If you are a VC and you would like to talk about how smart you are in the company of other VCs, do I have a platform for you? If you are interested in AI and what it can do and being excited about the future of software development, boy, do I have the platform for you. In almost every other case, x is irrelevant. And I, you I was talking to Casey about it because, you know, he and I shared a revulsion to x at the beginning. And his point, which I think is valid, and I will come to why I think it's valid, is if you want to cover the AI industry, you have to be in the rooms that they are in, and x is that room, by far and away that room.
+
+Okay. If you wanna cover almost anything else, you might not have to be in that room. Right? And so all of the people that you are talking about are tech journalists who want to talk about AI and converse about AI and, like, knock their ideas around and then go go home and write about AI or make AI podcasts or whatever it is. Sure.
+
+And so all of the principles in the tech industry are on x. That's what they've chosen, and they've chosen it for good reasons or bad reasons. Maybe John Turnis just doesn't want Elon Musk to yell at him. Maybe they all just hate Zuck more than they hate Elon. Right?
+
+Like, a mil... Blue sky is not big enough. Like, fair enough, man. They're they're they're making whatever choices they're making. And if you're a reporter, I think it's really important to go look at primary sources.
+
+Mhmm. For better or worse, the primary sources of the conversation are on that platform. This what I look at every day. I do not feel the need to participate in that conversation. I...
+
+I'm I'm not into giving our work away for free as as people know, especially to people who don't value my literal existence. And there are a lot of people on X who do not value my existence. My my experience with X is racial slurs. Is just a thing that happens to me when I post an x. Because people hate Wisconsin.
+
+They hate Wisconsin. I mean, there's, like, a podcast on x star called, like, the Indian question. Like Yes. We're, like, 2% of the fucking population. Like, we're fine.
+
+Yeah. We're we're just all smarter and hotter than you. Okay? I'm sorry. But, like, that that is real, and I I have a lot of friends who don't see it.
+
+They're not experiencing that part of it. Sure. I think that's that's happening here. But I do think if you are a tech journalist, you ought to go look at the primary sources. And if your experience on Blue Sky is kinda like mine, I, like, started to worry that I was just looking at screenshots of x, like, curated by other people.
+
+Yeah. By people who are mad. By people who are mad. And the reason I set those aside is I think those platforms should succeed. I think there's some great value in federated social networks and open social networks.
+
+And maybe Blue Sky's point is never to run Blue Sky. It's to enable a bunch of other things to operate. Maybe Mastodon's point is to never really be big. It's just to be the network of things that are on ActivityPub and one day figure out how to interact with threads, which is just like a holy war. That is all technology.
+
+Mhmm. It is not the consumer experience of where are the important people talking. And in this one field in tech, they are all talking on x. I understand it. I have a lot of friends besides John and Casey and Vettery, all those people who are like, well, I have to go look at it.
+
+But here's my counter example, and I'm curious what you think about this. It is... We are twenty days, nineteen days away from the midterm elections. X is irrelevant to the election. It is it is just not a factor in this election.
+
+They... There was an entire right wing conspiracy theory about James Talarico Yeah. Being in a mental institution In Ohio. In in another world Yeah. X would have just horse powered this into existence.
+
+Right? The... We've all experienced this in various elections where the the wildfire of an x political conspiracy theory be... Became the assignment editor for the entire media. Just didn't happen.
+
+Just fizzled. The idea that our candidates are arguing on x or issuing policy positions on x or reacting to x is nowhere in this cycle. And that's the counterpoint. Okay. I I fear you just picked the worst example because the Talarico thing did actually kind of escape containment, and it did force the times to do the piece where they went and, like, looked at his Ring camera records to make sure that he was home.
+
+And, like, this one hit, but it's I totally disagree with you. It... I mean, it's there. I can show you the coverage. Like, the the idea that random people on Twitter get to assign the mainstream media what to do remains in existence.
+
+It's just there. It's not nearly as often, but it's still there. And I do... I think one really But not in a way that breaks through. Right?
+
+Like, in the in the last presidential election, they're eating the dogs or eating the cats. Sure. It just concocted out of nothing on x until it landed in a debate, and then it's now like a rap song on I agree with that. And I think the thing that is most bizarre about this moment that we're in is that that kind of doesn't happen anywhere. Like, in a weird way, even as so many other monocultures were breaking, Twitter stayed kind of a monoculture.
+
+So Casey's argument is that Twitter has gotten much smaller. It's much less lucrative than it used to be for sure. Sure. We can see its financials as part of SpaceX as SpaceX is a public company now, and it's also vastly smaller. Mhmm.
+
+Like, all... And when you... This is why I reacted so strongly, the best social network. The best social network is, like, Instagram reels. Well, yeah.
+
+Yes. Right? The... Or TikTok. I think I think there is a strong argument to be made that neither of those things even resemble social networks.
+
+But But that is where people are having social media experiences. That's where they're having entertainment experiences. But this is this is a semantics argument we don't need to have. I I I I take your point. And I I think in a weird way, what actually happened is that we didn't replace Twitter with anything.
+
+It all just sort of died. And I... I'm at a point increasingly where, like, I I I use threads more than any of the other ones. I don't really know why. Just do Why are so weird?
+
+So Blue Sky Blue Sky is weird because everybody on Blue Sky is either, like, in violent agreement or violent disagreement in a way that I find exhausting in both directions. But everybody's mad all the time. X, I find just, like, deeply unpleasant. All the people on it. Frankly, I find deeply...
+
+I just don't have a good time on x, and I don't feel any obligation to post there. So whatever. Threads is, like, the sort of tamest middle ground for me, and that's fine. It's a place to post. People can find it.
+
+But there isn't... Like, I I think the idea that you have to go back to x because it is meaningful for most things is true. The thing about the AI conversation that you're missing is that the AI conversation is the most important. It's the only conversation everybody is having, and that gives x a huge amount of power because No. No.
+
+And they did it on purpose. They they they made this choice. For sure. But it's... And and for a long time, that was politics.
+
+Right? Like, they gave they gave huge weight to political conversations, and so they elevated it onto cable news. And now it's just AI because of the people who run it. But the thing is they called that correctly. AI is the most important conversation everyone is having right now.
+
+It's the most important conversation political journalists are having right now. Right? Like, if if you... It is. Like, you...
+
+You're you're talking about the people on... Just offhandedly on CNBC talking about how RSI is gonna kill us all. Like Well, that's... Their business journalists talk about money. What we do.
+
+I think we are at a point now where even that one conversation is the closest thing to a universal conversation being had, and it does make x powerful. And I think it's a huge bummer that everybody has allowed themselves to stay on x and do that. I think it has a lot to do with the fact that those... The people on that platform, like, they're not there because x is powerful. They're there because their their politics have moved in large part the same way that Elon Musk's did, the same way that Mark Andreessen's did, the same way that, like...
+
+It... No one is not there with open eyes is what I'm saying. And and you either do it feeling bad about it or you do it because these are your people and you love it. But it is still powerful in that one way. And that way is very I'll make this distinction.
+
+I don't think any normal person should be an ex. I don't. If you're I don't think any normal person should be on social media, to be absolutely completely honest with you. Like... And we'll go with text based Twitter clone social media.
+
+There is no audience to build there. There is no community to build there because it's also dispersed, most of it is fake. Like, I cannot sit here and make one good case for why a regular person should join Twitter, Blue Sky, Threads, or Mastodon. Well, as a poster, as a person who, like, makes things, the person who views things. Right?
+
+Those are Most people are lurkers. Right? They're they're just consuming. There are better things to view on every other platform. Like Or, you know, you can just open Instagram reels.
+
+Yeah. Read a book. I don't know. But the... I think the distinction that is getting lost in this conversation of going back to X is it's a bunch of reporters.
+
+The people who are describing this are reporters. Yes. And I understand why Casey's like, I didn't do the source building on threads that I was able to do on Twitter back in the day. That is that is a universal experience that most reporters I know are having. Yeah.
+
+Because the sources are there. Yeah. So you you just gotta go to the party. You just have to be in the room. I I think that all of guys who are on a lot about that, by the way.
+
+Mike Isaac, a reporter at the New York Times, talked a lot about basically building his profile as a reporter by being a reply guy in people's DMs. Oh, yeah. Absolutely. And every every reporter in that period did that. We all did it.
+
+My Twitter DMs back in the day were the place to be. It... That's different now. The reason I'm making Instagram videos is because everyone sees them. Right?
+
+Like, that's just a dynamic that is true. I can talk to my phone camera for two minutes and put it on Instagram, and I get a bunch of incoming. Because even if they're not on blue sky, they're definitely on Instagram. Fine. But I don't think that a bunch of reporters saying I have to go engage my sources over here is the same kind of endorsement as this platform has regained its vitality.
+
+And I I think that's actually the error they're all making. If you are in tech and you wanna talk about AI with other people who are building and using AI, they're all there. That's where you gotta you gotta go look at it. You you should... Reporters should look at primary sources.
+
+I I believe that with all my heart. Sure. I don't think that means you have to say that, like, it has regained its cultural power in sports because it has not. No. It definitely hasn't.
+
+Right? And, like, there's something there that it's... This is Casey's argument. It's powerful in its one vertical because it has gotten smaller. Sure.
+
+But all that other stuff didn't go anywhere, did it? Like, I I do think it's possible that threads ends up going down as the biggest fumble in this whole space because it Oh, absolutely. It just could have done it. And there was a really funny thing this week. Connor Hayes, who is, like, leads product at at threads, posted, we recently made a change that could increase the posts you see from those who follow.
+
+Like, threads had to make a change to its algorithm so that when you follow somebody, you will see the things that they post. Like, what are we doing? How... Like, everybody got so lost in the sauce of wanting to do this, like, content based recommendation system from TikTok that they forgot how people want to talk to each other on the Internet. And I think...
+
+I I do think it's possible that threads may have missed its chance here, but it... Boy, did it really actually have a chance to be the thing. And and I I... In every other vertical except tech and AI, there's still a chance. Do you think?
+
+Meta has a lot of money. They could just get all the sports writers to use threads. That's... It's... You might be able You know I mean?
+
+But I also wonder, like, culturally, it's it's now been three years. Maybe we've maybe we've moved on. Maybe we don't need that thing anymore. I don't know. I mean, look, I...
+
+Let me let me zoom way out. I'm sure people will be mad at me for even suggesting that anyone can get any value from X. Fine. Like, I I can't stop a network effect. And I I personally do not believe that things go away if you ignore them.
+
+Right? And the network effect of the tech executives and the people building these things is on x. So if you are like, I'm not gonna pay attention to you, the network effect will still be there and they'll still have it. That's just that's just reality. But the mainstream audience is watching video platforms.
+
+That is the thing they are doing. And they're watching the video platforms, Like, every now and again, I I get a video and it's just screenshots of x. Mhmm. And it's like, I'm... That's how I'm consume...
+
+I'm still not at x. I'm just consuming some tweets. That is very powerful, and it's right next to the idea that instead of having a phone, you'll have a little AI Asian Tamagotchi. Sure. And I actually think the little video...
+
+The scrolly video platform is the center of gravity that will prevent x from ever fully recapturing its magic and prevent the little AI Tamagotchi from ever supplanting the fun. It's a good theory. And, like, that's... That to me is the real, like, sure. We can all go look at...
+
+We can all go see Greg Jossierak and John Turnis posting their home view videos on x because that's... They all wanna seem cool in front of Elon. Whatever it is. But the views for that actually happen on TikTok and Instagram. Yeah.
+
+There's a really interesting argument in that that suggests that scrolly vertical video is a more important format than the smartphone, but that's... I'm not ready to get into that yet. I do just wanna Where are YouTube in that conversation? It's a good question. Yeah.
+
+Fair. I do just wanna pick on John Gruber for just one quick second. Sure. Because he writes in this piece, and I should be clear. I think John Gruber is right about most things.
+
+I think he's so so very wrong about this one thing. He writes, the culture on X today is remarkably friendly and inclusive. It is a cheerful place. That cheerfulness is another differentiator. Is that your experience of X at all?
+
+Again, in the context of like, here's a cool new AI product that can do cool new things, I think any excitement to be found is on x. Sure. Okay. That's fair. It is AI people cheerleading other AI people, but that is something.
+
+AI. Sure. Right. And that... There's something there, especially if you work in and around software, you care a lot about software as John does, that is exciting and fun.
+
+There is there is more tech conversation that is exciting and fun on those platforms than the other Twitter like networks. Yeah. That's fair. Also says experience of x is nothing like an exclusive... Inclusive experience.
+
+Yeah. I And I I... It is, like, really important to say that out loud. Yeah. Yeah.
+
+John Gruber and I are both white dudes, which is a really nice thing to be on Twitter. He also says, without any fanfare, x has demusked its algorithm. And I would say, I'm willing to bet that John Gruber muted Elon Musk and forgot about it and now thinks that is the case because that is not my experience of x at all. Do you think people should feel bad going back to x? Like, genuinely, like, do you...
+
+If you... What is preventing you from going back and and engaging in that in a more real way? It makes you feel bad. You know these people. I...
+
+Yeah. I mean, again, I look at it several times a day Yeah. Because I I... It is my job. It's our job on this show to go look at primary sources and then talk about them.
+
+Mhmm. The the fundamental job of being a reporter is not to report on someone else's reporting, but to go try to find some primary sources. And when we do report on other people's reporting, it's almost always people we trust who we know to have done that job. Right? Like, that's the dynamic.
+
+I think that literally the service we provide here is one, jokes. Two, we like each other and people enjoy that. And three, we curate information well. I think that's in order of what we do on this podcast. And that third thing is really important.
+
+So I wanna make sure I go look at the primary sources and see the primary sources. I don't think anyone else has that responsibility. But actually contributing to that platform makes me feel bad. And other people can feel differently. Go ahead.
+
+Do what you gotta do. But there's not some part where I'm like, oh, I need to look away from this. It's like, no, my job is to look at primary source information. So I'm gonna go seek it out. Great.
+
+How about that? But I, again, where am where am I putting my social media effort into making videos? And I... I'm confident that is a faster way to reach more people that I've never encountered before than the x algorithm. It also puts your hair situation much more front and center in the conversation.
+
+Why do think it's getting crazier? I was never gonna imagine. I just imagine you, like, having a a hairdresser on the side, and you, like, get your camera up and you're like, more, and they make it higher, and you're like, more, and they just... That's that's your Instagram strategy. It's good stuff.
+
+Yeah. Alright. We should take one more break, and then we're gonna come back. It's time for the Lightning Round. Be right back.
+
+Support for the show comes from Idira by Palo Alto Networks. Every new cloud workload or AI agent your team sends out is another identity that gets permanent access to your systems. And in 2026, those nonhuman identities with access outnumber actual human identities 109 to one. You need a tool built to manage them all. Human, machine, and AI.
+
+That's exactly what Idera by Palo Alto Networks was designed to do. It's one identity platform for all. And it outshines legacy tools that were only built to manage human employees. How does it work? Well, Idera replaces permanent permissions with dynamic access, so you can lock down every identity without slowing down your own business.
+
+With Idera, you get unified control by replacing siloed IAM or identity and access management, PAM, modern privilege access management, and governance tools, all with a single control plane. And it does that across human, machine, and AI identities. Secure every identity at your organization with Idira by Palo Alto Networks. Learn more at paloaltonetworks.com/idira. Again, that's paloaltonetworks.com/idira.
+
+Support for the show comes from Jira by Atlassian. AI is only as useful as the context it has to work from. But when that context is scattered across tools, threads, and DMs, that means your team and your AI agents end up flying blind. That's the problem Jira solves. What's the goal tied to your project?
+
+What got decided last week in Slack DMs? Atlassian's teamwork graph pulls all the pieces together from Jira, Confluence, GitHub, Slack, and more, so nothing falls through the cracks. With Jira, you can actually share the context with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP. Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira.
+
+Learn more at jira.com. That's jira.com. Support for the show comes from Outshift, Cisco's incubation engine for frontier technology. Cisco's can find multi agent AI in every enterprise roadmap right now. But here's the problem everyone's facing.
+
+Agents can pass messages but can't think together. These systems silently underperform through cognitive failures, misreadings, unverified claims, false consensus, and conventional monitoring can't detect them. Outshift by Cisco is building the fix with their new comprehensive resource, the Internet of Cognition. It's an open source guide that's a foundation for building multi agent systems from design to production. The goal is to give agents shared context, shared memory, and guardrails, all to drive the results we actually expect from AI.
+
+You can lean on this resource to understand AgenTeq AI's evolution and how it shifted from isolated agents to orchestrated superintelligence. You can gain insights for how to future proof your business by tackling complex challenges with multi agent systems. You can read the paper, experience a demo, grab the code from outshift.com. That's outshift.com. Alright.
+
+We're back. It is... I'm not even gonna ask. I just... I...
+
+This one, I know. This one, Brendan broke containment in my world this week. It's time once again for America's favorite podcast within a podcast, Brendan Carr is a dummy. Brendan Carr. Oh.
+
+Some dad rock. Little like Chicago y vibes that time. I like it. It's good. Was Give me more five part harmony singing Brendan Carr's name.
+
+That's all I'm looking for. That was some yacht rock. That comes from Bruce Hartley who said that soft rock has been woefully represent... Unrepresented on this podcast. Bruce Hartley, little known fact, played rhythm guitar for Kenny Waggins.
+
+You know that name sounds like he did. You really had me in the first half. I don't know why. Alright, Neil. What did Brendan do this week?
+
+I'm curious what broke contained for you. I've got two, but I'm... What what what did he think of gotta be the livestream execution. Okay. That's that's one of them.
+
+We got... We have some video of this. Okay. So let's just talk about that very quickly. So Pete Hegseth announced the Pentagon would livestream an execution, which apparently he didn't tell anyone he was gonna announce, including president Trump, who mostly seemed surprised by this information.
+
+Bold strategy, Pete. So we ran around and asked all the major social networks if they would carry such an execution because that is against all of their terms of service, including x, which has long standing policy. And, you know, x is, like, very narrow and a lot of wild things happen on x, but but all of them have a policy against live streaming murder. Just Or that kind of violent content in general. Yeah.
+
+And so most of the platforms said no. Some of them didn't respond because they didn't wanna raise the eye of the president. And then the president was like, that's weird. We're gonna look at it. And then they all were like, we're not gonna...
+
+Yeah. That's what happened. So Brendan, in the midst of all this, man loves speech controversy, goes on CNBC, and CNBC says, are you gonna allow a livestream? I'm Jesus, what do you think about this? We have the club, but can just run it.
+
+Well, I think... Look. It it... My understanding is it's not on broadcast TV, so I don't think there's a role for the f c one way or the other there. But I trust secretary Hagstadt.
+
+I mean, he's implementing the laws and the regulations that are, you know, relevant to the Department of War, and I think he's doing a great job. And I trust that he's making the right call on these issues. Is it something that you would allow on broadcast if they wanted to? Look. I mean, ultimately, we're gonna defer to secretary Hegseth and, you know, his decisions on how to move forward with this.
+
+I'm sorry. Did he just say I'm gonna defer to secretary Pete Hegseth on whether this is allowed on broadcast networks? First of all, shout out to Carl Quintanilla, buddy, for asking, like, the most obvious question. When people ask the question. Like It's just like, what are you Great job.
+
+Right? Like, you care a lot about content. You're always ranting and raving about the public interest. The networks don't care. The president's speech is live, and you're like, the network executives have to go to jail now.
+
+Should we livestream an execution? He's like, I don't know. I defer to the military. Weird. And then the idea that Brendan is like, I don't have this power because it's not broadcast television.
+
+I I can't weigh in on it. Totally belied by the fact that he wants to have the power. Yeah. I mean, my my... I'm not, like, my I have no power here t shirt is raising a lot of questions answered by my I have no power here.
+
+Like, I'm on television saying, I don't have any power here, but totally everybody should do it. Yeah. Like, my boy, you wrote the project twenty twenty five chapter on speech regulations Yeah. And how you would use your broadcast power to control content moderation on platforms. I know you wrote it because your name's on it, and I read it.
+
+You want to have the power, but you're like, yeah. This one's a hot potato. I don't know if it's in the public interest of broadcast and execution. I defer to TEGSA. That's also...
+
+By the way, that's the thing Brendan Carr says when president Trump has not yet declared he's in favor of He's a weasel. I mean, what we're describing here is cowardice. Correct. Right? Like, he should be able to say, well, that seems bad, but he can't because he doesn't know what Trump is gonna do.
+
+So he's deferring to Pete Hegseth. To Pete Hegseth. A lot there. Yeah. In, you know, in another world, Trump is like, we're doing this.
+
+He'd be like, I'm calling up the heads of every broadcast network and saying they have to run it. Yeah. He'd be like, Jimmy... I'm gonna force Jimmy Kimmel to host the execution. Jimmy Kimmel will execute this process.
+
+Exactly. Cowardice. Right? Yeah. Like, doesn't even have the principles.
+
+Anyway, Trump called it off. We're not we're not executing someone live. And for, like, a million reasons, I think Trump was actually convinced by members of his own administration this is a horrible idea for 10,000,000 reasons Yeah. Including the number of people who would wanna copycat it, including the number of people who would think that this is a sufficient deterrent. There's a lot of reasons we're one of the few countries in the world that still does executions.
+
+It doesn't actually just hurt crime. That's a different story. Okay. That's one. That's the one that broke containment.
+
+Mhmm. Can I talk about the other one? The other one that's on my list that I'm much much... I think it's much funnier. Sure.
+
+Okay. SpaceX announced, was it early this week, late last week, that they're be hitting a major wireless carrier. Right. They've been sort of threatening to do this for a while. And And this is partially Brendan.
+
+Okay. But it's partially just a winding road of verge cast stuff Yeah. And incompetent FCC commissioners. From every... For, like, every party is incompetent here.
+
+This is a bipartisan Brendan Carr is a dummy. Like, Brendan Carr... You are all Brendan Carr, people. So in Trump won Our our we are all Brendan Carr t shirt is not gonna do Everyone at the FCC is gonna be issued a I am Brendan Carr shirt. Right?
+
+Someone AI that Charlie Kirk song. Like, let's go for it. Alright. In Trump won, you'll recall that T Mobile wanted to buy Sprint. Mhmm.
+
+And everyone thought it was a bad idea. We did endless first casting decoders about it, how reducing competition in the wireless market from four carriers to three would raise prices and lower service and not be a good outcome. And so the Trump administration, you will recall, engineered a solution in which T Mobile would be allowed to buy Sprint, and some of Sprint's assets in Spectrum would be given to Dish Network to stand up a new network called project Gena five SYS. And this would create fear in the hearts of our network executives, and they would once again compete for your dollars. I will remind you that this did not happen.
+
+In in no way, shape, or form did project Gena five SYS meaningfully exist to the point that when we covered the fact that it didn't exist, we got on the record emails from Dish Network Communications people that just said, our network does exist. Yeah. No, we did it. I have it. Look at it.
+
+So we sent people... It was in Vegas. There was... Eventually, it did exist in, like, in the sense that one mid range Motorola Android phone could sometimes get it, but it mostly rolled over to AT and T's network because They built something. It had a...
+
+It had backstop deals with with AT and T and T Mobile. Whatever. Yeah. A lot of history there if you're a Virchess fan. Project Gen five is the network that was gonna do it.
+
+Anyway, this failed. Dish Network declared bankruptcy, and then they did the thing that everyone thought they were gonna do, which is just hoard spectrum for several years until a value went up and then auction off for money. That is indeed what they did. There's one block of spectrum that they could not get rid of. It was the 800 megahertz Nextel spectrum.
+
+Okay. Because Sprint once bought Nextel. Right. And it had the iDEN network, which was the, like, push to talk once it's done. Yeah.
+
+Yeah. Yeah. So the iDEN spectrum has been sitting around for ages. No one wants it. Again, in all of this project gen five assist noise, this just ends up sitting around, and Dish hasn't been able to sell forever.
+
+So they flipped it to a private equity company called Grain Management, and guess who bought it? SpaceX. Of course. For presumably nothing. It feels like $8,000,000,000.
+
+They bought some other spectrum over the years. Of course, Brendan is just, like, waiving requirements and auction rules to to Yeah. Right? He's he's just making it happen for SpaceX. And the thing that's funny about this is that SpaceX is making all this noise about standing up a major wireless carrier, and the stocks of our existing carriers are dropping, and they are freaking out because what does Elon Musk represent for them?
+
+Actual competition. Right? The idea that people will like Starlink more than their existing service is just reality for them. Nobody likes their wireless carrier. This is why you need competition in the market.
+
+Whether or not Elon can actually build a cell network using all of this spectrum that can compete nationally with T Mobile and AT and T and Verizon without roaming agreements with those companies, which have basically said they're not gonna allow them to roam because they don't want real competition. Like, they're afraid. Oh, yeah. And whether any of that will be cost effective in the end is, like, irrelevant to the fact that Brendan got to do some waivers and finally get some spectrum sold to his buddy Elon Musk. So we'll see.
+
+I'm very curious. I I think they have some interesting plans around using small dishes connected to Starlink and using Starlink as the backhaul for this new network. Mhmm. But they've gotta get phones to support their new spectrum. Big question.
+
+They they say most phones already do, but big question about battery life, performance, coverage, all this stuff. They obviously have to launch 15,000 new satellites, gen two Starlink satellites to support this new network, and then they gotta build some terrestrial network. This is a lot of network to build Yeah. While the carriers are, like, actually afraid for the first time in their lives. That is all because in Trump won, everyone allowed T Mobile to buy Sprint and destroy competition for ages.
+
+This is all project Gena five sis' fault somehow. This... We are at Starlink Mobile. If it comes into fruition, will... Is the true Project Jenna five sys.
+
+Yeah. So... Okay. There have been rumors for a while now that SpaceX is gonna build a phone. Does this make you think it's more or less likely that SpaceX is building a phone?
+
+What what kind of rebranded mid range Android phone preloaded with x? They're gonna they're gonna take a Trump phone that no one sold. They're gonna buy all of the unused inventory of Trump phone, paint it gray, and call it the SpaceX phone. He's so sick. We'll see.
+
+Again, the... Wireless market needs more competition. And even the the presence of a real competitor has these companies shaking in their boots. Yeah. And Starlink, SpaceX of a competitor is is a real thing.
+
+Especially one with the resources and brand and the history of SpaceX. Right? Like, this is not some upstart trying to lay fiber. This is a company with real resources to go do kinda whatever it decides to do. But then there's also rumors that SpaceX and Tesla are gonna merge in some meaningful...
+
+Like Yeah. This company is gonna get way more nuts before it ever figures out how to sell you a smartphone would be my guess. Yeah. We did an entire decoder on this with Walter Piecyk from LightShed Ventures. He...
+
+He's deep in it. That... That's coming out soon. But I just wanna call this out. This is...
+
+We've done a lot of monkeying in the mobile market with Spectrum over these past ten years. Yeah. And a lot of it is we're still feeling the aftershocks of allowing T Mobile to buy Sprint, which has potentially created this opportunity. But we have never really focused on, are these markets competitive? And may...
+
+Maybe this will happen, but I suspect everyone is gonna learn that building a network is much more expensive than it seems. Enough to have killed Dish Network as it turns out. Yeah. Although I'm not sure that took that much, but but here we are. Project genufaxis.
+
+Yeah. Alright. Take us out of Brendan. Alright. Brendan, if you would like to explain any of your spectrum allocation decisions or your rank cowardice, you're available to join our show.
+
+We are not regulated by you here on the Internet, so I've been told. So I think we would have a free flowing and respectful debate. Don't you, Brendan? What could possibly go wrong? Look.
+
+Anyway, that's been Brendan Carr's Dummy, America's favorite podcast from the podcast. Brendan Carr is a dummy. I feel like that cleanses me of Brendan every time. It's like I'm I'm just immersed in Brendan and then and then I'm We gotta make a Spotify playlist to these, man. I agree.
+
+Alright. My first lightning round item is about smartphone sales. One of the things we've been talking about a bunch on this show is what the rising price and lowering availability of RAM is doing to the smartphone market, in particular what it's doing to cheap phones. The answer is it's bad for everybody. So Counterpoint was a research firm put out a report this week that said the global smartphone market declined 20% year over year in q three of twenty twenty six, which is its lowest q three level in fourteen years.
+
+Fourteen years. Wow. This is how low smartphones are. A couple of interesting things happened. So everybody is down.
+
+I should just say that. But relatively speaking, Samsung and Apple took an even larger share of the smartphone market up from, let's see, 37% to about 45%. So that's a that's a big jump in two companies owning the smartphone market. Everybody's prices went up. One thing that Counterpoint found is that there has been robust early demand for the z fold eight, which is really interesting.
+
+This, like, this passport sized foldable thing seems to be the thing. It's working for Samsung. It appears it's gonna work for the iPhone duo. That... It's just interesting that that is actually now starting to to turn.
+
+Everybody's prices are up. Everybody's focusing on smaller things, but basically, the ongoing thing here is just that cheap phones are completely disappearing. Yep. Everybody is is getting for... There's a line that says they are prioritizing margins by shifting supply from thinner margin segments to higher return markets and models, which means they are ditching cheap phones and pushing towards more expensive phones.
+
+And they're raising the prices on those more expensive phones because they can, because people who pay a lot for their phone will pay a little more for their phone. And I think this this market is just getting bleaker and bleaker, and there are a bunch of explanations for it. Well, right, one is the rising costs. One is that I think you can make a good argument that there have not been a lot of interesting phones in the last several years, and so people are holding onto their phones longer. There are fewer compelling reasons to upgrade.
+
+It'll be interesting to see if the foldable thing can flip that. But, like, the smartphone market had so much relentless growth for so long, and that relentless growth and enormous scale changed every other tech industry in its wake. Like, my laptop, the Google Book exists because of the smartphone supply chain. Like, it it... And in every way.
+
+And and that is just quarter by quarter being unwound kinda right in front of our eyes. Yeah. Everything is an Android phone. Yeah. And and now Android phones are more expensive.
+
+It's like Yeah. That's the... It it is it is gonna come for everybody. I... Look.
+
+Everyone wants her to be the next thing, the next wave of growth. I think this sign of maturity in the smartphone market is actually very healthy. Right? Like, it is... It has not been necessary to upgrade your phone every year or every two years for quite some time.
+
+Agree. And on... Sure, sales are down. I I think the refurbished market is actually really healthy. Mhmm.
+
+Right? Like, there's something here where, like, it's not necessary to get the newest thing, and we're probably gonna see a lot of demand for refurbished, remanufactured, all those devices. All of that attention should go elsewhere. It has all been locked up in the... In app stores and app taxes.
+
+A lot of innovation has been held back Mhmm. Because the economics of putting an app on a phone have just held back innovation. And we've covered every variant of this for years and years in this show. If something else happens, I think that's good. I've actually been hearing, this is mostly just anecdotal at this point, but I've heard it a few times now that there are people doing hardware startups who not very long ago couldn't even get their emails answered because these companies were just busy making giant scale smartphones for everybody.
+
+And if you weren't in the smartphone business, they would have to, like, redo their tooling and and factory systems, and it just wasn't worth it. They were all just focused on making phones. That now there is interest and energy and availability to build other stuff. That there is suddenly, like, manufacturing capacity in this world that there was not not very long ago. And and it's made some people optimistic that, like, we're...
+
+This stuff is expensive. It's hard to get, especially if you need a lot of RAM, but we we can build things in a way that if you weren't building a smartphone, it was very hard to build things not that long ago. Yeah. The danger is that it's easier to build things that are essentially, like, underpowered Android phones. Yeah.
+
+And then we'll be surrounded by a lot of underpowered Android phones. Feels like that's coming. You gotta put all those crappy processors somewhere. Yeah. So I'm saying it's like, everything is an Android phone.
+
+Really cuts both ways. Indeed. What's your next lightning round item? Agent warfare is here. Yes.
+
+I've been calling the DoorDash problem has arrived at scale. JPMorgan Chase, Jamie Dimon announced that he doesn't want agents running on his platform. Bank of America announced that. We've heard it from Amazon isn't letting Grokbaud on, so Elon is tweeting that he's gonna build an Amazon competitor, which is just great. Is that true?
+
+I missed that. That happened today. And it got, like, covered. And it's like, I don't think Elon's gonna build an Amazon competitor. I gotta be honest with you.
+
+Oh god. I think he likes tweaking Jeff Bezos, but I I don't think he's gonna build a logistics network. I really hope he builds it. I hope he calls it Grokazon, and it will just it will just make my life a little bit worse. If you thought the romance authors of America were mad at Amazon.
+
+Just you wait until Grogazon shows up. This... It's here. Right? The idea that agentic commerce is gonna upend the the world in some way is here.
+
+And I think one of the most fascinating lines of debate here is whether or not your computer is you. And, you know, on the Internet, everyone's like, well, it's my computer. It's my agent. I just wanna use your website. I can use it any way I want.
+
+And that's not true. Like, just because it happens on the computer doesn't mean it's not happening. Right. Like, people are allowed to... Like, you can't go to the bank and be like, I'm gonna come in here fully naked and just, like, smash a rubber chicken on the counter a few times, and that means you have to give me money.
+
+Right? They can be like, no. Actually, we we prefer, you know Right. Interact with our our staff in a certain way. Private business.
+
+Yeah. Yeah. Right? You can't be like, here's what I'm gonna do. I'm gonna put together a remote controlled car.
+
+I'm gonna drive it around your bank as as many times as I want till everyone leaves, I'm gonna rob you. Like, it's just like, you know, I'm like, Like, I'm gonna stand outside the bank with a party speaker until you come out and kiss me. Like, not a choice. Yet online, it's like, any way I wanna use your website is free for all. Right.
+
+And I think agents are gonna bring that into the sharpest focus it's ever been. That actually the people on the other side of the Internet connection have a say, and they're gonna start to find ways to enforce that say. And I know our listeners are gonna say, well, it's a cat mask game. We're gonna do this forever. But, like, that's why you have courts and fines.
+
+And that's why all these companies are gonna end up with deals, and they're gonna have a lot of incentive to both block and respect the blocks of other competitors because there will be economic terms in the middle and court cases on the side. And so I see all this blocking happening. And I I guarantee you, like what Bank of America said was, we want to make sure that it's safe and we are involved in how this works. And they're gonna just write an API for how the agents are gonna use the thing instead of just, like, clicking around on the website. Because that was always brittle to begin with.
+
+Like, giving Muse your Bank of America credentials is always a stupid idea. Well, and, I mean, it's... Actually, I think it's really good and interesting that this is starting with banking and in particular, like, consumer banking because it is such a perfect version of the problem. That's like, if Muse goes and drains my bank account either on purpose or by accident, who am I gonna yell at? And ultimately, who is responsible?
+
+So Elon announced today that if Crockrodt buys something without your permission, he'll refund you. Yeah. Elon Elon Musk lies a lot. That's fair enough. It's fine.
+
+I look forward to him. What what the the Tesla Roadster is coming out decade later, I look forward to getting my money back in ten years. But Bank of America, it's the it's the sort of thing that, like, this makes me think of carriage disputes with cable companies, right, where if I don't have ESPN on my TV, my instinct is not to get mad at ESPN. It's to get mad at Comcast for not showing me the stuff that I wanna watch. And this is all of the leverage that those companies have over the over the carriers and the distributors.
+
+And if I'm Bank of America, I'm I'm like, okay. Things are gonna make mistakes. They're gonna take the money, and there are people who are going to come to us wanting their money back. And they just don't want that smoke. Right?
+
+And so what they're gonna build is a system with controls that says things like, you cannot drain their bank account without authorization. Like, there... So putting this kind of guardrail on it, this is such an obviously straightforwardly good one to do that I think it's good to start with this and then work towards the one that are more complicated. Like, should be able to buy things from me on Amazon that I explicitly direct it to buy on Amazon? Interesting question.
+
+Should Muse be able to proactively, without my knowledge, spend the money in my bank account? No. Like Should Muse deliver you an engagement prompt to gamble a little bit more on Kelshi? Right. No.
+
+I think no. That one that one's the greatest area of all. Reasonable be... Right. And and so I think we're...
+
+We are going to reckon with each one of those individually. Okay. But here's my thing about the the DoorDash problem. Don't we need to rename the DoorDash problem? Because DoorDash appears to have just wholeheartedly embraced the DoorDash problem.
+
+Like, DoorDash a problem. They announced... I think, like, a while ago, they announced, like, a, like, a CLI integration for some agents. Okay. You know, there...
+
+All these companies... Any company that moves physical products around the world is, try. Like Fair. Yeah. You know, like, it...
+
+It's so hard to build that thing Yeah. That they're like, yeah. You can... Your agent can come and use DoorDash, and we'll just charge you more money because you don't get to see... Like, DoorDash has a huge advertising business.
+
+Instacart has a huge advertising business. So they're very much like, we'll just charge you we'll just charge you the money we would have lost if you didn't look at our ads. Right? Yeah. True.
+
+That's that's basically where that... But DoorDash is doing the other thing, which is they're trying to build their own agent. Right. Right. Like, all their AI stuff is, like, in the DoorDash app for consumers, and it's like, I don't I don't I don't think what people want is the Dash Buddy or whatever it's called.
+
+Like, I think they wanna use whatever agent they wanna use. Wait. Can I give you a really stupid example of this that I've been thinking about a lot? So there's this place... There's this pizza place near us called Jets.
+
+Okay. And and Jets is like, it's a normal pizza place. It's like a mini chain. There's a bunch of them. So you can you can order online.
+
+You can call. You can do whatever, but they give you a 15% discount if you text. I don't I don't know why, but you get 15% off your pizza if you text your order. So of course, I go to text my order, but remembering how to text my order is impossible because I'm not looking at a menu. I'm looking at the messages app and I have to remember which type of pizza it is that I want, the sizes that we get, like all...
+
+It it just made me realize the beauty of a UI that is a menu that you click on. That's like, I want this thing and this thing. When I have to say out loud with no help and no visual cues, what kind of pizza I want, remembering that what I like is an eight Corner Pizza is impossible for me. And and this is just like this is the thing that keeps coming up to me every time I do this is like, in theory, I'd like the idea of just being able to text like, hey, get me my usual at Starbucks and it orders my Starbucks for me. Like, that is a flow I'm interested in.
+
+In reality, having the picture there that shows the thing that I usually order and having the name of it and having the confirmation of what it is ends up being the whole experience. Yep. And and it's just like, actually, UI is good here in this case. I mean, how how many times are you ordering with your family and everyone needs to go look at the laptop together? Right?
+
+Yeah. Oh my god. This is just a... It's a thing. Like Yeah.
+
+There's a reason that I'm not so worried about phones being displaced by AI. Looking at stuff remains a powerful tool in the human experience. Yep. Then, like, we're gonna make the screen smaller has not historically been a winning move. No.
+
+What... Can I interest you in a screen that's on your kitchen counter and only CarPlays your ass? CarPlay ass. Does that... Is that something that you'd be interested in?
+
+It's like John Turnis announced the the phone would be the new intelligent hub, and I I didn't realize how far he was gonna take it. Do you know I mean? It is sort of true. Apple has been saying, like, the phone is the thing the world revolves around, and I think they meant that much more literally than we realized. Yeah.
+
+And... Yeah. Truly, it's like, well, that's where the apps are, so we'll just do CarPlay, the future. Okay. I have one more for you, which is mostly just a question, which is how do we feel about superintelligence?
+
+So president Trump makes this announcement that it is no longer artificial intelligence. It is superintelligence. And I don't know how to put this, like, other than this, like a bunch of cowardly babies. A lot of people in Silicon Valley followed along. They're renaming SpaceX AI, which is a stupid name for a company, to SpaceX SI, which is a stupider name for a company.
+
+Salesforce is out here doing SI stuff. Everybody is just throwing in line with super intelligence. On the one hand, I don't care about this. Artificial intelligence, as I've I've... We've been talking about this on the podcast for years.
+
+The idea of AI, artificial intelligence as this, like, catch all term for all the stuff we're talking about is actually wrong and problematic and causes lots of problems and has made it very hard to talk about a lot of this stuff. So, like, AI is a term I don't think is any good. I mostly just think it's such, like, weak baby nonsense that my guy posts on Truth Social. It's super intelligence now, and everybody in Silicon Valley goes, yes. Wait.
+
+He did write an executive order with all the power and force of it. Executive order. Yeah. Sure. Which I would point out have just about as much legal standing as a post on Truth Social.
+
+Well, if you ask Trump, he can rewrite the constitution with an executive order. Here's... Here here... Let me let me try to give you the framework for it. Okay.
+
+What you're mad about is the naked and rampant corruption in the tech industry, and this is the best example of it. It's it's it's so in your face. What is the point of being rich and powerful if you're gonna do things like this? Do you know what I mean? Like, the...
+
+It's... They don't call it fuck you money for no reason. Like, if I had that much money, I would be such a pain in everybody's ass all the time. And also, I would live on a giant boat and no one would ever hear from me again. What is the point of any of this if you're gonna, like, play these purchased the government.
+
+It just... It came at this additional cost of a little bit of their dignity. Yeah. That's that's real. Right?
+
+Like like, there will be no AI regulations, but you have to call it superintelligence. And they all looked at each other and said, this is gonna suck a little bit. Oh god. I hate that that's what it is. That is what happened.
+
+That's what happened. Ugh. That sucks so much. Okay. Keep going.
+
+I'll just say, like, the thing you're the thing you're offended about is corruption. Yes. And this is just a naked stupid example of corruption. Yes. It's right next to Kimberly Guilfoyle.
+
+It got run out of her fake job as ambassador to Greece Mhmm. Because she asked for a $100,000. If she'd asked for, like, a $100,000,000, I think it would have been like, good job. Yeah. Oh, yeah.
+
+And, like, I... It's the... Like, the embarrassing corruption is, like, truly embarrassing. By the way, it's it's it's Susie now, but that was from Jessica, which is Eddie Hazard. Just shout out to my Eddie Hazard fans out there.
+
+But that is what you're mad about. You're mad about how how small and shitty it is. Yes. And it is so small and so shitty. Mhmm.
+
+I also would think it's a bad term. Like, that's the other problem. It's like, we didn't we didn't even improve anything. It's just... We're just saying super now.
+
+Like Yeah. Because it doesn't scare people. And it's like, I think it scares people more. Yeah. AI is at least like a term we've had.
+
+Like Yeah. People have been talking about artificial intelligence for a hundred years. At least it's a thing people understand. Superintelligence is just literally nothing, just drives me crazy. But anyway Well, they all want it to be super...
+
+I... Everyone should go read the Kevin Lewis book, which is just dead ahead reporting. It's very good. Like, just beginning, middle, end. Here's what all these people said and what they were thinking about, and it is just very clear that they have been trying to build AGI from the start.
+
+Mhmm. And they... They've had to hide it in, enterprise sales agreements. Very funny. Yeah.
+
+Agreed. Alright. You got one more. What's your last one? My last one is just like, I just wanna say this out loud.
+
+There's something very big happening with decompiling software, particularly in video games Mhmm. Where you can take a finished binary and decompile it with AI and then, like, port it to whatever platform you want. Xbox is gonna embrace this in some way. Just go for it. Xbox needs any idea they can.
+
+So, like, that's fine. By the way, again, remind everyone, Asha Sharma, the CMO of Xbox is from Racine, Wisconsin. And I continue to have an open invitation to interview her at my high school. A thing that I've not formally asked Asha or my high school about. But if you can make this happen, we'll make it happen.
+
+I'm confident everyone involved could make this happen. I just think that'd be really fun. That would be really fun. Sonicbox is embracing it. There's a lot of copyright law involved in game decompilation, you know, the various VCs on x or, like, all software is over now.
+
+Right. So I saw something going around that was basically, like, everything is gonna become open source whether you like it or not. And I was like, first of all, I don't think you have at all reckoned with the implications of that. And second of all, don't we have, like, big, broad legal paradigms to prevent that from happening? Again, maybe maybe this is our new catchphrase.
+
+Just because it happens on a computer doesn't mean it didn't happen. Do you know what I mean? Like, it it occurred, and you can do things about things that occur. So for example, open source as a concept in the world exists on the framework of copyright law. Yeah.
+
+Like, those licenses have effect because you have some property rights in the software you've written, and then you can write a license saying, if you wanna modify this, you have to use the same license. And if you don't, I'm gonna sue you for copyright infringement, for contract violation. Like, all that comes from the basis of copyright law. So if you're like, everything is open source now, well, boy, have you really made copyright law very powerful. Mhmm.
+
+This is just like the dynamic you're in. And, like, yes, it might mean you can, like, look at the code and you can make your own Photoshop, but Adobe will have something to say. Right. And the copyright law is in the constitution as a way to create value for people who make things. And I don't think you can run into the courts and be like, well, I I was able to do it.
+
+So I could see it, so I did it. Screw you, George Washington. Like, it's not gonna happen that way. And so, like, I... I'm thinking about this a lot because you can really see the tech industry, in X, which is a particular kind of bubble, is just getting away from the reality of things having cause and effect, particularly if it happens on a computer.
+
+Like, I can do this on a computer, so none of your old frameworks apply to me. And it's like, oh, that's that's all gonna catch up to you real fast. Yes. Or Games decompilation is, like, the one where I just have not had enough time to formulate all of my thoughts. But, boy, is...
+
+I'm very curious for how people want us to talk about it, how they're thinking about it. But it's the... It's it is absolutely the one where, you know, we did five years of Google versus Oracle. Yeah. And all of that was about whether a copy or Google reusing the names of APIs in Java was infringement.
+
+Mhmm. And that's, like, five years and a billion dollars. Yeah. And this is just like I downloaded and remade Call of Duty. Like What was it?
+
+Structure sequence and something? Like, even though, like, in incredibly arcane acronyms Yeah. About the the organization of API names. Yeah. I do think there is something really fascinating happening here.
+
+People are building all kinds of cool stuff. They're modding games. They're making games available for other platforms that they haven't been available on. It is slightly surprising to me that Xbox is in on this because I have to imagine the gaming industry is going to throw every bit of its weight against this trend. I mean, Microsoft owns all those studios.
+
+That's a fair point. They're they're fine. They're like, no, Activision Blizzard. You love this. Yeah.
+
+Like, what are you gonna do? Like, they need to get they need to get those games on on more platforms. Yeah. Right? Like, they they have some amount of...
+
+And if if they do it on their terms, they might be in control. Fair. And I think there is something potentially very cool there that you're gonna start to see people... Like, if every game becomes moddable in this way, there is some very cool stuff to be had there. It gets messy in a lot of ways in the ways that you've been describing and others, but the idea of giving...
+
+Like, bringing the sort of vibe coding energy to video games at this kind of scale is pretty cool. There's a lot of cool stuff that will happen as that happens. Yeah. And, you know, I'm I'm not saying I'm a particular expert on the dynamics of the game industry, but I'm pretty good at copyright and software. This one is gonna be a mess.
+
+Yeah. We are looking at decades of lawsuits about whether decompiling any piece of software so that you can recompile it any way you want is acceptable or allowed or copyright infringement. A good question, So if I ship you an app. Mhmm. Right?
+
+The ones and zeros, the binary of that app that I ship you, that's copyright protected. Right? You can copyright that. Yeah. This is my app.
+
+Here's the thing. The code I wrote to make that app protected by copyright. You can file that. That's... It took a decade of lawsuits to get there, but you can do that.
+
+If you decompile my binary and you have a slightly different code, important question right there. It's probably a derivative work. Like, there there... You can get there, but those... All of copyright law is, like, on first impression.
+
+And so, like, I don't know the answer to that because no court has ruled on it. Right. I think I probably know the answer to it, but you have to have that lawsuit. Yeah. Well, personally, I'm just thrilled to finally have a reason for you to rant about copyright on the verge cast again.
+
+So this is great news. It's it's been it's been, like, two weeks. Trying to unearth the Java lawsuit for my brain. It's like, my own body is trying to protect me. It's like, what did you just fainted instead?
+
+Alright. Well, before we do, let's get out of here. Eli, who is on Decoder coming up? So we had Ben Jordan today talking about Flock, and then we have Walter Piecyk talking about Starlink, and then governor JB Pritzker from Illinois is on Dakota very soon. I asked him if the bears are gonna stay in Chicago.
+
+I was like, I you. You gotta use your platform for for the things you can. I was just... If you lit... It's the opening episode.
+
+I was like, I... You know, I gotta do a good job here. I have so much family in Illinois. He's like, you can be... You're...
+
+We claim you as part of Illinois. I like, no. No. Sorry. I'm from Wisconsin.
+
+I was like, it was it was not what he was expecting to be. Did you wear your cheese head to the interview? I should've worn... Revealed my Jordan Love jersey. And then there's one coming up that's a big deal.
+
+Very excited about it. That's gonna... I'm I'm just gonna tease it. It's it's... It'll be a big one.
+
+It's exciting stuff. We have overhead projectors on version history this weekend. One of the wonkier episodes we've ever done, but it's really fun. And we have... We had an overhead projector just blaring at me in the studio the whole time, so you'll get to watch me get progressively hotter from sitting next to me over at projector for two hours.
+
+It's good stuff. Remember, you can subscribe to The Verge to get all of our podcasts, all the ones we've been talking about ad free, including this one. You get all of our newsletters. You get everything we're doing. Verge.com/subscribe is the best way to support all of this.
+
+And speaking of support, thank you to everybody who voted for us in the signal awards. By the time you're hearing this, the voting is over. I don't know if we won. We'll keep you posted. I hope we won, but mostly, I just care about all of you voting for us, and thank you to everybody who did.
+
+And if you wanna get in touch about all this or anything else, you can always email us vergecast@theverge.com. Call the hotline, 86611. The vergecast is verge production and part of Vox Media Podcast Network. This show is produced by Josh Cajas, Kabir Chopra, Eric Gomez, Brandon Kiefer, and Shlavus Larchuk. We will see you next week.
+
+Eli, back and roll. New and exclusive holiday decor just launched online at The Home Depot. Check out the viral grand duchess collection with smart holiday lights you can control from your phone. Easily customize the twinkle across trees, wreaths, and garlands to match your holiday vibe. Create stunning light effects, then switch it up with the tap of your fingers.
+
+Even the man in red will be impressed. Shop the holiday decor you want online only at homedepot.com. Your heart can tell you a lot about your health. Apple Watch Series 12 measures your heart rate every five seconds with the most accurate heart rate sensing in a wearable. So your vitals app, now with heart rate variability, can tell you when something is off.
+
+And your readiness score can let you know when to rest and when to push. Hear the story in every heart beat with Apple Watch Series 12. The features described are for wellness purposes only and not for medical use. IPhone 11 or later required based on Apple conducted study of heart rate accuracy August 2026. Visit apple.com/applewatchseriestwelve.
+
+We just moved into our new house and I didn't realize just how close we were to the neighbors. That's when my friend told me about Blinds dot com. Blinds.com isn't a medication but it can improve how you feel about your home. Customers who shop at blinds.com experience excellent customer service from consultation to installation. Side effects include increased privacy and better sleep.
+
+Talk to your partner today and see if Blinds dot com is right for you. Visit blinds.com to order your free samples.

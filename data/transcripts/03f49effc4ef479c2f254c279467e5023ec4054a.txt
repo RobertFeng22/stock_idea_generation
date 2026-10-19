@@ -1,0 +1,227 @@
+Support for the show comes from AWS AI. AWS AI is helping the world's leading organizations transform their industries in production at scale right now. From bringing fans inside every swing at the PGA Tour to helping small businesses grow online with GoDaddy to taking vehicles from concept to customer with Audi, AWS AI is how businesses innovate, lead, and revolution ize. AWS AI is how. This episode is brought to you by On Investing, an original podcast from Charles Schwab.
+
+Each week hosts Liz Ann Saunders, Schwab's chief investment strategist, and Colin Martin, head of fixed income research and strategy for the Schwab Center for Financial Research, bring you fresh insights on what's happening in the markets and why, and what the implications might be for your portfolio. Join Colin and Liz Ann as they explore questions like, how do you evaluate corporate bonds that look interesting? And what sectors are on the move right now? Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. Support for the show comes from Jira by Atlassian.
+
+Your work is scattered. A thread here, a DM there, docs everywhere. And it's not only your team searching for context, your AI agents need it too. Jira taps Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP.
+
+The result? Less token waste, more accuracy, and more time moving forward. Learn more at jira.com. That's jira.com. Hello, and welcome to the Vergecast, the flagship podcast of BotFarms.
+
+I'm your friend David Pierce, and today on the show, we're gonna talk about one man's scheme to AI his way into millions of dollars of music royalty. The guy's name is Mike Smith, and he became one of the most important and, frankly, first cases to figure out what is streaming fraud, can you use AI to make and listen to music, And what does it all mean? Kate Nibbs from Wired has been covering this story for years now and is gonna come on the show and tell us all about it. But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Wednesday, 10/14/2026.
+
+Everybody is still getting used to the idea of the Apple Home View. Apple's $299 smart display is up for preorder now, and it's designed to be kind of your family's central control system. It's for your smart home, communications, everything. I will say I've been pretty surprised at how much of the reaction to this has been from people who watched that three minute video about family chaos and the home view and decided they just simply do not want another screen, another device, another thing to manage and worry about and have listening all the time. At this point, it's been a long time since I've been this curious how a new Apple product will go down when it goes on sale.
+
+Meanwhile, here's some rapid fire good news about video games. Fortnite is coming to Linux eventually, now that Epic has said it's reworking its anti cheat software to work on the platform. Next, according to a big Bloomberg report out today, Rockstar is confident that whatever comes after GTA six won't take another thirteen years to come out because building GTA six also meant building a ton of tools and tech that'll make the next games much easier. And the Legend of Zelda Ocarina of Time remake, which is out in a couple of weeks, appears by all accounts to be beautiful to look at and delightful to play. Thank goodness.
+
+And finally, there's a war brewing between the AI agents that want access to all of your data and every website and app on the planet and those websites and apps that are simply not interested in that trade. The latest example, JPMorgan Chase CEO Jamie Dimon just said that the company is blocking agents from doing banking things on customers' behalf. This fight is coming for every single surface of the Internet. Get ready. You can read more about all this at theverge.com.
+
+That is ninety seconds on the verge for Wednesday, October 14. Alright. Let's talk streaming. Kate Nibbs, welcome to the vergecast. Thanks for having me.
+
+I am very, very excited that you're here, and I'm very excited to talk about this particular case, which I have been fascinated by for years and kind of thought I would never have a chance to talk about on this show. And then we got we got the ending of it, and so now we get to talk about it. But you have covered this in in much greater detail than I have over the last couple of years. And so I wanna I wanna kinda rewind to the beginning for people who don't know what's going on. They don't know who Mike Smith is.
+
+They don't know how all this happens. I just wanna dig into how all of this happened and what it means about the world we live in now. So let's start at the very beginning. Tell me a little bit about Mike Smith, the person at the center of this case. Absolutely.
+
+Okay. So I found out about Mike Smith because I was sort of on this role of covering different crimes involving AI slop. And he was arrested and there were some news articles that you know, basically just said this man named Mike Smith was arrested. It's the first criminal charges brought against someone for AI streaming fraud. And it made it sound like he was just some random man.
+
+And I went and ended up talking to people in his circles and trying to understand who he was and how he ended up doing this novel kind of crime and found out that he had actually been in the music industry for many years and had been actively trying to make it. And there was an interesting buildup to this crime that I think is really important to know about to put it in its proper context. Yeah, walk me through a bit. Yeah, he didn't just go from law abiding citizen to super AI scammer. There were steps along the way.
+
+He was running a series of urgent care clinics in North Carolina. Like, he wasn't in the music industry at all. But he wanted to be a musician. And so, he would sort of use his profits from the health care industry to try to make it in the music industry. You know, he would self produce all of these music videos that are a lot of them are still on YouTube and they're incredible artifacts.
+
+Then he would basically sort of pay artists to produce their songs. He was sort of part of this weird pocket of the music industry that I didn't realize existed, but it was actually pretty commonplace where fairly well established artists will take money from people who want to get a foothold in the music industry and someone will produce a remix of their song. And really, they'll just sort of pay them to use their music. So he was trying to make a name for himself as an artist and producer. Was he a good musician?
+
+Like, I'm sure you've listened to some of his stuff. Was he any good? Yeah. Not... I I mean, I wouldn't run out and, like, buy the vinyl.
+
+I probably wouldn't get up and turn it off. So You know? So he's just like... He's a guy. He's just like a guy who knows how to play the guitar.
+
+Okay. Yeah. And, I mean, some people... He knows how how to play the guitar better better than many. Better than many.
+
+He met this man named Jonathan Hay. They started a record label. They started, like, signing artists and then still sort of doing this pay to play situation where they... He ended up financing a reality show about who the next great rapper would be that actually aired on BET. And Mike Smith was a judge of who the next great hip hop artist will be.
+
+And it was because he... Yeah. He, like, entirely financed it. But so he he sort of created this scaffolding of a career for himself without ever actually releasing music that anybody listened to or liked, which was impressive. So he's buying himself sort of the, like, credibility of someone who is in the music business without actually doing the music part of it.
+
+He was doing the music part of it. I think that's important. In his defense, he was making the music. It's just no one was listening to it. He wasn't gaining a fan base.
+
+And he was doing all sorts of projects. Like at one point, he was part of a large, nine to 11 people musical group with Johnny Depp's nephew. You know, like you do. Sure. Yeah.
+
+And so he was basically flinging everything, all the spaghetti to the wall to see what would stick. Nothing was really sticking. And I ended up, when I was researching this case, connecting with Jonathan Hay, his old business partner, creative partner. And he was really willing to talk about what had gone down between them. And he was eager to tell me that Mike had been experimenting with artificial streaming for years prior to the AI stuff.
+
+And they had had this whole falling out over it. And the AI stuff was sort of just taking it all to the next level. Like, he tried so many years to be a musical artist, tried every shortcut there was to try to make a name for himself. And then, once this new technology came around, didn't actually abandon the idea of making it as an artist himself because he was still trying to do that. He had this cartoon with Snoop Dogg and his fake career was actually going better than ever while he was doing the AI gambit.
+
+But he realized that he could profit a lot if he just, like, applied what he had learned trying to make his music go viral with AI songs. Wait. So this is a really interesting connection, though, because it does seem like there's one way to look at this case that is very straightforward sort of AI slop arbitrage. Right? I I found a way to make a bunch of money by making a bunch of AI content, and that is absolutely everywhere on the Internet right now.
+
+And and I I wanna talk about some of that too because I think this case is the beginning of many, many things like it to come. Yes. But also there there is some... I don't know. Like, I I hesitate to say Elizabeth Holmes, but there is some kind of like fake it till you make it thing going on here that if he's just like, you can sort of see this guy who believes he is one turn, one break, one moment away.
+
+Like, if only I could just get this one other thing going. And you... He almost sort of slippery slopes his way into this giant AI scheme. I don't know. Am I giving this man too much credit at this point?
+
+No. I think you're totally spot on. And I went into reporting the story assuming it was just gonna be this sort of AI slop hustler entrepreneur arbitrage that I had been seeing in other parts of the internet and media and then finding out that actually it was a slightly more complicated story. I suspect I have not interviewed him because he was basically awaiting trial while I was reporting the story and then ended up pleading not guilty. But my hypothesis is that had he succeeded, he would have redirected the money that he got from his AI slop back into his career.
+
+He wouldn't have given up. It's really wild. So, ended up really succeeding in this novel art form of AI slap fraud. According to the US government, now he's pled guilty and is facing the crime, managed to make millions and millions of dollars from a bunch of different streaming services, creating hundreds of thousands of AI songs, and then getting untold numbers of bots to just loop them on repeat. Yeah.
+
+So, yeah, so walk me through this flywheel. He he creates this sort of fascinating closed AI all the way down system to Yes. To do it. I I wound up finding the number was $8,091,843.64 was what the government ordered him to repay. So that's that's the amount of money at the end of this.
+
+Tell me about the system he built that pulled all of this money in his direction. So we know that he used a few different AI tools, including this AI song generation service called Boomi. That was like the pre Suno. Right? It was one of the first ones to be out there letting you generate music like this.
+
+Okay. Yes. And it's similar. You know, if listeners are familiar with like Suno or Udeo, same concept. You can just basically put in a few prompts and create songs very, very quickly.
+
+And so he would create these songs and then he would create fictitious musical artists. And, you know, there's it's pretty easy to put music up on the major streamers right now. There's usually distribution services you can pay to put music up. There's actually a really interesting ongoing lawsuit between Universal Music Group and one of these distribution companies called DistroKid. And UMG is arguing that DistroKid is like a slot purveyor.
+
+So it's like the next thing that they got to write about. But yeah, so he would quickly generate these songs, churn up some musical artists, spray them onto the platforms, and then he would basically create networks of bops to stream all of the songs on loops. And then he would I don't know exactly how he got the money, like whether there are intermediaries to make it more Sure. Less obvious or what happened. But then he ended up, you know, funneling the money back to himself.
+
+And I want to point out, so $8,000,000 in the era of bajillion dollar valuations for AI companies might not sound like that much money, but music streaming pays nothing. So, it's actually an insane amount of money to make off of streaming. It's superstar. Maybe not superstar, but you are a very successful musician if you are making that kind of dough off of the streaming services. So even though it's not money that Dario or Elon would care about, this is like huge money in the music biz.
+
+So he And he did it for a while. And then there's a few different sort of bodies that they don't regulate the music industry, but they're sort of keeping it in check like the RIAA. And at one point, he kept getting flagged by, like, the distribution companies. And the... Some streamers didn't catch him for a while.
+
+Some caught him pretty quickly. Like when I talked to Spotify, they were like, we got him right away. Did not steal millions of dollars from us. He got like tens of thousands from them and then they caught him. But all of the various players did catch on that something funky was going on and he put up a fight at first.
+
+The criminal complaint has a lot of interesting snippets from his conversations of him saying, No, I didn't like, What are you talking about? This is all legit. He definitely tried to play it off. But eventually, you know, the government amassed enough evidence that they thought that they had a strong case against him. Support for the show comes from blinds.com.
+
+Sometimes you don't realize how important quality window coverings are until you do something about it. All of a sudden, that blinding light you were dealing with every morning goes away, and you think, why didn't I get those blinds replaced sooner? With blinds.com, you can go full DIY if you want or bring in licensed and vetted pros to install the exact lines your room needs. And right now, you can get $50 off when you spend $500 or more. They have a huge variety of style options at prices that fit any budget, and you can get samples shipped to your door fast and for free.
+
+If you need help picking the right style, just book a free consultation with one of blinds.com's award winning design experts. That means no awkward home visits, just good advice, and no pressure. Plus, everything is backed by blinds.com's SureFit Guarantee. Measured wrong, they'll remake it. No returns, no hassle.
+
+Visit blinds.com right now for an exclusive $50 off when you spend $500 or more with code vergecast. That's blinds.com with code vergecast. Support for the show comes from Outshift, Cisco's incubation engine for frontier technology. You can find multi agent AI in every enterprise roadmap right now. But here's the problem everyone's facing.
+
+Agents can pass messages but can't think together. These systems silently underperform through cognitive failures, misreadings, unverified claims, false consensus, and conventional monitoring can't detect them. Outshift by Cisco is building the fix with their new comprehensive resource, the Internet of Cognition. It's an open source guide that's a foundation for building multi agent systems from design to production. The goal is to give agents shared context, shared memory, and guardrails, all to drive the results we actually expect from AI.
+
+You can lean on this resource to understand AgenTeq AI's evolution and how it shifted from isolated agents to orchestrated superintelligence. You can gain insights for how to future proof your business by tackling complex challenges with multi agent systems. You can read the paper, experience a demo, grab the code from outshift.com. That's outshift.com. Support for the show comes from AWS AI.
+
+AWS AI is powering transformation across the world's leading organizations, moving AI from possibility to production at scale. Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars. Across industries, AWS AI is helping businesses innovate faster, lead with confidence, and transform what's possible today. AWS AI is how.
+
+It's the case against him that honestly sort of confuses me, and this sounds really stupid. But I find myself wondering what he did that was, a, against platform rules and, b, illegal. And... Because, especially, I think against platform rules is kinda where I wanna start. Because if if you rewind, what, five or six years ago when he's at the...
+
+It's kinda the heyday of this, nobody's talking about AI music. The the the, like, slapification of all these streaming services is is, as far as I can tell, neither against the terms of service nor a real problem for these companies yet. And, also, if it's illegal to put AI music on a streaming service, there are an awful lot of people who should be in jail. So, like, if if you go back to when he's doing this, what was he doing that he wasn't allowed to do? No.
+
+I think you're making a a great point and a point that he he brought up a lot. Oh, interesting. Okay. He was he was keep accidentally defending this guy. Okay.
+
+I don't know how you feel about I was not sure how this case was going to play out after talking to music industry legal experts because it wasn't so clear cut. It's fully permitted to put AI music on these platforms. Don't have rules against that. Now, recently, they've sort of started tightening up a bit. Like, Spotify just removed 75,000,000 AI generated songs.
+
+But there's nothing disallowing AI, like, broadly speaking at all, and there never has been. Mhmm. I honestly think it'd be a pretty smart business idea to come up up with some sort of, like, anti AI human artists only streaming network, but I also think that would be, like, impossible to monitor. So, yeah, the the thing that he did that was a crime wasn't putting all the AI songs on these platforms. It was maybe a crime against taste, but not a crime against the law.
+
+Definitely was that. Yeah. The thing that they got him for, like, the the streamers do prohibit artificial stream... Like, stream inflation. Mhmm.
+
+That doesn't mean... It it still happens all the time. And there have been a lot of different, like, very legit human musical artists who have been accused of, like, botting their streams and artificially inflating them. I mean, this has been true since, like, time immemorial on the Internet. Right?
+
+Like, as long as I have been covering this space, it has just been common knowledge that if you have $10 and ten minutes, you can go buy yourself a million Instagram followers or as many views on YouTube as you want. Like, this is such a known quantity of the Internet that it's fascinating to me that somebody got caught for it. It really is. And, yeah, so that was technically against the terms of service. But whether it was criminal or not, I thought was very debatable.
+
+They ended up charging him with fraud. It was not one individual thing that he did, and it was sort of all of it together amounted to this duplicitous action that Okay. Counted in their eyes as as fraud. And I guess to some extent, it's probably the lying. Right?
+
+Because you were saying when they were reaching out to him being like, are you using fake accounts to stream your music? He was like, no. No. No. No.
+
+No. Keep paying me my money. And I guess that that at some point becomes a crime. Yeah. And I I wanted this to go to trial just as a reporter because it was gonna be juicy.
+
+He hired Diddy's lawyer... Legal team, so I really thought he was gonna go to trial. And I honestly thought that he had a decent chance of winning because there had just never been a case mounted exactly like this before and it was unclear that any one of the concrete steps that he took was criminal. However, he plead guilty and the sentencing, I mean, he's going to prison for this, which is pretty wild to me. I've got to say, I do not condone streaming fraud at all.
+
+Should someone actually have to be behind bars? Is that a good use of, like, state money? I would... I don't think so. That's what's happening.
+
+He's going away for eighteen months. And the prosecution really pushed this idea that it would be a deterrent to others and that, you know, he was to be made an example of, and this is something that's, like, rocking the music industry. But he... It is kind of like, yeah. I'm sure.
+
+And, you know, this is just me speculating. I'm not naming any names. No one sue me. Like, I'm sure that there are players in the music industry who are acting on behalf of real artists who have certainly thought about, you know, all of this artificial inflation. Yeah, it just seems kind of anticlimactic for this one random guy to be the sole, like, dude who was going away or facing any sort of consequences.
+
+I mean, this is the same music business that tried to, like, punish college kids into oblivion for pirating music. So I can't say I'm completely shocked. Giving Napster era... We're losing some perspective here, in my opinion. I would like them to go up against more powerful players personally.
+
+So to that end, actually, one of the things I found myself wondering in researching this case is if he had just played it a little smaller, if he might have gotten away with it. Because I think the the thing that you see now and I think that there's been a lot of reaction to even after the sentencing of this case is that everybody is just like, this is rampant in the music industry. The streaming services themselves are using AI generated music to take royalties that would otherwise be given to artists by putting those songs on the playlist. People are juicing their own streams. Every...
+
+Like, there's a whole kerfuffle over Drake and Kendrick Lamar and who was buying streams for what... And, like, there there is, like you said, a sense that this is just pervasive. And part of me wonders if if Mike Smith had just been cool with, like, $2,000,000, if he would have just gotten away with it. Because this this thing is so complicated to find on all sides. Right?
+
+It is very hard to police what's AI. Back then, the idea of AI artists was new enough to be not really regulated in any meaningful way. And this world of music royalties is so diffuse and diverse and complicated that it actually seems like if you wanna get away with a scheme, this is a pretty good one. He might have just gotten, like, a little bit too big for his bridges. I totally agree.
+
+If... I'm sure that there are, like, dozens and dozens of just like many Mike Smiths still operating that are just a little savvier. One thing I thought was interesting, I talked to some people who work for like anti fraud companies that specialize in detecting AI music and fraudulent streams. Morgan Hayduck is one of the executives at one of these companies. He was telling me that an obvious mistake that Smith made was he was in The United States the whole time and a lot of the people who are more of your straightforward, like AI slop entrepreneur grifters, They're doing it from a beach in Cambodia.
+
+And so he made himself a little too easy to find, basically. Should have gone abroad. Yeah. That makes total sense. What do you think he was trying to do by doing it so broadly.
+
+Like like you said, he made his own music. The simple thing to do would be to use your army of bots to go juice your own streams and make yourself a very popular artist. He did that a little bit. Yeah. But he also created...
+
+The the case for him just being a scammer Mhmm. Is that he had lots of artists. He didn't care about making lots of songs. He didn't care about paying him lots of money that he did care about. Like, it would it would be somehow more endearing if he was trying to do this to once again buy his way into music, fame, and fortune.
+
+Why do why do you think he didn't just do that? I think he... It was almost too low hanging of fruit. Like, it was so easy. And, He and Jonathan, when they were creating all this music and then he was going out and juicing the streams, they worked really hard.
+
+To humans, still takes a while to make up songs and get in a studio. And it's so much quicker to just push a button. I I think it was likely that he thought it was less risky to sort of diffuse the amount of bodied streams amongst, like, hundreds of thousands of AI songs. Yeah. This one artist nobody's ever heard of got a billion streams today is like, that's...
+
+You're gonna flag the systems a lot more easily, I guess. Okay. We called the the piece that I wrote about this a billion streams and no fans because that was... Like, even when they were still in the phase of Mike botting their songs, Jonathan thought it was really weird that they were getting on the Billboard charts and no one knew who they were. So, I do think, yeah, he probably realized that there was a ceiling to how much he could juice his own career without people noticing.
+
+At the time that he was pulling this off, it just probably seemed like something that could still slip under the radar with the streamers. Clearly, that did not work out. But, yeah. Yeah. I think that makes sense.
+
+I guess if he was... It's certainly a lot easier to hide in vast quantities than to, you know, actually just try and juice your own streams to the moon. And this actually seems like the playbook that is being used all over the place with with AI slap. You you know, you've you've covered a lot of these things from the people who are making AI versions of every successful book on Amazon, hoping some people will accidentally click on it and buy it. They make a little bit of money, and some of them get removed, but you do it.
+
+I remember a couple of years ago covering this podcast company that was like, we're gonna make a billion podcasts. And if we only get 15 listeners to each one, we'll still make a ton of money because they're AI, and and it doesn't matter. That doesn't... The marginal cost of making them is nothing. The the...
+
+I think you also covered a lot of the, like, websites that are being bought and turned into these slop farms because they have some SEO juice in Google. Like, this just is the playbook now. And it it makes me wonder if, like, to some extent, Mike Smith, like, kudos for being ahead of your time. He started doing this way before anybody else is talking about this. But, also, he is...
+
+In a certain way, it seems like even the prosecution has admitted that they are they are trying to make an example out of him. That, like, they understand this is a game being played on the Internet at massive scale to sort of unknowably large amounts of money, and they have to put the fear of God into everyone doing it by kind of punishing this man. Yeah. I mean, it is something that is so overwhelming. I get the impulse to wanna at least have one example to be made because anyone spending any time on the Internet right now knows how flooded it is.
+
+Like, you go to buy a book on Amazon and you have to click through pages of versions of the book where there's one letter different and it's just Oh yeah, it's awful. Since I first started covering this in 2023, there have been major moves from the platforms. When I first wrote about AI generated books on Amazon and talked to Amazon, they did not seem to realize the scale of the problem at all. And when I brought up, Oh, are you going to come up with ways to flag AI content? It didn't seem to be something that they had considered.
+
+Now they are they have been incrementally taking steps to try to limit the amount of books that people can self publish, for instance. Spotify, as I was mentioning, just removed 75,000,000 songs last year. The music streamers really are realizing that this is an issue. Labels are realizing this is an issue. Like, even LinkedIn, which there was a moment when LinkedIn was pushing people to use AI to make posts and now they came out with the button that you can smash if you see AI slap on the scroll.
+
+So, like, there is this movement, I think. There is this recognition increasingly that this is a problem. This is distorting and diminishing the Internet for people. And there are efforts to try to combat the deluge of slop. I don't know if like this one guy going to jail is really going to do that much because I think that any wannabe AI slop grifter could look at this case and just be like, oh, I'll just, you know, again, do it from Thailand, do it from Mexico City.
+
+Totally. Take a few steps to obscure my identity, slap some crypto in there somehow. Support for the show comes from Rippling. You just found out your sales team is at risk of missing quota. Don't panic.
+
+Just ask Rippling AI. Since it's built on your real time people and business data, Rippling AI can pull metrics from Rippling and Salesforce into a meeting ready dashboard, which shows quota attainment, headcount plan, and monthly revenue to quota by region. In seconds, you'll see exactly what's behind your quota risk and fix it before it's missed. Question answered, action taken, crisis averted. When you have critical business questions that need answers, don't just file a ticket and wait weeks for an outdated report.
+
+Describe what you need and have Rippling AI build it instantly from your live people and business data, whether it's a dashboard with detailed charts or automated workflows with the right triggers, conditions, and approvals. Ready to rule your business? Head to rippling.ai/verge. Get the only AI built to give you full visibility and take complex actions across your entire organization. That's rippling.ai/verge.
+
+Sign up for exclusive access today. Support for the show comes from Jira by Atlassian. AI is only as useful as the context it has to work from. But when that context is scattered across tools, threads, and DMs, that means your team and your AI agents end up flying blind. That's the problem Jira solves.
+
+What's the goal tied to your project? What got decided last week in Slack DMs? Atlassian's teamwork graph pulls all the pieces together from Jira, Confluence, GitHub, Slack, and more, so nothing falls through the cracks. With Jira, you can actually share the context with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP.
+
+Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira. Learn more at jira.com. That's jira.com. At T Mobile, the new iPhone 18 Pro is here with a big leap in battery life, and you can get it for nothing up front. With so many reasons to choose T Mobile, you'll wanna talk about it.
+
+I heard at T Mobile, you can get iPhone 18 Pro for nothing up front and get $1,000 off. Pass it on. Pay nothing today. No taxes, no fees, nothing down. Pass it on.
+
+Hey, Mickey. Pass it on. IPhone 18 Pro has the most advanced iPhone camera ever. Pass it on. At T Mobile, you credit stopping balance and required finance agreement is due.
+
+Example, $1,199.99, iPhone 18 Pro, 256 gigabytes. Bill credits and if you pay off device early, qualifying credit, new line, cordon, and service. $85 more per month with auto pay plus taxes and fees required. $35 device connection charged to its sale. Visit tmobile.com.
+
+Well... And there's a new wrinkle to this too, which you cover a lot now, which is prediction markets Mhmm. Which now give you yet another way to both slightly distance yourself from what's going on and to actually influence the outcome. Like, there there was a whole big kerfuffle recently about prediction market prediction markets being manipulated to juice Spotify streams. Like Yes.
+
+All of this stuff is just... It's... I mean, it's just crazy. It's it's manipulable slop nonsense all the way down, and and it just feels like prediction markets throw a whole another wrench into this system. I know.
+
+Poor Mike. He missed his chance to make even more money because, yeah, there was this whole thing where Spotify... Like, people were clearly artificially botting songs on Spotify so that they could make winning trades on prediction markets. Like, there there... This whole new incentive to to bot has cropped up.
+
+Don't I really every day I wake up and I'm so grateful that I'm not in charge of platform integrity for a social network. Like a nightmare to try to keep all this at bay. Like, it really does. Do you have a sense of whether these companies feel like they can get their arms around these problems? Or are we just spiraling into total nihilism about all of it?
+
+I mean, even the prediction markets would say they are taking efforts to make sure that these things are are legitimate and that there's integrity in the process. And if you are going to lose your bet because somebody else juiced the Spotify streams, people are gonna stop using prediction markets. So there's there's incentive for all of these companies at every level to solve this problem, but it feels like in so many ways, the problem is just running so much faster. Mhmm. Like, are the are the folks you talk to who are trying to solve this problem actually optimistic that they can?
+
+Short of, like, throwing people into prison performatively to scare everybody else? I wouldn't say I'm hearing an overwhelming optimism. I think most people who work for the companies would say to your face, yeah, we're fighting. And I do think that there have been positive steps towards coming up with better spam filters to get rid of just straight AI generated slop on a lot of these platforms. But we're running into a moment where it's not just the purely fully AI generated, like, Shrimp Jesus, Mike Smith songs, like that bucket of content that's changing our experience of the Internet.
+
+There's also just, you know, we are moving towards a world in which most things that we see online are at least AI assisted. It's like, how do we move forward in that world and assess quality? Since I've been reporting on how AI is changing the media, I've been slowly coming to terms with the fact that even though my natural response to using AI to write a news article is kind of a revulsion still. I don't think that that's going to be the case for the general public in even a few years. I don't think most people care if the content that they're consuming is partly AI generated or AI assisted.
+
+And so I'm still trying to figure out what that means. Yeah. I found myself wondering, again, in the case of Mike Smith, if if he had gone on a platform where there was sort of a less direct money system. And, again, if he's just in it to to juice views and appear to be famous and successful, if he'd gone on TikTok, right, and and bought himself the same amount of views and the same amount of streams and this... And then used that to go in some less direct way make money.
+
+Mhmm. It doesn't seem to me like TikTok or anybody else has tools or even incentive to go solve that problem. Right? Like, nobody... If if I went and bought myself a million views on TikTok this afternoon, nothing would happen.
+
+Like, this TikTok has no incentive to do anything about it. It's too big a problem. They don't care. It doesn't cost them any money anyway. Whatever.
+
+It feels to me like the only problem here is that he made a lot of money. So again... And and like, it makes sense. Right? So these companies are going to chase after it where it really eats into their business.
+
+But then I think about Spotify as a good example. Does Spotify have any incentive to try and figure out what is and is not AI on its platform when it doesn't cost it any money? The answer seems like no. And so maybe everybody but Mike Smith will just get away with this. I'm surprised they've done as much as of it...
+
+As they've done at this point because it seemed to me like... I I guess it's just reputational. Like, they don't want to have a reputation as being a slop purveyor. Like, the the business mechanics, I don't think that there's, like, a huge profit, like, direct profit incentive to remove slop. And, like, as we're moving towards a time when most songs will be touched by AI in some way, not that they'll be wholly AI generated, but AI will be used in the production process, I don't think it's feasible to come up with a like, this is AI, this is not AI, like two categories.
+
+It's just going to get too tough. And I think that they will come up with ways, and they already kind of have come up with ways to filter out the songs that truly are just like Soono, Udeo, you know, crumbs. But Mhmm. Anything beyond that seems like a huge headache. Yeah.
+
+Agreed. And it... And it's only going to get more so as these companies try to figure all of this out. Alright. Well, Kate, I'm glad we got to do this.
+
+Thank you for coming on. This is this is really fascinating. I'm gonna go listen to a bunch of Mike Smith music. If it turns out, it's great. I will report back, and we will talk about this again.
+
+But thank you for being here. Thanks for having me. Alright. That's it for the show. Thank you to Kate for being here, and thank you as always watching and listening.
+
+If you have thoughts, questions, feelings, if you have a favorite Mike Smith song you wanna tell me about, I would absolutely love to hear it. Email us vergecast@theverge.com. Call us 86611. Ask us all of your questions. We're gonna get back in the cadence of doing a regular hotline episode every week, so send them all.
+
+I wanna hear them all. We will do our best to answer as many as we can. Also, the best thing you can do to support all of this, everything we're up to here at the verge is to subscribe to the verge. Theverge.com/subscribe. It gets you all of our podcasts with no ads, including this one.
+
+It gets you all of our newsletters, all of our coverage of everything. There's a lot of gadgety stuff still to come this fall. You're gonna wanna be in on all of it. Verge.com/subscribe. Thank you in advance.
+
+The Vergecast is a Verge production and part of the Vox Media Podcast Network. This episode is produced by Josh Cahas, Kabir Chopra, Brandon Kiefer, and Travis Larchuk. See you tomorrow. Rock and roll. At ZocDoc, we know you care about your health.
+
+You wouldn't do that early morning cardio if you didn't. So the fact that your annual physical is overdue just shows how hard it can be to get seen by a doctor. Sorry, that doctor's not in network. Press 1 for more options. You've reached us outside normal business hours.
+
+The next availability is in three months. But ZocDoc makes finding the right doctor easy. Download the app and search by specialty, insurance, and availability. Read real patient reviews, then book instantly. ZocDoc.
+
+Ready to be seen? Is your home wish list just sitting in your cart? Well, get ready to hit checkout because Way Day at Wayfair starts October 24 with up to 80% off everything home. That new sofa, the rug you've been eyeing, the upgrades you've been putting off, they could all be way less during Way Day. It's Wayfair's biggest sale of the year, so make your list and mark your calendar.
+
+Shop Way Day starting October 24 for up to 80% off everything home at wayfair.com. Wayfair. Every style. Every home. Star Wars, The Mandalorian and Grogu is now streaming on Disney plus.
+
+What are you waiting for? Hop on. The must see galactic adventure comes home on Disney plus. This is the way. Our only chance is to work together.
+
+I love this kid. Always wear your seat belt. Star Wars, The Mandalorian and Grogu. Now streaming on Disney plus. Raid PG 13.

@@ -1,0 +1,347 @@
+When I think about model progress, it comes down to different forms of capital, and that is compute data and talent. How do you see that playing out in terms of, like, who's gonna win in the next couple of years? The Chinese are so good at building models. To say that China is anything but equal in talent, you're gonna have a hard time. What they don't have is compute.
+
+Most people regard distillation as sort of, like, the main lever for them to do this. People distill my products every single day. They take it. They strip it down to its raw parts, and that's called competition. Previous post training was much more reliant on the supervised fine tuning.
+
+Now this has morphed a bit into environments where it's RL heavy. But it's just, like, hard to map this type of post training, which is you get the completions and the score goes up to what is going on in reasoning today. The discourse now is just so much fear on, like, how much the frontier is just hidden and also breaking away. The AI capability plot doesn't necessarily worry me. But the AI capability plot in the pretty much nonexisting preparation of cross public cybersecurity and all of these things, like, The Frontier AI labs are spending extraordinary amounts of money to build better models.
+
+So how does open source keep catching up? In this episode, A16Z partner Lisha Li sits down with AI researcher Nathan Lambert, founder of the new nonprofit research lab, Trillium, to unpack the race between open and closed AI. They discuss why open AI and Anthropic still have major advantages in compute, capital, and speed, But why Nathan believes the technical talent behind open models, particularly in China, is often underestimated. They also separate the reality of model to solution from the rhetoric around it and look at how post training, data, and RL environments are becoming increasingly important sources of progress. And finally, they turn to recursive self improvement.
+
+Nathan explains why Trillium plans to document how AI is actually being used to improve AI, from the tasks models can already automate to the places they still get stuck, and why making that progress visible could lead to a much more grounded debate about how quickly the frontier is really moving. So, Nathan, really happy to have you here. Thank you for joining in person. Super timely given you're launching Trillium, which I'd love to talk about. But more sort of on on a macro level, I think we chatted a lot about open source, and that's a lot of what you care about.
+
+And what we've been hearing a lot in the public discourse is like, hey. We have to pace the frontier, the frontier this, the frontier that. And I think an arc of the stuff that I'm really trying to ask experts about is what is in the frontier? What are we pacing? What's there?
+
+And then more importantly, kind of threading it with open source and open weight models, like, can they keep up with the frontier? And I think this matters very much and is something that you're an expert on. So maybe to sort of start on that arc, sort of how you would break down what's gotten us to the frontier for both closed labs and open source models. You know, how does it break down in your mind? Maybe first at a higher level of pretraining, mid training, post training, how post training has evolved, which is something you've, you know, done a great amount of education to the public on.
+
+When I think about model progress, it comes down to different forms of capital that you put into them. And that is, like, compute data and talent. And all of the labs have various amounts of this. And I Yeah. The closed frontier labs of OpenAI, Anthropics, Google's have clearly had the most of these.
+
+And what we see is like the different abilities of the labs to organize these forms of capital and like making the org chart work for building models is really hard, which is why you have companies have to do complete resets from the bottom up. And then it actually kinda works sometimes. Like, company like Meta is, like, totally reset, and they're, like, on a positive trajectory again. Seriously. Yeah.
+
+It's like, I think I'm very interested in these human aspects of why competition drives the frontier and why the org chart is so important because, like, we see these things, and this comes into play in the open closed dynamic as well where it's like Yeah. The closed companies, the true frontier labs, which I say, if somebody wants to work at the frontier of AI, I mostly tell them to at Anthropic and OpenAI, which is the easiest bet. Think Meta, Google, SpaceX AI, like, I think you still might be there, but it's harder to see from the outside. Mhmm. And these companies have just taken the most ambitious bets the earliest in order to get there, and that's why OpenAI has done things like kick start the reasoning model revolution.
+
+And I think that kind of breakthrough, that beautiful plot with the inference scaling laws is peak OpenAI. Looks like they're really good at getting this plot that just changes how everyone thinks about everything. Yeah. And on the other side, it's like Anthropic has been very focused on the types of things the models are going to be able to do, and then their reward was this Claude Code explosion with their focus on coding for so long, and there's these subtly different cultures, and I think those two companies in particular have been the most forward looking and the most willing to spend egregious amounts to make a step towards a direction that people think is impossible. The Chinese companies came into this because they want to have a company that matters, and if they were to build their models and try to sell an API from China, nobody would know about them.
+
+Nobody would know about Moonshot AI. Very few people would know about Jiboo, and there's a very long list after this. It's a very practical decision by them, they're following the discourse, they know there's gonna be a huge market, they know there's a huge demand in The US for paying for these things, and it's very practical. So therefore, releasing open models is a way to shortcut this and get into the conversation. And I think there's a lot of complexity in why do they do this?
+
+Is the government involved? And not. That's not the case. They're just trying to build a startup. So practical.
+
+It's not to say that it will not get there. The Chinese government does things that would blow people's minds in The US, and I think that makes me think that the Chinese labs have a much more serious approach to security because things happen in China that are much more drastic responses to companies doing things in The US. And I don't need to go down this rabbit hole, but between the balance of open and closed, these companies in China are trying to catch up. And this is a very different dynamic than what I said about OpenAI and Anthropic. They're trying to create the new paradigms, that are trying to make true RSI happen so that their company wins with the best models forever if you get there first, just these boom ideas.
+
+And you just have to fill the market where there is a void. And then open weight models are trying to do this, and I think over time, there will be these tiers of open models where there's the best closed models, which you can demand the best margins for. And then there's the near frontier models, which is a step behind this, and those will be open because there's just like some sort of supply and demand there as you get access to a different market that might be less profitable. For example, like if you have private enterprise data or so on. And these tiers are kind of natural evolutions of companies that are trying to do things.
+
+And I think we were talking about the frontier. And it's just if you go back to capital, like, they have less capital. They're gonna make less money. And, like, that's okay. But I think this drive to catch up is very strong.
+
+And once you know... Once Anthropic and OpenAI show you the type of model that you need to build, it's a lot easier to then be like, oh, we just need to do this thing. And Yeah. They buy similar data sets, it trickles through the data economy where OpenAI and Anthropic spend way more to build out this function of a data industry, and then those data companies, a year later, might sell them to everybody. They might sell them to everybody.
+
+They need to maximize their return on their investment, and they had some contractual period. And I think there's a lot of dynamics where fast following is going to be very doable, And we've seen the cycle proceed for a while, like longer than many people would expect. I think when ChatGPT was released, we talked about consolidation in the industry and predicting it. And I think we're just starting to see a much more active mergers and acquisitions market. Mhmm.
+
+But I thought this was gonna happen two years ago, and the open model companies have lasted much longer than I thought. I know. Mean, there's so many interesting threads to pull on here. I mean, starting with actually your commentary on the organizational differences between the top two frontier labs. We can maybe table that or go on through that thread.
+
+But then of course also kind of, are you explaining sort of how the open labs in China have really just chosen that as much more of a distributionpractical commercialization strategy rather than, hey, obviously out of altruism. Though it's great that the researchers, maybe for better or for worse, were motivated from sharing the beginning. But at the end of the day, it perpetuated because it was an excellent, excellent commercialization strategy. So the other thread maybe to pull there is sort of, I think, most people regard distillation as sort of like the main lever for them to do this so well and kind of increasingly well because the lag between the open source models and the frontier models have only shortened with time in the last few years. Now it's, like, maybe only two to three months.
+
+And this has also pushed the frontier labs to maybe want to close off the APIs, close off their best models to do first party services. One, probably to capture more value because it's always possible that way. But then two, also, because it's harder to distill, not impossible, but much harder to distill. Maybe on those two threats because they're both very interesting. So we'll try to touch on it.
+
+Let's start with is the distillation story really more of a caricature and triangles labs since you've actually met with them and you've studied this a lot more? Is it sort of like they're all rounded, like great at pretraining, also have their own good post training recipes that they may or may not have revealed? And where do you see the levers kind of accelerating? Yeah. So the Chinese labs are very technically excellent.
+
+They are more compute starved. Think Yes. Without a doubt, they have a comparable talent pool to draw on. I think there might be, like, a slight edge based on who was where when AI really got going. But to say that China is anything but equal in talent, you're gonna have a hard time because they just have so many people being trained at such a high level.
+
+And what they don't have is compute. You talk to people there, and you're like, oh, I heard an average OpenAI researcher has 5,000 h 100 equivalents that they can access at any time, and their jaw just falls to the floor. They're just like, I can't comprehend. And this is like a top pre training researcher at one of the labs that you would know, and then you have this interaction a few times. And the compute thing I think is the biggest difference, and distillation is a way to effectively spend more money to get what is compute equivalent.
+
+Like outputs from a language model are a function of compute, and if you know the outputs you want, it's the same as having compute to generate with a model. And I've seen the stages of distillation, and how I see it is that previous post training was much more reliant on the supervised fine tuning and other to like this RHF era, which is where post training started, and you could get most of your performance just by you do this next token prediction loss on the outputs of a very strong model. It was very established that you take the best model you can, you generate completions, and you train on it, and your model's gonna be pretty good so long as you have access to the right prompts. Prompts have always been a key to post training. I remember at AI too, like, with Hannah, who I co led post training there with, we would always say like prompts are the key unit of post training.
+
+It's like you need to get the prompts, and you can do different things with them different stages of training, and now this has morphed a bit into environments where it's RL heavy. But it's just hard to map this type of post training, which is you get the completions, and the score goes up to what is going on in reasoning today. And based on the public literature, it's very hard for me to be like, distillation is a major factor, because for example, in the fully open literature of people trying to do open post training recipes, all the open model builders are stuck using like a really outdated quen model because you can't figure out how to get the teacher right. My hypothesis is that there's some mid training and something in the common pre training data that's open that makes it hard to do this thing, which is get reasoning traces from the absolute best model and do SFT and the numbers go up. So if I were to have access to Claude's reasoning trace when I was building OMO, Claude Opus, Claude Mythos, whatever, I'm not sure that it would have actually made our model a lot better.
+
+So this is my evidence grounded in the literature why I think distillation is hard, and then how do you take the outputs of a model and build an RL environment to do a big RL run? Because then you have the Xiaomi's of the world doing this week long open RL run, or they're like, here's what we did, and then they drop the model, It's like, where exactly does distillation go into this? They're they're clever. They know how to do marketing well. There are some questions of, like, did they do this ahead of time because they did their RL run, then they dropped the model, and then their tech report said they had an extra post training stage after RL, so there's some questions.
+
+But mapping the established distillation literature to that is very hard. But there are question marks that make me support the labs a bit, which is these quad proxies and these model proxies in China where there's a ton of tokens that are used, and there's intermediaries, and they have tons of accounts, and even cases where Kimmy was serving Claude in their products to users. And I'm just like, don't really understand how this fits into distillation as a common technical tool in post training. And yes, we should watch it, to there's other weird stuff with Chinese companies using the outputs from OpenAI and Intropics models at a vast scale. So I think we have a lot more questions we need to answer, and I think most reasonable people, when they're like, what's the gap from distillation, are like, there's very big error bars.
+
+But when I say that distillation helps them by a few months, it's based on the scientific literature that we just... Like, that's the information we have. We should do more open research and enable this so that we can study it, but I don't know how you can come to a different conclusion that it's not a huge effect in current post training based on this. And this is like, the Chinese are so good at building models. Well, I think there's a bit of cope where people are like, only we are good at building models.
+
+How is that There are so many companies. There's 20 to 30 companies that are building You good can read. Yeah. It's hard for me to get over, and I think that there's this very prominent paper that's this, like, stealing reasoning traces from closed models. Mhmm.
+
+And I know that the Chinese companies are way ahead on doing this since the AI safety community later published it. Like, I think every Chinese lab has a team that knows those sorts of things. Mhmm. And this goes back to what you're saying about, like, they don't need to offer the API. Mhmm.
+
+And I think there's some characteristic of reasoning models that generate these thinking tokens where it's easy to just knock them out of the API so you see the reasoning token, and then you can use that to train your model. Mhmm. And so long as they offer these APIs, there's gonna be no way to stop that type of distillation. Mhmm. But if they do make it so it's only in products and things where you have to sign enterprise agreements or whatever, it'll be way harder.
+
+Mhmm. And I support the labs doing that if they want to secure it, but it's like they have to secure their products if they want to. Like, I don't I don't think knowing your customer would be good for anybody. I don't think it'd be good for their business. But also, I don't know why you should get the government involved in a terms of service violation.
+
+It's like not even... I don't even think terms of service are a signed contract. It's just like a... I don't think you can sue them in the same way. You just can cancel their access.
+
+So that's why I'm not that sympathetic, but I am... Like, I like to listen to the... Like, the national security community is loud. Mhmm. And...
+
+But it's like, there is a directional truth to that with where AI is going and how influential it is, so you have to balance many many things in your head. I I wonder what your response is. So I I heard... I think Jensen said in some literally either Twitter interview maybe. He was like, it's It's great.
+
+Yeah. He's like, put it put it in put it in the show. People distill my products every single day. They take it, and they they strip it down to its raw parts. They test everything.
+
+That's called competition. Do you think that's fair game? You think distillation is not robbery? That's called competition. I'm very sympathetic because I think there's a lot of calls from the AI safety community that we want to have, like US China dialogue as we're getting to such capability levels.
+
+And if you're gonna ask the company to just, like, start hitting their AI industry with slaps on the wrist and more downstream of distillation. So you won't regulate distillation with policy from congress. You will probably just do federal action to make their life annoying. Yep. And at the same time, when we're talking about how do we manage frontier risks where you have closed models and training going all over the web and accessing things that they shouldn't, and we have valid worries about what will happen with open weight models where there hasn't been harms yet, but it's like aren't people using open weight models?
+
+Why do they go to closed models and get around the safeguards? And we want to be able to communicate with the Chinese tech companies and everything about this. And I just think, you're gonna cause more harm than good if you do anything about distillation because they're not gonna stop. It's like they're gonna keep doing it. Right.
+
+Right. And the open source community benefits, and therefore the startup community benefits a lot. It's not just like, hey, China, USA. It's actually there's you know... And we can actually talk about, like, I am sympathetic obviously or try to steel man the Frontier Lab position, which is like, you have just unprecedented amounts of capital that's required to build these Frontier models.
+
+Right? And it's it's kind of alarming slash not very, conducive to to this, flywheel continuing if if the, through distillation or other kind of distillation related methods, open source can catch up so quickly. And so, you know, and what I mean by this flywheel is just kind of a very simple picture of, you know, you you train the frontier model by putting in a lot of money to get compute, and then they park this compute, of course. OpenAI, ananthropic, or very guiltysuccessful of this. Whichever way you want to look at.
+
+And there is a huge compute, of lack of compute available because there's actually not just compute in the ships, but there's also power, etcetera. So, like, all of this scarcity is kind of, you know, bottleneck until 2028. So this is all to say that it's a successful strategy to park that, which leads to actually a lot of revenue Because once they get to the frontier, because they understand scaling is the one thing that kind of gives them... Or the science of scaling is what gives them a handle over how well, that can translate into a predictable revenue stream. So they get the revenue and because of that revenue, and they're able to raise more money.
+
+It's this unprecedented, beautiful flywheel. This happens for both OpenAI and Anthropic. Of course, we need exponential amount of resources. And so we've gotten to the point where we're like, okay, we need to IPO. We need to go to the public markets.
+
+And so anything that threatens this flywheel from functioning well is is a huge threat to just the entire... Like, being at the frontier. And so The entire AI industry, realistically. Well, like, can't... And exactly that, actually.
+
+So, like, you know, maybe not just kind of being sympathetic to their version of, like, trying to, you know, eke out capitalism for themselves. It's it's also just like, hey. If if they don't do well in the IPO, that's actually bad for everyone else. And so I I I want everyone... You know, I want them to do well.
+
+On the other hand, you know, it's like the Chinese open source models are a huge benefit to the startup ecosystem. I mean, we see this all the time. Just kind of metrics I remember from, like, Decagon and Harvey who was trying to do a lot of fine tuning. There's, like, a huge amount of startups doing post training as a service of various degrees and trying to productize that. And and it actually works because you can get to the Pareto frontier with these, you know, Kimi k three or pick your favorite, like, JLM open source model.
+
+So I guess, like, weighing these two things, how do you... I I guess there's so many questions can fall from that. But I guess, one, how do you see that playing out in terms of, like, who's gonna who's gonna win in the next couple of years versus, you know, what what does... And and then also relate that to, you know, why you're doing, obviously, an open source. So I think open and closed models are in different timescales of exponentials.
+
+And the closed labs are so integrated where they have efficient inference. They can serve the model at scale when they are ready to because they have all these resources. They can plan, and they get to these markets first that are very high value. We have seen this with coding, and this has been the story of the year where the revenue has just gone zero, 100,000,000,000, and likely to grow. But the Open Model Labs, partially, this is this like an economic issue being the fast follower is that you don't have this flow of information, and you don't have this flow of revenue.
+
+So the open model... You have an open model builder, then you have the open model inference companies, and you have the open model post training companies, and, like, there's information from those customers, which are, like, things you need the models to do, and it's like, you can't... That information doesn't just flow back to the model builder very easily, and they also don't have the economies of scale to serve as many users, to serve it as efficiently, to have as much margins on influence... On inference, and these are just like, it's gonna take a lot longer, but to the extent that things can be commoditized, it seems like companies really want to have private data. There's a lot of things that they just cannot send over an API, and we could talk about the, like, zero data retention or not and so on, but, like, these...
+
+Takes a long time to figure out if a company has internal expertise, or they figure out how to build an internal evaluation that actually matches to revenue, and then they figure out how to fine tune, or then they go find they go find thinking machines or prime intellect. And they're like, we can make money in mass if we figure out how to fine tune a model that solves this. And, like, they have these customers, but there are just so many more companies involved that it takes so much longer. But at the end of this process, they have real ownership, which is model weights, no terms and conditions that they can run on their hardware, and they've figured out they can make an ROI on. So that's why I think the open model economy is just gonna take way longer to build, and I'm less concerned about this being kind of bubbly, where it's like this could eat into the market of the really fast takeoff as people figure out how to...
+
+What is the cheapest model that accomplishes a task, and how do you compete on margins? Mhmm. And I don't really know... Like, don't really know what's gonna happen. I think there's...
+
+It's it's too early to know. It's it's it's so... Yeah. It's it's so hard. I mean, it's definitely something that's always top of mind thinking about.
+
+Like, there's... There are things where scaling up general reasoning just as a general model is so... It's going to beat out any specialized model. And we see, obviously, examples in math. And that's probably the most pure domain that you can see this.
+
+But also, you know, even in, say, robotics, you know, with with Astra. And and I... For maybe, however degrees of, like, truthy the signal is, it just doesn't sound like they've actually tried to ascend in robotics in general. They did. I think there's a cycle of, like, six to eight months ago, they started hiring people and buying a lot of data on robotics.
+
+They did. And then the model, magically, six months later, is really good at it. But it is what I think that the But I actually... Well, the other other, you know, more contrary things I've heard is that it's actually coming out of computer use because it's... You know, because computer use is, like, some level of spatial reasoning and then getting to have good Blender, you know, demos is is another extension of that.
+
+So, you know, we can believe some version of that. But either way, I guess it's like maybe if it's like really specialized, you see it's it's the capability gain is really from like trying to get better in a certain area. But like in math, I don't even know if that fell out of trying to specialize in math. I I think a whole thesis there was just like, let's just scale up reasoning and actually got better in natural language. It got better than any specialized model in math.
+
+I mean, Anthropic wasn't even trying to be good at math. OpenAI, certainly, I think they hired a bunch of mathematicians, but they also weren't trying to use specialized kind of lean dataset to get better at it. Or at least that's not... Sorry. So anyways, this is all kind of fodder for the view that it's kind of hard to compete with the frontier models because eventually, they start ascending so much that, you know, you you get good enough in respective categories.
+
+With that said, I think, actually, there's also very competing... Like, a counterforce of data that you're seeing, which is, like, the open source models that are already good enough allow for fine tunes, you know, to your point of like these slow percolation diffusion of these very specific benchmarks and and datasets that are only available in these companies that are... You're being applied to. And it's just it's just good enough, and it's actually... We're starting to see, people adopt that.
+
+I mean, in the most maybe pure regime where you would expect frontier models are good as, I think Cursor published something over the summer where like, hey. We just... You know, we we had this long horizon task of writing, rewriting SQLite. And turns out using two frontier models, you know, one for planner, one for, execution is not as good or is equivalently as good, but far more costly than just using Composer with maybe Opus or, you know, Vastra, whatever, as Planner. And and that...
+
+I think that's actually great evidence that the open source fine tunings are very good or good enough and has surpassed intelligence hungry tasks. There's a long way of asking, what evidence do you find is most compelling or, you know, pieces of evidence for various versions of this stable state of where the frontier wins versus open source? I'm a big proponent that a lot of the frontier progress and domains that are not fully verifiable is by buying data that is high quality and giving the models worlds to act in and hill climb on. And I think there's two there's two things. We have the math and code thing, and we'll...
+
+We we don't know how big the coding market will be, and then there's kind of everything else, which is still they're targeting this knowledge work, this biology, health care, legal, and all of these things are not as verifiable. And I think it is much closer to the story of OpenAI bought a lot of robotics data. They're probably gonna tell us it's generalization, magic poof. People love poof generalization. And...
+
+But realistically, it's probably some of a, some of b, but a lot of it comes down to data. When I talk to people at Frontier Labs, there's some people that have amazing jobs. There's some people that contribute by doing a very narrow thing, which is you make a dataset, and you figure out what the behavior should be for your model in that area, and you figure out how to make the data that helps get that data. Get that behavior, and you figure out what data you need to buy. And that's gonna take...
+
+I think we're gonna have years of this Yeah. Across different sectors, and that's very capital intensive to buy all of this data. But that's not just like poof magic. RSI happens. Where I do see in this math and code and some, like, distributed ML engineering, like, it's very verifiable.
+
+You know what your cost is, and the AI models are gonna drive that down at a really magical rate. And that's gonna just just have a lot of surplus benefits, and we can do research faster. You could... I'm very interested in, like, I think the efficiency of models is gonna drop multiplicatively over years. So we've seen OpenAI have drastic price cuts, and it's like, what does it mean for GPT Soul or Astra and these bigger models to reduce in price two x every eight months for the next three years?
+
+Like, you start getting what a time. You start doing this math, and it's like, it's 1% of the cost in whatever, like, four years. And it's like, are they gonna be able to have higher margins due to Jevan's paradox there, or are their revenues gonna decrease because the market fills up? There's just, like, all these really weird dynamics, but fundamentally, like, AI progress is about data and about writing better software to serve your models, and those are very different worlds. Yeah.
+
+I mean, at least definitely... I agree with you that observing from the outside, there's a lot of data RL environment companies that are, you know, doing very, very well, selling both to the the top two frontier labs, but an increasing kind of longer tail of labs as well. So to your point, I think a lot of the capability gain has really come from just scaling that up, and it's not an easy task. I mean, maybe there's... I'm actually very curious on your opinions between, the the data collection and environments that are built by hand versus the ones that are, you know, done in SIEM.
+
+There seems to be, like, different versions of, like, what could be... You know, what what kind of price they command, etcetera. Have good things and bad things. Yeah. And I think it's like there's a lot of talk of, like, like, we've talked about distillation, but at the other side, it's, like, the Chinese company buys the RL environment that they use six months later.
+
+And they're like, oh, Anthropic Group. Yeah. I bought this. Now there's a premium. I'm like, oh, that's so many.
+
+Will do this. Yeah. But the data that people are buying is pretty flawed. Like Mhmm. I would say that the method is you buy en masse, and then you figure out what works, and it's not a 100% hit rate.
+
+Yeah. And I think... I personally think that this RL environment explosion where there's just so much opportunity to make money is having a lot of people cut corners, and this can induce things like reward hacking. So it's like the models are so smart that if you put them in a world, and they're like, my job is to solve this task, but they didn't give me the... You have a test file, and the test file actually has an empty file instead of the of the maze that you have to navigate.
+
+And they're like, the model is like, well, I should still figure out how to get a high reward anyways. And I think a lot of this behavior is downstream of this supply chain. Mhmm. And I think it'll fix it, but it's interesting to see the demand from the labs to eliminate reward hacking and all these company... Researchers spending so much time on it.
+
+And then all the data companies, like, buy our data and, I think, proportionally spend less time on model behavior Mhmm. And more time on world building and revenue. And somehow these two parties need to meet together to actually make higher quality data. Yeah. Well, a lot of the labs are actually taking it in house partially because they don't want, you know, data leaking.
+
+I'm not that... You know, like, literal... Literally and figuratively speaking, it's like, you know, signals leaking of what they're doing, but they're trying to send on. But despite that, I think there's a tremendous amount of growth in, how much, they're purchasing. Do do you think that's probably one of the strongest levers?
+
+Can you kind of qualify how much that will kind of increase? Do you expect that to increase, based on spending? Or are there other... You know? Because, for instance, if it...
+
+It can it can be done well in sim, I think maybe that is more of an argument to that being absorbed by labs and, you know, in particular. And then All the companies are doing a mix of... But, like, all the companies are selling synthetic data where they're using language models to modify or build the world or generate permutations of it. And, like, if a human is guiding this process, it's still synthetic data. So, like, there's very few people that are are gonna, like, sit there and lender and, like, we're gonna make a little world for our model to act in.
+
+Like, all the companies, I think, are moving far faster than that. Right. And they buy them because they... The models are getting better from them. Yeah.
+
+Like, I I still have denial about it. I'm like, these numbers are crazy. The billions of dollars research budget on environments. I'm like, they're only doing this because it is helping the models, and they see the signal. That's true.
+
+Like, my general observation is that the data industry has a lot of low hanging fruit on improving quality and improving just, like, op sec. So, like, if you look into the details, you can find weird things with, like, data companies that use contractors overseas. Those people through an intermediary, they don't know they're selling it, they just upload it to GitHub. There's a lot of stuff out there that if you poke around the data industry, you find weird rough edges, and it's just very early. The one thing is the numbers are too big, the quality is bad, but on the other hand, the labs are improving very fast and know how to onboard it.
+
+So I think this will take a few years to transition, of really pulling the winners into higher quality, higher ROI. It just takes less of resources when you have these systems for doing better, and then the labs keep working with them because they get even more training signal and they have to do less internal filtering. I I think this is gonna just take years. How do you think about then using environments and, like, your purchasing decisions as part of the nonprofit that you're starting? I think most of our work will be making open source environments for tasks that are very high leverage.
+
+So I think it was work that I advised UW or a... UW and AI to state in Hamish Ivison on this Tmax work, which is you use a few... It's for terminal tasks, which are, like, super popular at terminal bench, whatever number we're on. And this is fully synthetic data where you prompt a frontier model to generate a type of problem, and you use a few different prompts to generate diversity, and then you use model rollouts and other things to find bugs in LAM and eliminate the ones with bugs. Mhmm.
+
+And this process is not magic. It's like you read every data point, your data will get better, and you can do this. But there's just not that many institutions that are investing what it takes thousands or tens of thousands of dollars to make these environments well and then release it because the profit because the profit motive is so high. It's so high. Yeah.
+
+It's like it's actually I was joking with the author. I'm like, hey. You could probably sell this data for a million dollars and then release the paper. They're like, no. We we care about doing the right thing.
+
+But it's just like Oh my god. Yeah. These open resources are the fun... Foundation of so much study. And it's like, you release some RL environments with some RL rollouts.
+
+People can do research on, say, like, eval awareness. You you have the generations from the model. People can look for different behaviors. If you've done RL on it, they can see how it goes over time. And this is just the the units of infrastructure that PhD students spend a year looking at and produce increased knowledge, and the tech industry is the place where value is captured from CS research.
+
+CS research, the benefit accrues to the tech industry in ten years. And I just think this is why more people supporting Open that if they're gonna work... If you're gonna work in the industry for ten years, your peers are gonna be the ones that benefit from fuel. Let's not deplete it all. But it's just like the opportunity to build short term win is so high.
+
+The opportunity to make, what is this, a $100,000,000, like, 9 figure returns for your business within five months of founding a start up with your friends. It's just like, these are people who may have done more open source work, or these are people who left their PhD or something, and it's just like pulling back, which is why we came up with this name Trillium for our lab, which is like, Trillium is a spring ephemeral flower, which it blooms before the canopy has grown its leaves. So it's like winters, no leaves on the trees, these Trillium flowers bloom, and they're essential for spreading nutrients through the cycle of growth that comes through spring and summer. And this is where I feel like the AI industry is doing so much right. There's, like, so much is going right.
+
+But it's just, like, we just need a little bit more life to, like, spread this out and make things so new people can come in. Like, there's so much attention and just, like, do research, do education. Yeah. And then as this scales and becomes more impactful, it's like you have these open things which become the standards of study for such important problems, such as like how do you understand sandboxes? Like, how do you define what loss of control is?
+
+How can you see how this changes in a RL round that is a week on a thousand GPUs or a 100,000 GPUs? And it's just like, make these places so that people have more trust. I think this pays so much dividends to everybody that ends the profit more than I do. And it's just like hard to get people to take that leap. And, like, I've been rewarded so much for kind of stumbling into this area, and now I get so much reward.
+
+I get to do things like this, which is fun. And it's like, now is the best job because I try to create space for more people to, like, grow their independent thought and build this infrastructure. Yeah. And maybe one, like, kind of naive way that it kind of perpetuates is just because it's open source, people get to... You you might get more of a distributed con...
+
+Contribution from people who are just so... You know, it's like they're motivated not for just trying to sell to labs themselves, but because, hey. It's out there. They can share their work, and then you actually have a very high caliber amount of contributors to the project. Like, I mean, that that would probably be the the naive hope of how that Yeah.
+
+Yeah. It's a new puzzle with AI agents where people just throw things at you. Like, I have some recent random research repositories from research papers, and I'm like, people open the most crazy GitHub issues now. So that What do you mean? Like, just like like fake research results.
+
+They open an issue, and they're like Oh my god. And they're like, I found this thing in your data set. I'm like, well, if you looked at the paper, we said that in, the second sentence. And it's just like a lot of language model output. And that's a new thing for the open community to Oh, man.
+
+Go through. Yep. But this is solvable problem. Like like, there are people out there that want to contribute to this stuff because they Right. Not just clout chasing in another, you know, dimension, but, like, actually, hey.
+
+It's out there. You know? I mean, I I would just hope because it is published and open or, you know, and and available. You can actually just get, like, PhD students or other researchers who are like, okay. I do this on my day job, but maybe I can, still be able to contribute.
+
+Hopefully from the frontier labs. I see people like this. That's great. Somebody from Eastern Europe was helping me improve the code for my book, which is right here. Nice.
+
+And he was just doing it for the right thing. They're like, we would talk. And I was like, there are people that do it, and I think a lot of people just take... Like, they don't have the time or the stability to take the long time it takes. Because when you're trying to get into a new field, you know nothing.
+
+Mhmm. You have to spend, like, weeks reading and knowing nothing, and then you send an email and nobody replies. Yeah. And you're just like... It takes you weeks to know the context, like, ask a good question.
+
+Yeah. And now with language models, most people just push a button, and they're like, oh, interesting. I read this. I'll send it off. And it's just like this Oh, yeah.
+
+Just kind of like sitting in it is the thing that people don't do as much, and that is the key to, like, becoming into AI is that, like, you just have to focus on it. You have to write some code by hand, and you have to do this for months, and then you have to wait six to eighteen months for you to get noticed. It just takes a long time. And, like, AI... All the AI agents, I think, just, like, frazzle that and makes it harder for people.
+
+That's what the mathematicians complain about too. That's all. It's like So it's a hard time to be a PhD student, but Yeah. People are doing great work in academia still, and... But it's hard.
+
+Yeah. But I agree with you. I think it's, like, solvable. As the agents kinda perpetuate some version of the problem, it can also help solve and and identify an end quality filter. Okay.
+
+So environments, you're gonna release open source versions of that help precipitate maybe more people to contribute and and reveal that. I think that's, like, really key. I mean, especially given how little incentive there is to release this instead of just get, you know, fast revenue from from the labs. Another area I think I read on your announcement post is RSI, which is, you know, quite... I think...
+
+I mean, we could first talk about what is actually recursive about it or how scary it is or whether we're gonna have takeoff. I think you have a very grounded opinion on that. But, you know, another thing I wanna kinda talk about is I think RSI, maybe related to how much it's kind of hyped, is is a reason why we are afraid that Frontier Labs will pull away. In fact, it's also a reason why I've heard not just once, but several times that people are, one, convinced that their own jobs are gonna be automated as a researcher. Yeah.
+
+Yeah. Like Yeah. And that's gone through the last few years. Some of my best friends, I'm like, you are some of the best people in the world of this. And then they go to the work, and they're like, Nathan, I'm I'm struggling.
+
+Like, I'm not... Like, what am I gonna do? Because because your point, like, a lot of what they do is verifiable. Right? For but because of that, you know, there's actually quite a lot of other nonverifiable or harder out of distribution tasks such as alignment and things like that.
+
+And so actually because... I mean, one argument I heard was because there's such a difference between how well our side is doing for model capabilities versus alignment, which is much more out out of distribution, maybe creative work, that gives people an ease on how, you know, maybe there is actual dangers, etcetera, etcetera. So anyways, because of this, I'm very interested in hearing from you, like, how... Because I think it's really important that we do have an open source kind of front in in showing how our side is being done, how much maybe then we can, you know, understand the capabilities of, like, if in... Within a lab, they have a better model, what what are the chances they actually pull away?
+
+Just better understanding calibrating. So, yeah, I would love to hear more about that that that Yeah. So I think this... We won't be the only people doing this, but essentially, like, RSI has so much mystique. Yes.
+
+And, like, we're using models for everything. And, like, what we can do as a open lab and a nonprofit, and I think other companies like Luther or Hugging Face or Open Athena, which is Marin and Stanford, they will get into this, so this a good marketing line for them, and me. And it's like, we can share what tools we're using. We're gonna build an open source stack for SFT, for mid training. We're gonna use SkyRL, Miles, all these things that you know.
+
+And we have our task, we have our configs, we know what type of compute we're running, we can work with Claude and GPT and all these models, and we'll just be like, we can store the trajectories for what we did, we can tell you what our tasks, whatever use linear or whatever these popular things are, we'll say what our tasks were and why we chose them and whether models work on them or not. And you just do this for a year of a lab, and you're like, here's what we did. Then just check-in every six months, and you're like, has it changed? And and it's just like, to be able to have the full stack and not need to go through these classifiers and to, like, try to say what the task is vaguely and so on. It's just people that can share what automation is happening should do this, and we have a different distribution of tasks, but I think that the research is similar.
+
+Like, I think the Yeah. The AI research that I've done at AI too and will do at Trillium versus what people do in some sects of academia and the labs, it's not that different. You have more resources, you scale it up, and it's just so good for the world when everybody's talking about this to just just show people. Like, this is what Nathan asked his model to do, and this is what it got stuck on. And I think that will help a lot of literal policymakers.
+
+Like Exactly. Be like, oh, okay. It's like, oh, that's why it's very much a problem. When it got stuck on. Like, that's the bug that it put in its code.
+
+Yeah. Yeah. And, like, the bugs and the catch ups will will reduce over time. But I just think I think the jaggedness in some of these fundamental things of the model is, like, some more things will take off. Yeah.
+
+Like, I said efficiency earlier. Like, I do think the models would be really good at lowering serving costs. These companies have billions of dollars on the line, and the models are good at it. They're gonna make a lot of money on being serving more efficient and tweaking architecture in order to go into that. But it's not necessarily, like, how do you solve knowledge work?
+
+Like, Claude's not gonna That's right. Claude's not gonna, like... You're not gonna be like, Claude, make tell yourself to make better PowerPoints. What is environments or some other... You know?
+
+Like, it's gonna take a while. Yeah. Yeah. No. I I love the the sort of specified goal of, like, let's just demystify this because I think a lot of why the rhetoric gets so heated around our size is like it sounds scary.
+
+AI and nonprofits can do a lot of things like this. It's hard for academia to be like, as a professor, 15% of my time and 40% of time are my grad students gonna be documenting what we work on. So there's such a great policy and community service of here are our tasks. People can use this data to make evaluations or whatever. And it's just build things that have rare information so that when people put more high focus work into it, it just has more value for all sorts of things that you can't predict in the future.
+
+It's honestly just also very timely because the kind of... You know, it's not from one person, but several people that I know from the labs are like, just hey. I'm gonna get automated. And to to your point, to your friends, like, I I will definitely, as a person, will get automated in a year. And so that probably means there's gonna be less people who actually are exposed to what's being done on that particular, you know, part of the org Yeah.
+
+Chart. And so There's a related academic... There's an open RSI thing, which is a bunch of academic institutions. I'm not affiliated with it. They just launched, like, last week.
+
+So I was like Yeah. Okay. Sent me a few emails. I'm like, RSI is a thing. They're trying to do this as well.
+
+Like, it doesn't need to just be one one group doing it. It's good to have different approaches doing this. You need the different ways of looking at it and different results. Yeah. Whole point of it being open.
+
+The other thing I also heard was from more kind of, like, you know, frontier lab goss. It's just like the actual methods that are being used in the labs are not that... It's not that they're unknown. It's just sort of like what are the proportions that need to be used that are successful. And this is partially because they have the capital to scale it, to experiment.
+
+So I think that's one heartening to know because, like, okay. It's not like there's a big secret of what's going on. So people actually know the techniques. But on the other hand, you know, capital is the one true barrier still because it's hard to actually know which of which of the techniques recipes work. That's why I'm not pretraining.
+
+I'm happy to be free. I can use any base model. But you go... I'm I'm now get to benefit from competition. Yeah.
+
+And do you think that there's, like, a chance for any pretraining open source effort? I know the capital requirements are just, like, orders of magnitude larger, so that is what's difficult. But maybe what are the values of that? And then maybe we can kind of discuss potential commercial strategies that may training science is pretty... Like, the the tools are pretty accessible.
+
+Mhmm. And you have what is a pre training ladder, which is like the decision making tool you have to test if your ideas scale. And the pre training data isn't growing at, like, like, the environment scene. Like, it's essentially... So first approximation, you train on the Internet.
+
+And, like, there's a lot of other... There's little there's little details and secret things, but Yeah. But, like, that's not changing that much. The state of the art architecture is and the GPUs are, and that's like... That changes.
+
+And... But it's not astronomically expensive to make a pretrained model that is solid. So I think like, you don't have to spend a billion dollars to get a very good base model. The more you spend, the better you will get. But it's like, people keep making progress.
+
+And I'm constantly surprised by a new lab just goes from scratch because they can. And some of this is on open tools. So like, you can go off Megatron. Like, a lot of new startups, they're like, oh, what what should we train? We train...
+
+They train off the open source tool, and they fork it, and then they never release it again. This is what all the all the, like, even prominent open model labs have done. They take the open source code. They make it their own thing, and they just... A lot of them don't push upstream.
+
+Mhmm. So I've always been surprised by this. So I'm, like, not betting against new entrants because, like, it's not that you need $10,000,000,000 to, have a relevant model. The hard thing is get a model that's good enough for people to use. Mhmm.
+
+And to get a story where if you release it, you can do your next fundraise. And just like, you have to get past this lock of we need our first model to land. If your whole company is based on models are the best, and you're not in the ballpark, and you're not releasing, you're on the clock. And I think of thinking machines getting inkling out, where it's they were very transparent. They're like, this wasn't the best model.
+
+We're proud of it. It has some cool things. Yeah. And then now that they've released their second model, they're getting going, and they have Tinker that has this. That's very good for them.
+
+They're like, off the ground. And it's just like, I don't think that's what they were doing. They were building models, but open models wasn't their first plan. And then they got there. And there's a lot...
+
+There's rumors that met... Like, Meta said they'll release a new open weight model again. Like, that'll come. There's a lot of companies out there that couldn't afford models. Yeah.
+
+Yeah. No. I'm definitely, you know, glad that Thinking Machines is... And it makes so much sense for their business model because they do post training. And, you know, with Meta, I think you mentioned this as well.
+
+And in some previous writings, it's just for them, it's just such a good strategy. I think it was also just kind of obvious when they when they do it. It's like, hey. It's complimentary to my you know, the streams of why not blog post on this. Like, when mama three came out, he wrote, like, the best, like, why open his path forward?
+
+Right. Right. The guy got a guy got a little distracted. Seems like he's coming back to the line. Right.
+
+Yeah. Yeah. So I hope that they're... They keep on being motivated to do that. Getting to the frontier with pretraining, you know, I think there's a lot of help given that there's such good open source models to maybe, you know, somehow still kind of bootstrap from.
+
+I I keep on getting kind of conflicting signals as to, like, whether pretraining is actually as saturated or well understood. I mean, maybe maybe to your point, like, there's a lot of, like, well known techniques at work, but what's hard is just actually having access to the 20,000, 30,000 chips to turning the crank on pre training. And pre training became adjusted when super long context generation happens. So there's just way more return if you're... If you can, for example, like, get a sparse attention architecture to work as well, and then your 100,000 token generation is 40% faster.
+
+Mhmm. So I think there's a lot co evolution of the whole stack where they have their pre training stack, they realize that inference scaling is so much higher. But even the fundamentals of pre training keep improving, where you just have a marginally better architecture, the returns on investment. And then it kinda blurs into post training, where this mid training where you start the reasoning behaviors, you take them from your older models, you do RL on them, the seed behaviors. Like, this cycle is much more complicated than pre training.
+
+Like, I think it's... If you don't have the right people, it's a lot harder to get that off the ground than I think pre training was. Like, I think there's, like... I think going to do a controlled, like, let's just start pre training our model seems a lot more approachable to me than I don't really know much about language models. I'm gonna figure out this whole post training thing where it's just like the Wild West.
+
+Yeah. And that's why I was like, when I left AI two, I felt like our post training was honestly falling behind just because our cycle time was not high enough Mhmm. And we're going into these agentic things. And these are still some of the, like, leading open source post training recipes. And because that's just like...
+
+That's what I wanna fix. It's like Yeah. Yeah. It doesn't take as much capital to make very big compounding gains on the state of the art and the open source because the bar is very low. It's like, it's not like it's not close.
+
+Yeah. Yeah. No. That that makes sense. It's just like a kind of efficiency where you can put capital and make a huge difference.
+
+Yeah. Yeah. Kind of related to the whole, you know, post training side, maybe, you know, pulling away from closed and open is the fact that the agents... You know, the type of harnesses that are being used in the closed labs are very different and slash, you know, actually trained and, you know, post trained on to to, you know, to to be specifically good for... Their models are specifically good for those harnesses.
+
+And so that increases the mystique even more and makes it very hard. How do you... I guess, one, do you agree? And then two, like, how are you sort of hoping specifically to kind of address that? And things that...
+
+I mean, are really examples like, hey. Spin up, like, thousands of agents, tens of thousands of agents. It's just like a very different workflow than what people are are obviously exposed to. I think it'll be okay for Open because I thought years ago that, say, the closed labs would be like Apple. They'd be the integrated company where they have the model designed for the harness that's involved.
+
+It gives them, like, kind of economies of scale, efficiency. But it turned out that so many people have different harnesses for different things that they like to do that the model companies have been pressurized to make it so that their model can work in all sorts of different harnesses. Mhmm. And I thought it would be a weakness of open models that they have to be designed to train on all sorts of types of harnesses, but it ended up being pretty equilibrated. Or, like, it's at equilibrium where they all have to do it to some capacity.
+
+And then what we were seeing with this, like, agent swarms is that OpenAI and Nethrop are gonna be earlier to it. They're gonna know how to design their models. They're gonna know how to design what do we call what do we call... I wanna call a harness for a swarm. I don't know.
+
+Like, I I I don't know, but there's gonna be a word for it. It's not a harness. It's like a coordination system. Yeah. But then eventually, other people are gonna wanna use them, and then I think it's gonna be like these cycles where the frontier labs, like, they push this out and they have this...
+
+To date, they've had huge returns on being first. But, like, what is the returns on Navier Stokes and all these things? Like, we don't really know. Like, we don't know. They push the frontier in the assumption that there will be high returns and that this marginal intent...
+
+Marginal intelligence has, like, disproportionate returns. Mhmm. And we don't know if that's always true, but I kind of expect these cycles of, like, once you know the shape of how do you control 10,000 agents in one harness, then the open model companies will be like, oh, we can do this too. Mhmm. But it's not like Timmy is gonna do that first.
+
+For one, they don't have to compute. Yeah. It's an astronomical amount of compute. But these things go through cycles. NVIDIA's chips will get way faster.
+
+There's more compute built out. Mhmm. I was just So you're very convinced that, like, there's not too much hidden there that you can probably guess at what they're doing. And then when it becomes relevant, let the open source models actually try to also post train on similar meta harnesses, whatever we're gonna do. And I also think the the security at these labs in terms of information is not as high as I think.
+
+Like, Silicon Valley is famous for, like, ideas traveling like what is it like one beer or something and it's like everybody chats after work and which is why SSI is so impressive. Yeah, that's what's going on. That's the only path. But it's like, they're all side everyone's scientists if they made a breakthrough, they're gonna want to tell friends about it. Might hold it for a few months, but I don't think the amount of information security you would need is just so high that knowledge spreads, it's hard to keep this secret.
+
+What they can win on is putting more inference into their infrastructure, which lets them serve at a lower price and make higher margins and then continue this over a longer time. So I'm very confident in the Frontier Labs being able to serve the cheapest intelligence per watt, per score on a NEVEL. They are going to be able to go to the places with the highest demand and have the cheapest models, and that will be revenue creative. That'll be good business for them. The question is, they can't do everything, and that's where the rest of the economy fills in.
+
+Is it just coding that is profitable? Definitely not. Good case for frontier models, because they will have the most... They have integration. Mean, they'll do very well, but it's The not just whole economy of knowledge work is the market for things, and then it might not be good for them because can they do everything at once?
+
+Or they don't need to. I think there's gonna be a lot of winners. Yeah. Yeah. I mean, that's what I have, and that's why we invest in the frontier models and in startups.
+
+You know? Not because we wanna hedge, but because I actually do think, you know, to to kinda cooperate your view that there's enough harder tasks at the fringe that requires a very specialized data that's kind of out of the slash. So for getting to AGI or whatever you wanna call it these days, that makes it possible to have many, many winners. Yeah. I do like your RSI point as we we talked a little bit about it, which is just kind of say practically, hey.
+
+It's exponential costs and resource consumption, and therefore, there is a very obvious kind of limit to how much that the frontier labs can pull away, if that's not too oversimplification of your view. Anything else you kinda wanna add there? Because I I do feel like the the the discourse now is just so so much fear on, like, how how much the frontier is just hidden and also breaking away. I think there's so much spend on inference and that in the short term, we are learning how to corral inference into performance gains. Yes.
+
+And this is like a thing that we just had. And like, this is what we're seeing now is that, like, people are spending so much. And, like, all the employees at the Frontier Labs are spending exponential amounts relative to the improvements, but, like, we're figuring out how to do this, and there will be a lot of gains. But I don't think that it's necessarily gonna be this, like, fast takeoff when the models build themselves. It's human bottlenecks.
+
+All the scaling laws are exponential increase in compute for linear increase in performance and x... Like, that's just like Financial sources of this. I would do say that, like, we have Navier Stokes, and I'm of the opinion that math is exceptionally well suited. Maybe, like, the scientific field that is best suited to this shape of intelligence. Mhmm.
+
+And, like, intelligence can take many different forms. And that's not to say that, like, if they do... Like, if an AI model does say discover something that's very different than the transformer that gives very different properties and unlocks a new type of intelligence. Like, it is worth updating on this Mhmm. And worth being like, okay.
+
+Like, that is different. But until that happens, I'm, like, pretty happy with my evidence of what the companies are gonna do well. They're spending exponentially more to keep this remarkable pace of progress. Some of the Claude system cards say this. They're like, it would take, say, like, 10 x more progress to make this a fast takeoff.
+
+And it's like, for now, they're helping us sustain the pace of progress. And I think it's a good equal... I was like, it's a good equal at RAM, but I do think that, like, the labs have people saying this. The the science is like... It's hard to overcome that, and it's okay, but it's like, we don't know exactly where it'll go from here.
+
+Yeah. Yeah. No. I I I think that's kind of comforting because we know what the inputs and and levers are here. It's just there is a very successful autoregressive regime that we've been optimizing, and that one just, you know, asks for a certain amount of, like, exponential resources, which are clearly capped.
+
+And therefore, open source, hopefully, you know, kinda keeps it strong as well. It just wouldn't lag behind. There is dramatic amount of work to do in preparing for infrastructure. Like, there's the AI capability plot, which doesn't necessarily worry me. Mhmm.
+
+But the AI capability plot in the pretty much non existing preparation of cross public cybersecurity and all of these things, like, there needs to be more preparation in the assumption that this is coming than there is. And then that's kind of the thing that worries me more than, say, like, RSI is coming and unlocking new risks. Like, there are risks that are here and that are gonna continue to diffuse. And many times I've said the closed labs get there and then the open labs get there. It's like we're in this process for a lot of things that are gonna cause some problems.
+
+It's just, like, figuring out how to get society to prepare is very hard. Yeah. And I come of the opinion that we need more eyes. We need more science so that society feels informed. Yeah.
+
+But there are other valid opinions. And, like, I do think that not fearing fast takeoff does not mean that you don't worry about risks. I know, like, you should No. I think that... That's completely...
+
+And maybe I'll I'll send in some people your way that are defected from the labs very... Precisely about this. Well, thank you so much, Nathan. This is a lot of fun. And, yeah, I'm really excited to see what Trillium is, up to now that it's finally launched.
+
+Yeah. Thanks so much for having me. Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+
+Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com/disclosures.

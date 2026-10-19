@@ -1,0 +1,563 @@
+Intelligence is gonna be bigger as a market than oil. I've been in software for thirty one years now. In the handful of other moments where I have felt magic, a trillion dollar super cycle followed every single time, and it doesn't happen very often. I absolutely believe capitalism mode. Not being a giant global platform or an incredible specialist who can add differentiated value, I think it's a hard world to make money.
+
+$5,750,000,000. That is how much Bessemer Venture Partners just raised across their two new funds, a $4,000,000,000 fund and a $1,750,000,000 seed fund. My word, they really took it literally when I said you need a billion dollars to do seed. Well, I saw this and I thought we've gotta have Samir on the show. Samir is one of the leaders at Bessemer today.
+
+He led investments in Ligure and Fireworks, two twenty VC companies as well, which is awesome to work with them on, and he's one of the best growth investors in the market today. It's a spicy show. It's kind of what we'd call in The UK a bread and butter show in the way that this is right down my fairway. So unlike the AI deep tech infra stuff where I'm learning as I go, this is really in my zone of comfort, and we had a great discussion. And I love doing shows like this.
+
+Like, these shows are why I still do 20 VC with such passion. Samir was patient. He put up with me, and hell did we have a discussion. But before we dive into the show today, Blitzy, the autonomous software development platform that's built for enterprise scale, is proud to sponsor today's show. Enterprise code bases have grown beyond human comprehension.
+
+Tens of millions of lines, decades of tech debt, complexity existing tools cannot fathom. Blitzy starts by understanding. Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic. That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket. Grounded in that context, Blitzy then executes entire epics autonomously.
+
+Modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line. And that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more. While Blitzy helps you build faster, Flex helps you run your finances smarter.
+
+Business owners run their whole financial life on Flex. One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across 32 currencies, plus the whole back office, bills, expenses, accounting, all in one place. So you spend less time reconciling and more time growing.
+
+That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026. Visit flex.one, that's flex.one, and use the code 20 v c. While Flex runs your finances, Vanta keeps your compliance covered. When you're building a company, you learn that trust is what closes deals. You may have the best product, but no buyers will sign these days without proof of your security.
+
+Here's what happens if you're not prepared. A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep. Every enterprise conversation turns into this horrible fire drill.
+
+That's where Vanta comes in. Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access the Vanta agent everywhere you work even if your team lives in Claude or Cursor. And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Reiter.
+
+So prove you're ready for business and get $1,000 off Vanta when you go to vanta.com/20vc. That's vanta.com/20vc. You have now arrived at your destination. Samit, last time that we did a show, I was about 12 years old. You put up with some very, very poor questions then.
+
+So I'm hoping that this will be an improvement. So thank you for joining me, dude. Dude, I was so fired up to see you. As I always say, longtime listener. Now second time caller.
+
+I'm I'm fired up to be here, man. Thanks for having me. So we were just chatting beforehand, and we said, ah, USV and, like, 900,000,000, and, you know, you guys just raised, you know, the size of the US treasury, it would seem. I think it was $1,750,000,000 seed fund. We'll get into that, dude.
+
+Seed and early. I'll talk about that later. Go ahead. Seed and early, and and I think, like, five more in, you know, growth. And so we...
+
+We'll get into that. But you said, oh, well, for those of who've seen it before, this is that time. Man, when when you're in one of these, I I refer to it as, like, magic. Right? Like, I've been in software for thirty one years now.
+
+And the handful of other moments where I have felt magic, a trillion dollar super cycle followed every single time, and it doesn't happen very often. But, like, I mean, talk about lucky. I graduated college in 1995 back in the dark ages, but it was at the birth of the Internet, and I was graduating in the heart of Silicon Valley, and it was magic. You could just see how people could create content and share it with everybody on the planet. And you're like, this is magical.
+
+And, oh my gosh, we could actually do commerce on this thing, and I don't have to go somewhere to go get something. Like, that was magical. Right? And then and then later in my career, I can still remember. So VMware created this layer of software that disintermediated the the hardware from the from the OS and said, I can spin up virtual machines.
+
+I can put 10 of them on that one box. And by the way, you wanna see magic? I can move that running workload from over there on machine number two to machine number eight and shut the other one down whenever I want, and it won't interrupt the workload. Dude, that is magic. And I looked at that, and I was like, holy cow.
+
+I didn't appreciate that the super cycle it would create was called cloud, right, because there is no hyperscaler. There's no public cloud without the ability to do virtualization and motion VMs around up and and spin them up and spin them down, the elasticity of the cloud. And so every time I felt magic, I was like, holy cow. This is cool. I gotta go jump into that.
+
+And then this one, I remember I I started... I was actually on my sabbatical. I wasn't... I was in between Twilio. I thought I might be retiring, got bored.
+
+But, anyways, I was I was doing some advisory work, and this young guy, Dave Robenboser over at Jasper, said, hey. Can you spend some time with me and what we're building here? It's growing really fast. And I was like, yeah. Let's...
+
+I'd love to learn more about it. And he shows me a demo of Jasper that's this AI marketing app sitting on top of GPT three. Right? And this is, like, in the winter of twenty twenty one. And I was like, magic.
+
+It's again... This is magic. And sure enough, like, here we are now five years later, and it's been magical. You just see these transformational technologies, and this one is bigger than the last two combined, in my humble opinion. Why do you say that?
+
+The analogy I often try to draw is intelligence is gonna be bigger as a market than oil because oil powers all the machines. Intelligence powers all the humans. Not some of the humans. All the humans. Consumers, prosumers, SMB, mid market, enterprise, government.
+
+I don't care who you are or what you are doing. You need more intelligence. And when you think about a market of that scale and scope, you understand this is magic, and it's gonna be really big. So if we actually go through the stack then, you did Anthropic. Let's start at the the heartbeat of intelligence that you mentioned there.
+
+Can you talk to me about the rationale, the underwriting, what you saw, what you didn't see when you look back now? Yeah. I mean, the most important bit, I'm really proud that we did it in the series d. What price was that, dude? I think it was 15,000,000,000 pre 18,000,000,000 post.
+
+It was early. It was the round that Menlo led and Lightspeed and and Bessemer joined. And and this is... By the way, we were talking about my legendary partner, Byron Dieter. Thank god for him because he and Matt Murphy go back a long ways, and Matt called up his buddy Byron and said, hey.
+
+We're looking to build the syndicate here for this startup named Anthropic. You should check it out. And Byron said, hey, Smiry, you wanna come look at this thing with me? And I was like, yeah. I'm all in on, as I said, on all the all the intelligence in the AI market.
+
+And I'll tell you, I think, you know, Byron and I grew up during the... Our careers probably centered during those cloud days. And so, you know, of course, we all pattern match. Like, you just kind of... You use these mental frameworks.
+
+So for us, I'll say for myself, maybe I won't speak for Byron. When I looked at it, I looked at it as, look. I think this market is gonna be a cloud redux was my was my analogy that in the cloud era, you had a handful of hyperscalers. There you had... You have AWS and Azure and GCP.
+
+And the reason is because it's massively capital intensive to build a cloud infrastructure. Well, it turns out that in in the market we were looking at here, was going to be the same thing. It was massively compute intensive and therefore capital intensive. And so it's going to consolidate to a handful of players. But just like in the cloud era, we believe then, I still believe now, there would be hundreds of apps built on top of them.
+
+Just like you had hundreds of SaaS apps, You would have hundreds of AI apps that were purpose built for particular things. And so if you have that mental model, then you say, okay. Great. If it's really capital intensive, who are the people that have the balance sheet to actually go into the scaling laws that were being talked about? It's a pretty short list of of players who could actually afford it, and you went across them.
+
+And you're like, okay. Microsoft? Yep. They partnered with OpenAI. Google?
+
+Yep. They're gonna go build their own called Gemini. And then you got to AWS. And AWS at the time had an internal model, I think it was called Nova, that was not particularly distinctive. I'll be generous.
+
+And and they had just invested a very sizable amount of money into into Anthropic. And by the way, at the time, it was very non obvious that, you know, Anthropic at the time was one of... I don't know. They're probably half a dozen or more other labs that were trying to to also build intelligence. Was it controversial in Basima?
+
+Harry, you have no idea. According to Byron, he said it was the lowest voted deal in the history of the firm of the time he had been there. But the fact that we were both, you know, there and had conviction, and one of the things I love about Bessemer is empowerment is one of the values of the place. And they're like, dude, that's where alpha comes from. If you guys really believe, go do it.
+
+What did you not see that you wish you had seen? I wish I had the ability to convince us all to do a bigger check that round. I I feel like we saw it. We knew it, but there there are so many risks at that stage of the company. But we knew that the AWS relationship was pivotal, that it would provide both the compute for the training critically, and that was like the...
+
+It was really important, and then and then distribution at that early stage. And I just wish we had written a bigger check. That's all. That's all. I wish we knew that...
+
+We knew then that we didn't know now. When we look at concerns today, one concern is the cost of intelligence shifts to open source because it's simply too expensive in frontier models. And we see that in a lot of data that's being produced by Vercel and Guillermo who publishes it. We're both big investors in fireworks, and so we both believe in open models too. To what extent do open models not deprecate the business model for the majority of frontier providers?
+
+Look. I'm I'm a I'm a genius of and on this one versus the tyranny of the or. This... It is and not or here. As I I come back to my my comments about just the scale of the market for intelligence.
+
+We just can't get our heads around it. I mean, you think about this, like, Harry, when we invested, my bullish bull case was that we could get to some massive valuation. And and I'll just say that I missed the mark on how big of a of a business could be created at the frontier by factors. And so when you're in a market that big, predicting with any precision the mix between closed tokens and open tokens is irrelevant. You just...
+
+It's gonna be big. You're in... You... Right? Do you understand what I'm saying?
+
+Like, when it's that large of a market, the ratio is actually not not not a concern. And and I really do believe that there are all those different use cases from consumers up through enterprise and government, and they're all going to want intelligence of different types and different flavors. And that is why we're both... We're investors in both on Anthropic and and in fireworks and the closed tokens and the open tokens. We'll get...
+
+We'll have exposure as a as a fund and as a firm to both, but I think both are gonna be huge. Do you think US enterprises are willing to use open source Chinese models? I think that once that Chinese model is hosted by Fireworks, it's no longer a Chinese model first. Do you think they see it like that? Me me and you both know that to be true.
+
+But when you speak to CIOs, they go, I don't want it. If the providence is China, I don't want it. And you're like, it's downloaded code on your local drives. Yeah. No.
+
+I... Listen. I've talked to some CIOs who who share that opinion for sure. There's no question that is out there. And by the way, I do think that we should have a great open weight model that is is US based, and I think that would be awesome.
+
+I think there's a big old map market. Is that is that a great business? It can be. For sure, can be. But if you look at, like, a thinking...
+
+You know, if you look at the thinking machines at a $40,000,000,000 price today, is there a $500,000,000,000 open model US to be built, or is just open a much harder business model to monetize, and therefore, it won't be that large? Oh, no. I I believe it absolutely can build a a big business. Whether it's that particular scale, I don't know. But you can build a very large business and get venture returns.
+
+If you are the leading provider of a open source solution... I mean, you just look at history across, you know, all these other categories, whether you're going from Red Hat to, know, you fill in the blank in the database market. I mean, you can build you can build a very... You can find ways to monetize it for sure. And most enterprises don't wanna be responsible for the open source.
+
+They're gonna want some provider with the right talent behind it. All the reasons that open source businesses have been great businesses for for decades now. If you were to present a bear case for frontier models, what would it be? Do I think there's a bear case for the frontier labs? I really don't because I believe that the...
+
+At the frontier, intelligence solving problems that were heretofore unsolvable or solving them at a pace that was heretofore unimaginable. I just think there's no shortage. Humans have so many problems to solve, Harry. We got a lot of problems in this world. We have a lot of them, and we...
+
+We're we're nowhere... It's not like we're at the 90... We're on the nine... You know, ninety ninth percentile of problem solved, and we're just trying to get to the last one. We have a lot of problems to go solve, that's what these things will help us solve.
+
+The majority of people on the pod come on and say, we'll see 99 of token traffic flow through open models, but we'll see 99% of dollars flow through closed models. Do you think that's apt, or do you think that's kind of a bullshit throwaway comment? I think that I think that ratio is wrong. I really do. I don't think that's quite the mix, but to my previous comment, I don't think we have to get the mix per...
+
+Precise. I think everybody just has to understand that you just have to look at the size of them... Of the TAM. 15,000,000,000. It seems now ridiculously cheap.
+
+How could you? That's amazing. 15,000,000,000 at the time was freaking wild. I got brought open now at 30,000,000,000. And to my stupidity, I said, oh my god, if this is 100,000,000,000, I like just three x it, not including dilution.
+
+Oh my god. The small mindedness that I had was just unbelievable. Harry, get out of my mind, man. I went through the exact same thing. So how did you get over it?
+
+It was because in the intervening time... Right? So you remember that that OpenAI opportunity that I also passed on. I had the exact same thought pattern that you did, and that was right after the chat GPT moment. Right?
+
+So the conversation was in December. And then in that intervening time, that little OpenAI went from 40,000,000 by the... To the time that we then looked at that first round of Anthropic. OpenAI had gone from, like, 40,000,000 to about... I wanna say, I'd have to go back and look at the numbers.
+
+You could check me, but it was something well north of a billion, billion and a half, maybe approximating two. And clearly, we got it wrong. And that is one of the both... I think one of the most humbling things about this job is that you will get them wrong. And sometimes you'll get them wrong on really, really important decisions, and you have the opportunity to fix it.
+
+It's not a once in a lifetime opportune... You could go back and fix it. And that was when Anthropic came along. The imagination was stretched. To your point, like, were...
+
+Our imaginations were capped at a certain even if it got to a 100,000,000,000. And now, obviously, you know, you could you could see the growth potential of how big this market could be because of what OpenAI had done in in calendar twenty three. In a world of $2,000,000,000,000 assets, do you care about price anymore? Like, is LP focused on price misplaced? Entry price always matters.
+
+Every venture capitalist has taught me that. By the way, I mean, know me. I'm four and a half years into this second career of mine, so I'm still learning. I appreciate that it is a craft like every other, and so I don't pretend to have all the answers by any stretch. But I know how important entry price is.
+
+And I will say that what matters most is whether or not you believe it can grow at scale and compound it for a very long time and still make you a venture return. And so I'm just very focused on the looking out the, as they always say, the windshield as opposed to the rearview mirror. And if I look at some of the investments of which I'm most proud, they were at current ARR multiples that would make most venture capitalists throw up. I mean... And they were difficult conversations in our firm IC, right, in the investment committee.
+
+I mean, I think, like, when we invested in a bridge, they were at 5,000,000 of ARR, and we were paying whatever it was, dollars $708,100,000,000 valuation. When we invested in Anthropic in that $15,000,000,000 round, I think they were at $100,000,000 like 150 times current ARR. Labora, 20,000,000 of ARR when we invested and led that $1,800,000,000 round. That's insane. And and if you're only looking at present and backwards, you'll say, Samir, do you not understand math?
+
+Like, a 100 times, that's what you're paying to get in? But if your view, as was mine in each of those instances, was that, yeah, but on an NTM basis, and that's what I care about, I'm looking at what do I think in the next twelve months this thing can be, and do I feel like this is a reasonable multiple in the next twelve months? So you look at end of year next year. Again, this is me trying to learn. You look at end of year next year, and then you look at gross profit on top.
+
+Year. Not end of year next year. I'll go, NTM, next twelve months. And, yeah, depending on the business, next twelve months only because, you know, depending on where you are in the year, and that could be more like eighteen or twenty four months, and I won't pay that far forward because it's really hard to see that far forward in any business. And I've been an operator.
+
+I've been a CEO. I know how hard it is to predict that far into the future when you're scaling at these rates. But next twelve months, you should be able to get your arms around, at least get closer. What is exciting enough in that respect then? When you look at NTM, what is green versus red?
+
+You know, depending on the business, it'll it'll vary. But, you know, something something that's in the 10 to 15 times NTM, I don't think is crazy, especially if there are these businesses that are growing at rates that have never been seen in the history of business, and I've certainly never seen in my career of thirty one years. I don't feel like paying 10 to 15 times NTM is all that crazy because they're gonna blow through it. And I look at, you know, Legora, we invested at 1,800,000,000 leading that round, and that seemed insane at the time, you know, but the company just went, you know, 20 to 200. And I know we're...
+
+I think we're in that together. I know you know Maxwell. You know, they're on fire, and and I feel pretty good about that 1,800,000,000. We're we're gonna get to the gore, and I completely get that. Does your feeling good about that 1,800,000,000 change depending on customer makeup, quality of revenue, run rate versus enterprise revenue.
+
+We see some quirky ways to calculate revenue today. Does that change? For sure. Quality of revenue matters deeply. You know, I prefer I'm an old school.
+
+I've been in enterprise B2B software since 1995. So that is my bias. I prefer the gross dollar retention rates, the net dollar retention rates of highly sticky customers that for whom your thing is super strategic, and they're gonna keep they're gonna keep expanding. So I would pay a much lower multiple for, like, a prosumer y business or a consumer business. You know, churn can can kill you.
+
+So What about margins? You look at someone like Elagora, who we both love. Their margins good. Dental, enterprise software margins. Margins...
+
+So this is where, you know, again, having done this for a while, like, it depends on your lens. Am I worried about their gross margins in the next twelve months? I am not. I have got a hold period of five to seven years at a growth stage check. And so when I think of it over the next five years, what do I think that's going to grow into and why?
+
+You have to be really thoughtful on... If the gross profit picture doesn't look pretty and you're envisioning some, like, you know, fun with math in a spreadsheet that all of a sudden it's gonna be magically hit 60 or 70% in five years, you sure as hell better defend that. You better know why you think that that is possible. But in a lot of businesses, you know, economies of scale really matters. Share and position really matters.
+
+And, you know, I I can remember most of the businesses I invested in, gross margins at the time we invested in this AI world were meaningfully lower than they are at scale today. I mean, meaningfully lower, like factors, improvement inside of twelve to twenty four months. When we look at, say, a legora of the world... I'm an investor. I always hold my hands up.
+
+I'm a big fan. You did it at 1,800,000,000. The legal market is 300,000,000,000 in The US. If we assume a 20% take for software and that is $60,000,000,000 and we assume that it's split up between a couple of different players, including your Harvey of the world, you can get to like 5 to 10,000,000,000 maybe in revenue. Is that how you thought about it?
+
+How do you get to a ten twenty x when you enter 2,000,000,000 on a company like Ligura? Help me. Well, I mean, that math not terribly off. I would just say we included the whole world because you and I both know Max, and he has global ambitions. And when you add in the rest of the world, by the way, you don't grow the tame a little bit.
+
+You add another 60%. You know, it's The US market is only 40% of it. But, yeah, I think that that math is is is not way off. I do believe you can get after the services dollars, I'll say, that go into into the legal market. It is, you know, the cliche that everybody keeps talking about Jevin's paradox.
+
+I do believe there's a lot of legal needs that don't get served today because the prices are too high. So I I just think there's... The... This market, when you just have, the way we thought about it very simplistically, I'll say is there's about a trillion dollars of legal services spend in the world When you're just thinking about this, that size of the TAM, I believe that they don't have to take any meaningful share of that to go build a massive business. And by the way, if they build a 5 to $10,000,000,000 revenue business, that thing is gonna be worth, you know, you put any multiple on that that is that is reasonable, and you're gonna make you're gonna make a very good return.
+
+The thing that's interesting when you look at all markets today is the competitiveness has changed. Dude, when you were building, you know, SendGrid... You know, in no offense, there weren't that many competitors. There were there were several, but not the depth that we have today. And when we look at like a a Lagora and a Harvey, I'm gonna be unpopular.
+
+I think both will do very well. When we look at a fireworks, I think base 10 and modal will do well too. I think fireworks will win, which is why my money is there. Has the competitiveness changed in your mind? And does that shape how you think about investing and market outcomes?
+
+Look. I actually don't believe that the competitive breadth has changed. What's changed is the capital intensity behind the competition, and therefore, it leads to this competitive intensity. Right? Like, if you looked at the the war chest, the amounts of money that take a Lagora and Harvey have both raised, That leads to a competitive intensity that absolutely is different than than what I dealt with in my era.
+
+Is capital a moat today? Is that the differentiator? I absolutely believe capital is a moat. I have always said that markets pick winners, and then it becomes a self fulfilling prophecy. Right?
+
+Like, our day, you know, SendGrid and Twilio were the API building blocks to to plug into your application to go send communications. And then once developers had decided that, it was game over. We had won. Like, that you you you were the default that you became the market winner. And that does happen, and we see it in in our...
+
+In these markets if we take that one as an example. There are lots of legal tech companies, lots of AI legal providers. But if you ask anybody at a big law firm who are the major legal AI companies, they would they would name those two. And so I do believe that the capital creates the... Both the ability to scale at an extraordinary pace and, therefore, a brand for those businesses, talent then ends up flocking.
+
+And then you just get this reinforced flywheel, then they win more customers, and then that just... You know, the virtuous cycle continues. Do you believe in king making? I do. To your point that if capital is a moat, excessive amounts in short amounts of time give inherent advantages.
+
+Do you agree in... With king making like I do or not? Yes. Because I believe everything you said, which is the capital is a moat, and it is a signal to the market. And having built software companies for a very long time, your product has to be exceptional.
+
+Your company leadership has to be excite... It's... I I would say in in, you know, in math speak, it's necessary but not sufficient. It is a necessary condition for you to win the market that you have the biggest war chest, that you have the most capital. I really do believe that you are in that kind of a game.
+
+And it's because the compute is so scarce, and therefore, the compute is so expensive that if you don't have that, you just can't play. So, yes, I agree with you at the first part of your statement, but it is not sufficient. You have to then deliver an amazing product that your customers rave about, love about, tell their friends about if you wanna be the king. Otherwise, you have no chance. So I agree with you completely there.
+
+And I also agree with what you said earlier, which is, like, you know, the 10 to 12 x and the the growth rates now are very different to what they were. When you look at what you're seeing today growth rate wise, is the triple triple double double that Sasta and me and Jason always talked about. Is that wrong? Is that not enough anymore? It is not enough to attract capital from venture capitalists who have opportunities to put them into these hyper growth companies that are growing much, much, much faster.
+
+You know, all of us as venture capital funds, your capital as big as these funds are, we just raised $5,750,000,000. It's still scarce capital. There are deals to be done at crazy hypergrowth rates. Now all that said, I do still believe in finding companies that are doing the t two, d three because the entry prices on those in this environment can be dramatically different, a very different multiple, and you can still make a great venture return on those. Do you buy that?
+
+Like, do you remember the the kind of ex... I call it the Excel deal. Do remember the Excel growth deals like the one pass words, the Qualtrics, where they found these kind of amazing assets in less obvious locations that were maybe more capital efficient? They then juice them up with some growth capital, and then it turns into an even better business. Do you believe those will exist in the next gen or actually not?
+
+You have to have that capital to get to the scale. I think that over time, we'll see a bunch of application companies that can look like what you just described. I just don't think that that's where the venture dollars are gonna flow in the near term. When you have opportunities to invest in things that are 10 x ing at scale and your opportunity is something that's doubling, of course, you're gonna go to the TEDx ing, not just like an intelligence test. We call it cake or death.
+
+Yeah. You ever seen Eddie Izzard? He goes, cake or death? And you go, cake, please. Cake?
+
+Wow. What a surprise. I wasn't expecting that. What a tough question. I...
+
+So I I... But all that said, like, do I think we can make money investing in companies that are t two, d three? Absolutely. You can. And so then it comes a little bit of a of a mixed question.
+
+Like, how many... How much do you wanna have in one versus the other? You know? So you mentioned the $5,750,000,000. It's quite a lot, to be honest.
+
+Let's just let's just... Let's start with the $1,750,000,000 seed and early Seed and early. Do you need a billion dollars to do seed today? We just saw literally earlier today, USV announced their $900,000,000 funds. Do you need a billion to do seed?
+
+Seeing the prices that I'm seeing, valuations we are seeing for the early stage deals coming in for my teammates on the early stage side, if you just think about the number of shots on goal you need to have to find the winner, I don't know how you would have a small seed fund and be successful. I don't. What are you seeing in that pricing and ownership level? Depending on the business. If it is a capital compute intensive business, and a lot of these AI businesses are that.
+
+Right? So it also depends a little bit on where you want to play. Where in the stack do you want to play? How capital intensive of a business do you want to invest in? If you're like, hey, I don't need to invest in, I don't know, something that requires hardware or robotics, or I don't want to invest in something that's like training a model for compute, maybe there are places where where you don't need that capital intensity.
+
+But I just think in this era of intelligence and AI, I just... I think a lot of them do. And so if you assume that that's the case, man, the math just won't math for the for the entrepreneur or you if you're not paying what... You know, in my day, look, I've been doing this for... You know, I've been in software for thirty one years.
+
+Like, a seed check-in the day was, like, 3 to $5,000,000 on a 20 to $40,000,000 valuation. Like, you know, it's a dramatically different time. And what is it today? I don't have the specific numbers, but I know that it's factors higher. That I know.
+
+It's it's way more. And and when when you're factors higher off of that, you really gotta hope that you're a great picker. And this is where I get into my... One of my other kind of worldviews, if you will. I'm just a biz...
+
+Just a humble business guy, Harry. And I think about the venture industry like any other industry. And so to me, when I was evaluating coming starting it as a second career, I looked at the venture capital asset class and I said, this looks nothing like what I grew up with in the mid late nineties, where everything was hardware, software in Silicon Valley and principally early stage. And now it is global, every sector you could imagine, and everything from a pre seed check through up into IPO where you're investing hundreds of millions of dollars. Every one of the vectors that I just mentioned of location, stage, and sector are dramatically different and broader.
+
+It's just the professionalization of this asset class. And so if you think of it in that context, you're like, okay. Well, in most industries, when they professionalize and they get to scale, you either have to be on this end of the spectrum, which is a giant global platform that consolidates a whole bunch over here, or you need to be an extreme specialist over here that is doing fill in the blank. You know, I'm doing AI deals in San Francisco early stage. Right?
+
+You gotta optimize specialty on all three dimensions. You could be one of those two. And if you're in between, good luck. I I think that's a rough place to be. I really do.
+
+And it's the reason that Bessemer is going... You know, we have... I think Bessemer is a is a big global platform. But, man, I tell you, like, not being a giant global platform or an incredible specialist who can add differentiated value and be better at picking because you are a specialist, I think it's a hard world to make money. So what happens to the billion dollar funds?
+
+I don't know, but I'm glad I'm not that one of them. I'll tell you that. I think you have to be on either end. I really do. I really do.
+
+And look, you can... Yeah. I mean, I'm sure there's a path to success for everybody. Good luck. I just...
+
+You're... I'm just giving you my outside in, unvarnished view just as a business guy looking at an industry. You know, I'm I'm just analyzing it clinically, and I'm telling you what... That's what I've seen in the history of business is when markets get big, they consolidate, and they have special... I mean, you take, like, automotive.
+
+It doesn't matter what industry you pick. There will be, you know, your big three in The US or, you know, the Toyota Hondas in Japan. Like, you get a handful of giant players on one end, and then you can be like, I am a Porsche or a Ferrari or a specialty player on the other side of the spectrum. But being in the middle is a tough place to be, I think. It is.
+
+I think it's a very tough place to be. Can I ask you when you look at the two different vehicles today? I had Venky from Manolo on the show, mutual friend of ours. Yeah. Love Venky.
+
+Yeah. He got some stick for saying that early stage and seed investments were option bets, and you build a portfolio option bet. Yeah. It's hard not to have seen that. I think we're at about 5,000,000 views.
+
+But he's by definition right. If you have the majority of your dollars at late stage, by nature of doing early stage, unless you said I'm deliberately not going to invest in anything that I do early, which would be utterly moronic and irrational, it by nature has to be an option. I think having been on both sides of the operator and venture thing, I think what people were taking umbrage with was the notion that... Maybe maybe this is what they're... I don't know.
+
+Was that the... I'm an entrepreneur of a small thing. I don't wanna just be an option. I know Venky well. I know him personally.
+
+He's a great dude. They're a great firm. That is not what he meant. But what he meant intellectually is a 100% correct. It is an option.
+
+And if it works, then I'm gonna put more capital behind it. I mean, anybody in venture capital, I believe, that listened to that or thought through that understands that to be a truism. And I think there may have been a little bit of a flack on the... Maybe on the the human entrepreneurs that are doing the hard work of trying to build these things, and I don't wanna just be an option. But I...
+
+Actually, I would I would challenge those entrepreneurs having been one myself, and I would say, no, man. Like, understand that your business, you have to earn the right to keep scaling, to earn the right to the next round, to get more capital, to keep building towards your dream. That is the game. And, if you're... If you don't think that is true, you're not understanding the game.
+
+Can you help me understand? I totally agree. When when you have the 1.75, does that have reserves baked in, or is the idea that you have no reserves there and then you double down from the 4,000,000,000, which is growth? Both. We we absolutely have reserves baked in to the 1.75, but we don't want to just be, like, doing pro rata checks.
+
+Like, in the companies that we believe are taken off, we want to back up the truck as we've done, like, just announced around with the lease AI where, you know, we were gonna be investing nearly $200,000,000 that we just announced. And and so, like, when we see the winners that we think are in big markets are gonna build great companies, like, we're like, yep. Let's go. What does that look like then, that interplay? And do you worry about the signaling risk of, like, Samir jumping all over one company and not another company?
+
+No. I don't. I just... At the end of the day, I believe the truth will set you free. Just like...
+
+If the signaling risk is they haven't backed up the rock of my company yet, the signaling there is simply, yeah, the business hasn't yet demonstrated that it is gonna be going like this. That's okay. I led one of those. It takes a while. It's hard to build businesses, man.
+
+Like, I don't I don't worry about the optics on stuff like that because I've been in the seat, and I think I think the entrepreneurs and the CEOs, they know the business they have. They know what they're working on. They know what they have to do to take it to the next level. And if they're not yet at the next level, I don't think they're, most CEO entrepreneurs aren't gonna wanna try to pretend that they're not. So you have $4,000,000,000 then in growth going to your segment of the market.
+
+How does that look? When you look at the portfolio there, how concentrated is that? What does the check size look like? What does the reserves look like? I'm just fascinated how you construct a $4,000,000,000 portfolio.
+
+It's incredible because the numbers are obviously kinda... Are staggering. They're they're large. But I I don't think that the the fundamentals are are perhaps not all that crazily different in that we still wanna have concentrated bets. And so what that means is a concentrated bet means, shoot, we may write 200 to $400,000,000 into a given opportunity, into a given company if we have that much conviction.
+
+And it'll probably be over a couple different rounds, couple few rounds, but you're still looking for a a relative concentration, whatever it is. What percent of the fund would you be happy to go up to for a single company? Five to 10% is sort of what I think our average check size will be for late stage growth, to be clear, for our for our late growth funds. Early growth is a little bit different, but but late late growth, five to 10% feels fine. And I'll just tell you, our last growth fund, our our century two, I think we had 20% into one name.
+
+The name was Anthropic. I feel pretty good about it. So we will flex it up if we believe it is a generational company. Do you have an early growth and a late growth? We do.
+
+Yeah. Fucking... The fuck? Early growth is very different than late growth. It's so different.
+
+Okay. Tell me, tell me, tell me, go ahead. They're both growth. No. No.
+
+No. No. When we do an early growth, mid growth, a not so late growth, a late growth, a pre IPO... You got to draw. I will concede, Harry, that there is a arbitrary distinction cut off line somewhere, but I will tell you qualitatively, there is a big difference between investing in a company that is in there in the 20 to 40,000,000 of revenue range or is between, you know, call it, I don't know, 500,000,000 to a billion dollar valuation versus I'm coming into a fireworks at 15,000,000,000.
+
+That's a... I mean, you're talking about a very different stage of company. What you know about the business is different. The risk profile is different. The check size is gonna be different, all the things are gonna be different.
+
+I get all of that, but I think what matters is your multiple on invested cash. And actually, I think if you look at, say, a fireworks, I think the upside is just freaking enormous. Enormous. Yep. Sure.
+
+And I adore and I adore the Ligure, but by nature, I think the upside is just less because it's a vertical market. It's not intelligence for the world. I mean, I think Max would agree with that. It is law. And even if it's tax and compliance as well, it is still relatively verticalized.
+
+And so I think your multiple on invested cash is what you should be looking at, which I would argue would be the same, actually. I agree with you that many of the opportunities that we are investing in... Because we are only trying to invest in the very best in both of those stages of early growth and late growth. I do believe that on both sides of those, you can find ten and twenty x companies. We want nothing less than a five, and that's a really high bar in growth.
+
+What did you do from your early growth that's not in your late growth that you rue not putting in your late growth? Oh, that's a good question. I'm really excited about another vertical AI company called Field Guide that is in, it's AI for auditors. Right? So we've done AI for doctors with the bridge and AI for lawyers with Evenup and, Legora, and and Field Guide is AI for auditors.
+
+And I did that one early. They were, I think, they were sub 10,000,000 of ARR at the time we invested. It's probably a little under a $200,000,000 entry price, and they are just ripping. They are growing really fast. I'm really excited for them and and proud of them, and we haven't yet been able to back up the truck.
+
+Their inflection has been extraordinary. I think like a lot of companies post this January, February magical time when the models took a leap forward, all of a sudden, their solution became wildly more compelling, and and the uptake is is showing it. I'm gonna push you, but is that really a generational company? Like, no offense. Yeah.
+
+It's it's it's fascinating. But no. No. But, like, fireworks is. Cognition or factory could be Sure.
+
+Like like, and, again, I mean it with zero disrespect to field guide. It can be a phenomenal bit... A $1,020,000,000,000 business. But to be in the late growth, as Excel calls it, like, the leader's fund for Excel, is this really the generational? Well, it depends on on your view of the...
+
+Of where you would define generational. If generational now is you gotta get to a $100,000,000,000 market cap, then then, yeah, I agree with you. It's probably not that. And and some of those others certainly can be, but I think it's an extraordinary business. And that's one I wish I had backed up the truck on more.
+
+And if the price is right, then to the point that we said earlier, the multiple on invested cash can actually be the same. So Exactly right. That's... Do you have separate teams for early to late growth? No.
+
+Same same group. We've got four great GPs, you know, an amazing team of VPs and associates that are going after this thing. We've been working on it. Man, I'll tell you, Harry, I am so fired up about our growth team and and the the practice we have built over the last few years. I'd put our growth portfolio up against any growth team in the world.
+
+I really do. I think we're gonna have the... One of the best portfolios in all of growth, in all of venture capital. I spoke to many people on your team beforehand, and they said the real focus you have on culture. And I thought, oh gosh, how boring.
+
+Come on, man. It's the most important topic. Every CEO is like, I wanna talk about culture. And then you speak to their team and it's different. And it's just like every marketing team is like talk about culture, talk about culture.
+
+I did hear something though that I would like to ask. Talia told me to ask you about teammates and friends beat colleagues and coworkers every day and twice on on Sunday. That's right, man. I I have used that line repeatedly for a decade now. How does that impact how you build a venture firm today then?
+
+Well, look. First, I'll explain the genesis of the line, and then I'll talk about why I think it's so important even in firm building as much as it was. It came from when I was leading and serving at SendGrid, and I have just always believed, like, building businesses, the hardest thing to do is to align masses of humans, so many people to work in a coordinated and orchestrated way towards a singular goal. That is really effing hard to do, man. And every every CEO listening is like, yep.
+
+They hear that. They know that. That is the hard bit. And I have found it was a strategic competitive advantage if your team, if your humans actually liked each other, if they actually cared about each other, and they thought of each other as teammates and not colleagues. And the reason, Harry, is that teammates work harder for each other.
+
+They're not working for themselves. They're working for their teammates, and they're working for their team. And you never wanna effing let down your teammates. I get you. I obviously agree.
+
+You can't disagree. But then how do I then put that into practice to turn coworkers and colleagues into teammates? What can be done? I'm gonna start with the most important basics. You have to be aligned on culture and values.
+
+Like, how we do our work has to be super clear, and everybody aligns up to it. There's no changing of the standard. You can't have the asshole that's a great performer that doesn't abide by the rules if you say... Or whatever it is. Whatever your culture and values are, they...
+
+You you have to get everybody working in the same way. You gotta protect that. And everybody has to be empowered on the team to be like, nope. I'm gonna call that out if you are deviating from our culture and values. So culture matters.
+
+I think a good value is something that could be argued for or against. Disagree. The value isolated from the organization, sure. Anybody could agree or disagree. But you have to have a set of them that you're like, this is our way.
+
+You know, this was the SendGrid way of doing things. We had our four h's, happy, hungry, humble, and honest. Four h's. Happy, hungry, humble, honest. And those were our four, and everything we did had to reinforce those four.
+
+If you deviate, so if it was great forteger You can't that you shouldn't be happy, you shouldn't be hungry. We want unhappy, unambitious liars. No. Well, no. I'll push back.
+
+I'll push back. Give me... Here's the example. I always said that... And I loved SendGrid, our culture.
+
+I thought it was amazing. I think our teammates, if you could go track down any gritter out there and say, hey, did you enjoy working at SendGrid? Was it a special team? And know to my bone that a 100 out of a 100 of them will say, it was. And the reason for that, though, is, like, take the humble h.
+
+It would have been seventh hell as a place to work for a certain group of humans. Right? Like, humble h was we, not I. It was about... You know, we would ask people in interviews, Harry, tell me about a professional accomplishment of which you are most proud, and then we would sit back and do a pronoun count.
+
+How often does Harry say we? How often does Harry say I? I want the people that say we. Now that was just... That was our value.
+
+That was SendGrid's value. That doesn't mean it's the right value. To your point, you could argue either side of that. I don't care. But for our company, our team, the way we work together is this way.
+
+And if you're not that way, that's fine. It's a big labor market. Go find another place to work. That's great. No harm.
+
+No foul. But, man, like, it matters that the people you bring in want to work together in a certain way. And that's how you build a team and not colleagues and coworkers. And by the way, so that's number one. But number two, I I I think I get to number two.
+
+Number two, which is also equally important to get teammates and not just colleagues, is you go spend time together not doing work. I know this sounds so crazy. Like, when I was leading SendGrid, we flew the entire company every January down to Mexico for an annual kickoff. The whole effing company, not like a sales team, you know, president's club. I mean, the whole company, we'd and lock them in a room for a day, and we would get lined up on here's the vision, here's the mission, this is why we're doing what we're doing, here are the goals for the year, blah blah blah.
+
+Like, we... They would have the whole second day was go find somebody from another office and go kayaking together, Go mountain biking together. Go sit by the pool and have a drink together. I don't care what you do, just do it together. And the reason this matters, Harry, is that for all the CEOs listening out there, they will understand when I say this.
+
+Shit goes wrong when you're building businesses. It's hard. And when you have a group of colleagues and coworkers, you know what you know what they do first when shit goes wrong? They either go like this, and for those listening, I'm pointing my fingers as if you're pointing at each other. Right?
+
+They they... It's blame placing. Sales isn't responding to the leads fast enough. Marketing isn't generating enough pipe for me. When things aren't going well, you...
+
+They point fingers or worse, they just head for the doors because they're just like, well, I'll go to the next company because I'm just a colleague. This is just a job. But a teammate, teammates and friends in hard moments when you're building a business, and believe me, there are many, that that group of people in a team are gonna come together. Well, they don't start pointing fingers. They come together, and they go across and be like, Harry, dude, I spent time with you mountain biking or kayaking or sitting by the pool having a beverage.
+
+You're a good dude. We gotta figure this out for our team. That's how you solve problems in... When times are hard. And I'm just telling you, man, teammates and friends will beat colleagues and coworkers every day and twice on Sunday.
+
+No. I totally get that. I completely agree with that headline. I think I'm very trained and strongly believed in the values being differentiated and arguable. So, like, we believe that hard work, but hardest of work leads to better results.
+
+I don't buy the rest days. I don't buy rest days in the gym. You train a different body part. You do cardio, not weights. Phelps won because he did...
+
+No. But a lot of people don't agree with that. I'm chastised for it in Europe. I'm the spawn of Satan. So...
+
+But... Personally, we should... Like, seriously, dude. Like, I... It's not popular.
+
+Like, I will get booed on stage by labor conferences. No kidding. Well, listen. I'll tell you this, man. I couldn't agree with you more.
+
+I think, you know, I'm the son of two immigrants. Work ethic is everything. That hungry h. Like, my line was always, I wanna work with people who are gonna run through effing walls to be successful, who will not relent. Like, we like, we quote the Eminem song, like, success is my only mother effing option.
+
+Failure is not. Like, that is... I want people like that. Number number two for us, feelings are expensive in investment committees. Samir, if me and you are in an investment committee, I wanna say you're an idiot for thinking that we should pay that price for x company.
+
+And why is that? I don't wanna have to tread around it. Like, Samir, thank you for bringing this. I appreciate the time you spent with the entrepreneur, but I think we should consider... I'm sorry.
+
+We're both big enough. So... Yeah. Sure. I mean, you know...
+
+And again, that... So that... Like, that can be great for your team and culture and people that are gonna opt into that are gonna be awesome together, and they're gonna appreciate the directness. I would say, you know, the intellectual honesty in the IC is actually what matters most. But then my point is actually it's great that you can debate because I'm not right.
+
+It's just our way. But what I don't understand is the values like Zoom, which is like, I think happiness. Right? No no one's advocating for unhappiness. Yeah.
+
+Yeah. Yeah. No. I I hear that. I hear that.
+
+And by the way, I'll just say on the happiness one, by the way, at at at SendGrid, our happiness... I I did find at SendGrid, I had to write down what do we mean by each of these four h's. And the happy for me was, of course, we want employees to be happy, but that's not what I meant by the... Like, the happy h at SendGrid was I want people who are gonna see the world and our business as half full. The glass is half full, not half empty.
+
+And there are just people who are gonna be negative, man, who are gonna be who are gonna be like, you know, Eeyore and Winnie the Pooh or just gonna be downers. I'm like, no, man. I I want people who are optimists, who are fired up to go tackle problems, and that's what I meant by happy, not like I'm, you know, joyful. That's great too. I hope you're joyful, but I want you to be a positively disposed person who when things go go bad or are hard, you're not gonna go negative and bring the team down with you.
+
+If we go back to Venture, we're seeing some of the most incredible value accumulation from these businesses. We've mentioned Ligure. We've mentioned Fireworks. I think you're in Fowl as well. How do you think about when's the right time to sell?
+
+And with IPOs being continuously pushed, maybe as many more stripes. How do you think about liquidity events? Yeah. And I'll look. I joke about being new to the business 4.5 into venture, but but I do know that DPI matters.
+
+I'm not that new. I know that liquidity matters. DPI matters. Our LPs are not in the business of handing us the money for perpetuity, so we gotta get it back to them in multiples. And and I get that.
+
+Right now, I think because we're still so early in this AI wave, it's not a it's not a principal concern, but I would say because I think these businesses are gonna keep compounding and keep compounding at scale. But I do think that we should look for opportunities just practically, just being prudent, risk aware business people. You should take some chips off the table along the journey to make sure that you're getting some DPI and and and locking in gains for for your LPs and your funds. You should. Do you find that you're a...
+
+This is a backhanded compliment. Do you find that you're able to, given the brand of Basima? It's often a a very premium brand in around. Yeah. No.
+
+I I appreciate that, and I do think we have a great a great brand. I think that when you're... When we're looking for a little bit of liquidity to take some chips off the table and bring DPI back, it tends to be at very late stages of the journey, and and most people see it for what it is, which is, yeah, they've got an enormous position here. They're gonna make lots and lots of money, and the whole thing is gonna continue to compound. But to take a little bit off the table to get back to LPs, I just find people are more matter of fact about that now.
+
+And this is back to the whole professionalization of the asset class. What used to feel like a personal decision and, like, do you not believe in me anymore? Do you don't believe in my business anymore? People are... I I just think that at the scale of the businesses that we're building, the size of the checks that we are now writing at the valuations that we're writing them, I think people get it.
+
+CEOs are are very... I've been on the other side. Like, they're they're sophisticated business people. They understand. I totally agree with you there, and I think people oscillate too much on the...
+
+Oh, they'd be so upset if you told... I think founders are actually very rational and and smart about it. Rational. Look. Well, I mean, you tell me.
+
+How... What percentage of the founders that when you... That you're working with that get to crazy late stage don't take any in secondary themselves as the rounds of financing go through. Most of mine are, and and they're doing the right thing for their families. Right?
+
+And I tell them to. I'm like, shoot. You should probably sell a little bit here, bud, to make sure that, you you know, you're financially secure for your family. And I think that's great. No problem.
+
+I think it makes better founders. I completely agree with you. You think with a much longer term vision to swing for the fences. Right? Yeah.
+
+Yeah. Completely agree with you. Can I ask, do you think we see the number of IPOs drastically reduce as Stripe shows that public markets can be harder than private markets if done well? How do you think about that? Only a few comments here.
+
+One, I believe that it is a permanent structural shift that companies will stay private longer. The asset class of private venture capital is just that much bigger. There are that many more dollars in the market, and that many more firms, that many... I mean, it's just... So they will stay private longer, and I think that is a given.
+
+And I think, you know, you'll see crossovers that are spending more time here. I think LPs are allocating more to the asset class because they get that. They can't reap the rewards of this generational boom if they're waiting for them in the public markets. Most of that, run up will have already happened in the private markets. So I absolutely believe that is true.
+
+I also believe that we will see an unlock in the IPO markets next year, later next year, and in 2028. I think a lot of companies will go public, And I just think we've had this... You know, the window has been shut for so long. Can I ask you why will that unlock happen? What what will cause it?
+
+You know, I'm an economist by training, man, and, so supply and demand is a thing. It's just a thing. So what's gonna happen, in my humble opinion, is you'll see a bunch of great businesses go public that will have a lot of success in the market, but there will be an obvious appetite from investors in the public markets to get pure play AI exposure, and they don't want it from just a few companies. They're gonna want it in dozens or hundreds of companies that are pure play AI exposed. And I just think the supply and demand...
+
+The demand will be so incredible that they will be willing to pay price, and then supply and demand works. Prices move, and I think we'll see a lot of companies that's... The the window will be open. A lot of people will come out. I'll say one last point on the IPO thing, which is having done it myself, I believe it makes for a better company.
+
+Deeply believe. Like, you you run a tighter ship when you are a public company. I always used to say at SendGrid, I was... I said, we need to be IPO worthy. Before when we were building up to our IPO, I was like, we gotta be IPO worthy.
+
+And what does that mean? I mean, it is a high bar to withstand the scrutiny of the public eye. That is hard. To, like, quarter in, quarter out predictably deliver on what you say you will do is hard, but you build a really rigorous and operationally disciplined machine. And I hope a lot of companies will will take take advantage of that.
+
+I do. Do you still buy that? And what I mean by that is, like, you know, when you look at a lot of... Yeah. Canva released their numbers.
+
+And when they release their numbers or the great numbers, you have similar kind of reactions. Like, the expectations have just shifted, and these companies have those expectations anyway. And I would argue that actually Stripe is able to do a lot of things because of their private nature that Adyen is not able to, which make them structurally advantaged. I think you are enabled to be better because you're private rather than the discipline. Yeah.
+
+Look. I I hear that. I think there's... There are pros and cons to anything. I think you're right.
+
+You do... You have latitude to make, you know, like, big product investments. You can go, you know, deep in the in the red for periods of time. If you think you need a shift, I gotta take a big hit, whatever. Like...
+
+But on the flip side, there are things that you can do as a public company. Like, I have a currency. I can go do m and a. I can... There are lots of...
+
+There there are pros and cons on both sides. I get you, but Stripe doing M and A for OpenRoot of $8,000,000,000. I mean, they they wanted to buy, obviously, PayPal for $55,000,000,000. Like, you you have that now. You have liquidity for employees and investors.
+
+I'm just wondering, actually, are we seeing really the winnowing of that IPO attractiveness? Yeah. Maybe. I I don't know. I just...
+
+When I talk to our companies that we're invested in They still wanna go public. Yeah. They still... It is... And by the way, in certain in certain markets, it's a badge of credibility.
+
+Right? Like those companies, their customers care. They're like, okay. These guys are legit. They're real.
+
+They're at scale. They're public. Like, you know, it connotes something. Ironically, for things like Aura, I think it also totally makes sense of consumer brand, one where retail wants to be part of it. Do you think retail should be a much larger part of the LP base of venture funds?
+
+If we have so much more gains now in private markets, do you think retail should play a large part in the LP base of venture? Harry, I I think it's hard to argue in terms of the, you know, what we would call kind of the democratization of access to that. I think it's hard to argue against. I do. What what do you...
+
+Because I I... Okay. Because I could argue against it. Sorry. I mean, really, I...
+
+I'm going for it. Because I do... You... Honestly, Bessemer is a very overfunded product. There's so many people that want access to it.
+
+If you just had a random people's fund, I don't know if it would beat out the hospitals and pension funds. And so then you have adverse selection, and then retail just goes into shit funds would be an argument. By the way, I... Retail should only go into, back to our earlier part of the conversation, either giant global platforms with brand and leverage and and power or super, super specialized folks, and you know you're taking risk. And if that doesn't feel comfortable for the retail investor, they shouldn't play because it is a high risk game.
+
+And, you know, there's a lot of argument in this day, especially when the public markets have been ripping like they are. If you're a retail investor, just put it in the public market and don't take the liquidity hit and just let it compound in the public markets. But but, yeah, obviously, I believe when I look at our portfolio of companies, I'm like, these things are gonna continue to grow and compound and deliver gains that are not accessible in the public markets. And so that's where I would go. Can you paint...
+
+And one of my favorite companies, period, is Fireworks. I think Lynn is generational. Can you paint the bull case for how this is a $250,000,000,000 business? Look. I think, and by the way, I couldn't agree more.
+
+Lynn is extraordinary, and so is George Hu that just joined her team as president. On the first call with me, I get on. I've never met him before. K? First call, Lynn gives me to him, and and this is before.
+
+It's like to determine whether I'll be able to invest. I go, George, I've heard so much from Mark, and I'm trying to be charming. He goes, yeah. Yeah. Cool.
+
+So tell me, how are you gonna increase the value of this business? That is my man. That is my man, George. I'm like, okay. To it.
+
+No talk about the weather. Sure, George. Let's go straight into it. Sorry. I I I interrupted.
+
+You you were saying about you working with George. We worked together at Twilio. He was deeply involved in the diligence to... When we were doing the Twilio SendGrid acquisition, we were in the same exec leadership team room with Jeff Lawson, who's extraordinary and a bunch of great people in in those trenches together for eighteen months. And I'll just tell you, I've been in doing this for thirty one years.
+
+He is absolutely one of the very best software executives in the industry, period, full stop. Why? What makes him so good? First off, George, he's an exceptional thinker. He's super strategic.
+
+He's very analytical. He has been doing this for decades, and he knows how to run. He knows how to build a go to market engine. Harry, like, very few people in technology in the market today know how to build. And so when he...
+
+His joining Lynn and Fireworks, I'll just say, preceded our investment by about a month or two because George joined, and I'm like, dude, these guys are gonna crush because you have the brilliance of Lin, strategic thinker, deep technologist, unbelievable techno... Technical team for Meta, and now George building the go to market engine. That that is the pitch right there. You asked me for the bull case. Those two together at the top of that company leading, they're gonna build an enormous business.
+
+So I'll leave it there. I will say, though, in terms of the TAM and the market and what they're doing, think I their general pitch of enterprises are not gonna wanna rent intelligence from somebody else. They're gonna wanna own their own. I just think it's, the simplest and really compelling tagline for any enterprise CIO buyer. And and, personally, I think there'll be a healthy healthy amount of both.
+
+But, man, they're gonna... I I I can't... It's it's hard to imagine a business saying, yeah. No. I I I don't wanna own any of my intelligence.
+
+Every business is gonna wanna own some of their intelligence for sure. Do you buy the sovereign model argument? I do. We... We're invested in two.
+
+We're invested in Sarvam in India, and we are invested in... Or investing in Mistral right now. And so you think that, hey. Countries in geopolitical regions will, for obvious geopolitical concerns, need to have access to their own. Is that it?
+
+And to what extent then do we just go down the stack of we we need our own energy providing? We need our own Yeah. Yeah. Yeah. I'll say in in certain markets and for certain use cases.
+
+Right? So, like... And they're different. Like, in India, I think, you know, one of the things that makes India such a ripe opportunity for intelligence local to their market is the Indic languages. There are so many different languages and training the models on their own content, and so...
+
+And that's multimodal. It's it's voice. It's text. It's all the things. There's a very particular argument there, and not to mention, of course, they have some of the best technologists at scale in India who can work on the problem.
+
+In in the case of of a Mastral, look, at the end of the day, like, if you're trying to determine whatever my military strategy for fill in the blank, there are certain use cases where if it's a government use case or a regulated industry or whatever, that having it be a sovereign model is probably gonna feel more comfortable to that buyer. And, when you got a market as big as intelligence, it doesn't have to be all the buyers. Some of the buyers decide that they wanna use that sovereign model for some of the use cases in some of the industries, and you're gonna build a very large business. When you're writing a check, how does the upside requirement change depending on the vehicle that it's in? And so for us, it's...
+
+I'll put it very simply. From the early fund, we need to see a fund returner, which means a 50 x. And from the, you know, growth fund for us, we need to see a 10 x. Doesn't need to be a fund, but a 10. How does that upside requirement change for you and look?
+
+What you said actually is is very consistent with how we think about it. You know, we want we want the five x plus funds. Right? Like, that's that's just really hard to do at any stage. You can only get to that if at the later stage, you're putting big dollars behind businesses, some of which may be lower than that, but some of which are gonna be way higher than that.
+
+And in the early stage, man, you know, you know by definition, your hit rate is gonna be so much lower because they are earlier stage. There's just less developed businesses. You're gonna need some 50 x's to account for and pull up all the all the ones that don't work out. Obviously, it's it's derisked when you get to the growth stage a lot more, and so so the the upper bound doesn't need to be quite that high. You don't need 50 x's in growth, although some of ours, I think, may may approach that.
+
+But that's not that's not the same bar. I think the blended gets to the same place. Do you think you can still do a five x given the fund sizes being as large as they are? A 100%. No hesitation.
+
+Especially in this era because of what is happening in the world right now. When you see businesses scaling at the rates we are scaling them, Harry, the the value creation... And so it's not a hypothetical anymore. I sounded like a crazy person three years ago when I would say this stuff, but now everybody just looks at me like, oh, yeah. That's true.
+
+I can I I can think of 10 examples? And so, like, there's no debating that we're seeing value creation in this era unlike anything we have ever seen. And so, absolutely, I believe we can generate those kinds of returns. You can only invest in one of those funds early early growth or late growth. Which one do you invest in?
+
+If I can only pick one p... Yeah. I mean, per... Me, personally, obviously, I'm focused on the growth stage, and and I really do like the the opportunities that make the growth. Better there.
+
+I think outcome scenarios are bigger than they've been in a long time, which means the upside and the multiple invested cash is much bigger. But I think we both did fireworks at, a 15 price. I think there's a 20 x in that for us. I agree. A 100%.
+
+And and so when you can get early venture return MOICs on late stage derisk companies, man, I'm with you. That is that is a great spot. I will say that, you know, we have a world class early stage franchise that's been doing pre seed, seed, early, you know, series a's for a very, very long time. If you can buy 1020% ownership early for small checks, man, that's fantastic too. I would love...
+
+I would... You know, we're gonna continue to keep doing that all day long, but, yeah, it's definitely an... And that's why I love our model as a giant platform. We're we're... Synergy of that practice with our early growth practice, with our late practice, like, is really, really something.
+
+I wanna do a quick fire where I pepper you with questions, and you give me your immediate Okay. Who's the best picker in all of Basima? The picker. I mean, I think we got a bunch. I think Byron Jeremy, Adam Fisher in Israel, and and David Callan out here has been doing it for three decades.
+
+But if I had to pick one, I will say Byron Dieter, mostly because when we were going public, the morning of the IPO, we're in the New York Stock Exchange. We brought out every SendGrider who had been in the company for more than four or five years. So we have this room full of SendGrid employees. Then president of the New York Stock Exchange comes out to welcome and greet us before the bell ringing ceremony. And he says, you know, I just wanna welcome all you SendGrid employees that are here.
+
+You should be so proud. SendGrid management, so great to to have you all. Esteemed board members, thanks for coming and being part of the special moment. Byron, great to see you again. And he just pauses.
+
+He's like, Byron, how many times have I seen you here in the last... Mind you, this is a decade ago. And Byron sheepishly, because he's a very humble guy, says... You know, and I I can't remember the number at the time he flashed up, like, I don't know, like, six. And, you know, we just laughed, like, you know, that he had been there for, like, multiple of these IPOs in the in the recent time.
+
+And then I was sitting right in front of Byron, and I and I just started to count in my head, and I could come up with more than what... More than the six. I'm like, no. No. You've done more than six.
+
+And I turned back, and I was like, no. It's more than that. And he said, six here. NASDAQ was another another big number. He has had so many from early stage all the way through IPO.
+
+I mean, it's hard it's hard not to say Byron Dieter. Byron is the picker. Who is the winner? And what I mean by that is when you're like, oh, Sequoia around this, Founders around this, Benchmarker, who is the one person who closes Founders better than anyone else? Oh, that's a good one too.
+
+Can I revise my answer then knowing both of those two? I would go with David Cowan as the picker because he finds stuff that everybody thinks is crazy, like Rocket Lab that then becomes, you know, an enormous business, and nobody knows what he's doing. But when it comes to closing, Byron Dieter every time for sure. A 100%. That guy is he is a force of nature.
+
+He's charming. He's funny. He's smart as all get out. His experience is ridiculous. He knows how to have a good time.
+
+He'll host people, whether it's at a 49ers football game or up, skiing at his house in Montana. I mean, the guy is is is... He's an amazing amazing closer. What company is Bassam and not in that universally the firm ruse and wishes it was in? So many.
+
+I would say Stripe. We were the developer API venture capital firm. We were, you know, led the seed in in... I think in b in Twilio, led the series b in in SendGrid. We had Auth0 that David Cowan led.
+
+I mean, we were the developer API company, and we weren't in Stripe. That hurts. That's probably the... I'll I'll I'll use that one. You can add one person to the venture partnership that is not there currently.
+
+It's a dream ad. It's not like a realist, but who would that be? If I could convince Ravi Matre to come join us, I would love Ravi over here from Lightspeed. Ravi is incredible deep thinker, goes deep on the technology and and the markets. You know, you look at some of the investments that that he has led and made, not the least of which was a billion dollar check into Anthropic.
+
+In the $60,000,000,000 round, that guy's... He's just... He's really good, and he's willing... He's not just really good, but he's willing to take these giant risks that seem almost borderline insane. And, I I I have deep mad respect for both.
+
+Billion dollar check. That is some serious bulls. You're just like I'm messing around. The the finance director, like, typing those zeros must just be like, wow. This is...
+
+Wow. That's that's that's a lot lot of numbers. What have you changed your mind on in the last twelve months? In the last twelve, I would say just my deep appreciation for how big the open token economy is gonna be. I just didn't see it twelve months ago.
+
+I didn't appreciate it. It's a big part of the reason we're we're investing as much as we are behind fall and fireworks both fall on the gen media side and the infrastructure side there, and they're going up and down the stack. They're amazing, amazing business, amazing team. And fireworks, obviously, we talked a lot about those two. I just didn't appreciate how big that market was gonna be twelve months ago.
+
+Final one for you. What are you most genuinely excited about moving forwards? I'll say two. One is I'm wildly fired up about all things robotics and embodied AI. Like, we invested nearly $200,000,000 into Waymo, and I just think that, you know, autonomy and what that changes and how that changes the way we work and live, I think, is awesome.
+
+Is that is that humanoids, or is that not humanoids? It can be. Can be. And certainly an area that we've been looking at, and I think we're probably in the equivalent in embodied robotics in that sense. I think we're probably at circa 2021 relative to the generative AI era.
+
+So I think it's... We're still... We've got a a couple few years to go, but it's it's on one of these curves, man. It's gonna go... It's it's happening fast.
+
+So I think we will get there faster than it... Than most people think. Are you in any of the robotic data companies? We saw Macca just done by Sequoia yesterday. You've got Micro AGI in Europe.
+
+Are you in them, and how do you see the data market for robotics? We are not yet that I know of or that I can think of offhand, but I know that we have spent a lot of time around robotics. And so I'm sure there's my early stage partners listening going, Samir, come on, man. We met with, like, 20 of these. We're gonna make this pick.
+
+I I don't actually know offhand. I think there's a lot of excitement in the firm around that area. I'm personally looking at the autonomy. You know, we did Waymo, but now you're like, okay. What about autonomy in construction?
+
+What about autonomy in mining? What about autonomy in agriculture? You know, there's tons of areas. Oh, this is a good quick find. You do Waymo at $1.15, and Uber has a a market cap of $1.20, $1.25.
+
+Yeah. Why am I a moron? Because you're looking at the ride hailing market as the only market. That's not the only market, Harry. I have a 16 year old son that I just bought a car for.
+
+If I could have bought that car with an option to have a Waymo driver on it and pay them a subscription every single month on that car or any car that we bought as a family, it'd be a default purchase. Of course, I would do it. Just like Tesla and Elon's got it for his FSD on his cars, I think Waymo has the opportunity to do that for every other OEM on the planet. Are they doing that today? It's not it's not their near term focus.
+
+They're focused on ride hailing. They're crushing it. They're rolling out both nationally and globally to every city, and they're gonna build an enormous business on that side. They're gonna unlock use cases and ride hailing that didn't exist before for folks like your mom or for my teenage daughter going to... Coming back from, you know, whatever.
+
+There's so many more things. That will be a very big business. But when you take that same technology and capability and apply it to personal car ownership and then apply it to trucking and then apply it to logistics, Waymo's gonna be an extraordinary, I think, a trillion dollar business. Easy. Good.
+
+One is that. What was the second one? It kind of follows your your lead, which is therapeutics using AI to, as they say, drug the undruggable, like, to figure out cures is by far the greatest, I think, potential and impact that we'll see out of this technology. And I believe... I mean, you're just seeing the pace of things.
+
+We're gonna automate... You know, their... The wet labs are gonna become automatable, and you put an AI brain that can see and reason over mass sums of datasets and in ways that a single human simply can't. And and I think we're gonna have a pace of discovery in biology and therapeutics and drug development over the next decade that we have... That would...
+
+I really do believe what Dario says on that in in machines of love and grace. I think we're gonna see in the next decade what would have taken us half a century. I really believe that. I think you've been so patient with me today. I mean, you have been...
+
+I I mean, you're like, I came for a nice chat, dude. And then you're just like I mean, I love this. Harry, you're... You always do this. You...
+
+You're so freaking entertaining, and you're smart, and you ask great questions. So it's software development platform that's built for enterprise scale, is proud to sponsor today's show. Enterprise code bases have grown beyond human comprehension. Tens of millions of lines, decades of tech debt, complexity existing tools cannot fathom. Blitzy starts by understanding.
+
+Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic. That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket. Grounded in that context, Blitzy then executes entire epics autonomously, modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line, and that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more.
+
+While Blitzy helps you build faster, Flex helps you run your finances smarter. Business owners run their whole financial life on Flex. One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across 32 currencies, plus the whole back office, bills, expenses, accounting, all in one place.
+
+So you spend less time reconciling and more time growing. That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026. Visit flex.one, that's flex.one, and use the code 20 v c. While Flex runs your finances, keeps your compliance covered. When you're building a company, you learn that trust is what closes deals.
+
+You may have the best product, but no buyers will sign these days without proof of your security. Here's what happens if you're not prepared. A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep.
+
+Every enterprise conversation turns into this horrible fire drill. That's where Vanta comes in. Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access access the Vanta agent everywhere you work even if your team lives in Claude or Cursor.
+
+And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Ryta. So prove you're ready for business and get $1,000 off Vanta when you go to vanta.com/20vc. That's vanta.com/20vc.
