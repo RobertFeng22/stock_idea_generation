@@ -1,0 +1,153 @@
+Dario and Ilya and Sam and Greg and Elon were all, I guess, one happy family. They were really the believers in scaling laws, and that's what I believed in back in 2018, 2019. I think the biggest change now I have is I used to always think that alignment will just fall out. I no longer believe that. This is 20 VC with me, Harry Stebbings.
+
+Now this show, honestly, is quite an emotional one for me. I started 20 VC from my bedroom in London. I was 18 years old. I had no money. I had no contacts in my phone book.
+
+And today, I have the chance to sit down with Satya Nadella, CEO of Microsoft, one of the greatest companies of the last three or four decades. It was twelve years in the making with this show. We've done 3,000 shows to build up to sitting in that room with Satya. There really is no overnight success. Work hard.
+
+Be kind. Never give up. And I will just say on Satya, the warmth that he was able to imbue in this interview in such a short space of time was almost unlike anything I've seen before. The clarity of his arguments and his ideas, his ability to go very deep very quickly. It was almost unlike anything I've ever seen before.
+
+It was a show I'll always remember, and I really hope you enjoy it. But before we dive into the show today, base 44 is one of those products I used, and I just thought straight away, man, I wish I'd had this when I started 20 VC with $50 and no contacts in venture. I wanted to see what it could do, so I built a guest research hub for the show. Upcoming guests, company notes, previous interviews, sponsored contacts, follow ups, all in one amazing location. I described it in plain English.
+
+A few minutes later, I had the product open in front of me. Database, login, back end, and hosting already handled and just all in one. It made it so easy, and that's what I loved. I didn't write a long spec. I didn't stitch five different tools together.
+
+I built the thing, and I started using it. For any founder listening, that's the point. The faster you turn an idea into something real, the faster you launch. Apps, dashboards, internal systems, AI agents, whatever you need to build, Base forty four gets you there. Go to base44.com/20vc.
+
+That's base44.com/20vc. While base forty four helps you build faster, LARADIN helps you measure AI impact. Every company now runs two workforces, humans and AI agents. Laredon is the first unified dashboard across both workforces that measures their work and optimizes their impact. Laredon answers four questions.
+
+Who's using AI? Which tools? What is it costing? And was it actually being produced for every team across every vendor? AI ROI stops being a guess and becomes a number that you can consistently and confidently measure.
+
+Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Larridin. Thousands of AI tools and millions of dollars of AI spend are measured. You bet on AI. Larridin proves that it's working. Visit larridin.com to learn more.
+
+That's larridin.com. You have now arrived at your destination. Satya, thank you so much for doing this with us. I would say, you know, thank you for coming to the studio, but you're actually hosting us here. So really appreciate you taking the time.
+
+No. Like, Thank you so much, for having me on the show, Harry. It's been a long time coming, but I'm finally glad we were able to do it. Now you wrote a seminal piece, ten days ago or so, and you said that we should assume a model is compromised. And I just wanted to expand on that.
+
+Does that mean that we can't or shouldn't rely on the disclosures of the model provider companies? Yeah. I think the challenge, the way I see it right now, is the models are becoming more and more capable. Right? Scaling laws are working.
+
+Except one of the assumptions I had was that you'll have alignment just fall out of scaling, and it doesn't seem to be. And there's more science challenges there that need to be tackled, and mechanistic understanding is also elusive. And so given that, I think the best posture to have, if you want to continue to use these sophisticated models, is to treat these models in a trust architecture. I mean, after all, zero trust is not something new. Right?
+
+We've had zero trust architectural approaches. So the claim, at least I'm making, is let's create an engineered zero trust environment that can contain any malfunctioning agent before it does any harm. Right? So that's the point. Because if you really wanna have agents that are more capable and yet less aligned, then you need to have a trust system that you can rely on.
+
+Can I ask, what does that trust system look like? Who's the architecture of it? Who's the arbiter of it? It's a great point. And so that's why I kind of look at it and say, You leave AI safety outside of this, right?
+
+Because that alignment, for example, at least my take, is that it really mostly has to show up in training, right? In fact, maybe even in pre training. I don't think you can even RL your way to alignment. You have to truly get alignment to be something that truly gets embedded in the weights right at the very beginning of it. And so that's the model itself.
+
+Hopefully, at some point, we'll get aligned. If you leave AI safety, then the trust architecture is going to be just, you know, what a company like Microsoft does or all the cyber folks do. So what we have done, for example, is we built these two things, right, agent three sixty five and perception, right? What does it do? It gives every agent an identity.
+
+It then logs all of its activity, all its tool calls, in fact, every model call and the COT unit. In fact, that's where I'm also asking that all the COT better be in English and not in new release. And then you can check using multiple models. It better be tamper proof. You can't have the agent go modify its own logs.
+
+And then on that, you set policy and then you behaviorally monitor the activity of the agents so they're confirmed to the policy. So that's the architecture. We don't have that architecture today. Is that just symbolic of where we are in the production? But our architecture exists.
+
+So there are two... I think people conflate what I'll call an engineered security, zero trust architectural system for containment and AI safety. Because I think people say, AI safety is hard and elusive and not yet achieved, so therefore there must be nothing we can do on security. And I'm not saying that these two things are all got to come together at the same time. In fact, I would just say, Hey, we have to deal with the situation as it exists, so let's build a trust system outside, in fact, of the model, and then just be super aggressive in setting policy and monitoring for policy deviation.
+
+On the monitoring side, if we think about chain of thought, how reliable is that? It's not. Right. We know that the chain of thought itself unfaithful, and in fact, it can be made worse when the model company says, Well, it's unfaithful, and I'm going to hide it. And so it becomes even more problematic.
+
+And that's where I think a little bit of the push for standardization and the COT, at least for trusted partners, being available as is so that it's inspectable, it's auditable, and I can check using multiple models and what have you. So that's going to be one of the in fact, that's one of the things that may even drive more open weights, quite frankly. Because if you can't... It's funny. Close rate models are more powerful.
+
+But if they kind of don't recognize the need to be more transparent, especially as their trusted partners use it, then we may have a problem. Can I ask you, when we think about that rise of open source, I completely agree with you in terms of closed being more powerful? Open source stays predominantly Chinese models. Is that a concern then when we think about safety being baked into pretraining, when we think about disclosures as we said there, and then juxtaposed with the majority of open source being Chinese? Yeah.
+
+I mean, I think there are two sets of things. I do believe if you sort of step back somehow AI safety not being there is not a good thing for China, is not a good thing for The United States, it's not a good thing for The UK. So I think that there's a part of everyone... Because this is not something that somehow an unaligned, open weight Chinese model will probably attack even China. So it's not like you can sell the rest, think that this will only be used as an attack vector.
+
+So setting that aside, I'm pretty pleased with some of the progress even the open weight models in the West are making. Obviously, Jensen's working on it, the other folks are working on it. We will have even the MAI models that will be not open weight. Think of it more as licensed weights. Think of it that way.
+
+I want to turn this into just a simple, straightforward software business as opposed to a network effects intelligence business. So I think there will be different business models. And I ultimately trust in your ability to use those models and control those models is what's gonna determine what gets used. As a venture investor, I have to predict where traffic will go today between closed, open. When you think about the two different dimensions, which is, like, traffic and dollars, if we look forward, say, twenty four months, what percent of traffic goes through open versus closed do you think?
+
+It's a great question. I I, I think it depends on what the frontier looks like, which is I think most things seem to get saturated. And when it gets saturated, open weights or even just cheaper models of even closed weights seems to work. Because especially one of the things is if you can train on your own traces, then you really don't need the latest model to be able to solve that same problem if the problem has not changed. So if you have an eval that you want to continuously keep moving forward, then you may want to pay.
+
+But even there, by the way, I'm very thrilled about this Hydro Fusion stuff we now have in GitHub where... I just saw this. Yeah, because the cool thing there is it's a learned model. Anyway, we are now going into these agent swarms and multiple sub agents. So I can call a lot of sub agents that even happen to be local models.
+
+And so I think my suspicion is that there will always be a market for Frontier. There will always be some new thing. Science may be the next thing that Frontier is being set at. But I think predominantly token usage will be commodity token usage. Does that mean it's open source predominantly?
+
+It be open rates. Or as I said, can also be cheap to close rates, right? Because there will be lots of price competition, let me put it that way. Because if you look at my own usage inside of Copilot, we use a lot of closed source, cheaper models along with open rate models. You said about kind of the importance of owning your own intelligence for some of your amazing customers that you have.
+
+You were talking about some in The UK. Is that the model environment that we have moving forward, intelligence for companies with their own data? Yeah. So I think this is, to me, one of the most important things, which is what's the future of a firm in an era of intelligence? Because if you go back even to Hayek, his fundamental description of an economy is local intelligence.
+
+Tacit knowledge is distributed throughout the economy. Without that, there can't be only one firm and it can't be one intelligence. And so, that's sort of the foundational thing. In fact, capitalism works because of that. Price discovery works because of that.
+
+Or pricing mechanism works because of that. So, therefore, I think it'll be important for every firm to be able to accumulate knowledge at increasing scales using AI versus leak. That's why I called it the reverse information paradox, right, which is Kenneth Arrow kind of described this paradox of information where if you're a seller and you disclose the secret without a patent or a trade secret protection or copyright protection, you leak the value. Now, for the first time, the buyer needs the protection because the buyer, even most people think of it as, Oh, my data. It's even my exhaust of using it, right?
+
+Thumbs up, thumbs down signal. You're creating value for the model company versus capturing that value for yourself. So I think one of the things that at least I ascribe is that we need to have, for this to be stable, more of that surplus that gets created by use of intelligence to remain at the firm. And by the way, it doesn't need to be only by embedding your knowledge in weights. It can be in context.
+
+It can be in your evals, right? You may have a benchmark. In fact, one of the things that I'm very gung ho about is we all become, every firm will have a private eval benchmark, which is their core IP, and every model comes in and tries to sort of hill climb on that eval. And that, to me, is how a firm works. I love this private eval's benchmarks for each company.
+
+This is for a rarified air of companies, so it would seem. Your Harvey's or your Lagoras or the kind of very forward thinking AI companies. Will that disperse to every company in the world you mentioned? It happens. Yeah.
+
+It happens, Harry, always. Right? Which is, you know, there were... There was a day when remember in the late '80s and the early '90s that the few companies that had deployed PCs and were doing forecasting, which felt magical, they were able to put it in Excel spreadsheets, send it in email, and avoid the fax machine and interoffice memos. And it felt like, Oh, wow, when will this happen?
+
+And it took ten years maybe, and it spread all throughout. This time around, what is considered, Oh, I'm an AI native company and I do this, I think five years from now, it'll be pretty passe, I would imagine. And then that's kind of what... I mean, these tech cycles always start like that, right? Which is even cloud.
+
+Remember in the beginning of cloud, it was like the big deal was, oh, who's cloud native and who's not? And you know, if you're not cloud native... And now everybody is. Right? Even Lloyd's, you know, which is, what, 500 years old, is cloud native.
+
+And so it happens. Do we move into an implementation economy then? Because when we think about these customers, say, as you said, some of you are very big customers, they will need heavy FTE support much more so than they have done in traditional years or in the last ten years. Will we have a very heavy implementation economy to transition existing customers into this? It's interesting, right?
+
+The implementation economy, like systems integrators have always existed, right? We've depended on implementation economy for lots of other technology diffusion. So this one, I think, has different contours, right? Because- do think is different about this one? It's the combination of tech and business, if I could say.
+
+But it's not classic management consulting, it's not classic systems integration, and it's not classic technology support. For example, think about this. You want to start. When I look at my FD engagements, right? Even take the Unilever example I talked about at the keynote today.
+
+It's fascinating. They built an agentic system to say, Hey, we want to really have order to cash automated using an agentic system, plus their trade claims. And by the way, they started using a frontier model, and then they substitute for, in fact, I think they're using currently an MAI model for all the trade claims because it's sort of a lower cost. And by the way, they control it, right, because they're able to train on their traces. And so we had some FTEs, but a lot of who got deployed, and now their IT team itself is managing it all.
+
+But it started with what's the business, what's the eval, what's the way to conceptualize the agentic architecture? So it's sort of business consulting combined with technical consulting. And I think, yeah, you're right in saying that there will be a new set of skills that'll get built in the ecosystem. Today, I think all of us have, quote unquote, our own but FTEs will become like... You know, the traditional systems integration will become new FTE.
+
+You've mentioned, obviously, MAI. Yeah. But when we look at a lot of different players, it's kind of this realization that you need to be full stack from chips to models to application. Is that the future you have to have vertical ownership? Yeah.
+
+It all depends on the industry structure. Right? You know, I think that I would say today, you know, there'll be, who knows, five, six closed models all competing, maybe five, six, open weight models all competing. And so therefore, at some level, if you're building an application like the AgenTeq system, you could even have something like what I said, which is a router with even a decision engine built into it. And then you just route to the best model for a given task.
+
+So that's a possibility. Of course, there's always the risk that NEMET could be one vertically integrated model and app tier and all the way to the silicon and system. It's unlikely to me. I thought at some point that it might be the case that there will be one. If anything, it's going the other way, which is every day you wake up and you say, Wow, there's more competition in every layer of the stack, whether it's in silicon, whether it's in systems to manage the silicon, in the model layer, in the app layer.
+
+And so I think that's a healthy sort of direction of travel, but you never know, right, because this is one of those things where it all depends on what becomes the dominant design. But my hope is that this becomes a little bit of a horizontal specialization with multiple winners in each layer and then the ability for people to compose. The thing I didn't see is the depth of each layer. Like, what I know now that I wish I'd known twelve months ago, it's just like the infinite demand for inference. Yeah.
+
+That's a great point. Yeah. And I wish I'd known it twelve months ago. I would've done some very different investing. Speaking of that, we've had, like, Mustafa Silliman saying training runs of a 100,000,000,000 are coming, and only a handful of labs can pay for that.
+
+A $100,000,000,000 training runs. Do we have the energy, infrastructure, and power to enable this scale across the stack, but especially when we Yeah. I mean, the way I come at it is, ultimately, it has to come from the world GDP inflecting and then that allowing someone to then have as a percentage of R and D, right? Because when somebody says training run, it's just a percentage of R and D, right? Companies that are heavy in R and D spend what?
+
+15, 20% on R and D. And so therefore, yeah, at some point, if you have enough revenue, you can spend enough on training. And then, of course, you'll have enough revenue if you're contributing to the world economy growing so that you can get your fair share, so to speak. And then you also bring up the other side, which is the supply side, which is we have power shortages, we have silicon shortages, we have all kinds of things today. They're long lead items.
+
+You just can't snap your finger and have power generation, or you can't have a new fab. And so now, interestingly enough, given the demand everyone's building, and so the question is, when will all of this come online? What will be the demand supply? No one knows. Quite frankly, any one of us who are sitting here today will just be speculating.
+
+But my feeling is that if you start by thinking of the stable state would be just like today. Right? Income statements are suddenly not going to be different for a company. It's going to be, Hey, I have some revenue. I have some cost of revenue and I have to have some profit.
+
+And if that is going to be true, then the question is, what is the world GDP growth rate? That's the bigger thing for me. In terms of the inflation of GDP growth rate, the world has kinda stabilized 2% a year for a very large amount of time. Does AI have the ability to to seriously inflect that in a short amount of time? I think so, and I somewhat hope so because that is the point.
+
+Let's take even as a percentage of any of our GDPs, the amount of money we spend in our healthcare. So that's why I look at even the deployment of Copilot in NHS and say, Wow, if it can improve patient outcomes and reduce cost in the healthcare, that is by definition helping the GDP of The United Kingdom. And so I think that there are these pockets of the economy which are ripe for adoption of AI. Really, in fact, there's the least amount of displacement, the most amount of benefit. And so that, I think, is where I think we'll have to find the best fit.
+
+Software development is another one, right? It's fascinating to see how much the demand is elastic for software development, right? That means the IT backlogs were huge, none of us even recognized it. Exactly. I was taught that you had to be the top one or two in a market to win in venture.
+
+We're in, you know, factory, which is fifth, and it's winning. Fifth. Yeah. This breaks all rules of venture. The question that I have, again, slightly naughty, not on schedule, but it's just like, will we see the tipping in terms of capability advancement in alternative functions, finance, sales, marketing, that we've seen in coding?
+
+Because coding's been the mother lode. I think that that's a good point. It it... People talk a lot about, you know, Do you have a verifiable reward? And it's easy to do these.
+
+Because a lot of the magic has been RL on top of these pre trained models. That is what has helped coding. Can we crack that in knowledge work? Seems much harder. But again, all the examples I talked about, sort of in contact centers, in the supply chain systems, in these marketingcash to order systems, I think it's possible, and we're seeing it.
+
+Is the demand as elastic as coding? I think science may be as elastic, right, or engineering in general. Like, by the way, if I look at even what's happening inside, not just in software development, let's take silicon development, that's another thing that's going through a radical shift, Your ability to tape out much faster, simulate everything in silico is much better. Your first spin can completely come out. But even just like optimization of maintenance reports, like you said with Rolls Royce, which I would never consider.
+
+It's unbelievable. Like, I mean, it's a thing that they've been dealing with forever, just scheduled maintenance, and I had not realized that, wow, that's a big optimization problem that you can go now run. So I've I've watched, yeah, many, many of your shows, and we're gonna do a quick fire round. Yep. And people haven't asked some of these questions, which I've always wanted to know, and I think everyone wants to know, but, yeah, people haven't asked them.
+
+What's the exercise routine given the travel schedule, Satya? Well, I mean, you're in good shape. Well, I try to be. I don't know whether it's all well hidden. But, you know, the one thing I've gotten into the habit, you know, this has been about maybe twenty five years even on, which is every morning I get up and, you know, I used to be able to run.
+
+Unfortunately, my knees have gone away. And so now at least least I walk with incline. Even this morning, I was able to get a half hour in. And so that's what... In spite of any jet lag, wherever I am, I get hit the gym every day.
+
+I do have bad news. It's my age as well. What have you changed your mind on in the last twelve months? It might be because after all, I was one of the first... Obviously, when Dario and Ilya and Sam and Greg and Elon were all, I guess, one happy family, they were really the believers in scaling laws.
+
+And that's what I believed in back in 2018, 2019. And I think the biggest change now I have is I used to always think that alignment will just fall out. I no longer believe that. So I think this alignment thing may be a harder, different problem. And so, yeah, that's the one thing I've changed my mind on.
+
+What looks crazy today but will be incredibly common and accepted in five years? You know, it might be that that thing that we just talked about, those evals. Right? Which, what is a firm? I think a firm would be an an AI benchmark.
+
+Final one for you. There are many things to be excited about over the next ten years, for you specifically. Like, for me, it's, my mother's got MS. I'm so excited for the drug development that could be capable. What are you most excited for?
+
+I mean, that's a great one, I think. One of the things that I've always been, I would say, been looking forward to is a general purpose technology, even as powerful as this, and people say, oh, this is not just another general purpose technology. Whatever this is, I hope this spreads, diffuses throughout the world faster than anything else and throughout all sectors of the economy, unlike anything else. And truly, for once, there is a real shift in the frontier of that global growth that happens, where it's not about just counting winners and losers, but it's kind of like everyone gets lifted. That's been my dream.
+
+In fact, my father was a development economist, and, you know, it was always about convergence growth. When will the global south get something that just suddenly boosts that? I hope this is it. Gotcha. This has been such a joy to do.
+
+Thank you so much for taking the time. Absolutely. It's a pleasure, Harry. But before we leave you today, base 44 is one of those products I used, and I just thought straight away, man, I wish I'd had this when I started 20 VC with $50 and no contacts in venture. I wanted to see what it could do, so I built a guest research hub for the show.
+
+Upcoming guests, company notes, previous interviews, sponsored contacts, follow ups, all in one amazing location. I described it in plain English. A few minutes later, I had the product open in front of me. Database, login, back end, and hosting already handled and just all in one. It made it so easy, and that's what I loved.
+
+I didn't write a long spec. I didn't stitch five different tools together. I built the thing, and I started using it. For any founder listening, that's the point. The faster you turn an idea into something real, the faster you launch.
+
+Apps, dashboards, internal systems, AI agents, whatever you need to build, Base forty four gets you there. Go to base44.com/20vc. That's base44.com/20vc. While Base 44 helps you build faster, Laredon helps you measure AI impact. Every company now runs two work forces, humans and AI agents.
+
+Laredon is the first unified dashboard across both work forces that measures their work and optimizes their impact. Laredon answers four questions. Who's using AI? Which tools? What is it costing?
+
+And was it actually being produced for every team across every vendor? AI ROI stops being a guess and becomes a number that you can consistently and confidently measure. Gainsight, Vertiv, SurveyMonkey, and many other enterprise organizations run their AI programs on Loudin. Thousands of AI tools and millions of dollars of AI spend are measured. You bet on AI.
+
+Lairdon proves that it's working. Visit lairdon.com to learn more. That's larridin.com.

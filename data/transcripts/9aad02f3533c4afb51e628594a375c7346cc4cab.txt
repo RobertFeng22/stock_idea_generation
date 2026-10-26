@@ -1,0 +1,277 @@
+Support for the show comes from SatellEye. If you've ever thought there has to be a better way to manage my pet's health and safety, then this message is for you. The SatellEye Collar Go is an AI powered GPS dog tracker that helps you keep tabs on your dog, especially in locations where they might run away. And Satellite Senseii can help you spot changes in your pet's health. While others just track location, Satellite decodes lives.
+
+Go to satellite.com to get 35% off with promo code, VirchCast. That's sattelai.com to get 35% off with promo code, VirchCast. Satelleye.com, promo code Virchcast. This episode is brought to you by On Investing, an original podcast from Charles Schwab. Each week hosts Liz Ann Saunders, Schwab's chief investment strategist, and Colin Martin, head of fixed income research and strategy for the Schwab Center for Financial Research, bring you fresh insights on what's happening in the markets and why, and what the implications might be for your portfolio.
+
+Join Colin and Liz Ann as they explore questions like, how do you evaluate corporate bonds that look interesting? And what sectors are on the move right now? Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. Support for the show comes from Jira by Atlassian. Your work is scattered.
+
+A thread here, a DM there, docs everywhere. And it's not only your team searching for context, your AI agents need it too. Jira taps Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP. The result?
+
+Less token waste, more accuracy, and more time moving forward. Learn more at jira.com. That's jira.com. Hello, and welcome to the Vergecast, the flagship podcast of the Navier Stokes problem. I'm your friend David Pierce.
+
+And today on the show, why is OpenAI suddenly solving all of these big math problems? And what does it mean for the future of being a mathematician? But first, here's everything else happening on The Verge today. I'm Josh Cajas, and this is ninety seconds on The Verge for Tuesday, 10/20/2026. Spotify announced today that it has removed over 50,000,000 AI slop and spam tracks from user recommendations over the past year while also changing its system to highlight more human made music.
+
+Other streaming platforms like YouTube Music and Deezer take a tougher stance. They put labels on AI songs and filter out AI slop. Spotify, on the other hand, doesn't mandate AI labels on music. It even partnered with Universal Music Group to launch a tool for creating AI music remixes. So hooray for humans, I guess.
+
+Meanwhile, Adobe announced yesterday that the mobile version of its photo editing app Lightroom can now open closed eyes and photos. The app uses generative AI to match the lighting and pose when generating these replacement eyes, as well as reference other images of the same person in your Lightroom library to create an accurate set of peepers. This immediately reminds me of the Wesley Snipes Blade meme where the studio added CGI eyes to his face because he refused to open them. And finally, Switch two owners rejoice. Nintendo Switch Sports Resort launches today with 12 sports, including two fan favorites from the original Wii Sports, tennis and bowling.
+
+The game takes advantage of the Switch two's motion controls to allow you to jet ski by using the Joy Cons like handlebars and use its mouse controls to skateboard. Sports Resort even takes place in an open world, complete with a sightseeing mode where you can explore the island via land, water, and air. Your move, Grand Theft Auto six. You can read more at theverge.com. That's ninety seconds on The Verge for Tuesday, 10/20/2026.
+
+Over the last few months, OpenAI in particular has started to release what it calls answers to some of the biggest problems in math, problems that professional mathematicians have been working on in some cases for decades, even a century. Some of these are big problems that everyone has been working on, that there are big prizes for solving. Some of them are just things that researchers have been noodling on forever. This has given the math community kind of a shock. People are worried about what OpenAI is doing.
+
+People are worried about whether OpenAI is taking credit from them. People are worried about what this means for the existence of the life of a mathematician going forward. The Virgil's Robert Hart has been covering all of this. He's been talking to professors around the world. He's been dealing with the problems.
+
+He's been learning what the Navier Stokes problem actually is. He's gonna guide us through all of what's happening and what this means for everyone else who does other things that might someday have AI pointed at them. Let's get into it. Robert Hart, welcome back to the show. Yeah.
+
+Hi. Thanks for having me. You are now semi officially the verge's expert in frontier mathematics. How does this feel? A worrying prospect for everyone involved, I imagine, but exciting.
+
+I... Have... Has it actually been... Like, for me, some... One of the fun things about being a journalist is, like, randomly getting to suddenly get at least a little bit of knowledge on something where it's like, there's no shot of me being an expert on this thing, but I now have an excuse to get, like, weirdly into this esoteric thing for two weeks.
+
+Has this been the last, like, three or four months of your life just learning math terms? Yeah. I mean, I've tried learning them before. I have tried at university. I can't say I did particularly well, far from doing a math degree as well.
+
+But... Yeah. I mean, I've covered a lot of science in my past, but mathematics has always kind of been a a tough one to to get into. So it's... I mean, it's exciting and it's, I think, a heart...
+
+A people story as well. So... I agree. So... And this is actually why I think this is so interesting because I I...
+
+The the... As I first started learning about what's been going on between the AI industry and the mathematics world, it seemed sort of esoteric and niche. Right? Like, this is this one group of people who are very affected by this thing. And I wanna get into it because I think that group of people is interesting and important.
+
+But I actually think there is a much bigger, more broadly applicable thing happening here. But let's start a little bit at the beginning. And I think the easiest place to start is probably with the the labs themselves and, I guess, specifically OpenAI, which at some point in the relatively recent past seem to have turned their attention to solving big math problems. Can you just kind of catch me up on the the last few months of activity in this space from these labs? Yeah.
+
+I mean, probably best saying is, oh, the labs have been focused on this for years. Like mathematics has been a... I think a big focus of them for a very, very, very long time. And it's kind of like a lot of mathematicians I spoke to say that it's like, oh, it's viewed as this kind of rightly or wrongly, whatever is a kind of pinnacle of knowledge and it's I think easy for them to try and sort of show off in that area. And yeah, and it's always been quite terrible.
+
+And then the last few months, very good. It seems like and by very good, it's kind of on par with the best human mathematicians. So a little bit like the coding phenomenon kind of nine months ago that all of a sudden it went from a thing computers can do that it seems like AI might someday be able to do, but isn't quite there yet to all of a sudden overnight, oh my god, this actually works. Yeah. And I mean, well, not that hard the time you can even tell it works.
+
+They sort of rely on the mathematicians for that. Sure. But but but yeah, basically it's like there's all these problems that are kind of labeled as open problems in the field and they've just kind of been mowing through them. And it's gone from kind of problems no one really cared about or noticed or or I've maybe heard of that here or there to ones that... Oh, some very accomplished mathematicians have spent their entire careers trying and failing to do this and they did it in like three days.
+
+So, yeah, it's a very quick quick change. Yeah. And were were the people steeped in this on the mathematics side surprised by this? Like, obviously, this has been a surprise to those of us who are not paying close attention, but there's a... There's an industry of people who, you know, spend their days and nights steeped in this stuff at universities all over the world and and stuff like that.
+
+Were they caught off guard by this sort of turn from it doesn't work to it works? Yeah. I mean, I think a lot of that perhaps depends on where in mathematics you look for. It's kind of a a field that varies between... You've got some who are very much like, I use my chalkboard and my chalk, and that is how I work.
+
+Right. Through to they're using these types of tools and so they're quite familiar with it. But even among, I'd say the kind of really early adopters and the enthusiastic users, a lot of them that I spoke to were still quite surprised that we'd got here now. They thought that some of the problems we're seeing going down, maybe give it a few years possibly. And then within the space of like a couple weeks, they're like, oh, okay.
+
+I'm readjusting that timeline and figuring out what that means now. Interesting. Well, and... Yeah. Walk me through the figuring out what it means.
+
+Because I think when you say this is a human story, I think this is a lot of what we're talking about. Right? There is this this thing that happens, and I think a lot of people are either dealing with the reality of this already or the theoretical possibility of this coming soon, where a thing that I have spent my life learning how to do and doing, all of a sudden, there is this massively resourced AI lab over here that has turned its, like, eye of Sauron firepower on me specifically and is going to run me out of a job all at once. What has this felt like for the people at the sort of tip of the spear in the math world who are suddenly finding themselves competing with OpenAI to solve these problems? Yeah.
+
+I mean, the eye of Sauron, funnily enough, is something that came up actually. Really? Around three times with different mathematicians I spoke to because it's it's not evenly spread across this field either. So something like, oh, is it coming my way? Is it coming my way?
+
+Maybe. Who knows? But... And that adaptation, I think, I suppose how people are reacting is happening so quickly that people almost don't know how to feel. And I I mean, I first started covering this more diligently maybe two months ago, maybe three at best when there was some sort of progress with an internal model that looks impressive.
+
+And then it escalated massively from there. And ever since, I've had a lot of mathematicians sort of texting me or something saying, I'm really worried. The the number of them that messaged me saying, I'm struggling to sleep or I don't know whether there's any point in continuing because, I mean, OpenAI were quite clear after one of their big problems they solved that, like, we've got more than a 100 waiting. That was it. So it was that sort of like, it's the eye of Sauron on my discipline already.
+
+Should I bother? And the reactions really were from kind of despair to let's just carry on to I'm gonna race to put out as much material as I can possibly put out that I'm working on before I get scooped by OpenAI or someone else. Yeah. And it seems like, obviously, there are a lot of people feeling a lot of different things, but it does seem like one of the overwhelming reactions to this has been frustration with OpenAI in particular, not necessarily just for advancing the technology. Like, one obvious thing to feel here is a sort of professional jealousy and fear.
+
+Right? That like, oh, if the computer can do my job now, what am I here for? Right? And I think, again, that's a that's a thing a lot of people are experiencing right now, and I think that's very real. But it seems like a lot of people you've talked to are able to set that aside and say, even if it's cool that we now have these tools that are able to crack these problems, even if I can partner with this thing to do work I've never even able been able to dream of before, and that could be very exciting.
+
+Still the way OpenAI is doing this feels bad. Can you tease that apart for me? Like, what what is it about the way OpenAI in particular is handling this that is rubbing all these mathematicians so much the wrong way? Yeah. I mean, it's almost kind of like Silicon Valley comes to insert area here.
+
+Like, it's that very sort of move fast, break things and move on before you've even kind of... Not even picked up the pieces, but even seen the pieces fall. Right. And it very much feels like that I think with a lot in in in the area and like the conduct is... I mean, it's quite a world away from what happens in a lot of academia anyway.
+
+I mean I mean, so scooping happens. Like that's one thing I think a lot of focus has been on whether or not they... They've scooped researchers because their millennium prize problem that they get their kind of, I suppose, crowning achievement in this. The big allegation they had here was that they and this is by their own admission as well, which is almost quite stunning. They...
+
+They'd heard a rumor that some researchers were getting close. And so they then decided to basically throw everything to see if they could. They spent, I don't know quite how much rumor has it, it's in the tens of millions of dollars to spin up about 10,000 agents. And in, I think, eighty eighty eight hours odd, they've done it. Wow.
+
+And it was a big achievement, but it just feels a bit it's it's an unpleasant taste it leaves in the mouth when you sort of Yeah. The only reason they did it was someone else was, which again, it happens at academia. Right. I think what is new is it's quite rare that they can turn their eye... An academic could turn their eye to anything and and do it capably and the resources as well.
+
+Like you... It... It's without precedent really that level of of scale. And I think that's what's... That's one element that I think has left a lot of people thinking like it's it's it's against the norm.
+
+Yeah. I'm sure your average maths professor is is is sitting here being like, gosh, if you gave me tens of millions of dollars in unlimited compute, I could also do some pretty interesting stuff. Like, wouldn't it be great if we were fighting a fair fight here? Feels like a not reasonable place to land for these folks. Well, too.
+
+I mean, the fairness that comes to it as well. I mean, OpenAI throughout have said that we want to build tools that let scientists do great things, which is a lovely aim. Why aren't you giving the scientists or mathematicians in this case, like, the tools? Like this is an internal model that is not publicly available. No one can even verify.
+
+But but there's another element as to what they do as well is that obviously preprints have been a big thing within the scientific community for a while now but they're not peer reviewed. They're not necessarily checked. And in a lot of cases that's happening here, they're written by AI, which we all know is really high quality and really easy to understand especially when dealing with really complicated material. Mhmm. And so what they did most recently is there are more than a 100 results.
+
+I mean, it turns out that More Than was doing quite a lot of work. There was nearly 400. Woah. Which they'd spread out on, I think, more than 700 preprints that they just dropped one evening. Wow.
+
+And this is this is like math problems that have been out there unsolved with people working on them for a long time and OpenAI was just like, we fixed them all. Yep. Except Good lord. Except it was a big question mark there because not all of these have been... There's a thing in mathematics you can formalize something so you can kind of prove it computationally even if you don't understand it.
+
+I think like not all of these have that with it so you can't easily check that it's necessarily right. Obviously, it's specialized material. It's difficult to go through these papers. One mathematician I spoke to was like, if this was written by a human, it would have... I'd be surprised they were able to write it kind of thing.
+
+It was that badly written. Attribution is all over the place which is a big thing with AI as we know. Yeah. And so, like, a lot of it, the norm there is that they're not only sort of saying, oh, well, we solved all these problems. Aren't you grateful?
+
+It's dumping a load of work on the field as well. Right. That fundamentally also misunderstands the field. I mean, I think a lot of people and I'm myself perhaps guilty of this in the past, are thinking that mathematics is sort of a list of let's solve this, this, this, that. Sure.
+
+Which is part of it. Sure. But like there's a lot of value in the kind of understanding where those fit, forging new methods or kind of understanding that. And that all comes when humans solve problems. It is a natural part of that process.
+
+We've now just got that end point Maybe if it turns out to be true. Right. And all of that other bit is kind of missed as well. And that's I think where it's kind of annoying because that... I mean, they've said this most recent drop of sort of 400 odd results.
+
+I've been told it would take years at least to sort through. Wow. Just on a basic level. Support for the show comes from Shopify. Starting a business requires you to be resourceful.
+
+And the more you flex that muscle, the more you start to see opportunities for growth. For example, launching your business with Black Friday approaching means you can take advantage of the extra online traffic. Shopify is there to help you make it all happen. Shopify is the platform for a record breaking, reliable holiday selling season for businesses at every stage. Their prebuilt website themes and AI site builder make it easy to launch a beautiful, professional looking store.
+
+And you don't ever need to touch a line of code to do it. They also have a mobile app that lets you run your store from anywhere. Their AI ecommerce expert, Sidekick, can help you manage almost any business tasks with a single prompt, including holiday discounts. With Shopify, you can easily sell everywhere people shop online, in person, across social media, and even in AI chats. If you're ready to launch your business before Black Friday, go to shopify.com/vergecast to start your free trial.
+
+That's shopify.com/vergecast. Go to shopify.com/vergecast today to hear your first Support for the show comes from Superhuman. There's a lot of potential for AI assistants to make your job easier, but not if every ask starts with you debriefing the entirety of the project from scratch. Ideally, it would be following along from the start and ready to jump in as soon as you need help. Superhuman says they've got the solution.
+
+Superhuman Go comes from the makers of Grammarly. It can embed in the tools you and your team already use, always ready to help without having you switch apps or break your flow. It can help make sense of a dense message thread, help you get ready for a meeting, or catch a typo before you hit send. And when you get stuck, Go can help you brainstorm, outline, or review relevant context so you don't lose your place. It's basically an AI assistant that's always on, always ready to help.
+
+Bottom line, Superhuman is built for people who take their work seriously and expect their tools to do the same. You can try Superhuman Go from the makers of Grammarly. Find out more at superhuman.com. Support for the show comes from Sonos. Think about the first time you heard your favorite song.
+
+Who were you with? What did it make you feel? Was it the music or the lyrics that grabbed you first? And what were the specific tech specs of the sound system it was playing on? Yeah.
+
+Nobody remembers that last part. Sonos gets that. Their system is designed to just be there, clear, ready, out of the way, so nothing stands between you and the next song that hits you out of left field. For a bunch of years now, I've been incredibly jealous of my friends who have Sonos speakers. I was just always impressed how all that sound and punch and energy came from that speaker in the corner.
+
+But Sonos recently sent me two of its play speakers, and now I truly, truly get it. Everyone knows that the quality is immediately noticeable when you listen to a Sonos speaker, but the bigger thing that I've learned is how everything is working together and creating this little ecosystem. It's just really important to me, especially as audios become more integrated into our daily media lives, whether that's music, a movie, and, yes, the Vergecast or version history or decoder. I want it to sound as good as possible. Visit sonos.com and build your system.
+
+Sonos, love the sound, feel the system. This is the part of all of this to me that is, I think, the most sort of generalizable in really fascinating ways and is a thing everyone on both sides of this question ought to be reckoning with in really real ways, which is there... There's a threat in a lot of your stories that is people being like, again, look, even if they solved this, even if the thing arrived at the right answer, most of the value of doing this research is in figuring out how to arrive at the right answer. Right? We learn we learn new tools.
+
+We learn new systems. We learn new methods. And and it is the work that then gets us to the next thing. And this assumes that just knowing the answer to the test is enough. And if you give us the answer to the test, you have given us everything that is required.
+
+And they keep just being like, no. That's actually not what this is. Because now what's gonna happen is there is no next problem for this AI system to be pointed at because we don't know how we got to the answer to this one. And, like, are we now betting on the next OpenAI model to be able to creatively imagine new kinds of problems, which I think is is sort of a leap beyond anything that has been able to happen before. But there's this real sense of people being like, we need to understand what what works and how and how we got here.
+
+And even the people at the labs don't know. Like, they're just like, we put a bunch of compute at this and it arrived at an answer that we think is right. And and I just... I I don't... I almost don't know how to bring those two sides closer to one another given the way this technology actually works.
+
+Yeah. I mean, I think that's almost at the heart of the problem here is that you you have one side who are like, haven't we done a great thing? And it is great. Right. We answered your question.
+
+Yeah. Yeah. But it's almost like, but that wasn't what we were trying to do. Well, like, that wasn't all of what we were trying to do. And you've kind of like made the rest of it worse maybe on the way.
+
+We... Not... That's the thing you can't even tell because it's so... Like, some of the papers... I mean, three of those papers that they put out have all...
+
+They already retracted due to what they said was a sign error which... I mean, I'm sure it's a bit more complicated than it sounds but, like, I mean, that's the kind of thing you make in school, isn't it? And you're like, oh, silly me. Right. Which feels like it could have been, you know, checked before they put it out with hundreds of others.
+
+And it's... It just feels almost like a lack of care, I think, is is what a lot of mathematicians spoke to me. It feels like they don't really care about the field. They just care about... And I mean, this...
+
+The the headline for one of the stories that was like, OpenAI just wants to win. I feel that is a reasonable kind of attitude for a lot of how these big AI labs work. They want to get something big and they want to get there first. Yeah. I was thinking a lot about the race to AGI in the context of the OpenAI just wants to win thing that what happens in so many of these cases is these companies are given some kind of brass ring, right?
+
+Like we're going to achieve AGI. We're gonna solve a Millennium Prize math problem. We're gonna do X, Y, Z things successfully. And all that matters, all that matters for your promotion, all that matters for your company valuation, all that matters for your reputation in the tech industry is whether you did it and whether you did it first. The end.
+
+And that that is just the the system we have built. And especially with AI, which is just this giant hammer looking for nails at all times, that it feels like that has become so exacerbated. And the idea of having a thing that builds on itself and and that there's a community of people learning together and that all of that is actually designed successfully to make progress happen is just falling apart in this race to just hit milestones because there are things we can measure that look like success. And again, this is this is maybe just toothpaste that has been out of the tube for some time, But we're in a moment where anything that is quantifiable, everyone in tech is just racing towards as fast as they can and and burning the boats behind them. And it's just the the culture of that next to, in particular, this academic culture that has been so different and is so deliberative in its way.
+
+Again, I just... I have a hard time figuring out how those two things come together. But I will say to... I was gonna say to their credit, but even that might be too generous. It does seem like there is some effort on both sides to figure out how this can be slightly more harmonious.
+
+What are you hearing? Is any of this working? Is is OpenAI learning how to be a better citizen of the math community? Well, it's it's complicated, I think, on that. I mean, it's trying or or at least it's saying it's it's trying.
+
+It's not doing nothing. Like, that is which is... It's not doing nothing. It has perhaps at times shot itself in the foot in trying to do so. We One don't think AI never does that in other places.
+
+Never. Never. Unprecedented. But so one big thing that they were sort of saying, when they sort of resolve this Millennium Prize problem, they said, well, we've got a 100 more. We wanna be quite responsible with those.
+
+Right. So we're gonna consult some elite mathematicians. Which by the seems had the opposite effect of essentially dangling a 100 more anvils over the heads of mathematicians for some unknown amount of time. Oh, yeah. Absolutely.
+
+They... Like, that was when I started getting texts and people were like, I can't sleep. This is absurd. Or like, I'm I'm... I've published three papers.
+
+They're like, well, we've dropped this one bomb on you. We have a 100 more over here, but don't worry about those yet. And it turns out it was so much bigger than it appeared either. I mean, which also raises the question, is there something that prompted them to release that many at once? Who knows?
+
+But... Yeah. But the... So they're... Ostensibly, they've been trying.
+
+And one of that was to consult a group of mathematicians who OpenAI had initially approached and this was an elite group I think it's about maybe nine nine people among them sort of that they're all kind of top of the field basically. So it's it's it's not representative of the field as a whole but it's creme de la creme. And OpenAI had initially approached some of these people to to to form this board who had responded with saying, well, we'd rather not be an OpenAI thing. We're gonna form our own thing. They'd approached a few more, formed a group.
+
+Except then OpenAI somewhat sort of quickly hijacked their announcement because, I mean, they've got a bigger footprint. And it kind of made it sound like they were OpenAI's thing and so a lot of mathematicians I was speaking to around that were like, oh, yeah. It's OpenAI's group. Who knows if they're being paid by them? And and I I chatted to a few people in this group and they're like, categorically, nothing.
+
+Like, the only thing we we have is, like, maybe a bit of advanced access to help them communicate it and that is that is it. And they've said they've been talking to other AI companies as well about communicating their results but OpenAI sort of hijacked that and made them look less than independent which immediately dented their credibility. That's for sure. The effort. And then OpenAI also made quite clear that, well, we're not bound by what they say either.
+
+So this is like the Facebook oversight board, which is it's it's it's nice in theory and everyone will, you know, feel bad when they do bad things, but there's nothing actually real or binding here if they don't want it to be. Yeah. Pretty much. And they've taken a few bits on board. So they obviously dropped that sort of bombshell of 400 odd results.
+
+The quality is better. I mean, it's poor and variable but it is a lot better from what I've been told. They've also... One of their other things was to commit to sort of helping foster that understanding element we spoke about. So whether that's through conferences or talks or workshops or that and I believe yesterday, this is both opening and Anthropic said that they put 5,000,000 each towards, I think it's a Simon's foundation initiative to to do just that.
+
+Okay. I have seen skepticism over the amount of money considering what they spend on the field and the disruption. But again, it is something. But it's again like as to... They've also very clearly said that we are not going to be doing what was I think arguably the biggest like recommendation or or urging from this group was please stop testing internal frontier models on everything you can find in our field, please.
+
+And OpenAI quite clearly said then in when they denounce these results, we are trying to develop tools for scientists. And as a result, we will be testing basically everything on these frontier models that we can. I have to say my my immediate reaction is that a, of course, OpenAI is gonna say no to that. And b, it's kind of an unreasonable request to make. I don't know.
+
+I need I need to think more about this, but I am curious having having talked to a bunch of folks on both sides about this, what do you make of that request from the math community of essentially saying, if not stop, at least slow way down. I think even... It's that level playing field we were talking about, I think, that is... I I agree. I think to say please don't test this thing on that is perhaps a big stretch.
+
+I also think it's perhaps not a stretch to say, okay, well, is a history here. There is a tradition here. There is... There are contributions here that you are not acknowledging. Like Right.
+
+In the early hours of that kind of the the big drop. Some of the texts I was getting saying, looks like they've just got a paper that someone else did like a month ago. Like, I don't know whether or not that hand out but like you don't know because of the way they credit these things and like it's well known that they have been quite spotty of that in the past including in the mathematics jobs. Like they've acknowledged it themselves when I've spoken to them. So I don't think that's necessarily like to say, hey, could you level the playing field a little bit or at least give us a chance especially when they're using material that...
+
+I mean, it's the same argument that you have in like a lot of these fields with with copyrights. So media or writing or anything. It's... You've used public works for a private model. And I suppose the equivalent here, if you're thinking of images might be, well, now none of you are allowed to paint.
+
+Right. Because we've done all the painting. Painting solved. And, like, it's... And it's it's galling enough when it comes down to sort of creative endeavors.
+
+Mhmm. And whilst it may lock it out professionally, it does not stop people from actually doing that. You could argue that yes there are elements of mathematics that it doesn't stop either but I I... It feels a slightly different type of like disruption than it would for those other areas. I also think given that they then...
+
+Like, one mathematician actually says they need us to celebrate their work or to validate it, to prove it, to to know that it's good and to use it for whatever hype purposes they want. They need the mathematicians. And I think that I don't think they're even asking by dropping it on them they're demanding or presuming even worse. I don't think it's unreasonable to say could you at least even if it's not playing fair, not playing what feels underhanded. I buy that.
+
+It seems to me that the good news of that line of thinking is that that is a relatively straightforward thing to accomplish. Right? That that kind of interaction and and symbiosis and communication would not be that hard to do. The problem is OpenAI has essentially no incentive to do it. And this is what we've seen over and over.
+
+Right? As the... This is... And it's not just OpenAI. These companies have discovered that they can essentially get their way by just running at such speed with so many resources that you, like, you know, the the one you just steamrolled is gonna complain about it.
+
+What are they gonna do? They're flat on the ground. Do the folks that you talk to on the math side have any optimism that this can happen? Because it does seem to me, like if I'm gonna be a little Pollyanna ish about this for a second, there is a world in which something incredible is happening here. Right?
+
+That that what we've given is these people who have been struggling with some of these problems, a new set of tools to help them not only solve those problems, but invent and solve the next ones. And that we can speed this stuff up and that, like, the way that we talk about, you know, drug discovery and and the way that that stuff can work can be applied to all of these other industries. There's something here that feels like it could work. And and I I spend a lot of time vacillating between optimistic that we will get there and completely nihilist about it. What do you hear from the mathematicians right now?
+
+Yeah. I mean, again, I it's, think it's a very mixed bag. I think the speed makes it very hard, I think, for people to imagine where to go. So, like, I mean, the disruption of this many results in one go, like the amount of people... I I didn't really speak to anyone who directly had this, but they said they had colleagues whose research programs were blown up overnight.
+
+Like, what do you do with that? I mean... And I remember in seeing some of the comments in... For for... From Verge readers on the story of Handsome.
+
+Well, there's still clearly a job for for mathematicians, which... Correct. There is a lot to do in understanding, contextualizing, or even using these tools, which I'll return to. But the point is that does the profession survive that long long enough given the speed of this to do that? Or or or does it change its value system in crediting more than just the end result in time to recognize the value of people doing all that that other stuff?
+
+And that's I think the question here is that because it's happening so quickly and it's being done with seemingly such little care that those systems in place say, well, what do you do if you then obliterate an entire generation of postdocs and PhD students cause you solve their problems? Yeah. What happens after that? Like, there's then a both a need for them and an absence of trained mathematicians. But but some people I especially were also very excited about what what all this shows and in saying that well, one is that a lot of what's happened isn't necessarily that creative opening up new area kind of stuff.
+
+So there's either excitement that maybe AI could do that or that still leaves lots of avenues for humans. The other is that people... I've I've... I I now have people sort of text me, like, preprints or or papers they're working on, which I I I understand a lot. I love the idea of you at, like, 02:00 in the morning just getting a text that's, like, 8,000 words of equation that is just completely unreadable.
+
+And they're like, look what I've discovered. And you're like, this means nothing. I mean, with with the time difference as well, that is about the time it would come through. That's amazing. I also didn't know some notation could go via text, but it can.
+
+And it's it's fascinating though. And it's... So it's a hugely accelerating research. People are already... I I was texting a few people today ahead of recording this saying like, oh, how's it going?
+
+And they're kind of like working on that long process of digesting what's there, but they're already building on it on on some of the results. And that's really exciting and using these tools as well. And so, I mean, there's a fear as to whether it will sort of become a pay for play type thing as well because mathematics isn't notoriously a very, like, flush with cash academic discipline. Sure. And so even a relatively modest kind of cost for AI could be too much but it's...
+
+Yeah. I mean, but a lot of people quite excited. I mean, some people are also very scared of using these tools for reasons of... I mean, some of the allegations that have gone around with with a lot of these results, in particular in the early days of the kind of the the millennium price problem they solve was that, are these lands using material from the conversations that research are having with their tools in their models which later go through. Now I always say it's a very difficult one to answer.
+
+Right. At any... In either direction. Either Hard prove. Hard to disprove.
+
+Yeah. Yeah. And so OpenAI's initial comments with with with the Millennium Prize one was basically we we can't say no. Which obviously does not sound great. Have since come ahead and come out and said like we did not.
+
+I will say and I've not dug into this but it is also very precisely worded language that is used because as we know like there are a lot of things that these models can't... You can't tell whether they've hoovered it up or not or in what form or whether this is synthetic data based on conversations which is not the same as the conversations. And so a lot of people are now quite concerned about using these tools as powerful as they are for their research out of possible fear that they would be giving their own work away to some competitor. And it's a difficult one to to do and again, it's sort of similar with any other discipline that we've seen. But Well, that's kind of the last thing I'm wondering is, like, how long until you start getting texts from every other professor at every one of these universities?
+
+Like, I've got to imagine that everyone in academia is watching this particular thing happen. And again, looking and saying, okay, at what point is it coming for me? And there's something specific about math that it is pointed at these specific kinds of problems. Like, there's not... There is no equivalent of that that I'm aware of in, the English department at these universities.
+
+But this question of can it can these things come and essentially attempt to obviate me by quote, unquote answering all of these questions, it does... If I'm OpenAI, like, everything about what do we know about these companies suggest that, again, they are giant hammers looking for nails, and they will find them everywhere they can. And I have to assume you're gonna start getting the numbers of every professor at every college around the world. Yeah. I mean, the answer to that question, I think, requires me going back in time.
+
+I have already started getting those tests. Okay. There we go. Any listening also, please get in touch. I mean, I've I've been following it closely for a long time.
+
+But Yeah. I mean, mathematics is an interesting one, I suppose, in this regard because it doesn't have a practical element most of the time. In that you don't need to go and sort of verify in the lab. Anthropic have quite famously given Claude a lab somewhere in the Bay Area I believe. Oh I didn't know that.
+
+I'm not entirely sure on the specifics with working for it but it's kind of the hallmarks there have been questions over whether they announced their first big finding a month or so ago. I'd say the press release left a lot to be desired. They likened it to CRISPR a lot at the same time, obviously is huge revolutionary discovery, whilst in the same sentence saying we don't quite know what this does. So great. And they'd followed it but basically saying, we're still working on all of that, but we wanted to let people know what Claude could do, which if ever there was an IPO coming Right.
+
+There you go. Boy, will they not beat the this is all just to hype your product allegations? But... Yeah. So it's already starting to happen in other...
+
+There was also similar allegations to whether or not... And I I've not had a chance to dig into this myself, anthropic, deny it, but as to whether or not they'd used research or or work from other researchers in similar areas. And like... But it's the same type of thing you can see happening. It's let's find things that we can throw compute at dot dot dot.
+
+So I... I've already been speaking briefly mind, kind of people in areas if you think sort of somewhat similar to mathematics in this world. Areas of economics for example or computer science or like engineering or kind of elements of those like they're all I think worried undersells the sense of almost impending doom. I mean, there are a lot of very excited about these tools but like what do you do when a giant turns its eye on you and decides to just walk in your direction. You just kind of hope for the best at that point but...
+
+And figure out what happened after. There's a lot of these efforts now to kind of get more data in say material science or biology or even automating the robotic sort of parts with labs so they can generate that data and then do some more and do some more. And I I mean, I've been around labs that are sort of starting to do this and it's fascinating but it's all sort of heading in this direction and I mean, at least for some, there are practical applications. So, like, mathematics is kind of a pure research basis, but it will be interesting to see where where this lands when they do start finding something that they could immediately be useful. Like, I found it fascinating that Anthropic were very clear going, Claude found this enzyme system, which if you were to try and patent it would immediately make it impossible to do so, I believe.
+
+I mean, there's probably a nuance there, but, like, as far as I'm aware in The US, an AI cannot hold a patent. At least for now. At least for now. That is when they turn claws to law. Yeah.
+
+Exactly. Yeah. Well, it does seem like, I I think we we are going to play out some version of this in discipline after discipline and profession after profession. And the only hope is that each one of them, we get a little more sophisticated in how to actually make this work for everybody. But the way it's gone with math so far, at least, I I can't say fills me with hope about where it's gonna go.
+
+No. It does not inspire confidence. Alright. Well, everybody, if you are if you are watching or listening to this, get in touch with Robert. He doesn't get enough 2AM text messages.
+
+He was just telling me he wants more people to blow up his inbox at 2AM. Get in touch. We love hearing from you. Robert, great to see you. Thanks for being here.
+
+Yeah. Thanks for having me. At T Mobile, the new iPhone 18 Pro is here with a big leap in battery life, and you can get it for nothing upfront. With so many reasons to choose T Mobile, you'll wanna talk about it. I heard at T Mobile, you can get iPhone 18 Pro for nothing upfront and get $1,000 off.
+
+Pass it on. Pay nothing today. No taxes, no fees, nothing down. Pass it on. Hey, Mickey.
+
+Pass it on. IPhone 18 Pro has the most advanced iPhone camera ever. I'm I'm you gonna you cancel entire account before receiving all bill credits, credit stop and balance and required finance agreement is due. Example, 11 9999. IPhone 18 Pro, 256 gigabytes.
+
+Bill credits and if you pay off device early. Qualifying credit, new line, cord in, and service. $85 more per month with auto pay plus taxes and fees required. $35 device connection charged to its sale. Visit tmobile.com.
+
+Companies shouldn't have to choose between speed and control. Amex corporate connects cards with flexible spending controls and real time visibility to help teams adapt faster. Built to simplify. Designed to scale. This is Amex corporate.
+
+Get started at go.amex/amexcorporate. Terms apply. This episode is brought to you by Indeed. You're ready to level up your business, but the pressure to find the right person to make that happen is intense. Indeed sponsored jobs can help carry the load.
+
+It boosts your job post to help it reach quality talent fast. Cut through the chaos with Indeed sponsored jobs. Get a 75 sponsored job credit at indeed.com/podcast. Terms and conditions apply. Hiring now?
+
+Then this is a job for Indeed sponsored jobs. Alright. Before we go, I have one more thing for you. I have a movie recommendation. So obviously, there's a bunch of tech movies out right now.
+
+You should absolutely go see... You should see everything, the three hour documentary about Elizabeth Holmes. Everybody says that's incredible. You should go see Musk, the I think four hour documentary about Elon Musk. Everybody says that's incredible.
+
+You should go see the social reckoning, which everybody says is kind of meh, but is probably worth seeing. I feel like there's a really fun, like eleven hour day where you just go watch all three of those things. But in addition to that, I I just wanna recommend a movie that I watched recently that is about technology and kind of went under the radar. It's called Good Luck, Have Fun, Don't Die. It stars Sam Rockwell who comes from the future to recruit a bunch of people in a diner to try to save the world from AI.
+
+It's a super weird movie. I'd like... I I don't pretend that it perfectly holds together as a movie every single second. It tells the story of how all these people came together and how technology invades their lives and changes the way that they work. But in it, there's actually a bunch of really interesting ideas about how we think about AI safety and how we regulate AI.
+
+Part of the premise of this movie is that we invented AI and then didn't invent ways to control it for decades. And in the interim phase, the world kinda fell apart. And boy, does that feel relevant to every single thing that is happening right now. So it's it's full of interesting ideas about how we think about technology and how all these things relate to each other and what it means if we let technology run away from our ability to control it. It's also just a really fun movie.
+
+Sam Rockwell is fantastic in it. It's bizarre and funny and just a a good time. I really highly recommend this movie. I think it went under the radar in part because it's a relatively small movie, but in part because good luck, have fun, don't die is a bad name for a movie. And one of my closest held theories is that nothing can survive a bad title.
+
+Like that movie, Mike and Nick and Nick and Alice, also a good movie. Stupid name. Nobody watched it. So anyway, good luck. Have fun.
+
+Don't die. Fun tech movie. I recommend it. Go check it out. Let me know what you think.
+
+That's it for the show. Thank you to Robert for being here and thank you as always for watching listening. If you have thoughts, questions, feelings, again, reach out to Robert. He wants to hear from everybody in all disciplines about this. This is an important story for for him, for the verge, for all of us right now.
+
+Figuring out what is happening when AI points itself at you and your job and your life is the question of our time in so many ways, and we wanna hear all about it. Vergecast of the verge dot com is the email 86611 is the hotline. We love hearing from you. And as always, the best thing you can do to support everything we're doing here is to subscribe to the verge. Theverge.com/subscribe.
+
+It gets you all of our podcasts ad free, including this one. It gets you all of our newsletters. It gets you all of Robert's coverage of math and his attempts to explain weird math concepts to normal people like me. Everything the verge does. Theverge.com/subscribe.
+
+Thank you in advance. The verge cast is a verge production and part of the Vox Media Podcast Network. The show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, and Travis Archuck. See you tomorrow. Rock it.

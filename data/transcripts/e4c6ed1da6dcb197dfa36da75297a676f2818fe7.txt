@@ -1,0 +1,499 @@
+We're gonna be out of energy pretty soon in the next few years. This is a blip. It's not some kind of bubble being burst. We don't treat the model as sacrosanct, and we're energy first in our in our mindset. Intelligence, to me, it will have infinite demand.
+
+I do think we will be in a post transformer world. I don't think the transformer is the be all end all. I actually think the hardware is the place to be over the next ten years. I would say if you're a pure software investor, you're kind of fucked, honestly. The inference market is gonna be a $10,000,000,000,000 market within ten years.
+
+I don't look at, oh my god. AI is gonna kill all humans. That's the stupidest worldview I've ever heard. This is 20 VC with me, Harry Stebbings. Now what started as a very planned discussion, it evolved into one of the most phenomenal discussions that we've had across a wide range of topics from AI to data to robotics and everything in between with an incredible guest in the form of Naveen Rao.
+
+Naveen is a serial entrepreneur. I mean, he sold his last business to Databricks for $1,300,000,000, Mosaic ML. Now he's back with unconventional AI, which has raised hundreds of millions of dollars. Their last round, close to $5,000,000,000 in valuation. And I think Naveen is one of the most articulate and clear thinkers across such a wide range of very complicated topics, and he's got this unique skill of being able to really break down very complex ideas into very digestible lessons.
+
+He was fantastic, and this show was a joy to do. But before we dive into the show today, founders and investors sleep on Eight Sleep. It is the intelligent sleep system trusted by mister Mark Zuckerberg, doctor Andrew Huberman, Charles Leclerc, and the Aston Martin f one team. The pod is a smart mattress cover that fits on any bed. It cools each side to 55 degrees, heats to a 110 degrees.
+
+It even tracks your heart rate, HRV, and sleep stages without a wearable. Thank god. The new pod six has a hub 50% smaller than the last one and starts at just $1,999. Visit 8sleep.com/20vc. That's eightsleep.com/20vc.
+
+While Eight Sleep helps you sleep better, MongoDB helps you build better. MongoDB has always been the database developers love. Well, now it's the data platform AI agents need. Agents need accurate context, fast. MongoDB stores, searches, and reasons over your data in real time.
+
+JSON native database, vector search, and Voyage AI embeddings all in one place. One system instead of 10. No data pipelines to maintain. Ugh. This sounds too good to be true.
+
+Build and scale from your first user to billions of vectors. Run on any cloud, on prem, or your laptop even. That's why 75% of the Fortune one hundred run their most critical apps on MongoDB, moving trillions of dollars every single day. And it's why AI native companies like Eleven Labs run 40,000,000 agents on MongoDB. So if you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and dedicated support.
+
+Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, Framer scales the story.
+
+So if your team wants a website that looks and feels handcrafted but is really still fast to ship, Framer is built for exactly that. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Agents and humans work in tandem. Agents bring speed and scale.
+
+You bring taste, judgment, and control. The work lands on the canvas and stays editable. Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place. Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan.
+
+That's framer.com/20vc. Rules and restrictions may apply. You have now arrived at your destination. Naveen, I am so excited for this dude. I told you I stalked the shit out of you.
+
+Matt Bornstein, Matt Oko, many others. Thank you so much for joining me today, man. Absolutely. Yeah. I was looking forward to it.
+
+Yeah. I think it's gonna be a lot of fun because I I went through a ton of your shows. I wrote down what I thought were the most controversial quotes. There were a few zingers, by the way. But I actually wanted to start on, like, the foundational layer of this infrastructure, which is energy.
+
+You've spoken before about how it will be the bottleneck and the importance of it. How do you evaluate the state of energy supply today, and what are we not seeing that we should see? Energy supply continues to be difficult to build. Right? I I don't think people appreciate it.
+
+I mean, I've seen numbers from general industries about $50,000,000,000 to build one gigawatt. So people are throwing around the word gigawatt like it's like it's easy. And it's like, guys, this is not easy. Just to put that in perspective, building a fab, like a semiconductor fab, is on the order of 20 or $30,000,000,000. So this is...
+
+One gigawatt is more than building a fab, like, you if you look at it in terms of dollars and complexity. So it's hard. I think what we've seen over the last several years has been soaking up the excess demand that's been around. So we overbuild generally, and we don't run infrastructure at a 100% output. So what we've been doing, where we've been getting energy for data centers has primarily been from this.
+
+Like, can we run things at higher utilization, you know, and get that next couple of gigawatts out of it? So if you look at The US power grid, we're on average something like 900 gigawatts of outputs, but I think it's capable of peaking up to, like, 1.2, 1.3 terawatts, so 1,300 gigawatts. So there is some excess capacity, and that's primarily what we've been going after. That's what you can get access to quickly. But building infrastructure is hard, and we need to build more.
+
+We're behind. How far behind are we? I think over the last twenty years, China surpassed us in terms of total amount of capacity that happened, I think, in 2023. But they were building six x faster than us for twenty years. They were coming back from far behind, but they really went fast and hard at this.
+
+And we criticized that a lot because we said, oh, they're using dirty methods to do this, coal burning, this and that. True. But they're also trying to grow as fast as possible, and I think now they're sort of going back and and cleaning up some of this. So meanwhile, we didn't really invest in energy infrastructure, and that's gonna hurt us because it's gonna take time to really get there. Dude, what can we learn from China being so much further ahead of us that we should be, like, way more loose on policy and regulation?
+
+What are the takeaways? Well, I I think some of this is hard because it it hits the very core of our culture and and their culture. I think China, you know, can centrally plan. We don't. And there are advantages to both of these things.
+
+Right? And and these things where you have these giant infrastructural rollouts, yeah, there's an advantage. No doubt about it. However, I think when it comes to innovation, tip of the sphere sort of things, like, The US is far and away better. AI was born here, not there.
+
+You know, like, all of these these latest innovations have all come from here. Now they're doing some really great work in China also. I don't wanna diminish that because it's not just distillation. They're really doing some true innovation. However, I think that a tip of the spear stuff where you really open up, you know, new areas comes from here, not from there.
+
+So, you know, I I think we have to leverage our advantages of what it comes down to. When you look at what's scarce today, what do you think is not scarce today that will be in three to five years? I think that excess capacity is gonna start getting very scarce. You know, if we look at growth rates, even even the kind of much more conservative growth rates of AI, we're gonna be out of energy pretty soon in the next few years. And it's not easy just to say, okay.
+
+I'm gonna find some more capacity. You will have used up all of that excess. So then we're in a place where we kinda converge to the rate of building. And, you know, I... I've heard people say, oh, we're gonna build 40 gigawatts in a year.
+
+There's no way. We have never done that. I just don't see it as being possible, at least not right now. Maybe in a few years, we'll come up with some new inventions, we will build our way out. But as it stands today, we're not gonna build 40 gigawatts in a year.
+
+Maybe we build 10. If we build 10, that's amazing. That's $500,000,000,000, just to put it in perspective. So when we look at the debt cycle that is already being talked about as being incredibly toppy, and we're seeing that now starting to cascade or unpack in CoolWeave and a lot of concerns around that. Is it actually just at the start, or does the music turn off at the party at 7PM?
+
+The biggest deterrent of that will be, is there demand for AI services and therefore for GPUs and therefore for this excess, alright, this new energy build out? Obviously, I... I'm in this industry. I'm I'm pretty AI pilled. I think there's plenty of demand.
+
+I don't think we even scratched the surface. You know, there's a lot of problems we have to solve in AI still, but as we solve those, and we will over the next couple of years, it's just going to open up new types of demand that we don't even really know about today. So my sense is that this is a blip. It's not some kind of bubble being burst. It's sort of like if you said, hey, is there demand for people curing cancer?
+
+Of course, there is. Right? Like, if you if you cure cancer, people are gonna want that. Like, you build an intelligent machine capable of doing anything, yeah, people are gonna want that. I always remember Vinyl Khosa saying to me, wanna take as much technology risk and as little adoption risk as possible.
+
+And it's exactly that. I have a cure for cancer, very difficult to do, but zero adoption risk. But then does that mean that we're mispricing the excess supply today if we're literally staring down the bowel of eighteen months running out? I mean, you could argue that. I suppose that's up to the the energy markets.
+
+Right? That's how they should be pricing and moving up. I I do see evidence through anecdotes at least. I don't have specific numbers to quote around this because every one of these behind the meter deals is bespoke, and people are paying way more per kilowatt hour than they would off the standard grid. So I think we're already seeing a two tiered pricing occurring, where the value of electricity for data centers is sort of higher than it is for general use.
+
+Right? So there's a lot of behind the meter stuff going on right now. Companies are are are building new sort of technologies like Bloom Energy. There's a Bloom Energy deal for building, you know, a couple of gigawatts in, in Arizona. If that works, amazing.
+
+That might be the technological advances we need to keep going, but it hasn't really really been proven out yet. And those economics, by the way, are very different than what you see on the grid. How so? I think if you just boil it down to how much people are willing to pay per kilowatt hour for energy for data centers, it's just higher. You know?
+
+You can tolerate a higher price because the margin structure is just so much better. Like, you know, if I have a a gigawatt of compute and I wanna sell that, I I can sell it for, let's call it five x the price. I'm making numbers up, but it's on the on the order of five x the price of what I pay for that electricity. So I got a lot of room, wiggle room there. So I could pay 30%, 40% more for that electricity.
+
+When we can go slightly further down from energy, which is kind of the core foundational power to the compute that uses it. Yeah. What do we know now about compute that you wish you'd known two years ago? I think one thing I wish I'd known is the fact that we don't really see physical efficiency gains anymore. So you can separate out the way we build a computer and let's call it three levels.
+
+So the first level is the physical. So if I can send a bit from this point to that point and do it cheaper, you know, let's say I I represent zero as being here and one as being here, My phone has a certain weight. So there's energy required to move between these two states. If I make a lighter phone, it changes the amount of energy required. So that's just a pure physical thing.
+
+And Moore's law, as we generally refer to it, or Dennard scaling, you may have heard, where you make devices smaller, is really a physical thing. So you're making the physical layer more efficient and denser. So those innovations have largely stopped. And if we look at the last few generations of GPUs or other chips, you don't see efficiency gains much anymore. You see efficiency gains from the next layer up, which is kind of the computing architecture.
+
+So I would say most of the efficiency gains we've seen over the last several years or several generations have come from smaller data types, going from 32 bit to 16 bit to eight bit to four bit. So you get pretty good efficiency gains because you're moving fewer bits, you're computing with fewer bits. Then the next level, which is not really exploited that well, and we started this a little bit mosaic, is about how do I start enforcing locality and reduction of data movement at the model level? And five, six years ago, we didn't think about it like this because the model was not the primary driver of compute or even... Yeah.
+
+Maybe six years ago. It was still... Compute was a general purpose thing. I run websites and databases and all that kind of stuff. However, now if I look at the computer solely as a physical device designed to deliver intelligence, it changes the mindset a bit.
+
+Now I can co design all the way from the model through the architecture to the physical. And that's what I wish I'd known how much sort of alpha there is that there is left in the top layers, not just the physical. We focus on the physical for a long time. How does that design mindset change when moving across the stack with that transition from pre model focus to post model focus? Yeah.
+
+I mean, it it means we don't treat the model as sacrosanct, and we're energy first in our in our mindset, meaning that everything we do has to give us an energy advantage. It sounds like a simple thing, but it's not how anyone has designed these things in the past. It's always been about speed. And this actually has its roots that go all the way back to ENIAC, you know, in the nineteen forties because, you know, computers were designed to be faster than the alternative. That was always the case.
+
+And the ENIAC's case... By the way, actually, do you know why ENIAC was built? No. It's an acronym. Let's say, Electrical Numerical Integrator and Calculator, I think is what it stands for.
+
+So this was a computer that was built by the US government in 1945. It was one of the first large scale digital computers built, and its purpose, like every other machine that's ever been built has a purpose, its purpose was to do artillery trajectory calculation and do it faster and more accurately than the alternative. The alternative at that time were humans who literally did the maths. So, you have to be faster. That was the key.
+
+Next generation comes out, it's gotta be faster than that. You know, GPUs came out, they had to be faster at rendering than a CPU. Each thing successively has tried to be faster than the previous thing. That has led to efficiency for several reasons. I mean, making things faster in the same power envelope is more efficient, but also Moore's law was chugging along and, you know, we went from vacuum tubes to transistors.
+
+Transistors kept getting smaller and smaller and smaller. And now we're in a place where that physical side of things is not really changing a whole lot. Transistors haven't gotten much better. However, we have a lot of room left on the model and architectural levels. Does that mean we're seeing a commoditization of models, or does that mean we're seeing actually a separation of model quality in those that are able to save energy and have efficiency gains versus those that aren't?
+
+I think that's exactly right. So, you know, one thing I've been pretty good at is kind of picking where people are gonna be focusing in the next couple of years, and I think this is gonna be a big part of Naveen. And, really, like, credit to you. Did you walk through when you're picking a market and go, like, this is where I think the world's gonna go, and so I'm gonna position myself here? Yeah.
+
+Absolutely. And, you know, it it also comes down just to interest. You know, this is, for me, one of the most interesting problems there is to build a better computer. So you sat down here pre unconventional in the idea maze, and you were like, problem set that I'm gonna focus on is dot dot dot. What was that?
+
+Well, I kinda look at it like if I were to solve a problem, what is the effect? Like, what what what does it unlock? In fact, it's kind of like being a scientist. Like, being a good scientist is all about asking the right question that if you answer it, it unlocks many more questions. That's almost a hallmark of a good paper.
+
+So for me in this in this endeavor, it was clearly like, okay. Well, we're gonna run out of energy. That's clear. The paradigm we have hasn't really been focused on this. I think this is gonna be where the the the focus will be because we need to keep scaling.
+
+Right? Like, we need to deliver intelligence in many new form factors and greatly disrupt the cost in order to make it ubiquitous. So no one's thinking about this yet. I should start it. Can I ask, we were talking about, like, model efficiency and how it can deliver in terms of energy?
+
+Well, we see models getting more and more efficient today. How do we think about where we are on that model efficiency curve? Is there a lot of room to run there? Or are we kind of at the asymptotic point where you're like, we're eking out the final increments? No.
+
+No. No. We have a lot to go. And I think the reason is is we've not done this true co design between the model and the physical side of it. So you can come up with a concept and you may be able to get, say, let's call it 5% efficiency gain just from software on a standard GPU.
+
+That sounds great. However, you can only exploit whatever concept so much because the physical thing is built in a certain way. If you look at our brain, they coevolve. We coevolve the intelligence layer and the physical layer, and we're able to exploit things in the intelligence layer in the physical layer. So sparsity, for instance.
+
+Sparsity means, let's say, just not having connections between computing units. I can get some kind of gain out of using sparsity in a GPU, 100%. But when I have a standard off chip random access memory, the limit of those gains is not... Is capped. I can't go too far because that physical thing is not designed necessarily to exploit this kind of sparsity.
+
+So if I can build something that exploits it, I can get massive gains. That's really what the brain did. That's how it coevolved. When we think about that, like, coevolution or that specialization of architecture to the task almost, does that mean that we'll unwaveringly have the specialization of chips? We see etched and we see fractal and olex and cerebris, obviously, but a number of people going after specific workloads.
+
+Is that the future of compute? How do you think about that? A 100% it is. And, you know, this actually goes back to even Turing's original essay. He wanted to build an intelligent machine.
+
+Yeah. I mean, that was that was his stated goal right at the beginning. So we went down this path of we took his machine, which was a theoretical construct, and we built physical versions of it. So anything we build is not truly quote unquote Turing complete because, you know, they have finite memory and stuff like this. But we were able to build applications that were super useful, right?
+
+I mean, we could run businesses off of them. We could edit videos and pictures and text and all kinds of great things. That's a huge productivity gains over the last sixty years. But it deviated from that original goal. And now we've kind of come back.
+
+So the purpose of a computer, I think, is to provide intelligence. To me, it's just a physical manifestation of intelligence. And so now we have to figure out how to make that better. And what's interesting is that if you make a better physical manifestation of intelligence, you made something general. Our brains in some ways are general.
+
+However, hardware is fixed in its workload. It doesn't do programmability in the same way that we think about it in a CPU. So the GPU is already down this path of building customized architectures for workloads, and I think we're just gonna hyper optimize around this. And that's a good thing because now we can build intelligent machines that are actually capable of building anything at some point. Listen.
+
+Forgive my financial mind. You're a wonderful technologist. I am a delinquent trader for a living in many respects. But we mentioned, like, yes, unwaveringly specialization of chips. To what extent does that massively reduce the TAM for a horizontal provider, NVIDIA specifically, versus, dude, do not be so small minded.
+
+It is still so early. We have 50 extra room to run. It is that. The the market is gonna be huge. I mean, look.
+
+I I think NVIDIA executed extremely well on the path to getting us here. I mean, you know, when I started Nirvana in 2014, we didn't really understand how big the market was gonna be. It was clear to me that we needed a new computing architecture around neural networks. That was a new way to describe compute. And to me, it was like the most important thing a computer could do.
+
+I think Jensen recognized this relatively early on as well. I mean, he he started to talk about artificial intelligence at the, GTC in 2014. I remember it vividly because a lot of the graphics guys were pissed off about this. They were like, why did you spend so much time on AI? It's nothing.
+
+It's it's it's not a important workload, and graphics is. Right? And, he correctly recognized that this was gonna be important, invested a ton in that direction, and actually executed very well. We had to go through this evolution of computing architectures from what we use those machines for to what they are eventually going to become. But I think now it's pretty clear to me that I don't need to care about anything else.
+
+I only need to care about running a neural network very, very efficiently, very, very scalably. That's gonna be the figure of merit. To what extent do you think we see the commoditization of chips? You know, Microsoft last night released their chips. You've obviously got Google with amazing success with TPUs, Amazon with theirs.
+
+You got Anthropic building their own. You've got the wonderfully named... I love this jalapeno. Do we see that just inherent commoditization of of chips? So I actually don't see chips being commoditized.
+
+I sort of look at it as it runs in parallel to what we saw in evolution. So I have a very simple world view of how all this stuff works. So intelligence, to me, it will have infinite demand. There is no limit of demand of intelligence because the world that we live in, the universe is, adversarial. So at first, two bacteria might be trying to find a spot of sunlight or something like that.
+
+The one that has the sensory capabilities to be able to move or somehow adapt itself into that environment wins and keeps proliferating. Then those things organize into eukaryotic cells and multicellular organisms. Each time, you're basically upping the level of energy and the stakes, but it's still adversarial. And right now, we see this between human populations. Right?
+
+We talk about US versus China or whatever. It'll be something versus something. And, you know, at some level, we start to harness more of our sun. Like, this is like the Kardashev levels, you know, and we're fighting some intergalactic battle. Whatever that is, you need intelligence to do that.
+
+Intelligence is the fuel, the economy of these adversarial battles. So it has infinite demand. And in order to create intelligence, you need energy. The conversion of energy to intelligence is hardware. And when I say hardware, I mean the whole stack.
+
+I mean, the chips, the systems, the the cloud, the networks, all of those things. So to me, if I look at it just from an economy, like, I'm gonna be selling the capability to convert energy to intelligence. And the better I do that, the more value I accrue. So I don't see it commoditizing anytime soon as far as the market goes. Do you worry that you bite off more than you can chew and then deprecate product quality?
+
+In that transition from energy to intelligence, the more that you can eat in the... In between, the more money you're gonna make. But I had the founder of Modal on the show yesterday, Eric. And, I mean, I I love him, but the dude just wants to do everything. I mean, everything.
+
+And I was like, at what point does product breadth damage depth? Do you think about that? I do think the world is changing now with AI. We can take on more breath. Our surface area that we can explore is greater than it was before.
+
+Just because of speed of dev is much faster, why is that now every company is a compound startup, so to speak? Yeah, I I can give you almost a pretty concrete example. In our first chip, we built a set of coupled oscillators. Okay, they have a coupling matrix, have a bunch of oscillators that sort of influence each other. And so when we're doing this, I would ask in the old world, say before AI, I might have a question like, okay, well, how does noise propagate if we don't do all to all connectivity?
+
+So meaning I have like a daisy chain of oscillators and I have some noise characteristic at the beginning, I wanna see how that degrades information over, say, four or six hops. In the old world, I'd have to ask my research team, hey. Can you go model this? Put some sort of noise model in, and I just want a zero with order understanding here, right, just to kinda guide my own thoughts. That might take a week or so because they're like, ah, I'm working on this other stuff.
+
+I'll I'll come back to it next week. Maybe it takes a week to write the code and verify it and give me an output. So I got a couple of weeks to get an answer. I can literally ask this question to a model. It spits out the code.
+
+I can introspect the code. I can go back and forth with it with it a few times. I get an answer in an hour. So something that would have taken me two weeks to think through has now taken me an hour. So I can think through more things per unit time because of AI.
+
+Now I I think we still have a problem. I actually just posted on this yesterday that we have an AI slot problem. We have too much crap coming out of these models, and it's very hard to verify it. Some of it's good, some of it's not, and we need to figure out how to to do that at scale. But I can go faster.
+
+I can cover more surface area than I could before. What makes you say we have too much crap? Is it just like looking on the axe and seeing, like, the the dumb takes on, you know, the thing that is just covering my timeline right now? No disrespect to The US, but it's your politicians who are rather interestingly structured faces would be an English way of saying it. That's all of mine, but there's, like, different AI generations of them.
+
+There's aliens and coming out of conquer... I mean, it's nuts. Is that what you mean by AI slob? It's not. I entertainment.
+
+Yeah. It's more entertainment. So I will say, by the way, the English have cornered the market on self deprecating humor. It is so much better than we can ever do in The US. So Honestly, by the way, we're all looking at this from The UK being like, wow.
+
+We've been moaning about our own politicians. Fuck. These guys. Yeah. I know.
+
+I know. We... We've taken it to new levels. I told you we're innovators. Alright?
+
+And so actually, this this is a perfect example of you see an output and you say, okay. Does that... Does it meet your gut check first? And you're like, maybe not. So what's really interesting is older people today see images, and they don't have that gut check.
+
+They're like, wow. That's real. I mean, I've had my parents say, like, show me these AI generated videos of Trump playing the guitar, and they're like, wow. He plays the guitar. I'm like, mom, he's not playing that guitar.
+
+It is... That's an AI generated thing. She's like, oh, okay. For me, it's quite obvious that it's AI generated. So that verification problem we see in companies.
+
+I see it in our company. We can build all kinds of artifacts. We can build code. We can build models. We can do all kinds of things.
+
+But you have to close the loop and make sure each one of those things is correct to actually trust the results. And doing that actually starts to become a big bottleneck because you're producing so many artifacts. I think we've moved the problem from producing to verification. And the value of verification is if you own the verification layer, then you own the automation layer because you have, like, verifiability that you can then progress there on. Is that it?
+
+Yeah. I suppose. And I think it's a necessary part of using AI to develop things. But if you own the verification layer, do you own the production layer? I...
+
+I'm not entirely sure. I think you have to own the spec as well. Producing the... A useful output, building a car or a bridge or something, you have to be able to spec it, figure out, am I solving a problem that's useful? Then each one of these artifacts that's produced has to be verified to be correct, and then marching towards that spec.
+
+And eventually, we have to say, yes, I did indeed implement the spec as intended. So it's an end to end process, not just verification. So verification is a piece of it. I don't know how one would value that. I think I value it as part of the whole, like getting to the end result.
+
+We have Mike on the show from Atlassian, awesome guy, and he was talking about kind of the importance of chain of thought and understanding, you know, agent led decision making versus human led decision making across different functions in in companies. And part of me was like, I totally get that, and that makes absolute sense. And part of me was like, that feels kind of old to think of it like that. And, like, what does that mean? We don't trust agent decisions as much as we trust humans.
+
+That feels kind of weird too. We don't. I mean, look, I I agree with you. I don't think we should trust Asian decisions as much as humans in a lot of cases just yet. I mean, it's like, we we train for certain things for many years to build judgment.
+
+I mean, becoming a neurosurgeon, right, it's a seven year training after med school. There's a reason for that. It's not that learning how to throw a stitch is that hard. I've done that in grad school. It's not the physical mechanical part of being a surgeon that's the problem.
+
+It's having the judgment on which direction to go. You have to have seen enough cases, seeing the output, seeing how people think through these problems to then build that judgment up. And the way we're defining intelligence right now is we take a model that's it's stochastic, right? We can prompt it several times and we'll get different sorts of outputs. And what you're doing is you're exploring the distribution of possible solutions.
+
+And then we need to pick which of those solutions is good. Know, you'll get a lot of different outputs and most of them are not good. And you could argue that a human does this too, right? We say, okay, How do I make a decision? Well, I might think through all the outputs, and I have some kind of heuristic of deciding what's good.
+
+We do this internally, maybe it's internal monologue or some sort of internal process. But a model spits out a chain of thought, and then we have many chains of thought, and we decide what's good, and we take that path. That deciding element is actually not well understood for every task. And so I don't think we should trust these things. I think the longer and longer decision upon decision upon decision chain you build, the more off the rails it can go.
+
+And you can get things that look very robust, but they're completely wrong. So that's where we are today. That will probably change in the future. I think we need a lot... A few more breakthroughs to get there, but that's where we are today.
+
+I love a question. Like, what do you believe that today looks kooky, weird, nuts, that in five years' time will be very commonplace and agreed. I remember putting my credit card into PayPal and my parents telling me off. And, like, remember, like, OkCupid and being like, you find your husband or wife online? What a ridiculous idea.
+
+Nuts at the time. I think that we will trust our agents more than we trust ourselves. I think at some point, that's true. But you think that we are far from that today? Yeah.
+
+I... We're we're not there today. And expertise doesn't really go out of style. It's just gonna take on different forms. And what I think a future will look like is that we start building...
+
+We'll call it models, but I actually don't think it's a model. Think it's a whole machine. I think of intelligence as having a physical and having the intelligence layer as one. They're they're not separable. I have a machine.
+
+It's almost like an organism that I can teach to be an expert at various tasks. And the value will come from building that expertise up. It's like, which school did you go to? How did you learn how to be a neurosurgeon or a chef or whatever? That provenance matters, right?
+
+Like, you went and studied under this person and you learned their methodology, their thinking. That's where the value came from. You or any human is an intelligent machine, top to bottom, but it was the way you were taught that actually made you valuable. And I think we're gonna start to see something similar in machines. And we can replicate that intelligence and all of that, but but the way you were taught is actually gonna be the important thing.
+
+And so part of that is actually knowing how to get to an end result that is real, that will work, that is verified. When you think about the value in that learning, a lot of that is in the data that one accrues over time in the years that you're doing something. We see data companies today. I'm in Macore, but we see tens hit astronomical levels of revenue that previously were, like, astonishingly large. I mean, that's still astonishingly large.
+
+But in such short time, Naveen, dude, you're such a smart dude. It's such a joy talking to you. I just kinda wanna ask you lots of questions about the world. What happens to this market? Does it just consolidate over time?
+
+Does it unbundle more and more and you build more defensibility? What happens? I think it specializes, to be honest. And I think if you specialize and actually start to work on important problems, you have a big market that's defensible. You know, it's it's...
+
+Again, it's a power law for skills. You could argue that all humans are capable of learning many skills, but certain skills are more valuable than others. And the same thing will be true with data and curricula that you you build. Right? And so we see the specialization of data companies.
+
+So you don't think they're commodities? Yeah. I I don't think it's commodity. I I think it started as a commodity because it it was sort of like at volume gathering of of observations. Right?
+
+But as you start to construct higher quality datasets, that's what we call it in the AI world, like higher quality for coding, higher quality for a chain of thought or whatever, you actually start to have a lot of value in the data. The model is almost just a manifestation of what it learned in a sense. So the data layer, I think, is gonna be pretty important going forward. I I don't see that commoditizing. I think building models and knowing how to choose that data is actually the game right now.
+
+The big model companies, it's largely a data problem. I mean, they are making advances on the model itself, but that's not been where most of the capabilities come from. It's been from curating data, using different sorts of loss functions. Like, we had pre training before, which was a very particular kind of loss. Then we moved to what we call mid training now, which is reinforcement learning, supervised fine tuning, all these different sort of mixes.
+
+So that curriculum, how you went from pre training to all these different sorts of trainings to modify the behavior of the model is actually the secret sauce. Can I ask you? We've seen... You mentioned that kind of pretraining RL, and then, obviously, a real shift has moved to post training. With that shift of emphasis from pretraining to post training, you think that is an enduring permanent shift in the efficiency of model improvements and how we get there?
+
+Or will we move back to RL being the primary or pre being the primary? How does that look in terms of importance over time? Well, I I don't know that it's more efficient. Actually, I think RL is more inefficient. If you look at it in terms of, you know, how much better the model gets per unit compute or per unit dollar, it's actually more inefficient.
+
+But it it does keep moving forward. Right? I think the idea is that we want to make the models better at all... At the tasks that are important. And so I think it's it's probably for the next several years, yes, very important.
+
+I think we'll start to build specialization in those middle layers, maybe even in the pretraining layer. So I don't think the model companies are thinking very long terms in in terms of performance. Like, I'm gonna make some massive breakthrough on the way I think about an AI system that's gonna give me an advantage. I would say the big labs are not doing that as much. Do you think they can afford to in the day by day race that is this current ecosystem?
+
+That's the problem. It's really fast. I mean, you've gotta be on top of it. I mean, like, if you're one month late on a model, that's that's disaster if you're OpenAI or Anthropic or Grok or Google. They can't afford to take those big risks just yet.
+
+You know, you're seeing this, like, you know, when Elon spun up, x AI, he basically took, okay. Here's the paradigm. Let's go let's go hire the people, and boom. He got to the frontier pretty fast because he had the resources. So what that points out to me was that there wasn't a ton of, like, very deep innovation.
+
+It was taking the pieces, putting them together with a team that knows how to build them and executing very fast. I think that's very different than trying to come up with a new paradigm. And, you know, you look at, like, Yanl Kun's company and, you know, Fei Li's company, they were they were trying to do deeper innovations. And I think that's what... That might be in the realm of startups, and it starts starts to look like drug development.
+
+Right? Like, all the big risks are taken by startups, and all the incremental stuff is done by big companies. The big companies buy the startups when they show promise. I sometimes ask simple questions, but I don't know the answers, and you're very smart. Why does everyone get so excited by RL today?
+
+You mentioned it kind of the mid learning there, and I just have so many people. I I just... It's all about RL. I'm like, oh, I I agree. Yeah.
+
+I agree. There's several reasons. And if you think about the way we learn, it's primarily reinforcement learning. If I were to teach you a new skill, you know, learn how to serve a tennis ball or something, it's it's really an RL loop. I would give you a paradigm of what it should look like.
+
+Here's how your serve should look, maybe demonstrate that or show you a video or something, and it will allow you to build an internal model of what good is or great is. And then you keep judging yourself against that that internal model and say, yes, I'm getting there. I'm getting better or I'm not, and I need to, like, ask for help. So that is RL, and I think the reason it's important is we cannot gather enough data to solve every task in the world. We simply can't.
+
+You can't pre train your way out of this by just gathering data. It's just too hard. Models, frankly, aren't efficient enough to to make use of it. So you need to have a a paradigm where you can start to say, okay. These are the 10 most important tasks.
+
+And then I have some sort of what we call a verifiable reward. I have some... Something that's that internal model. Like, a good serve is I hit it really hard and it went in. It's very...
+
+It's verifiable. I can measure the speed. I can measure whether it was in or out of bounds. When I have that verifiable reward, then I can start to say, okay, did the actions I took, did those actions lead to that good outcome or not? So now I I have a structure that allows me to solve any set of general tasks, and that...
+
+That's why RL is so exciting. Do you buy Yan Lakun's post transformer world theory? And how does that change everything? I do think we will be in a post transformer world. I don't think the transformer is the be all end all.
+
+I don't think I truly understood this until maybe a couple of years ago because transformers conflate a lot of things. But what we care about is reasoning, being able to reason through a problem. I don't know who said it, but it's like intelligence is what you do when you don't have the information, not what you do when you do have the information. So being able to reason through a problem from some sort of mechanistic or first principles understanding is what intelligence is. So transformers kind of sort of have that, but they really do it through this agentic kind of flow where you're taking multiple samples and you're deciding what's good.
+
+So I take one trace and then compare it to another trace, and I say, okay, this trace is better. So I'm gonna call that my reasoning trace. And so the way we kind of implement this reasoning thing is through a retrieval mechanism. So attention basically has this this context, which is a retrieval thing, and then we we can sample off of that and eventually get to something that looks like reasoning. I think this is extremely inefficient for how we do reasoning.
+
+We don't need to build reasoning this way. Our our brains do not work in this way. We don't build a huge trace, pump it into the input of another model, and then produce another trace. That's not how our brain fork. So there are way more efficient ways to do this and way more high performance from an algorithmic stand...
+
+Standpoint ways to do this. And so we will move past the transformer. Do you think what it takes to be a great founder has changed or not? I don't think it's changed. I think the the basic principles are still the same.
+
+I think having a viewpoint on the future, the... Your vision actually may matter more now than it did before. You know, I think, in the pre AI world, you could be a a pretty good founder by just being able to execute. You don't have to have a very good vision. You just have to know how to execute.
+
+And, you know, if you just go out execute a big company, which isn't that hard because big companies are slow and, you know, lumbering, think I you could actually build a startup, and you could, you could sell it or or build a company out of it. I think these days, if you're just based on execution, I I don't think you're gonna get very far. We spoke about the different layers. You said, I don't think this is gonna get commoditized in data. I think specialization, I think there is value there.
+
+Which layer does get commoditized over time? Yeah. It's a good question. I mean, arguably, energy is already a commodity. Right?
+
+So this is already commoditized. I think a certain amount of intelligence does actually start to become commoditized. We're already seeing it, to be honest. Like, models that are six months old, let's say the Chinese open models, you know, that level, they're pretty useful. Right?
+
+Something at six months old is still pretty darn good. So I would argue that's that's a hallmark of, commoditization. Right? The frontier is not the only thing that matters. For certain problems, it is.
+
+But in six months, that frontier will be in the open models. So then help me out. What happens if the delivery mechanism or the output of all the infrastructure is then commoditized? Well, I I think commoditization doesn't necessarily mean it's bad. It just means that margin, yeah, falls quite lot, but it also means that the market is very big.
+
+So you you could argue that tomatoes are commoditized, but we still eat them. We still need them. You know? So we will have a huge market for intelligence, and that market will continue to grow, but the margins may not be huge. I I actually don't think the model companies will be the ones who own the margin of the whole stack.
+
+It's not even true today. Like, NVIDIA owns the margin of the stack today. Right? I would say they're probably the one who take the lion's share of the of the margin. A lot of people say to me the cost of inference will actually go massively down over the next few years, and we'll see the commoditization potentially of the inference market.
+
+Would you agree with that or not not agree with that? Well, let's break it down. What is in... What is commoditization of the inference market mean? What that means is that the operator who's who's running inference, I assume.
+
+Yeah? Yeah. Absolutely. Your Fireworks, your model, your base TANs, and the services that they provide. Because if you look at their value prop, what they've done, and they've done very well, is take a model that exists, an open model, say, and then make it work well, you know, with uptime guarantees and make it, you know, relatively cost efficient to run on infrastructure.
+
+So they're an infra play. Right? They're basically mapping the model onto physical hardware and doing that well. Now I think there will be value there in the future, but the price of inference, like what people are willing to pay per token, will drop. And so they're basically...
+
+They have to squeeze more margin out of the hardware's capabilities to the delivery of that token. And that, you know, the amount of juice in that layer, I think, will decrease. So I think it'll result in them having lower margins. And and I think the model itself, like, is commoditized. You have several different ways to get it now.
+
+But the hardware side of it probably won't won't collapse. I think that part of it is still gonna have an advantage because you can still squeeze more juice out of, hey. I convert energy to intelligence more efficiently. The... We have more...
+
+A lot more juice to squeeze there versus the infrastructure layer in my view. I actually think the hardware is the place to be over the next ten years. Dude, it's quite fucking hard doing hardware investing. It's a very different mindset. Is this generation of investors equipped to be hardware investors?
+
+No. I would say if you're a pure software investor, you're kinda fucked, And I'll say that pretty confidently because SaaS, I don't think is gonna be where you gain margin anymore. And we had this sugar high for the... Since, what, 2011, 2010 timeframe till now of, you know, I can very quickly spin something up on an AWS cloud service, test the market quickly, try things out, and then go after a 100,000,000 or $200,000,000 SaaS was like massive fragmentation of the market because the delivery mechanism became very easy and frictionless. Now we're in this place where applications start to become more about the intelligence layer, and I just don't see software being a huge market in twenty years.
+
+Do you not just think SaaS becomes legora? And what I mean by that is, like, is legora SaaS? Well, kind of. Yeah. Enterprise SaaS, but kind of not.
+
+No. So does, like, the semantics not just change? I don't think anyone really is like starting fresh being like, oh, we're we're a SaaS company. Right. So exactly.
+
+I think you're right. So I was taking the classic definition of SaaS, I suppose. But I think companies where you deliver an outcome and you do so through a combination of software and services, absolutely. You know, we're seeing that in in several companies, and I I invest pretty actively in startups, generate the seed stage. And, you know, I'm I'm seeing a crop of companies come where they're taking engineering tasks that have existed for a long time that were done in a traditional way and have to be done correctly.
+
+And they're making those tasks much more, much faster, much cheaper by using AI plus humans. It's great. That's... I mean, I would say Harvey was the first example of this for law firms, where the old way was I have, you know, a set of lawyers who go and look at contracts and, you know, write contracts, that kind thing. And they basically said, well, I can use AI and verify the outputs with humans and deliver the same thing with fewer humans and deliver it faster at the same quality or near the same quality, and I will disrupt that market.
+
+So I think we're gonna see... This is sort of the new test. Can I? We see it... You know, I call it word wank, which is where, like, you know, VCs come up with a coin theory of the world.
+
+And it's like, you know, the the trillion dollar services thing that, you know, I think Sequoia did a brilliant piece on. And I love Julian who did it. It's very good. But, like, are we not just slightly jazzing it up? That's just the future.
+
+People using AI to do things efficiently. There's, like, a whole glamorization of it. Bit overkill, isn't it? But aren't you just investing in a law firm when you do that? Effectively.
+
+Yeah. But you're just... It's a better version of a law firm. Right? That's a lot.
+
+And you... And... But you'd be okay to do that because I meet a lot of companies doing exactly what you say. And I'm like, I don't wanna do a law firm. I'm happy doing a Legra or a Harvey, which sell to law firms, but they're not actually a law firm.
+
+Well... But we are seeing that. Like, some of the large law firms are now investing in AI directly. So I think in its limits, you'll see, basically Harvey sells to the law firms because the law firms have the channel. You know, is that channel gonna be enduring?
+
+I don't know. But I could also see them saying, well, you know what? We could just sell directly to companies. Like, personally, I would buy that. If Harvey said, hey.
+
+I have a solution that does all your NDAs. It does... It reviews your contracts, blah blah blah, like, all these things, and I I can gain, confidence that it works, I would send 80% of my workloads, my legal workloads to them. I am intrigued, though, because you spoke about some firms that are building their own. I think you saw KNE in the legal space commit, like, $500,000,000 to it.
+
+You know, Lin, Fireworks, where I'm an investor, spoken very openly about owning your own intelligence and the importance of companies leveraging their own data to build their own models. Do you think that is a very viable future or actually a slightly techno optimist prediction from a very specific standpoint? I think it's a bit techno optimist because I I think you have to have a certain amount of scale in order to build your own intelligence and own it. Keep going with law firms, for instance. If you're Cooley or one of these big firms, yeah, you can invest in these things and you can make it happen.
+
+If you're a mom and pop shop in the middle of Nebraska, you can't do that. So what you're going to use then is a service of some sort. Right? You may augment your attorneys with that service, and that's how you'll you'll provide service to your clients. So I don't see this as every company will use AI in a way of, leveraging their past data to make their own models better.
+
+They're not gonna do that. It's just that it's too hard for them. They want an out of the box solution. So I think there is a market for selling those out of the box solutions. But it's it's gonna be this long tail.
+
+The big players will start to customize because they have the scale to justify it. It makes sense. And it goes back to this idea that, you know, every part of our world is adversarial. Like, it depends on who you're fighting. Right?
+
+If you're fighting another big law firm and that big law firm goes and uses AI to supercharge their margins, well, you kinda have to do the same. The mom and pop shop probably isn't doing that, and the the people they're, you know, fighting against are not doing that. So they're gonna stay in this other other realm for some time. I think one thing that underpins a lot of law coding is the percent of salary that we will then transition to technology spend. Yeah.
+
+When we look at lawyers today, you know, I think it's about a $300,000,000,000 legal market in The US, and you're looking at that going, well, how much of that will be eaten by these providers? I think you see that same question there with coding. You saw Benioff say that they'll spend $300,000,000 of a $6,000,000,000 developer salary budget on core code and coding tools significantly. My question to you is, will that stay at 5% for developers? Will that go up to 30%, 50%, or will it come down to 1%?
+
+Because that is the mother lode question. I actually think the percentages will remain maybe sort of stable because we end up with this verification problem. It's hard because training humans to know what's good is actually the hard part. Developers, you know, it's actually not about what your direct output is on this day. It's not like lines of code.
+
+It's actually like quality of code that matters. So very experienced, very top notch developers, those 10 x developers, whatever, you know, they develop the sense of what is good, what looks good, what's aesthetically right, and they can they can make things work fast. In this new world, you know, those coders, those people who know what's good can actually verify the output of models and become more efficient. So I think what happens is we just produce more. And the market size, let's say, that we're paying for humans plus AI doesn't change drastically, just their output greatly changes.
+
+That's the way I look at it because play it out a little bit. So I'm spending, in a company, let's say, $10,000,000 a year to develop my software. Now all of a sudden, my customers of that software start having different demands. Ten years ago, they're, like, happy with one year release cycles. Now they're saying, hey.
+
+I want my bug fixed in a week. And so the only way to do that is actually to use AI with the humans. I'm not doing less. I'm actually doing way more. I'm fixing those bugs in a week and eventually fixing them within an hour, but I'm still paying $10,000,000 to keep developing this whole thing.
+
+And I need the humans that can verify those outputs and actually move to a a goal that's that's useful, fixing the bug, adding features. So I think the the pace of delivery goes up because the demand side starts to demand it. And and I think that is the the key thing here that's being left out is that it's not that everyone's job goes away because the same task could be done for less with AI plus humans. It's that now... Yes.
+
+That is true, but I will I will now do way more of those tasks because the demand side has increased. You you don't get one without the other. When the supply gets cheaper, it changes the demand side as well. So I think that's what's gonna happen is that we just end up doing more. We have more release cycles, more changes.
+
+Like, here's a a physical example I think that people can get their heads around. You know, let's say today, we have a rate of building a building. If I wanna build a skyscraper, it takes two years of construction, say. And that's based upon x number of humans with, you know, y sets of skills. So let's say all of a sudden I have robots that can do 80% of that.
+
+What's gonna happen? Well, okay. There might be a disruption in physical labor for a moment. But then you'll say, you know what? All of a sudden, my cost and time to build that same skyscraper, it was two years, but now 80% of those tasks are done by robots.
+
+I can bring the whole thing down to eight months. So it's not that you're just gonna build the same number of skyscrapers and just do it in eight months. You're gonna build twice as many skyscrapers. Right? There's gonna be more things churning, more buildings being torn down, more labor going into that market.
+
+So the total number of projects will go up. The amount of dollars going into all of those projects may be the same, but it'll be a combination of humans and and robots to build them. Naveen, you said that you obviously angel invest. You angel invest very successfully. You can downplay it.
+
+I think where I invest today, a contrarian thought for me is I do not like robotics investments. I think we are so far from where we need to be, and I do think that timing is important. Now I'm not saying the infrastructure to power robotics. I think the datasets around them are very interesting. We see a lot of people like Mecca or micro AGI that are actually in the infrastructure build out for it.
+
+But, like, the actual, like, application layer where we see, like, robot cleaners, robot builders, We are so far away from where we need to be. I don't wanna be there, and I don't wanna take the timing risk. Am I wrong? Am I naive? You're much smarter than me.
+
+Well, again, I'm pretty pilled on this one, so I am gonna disagree strongly on it. Okay. When you say we're so far away, put that in put that in some of the time. What do you what do you think is the timeline? Five plus years.
+
+Okay. We're not so far apart on this. I think we'll have working prototypes for some of these tasks in the next two to three years, and the market will emerge in five to seven years. I think that's right. I think there's also a clear line of delineation between, like, humanoids and nonhumanoids.
+
+Nonhumanoids absolutely see that clearer pathway. The humanoids, I'm I'm I'm really just... Whenever I think something's really obvious, I'm always like, I must be very wrong. Because the humanoids is so obviously so far off. You know, I I think we're gonna be in this weird world where we live in exponential development cycles.
+
+It's really hard to apply our old models. Something that looks like so far away today with an exponential curve ends up being much faster than you thought. And and like TAMs, what... You know, a market size is... Like, I think the inference market, what do I know now that I wish I'd known twenty four months ago?
+
+That the inference market was just, like, unbounded. It's unbounded. It's multi trillions. Like, if you asked me ten years ago, you know, what were trillion dollar markets, It's basic needs. It's housing, food, transportation.
+
+Right? You would never have thought something in tech would be a trillion dollar market. And I think just AI models themselves will be a trillion dollar market in the next few years. And the inference market is going to be a $10,000,000,000,000 market within ten years. So this is insane to think about, right?
+
+And to your point, we're moving some of that labor market and part of the value generation stack to technology. So that's where we're getting these giant TAMs. So the way I look at unconventional, the reason that I think it's a fantastic market to be in is that if we knock off a zero, one order of magnitude of efficiency on delivery of a token, that effectively 10 x's the market in some ways. So something was a trillion dollar market, now all of a sudden, have way more applicability. The base of potential uses just increases more than 10 x.
+
+This is Jevan's paradox. So I I think we're in this place where we can build these exponentials and just unlock massive value market. So I I actually think robotics is gonna be a 100 times larger than agentic coating. Woah. Woah.
+
+Woah. Well, that is slightly disagreeing with me, Navin. Can we just, like... Before we do a quick fire, can we just unpack that? Because I I don't wanna be completely moronic.
+
+Why do you say that? I think we're still scratching the surface of how to how to see the output of intelligence. So the physical world is something we've just not been in at all for intelligence. Like, I would argue robotics to date, like industrial robotics, are not really intelligent. They're rote.
+
+We're imbuing them with intelligence that we have, like how to do a task, and we're just doing it rote. That's not really novel problem solving. We will be in the realm of physical problem solving in the not distant future. Like, a world where I have billions of robots roaming around and they actually solve problems dynamically. That's a problem, that thing just broke.
+
+I'm gonna go clean it up. I'm gonna replace it. Like the cost of delivery of cleaning everything up in our world, building new buildings, solving physical problems will not drop to zero. I hate those drop to zero kind of statements. It will greatly reduce.
+
+So I think that market will be enormous, and that's why I think it's just gonna be much bigger than what we see today in the virtual world. Can I be blunt? Where specifically then do you invest in robotics? In the model companies that power them, the data companies that power the model companies, the the the consumer application leg? Where?
+
+I don't think the application layer yet. I'm more in the technology stack. So I actually think these guys who are doing the models haven't really figured out what they're gonna look like when they grow up. And that's okay. I'm I'm not suggesting they need to.
+
+Like, I don't think the value will be in the model. I am investing in companies that are building models. I think they are probably gonna end up building end to end devices. They're gonna build the robot with a model that does something very, very well. That's how they're gonna sell it.
+
+My personal take is that it's gonna go together. You're not gonna have a separation. Do you care about price when the TAM is what you said it was? Not really. No.
+
+I just see it as like, need to put some percentage of my wealth into that space because it's important. And that's where that's where there's gonna be a ton of growth. And so it's interesting because we're in this place where value investors or whatever you wanna call it, like traditional VCs are like, oh, you know, that's way overpriced. Like, guys, when we're talking about trillion plus dollar TAMs, the price is almost irrelevant. You know?
+
+I completely agree with you. The challenge is very often we have a customer too or a boss too, and it's LPs. And the LPs are an even lagging indicator who think that ownership and price are very important. And when you rock up to your AGM and you say, hey. Ownership's gone down and price has gone up.
+
+Yeah. They go, fuck you. They do. Until they start to see the big firms also have the same trend, and they're like, ah, okay. Maybe maybe that's where...
+
+The way it's going. Right? If you could put all of your money into one company that is not your own, what would it be? Oh, yeah. Probably like a physical intelligence.
+
+They are solving, in my view, something fundamental about how you define a task and then execute it. So conversion of a task to motor output. To me, that's that's the problem to solve right now for the physical world. So outside of what we're doing and building a new computer, I think that is... That's the next big problem.
+
+You've been incredibly successful across companies. What does no one tell you about having money that you wish you had been told? I think it's... It doesn't change your values. You know, you still have a finite amount of resources, but also at the same time, you you still value certain things in certain ways.
+
+Like, I... I'm still kind of cheap when it comes to certain things. It... There's no reason for it to be. What what are you cheap with regards to?
+
+Well, if you ask my wife, you know, probably, clothes, that kind of a thing. You know? I just like, what? I'm not gonna pay that for this... For a set of jeans.
+
+I think travel still, like, I... You know, I'm getting to a point where I will try to optimize my time, but overall, I'm like, god, that costs too much. I'm just not gonna do it. And it's not a... You know, it wouldn't have mattered if I spent the money or not.
+
+I just I just don't see value. So I think that's the thing. I I put money into things where I see value, and I can put a lot more money into those things. But places where I don't, I actually don't spend anymore. Dude, we're gonna do a quick fire round.
+
+So I say a short statement. You give me your immediate thoughts. What have you changed your mind on in the last twelve months? Yeah. I think in terms of investing, I've changed my mind on on useful metrics for progress.
+
+So I think we always looked at it as like, oh, we need to look at market validation as the main metric. And I think that's an old way of looking at it. In fact, I think it comes a lot from SaaS because market validation makes sense when there's not a deep technology route. Like when you're saying, well, I'm building a product that serves a purpose, it's all about market validation. But when I have something that is on its face almost true by inspection, like I'm going to cure cancer, you don't need to validate the market.
+
+You just need to validate the progress on the technical problem. So I think right now investors are in are in two camps. Some are saying, well, let's go. Let's let's invest heavily in these companies. You know, valuation be damned.
+
+You know, we're one of those companies. And the other set is like, oh my god. That's undisciplined. It's like, you don't have market validation. I actually think that's fundamentally wrong.
+
+And a lot of growth investors are still in that bucket. So I kinda grew up, you know, reading all the books about how you look at risk and investing. And I've changed my mind quite significantly on this, not just because my company is doing it, but I think now we're in this place where we're solving really deep technical problems, robotics, computing, biology. And it's not about market validation. The market is there.
+
+The market is very clearly there. You you solve that problem, a 100% people are gonna buy it. It's about progress of solving a problem. If you were completely resource unconstrained, professionally speaking, what would you do differently? I would start to build my own manufacturing.
+
+I wanna go closer and closer to the source of raw materials. We're in this world now where there are so many supply constraints from from the hardware ecosystem point of view. If I were unconstrained and I could build anything, like, this is kind of what Elon's doing, to be Yeah. We should build our own sorts of fabs because I can hyper optimize that layer for what I need. I don't need to take a thing that is a commodity that's been built for a 100 other purposes and make it fit my needs.
+
+I would build exactly the thing I need and build a better product. And frankly, I see it as all the value of a computer comes from delivering intelligence. If I can hyper optimize that all the way down to how I process the silicon ingot when it comes, you know, from the factory and how I slice it, I absolutely wanna do that. Great answer. What area of AI do you think is most overrated today where you would not invest?
+
+Yeah. I I think those those quick hits where you have a standard thing that's done by humans, I'm just gonna try to automate it. That's the worst place to invest right now, I think. I think it's very overrated. I actually do think that, like, Agenza coding stuff is quite overrated in terms of a market because I think it moves to the model provider.
+
+I don't think you get much value from the others. I know Cursor had a great exits and that's wonderful, But the model providers, the model itself is is where most of the value is coming from. I don't think it's the harness or the IDE so much. It's not super sticky. I've seen it in my own company, people move between these things pretty fluidly.
+
+So it's the model that matters and what what capabilities it delivers. So I think Agenci coding as a market modulo the model providers is is something I would invest in today. What percent of token traffic will flow through open versus closed in three years' time? I think it'll be 80% open. What does that translate to in terms of dollar traffic?
+
+That's a better question, actually. I think it's gonna probably converge on something that looks very much like the cell phone market. The mobile phone market is, just roughly speaking, iPhone is 20% of the total market, but 80% of the of the the margin. Something similar to this, we'll probably see that there's this relatively small number of very important problems that frontier models are needed for, and you'll pay much more for those things. However, all of the, like, routine tasks that you do will be handled by open models.
+
+So I actually think there'll be a rough fifty fifty split on spend. But in terms of tokens, it'll be only 20% to the frontier models. Who is the single best investor meeting you've ever had and why? Well, alright. I can give a bit of a story for first.
+
+Yeah. Go on. I think, you know, since I started Nirvana, I've probably had, I don't know, a thousand investor meetings. Right? So after, you know, the eight hundredth one to the eight hundredth the first one don't really leave an impression anymore.
+
+So very early on, you know, I had a meeting with Steve Juratson, who has now since become a good friend of mine. I was nervous as hell because I had heard so many, like, amazing things about this guy, super smart. He's just gonna take me apart. You know? That's kinda what I was I was told.
+
+I had a conversation with him, which we just started geeking out on numeric representations. And I was like, this guy's an investor? And then I send him a couple of papers. He, like, marks them up and ask questions. I'm sending responses back to them.
+
+Like, this is not what I expected from an investor ever. You know? This guy's, talking to, you know, like a a technical colleague in a sense. So to me, that was one of the best investor meetings I had because we were doing something so new that no one had pitched it yet. No one had pitched a hardware startup in ten years in 2014.
+
+This guy was almost champing at the bit to invest in something like this, because he'd been thinking about it himself. And so that was just like, boom. Let's go. I I love Steve. I remember having him on the show.
+
+He was he was fantastic. You talk about, like, willing to be nonconsensus is what I love about him. That's right. You have to be to make... To get...
+
+Make big bets that will pay off. By definition, the consensus is already wrong. It's already old. So you have to be nonconsensus. The challenge I find with being in Europe, though, is actually you have, like, the commoditization of ideas.
+
+And what I mean by that is actually now is that being a founder is quite a touristy thing to do. Everyone wants to be a founder for the experience. The quality of ideas has reduced. I don't think Americans are inherently better, smarter, more talented, but I do think you are more innovative around idea selection, and that's probably because of exposure, what you see, how you think, where to play in the structure. You know, we're still doing expense management with AI.
+
+Yep. No. Totally. I think I think we are given the permission to think bigger here. In Europe, you're not because the whole investor network and the way people think is so conservative.
+
+If you come in with a crazy idea, they're like, that guy's mad. I'm not gonna invest in him. Whereas here, it's like, that guy's awesome. He's thinking big. Right?
+
+No. I completely agree with you. It's absolutely right. The hard thing is... And I've got this pro...
+
+I've got this genuine... Okay. Let's do this. There's a series a now, and they are building space stuff. The team is great.
+
+They're awesome. But, dude, there's 20,000,000 check from a 400,000,000 fund. It's 5%. You you can't lose that that easily. Dude, it's a super risky play in space, and I do not understand it at all.
+
+I sort of look at these as in the early part of the technology cycle, like, all of us who are technologists are gonna give you a story, and that's what we need to do is build a narrative. That story is is going to be wrong. 100% will be wrong. I I don't know anything else, but I do know it's wrong. I don't know exactly where it's wrong.
+
+I don't know how wrong it'll be, but it is wrong. What you're investing in, I think, at that stage is someone to drive the bus, not the bus itself. Right? So the idea is right, the direction is right, and the team is what you care about. Can they drive that?
+
+Can they make the requisite pivots and and and right technology decisions to actually drive the bus to something that matters? The challenge actually that becomes in this market, you don't have the time with them. You don't? Yeah. I I would love to say, yeah.
+
+I I don't know. You probably get two to three meetings. You're right. And and you gotta do as much work as you can and talk to people that they know and whatnot, but it's hard. Yeah.
+
+I agree. Final one for you, dude. What are you most excited for? I like optimism. I don't like the cynicism that we have around bubbles and bullshit.
+
+What's your, like, I'm just fucking pumped for this? I am personally pumped that I look at AI as a a tool and capability that enables us to ask much bigger questions about the universe. There's so many things we don't understand in science, and it's because they're unapproachable. They're unapproachable from, just the number of humans who are... Who could think about that problem and actually make progress.
+
+The surface area of problems we can go after and start to solve starts to increase. And to me, that's extremely exciting. I don't look at, oh my god, AI is gonna kill all humans. That's the stupidest worldview I've ever heard. It's just it's just idiotic to me.
+
+I'm actually completely tired of it now. And it's like, no. No. No. Guys, AI is is the thing that enables humans to actually start to crack these bigger problems.
+
+Like, how can we explore more of our universe? We can do that when we start to understand deeper parts of physics. You know, we we have these ideas of, like, wormholes and these things. These are all, like, theoretical constructs. We can now start to use AI to start making progress.
+
+Can I actually build something that exploits that that physical phenomenon, or is it real or not? It's like, these are questions we can start to ask. In the past, we just couldn't. We didn't have enough humans that were capable of of approaching these questions. So to me, the ability to move science forward and to to move human understanding forward is so exciting.
+
+I can't even tell you. It makes me feel like a kid. You know, there's a world of wonder out there that we just couldn't even think about. We got brow beaten into our own capabilities of, like, this is all we can look at. And now all of a sudden, that whole world is open to us.
+
+Shows like this are why I still love doing the show after ten years. Like, the breadth of your knowledge is is just, like, wonderful. It's it's amazing for me to, like, witness, honestly. And so thank you for being so willing to engage across such a broad spectrum, and you've been amazing, dude. It's a lot of fun.
+
+I love, I love these conversations where we can riff on so many different topics. But before we leave you today, founders and investors sleep on Eight Sleep. It is the intelligent sleep system trusted by mister Mark Zuckerberg, doctor Andrew Huberman, Charles Leclerc, and the Aston Martin f one team. The pod is a smart mattress cover that fits on any bed. It cools each side to 55 degrees, heats to a 110 degrees.
+
+It even tracks your heart rate, HRV, and sleep stages without a wearable. Thank god. The new Pod six has a hub 50% smaller than the last one and starts at just $1,999. Visit 8sleep.com/20vc. That's eightsleep.com/20vc.
+
+While Eight Sleep helps you sleep better, MongoDB helps you build better. Every serious AI company right now has the same problem. Agents need accurate context fast. Most infrastructure though, it wasn't built for it. Well, MongoDB is.
+
+Eleven Labs runs 40,000,000 agents on MongoDB. 75% of the Fortune one hundred run their most critical apps on MongoDB. Trillions of dollars moving through MongoDB every single day. Instead of stitching together 10 different tools, you get one JSON native database, Vector Search, and Voyage AI embeddings in the same system, and it runs anywhere. No lock in.
+
+If you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and technical support to help you ship. Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents.
+
+While MongoDB scales the product, Framer scales the story. So if your team wants a website that looks and feels handcrafted but is really still fast to ship, Framer is built for exactly that. Framer is the AI website builder that helps creators, teams, and business ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Agents and humans work in tandem.
+
+Agents bring speed and scale. You bring taste, judgment, and control. The work lands on the canvas and stays editable. Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place. Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro.
+
+Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc. Rules and restrictions may apply.

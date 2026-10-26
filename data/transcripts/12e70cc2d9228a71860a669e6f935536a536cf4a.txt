@@ -1,0 +1,665 @@
+Alright, everybody. Welcome to the literal number one podcast in the world. Three weeks running. We got a lot to get to. Sachs is out this week.
+
+We've got a special guest coming up. Let's get to our first story. Ken Griffin says AI is almost certainly a bubble, and Chamath has responded. Chamath responding and moving markets almost every week here on the bot. Look out, France.
+
+The Citadel founder made the comments this week at the company's annual future of global markets conference, But he says generally, hey, bubbles are normal. Any radical transformation of our economy is generally intertwined with a bubble. He said he's bullish on AI's long term potential, but his concern is that companies are struggling to turn AI spending into productivity, something we've talked about here, I guess, last year. And so companies are, quote, looking at their bills from Anthropic and OpenAI and asking where the productivity is. We we had this discussion over and over again.
+
+On Thursday, tech continued to get crushed on the data center and cap x front. So people who are either making data centers like CoreWeave down 10% or having a huge AI spend, Meta, which is an extraordinary one there, it's down 6% after earnings, AMD down 5%, SpaceX was down 5%. But these things have been swinging up and down a bit and generally trending up. Shammoth, what's your take here on the market sentiment 10/22/2026? What are your thoughts here on how markets are viewing the AI, quote, unquote, bubble?
+
+And do you have concerns? Because Jensen from Infidia thinks money is available and money is gonna want this opportunity to finance it. And I think we all think companies are getting a ton of value out of AI technologies. My social capital research team had a really great call with Bramp's chief economist, Ara Karazian. The first question that they had was because, like, I was doing my own math, and I tweeted this thing, Nick, maybe you can put it back up there, where I said, okay, my back of the envelope math knowing everything that I know and everything that I see is about 1% of all of the companies represent 90% of all the revenue.
+
+Revenue for AI spend? Yeah. So what I said was 1% of companies represent 90% of AI spending, so that's tokens. And of that 90%, 80% of them are from unprofitable VC backed companies. So the cycle here, just to be very precise, is VCs raised from pension funds and LPs and foundations and family offices.
+
+They put money into a startup. That startup takes that money and invests in growth. Part of growing is by consuming other people's AIs. And so that company then starts to show revenue traction. Those folks then say, hey, look how well we're doing raises a bunch of money from the same VCs and it's just this circularity.
+
+Why that's important is what Ken is pointing out is that for AI to really scale as a predictable driver of long term earnings, it has to diffuse out of the startup ecosystem. And so you can't be in a situation where, on the one hand, you're talking about breathtaking valuations but where 75¢ of every dollar is actually just a startup sending it back and forth so that they can mark themselves up. That's, I think, a structural problem. Now, we've seen that structural problem in the past. That happened in the early days of cloud.
+
+When AWS initially started to expose EC two and S three, the consumers of an EC two instance or an S three bucket were startups. But the difference there is that AWS was abstracted from Amazon retail, which was already then a roughly breakeven profitable business, at least on a free cash flow basis. So what's different here is you have a bunch of money losing entities just spinning a bunch of money around and it has to diffuse more broadly. So I think that that's what Ken is observing. Now, when we brought that data to ramp, the quote is incredible because this is what my researcher told me.
+
+I prepared a list of factors to see if your thesis, this is him texting me, around VC money being 80 to 90% of the top 1% of AI spend. But he said, Chamath's actual estimate is pretty much correct. And then the second thing though that he said, he sent us and Ramp hasn't published his chart, so thanks to Ramp and thanks to Ara, he said we could we could be the first ones to publish this. And just to be clear for the audience, Ramp provides financial services, neobank, credit cards primarily to startups. So they know startup data.
+
+There's a free commercial. Yep. I think they know broad based data from other data sources as well, and I think Gartner has access to all of it. But they're but they're high here. Yeah.
+
+Now look at this chart. So what this shows is how are the top 1% of spenders in AI spending their money. And I think that ramp is gonna publish this soon, as I said, so thanks to them for letting us preview this. What's amazing to me is the blue box in this histogram. What this shows is what percentage of money they are spending on GPU compute.
+
+Now why does that matter? Well, the rose colored box is LLM traffic. That's the typical spend you're gonna spend on the big frontier labs, closed models effectively, either through things like Bedrock on AWS or what have you. What's really interesting is that the blue box is ticking up. The blue box is people buying their own GPUs because they're moving to open source.
+
+And so what I think is really interesting is you have this two pronged thing that's happening. One is the diffusion that we need within AI is happening a little bit slower than we all would like. I see that at 80, 90 as well. I think the large companies that we work with, you can almost pinpoint it on a chart. Ever since Alex Karp's commentary on CNBC about data sovereignty, buying patterns have changed.
+
+And I think people are being a lot more methodical. They are building out their own data centers or at least moving into VPCs, virtual public clouds. My team yesterday was at the CIO event of, let's say, one of the largest banks in America. You know what they said? I'm not gonna say the name of the bank.
+
+It was the most incredible thing. They said, we have decreased our spend on AWS and GCP. We now have six completely independent ground up data centers that we've built from scratch for ourselves. And I was like, what is going on here? Wow.
+
+Back to the future. People standing up their own data centers. Yeah. It's back to the future. So I think if you look at this...
+
+I didn't mean to have any commentary other than just observing what I think. But, yeah, AI has a diffusion problem. It is too concentrated and ripping around in a small little ecosystem. We need to diffuse out. But as it diffuses out, people are picking open source is what I would tell you.
+
+And we we we were early on that discussion two years ago here on the all in pod. I will say Ken Griffin... And I didn't hear the full quotes here because I wasn't in the room where it happened. However, based on the quote, I think he may have something slightly wrong. When startups flood to a technology, that is a strong signal.
+
+Why? Startups... And I invest in a 100 a year and we evaluate over 10,000 a year at my fund. They look for the cheapest, best, fastest edge they can get. What is the biggest edge they could get twenty...
+
+Fifteen, twenty years ago? It was cloud computing. They saved a lot of money. It was WeWork. They saved a lot of money.
+
+It was more efficient. And then it was Facebook ads. Facebook ads were mispriced. They were super cheap. They dumped all their VC money into Facebook ads.
+
+Then... And now it's become AI. For the last two years, yes, they've been dumping into it. So if you see startups rush to a technology or rush to a trend and start spending all their VC money on it, it means this little colony of two to 200 person companies have determined, and they're the most nimble, that this is the best solution. So that's a tell that things are going in the right direction.
+
+The big, slow, cumbersome enterprises, they're the slowest of the new technology, and that's why they buy startups all the time. Speaking of buying startups all the time, my guy Nikesh is here from Palo Alto Networks to tell us if this is the end of days and all of our bank accounts and if Bitcoin is gonna get hacked this weekend and buy more guns and chickens and eggs and drill a well, welcome back to the program, Nikesh Arora. How are you, sir? I'm doing great. Thank you for having me, guys.
+
+And you had a nice event last week, didn't you? A little nice event in Napa. I did. We had a bunch of CIOs, not just one bank CIO, like Shamat said. But before we jump into the end of days, I I do wanna say something to what you guys were talking about earlier.
+
+About the open source versus the sort of these hyperscalers providing inference. So we had this peculiar problem. We'd like to embrace AI as quickly as many of the startups. And we've gone through all the understanding, all the analysis, source versus cloud models. And we preference open source, open weight because it allows us to modify the weights and train them.
+
+And something which most people don't talk about is it allows us to interrogate the chain of thought. Because over time, what's going happen is all of us enterprises are going to need explainability, auditability, and 100%. 100%. If I can't validate, it's not going to be okay to go to your boss and say, I don't know what happened, but the IT guys put an AI model in there, it did it. That's not explainable to the regulator in financial services and health care.
+
+So they want explainability, verifiability, and and, you know, auditability. And we can only get that with open source, open weight models. We can interrogate chain of toss. That's kind of one reason we're gravitating towards them as opposed to getting caught into the closed race. The challenge, though, I think you guys talked about and you...
+
+I saw Chamath's chart. The challenge we have is it's very hard to find a global, resilient, highly available inference provider outside of the hyperscaler community right now. So if I'm startup grade, I can go rent 10 megawatts in one data center in one part of The US. And if it goes down for a few hours, I'm shit out of luck. But I'm a startup, so I'm okay.
+
+I'm providing resilient services at 99.9% reliability. It's very hard for me to find a global inference provider who does not want to sell me their model at this point in time. At the price, it just makes it economically useful to use open source. Let me ask you a question, though. Do you think that there's a world where Palo Alto Networks says one of two things?
+
+One is you go to the hyperscalers and say, okay. Listen, guys. You run it for me, but I want the bare metal. I want it totally air gapped. And it's an AWS facility, but I'll just lease it from you.
+
+Otherwise, just get out of the way so that I can have everything inside of it. Or do you do what this one big G SIB bank does and say, I'm gonna build my own inside The United States? Is there a world where do you think other companies go to that limit? Or do you think that's an extreme case that's probably not representative of the norm? So this is the interesting debate Sharma.
+
+You know, six, eight years ago when I came to Palo Alto, I shut down all data centers. I said we cannot run a global data center sort of footprint at the scale, speed, and reliability as I could probably rent it from hyperscalers. And life was great, and suddenly what's happened is, in the current sort of incarnation of where we are, compute is highly dear. It's very hard to find compute in the world, period. So I don't...
+
+I'm I'm a buyer. I'm I'm a taker of terms, not a dictator of terms. So it's very hard to go and dictate terms anywhere because, yeah, sure, you can make any plans you want, but those plans are... You you talk to Jensen. He can't give you chips till 2028.
+
+You talk to, you know, where do you get land power in shells? So it's very hard to go and say, yes, I can go build my own data centers, but it's kind of an empty threat. It's very hard to go build it. I would be resilient. And by the way, I don't run 50 data centers around the world where I'm running 10 to 20 megawatts of inference.
+
+So it's a it's a good conceptual sort of idea that I should go become independent, build my own inference. But most likely, the answer is somewhere in the middle. I'm going to have to get bare metal, yes. Most likely, I'm going get from either a hyperscaler or cousin of a hyperscaler, or somebody's going to be stitching sleeves of compute from around the world to meet my needs in the hope that I'm going to migrate to something more resilient and more robust over time. Alright.
+
+So you have a hybrid solution down there. One second. I just want to complete that. You have a hybrid solution down cyber software for no time to say no. Okay.
+
+Then you go and you basically get a bunch of open source models so that you can interrogate chain of thought tokens. Is that a representative solution for most of the Fortune 500 or Global 2,000? I think we get there. I expect at some point in time we will seeing hyperscalers giving bare metal and letting us run open source models. They already do to some extent.
+
+So that's probably what's going happen because, you know, it's a matter of the profit pool, right? It all depends on where you shift the profit pool. Today, they all live in NVIDIA and and the memory industry, and they're being shifted towards the hyperscalers, people who have large compute available because it's... It'll... At a point, it'll become less about the chips.
+
+It'll become more about the availability of compute because I think demand is insatiable. There's enough demand. There's more demand than you and I can imagine. So, yes. I understand the enterprise diffusion comment, but it's going to get diffused.
+
+The question is, even if you try... If every company in the world today said, I'm in. I'm in. I'm ready. I'm embracing AI.
+
+Let's go as fast as we can. There's not enough compute in the world to satisfy us. Right. We ask you to come on, Nikesh, not just because you're awesome and you're you're now a bit based He's a bestie. He's a bestie.
+
+He was very quiet under the radar. I hang out with Nikesh every forty eight hours. I know, dude. And I keep keep running into each other. I mean, every time there's a Knicks Warriors game, Nikesh invites me to sit with him, so it's awesome.
+
+Is there one That's not true. I'm just manifesting. He's got great seats. I can manifest. A boy can manifest.
+
+Kid from Brooklyn's manifesting. As long as you're willing to go with my 11 year old, you're welcome anytime. Okay. I'm totally fine with that. He's always looking he's always looking for something to go with.
+
+So I love he could be next, Jason. No. I'm happy to babysit if... With the courtside seats or second row. He'll he'll babysit you.
+
+Exactly. But there's a cyber panic going on. All seriousness. The last couple of days, AI found two major exploits that impact most of the Internet. Here's what happened.
+
+PHP, which is an open source coding language, powers about 70% of all websites, think WordPress, Wikipedia, is at risk. In August, security researchers using AI found two, one two, critical exploits nicknamed PHP to Shell. PHP's security team gave this a severity rating of 9.2 out of 10, basically DEFCON one for these security teams. Since August, developers and companies have been working together on fixes. This is standard operating procedure, and the plan was to roll these out gracefully in one major patch on October 22, which is the day we're recording this very podcast.
+
+In the days leading up to the release, information about the exploits leaked. Nobody knows how it leaked. That's gonna be part of the postmortem of this cyber attack week. So PHP moved the release up just by a day to Wednesday, October 21. And on Wednesday, all hell broke loose.
+
+AWS reported a jump in hacking activity while Cloudflare CEO, friend of the pod, said they saw millions of hacking attempts as well. A bunch of precautionary shutdowns happened. Governments across sites in Europe, France, Germany, Netherlands, Denmark, Finland, etcetera, they started taking websites down. Wikipedia took down some of its systems just to get them patched. In The United States, the NSA and the FBI put out a bunch of warnings and now everybody has started panicking.
+
+People are starting to think that Bitcoin's gonna get hacked, their website's gonna get hacked, their bank accounts are gonna get hacked. It's a bit of chaos. And then there's a second sub issue around agents accessing banks that dropped at the same time. Now you're in the security business. You've got lots of different products and services here.
+
+When did you first learn about this, and how severe is it? Is this an acute issue, or is this a harbinger of things to come? And is this gonna happen every ten days for the next year as these models have gotten incredibly powerful at what we call cyber, which really means cybersecurity, not just cyberpunk, but cybersecurity? Oh, Jason, I think ten days is too long. I think these things are going happen much faster than every ten days.
+
+I think part of the challenge we're seeing is we've been talking about technology debt that we've all have to go pay sooner than later. And what's happened is people have not paid attention to the idea that they have to go fix their stuff. I'm at a customer once they were, but, you know, I talked to the CIO this morning. They had a PHP problem. They have a bunch of websites.
+
+Some are running the most advanced piece of software so they can put the patch. Some are running older versions, which they can't patch. They've got to bring them down and go build them up. But you know what? They never did anything about the fact they were running older versions because it wasn't important.
+
+So now they have got to go take those websites down. They're going to go upgrade them, put the patch in, bring them back up. We found out about this a few days ago. We scanned everything in our infrastructure to make sure that there were no issues. We made sure that our products had patches available for our customers who deploy them.
+
+So there's two ways to solve this problem, right? One, can go in and patch the vulnerability. You can go in, find the code, patch what has been given to you by PHP, and make it work. The other is, you can actually put it in a perimeter defense product like ours or Cloudflare has one, or other firewalls have one. You put the patch there.
+
+It's a virtual patch, so any attacker trying to access that vulnerability can stop the perimeter because we know what they're looking for. They're coming to a CDN, the content delivery network first. And that acts as a first line of events because they're not getting to the actual servers. That's if they do get to the actual servers, my understanding is they can run code on these servers and Yes. There were some security certificates that were incredibly brittle and easy to hack.
+
+The closed models have basically said, hey, these things are cyber risks and so we need to be very thoughtful. I know Anthropic did that with Mythos where they brought you in and a bunch of other people and like 50 companies in and said, now go harden your systems. Were the closed models helpful here? Were they the ones that helped you find these CVEs? Bring us behind the curtain.
+
+The closed models are... Can be helpful because both OpenAI and EnswapiC and most likely Google as well have very powerful models now, which can go... If you give them enough compute, enough persistence, they're gonna go find vulnerabilities. They're even chain vulnerabilities to find an attack path, right? If they can solve neighbor's stokes, they can change four vulnerabilities.
+
+And if you give them enough immense compute, they will try every way possible to be able to it. Actually, the PHP problem was solved by persistent compute. This problem was identified a few years ago, but nobody thought it could be solved because it required too much of coordination. So what happened was, if you throw compute at the problem, it persisted and it found a way to crack that. Once they found a way to crack that and they published it, it got reverse engineered.
+
+Every hacker knows now how to go after it. Because the challenge you have with patches is hackers are smart. They look at a patch, they see what the patch is trying to do, they reverse engineer it from there, and say, okay, if I follow the reverse engineer path, if somebody's not patched, I can break in. It seems like a bunch of the hullabaloo today that's being grumped up, and this seems like it's gonna change every day, is all about these bank accounts getting accessed. Is that...
+
+Do you think primarily through kind of the front end through a web website using an agent that's logging in on a browser based system on behalf of its user? Because it seems like a lot of this may be coming from news or some of these other sort of, like, personal agents. They're logging into your bank account to get information about transactions and what you're doing, and the banks are seeing all this activity and they're like, oh my gosh, is this authorized? Is it not authorized? The traditional way that banks have provided access to account data has been through APIs using verified applications where I as a user, as a consumer, would log in to my, you know, mint.com account, and it had a a legal access point to to Amex or to Bank of America.
+
+Service there. Yeah. Plaid is an intermediary. Yes. And so there's a bunch of these sort of intermediaries that then provide that capability to apps.
+
+Is that ultimately gonna lead to a world where the banks are all gonna just turn off website access and say no one can log in to a website because technically agents could do it and they're not able to kind of manage that. How do you think this is going to evolve as it relates to consumer financial services? Because I actually think this is going to be a big part of the press cycle over the next week or two. Two things, sir. Yeah.
+
+I think two different things, David. I think the reason banks have found that in sort of unauthorized access to their accounts is possibly because of PHP problem. Because their websites are hackable, and they've been able to get through them and get to credentials. I don't think... There are two different problems.
+
+One is unauthorized access happening because people have not... You know, these sites have become hackable. I think the second problem you're mentioning is the personal agent problem. So far, most personal agents are using your credentials to log in. So it becomes hard for a bank to decide whether it's actually you logging in, or is it your Muse agent who has your credentials logging on your behalf.
+
+They cannot distinguish between your traffic or agent traffic. They're both logging in from the website. They're basically logging in as you in your browser and trying to conduct the transaction. Now, as you know, there's this technology called CAPTCHA, which tries to see that it's not a tech... It's not like an agent that's sort of...
+
+Or it's a sort of a bot or an agent accessing the account instead of you. Not today there are ways to validate CAPTCHA with AI, so you don't even actually have to have the human on the other end. That's Yeah, it's pretty good at it. It's pretty good at it. Actually sometimes I have to squint to see what the hell does I want you type.
+
+Yeah. Click all the bicycles in this picture. It's like it takes you three times at our age with our eyesight. But the the interesting thing here is that there is a hybrid as well, Freeberg, which is your your Muse agent, your Grok bot is running a virtual browser, it will pop up the virtual browser and say, hey. Do this catch and then take over.
+
+So, Nikesh, is this fear, uncertainty, and doubt, the old FUD by the banks to try to neuter or sandbag these agents from getting the the front door to banking because then they could just route to a bank that's cheaper, better, has better rates on behalf of the agent. I think there's... I think that would be giving them a lot of credit. Okay. I think I think I think right now problematic.
+
+The the fundamental challenge they have is a liability problem. Look. It's kinda like if you call customer support at your favorite bank and say, I don't know how 50,000 vanished from my account. I never did this. Yes.
+
+Right? What's the spearmint rhino? I don't know what this is. Keep the challenge is times. Going.
+
+Keep going, Nikesh. Don't be distracted. Don't be distracted. Just come on. Have a real fun here.
+
+We're number one for a reason. The challenge is you... That you've given your credentials to an agent. You didn't realize that it got your credential. It's living on your browser, living on your laptop.
+
+It's gonna get innumerable amount of credentials. And I think the biggest problem we're gonna have is who owns the liability and who has accountability, whether it's enterprise agents or consumer agents. So I think you see banks saying, do not... I do not allow you to interact with me with your agent, period. Right?
+
+They're Right. Yelling that disclaimer from the start of the group saying, it's not gonna be my fault. Look. Banks had to go... Don't forget.
+
+It's not even the... Probably the cost. It's like the liability is secondary. Remember, banks, we all know this. Like, credit cards below a certain amount of money.
+
+They don't want dispute it. Just pay you because the cost of the customer support call is higher than than they're gonna have to deal with. Now if you start having tons and tons of these agents doing and you start calling your bank for explainability, you're gonna create huge amount of cost. I think I think that's where they're going, to be honest. Okay.
+
+You have a unique you have a unique seat, Nikesh, because you you talk to the people who are being hacked, have been hacked, and and you help them prevent being hacked with with this... All these suite of services over at Palo Alto Networks. So I wanna take you through a couple of the theories people have about AI's impact on security. You tell me if you agree with them or not. The first one is this is going to be largely an issue of who has the most compute.
+
+And because the White Hats have access to the most amount of compute, they will be able to out commute... Compute the black hats, in other words, the hackers. Is that a true statement, or is that not yet a true statement? And and maybe it will be in the future. In other words, Palo Alto Networks or or or OpenAI, whoever it happens to be, could fire up so much compute to defend systems that a bunch of hackers in North Korea, Russia, China, etcetera, just don't have the the firepower and they'll be outgunned.
+
+True? Not true? When will it be true? True? Not true today?
+
+Because the underlying systems are not are not architected or orchestrated in such a way that we can launch these, let's call it defensive swarms, because everything is sort of in disparate situations. Right? Like, if it was true, then by definition, you could send out a bunch of agents to go patch PHP if you wanted. The company's got 5,000 websites, and guess what? The poor IT guys are going cataloging each one of them because they've never actually aggregated everything, put it together, understood their...
+
+So I think we need to get our infrastructure to a base level of preparedness, which is the tech... Where the technological debt lives. Let me take you to the next thesis and theory people have here, which is persistent computing, reviewing code, and people taking proactive measures more seriously is going to solve this problem. And right now, we just have this interim period where people have accumulated technical debt you've talked about, but AI is gonna solve that problem because you'll have persistent tools from companies like yours and others or in house ones that are constantly banging on systems to find these before hackers get to them. Is that gonna be the endgame here?
+
+True, not true? Short term, true? Long term, true? Take us through it. True.
+
+Today, if you can see, almost every large company in the enterprise space is out there busy using Mittos or equivalent to try and penetrate their own defenses to see where the holes are They're trying to patch them. The challenge, as you'll appreciate, is that the next model is going to be more powerful. It's going to find more ways to get into your infrastructure. So you're going to be playing this cat and mouse game while constantly patching. I think there's a slightly different sort of version of this, Jason, where for a second, let's assume that you will get breached.
+
+Okay? Because there are so many vulnerabilities out there, can spend a lot of money patching everything. The question becomes less about how I got breached, and which vulnerability is going to let people through. The question is, how quickly can I find them, and how quickly can I eject Right? Okay.
+
+Our advice to people is, build the infrastructure in such a way, which is possible today, where you're aggregating all the signals, all the data in such a way that you can actually look for anomalous behavior with that white hat compute you talked about. Right? Because I have more compute. Go ahead. Raj, go ahead.
+
+And then the third one is the frontier models are causing a lot of this chaos because they are gatekeeping the most powerful solutions to do cyber defense and that the open source community is giving more functionality to the white hats, to the security teams, to the CISOs to actually solve this, and that frontier models need to change how they deploy this technology in some way. Are they causing part of this problem by gatekeeping this technology and not giving the raw power to the White House? What did you say earlier about is a diplomatic answer, about giving too much credit? Yes. I think I think your theory is giving too much credit.
+
+Again, I think that they... Remember, majority of them are researchers to start with. They're sitting there and saying, wow, this is extremely powerful. What do I do with it? And they're talking to us and saying, what do I do with it?
+
+Now remember, these models that are so far ahead, they're still trying to figure out how to release them, how to package them, how much compute are these guys going to take? And they're all compute constrained. Right? So they're all rate limiting all of us. Even though I have access to the most recent model, is available publicly, I'm still rate limited.
+
+Right? So there's tons of issues that are going on. So I think they're not causing the problem. They're just trying to grapple with the fact that these things are extremely powerful. What they would like, they would like to figure out how to monetize it.
+
+You want to keep it with you? No. They they just need money, bro. They're like, they're all listening to your conversations about compute needs and where the money's gonna come from. They're like, they're not trying to compete.
+
+They're just trying to go after profit pools because they want a lot of money because they gotta go give it back to, you know, Jensen. So that's their main issue. Yeah. Let me ask you a hypothetical question. I'll ask all of you.
+
+I use one of these agentic services. I'm a consumer. I give it my credentials to my bank account. Let's use your example. Dollars 50,000 goes missing.
+
+I don't know what happened, maybe I escalate it to the agent I use, you know, instinctmusedot, or a copy of a, everybody's finger pointing at the other one. Maybe there was a prompt injection, who knows? Maybe the agent just went rogue and transferred the 50 ks. Let's just assume that that's possible, 5 ks, because it's under some threshold. Who is responsible?
+
+Okay, Friedberg, who is responsible? And who should be responsible? Who is responsible? Who should be responsible? Well, the terms of service of the bank say you can't use an agent to access the bank account through the website, right?
+
+Does it say that now? Yes. Yeah. So given that that's the terms of service, if the agent hasn't built in a capacity to recognize that and stop that access, then it is a software liability issue with the provider of the agent, I believe. Unless it alerts you and says this violates the terms of service, do you wanna override my block and do you wanna do it?
+
+Now the liability shifted to you as a user. And we have evidence of this, Jamal, not in banking, but in ecommerce. Amazon has blocked these and subsequently, Grok now will tell you, my Amazon shopping bot says, I can no longer check out for you, but I can put it into your shopping cart. Tell me which address, which card you want, and I'll tee it all up for you, but I won't hit the buy button. So it's being adjudicated in real time right now, and I think that's probably where we wind up.
+
+Nikesh, what do you think? You are. Yeah. I think I think... Come on.
+
+We all have to take responsibility to empowering agents and giving them our credentials. You can't say I gave my credit card solution. To I gave my credit card to Shammoth. He went and burned $20,000 on it. Who's responsible?
+
+The bank? No way. Is it Shammoth? Yeah. He is.
+
+But I gave it to him. Yeah. But what if the agent Shammoth says, I have been programmed to be maximally helpful, you know, these sycophantic agents. And it goes and says, I found a way. You know, I found a way.
+
+Actually, if I fire up this type of browser and I simulate a human behavior, I think I can get this done. That's what a lot of these agents will do is they'll try to please you, and they find that. Then that to me would lean towards the platform providing the agent No. Jason. It's you.
+
+It's your responsibility. Yes. There's a word in agent. It's called agency. Somebody has to give the agent agency.
+
+Okay. Who's giving the agent agency? You or Facebook? I think you're giving agency to act on your behalf. And if you're the one who's giving agency, you have the liability.
+
+I do As assume a practical matter, it's the only scalable solution because what will happen when these lawsuits happen is everybody's incentive, everybody meaning the corporate incentive. BofA will point to Facebook, Facebook will point to the user, it's the only way that this thing continues to scale like this. But, Ahmad, there's an exception case, And I think Jason said it in his words, you said it, but we didn't dwell on it. It's called the rogue agent. Now that's a product liability issue.
+
+And if the product does not behave like it was intended to behave Right. Then there is a platform liability in my mind, which says, wait. You said this is what it does. And today, you buy any product in the world, if the product doesn't do what it's supposed as advertised, it goes rogue on you, then it's the person who built the product. It's their fault.
+
+This is where we're going to territory, which is, hey. It can do a 140... It's capable of doing a 140 tests, you know, just maybe not really. Let me ask you in in the weeds question. We incubated a company, Obliteration AI.
+
+And what this company is doing... Nice name. Yeah. And obliterated models, maybe people don't know about but they're going to understand what these are. This company, a little bit controversially, provides models that have no constraints, no guardrails, and it's your responsibility when you have a red team, a team that's going out and banging on different vulnerabilities, to build up those.
+
+What are your thoughts on this new somewhat controversial Wait. Before you go... Yeah. Let me just say, before you go, I find obliteration unbelievably scary. That is a vector of risk that is so unbelievably underappreciated right now.
+
+Because to your point, Jason, it is a very long tail thing, not enough people understand what it is, but I find this probably the thing more than alignment that I think people should really understand and think about. Sorry, Nikesh, over to Yeah. Go ahead, Nikesh. Tell us what you think of these services. So I think this is where...
+
+This is the dark side of AI. And what I mean by that is, you know, we've had all these debates at the White House. Many of you were present. We talked about responsibility and alignment and making sure we tested them before. The problem is you're dependent on the weakest link.
+
+If there's a company which is going to give you the raw power of AI without any guardrails, without any controls that are either built in or can't be built in, you're basically handing a nuclear sort of bomb to the hands of anybody who wants it because you can afford it. That's the problem. Because at one level, we're saying we need global treaties to manage the pacing of AI or development of AI just for good. On the other hand, you're saying we can have a company which can allow you to have this most powerful thing with no control, no guardrails, and no governance. Like saying, Hey, here's a DIY aspirin kit.
+
+Have a good time. You can build your own medication. Have a good time. Sometimes I get it wrong, but don't worry about it. Or just giving somebody some really powerful power tools to build things that make things more secure, like build a wall.
+
+I don't understand what the no small of your company is. Like, your your company is, like, basically, like, inducing product liability as a service. Providing it to White Hats under very constrained... No. It's providing this to White Hats and corporations.
+
+They they share the same logo list as Nikesh and Palo Alto Networks. There are people who want access to these in order to do proper testing and make things more rigid. So you do have a higher authority of, like, not providing this for free like Claude was doing. But, Jason, are you telling me they they they underwrite that these... That when you put these things in infrastructure and produce testing, they're not gonna go rogue on you?
+
+Well, it's your responsibility to to manage the model as opposed to giving it to in this... Yeah. You know, if you were the NSA or if you were Morgan Stanley, you might need this too. How's that different for me going and taking open weight model and training it to my needs? You could do that.
+
+This is just a a place that has the infrastructure to do it. So providing that infrastructure you talked about earlier, like, who's gonna serve it and that kind of thing. And and and making... You know, just essentially making it more efficient for you to do this with more constraints, you know, and letting you take the liability. But it's a very interesting question.
+
+Why does technical debt build up? And historically, have we just under... And allow these causes of these cyber scares, is this just all because corporations deprioritize security and technical debt and that we just need to change that in this new world, and that will essentially solve the problem if we prioritize safety first? Nobody wants to work on this stuff. I mean, the problem is when you ship something into prod, everybody wants to work on, like, the next greatest thing.
+
+Nobody really thinks about, like, maintenance as, like, a sexy idea. That's one thing. Second thing is if you actually deploy it inside of your own virtual private cloud, the problem is the software vendors don't have this one version that's constantly updated. You have a drift problem where you have a version, Nikesh has a version, has a version, they're all out of sync. And so now, you you as a software vendor are maintaining 19 versions because everybody has their own pace and cadence for upgrades and migrations.
+
+Then you have the fact that technologies are constantly changing and the underlying way in which things can happen change so rapidly, but the way in which you've done it represents a sunk cost and you can't just rip and replace this stuff. And you multiply that by millions of companies and hundreds of trillions of lines of code and this is why it is like it is. And, Chamad, also to add to that the incentive alignment problem. The CIOs are not incented to maintain the most modern infrastructure. They maintain to keep costs low, and then maintain to keep everything available all the time.
+
+So every time you want to upgrade something, it introduces risk of blowing up or going down. It's like, I don't wanna go I don't wanna go change everything all the time because all my users complain because you know every time you upgrade something, change something, it causes friction in the system, and then it costs money. The last time your your CIO showed up and you said, yeah. Great. Have some more money and have a bigger budget because of new toy?
+
+This is a real tragedy. And and you'll see this with, like, say, the CIA or the FBI. If there's no terrorist attacks, people are like, we're spending too much money. And it's like, or we're spending the right amount of money because we haven't had a nine eleven again. And when they come to us and say, hey.
+
+We need more because based on what we're seeing, you know, there could be another, god forbid, nine eleven, and then congress or whoever's, you know, got the power of the purse at that given point in time says, yeah. You know, we're not gonna give you more money because we haven't had one in twenty years. That that that is really the core of this problem is they only get credit about to change. Because we're gonna have a bunch of nine elevens in cyber. Yeah.
+
+Guess what? The phones keep ringing every day, and the conversation always is now how do I get out of this? Because I'm tired of once getting punched in the face every morning when I wake up. When people really appreciate the the the CISO and and those groups when these things... And the systems come back online and the system's been hacked, it's gonna be brutal the next year or so.
+
+Yeah. It's gonna be a big transition time, Nikesh? Well, I think I think, you know, the CIOs could become the next CEOs. Think about it. If you believe in three years from now, every business function of yours wants to transform themselves with AI.
+
+Let's go to the positive side. Right? Yeah. My my CFO has never wanted AI. He's saying, dude, I could do all this financial analysis, just appoint some people to my team.
+
+My marketing people want them. My HR people want them. So almost every function wants more AI people, which has never happened historically. Everybody's wanted... Everybody wants AI people.
+
+If that's what's going to happen, every function is sort of waiting for AI or technology people, they all want the CIO to come and help them, then who's the person running the company? What percentage do enterprises spend on security of their total spend, and what should it be ideally? I'm just curious. We have no insight here. The insight is that typically of your IT budget, the cost is somewhere in the four to 10% range for cyber.
+
+Okay? And 10% is typically where you'll find financial services, the federal government, because they want to make sure things are secure and robust. 4% can either be cloud people, because that's where the hyperscalers will take care of infrastructure security for you. You just have to worry about application and software security. Mhmm.
+
+So it ends up at four to 5%. That's the range. You can get a four to 5% to eight to 10%. Yeah. And that's gonna have to go up.
+
+And there's there's an an issue, I think, you're pointing out. If there is AI talent in the building, we gotta build new products and services for our customers. YOLO. Jason. Jason, there's a whole...
+
+It's kinda like... You know, I I was joking the other day, but it's it's true. Like, look. There's a whole new category which we even don't know how to put our arms around AI. Like, nobody knows.
+
+Like, imagine if I said, great. You know what? Go deploy AI in my company, and let's make sure AI is secure. Well, the boss says, whatever you do, make sure you can integrate agents to the channel top. That's easy to say.
+
+That's hard to do. How do I find all the agents that are running it? So it's like, we haven't built the AI security harnesses that are needed. I joke, like, you know, when they invented planes, the Wright brothers are out there. No one said, let's go create TSA.
+
+This is about time. We're build security now because the bad shit's gonna happen. So people are busy enthusiastically deploying AI, embracing AI. You saw... I don't know if you saw this morning that, you know, with somebody...
+
+Some researcher found that if you send a muse conversation to somebody else, you can extract private information out of it. So now they've got to go back to the drawing board and patch it. So everybody's experimenting. New shit's being found out. We need to build all the security harnesses for AI, and that's not even started yet.
+
+Bernie Sanders goes on Twitter today and says, look at all the craziness. This is insane. Stop AI now. So you're in a room with Bernie Sanders. Someone says, Nikesh, we need you to save America.
+
+Go meet Bernie Sanders. You get on the plane. You go over there. You get in the room, and the and the guy says, we gotta stop AI now. What is your response?
+
+How are you gonna solve this problem? Zakash, Aurora, how are you gonna solve it? I said, sounds like a great idea. Let's go. Why don't you start?
+
+I'm right behind you. It's like Yeah. I get it. And then, like, you know, with all with all respect, like, it's interesting. This is the first time we have dwelled so much on the dark side of technology in history, and I don't know why it is.
+
+Maybe you guys can explain to me. We spend so much time obsessing with the dark side of technology, and my thesis is it started with the godfathers or whatever you wanna call them, the the builders of this technology. They've over indexed and dwelled harder on the dark side of this, causing this narrative. I think we need a narrative shift. I mean, think about it.
+
+Like, we we only hear about all the bad stuff that that this technology does. Oh my god. I got midsauce. Wait. I got something worse.
+
+My guys jumped over. Wait. Mine jumped over six months ago. Mine are worse. It's like, dude, this is not a good narrative.
+
+This is a race to the bottom from a narrative standpoint. Lab. Nikesh, why then do you think Bernie Sanders and others are seizing on the moment? I know we've talked about this before, but, like, what's going on that's motivating Bernie Sanders to be so vocal about stop AI, stop AI? Is it like a power struggle that they view there to be an emerging system of power that they don't control, that they don't have a hold on, that diminishes their power, or is there something kind of more simple than that?
+
+David, this is where I phone a friend. You guys are much more competent at answering these questions than I am. Jason and Shimath are probably better better equipped to answer these questions than me. Yeah. Yeah.
+
+Yeah. It's a it's a populist issue. If you... If if the people at the labs are gonna tell you half of white collar jobs are going away and all the, you know, drivers are going away and it's a ten percent of everybody dying, I mean, what a great issue to align yourself with if you're a populist, whether you're America first populist on the right or a liberal on the left. It's just a great way to get people's attention and get votes and, you know, maybe it helps you win another election.
+
+Nikesh, we appreciate you. You're busy, and this is, like, the busiest time you could possibly have, I think. Right? What is your day like? Have you slept?
+
+I mean, are are you just getting woken up by clients at, like, 1AM when they're like, hey. I need a... I need front... Forward forward deployed engineers from you. I mean, what's going on in your life?
+
+I I woke up at three. Flew to the East Coast. After this, I'm gonna get back on the plane and come back home because I gotta make it time for dinner with customers. Crazy. I mean, it is just a crazy time for you, man.
+
+I go to sleep. I know. Yeah. I love it. Yeah.
+
+I mean, this is the time to grind. Alright. I love that. Alright. Thanks so much for Nikesh for joining us.
+
+Gotta be sworn for a full episode and talk about a range of issues. Thanks, Nikesh. You're so Follow and follow Nikesh on x. He does it daily. He does one tweet per day, and it's based in Nikesh.
+
+Mhmm. Thank you, Jason. Alright. Next up on the docket. Is this the fault of France, gentlemen?
+
+We covered this two weeks ago. Situation in France is... My god. Well, the place is on fire. It's gotten worse.
+
+Over half a million people have taken part in the protests. They've now spread to Italy, Spain, Albania, a couple of other regions. Over the weekend, France saw its worst riots in decades and they love to riot, so it's a high watermark. Numbers, pretty striking. New York Times data by the French guy.
+
+They're good at it. This is their wheelhouse. Pro Over pro rioters. Pro rioters. Professional rioters.
+
+Exactly. It's kind of their number one pest. And for us, it's like football. For them, it's riot. Over 3,000 businesses, Shammoth, have been damaged.
+
+You've seen the videos, obviously, trending all over the place. Hundreds of millions in losses. Over a thousand police officers injured. 2,500 people have now been arrested. 70% of them are adult men.
+
+You remember this was a high school protest because high schools were dilapidated and underfunded, and that's what the origin of the protest was. Now it's just become complete civil unrest and looting. Multiple historic government buildings tragically have been burned down. Notably, a 143 year old city hall in a town 250 miles south of Paris, Le Moges. Le Moge.
+
+Beautiful name. Beautiful building. Absolutely heartbreaking to watch it collapse. For what reason? So they could upgrade the schools in France?
+
+Seems like there's a lot more going on here. France has finally implemented some curfew... Some curfews. I don't know how you don't do that day one. New York Times, quote, France France's government has accused ultra left militants and opportunist looters of causing the violence.
+
+President Trump and vice president Vance have called this a third world immigration and welfare state issue. Here's what France's justice minister said. Riders include, quote, people from immigrant backgrounds, people who are foreigners, but there are also people who are fully integrated and who are French. Our partner, Polymarket, says, 18% chance France declares a state of emergency by the end of the year. Same time, investors are dumping French debt, Friedberg.
+
+France's tenure has surpassed 5% this week, highest since 2002. On the other hand, and this is an ongoing issue here in The United States, Ten year dropped just under 5% for the first time in a month. Wall Street Journal says this might be because people are fleeing EU debt and buying The US debt. Polymarket, our long term partner here at All In, says 91% chance Moody's or S and P downgrades France by October 31. So let's stop there.
+
+Shmoth, when you see this and you spend your time in Italy in the summers, obviously, we talk about that here on the pod, You see it happening in Italy. And what's your what's your takeaway here from what we're seeing? It's heartbreaking to see what happens. Let's just be very clear. I think that these people are absolute criminals.
+
+They're all terrorists, and they should all be arrested. And I think that this shows sort of like what is at the end of all of this quote unquote empathy that all of these governments have been espousing. It's just a disguised way of promoting urban chaos. And, I don't know how a police officer thinks it makes any sense for him to be deployed into this melee to do what effectively, like, protect a Christian Dior store in the Setya And Merondissement Of Paris, like, is so stupid. So these folks have created the Tinder box and the conditions for this to happen and they've done it because they won't even acknowledge what this is.
+
+Even when Macron went on state television, he tried to talk about this in terms of the suffering that these people must have. When you look at these pictures, these are not people that are suffering, these are people that are, enacting chaos and violence and terrorism, domestic terrorism. And I think you need to respond to these people with an incredibly heavy hand. And then you need to fix the much broader problem. And as you said, Jason, I think what's happening now is that France is gonna be in an incredibly difficult economic position.
+
+We've already talked about this before that the... That France is this critical country that's gonna set the tone for the rest of Continental Europe in terms of how it finances its long term debts. It's already proposed €50,000,000,000 of austerity. That's gonna have to go up. I don't understand how in an austerity scheme you actually invest in things like education in a way that would appease these people if that were the true thing that they were rioting and protesting about.
+
+The government is in a no win situation. I think they are going to lose the upcoming presidential elections, and I think you're going to see a very complicated reset of the French bureaucracy and the French economy. And I think this is the this is the harbinger of of a lot of change to come because the average French citizen should not tolerate what's happening in their country right now. Friedberg, what's your take here when there might have been completely valid peaceful protests, high school students protesting. It's a beautiful thing.
+
+They they they have some gripe. They created a lot of the democratic system that we actually built America off of. They they were great pioneers in democracy and protest. Completely valid form of protest, peaceful, taking to the streets, and then it tips over into something that's obviously, at a minimum, just incredible criminal and potentially, you know, in Shammat's interpretation, you know, terroristic. And the definition of terrorism to terror terrorize people for your political goals, yep, seems like it fits the definition.
+
+So for you, what do you think this represents? Is this a harbinger of more to come and something we might see flare up here in The United States again? Remember, we had the BLM riots. We had the January six riots. We've had our own series of riots here, and they had a very similar pattern.
+
+You know, people who felt politically, like, maybe... Or socially, weren't being represented properly. And then in some case, it tips over to just criminal looting and incredible violence. What's your take here, Friedberg? I think it's a little conflating to add some of that other stuff to the mix here.
+
+How so? I think those have very kind of acute political or sociopolitical events tied to them. This one seems to be kind of much more broad based. So if you watch some of the interviews that were done on the street, there's a very wide range of kind of complaints if you listen to the folks that are rioting. Everything from schools to free Palestine to the government's not doing enough for us with health care, with support, with jobs.
+
+We're underemployed. There's just so much discontent with the objective being to get the government to do more for the people. There's a lot of immigration that happened, and so all these immigrants that come in, they expect the government to provide to them. The the promise was that the government would provide to them. And over time, the government providing things to the people, as we've talked about countless times, is never ever ever ever ever a sustainable answer.
+
+The centralized government doesn't have accountability. There is no progress. There is no possibility for economic growth. There is no possibility for creating the right incentive structure. So the more the government tries to provide to the people, the more the people are let down.
+
+We've seen this in The United States, I would argue, with the three things that the government is trying to provide here, which is health care, housing, and education. And the more the government spends to try and provide more of those things, the worse those things get and the more unattainable they become. And the same has happened in France. So take a look at this chart. This chart is a measure of public spending as a percent of GDP.
+
+Rand Group Research published it, and you can see the comparison of France's public spending as a percent of GDP to the peak public spending as a percent of GDP of major communist nations. Soviet Union during 1989 incredible chart for you. Romania, Venezuela under Chavez, and then communist China. That's unbelievable. So do you think France is a communist state?
+
+Well, this is business. Like it. It's certainly been a socialist state. Right? Is this working?
+
+You know, well, that... That's my point. Look. And and I think this is such an oppression lesson for the West to look at. We all think that there's some political problem with Macron or whoever it was.
+
+The more the government spends, the worse the conditions get for its people. Not the opposite. And then the people riot and revolt and say that the government's not spending enough and the government needs to be doing more. Now take a guess. Pull that chart back up.
+
+Take a guess where The US is today. What percentage of our GDP 2020% of our I was gonna I was gonna say 25. Yeah. Federal government spending is 7,400,000,000,000. State and local government spending is 4.6.
+
+You add those two together, it's $12,000,000,000,000 out of a $33,000,000,000,000 GDP. US public spending is roughly 30% of GDP. Okay. Yeah. We're there.
+
+France today is the same as The US. It's about a 120% debt to GDP. France today is operating... Its national government spending deficit is 5.4% of GDP. The US is actually 6.2% of GDP.
+
+France is, I think, probably the first to go because they're only growing their economy at half a percent while The US is growing, you know, at 2.3%. So we're still kind of hanging on because we have some degree of economic growth that's allowing us to kind of hold things together. But I would argue that we are facing the same sort of fiscal cliff which leads to this extraordinary social unrest as France. All the economic measures are aligned. We're at the same rate.
+
+We're at the same set of problems, and we're starting to see the cracks in the system. I think that France is a bellwether for the West. You can load in all the immigration stuff with it because I do think that that's a big part of it where you open the border to let people in to try and grow the economy. You promise them things. They actually add fuel to the fire.
+
+Things get worse, and it becomes a real problem. Fundamentally, socialism destroys progress. It limits everyone's upside by giving everyone a floor. And the limiting of the upside is what leads to these sorts of problems where no one feels like they can progress. And as soon as the quality collapses because you've taken out all the incentives in the system, everyone starts to feel incredible discontent.
+
+France, I think, is one of the first to go, but if we don't right the ship in all these other countries in the West, I think we might find ourselves falling down the same hole, and I'm very concerned about that. I think we need to observe this for what it is and be really thoughtful about it with our politics becoming, unfortunately, a little more disturbed going into this midterm and over the next two years. I worry quite a bit. What do you specifically think should be done? Cut spending, cut deficit to GDP, cut programs.
+
+Okay. But hold on. Let me give you my brief. Yeah. Let me let me just push back for one second.
+
+So, you know, what do we think is at the root cause of this? Let's just focus on the young people. Like, the young people, they're not optimistic about the future. Yep. Right?
+
+They have a lot of difficulties, financially, career oriented, as well as social. I mean, like, I think their social progression has been stalled relative to other generations. You have these things that are like these swords of Damocles hanging over them like pensions. I'm sure that they don't understand it completely, but, you know, if they took a second to realize that at some point these pension things come due for their parents and their grandparents, that's gonna be on them. So how do we set it right for them?
+
+What do we do? I think four things are the primary cause of this that could be directly addressed. It's education, housing, health care, and then the retirement system. Every one of them, there's probably a multi year solution. Education, think we need to wind down the federal student loan program.
+
+I've said this many times. And I think in the process, we've got to eliminate a lot of the student debt that's outstanding and I think it's a necessity. So cancel the underwriting at the federal level, but also cancel the existing debt of the folks that have it. There's a complicated mechanism that I think is needed for the deletion of student debt perhaps in bankruptcy or something like that to go back on that that law that that made it impossible. Just on this one.
+
+Just to add to this, I'm extremely sympathetic to canceling student debt. I don't think it should be... I think it should have always been dischargeable through bankruptcy, but I'm quite I'm quite supportive of the same I think it has it has to happen with deleting the federal student loan program. What will happen then is you'll right size all the institutions and their tuition costs because then all the institutions will start to fit to the market. It'll take about ten years.
+
+It won't happen overnight. So we have to have a firm commitment to seeing it happen over the next decade. In housing, we've gotta do something similar with housing loans that keep inflating the cost of homes and deal with the fact that a good chunk of the middle class Okay. Wait. But go go through your list go through your list because I have a I have I have one critical question at the end of your list because your list makes sense on the surface.
+
+Then I think that we need to make defined benefit retirement programs, including the Social Security Trust Fund illegal. I think all defined benefit programs need to be transitioned to defined contribution programs over, call it, a decade period. In the process, everyone gets... Like, whatever you're owed in Social Security gets deposited ineffectively in IRA or a Trump account or whatever they're called for you today, and all of Social Security is deleted. And now everyone owns equities.
+
+Superannuation funds like we talked about in Australia. We just transfer to that. What would the pushback on that be, Freiburg? Because people lose a guaranteed income. But rather than do it one time, what you would do is you would transition 10% of all your Social Security amount owed to you per year for the next ten years.
+
+So you do a ten year transition where everyone gets some So money smooth out into buying into Yeah. The Great. Yeah. And then people can choose a forty sixty plan or an 80% bonds plan or whatever plan they want depending on their age Do health care they can do health care. Health care is the hardest, but I think housing...
+
+Health care is way more complicated, but I think it's fundamentally gotta get pushed to corporations that employ people where they've gotta go into a market for insurance, and that forces the market for insurance to force prices and services down. But there's two things that get in the way. Wait. And housing? So so HIPAA and housing regulations are the two things that get in the way of prices coming down in health care and housing.
+
+So you gotta address those, which are much more complicated because in the case of housing, it's it's state and local. So let me just ask a question. So when you look at France and Italy and you look at these riots, I think it's important to observe that they have, theoretically, two of the four roughly solved, which is they give you free education and free health care. Okay? Now Do you how cheap it is to go to college, Chamath, in in France?
+
+I don't. I don't. €300 a year and cost the state, like, 12,000. So they are in college and graduate school. When I was in Paris this summer, I had somebody explaining to me the resentment here.
+
+They consider it like... I'm trying to think of the equivalent we might consider here in terms of entitlements. They believe they should be able to go to college and graduate school forever. What I'm asking you, Jason, and I'll ask you... I'm asking both of you is you bring up these four issues.
+
+Yes. One is a vagary of The United States, meaning the student debt issue is purely an anomalous thing that exists in The US that does not exist in some of those Western countries where we're seeing riots. The second thing that we brought up, which is healthcare, is roughly free over there. The third thing we brought up, which is education, is roughly free over there. The fourth thing we brought up, which is defined benefit versus defined contribution, Again, the the system there is a problem because it's the same system that we have effectively and you have these pension overhang.
+
+But I guess what I'm saying is, there, two of the four are roughly solved. One of the four doesn't exist, yet they're still rioting. So it's not solved. No. No.
+
+I can I can actually? Hold on. I can answer this, I think. You know, the the original riots when it was students were banal, you know, maybe throwing a couple of bottles here kinda riots. The students weren't looting.
+
+The looting occurred by illegal immigrants from Northern Africa and a lot of resentment from Islamic Muslim immigrants in France who have not been allowed to integrate into society and in some cases are second and third generation Parisians who have either not integrated into society or part of this is also on the native French who have not integrated into society. If those people weren't there, Chamath, they weren't there, we wouldn't be having this conversation. We would just be talking about run of the mill, you know, people who just want a slightly better classroom, slightly better teacher ratio to students. This is because of the unmitigated disaster of immigration to Italy, to Spain, and to France. And people have a hard time just saying it like it is, but that's what it is.
+
+And that's why, you know, here, I think we stopped it by closing the southern border. And there, they have a different type of immigration. It's it's people who don't wanna integrate. If you take the average Mexican who comes to America, they're more than happy to learn English. They're more than happy to integrate into American society and our customs.
+
+It is not the same in The UK, Italy, and, obviously, France as we've seen. It's an immigration issue. But, Shammoth, I don't I don't know if it's actually solved because I think the time to get a doctor's appointment is weeks. The quality of the education is poor. You're you're sitting in a classroom with 60 kids.
+
+That's what the kids are complaining about. There's obviously a lot of other kind of motivations in those riots that are happening, but there's a fundamental feeling of oppression that I think weighs heavily on this entire population and the oppression is there's a higher caste that is doing better than we are and it is not fair because we were promised that we would do well. Pull up this video, Nick, that I sent. I think this is a view of some of the anger. Watch it.
+
+The Chinese have become too rich in France. Too rich? And that's not fair. Well, I think it's not fair. They're now in the category of people with nice clothes and big cars.
+
+So this was a response interview to why the rioters were going after Chinese owned stores and destroying them in Paris. So they were specifically targeting Chinese owned stores, breaking the stores, burning them down because they think that these immigrants have become too successful in France, and they don't deserve that success. And I think that that is what this weight of socialism, this weight of a giant government does to everyone, which is if anyone is seen to be ahead of the suffering that we are all dealing with, they must be the problem. They are bad. They are the issue.
+
+And I think that there's this kind of fundamental rooting on the free Palestine movement, on, you know, the the patriarchy. It's all rooted in the same sort of principle, which is they don't realize that the reason that they're feeling this way is because the government is already trying to do too much, and they're not able to do it well because the government is the worst place to provide services to the population. Well, and in fact, they're any degree of success. And it's sort of like what we're seeing with the populist movement in The US, hating tech, hating billionaires, and, you know, it's it's very common across the West, and it's gonna continue to grow, unfortunately. Well...
+
+And reports where they were specifically targeting Chinese and Jewish businesses and specifically avoiding... This is when it moved into the full scale riots and terrorism That's right. And avoiding Muslim businesses. That's right. And, you know, I I gotta say, like, thank god for the Second Amendment.
+
+I don't think we would have these type of riots here on a sustained basis. If you remember the LA riots and there was a... There's a term called rooftop Koreans. And if you remember, the Koreans just literally went on top of their businesses and defended in K Town in LA. They defended their businesses.
+
+And when you see these poor business owners not being able to defend their businesses and they're beaten by these mobs, and you just think, my god. That poor small business owner, they put their entire lives into this business. You know it's not easy to run a small business. And then they're being beaten and watching their lives work burnt down. That's unacceptable.
+
+I I honestly think we're... You gotta rethink the first... The the Second Amendment as well. And I know I'll get massive blowback, but you don't you don't see this in Texas in Ally. Let me give you how I try to think about what the end game of this looks like.
+
+Yeah. I mean, basically, what you guys are saying is independent of who is in charge, it could be left, it could be right, and independent of what the facts are, you basically showed a chart here that shows that France spends more than every other communist government in the history of the world. These things are a disaster, and there's part of it here where people probably think that this isn't true and they wanna see even more state intervention to make things better. They themselves know that they can't solve the problem and so the only person to turn to is the government because it's not like you're gonna turn to the person on your left or your right. That's right.
+
+Okay. That's right. You go to the government. But at some point, they're gonna realize that chart is true and they're gonna see that enough times on their television or on TikTok and X and Facebook and Instagram where they're gonna be like, wait a minute. I had no idea we're spending twice as much as communist China.
+
+I thought the whole point was that we should be spending more like communist China or like communist Russia because this socialism thing, you know, is the better version of communism. It's not gonna work. So then who can really fix this? That's sort of where I go to because independent of what you think is right, who can fix this? Need me And to make I, no, I think that I go back to two things.
+
+One which is in our control and one that is in the control of the large pools of money and what I kind of euphemistically call these bond vigilantes. The bond vigilantes can break the back of the French government and they can do that economically and they can do that by essentially making their debt unfinanceable. The knock on effect of that decision would be where you bring long rates so far up that they can't finance their debt. And it essentially causes an economic reset inside of France. And in that, you have to have a grand bargain where you can try to reset these things.
+
+The problem with that is that every time that has happened in the past, somebody accrues more power and somebody thinks about their own ability to then have influence over the next n number of years after that reset. And it's never about resetting in the right way. The right way would cause you to look at the pension system, to your guys' point, you know, enforce a bunch of rules around, you know, the student to teacher ratios in class rooms, enforce a bunch of rules around wait times at hospitals, enforce a bunch of rules around, you know, how fast and or how slow you can get building permits and what you can see in rent adjusted inflation, yada yada. You could do all of these things if you had the political will. Unfortunately, that's not how it's gonna go down.
+
+It's gonna go down by who is in power, who wants to basically pin the blame on somebody else, and then have that power for the next five or ten years coming out of a reset. Because in the middle of a reset, what happens is you just give away all your rights. So that's not the solution. So then what's the solution? Then we're only left with, okay, how do we all solve this?
+
+And you're back to the whole, like, is there, like, a panacea? And the only panacea that nobody wants to believe is, you know, we say it because we believe it, like AI abundance and all of this beautiful stuff. It just sounds like mishacas. Like, it's like, I don't know if I were if I was anybody in France, I'd be like, AI? What are you talking about?
+
+A bunch of oligarchs from Silicon Valley? No, thank you. So it's almost this intractable problem. It's like the irresistible force meeting the immovable object. And I am completely at a loss to simulate in my brain an outcome here.
+
+I don't see a reasonable endgame, and so I'm completely confused and completely without. Yeah. I mean, look, it depends how far the collapse goes. You could have this sort of social collapse that you see in some countries that involve rioting and murder and all these sorts of things, or you end up having what is more of like an economic collapse, which is sort of like Argentina and Brazil and others have gone through Greece more recently where the ability to service the debt because the government got too big forces this kind of restructuring of the economy. And, yes, there are still massive protests.
+
+There is a still an incredible loss of net worth. There is an incredible inflation effect effectively that wipes out asset values for people, and you end up having kind of a a resetting, economic resetting without the great social resetting. So, you know, which path Dosti choose, I think we have to do something. I don't think we can run a higher deficit to GDP than France in The United States with the same debt to GDP as France and only modestly higher GDP growth, I think we are fundamentally going to need to have some degree of reset in The United States. The question is, do we want it to be a massive social reset, or do the left and the right wanna put on their hard caps and say, okay.
+
+We gotta go in the mines and do the work and figure out how to cut this from seven and a half a year to four a year and do it in a way that doesn't destroy the economy? And I think that there's a couple of solutions that will allow that to happen. Like, you know, you basically can deflate parts of the economy, like the education system, the higher education system by taking away federal student loans. You can have a hit to housing, which will drop the net worth of middle class by 10 to 20% by taking the federal home loan system and reducing the underwriting that's happening, reduce the volume that's pushing through it because we've used it largely to keep prices propped up high, to keep homes net worth high so that the middle class remains highly solvent and feel wealthy. The problem is it's now inaccessible to the young people so they can't buy a home.
+
+So we're now sort of hitting the head here. Something's gotta give. So if you wanna have the social unrest, you don't move on that. But if you wanna allow them to feel like they have access, you're gonna have to take a hit. Middle class, upper class, wealthy, etcetera, in The US are gonna have to take a hit on asset value and transfer it more kind of carefully to the emerging folks.
+
+And then you've gotta fix this pension system, which is either overloaded or underloaded. In both cases, it's really bad. And this is why when ERISA happened, all of the private companies in The United States got rid of a defined benefit programs. The only defined benefit programs in The United States that still exist are inside of governments because unionized government employees said we wanna keep defined benefits. And if they'd moved to defined contribution...
+
+This is what's so sad about it. If they had moved to defined contribution programs, including Social Security, they would have all had so much more money. Everyone would have been wealthy. Even have to wonder about this. You could literally look at what's happened to Australia and how happy people are that they're forced to be in the market.
+
+And Norway. Yeah. And Norway. They're just like... If you're if you're forced to do that...
+
+And then we have this incredible thing this week which dovetails with this, which is Elon said he's gonna give every American child, which I think is defined as 18, a share of SpaceX worth a 150, 160, $170 it's been trading at, which is a $10,000,000,000 gift, which I believe will be amongst the largest gifts in the history of charity ever done. And he said he's just getting started with that. There's nothing that says this is not going to become, you know, a bit of a contagion amongst the affluent to give a large portion of their wealth to... Or even a small portion of their overall wealth, but giving it directly to kids who can't touch it eighteen years. And if we made it part of their superannuation fund, maybe we could have Invest America up to 18 years old for college, and then we could have an Invest America for your retirement.
+
+I mean, it would... Actually, if you bifurcated that and you gave one share to each, that could be even more accretive. Right? Jason, what did you think about your friend Kara Swisher's No longer friend. Criticism.
+
+Kara and I know she's been friends for a long time. I I think she is Can you just describe for the audience what her criticism was of Elon and your reaction to her? Think she had multiple videos. One of them is it's only one share and that they should just give money directly to people. And, you know, it's obviously what...
+
+The the reason that's incredibly stupid is you should give any possible gift that people are willing to give, and forcing people to hold on to it makes them part of capitalism. And Kara Swisher makes $10,000,000 a year from her podcast. She talks about it all the time. She is of the point one or o o 1%. She should give half of her podcasting revenue if she's so virtuous to Invest America accounts.
+
+And she's also saying they should be putting Elon in jail and that the democrats are gonna do that if they win. So it's like kind of a a doubling there. But she's, you know, she's a Karen and she's a hypocrite. Yeah. Can I say something about this?
+
+Nick, can you pull up that image of that woman whose store was destroyed in France who's a well known activist? Yeah. You guys just this this image? Did see this, and I don't know that it's true or not. So I think The story here is Yeah.
+
+The story is that this woman is a well known activist in France who for a long time was very vocal about opening the borders and letting the immigrants come in and taking care of the immigrants. And she was angry and upset and yelling at people in the street while they were destroying her store saying, do you know who I am? I am an activist who advocated for you all, and they didn't give a They went in and destroyed her store. And the look on her face, which was like, what the hell happened, is meant to be this moment that sort of captures the zeitgeist of what some people call suicidal empathy, but I think it's much more about being, call it, an armchair do gooder. And an armchair do gooder is someone who kind of sits at home in a nice home in the suburbs or wherever they live, and they say, let all the people in.
+
+Take care of all the people. But as soon as the people show up to their front step and says, can I come and stay in your house? The answer is no. Of course not. Yeah.
+
+Someone else has to deal with it. Someone else has to hold you in their home. Someone else has to house you. Someone else has to feed you. Someone else has to give you a job because I can't house you.
+
+I can't feed you. I can't give you a job. And I think that this is what has become inherent throughout the West, which is the armchair do gooder that says we should do all these good things. But when it comes home to roost, when the cost of doing those good things comes home to roost, they're shocked. Yeah.
+
+And they're all in the face, and they're like, holy And this this, by the way, we see it in The US. We had a term for it, by the these great videos on Twitter, by the way, where these people go around. They go to suburban homes, they're like, hey. Did you vote for so so and so bill to have unrestricted immigration? They say yes.
+
+They're like, okay. Here's 15 guys. They wanna come live in your house. She's... And the people are like, no.
+
+I I... They can't live in my house. What do you what do mean? This was called... In another era, we called this limousine liberals, and it was manifested when they used...
+
+Which was quite offensive, but quite effective, when they used immigrants and bus them to Martha's Vineyard or other places and were like, here's your immigrants. You said you wanted them. What Rob Henderson calls luxury beliefs. You know? Luxury beliefs, limousine liberals.
+
+You know, if you were to look at the problems in France, they're not completely intractable. A lot of the complaints are, I think, you know, wait times at a hospital while you have free health care. Oh, my... You know, the student ratio. Well, you're only paying €300 a year for your college.
+
+If you wanna go from 60 to to one down to 30 to one, okay. Yeah. We're gonna need to charge you €2,000 a year. No. You don't.
+
+No. You don't. You don't need to charge them more. This is the point. The point is when the bureaucracy inflates and the quality of the service goes down, an intelligent person would look at that inflated bureaucracy and say, this is inversely correlated to what I expected.
+
+So really what should happen is people have the intelligence to say, hold on a second, I'm now spending 57¢ of every gross productive dollar on a government that now has increased my wait times and decreased the student teacher ratio. Oh, yeah. They're certainly not gonna be efficient. So it's not as efficient as I'm also exactly right. That's right.
+
+But if you... The second part of what I was gonna say here is, you know, there's austerity measures, which have been happening in Europe for a long time. But if you have an immigration rate where you're importing 1.5% of your population a year and your GDP is not growing, that might be a signal to you that maybe you have to change gears. And if the people who you're immigrating into the country are not productive or not productive yet, maybe their kids will be productive or their kids' kids will be productive, but right now, they're a drain on society. You can only accept so many people.
+
+And then there's another nuance point under that which is if you cannot you cannot accept people who do not make a commitment to assimilate into that country's culture, period, full stop. You could have a very small number of people, whether it's Japan, The United States, or France, you can only have so many people join the country who don't speak the native language because that becomes an incredible burden. Now you have to create an entire second education system, health care system, where people speak Spanish, where people speak whatever, you know, French, German, whatever it happens to be. And and that's what's taxing these. I think it's one in 19 are from Northern Africa, and, like, one in nine is an immigrant.
+
+And they have unmitigated immigration in Europe. That's the the other piece of this problem. If they didn't have that for the past twenty years and they weren't adding so many low value immigrants as opposed to high value immigrants, high value being people with graduate degrees who are investing in companies versus people who are taking bottom run jobs, and you started looking at it against the GDP of the country, against the unemployment, against where does this immigrant fit in what jobs we need. So do we need this type of worker, construction worker? Yes.
+
+Okay. We should add more of those because we have a deficit. But they're not doing it intelligently, and that speaks to this woman running her small shop. She wants to allow all these people to come there, but she's not looking at the the balance sheet, and the balance sheet doesn't support it. I'll simplify it down.
+
+Think It's an economic issue. Yeah. Just to restate what you said slightly differently, if you're providing social services to an immigrant population, then that's necessarily a productive immigrant population in terms of being able to contribute to growing the economy and supporting Yes. Civil society. Social services that are requisite for an immigrant population should indicate to you that that's probably not the immigrant population you wanna bring in.
+
+This has nothing to do with the countries or the character of people color of skin. Simply a statement that if you're paying for social services to support an immigrant population, something's wrong, and it's the wrong population that you want. But if a population... If immigrants come in and they're productive, meaning they can get jobs and they can work and they can support themselves, that means they're adding something positive to the economy, to the civil society, and that is the sort of selection criteria that needs to take place. So that's a simple framework for determining whether or not you should do this.
+
+And an easy way to solve it is get rid of social services for immigrants. As soon as you get rid of social services for immigrants, then you self select into the right population that's gonna come in. The second thing is, Jason, just to put a point on this, it's not about assimilating to society. It's about sharing the values of what makes The United States The United States. Well, that's what I mean.
+
+The value of self sufficiency. I don't care about your religious beliefs. I don't care about your movie interests. I don't care about your first language. I don't care about your sports interests.
+
+The the multiculturalism of The United States actually adds an incredible amount of value. But the values of what do we actually care about, what are the principles that we all share as a civil society of The United States or a civil society of France is a screening criteria that seems to have been thrown out the window as we've allowed the immigrant flocks to kind of take over the West. Yeah. Freedom of speech. Do you believe in the second amendment?
+
+Do you believe in the core benefits of America you pull yourself up by your women's rights? Do you believe that women are equal to men? Yeah. As a simple one. Right?
+
+Do you believe that you should work for your money as opposed to take it from the government? Do you believe in your individual rights? Do you believe in the legal system your church's legal system? Is your church paramount to the government and do you... And and the laws of the state.
+
+And do you believe that other people have rights that you don't get to trample on? Those are the sorts of things that that are, in many cases, counter to the cultural, religious, and other traditional beliefs of certain populations that end up causing the damage in the West, And I think that it's been kind of completely lost in the process. You know what I thought when I heard that kid talking about targeting these Chinese people? It's like weirdly reminiscent of like a more bottoms up, maybe poorly disorganized, but a bottoms up version of Kristallnacht where Yes. You had obviously the looting of Jewish businesses and synagogues in 1938 because they were doing better.
+
+Which were state sponsored. And, you know, they had like some idiotic pretext, but ultimately it was because they were jealous of the Jews. And now here you see folks that are essentially like burning and pillaging businesses and at least some narrow percentage of them we're doing it effectively to target a cohort of people that they are jealous of and they are jealous of exactly what you said because I don't think the Chinese, you know, emigrate to a country and have some of these long tail views. They're like, get me in the game coach, tap me in, I'm ready to go. They're entrepreneurs they want They're to do They're super hardworking.
+
+Exactly. And so the the contrast is quite stark where you see one immigrant essentially saying, Saint Paul Juste is basically his way of saying, it's not fair, which is like kind of like a petulant child. You know? So on the one hand, you have petulant children. On the other hand, you have hardworking immigrants.
+
+They're both immigrants. It's the craziest dichotomy. I mean, just seeing it in immigrants immigrant violence because one is working harder, has a better plan, is applying themself, and probably working seven seven days a week, twelve hours a day at that business to make it successful. Her her specific story is even more I was talking about the Chinese one. Yeah.
+
+Not the Yeah. The Chinese woman. Yeah. Because they went and they actually told her story, and she, you know, she had worked there, you know, she had worked essentially in restaurants for thirty four years to earn the money to open that restaurant. Yeah.
+
+I grew up in the restaurant business. Let me tell you, it's the hardest thing on a family is to run a business because when somebody doesn't show up for work or you don't have the money, you all just have to work. My family, we all worked at the restaurant. My mom my mom made the desserts at our restaurant because she wanted to save money. And she was a nurse, not a pastry chef.
+
+Yeah. And and, you know, and and my brothers and I, we worked at the restaurant since we were six or seven years old. We set the tables. We polished the silver. We were working in the kitchen at ten fucking years old, and we were still living week to week.
+
+And then you come burn the business down. You come burn my dad's business down, we're gonna unload. My dad was packed was packing. You know? Like, he was strapped.
+
+And you you do this in America, you do this in Texas, you're gonna get shot. And I I... When I saw those poor Chinese people on the balcony, you know, and their lives are at risk and their whole livelihood, I was just like, man, I wish these people had guns. I wish these people had guns who could defend their private property. It is just crazy that they could just be run over like this.
+
+And they were gonna get killed. There's absolutely a non zero chance that that that mob, when mobs get into that heightened state, they will murder people. They will beat them to death. And this poor other shop owner was getting kicked and beaten just trying to defend his little tiny business, little tiny store. If you've ever been to Paris, little tiny stores, beautiful bespoke stores trying to make a living in something they're passionate about.
+
+It's just absolutely heartbreaking. And, you know, it's it's I'll not just say this. The Bond vigilantes need to show up here and draw a hard line in the sand. I think they need to Love it. Break the back of the French government.
+
+Okay. There it is. There's the mandate. And you need to do it severely, and you need to do it properly. Would do what?
+
+Six, 7% on these months? I think you need to take France to, like, 8% and just break them. Yeah. And then all of a sudden, austerity measures, immigration, all this stuff's gonna be taken a lot seriously. At least it'll all be on the table and they'll have to sort through.
+
+They will have to sort out what they're willing to give up. But right now, if you can skate through this moment, then these things continue to fester and it is a tinderbox that at some point, again, we know, again, just to use the analogy of Kristallnacht, we know what the trail of breadcrumbs can lead to in terms of fomenting this societal rage. You cannot allow that to happen. And so the government has a responsibility now to nip this in the bud in a structural way. And I think the people have a responsibility to understand the numeric reality in which they are living.
+
+They are living in a state that is spending more than any communist utopia that they hoped to achieve. Yet the outcomes are broken, which means the system is broken and you need to reset that. And the government will not reset it on its own and so the Bond vigilantes will have to do it for them. This kind of stuff, if it continues to compound, is extremely, extremely dangerous. Yeah.
+
+Super dangerous. And we we had our little flashes here. So it's it's... We're definitely not immune to it. We're we're a larger group of 50 states.
+
+So... And they're they're at... By the way, think France is almost at 56% as their top tax rate. Maybe it's 55, 56. The only place that's higher, yeah, I think, in Europe is Denmark, which is, like, a 60% top tax rate.
+
+It doesn't matter. Take it to 90%. Nothing will get better, folks. Do whatever you want. If the government provides the service, there's gonna be no innovation, there's gonna no and there's gonna be no efficiency.
+
+It's just Unless there is an individual human incentive to do well. Nothing gets better. Alright. Capitalism at its core. And, you know, the thing is, Macron was trying to get capitalism going there as well.
+
+It was like a big You part of can just his click on this image here or this link. What do we wanna see? I mean, this is sort of another indicator of why GDP growth is laggard, but this is tax revenue as a percent of GDP. So France also tops the list on tax revenue as a percent of GDP at 46%. So every dollar of GDP generated by the country is recollected as government tax revenue.
+
+Obviously, two two drivers here, high tax rates or low GDP, high GDP, and we have It's just the tax... Because the tax rate's always a function of income. So point is if you put this and the other one together, you have a confiscatory government that represents the overwhelming amount of the economy where you have incredibly deleterious outcomes. That is to connect the dots, and you can't hide. This is the question for The United States is which direction do you wanna go?
+
+Do wanna go up the chart or down the chart on both charts that we looked at? Which way do you wanna go? Because the quality of life goes down as you move up the chart for all people, and the ability to progress gets destroyed as you move up the chart. And as you move down the chart, each individual's ability to progress in life improves. You have to do it on your own.
+
+You have to have more agency, but your capacity to improve your life improves as tax revenue goes down as a percent of GDP and as government spending as a percent of GDP goes down, your opportunity as an individual, the basis of the foundation of this great country improves. And that is really the north star that we should all be talking about is how do we get back there? How do we continue to move back in that direction in the chart? And there are very practical things. There's very simple things to do.
+
+Like, talked about on the show. Chart up again, and I'll I'll give you a little bit of a challenge here. I think most people in America, especially young people, don't believe what you're saying. If you look at The US here, ahead of The US, Australia, Argentina, South Korea, Japan, Brazil, Canada, UK, Germany, Italy, France, most people want to live in those countries above us. Most Americans who are complaining now certainly wanna live in one of those countries and have health care and wanna have cheaper and affordable college.
+
+Now housing is still I disagree. Not very very high. That most Americans don't want universal health care? No. No.
+
+No. Most Americans don't wanna live in a country above us on this list. Absolutely not. Well, they certainly don't wanna go below us to South Africa, Russia, Turkey, China, Mexico, India, Indonesia, all due respect. I've every been single country on this list above us.
+
+I've spent a lot of time there. I've been a citizen of one of them. Mhmm. And I would not choose to be in any country Yeah. Out of The United Jason, you know what youth unemployment is in Brazil?
+
+Brazil, I do not know. I'm gonna guess 20%. Youth unemployment in Brazil is around 15, 16%. Yeah. That's that's all the streets.
+
+And it's and it's rising. Yeah. And it's rising. It's almost at 20%. US is still fortunately below 10%.
+
+Yeah. Yeah. Yeah. And the same is true in many of these other countries. Like, there just isn't a growing economy that can support a youthful employment system in many of these countries.
+
+So I don't know if I would agree with your statement most people wanna go live in those other countries because if they wanted to, could use a credit card, buy a plane ticket, and go do that. Well, me say most people want what those countries deliver. Most people what those countries say they deliver. Willing to pay more tax for it, or they'd certainly be willing for us to pay more tax to achieve it. It's not in full scope.
+
+The full scope of what those countries deliver is not just an acute no fee trip to the doctor's office. It's that people wanna have the ability to do that and also have a job and also have the ability to progress. And to have all of these things, fundamentally, the best system is a smaller government system because the more the government grows, the less of that pie of things you will actually get. It gets worse and worse. I'm in line with your argument.
+
+I just say... I'm just saying that chart does not make a great that chart is not a good piece of evidence in this argument. I think most people are not entrepreneurial and most people want... Not about being entrepreneurial. No.
+
+Yeah. But I mean, think more freedoms less tax is what we all want. I think a large percentage of America wants us to pay more taxes and get more services. And they believe those countries right above us want Never gonna happen. Will give them more services.
+
+Therefore, they don't mind waiting an extra couple of hours or or months to get health care if they get health care because they currently get no health care or they get bankrupted by health care. That... That's how dysfunctional our health care system is in The United States. So, yeah, I think most Americans would disagree with us looking at that chart. That's just my belief.
+
+But we... We're we're here to sharp... Iron sharpen... Iron sharpens iron. I think we have to keep working on this value prop, and I think this is where...
+
+I don't know if you guys saw my tweet this week about how Trump... President Trump could save the second term, And a big part of it, I think, is he he has to talk about housing as much as he's talking about data centers. I think raising the minimum wage is a nice gesture since it only impacts 10, 15,000,000 people, the federal minimum wage in this country. And there are things we can do to make it apparent to the people in the bottom half of the country that we care about them and that the president is signing executive orders for them as well as for us. And us, I mean, the tech industry and and large businesses.
+
+And I think that's that's the big problem of why the president is just so lowly... His his ratings are so low, his approval's so low, and perhaps we'll see on November 3 what happens with this election. That's a big part of the the discontent right now is people are frustrated that they're not even... President Trump doesn't even talk about them anymore. He doesn't talk about minimum wage.
+
+He doesn't talk about housing. He doesn't talk about inflation. He just says it's all gonna be fine. And we're we're living in the golden age. But then he's more than willing to talk about our issues, data centers, crypto, etcetera.
+
+And the messaging in this country is really far off. It's really far off. And until we get somebody in that office who is willing to talk about the bottom half of the country and fifty fifty, you know, hey. We're gonna talk about big tech. We're gonna talk about lowering taxes, but we're also gonna talk about raising the minimum wage.
+
+We're gonna talk about a plan to build more affordable housing as opposed to just more data centers. That's the disconnect Hold that I'm just bringing up Hold on. You can break it If apart if you you read what he tweets, I think he connects the dots on all of these things. I think that he has acted in a way that one should when you realize that the AI build out is the disproportionate percentage of all GDP. It is basically all of it.
+
+And it doesn't just pull through stock performance for seven companies. There's been a bunch of data now. It pulls through massively increased wages for middle class and skilled labor. And then he's been telling people that if you're gonna build these data centers, do it in a way where you lower the electricity costs, do it fully behind the meter, invest in the local communities. That also has positive impact.
+
+So, you know, he's trying to make sure he lands the plane on The US economy. And right now agree he's doing that. Whether you agree with it or not, The US economy is entirely and completely levered to and correlated with the AI trade. Yeah. Period.
+
+I I agree that he is doing a great job in that, like, better than any president I've ever seen in my lifetime in terms of getting the economy rocking. The public, the overwhelming number of Americans now, do not agree with what you just said. They believe that he is not... Does not care about the issues he care about. That's why he's at his historic low in terms of approval rating.
+
+So there is a messaging problem here. So I... I'm not saying I should be the press secretary here, but somebody's gotta be a press secretary here based on communications. First first of all, I think sucks out of this administration. Let me say something about the press secretary, I think, just for one second, just one small deviation.
+
+Going into weird territory. We have not spent enough time actually acknowledging what more people should acknowledge more often, which is Caroline Levitt is an absolute goat. She set the bar so high. She's so talented. She's...
+
+For being so young, it's unbelievably impressive. Almost an impossible job to follow her. Let me just say that because I don't think people say that enough. Second, I will actually go on a limb and say this. I think that you are an incredibly dogged bulldog.
+
+I think that if you got to know the president, you would be besties with him. I I really legitimately think you would, and I think you would be an incredible press secretary. Now the I problem be honest that. Yeah. The problem is that you have stupid ideas.
+
+And as long as and as long as you could avoid representing your stupid ideas wage is a stupid idea? I don't think so. No. No. No.
+
+No. Is a bad idea. No. It's not. The federal minimum wage is not.
+
+Look at the studies. You are the epitome of an armchair do gooder. Okay? And and if you could if you could quell that instinct and actually be, you know, his vessel, you would be incredibly effective because you are dogged, you're great on your feet, you're super funny, You'd be incredible. People are now people are now pitching me to do it.
+
+Don't think you'll be able to manifest this one, but you are you are incredible. Number one the last two weeks in a row, so I would not underestimate my manifesting powers. I do think, Friedberg, if you if you look at the studies, I I think you're dealing with old data and maybe a little bit of dogged libertarian principles, which I too shared. If you look at what's happened libertarian principles. No.
+
+Listen. I... I'm I'm I'm... I I share some of those libertarian ones where I'm like, the free market will work it out. It's only 15,000,000 people in this country who make under $15 an hour and who are impacted by the federal minimum wage which has not moved in decades.
+
+If the president came out and just said, hey. We're gonna increase the minimum wage by $1, federal minimum wage, which is basically doesn't count for half the states because half the states have their own minimum, and he just says, it would just be like a good faith thing to do. Hey. We're gonna do... Add a dollar a year for seven years.
+
+We're gonna get it to $15. What happens is all that money gets recirculated, and it just creates more monetary velocity in the country. It all gets spent at the company. So it's a tragedy of the commons. You know, one person doesn't wanna pay this, and another person doesn't.
+
+Look at what happened in Australia. Look at the Nordics. When they raised Jason. Jason, listen. California passed Assembly Bill twelve twenty eight twenty twenty four, an increase in the number of workers' to $20.
+
+$20. It was too too fast. I I am not advocating from 70 to 20. Yeah. So when they did that, we lost 18,000 fast food jobs in the state.
+
+And the reason is And we still have record unemployment. But just think about this. The reason is unemployment. The reason is that the fast food industry sells food to consumers. Consumers want cheap fast food.
+
+So when you increase the labor rate against the market's demand Yeah. Then the consumer says, I'm not paying $8 for a burger. I can't afford it. I can only afford $4. So there's actually no one to pay the wages of those fast food workers.
+
+So number one, the consumers lose because they've now lost their local fast food joint because they can't afford the new fast food. And number two is the employees who were voluntarily, willingly working there for $18 or $16 or $12, whatever the number is, suddenly lost their job. Yeah. So let me And as many ways as you wanna slice this, this is not a dogged libertarian principle. This is just a very common sense view on the world.
+
+No. Yeah. Because if if the buyers are there and the buyers are saying, hey. I'm willing to pay more and the workers are willing to say, I need to get paid more to work here, the market finds a happy medium. But when the government intervenes, it blows up the market.
+
+It destroys the supply. It destroys the demand, and people lose jobs. And that's what we see time and again when the government intervenes in market dynamics. Here's where you're wrong. Number one, I never said go to $20 an hour.
+
+I said go add $1 per year for the next seven, which will get us to 15 in seven years, which will put us out in 2032. So you're comparing the most radical program, California's, which I don't agree with, to the my common sense one. Put that now... Going to the second point, it has added essentially 25¢ to each meal at those places when you do this, and it makes them get rid of the jobs that are gonna be replaced anyway, like cashiers. But we still have the same unemployment rate in these places.
+
+People went to other productive jobs when those jobs became automated. An argument you and I have made here many times, which is people go find work. So you can't have it both ways, mister Freeberg. You can't say people find more productive work. People do find...
+
+Those people who lost their jobs found better work in... Statistically, here in California. Or you're trying to be market prognosticator or you're trying to determine what is the right price for the market. And the more you do that, the more you are going to destroy the market. Because fundamentally, that $1 or whatever the thing that you do to rationalize the government's intervention is going to have some effect on some set of the market that is going to tip over the point where it no longer makes economic sense for the buyers to pay the premium price, and some number of those sellers will get out of the market and the thing goes away.
+
+This would be true. This would be true if you apply this in an unconstrained fashion. In a very constrained fashion, raising the bottom, all it does, it practically, is those people go spend the money with the same companies they're working for. The Amazon delivery person or the, you know, UPS delivery person, those people already have $20 in our jobs. But the people who are doing those jobs, they just spend it at the same companies.
+
+So in reality, when you force everybody at the same time to hit a minimum labor dollar amount, and we already have it, by the way, for this very reason, it just gets recirculated. It's actually good for companies, and we saw it in Australia, New Zealand, in The Nordics. As they raised it, all the companies did better because their customers had more money to spend and people were happy. And in a society, you don't just wanna do things for economic reasons. You also wanna do it to make people have a better life.
+
+And I think that's what raising the minimum wage does. It makes an esprit de corps. It makes everybody's in it together, and the president of The United States is looking at that lowest paid worker and saying, you know what? We're gonna ask Amazon, we're gonna ask McDonald's, whoever it is, to just do a little bit better for but 10,000,000 Americans. It has no effect.
+
+It's only 10,000,000 Americans. That's why I think it's a no brainer. It's a no brainer. We're not gonna agree on this. I think an alternative would be to drop taxes for the lower bracket and give people a zero tax rate Okay.
+
+Go tax rate.... A 150. That that would solve everything. And when you do that, you don't have to raise the minimum wage. You can keep those people that money in their pocket They save 25 to pay money out of their their Zero out the taxes.
+
+You can do other things like credits for them. So there's a lot of ways, Jason, Let's get president. Let me just finish. Let me just finish. There's a bunch of ways to solve that problem of giving people access to capital and allowing them to progress in a meaningful way without forcing your way into the market, which I think always has adverse consequences.
+
+And you can do that through tax policy and incentives and other structures. But Well, we already have a minimum wage. So what we're debating here is what should it be. Alright, everybody. We'll see you next time on the Love you, boys.
+
+Literal number one podcast in the world. Bye bye. Bye bye. We'll let your winners ride. Rain man David Sack.
+
+And it said we open sourced it to the fans, and they've just gone crazy We should all just get a room and just have one big huge orgy because they're all just useless. It's like this, like, sexual tension that they just need to release somehow.

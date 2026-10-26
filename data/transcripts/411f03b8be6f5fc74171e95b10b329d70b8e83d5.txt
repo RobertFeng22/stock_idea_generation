@@ -1,0 +1,897 @@
+Support for the show comes from AWS AI. AWS AI is helping the world's leading organizations transform their industries in production at scale right now. From bringing fans inside every swing at the PGA Tour to helping small businesses grow online with GoDaddy to taking vehicles from concept to customer with Audi, AWS AI is how businesses innovate, lead, and revolution ize. AWS AI is how. This episode is brought to you by On Investing, an original podcast from Charles Schwab.
+
+Each week hosts Liz Ann Saunders, Schwab's chief investment strategist, and Colin Martin, head of fixed income research and strategy for the Schwab Center for Financial Research, bring you fresh insights on what's happening in the markets and why, and what the implications might be for your portfolio. Join Colin and Liz Ann as they explore questions like, how do you evaluate corporate bonds that look interesting? And what sectors are on the move right now? Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. Give you and your team more time to focus on the work that matters.
+
+This is Amexcorporate, one intelligent platform for company spending. With smart expense management to help capture details, categorize spend, and streamline expense submission and approval, there's less manual work for your team and greater visibility and control for you. Built to simplify, designed to scale. Get started at go.amex/amexcorporate. Terms apply.
+
+Hello, and welcome to the Vergecast, the flagship podcast of the world of no sevens. I'm your friend David Pierce. Eli Patel is here. Hello, Eli. So here's my plan.
+
+Here's my plan. We're gonna do no sevens in '27. Oh, I see. Interesting. That's that's that's what we're gonna do.
+
+So you had to get all the sevens out of your system We got it. At the end of 2020. We can talk about this at length. I understand. Every comment on every platform that I am on is people saying you gave it a seven, and we...
+
+I know you and I are gonna talk about it because I know you're mad at me. I am that. But I'm just committing right now to no sevens in '27. I love it. And we're gonna we're gonna have to put, like, a box in the reviews explaining basically every six that we give.
+
+Right? I would have given this a seven, but my boss has this weird thing about this number, so I get the six. We're gonna do no sevens in '27, and we're gonna see how we feel. That's good. We we could...
+
+Let's just get into it. Go ahead. Bring it on. Yeah. Okay.
+
+We have a lot to do today. There's there's wild news in the world of server side app development. We're gonna talk about that. There's PHP stuff we gotta get into. Like, the Internet is breaking as we speak.
+
+Mhmm. Brendan Carr did a lot of things this week. We have a lot of stuff on. Big this week with him. But we need to come back to the iPhone duo.
+
+The review came out this week. We did a livestream on Wednesday. Thank you to everybody who hung out with us and and was there and sent us questions and had comments. It's been super fun to review this thing. It's now been two days since the reviews dropped.
+
+We've both, I assume, had a chance to consume lots of coverage. You've seen lots of questions. We've seen all the comments and all the stuff that we've been making. And I think we can boil it down to a few things that have become very controversial about this phone, but we have to start with the score. Neil Ipatel, the man of no sevens.
+
+The world of no sevens. This is my phrase. World of no sevens. If you live in a world of no sevens, what would you give it? You have walked into your own trap.
+
+I walked into my own trap. I've given a lot of first generation Apple products a seven, and I think a lot of people have noticed this trend for me. Okay. The the one we have fought about most aggressively in the past was the Vision Pro. And I got that one wrong.
+
+Okay. Okay. Flat out. I'm I'm copying to I should've given the Vision Pro a six. Okay.
+
+Cool. That is a good place to start. I you went... I don't know if this is a a spoiler you'd rather not talk about, but you went in the course of reviewing this from... Think this phone is a six to I think this phone is a seven.
+
+Yep. Take me on that journey with you. It... I mean, this is gonna drive a lot of people nuts. So when we first got that phone the first two days, Alice and I kept saying two things to each other.
+
+Boy, this is very Android y. Mhmm. Right? And the sort of these ideas are not cohesive and not polished. You can just get yourself twisted into into just weird shapes using this phone.
+
+Then over the course of the week, one, you get used to it, and two, and this is the one that's gonna drive you very crazy, just a flood of apps got updated the first way. Sure. And I'm calling it the first way on purpose, cause there's a second important ways. Right. Run through the three phases of of Duo apps for people who weren't there for the livestream.
+
+So there are three ways apps run on the Duo right now. The first way is the totally unoptimized itty baby iPhone app, which is bad. It's a rectangle floating in black space. It looks bad. On the inner sort of tablet mode, this is not useful.
+
+And then because they have vertically shrunk the apps, they're just not useful on the cover display either. And we can come back to my feelings of the cover display. In fact, we should come back to John Gruber's feelings about the cover display. Sure. So that's the first way.
+
+Totally unoptimized. Then there's the second way, which improves the experience of using the Duo, which is apps are updated for iOS 27. And this just makes them a little bit wider, but you still get the black bar on the side. And that black bar on the side is a whole rat's nest of problems. Then there's the last and final way, which is updated for iOS 20 7 dot one, which is the Duo specific version of iOS 27, and that moves the controls over, and then you can relay out your app and do all this stuff.
+
+And a lot of apps have gotten there, and they are still broken. And we're gonna talk a lot about the the power of vibe coding in this episode when it comes to PHP vulnerabilities. For sure. It took down lots of websites, But we just have to acknowledge that a bunch of apps are being updated in what can only be described as vibe coded ways, and they're still pretty broken. But over the course of one week, I went from using almost exclusively not updated apps to at least a little better.
+
+Okay. Right? And so during that period, you're like, oh, the experience of using this phone has changed during the time that I'm reviewing this. Our rule is you review what's right in front of you. Yep.
+
+And that improvement to me was enough to get you from this is a six and you ought to wait to this is a seven, which in my personal worldview means it's fine. It's just fine. And I think that's where I've landed with the duo. Like, if you're excited to spend $2,000 on Apple's first folding phone and live through a bunch of other compromises that we can talk about Mhmm. You're gonna have fun.
+
+And my... Maybe my number one feeling about this review is I looked into the camera in that video three different times and said, I'm having fun. And all the comments from angry people are like, why won't this guy have fun? And I Sure. I don't know what to tell you, man.
+
+Like, it's fun. It is a fun first generation product. And I think Alison and I landed on that vibe in our view. I think Joanna landed on that vibe. Marquez basically has the same headline as as us, which I think is his first generation fun and ours is, like, early adopter stuff.
+
+Like Yeah. Yeah. It's... That's what it is. It is a fun first generation product with all of the attendant weirdness of a first generation product, including the fact that developers are...
+
+They don't know what to do with it yet. And so this first wave of optimized apps in in many cases is actually, like, worse. Like, Instagram is optimized. It is broken. It is just a broken experience on this phone.
+
+Broken how? If you have the dynamic island open on the cover... Like, I was in an Uber on my way home last night, and it has a little dynamic island widget, and that scoots all of the system UI down and just covers up the Instagram UI. Oh god. That, like, instant...
+
+Like, they just did not account for this happening. And so they got it... They'll they'll fix it. On what timeline will they fix it now that they've shipped the first very clearly sort of auto relayed out app? I don't know.
+
+Right. Google is the laziest of all the companies in the world, and Gmail on this thing is, like, it's just a hilariously thoughtless exercise in optimizing for the Duo. Yeah. I I would put the over under for Google updates its apps for the Duo at, like, a year, and I think I'm probably taking the over. But they've all been updated to the the middle ground.
+
+Like, YouTube isn't upgraded to the middle ground. YouTube TV is updated to the middle ground. Gmail's updated to middle ground. They're just not good yet. Right.
+
+Think a lot of companies will be very happy being in the middle ground. They'll be like, look, it fills up the space. The end. That's awesome. And you're like, okay.
+
+So in a year, some companies will feel shame, and they will have done a good job. Right. And this is all I mean. Like, you gotta review what's in the box. And so at the very beginning, it was fully the experiences using this phone was little tiny iPhone apps and a not useful cover screen.
+
+And by the end, it was a not useful cover screen, little tiny iPhone apps, and at least something a little bit better on the inner screen. Okay. And that that to me was like, okay. You you get one point back. All of that logic makes sense to me.
+
+I just cannot get past the fact that a, this thing costs $2,000. Yep. This is not like an adorable first try at a thing, maybe. It's $2,000. And also, it's called an iPhone.
+
+Like, it... I I said this on on Wednesday's livestream, but if Apple had actually pitched this like an entirely new category of device, I would be so much more willing to put up with a lot of weird, new, bad ideas about how things work. But they're calling it an iPhone and they are going to try to sell it to people who are just trying to buy iPhones. They they keep talking about how it is an iPhone. And I just...
+
+Like, I I I want to give a company like Apple lots of license to innovate and try new things. We give them a lot of crap for not doing those things. And so when there is opportunity and reason to go try new stuff, I think that rocks. And I think you you get lots of leeway to go try new things. I just don't think you can look at this and say, for a product called iPhone that is going to be sold in stores next to all the other iPhones to hundreds of millions of people around the world, that this is a good product for almost any of those people because it isn't.
+
+It might be. I think the thing that I'm most excited about about the Duo is there is such a straight line from this to the second or third one being awesome. Sure. And I was not sure that that was the case. Like I think a lot of people are upset with our review for not pointing at that more.
+
+Sure. But we... Again, we we only review the products that exist. If we reviewed the future, every every review would be a 10 out of 10. Like, that's that's not how it works.
+
+But I I really... I I think in a way that with the early days of, like, the Samsung foldables, it was not obvious how this thing goes from this to awesome. I think that path with the Duo is obvious. There's a lot of things to do, and Apple has to rely on a lot of third party developers to do it. And those third party developers are constantly given more stuff to do and having more things taken away from them by Apple.
+
+So like Yeah. That is not a guaranteed thing, but it's coming there. But it's... This thing is too expensive and not good enough. And I just don't know how you give that a seven.
+
+Sure. I... In the context of expensive, it is definitely more expensive than the other phones. $2,000. It's slightly more expensive than its pure foldables, so fine.
+
+I think it's as expensive as it as it is so more people don't buy it. I think it is priced very deliberately. Right? It isn't But that's stupid. Well, I mean, that's that's reviewing Apple's economic strategy.
+
+Saying, like, the iPhone 10 was also the more expensive iPhone at the time, and it was it was not meant for everyone to buy. Like, they limited they limited the amount they would have to make at the price point. I agree with you that as an iPhone, it is not the best iPhone. And, right, the best iPhone right now is the iPhone 18 Pro or the Pro Max. Yeah.
+
+But it's it's right there. You can just buy the best iPhone if that's what you want. It it... Like, we should talk about, like, Gruber's review, and we should talk about Marquez's review. They both landed on the line that I wish I had stolen.
+
+I think Marquez Marquez was much nicer than John. He was like, do you want a kick ass OLED iPad that folds? You can buy one now. But it's not an iPhone. Like, he's talking about an iPad.
+
+Right. John was like, this is the worst iPhone that has ever been made. He referred to it as a miserable fat little thing, which is just incredible pain. It is a good line. Yeah.
+
+And he's totally right. Right? So if you just... And and John, later in his review, was like, this is the best iPad ever made. It's better than the iPad.
+
+The multitasking is more rational. It makes more sense. I have feelings about that. But you will know that both of those perspectives are this is less an iPhone and more an iPad. This thing represents the future name of the product?
+
+This is... I'm I'm agreeing with you. I'm just pointing out that our our friends and sometimes rivals got to the exact point that you're getting at. It is a fun hypothetical, actually. If Apple was selling this thing as the iPad Duo and you could buy it as a Wi Fi only or as the, like, tethered thing that that Apple does with the iPads, and there was absolutely no pretense that you might buy this and use it as your primary computing device, which is what a smartphone is, we might be talking about this radically differently.
+
+This would be easily the best iPad ever made. It would be... We we would just think about it as a full reboot of the iPad Yeah. That had a little cover screen, and it would be crazy expensive, and everyone would say, I wish this could just be my phone, and then we would have access just called it the Apple Duo. They should've just called it The the the problem is they ran away from the iPad, and maybe for good reason.
+
+Like, I didn't get too much into is the iPad a success. John just put a knife through the heart of the iPad in his review. Like, Gruber is like, the iPad sucks. It's multitasking. It's stupid.
+
+Everyone who's involved in its first version of multitasking should feel shame and maybe never work at Apple again. Like, he's mad at this thing. And he and I... You know, we texted a little bit. He he...
+
+You know, Gruber's entire approach to reviews of Apple products is to hold them to the highest possible standard. Sure. Are they perfect? Or do they exude the amount of consideration that Apple typically is famous for? And lately, I think he's been like, nope.
+
+Yeah. Right? Like, John's approach to liquid glass is like, Al and I should never, like, leave the planet. Yeah. I encourage everyone to go read the posts that John put out when Al and I left Apple to go to Meta and how he felt about what that even just the addition by subtraction might mean for Apple's design.
+
+You know, I think John was very harsh on the the Siri AI debacle because it meant that Apple wasn't making its own products as well as they should. So that perspective, what applied to this product is fascinating to me because he's like, they didn't actually solve the problems. It's it's the the lead of his review. Here are all the questions you might have had about Apple's first foldable, and then you'd be like, what did Apple do? Like, how do they horsepower their way out of it?
+
+And then his... You know, the reveal is like, didn't. Right. And... But he did get to...
+
+This is an improvement over the iPad. By throwing out the baggage of the iPad and thinking multitasking in this way, you get to a better, smarter place where you essentially have two little phones. Okay. That's something. Yeah.
+
+I don't I don't know that I agree with that take, but I see where that take comes from. I mean, that's like if you think about it as a duo, where the outside is an iPhone and the inside is an iPad, he's like, they took the opportunity to rethink the iPad and they got to something better, and they did not take the opportunity to make a good phone. They made the worst iPhone ever made. That that is his view. I do not a 100% agree with that.
+
+I think there have been worse iPhones. The iPhone five c, I think, was a worse iPhone than this one. Just a tough beat. Unapologetically plastic, if you will recall. The the open circle back case, those are those are the days.
+
+Yeah. There's... There were just some weird iPhones in the past that you could litigate what was the worst iPhone. I think this one is too small. I think it it...
+
+We we have to concede that all of the small iPhones did not succeed in the market. There's a reason Apple doesn't make them. It's because people want big phones, and developers have responded to that by making big apps. Mhmm. And so now you have a tiny phone.
+
+You have a phone that the market wholeheartedly rejected, and then you have an iPad. And I just keep coming back to, like, the outer screen is not very useful. The inner screen could be wonderful. I want a matte display OLED iPad that folds up and goes in my pocket. That thing rules.
+
+It does look great. Like, the the experience of... Like, I was thinking about this this morning actually that, like, fun test for something like the Duo is just if I if I opened it up, put a full screen video on it, and handed it to you, what would your reaction be? And I think overwhelmingly, the reaction would be wildly positive. Like, the screen looks great.
+
+It feels good to hold. It's the right size and that, like, they did that part extremely, extremely correctly. I was on a... Google Meet is not optimized for this thing. I was on a Google Meet call with a bunch of people the other day in the back of a car, and I was like, oh, this is the future.
+
+I I pulled out a little sheet of glass from my pocket, unfolded it, and took a video call. Sure. Neat. Where was the camera? I had it...
+
+I was... You don't you don't join video calls from the back of the car and have the camera on. No. No. No.
+
+That's very rude. I know that's... No. No. Thank you.
+
+Neil, I does not allow his whereabouts to be known. I just think it's rude. I I think if you're like if you're like, I'm joining this call from a moving car, you just keep your camera off, and you keep yourself on mute unless you have something very specific to add. I agree with that. But you...
+
+You've taken yourself out. But the camera's on the front of the display. Like, that works fine for that task. Yeah. But I...
+
+There's something of that that is just a legitimate cool. And everybody who's had any foldable in the past is saying, yep. It's always been cool. It's been cool for, like, eight years now. Okay.
+
+Like, I... All that is true. There's a reason in Android world, foldables have not eaten the market. It's because they also contain these compromises. They are also more expensive, and you have to decide whether you want a great phone on the outside and a compromised tablet on the inside, or a compromised phone on the outside and a great tablet on the inside.
+
+And here, Apple just picked the weirdest of all worlds. Yeah. Well... And I also think Apple... The the reason the app situation is so frustrating, and I'm I'm both sensitive to the thesis that not very long from now, this app situation will be much less of a problem.
+
+I think that is probably true. Apple is very good at getting developers on board. But with something like this, Apple's main success over Android is that it has cohesion in its software. Right? Like Apple is unusually set up to make all of this make sense, and Apple couldn't even do it with its own software.
+
+Like, some some of Apple's apps look great in in duo optimization land. Some of them look like butts. None of them know what to do with the outer screen. So you look at this and it's like, I'm not even sure Apple has a whole idea about how this software is supposed to work. And Apple's whole advantage here is that it has that idea and is able to communicate it to its developers in a way that they follow.
+
+Like like or hate Liquid Glass, Liquid Glass is now everywhere. And that is... There there is something powerful about that, especially next to Android, which is just a big jumble of a thousand ideas. Yes. Apple can enforce a bad decision at scale.
+
+It's a real thing. Look, they're putting out a label this week in the App Store that says made for iPhone Duo. I will just point out that that is straightforwardly a Google Play Store idea. This is also... This is the most admission of failure as a as a developer platform that you could possibly imagine.
+
+Like Oh, I I don't think that's true at all. Come on. Apple's whole thing is like, these apps just work. You you can run them all everywhere. Don't even worry about it.
+
+And now there's... It's literally gonna be They have a fancy new phone, and this is the most any iPhone owner is gonna go look for new apps in the past five years. That's true. And they have a little badge to incentivize developers to get in that game. This might be the last time anyone does apps forever because Muse is just gonna run Linux for you in the background hacking PHP.
+
+Let me... Actually, let me put that in front of I've been thinking about this a lot. For better or worse, Apple just caused a week long panic about whether iOS apps will be optimized for its new hardware. Sure. That idea is right next to maybe there will never be apps again, and you're just gonna talk to a Tamagotchi that uses Linux in the cloud on your behalf.
+
+And everything will be headless. And what are we even doing here? And there's a new platform. These ideas are running away from each other. Mhmm.
+
+And I think app developers are much happier about we're gonna make a weird tablet app, and maybe you'll use our app than they are about Claude... What... What's a duet? Claude duet. Yeah.
+
+Is gonna come use our website, and you... Like, human beings won't even see it. Oh, I agree. And I I think... I I...
+
+Again, I am actually optimistic for the future of the duo because, again, it looks like it's been a hit. People are excited about it. Crucially, techy people are excited about it. It it is not actually going to suffer some of the challenges that other Apple devices have, which is that the right group of people, which is people like app developers, have not been super psyched about having this device. So they don't build for this device and you don't get that app flywheel.
+
+Every developer I know has been goofing around in the simulator for a while. They all complain about how slow the simulator has been for the Duo, but they've all been using it. Everybody's excited to update. They all have ideas about how this stuff is gonna work. Like, I think the App Store situation will get better fast.
+
+This is why I'm not mad at the App Store. I'm mad at you because you reviewed the thing in the box, and none of that is there yet. They got... They they went from six to seven over the course of one week. That's all I'm saying.
+
+And maybe over the course of the next six months, it's gonna go from seven to nine. I doubt it because the phone's still gonna get hot. And if you use the inner display a lot, your battery's gonna die faster. And I think the camera's not as good. And if you use the camera a lot, it definitely gets hot.
+
+Like, the touch ID is a a compromise. There's already reports this week from Gurman that Apple's working on Face ID Yep. Which is just an incredible way to tank sales of the first generation device. I mean, the thing is... It's a compromised first generation.
+
+It's heavy. It... Yes. App support could help it go... The experience of it out of the box go from six to seven.
+
+Seven to nine is not gonna happen because more apps get optimized. Do know what I mean? Yeah. I think I think I probably agree with that. But the the I'm just so stuck on the idea that, like, right now, a lot of people bought this phone.
+
+I think more people than we expected, more people than Apple expected, pre ordered this phone such that stuff is backed all the way up to January and February. But the the dates are moving up. They are moving up, has been really interesting. I've seen a lot of people who were like, I expected my phone to come in December, and it... I got...
+
+I just got the it shipped message. I actually don't know what to make of that, but it does seem like Apple... Greg Jossiak is turning the knobs on perceived demand. Yeah. He, like, hit the make more of them button.
+
+Like, factory factory line go faster. That's how that's how manufacturing works. Right? We gotta get... We gotta...
+
+They gotta they gotta book the sales in q four, man. You know? I guess. But a a lot of those people are going to get a phone in the mail. They're going to open it up.
+
+They're gonna turn it on, and it is going to be confusing as all hell for a while. It just is. Like, it is going to be a frustrating experience. And if your argument is that you're... These people are self selecting because they're buying a thing that is first generation and is $2,000, that's fine.
+
+By the way, that is my entire review. That is the conclusion of my review. If you want to have that experience, if you, like me, find it somewhat fun to be frustrated by new ideas about smartphones, you're gonna love this thing. You're gonna have the time of your life. I think a lot of people bought this phone predicated on the idea that Apple figured it out.
+
+And I don't think there's any evidence anywhere in this device that Apple has figured it out. Not in the hardware, not in the software. Nobody. But, like, the the whole pitch, the whole message coming out of Apple has been, we're we're six years late to this party, but we did it. And they didn't yet.
+
+They might. No. They might. They genuinely might. Because the way they could've nailed it is if it it was an iPhone on the outside and an iPad on the inside, and they just didn't do that.
+
+You know what's funny? Do you remember last year when the... We... The iPhone error came out and everybody was like, oh, the obvious future of this device is they're just gonna stick two of them together, and that's the iPhone Duo? They probably should've just done that.
+
+Like, that might've been the answer. Yeah. I mean, I think I... Again, I think the aspect ratio caught me. To quote my friend John Gruber, a miserable fat little thing.
+
+Just one of the one of the all time harshest burns from from anyone in any product review. Yeah. But that size and shape for the cover screen, I think, will not last. It might last a generation or two, but I don't think it's the right one. And I think it it is inevitable that this device crashes into the iPad.
+
+And it might be that the iPad steals more from the Duo than the Duo steals from the iPad. But these things are gonna run into each other. What was your line that this wants to be an iPad the way the iPad wants to be a Mac? The iPhone Duo wants to be an iPad the exact way that an iPad wants to be a Mac. You know, when you use an iPad, can just see over the fence into what it would be like if it was a Mac.
+
+Yep. And then you're like, screw it. I gotta just use my Mac. When you use an iPhone Duo, you can just see over the fence into what if this was just an iPad. And then Yeah.
+
+Somewhat importantly, I do not then go use my iPad. Just go use my Mac. Skip straight to the Mac. But a lot of people do use their iPad. Yeah.
+
+I think the way that that goes that could be really interesting is if the iPad stays on the current trajectory, which is just to be increasingly Mac like. Like, it is it is just running right into the Mac, and the Mac sort of runs back towards the iPad. If we're gonna get a touch screen Mac as soon as next week, this is going to be a a just true collision of two different kinds of devices that maybe Apple is starting to accept are, for all intents and purposes, the same thing. We'll see. But those two things seem to be running at each other.
+
+What that leaves is this giant gap in the middle. Right? The the third thing Steve Jobs always talked about. And maybe maybe Apple's new idea is that actually the duo can occupy both of those spaces. I disagree with both you and Gruber that this thing is a perfect iPad.
+
+You've both used it way more than I have. But when we talked about this on Wednesday, like, this thing doesn't run iPad apps, and it should. There's a bunch of apps that don't exist because of that, and there's also a bunch of apps that will never make sense on a screen this large unless they are functionally or actually Yeah. IPad apps. Completely agree with that.
+
+This is I'm saying. Like, it's not an iPad. I think everyone assumes that you have an iPhone that unfolds into an iPad. Mhmm. It it is what you...
+
+It's the only natural assumption, and it it is not that thing. No. It's an iPhone that unfolds into a bigger iPhone. And I think people are gonna look at a touchscreen Mac and assume it is an iPad. Like, I honestly think Apple is in a period of, like, intense soul searching.
+
+The idea that they're they're gonna come out with jewel like products that perfectly split the difference and solve... You know, like, look at all these hardware keyboards and these stupid BlackBerrys. Here's the innovation that just outdoes them all. Right? Then that's gonna change the paradigm.
+
+I think Apple is actively, like, looking for those new ideas while the idea that AI is the next great interface platform or interface paradigm just like looms over them. Yes. Right? Like, you're gonna talk to Siri AI, and it's gonna use the apps on your phone on your behalf is not a thing that exists in Apple world yet. It might be the thing that everyone else is chasing.
+
+Yes. And I think in a funny way, Apple allowed itself to get sort of lost in the sauce of AR and VR in the same way that Meta did. Not quite to the same extent. Nobody's worried about legs at Apple Park. But Apple...
+
+I mean, you you think about even something like Liquid Glass. Right? Like, that starts from the idea of the VisionPro, and it starts with this idea that we are going to mesh the digital and physical worlds. The Duo has none of that pretense. Right?
+
+Like, this is this is new questions about digital software, and I think Apple is is going to have to pull itself back into array in some ways around what devices do we actually make and what do people actually use them for. Yeah. I think this is good. By the way, just to to put this out there, I think that it's good for Apple to be in the what if we tried this mode. They haven't been in one thousand years.
+
+And, you know, the Tim Cook era at Apple is dominated by... It's an iPhone, and we're gonna make 60 SKUs at every price point, and everyone in the world will have them, and our supply chain efficiency will be unmatched. And the software will get worse over time. Like Yeah. There's no there's no getting around it.
+
+And we're gonna wage a bunch of European regulatory battles or whatever. And I think that has made people forget, by the way, that Apple, even when it was a huge company, still tried things. Apple has failed a lot. Yep. And they...
+
+And... But they have relentlessly tried things. Steve Jobs launched a social network inside of iTunes. Yeah. And, like, I think that I think that rocks.
+
+Like, it's... It is... I genuinely am thrilled that the duo exists. I think it's fun and interesting for all the reasons that you do. I just don't think...
+
+Teez, you think it should be $500. I just don't think I can look anyone in the face and say you should buy this phone. And if if that is the case... But just to be a 100% clear... It's a seven out of 10.
+
+What do you think? Because if you are like, will spend 2,000... I don't think it's not gonna, like, explode in your face. You're just gonna be like, this cover screen's a little bit small, and these apps are pretty weird on the inner screen. And the team at Meta allowed Claude to update Instagram, and I hope they'd allow Claude to try a little bit harder next time.
+
+Yeah. They gotta update the... To the pro plan. Then then then Yeah. I mean, like, look, Instagram edits, the video editing app, like, that team did a great job.
+
+The main Instagram app, I do not think they did a great job. Yeah. YouTube. Just, you know, like, does Google have a bunch of AI coding tools? Like, I'm making this accusation somewhat in jest.
+
+I assume someone tried. But I'm also just aware that that we live in the age of vibe coding, and this is a thing that will be happening to people who see that code. There's there's that. But I... The things that you will actually complain about as a first generation early adopter, the phone does get hot, especially if you run the camera with the screens on.
+
+It it gets hot if you stream a bunch of video. I watch I watch YouTube TV every morning. Watch CNBC every morning while I get ready, and it gets hot when you do that. That's just a thing that happens. Yeah.
+
+Is that Google's fault? Is that Apple's I don't know. The phone gets hot when you when you... When I do a thing that I do with my other phone all the time. The...
+
+You know, if you use it open a lot, you're using it in tablet mode, and if you have brightness ramped up, you're gonna drain the battery. Like Yeah. These are the things that are gonna happen with this phone. That's early adopter stuff. Touch ID is gonna annoy you.
+
+Early adopter stuff. The next generation might be great. The third generation might just be the iPhone. Yeah. And that's what I mean.
+
+The the thing that I am most excited about about the Duo is you can see that path. And I I I think there is a real chance that this ends up being the iPhone. Like, I I think that's exactly the right way to put it. It's certainly not now. And it's it's it's not even competitive with the iPhone in that sense.
+
+Right? Like, it is such a radically different thing that you actually shouldn't even comparison shop this versus another iPhone. Until... And by the way, the other reason is that handoff is not ready, and we touched on this briefly in the livestream, it's worth saying again now. I know a lot of people who assumed they could keep their existing iPhone and then buy a Duo and use this new hand off feature where your eSIM seamlessly is active on both phones and just goes into active mode depending on which one you're using it.
+
+That only works on T Mobile. You have to pay extra money for it, and it doesn't transfer your Apple Watch. Right. So you... Or your Whoop band or any other sort of like hardware device that thinks it's connected to your phone.
+
+Signal does not go back and forth automatically. So it... That... This is like the glimmer of how that will work in the future. Yeah.
+
+But the reality is it doesn't actually work right now. Like, handoff works. It'll it'll move a phone line back and forth, but the iPhone is not built to be multi device in that way. Right. And so that needs another year of refinement as well.
+
+So interesting idea. Doesn't really work. Needs a year of refinement. Seven out of 10, Eli Patel. Is this because you're gonna have a good time.
+
+If if if this... If that's the experience you want, do I wanna go on this adventure? Sure. Yeah. This is like saying you shouldn't buy a Corvette as a daily driver.
+
+But people who buy Corvettes are very happy that they have Corvettes. Sure. They don't... If... Crucially, they don't call the Corvette the Camry du...
+
+The Camry plus. The Camry duo? The Camry duo. It's because it has more it has more exhaust. That's how you know.
+
+That's true. Alright. If that's if that's your objection, I will go revise the score. I'm gonna change this to the... They they should have called this the Corvette.
+
+I'm telling you, the... There... The world in which they talk about this thing as an iPad is a truly fascinating parallel universe to me. We should get off this subject because we have something just as sexy to talk about, which is server side application technology. The Internet is breaking, people, and we need to talk about it.
+
+We'll be right back. Support for the show comes from AWS AI. AWS AI is powering transformation across the world's leading organizations, moving AI from possibility to production at scale. Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars.
+
+Across industries, AWS AI is helping businesses innovate faster, lead with confidence, and transform what's possible today. AWS AI is how. Support for the show comes from Bitwarden. October is cybersecurity awareness month, and here's an upgrade that actually gives you something back, time. With fewer password resets, less typing thanks to autofill, and no more trying to remember which variation of your dog's name you used this time.
+
+Bitwarden is the trusted open source solution for passkey, password, and secrets management. It makes secure password management available to everyone with a free forever plan for individuals. That way, all users have a reliable way to create, manage, and autofill strong and unique passwords across accounts and devices. Bitwarden uses end to end encryption to protect vault data, while secure autofill helps reduce phishing risk by matching credentials to the right sites, giving users greater peace of mind when logging in. Bitwarden is trusted by over 15,000,000 users and 80,000 businesses across 180 countries and 50 plus languages.
+
+Get started with a basic free plan for individuals or protect your business today with a free trial. This cybersecurity awareness month, check out Bitwarden. Visit bitwarden.com to get started. Support for the show comes from Jira by Atlassian. AI is only as useful as the context it has to work from.
+
+But when that context is scattered across tools, threads, and DMs, that means your team and your AI agents end up flying blind. That's the problem Jira solves. What's the goal tied to your project? What got decided last week in Slack DMs? Atlassian's teamwork graph pulls all the pieces together from Jira, Confluence, GitHub, Slack, and more, so nothing falls through the cracks.
+
+With Jira, you can actually share the context with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP. Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira. Learn more at jira.com. That's jira.com.
+
+Alright. We're back. It's been very strange, forty eight hours in the world of web technology, and it has done the thing that sometimes we like to do on this show, which is take all the parts of the Internet and computers and the world that no one should ever have to think about and brought them right into the forefront of everyone's lives. Neillai, do you wanna try to explain what's going on with PHP two shell or do you want me to try to do it? I'm gonna...
+
+I'm just gonna say what the prompt was Oh, gosh. That caused the global Internet catastrophe that we faced yesterday. Wait. I don't actually know this. Okay.
+
+So David's gonna tell you a long story about AI being used to find vulnerabilities in PHP, which is a load bearing piece of technology that runs a lot of websites. But I'm gonna tell you that the the prompt that the security researcher used was just find bad vulnerabilities in PHP. That's it? That's it. Oh my god.
+
+You know, this makes me think of... Have you ever seen that that meme where it's like the the the bell curve and at the bottom, at the beginning, it's Apple notes, and then at the top, it's like everybody's super complicated productivity systems. And then at the end, it's just Apple notes again. Yep. That's AI again.
+
+Like, remember when everybody was like, here's how you have to set up your Claude MD, and you have to have a folder full of markdown files, and you have to do all this stuff. And then the models got one step better, and now all you have to do is type find bad vulnerabilities in PHP, and it breaks the Internet forever. Everyone had all these, like, complicated Claude MD files or whatever, and now it's like, just... I don't know. Yeah.
+
+Just just type one lowercase sentence. It'll probably be fine. So... Okay. So let me let me try and explain out just very basically what's happening here.
+
+So PHP is software that runs on servers to create web apps. That's that's sort of the the simplest way I can think to explain it. Apps apps run on several versions of software. PHP is the one that runs on the servers in order to make them dynamic. It's bad as a programming language.
+
+A thing I've discovered over the last couple of days is every developer who has been forced to work with PHP in some way or another thinks it is a crappy, unhelpful, sort of chaotic programming language, but everybody is sort of forced to use it because it is so structurally important to the way that the Internet works. To the point that I... I've seen estimates as high as 70% of the websites on the Internet use PHP in some way. And importantly, PHP is is underlying technology. So lots of apps, lots of CMSs, WordPress runs on top of PHP.
+
+Like, it is deep, deep down in the infrastructure of the Internet. And this organization called Wiz Research, which is just a fabulous name for research. I assume they used to be into touch with on Samsung devices, and now they've pivoted to AI. They found these vulnerabilities in PHP and and crucially in PHP itself. Right?
+
+This underlying technology way below all the apps. It doesn't matter what app you're running. It doesn't matter what website you're on. It is in in part of the base layer of technology that does this. And and like like, Neel, I said, they used AI to find these vulnerabilities by typing find bad vulnerabilities in PHP.
+
+I will say there's a little bit of complexity in, like, who found what when. There was an embargo. There's a second company that independently found the vulnerabilities with the prompt, but they're the ones who released the fixes early and it caused a panic in the scene. But it is true that the prompt was find bad vulnerabilities in PHP. Yes.
+
+And, basically, these vulnerabilities are are... There... There's several of them, and and they're each very specific. But basically, the the overarching idea is that they are related to what happens when a process runs out of memory. So you you...
+
+The computer asks PHP to do something. It it fails for an unexpected reason. And essentially, there are a lot of people who know this stuff better than I do who are gonna yell at me about this. But it basically, it leaves a hole rather than finishing the process. It just sort of disappears.
+
+And it it leaves a hole that if if you are there as an attacker at the right time with the right tools, you can just exploit. And what you can do if you get in is just anything you want. You don't have to have administrator access. You don't have to do anything. You have core access to all of the data, all of the code.
+
+You can execute your own code inside of this server. So it's like if you are there at the right place and time, you have just absolute complete control over anything running PHP. We have known about this exploit for a couple of years, and there there have actually been people talking about this thing for some time. But what was really different about the world a couple of years ago was that if you wanted to engineer a hack on a website, you basically had to do it manually. And because this is a very specific thing that only happens in very specific circumstances, the idea that you were going to do this a, at all, and b, at any kind of scale was just sort of impossible.
+
+Right? You'd need a giant army of people individually attacking websites over and over and over and over and over and over again Yeah. Hoping to land on this one particular instance in which you can take over the website entirely. But you don't need all of those people when you can just set an army of AI agents out into the world with instructions to go looking for these things and keep pounding on them until they hit the jackpot. And that's essentially what is able to happen now.
+
+So it was it was GPT 5.6 Soul and the new Gemini Gemini four Argon were were both used in service of both discovering and, in theory, starting to fix this exploit. But they were basically able to go out and find that, okay. Now automatically, this is doable at scale simply, quickly, and automatically, and anyone who wants to can just just force their way into vast swaths of the Internet. Yep. Is that a reasonably good explanation of what's going on?
+
+It is. The the the the complication, and I I think this is just a fascinating element here, is, you know, there's an entire process in etiquette around disclosing security vulnerabilities. And so the first group of researchers found the vulnerabilities. They were on their way to publishing them, and it's the second company, ChainGuard, that heard that this was gonna happen, did the AI prompt find bad vulnerabilities in PHP, and released fixes before the embargo on the vulnerability. Oh.
+
+So this set off this, like, crisis panic of this was released before we were ready for it. You know, they're apologizing for for it, but they're trying to explain what they're doing. But what just really struck me about this is that there was, like, a whisper on the wind that there was a PHP vulnerability, and someone else was able to go find it. Right? Because you don't need a sophisticated security researcher who's about to disclose a secret.
+
+You need an AI model and say, hey. I... Can you go find some vulnerabilities? Right. And then you'll find substantially the same ones.
+
+That that's what... That is the that is the dynamic here Right. That is, to me, just new. I... There's not another world where you hear that someone else has done something very complicated, and then you're like, I will front run them by doing something equally complicated.
+
+Yeah. But the price of doing that just came way down. Yeah. We've been covering the the AI math wars recently, and that's that's very much the same kind of thing. It's like, oh, there's rumblings on Twitter that someone has solved one of the millennium prizes.
+
+Let me just sick a bunch of agents on it until they figure out which one it is and try to get there first. Because all of a sudden, we've discovered there is there is something new to know here. And as soon as you know what direction to point these systems in, they are very powerful in running as far down that direction as anyone ever has before. And so the the speed of this, I think, has caught a lot of people off guard. So on Wednesday, they disclosed this publicly.
+
+It's a it's a huge thing because the the recommendation from the PHP maintainers is essentially, a, you need to update your your web stack as soon as humanly possible. We have a fix. We can fix it. You you need to install it this minute. And if for some reason you can't, the safest thing to do is go offline.
+
+That's their other recommendation is you have to get your website offline until you can fix this. That's how serious and accessible this vulnerability is. So all over Europe in particular, like, I I was reading in The Netherlands, a huge amount of government websites were going down. There were there were a lot of, like, public government sites in in Finland and in other countries that just were like, it... It's gonna take us some time to fix this.
+
+Ancient infrastructure in every government is is a thing. These things are not as easy as, like, a software update on your phone. So a lot of folks were just like, the the simplest, safest thing for us to do is just go offline. Wikipedia has had trouble with this. The Internet Archive was briefly offline.
+
+Like, the the actual ramifications for this have just been huge even as everybody who is incentivized to tell you nothing has gone wrong has continued to tell you some... Nothing has gone wrong. OpenAI came out and said something to the effect of, like, a... The AI found the problem before attackers did, so that's good. But then Amazon was kinda like, well, that actually doesn't seem like it's true.
+
+There's... There... The... That they have some evidence that the hackers got a four day head start. Matthew Prince, the CEO of Cloudflare, has said they've already seen millions of attempts to exploit this.
+
+It's just out there now. Like, this this Yep. Swirl has started. And because it is so much easier to exploit, because all you have to do is type that stupid prompt into chat GPT, it's just like the the toothpaste comes out of the tube, and it is very, very hard to create this incredible worldwide effort to patch 70% of the web all at once. Yeah.
+
+Bill Gates was on Decoder. I would say it was not a hopeful message from the cofounder of Microsoft. He was like, we're in for twenty years of pain. Like, that was basically his vibe. And he's like, but we should do something about it.
+
+And I asked him, does something really bad have to happen first? And he was like, maybe. Like, that's how we handle other disasters. And one of... You know, and we...
+
+I tried to ask him if, like, hey. I was conscious. You know, like, these, like, high minded Sure. Decoder y questions. And he's like, who cares?
+
+It's... The problem is now. Deal with that later. Like, get on and by the way. Shouts to Bill Gates for correctly answering that question.
+
+He was very much like, shut up, Eli. Talking to Bill talking to Bill Gates is very much like, if he thinks you're smart, he will make it also clear that he is much smarter than you. So it's like a compliment that he spent an hour and ten minutes with me. And also, at the end of it, was like, I just got punched in the face. But the the vibe is everything is gonna get so much more insecure before it hopefully gets more secure than ever.
+
+And we are about to live through the... It gets way more insecure. And even this back and forth about when to release fixes, you know, the company that released the fixes early before the embargo broke, their their rationale was we are seeing it being exploited. Like, a a couple days is... Might be too many days of this being in the wild because it's out there.
+
+Yeah. And so there's just something here where even the people who are the most anti AI in the world are going to have to deploy the tools to fix a lot of code. Yes. Right? And one of the, I think, bigger sort of existential questions, if you're on, like, the good guy side, is you probably need your defensive AI to be autonomous as well.
+
+Because the bad guys are gonna have autonomous AI looking for vulnerabilities all day and all night Yep. And finding new ones. And if they can show up in your front door and do something bad and they've gotta put it... And you have to put a human in the loop, you're... It is probably too slow.
+
+Yeah. I think that's right. I mean, this to me rhymes so much with the OpenAI hugging face hack in that it... Like, this is the sort of thing people have theoretically thought about for a long time. Right?
+
+It it seemed obvious that eventually it would get good enough at breaking into these systems that we would have this forever arms race between offensive AI and defensive AI. And that is just what this is. This is that made manifest in a really big way right out of the gate. And and I suspect if it is like the hugging face incident, we are going to hear about a lot of these again, very quickly. And this one was directed.
+
+Right? It's it's important to note that somebody asked the tool to do this, but it is... We are we are not a lot of turns away from being able to just set agents out looking for vulnerabilities. Right. Go find bad vulnerabilities in PHP and go get me some crypto is is right there.
+
+Yeah. Right. Right. It's... I I don't think that...
+
+That's not even, like, out of the realm of today. Like, I... I'm confident that is what attackers are going after today. Yeah. The question is whether we have built the control systems or the alignment systems or whatever to let the defensive agents, like, run around our code bases and fix them or look for vulnerabilities and, you know, and, like, and ward them off.
+
+And I don't think anybody has, like, landed on that answer correctly. We've landed at take the Internet archive offline for a few days. Right. Yeah. The the only answer is literally turn your computer off.
+
+Don't let the AI in. So right next to this, I know you wanna talk about the broader web. So that... This is the PHP story. This story, we're gonna tell version of the story for the next couple years.
+
+Yes. It feels very much like whatever the framework of this story is, we're gonna repeat it. It's the hero's journey, only it's PHP vulnerabilities. Mhmm. At the end, you know, that's...
+
+It was really the friends we made along the way, that friend was PHP. Right next to that is basically the web breaking through attacks by products that are being used legitimately through the front door. Uh-huh. Right? So, like, Mia Sato on our team this week, she set up an agent to just hold products on The RealReal, which is a fashion reassembly.
+
+And she just had Muse, like, find some products, hold them for twenty minutes, which is as long as you're allowed to hold them, then drop them, and then hold them again. And then did it again. And she's like, I I basically locked these products up for hours. I can just I can just keep it in the cart over and over and over again.... The real world is like, you know, the whole point of that is to to impose some friction.
+
+If So you don't buy, someone else can. And he was like, this agent just let me do this. Like, Muse just did this. Who should stop her? Someone should stop Mia is what I'm saying.
+
+I did always. Yes. Who should... Should Muse not do that? Is that an alignment problem?
+
+Is that a safety problem? It's your agent. If you were to do that as a human, you'd just be a jerk, but you could do it. Should The RealReal detect Muse and block it the way that a bunch of banks are blocking it? Well, I was gonna say that's that's...
+
+Again, that is very much in the just take your website offline answer. Right? Because the the one tool these these sites have is to block the system entirely. There is no way of working together that makes all of this okay. There is just You block them to get terms.
+
+We've seen a lot of publishers do this. Right? They they block whatever AI system, OpenAI, whatever, and then the AI companies are sad, and then you're like, we'll do a deal. And like every publisher... I'm not even sure if our deal survived the transition to VMC.
+
+Yeah. No idea. I'm confident our parent company has a deal with someone. It's a... It no longer is relevant to us.
+
+Presumably. But, like, Amazon is Amazon is out here blocking not for deals. Amazon is saying, we want no part of this game. But I think that they're gonna end up with deals. We want no part of this game until the rest of the market has settled down, and all of you realize you still need Amazon, and then you will come crawling up to us.
+
+Right? Like, I think that's true. On the flip side, Walmart is basically saying, let your agents come shop with us. Yeah. We will take over for Amazon.
+
+Right? Because Walmart also has a giant third party marketplace and fulfillment centers and all that stuff. And so if you... If they can take points of share away from Amazon for agent commerce, then that's gonna be great for Walmart. Yeah.
+
+But, like, all of this is just deals. Like, the idea that your agent is just you going off and doing things in the Internet was very tempting for five minutes at the beginning of all of this, and it is absolutely not gonna be true. They're gonna be opaque backroom deals that control how the web works because all that money is too lucrative for this just to be wide open. Right. And I think, like, the the the shopping cart example is a good one.
+
+Right? Because there is a... There's a way of looking at this that says, okay. I should be able to buy something from Amazon. And the fact that Amazon's website is so bad, I don't wanna use it, is actually Amazon's problem and not mine.
+
+So bypassing it is something I can do with no hard feelings. But like what Mia did with The RealReal is is actively shady stuff. And it's the kind of thing a human, not even even maybe could, but just wouldn't do. I think lots of people camp on their carts on various platforms. Sure.
+
+But not... It it it takes work. Right? And, like, the friction ends up being really important there. It's like...
+
+I think it... A good example of this is is Ticketmaster scammers. Right? Like, as this stuff has gotten more automatic, it's become a much bigger problem because it's one thing to sit here with a with a bunch of computers and all of my friends and try to buy Taylor Swift tickets. It's very different to send an army of bots at Ticketmaster to reserve all of the Taylor Swift tickets.
+
+Like, we're we're now... We are no longer playing a fair game anymore in in any sense of the The entire Internet just looks like more and less illegal DDoS attacks. Yeah. Yeah. And I think the the question for for The RealReal is like, okay.
+
+Are we are we even letting human shoppers do human things just with a new tool? And I I think the answer in so many of these cases is gonna be no. People are going to try to do things they wouldn't feasibly do themselves. Alright. Let me throw this data point at you.
+
+Okay. So Meta had earnings this week. They did great. Meta's gonna make it out of quarter, you guys. But the most important part was that they confirmed estimates from earlier that Muse has more than 10,000,000 users.
+
+Mhmm. And Zac said 25 people who set up Muse now use it daily, which is either good or bad. We should talk about that. That's a lot of people. And he said a quarter of engaged users who were shopping, which is an interesting...
+
+A quarter of the users who were shopping. Mhmm. Unclear how many people that actually is, but a quarter of the users who were shopping have an average purchase size of over $200. Then he said that Big number. And he said Plaid, which is, you know, the connector to the banks, and Stripe had to, like, do work to account for that demand.
+
+Wow. That's a big number. Or a small number because not a lot of people are shopping. It's a quarter of the people who are shopping have purchased a size over 200. Well, sure.
+
+The idea that I'm gonna let Muse spend $200 for me is just not in the realm of possibility. But you have given Muse your credit card and let it buy you movie tickets, which I think is dangerous and irresponsible. But you live on the edge. My best Muse experience so far, other than the time it almost bought me a car, was this Monday when I was in New York. I I had a very brief period of time away from my children and thus allowed to do things in the evening.
+
+And I was like, I wanna go see. You can see everything. So I did what you do when you wanna see... You can see everything, which is I went to Fandango and looked at a bunch of things. I went to the Alamo's website and looked at bunch of things.
+
+I looked at maybe a 100 showings, and everything was sold out except the occasional front row seat, which I was warned for a variety of filmmaking choices, reasons you should not do. Do not sit in the front row. You can see everything. I promise. So I just went to Muse, and I said, hey.
+
+I I need one seat somewhere in Manhattan. Here's where our office is. The closer, the better. Go find me a movie ticket. And it did.
+
+It found me literally what it said and what I believe was the last single movie seat in Manhattan for that day, And it bought it for me. It had it had access to my credit card through link, which I think is a Stripe product. Sure. And it it bought me a ticket, it sent me the confirmation from Alamo Drafthouse to my email. It was it was the most remarkable experience I have had.
+
+And I still had this conflicting feeling of like, okay. Well, it found me something that I wouldn't have found otherwise. I tried to do the manual labor to find this movie ticket and could not. And it found it for me, and that's great. But also, if it's one of those, like, if you just imagine everyone is doing the same thing that I am, if everyone did that, it would all collapse.
+
+Yep. Yeah. It it... It's just a DDoS attack on Fandango. That's what you're describing.
+
+Yes. And and we get to the point where every movie sells out instantly, where the the allocation of things just becomes sort of insane and doesn't make any sense. It's my bot versus your bot. It just doesn't it just doesn't work. And so we're we're in this weird place of the early tech adopters are gonna have this huge advantage because I can just tell my muse to go get me a ticket the minute one becomes available.
+
+And it makes me feel a little like a Ticketmaster scammer, that I'm just sicking my bots on the website so that I get tickets and you don't. And that feels a little icky, and it also doesn't scale. And as this stuff gets bigger, it's just gonna break in bigger and bigger ways to the point where, like, Alamo Drafthouse might decide that the responsible thing to do is just block the bots entirely. Like, we're a human platform for humans to go watch movies, buy tickets like a person. Yeah.
+
+Show up at the box office. Yeah. Send your robot. Send your Optimus to go buy tickets the box office. Yeah.
+
+Yeah. I mean, we've talked a lot about how, like, the the structure and presentation of the web is gonna change as a result of this stuff. And I think what's maybe more likely to happen is that the two sides are just gonna run further and further away from each other. Like, maybe Alamo does just want money from Muse every time I buy a ticket. Ironically, Muse wants money from Alamo too.
+
+Yep. That's that's... Like you said, that's the business There's gonna be a bunch of weird opaque deals underneath all of this, and it will feel so unlike the web that we have come to know today. Yes. All in the name of making it slightly more convenient.
+
+Yep. I mean, the idea that there's like a a web for people that is like nineteen nineties geo cities is great. Mhmm. I'm actually stuck on this other stat from Meta's earnings, which is 25% of people who set up Muse now use it daily. Is that a lot or a little?
+
+I mean, that means what? Two and a half million people. Because Muse won't shut up. If you... If ever...
+
+100% of the people who set up Muse get a little message from Muse every day. Yes. Oh, yeah. My favorite one, I I came home last night. I got off the plane.
+
+I got in the car. I drove home. And, like, fifteen minutes after I got home, I get a message from Muse that literally just goes, you're home. Safe travels back. It's like, what?
+
+It figured out when my plane was and that it had landed, and it told me I was home as I'm standing in my house. I was like, this is not a good engagement bait, but I suppose it is successful engagement bait. Every single day just tells me some nonsense. One tightening on this morning's Apple NFC story. The blah blah blah, the European Union is gonna make Apple open up NFC in the European Union, and Muse has decided that I care about this story the most.
+
+And so it just it just gives me little updates. Big Europe guy, Neil. European regulators have once again made French noises at Apple. But, like Yeah. But but because it does so much engagement bait and sends you so many notifications, I can't decide if 25 is a lot or a little.
+
+I think it might be a little. I kinda think I kinda think it is. Yeah. Like, that is that is the sign of a not wildly sticky product. I know.
+
+It it... It's so early in all of these. Yeah. Again, Anthropic just announced Claude Duet this week. It's so early in all these product...
+
+Products. And I I do think... Again, I think Muse is the best consumer product of all these, especially because it's free. It's it's got a but. There's that.
+
+But 25% of people using it daily... I... If this thing is gonna overtake the iPhone, that needs to be a 100%. Yes. Well, and even that, like, that that means two and a half million people, but that is that is a fair amount of people all competing with me to buy movie tickets.
+
+You know what I mean? Like, it's it's all just sitting there. And to your point about the shopping thing from earlier, Meta and everybody else believes that the most important thing you will do with all of these tools is transact in some way. It's the business model. It's the demos.
+
+It's the idea. And so they they all see these things as shopping platforms above all. And two and a half new... Two and a half million new people shopping on Meta platforms every day is a pretty big win for Meta, even in these very early days. What are you gonna do with your advertising platform on Instagram?
+
+Sell... I don't know. That's a that's a good question. If if I had to predict what the hottest controversy inside of Meta is, or the hottest conflict rather, It's that everything Mark Zuckerberg is working on is gonna kill Instagram. Yeah.
+
+Or the ads business in general at the company. Well, know, if you're taking fees to send customers to movie tickets, you can move those advertising dollars. These are the shady deals you're talking about. Right. This is the back end.
+
+Right? Fandango, just spend some money with us. You're gonna send me to AMC and not Alamo because AMC paid you for it. Great. You can you can you can move some advertisers around somehow, but you make people put their phones down or you'd you'd invest in open weight models that anyone can run a Mac studio to flood Instagram with slop.
+
+This is a real problem for Instagram. Adam Messeri this week, he had a... He was replying to a creator who was furious that they had been AI cloned, and he's like, no. No. I do think this is a problem.
+
+I just don't know what to do about it yet. Yeah. And I sent it to Mia and Jess who've been, you know, we've been talking about this so much. I was like, this is as close to an admission of defeat as we are gonna get for Meta. Yep.
+
+Every single day, I get AI Lewis Hamilton doing boy bands. Like, that is what this... Because I've saved so many of them now. If you wanna see AI f one drivers doing one direction, boy, do I have an Instagram safe folder for you. Every single day.
+
+Every single day, I get... You know, there... There's that Drake song that had Justin Bieber do the video for. Uh-huh. Every single day, I get Sam Altman as Justin Bieber doing Drake.
+
+Every single day. I get Sam and Dario just, like, goofing all the time. Instagram does not care about deepfakes. They want to. They know they should.
+
+They have no strategy for making them go away. They have announced nothing. They have no technology to do it. And all this is next to what if you didn't look at your phone because Muse was doing it for you and you just had a little Tamagotchi. And what if we just enabled massive deep fakery at scale on our platforms with no plan to stop it?
+
+Yep. And I'm telling you, like, you can see it's like, it's causing Adam pain. Like, he's talking about it. He's like, don't what... This is a real problem.
+
+I wanna... I don't what to do about Meanwhile, YouTube is like, we announced... We made likeness detection. We just invented a plan. Is it working?
+
+We don't know. Here it is. Here it is. Yeah. Like, we have to for it.
+
+We have to have it. Like Yeah. And Instagram is nothing. And I... There's some it's like the web is under some kind of threat where it's gonna get automated and bot driven and maybe the dead Internet is live.
+
+And then inside of Meta, Instagram is just... It is it is it is hunted in a particular way right now by everything else the company is doing. Yeah. I think that's right. But also, it is the most relevant platform at Meta by a thousand...
+
+This is what I'm saying. It's gotta be the hottest conflicts inside the company. Yeah. Everything Meta is doing per... It spells the end of Instagram.
+
+Yeah. If you work at Instagram or Meta and are feeling these feelings, get at us. This is a thing we're covering a lot of ways. Adam, once again, you've been on Decoder many times. I I know why you're not coming back right now, but you're more than welcome.
+
+If you send your deepfakes, Adam, we'd love to see I have personally thought about posting a lot of deepfakes of Adam and Zuck just to prove the point that they do not care about this. Well, no. They care deeply. They just can't do anything about it, which is I will say Lewis Hamilton doing APT by Rose and Bruno Mars. It's good.
+
+It's good stuff. It's Lewis Lewis and Charles Lecare. That's that's that's what I have in my Instagram. See, that's like dead center of my interest. I need to get this on my feed.
+
+That's... That stuff could be very important to me. Shouldn't all these celebrities be, like, take this down? But they have no recourse because they... The law to protect your like...
+
+Likeness at this level does not exist. Yep. I'm sorry. Like, we are we're in... We're at Bill Gates' tumultuous twenty years, my friend.
+
+It's all gonna get worse before it gets better is, I think, the thing Bill Gates is gonna end up being But then the memes. Write about. It's true. The memes are on point these days. Alright.
+
+We need to take one more break, then we're gonna come back. It's time for the Lightning Round. Be right back. Support for the show comes from Ring. Holiday shopping is easier than ever, but keeping track of packages showing up at your door is another story.
+
+But Ring can help give you peace of mind whether you're traveling, at work, or just out running errands, all right from your phone. That means whatever shows up around your home this holiday season with Ring, you're protected. With Battery Doorbell two k plus, you can keep an eye on deliveries at your front door so you can know for sure that your packages will be there when you get home. But there's more to your home than just your front door. Outdoor Cam Plus lets you check-in on your yard and outdoor spaces with clear retinal two k video that lets you zoom in and catch all the details.
+
+And for inside, the compact indoor cam plugs in almost anywhere, letting you easily check-in on your home and pets when you're not there. Together, they make it easy to stay connected to what's happening around your home, wherever you are. With Ring, you're protected for the holidays. Shop cameras, doorbells, and more at ring.com. Support for the show comes from Idira by Palo Alto Networks.
+
+Every new cloud workload or AI agent your team sends out is another identity that gets permanent access to your systems. And in 2026, those nonhuman identities with access outnumber human identities 109 to one. You need a tool built to manage them all. Human, machine, and AI. That's exactly what Idera by Palo Alto Networks was designed to do.
+
+It's one identity platform for all, and it outshines legacy tools that were only built to manage human employees. How does it work? Well, Idera replaces permanent permissions with dynamic access, so you can lock down every identity without slowing down your own business. With Idera, you get unified control by replacing siloed IAM or identity and access management, PAM, modern privilege access management, and governance tools, all with a single control plane. And it does that across human, machine, and AI identities.
+
+Secure every identity at your organization with Idira by Palo Alto Networks. Learn more at paloaltonetworks.com/idira. Again, that's paloaltonetworks.com/idira. At T Mobile, the new iPhone 18 Pro is here with a big leap in battery life, and you can get it for nothing upfront. With so many reasons to choose T Mobile, you'll wanna talk about it.
+
+I heard at T Mobile, you can get iPhone 18 Pro for nothing upfront and get $1,000 off. Pass it on. Pay nothing today. No taxes, no fees, nothing down. Pass it on.
+
+Hey, Mickey. Pass it on. IPhone 18 Pro has the most advanced iPhone camera ever. Pass it on. At T Mobile, you can get iPhone 18 Pro for nothing upfront.
+
+Pass it on. At T Mobile, a get thousand dollars off the amazing iPhone 18 Pro with no trade in needed. The 36 monthly bill credits when you switch to T Mobile on a qualifying plan. If you cancel entire account before receiving all bill credits, credit stop and balance on required finance agreement is due. Example, $1,199.99, iPhone 18 Pro, 256 gigabytes.
+
+Bill credits in if you pay off device early. Qualifying credit, new line, cord in, and service. $85 more per month with auto pay plus taxes and fees required. $35 device connection charged due at sale. Visit tmobile.com.
+
+Alright. We're back. It is time now. I think there was a there was a Slack message from Eli earlier this week that was like, Brendan's gonna be a long one this week. So I don't even need to ask.
+
+It is time now for America's favorite podcast within a podcast, Brendan Carr is a dummy. Brendan Carr is a dummy. I love our theme song. Keep sending us theme songs. The the the playlist of Brendan themes is getting epic.
+
+We should publish the playlist. We we should publish the playlist. We don't... I don't know if we have the rights to just publish your music to Spotify. Listen, Neil, if I've learned one thing about the Internet, it's that you can just do whatever you want, and everything is probably gonna be fine.
+
+Gonna ask Muse to do it, and it'll probably be fine. We're just gonna reverse engineer your songs. Exactly. Keep sending us themes, and it's... The best ones are the ones that come with an explanation of why this theme deserves to be this way.
+
+So keep sending them to us. Oh, I know what we can do. Think it'll be too hard to put everything on Spotify, but we can definitely burn CDs for you. Oh, that's fun. Think about what I'm saying here.
+
+I like this idea a lot. And for one lucky winner, I'll send you a mini disc. Alright. The the most forgotten, but still the best... Single best format in all of in all of physical media history.
+
+I agree. What did Brendan do this week, Neil? Brendan was real bad this week. I'm actually cutting it down to focus on one thing. I had a lot.
+
+Brendan this week decided to run his mouth, and he said he'd closed the digital divide, and now every child in America has Internet access. This is not true. He also said that the price of Internet services is going down, and thus he has beaten inflation. I... I'm not even...
+
+You can respond to that. I will let the listener respond to the notion that Internet service in America has gotten faster and cheaper. For who? Brendan. So that's what I was gonna do.
+
+But then Brendan did one of the most overtly hostile, traitorous to the first amendment things I think we have ever seen him do. Would we call this full Brendan? Did he go full Brendan? It's full Brendan. You never go full Brendan.
+
+So as you may or may not be aware, we are in the run up to the midterm elections. There are not a lot of polls that suggest that the president is very popular or that Republicans are going to win a lot of seats in said midterm elections. Correct. There are a lot of polls that suggest Democrats will win a lot. I don't know what's gonna happen.
+
+I have now been taught to not trust any polling data in any way, shape, or form. There's also a scandal in the past few days about a polling firm that was just publishing fake data, and then they claimed it was a social experiment. Oh my god. And then there's a president himself who reacts to all polls by calling them all fake news and saying they're all lies. Yes.
+
+So this is this is the swirl of polling information election noise that we are in as the election is fast approaching. So Brendan decided in his infinite wisdom that the role of the chairman of the Federal Communications Commission at this moment in time is to threaten broadcast networks that publish polling information that the president doesn't like. What? I'm just gonna read you the tweet. During this election season, there has been a significant surge in entirely fake polls and suppression polls designed to do nothing more than interfere with the regular functioning of the electoral process and alter the normal patterns of voter turnout and enthusiasm.
+
+Many journalists and broadcasters have been amplifying or airing these polls without regard to basic journalistic ethics without informing the public that these polls lack a scientific accurate or even urinal basis. Broadcasters are advised to avoid engaging in news distortions or running broadcast hoaxes by airing polls that would violate the regulatory obligations. If broadcasters believe they should provide their viewers with additional context information about polls they've covered, they can now take those actions consistent with FCC regulations. There are no FCC regulations about news organizations discussing polls. They don't exist.
+
+No. Because free speech. Because... That's so easy. Because we have the first amendment in this country.
+
+So here, Brendan is just straightforwardly saying, if he thinks some polls are fake, that he might punish broadcasters for discussing those polls on their air because that would be against the public interest. And as we have been saying over and over and over again on America's Failure podcast, within a podcast, Brennan Carr is a dummy, this is stupid because the vast majority of Americans are not getting their news about polls from broadcast television. Right? Yeah. They're they're getting it from cable news networks or from TikTok news creators or from other forms of social media or x whose algorithm is totally controlled by one guy.
+
+We do not live in a world where the public interest is served by the chairman of the Federal Communications Commission deciding that some foals are fake and that not talking about their scientific validity doesn't serve the public interest on the nation's airways. This is straightforward censorship. This is Brendan saying, if you publish polls that the president sees and are unhappy with, I will call them suppression polls. I will determine whether you have sufficiently discussed their scientific value, and then I will punish you. A suppression poll, by the way, not a thing.
+
+That means nothing. It's it's a concept. Right? You say that the... Your...
+
+The other candidate is losing, so people don't turn out. Both sides do this. There's a lot of weird speech and counter speech in this in this election in particular, particularly in Texas, in in the Talarico case. There's a lot of weird stuff going on with fake mailers. I live in New York.
+
+I'm watching the Cowboys game, and I'm getting anti Talarico ads. And I will tell you the Packers defeated the Cowboys because that stuff is completely unreasonable. It was karma. That's that's what I'm telling you. That race is out of control, and that you get It's Ken Paxton's fault that the Cowboys lost.
+
+That's all I'm saying. I'm not taking his side in the race. I'm saying I I know what karma looks like, and it looks like the Packers thumping the Cowboys yet again. Anyhow, this is very bad. The straightforward leader...
+
+I don't think there's anyone who agrees that this is an appropriate posture for the the FCC chairman to take before an election to be openly threatening news organizations that might discuss some polls that the administration doesn't like. Right. It's also worth worth mentioning that even if a news organization like this does discuss a poll that turns out to be a fake poll based on nothing, still allowed. Bad for their for their journalistic credibility, probably bad for their business over time, not a punishable offense by law because of free speech. Yep.
+
+This stuff is not complicated. Not for nothing. I... After all this time, I believe the audience for Brendan Carr's Dummy, America's favorite podcast from the podcast, understands that there is a very specific distinction here in Brendan's power over broadcast versus his power over the Internet or cable news or New York Times or whatever. Broadcasters do use spectrum.
+
+There is some argument somewhere that that spectrum should be used in the public interest. There's no argument anywhere that that extends to viewpoint discrimination on the part of the government. As I keep saying on the show over and over again, the only two political opinions you ever really hear from us are that free market competition is good for consumers and that government's speech regulations are bad. This is straightforwardly government's speech regulations. Mhmm.
+
+Right? If there's something I don't like that you're saying, I will punish you. And even if you think that the use of the spectrum requires you to operate in the public interest, polls we don't like doesn't cross the line. There's no precedent anywhere for that. So he would have to file the lawsuit.
+
+You have to get it over the line. You have to win in court. All these media organizations would fight that lawsuit. And the reason the public officials are not supposed to do this stuff before an election is because there's not enough time to fix it in the courts or to fight back in the courts before the election happens. So now you've imposed a chilling effect on the broadcast networks because they don't know if they're gonna get punished.
+
+They won't have... Certainly have enough time to fight before the election is over. And maybe more importantly, you have communicated to an enormous audience of Americans who do not really understand the difference in public spectrum rights and the public interest standard and all this stuff. The the government can take an interest in what polls media organizations publish Right. And then start threatening the New York Times over which Brennan has no power.
+
+And that is some of the replies to this post on x. They can start threatening the cable networks, which over which Brendan has no power. Yeah. They can start threatening Internet outlets over which... And they can say these polls are fake, and I'm gonna sick the government on you.
+
+And over and over and over again, I keep saying the point of all these machinations is not really to overregulate the broadcast networks. It is to expand the Overton window into we can tell you what to say. Well, so... Wait. Okay.
+
+This is... And into I also regulate the Internet. Yep. Which is... Am I getting too galaxy brained here to wonder what this means for, like, Kalshi, which is out here making deals with every network and news organization on the planet to provide exactly this kind of somewhat real, somewhat fake data about who's gonna win things.
+
+Like, this sounds like precisely the kind of thing... They don't call it polls, but it's exactly the kind of thing Brendan is pointing at here. Yeah. I mean, Kalshi is the official prediction market provider for CBS News during the election. Take out.
+
+Is that good or bad? Like, I don't know. But is that data gonna cause some people to turn out or not turn out because the call she had say that someone's gonna win or not win? There... There's something about this that is just so nakedly self serving.
+
+There was a poll the other day that said the number one issue for some Americans in selection is corruption. It's never happened before in the history of our country. Yeah. Like like It was easier when we worried about, like, gas prices. Now we have to worry about corruption.
+
+Like, was on MS Now, and they're like, let's talk about this poll where the number one issue is corruption. And everyone on the panel was just like, well, that has literally never happened before. God. Yeah. We've allowed a a burbling baseline of exciting corruption in the back.
+
+Of course, the politicians are corrupt. That's just the way it goes. Welcome to America. And this area, it's like, oh, it's really bad. And it's this kind of stuff on top of crypto scams or whatever other stuff where it's just obvious that there are winners and losers.
+
+There's viewpoint discrimination on speech, and that the government will punish you if you say a thing they don't like, or they will try to. Anyway, Anna Gomez, who's the lone democrat on the SEC, just straightforwardly agrees with you. She she tweeted, posters who intentionally mislead the public should answer for it, but broadcasters who report publicly available polling data should never be punished when a poll is wrong. FCC rules on news distortion or roaches do not apply to a station that reports the state in good faith. So Yeah.
+
+This is, I think, what most people expect. But what we have done is open the overturn window. What Brendan is trying to accomplish is if someone says something you don't like, you can get a government official to threaten them with some kind of punishment. Right. And I don't think most people are gonna dive into the details of, well, these are broadcasters.
+
+Right. It's very important to remember that you as the viewer having the right to change the channel is really important. The government having the right to tell them what to put on that channel is really bad. Very bad. Really super bad.
+
+Government speech regulations are bad. And look, there's... We have we have all kinds of coverage of other weird governance speech regulations, teen use of social media, all this stuff. We are in a place where more people are frustrated by the first amendment restricting their ability to regulate things than not. We've been talking about it for years, but this is so overt.
+
+This is maximum, Brendan, attacking the First Amendment. And it it should trouble everyone, and it should especially trouble everyone in the lead up to an election because this this is the kind of thing that you expect an authoritarian administration to say in the lead up to an election where the the signs are that they're gonna lose. You can't talk about the polls saying we're gonna lose or you will be punished is the essence of this message, and everyone should feel pretty bad about it. Especially, like, if you are... Have more libertarian leanings, this should terrify you.
+
+You should be like, no. No. This is way over the line. Anyhow, Brendan, as always, you're you're welcome to to come on this show or Dakota or any other show really and explain how your plan to eventually regulate all speech as you laid out in your chapter in project twenty twenty five is not directly connected to you threatening news organizations for broadcasting polls your boss doesn't like. I think you can do it, Brendan.
+
+I think you're a smart guy, you're gonna make a great case and and win this win this conversation. In the meantime, we're gonna start running a weekly poll called how big of a dummy is Brendan. It's gonna be huge. Anyhow, that has been Brendan Carr's Dummy, America's favorite podcast. Carr is a dummy.
+
+I feel cleansed. It's nice. Alright. It's time now for the lightning round, which I'm told this week has a sponsor. Producer Josh Cajas is here.
+
+Welcome, Josh. Hey, David. This week's lightning round is presented by AWS, how leading businesses use AI for next level innovation. Thank you, Josh. Alright.
+
+Neil, I have browser news for you. I love browser news. You also love that Josh Josh is the voice of capitalism. Josh makes us money. You and I say insane things about PHP.
+
+We just spend money here, man. That's all. It's it's been my job for fifteen years. Yeah. So for the last several years, I have occasionally ranted and raved to you about the Arc browser, which I would say, not to pat myself on the back, was one of the brightest calls I've ever made that this is a good browser and everyone should use it.
+
+It was a great browser. It really succeeded in the marketplace, and the news you're about to share is about its overall next success. Yes. It sure did. I converted a lot of people to it.
+
+I think at some point, you and I are gonna come back on here, and we need to talk about the state of the browser wars because something really fascinating has happened in AI and browsers, and we should talk about it. But the news of this week is that Arc is shutting down. It's very sad. Arc stopped being developed a couple of years ago. The browser company, which is the company that made it.
+
+Josh Miller, the CEO, I think has been on both this show and on Decoder talking about this stuff. They did some of the most interesting work in browsers over the last several years, but they pivoted in a big way to AI. They now make this browser called Dia. They were bought by Atlassian for a bunch of money. The writing has been on the wall for Arc for some time.
+
+It's been in in maintenance mode for the last couple of years. It was very obvious this was eventually going to happen even though Josh would tell anyone who would listen that they had no intention of doing so. Now it is happening. Arc is going to pretty officially go away in December of this year, right before Christmas. Merry Christmas, everybody.
+
+Get a new browser. I think this just sucks. It is... It's a shame. I think Arc is actually, in a lot of ways, still the best browser you can have even though it hasn't really been updated in the last few years.
+
+Arc, in a fascinating way, is now everywhere in other browsers. Like, the other browsers people like. Yep. One is called Zen. It's just literally Arc.
+
+The ones that, like, ChatGPT, the the Atlas browser from OpenAI, and the stuff that Perplexity has built, all of it is just Arc. It's just Arc all the way down. The... They changed the design and the feel of browsers kind of forever in that way and just gave up on it. Vertical tabs in Chrome.
+
+Yeah. Google would tell you people have been asking for that for a long time, but they didn't do it before Arc, and they sure did after. Google doesn't do anything until someone else does it first. I think that's right. But, yeah, I think it's a shame.
+
+The... They're telling people to switch to Dia, which has gotten a lot better. It has a lot of our key features. Arc is still a better browser. I I will miss it.
+
+I will miss it very much. We just had we just had Mike Cannonbrooks, who's the CEO of Atlassian on. He was big up in Dia all over the place. Their vision of this is is the same as the browser company had. It's the same as Josh had the whole time, which is your operating system is irrelevant on the desktop.
+
+Mhmm. Your real operating system is a browser. You're gonna run all your apps in this browser. Gonna make a browser for that. And then the Dia story is, like, 80% of that, and then another 20% is...
+
+And also, AI is gonna watch everything you do. Right. And then something else will happen. Yeah. Some automated set of tasks because we are watching you use all of...
+
+Like, instead of having a system level AI like Siri AI or Google Assistant or Gemini or whatever, the AI will live at the browser level because that's where your apps run is the Dia promise. I don't know about any of that. I'm starting to think that's a losing battle. And and this is where I think is so fascinating about this is I think that there's a chance that the browser company might have gotten out while the getting was good. A 100%.
+
+And that actually what has happened here is the idea that the browser was the right place to do it because it had access to all of your apps. It was the place that you already were. Cookies give give browser agents very powerful access to all this stuff. What's actually happening is you're opening up the Claude app or the ChatGPT app, and it's just going and doing the browsing for you or Muse. Like, all of these things are trying to basically lead with AI as the interface and just turn the browser into back end software.
+
+And I think that's that's a really big bet in a lot of ways. It's a much bigger bet than what if we just made a good browser. But the idea that you could supplant Chrome and sneak AI in seems like actually maybe a harder bet than we're just gonna obviate the browser altogether. Yeah. I mean, if you really wanna dive deep into whether human beings will ever look at an app again, you should go listen to episode decoder.
+
+Because my... Cannon Brookes is smart, and he's charming, and he's Australian. And I asked him, isn't the whole point of this is that I'll just use Claude, and Claude will use Jira for me, I'll never look at your app again? And he was like, you mean headless? Which is the phrase.
+
+And he was headless is brainless. Only he did it Oh, I like that. In Australian accent. So, mean, it was good. Sure.
+
+He did it while riding on a kangaroo is what you're saying. I got it. Obviously. Yeah. One of the best...
+
+One of the most surprising episodes of the kangaroo we've ever had. But this is, like, the hot topic for all of these SaaS companies. And his point was, no. The more people use AI with our tools, the more they use the tools. Like, they can measure it, and the more you let AI do some Jira stuff, the more you end up using Jira.
+
+Sure. I'm confident every Jira user in who's listening to this is gonna immediately have an emotional reaction to this just as they did in the comments on that episode. But there's something about, oh, the browser was gonna be the layer where we put the AI that everyone chased for five minutes because they couldn't get to your operating system, and they needed to get to your data. And what they've more or less arrived at is, oh, we can get to your operating system. We're just gonna build you a Linux computer in the cloud.
+
+Or we're just gonna get you to download your Mac app and give it full disk access. Like, we're just in computer use now. Yeah. I mean, we'll we'll see. I I think, you know, there is there is...
+
+There's a little bit of a metadata scandal this week. Yeah. Right? Where users publishing chats, People are getting access to it. One password is saying, like, they're gonna do password stuff because they're worried about this.
+
+Again, the banks are all blocking these things. There's a shakeout coming in who uses computers when and for what purpose. Yeah. But the the notion that all this was gonna converge on OpenAI will have a browser, and that will be where they they take control of your data, I I agree with you. I think that's...
+
+That that has come to its conclusion. But this is, like, you can wrap the whole where is the computer debate up in this little piece of software, which I think is really interesting. But, anyway, to everyone using Arc, it is time to get another plan. I'm happy to... I will spend a lot of time in the installer newsletter over the next couple of litigating browsers.
+
+So come hang. I'm excited about it. Neila, what's your first lightning round item? So for you, my friend, I have terms of service needs. Ugh.
+
+My favorite. This is a real sexy episode of the Vergecast we're doing today. It is. But this one's gonna make you mad. In, like, the, you know, the way that anytime Meta changes its terms of service, you get mad?
+
+Get ready to get real mad. I'm gonna start a Facebook page. You have a Meta business account, which most creators and news organizations all do, disclosure, I am confident that we have a Meta business account. I don't actually know, but I'm confident we do. Meta updated its terms of service last week, and they basically changed it so that they had full access to train AI in your website.
+
+So if you had a Meta business account to post on Instagram or use WhatsApp or whatever to communicate with customers, you had... The terms of service just gave Meta permission to train AI in your website. Not your Facebook content. Your website. Not your Facebook content.
+
+What? Broad scraping of websites associated with your accounts. This caused an immediate backlash. People got real mad. Neiman Labs spotted it.
+
+They've they've been tracking the story. They went and asked a bunch of attorneys, and all the attorneys are like, yeah. This terms of service update literally just says they can trade on your on your content. My god. Just read it.
+
+This is what they changed it to. You authorize us to use automated software such as scrapers, bots, robots, spiders, crawlers, and user agents to create test credentials, to access index, cache, analyze, collect, retrieve, or crawl the domains, web pages, or URLs, and any content available through them that are associated with your products or services or made available through your users use of Meta products and services. Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of Meta products and services. So just straightforwardly, if you touch Meta Yeah. Anything that we deem related to you, we can go train the AI.
+
+Yeah. Freaks out. Any URL users click on when they're on your page, anything that you use near your pay... Wow. Right.
+
+So in particular, publishers freak out Yeah. Because their entire strategy is to block access and then negotiate terms. Disclosure, I am confident that somewhere in the Byzantine corporate mergers that we have been part of, that everyone has these deals. I truly do not know anymore. Or is suing?
+
+I think there's some suing happening. There's a lot of suing. Mhmm. I have to meet a bunch of new people, and I don't know why I don't have to do it. That's that's the disclosure this week.
+
+Perfect. I I have to I have to go learn a lot about what our disclosures will be. So for at least now, I I I simply don't know. So Meta hears this. They hear this furious pushback.
+
+This thing goes viral. I'm getting texts from, like, very fancy media people being like, you should make an Instagram video. It's just incredible. Incredible. Like, they're like, we've called our lawyers, but you should make an Instagram video about So I I made one, and I was all set to publish it.
+
+And in that time, MetaComms starts just posting on threads, you're all wrong. This is an overreaction. We don't intend to do this. We're all... We're gonna respect robots.txt.
+
+We were just consolidating the terms of our existing terms of service. And what we actually meant to do was it's for ecommerce sites so we can go and learn about their new products and suggest them. Okay. This is their is their excuse. Uh-huh.
+
+And if you've dealt with metacombs, you're like, no one trusts you. Like, I don't know what I don't know what to say about Like, this is this is... Sorry. You're meta. Yeah.
+
+This is how it goes. And trust us, bro, is just not the way it's gonna be. Yeah. And also saying you've given us permission to build the Thunderdome, but we have no intention of building the Turns out the legal contract is more more enforceable and and more valid than the tweets. Just one of those things that you learn in law school.
+
+So trust me, bro. It's like just one of those moments where, like, they're kinda yelling, and they... Meta has had a particularly, like, apologetic week. Right? They took down no kings, and they're all...
+
+Everyone... Everyone's apologizing a So first, they say this is this is... Everyone's overreacting. We don't intend to change it. Everyone says we don't trust you.
+
+They changed the terms, and they issued us a statement. They changed the terms to make it more clear that they had no intention of doing this, and they're always gonna respect robots. Txd. So here are the new terms. So they're still gonna do all the web scrapers, bots, robots, all the stuff that they've clarified.
+
+It's in order to provide, develop, improve research, maintain advertising and business products, including business commercial and related products to help you create and deliver ads and other commercial content, provide users information about your products and services, and connect you with users who may be interested in your products and services. So they... They've made it... They've added a lot of words, and they've taken out the word train. Right.
+
+I was just gonna say the only thing I don't hear there is train our models. Right. And so they said this is better. Right? We're we're gonna do this to improve our ads and other commercial content.
+
+And then Neiman Lab, again, leading the way in the story, took this new set of terms to the same bunch of lawyers, and all those lawyers said, yeah. They can still train on your stuff because the word train is inside of access, index, cache, analyze, collect, retrieve, or crawl. And it's also inside of in order to provide, develop, improve, research, and maintain. Oh, yeah. Right?
+
+So you took out this word that everyone's mad about, but you can obviously read train into improve. Yeah. Crawl and improve does the job. Yep. Develop, improve, cache, analyze, collect, retrieve.
+
+That's everything. It's all still train. Yeah. So now we have to trust Meta that their interpretation of these words does not include train. And so Meta has not said anything yet.
+
+This is also to take effect on October 30. I imagine that there will be some set of furious pushback from, in particular, publishers, but also creators with Meta business accounts because they're already upset about AI on Meta platforms. And if you're a creator and you have a substack, you probably don't wanna give Meta permission to train on your substack. Yeah. Which is a thing that you could logically read into these terms.
+
+I'm not saying Meta's gonna do it. They're out there tweeting that they're not. Right. Right? But the actual contract has far more authority Yeah.
+
+Than some tweets. This is the company that very recently built facial recognition into its glasses and then promised it was never gonna turn it on. So, yeah, Meta cannot run on trust me, bro, especially when it comes to data collection for advertising and training content for its models. Yeah. No.
+
+So Not a bit. We, you know, we got we got a week, basically. By the time you hear this, it'll be a week. It's going in effect on October 30, and I suspect the heat will just get turned up. And either this language will change again, or we will hear from a bunch of angry publishers and creators and businesses who say you cannot unilaterally change your terms of service to train on our content.
+
+Right. We'll see. Yeah. That's a... There's a big fight, Brew, in there.
+
+That's that's gonna be a really interesting one. Yep. Alright. I have one more for you. Last week on the show, we talked about Netflix.
+
+We brought up the go 90 scale, and we moved Netflix maybe for the first time This is a victory lap for you. From a zero to a 15. I think that might have been the first time in the history of the go 90 scale Netflix was off zero. And what followed is a week of really great reporting, particularly from the Wall Street Journal, about just how messy things actually are inside of Netflix. Netflix also reported earnings that look pretty bad in a couple of ways.
+
+The number of hours people are spending on Netflix has gone down over the last couple of years. Netflix's relative share of viewing continues to go down. Nielsen has this gauge that they do about, you know, how much each service has. And the the story increasingly is that YouTube is just eating everybody, But Netflix was the other one that was kind of resolutely going up, and that is not really the case anymore. There's also this big great story from the Wall Street Journal that amounts to...
+
+There's a lot of really good reporting, I I encourage you to go read this story. But it amounts to essentially the company is falling apart because they can't make shows people wanna watch anymore, and they have tried a bunch of things to make it so that they didn't have to make things that people wanted to watch. They got really into reality content. They got really into games. None of that is really working.
+
+And so Ted Sarandos, the co CEO, is now remaking the company around what if we made things that are good that people liked. That is that is Okay. Barely an exaggeration of what's happening here. I I just... And he and he fired a bunch of his content.
+
+Yeah. The head of the movie studio. He fired This head of TV. Like, the people who have been running content at Netflix for a long time are out. The only thing I'd point out is that Ted Sarandos...
+
+They have two CEOs. They have Greg Peters, Ben on Decoder, and Greg's the product CEO. He's he's Northern California. He's Silicon Valley. They run the product and the algorithm.
+
+Ted is Hollywood. He runs content. Yes. And you're like, Ted, if you were so upset with these people, you could've changed. At any moment, you could've been like, we're not gonna do weird video podcasts and video games.
+
+We're gonna go chase Apple TV. And maybe that is the decision that he is making, and he's firing his people. But it is also, like, you're in charge. Oh, yeah. Yeah.
+
+I mean, and and in a lot of ways, I think this this kind of change is probably long overdue at Netflix. That... But it is it is absolutely right. And and it's fascinating that this appears to have been how simple the diagnosis was that, oh, if we don't have hit shows and movies, none of the rest of this even matters. Right?
+
+Like, I think Yep. There was a time where Netflix looked at itself as essentially too big to fail. But one of the things we talk about on this show a lot is that you are really only as good as your current hit shows. If you if you don't have a constant run of things that people wanna watch and share and talk about and subscribe for, people will leave. Well, let me talk about your particularly grim television viewing habits.
+
+From from what I understand Please. Instead of making conversation with your young family This is or listening to someone edifying content, you just turn on old sitcoms at all times? No. So... Okay.
+
+I've thought a lot about this since you've started accusing me of this. What I've realized is I watch... The way other people watch the news or reality shows, I watch Parks and Recreation, and The Office, and New Girl. It's Yeah. They're just always on in the background.
+
+It's just There's a town. Thing that I've come to learn about. Right. Yeah. They're they're noise.
+
+Yeah. It is it is the noise. So I think an important fact about cultural history is that those shows are old now. Yeah. Like, 20 years old in some cases.
+
+They're all old. Yeah. And because of streaming and and how the the models work now, we haven't made new 22 episodes that comes ten seasons each. Yep. So there's not this volume of just stuff to watch.
+
+So Netflix got the big benefit. To be super clear, that's not some, like, fact of the universe. That's because nobody tried. Well, I think they thought they could all buy them on the cheap from the broadcast networks. Sure.
+
+And the broadcast networks, I don't know I don't know what they've been doing. They started Peacock. Sure. But... And and Netflix was like the beneficiary of New Girl existed.
+
+Yes. And so you you would have Netflix, and like New Girl existed, and it was made at high production values and was consistently funny, and there was a lot of it, and they bought it on the cheap. And Netflix was like, we are gonna take the excess profits from redistributing New Girl in the office, and we're gonna make Bright with Will Smith. Yes. And, like, every Netflix movie is is straight to video as any movie has ever been.
+
+That's just how they all look and feel. Yep. And they didn't make... They didn't realize that people were there to watch things like New Girl, and they should've been making things like New Girl the whole time. Yeah.
+
+I mean, Apple TV to me is the is the example of this. I think it was... I I was reluctant to say Apple TV is the best at this until very recently, but I think at this point, Apple's hit ratio is just vastly superior to almost everybody else at this point. Yeah. There are so much slow horses.
+
+There's so much slow horses. There's increasing amounts of Ted Lasso. There's a lot of shrinking. Like, Apple Apple has shows that it commits to and makes a lot of, and it also just picks better. And Netflix has has picked wrong and picked in bad directions for a long time.
+
+You're right that instead of buying six seasons of some Steve Carell show, they spent a billion dollars on The Gray Man, which sucked, and no one watched it. Yep. Just the wrong decisions over and over and over again. And and and the thing that they decided to do on the cheap was crappy reality content, which I think works to a point. And they...
+
+But then then they're also just like binge dropping the reality content, which is nonsense. Right. Yeah. And so get away... If if I had one, like, piece of advice for Netflix as it reboots, is that they don't...
+
+You don't have to commit to one thing. Right. To be like, everything on Netflix is bingeable, and that's the drop is like, who cares? Yep. There...
+
+Like, maybe you care about this. Inside of Netflix, this is an important debate. Outside of Netflix, no one cares. Right? Like, The Pit on HBO Max is a huge hit, because they basically just made a network television show and dropped one episode at a time for a while.
+
+Yeah. 18 episodes per, and then they are like, we're... We'll be... We'll see you next year, and they're gonna do it again. Yeah.
+
+And importantly, it's really good. Like It's also very good. But they... But that's just like broadcast television. Yeah.
+
+Right? They're they're just they're just do... They just made ER again. Like, quite literally made ER again and got sued by the creators of ER for quite literally making ER again. Yes.
+
+Well, so this is actually... I have two interesting examples of what you're talking about, which are very recently, Netflix has released new seasons of two of its best shows, The Gentleman and The Diplomat, both of which are excellent and neither of which are zeitgeisty at all because everybody forgot about them because Netflix takes too long to do this. They drop all the episodes at once, and Netflix has, like, worked its way out of culture in in so many fascinating ways. Right. Netflix wants to own you for six hours a night, and it would be much better if they owned you for six hours a week.
+
+Yeah. And especially if it was the six hours a week that you, like, cared about and paid attention to. Yeah. Whereas, like, people... Because because then your subscription would be valuable.
+
+Right. Like, silo is appointment viewing for a lot of people I know on Apple TV in a way that nothing currently is on Netflix. Yeah. And that is... Look.
+
+I'm not gonna say Vision Quest is good. I don't think it's good. But I get a notification about it once a week, and then I watch it. Yeah. Yeah.
+
+It's a really good example. I think I think we are headed toward a pretty fundamental rethink of what Netflix is. I don't know how it'll go. I don't know how it'll shake out, but I think it really seems like just based on what we've seen even in the last week about what is going on inside of this company, there's a lot of stuff that is on the table and feels urgent inside of Netflix that has not for a long time. And then the new guy, Peter Rice, is...
+
+He... He's like an old school Hollywood guy. Yep. He has experience doing live sports. He has experience doing prestige things.
+
+The idea that Netflix will just be a a different company, like, with a different content mix in a year's time, we'll see. I mean, they have they they have a bunch of stuff to put out. I bet that they get away from the binge model faster than not. That's a good theory. I like that.
+
+I think you're probably right. I had not really thought about it that way, but I I think I think it's clearly the right decision. And almost everybody else has gotten away from it, you'll notice. Basically, nobody drops seasons anymore except Netflix. Yeah.
+
+It's it's it's just like... I I understand why it's important to Netflix. Yeah. It is part of their identity. But it's also like, dude, it would be way better if once a week, I was like, I have to open Netflix.
+
+Yeah. Or, like, several times a week because you have multiple shows I'm watching. Wouldn't that be nice? Especially as you pay $1 more every month for Netflix, it seems. Alright.
+
+You've got one more before we get out of here. What's your last lightning round item? I just wanna call out the fact that I have no idea how Gemini works across its many, many platforms. So I'm just gonna I'm just gonna read you this headline. It's from The Verge.
+
+Good website. It... It's a good website. We we tend to understand what's going on. Google's more personalized Gemini AI is headed to your car.
+
+What's it gonna do in there? Now, here's the thing. It's just gonna, like, passenger princess in the car while you drive. It's gonna be great. So, like, again, we have we have a Cadillac EV.
+
+Uh-huh. It it has Google. It has... It's running Android Automotive OS. So it is it is just Android.
+
+It's like a GMified Android. It has Gemini in it. Sometimes Gemini goes away, and it's just Google Assistant again. Delightful. It can it can be flighty, that Gemini.
+
+And it's tied to my account. I have Gemini. I pay the money for Gemini. I don't I don't know how much money or what features of Gemini I get because the plans keep changing, but I pay money to Google for access to Gemini. I'm logged into a thing called Gemini in my car, and there is some news about Gemini.
+
+Google's more personalized Gemini's head is my car. So I'm I'm reading this, and here's... You know, our sub headline is Gemini AI can now draw from Gmail calendar maps, photos, and other apps. Okay. It could already do that.
+
+Well, yeah, this this this assumes that this Gemini is different from the Gemini that has been able to do that for some time. Right? And so the second part of that is while you drive. So somehow, Gemini, the one in my car, we can't stop agent swarms from attacking Hugging Face. That's too hard.
+
+We can definitely stop Gemini from accessing my Gmail in my car. I don't under... Like, I truly do not understand how Google thinks about what Gemini is. Is Gemini the model? Is Gemini the product?
+
+Every now and again, my Google Home on which I talk to something that appears to be an AI will just put up a a a notification on the screen that says try a Gemini live chat. Mhmm. Who's that? What are you talking about? I...
+
+Am I not live chatting with Gemini when I talk to the obvious AI assistant that is ever present on my Google Home? This is a... I do... I I I I sort of get it. Right?
+
+You wanna roll out the new features to more platforms over time. Maybe. But isn't... I'm just stuck.... Gemini?
+
+Right. I'm stuck on this presumption that when I use Gemini in one place, it is it is a different set of features than when I use Gemini in another place. Like, did... This is Yeah. Just throwing me Gemini on my phone.
+
+I open the Gemini app in my phone. I'm like, find me the flight info. And it's like, I... I'm on it, and then I put my phone down, and I say, t k g in my car. Yeah.
+
+And it's the same Gemini voice. Right. And it's like, I can't do that. Right. Why?
+
+Which is funny because it's it's very important to all of the other services in this space that you perceive it to be one character that follows you everywhere. Like, Amazon's whole business is predicated there on the idea that Alexa just kicks it with you no matter where you are. And that it is the same thing with the same knowledge and the same information and the same history, everything. Google is like, what if Gemini was a 100 unknowable different people and some of them were with you at all times, but we'll never tell you which ones? So here's a clarification from Google.
+
+Google says it will connect your apps to Gemini only if you enable personal intelligence Sure. Which, by the way, you have to enable. Like, that's why have a Gemini that, like, doesn't know anything about you. Right? Also, already has your data.
+
+So, like, what are you what are you saving yourself It will share personalized responses only if you have a phone connected to your car. Okay. Makes sense. Yeah. Right?
+
+That's some indication of your presence. And then here's the quote. If you don't use personal intelligence, everything in the car still works. You can use navigation, listen music, make calls, and ask questions, but the answers won't be tailored to you. Okay.
+
+It's just... But that has nothing to do with, like, the car. You get in the car, and it just navigates you wherever it wants to. Personal intelligence is a global setting. Right?
+
+Yeah. This doesn't make any sense. If you turn it off, you can still do all that stuff with Gemini. Right. And then you're in your car, and presumably, the voice assistant will still be able to use Maps.
+
+Yeah. It has to, like, play dumb. You're like, navigate home, and it's like, I don't know where that is. No. You set that in maps.
+
+It'll be all fine. I... Look. I don't wanna overthink it. I'm not trying to do an infomercial where it's like, I don't know how to use a screwdriver.
+
+Like, fine. I... Yeah. I'm sure this is all gonna make sense. I'm just pointing out that the way Google thinks about Gemini is as multiple different things.
+
+Yes. And that is not clear to anyone else at any time. And in particular, the fact that Google has a dominant car operating system, and it can't figure out, like, what to do with it. Like, it's too big of an opportunity. They're just like...
+
+I don't know. There's something about this that's just hilarious to me. By the way, still to this day, if I use Google Assistant in my car, it will happily close my garage door. But if I turn on Gemini, it's like security breach. Well, Gemini has to go consider the existence of garages before it can get to your garage door.
+
+Google Assistant just reaches out and presses the button. No. I think Google Assistant goes through the cloud. Gemini is like, I can't possibly. I'd...
+
+I... That's too much. And then the button is right there. Yeah. I'm gonna get, like, a robot hand button.
+
+Like, one... Just like one actuator from China. Let's just push the button for me. That's the future of AI right there. Alright.
+
+We need to get out of here. The version history season is over. All the back to school episodes are out. We were just in New York shooting the next season. You and I, yesterday, did a couple of episodes together.
+
+We had a very good time. Just to give you a hint, it's... We we did an iPad episode with Walt Mossberg, and was, it like, sixteen hours long, and we had an incredibly good time. We're just doing a supercut of of Walt burning us. Yeah.
+
+It was it was very good and naming famous people he knows. We had a very good time. I enjoyed it very much. Oh, and all three of our podcasts won signal awards. Thank you to everybody who voted.
+
+The Vergecast won the listener award in addition to the judging award. Not to brag, we won we won all of the awards. The Vergecast objectively the best podcast on the planet. Eli, we did it. Congratulations to us.
+
+Thank you to everybody who voted. Version history won. Decoder won. The Vergecast won. We love a podcast here at the Verge, and thank you as always for voting.
+
+It actually means a lot to us. We we we care a lot more about the listener awards than all the rest of them. So thank you to everybody who voted. It's true. Until then, remember to subscribe to The Verge for ad free episodes of all of these podcasts, plus all of our newsletters, everything else, theverge.com/subscribe.
+
+And if you have thoughts, feedback, anything, vergecast@theverge.com is the email. 86611 is the hotline. We love hearing from you about anything and everything. The VergeCast is Verge production and part of the Vox Media Podcast Network. The show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, Travis Larchuk.
+
+See you next week, Eli. Rock and roll. Now at Kroger, your points add up to more ways to save every trip. Use them your way to take dollars off groceries at checkout or save at the pump. You can even save up to $35 on your next fill up.
+
+Same points, more choices. And with low prices on fresh quality food plus digital and personalized offers tailored to how you shop, your dollar goes further. Redeem your points online or in the app. Kroger, fresh for everyone. Restrictions apply.
+
+See Cider store for details. How many discounts does USAA auto insurance offer? Too many to say here. Multi vehicle discount, safe driver discount, new vehicle discount, storage discount, legacy How many discounts will you stack up? Tap the banner or visit usaa.com/autodiscounts.
+
+Restrictions apply. Kayak searches and compares hundreds of travel sites. But unless I repeat the word kayak, kayak thinks you won't remember that. So kayak asked me to say kayak as many times as possible. Kayak.
+
+Kayak. Kayak. Kayak. Kayak. Kayak.
+
+Kayak.

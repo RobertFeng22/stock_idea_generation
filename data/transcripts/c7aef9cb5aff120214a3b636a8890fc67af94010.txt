@@ -1,0 +1,273 @@
+Hello, and welcome to The Vergecast, the flagship podcast of making apps for your phone on your phone. I'm your friend David Pierce, and today on the show, what it's like to be a vibe coding app developer and also a content creator. Creator. But first, here's everything else happening on The Verge today. I'm Josh Cajas, and this is ninety seconds on The Verge from Monday, 10/19/2026.
+
+Apple has sent invites to a second product launch this month. According to Bloomberg, the big announcement is expected to be a new, lighter MacBook Pro with an OLED touchscreen and an iPhone like Dynamic Island. The event is next week, October 28 at 1PM Eastern, and as always, we will be covering it here live at The Verge. Meanwhile, you can see everything had the biggest opening weekend for a documentary in twenty years. Nathan Fielder's three hour doc about Theranos founder Elizabeth Holmes raked in $15,000,000 in its opening weekend, landing in second place at the box office behind Street Fighter.
+
+But that's not the only doc making headlines right now. Just ahead of the wide release of the new Elon Musk documentary this past weekend, TikTok banned the film's social media account from its platform. While TikTok has no affiliation with Elon, part owner Larry Ellison appears in the film via text message offering to help fund his Twitter purchase. A TikTok spokesperson confirmed to The Verge that the ad account for the Musk doc has quote been restored after an error unquote. Our TikTok feeds may be blessed by Elon Musk once again.
+
+And finally, in a world full of digital licenses and no of ownership, there is some hope. New York congressman Richie Torres introduced the Power to the Players Act last week. If passed, this bill would direct the FTC to establish regulations that guarantee consumers ownership of a game when they pay for it rather than a licensing agreement. Hopefully, this bill has better luck than that store once PlayStation phases out physical games in 2028. You can read more at theverge.com.
+
+That's ninety seconds on the verge from Monday, 10/19/2026. Support for the show comes from AWS AI. AWS AI is helping the world's leading organizations transform their industries in production at scale right now. From bringing fans inside every swing at the PGA Tour to helping small businesses grow online with GoDaddy to taking vehicles from concept to customer with Audi, AWS AI is how businesses innovate, lead, and revolutionize. AWS AI is how.
+
+Over the last several months, there's been this really interesting trend, at least in a particular corner of the technology world, which is that a bunch of people on YouTube and elsewhere who have spent a long time reviewing apps, recommending apps, talking about apps, have started making apps. People who, especially in the productivity space, have like spent years being mad that no to do list app did exactly what they wanted, have turned to things like Codex and Clogcode to actually make their own to do list apps, trying to put their own values and ideas into software, into the world. I think this is really interesting and really cool. I don't know if it's leading to better software or just more software, but I think it's a really interesting change in how a bunch of creators and thinkers are actually able to put their ideas into the world. So I wanted to get one of them, Steven Robles, who has been on the show before.
+
+He's also the cohost of podcasts like Mac Power Users and Primary Technology. He is also, I believe, the world's foremost expert on Apple shortcuts to come on the show and talk about his experience as a vibe coder. He's built a bunch of different apps at all different scale, and I wanna know what it's like to become an app developer and make things that are used by other people that other people are actually starting to pay for and how that changes your relationship with your community. Let's get into it. Steven Rogles, welcome back to the Vergecast.
+
+Hey, David. Thanks for having me. Congrats on baby number seven. Thank you very much. They're all...
+
+They all just run around in the background as as... That's just part of the family now. I just want you to know that I still get emails from people who tell me how right you were and how wrong I was when we thought about shortcuts. The world does not appear to be on my side, even though history and facts are on my side. You know, I prepared specifically by wearing a Shortcuts shirt on the show and even It's a very good shirt.
+
+Made a Shortcuts pillow just to troll you. That pillow is amazing. That's pretty nice. That's the best the Shortcuts logo has ever looked in its in its entire history. That's very good.
+
+That's right. But I have not brought you here to talk about Shortcuts. I have brought you here because you are, I think, at the tip of a trend I find really interesting, which is a lot of creators, a lot of people, but especially a lot of creators, people who have been making content and thinking about tech stuff for a very long time are now becoming app developers in a in a very in a very real way. And I wanna start at kind of the beginning of your journey here. You've been a Shortcuts guy forever.
+
+You're sort of deeply immersed in how a lot of these platforms work and how a lot of these apps work. You've been covering apps in meaningful ways for forever. When did the turn happen to you became a person who made and shipped your own apps? I always wanted to. And years ago, I knew enough Xcode to ship one app that was, like, all web views and got it in the App Store.
+
+Like, it actually worked and then just did not get into actually learning the code after a long time. But then once Chatuchiki was coming out and coding was better, I was like, Let me just see. Is this even possible? Can I get an app in the App Store? And I made something very silly.
+
+It's still in the App Store called Coffee Finder. And I spent the Saturday afternoon Is it what it sounds like? It is exactly what it sounds like. You open the app, you give it access to your location, and it just shows you coffee shops using the built in Apple Maps plugin or whatever. Pretty good.
+
+You some people like it. But I just wanted to know, like, is this possible to vibe code an app and get it through App Store review and get it out there just for fun? And so I did that, and I was like, that's cool. Never gonna do it again, but it's out there, and I left it out there. But as a creator, and a lot of creators do this, we talk about apps all the time.
+
+I do lots of videos with the top 30 apps for this. And sometimes you just have an idea that's like, I wish I could try to make this into something, like manifest this into a real thing, or there's an app that I just wanna tweak a little bit and, like reminders, which is what I was using before. Mhmm. I just wanna see, can I actually now make something with the tools available? And turns out, you can.
+
+So what's your AI coding setup? Like, when when you when you sit down to make something, how does it all go? So I used ChatGPT before, but for some reason, me and Claude just get along better. Not to say well, I feel the same way. I could not describe why I like Claude code better than Codex at this point, but I do.
+
+It's for both. Well, I can describe because I started using Claude more and more, and when Fable came out, I realized it is like one shotting a lot of my prompts into just real things, and they work. And so I've stuck with Fable 5.1 for everything, And now I've given it API key to my App Store Connect. I've given it access to my Cloudflare account. So all I do now is just go into cloud...
+
+Code and type something, and everything else just happens. I never have to leave that app. And I did try back when it was 5.6. I downloaded Codex. I put it on 5.6 Ultra, which was apparently a bad idea because then it disperses multiple agents.
+
+But I had it work on an iCloud sync issue for four days, and I had my iPhone and my iPad connected to Xcode with full access. I saw weird code things running on my iPhone screen. I didn't know what was happening, but I found that I did not prefer the UI and design decisions that ChatGPT and Codex made. And I would have to, like, tell it more, like, bro, put more padding around this radio button or whatever. And Claude just gives me better UI.
+
+And now because I have so much com... So many conversations there, I've made so much with Claude, I can have a very small prompt, and it kinda already has a bunch of context for what I want. That makes a lot of sense. The the real, like, working relationship with these tools is is a real thing. It feels strange to say it that way, but it is it is a real thing.
+
+I wanted to talk to you in particular because you've made two different kinds of apps. And and the first, I think, is the most sort of straightforwardly understandable vibe coding tool, which is like, I I have a sing... A single thing that I need to be able to do. I'm gonna build the tool to be able to do You've built a bunch of these for things like pulling transcripts out of a video or for quickly pulling the audio out of a video that download. Like, I can sort of see you going through your day to day workflow and being like, this is a thing I don't have.
+
+Can I just make one of these? Are the... Are these things you're building in, like, an afternoon and and just sort of two prompts, ship the thing, move on as your life, you solved your problem? Yeah. I mean, a couple of them were, like, two hours from first prompt to shipped on the website.
+
+You know, I wanted an app called Leveler because the video... I do a bunch of video podcasts. And when I download that video file from Riverside, I had to tweak the audio a bunch just to get it to sound leveled. And I didn't wanna have to edit the audio and then reexport it from Final Cut. So I just wanted to make an app that leveled the audio between me and my co host, and it sounded good.
+
+And so I gave Claude a raw file from Riverside. I gave it an audio file that I edited how I like, and I said, make it sound like that. And it built an audio engine in, like, what, twenty to thirty minutes. I tried it. It worked.
+
+I said, you know what? Put this on the website. Let's just ship it. And so now anybody can download that for free. So why why ship it either to the App Store or just to the website rather than just keep it for yourself?
+
+Well, the Leveler one, I figured if I have this issue, other people have this issue. And turns out a lot of people, especially beginning or mid podcasters, they were like, yeah. I struggle with audio levels, and so this just lets me drop something in and get it out. And for another, like, I made Captioner, and I was using the edits app from Meta for adding animated captions to my Reels, but I had to do it one at a time. I had to AirDrop stuff to my phone to do it.
+
+And was like, man, if I could just make an app that's free, I could just do this in batches. And so I made Captioner where I can give it 10 reels because I make them in batches. And then it adds the same captions on all of them. It exports the files in the source folder, and I'm done. And I'm like, I think other people would benefit from that too.
+
+And so it's free and open source, and anybody can download it. How does the release process for those go? Like, are you... When you make one of these, are you making them thinking, I'm going to ship this to the world? I need to make the UI understandable.
+
+I need to have x, y, and z feature that other people might want that I've seen on Reddit, or are you like, I've done this one thing. If it works for you, terrific. If not, terrific. Here it is. Basically, the latter.
+
+Like with Captioner, I said, hey. I wanted to do this. I said, hey. You know the edits app, Claude? Like, kinda like that, but different.
+
+And, you know, kinda gave it a one paragraph prompt, and it basically did it one shot. And I said, you know, just upload this as a DMG file to my Cloudflare website, and it just ships it all, packages it. And that one, I thought, well, people might want this as an iPhone app. And I kind of gave it that prompt at the beginning. I said, I'm gonna ship this on the website as a macapp.dm g, but also keep in mind, I might ask for an iPhone app.
+
+Claude was like, sure, bro. And then I did. And so now that one's in the App Store because I just told it, hey. Try to make an iPhone version. Let's see if it works.
+
+It did after a couple prompts, and now that one's live in the App Store too. What responsibility do you feel for those apps, for other people who download them and have experiences with them? We're gonna get to your other app, which I think you have a really different set of responsibilities about, and I wanna talk about them. But for something like this, which you're you're fairly clear about, I I made this very quickly. It's very simple.
+
+It is designed to do this one thing. It seems to... Do you do you feel responsible for it and for other people's experience of it? Because these are free and open source, I don't feel particularly responsible, but I like being responsible. And so people will message me like James Cridland of Pod News was like, I love this captioner app.
+
+I would love for it to do blank lines, and let me edit the timing. So I will, as I see that reply on social media, take a screenshot. I have a shortcut automation that takes that screenshot, puts it on my desktop, and renames it. And then when I'm back on my Mac, I will take all the screenshots that I've gathered from people just asking for stuff, give all those screenshots to Claude, and be like, hey. Can you add and fix this stuff?
+
+Oh, wow. And that's it. It just does it all, which is crazy. It's So your bug report system is you take a bunch of screenshots That's right. And you say, Claude, here's all the things everybody's mad at, and then it it goes out and fixes them.
+
+Literally that. And I have one guy. That's awesome. He sends me an email every week for can do, which we'll get to Mhmm. With, like, a long list of bugs and requests that he has found, which is very helpful.
+
+And I command a select all, command paste in Claude. I'd like, Claude, analyze this. Let me know what's actually fixable. It gives me a report that's very verbose that I don't read at all. Yep.
+
+And I say, yeah. Go ahead. Do that. And then it ships those updates. One of my favorite things is dealing with Claude code, and it's like it has a very specific technical question.
+
+And I'm just... I'm always like, buddy, if I knew the answer to this, we would not be here. Like, what what are we doing, Clog Code? Just go. A lot of times I say, like, give it to me in, two sentences or, like, give me three options.
+
+And even then, I don't have to read all that. Yeah. Treat me like I'm the idiot. We both know that I am clogged code. Like, come on.
+
+Yeah. And it's getting it's getting better at interacting with me, I think, because I give these instructions periodically. And now, like, I have a bunch of conversations in my clogged code sidebar, but it has all the context. So sometimes I'll be in my captioner conversation, and I'll be like, oh, someone asked for Swedish translations. Can you put that here and in the transcriber app?
+
+And Claude's like, sure, buddy. I'll do that. And then it just does it. And I don't even have to, like, switch conversations. It just has all that context.
+
+Yeah. That's really interesting. And I think part of the reason I like these apps is because they feel like the perfect sort of personal software outcome of vibe coding, where you've just described a bunch of things that some people have, but, like, there's no company in building any of the apps you just described. Right? People are not going to pay for it.
+
+There aren't even been enough people who need it to actually have this thing work, but it doesn't matter. You can build it in a couple of hours. People who want it can access it. They can build it for themselves. They can fork it and build it into something different.
+
+Like, if you if you look at a world in which everybody has access to coding tools, it's tools like this that come out of it that make me the most excited. I think it it gets messy in, like, should these things be approved by the App Store and live next to things that are run very differently and built very differently and managed very differently? All that gets very messy, but this feels like an AI victory to me in a lot of ways. I think so. And I figure if it solves even a small problem for me, there's some small group, even if it's just single digits, but it's usually not, that have the same kind of problem.
+
+And like when I released Leveler, a bunch of people said, man, Levelator was a great app, and some users have tried to perpetuate it. You know, the people who made it kind of left it aside. And people are like, this is a great replacement. And that was a free app. Mine is a free app.
+
+And so I think it's kind of a win win. Yeah. I agree. Have you run into anything that these tools just straight up can't do? Has has Cloud Code failed you in one of these projects?
+
+I mean, I had a dark night of the soul when I was trying to figure out iCloud sync and a couple other things. And I had some very helpful listeners that would send me, like, markdown files. They were like, listen. You need to give it these instructions. Like Siri AI.
+
+I wanted to build that functionality into Candu. Mhmm. And I just could not get... Like, it would gaslight me, and it would say, yep. Serial AI, it's built in.
+
+You're good to go. And I'm like, I just tried it on my phone, and it didn't happen. And Claude was like, no, no. It's there. Don't worry about Yeah.
+
+It happens. And then someone would send me this instruction file, and I'll give it to Claude, and Claude was oh, you... That's what it is. I'm like, Claude, you... You know?
+
+And I shake my fist. But Yeah. You know? So sometimes it can be dumb still, especially with the more complex syncing, these kind of integrations and happen tense. But with some instructions, it eventually gets it.
+
+Okay. Alright. So let's talk about Candu, which I think that at least as far as I can tell, always was intended to be something different. This is not a simple one off tool. Like, you you decided to become a person who makes a productivity app, which as you and I both know, that way lies madness.
+
+Right? Like, for for everyone who has ever done this, you are signing yourself up for a certain kind of pain. Tell me a little bit about where Candu came from in the first place. So I was using reminders for my video management, and I've discovered the Kanban board view and reminders. And I loved it for moving little cards from in progress to editing to complete.
+
+And I liked how fast reminders was, and it was native. I have used Notion before, Trello. They all do similar things, but none of them felt great in using it. And reminders was very limited because it didn't have, like, rich markdown notes for a reminder. You couldn't attach PDFs to a reminder easily or multiple.
+
+So I was like, maybe I can make something. And I just want, you know, one board, one can... Kanban view where I can do my video projects, and I can have a note, and I can attach stuff. So let me see if this is possible. And I started down the road again, just trying to make something for me.
+
+And eventually, was like, well, maybe others would find this useful. And in my Shortcuts community, I gave a TestFlight beta out, figured how to do that. Well, Claude told me what to do. And people are like, you know what? This is kind of useful.
+
+And so I thought maybe this is a thing, and I should keep pursuing it. What would... Do you remember the very beginning of the conversation with Claude code? Like, did you sit there and sort of sketch out a giant document of the whole thing you wanted to do, or were you just like, Kanban boards are cool? I think...
+
+I mean, I have a conversation if I go back, but I basically took a screenshot of my reminders Kanban view. And I said, this is reminders. I like this, but I want to do x, y, and z. You know, I want it to be as native as possible, swift. I want it to feel fast.
+
+I want it to... You know, just those kinds of things. And even the very first version it spit out, it was decent. You know, it did a lot of the things. I didn't realize how many intricacies there are into, like, text formatting in an app, just like a numbered list and how you have to program that behavior in, and it doesn't work out of the box a lot.
+
+And so giving it just those parameters. And I try not to say make it look like this because that feels very much like stealing and vibe coding in general, people have feelings about. But being reminders, being Apple's main... It's a free app when you have Apple devices. Feel okay about this, and it's very different from reminders at this point.
+
+Yeah. I don't think Apple would feel any feelings about you trying to do something with it. I think if Apple could stop worrying about reminders, it would probably be happy to do so. But I... I'm curious about that early phase of developing because I think one of the things that has struck me as a person who has has dabbled in making some of these things, but also spends a lot of time using and evaluating other people's software is that it's so easy to be impressed by, like you're saying, sort of the first output of one of these tools.
+
+When lots of things are broken, but it's sort of remarkable that it exists at all. And I think I I use a tool that I built basically because I think Todoist is ugly, and it just makes Todoist easier for me to access and looks nicer. And everything about it that isn't that is broken. Oh, shit. But I don't care about any of the other things.
+
+And and the thing I needed to do, it does, and it doesn't fine, and I move on with my life. I would never in a million years ship that software to anybody else because any reasonable person would look at it and be like, well, most of these things are broken. And so what I'm curious about your perspective on is going through this process as somebody who has used a lot of software, has thought very critically about a lot of other software, knowing you you wanna get this into other people's hands, how to sort of train your own brain to be like, no. I I need to make this something that doesn't just work for me, that I can't Stockholm syndrome myself into thinking is very good, that I actually need to ensure is of a certain kind of quality before I put it in other people's hands? Was that a hard process?
+
+Well, I guess my aspirations at the beginning weren't super grand, but what I quickly discovered as more and more people got it in their hands, wow, people use task apps very differently and many ways that I wasn't, and things were broken and didn't work properly. Which puts you in an interesting position, by the way. And I think a lot of people are finding themselves in this position where you say, either I've solved this problem for myself. If it works for you, terrific. If not, go build your own.
+
+You can have Cloud Code too. Or you go down the road of, oh, no. I just became a productivity app developer. And and now I am responsible to a set of other people who aren't me, who don't have my needs, who want other things. And I have talked to so many people who have struggled to make that decision, frankly.
+
+It's a hard one. It is hard. That's one of the reasons why I chose to charge for it $3 one time purchase. You greedy, greedy. Because at first, was like, one, I would love to recoup the thousand dollars of tokens I've spent on this thing.
+
+Sure. And two, I don't want a subscription because I don't know how long I can keep this up. Although, I do think I will keep it up for a while. But I also wanted that barrier of... I didn't want everybody trying it.
+
+I did kind of want that $3 barrier to say, There's probably thousands of more people who would try this if it was completely free. And people ask for that immediately, Hey, can you do a free with an in app purchase? And I was like, I actually don't want that much feedback. So a there's kind little bit of a gatekeeper. But in the initial process, as I was hearing these issues, but people were also loving how it worked, I felt a growing responsibility of like, oh, people want to shift their entire workflows to this app, which feels like a super heavy burden as someone who is not a developer.
+
+But I said, maybe I can keep doing this. And everyone is very... I've been very clear. This is a vibe coded app. I don't know what I'm doing as far as the code, and everyone's been very gracious.
+
+And I wanted to keep trying and keep doing it, and I think it's kind of working. So was the was the process sort of the same you were describing before, where basically you get a bunch of feedback, you pour that feedback into Cloud Code, and kinda let it go to work? Yes. You know, when people would submit crash reports via test flight, I would basically take all the screenshots and give it to Claude and be like, this is a crash. This is a bug.
+
+Can we fix this? And, of course, Claude is always like, you're absolutely right. That is a bug, and I will fix it. So Sure. You know, you go through that.
+
+And then there is the line of decisions you have to make, which... Like, I'm project managing an app now where someone has a feature request or someone wants a change, and I have to decide, like, is this how I want the app to function? People wanted the ability to have a start date and a due date for a task, which is not something I cared about in my initial version of this, and I don't use that feature at all. But I understood I had several requests for it, so I said, let me build it in. So I'm choosing, you know, what to build, what features to build, and that part is, you know, kind of messy.
+
+But, yeah, people would... Anything that was broken, I would collect all that feedback. And, I mean, I was doing it every day, just giving it to Claude, trying to fix it, using the expedite app review page daily, and, getting it to work. Support for the show comes from AWS AI. AWS AI is powering transformation across the world's leading organizations, moving AI from possibility to production at scale.
+
+Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars. Across industries, AWS AI is helping businesses innovate faster, faster, lead with confidence, and transform what's possible today. AWS AI is how. A thing that I've heard from a lot of people who have gone through this journey is that one of the things you discover is that actually making the code of the app is only one relatively small portion of being an app developer.
+
+You have you have customer service problems. You spend a lot of time dealing with Apple's review team. You spend a lot of time, like, managing distribution and trying to figure out how people are gonna find your app. There's just a lot of things around wanting and growing an app that are not writing code. Have you been able to AI your way through that whole process?
+
+So Claude actually has access to my Fastmail, which is where all emails go. And I've been tempted to set up a scheduled task and just say, look at my Fastmail every day. Anything related to bug fixes or feature requests, just ingest that and then do it, and I never wanna see it. But I thought that's probably a terrible idea. So I've not done that.
+
+Wait. Why? Tell me why it's a terrible idea. This seems like potentially a great idea. It seems like a great idea, but if Claude...
+
+I will inject some fix this in this way type instruction, or actually, that's not a feature I want to do right now. Like, I've had lots of requests for can do on Windows and the web. People wanna be able to collaborate. Those features don't exist yet. I do not want Claude trying to do that without me knowing.
+
+That's probably a huge lift. I have not done that yet. So I read every feedback and request personally. But when it comes to the entire app submission process and screenshots, I was very surprised how well Claude does that. So I have...
+
+Like, when iPhone Duo was coming out, different screenshot sizes, I wanted to do new screenshots when Siri AI was available. I just told Claude Design, hey. Can you, like, make some screenshots and put in, like, filler content in the app and just make it look good? And it actually did. And there's now, like, product headers and search images that App Store Connect is accepting.
+
+So I just asked Claude, hey. Can you make these too? And I see it working on my Mac. I see the simulator open. It's taking screenshots on its own.
+
+So that entire, like, distribution nuts and bolts process, I let it kinda do all of that. And I watch it, and I set the apps to manually distribute rather than automatically, but Cloud does really good at all that. So I try to handle the person interaction and if I'm actually, you know, picking and choosing what bugs and fixes and features to work on. And then for the entire nuts and bolts, you know, text in the update field, release notes, like, Cloud is doing all that. That's really impressive.
+
+How much time are you spending on all of that at this point? Initially, it was hours and hours a week. But now, I'll spend a few hours a week across all the apps because now I have Candu. I have Stash. I have these free apps that people are asking for.
+
+And so it will be the minutes a day of taking screenshots of things, putting them on my desktop. And then when I sit down on my Mac, I'll just go over to Claude, give it all the screenshots, tell it to work, and then I go do something else. So collectively, it's probably a couple hours, but I'm multitasking. It's just kinda working in the background. Is there a version of it that you would work much harder on?
+
+Part of what I think is interesting about this, and and a question I have for you is if you've started to conceive of yourself as an app developer or if that is a a thing that you even really think about. And part of me wonders, like, you look at this and say, okay. I've built a thing some people like. I'm starting to make money from it. Should I start pouring more of my time into this?
+
+And I wonder if you even have an idea of where that time would go if you decided to do so. I think about that. I do not consider myself an app developer and would never call myself that. I would say I'm an app project manager and a vibe coder. Sure.
+
+You know? Because I could not look at the Swift UI code in these apps and tell you anything. I just could not. And people have asked, like, do you get curious now about learning this stuff? And it's like, maybe, but like you, I have three kids, and they're all older and life is busy.
+
+And I do wanna keep making these apps. I wanna keep making Candu. I think maybe a year from now, I'll try to figure out how to put it on Windows and the web and do collaboration. But I also need to remember what is my business? It is shortcuts.
+
+That's why I have a pillow on it. Mhmm. You know? But it also kinda plays into that. Like, many of my apps now have shortcuts actions.
+
+And so I can kind of... And that's the other thing too is I was in my YouTube videos and my shortcuts community. I talk about other apps that have these features, and it's like, that's cool, and I wanna keep doing that. But, man, part of my business could be making apps with the shortcut actions that I then talk about and then build cool stuff with as well. And there's this flywheel of the creator economy.
+
+And it's like, if I can actually put myself in another spoke of that flywheel, it helps not only my business, but also gives me something creative to do. And I think as a creator, there's the wheel of making YouTube videos and podcasts. And this has kind of been like a nice side thing, kind of like the hobby that has become part of the business, but I wanna keep it still in that hobby section. My wildest take on this is that I actually think app development is going to become a core part of being a creator in a way that I really did not expect. And it's probably not true for everybody, but, I mean, truly, it's gotten to the point where everybody on YouTube who, like, makes videos about productivity apps is now starting to be like...
+
+And also, I've started making my own productivity app. And on the one hand, I think that's good. Right? Everybody should have this experience. Understanding how these things get made is a useful way to better understand what they are and how other people make them.
+
+Like, all of this is good. But I think it's so fascinating that that flywheel is growing to include, and I've made software you can use that expresses my values in some way. And it feels like that's only going to get more prevalent across all kinds of creative work. Are you seeing that among other folks that you know? Yeah.
+
+I mean, I see the trend. You know, my initial desire was this is a huge part of the tech news sphere, and so I need to know how these things work and how to use it. And then that turned into all of this. Mhmm. You know, I do think for some, maybe it'll be part of the business.
+
+It is interesting as like a level of expression. Like, this is who I am in videos. This is who I am in podcasts, and then this is who I am in apps. And if you use these apps, you kinda have another connection to me as the creator. And it also might be another door.
+
+People might find me on YouTube. They might find me through podcasts. They might find me through my apps and So whether that's mentioned it's that. But I also think, I mean, five, ten years from now, that self-service software thing, it's... It might just be so accessible that not just creators, but more people just do it.
+
+And I just started messing around with LM Studio and local models because I was tired of paying tokens for Anthropics API, and I'm like, oh, shoot. This works too. And I built a shortcut that actually works with the local LMs. And I'm like, this... It just opens a whole new door and...
+
+To everything. And I think when people get a little taste of what it feels like to make an app so tailored to them that works how they want, and it's free. And if they wanna change something, they can just ask this chatbot to do it. It feels really empowering. So I think it's just...
+
+I think more people are gonna go that way, whether they're creator or not. Yeah. I tend to agree. And I think, frankly, the idea that a lot of people who have built sort of shady courses to make money from their community are going to build software, I think, is actually, in a lot of ways, just a gigantic improvement. So I will take that.
+
+For you in particular, right, you're you're a person who has been doing shortcuts and automation and this kind of work for a really long time in part because you have a big audience for it, but in part because it it, like, it very clearly sort of scratches an itch for you and understanding how this stuff works and putting all the pieces together. Does vibe coding do the same thing? Like, does... Do you get the same kind of rush and feeling of... From working in...
+
+Inside of Cloud Code and building one of these things that you get from putting together, like, history's most complicated shortcut, which you're very good at and do every week, it seems. Thank you. Yeah. I mean, 100%. I mean, I've always been a tinkerer, and I love just messing around with little things.
+
+I mean, I'm on Mac Power users now where I'm trying 30 different Mac utilities a week. And then getting to make my own Mac utility is just another extension of, like, I get to tinker even further. And I think that because the ease of entry is... You know, it took a few months to probably get used to talking to Clogcode, getting it to work with all the things. But, man, it just...
+
+Yeah. It scratches an itch. It is somewhat addictive when you can go from idea to an app on my website that can be downloaded by anyone for free, that just feels amazing, and it's super fun. And I got that with Shortcuts for years, and I still do, sharing a Shortcut to the Internet, sharing it in a reel. And now to do that with a whole app, like, that's super cool.
+
+It's just super fun. Is it... What do you see happening to shortcuts as this goes? Obviously, Apple is trying to AI ify shortcuts in a lot of ways, which some other day we will talk about. I don't think it's working very well, but it's a it's a good idea.
+
+Right? Sort of naturally describing shortcuts and having them work is a good idea. But there's also a case to be made that this new world of code and bespoke apps kind of obviates that whole world of shortcuts. Do you see that coming? Yeah.
+
+The shortcuts, it's been different because with Siri AI, there's actually a lot of shortcuts that I had made that were very popular. Siri AI just took over that it can just do now, like taking multiple calendar events from a screenshot and parsing them quickly. Visual intelligence does that. It can even do things like if I see a YouTube video screenshot on Instagram, I had a shortcut before that would like, look at what's on screen, find this YouTube video, and now Siri AI just does it. So I've been thinking like, okay, well, what is a shortcut?
+
+What is just Siri AI? And then what is an app? And as I've been creating these little apps, I realized, well, sometimes you need a UI. If I wanna put animated captions on a reel, I need some kind of UI. I need...
+
+What does the font look like? Where am I placing it? What are the colors? So I think I'd know what is an app. Think I I know what's a shortcut, like when I prepare primary tech daily every day.
+
+It's a shortcut that runs in the background, going through different RSS feeds. Like, I know what's a shortcut, but it has been interesting to... I still love shortcuts, and that's, like, my main thing. Sometimes I think, is this more of a shortcut? Is this more of an app?
+
+Is this something that Siri AI can just do? And so it's an interesting time, but I think there'll still be a place for shortcuts. I think you're right. And I... It's...
+
+That's an interesting trio of things. And part of me wonders if they're all collapsing in on each other or if actually we're gonna get more delineation over time between, like, here's what you need sort of bespoke, repeatable software. Right? Like, I I do a thing over and over, and actually having an AI try to design new ways to do it every time doesn't make any sense. So I'm gonna build software versus, you know, building blocks of other software, which is where shortcuts are.
+
+And then the kind of let's build something out of whole cloth that is much more what these AI tools are good at. We are all gonna have to kinda figure out which parts of our lives live in which of those things. Whether whether you're creators or not, like, where where you go for those things feels like an important part of this whole next phase of tech for people. Yeah. And sometimes I think, well, I could just give this file or this transcript to Claude and ask it questions, or I could run it through this shortcut.
+
+But then there's very good things. I think a shortcut I made for you last time I was on the show was, how do I share my latest podcast episode quickly? I want the link to Spotify, to Apple, to YouTube, and just puts it on my clipboard and sends it out. Well I use that more often than I'm proud of. I would never admit that to you, but I do use it.
+
+Shortcuts. You know, that's that's... I just held my pillow for the listeners. Like, that's a shortcut. That's not an app.
+
+Asking Claude to do that, it's gonna be thinking for five minutes for no reason. And so there's still some delineation, but, yeah, I feel that collapsing a little bit. But also, Siri AI can be pretty slow sometimes. And so it's like, can I do this faster here? Or do I want something in my menu bar on my Mac rather than having to go to a chatbot?
+
+So it's a weird time, but I'm excited about it. I like it. Do you have a next big idea? What's the next thing at the top of the Vibe code list? Well, I don't have anything just yet.
+
+I do really wanna build collaboration into Candu, and I think that would open it up. And I might go subscription for that. I've not done any subscription app. I feel a little funny doing that being a VibeCoder, but I I... You know, that would be a nice recurring revenue as an independent creator.
+
+But we'll see. I'm gonna try and get collaboration into Candu. And I just like putting stuff out there for free as well. And so just looking for maybe defunct apps. You know, I made iPod Pro Max because I wanted to sync my old iPod video Nice.
+
+To a new Mac. And I'm like, I could just spin this up quickly, and then people fork it on GitHub and and do whatever they want. So we'll see. There'll be something new. It's pretty good.
+
+Alright, Steven. Good to see you. Thanks for coming back on. Thanks for having me, David. Support for the show comes from AWS AI.
+
+AWS AI is powering transformation across the world's leading organizations, organizations, moving moving AI from possibility to production at scale. Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars. Across industries, AWS AI is helping businesses innovate faster, lead with confidence, and transform what's possible today. AWS AI is how.
+
+Alright. Thanks again to Steven for being here. Before we go, I have one more thing, which is I need to do some quick follow-up on a thing I mentioned offhandedly on the show before I went on parental leave, which is that I had bought two different grips for my phone, and I was testing both of them. I got the the oSnap grip, the low profile super skinny one, and I bought the PopSockets low pro as well. These two things that are, like, $40.
+
+I have been a PopSockets user for forever. I don't even know how to hold my phone like a normal person anymore. Do we do the... This thing? Do we use our pinky?
+
+I don't know. So I bought both of these. I've been testing them for two and a half months now, and I have a verdict, which is that I started with the PopSockets and it broke. This is this is the end of this story is the the actual mechanism just broke on me, which is a shame because I actually really like this low profile pop sockets. It has a little stand so you can prop it up.
+
+I think one of the best things about any of these grips is that often they double as kickstands, so you can just prop your phone up when you need to watch something or look at a recipe or whatever. I used this one for a while. It's a little awkward to like sneak your finger underneath and pull it up, but I was using it. It was fine. And then it just ripped apart.
+
+So RIP to the pop sockets. I'm back on the o snap. So this one is a little different because it's it's a more sort of metallic y grip, and there's really only one correct way to put your fingers in it. There's one way you can use your one finger to go in the middle, but this feels weird to me. Really, what it is is you end up putting two fingers around it.
+
+You have to kinda find the exact right place for your fingers to go, which I don't love quite as much. It's also not nearly as good a kickstand because you have to tuck it under the thing and it's a little plasticky and it kinda falls apart. But this is the one because it didn't break. And that is that is where we are. In general, these things are are super thin, and I don't actually see the point of them being super thin.
+
+The the low pro PopSocket is not so much thinner than the other one that it has, like, completely changed my life forever. But the one to get, I think, is the oSnap. OSnap makes good stuff. A lot of people really like it. Every time I've ever written about or talked about pop seconds, I get emails from people being like, try oSnap.
+
+I did, and you were right. This is the one I would get. The the oSnap grip is the one. It's very good. I also really like it in red, and it looks really good on the back of my green iPhone.
+
+Alright. And with that, let's get out of here. Thank you again to Steven for being here. Thank you for watching and listening. As always, I want all of your feedback.
+
+If you have been vibe coding stuff and you wanna tell me about it, if you think people who vibe code are monsters and we shouldn't be touching any of these tools, I think neither of those is a totally wrong opinion, and I wanna hear all of them. Email us, vergecast@theverge.com. Call the hotline 86611. We love hearing from you about this and about everything. And as a reminder, the best way to support everything we're up to is to subscribe to the verge.
+
+You get all of our podcasts ad free, including this one. You get all of our newsletters. If we ever vibe code something, I don't know. You'll probably be able to get it. Theverge.com/subscribe.
+
+Thank you in advance. The verge cast is a verge production and part of the Vox Media Podcast Network. The show is produced by Josh Cajas, Kabir Chopra, Eric Gomez, Brandon Kiefer, Travis Larchuk. See you tomorrow. Rock and roll.
+
+Support for the show comes from AWS AI. AWS AI is helping the world's leading organizations transform their industries in production at scale right now. From bringing fans inside every swing at the PGA Tour to helping small businesses grow online with GoDaddy to taking vehicles from concept to customer with Audi, AWS AI is how businesses innovate, lead, and revolutionize. AWS AI is how.

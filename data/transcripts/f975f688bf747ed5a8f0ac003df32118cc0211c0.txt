@@ -1,0 +1,249 @@
+I know that you guys have been using the t word a lot the last day or two in your conversations, the tokens, but maybe we could kind of pivot a little bit away from AI. I guess it's a little bit rooted in AI, but there's been this big conversation set in the last couple days about cryptography and some of the risks to cryptography. I think it it took root after the OpenAI math drop, but there's more conversations now about this big quantum initiative and how that might kind of take us into an era we need to kinda start to think about adopting quantum cryptography. But, Arvind, maybe we could start and talk a little bit about where things stand today from your view. Sure.
+
+So a little bit of what David just touched on is, DARPA has been running a competition called QBI or Quantum Benchmarking Initiative. A couple of 100 companies joined it a couple of years ago. I think it's down to maybe 13 are left. So that tells you kind of what's maybe real. I'm calling it maybe not quite real.
+
+Some of it is real. And so their goal is who can build a quantum computer that works? Let's sort of put the technology side out of it. And the debates are, is it 2028, 2029, 2033? And sort of if you pick the middle point, let's call it 2030, well, it will break today's cryptography.
+
+That's not a supposition. That's just a reality. And if that's gonna happen, then what's the cryptography that you gotta use to protect yourself against that? Unfortunately, for some of you, what's even worse, if you have an encrypted hard disk today that gets stolen, somebody could keep it for five years and break it at that point. The good news is post quantum cryptography is understood.
+
+It's well known. The code is written, but people have been too lazy to get to it. But I think the wake up moment is now. Are the solutions that we understand quantum proof or quantum resistant? Because it's sort of based on our basic understanding today of what quantum probably looks like.
+
+Yeah. No. It is based on understanding at a theoretical level of what quantum could do. Could do. So they are quantum proof in the same level of rigor that today's cryptography cannot be broken by today's classical computers.
+
+That's actually not a theorem proof level answer. It's more based on complexity theory and computer science, which is grounded at the end on some assumptions, not on So if you look at where we are today and that twenty thirty midpoint, can you just walk us through the evolutionary moments that you need to see where Yes. We all have to start paying attention and say, okay. How do we move? Yes.
+
+So today, you got toy quantum computers. I'll call I'll call them toys because they can do certain problems, but they are rife with errors. They have no way to scale fully yet. So question one will be, who's the first one who can demonstrate not a simulation, not on the side, but level of error correction or mitigation on a running quantum computer. Step one.
+
+And so I'll predict you'll see somebody make claims by next year, then you should get third parties to evaluate all those claims real. You'll find one or two will make progress by 2027. Error correction. Not at scale, but error correction. Yeah.
+
+Question two will be, can you run these things at some level of scale? Not yet complete scale. I call it gate computations for the lack of a better word. Today, most people are somewhere around 10,000, which you would think of. A normal computer is not very much.
+
+When your iPhone does a couple of billion per minute. Yeah. So gate computations is somebody scaling from 10,000. Are they adding a zero each year? That's the second milestone I would put.
+
+You put those two steps together, and now if you put a zero per year, that means you could be at 10,000,000 by 2029. That's remarkable. That can do some things that'll surprise the hell out of everybody. Does this reference kind of this notion of a logical qubit being kind of an error corrected operating qubit? Is that...
+
+It's about... Is is that an... Is that a a term you've adopted, logical qubits, that everyone kinda has the same milestone, the same metric? I don't love the term, but I think it's a fair term to just explain to people to say, hey. If I say, I'm building a computer that's got 10,000 qubits, and they say, yeah.
+
+But they're all noisy. You're right. So if I begin to error correct, it, in some sense, decreases the effective capacity of the machine. So a logical then says, okay. What's the effective capacity of this machine is, I think, a reasonable way to look at it?
+
+So that's a that's a term that I... While I don't love, because it's not like I've taken these four things, and it's like a DRAM cell, and that's it. It's actually the whole machine is that I connected, but it's got some divide. So, essentially, in physical, maybe 200 logical. Nikesh, you have red teams that think about what is at the frontier and pushing it.
+
+Let's say that you start to see these ooms, these orders of magnitude start to compound. If you had to guess, where would your red team say are the obvious honeypots? Where do you point that if you were a bad actor? If you think from the perspective of everybody here has pretty much crypto keys running across their entire IT infrastructure. It's not one thing.
+
+Everything is running with crypto keys which are encrypted. Every vendor in our space has keys at each end. So the first thing that's gonna happen is whatever is not quantum proof is gonna be breakable. So our view is you can't wait for 2029 or 2030 because it's not like one day all of us are gonna go out and say, oh, shit. Let's go burn $5,000,000,000,000 of IT infrastructure and let's go build it again in one year because now we need quantum safe infrastructure.
+
+So you should be built... You should be replacing your IT stack today with quantum safe or quantum proof infrastructure right now. Now there are technologies, there are capabilities which are already out of the market where you can start, you know, wrapping post quantum ready keys around traffic as a stop gap. So you can do that. But the time to...
+
+If he says it's twenty, twenty nine, thirty, we're already late. We're three years away. Well, three years away. And I'm pretty sure everybody in this room has got few $100,000,000 of IT spend that is earmarked for this year, and I'm guessing 50% of your spend is on infrastructure that is not quantum safe. There was a pretty senior AI researcher that said we don't need wait.
+
+'29? Well, I mean, his view was actually models, AI models today can get us there before quantum computers get us there. Do you have a view on this? And I guess, you know, and and I guess it's rooted in this idea that on the frontiers of number theory, you start to develop models and proofs that are not apparent to humans today that allow us to rethink how we can effectively do code breaking. And perhaps the OpenAI math dump this week is an early indication that this might actually be a good prediction that he made.
+
+Since you geeked a little bit by going down that direction, you'd excuse me if I just geek a little bit. It's not going to be possible. At the end of the day, this goes back to stuff that people like Richard Feynman did. You cannot simulate something on a different architecture and expect a more efficient result. Right.
+
+So if you take that as a thesis, quantum computers do not operate in arithmetic. Right. Which is what all of classical computers, including GPUs, do. Could you have an AI algorithm discover a new quantum algorithm? Absolutely.
+
+Could it run it effectively and efficiently as it is hardware? Pearson. Yes. It's not possible. So you need quantum hardware to run these things to get the positive advantage that the quantum algorithm has.
+
+Otherwise, it'll be slower by an order of a thousand or 10,000. So could you prove that it's a workable algorithm? Yes. Could you get that benefit? Unlikely.
+
+I think the argument is using... And I know we're geeking for a minute. But just using classical computing, you can actually have a different path, an arithmetic path. For example, if you had a better predictor of the distribution of prime numbers, you know, like, at the frontiers of number theory that we've not really resolved, We can start to have classical models that can start to break cryptography. It is possible.
+
+The question is how long will they take? Because that's always the question. Yeah. So I think it it is gonna be possible, But if it takes ten years to break one key, most people are gonna rest in peace. That's not a practical answer.
+
+That's the... That's, I think, where the debate is gonna lie, but it won't prove out until it's done. Let me move the conversation to something that's happening currently. I would love to get both of your takes on the following concept. There's open source.
+
+There's closed source. There's frontier. There's pacing the frontier. There's now effectively very reasonable alternatives that are open weight at a minimum. Your philosophy around the entire spectrum and just give us a sense of how we should think about models and capabilities over the next couple of years.
+
+Nikesh, you wanna Sure. Look. I think earlier in the day, said, don't restrict your teams in terms of capability in the experimentation phase. Don't start trying to cost optimize. Don't start trying to stitch your own in that phase because the teams who work for us, to 20,000 people, have just discovered AI in the last twelve to eighteen months.
+
+And it's not fully diffused across the organization. So if you make it harder for them to adopt, if you make it harder for them to understand, it's gonna take longer for us to be ready. So right now, we're saying, go use the best model you can find, the easiest way to use it so you can understand and can we validate the things that these things can do whether it's from an efficiency perspective, a revenue perspective, or a product perspective. That's kind of, I call it, phase one. But in phase one, what we've discovered is there's different courses for different courses.
+
+Right? What people don't understand, know, there was a moment whenever we thought the cybersecurity was gonna consumed by AI models and, you know, our lives are over because Mythos is gonna solve every problem. Well, guess what? We inspect all traffic at an endpoint at the cost of $20 a year. Right?
+
+Hundreds of megabytes of traffic per endpoint at the cost of $20.25 dollars a year because machine learning is running on your endpoint, your compute, and we run it on a 20, 30, 40 megabyte payload. Now if you want to take all that traffic, run that through OpenAI using tokens for every employee in your company, sounds like the sound of revenue. Like, OpenAI would probably generate all the revenue in one ear from one company. Right. So that's not a practical example of how a model would do.
+
+So what you do is you take a small language model, you compress it, you make it task specific, you keep keep training it until it gets to 99.9% accuracy and say, instead of using it using machine learning algorithms, we're gonna use generative AI, small language models, they're gonna do that at the end. So the point is, what we're doing is we're trying to figure out what tasks requires what level of intelligence and what is the cost of that intelligence for that particular task. And you suddenly discover you don't need a Ferrari for every task. And by the way, the customers don't wanna pay for a Ferrari for every task. I'll give you the flip side.
+
+Flip side is, let's assume you're undergoing a breach. You're being attacked. You know you're being attacked. At that point in time, every customer in the room said, don't worry. You, the chairman model, need to to stop the breach because they know the business impact of that breach in the billions of dollars.
+
+At that point in time, I can run agent swarms. I can do all kinds of stuff that you want from a defensive perspective. So there, I may want to use the most up to date frontier LM and say go think about it, reason the hell out of it, and figure out how to stop this breach, how to make this happen. So what we're discovering is you're gonna end up using Frontier LMs in unique cases where the business value that is gonna get disrupted justifies. Or you can do drug discovery if you want.
+
+I think for most practical use cases in enterprises, we're gonna end up training some version of an open source model. And I think when it comes to, even in peacetime for us, for example, running a defender model, we're most... More than likely gonna take an open rate model, use our own proprietary data, train it, manage the weights because that sort of gives us the auditability, the explainability, and the the open system. We can actually explain how that happened. I completely agree, but I'm gonna take a slightly different lens to get to the same exact end conclusions.
+
+Let's take economics. So today, $20 for a million tokens for probably generation minus one, 50 if you wanna go to the most extreme. We could take one of the Chinese open rate models, take a Kimi k three, something like 800,000,000,000 parameters. And if you run your own GPUs with a little bit of optimization, but I'm talking like a week of engineering work, we could drop the cost to about a dollar to $2 for a million tokens. Which enterprise in the world will not accept a 10 times or, in this case, a 40 times cheaper answer for effectively what can do 95% of the work?
+
+Right. So I think economics is important. The second is going to be, at the end of the day, you you just talked previously about chain of thought, not just the end tokens. Well, effectively, then you're giving away your IP if that chain of thought can be captured and logged and audited by somebody else. So so brand and IP is gonna drive people to say, I need to run the models on my own.
+
+Well, you can't run a frontier model on your own because none of them will give it to you, so then you're back to open weight. And the third is geopolitics. The best open weight models today are Chinese. By way, I think there's very little danger if you're putting them in a sandbox and running them by yourself. Sure.
+
+If you use them from a cloud, that's different. But I think that over the next year or two, I'm very doubtful that there will not be great models that come up in the West that are also open weight and that are as capable as the Chinese. The gap in these things is six to twelve months at the most. And so all those three drive me to conclude. I don't know whether it'll be 75 to 90%, but that's the range I would put.
+
+Of all token users, we'll go to open rate models for the reasons I mentioned, added to the reasons that Nikesh mentioned. And the token consumption that's left over, is that because you actually need it, or is that because it's a default behavior and people are too lazy to change? Okay. So I'm gonna talk about developer behavior. And since I was one, I'm making fun of myself in a younger age.
+
+Developers are lazy. They're gonna use the most expensive, the most expensive answer unless you put a control on it. Right. Because it... It's easy.
+
+Yeah. And so that is gonna do... Take it there. So I would say if experimentation phase, you allow that to prove it works, and now I gotta put in a cheaper answer, it's probably fine. If it gets me there a lot faster.
+
+But doing it for production usage is where I am skeptical that it's of value except for a tiny number of use cases. In case, you were brought in as one of the small circle of people for Mythos, kind of preview it, be it their partner. I'm sure you're now doing that with OpenAI as well. When you're sitting with these guys, is part of you thinking they're looking at my business, and they're like, wow. This is a great business.
+
+Like, do do you think that's... And and what is the what is the actual technical boundaries that you expect to be respected? And the reason I ask this is we've talked to a couple of other CEOs. I think Mark Benioff does the best example of this where, you know, we've talked about ZDR, and he's been incredibly aggressive about making sure there's zero data retention and doing that on behalf of his customers. What's so interesting about these EDR and all of this stuff is, like, none of the models say that they won't generate synthetic data.
+
+It's literally not in there. You guys should look. There's all these outs. There's all these trapdoors. So I'm just wondering, like, when you're in the room, what are you thinking?
+
+When you're in the room, you come out and say, these guys are not gonna get into my business. They're not gonna... They're not gonna be able to get into my business. Okay. Because if you think about what...
+
+When Mithos came out. Right? The we've been paying billions of dollars for encoding agents. Well, guess what? We're fundamentally...
+
+Not everybody got ZD out in coding. There's tons of people out there using Cloud Code. We have no issue about that data training the model. So we are training these models with end users doing coding. These models are getting better and better doing coding.
+
+Well, guess what? If you teach a model what model what good code looks like, it also can figure out what bad code looks like. So the first thing that missiles did, it figured out what bad code looks like. And if you let loose against your code, it'll tell you what is bad. What's fascinating is when it did that, even then it was fine.
+
+It was hallucinating 30% of the time. Right? But the problem is the reason it's perfect for attackers is they just need one vulnerability. They don't need 10 vulnerabilities. If you're a defender, you need find every vulnerability and patch it.
+
+So all the people in Zoom, I think, who have been through this journey in the last twelve months is that everybody here has gone, tested them, whether with Metals or with some cousin of Metals or some open source models and discovered. Every vulnerability has to then be tested, understood, you know, figured out. And I would guess in this room, if by show of hands people say, the number is roughly sixty to eighty percent have been have been real and twenty percent have been hallucinations. So from that perspective, the models are great to be able to tell you what the vulnerability is. But I don't even think anybody in this room, if you ask them raise their hand, will tell you that they're not gonna even use Cloud Code to patch the vulnerability without having to test it again.
+
+I have a very random question, but it makes me think. So you're engaged to defend companies, but it now looks basically like warfare, like both of you guys. It's like warfare. And so is there something that you can learn from how war has been fought or how war is being fought, and do you do that to actually inform how the technology should behave? I don't know if this question makes sense.
+
+I think to the extent that you can be better together, you can collaborate. Like, Arvind runs a program. We're now saying we're all finding vulnerabilities. Why don't we pool our vulnerabilities and find the defense ones? As opposed to every company in the room trying to go test all the open source vulnerabilities they have, figure out how to patch them, go patch them individually.
+
+So then you take some trusted parties, give us your vulnerabilities, we'll patch them, we'll distribute the patches so you can all be safe at the same time. It's kinda like how cybersecurity works today. If you find an attack technique in a different part of the world, we can take that attack technique, write machine learning code, ingest that into our product, and make sure it gets available to every customer. Is agentically written code error free? No.
+
+No? Okay. Explain that. So... Look.
+
+But first on your war question. Yeah. So what Nikesh talked about is you can have powerful alliances, but the alliance effectively can become more powerful than the attacker. That's technique one. Technique two in warfare, what has been the most effective is asymmetry.
+
+And so often an attacker is cheaper than the defender, so the defender runs out of money and at some point then concedes. Or can you make defense equally cheap, in which case you can basically have symmetric warfare, and then you have a much better chance of success. And the third, which has been the way all wars have been won, is when you get technological superiority on one side. So go back to World War two, go back to Korea, go back to Iraq, go back to anyone. If you get technological superiority on one side, you tend to win.
+
+And so our goal is can we get technological superiority? And that's what Nick is referring to. Can we find vulnerabilities? Can we patch them? Can we put boundaries around them?
+
+That makes it really expensive for the other side to now try to find a way through. So that's what I would answer there. Look. At the end, will agentic code be superior to human written code? Absolutely.
+
+We can find that. We use agents and coding agents now for probably half the code that is written inside our place, and it is superior to what was being written before. But the reason it's superior is the agents can also do evals and basically make sure that everything they can find is actually fixed before it ever goes out. All that said, we're only finding all the flaws that we know how to find. And so you get into this weird loop in computer science.
+
+Okay. Do I really properly verifiable. It's not fully verifiable because that is a task that is gonna be almost computationally infeasible right now. Now I'm not going to hold out hope that it's... Doesn't become what you were talking about in number 30 and all that.
+
+This is the task in which maybe we'll find a way to actually get to be able to verify the correctness of these things, at least in where the inputs are limited. If the input can be anything, then I think it's really hard. Right. Does that make sense? Yeah.
+
+Let me ask the implications of the points that you just made. It seems obvious to me that there isn't a world where China and The United States or the West or whomever, a bunch of international countries all hold hands and say, let's all stop AI development. That being the case, it becomes becomes a a necessity that there's an arms race, that there's a defensive or offensive superiority requisite, that there's a compute capacity requisite, that there are all of these needs that arise to protect industry, to protect our economy, to protect our jobs. Does that argument win the day with everyone that's trying to stop AI and the political conversations and the social stuff about AI needs to stop and we need to stop doing this? Does this point about the inevitability of one side having it, requiring the other side to defend it, change the the the conversation?
+
+I'd love for you guys to share any anecdotes you've had with senior party officials who might not be in power today but might be coming into power and whether they're gonna kind of have a view change around this because of that point. I think it's abundantly clear that nobody's stopping. Everybody seems to be working at a frenetic base to try and make sure that they get a better, smarter, faster model. It's kind of interesting. You can take the charitable side and say, there's no technology in the world that was built where people were building security in parallel.
+
+I don't think TSA existed when they built planes. It's just like Wright Brothers say, great. We have planes. Let's figure out how to fix... Take your shoes off.
+
+Yeah. Let's risk everybody before they get on the plane. That was not what they were thinking about. Exactly. The explosives keep the explosives out of the shoes.
+
+Yes. That's right. That's not what they were thinking about. So, unfortunately, we've been shown the dark side of these models and we've over rotated on the dark side of the model where now the entire conversation is about the dark side and the perils of AI and not on the benefits of AI. I think there's a narrative problem.
+
+That notwithstanding, I don't think anybody's slowing down. I think the most likely outcome, which I think hopefully is the right outcome, is that in the world, you said it and Arvind said it earlier, if you build something, you're accountable for it. If you build something and unleash it, you can't unleash and say, oops, I don't know how to control it. That argument doesn't work. Yeah.
+
+Because you wrote the software. Yeah. Yeah. And this whole argument that you didn't write the software, that the software was wrote itself. Because the engineer is gonna say, well, agent 74565 from my harness wrote it.
+
+And it's like, no. You wrote it. Well, but the company still wrote it, so there's products liability the market. You're a commercial enterprise. You're taking economic value in return for giving me something.
+
+You're required to abide by the responsibility the responsibility that you signed up for. So I think that's... In my mind, it's that simple as that. And there's enough regulation in the world, perhaps too much, to hold people accountable for stuff that they put out in the open market where they don't take responsibility. Don't take responsibility.
+
+But but, David, it's actually impossible to control it unless we think the entire world is gonna sing Kumbaya and say let's slow down, which as you said is unlikely. So if that's the case, fine. You put slow down here, maybe. Well, okay. Does it mean Japan slows down?
+
+Does it mean China slows down? Does it mean India slows down? No chance. They'll say, great. You're slowing down.
+
+It gives me a chance to catch up and get ahead. So a digital technology is impossible to actually slow down, and the European example tells us. So there, you get afraid of all the possibilities. Yeah. I'm not saying the real dangers.
+
+You get afraid of all of them, and you impose regulations first. I guess it's such a vibrant tech economy there. Right? Yeah. Well, I mean, neither of you actually answered my question about conversations you've had, which...
+
+Because I'll I'll tell you a conversation I had last week in DC. I had drinks with a member of congress, pretty senior ranking guy, and the conversation had two parts to it. One is I think one of the CEOs of the biggest companies in the world is completely freaked out about cyber, and he's losing his mind and he doesn't know what to do. And I just had dinner with him, and here's all the he said. And then I also think that by q four, we might see a 50 state ban on data centers, which isn't likely, but he says, 50 is a big number.
+
+Big number. Have 50 states ever agreed on anything in this country? No. Well, few things about... Be amazing.
+
+Yeah. Okay. Can you get everyone together? When everyone agrees on something, you know it's not true. But I think...
+
+Be like a miracle. And and it's that it's it's the fact that both of those statements are being being said by someone. So where do you think this resolves? Like, how do we resolve this path forward? I'll She's good at this.
+
+Try to answer your direct question. So, look, amongst us, we have all and other members of your group have... We all had different conversations with different members of this administration, the previous administration. The senate runs longer than just one admin. Congress tends to change a lot faster.
+
+This question has been in there since 2022. The senate had closed hearings in '22. They had open hearings in '23. Congress had them. The White House had them in both admins, and they go round and round this question.
+
+The regulation question on AI and data centers is driven, I'm gonna be sorry, and cynical is driven by populism, not by any reality. If I can get more votes, should I look like I'm trying to do those things? Politics is politics. I'm not gonna say that's not real. It is real.
+
+That said, enough people also care deeply about the long term economic advantage, and so that's the balancing act that is happening. I do think we are on the correct balance right now, but I'll acknowledge an election can change where we fall on that balancing act. On data centers, I think there's no chance all 50 will ban. Is it possible 30 will ban? Yes.
+
+The remaining 20 will rub their hands in glee at that point. If you look geopolitically for a second, it seems like we're trending to a place of haves and have nots. Like, everybody in this room is a have. You know, you're a Western market company. You have the benefit of being able to work with guys like you, but there's a certain price of entry that may not make sense for the random pick your company anywhere else around the world.
+
+What happens then when these models are so capable and effectively free? What is the actual manifestation? I'm sure you've had to think about this in terms of how you wanna respond. So how do you how do you think about that problem, this separation of haves and have nots? Look, I think Arvind said that you have to make technology so cheap that it can be easily accessible by everyone.
+
+And I think we have the opportunity of making that happen. I don't think that it's gonna be so expensive that if you can run economic enterprise, it should be possible in the envelope to be able to find a way to protect yourself. So I don't think we're gonna end up in a have, have not scenario. I think the bigger challenge which is more pertinent to people in the room is I fear that we will see fast advances in compute development in two large countries in the world. We may not see that as evenly distributed across the rest of the world.
+
+And compute is very dear right now. It's very hard to get compute to run anything thing at scale at the current moment. And the challenge is gonna be that the further away you are from the epicenter, the less likely you will have access to this computer. It's not because of economic reasons. It's purely because of supply constraints.
+
+I think that's the bigger challenge. Like, You could be a company in Europe and you have the right intentions and motivations to go and sort of innovate, optimize, and run with it. And you may just suddenly discover that because you're far away from the epicenter, you don't get access as much as companies in the Western world... In The US or perhaps in China are gonna get. I think...
+
+Look. I like to look at history because it gives us some information on how these things roll out. I think this is the classic labor versus capital trade off that is happening. It happened in the seventeen hundreds. It happened again in the eighteen hundreds.
+
+It happened again in the nineteen hundreds. People who spend more on capital than worried about labor tended to win every previous one of the seven or eight cycles like this. So this is what is gonna happen this time. What Rakesh pointed out is the two nations here are also quite willing to be capital intensive. Yeah.
+
+It's not as simple as this. And they're willing, at the end of the day, to concede that labor is gonna be less important. That's the way it goes... Is gonna play out. Nations that get very hung up on social and left leaning philosophies that labor has to be protected at all costs.
+
+Not that there has to be opportunity for labor, but every existing job has to be protected are the ones that are going to lose. Because I think the ones there, to Nikesh's point, is cheap enough. Somebody in one country can use the capability, but what's gonna be in their head is, hey. But does it mean there's a job loss or a job displacement? Job displacement, you should take because it may result in a better job.
+
+I think that's the social philosophy that's going to determine winners and losers here. I have a final question before I give it to you for the final question, but the... My final question to both of you. You mentioned this here, which was great. Can you tell the story about...
+
+I'm a huge fan of vertical integration. Huge fan. I I think, like, you know, markets swinging pendulums. And, you know, there was a world, like, even in the sixties, seventies, and eighties where there was the conglomerate, and it was a... An incredibly valuable enterprise.
+
+And it was in a time of turbulence, it was the safe harbor for capital because the conglomerate was the mechanism by which you organized. And then when you had peace and prosperity, then people disaggregated. And I think moving back to the world of the conglomerate. And you told me that you... Just back there about the vertical integration of IBM at its peak.
+
+I just wanted you to... And then Nikesh, your thoughts on vertical integration over time? What Jamat and I have often talked about is the IBM main frame, which, by the way, there's a few people in the room who do use it quite well and at scale. The IBM main frame has lasted sixty five years. Why?
+
+It was vertically integrated. We did a little less right now in the sense we don't go all the way to dirt. In the sixties, we went all the way to dirt. Meaning, we found sand. We made our own wafers.
+
+We built our own fabs. We built our own chips, every single thing out to the metal that surrounded the machine. What that avoided was any IP leakage, but it allowed us to keep the profit of the complete stack in the company. Today, the only piece we don't do is the actual fab. Still the design of the chips, the design of the engineering, the resilience, the bulk of the software is inside.
+
+And that vertical integration, you've got to decide. Yeah. Of course, I'm not gonna make our own metal. You buy metal. And Right.
+
+Fabs is because of scale. But I think that vertical integration in areas which are incredible important advantage, which goes back to the infrastructure point, the two of you were making before, is incredibly important to understand where do you want to be and where, if it's a commodity, then you should not be. Yeah. But you can see that the modern day version of that is NVIDIA. Yeah.
+
+If you look at what Jensen is doing, he's a modern day version of the vertically integrated stack. And he went and bought Jensen is at the dirt and he's at He application wants... He understands that there's gonna be a balance between frontier models and other models. He's trying to fund everybody in the ecosystem to ensure that they don't stray from the vertical integrated stack that he's producing. And the good news is if you control the vertical stack, you can decide which part of the stack to commoditize.
+
+So you can decide to move profit between layers. And if you see that there are other people attacking a certain part of your stack, you could... They destroy the profit pool in that stack. You move the profit to the other part of the stack, and you can see that happening. Very powerful market leverage.
+
+So to put you on the spot, so if you look at the application layer today, what's the obvious vertical integration strategy that OpenAI or Anthropic should be taking, and then what's the defensive mechanism for the companies that are maybe on the receiving end of that? I think you're already seeing that. I think we're we're trivialized this conversation. We start saying open models, open weight. It's literally...
+
+It's an open stack versus a closed stack. Because I don't think... I I think at some point in time, this notion of running something like an open router become impossible. Because models are getting more and more... Each model is requiring more memory Yeah.
+
+More context, more understanding. You can't separate context and memory from the reasoning. Now if you want to separate reasoning from context and memory, then OpenRoute is only responsible of moving the reasoning tokens back and forth. So I think over time, you'll start seeing it doesn't make sense that you have a effectively end to end stack. It'll be...
+
+It's like a CPA you talked about earlier when you were chatting. So it's cost a per action. The action will require you to go and traverse the entire logic Right. From prompt till outcome. And then memory will require or make it easier and there'll be too high of friction for you to move your task from one stack to the other stack because it has all your context and memory.
+
+And you're gonna see that. Look look at what's happening in the personal agent space. Right? If you start training a personal agent with all your context, all your APIs, all your connectivity, now you've built a moat. Because now I can't take that every day and move it to the next stack and the next stack.
+
+So I think you will find in the application layer, they're gonna have a vertical stack as well, which will go through the entire process of software, reasoning, memory, context. To your logical conclusion, everybody will have their own then. Yes. Because it's just the right thing to do. And then brute force distribution wins again in the enterprise space.
+
+Right? You're seeing that in the consumer space, brute force distribution is gonna compete. In the next three months, every frontier lab is gonna have a full on, full court press on the Muse concept. Right? Yeah.
+
+They strived that six to nine months ago. It didn't work. They've... Now with Facebook showing us how it can work, I think pretty much everybody has it. There'll be APIs.
+
+It'll be the largest battle of consumer control. Every app that exists in the iPhone is... Has to become headless. Maybe we can wrap by going from vertical integration to horizontal expansion. It's been a common business strategy and enterprise technology companies to expand horizontally through m and a, drive synergies, cross sales, and so on, and you've obviously both done it exceptionally well and executed it well.
+
+How has your view been affected in the last year... This year, let's say, in terms of valuations and multiples, cost of capital. Let's talk about m and a in the context of cyber, then we can talk about m and a in the context outside of cyber. In the context of cyber, I have always maintained over the last eight years that it's silly that our customers have to buy 40 different solutions and stitch them together. We barely understand our You think you understand our and 10 other vendors worth of You can stitch it?
+
+God bless your soul. Right? So we're working as fast as we can to take disparate parts of our industry and find the way to stitch them together to have the data work together. I think that's a journey. And if you want parallels, when I started my first job was at Fidelity Investments many years ago.
+
+We had 23 systems which collectively would be called CRM today. We had master tables. We had tables that concatenate with them. We had 23 different applications that did 20 different things. Today, you go buy it off the shelf and you cringe at the cost of Salesforce or the cost of Microsoft Dynamics, Oracle, whatever you choose to do.
+
+So in thirty years, what's happened is that's consolidated to a singular platform. The customers don't stitch solutions anymore. Because what happens is these software solutions become consistent. They all become like each other. They all roughly do the same thing, and there's no differentiation.
+
+So I think the same thing is gonna happen in cyber. That's what we've tried to do. We've tried to find things that are best in their category, stitch them, make them work, so our customers don't have to do the stitching. It's like that's kind of the answer on cyber. For some reason, you know, cyber is enjoying much better valuations lately because of the AI mid horse event, which is fine, which will rationalize over time because all these guys are gonna go spend unlimited amounts of money on cyber.
+
+Outside of cyber, I think it goes back to the conversation, Chamath and we were having earlier about it's very hard to understand the terminal value of software. It's not clear what software is going to survive the next five to eight years with where we are from an AI perspective and the notion that product market fit is getting disrupted for many of these companies. We all know with... If AI was applied well, how our current software should behave in an ideal scenario. I know what I want from half the packet software that I buy.
+
+I know if if I could have my magic wand and make it do things, I know exactly how it should work in an AI first world, which means somebody's gonna do it. So I think there's gonna be huge disruption in the SaaS space over the next few years. Harvind, are you looking at anything thinking, juicy multiples? So so over the year, it was very attractive at the beginning, not so attractive a month ago. We'll wait and see how it goes over the next few.
+
+But, actually, I wanna build on Nikesh's thought. This is not just unique to cyber. The average enterprise uses anywhere from 500 to 5,000 distinct software vendors. In a world when you have to protect against it all, it's not just the cyber threat. That's a massive attack surface.
+
+So you have to ask yourself, could I replace 490 of them with minor AI capabilities? And do I need to go back and leverage five to 10 main platforms? That implies massive consolidation because that's where the spend goes. That's what I believe is gonna play out. So there's gonna be consolidation because if you want to keep your cost of distribution low, then they can distribute all of it.
+
+And if the value of that software is falling, then you cannot afford independent distribution for each of those. I believe that's gonna play out whether it takes six months or six years. It's somewhere inside that equation. I do think also software should be distinguished. There is software where there is a lot of interaction value, which as we have seen clearly can be replaced with a lot of AI.
+
+Both examples you used were things which were interaction rich. Right. But if in the end you go down to, I need you to be reliable at 10 to the minus 15 Right. Which is a database lookup for somebody doing retail banking or closing the books, I think that's gonna be hard to replace that easily Right. With AI generated software.
+
+So I think there is gonna be a distinction on how easy it is for digital twin for years before you cut over. Correct. Yeah. And then there's there's no cost advantage to do that. Yeah.
+
+Guys, thank you very much. Arvind Krishna, Nikesh Arora, thank you. Thank you. Thank Thanks, everybody. All of you.
