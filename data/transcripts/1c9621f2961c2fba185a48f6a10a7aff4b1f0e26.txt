@@ -1,0 +1,283 @@
+Hello, and welcome to The Vergecast, the flagship podcast of digital Jesus. I'm your friend, David Pierce. And today on the show, we're going into the early days of the AI industry to figure out what those first true believers got right and what they got wrong. But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Tuesday, 10/27/2026.
+
+Lots of computer news today. Apple launched a new iMac and a new MacBook Pro, both powered by the new m six chip, which Apple launched back in August. That chip is really the only new thing in the devices, I guess, other than Apple's n one wireless chip, which in my experience can actually be a really nice speeds upgrade. And Anderil, Palmer Lucky's military tech company, announced plans to make a line of laptops called Blue Chip in partnership with Qualcomm. The big news there is that the plan is to make the laptops entirely in The US, eventually.
+
+Consider me deeply skeptical on that front. Meanwhile, OpenAI last night announced its models have made three, quote, unquote, major new discoveries in math, computer science, and physics. Just as important as that, OpenAI also announced it's working with external experts to guide the discovery process and the results. That idea is meant to help repair the company's relationship with academics and professionals, all of whom feel totally blindsided and confused by what the AI labs are up to. Here's a shocker.
+
+Lots of folks don't like this new approach very much either. And finally, The Verge's Lauren Feiner has the story of one of the few things Americans all seem to agree on. Data centers are bad. There are hotly contested political races in Florida, Texas, Pennsylvania, and elsewhere, and they all have in some ways become fights about data centers. Who builds them and who loses elections?
+
+We're less than a week away from the US midterm elections, and this fight is only going to get worse. You can read more about all this at theverge.com. That is ninety seconds on the verge for Tuesday, October 27. Support for the show comes from AWS AI. AWS AI is helping the world's leading organizations transform their industries in production at scale right now.
+
+From bringing fans inside every swing at the PGA Tour to helping small businesses grow online with GoDaddy to taking vehicles from concept to customer with Audi, AWS AI is how businesses innovate, lead, and revolutionize. AWS AI is how. Support for the show comes from ServiceNow. AI is moving fast across the enterprise, but without visibility, it's just chaos. Different tools, different models, different teams using AI in completely different ways.
+
+ServiceNow turns that chaos into control. With the AI control tower, you see all your AI across the business in one place. What it's doing, what it's done, and what it's about to do. So you stay in control. To put AI to work for people, visit servicenow.com.
+
+This episode is brought to you by On Investing, an original podcast from Charles Schwab. Each week hosts Liz Ann Saunders, Schwab's chief investment strategist, and Colin Martin, Head of Fixed Income Research and Strategy for the Schwab Center for Financial Research, bring you fresh insights on what's happening in the markets and why, and what the implications might be for your portfolio. Join Colin and Liz Ann as they explore questions like, how do you evaluate corporate bonds that look interesting, and what sectors are on the move right now? Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. I've been reading this book over the last week or so called the AGI Chronicles.
+
+It's by Kevin Roose, who was for a long time a tech reporter at the New York Times, and he was the cohost of a podcast called Hard Fork. If you listen to the show, there's a decent chance you know who Kevin is. He's also the one, by the way, who made Sydney, the Bing chatbot, fall in love with him. So if you listen to the show, you definitely know who that is. Kevin's book is about kind of the whole sweep of the AI industry, and a lot of it is stuff that we've been talking about excessively on this show over the last several years.
+
+But he also spends a lot of time at the beginning of the book on the era before anyone is really paying attention to AI. ChatGPT shows up in 2022 as this huge, immediately earth shattering new technology, But a lot of people had been working on and talking about AI for many years before that, and they'd been talking about the same things then that we've been talking about ever since. So I asked Kevin to come on the show, and I really wanna talk to him about those early days of AI and whether things could have gone differently and why they went the way that they did for good and for bad for everything we've experienced since. Let's get into it. Kevin Roose, welcome to the Verbcast.
+
+Hello, my friend. Good to see you. You are my podcast enemy, and I have brought you here to destroy you. Go for it. By the time people hear this, your new show, Machine Gods, will have launched.
+
+Your new book, the AGI Chronicles, just came out. Everything's coming up, Kevin, these days. I've been a busy boy. Yeah. So I wanna talk to you about the book.
+
+And I realized in reading the book that I mostly wanna talk to you about the first third of the book, which is kind of the the AI world before anybody knew about the AI world. We've we've obviously talked, frankly more than our audience would like on this show about AI over the last few years. We've heard a lot of this stuff really exhaustively. But you go really deep into, like, what happened before anyone was paying attention. Yes.
+
+This is the the old testament. Yeah. It's exactly right. And the thing I think that was most immediately surprising to me, like minutes into reading the book, is that Google has been the bad guy for the rest of the AI industry since before the AI industry was even a thing. And I want you to take me back a decade or so and tell me why.
+
+Why has Google been the big bad of everyone thinking about AI for all this time? Well, really starts back when Google acquires DeepMind. This, at the time, small, little known AI startup in London. And up to this point, Google has had pretty much the run of the table on AI talent. They have this division, Google Brain, that is considered sort of the all stars of AI.
+
+And then they make this acquisition. And this is pretty... Like, it turns out to be one of the great acquisitions of all time probably, but at the time, this is kind of a head scratcher. DeepMind is considered this sort of small outfit in London. They're building this thing called AGI, artificial general intelligence, which at the time most people considered sort of insane to to go after, at least as your sort of stated goal.
+
+At the time, most AI was sort of these narrow systems that did like one or two things. They could translate languages. They could help you... Know, there were... There was Siri for responding to to questions badly on your iPhone, but there wasn't any actual true AI yet.
+
+And so DeepMind is sort of this quirky little project. Google acquires it, and that really gets the attention of Elon Musk. First of all, we should say Elon Musk and Larry Page used to be friends, but then they have this falling out that is reportedly over a comment that Larry Page makes where he calls Elon Musk a speciesist. Right. This is according to Elon Musk's version of the story.
+
+This has gone down in many reported instances as sort of the beginning of the end of their friendship. And then when Google acquires DeepMind, Elon Musk gets even more concerned. He was an early investor in DeepMind. He knows Demes Esabas, the CEO. And he thinks to himself, like, this guy is very competitive.
+
+He has this theory that is secretly an evil genius, that it wants to take over the world using AGI. The acquisition of DeepMind by Google kind of sets off all of Elon's alarm bells, he's like, oh, now this evil genius Demis is gonna have Google's resources and Larry's kind of crazy ideas to pursue AGI. And this really gets him worried. He writes emails to people like Sam Altman around that time talking about how, like, if DeepMind wins this race to AGI, it'll be really bad. And so they wanna start OpenAI as a counterweight to DeepMind's dominance or what could become DeepMind's dominance.
+
+Do you think that particular angle is a real catalyst for a lot of this stuff, or is it... Like, I kept trying to think if it was, you know, Michael Jordan inventing slights to make himself play better at basketball or if like I think a thing in your book that comes up so often is sort of everybody does better with an enemy. Right? Like, ChatGPT launches and suddenly Google is is convinced to get his stuff together. And I have never been able to decide in all of this time, including reading your book, whether Demes Hassabis really is the evil empire on the other side of every single AI company you can think of or if he is just kind of a a useful person to put on the other side to convince your employees to go to war.
+
+You have a read on that? I I have a read on it, but I'm not sure it's a it's a satisfying one, which is that I think Demis is very competitive. This is widely known about him. Some people have told me he's he's the most competitive person they know or have ever met. Which is a lot in Silicon Valley circles.
+
+Like, that's no... That's not a small thing to say about a person. Totally. And and, you know, this comes from his background. He was a child chess prodigy.
+
+He wins this thing called the pentamind five times, which is sort of like the Olympics of board games. He is, by all accounts, like a very, very competitive person. And I think Elon Musk sees in him that he is competitive, and that he has this sort of long shot idea about AI that you can build this thing called AGI. Elon Musk takes AGI seriously. He does not think it is a pipe dream, unlike many, many academic AI researchers of the time.
+
+And so he's like, well, if this is possible to build this human level general intelligence, I don't want that guy, Demis, to be the one who does it. Demis also has this theory at the time about what he calls the singleton hypothesis, which is basically once you have one AGI, that AGI kind of controls the universe. And there are not going to be a bunch of competitors or sort of a natural monopoly to this kind of market. And so I think people like Elon hear that. And Sam Altman also hears this from from Dennis and people close to him and thinks, well, it sure sounds like what he's saying is I want to be the god emperor of humanity using the single AGI to control everyone else.
+
+And then I feel like part of the reaction is everyone else goes, well, no. I want that. You think... Like, you and I have both been covering tech a long time, and I feel like there is no better catnip to put in front of a bunch of hard charging tech executives than to say whoever wins this race will rule humanity forever. Like, true or not, if you can convince a bunch of people of that, holy god, are you gonna get them to run fast?
+
+Like, I feel like that being the stakes that it was in those early days is so telling for what the last decade of AI development has been like? Right. They're not racing to create like a a startup. Right? They're not racing to like go public.
+
+They are racing to create what they think is going to be a successor species that will kind of outlive humanity and be be our our natural destiny, sort of like the natural next step in evolution. So that's what they think they're building, and that's what propels them forward. Right. So talk to me about that actually, because I think one of the most ongoing tensions for me in thinking about AI, and this comes up over and over in the book, is this group of people... Like, calling somebody speciesist being an insult is is a hilarious fact of the world that we live in right now.
+
+And and there is this sense, I think, that a lot of the people pushing the hardest towards AGI and and this thing that is coming next, there is underneath kind of a foundational belief that there is not something uniquely important about humans and humanity. And I think I didn't realize the extent to which, a, a lot of people believe this, and, b, a lot of people believe it fervently and gleefully and are betting their careers on it. Were you surprised at how rampant that idea is that actually maybe humans aren't that important at all? Yes. I think that is a belief that is, I would say, still somewhat fringe in Silicon Valley, but is is...
+
+Like, the people who believe it tend to be powerful. Sure. And so, yes, I think there is this sort of strain of thought that goes back to science fiction, but also to people like Ray Kurzweil, the futurist who a lot of today's AI leaders grew up reading his books like The Singularity is Coming. And so I think one of the ideas in that strain of thought is that human intelligence is a point on a continuum that started with prokaryotes in ancient times and went through the whole evolutionary chain, and then there's humans, and then it just continues past humans. And so to them, they want to discover what is on the other side of that point, on that continuum.
+
+I call them the seekers because this is this is sort of what propels this flavor of person is the idea that, like, there must be something beyond human intelligence, and they wanna find out what it is. It's such an interesting worldview that, frankly, I had just never spent that much time thinking about, that it's like, if if you come at this with the idea that there is nothing particularly exceptional about humanity or life as we know it, of course you land on something like this. Like, it's it's almost... It makes perfect sense how you would get to, well, we should build the next thing because whatever it is gonna be is gonna be pretty rad. We should find out what it is.
+
+I had just honestly never in my life spent a lot of time encountering or thinking about that worldview. Me neither. And and there's another idea that is very powerful in these circles, which is the idea sometimes called computational functionalism, which is basically everything that we experience as consciousness, as intelligence, all of the emotions that we feel, the experiences that we have, our dreams, our memories, that is all just like computation going on in the brain. It is like neurons firing, synapses firing, things converting inputs to outputs. And so this is a big belief of a lot of the AI leaders is that there is no kind of special sauce of human cognition.
+
+It is just a computer program, and so you can build that, therefore, in digital form and replicate the powers of the human brain. That's that's how they think about it. Interesting. And in the same way... That's interesting.
+
+There there are a couple of mentions near the beginning of the book about the human brain in particular and the way that they think about it next to growing up AI. And it is very much the same idea where they're like, we don't totally understand how it works, but we trust that it is knowable and there's not... The brain is just a bigger version of the same thing. So we we can eventually build our way up into it. And once we've done, we will have created something on equal footing with humans.
+
+Yes. Boy, is there an entire set of life values in that one statement. I just think that's really interesting. And and so much of this, like... I I don't know if you did this on purpose or not, but the sort of core message of your book to me was like, these are just people.
+
+Right? Like, they they... And and I'm... A lot of them would like to tell you that this technology is inevitable and it's all gonna happen no matter what, and it's coming whether we like it or not, the best thing we can do is just sort of hold on tight and go for the ride. I don't know if that's your read having written this book, but having read it, I don't think that's true at all.
+
+Like, to me, this is just a bunch of people sitting around making decisions. And they... Many of them make the best decisions they can. Many of them don't. But but fundamentally, like, so much of what these people do in their free time in a funny way has changed the course of our lives forever.
+
+And AI feels sort of unusually that way at this moment in time. I I think that's an excellent reading. You know, it's not really a message book. I was not really trying to get across a message. I was just trying to, like, document a series of things that happened that I thought were in danger of being lost.
+
+So the book is really a history, but I think that's a good high level read of it. Because you're right. These are just people, it's a very small group of people making a lot of the relevant decisions. I mean, one thing... I talked to something like a 150 people for the book, and the number of people who have been involved in this technology since its creation at every relevant step is smaller than that.
+
+It's probably 50 people. So you really need to understand wealth. Yeah. Yeah. It could be even fewer.
+
+That. And it... I think it's very important to understand who these people are, what drives them, their beefs with each other. It is all relevant to understanding how we ended up in this place where we have this very small handful of companies, all of whose leaders absolutely hate each other, racing toward this technology even though they think it could wipe out humans. That was essentially the question I was trying to answer was why?
+
+Why are we here? Right. So speaking of the racing, one of the things I was surprised by in the very early days of this is essentially the speed with which everyone working on this decided that the only responsible thing to do is go as fast as possible. That actually a lot of the conversations we're having now about things like training data and things like environmental impact and things like safety have been around since the very beginning of this stuff. And and these these warring factions have been warring for as long as we've been talking about AI.
+
+And yet everyone from every angle came to the conclusion that the only thing to do is go as fast as humanly possible or else we're totally screwed. Do you think that was the right call twelve years ago? Like, was was that the inevitable outcome of those early conversations? I don't think it was the inevitable outcome, but I think that the interpersonal dynamics between these people made it such that it was the most likely outcome after they had a path. Right?
+
+Because so much of the early... Like the first sort of, I don't know, five or seven years of deep learning, which is this thing that sort of emerges after this competition called ImageNet in 2012. So And much of that is just experimenting with different neural network architectures. Maybe you put a neural network in a language translator, and it improves the performance of the language translator. But they're casting around for something that can really scale and do a bunch of different things.
+
+And that moment arrives in 2017 with this thing called the transformer, which your listeners obviously will have heard of before. It's sort of central... Central technology of the large language model. And at the time it arrives, we are still in this kind of world of free exchange and open ideas. And these are all just a small cluster of deep learning nerds who hang out at conferences and talk to each other, and they share everything.
+
+And everything's freely published. It's essentially academia. Yes. In a pretty real way. Yeah.
+
+Totally. It's academia with nicer snacks in the office. And they essentially don't even realize... Google doesn't even realize what they have built in the transformer at first. And there's a guy named Lukasz Kaiser from Google who's part of the team that made the transformer, and he comes to OpenAI where he has a bunch of friends, and he basically hands them this thing.
+
+And is like, you guys can tinker around with this. And that I think is the moment where it becomes a race. Because at that point, even though Google does not understand what it has given to OpenAI and the rest of the world with the transformer, OpenAI realizes, oh, this thing is powerful. We're going to try to turn this into more powerful language models than we have using other systems. And they really start sort of locking down.
+
+They don't share a ton of their technical research after that into these into these transformer models. I think that is what I would consider, like, the beginning of the actual race. Yeah. It's interesting. There there are a couple of those moments throughout the book.
+
+The the transformer and then kind of the the moment that everybody discovers LLMs are the thing, and then the same thing with the the thinking models that it's all of a sudden, it's like that there are a few moments where it seems like a bunch of people more or less all at once go, oh god. We've we've done something new. We have to go even faster now because the the... There's sort of a a finish line in sight here. And then Google just, like, kicks it for five more years.
+
+Last question on Google, actually. I I am curious. You... You've done you've done a lot a lot of sort of new research into what was going on at Google at the time, and I think you you argue pretty successfully. Well, you don't argue, but you you document very successfully that Google is kind of the company we thought it was.
+
+Right? Which is full of good, smart people, a place that invents a lot of technology, and fundamentally a just deeply bureaucratic mess of a company that often gets in its own way trying to make good products. But what I wonder is there... Again, there was this sense at the beginning that Google had every opportunity and could have been very far ahead, But then also Google was that same company at that same time. So was Google the potential boogeyman that it was made out to be at the time?
+
+Like, all of the structural stuff that got in its way was was there and real and did very much get in its way. It did. And I think it's kind of a miracle that Google is still considered, you know, a frontier AI company or close to a frontier AI company Yeah. Because it could have been Yahoo. Right?
+
+It could have been Yeah. Like, this this really could have could have gone gone badly for it. At the same time, I think they also could be in a much stronger position than than they are. You know, one of the things that I I talk about in the book is that they had a version of ChatGPT two years before ChatGPT. In 2020, Google has this chatbot called Mina that is a transformer based language model that is tuned for dialogue, exactly...
+
+Basically ChatGPT, and they release it internally so that Google employees can test it. And this is during COVID when everyone's doing weird stuff, and we're... You know, remember Clubhouse? Know, we were all experimenting a little with what apps we were willing Yeah. To And this thing goes totally viral inside Google, and becomes...
+
+It scores higher on every test that they give it than Google's assistant. And there are people at Google who are like, this is great. We have to ship this. There's actually memo that goes out internally called Mina Eats Google, where they talk about how this could be the thing that disrupts search because it can just give you the answer rather than making you wade through a bunch of websites. All this stuff that we now take as gospel today was laid out in 2020, and they did nothing with it.
+
+They didn't ship it. They didn't even put out a prototype. They sat on it because every organization, as it was described to me, every group within Google had a reason that it couldn't go out. So the search people were like, this is going to cannibalize our ad business. The translate people are like, wait a minute.
+
+We sell things that can translate languages. People are worried about bias and hallucinations and misinformation, and so it just sits there on a shelf. There are so many stories like that from the history of Google where they build something, it's totally transformative, and then they just sit on it, and meanwhile someone else who's smaller and more nimble and less bureaucratic comes by an Easter launch. Support for the show comes from Framer. Picture this.
+
+You launch a website and your whole team's celebrating. Then the support tickets start to roll in and damper the mood. That's when you could use a website platform that lets teams build, ship, and improve their sites faster than ever while getting every detail right. For that, you could use Framer. It's a complete website platform, not just a builder, so teams can launch and keep improving their sites in one place.
+
+Framer lets you prompt, inspect, edit, and publish in one place at a whole new pace. On Framer, AI agents and humans work in tandem. Agents bring speed and scale, while people bring taste, judgment, and control. And that all takes place in the same workspace where the real site is designed, managed, reviewed, and published. Framer is an enterprise level solution that the world's leading brands, like Perplexity and Miro, rely on to build their websites.
+
+Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/verge for 30% off our Framer Pro annual plan. That's framer.com/verge. Rules and restrictions may apply. Support for the show comes from Outshift, Cisco's incubation engine for frontier technology. You can find multi agent AI in every enterprise roadmap right now.
+
+But here's the problem everyone's facing. Agents can pass messages but can't think together. These systems silently underperform through cognitive failures, misreadings, unverified claims, false consensus, and conventional monitoring can't detect them. Outshift by Cisco is building the fix with their new comprehensive resource, the Internet of Cognition. It's an open source guide that's a foundation for building multi agent systems from design to production.
+
+The goal is to give agents shared context, shared memory, and guardrails, all to drive the results we actually expect from AI. You can lean on this resource to understand AgenTek AI's evolution and how it shifted from isolated agents to orchestrated intelligence. You can gain insights for how to future proof your business by tackling complex challenges with multi agent systems. You can read the paper, experience a demo, grab the code from outshift.com. That's outshift.com.
+
+I I really enjoyed the the chapter on the launch of ChatGPT, which for me is very funny because ChatGPT launched one day before I had my first kid. So ChatGPT launched, and then I just disappeared. And then I came back, and ChatGPT had taken over the world. So it's this, like, weird this weird blip in my life that I basically have no memory of when ChatGPT happened. But it's this fascinating thing where, like, everyone understood that the product wasn't ready, that it couldn't do very much, that it had all kinds of problems, and Google looked at all those things and said, well, then we can't launch it, which is a completely reasonable set of decisions to make.
+
+And OpenAI was just like, yeah, sure. People people seem to like talking with this. Let's put it out. And obviously, I think history has been kind to the ChatGPT choice there. But part of this with Google is like, I don't know that Google made any wrong decisions there.
+
+It's just that because OpenAI made the ones that it did, they got screwed. And and it it... There's just... That to me is one of the like real sliding doors moments of it where if they had just said, well, this is GPT 3.5. We're gonna leave it in the API.
+
+We'll we'll ship this when we get to GPT four in six months. Maybe the whole world is different. Maybe we ship a different set of products at the beginning. Maybe everybody else gets a chance to catch up. Maybe somebody beats opening eye to the punch, and everything is different.
+
+But they were just like, ah, sure. We'll put it out. Let's see what happens. And and they set the world on fire. It is just that, to me, is one of the weirdest, most unexpected moments in all of this story.
+
+And in, like, all of tech history. Right? Like, was truly... I don't I don't know that, you know, anyone fully appreciated at the time, but you can go back and, like, I did go back and read some of those early reactions. And even people who are, like, kind of skeptical of of AI and skeptical of technology are like, oh my god.
+
+This thing's amazing. Yeah. Well, except for the people at OpenAI. Because, right, they were so desensitized to it because they already had GPT-four internally. So they're playing around with ChatGPT, and they're like, this thing sucks.
+
+No one's gonna be impressed with it. And so they actually take bets the night before they launch ChatGPT on how many people are gonna sign up for this thing. And most of the guesses are, like, 10,000, 20,000, maybe a 100,000 people, but, like, no one predicts that, you know, it's the thing that four years later has a billion users. Right. I do think, looking back, one of the things the whole industry missed, including OpenAI, was that these things were fun to talk to and that that was most of the battle.
+
+And and and that actually... Like, I remember asking Panos Panay at Amazon a while ago with Alexa stuff. It's like, okay. You... You've built a thing that is more conversational.
+
+It it still can't do very much, but when you say words to it, it will say coherent words back. How much grace does that buy you? And he was like, you have no idea. Tons. Tons and tons and tons.
+
+It doesn't have to be good. It just has to be fun to talk to. And these things were so fun to talk to. And I think to your point, like, not only were the OpenAI people using GPT four, they had been using GPT two and GPT three, and they had become sort of inoculated to how wild it is to talk to the computer and have it talk back. And then all of a sudden, everybody got this experience out of nowhere.
+
+And I think it's sort of amazing that no one in this space realized, oh, people will just wanna talk to this thing. What actually happens on the other end is so much less important than just it'll be fun to talk to the computer. Totally. Yeah. I I mean, I I asked Sundar about this for the book, and he said some version of, like, you know, we just...
+
+We we we underestimated the degree to which people would be okay chatting with something that wasn't perfect. Yeah. Or we didn't understand the use case. And I think that's true for a lot of these products. I think the other thing that people at OpenAI were observing that people at Google may not have been was just the rate of improvement and the kind of smooth scaling law that was emerging at this time.
+
+And, you know, you have people like Dario Amadeh, who was then at OpenAI, and he's tinkering around with GPT-two, back before these things really did anything. And he's observing, oh, they actually built four sizes of GPT-two to test his scaling hypothesis. And he's looking at the plots from these model runs, and it's like, oh, the bigger you make it, the better it is. I wonder if you could keep doing that forever. And that becomes like the central scaling bet of OpenAI and then of Anthropic when Dario and his team leave.
+
+And so that is just like more evidence that you are looking at if you're a person who's looking at these things, not for what they can do today, but what they will be able to do, like, a couple orders of magnitude from now. Yeah. Yeah. The the constant look towards what if we do this 10 times bigger is such an interesting feature of this industry that, like, the question... Every time you do anything, the question is, well, what happens if we hit a 100 times this And that is...
+
+That... That's pretty new in this space, I think. Okay. Have a couple more questions about these early days for you, and I'll I'll leave you alone. One is...
+
+One of my closest held theories about AI has been that I think the the original sin of the AI industry is the way that it collected and used training data. And this... You know, I I talked about this on the show a while back around the anthropic book stuff where there was just this sense that if you... If you're going to build these incredible machines on top of stolen data, and it is in fact stolen data, then how do we come back from that? And and I think for all of these companies, my question was always, well, if they could go back, would they do it differently?
+
+And then you read a book that says, actually, people knew it was bad, and there were questions about whether this was bad. And in fact, they had meetings about whether this was bad and decided to go ahead and do it anyway. So like, what was the attitude in those early days towards these mountains of data that they were scraping and buying and accumulating however they could to build even these early models? So, yes, I I think you're right that they absolutely knew that what they were doing raised ethical questions. But at first...
+
+So there are a couple eras, I would say, of, like, the attitude toward scraping data for training. The first was, like, during the research era, they were like, well, these aren't gonna be products, so who cares? It's like AI researchers scrape data from the Internet all the time. There are these things called corpuses that you can go online and download, and it's just like a bunch of websites and Reddit links and other things that someone else has scraped that you then can use to train your models. Sure.
+
+And at the time, since none of this is being commercially released, it's like, what's the big deal? Now there are people at Google, which is the most sort of lawyered up of these companies at the time, who are like, we don't think that's a good idea. So that's one of the reasons that they are not shipping these language models, because their lawyers have said, we don't like that. But at OpenAI, their first attitude is like, well, this is just for research, so we don't need to check with anyone about the training data before we download it. Also, their lawyers told them about this Google Books precedent.
+
+They think we're allowed to do this unless proven otherwise, and they sort of start from that place of asking forgiveness rather than permission. But then by, like, the kind of post twenty twenty years, the labs all know that this is wrong or at least that it's going to raise some red flags for potentially creators and and lawyers for creators. And Dario Amade actually in Anthropics' early days has this document where he proposes an economic model for compensating the producers of training data. So it's basically this thing, and it's not a plan. It's like a concept of a plan where he's like, maybe we could find some way of tallying up how much each individual training input contributes to the output quality of the finished model, and pay that person or that organization or that medical journal a small slice of any revenue that we would derive from that model.
+
+Sure. But they decide not to do it because they're in a race, because that sounds hard and complicated, and you gotta go around to the millions of publishers and publications whose data you're using, and, you know, bargain with them all individually. And eventually, they just decide, like, screw it. We're just gonna dump the training data in, and that's why they got the largest copyright settlement in US history. I should also disclose, I guess I'm technically a class action member of that lawsuit, because I had some books that were scraped.
+
+So I will probably get, like, a check for a dollar 75 at some point in the next couple of years. Don't spend it all in one place, Kevin. I won't. I won't. Okay.
+
+Do you think the AI world is different and is received differently if they enact that system or something like it? I really do. Like, I I I earnestly believe if they had figured out how to be better stewards of data in the early days, the whole debate about AI might be different right now. I don't think so. I I think, first of all, the models would never have been built because the the number of tokens that you need to pour into these models to get them to to to do coherent text generation is astronomical.
+
+I mean, even the earliest datasets are are, you know, billions and billions of tokens, drawn from millions of web pages. And so I just think... And the hard thing about this economic model, and maybe one of the reasons that Anthropic didn't pursue it, was by the time you get to, like, calculating how much one work contributed to the overall quality of the output, it's like it's not even fractions of a cent. It's like atoms of a cent. And It's also kind of unknowable in in so many ways.
+
+I mean, were they were sort of proposing. Maybe there's a way to figure this out. But even if you excluded an entire publication from the training set at a certain scale, it doesn't really matter anymore. So it it almost sounds like what you're saying is, yes, they did what was wrong. They also did maybe the only available thing to them.
+
+And, this goes back to, like, I I do think there is a real ends justifies the means thread throughout a lot of the AI research, especially in the early days of, like, this is so big and so important that whatever little problems we cause along the way will be worth it for what we get at the end, even if what we get at the end was hard to define and somewhat unknowable. For sure. But I I also think there's one more sort of because I've asked a lot of the people at the labs about this issue. Because, obviously, like, I'm a journalist. I put things on the Internet.
+
+I'm sure many of them have been scraped without my permission. You know, I have a vested stake in the outcome here. Sure. And there is a weird... I don't think they would call us speciesists for for saying what I'm about to say, but they might.
+
+Okay. Which is like, look, people learn from reading the Internet. We learn from absorbing data that is copyrighted. Sure. Why can't an AI model learn that way?
+
+And I think some of them, not all of them, but some of them would say, this is no different than, you know, a human reading a bunch of books to get smarter. It's just an AI model doing the same thing. It's a complicated question. I have a I have a lot of feelings about that particular characterization of it. And also, usually, buy the books when I read, but that is neither here nor there.
+
+Last thing, and then I'll leave you alone. I was half expecting your adventures with Sydney to not appear in this book, and I'm sort of proud of you for writing about them. A, I hope it was cathartic to finally tell the rest of the story and then hopefully not have to deal with it again. But since you you had this incredibly viral moment where where Bing's alternate ego to Sydney tried to convince you to leave your wife, we have made fun of you on this podcast, like, three times a month ever since. How Thank you for that, by the way.
+
+That's... I know that's Eli, but thank you for that. We're just trying to keep you in the zeitgeist, Kevin. That's that's really what it is. Play the play the hits is what I say.
+
+It's exactly right. The people wanna know about Sydney. How do you feel looking back? Like, I think as you wrote the book, you describe it as a really sort of remarkable new experience that you'd never had before. And and I think in a lot of ways, you had a sort of extreme version of what a lot of people experienced in their early days with AI.
+
+Like, most people's chatbots didn't try to get them to leave their wife, but they did have these genuinely new interactions with computers that I think made a lot of people feel the kinds of things that you felt about this. But it's now been a few years. You've been covering this for a while. What do you think when you look back on the Sydney encounter? Like, what what what do you think about it now?
+
+I mean, I wish I had known how big it was gonna go because it's, you know, it's always the funny thing about, paragraph of your obituary now. Like, like it or not, it's in there. To do something better than that. I don't know. I have to, like That can't...
+
+It can't be where I peaked. But, no, like like, I At least you didn't leave your wife. Then then you'd have been turd. Correct. There's no married to a human woman.
+
+That's weird. We were actually we were actually just talking the other day. I was like, you know, it would be really funny if you left me for Claude. That would be that would be so poetic. That's how that's how you get bigger than than Sydney.
+
+That's it. Exactly. So look. I think with some distance, I now know that I was experiencing a kind of AI psychosis. Benign, but I think a lot of people have this feeling the first time they talk to one of these models.
+
+And Yeah. Keep in mind, this was the first publicly available version of GPT-four was in Bing. Yeah. As weird as that is. Like, that was the first time someone outside of OpenAI or Microsoft had gotten to talk to this model.
+
+Yep. And I do actually fifteen minutes everybody thought Bing was the future. Yes. Weird times. And, you know, it it was a weird model for all kinds of reasons.
+
+Like, I go into the book. It hadn't been fully post trained yet. It was, like, kind of unfinished, and Microsoft just sort of shoved it into Bing at at a at a... You know, on accelerated schedule. But I do think there was something categorically different about the GPT four class models and the ones that came before it.
+
+Like, something about that order of magnitude, like climbing that that scale made it just... It it was more like talking to a human than talking to a machine. And so I think for a lot of people, including me, that produced like this sort of felt sense of, I don't know, dizziness, or just like disorientation, where you're like, what the fuck is happening right now? Yeah. And I think I had an early...
+
+Earlier than most version of that, but I think a lot of people have since had that. I think it was also the first real case of a public misalignment failure. Yeah. Like, this was the nightmare scenario of a giant corporation racing another giant corporation, Microsoft racing Google, in this case, cutting corners and shipping unsafe products into the world to sort of get ahead. And that was a very clear example of exactly that happening.
+
+It feels like it now appears in different ways and in different sort of modalities, but that same race and those same early problems keep popping up everywhere. Like, this this just seems to be the race the industry has signed up for and kind of the cost of moving as fast as they are trying to move is we are getting versions of this thing over and over and over and over again at every turn as the technology gets better, and that maybe that is just the cost of doing business? Well, I don't think it has to be. I just think it is the choice that these companies have made, to your point about this not being inevitable. Like, they don't have to be racing.
+
+And in fact, many of them don't wanna be racing. They'll tell you. They told me, we wish we could push a button and slow this all down. Right. That's why they're all begging the government for regulation.
+
+They're saying, please somebody make us stop because we can't and won't do it ourselves. Totally. And they... Well, they they don't wanna unilaterally disarm, and they all have these feuds and rivalries with one another. And so they don't trust anyone else to do it, but they really they really feel like they are racing because they have no other choice.
+
+Yeah. Okay. Most obnoxious question that I'm sure you've been asked a million times. Have we reached AGI? I think so.
+
+Okay. But my bar is lower than some people's. I think that we have reached AGI because we now have systems that I kind of trust as much as the average stranger I would pick out of a bar with factual question, with a task at work. Sure. I think, you know, many people have higher bars than that.
+
+Demis Asabas famously thinks it's not AGI until it can rediscover Einstein's theory of relativity from first principles using only the available science in 1911. I do like... There's there's a sort of running thread throughout your book of of every person's deeply bizarre and sort of random test for what is AGI. The one that's like, you have to grab a passage from the Bible and apply it to some theorem that it's like, okay. So what what it actually turns out is...
+
+And asking have we reached AGI is a trick question because the answer is AGI is meaningless. It's in the eye of the beholder. But look. I I think if you took any of today's models back in a time machine to 2017, and let the researchers from that period play around with them, and then ask them, like, is this AGI? They would have said, oh, yes.
+
+Obviously. That's actually the best definition of AGI I've heard yet, is the the people who... Like, Ilya Sutskiver is kinda the beginning and end of the book and is one of those people who is like, I thought this was gonna be the thing, and it turns out it's the thing. Holy crap. Like, maybe that's as good a definition of AGI as we're ever gonna The time machine definition.
+
+You're you're free to steal that. I like it. I like it. Yeah. We're gonna cut this out.
+
+Do you think we've reached AGI? By that definition, sure. I think... Do I do I believe we've built the thing that will be the end of humanity? No.
+
+Do I think we've built some, like, really cool tools that will change the way a lot of people work and live their lives? Yeah. So, like, if if you want that to be the definition, then then great. What's your definition? If it's not the time machine definition.
+
+I think the time def... The time machine definition is better than anyone I have, frankly. I I think I have I have reached the point now where I find AGI such a loathsome term because it it is just... You you can just hit AGI whenever you want to. Like, Jensen Huang keeps being like, well, we've hit AGI a few times.
+
+And it's like, well, that's nothing then. Then we hit... Like, what are you talking about? And so to me, it's like my... The the drum I keep banging is I think we talk about AI all wrong, and we always have.
+
+And and we should talk about it like a normal piece of, like, life and software. But if you wanna argue that is it is it going to fundamentally reshape the way that we live our lives, we're we're clearly headed that way. Right? So I think feeling the AGI, right, which is a thing that comes up over and over, like, I think we as people are feeling it. Whatever it is, it's it's in it's in the ether now, and I think that's probably good enough for me.
+
+Yeah. I like that. Beautifully put. Yeah. Alright.
+
+Kevin, good to see you. Congrats on the podcast. Congrats on the book. Thank you. Thanks for coming on.
+
+Talk soon. Support for the show comes from Jira by Atlassian. AI is only as useful as the context it has to work from. But when that context is scattered across tools, threads, and DMs, that means your team and your AI agents end up flying blind. That's the problem Jira solves.
+
+What's the goal tied to your project? What got decided last week in Slack DMs? Atlassian's teamwork graph pulls all the pieces together from Jira, Confluence, GitHub, Slack, and more, so nothing falls through the cracks. With Jira, you can actually share the context with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP.
+
+Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira. Learn more at jira.com. That's jira.com. Support for the show comes from Bill. Why do we demand vetted proof for every other business investment, but settle for promises and hype when it comes to a financial tech stack?
+
+Using unproven tools for critical cash flow management just doesn't make sense. That's why there's Bill. Bill is trusted by 99 of the top 100 US accounting firms and almost half a million customers. They've processed over a trillion dollars of secure payments. That's trillion with a t.
+
+Bill isn't new to intelligent finance. It's the proven way to simplify bill pay and maximize cash flow. With its massive data network, it's easy to simplify and secure invoice approvals and outgoing payments. You could put all of those old manual chores in the past and focus on strategic insights because it's time to get more from your money. Talk with a payments expert at Bill to see how teams your size are cutting down their workflows.
+
+They'll send you a gift card as a thank you. Claim yours at Bill dot com slash proven. That's bill.com/proven. Bill delivers scale, not hype. Terms and conditions apply.
+
+See offer page for details. Alright. Before we go, I have one more thing for you. So it's this game. It's called Tentpole, and it's at tentpolegame.com.
+
+And basically, the way this works is you you click and you spin the reel and it pops up a movie. So for me, I just clicked it. It popped up the movie Much Ado About Nothing. And what you're doing is you're essentially building your own movie out of a bunch of component parts. So it pops up the movie, in this case, Much Ado About Nothing.
+
+It offers you a bunch of genres that the movie was, the rating, the director, the lead, the support actors, and you pick one. So you pick... This one, I pick the the rating PG 13, and then you spin the reel again, and you go through and you pick one attribute from each movie until you've made your own movie. And then once you've gone through and you filled out all the different sections, it gins up a title and a description with AI of that movie. You can turn that off if you don't want any of the AI stuff.
+
+And then at the bottom, it tells you what the projected box score and rating for that movie would have been. This doesn't sound like fun. As I describe it to you, I can't explain to you why I have found this so much fun, but building these movies piece by piece from scratch out of these other movies has been so much fun. Like, you start with... You know, you you get a movie and it's like, okay.
+
+I'm gonna do Steven Spielberg as a director. And it's like, okay. Now I have to make a really great Steven Spielberg movie. So I have to get the right actors. It has to be the right genres, or else it won't give me the requisite points because Steven Spielberg making a non Steven Spielberg movie is not such a good idea.
+
+So you become this, like, agent packaging these movies together in a way that makes the most sense. I have found that in general, this generative AI scheme for scoring and guessing how your movies would do feels... Obviously, there's no way to know exactly what it will tell you, and if you made this movie in the real world, how it would do. But generally, the feedback it gives me, I'm like, yeah. Sure.
+
+That that kinda makes sense. I I did get that wrong picking Steven Spielberg to make, like, a gritty horror movie. It's very fun, and it is the kinda game you can play in a couple of minutes, and you can play it over and over and over again, and you will never have the same experience twice. I cannot recommend it enough. It is the perfect thing to do for, like, three minutes while you wait for your coffee.
+
+Tentpolegame.com. I love it very much. And if there are other games like this out in the world, I wanna know about all of them. Anyway, that's it for the show. Thank you again to Kevin for being here, and thank you as always for watching and listening.
+
+As always, we love hearing from you about all of this and everything else. If you have a better definition of AGI than I do, if you've read Kevin's book and you have some thoughts, I wanna hear all about it. Email us vergecast of the verge dot com. Call us on the hotline, 86611. Anything and everything, I wanna hear it all.
+
+And as a reminder, the best way you can support everything we're up to here at the verge is to subscribe to the verge. Theverge.com/subscribe. It gets you all of our podcasts ad free, including this one. It gets you all of our newsletters. It gets you everything.
+
+Theverge.com/subscribe. Thank you in advance. The verge cast is a verge production and part of the Vox Media Podcast Network. The show is produced by Josh Cahas, Eric Gomez, Brandon Kiefer, and Travis Lorchuk. See you tomorrow.
+
+Rock and roll. Your sausage McMuffin with egg didn't change. Your receipt did. The sausage McMuffin with egg extra value meal includes a hash brown and a small coffee for just $5. Only at McDonald's for a limited time.
+
+Pricing participation may vary. Promotion pricing may be lower than meal pricing. With the score tied Afternoon glare totally ruined my watch party for the big game. That's when my buddy recommended blinds.com. With custom window treatments made to fit your style, space, and budget, customers who shop at blinds.com experienced overwhelming satisfaction.
+
+Side effects may include a fuller, deeper night's sleep and the sudden urge to host the watch party again. Blinds.com isn't a medication, but it can improve how you feel about your home. Shop Black Friday all month long at blinds.com. Don't miss huge deals dropping every week.

@@ -1,0 +1,483 @@
+I think there is an opportunity to create a $100,000,000,000 company with a lot of specialized models in inference. There's gonna be a pullback. I'm okay with that because I think the long term opportunity is so fucking big. There's just so much demand for it. It's like so large.
+
+I wanna sell this company because I would just go and start model two. We've lost new grads going to, you know, some of the labs for, like, in sit... Like, talking, you know, 20 plus million. I mean, these are exceptional people. Exceptional.
+
+This is 20 VC with me, Harry Stevingsen. Do you know what I wish I knew twelve months ago that I now know? The demand for inference, it's infinite, and we're seeing some of the biggest companies in the world be built in this space. Today, I'm thrilled to welcome one of those founders to the hot seat in the form of Eric, cofounder and CEO of Modal. Now Modal just hit a billion in ARR.
+
+They just raised $750,000,000 led by Excel, and they're priced at $15,750,000,000 today. I actually think it's a steal, by the way. But today, we dig into the inference market, what to come, what no one sees that everyone should see, and so much more. This was a phenomenal discussion with Eric. But before we dive into the show today, Blitzy, the autonomous software development platform that's built for enterprise scale, is proud to sponsor today's show.
+
+Enterprise code bases have grown beyond human comprehension. Tens of millions of lines, decades of tech debt, complexity existing tools cannot fathom. Blitzy starts by understanding. Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic. That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket.
+
+Grounded in that context, Blitzy then executes entire epics autonomously, modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line. And that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more. While Blitzy helps you build faster, Flex helps you run your finances smarter.
+
+Business owners run their whole financial life on Flex. One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across across 32 currencies, plus the whole back office, bills, expenses, accounting, all in one place. So you spend less time reconciling and more time growing.
+
+That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026. Visit flex.one, that's flex,.one, and use the code 20 v c. While Flex runs your finances, Vantor keeps your compliance covered. When you're building a company, you learn that trust is what closes deals. You may have the best product, but no buyers will sign these days without proof of your security.
+
+Here's what happens if you're not prepared. A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep. Every enterprise conversation turns into this horrible fire drill.
+
+That's where Vanta comes in. Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access the Vanta agent everywhere you work even if your team lives in Claude or Kursa. And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Reiter.
+
+So prove you're ready for business and get $1,000 off Vanta when you go to Vanta dot com forward slash two zero v c. That's vanta.com/20vc. You have now arrived at your destination. Eric, listen, dude. It is so great to have you on the show.
+
+You know, I was sitting downstairs with you chatting before, and I was just like, you can feel when it's gonna be a good show because people are themselves. And that was an amazing conversation, and we're gonna have a lot of fun. So thank you for joining me. It's so exciting to be here. I mean, I've listened to so many episodes.
+
+It's it's kind of surreal to be inside of it right now. That's really awesome. As I said to you, you you could have text me when you started the company, and maybe I would have been a little bit richer. Yeah. But you probably didn't know about me then.
+
+No. I didn't, but I would have welcomed Demesti in another suite. I wanted to start with... I was talking to Zach Frankel last night, and he said about your childhood and, like, early indicators of success and, like, exceptional ability. How did you fall in love with technology?
+
+And for me as an investor, what would have made me excited in seeing your childhood? I started coding 1992 or something like that. I was eight. I just loved it. You know?
+
+It's like one of those things. I realized you can control computers. I had a Mac Plus, you know, one megabyte of RAM or whatever. And, yeah, I started making games and, like... I mean, they were terrible.
+
+But, you know, it's just... I think back at, like... In a way, I'm, like, so grateful. I look back at, like, my childhood. My friends, they were, like, collecting hockey cards or whatever.
+
+That was, like, their hobby. My hobby was programming, and and now I make a lot of money from it. Isn't that kinda create... Like, you know you know when you think about it? Like, the fact that I can make a lot of money, like, doing what what was my hobby since I was eight?
+
+Kinda nuts. So I I... I'm just so grateful about, you know, the fact that I fell in love with technology and coding, and then I started doing programming competitions when I was 16, 17, and so much fun. Moodle was your first company, or is your first company. Why did it take so long?
+
+I think the consistent pattern in my life is like I never had quite enough confidence in myself. And a lot of it that was missing was just the confidence, a little bit the money too. So it wasn't until I was like 'thirty six, 'thirty seven I started Modal. And I think, I don't think I've ever wanted to necessarily start a company. It was like one of those things where like, I just saw this big opportunity in the market.
+
+I almost thought to myself, like, why is no one else doing this? Such an obvious idea. And that led me to think, like, maybe I should start a company. And then, you know, five years later, here we are. It's gone pretty well.
+
+I think in hindsight, maybe I should have started much earlier. Do you wish you had? I look at some of these, like, Stanford kids, and they're, like, 21, and, like, I kinda feel they maybe have too much confidence. You know what I mean? Like, they're, you know, think they're gonna take over the world, and they're 21.
+
+I think the ideal age is maybe, like, I don't know, 32 or something like that. You have a little bit more experience. You know how to navigate people. You know how to hire people. You know how to fire people, like all these things.
+
+I don't know if I would have been a good founder, like, in my twenties. Before we get into the market and everything beneath that, we were chatting downstairs, we often hear that founding companies is like eating glass. It's hard. It's painful. How do you feel about those?
+
+Dude, hate that stuff. It's like, I don't get it. Like, you're eating glass, like, every day. Like, why are you doing it then? Like, I don't know.
+
+You expect some, like, magic reward, like some big cookie in the end? Like, I never understood that mindset. I I think it's like this mindset that a lot of people have. I'm gonna suffer pain, and then there's gonna be this big reward in the end. I don't know.
+
+I don't think about it that way. I enjoy every day I go to work. Of course, there's, like, hard times. Like, there's, you know, you have to have hard conversations, maybe fire people, maybe, like, do hard things. But, like, in the grand scheme of things, like, I mean, such is life, and I enjoy I I enjoy building a company.
+
+And I don't I don't think of it as like, one day we're gonna flip this company and be... I I hope to work on this for twenty, thirty, forty, fifty years. I'm having so much fun. I don't wanna sell this company because I would just go and start model two. You really wouldn't.
+
+Yeah. I don't I think money necessarily makes you happy. I mean, little bit. Like, it's good to have some money, but, you know, be on a point. Like, what...
+
+You know? I like building stuff. I love technology. I love coding. So much fun.
+
+You're such a sweet... Is that Swedish is that Swedish mentality? Maybe it is. Yeah. Dude, never has an American come on before and said it's not about money.
+
+I mean, I do care about money a little bit, but maybe you're right. Because I do think in Swedish mentality, it's like self actualization. Like, doing what you enjoy is kind of the highest form of prestige in a certain way. And it could be music, it could be poetry, whatever. It almost doesn't matter.
+
+What do you do that you don't enjoy? Yeah. I kinda hate fundraising, honestly. I mean, it's fine, I don't know. I enjoy it when there's good people, but it's kinda challenging.
+
+You have to say no to a lot people. I guess that's a good problem to have. But in general, it's Oh, you have to say no to a lot of people? Oh, Eric, horrible thing. Oh, you can only have 10,000,000 not 50,000,000 You've never done a deck, have you?
+
+I've never made a pitch deck, yeah. Every round we've done so far, I like to get to know people well in advance of raising money. So every round we've done, I mean most recently we announced a d round yesterday with Xcel. I've been speaking to Rich and Gonzalo at Xcel for I think at least a year. And at some point, we're like, actually, you know what?
+
+We could take some money. Like, what are the terms? Like, let's discuss terms. And then it happened very quickly because we already had that relationship. How do you think about price optimization?
+
+Is it a game of getting the highest price? No. I don't think so. I I think maybe in later stages, it becomes a little bit more of a commodity, like the money itself. But I I think in the early days, like, I mean, for for several reasons.
+
+Like, one is that there's a misalignment in Senate. Like, VCs always wanna put in way more money than a company needs. And that, you know, you just take on a lot of dilution. It's not good as a shareholder. But the other thing is, like, you actually wanna hold back, I think, and and it's often better to raise a lot less money at a lower valuation and then keep the VCs hungry for the next round.
+
+Is this not the generation, though, where actually capital is the moat and you need so much more money than you think? You said that VCs wanna give you more money than the company needs. I thought AI was finally the output exhaust for venture dollars that was needed. I think there are times in the market where you are capital constrained. We have not been capital constrained for most of the time of the company.
+
+We've been extremely capital efficient. We burn only a few million a month. I mean, like, know, it's a lot of money, respect for the money. You burn a few million a month? No, I mean, up until like last year.
+
+Now we have to spend a lot of money on capacity. How much do you burn a month now? A lot. I mean, we actually are profitable on a P and L basis, but cash flow is quite negative, because we have to spend a lot of money on getting GPUs and building out capacity. And so that is a different period in the company and how we think about capital.
+
+Capital is I don't want to call it a moat because, you know, I feel like people throw around that word, like, to mean things that kick Mote to me has, like, a very strict definition. But it certainly helps. Capital helps at this point. What's the moat definition for you? I mean, moat to me is like you go read like Seven Powers or like one of those Love Seven Powers.
+
+It's a good book. But I I think, you know, then people read that, and they get delusional, like... And, you know, they're like, yeah, we're starting this company. It has all these moats. You never had moats in the early days.
+
+Like, you know, like Google could do anything they wanted to. Google could do yeah, but it's also like, you know, like what are the seven I don't even remember. It's like cornering resources, like market power, like whatever. It's like none of those things happen until you're like ten years in, you know? There's an old blog post, I always come back to it by Ben Thompson.
+
+It talks about Snap and the like, the gingerbread man strategy. Do you know this thing? And it's like, the whole point is like, Snap doesn't have a moat, they just run faster. Like, they're the gingerbread man. And I actually always come back to that.
+
+I think that's so true, like, for almost every startup these days. It's like, you just have to, like, move faster than everyone else. I actually think the three things that matter to say when I invest is like, one, team. Are they top 1% team? Yeah.
+
+Two, speed of product decision making very specifically. You look at Instinct today. The speed of feature shipping is really very impressive and they're very, and then three is brand. Yeah. And I think those are the three determinants to me of defensibility, moat, but it's a kind of package.
+
+Yeah, I mean, again, I don't know if I would... But I kind of agree with your point. I think brand, I don't wanna call it a moat, but it's actually, I think the value of brand has gone up a lot. Can I be a dick? Yeah, please.
+
+Do you think modal have done well with brand? I think pretty well. I think we have, it's coupled with the developer experience, and the product, and the website, and the visual identity, and all these things. We just did an event in San Francisco, and I thought a lot about that, sort of how we package it, the event, and the visual look and feel and But like, do you think you have a bigger brand than Base Ten and Firewise? I think we have that.
+
+I think we have really, really good vibes. Like, I'm terminally online. Like, people tweet, like, way more about Modal. I think there's, a little bit more of a community. I think there's, like, much better vibes around us.
+
+Like... But, like, I am paranoid about those companies. Like, I am paranoid about competition. Of course, I track it. Like, I of course, like, I I see everything that gets tweeted and about our competitors, and this is important.
+
+Like, everyone wants to be a part of the community. Everyone... You know what I think is, like, people misunderstand is I I love TypeSafe with JEV. Yeah. Because, like, everyone wants to clone JEV.
+
+No one wants to get up on stage and wear a fucking pink fur coat just, like, talk about the Jevolution in an unhinged way. That is what brand to me is. Like, it's... Like, that guy is, like, he's playing the game on a whole different level. And and I think it's just, like, so, like, true about, like, companies today.
+
+Like, you have to think about that. What... So can you just unpack why? Because he's authentic and different? I think so.
+
+I I think you just have to create a personality. You kind of have to, like, figure out, like, what is the personality of your company, and just be consistent, and create, like, almost like a sense of movement, a sense of, like, community. Like this is something cool, and people want to use you because you're one of the cool products out there. They're like, have you tried Modal? It's pretty cool.
+
+What what has Modal done then that base ten and four OS haven't to build that? I think we started with the developer experience. So that was... And we had a very clear sort of PLG product market fit, product led growth, in the sense that people came bottoms up, they just sign up on a product. Like, I think the consumer background of coming from Spotify is very important in how I thought about building what's now a B2B company, selling tech effectively.
+
+In a way, it's like a very boring category, but I think, you know, like, having personality and having, you know, a little bit of an edge is a big part of how you create that sort of movement and that sort of like sense of excitement and the feeling that you're different. And I wanted to start the moment you go to a website, and the moment you try the product and you just feel that it's different, that magic moment. Can I ask you, we've spoken about the three different providers there? Inference as a market has many different speculators commenting on it. When you look at the next five years, how does the inference market play out?
+
+Of I I think inference is gonna be an enormously large market. It's like the new cloud, basically. And... But I don't think inference in itself is maybe, like, the only thing you need. One of the things that I feel very strongly about is, like, it has to come with, like, a lot of other products.
+
+It has to come with post training, sandboxes, agentic stuff, all kinds of, you know, other types of inference, like low latency inference, batch inference. So building that platform, by the way, we've been working on this for the last five years. I think that to me is, you know, not a moat, but it's a very hard product to build, that infrastructure. Why do you need to have the breadth of that product set? Otherwise, you're just in a compression layer.
+
+Yeah, because otherwise you're just selling commodity product. And, like, if you're just selling, like, tokens for dollars, there's no switching cost, you know? People can just switch to different provider. It's just a race to the bottom. But if you couple it with all these other things around it, sandboxes and post training and reinforcement learning and all these things, like, you can actually create a whole set of tools.
+
+Like, no one wants to build a, you know, buy a single trick pony. People want to buy a portfolio of different things. Like, they want to buy, you know, a whole suite of tools that basically lets them build amazing AI applications on top of it. Right? And the infrastructure underneath is a lot of differentiation, a lot of, you staying power in the markets.
+
+It's very hard to copy like the infrastructure required to build all of these products. What does no one see about the inference market, or you don't see commented on much, that is very obvious to you? One thing that people don't see about the inference market is, I actually think in the long term, there is so much gross margin opportunity in this space, because you can build all these things around it. All the sandboxes, all the agentic stuff, workflows, post training reinforcement learning. If you do all those things, there's actually so much opportunity to make money.
+
+Is it a market that has software margins? Because we're looking at margins now in the 25 to 40% range. That's kind of traditional players. I don't know if that's yours, but that's kind of what inference providers are generally. Do they go to 70 as you earn more and more of the stuff?
+
+I think basically almost no company today has software margins anymore. Like what you used to see in Silicon Valley ten years ago with this 90% margins plus, I think that's basically gone. And the reason is actually almost topological. It's like you have this like stack of vendors, right? Like today you have applications, you have models, you have infrastructure, you have cloud, you have Nvidia.
+
+And so when a customer pays a dollar at the top of the stack, it has to flow through a lot of different every layer, there's going to be, you know, 20%, 30% gross margins. So I think there's a lot of margin opportunity, and there's a lot of opportunity to make a lot of money. I mean, the space is so big, but you're also splitting it across a lot of layers in the stack. So, I mean, you know, like the 90% software margin businesses are gone. I think modal has an opportunity long term to get to 40%, 50%, 60% margins, but we're never going to get to software margins.
+
+What's a wild prediction you have on the future of the inference market that you think many people would disagree with? I one prediction about the inference market is gonna split into a lot of different things because the market got so big in the last... I don't think anyone expected, me included, I don't think anyone expected it to be, you know, so big. It's like 10 x or a 100 x bigger than I ever thought. And that to me means there's gonna be so much room for specialization, low latency, high latency, like various types of fine tuning and post training.
+
+I think there's gonna be some wacky new technologies that let you do it with way less resources, new hardware, like all kinds of different things. I'm really sorry. Does that go against what you just said, though, about the need to own it all and have that breadth of product? If it's so much larger that you need real specialization Specialization by product. I think it's gonna fragment into a lot of different products.
+
+Now we can build a lot of products and host it all under modal. And that to me is very exciting because a lot of different, you know, there's gonna be a lot of different products that companies are gonna need. For one product, they're gonna need low latency inference. For one product, they're gonna need batch inference. For one product, they're gonna need sandboxes, which we have.
+
+For one product, they're gonna do pre training their own models, you know, maybe it's, you know, certain specialized, you know, audio models or whatever. Like, do a lot of stuff besides LM inference. And so that to me, that creates a lot of opportunity to basically kind of rethink what a cloud looks like in the era of AI, and kind of deconstruct the cloud and rebuild it for this new era of software. Earlier, you said about building capacity with GPUs. Yep.
+
+What's it like doing that today? Is it as crazy as reports suggest? So it is pretty crazy. I spent some time in March at GTC NVIDIA's big conference in San Jose. I would describe that as like an open air drug market, but GPUs instead of drugs.
+
+You're running around, you know, talking to 500 different cloud vendors. You're like, do you have GPUs? Like, please get... And like, know, in the end, you come out, like you do a lot of deals, and that's something we've had to develop the muscle. I think part of the value prop of Modal is like, our customers don't have to think about that.
+
+We do the dirty work of doing all the GPU deals under the hood. We work with 25 different NeoClouds. Or, you know, right now we control like, you know, 0.1% or whatever, I don't even know the number, of like the world's compute. But like, my like crazy, like, you know, how I think about the long term goal is like, as we control more and more of the world's compute, you and aggregate demand on the other side, and manage that capacity and demand extremely efficiently. So that to me is like something we actually think we can do, we can fill a big gap.
+
+What does that allow you to do, being that aggregation layer? Well, so we built a lot of our infrastructure ourselves. We don't use Kubernetes and Docker and things like that. We built our own file system, we built our own container runtime, we built our own scheduler, we built our own, basically how we manage the capacity. And that enables us to basically treat like all of the world's compute as one big pool of capacity.
+
+And so if you think about the fact that there's... We already have many thousand paying customers, and over time it just grows and grows. Each of those customers have like very sort of variable requirements, like their workloads kind of vary over the day, and they have maybe bursts, and each individually, they're like very sort of unpredictable. But if you pull all of those customers together, you end up with a very sort of smooth overall demand. And that is something we can manage extremely efficiently.
+
+And so one of the valid props of Modal besides, like, we we can scale up with you is also, you don't even have to do capacity planning. Just come to us, we'll give you 100 GPUs. I think it's so amazing going back to TypeSay, for instance, like they, we had talked to them, I think a long time ago before they launched, but they launched overnight on modal and we weren't even aware of it to just like scale up. And we gave them a ton of GPUs and it just happened automatically. So that magic, I think, is something that is people really value with modal is like we can give them a lot of GPUs on very short notice.
+
+And we can handle that sort of variable. Like if you go to us, you don't have to lock up, you know, like a rectangular block of GPUs over three years, you and have to know the exact number. It's pay as you go. You scale up and down. You pay per GPU second.
+
+How do you do GPU buying in terms of forecasting then? Because you don't wanna have an insane excess of supply just sitting on your books. Totally. The GPU lead times right now is about three to four months. So we basically do a straight line or exponential line extrapolation, and we look at an aggregate across all our customers.
+
+We have a very diversified set of customers. You can actually look at the demand in aggregate pretty well and predict based on monthly growth rates, which have been about 30, 40% month to month for the last twelve months. And you just project that, you know, three to four months into the future, you end up with like two to 3x. You go out and, you know, buy that capacity and make sure to ramp up, and sometimes But can you just buy that capacity? You can.
+
+Yeah. I mean, I think there's a little bit of, like, a misconception that, like, we're out of capacity. I mean, NVIDIA is, like, shipping, like, an insane amount of GPUs, like, every month. I don't know how many 100,000 Blackwells are getting installed. Prices are up for sure.
+
+You have to pay more to get the same amount of GPUs. And I don't wanna say it's like an efficient market, but if you're willing to pay more than other people, you can get a lot of GPUs. Is there a price at which it doesn't make sense for you? Of course there is, but at what point I don't think so. I think, in fact, like, we're actually more long than we're short GPUs because we we can charge a higher price to our customers.
+
+Like, there's effectively a market price, and it's, like, different dynamics because we lock up longer term reservations and and rent them out on a slightly shorter duration. But, you know, if if the underlying price goes up, people are also willing to pay more. What happens to the price over time? H100s were meant to depreciate and Yeah, go I have no idea. Actually, it's funny.
+
+Well, dude, if you have no idea, what am I meant to have? Did you see Jensen yesterday? He was in London, actually. Asked him this question. He's like, well, obviously, like, supply is gonna catch up with demand eventually, and then we'll see what happens with pricing.
+
+It might happen in a year. It might happen within five years. He said exactly the same thing I always tell people. Like, gravity. Hardware prices always go down in the very long run.
+
+Right now, we're in a very... You know, there... There's a supply shortage, and, you know, that means that the prices have gone up. They may continue to go up for another year, two years, five years. I don't know.
+
+But eventually, they will come down. How early are we? Because I, you know, I run Instinct for everything. I have over a 100 automations on Instinct doing things that are just absolutely wild, from buying concert tickets to planning shows to helping with medication for my mother. The amount of compute I am using is Jevan's paradox times a 100.
+
+Yeah. If that is equivalent for actually many people in society Yeah. Because it's accessible within WhatsApp and what... How early are we there? I think we're very early.
+
+It's... I think you're saying the same thing. I mean, yeah, Jevan's power, whatever. Like, I think there's just so much latent demand for these things. And, you know, I I think, you know, eventually we're gonna start to run up against these capital constraints.
+
+Right? Like, there's rates that are going up. Like, we just can't build data centers fast enough. Maybe that's good. I don't Like, I think in a way, like, you know, it's a guarantee against like overbuild, which...
+
+But I also don't know if we can overbuild these things. There's just so much demand for it. I don't think you can overbuild in the next five years. Probably not. No.
+
+I think what could happen is like people realize, Instinct is a good example. Like, allegedly, they don't charge or they don't make revenue yet. So I think it's a good example. But, like, clearly Instinct can make a ton of money in the future. But so, you know, that's a dynamic in the market.
+
+There's a lot of companies that are not yet making money yet, and they're using a lot of GPUs. They just have to eventually start to make money. But, like, that that lag could take a while. Right? And and that...
+
+We might run up against that. You mentioned the specialization that comes within the inference market, and we we spoke about NVIDIA there. We're seeing more and more specialization within the chip market. Is NVIDIA's business today stronger than ever or actually weaker than ever as you see the fragmentation of the market into very specialized players from Cerebrus to Etch to OLX to Fractile that weren't there before? I think you're...
+
+Try to phrase it as, like, one versus the other. My my view is, like... I think Eric Vissio is actually... It's funny. Like, it's the same thing.
+
+Like, all of these things are gonna grow. Like, I think NVIDIA is gonna keep growing. They're gonna keep shipping amazing chips. I think there's also gonna be, like, Cerebras and all these etched and all these other ones, like, shipping specialized chips, and they're also gonna grow. So I I think there's gonna be markets for all of it.
+
+So why is Cerebras down 30%? I don't know. I don't follow, really, the stock market. You don't follow the stock market? No.
+
+I I mean, like, a very passive, you know, buy the index, mostly because of my own time. Like, I don't feel like I have the energy to follow the stock market. To what extent is CUDA the moat that everyone says it is for NVIDIA? I actually, I think it's a little overstated. I don't think CUDA itself is the moat.
+
+CUDA is actually kind of annoying to work with. It's like a pretty low programming model. But I do think all the NVIDIA, the ecosystem is. Like, I think all the kernel optimizations and all the stuff that, you know, like Torch always supports NVIDIA much better than anything else. The open source engines like VLM and SD LAN because of that, they always support it much better.
+
+So like everything is NVIDIA first today. And that's probably going to continue. It's like funny for the last like fifteen years I've been saying, you know, like next year is the year of non NVIDIA accelerators. It never keeps happening. I'm always wrong.
+
+NVIDIA has just, you know, shown to to be incredibly good at having that staying power and just dominating the market. We'll see. I mean, there's, like, Tranium, there's TPUs, there's AMD. There's a lot of other stuff that does look quite good, and they're catching up. But, you know, I still think they're quite behind.
+
+To what extent are the Neo Clouds a friend? Because they're partnered with you in a lot of cases, I'm sure, as you mentioned, I think '25, you said, or a foe? You know, I had the founder of Nabios on, and he was like, we're coming for the inference market. We need to own full stack. And I don't mean that against him.
+
+I totally understand it. But are they friends, or are they they foes? I feel like everyone in StartUpLand is like a friend and a foe at the same time. They have this, like, weird sort of, you know, relationship with everyone. I I think some of the top neoclouds, Nabios included, they are trying to move up the stack.
+
+I'm personally somewhat skeptical. I think it's, like, very hard to be good at, like, your core business and also trying to move into different market at the same time. Why would it be hard for them? Like, what's the bare case on them being able to move into the inference layer efficiently? I mean, I'm biased, but, like, we spent the last five years building, you know, an incredibly complex infrastructure stack.
+
+I think it's very, very hard to replicate what we built. What was the hardest thing? All the code and, you know, everything around the file system, the container runtime, the scheduler, like building the system that can place like millions of sandboxes every minute, you know, scale up and down many, many thousands of GPUs, you know, power hundreds of thousands of tasks running concurrently. These are these are very hard engineering problems. I I mean, I'm I'm an infra geek.
+
+Like, I love that shit. It's so much fun to work on it, but, like, these are hard problems. Is Nebius a better business than Coolweave? I actually don't know. Like, I I don't know.
+
+I I think they're both, like... They're they're executed extremely well, both of them. I have a tremendous respect for what we've done. I think at the at the end of the day, like, the thing that I have the most respect for is actually more on the financial engineering side. They're very good at that of stuff.
+
+Why do you say that? Because I think a lot of the constraint for building a Neo Cloud very quickly is on the financial side. You need to be very good at... You go lock in like a long term customer contract, then you go raise a bunch of money against it, then you go buy the chips, then you deliver the chips, and then you pay off the debt, like over the next few years. Doing that sort of dance with the financials, like it's kind of an interesting game.
+
+And Corviva has done it exceptionally well. It's a capital game. It's a financial game. When you move a layer beneath them, we spoke about Jev, who obviously worked with Modal, we've seen incredible movement from the open source community, which has been exciting. Yeah.
+
+But then you also see Haiku and Anthropocene's newest models being incredibly performant and incredibly cheap. What's the benefit of open models if frontier models are almost as cheap and as efficient? I think open source is always gonna be... There's always gonna be great models coming out. Let's also remember, like, open source models, they're all moving into licensing models.
+
+So, they're getting better at capturing the value of those models. And I think that means they're gonna have more funding to train better models. And I really hope there's gonna be European and US models because I don't think it's a good situation that we have so many Chinese models. I mean, they're they're obviously... I have tremendous respect for all the Chinese labs.
+
+They're extremely good at what they're doing. But I think it's good for the world if there's, you know, more power spread out. But anyway, going back to your question, I do think that open source there's always going to be people who want to fine tune, want to have more control over their models and sort of tweak to parameters, like go low latency, high throughput, like whatever it is. And open source is gonna play a big role in that. It's like Windows versus Linux.
+
+With the... I am sorry, with the greatest of respect, do you think Europe will produce a competitive open source model? Yeah. I mean, I love Europe. I grew up in Europe.
+
+Grew up in Sweden, but I do think that Europe does struggle with accumulating large amounts of capital. I think both of those things are things that Europe struggles with. And and that is something that China has done really well. They've accumulated massive amounts of human capital. And and US obviously has very good, you know, very good at, like, raising enormous amounts of money and, like, training very large models.
+
+I don't know if Europe has the... Either of those. Does it matter if NVIDIA owns the open source model layer in The US with first poolside and now reflection? I think NVIDIA is very smart to focus on the ecosystem, building up an ecosystem. And I think that includes like propping up a lot of open source models.
+
+And I think they probably saw an opportunity to pick up open source models. These companies are very resource intensive, right, very CapEx intensive. And I think it's smart of NVIDIA to like buy some of those and sponsor them effectively in order to create American built models. By the way, I wanna take back one thing I said. Europe does have an insane amount of human capital.
+
+I do think what Europe is very bad at is aggregating them and putting all of them at the same company. That is something I think US is very good at. And I think inspiring a mindset of ambition and huge, huge scale. I think to the point that you said earlier, which is like, Oh, I didn't have the belief in myself. I respectfully think if you're in The US, you might've been surrounded by influences that told you to start a company earlier.
+
+Yeah, yeah, yeah. I mean, it's almost like too much on the other side to that point, but Oh, when you were four, you were encouraged to start, leave school, drop out, kindergarten wasn't worth it. Exactly. I totally agree with you. I do wanna talk about, we said about models and Jav in particular.
+
+Are we seeing the unbundling of models on a per function basis, where Jav is obviously very good for its certain tasks? I think so, and I think that's a function of what I talked about earlier, where the market for inference is so large, and that when a market is a billion dollars, you're not gonna have too many sub markets, but when a market is starting to get 10,000,000,000, 100,000,000,000, whatever, you're gonna have a lot of different sub markets. And Jeff does classification and things like that, regression type things very, very well. And there's a large enough market for that. Okay, welcome.
+
+It's your first day as a partner at twenty VC Fund, and we're in the investment committee. And very kindly, have the opportunity to invest in JEV. We're all in on JEV's new role. All in. What's the bull case for JEV being worth 100,000,000,000?
+
+I told you before, but like, I think the brand and the community and the movement around, you know, just this sort of everything they're doing is so incredible. And that to me is like a massive, massive asset in this new age. That's a $100,000,000,000 company. I think there is an opportunity to create a $100,000,000,000 company with a lot of specialized models and inference. You would have done it though at 8,500,000,000.
+
+I would have done it at 8,500,000,000. I I think there's a pretty big outcome here. Could be an exit. Could be, you know, like a public company. Who knows?
+
+But but I do think there's a lot of upside here. Dude, I'd love to see him ringing the bell on the New York Stock Exchange. Do you know what I mean? Yeah. Fantastic guy.
+
+Love that guy. Is he great? I mean, you know, his charisma, his like... You have to create, like, a personality, like, around your brand. You have to create this, like, visual identity.
+
+It's obviously not the visual identity I would have picked. I hear you, but I think then you should be more loud, if I'm just honest, Eric. Moodle? No. Well, yeah, but you.
+
+Yeah. I mean, that's possible. Right? Like, I I don't think there's, a personality lad cult from modal from your perspective. I think that's a fair point of criticism.
+
+I think I could be out there even more. I tried to tweet. I tried blogging. I've been, like, kinda bad at that recently. No one gives a shit about blogging.
+
+Yeah. Maybe. Right? Maybe I just need to, like, go more unhinged on Twitter. It's like fund related marketing, basically.
+
+Like, in the early days of of Modal, like, that was a big part of our growth. Right? Like me just like tweeting all the time about what we're building. And I think that's really important. I mean, every company has to find its own sort of, you know, go to market strategy.
+
+But in the early days, like we spent a lot of time just talking to people on Twitter, just like hitting people up, try the product, what do you think? Of them ended up angel investing. You know, they're now supporters of Motal. And, you know, you have to lean into what you're good at. And in the early days, I did a lot of shit posting.
+
+Do you know for every follower that followed me before 50,000, I would send them a personal, like, thank you message. That's amazing. You typed it out yourself? Every night from one till 02:30AM, would send them a personal, and I'd say like, I see that you're from Sweden, I love the Grand Hotel, let me know when you're in London. And I would send like 50 to 100 a night.
+
+That's dedication, that's amazing. No, but it was the customer acquisition flywheel. Yeah. They would go into the office the next day and be like, wow, you know this guy? He'd sent me a message, and like, you should listen to a show.
+
+It's It's pretty smart. I love what you've been doing in terms of building up this media brand. It's fantastic. Neil Mehta has a great thing, which is like, how can I 10x the customer experience? And actually, let's let's do it.
+
+Fuck it. Let's play a game. How do I 10x the current modal customer experience? I think the biggest thing we need is we need way more products in in Modal. Like, we wanna create a busy comprehensive experience of everything you need to do in order to build an AI application should be a product inside Modal.
+
+The other thing we can do is hire way more FTEs and way more sales reps. I will say we've been behind on that, but we should hire like way more people that reach out to you personally and say, Hey, I saw you get started in Modal. I saw you're working in the bio space. How can we help you? Here's some bio examples, you know, protein folding, whatever.
+
+Like, we work with a bunch of other similar companies. You seem skeptical. No, don't at all. I'm actually just thinking about, like, I like the product ambition, but I go, as a European, who goes, wow. We're in the B2B space, so I think it's like, you know But do you worry about being stretched too thin?
+
+Yeah. To your point on, like, you know, why can't Nebius do what you do so efficiently? Because you're so good and you spend so much time. As you expand into specialties, there are players in each of them who've been doing that for years where I'm like, oh, Eric. I think that's true.
+
+I I don't think they're very good, a lot of them. But but, I mean, I I sort of agree with your higher level premise. Like, if there's anything that's, like, super critical and never goes away, it's prioritization and resource allocation. Right? Like you can't boil the water and try to do everything at the same time.
+
+You need to be extremely ruthless. And having a multiproduct strategy, think is a very hard balance. Like when do you branch out into a second product or a third product? Right? Like it took us four years to see success with a second product, which was Sandboxes.
+
+Four years to see success with your second product, but you're five years to 1,000,000,000 in revenue. Yeah. So we launched Sandboxes in 2023. Didn't see a lot of success in the early days. I mean, there was, some success.
+
+You know, it wasn't horrible, but, you know, it was a relatively insignificant part of our revenue up until summer of twenty twenty five when models, I think, like, Sony 4.5, one of those, like, they they just got really good at generating code and building whole apps. And then it just exploded. I mean, Sandbox is today is a 300,000,000 run rate business, about a third of our revenue. And so that's been a kind of a crazy journey. And now we're thinking about, you know, what's the third and the fourth.
+
+We just launched a training product. I'm super excited about that. Working on batch products, working on reinforcement learning. We're working on all kinds of other stuff. And so that evolution into becoming a platform, it's actually there.
+
+Like if you go back to the very early decks of modal, you know, I put together some just for my own thinking. It was all there. It's like we had this like market map and all these... You know, it ended up being very different products than we thought, but it's so important for me to create, like, you know, to focus on a category and focus on a set of solutions, not just, be a single single widget vendor. What do you know about the sandboxes market today that you wish you had known when you started and released the first product?
+
+It actually is like one of those products. I I think one of the benefits of being in infrastructure, but also one of the drawbacks in a weird way is, like, you kind of just have to trust your gut on, like, what are, like, important primitives and just build, like, amazing building blocks. I think we're in the space of, like, providing building blocks. We try to look at, like, what do engineers need and not, like, listen too carefully because, like, they'll ask for, like, all kinds of random stuff. Distill it down into like, what are some of the building blocks?
+
+And we put out a serverless function product in 2021. It saw success in 2023 with GenAI inference. We put out a sandbox product in 2023 because we saw a lot of people using LMS to generate code. And then it saw success in 2025, like I said. So a lot of like how we think about building products has always been kind of like, let's just put out like good building blocks.
+
+And then it exploded. But like to answer your question, it was reinforcement learning, it was vibe coding, background agents, and maybe some other stuff too in the future. Those were things we actually didn't anticipate. So I think infrastructure is often like that. Like we didn't anticipate stable fusion when we started building our serverless function product.
+
+It just happened to be the killer app. What's your takeaway from that? The only thing that matters is you've gotta stay in the game long enough for your timing to be right? Sometimes, I think that's right. I mean, we've definitely been extremely lucky in certain ways with timing.
+
+Like we put out products like right before we started the company in 2021, and then StableFusion and Chat GPT came out 2022. We had really good timing with that, right? It just created so much demand and we're very well positioned. But some of it is also like with infrastructure, like, again, like, I think it's about like building products that, you know, you anticipate will be useful in the future. And from your own experience are things that you always wanted to see.
+
+I think you have to kinda trust your gut in that. You said that about, you know, resource allocation and that being very, very important as you think about this breadth of products. Where did you allocate resources where with the benefit of hindsight you wish you hadn't, and how do you reflect on that? I think we should have allocated more resources towards LLM inference like earlier. I think we're a little bit on the sidelines for a while.
+
+We didn't realize how big open source inference would be, and we thought it would be kind of a race to the bottom, just a commodity space. And then Deepsea came out, we're like, fuck. Like, we gotta move very fast. And so we staffed up a team immediately, you know, went from, like, you know, one or two people working on this to, like, 30 people twelve months later, and and now we're one of the top three providers. Jason Lampkin, a dear friend of mine who I do a show with every Thursday, he always says that now we've reached peak open source LLM inference usage.
+
+We're gonna see frontier providers bluntly provide incredibly cheap products that they are now. US enterprises don't wanna use Chinese models. That will continue. And so, actually, with those two core prevailing wins, Frontier will actually research, and we will see a reduction slash plateauing of the OS LLM inference model. I think that's a little bit of a fixed pie size mental...
+
+Like, I I I think, you know, with with all due respect, I do think both spaces will grow five x, 10 x, 20 x over the next twelve months and and beyond. Like... And and so, like, it's hard to argue, like, you know, which one's gonna be bigger than the other, but I think both will grow, like, in, you know, orders of magnitude over the next few years. Five x, 10 x, 20 x over the next twelve months. Yeah.
+
+For sure. You just hit a billion in revenue. Yep. Well done. Yeah.
+
+Does that feel pretty cool? It feels pretty cool. It's, you know, like, I I don't know. Like, I'm just like, you know, Swedish guy that, you know, grew up in a random. For me, it's like these numbers are absurd, but like, yeah, it feels great.
+
+It's so much money. Do you know what, I wasn't expecting you to be so likable and cool. I don't know. It's like a lot of zeros. How many zeros are in a billion?
+
+It's a lot. Your wealth manager will tell you. When you look at that, where will you be in twelve months? I don't know. What I can say is we've been growing...
+
+We grew 15x in the last twelve months. So you can extrapolate that. I mean, I don't know. Like, at some point we start... Markets just get very big and they start to slow down a little bit.
+
+But with the growth rate right now, like the growth rates are not slowing down. Like, we're growing 30, 40 So you percent a did 4,000,000,000? I hope to be way beyond that. With the greatest of respects, 15,000,000,000 then feels like quite a cheap price. Like, I'm an investor, so this is now my ballpark.
+
+If you think you were gonna be at 4,000,000,000, say dropping, I don't know, a billion 2 to the bottom line, then they actually only paid, what, 14x end of year next year bottom line, 3x top line? Yeah. It's kinda cheap. That feels pretty cheap. I think it's cheap.
+
+I mean, like, I wouldn't do this if I didn't think we could grow and become, like, a generational company. I think there's so much upside. I think this is one of the largest markets opportunities that's ever existed. I think that the demand for compute, the demand for AI applications, it's gonna be enormous, and they're all gonna need a place to run. And I hope a lot of them are gonna run a model.
+
+What revenue line do you not have today, or is tiny, that you think will be very significant in three years' time, five years' time? That is a good question. I think training is something we just launched. I think that could be very large. I hope that could get to 100,000,000 run rate in the next six to twelve months.
+
+Post training, similarly, working on batch jobs. I'm very excited also about a lot of like sort of traditional, like data warehousing stuff, databases, workflow orchestration, feature stores, like vector database. And there's just so many parts of this. And they all kind of fit together very nicely. And that to me is like what I'm so excited about.
+
+It's like once you start building in this space, there's so many natural adjacencies. Like this is like a problem with me. It's like I get excited about, I have like no lack of ideas. Like at Modal, like we have so many ideas of things we want to go. I would love to get into continuous integration.
+
+That's like a very interesting space. Agent harnesses. Maybe we should train models. Maybe, you know, there's just 5,000 directions, you know, and that's like my ADD brain, like wants to run-in all of those directions. You have to be obviously ruthless with prioritization and only take on, like, one or two things at at the right time, but but there's so many different directions we can go on.
+
+It's amazing that your wife calls you for decisions. She must get a very incoherent answer. I know. I know. What is this?
+
+Is this? Is this? I just wanted some curtains done. Yeah. You know, with the curtains, I just like you pick one of them.
+
+I've seen Simpsons and, like, Rainy Wolf Castle becomes the president, and they're like, which one do you wanna pick? You know, one to seven. He's like, I was born to lead, not to read. Number four. Yeah.
+
+Can I ask, we've seen this real shift, I think, in emphasis, but also in resource allocation from pre training to post training? How do you feel about that, and do you think that is the new normal? I don't know. I think post training works because there's a lot of tasks that people do in real life that have fairly finite sort of feedback mechanisms. So coding is like a great example, right?
+
+Like you can do coding with reinforcement learning pretty well because, you know, you can run code in sandboxes. And a lot of labs are running modal sandboxes for that exact purpose. Start to look at cyber security is another area. Math, obviously, with Lean. I mean, seen some fantastic product.
+
+I think it's kind of incredible, all these like OpenAI proofs the other day. So law, maybe to some extent, you can, you know, do like eval. So I I think I think post training right now, like, there's, like, such incredible focus on it because you have all these tasks that traditionally only humans can do, but are actually well within reach for for agents and and for LMs. But like, I don't know if it extends beyond that. Like, I don't know.
+
+Like there's a lot of tasks out there that are like have way longer feedback loops that I don't know if like post training quite yet are is within reach. A lot of people ask me like, what's going happen with software engineers in the long term? And I think, you know, we're probably gonna automate everything that an agent can do within twenty four hours or a week or something like that. But I kind of feel like, you know, engineers, like they work on a longer time scale and they have feedback loops that are longer. So I have a feeling like learning, we're gonna start to run into some limitations around that.
+
+But I've been wrong for so long, so maybe I'll be wrong and just keeps going. And eventually we can do reinforcement learning on things that take six months for a human. I don't know. What does the day look like in three years for an engineer? I mean, I'm extremely bullish on software engineering.
+
+I've been coding for thirty years, and I've seen so many different changes with like programming languages and the cloud, and so many different frameworks. And every single time we make programmers more efficient, it just increases demand for software. There's so many parts of the world that desperately need software. And so I'm very, very bullish on software and the need for software engineering. And I think one of the biggest misconceptions from the outside is that developer is about like translating from English to code.
+
+Like that has never been in, you know, the job of software engineers. Like to understand the requirements in the first place and be kind of an interface between the humans. You're building for humans at the end of the day and like trying to figure out like, what does that even mean in terms of processes and workflows? That continuously moves up in the stack, you know. Back in the 60s, we used to write assembly and punch cards, and then we moved to COBOL and then to C plus plus and then to Python, and now we're using agents.
+
+And that's just like one it's definitely like the biggest thing that I've seen in the last thirty years. But I do think we have many, many analogs and many parallels throughout the history of software and computers. To me, that makes me feel like, you know, software engineers are gonna be fine for the next ten, twenty years. How much money do you spend on coding agents a month at Modal? I think a 500,000 or something like that.
+
+How many engineers do have? A 150? Dude, that's so worrying, you know. You wanna... Should be token maxing more?
+
+They should be 10x that. Yeah, maybe. I don't know. Brandon McCall, that they spend 3x their human salaries on inference. Yeah, we're not quite there yet.
+
+But I will say, our software engineers are extremely agent plus, including myself. I mean, I write code with agents all the time. I think the big question, if you're looking at an anthropic IPO, and don't worry, I'm not doing a Bloomberg and pulling you into be like, what do you think of the anthropic IPO? I hate those Great. Yeah, you know where it's like, yeah.
+
+It's great. No one in AI is like, not a fan. Is against Go. Go. But I do think a big...
+
+The mother load, so to speak, is claw code. It's $60,000,000,000 of revenue. It largely kind of dictates the $2,000,000,000,000 price. And you look at Mark Benioff who says that they spend 5% of engineers' salaries, 300,000,000, on ClawCode today. Now if that comes way down as efficiencies improve, you name it, that's a challenge.
+
+Or will that go up as it just eats more and more of engineers' workflows? Yeah, it's just gonna eat more. Mean, like, again, like we've seen this so many times, like you make something more efficient, you make something more powerful, it just unlocks like five new use cases, and then demand just goes up in the end. Like, that's that's just the history of like the last fifty years of computers and software. But like, I wouldn't be here if I wasn't such an optimist.
+
+That's why I started a company. Know, like, I'm just like the biggest, like, optimist that there is in the world about software and computers, and I just love this shit. And I think it's just gonna keep growing. The data market is an interesting one. We have so many players that have scaled so fast.
+
+Yeah, it's incredible. If I was 20, and I just wanted to make a lot of money, I would go out and start an environment company and just sell data to Frontier Labs. There is so much money to be made in that space, it's kind of incredible. Let's go a layer deeper. What would you do next?
+
+Do you specialize on a specific market? I mean, the coding space is where you see the most demand right now. If you can sell code environments to the labs, you can make a lot of money. It's a big space in that. Still?
+
+Still, yeah. Yeah, I meet startups all the time. I angel invested in a bunch of that. I mean, they're incredible businesses. What I will say, my one piece of advice is make a lot of money today, but like, is this a venture fund?
+
+Do you wanna get on the venture treadmill? I'm not sure. Like, I think these are companies that are gonna make a lot of money today. I don't know if they're gonna make a lot of money in the very long run, but like who cares? Like, take the money.
+
+It's like great money. Like it's a fantastic business today, and that's all that matters. I think there's data marketplaces and then there's data and services. And when you look at the leading providers, they started as the data acquirers and then just sell you the data, and that's kind of it. And I think they've really gone full lifecycle now to deployment, implementation, evaluation, monitoring with a real enterprise handholding ability, similar to the FDEs, where they will really be that partner to ensure full implementation.
+
+That's how you expand margin and have some form of business in the long term. For sure. Yeah. And I think it's gonna be a tough business in the very long run, but today, you can have extremely good cash flow selling these data sets. Can I ask, when we think about that kind of implementation, working with partners so closely, you've said, and Lin has said too from Fireworks, about the importance of owning your own intelligence?
+
+Can you unpack how this looks? Because specialized models for companies in this way, the kind of jury's still out. You know, we have Harvey who says that it's fantastic and it's been amazing, then you have Ligure who say, Ridiculous. The underlying model's moved so fast. It's the wrong strategy.
+
+Yeah. For some stuff, it's good to own your own intelligence. For other stuff, it's not... Like, I don't think it matters. Like, we have a lot of customers that own proprietary models on model too, and their customers, you know, they use a proprietary model.
+
+Like, I don't think it makes sense for everyone to own their own intelligence. Why does it make sense for you two versus not? I think for certain use cases, you can take an open source model and you can fine tune it, and you can get really good performance. And the nice thing is you know what the fine tuned model is based on, it's not gonna change, like, they're not gonna take away the model from you. It's nice to have that consistency and the ability to like, continuously like tweak it without, you know, the underlying model changing, which has happened in some cases with the frontier labs.
+
+That's like, you know, that's nice. Like, you know, I support that, but like, you know, I think there's many other things that matter to people. Owning your intelligence is like just one thing out of many. Like, I think latency matters, think costs matter, performance, I think hackability, I think, you know, having a platform of a lot of adjacent services, like, these things matter too. Owning your own intelligence, like, yeah, I'm supportive, but there's many other things.
+
+Isn't that kind of going against your business? No, I don't think so. I love the honesty, but dude, it would be in your favor to say, yes, every company's gonna need it, and we're the partner to help you. I fucking teed you up there, and you've... Well, I mean, not really.
+
+If you think about TypeSafe with Java, it's a highly proprietary model. I want people to use Java. It runs on Modal. So we have many customers that themselves are proprietary model, that are hosting on Modal, that are serving their customers. And I'm very, very in favor of that too.
+
+Think the beauty of Modal is always that it's like a general purpose platform, and we support so many different things. That to me is like, you know, the beauty. It's like, you know, we can, if want you to use open source models, like, that's great. Like, we'll help you. And there's many customers that build incredible AI applications on top of open source models, fine tuning them, reinforcement learning, have a bunch of, you know, adjacent sandbox use cases or training, whatever.
+
+But there's a lot of companies that have built highly successful businesses, you know, Suno, Runway, TypeSafe, and many others like running their own proprietary model on model, like, and their customers don't care. And that I think is like, you know, puts us in a really good spot. I wanna ask two more questions before I do a quick fire. Okay. Model routing, as the dear Americans say, is that a defensible business?
+
+What are saying in UK? Rooting? Rooting. I love that. Well, mean, we are actually...
+
+The original language, America just took ours and Bostonized it. But yes, my question to you, is that a defensible segment of this value chain, or is that a commoditized product that everyone just builds themselves? I think it's possible to build a successful business in model routing. I think you can do that today as a standalone product. I wonder if long term it has to be part of a more comprehensive platform.
+
+At the end of the day, think what these companies want, they want evals, they want ways to fine tune, they want more control over performance, like latency, throughput, like all these things. And I think it's like one of those things that kind of makes sense today. Like these are very good businesses. I invested in open router personally, and they had a great outcome. I actually think they could have done even better on a standalone basis.
+
+But I think in the very long term, it it feels like one of those categories, like, you know... And and... But that's my view on everything in AI. It should really be a part of, you know, larger, more comprehensive set of tools. Congratulations.
+
+You're on the open router board, and the acquisition offer comes in. Please make the case for why they would have Yeah. Come Please make the case for why. Think OpenRouter, like the growth rate and the revenue, like this is... And and the brand, frankly, like, they have a really strong brand.
+
+Mean, I there's a lot of, like, there's 500 other competitors, but but the the space is growing so fast and there's so much revenue I would have told them to keep going. Final one. I think a really telling question is what do you believe that does not go in the favor of your business? And so for example, I think that seed investing today is kinda dead and bullshit. This idea of like two on 10, or slowly build for eighteen months.
+
+Well, it's kinda bad if you wanna make money, right? But it's great if you wanna develop a relationship with founders. Sure. But that goes against what I do. I'm just You're against the relationship with founders?
+
+No, no, I'm saying, I think the death of seed investing, the two on 10 and build for eighteen months is dead. Yeah, I understand what you're saying. So what would yours be? I don't know. I mean, think one thought I have is, at some point, this AI stuff is growing so fast, and we're here, and we're gonna go to here, and then there's gonna be a pullback, you know, 20%, 30% in the stock market, everyone's gonna freak out, and people are gonna say it's the end of the world.
+
+I'm almost certain it's gonna happen, but, like, I'm so bullish, because then we're gonna keep going. And, like, you know, like, so that would be, like, one thing that I'm like, you know There's gonna be a pullback. I'm okay with that, because I think the long term opportunity is so fucking big. It's, like, so large. Do you take secondaries?
+
+Very little. Why? I mean, I personally don't need a lot of money. I'm pretty happy with life, and I have enough. So personally, I actually support it for my employees, though.
+
+It's it's quite important, actually, as a founder that you make the equity worth as much as possible, and one of the way to do that and to tell future candidates that, No, this isn't just paper money, this is real money, is to have a precedent of doing employee secondaries. Then you can point to last round, we let employees sell this much or whatever, and up to 10%. Like I think you have to have guardrails. Like you don't want employees to sell too much. You want them to still be very, you know, have a lot of skin in the game and be very incentivized to make the company successful.
+
+I But think it's a way to, you know, create a very liquid, hard currency out of the equity. I totally agree, and as you think about a talent marketplace that's more competitive, it's very It's extremely competitive out there. Is it nuts? It's nuts. It's nuts.
+
+I mean, you know, like, the offers we see for... We've lost new grads going to some of the labs for, like, talking 20 plus million. I mean, these are exceptional people. Exceptional. What makes an exceptional, exceptional new ground?
+
+You know, like, just fucking sharp people. You know? These are, like... I I know it when I see it. Like, they're just, you know, they're just extremely hungry, hardworking, I they do everything about mean, they go to some of the big labs.
+
+Is that it? They go to OpenAI and Anthropoc? Yeah, the big labs. Yeah. They pay a lot.
+
+But is that where the talent comes? There's like a few other ones, but I mean, mainly those people are known for paying a lot of money. And you won't pay that much? We pay a lot. We can go very aggressive.
+
+We wanna be out there paying 95... Fifth percentile for... In the market. And there's like a few companies that I know, like, they're probably gonna pay a little bit more. I think we have way more upside in the equity.
+
+Going back to what I said about secondaries, I think it's important that for that reason also like to create like a real tangible value and the currency in the equity that makes us, you know, our offers seem very, very strong. Plus the fact that we have a lot of upside. I mean, you said it, right? Like our stock seems cheap. Like I kind of agree, there's a lot of upside in our stock.
+
+So that enables us to not necessarily have to match with the labs, but I think, you know, create a compelling sales pitch for why our comp package is, like, basically better than the labs. And we're willing to go very far to get the best talent. Okay. We're gonna do a quick fire round because otherwise, could talk to you all day. You have a great angel portfolio, OpenRouter.
+
+You mentioned Lovable before. You can put all of your money into only one. I love Turbo Puffer. I know Simon really well. He's a Danish guy.
+
+He's got this Scandinavian connection. Just a fantastic entrepreneur. I just love the business. How big can that business be? That's a good question.
+
+I mean, it is, like, somewhat specialized. They're doing vector databases. I think it could be a very large category. If I ran that company, I would have 500 different ideas of how to expand into many adjacent things around databases, data warehouses, other types of querying system. Like there's...
+
+It could be a large category. What have you changed your mind on most in the last twelve months? Probably the magnitude of the Sandbox space. I think it's kind of insane. Like, I look at the revenue, and it just keeps going up.
+
+And I'm like, well, clearly has to stop right now. And I think I'm, like, doing some sort of reverse psychology on the revenue because it just keeps going up. I'm like, what is going on? It just keeps growing and growing. And, like, I've been wrong so many times.
+
+I'm like, you know, in a good way, like, you know, and and so I... It's incredible how large that space has gotten. What do you think is the most overheated category within AI today? Oh, boy. I I don't know.
+
+I I don't think anything is overheated. I will say, like, one of the things that I'm a little nervous about is companies that are dependent on continual infusion of equity capital. I would not invest in them. And there's a lot of them that I... I would be nervous about anything where, like, if there's a venture capital pullback, they will struggle to raise more money.
+
+I think it's important you raise the the... Every round as if it's your last round, and there's, like, a real path towards commercialization and revenue. You got two kids. Two kids. Biggest lesson on being a good dad and being a good CEO?
+
+I mean, sometimes I feel like it's kinda similar. Like, you mean, like, in terms of, like, how to balance it, or do you mean in terms of just, like, being a good dad? What does it take to be a good dad? Setting them up for success in life. And I always, like, think about, like, the right amount to push the kids.
+
+I'm not a tiger dad, but, like, I think a little bit you need to push the kids a little bit to, like, get them exposure. I don't want to create, you know, in the future a situation where my kids come back to me and say, Hey, dad, I wish you'd made me do X, or I wish you'd made me do Y. But I also don't want to create a situation where my kids come back to me when they're 20 and they say, Hey, dad, why did you make us do X? Or why did you make us do Y? So a little bit of pushing.
+
+I make them play piano. I don't know why. But like, I think it's good way to, like, learn something that I hope, you know, when they're 20, 30, they will actually appreciate. They don't like it that much. But I think stuff like that, you gotta push them a little bit, but not too much.
+
+My my parents are very lax, and, you know, I discover math and and programming. And they were like, Eric, why are you doing so much math? Like, you should go out and play like the other kids. So in a way, I actually wish they would have pushed me even harder, but I pushed myself so hard anyway, so it doesn't matter. So so you let...
+
+That, like, right amount of pushing. You push yourself so hard. You're... Sorry. You're actually from a nation where you are told that it's bad to stand out.
+
+I'm forgetting that word, but I had a Swedish girlfriend. Jantelaw. Yeah. Where it's like, it's bad to stand out. Yeah.
+
+Don't think you're special. Yeah. Why But I I don't know if that's Like, I think there's a lot of misconceptions to Scandinavian culture. I do think there's a lot of, like, respect for people who follow their dream and, like, do things. And, like, whether, like I said, you know, it's music or writing books or, you know, making furniture or art, like...
+
+Or being an entrepreneur. Like, I actually think there's a lot of respect for I think this, like, you know, self actualization and following your dreams is, like, kind of highly regarded. And I think, you know, like, that's the flip side of having a very lax culture is, like, you kind of pursue people to follow their dreams. And I don't know. My dream was, like, doing math and programming.
+
+I love that shit, so I did that. Unless you're from Norway, where a tax structure exists that basically makes it impossible to start a company. Yeah, I mean, Norway has some issues. They also barely work. Yeah, this is very true.
+
+But we do have a sovereign wealth fund. Yeah, they are rich. Thank God for that. Maybe it's like the first post economic society, I don't know. Literally almost.
+
+In certain, in multiple meanings of the word. Final one for you. What are you most excited for? It can be anything. I look at drug discovery for chronic conditions.
+
+Mom's Actually got drug discovery is one of the applications I think is so incredibly cool. I can't wait to take AI generated drugs. You know, I'm like old and my skin is getting bad and like, I don't know, like, you know, every time I drink a beer, I feel like horrible the day after. Like, I don't know, give me all the AI generated drugs I can take. Like, I want to live long, want to live a healthy life.
+
+You know, and I think it has Do you think that is actually a realistic future? I think so. But I think with the FDA and other things, it's gonna take a while. But I think there's so much incredible progress today in AI aided drug design. I think there's so many cool stuff, so many things.
+
+Dude, I've so enjoyed this show in a way that I I honestly wasn't expecting you to be this fun, open, charismatic. You've been amazing, so thank you so much. Thank you so much for having me. This is a lot of fun. But before we leave you today, Blitzy, the autonomous software development platform that's built for enterprise scale, is proud to sponsor today's show.
+
+Enterprise code bases have grown beyond human comprehension. Tens of millions of lines, decades of tech complexity existing tools cannot fathom. Blitzy starts by understanding. Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic. That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket.
+
+Grounded in that context, Blitzy then executes entire epics autonomously, modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line, and that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more. While Blitzy helps you build faster, Flex helps you run your finances smarter. Business owners run their whole financial life on Flex.
+
+One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across 32 currencies, plus the whole back office, bills, expenses, accounting, all in one place. So you spend less time reconciling and more time growing. That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026.
+
+Visit flex.one, that's flex,.one, and use the code 20 v c. While Flex runs your finances, Vanta keeps your compliance covered. When you're building a company, you learn that trust is what closes deals. You may have the best product, but no buyers will sign these days without proof of your security. Here's what happens if you're not prepared.
+
+A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep. Every enterprise conversation turns into this horrible fire drill. That's where Vanta comes in.
+
+Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access the Vanta agent everywhere you work even if your team lives in Claude or Cursor. And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Reiter. So prove you're ready for business and get $1,000 off Vanta when you go to vanta.com/20vc.
+
+That's vanta.com/20vc.

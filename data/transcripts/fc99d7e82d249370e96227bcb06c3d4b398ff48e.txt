@@ -1,0 +1,533 @@
+Pablo Srugo (00:00:00) :  
+What's your ACV today? Let's say it's 100K.  
+
+Rahul Shivkumar (00:00:02) :  
+It's in the six figures, yeah. It took us about 12 months. Like it took us like an entire year to get to a millionaire RR. Some people may not like this, but we actually try our best to do a ton of discovery before we even show a demo. And we found that to be extremely valuable. The approach of going in and just showing things actually backfires very quickly. Investors will often tell you, go hire a VP, right? But I think you really have to, and what is that VP going to do? And you almost have to do that job first before you can hire someone for it. And I think there's this general tendency to hire quickly and not do the unglamorous work. But I'd say like do it so you can actually understand it really well. You can understand why you should have a human BDR and serve like an AI, right? And like double down on those decisions.  
+
+Previous Guests (00:00:43) :  
+That's product market fit. Product market fit. Product market fit. I called it the product market fit question. Product market fit. Product market fit. Product market fit. Product market fit. I mean, the name of the show is product market fit. Do you think the product market fit show has product market fit? Because if you do, then there's something you just have to do.  
+
+Pablo Srugo (00:01:00) :  
+You have to take out your phone. You have to leave the show five stars. It lets us reach more founders and it lets us get better guests. Thank you. Rahul, how you doing, man?  
+
+Rahul Shivkumar (00:01:11) :  
+Good, how are you?  
+
+Pablo Srugo (00:01:12) :  
+Good, welcome to the show.  
+
+Rahul Shivkumar (00:01:13) :  
+Great to be here.  
+
+Pablo Srugo (00:01:14) :  
+So you're the founder of Assured Health. Started a couple of years ago. Just raised a $19 million Series A by Insight earlier this summer in July. We're going to jump into the episode, but just really quickly, like what's the simplest way of thinking about what you do? Like what's a simple example that everybody will understand?  
+
+Rahul Shivkumar (00:01:30) :  
+Yeah, we help healthcare organizations hire new providers as quickly as possible and get them to seeing patients as quickly as possible.  
+
+Pablo Srugo (00:01:40) :  
+And you do that how exactly?  
+
+Rahul Shivkumar (00:01:41) :  
+There's a set of very complicated functions that happen. The second and offer letter is sent to a provider. They have to go through a background check, a specialized background check called credentialing. They then have to get paneled with insurance companies. So when they see a patient, the organization is able to actually file claims and collect money on. And all of these things, each individually are separate processes for each of the insurance companies. So it can get very complicated very quickly. We automate a bunch of these operations using AI agents. So under the hood, agents are verifying information in real time, packaging that up, sending that over to insurance companies, following up with them, making sure that you get the quickest effective date possible.  
+
+Pablo Srugo (00:02:21) :  
+Got you. So the simplest way of thinking about it, like you're a hospital, you're hiring a bunch of doctors. You want those doctors to be able to start work as soon as possible and bill patients. All of that used to be a bunch of manual stuff. Now you have AI agents who do it for them. Exactly. Tell me for you, when was the moment when you felt like things were working finally? Like when was that kind of product market fit moment?  
+
+Rahul Shivkumar (00:02:40) :  
+There was a week where my co-founder and I had four new customers coming on and we realized we just couldn't onboard them ourselves. We had to make our first kind of customer success hire to handle onboarding a new customer, deploying some of our technology and then supporting them. Like it was a breaking point for us as the founders and I think the light bulb went off being like, wait, this is actually working now.  
+
+Pablo Srugo (00:03:05) :  
+How big, like four customers might be a lot, might be a little, like what kind of ACVs are you talking about?  
+
+Rahul Shivkumar (00:03:09) :  
+Yeah, our ACVs at that time were probably around like $60,000 or so. They've gone up substantially since then, but back then it was a pretty big deal. It was the first, I think, five months of the company, four months of the company I think is when it happened. Yeah.  
+
+Pablo Srugo (00:03:23) :  
+So, I mean, the simple way of thinking that is, I mean, you know, 50K deals, not massive enterprise, but it's still going to require, especially because you're probably underpricing. So it's probably going to still require like a decent amount of handholding in terms of onboarding and support and you were at the point where you had so much demand. It wasn't a matter of getting demand. Like you just couldn't meet the demand that was right there in front of you.  
+
+Rahul Shivkumar (00:03:41) :  
+Exactly. A lot of the workflows that we were solving then and that we still are solving today are on a forward deployed motion, right? So we have templates of what some of these agents look like, but a lot of our customers work with insurance companies in very unique ways and our agents are kind of built to be reasonably unique in handling any edge cases that a particular customer has. So this is early days where we did have a lot of templates. Some of these agents had to be built by scratch for each of these customers and deployments did take quite a bit of time. So four coming in in one week does take up a lot of bandwidth. Yeah.  
+
+Pablo Srugo (00:04:18) :  
+I mean, it's a classic, like it's literally the classic definition, right, of product market fit, which is when there's so much pull, the problem isn't getting growth. It's actually just servicing the growth and making it happen. We're going to talk about all that, by the way. Like we're going to talk about everybody's talking about forward deployed engineer, but we're going to talk about how you're doing it. And at the end, we'll talk about two pieces. One is the BDR motion and how you set up your BDRs. You never went all in on kind of the AI BDR, which was, I think, a bit of a hype cycle kind of came and went. Maybe we'll come back, by the way, once we have like Fable 6 or whatever it's going to be. But you decide not to go that way. You made it work. We're going to talk about like real numbers, conversions, quotas, all those sort of things. And then the AI sales tactics, like the tactics you're using today to close customers, to increase urgency and how you're doing like the forward deploy motion and onboarding, which at a high level everybody understands. But, you know, when you want to bring it to practice, the same playbook is not going to work for everybody. So take me back. That's the moment you said that was like five months, that product market fit moment, five months into your journey?  
+
+Rahul Shivkumar (00:05:12) :  
+Yeah, it was about five months into our journey. Yep.  
+
+Pablo Srugo (00:05:14) :  
+And when exactly did you start Assured?  
+
+Rahul Shivkumar (00:05:16) :  
+We started Assured in early 2024. So I think it was March of 2024.  
+
+Pablo Srugo (00:05:20) :  
+What were you doing before you started? Like, you know, maybe give me a little bit of your background, especially like right before you started Assured, what was going on in your life?  
+
+Rahul Shivkumar (00:05:28) :  
+My co-founder and I actually, we've known each other for years. We went to college together, but we did a business before Assured called Don Health. So Weaver, what I would describe as maybe the perfect Assured customer. So Weaver, a virtual sleep treatment center. So we were helping folks with insomnia, get off of sleeping pills and sleep better. And what our company looked like on the back end was really a telehealth clinic. So we hired providers full time. We had to get them kind of paneled by insurance companies. And about 99% of our revenue was either Medicare or commercial like insurance. So our business model was getting paid out by these insurance companies and making sure that you could hire providers on time, that their start dates were actually tied properly with being able to bill insurance was extremely important. So we had faced the problem firsthand and we exited that business.  
+
+Pablo Srugo (00:06:20) :  
+What kind of an exit was this by the way? Like a big, big success exit? Kind of like things didn't work out? So tuck in, somewhere in between?  
+
+Rahul Shivkumar (00:06:26) :  
+Somewhere in between. I think our investors were happy. I think we were happy. I think it was a very hard business to scale and we could probably spend an entire episode talking about should be venture scale and what sorts of business should not be venture scale. Right? And I think our previous business probably fell in the sole category of maybe not a venture scale like setup even, let alone like outcome, obviously. But we were insiders. We had seen the problem before and actually before we even incorporated the business, we had revenue. You know, we had like committed revenue where customers are like, hey, if you help us solve this problem, like we'll sign like an LOI, we'll sign a contract right now. So going into March of 2024, I think there were maybe two customers that had already committed to like using us when the product went live. Yeah.  
+
+Pablo Srugo (00:07:11) :  
+You started Assured with the same co-founder as the company before? Yeah. And so timeline's interesting here. Like you start the last company 2021 where like COVID remote work, you know, so telehealth, right? That's like probably the big thing. And as you're doing it, ChatGPT comes out kind of, I guess, in the tail end, right? So end of 22 and you kind of sold it in 23. Did that, by the way, I'm curious, like that drive at all, the exit, you obviously weren't running an AI native, company. Was that part of the math? How did that play into that and then what you decided to do later?  
+
+Rahul Shivkumar (00:07:39) :  
+Yeah. I think a big part of the narrative of starting Dawn was this kind of shift from needing care in a clinic to being able to not just get like continuous care, but even diagnosis and things like that over telehealth, right? That was what happened in 2020 through 2021. What we started seeing in 2023 was actually people wanting to get back to in-person care. You know, they're like, hey, I've done this virtual thing. We want to actually see our provider in person. We want diagnosis in person. We want treatment in person. So I think there was a little bit of headwinds there. The classic public market example of that is Telenoc. If you look at their stock, the pop in 2020, 2021, and then the kind of fall in 23, I think was probably the best signal for what was happening in that market. AI wasn't a huge reason either way for us like exiting or continuing our business. I think it was very nascent in 2023. GPT3 had just come out.  
+
+Pablo Srugo (00:08:33) :  
+Yeah, we were all scared that AI was going to take over. I guess some people still are, but yeah, that was a big thing back then, right?  
+
+Rahul Shivkumar (00:08:38) :  
+I think like it was able to do like summarization well. It was able to generate text somewhat well, but it was like fairly obvious that like something was AI generated and something wasn't, which I don't know if that's true anymore with these newer...  
+
+Pablo Srugo (00:08:50) :  
+Getting less and less true, man. Opus 5.5 is pretty crazy.  
+
+Rahul Shivkumar (00:08:53) :  
+Oh man, it's getting less and less true for sure. So I think the thesis of Assured was actually built around GPT-3, which was like, hey, if you believe that the next version that's going to come out is going to be a step function from what GPT-2 to 3 was, all of a sudden, the old school like robotic processing automation and some of these other browser automation tools that were built, like it was like pretty obvious that they were going to be far in the past, right? Like the new capabilities were going to be significantly better. So the bet on Assured was, hey, where we had people doing things, you're actually going to have models that can reason, think like a human being and then actually be able to complete tasks end-to-end, right? Without needing a human in the loop or an engineering team to constantly kind of like tweak things, which is what the UI paths and the RPAs and all of those were in the past, yeah.  
+
+Pablo Srugo (00:09:44) :  
+You sold it in 23, like early 23, mid-23, when was it?  
+
+Rahul Shivkumar (00:09:46) :  
+We were mid-23.  
+
+Pablo Srugo (00:09:48) :  
+And did you have to stay there for an amount of time working after you sold it and you kind of moved on?  
+
+Rahul Shivkumar (00:09:52) :  
+We were there for a little bit, mostly through like a transition period, but our plan wasn't to stay on it, yeah.  
+
+Pablo Srugo (00:09:58) :  
+So what I want to go a bit deeper on is like once you kind of do that transition, whatever, now it's like second half, late 2023, were you like already preset, we're going to obviously start something new just no matter what? Did you guys start thinking, like how did that, how did you get from there to, okay, we're launching a short in March 24?  
+
+Rahul Shivkumar (00:10:13) :  
+Yeah, both Varun and I actually took a little bit of time off and by time off, I mean maybe like three or four weeks where we were like, hey, we're not, we're not going to talk about work or maybe not even like going to like talk to each other that actively about anything other than sports or, you know, nothing work related. And the main reason for that was like, I think both of us wanted to really think through, hey, one, do we actually want to go do another company, right? Like I think the, Don was like the, obviously the first company that we did and it was a reasonably like intense like experience, right? So it was like, hey, are we, are we ready to go do this again? Do we maybe want to look at even industries outside of healthcare? Do we want to, you know, like interview for jobs, right? Like I wanted to kind of like have all options open and like truly think through like, hey, what was it that I wanted to do next up? And I think when we reconvened, it was, it was sort of funny that we both came to the same conclusion, which was like, there were a set of problems that I think we understood really well because we did Don and it makes sense to like kind of double down on, on knowledge that maybe we had that other people didn't have. It seemed like that there was a huge technology wave that was about to happen. I actually think we were late. It had already kind of like started happening with GPT-3. Like, so all of those led us both to the conclusion that we should stay in healthcare. We should start a company around, you know, this new wave of technology that's enabling value creation at maybe a level we've never, at least I haven't seen in my like career before. It kind of made sense to go do another company.  
+
+Pablo Srugo (00:11:36) :  
+And how do you get from that to the specific problem you chose? What did you do? Like a rigorous, like here are all the problems that we've noticed, which ones we go after? Was it more of a gut instinct that led you to just the specific thing you're solving?  
+
+Rahul Shivkumar (00:11:47) :  
+We did a couple of things. I think we did a, what are things we know well that maybe other people don't know? And then we did another market sizing, right? Which I think is the, is a classic thing they teach you. Neither Varun or I went to business school, but it's a classic thing they teach you in business school, right? Which is like, hey, look at the TAM, look at this, look at that. And I actually think we did this thing where we followed, I think, like Peter Thiel's like recommendation from way back in the day, like in, I think one of his books, Zero to One. He had this thing where it was like, hey, you go chase like the really big market, which in our world is like in healthcare, it's like revenue cycle, right? Where there are tons of companies doing that. It was like, it's going to be like very competitive and if there's a technology shift, like incumbents are going to, are going to try to like capitalize on it the most, right? So it was a little bit of like, hey, what's actually like maybe a space that's not very competitive where we have a lot of knowledge, but we think is adjacent to a bigger market or is in a growing market, right? And for us, it felt like the front door of RCM, which is what we're doing today, provider onboarding, credentialing, peer enrollment, felt extremely underserved. It felt right for disruption. It felt like we understood it really well because this huge problem we had.  
+
+Pablo Srugo (00:12:59) :  
+And when you say the entry door, so RCM, like revenue cycle management, this is how like all the billing works, right? Like you go in, you see a doctor, doctor goes out, bills you, but the way that the insurer actually pays that doctor later, that's kind of RCM?  
+
+Rahul Shivkumar (00:13:12) :  
+Correct. And it's very complicated, right? Because there are all kinds of rules when it comes to revenue cycles. So I could go into, as an example, I live in New York City. So if I went into Mount Sinai and I had a primary care physician see me, my particular rule set might be the insurance company will pay 75% of what's due, but I, Rahul, have to pay 25%. So the revenue cycle department has to have these rule sets of like, I have to collect $25 from Rahul, I have to collect 75 from Blue Cross, they have to pay me out like this way on this date. And like, you can think of that for complicated procedures, for different insurance companies, different types of plans, HMOs, PPOs, it gets very complicated very quickly. So that's the big elephant in healthcare, right? When you look at where a lot of the dollars go into, it's like on the revenue cycle side.  
+
+Pablo Srugo (00:14:01) :  
+But your point was that that part of it was very saturated, a lot of big players in there. The first step is you got to get a doctor onboard it so that the whole RCM stuff can start. And that's where you decided to kind of begin your journey.  
+
+Rahul Shivkumar (00:14:14) :  
+Exactly. Yeah. And it was a problem that again, when we evaluated solutions at Dawn, this is not something when you're running a clinic, you want to build in-house, right? Like, these are things that if you could buy versus build, you'd always pick kind of like buying. And on the revenue cycle side, there were a lot of good solutions that we could buy. But on the kind of like provider onboarding site, there weren't any. Like, we actually have to staff people internally for it.  
+
+Pablo Srugo (00:14:39) :  
+This is a tangent, but because you touched on it, like, build versus buy. That's just changing in such a big way. I don't know that anybody has the answer, but because you just mentioned it, you said this is not something that people would want to build. And in the past, I was just thinking face value. Why wouldn't people want to build this today? And obviously, maybe some people are not tech forward, these sort of things, but like, assume all this stuff gets easier, cloud code gets easier, more, it penetrates more, like, why not?  
+
+Rahul Shivkumar (00:15:04) :  
+Yeah, it's a great question. I was referring it to a time when we didn't have this tooling, so no sense to build at all. I think right now, there's an argument for maybe some of these workflows it will sense to build. But the big thing, I think, with a lot of these AI agents that are promising outcomes, right, that are telling you, hey, we can get a resolution. As an example, I think there's a bunch of customer support tools that say, hey, we want to build you by resolution because we're very confident. I think to have that level of confidence, there's a lot of evals running in the back end, but there's a lot of edge cases being tested. I think going from zero to 80%, cloud code makes it significantly better. But the last 80 to 100 is where I think a ton of the value is today, right? Like, for us, if our enrollment workflows were only 80% accurate, like, one out of five of your doctors wouldn't be a network, right? Like, and that is a large amount, right, for an organization that could rack up in missed revenue very, very, very quickly. So I think, like, we, like, from the size of our engineering team as an example, like, we need that many people to make sure that what we're building is actually tested for edge cases. We're constantly updating it with edge cases that are coming in. And as new models come out, we're evaluating what are they specifically good at, what are they not good at, right? Like, we're constantly testing these things that I think in very, like, high, reliable, like, systems, like, the build option is so difficult because you have to account for a lot of the edge cases and a lot of, like, the last percentage, like, accuracy that you need.  
+
+Pablo Srugo (00:16:37) :  
+And so maybe related to that, like, when you do decide to launch in March 24, or is that when you launched or is that when you started working on this?  
+
+Rahul Shivkumar (00:16:44) :  
+We were working on it lightly through kind of, like, I'd say, like, late 23, like, winter break, like, November, December, like, the holidays we were working on it. And then our first couple of customers committed in January were like, okay, let's sprint. And then I think March is when we, like, incorporate it officially and we had, like, the first build of the product.  
+
+Pablo Srugo (00:17:02) :  
+And those customers were customers you had before from Dawn? Like, you knew them?  
+
+Rahul Shivkumar (00:17:06) :  
+They were friends that we met through Dawn. They were building similar types of businesses to Dawn. Yeah.  
+
+Pablo Srugo (00:17:10) :  
+I think that's one of the advantages of, we talk a lot about, you know, moats these days, right? And we think a lot of it obviously is BTs and it's like, one of the big ones is domain expertise has always been one, right? But when anybody can build anything, distribution just kind of jumps up, I think, in terms of importance and that's just one, it's a small example, but it's, why do you get customers faster? Why do you get more customers than the next person who has, the next company I should say, that has a similar product, right? Well, if you're from the space and you can get, people will trust you and you have built-in credibility, then it just helps you, right? Get those customers before you even have anything which helps you iterate faster, which helps you get the next feature faster, which helps you get the best product and now it's like, okay, I have the best product and the best distribution and it just becomes this execution mode more than anything more fundamental.  
+
+Rahul Shivkumar (00:17:53) :  
+Totally. I think distribution has always been king. I think that's like more so true now than ever,  
+
+Pablo Srugo (00:18:00) :  
+tell me a bit about V1. Like, how do you scope it out? Because you said yourself, this can't work 80% of the way and I agree, by the way, like building with, as we all do with quad code these days, you know, the thing you get at first is so easy to get but the thing that is production grade, whether that's production to customers or production as an internal tool, that's where you spend most of the time but at the same time, you need to get something out fast, right? So how do you scope it so that you give something that is 100% even though maybe it doesn't do everything?  
+
+Rahul Shivkumar (00:18:24) :  
+I think for us, we focus a lot on human in the loop to close some of these workflows, accuracy on workflow X, right? Let's have a human on our team or on our customer's team depending on the model in which we work with them, like check that off before the work actually went out and any changes that were required kind of went back to us in two forms. One, feedback for the engineering team and then also feedback for the kind of like agent itself to like improve, right? So I think human in the loop is very underrated, right? Like I think YC had this old thing which was like, hey, initially your backend can just really be people, right? Like where the fulfillment and things like that are actually being done by people and then you figure out ways to automate it. I think we're lucky today where some of the tooling has gotten significantly better that the first version of your product can look like something like 60% done by AI and then 40% done by people, right? And then you're trying to like narrow that gap of like how can I go to 80, 20? How can I go to 90, 10? Like how can I keep the reliability really high while increasing that like ratio? But I think human in the loop is very, very underrated.  
+
+Pablo Srugo (00:19:30) :  
+So even your V1 actually was able to deliver onboard doctors very fast at 100% accuracy rate. The only drawback was you had to put humans in the loop to kind of make some of this thing work.  
+
+Rahul Shivkumar (00:19:41) :  
+Correct. So maybe our margin structure looked different than it does today, right? Or the way to scale was harder back than it is today because again, there is a balker of a human needing to sign off on some of the workflows and maybe it wasn't as faster as it is today but that accuracy thing is something we had to guarantee, right? Like if it wasn't as close to 100% as possible, no one wanted it, right? They're like, you could give it to me super fast, super cheap but if it's only 80% accurate, we don't want it.  
+
+Pablo Srugo (00:20:05) :  
+How many doctors do you need to be hiring for this to even be a problem for you?  
+
+Rahul Shivkumar (00:20:10) :  
+Yeah. So it's not just doctors, right? It could be therapists, it could be dieticians, it could be physical therapists.  
+
+Pablo Srugo (00:20:16) :  
+Any health practitioner.  
+
+Rahul Shivkumar (00:20:17) :  
+Exactly. So the spectrum kind of gets really large and post-COVID there's this trend of providers working at multiple practices, right? Like working in a 1099 capacity across four practices, five practices. So you actually see people, even if Practice X has 100 providers, for them to stay at 100 from one year to the next, they've probably had 15 people leave and they've added 15 people, right? So there's always consistent turnover just to stay at the current level.  
+
+Pablo Srugo (00:20:46) :  
+Is that that big of a deal? That's like one a month, like whatever. Somebody does it, takes an hour or two, you know, big deal. Or is it worse than that, more painful than that?  
+
+Rahul Shivkumar (00:20:53) :  
+It usually ends up being more, right? So I think it depends on kind of the type of group. So if it's a group where each provider actually has to be licensed in multiple states, right? They're seeing patients over telehealth for 30 states. And in each of those states, they have to work with four insurance companies. That becomes, for every provider I hire, there's actually 120 insurance workflows that I have to kick off, right? That can suddenly start stacking up a lot. Like even if I hire two providers a month, it might be 250. And then I need one full-time person just doing that, right? So it can like quickly stack up depending on the way the organization works.  
+
+Pablo Srugo (00:21:28) :  
+Walk me through, like actually, if you don't mind going deeper on that, like the ROI of it, right? So like if somebody spends, what's your ACV today? Let's say it's 100K? Is it more?  
+
+Rahul Shivkumar (00:21:36) :  
+Yeah, it's in the six figures, yeah.  
+
+Pablo Srugo (00:21:37) :  
+So let's say it's 100K. Like maybe you could do it at the unit level, you know, per doctor. Like how much time does it take to onboard a doctor? Therefore, how much does it cost? Versus, you know, using a shirt, like whatever, however you do the ROI math.  
+
+Rahul Shivkumar (00:21:49) :  
+Totally. I'll take maybe a specific example of like a dermatologist, right? And the reason I'm picking them is because each day they're kind of sitting on a bench, they're actually losing out on a lot that they could be billing, right? Like that becomes a reasonably important factor, which is, hey, if I am a professional that bills a lot every day, like $5,000, $10,000 a day, right? Then if I'm delayed by 20 days, my organization is missing out on $50,000, right? There's like a top line ROI that they're missing out on. And then on the back end, if I have to submit 120 forms, I have to follow up every week, either over a phone call or an email for these 120. And I have like an error rate of 5%, right? Like where maybe I like typo something or I miss a phone call because, you know, I'm out of office for a week. That could cause delays. That adds up to the number of days that I actually can't see a patient, but also it adds labor costs where there's a person on my side that has to do all these things, right? So when we think of ROI, we think of it as a combination of two things. It's one, can we activate your provider faster in these days? Can we get you 10 more billable days, 20 more billable days? How many providers can we do this for?  
+
+Pablo Srugo (00:22:58) :  
+Yeah, that's the question. How much faster do you typically get people onboarded?  
+
+Rahul Shivkumar (00:23:01) :  
+About 30% faster right now.  
+
+Pablo Srugo (00:23:03) :  
+And usually it's what, 15 days down to 10 days or what's the normal?  
+
+Rahul Shivkumar (00:23:07) :  
+It varies so much across every single state, but if I were to take like an average time, it probably goes down from like about 90 days to 65, 60 to 65.  
+
+Pablo Srugo (00:23:17) :  
+Okay, so you're getting somebody like 30 more billable days.  
+
+Rahul Shivkumar (00:23:19) :  
+Exactly. Yeah, and again, for specialties, it differs, in states it differs, it's such a hard thing to quantify, but I think when we sampled our data across every single specialty, every single state and insurance company came out at about 30%. We have tens of thousands  
+
+Pablo Srugo (00:23:34) :  
+of people who have followed the show. Are you one of those people? You want to be a part of the group. You want to be a part of those tens of thousands of followers. So hit the follow button. You know, I wanted to get to that because I was trying to figure out like, where's the pull? Why is there so much pull here? And when you think about, there's the back office side, right? The labor that it takes. You're like, okay, I get it. There's a person doing that, maybe many people in a big organization, but like how much can that really cost, right? And then you spend a hundred K on something else. It's like, but once you start talking about revenue and revenue generation, I always find if you can have a real claim to more revenue, it's just so appealing. Every business wants to make more revenue, whereas not every business wants fewer costs. Like in theory, they do, but if it means firing someone, I don't know, right? It can mean all these implications that it's not, whereas we can give them more revenue, like it's a no brainer, right? By decreasing the delay, like from 90 to 60, you get somebody 30 more billable days. And you're talking about, let's say 10,000 a day, which is like obviously on the high end. That's 300K times the number of doctors. If it's on the low end, maybe it's 30K times the number of doctors. 10 doctors a month or back to 300K to $3 million that you're making from them every month. That is something that's hard to say no to, right? Whereas it's a lot easier to say, I know, you know what? Johnny's been working here for like five years. I don't want to fire Johnny. And like, you know, yeah, maybe Johnny could do it in half the time, but what's he going to do without the half time? Like whatever, you know, it just becomes a little bit more questionable. I don't know if that's true. That resonates. That's just my kind of on the outside looking in. I feel like reducing that delay and getting them more revenue feels like a pretty crazy ROI.  
+
+Rahul Shivkumar (00:25:00) :  
+Yeah. That argument works super well for one segment of our ICP. You'd be surprised actually for another segment of our ICP actually doesn't land at all. Interesting. Where they go, hey, look, we have enough providers where getting them in faster doesn't really matter that much for us.  
+
+Pablo Srugo (00:25:16) :  
+Because it doesn't translate to revenue. Correct. Okay. That makes sense.  
+
+Rahul Shivkumar (00:25:19) :  
+You want to be like very careful. Like this is one thing like we've pushed so heavily on our go-to-market team, which is like really, really, really understand like why a buyer would want a shirt, right? Like this revenue argument makes total sense, but they might come back and say like, look, we don't have enough patient demand as an example, right? So what we're doing is we're just pushing more of these patients to an existing provider. So even if it takes 30 more days, that's not a lot.  
+
+Pablo Srugo (00:25:45) :  
+We're not losing much.  
+
+Rahul Shivkumar (00:25:45) :  
+Correct. And then that just falls on its face. And you basically like blown that deal, right?  
+
+Pablo Srugo (00:25:51) :  
+And then why would they buy you though? If they don't need them to come in faster?  
+
+Rahul Shivkumar (00:25:54) :  
+What they come in then is like, hey, look, we're going to hire another 300 providers this year, right? Our current like onboarding team is like five people. They're coming and telling me that I have to hire four new people to hit these targets. I don't want to spend that much money in FTE costs. I don't want to grow my FTE team. I like the team that I have. I don't want it to grow. Can I scale on Assured with just those five people? Right? And typically our solution comes out to about a third of an FTE or your entire like FTE talent that you're allocating towards it. So if you're saying I need to go hire three more people to do it, pricing of Assured is probably just one person. So they're like, wait, if I can scale at just like one third of the cost, like I'm very open to it. And I think there's a lot of tailwinds in healthcare for cutting down costs.  
+
+Pablo Srugo (00:26:41) :  
+Do you find that they're talking about tailwind that people are already more kind of prone to looking for these sort of things because they feel like, man, I'm hearing so much about AI. I'm hearing so much about automation. Seems stupid for me to double my count to do this kind of manual like tasks. I should be looking for AI. Is that, do you find that that's a tailwind for you as well?  
+
+Rahul Shivkumar (00:27:01) :  
+I think we've been super lucky. This wasn't intentional at all when we thought of building Assured as a business. But one of the things we realized early on and actually the first version of the product and the first version of the messaging that we put out, we didn't talk about AI at all. We were just like, hey, we'll help you like, you know, like get providers billable faster and like how we do it doesn't matter, right? Like, because we're going to be able to do it. When we started getting like prospects hopping, I recall being like, do you use AI? And I was like, why does that matter for you guys? And like, they're like, wouldn't it matter like a year ago?  
+
+Pablo Srugo (00:27:31) :  
+When is this, by the way? When you feel you're starting to get that stuff?  
+
+Rahul Shivkumar (00:27:34) :  
+This was like late 2024, mid to late 2024.  
+
+Pablo Srugo (00:27:37) :  
+Okay, so it's been a while. Okay.  
+
+Rahul Shivkumar (00:27:39) :  
+August, September of 2024 is when we were like, wait, people are like asking like these specific questions and I highly recommend by the way, all your sales calls like record it. Have Firefly's in there. Like obviously, you know, Firefly's app.  
+
+Pablo Srugo (00:27:52) :  
+I don't know who's not doing that right now. I was crazy for you.  
+
+Rahul Shivkumar (00:27:55) :  
+It's a good repository of information, right? In isolated cases, it's hard to detect a pattern, right? We as an example, every week, I have a Grockbot that summarizes like our sales calls and it just spits out to me and the product team. These are things that customers are talking about. Existing customers and new customers, right? So one of the patterns that we saw there was like people kept asking, like, you know, how are you using AI under the hood? And another pattern they kept talking about was how they had actually deployed something like a bridge, right? Like a scribe, right? An AI scribe in their office and how patients loved it because the doctor was paying attention to them. They weren't taking notes. Doctors loved it because they didn't have to type and kind of look at their patients over their shoulder and talk to them. And the administration loved it because they didn't have to hire more human scribes. It was a lot cheaper. So they were like, we deployed that and we loved it and now we're just looking at other places we can deploy AI to bring costs down. So it's almost like a trend that you're seeing across. Yes. It's still happening today, by the way.  
+
+Pablo Srugo (00:28:53) :  
+Do you think that's growing still? Yes. You got to assume that every business owner, every business manager is getting pressure from themselves and from outside to guys, how are we leveraging that? What are we doing with it? Everyone's talking about ROI with AI. You know what I mean? And so they're just looking like, how can I bring AI into my business? And if you're somebody selling AI for a specific vertical, you get to basically ride that. And obviously, there's got to be real ROI behind it, but you're riding that tail when you're meeting customers where they are just by the fact that you're selling AI to health clinics.  
+
+Rahul Shivkumar (00:29:23) :  
+And one of the things that we've actually told our go-to-market team is ask the customer. Ask them, hey, where have you deployed AI so far and where have you seen ROI? And that actually starts the conversation off on such a positive note. Right?  
+
+Pablo Srugo (00:29:37) :  
+Yes, right.  
+
+Rahul Shivkumar (00:29:37) :  
+Hey, I did this and it works super well. And then you're kind of like, imagine if you do the same thing but in your back office for this workflow and like threading that needle of like, hey, like this is a value you can see from this when they've already seen value somewhere else is so much easier than starting from scratch.  
+
+Pablo Srugo (00:29:53) :  
+You got to find like the AI-pilled person in that org. Like just go find that person and they'll break through walls for you.  
+
+Rahul Shivkumar (00:29:59) :  
+Totally. And there are AI-pilled people even in super like, I'd say like, non-tech.  
+
+Pablo Srugo (00:30:04) :  
+Of course, because the consumer AI is so widespread. Yeah, it makes sense. And it's only getting like with Muse now, Instinct, like all these things, they're only just going to push the envelope more for people to see just what's possible, right? And then they start imagining for their business.  
+
+Rahul Shivkumar (00:30:16) :  
+Totally. And like, I wish I could go back to early 2024 and tell myself like, just lean, just lean fully into it. Like, and I think we'd have had a lot more success early on. Yeah.  
+
+Pablo Srugo (00:30:25) :  
+So how did things go? I mean, just getting through the story, like you launched this thing early, mid 2024. Like what was that original pull? Like how fast did kind of growth come?  
+
+Rahul Shivkumar (00:30:33) :  
+Yeah, we were lucky again that I think we have a little bit of a network where we found like our first customers. Word of mouth was super useful. People were using it and they were telling their friends. Their friends are like, hey, this is like interesting. If I remember correctly, there was a YC guide for healthcare companies. Like how to kind of like get started and like one of the infrastructure companies that were, that was recommended there was us. We were not a YC company, but I remember people telling us, oh, I found you on that whatever internal facing resource. So little things like that helped a lot. I think staying very close to your customers, building a relationship where they're actually referring you to other customers was a super useful way of growing back then. The two customers that I told you about and that sign even before we incorporated, they're still customers today. So nice.  
+
+Pablo Srugo (00:31:18) :  
+How quickly did you hit like a millionaire R?  
+
+Rahul Shivkumar (00:31:20) :  
+It took us about 12 months. Like it took us like an entire year to get to a millionaire R. We had a like early 2025 was when it kind of like truly took off. Like that first quarter of 2025 is where we saw like, hey, two experts. And they're like, wait, we're like a millionaire R. Yeah.  
+
+Pablo Srugo (00:31:37) :  
+What happened? Do you know?  
+
+Rahul Shivkumar (00:31:38) :  
+Yeah. I think it was a little bit of like reputational gain. It was a big dermatology practice that signed with us. It was our biggest contract at the time. And then we kind of used that name to get a couple more dermatology practices. And we're like, oh, wait, we're this is like such a good vertical for us. Right. And that's another thing within health care. Like a lot of a lot of it is specialty based. So if we close like Mount Sinai as an example, and we went to the largest private equity backed dermatology practice, like that logo doesn't mean anything. Like Mount Sinai doesn't mean anything. They're like, oh, cool. That's like totally different. It's almost like you're it's almost like going and saying, I work in FinTech. Now I'm trying to get like a health care customer. Right. So it's very like specialty focus. And that was a big learning lesson for us. It was like, hey, every time we try to go after a new specialty, like get the first logo as quickly as possible, even if it's a small one, even if the deal terms aren't like super ideal, like that first customer like unlocks an entire like specialty for us. Yeah.  
+
+Pablo Srugo (00:32:40) :  
+It's interesting to think about and I haven't figured it out, like, but what are the products where being super hyper verticalized, which is kind of what you're talking about? You're already in a vertical because you're selling to health clinics, but you're talking about hyper verticalized where it's like dermatology versus, you know, hospital versus this, versus that, where it matters and where it doesn't matter. Right. Like there's obviously many products that are very horizontal. Right. Like you look at the CRMs as an example, the old school, you know, Salesforce, HubSpot. And it's like, there's some verticalized CRMs like Surge Titan, whatever, but it's like, does it really matter? Do customers really care? It sounds like in your case, they do really care. easier than even if the product doesn't change that much, you know, if you'd had Mount Sin or whatever, as you said, but I don't know what the answer, I got, I've just, I always wonder to myself, like, because obviously we meet a lot of founders. It's like, you know, okay, yeah, you're verticalizing. Is that truly competitive edge that you're super verticalized or is actually customers don't really care? It's, you know, whatever, they'll buy whatever they need to buy.  
+
+Rahul Shivkumar (00:33:33) :  
+I think it totally depends on the type of buyers, right? My guess is, you probably see this even in the companies that are selling AI to like any sort of like SMB businesses, right? Like maybe they're selling it to certain types of like retail stores and then they're selling it to, you know, like health focus retail stores on one side and then like, maybe it's like clothing brands on the other, right? Like I have a feeling that even there, the social proofing actually is becoming more like narrow. It's like, okay, you're saying this worked for a retail store, but does it work for like a clothing brand like me that has like a retail store? You know, like does it work specifically for me? I think my guess there from what we've seen in healthcare at least is what matters a lot. Each of them thinks their vertical is like extremely special, right? It's like, hey, the dermatology is so unique, right? Like orthopedics is so unique even if like a large portion of it is an overlap, like when they think of social proofing, they think of themselves in a smaller cohort.  
+
+Pablo Srugo (00:34:27) :  
+Perfect. So let's move to the kind of the tactical, right? Like super high value pieces, right? So the first thing I want to talk about is two of them is on the BDR side. So on the BDR side, it got really popular for a while to do these kind of AI, you know, BDRs. They'd go out, they'd do everything, right? They'd find a list, they'd go, they'd reach out, et cetera, et cetera, and kind of like book you demos. In some cases, like, I mean, they're still, I mean, it's still a thing, by the way, and they're like, maybe they'll do the demos for you. Like, that's the next piece. You never kind of went down that way, right? You went down the full human BDR route. How did you structure it? And also, like, how did you start create it? How did it work? Why'd you do it? I mean, tell me a little bit about that.  
+
+Rahul Shivkumar (00:35:01) :  
+Yeah, we looked at the AI BDR solutions at the time, and I think the interesting thing we found, at least in our space, is the old school things like cold calling works really well in healthcare. People pick up the phone because a lot of transactions still happen over the phone in healthcare, so if someone's getting a call, they assume, hey, it could be an insurance company or someone reaching out, so the pickup rates are a lot higher. They're actually, what we're seeing is our pickup rates are close to about 8%, which is like really, really, really high. I think I've heard in other industries it's like closer to like 2% or something like that, so it's like 4x, right? And whenever you see signals like that, it's like, wait, that medium is all of a sudden so much more effective in my industry than it is in other industries, so maybe we shouldn't take a lot of what people in those other industries are saying as like gospel, right? Like we should actually question it because we're seeing data points on our space that show that this could be a better medium. I think we did that pretty well. Like we questioned a lot of, I think, like popular beliefs at the time, which was like, hey, you can automate this, you can have hyper-personalized emails, you can do this, you can do that, and I guess it came down to like, if everyone did it, it's going to get saturated, right? Which you've seen in everything, right? Like the early days of Google Ads, like the few people that advertised a lot were capturing a ton of value and then CPCs and everything went up because everyone was doing it, so I think that was one part. The second was like really understanding like, hey, what is so unique to not just the industry we're in, but the ICP that we're in, right? Like our ICP picks up the phone, right? So like, are these AI SDRs really good on a phone call? No. Right? Like it was like so obvious early on that it sounded robotic and people were hanging up and they were actually getting like really pissed off. So I think that the decision of not going forward with it was solely based on that data point, right? It was like, hey, 8% pickup rate, they're not doing well on phone calls, let's hire people, right?  
+
+Pablo Srugo (00:36:46) :  
+What about now? Like do you still have the same kind of outbound calling motion? Yeah. So tell me about, yeah, the setup now, like how many BDRs do you have? How many calls per day that I have to do? Like what's the whole setup?  
+
+Rahul Shivkumar (00:36:55) :  
+Yeah. So we have six BDRs. They're probably averaging somewhere between 150 and 200 calls a day.  
+
+Pablo Srugo (00:36:59) :  
+With an 8% pickup rate. So they're doing about like whatever, 20-ish calls, actual calls.  
+
+Rahul Shivkumar (00:37:04) :  
+Exactly. So they're talking to at least 15 human beings every day, right? Times five. So that ends up being quite a bit of shots on goal where you're actually talking to a person. On average, our BDRs book about like two meetings a week. It's like close to 1.9, I think is like the average or something like that.  
+
+Pablo Srugo (00:37:22) :  
+So it's kind of a 10% first call to demo book ratio. Yes. What's the show up rate on those demos?  
+
+Rahul Shivkumar (00:37:28) :  
+The show up rate is about like 80% or so.  
+
+Pablo Srugo (00:37:30) :  
+Oh, wow.  
+
+Rahul Shivkumar (00:37:31) :  
+And there's like obvious things you can do, right? On the call being like, did you get the calendar invite? Great. Are you confirmed for this? And then the day of like send them a text being like, hey, this is me. I know we have a call.  
+
+Pablo Srugo (00:37:40) :  
+Was that ever an issue though? Like have you, have you through that increased the show up rate? Yeah. Well, how low was it?  
+
+Rahul Shivkumar (00:37:44) :  
+I think, I think the lowest of was was like 60-ish.  
+
+Pablo Srugo (00:37:47) :  
+Okay. So it was still decent and you got, you went from 60 to 80. Yeah. That 60 to 80 was mainly optimizations around calendar invites, you know, reminders, et cetera, et cetera.  
+
+Rahul Shivkumar (00:37:56) :  
+Correct. And then not booking a meeting too far out, right? Like there's, there's a lot of basic like hygiene I think you can optimize on once you figure out a medium is working pretty well.  
+
+Pablo Srugo (00:38:05) :  
+I mean, there's people that have way worse show up rates, like 20, 30%. I'm just, I don't know if you, given that you didn't experience this, maybe you don't know because what you could have is, you know, instead of booking 10%, you book 20%, but half don't show up. You know what I mean? Like a lot of people actually face that problem. Are you doing anything in those calls, those first calls to just make sure that the people that book are kind of clearly intentional and really actually want to speak to someone?  
+
+Rahul Shivkumar (00:38:26) :  
+Yeah. I think we're very good about the lists of like, we've honed in very well on our ICP, right? Like, and I highly recommend that by the way, like rather than spray and pray and talk to everyone in an organization, for us, there's probably in an organization of 200 people, only five people that really matter. You know, you go too high as an example, when you start off, if it's an organization of 200 people, you're trying to get the CEO on a phone call, he's going to no show, right? Even if you book him on a thing, he's like, it's just like not something that like the C-level gets on a cold call or a first call, right? Eventually, you want to talk to them. So I think you find a way to network to them, but there's like five people within the organization you really have to talk to and we've incentivized it that way, right? We're like, hey, this counts as a qualified lead if this person shows up to a call and these are like their titles, right? Like if it's going outside of that, like we, honestly, if you get the CEO on a first call, like we don't care, right? Like we want you to get one of these five people and I think that actually works super well because like when you incentivize smart people a certain way, they're going to follow those behaviors. Sure. Yeah.  
+
+Pablo Srugo (00:39:28) :  
+How, just taking a step back, actually, how do you build, what do you use to build a list?  
+
+Rahul Shivkumar (00:39:32) :  
+Yeah, so we're using, I think a lot of the obvious things. We're using Clay, we have like a master list of like healthcare organizations. We actually use the NPI registry too because all of our organizations have to register with a national provider identification number. So we've pulled that, we've enriched it using Clay, we've enriched it using Zoom Info. So I think the thing there that was very helpful was actually having a primary source, like something like a, like a Zoom Info as an example, but then also having a backup, right? If the Zoom Info number is wrong, like maybe you're using Apollo or something like that as a backup, you're not just giving up because one thing on contact information, you're actually using like a, Clay helps you use like the waterfalls, which is very useful, but we found that to be super useful too.  
+
+Pablo Srugo (00:40:14) :  
+And are you doing multi-touch like LinkedIn, email outreach, plus the call or just straight the call?  
+
+Rahul Shivkumar (00:40:18) :  
+Pretty much. I think the touches that really work well for us are the phone call works well, LinkedIn works well, and I think we do a lot of conferences. So we meet people in person, we send our BDRs to a lot of conferences. People told us not to do it, they're like, hey, send AEs, but BDRs, like their lists are so specific that they actually, like what we want them to know is like these companies like the back of their hand.  
+
+Pablo Srugo (00:40:41) :  
+Oh, do you hypervert why you should have asked that? So you have somebody calling just dermatologists, for example.  
+
+Rahul Shivkumar (00:40:45) :  
+We've tried that in the past, but we actually have like logos now typed to like BDRs, right? It's like, hey, you have this set of like thousand logos that could be dermatologists, it could be behavioral health, it could be other verticals. Okay. When we've tried to verticalize, our business does have more success in some verticals than others. So you're setting like an unfair.  
+
+Pablo Srugo (00:41:03) :  
+Yeah, okay, okay.  
+
+Rahul Shivkumar (00:41:04) :  
+You give someone behavioral health as an example, which is where initially we had a ton of growth. Now it's like,  
+
+Pablo Srugo (00:41:09) :  
+Right, they seem like the best BDR of all of them or whatever. Yeah, you just set them up for failure or success, I bet.  
+
+Rahul Shivkumar (00:41:13) :  
+And then other people are like quite frustrated. So we did that. Early on, we were like that. Now we've like normalized it a little bit.  
+
+Pablo Srugo (00:41:19) :  
+But that's not, that's the other question about volume. You mentioned, you know, a thousand logos. Like when you call everybody once, it takes you a week or two weeks, whatever it is you said, you know, 100 calls a day, 200. So what do you do after?  
+
+Rahul Shivkumar (00:41:28) :  
+Great question. So we want people to actually repeatedly call people. Don't just like give up after calling one person and they don't pick up. Like have them on a refer. And I recommend this too. Like just because you talk to one person at one time and they weren't interested doesn't mean three months later or six months later, three months is a little short. Six months later, they're not interested, right? Like healthcare is pretty cyclical where they might be on a contract right now. They might have another priority to start the year. But six months later, it's like, wait, this is now a priority for them.  
+
+Pablo Srugo (00:41:56) :  
+So that makes sense. I'd say six months, but walk me through the numbers. Like if you're doing 200 calls a day, I guess you don't talk to, but you only talk to 20 every single day. So you try them. You only talk to 20. Let's say it's 50 a week. Yeah. So what is that per year? What is that? 2,500? Is that right?  
+
+Rahul Shivkumar (00:42:10) :  
+And we try to tie it to conferences too. So if you're a BDR that's calling these logos of a high concentration of them are at a conference, go there. You know, like you hopped on a call with this person three months ago. You had a two minute conversation. Introduce yourself in person, right? The multi-touch thing works super, super, super well. Yeah.  
+
+Pablo Srugo (00:42:27) :  
+Walk me through that call. So they get, so they're calling whatever. They finally get someone. What is, how long are they supposed to be talking? A perfect call. You know what I mean? Like, what does that look like? What's the goal?  
+
+Rahul Shivkumar (00:42:38) :  
+I have learned that a perfect call doesn't exist.  
+
+Pablo Srugo (00:42:41) :  
+There you go.  
+
+Rahul Shivkumar (00:42:41) :  
+I have seen our BDRs talk for five minutes and book a meeting. I've seen them talk for 45 minutes and book a meeting. I think the worst calls are when they get very salesy. One of the things I think I talked about earlier that our AE team is doing that we've seen success with the BDR team is like actually, like asking the person, right? Like, hey, like, have you guys seen, like, I'm like curious, like, have you seen like success with any other like AI deployment, right?  
+
+Pablo Srugo (00:43:05) :  
+But how do you do that? So walk me through, because in a demo, I get those discovery things because the person's like intent, I'm showing up. Yeah, okay, cool. Got it. You call me cold, right? Like, how do you get somebody to not hang up? I mean, that's really the only thing that you're fighting against.  
+
+Rahul Shivkumar (00:43:20) :  
+Yeah, yeah, yeah. It's a great question. What have you deployed is actually way better in person.  
+
+Pablo Srugo (00:43:25) :  
+Okay, see, that makes sense. Yeah.  
+
+Rahul Shivkumar (00:43:26) :  
+We're just immediately pitching them on like, hey, Assured does this, Assured does that. On the phone, I think it's like, you know, generally be friendly. I've seen our BDRs talk about like the weather, you know, like, hey, there's a storm here and in New York, I hope you're staying dry, right? Like, and then honestly, just like getting to the point as quickly as possible being like, hey, very upfront, like this is like a sales call, but like I'm curious, like how you guys are handling something like this. Is this actually a problem? The comment I made about the deployment thing, if the conversation keeps going, right? Like where they're like, yeah, you know, we've looked at this. Credentialing is like, maybe like not in my wheelhouse. Like rather than just give up there, I think asking something like, you know, what have you deployed, right? And they talk about positive things.  
+
+Pablo Srugo (00:44:07) :  
+Yeah, that makes sense. That makes sense. But the engagement, I think of that cold call as how do you hook, right? Because once you've got hook and you're talking, then you're in a conversation. Somebody might say, listen, I don't have that much time, but at least like you've got them. So you're reengaging and you're asking these sort of questions, right? First, it's like getting to pick up, but then they pick up, you're like, get them to not hang up within five seconds because they're like, listen, I'm not interested, right? Which is why I do 99% of the time when I get a cold call.  
+
+Rahul Shivkumar (00:44:32) :  
+I have started actually like talking to people when they cold call me now because I'm like, there's got to be some kind of karma in the universe, right? Like I'll give them feedback. I'll be like, hey, honestly, you didn't get to the point quick enough. Some of them will take it. They'll be like, hey, thank you so much. Some of them will get like super defensive and they'll be like, hey, but you talk to me.  
+
+Pablo Srugo (00:44:49) :  
+You're doing God's work, man. You're a true philanthropist. Oh man. Okay. So that's the BDR piece. I think we went pretty deep on that. The second piece is kind of like just what's working. So this is all to get the demo, right? Like, okay, fine. You got the demo, great. You have high show up rates because you're targeting, like you said, the right people, whatever. So they're showing up with some decent intent. What's the goal on this demo? And what do you find is really working? And maybe tell me the other thing we talked about is quotas, right? How do you comp the BDRs? How do you comp the AEs? Maybe all of that, which is all tied together.  
+
+Rahul Shivkumar (00:45:18) :  
+Yeah, I think we comp our BDRs, you know, we do like a base and then we do like OTE. The OTE is tied to qualified leads that they bring in where the qualification is, and I highly recommend this, make the qualification extremely tight and precise. So at the end of every quarter, you are not going back and being like, is this qualified? Is this not qualified? The first BDRs that we had, I think a lot of it was debate. Should this be qualified? Should this not? I think now we have a very tight definition and that just helps us across the board.  
+
+Pablo Srugo (00:45:46) :  
+So it's a deterministic qualification. It's not even like you or the AE decides. It's just like is or isn't.  
+
+Rahul Shivkumar (00:45:50) :  
+Correct. Exactly. I mean, the AE has to get the customer to answer a couple of things, right? Like, hey, how many providers are you? Like, what are your growth plans? And if it doesn't hit a certain bar, it doesn't count as qualified.  
+
+Pablo Srugo (00:46:00) :  
+Got you.  
+
+Rahul Shivkumar (00:46:00) :  
+So there are signals that maybe aren't there online that you have to get on the call, but those have to be answered before it can be qualified. And I would highly recommend having a very tight definition because it lets you really know if you're going out for the right people or not. The other thing on the BDR site is we are obviously comping for qualified lead, not for a closed one, right? But I would track that. Often you will see things like, hey, a lot of cold calls, a lot of qualified leads, a lot of conference activity, a lot of qualified leads, a lot of pipeline. But at the end of the day, what matters is closed one revenue. So you might see a conference where, oh, we generated a million dollars in pipeline. And then 12 months later, that converted to a total zero, which actually tells me that maybe the ICP we targeted at that particular conference wasn't right or the messaging that we said wasn't right. Like, it gives you like a basis on kind of like diagnosing where in the funnel things are actually breaking. But you should track if your BDRs are actually bringing in revenue, not just pipeline. I think a lot of early advice I got was like, oh, pipeline, pipeline, pipeline. Pipeline's great. It's like obviously like a leading indicator of...  
+
+Pablo Srugo (00:47:03) :  
+Yeah, yeah. But it's one like, the only thing you can't make up is real money in your pocket.  
+
+Rahul Shivkumar (00:47:06) :  
+Correct. All pipeline is not equal.  
+
+Pablo Srugo (00:47:08) :  
+No, for sure not. Which actually raises the question, like, I know it doesn't seem fair, but like, why not comp the closed one? I mean, if you're spreading the leads across many different AEs, you take out the risk that you're just sending to a shitty AE that doesn't close, why not just comp the closed one?  
+
+Rahul Shivkumar (00:47:20) :  
+Yeah. So we have SPFs for that. So if it's a closed, there's an example. I don't know if we're doing it currently, but it was like 2x to qualified leads if it's a closed one, right? So you are incentivized to bring better logos. What we have found is when you comp it by closed one, like there is variability on the AE side. And I think you want your BDRs to almost immediately know if what their behaviors are.  
+
+Pablo Srugo (00:47:44) :  
+Yeah, if they want a win or not. Yeah, that makes sense. Quick feedback. Yeah.  
+
+Rahul Shivkumar (00:47:46) :  
+Right, correct. The feedback loop is too long because our sales cycles end up being, you know, two months or so.  
+
+Pablo Srugo (00:47:51) :  
+And what's the quota for an AE?  
+
+Rahul Shivkumar (00:47:53) :  
+AEs are comp by, we do 50-50. So like 50% base, 50% is commissions. The commissions are tight to kind of like revenue, right? We have accelerators and we're like, hey, if you overperform in a certain quarter, you get like a bump on that. It's like pretty standard. Yeah.  
+
+Pablo Srugo (00:48:08) :  
+But what's the quota? Like how much do they expect to close a year?  
+
+Rahul Shivkumar (00:48:11) :  
+Depending on like the seniority of an AE, I think like our like pure mid-market, I think they're expected to close about 1.2 million in ARR for the entire year.  
+
+Pablo Srugo (00:48:20) :  
+What's the number one thing that you're doing that you find is different or special or unique or just really working well when it comes to demo to close and onboarding? Like just that whole, you know, demo to getting true kind of, you know, retained ARR.  
+
+Rahul Shivkumar (00:48:33) :  
+Some people may not like this, but we actually try our best to do a ton of discovery before we even show a demo. And we found that to be extremely valuable. This used to annoy me a lot when I was on the other side, when I would demo products. When I'd hop on, they'd ask me 50 questions and I'd be like, I just want to see the product. What are you doing? And that's how we were running when Varun and I were selling and we had no sellers. First call, demo, show everything, right? But as we've become more multi-product, as we've started catering to more specialties that have their own unique edge cases and things like that, the approach of going in and just showing things actually backfires very quickly. Our ICP comes in and they're like, look, these five things matter a lot to me. But if your demo script is showing 18 things and you only touch the five at maybe the end of like the demo session, you've wasted their attention on the 13 things that don't matter and it ends up backfiring a lot. So we actually changed our process to do discovery, then demo after. Like never show the product until a few questions are answered. And then kind of what we saw there was like when we did show the demo, it was far more effective. Right? Like, oh, I get it. Okay, you've actually tailored a demo to me. Yeah.  
+
+Pablo Srugo (00:49:42) :  
+What's your demo to close rate?  
+
+Rahul Shivkumar (00:49:43) :  
+Our demo to close rate, I think, I'd have to go check our, from last quarter, it was at something like 40%.  
+
+Pablo Srugo (00:49:49) :  
+Nice. Yeah. Anything about 30%, I think, is your winning. And if you get to that 50% mark, I mean, it depends though on the ACVs. It does depend on the ACVs. When you're doing 100K, actually, you know, even 20% is actually not bad at all.  
+
+Rahul Shivkumar (00:50:01) :  
+I think when we started, we were at like 18 or something like that. Like when we were doing it the other way where it was like, hey, we'll just show a demo and then we'll do it. Like it was like 18%.  
+
+Pablo Srugo (00:50:10) :  
+But you ascribe that, a lot of that improvement to just doing discovery first and then demoing the right features.  
+
+Rahul Shivkumar (00:50:15) :  
+Correct. I think if you're a complicated product, I actually think this might be true of a lot of like AI native companies. I think if you're doing a forward deployed motion where like some of these workflows are reasonably unique for like a sub vertical or something like that, definitely do discovery before showing something generic. Yeah.  
+
+Pablo Srugo (00:50:32) :  
+Yeah. Makes a lot of sense. And then tell me about, okay, you close like the onboarding and deployment part for them to truly get the full ROI. Like what does that look like?  
+
+Rahul Shivkumar (00:50:40) :  
+Yeah. We have a forward deployed motion. So we actually, our team is split into BDRs, sourcing, AEs, kind of running the full lifecycle, closing the deals. We then have a deployments team specifically focused on deploying these agents and making sure the workflows are effective before handing over to our post sales team, which is what customer success, they leave renewals, expansions, and things like that. But I think what we've had to do is have a very, very, very specific deployment team. Every single customer actually touches now. Like we don't do anything where you go from sales straight to post sales. You have to go through a deployment period where you have someone that's really understanding your workflows. Even if you have like these templatized agents that work right off the shelf, we still try to find edge cases and stuff like that where we can customize for you.  
+
+Pablo Srugo (00:51:27) :  
+What's the number one thing you found, or it doesn't have to be the number one thing, but something you've found that works a lot when it comes to a deal that you feel should close, but it's just dragging, you know, and you just kind of, you got to get it over the line.  
+
+Rahul Shivkumar (00:51:39) :  
+Yeah, this happens to every company, you know, like, and I think like while we've done things to move it, it is still a frustrating thing, right? Like it's just like the nature of selling where priorities sometimes change. I think one thing we do is we track very deeply how many touch points a sales rep has with their champion, right? I think that's a very good indicator of how quickly a deal closes. So if a deal, as an example, is $200,000 and you assume it's going to take four months to close, 16 weeks, you have to have at least 16 touch points, right? You can even hop on a call for like five minutes and like just talk about, I don't know, your fantasy football team. But like when you build that level of depth, I think you earn the right to ask your customer, do you think this deal can close by a certain date? Because that's what you're going for, right? You're trying to close something within a quarter, you're trying to close something within a certain time period. I think you have to earn the right to ask your champion, hey, can this be done by this date, right? The way you get there, I think, is a couple of ways. One, building this level of like depth and trust with them where they're like, hey, we'll just get done, right? Like we've agreed on this, we'll just get done. The second thing we do is we actually use maybe like a weakness, which is like how long it takes to deploy as like a strength, right? Like, hey, you guys have this like perceived live date of when you want to go live with the shirt to get this ROI within a certain amount of time. Let's work backwards from that, right? Like if you have to go live January 1st and it takes us eight weeks to deploy, you need to sign by the end of October that we have November and December to actually deploy. Any day after that is going to move that like live date out, right? Like constantly kind of bringing that up actually helps a lot to you where the customer realizes like, hey, the urgency is actually on my side. Like I have to do this if I want to see value from this within a certain amount of time. So it's kind of like a combination of both these things really helps.  
+
+Pablo Srugo (00:53:27) :  
+I like both of them because I also think one of the things that's often missed when you're selling B2B is oftentimes like you're not selling to, you're certainly not selling to the owner. Like it's not, you're not thinking dollars. Like when you sell to a consumer, you're literally transferring money from somebody who's, it's my money and now it's going to you, right? Most of the times when you're selling B2B, you're selling to someone, it's not their money. And so they're not fully like adversarial in that sense where it's like they're taking money out of their pocket and give it to you. They're probably going to make the same salary anyways. They're going to have whatever money they have to spend on their own things. They're taking money from their business, right? And maybe they have a budget and these sort of things. So it's not like they just don't care, but it makes a big difference because oftentimes you can kind of flip it where it's both of you kind of against, if you want to think it that way, the enterprise and the system, right? And it's like, listen, you've already bought into Assured. You know, this is going to deliver ROI. You want to like look good and also like have an easier job or whatever it is that you want to get out of this product. Let's like work together to get you there, which kind of fills into all, you know, obviously that means building trust and also means saying, look, if you really want to get about October, if you don't, it's fine. We could do November, but if you really want to do about October, that's best for you. And then, so then, you know, they're really truly a champion in that way. And I think that's often kind of lost. I think people get it over time, but especially at the beginning, first time founder, especially like you forget that that's really what's going on.  
+
+Rahul Shivkumar (00:54:43) :  
+Totally. And even add in your first call, like that, that discovery call that you're doing, you should really understand they're not just like what they're looking for, but also their buying process. Does it have to go through legal? Does it have to go through compliance? Right? Like, do you need us to show like our security certificates or things like that? Like if you leave your first call not understanding that you actually have done a bad job. Wow.  
+
+Pablo Srugo (00:55:04) :  
+Perfect. Well, listen, let's stop it there. I'll ask the last question. Any piece of advice that you kind of feel like you give first time founders or even just early stage repeat founders a lot, like anybody that's kind of in that early stage finding product market fit, what's something that you'd want to kind of leave them with?  
+
+Rahul Shivkumar (00:55:18) :  
+Yeah. This one probably gets said a lot, but one of the things that I think we did really well was we did a lot of the jobs before we hired for them. Right? So as an example, like the BDR workflows, my co-founder and I were BDRs, right? Like we were doing some of that work ourselves. We understood what it meant to be good in that role. Maybe not great, but we understood what it meant to be good in that role before we hired for it. I think mistakes we've done on the hiring side have been hiring without understanding what that role is actually going to do. Right? Like a good example is, I mean, this may not apply super early stage, but later on you're hiring an executive. Investors will often tell you, go hire a VP. Right? But I think you really have to, and what is that VP going to do? And you almost have to do that job first before you can hire someone for it. And I think there's this general tendency to hire quickly and not do the unglamorous work, but I'd say like, do it so you can actually understand it really well. You can understand why you should have a human BDR and serve like an AI, right? And like double down on those decisions.  
+
+Pablo Srugo (00:56:17) :  
+Perfect. Well, Rahul, thanks so much for spending time, man. You've been amazing.  
+
+Rahul Shivkumar (00:56:20) :  
+For sure. Great. Thanks for having me. Listen,  
+
+Pablo Srugo (00:56:22) :  
+when you go to like a restaurant, you eat a nice, you know, meal, maybe a fancy one, maybe not. Do you leave a tip? I assume you probably leave a tip. You probably leave a tip 100% of the time. Well, guess what? A review is just like a tip. And I know you haven't been leaving one. So just like the waiter that doesn't get a tip after hours of great service, I'm getting a little frustrated. So take your phone out and leave a review. It helps the show move up rankings. It helps us get better guests. It doesn't just help me. It helps way more founders. Thank you.

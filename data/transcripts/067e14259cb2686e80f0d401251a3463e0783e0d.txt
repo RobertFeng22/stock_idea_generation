@@ -1,0 +1,231 @@
+Support for the show comes from Jira by Atlassian. Your work lives in scattered places, and it's not only your team searching for context, your AI agents need it too. Jira taps into Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through Atlassian MCP. Learn more at jira.com.
+
+That's jira.com. Hello, and welcome to the VergeCast, the flagship podcast of Motion to Photon Times. I'm friend your David Pierce. And today on the show, what is going on with game streaming? And can Grand Theft Auto six fix it for us?
+
+But first, here's everything else happening on The Verge today. This is ninety seconds on The Verge for Monday, 11/02/2026. SpaceX has its sights set on becoming a major mobile carrier, and the Washington Post reported this morning that SpaceX is looking at buying Boost Mobile to get there. I'll be honest. It's a little confusing and a little funny given that Boost is currently powered by T Mobile and AT and T's networks.
+
+So SpaceX might need permission from two of its new competitors just in order to launch a wireless service. SpaceX is also, of course, continuing to launch satellites. They've bought a bunch of spectrum, and they're apparently also in talks to tap into 80,000 cell sites around The US. This company clearly wants to be a big fourth carrier and soon. Meanwhile, Anthropic just updated its IPO filing to include its most recent financial data, and the numbers are nuts.
+
+It said it earned $33,240,000,000 this year up through September 30, which is up 1206% from last year. It brought in $17,000,000,000 just in the last quarter and still in that time managed to lose $23,290,000,000. Anthropic also has committed to spend nearly $900,000,000,000 on compute and infrastructure, almost 70,000,000,000 of that just in the next twelve months. The numbers good and bad here just keep getting bigger. Finally, there's been a wave of cyber attacks recently against, of all things, industrial fridges and freezers.
+
+Grocery stores around Europe have been reporting hacks that lead to sudden changes in temperature in their stores. One actually said its freezer was hacked and raised to a 122 degrees Fahrenheit because apparently living in 2026 means you can't even trust food to stay cold. You can read more about all this at theverge.com. That is ninety seconds on the verge for Monday, November 2. Generally speaking, I play games relatively casually.
+
+I like to play video games, but I don't play them super competitively. I would not be fun to watch on Twitch playing video games. You know what I mean? But recently, I've had this experience where I've been using cloud gaming services more and more. I've been playing a lot of double o seven First Light on GeForce NOW.
+
+I've been playing some Star Wars Galactic Racer on Amazon's Luna service, and I've had really great experiences streaming games over the Internet. And we've been covering game streaming for a long time. And for a lot of reasons, it just hasn't really worked. It has not become the future of gaming that we expected. So I asked Sean Hollister to come on and explain what the dream is for game streaming and all of the reasons, and it turns out there's a lot of them, why we haven't gotten there yet.
+
+Let's get into it. Sean Hollister, welcome back to the show. Hey. I'm so glad to be here. So my immediate question for you, Sean, just as a person is, are you a game streamer?
+
+Like, do you regularly stream games in any sort of meaningful way in your life? I do not do it as a matter of course. I don't stream games every day because it doesn't seem to be as reliable as it should be. Fundamentally, cloud gaming, game streaming, whatever you wanna call it, It works kind of the same way as a YouTube or Netflix video. You're streaming these these frames, you know, compressed frames over the Internet one at a time very quickly so that they add up into a stream of what you're looking at.
+
+Mhmm. And unlike the Netflix or YouTube, you're also sending your commands back to the cloud server. Right. So we we we even talk about something in the in the cloud gaming world, in the streaming world of end to end latency. By the time...
+
+When when I press a button, how long does it take for my action when I press the button to be reflected on screen? And this can be quite fast. It can it can be super playable. I've had some amazing experiences with GeForce NOW. I beat a Sekiro boss, Genichiro, over Cloud Gaming, and I'm super proud to say that not because it was super hard for me to beat the boss, but also because I had to get that moment where the network was allowing me to do so.
+
+And that's why I... One of the reasons why I think it hasn't taken off to the degree it could yet. With the end to end latency, like, I press that button, it comes back right away. Looks like I'm playing a game on a computer right in front of me even though it's actually happening in a remote server. That's awesome.
+
+But if something happens on my network Mhmm. If something happens on the network between my network and the cloud gaming network on the Internet, if somebody on the other side of my house decides they wanna suddenly download a big file and my bandwidth drops, that's going to change whether I can continue to play this game well or not, and it might happen when I least expect, at least want it to. But that's actually not the real reason I'm not a cloud gamer yet. It's because I have a bunch of hardware that I'd rather play on without having to think about friction like that Interesting. Without having to think about additional friction of if I play this game on cloud gaming now, is it still going to be there?
+
+Are they still going to have the licenses to let me play it months, years from now, or is it gonna be gone? I think there's an argument to be made that that same question is coming for all of your hardware. But we can we can come to that in a minute. So... Okay.
+
+The the thing I've been thinking about the most on this front is that it feels like that question of end to end latency, right, from when I press the button to when the action takes place on my screen, it makes sense that that is hard to solve. Right? I I remember a few years ago when we were early in this, there was real questions about, like, if I'm closer to the data center, am I going to have meaningful advantages in games that we're playing over someone who is slightly further away from the data center. And my sense is at some limit of games, the answer is yes. And that is true.
+
+Right? If if you're... If at at a a very high level gamer playing very high level games, that kind of stuff does matter. It seems to me, and and I'm I'm curious how you feel about this, that, again, I'm I'm a gaming doofus. Like, the most intense game I spend most of my time playing is FIFA as as we've litigated before on this show.
+
+It... That seems like the the... Maybe the floor of games that can be played relatively successfully on a service like this in most setups has at least been raised some over the last few years. That even if we're not at, like, the top of the top of games, you you can reasonably assume that many more games than would have been plausible a few years ago are plausible now. Have we gotten there with that stuff?
+
+I started covering this technology in 2010 or so. Wow. Really? About, like... Yeah.
+
+We got, like, sixteen years on that now. Originally, it was... There was there was Gaikai and there was on live. Guaikai was trying to do it in a browser. Not heard in a very long time, Sean.
+
+I just I just crumbled into dust when you said Guaikai. Okay. Sorry. Keep going. People now know Guaikai as PlayStation Now.
+
+Sony bought basically all of what Gaikai was, all of its technologies, its patents, its engineering, all that kind of stuff, and turned it into PlayStation Now. So if you play games on your PlayStation service, PS five games from the cloud, PS four games, that kind of thing, That's happening over what was GuyKai technology. They didn't use all the GuyKai technology because that was supposed to be in your browser. Right. That was supposed to be streaming PC games.
+
+I played Mass Effect in a web browser with this technology. And so what Gaikai and and and OnLive originally ran into was people were so skeptical. They didn't even believe it could work. So there are... There's these amazing stories about how OnLive had to, like, demonstrate it working at e three, at CES.
+
+They had to bring incredible Internet connections to these these shows and then and then kinda, like, prove it out to journalists and attendees that this is this is real. People still didn't believe them when it was running right in front of their eyes. The technology has always, since the 2010 era, worked at some level with a good robust connection when you're relatively close to the server. And proponents of it, the... These companies, other companies that have that have that have pulled into the tech, they've also said that it's actually better for that that competitive gaming situation where you're like, oh, well, I wanna make sure one person doesn't have an unfair advantage over another.
+
+I wanna make sure nobody has a host advantage. Because just in case you you and some viewers don't know, some multiplayer games, instead of having dedicated servers where, like, every single person who connects to it is on relatively equal footing because the server is the one determining who goes first when some... When one player shoots a ball or shoots each other. Mhmm. A lot of them use peer to peer networking where one console or one computer is the host, and everybody else is kinda connecting via them.
+
+And so that one person can sometimes get a little bit of advantage that network engineers have figured out how to trickle out over time. Sure. With cloud gaming, theoretically, it's it's always going to be a dedicated server. It's always going to be an amazing server in the cloud that can make sure every player who connects to it does on even a footing. But it depends on every hop between you and that end, for your FIFA, for single player games, for anything where you are not expected to do something in real time perfectly.
+
+Right. Perfect parries, perfect dodges, see that other person coming a mile away and make sure you're not there when they aim at you, all that kind of stuff that's not that, I think cloud gaming is already and has been good enough for a while if you're willing to tolerate the occasional hiccup. Some of the streaming services have been better than others. GeForce NOW from NVIDIA has gotten progressively amazing. When you when you pay for its ultimate tier, which really shows you what cloud gaming could do and not necessarily when you do a free trial of it or the lower tiers, which is unfortunate.
+
+The economics are also a big problem, and we should we should get into that. We should. But that... I guess, when you talked about friction a minute ago, that's the kind of stuff you're talking about. Right?
+
+Where it's like, okay. I have to now boot up this app in order to play a game, and I have to think about how fast my Internet connection is, how far away from a data center is I am, what package I've paid for, which game I'm playing, with whom I'm playing this game, who... That that is a lot of things. I understand that in a way that, like, I am playing a thing that is located on my large PlayStation over there is a much simpler way to understand the way that you're playing a game. I can get behind all of that, but it it still seems like in an era now where most games...
+
+Maybe not most, but many games people spend their time playing are primarily online games. Right? Like, the... And there there may be some technical thing going on here that I don't fully understand. But in a world where I'm spending all of my time playing Fortnite, aren't I fundamentally streaming a game anyway?
+
+And isn't... Aren't all those all those things already present in how the game is being served to me and my success in the game? How big a leap is there from that to I'm just streaming Fortnite over the Internet? The funny thing is there shouldn't be. There doesn't have to be.
+
+Theoretically, cloud gaming is the most frictionless technology if you if you if you don't worry about the network hops. If we assume that you got a good router and you're close to the server and and and it just kinda generally works, and you should be able to figure that out with a with a free trial, theoretically. You know? Yeah. You shouldn't have to, like, I'm going to invest my entire gaming future in this to know whether it works.
+
+There are ways to figure that out by trying it. Theoretically, it becomes the most frictionless ever. Gaikai, in 2010, click a button in your web browser. You are playing Mass Effect. Right.
+
+There's no patching. There's no inserting a disc back when that was a thing you would do in consoles. There was no, you know, do I need to do I need to log in to the game? Do I need to figure out... Know, my friends...
+
+When Stadia, Google Stadia came out, the idea was that you'd you'd press a button. You'd hop in. You'd see an ad for a game, an advertisement for a game. Forget about buying the game. You'd see an advertisement for the game.
+
+You'd click the ad for the game. Click that banner ad, and you are now playing the game in your web browser, and they'll just give you, like, an hour to see if you like it or not before you buy it. Your saved games... Back when saved games weren't automatically in the cloud, most of them are now, right, if you're PlayStation, Xbox team, back when they weren't. It's like, okay.
+
+Your saved games are gonna come along for the ride because it lives there. The Fortnite example, though, most of the games that you're playing that are... Like, they are online games right now. You're still rendering that game locally. What the graphics are being produced by your local graphics card, your local graphics chip.
+
+It's it's giving you things like the positions of other players are being tracked in the cloud, what they are doing. And there are... There have been games, many games now. I don't say many, but certainly dozens and dozens of games that have integrated some remote streaming of assets and things like that. Microsoft Flight Simulator is the big one.
+
+The environments in that game, they physically take up too much space on a hard drive, on a solid state drive for you to store it all on your computer. They're not going to store that map of the world on your computer. They're streaming that in as you play the Microsoft Flight Simulator. Most amazing thing you could possibly do with cloud gaming is you could build games that simply can't run on a local computer right now in any way because they would need more processing power than we've ever had. There were there were, you know, there were...
+
+Jade Raymond, who went from Ubisoft to Google for a while, was supposed to... Supposedly working on games like that. I think Hideo Kojima, metal metal gear solid fame and death stranding fame, he... It was, maybe is supposedly working on a game like that, but there hasn't been the investment. Gaikai kinda shut down a little too early for us to ever actually see a game like that come out.
+
+Interesting. Flight Simulator is about the furthest we've come. Yeah. It's a really interesting way of thinking about it, because it does seem like there is something that really works about that hybrid approach. And I think the more I think about this, the more...
+
+You know, I I talked to people many years ago who were like, oh, the reason this works is because we're just streaming stuff like Netflix stream stuff. And as Internet speeds get faster, this will get easier and all that as well and good. But it does seem to me that you can't buffer a game the way you buffer Netflix because it's all real time and interactive, and so you just can't make those assumptions ahead of time. And also, again, if you're somebody who is a much more sophisticated gamer than I am, you're streaming at a hell of a lot more than 24 frames a second. Right?
+
+And and just physically speaking, the amount of stuff that you're transferring, even if it is just frames like Netflix frames, You're just doing it at such a higher volume that it causes a separate kind of problem for people. But then maybe this hybrid thing can solve some of those problems in both directions. Maybe it could. The funny thing is it's really not about bandwidth. It's really not about your Internet speed anymore unless your Internet is...
+
+Speed is very terrible. Sure. If you're if you're on DSL, still somehow, I'm sorry, and it's not gonna be for you. Cellular is is this... Is is also a problem.
+
+But, again, it's not because of the bandwidth. It's not because the speeds aren't fast enough. It's because the connection isn't reliable enough, because the more wireless hops you add to this, the more hops of any kind you add to this, whether that hop is wireless, a connection you know about, hey. If I if I could only plug an Ethernet cable in, things would get better, or connections that you don't know about. Whether the cloud gaming company is peered nicely, meaning they have a business and physical network relationship, to the Internet service provider that you have chosen that that serves your location.
+
+That's been pretty much worked out for the major ones. I wouldn't worry about that too much at this point, but that can... Any any any hop, any missed hop between you and the server is a potential chance for suddenly your game not to be performing the way you want. And in the in the in the streaming world of Netflix and YouTube, I mean, we know not only do they buffer those videos in advance because they know you're gonna watch the video linearly. It's not gonna change.
+
+You're not gonna move your mouse in the middle of watching Peaky Blinders, suddenly, you know, your character's looking at somebody else. That doesn't happen in Netflix. They they also know they have been able to figure out kind of what concentration of people are going to want to watch any given show at any given time. And they not only buffer, they cache copies of Netflix videos closer to you, like as close as your cell phone tower, might have some information on it that will tell your computer, here's how you get a faster copy of this video or more robust copy of this video than you would if you had to phone home all the way to, I don't know, Iowa or wherever wherever their primary location is. Infrastructure, though.
+
+Infrastructure. This infrastructure is super important because it is expensive, and it is far more expensive to have a computer in the cloud that plays games at your 60, 100, 20 FPS than it is to have a server in the cloud that plays a video stream. But it's not about, again, not about the bandwidth. Your 25 megabits per second, 35 megabits per second. That's enough for four k.
+
+That's that... You don't you don't need 35 to do... You know? You don't you don't you don't... Five megabits per second.
+
+You can have a basic ten eighty p game stream. It's the reliability. If I park underneath the five g tower in my neighborhood, I got a pretty decent cloud gaming connection for a while. If I park at home and connect to that same cell tower, it's gotta bounce off a bunch of things. A car is gonna drive past.
+
+It's not gonna be as reliable. That's interesting. So... And and this is where it gets to, I think, the the economics of all of this. Because my assumption would be, you look at all of that stuff in the way that you bet on it getting better, which is what I think a lot of these companies have been betting on for, what, fifteen years now, is just that it will all slowly get better.
+
+Connections get more reliable. Data centers get better and more plentiful. Connections get faster. Servers get faster. Like, it it does seem like these sort of relentless march of technology has been kind to game streaming in that way.
+
+The other side of this is it it seems like no one has yet figured out if this is a good business idea in any way. Whether you can make money on it, whether this is good for developers, whether it's good for distributors, whether it's the end of hardware, whether we need more hardware. I I feel like I have seen every idea about how this is supposed to work as a business, and none of them have, and maybe that's the reason none of this has gone mainstream. What do you make of the economics of all this right now? NVIDIA is still doing this and has for a long time.
+
+Yeah. But NVIDIA can afford to... Like, NVIDIA made shields they forgot about. You know what I mean? NVIDIA is maybe the company that least needs to worry about making money off of them.
+
+Google absolutely has not. They they tried Stadia and and and basically went out of business. Amazon has continued along with Luna, but it has changed every couple of years what Luna actually is. That's very true. And it was very poor at launch.
+
+They they they started with a very, like, low quality streaming tech. Like, they weren't even trying to give you, like, here are great graphics. Here's great, you know, picture quality. Interesting. Not even trying that.
+
+They were like, can we do this at a low level that people who want a good enough gameplay experience will go for? At that point, wasn't even good enough. But apparently Very Amazon. You. Yeah.
+
+Which is... Yeah. Yeah. Amazon is... Fake it until we make it is is absolutely Amazon's strategy.
+
+We have we have we have another bunch of other companies that, like, fallen along by the wayside. There was there was a a blade shadow. Yeah. Was like this this home streaming box. Online, absolutely, you know, fizzled out early on, although its patents live on.
+
+And Sony, I believe Sony bought those up as well. And and then what we've seen recently is, a bunch of people have been served and satisfied with cloud gaming when they've gotten it to work, but they are seeing the rates being jacked up on them because these companies all of a sudden think they can charge more, or maybe they feel they need to charge more. What we've got to remember is, fundamentally, if you need a GPU's worth of power to run a game, you're going to need that GPU's worth of power to run the game in the cloud as well. Somebody has to put that GPU into a server somewhere Mhmm. For it to stream that game to you.
+
+And you can do things where you split up the power of that GPU for users who don't need a full power of a GPU. You got two people who need an, you know, an RTX thirty sixty GPU, a mid range GPU's worth of performance. Maybe you can have your fifty eighty in the cloud do two of those Sure. For two different gamers. But right now, GPUs are very expensive.
+
+They're not just expensive for consumers. Yeah. AI data centers are buying these up. They are wanted for different things than streaming cloud games right now, and they are being used a heck of a lot in those servers. So there's this thought that, yes, the economics have gotten better over time.
+
+Right now, they're worse. Right now, they're not so great. But what happens when all of these GPUs and data centers are no longer the latest and greatest for the latest and greatest AI models? What... Are they going to decommission those, throw them out, write them off, or do they maybe repurpose those for cloud gaming?
+
+The other thing to think about is at any given time, 99% of the games that exist can be run on old hardware. Mhmm. Your Steam Deck. People complain, oh, it's not good enough for the latest and greatest games. It is not.
+
+It is getting pretty old in the tooth if you wanna play the new hot things that are coming out right now. But there's that long tail of decades of games that do play on it. So I don't know what the split is between, you know, active gamers who are playing new games and active gamers who are playing old games. Maybe people would only bother subscribing to a cloud gaming service if they know it'll play things they can't play on local hardware. But maybe some decommissioned data centers can play 99% of the long tail of games, and people decide they can't afford a new piece of hardware this year because hardware is so damn expensive.
+
+Right. The cost of living have gone up, and there's no video game ownership anymore, and discs are gone. They're like, oh, I give up. Why bother trying to own and have this stuff in my house when I can just have it in the cloud, and they're offering me a good rate for month... Per month on these decommissioned data center game service?
+
+Maybe that suddenly becomes a big thing all of a sudden when these AI servers age out. Support for the show comes from Jira by Atlassian. Your work is scattered. A thread here, a DM there, five different docs related to the same project. And now it's not just your team hunting for context, it's your AI agents too.
+
+Jira taps into Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with the agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through Atlassian NCP. The result? Less token waste, more accuracy, and more time moving work forward. Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira.
+
+Learn more at jira.com. That's jira.com. Talk to me about Microsoft specifically because I think I... I'm struck by the fact that the companies doing this are mostly companies that are already invested in some part of the infrastructure. Right?
+
+Amazon is a huge cloud provider. NVIDIA makes the GPUs. Microsoft, obviously, a huge cloud provider. But Microsoft, if one company just wanted to brute force this entire idea into existence, it ought to be Microsoft. Right?
+
+It it has the cloud service. It owns the games. It owns the distribution. It has it has Xbox. It has Activision Blizzard.
+
+It has Azure. It has all the things it needs to just decide to do this. And I think a few years ago, it kind of did just decide to do this, and yet it it hasn't worked. Like, I think I I think I am relatively safe in saying Microsoft has not yet reinvented the idea of games around streaming, even though it just could if it wanted to for Xbox. Why...
+
+What has stopped Microsoft from pulling this off, do you think? I I agree with you. I would say, one thing is that it's... The the kind of infrastructure that it has built out is maybe not necessarily... Until recently with the AI, you know, well, the GPUs and the AI data centers, maybe has not been the right kind of compute for gaming.
+
+So I wouldn't say they just, like, already had all the game servers in place. They started to do so when they're building out their Xbox, cloud service. XCloud, they used to call it. They also made some big bets, some big legally binding bets too Uh-huh. That did not pan out the way that they thought they would.
+
+They decided they were going to buy up Activision Blizzard, Activision Blizzard King, I should say, which has the Candy Crush as well. Right. And and and create a a vertical stack gaming empire where they own the software and the hardware. They are they are the giant game publisher, and they have the Xbox, and they have the cloud gaming service and all this kind of stuff. And one of their, one of their bets there...
+
+Legally binding, I should say. One of the interesting legally binding things about this is by so doing, they had to make this commitment to bring out Call of Duty all to places. Right. Because otherwise, they were... They they didn't think they would get the approval to have this this this acquisition, this merger happen.
+
+And and so they they made this bet that they were going to be able to do this on phones. They wanted to say, your Xbox is everywhere. Everything is an Xbox. This is an Xbox. Your phone is an Xbox.
+
+Your tablet's an Xbox. But your phone is not an Xbox properly because the App Stores, Google Play, the Apple App Store will not let them bypass their 30% fee or whatever their percent fee is going to be now that they've gone through all the legal tangles. Yeah. The Apple tax remains very real. Yeah.
+
+Apple was... No. You are not going to have a store within our store where you can just sell Xbox games, rake in all the money, and instantly stream them to our audience and, you know, bypass everything we're trying to do with gaming, which is the biggest cash cow in the App Store. Right? It's games.
+
+Yep. It's not it's not it's not calculator apps. It's not, you know, your your AI, your muse. It's it's games on the App Store. Google basically did the same thing.
+
+Google now does have to allow stores within its store. This is a fairly recent development. It took many years for Fortnite maker Epic Games to sue Google into a position where a judge made it do this thing. But, theoretically, Microsoft can now launch some kind of store streaming service on there. There are a number of hoops to jump through, which maybe will dissuade them from doing it.
+
+But they could do this. They could stream the game there. They can't do it on Apple. They cannot do this on iPhone this way, except maybe out in The EU or somewhere. And, and so this this big picture idea of your phone is an Xbox isn't going to work out.
+
+They've also decided that they do want to have an Xbox, a physical box that has exclusive games on it that they can sell based on the promise of all these publishers they invested in. They don't necessarily wanna say our games are gonna be everywhere. So if if everyone wanted this to happen, it could happen. Right? Like, I feel like a lot of what you just described is is some party or another along the way having mostly business reasons not to want this sort of beautiful world of game streaming to exist.
+
+That I can just... I can play all my games on all my devices, which I think is transparently a good idea. This is why I'm so fascinated by it. Like, what I want as a user is so blindingly obvious to me. And...
+
+But you look, and like you said, it's it's the same thing as with the networking. Right? Like, it's every hoop you jump through causes new problems. And and this... That idea is full of hoops to jump through.
+
+And maybe Xbox has an an incentive to try and continue to sell me hardware, and it has legal reasons that it can't just stream all of its games to all of the places, and it has fights with Apple. And if everyone in the industry would just hold hands and be like, game streaming is the future, maybe it could be. But it's it's like as long as there is one party along the way that wants to get in the way, we just aren't gonna get the thing anytime soon. Let me give you one more example. NVIDIA GeForce now.
+
+Originally, the idea was that you would just rent your GeForce PC in the cloud. They they they were giving you a computer. They weren't... You're not buying the games there. You're not renting the games there.
+
+You're bringing them from your own Steam account, from your own Epic Games account. And the idea was that you would log into those accounts on that remote computer and install whatever you liked. They thought this would be okay. So you're actually playing a game on a PC. That PC just happens to live in a data center, which is like Exactly.
+
+It's not game streaming, but it's also not not game streaming. And they thought this would be okay. And so during the beta test of GeForce NOW, you could just install whatever you liked. And then the game publishers came along and said, that's our game. We haven't given you streaming rights, NVIDIA.
+
+We want streaming rights to be a thing that exists. Maybe it already existed. I don't know. But this became a thing that now NVIDIA and everybody else has to get permission even if you want to stream your own games to a computer that you are renting exclusively for your own use that happens to not be on your own premises. And it's gotten to the point where, Valve, actually, for new games on Steam, the default, I believe, when you sign your Steam publisher agreement with them is that you will grant Valve that right so that when people try to stream games to themselves in their own home, nobody's going to come after Valve for that.
+
+It's it's weird that we've got that additional legal hurdle too. Gamers are like, it's it's my computer. I... My games, I should be able to stream them, but that's not how it works. Doesn't...
+
+Oh, that's such fun. Work right now. Yeah. Like, if I if I wanted to put my computer a mile away and run a mile long HDMI cable to get to my monitor, should I, in theory, be allowed to do that? Yes.
+
+Is that meaningfully different than streaming it over my Internet connection? This is, like, not to not to get all Neil Patel, but, like, this is where everything becomes about copyright. And it's, like, it's all it's all very interesting. I wanna talk about GTA six just for two seconds before I let you go because it it seems to me a thing that I have had kind of drilled into my head over the years is that GTA is a is a sort of tone shift for the game industry over and over. It it has introduced many things over the years, over successive generations that have changed gaming for a long time.
+
+We've we've covered some of the streaming stuff that's gonna happen. This is, again, in in the sort of way you're talking about, like, Flight Simulator. This is going to be an enormous, largely online game for a lot of people. Do you think the advent of GTA six, especially in a moment where gaming hardware is more expensive than ever, frankly hard to come by in a lot of cases, could this be a sort of watershed moment for game streaming? This is a watershed moment for consumers opening up their wallets and spending on things that they would not have spent on before.
+
+We are seeing people buy PlayStation five pros, was a $700 game console that became a $900 game console. We're seeing people buy them on eBay for $1,200 because they know that grand theft auto six is coming, and they wanna have a great system to play it on. There are $1,800 handheld game systems out there that we are telling our readers, you probably shouldn't buy this, and people are buying up every one of those. They are all out of stock. Wow.
+
+And these cloud gaming services too. People are going to take a hard look at a lot of things when they see Grand Theft Auto six playing on their friend's... At their friend's house, they're gonna take a hard look and be like, should I open up my wallet and try something I haven't tried before because I want this specific game because the entire world is playing it, and I want it to look relatively good. Cloud gaming services, they're gonna make their pitch. Maybe maybe they won't be able to stream it to your PC, though, and so maybe that's gonna push people to buy the consoles.
+
+It's gonna be this weird moment where briefly, may... Maybe just briefly, a lot of economics that sound unreasonable are suddenly going to seem slightly reasonable to people who have the money to spend. And I don't know if the rest of the industry can take anything away from that because once that moment is over, are people gonna keep subscribing to these services to play GTA six online, which is GTA five online has been a cash cow for ages. Mhmm. Still to this day.
+
+Or is it going to be that, you know, a snap of the fingers and it's done, and we're back to, I don't really think I can spend all this money on gaming when my wallet is light anyway. If GTA six can't bend the world towards game streaming at this particular moment in the world of gaming and consumer electronics and everything else, I don't totally know what can. Alright. Well, I have to go to Costco after we hang up here, and I'm going to walk by the PlayStation setup as I normally do. And you have just made me, I would say, 10% more likely to buy a PlayStation today.
+
+So thank you. And also, I hate you for that, Sean. No. What did I do? Alright.
+
+Sean, thank you as always. Good to see you, buddy. Take care, man. Support for the show comes from Jira by Atlassian. Anyone who's got their hands in complex work knows that sometimes the biggest challenge is visibility.
+
+You can have the best team in the world, but if they can't find the information and context they need, they're working with one hand tied behind their back. That's doubly true when you introduce agents into the workforce. Jira can help. Jira taps into Atlassian's Teamwork Graph to pull in context from places like Slack, Confluence, GitHub, and more. So nothing falls through the cracks.
+
+And you can share that context with the agents you already use by Claude and Cursor. Assign them to work directly in Jira or connect them through Atlassian MCP. You've spent a lot of time and energy assembling an amazing team. They should be doing what they do best instead of chasing down threads in a bunch of siloed apps or walking an agent through the basics of a project for the third time. All you need to do is give them the context they need to reach their highest potential.
+
+That's what Jira does. Learn more at jira.com. That's jira.com. Alright. Before we get out of here, I have one more thing for you, and it's about the pope.
+
+There's not a sentence I often say on the verge cast, but over the last year or so, Pope Leo has actually done a really good job of talking thoughtfully about AI. AI as it pertains to, you know, spiritual practices, but also just what it means to think about AI in the world. What does a religious leader think about the fact that a lot of people think AI is alive? Is an interesting question. But anyway, at a Papal address at the end of last week, Pope Leo wrote a couple of things that I just really liked.
+
+And I'm just... I'm gonna read this to you because I think it's really interesting. We'll put the link in the show notes. You should read the whole thing. But I think he puts AI in a way that I really like and I think we should probably steal and talk about more often.
+
+He writes, first, the future of artificial intelligence is not predetermined. As a technology developed by human beings, its future depends on the choices we make. We therefore have the responsibility to guide, change, and when necessary, reject its applications. The decisive question then is not simply what can AI do, but rather what purpose does it serve? If you're thinking about this, by the way, as like what an obvious thing for Pope Leo to say, I would encourage you to remember that actually a lot of people building AI don't think of it that way.
+
+There are a lot of people in this space at these Frontier AI labs who think about AI increasingly as its own powerful being with its own needs and its own desires and that we are sort of its caretakers. That it is not software that we're making, that it is something being grown and not built is a thing you hear a lot about AI. I don't agree with that. I agree with this. This is a thing that humans make.
+
+We have choices to make about it, and the people who make it and we, the people who use it, should make those choices. He also writes, second, machines are tools, not persons. That... I'm just like, print that out, embroider that on a pillow. Like, write that on my tombstone.
+
+You know what I mean? Machines are tools, not persons. We we talked with Kevin Roose a while ago on the show about this idea that there are a lot of people in Silicon Valley and around the world, it turns out according to the comments on our TikTok channel when we posted a clip of this, who believe that fundamentally there is nothing special about people and that actually computers deserve all of the same considerations that we give to people. I think Pope Leo obviously has good, big religious reasons to not believe that is the case. But I think as we look at these things, treating machines and software and artificial intelligence as tools and not persons is correct.
+
+Until proven otherwise, let's assume they are tools and not persons. Anyway, the whole Apple address is really interesting. Think Pope Leo has done a good job of navigating how to think about AI without being afraid of it or worried about it or dismissive of it, but trying to think about what it means to be a person in a world filled with AI. And whether you are Catholic or not, I think these are good things to be thinking about. Go read the Papill address.
+
+There's a sentence I've never said on the Vergecast before, but it's worth doing. Anyway, that is it for the show. Thank you again to Sean for being here, and thank you as always for watching and listening. If you have thoughts, questions, feelings, if there's a game you've been streaming that you think I should try, frankly, I'm on Luna all the time now just playing galactic racer, and there's a bunch of other free games. So a few stuff for me to do, Get at me.
+
+Vergecast@theverge.com is the email. Eight six six verge one one is the hotline. We love hearing from you about all this and everything else. And as a reminder, the best thing you can do to support everything we're up to here at the verge is to subscribe to the verge. Theverge.com/subscribe.
+
+It gets you all of our podcast ad free, including this one. It gets you all of our exclusive newsletters, all of our coverage of the pope and game streaming and everything else. Verge.com/subscribe. Thank you in advance. Verge cast is a verge production and part of the Vox Media Podcast Network.
+
+The show is produced by Josh Cahas, Eric Gomez, Brandon Kiefer, and Travis Larchuk. See you tomorrow. Rock and roll. Support for the show comes from Jira by Atlassian. You may think you already know Jira, but if you take a closer look, I think you'll be surprised.
+
+It still has all the features and functionality that has made it one of the most used productivity platforms in the market. But beneath the surface, things have evolved. Jira can now connect all your workplace tools and apps with the Atlassian Teamwork Graph. It maps how your work fits together and gives your whole team a shared context layer so everyone can find what they need without switching tools. Learn more at jira.com.
+
+That's jira.com.

@@ -1,0 +1,265 @@
+No matter what anybody says, today in 2026, we have a highly interconnected, interdependent global supply chain. Both US companies and Chinese companies are thinking very hard about what does the long term strategy of this look like and ultimately, everybody trying to build their industrial capacity. We see a lot of robot pitches. Very few people are thinking about what the robot is supposed to do at the end of all of this. Almost everybody we're selling a robot to has never purchased a robot before.
+
+Almost all of the market is greenfield. The reality is you need to build a full stack platform. Tutor robots have helped manufacture and ship over a quarter of a billion products Wow. To American consumers. We're training frontier robot AI models, manufacturing robots at scale, and directly deploying into largest businesses in the supply chain.
+
+How does product innovation work in robotics? Most companies are just on V1, whereas you've got two versions of the robot and you continue to iterate really fast. So most factories and warehouses in America still rely heavily on people for physical work. What does it take to build robots that can actually do those jobs? In this episode, Martin Casado and Raghuraguram sit down with Tutor cofounder and CEO Josh Gruenstein to unpack a different approach to building general purpose robots.
+
+Tutor deploys robots into factories and warehouses, connects them to human operators when needed, and uses that real world work to generate training data that makes the robots increasingly capable. They discuss why robotics require solving AI, hardware, manufacturing, and go to market at the same time, and why Josh believes general purpose robots could ultimately become a new labor substrate for the physical economy. Josh, thanks for joining us. So we're with Josh Gruenstein, who is the CEO and founder... Cofounder of Cofounder.
+
+Tutor Intelligence. And we're gonna be talking about robots today. And so maybe before we jump in, just give a quick background maybe of yourself and then the company. Yeah. So I'm Josh.
+
+I started Tutor about five and a half years ago with the core thesis that if you could just start deploying robots out into the world and to all the places in the physical economy where robots are needed the most, you could start to build the data sets, the models, and the supply chain that's needed to proliferate robots throughout the physical economy. So we're about 160 people based primarily in Boston, and we're training frontier robot AI models, manufacturing robots at scale, and directly deploying into the largest businesses in the supply chain. And can maybe talk a little bit about... We see a lot of pitches. There's a lot of companies that talk about doing robotics, but don't actually deploy robots or have not yet.
+
+And you're one of the few companies that's actually deployed robotics as a CEO, so maybe just talk about the state of the business. Yeah, we have robots deployed across The United States, everywhere from small mom and pop businesses to Fortune 50, Fortune 100 businesses. Claude told me last night that it estimates Tutor robots have helped manufacture and ship over a quarter of a billion products Wow. To American consumers. So presumably, most American consumers are a Tutor customer a couple layers down.
+
+I think this comes from kind of the origin story of the business, which is us looking at the state of robot learning. It was obvious to us that robot intelligence and robot software was this bottleneck. Robots for sixty years have been this custom engineer in machines. That can't scale. Yeah.
+
+Yeah. So we started the company with this thesis that if we could just start deploying robots, we could build the label data sets that help us train these models and deliver this value to the American consumer. We see a lot of robot pitches. 99% of them start with some insights about the model and how you're gonna build a model or some insight about the data, shape of the data that is. And very few people are thinking about what the robot is supposed to do at the end of all of this.
+
+You started from the reverse, and you had the insight that you could actually tutor the robot, so to speak. Yeah. That's the name of your company. Where did that insight come from? It came from kind of this thought experiment, where we had this insight that, hey, there are 8,000,000,000 people on Earth who all have this baseline physical intelligence that we want our robots to have.
+
+And so imagine you had infinitely powerful software that could connect any human being on Earth to any robot and kind of embody that robot with intelligence. That's kind of like this deus ex machina of suddenly you have unlimited, infinite robot intelligence. Let's say you take that for granted, now what? Right? The problem isn't actually solved.
+
+Right? You still need to actually manufacture robots at scale. Right? Robots are this cottage industry today in The United States. Robots are rounding error even in the most automated industries, like manufacturing logistics.
+
+So that doesn't exist. Certainly none of the software exists, and none of the customers exist because, again, the robots can't do any of the jobs that customers want robots to do. So robotics is not, I think, any one layer of the stack. It's not just about intelligence. It's not just about hardware.
+
+It's not just about the customer. It's about kind of figuring out how to put all these three pieces together, and it's the combination of all three that actually lets you build, in my view, a successful platform at any one of those layers. Yeah. In total, we talk about robotics being the ultimate systems company Yeah. Yeah.
+
+As opposed to being one one of the other. But you know what's funny about this though, is the question I wanted to ask you is, I mean, you've got a pretty deep technical background. Right? I mean, MIT robotics. Yeah.
+
+Is that fair? But whenever I talk to you, I feel like I'm talking to an operations guy that talks about that talk about unit economics and operations and supply chain. I mean And even a go to market guy. Yeah. Go to market guy.
+
+So it's kind of... You've done this, the transformation is complete. And so maybe this is kind of an open ended question, but like I've always wondered, is the harder problem here actually that stuff? No. But I think you have to do all of it, is kind of a thing.
+
+And when I was just a roboticist, right, and only working on the technology side of this problem, I think my strength as a roboticist was that it was very full stack. And I was willing to think about the manufacturing, the hardware. I was willing to think about FPGAs and ASICs. If you view robotics in the same way that I do, that it's this ultimate systems problem, the only way you can make forward progress is by figuring out all of the clever trade offs across as many layers of the stack as you can. Yeah.
+
+And if you throw out one of the layers of the stack, and you're like, well, we're not gonna touch that, you've eliminated 90% of your trade off space to make progress. Interesting. And then, a business, it became really clear to me that, like, oh, okay, robotics is not actually full stack, like, model, hardware, software. It's full stack like model, hardware, software, supply chain, customers, product. Right?
+
+Similarly Who's his model? You ask the question, why hasn't robotics worked? Right? There's been a lot of robot startups. I would argue no robot startup has been like really massively economically successful.
+
+Why is that? And I think it's because one, you don't have this core primitive, which is intelligence, and that lets you kind of bring the unit economics of the system to a certain level. But two, it's that it's the super sort of disaggregated market. And you have infinite players, they're all trying to work with each other. And the reality of what we need in robots is to be able to make trade offs across the full stack.
+
+So this is an observation that we have had, and it's interesting to articulate it this way, which is most robot companies start horizontal and they all go vertical. Yeah. Every one of them, literally start like we have a model or whatever, and then they start buying three d printers and do you think that that is kind of because the market is so immature like you had to do in the early days of cars or like you think it's actually inherent in this domain? Like even in twenty years you will have verticalize just because the economy of movement or something requires that. No, I think it's a maturity in the market, and you can see similar things in like the early computing market.
+
+And so to us the question then becomes, okay, how do you build kind of the general platforms that let people build businesses that aren't robotics businesses? Right? We have all these incredible software businesses today, and the people who run them don't have to think about chip architectures. Right? How do we make that possible in the physical world with robotics, and how do go about building that platform?
+
+And I agree with you. People have tried to solve that problem by thinking about very narrow layers of the stack. And in our view, the reality is you need to build a full stack platform. And the only way to know that full stack platform really works is to actually have successful business units operating on top of it. I mean, are you open to, like, it being the case that actually the physical world is different than the digital world and the reason we horizontalize compute is because you have clean abstractions that are generally applied and that's just not the case for, like, navigating physical space?
+
+I think the beauty of something like a Humoid is it's the same... It's that clean abstraction. Right? You think about what is a CPU? And it's this general computing machine.
+
+And it's not perfectly optimized for every use cases, right? But it's general enough that you can run most computing workloads Oh, so that's your horizontal component within the human. Exactly. For example, would you use the same brain or sub components to make a human as you would to make a drone or to make some other form factor? No.
+
+But you can make that same analogy in compute. Right? We have CPUs. We have GPUs. We have basics.
+
+Right? So I think you track the maturity of the market, and you start in this world of specialization, custom machines, because that's the only thing the market can support. You move towards general purpose, and in robotics, this is gonna look like humanoids and similar form factors. And then eventually, you kind of break past to that re specialization as the market is big enough. Why is this thing called Tutor Yeah.
+
+Intelligence? Tutor was founded kind of with this thesis that there is a whole Internet of human intelligence that is networked, That is posting on social media, that's writing emails, and that network of human intelligence for LLMs and other digital world models, by natural emission, has created this beautiful dataset that we can use to train general purpose models. The issue is, our work in the physical world is not similarly networked. Right? Like, I pick up my coffee cup and nobody knows.
+
+Right? Like, nobody recorded all of the pressures of my fingertips and where they were in the poses, and so we don't have this asset. And the core idea behind Tutor is what if instead of trying to find kind of this algorithm where from no data, we could build urban intelligence? And for us, we're like, yeah, that seems like a problem that's rigged against us. Right?
+
+That's not how this worked in computer vision. It's not how this worked in NLP. What if we could build this network of robots out in the real world? We could connect them with human tele operators, which we call tutors, that teach the robots how to do new tasks. And in the same way the Internet, kind of by a mission, created this dataset to train these frontier models, we can do the same with robots.
+
+And we can build this internet of robot training data. And there are all these beautiful emergent properties where suddenly it's not this massive capital project. It is to go build this network, but also you're creating incredible economic value as you're doing it. Right? You're making everybody's goods cheaper as you deploy these robots and collect this data.
+
+And so it's a very positive sum, I think, this very unique way. And so when we thought about, okay, what are we gonna name this business? You know, it's not strictly artificial intelligence, there's some artificial intelligence, but there's ultimately like this tutor intelligence that we're building that was connecting and controlling these robots. Yeah, that's an amazing insight. And the funny thing is when we talk to your customers before we invested, most of them didn't seem to know or didn't even seem to care that there was a tutor or when the tutor was operating and when your learning model was operating.
+
+And that, credit to you guys, you made those very, very seamless too. Yeah, this is, to me, a signal that you know the robots are good. Right? You want the feedback to be like, my shampoo is that I'm manufacturing at volume, it's now 5¢ cheaper than it was, if the feedback is like, the robot is pretty, it's like, it's probably a really bad robot. Is the goal to not have tutors in the future, or does it matter?
+
+We think of it at a very pragmatic level, of what is the operational complexity of tutors, what is the economic impact of tutors, right? Think about what is the cost to serve models with an H200, right? And you can map that out, and what's the duty cycle and utilization of that H200, and you can think very similarly about human intelligence. What is sort of the heterogeneous profile of intelligence that you really want from humans that you can't get yet from your models? And then it becomes a unit economics question.
+
+Right? Like, how much engineering do you have to do to get that last nine out of your models versus using tutors? And really, you know, going back to what we were talking about, you wanna be able to make as many trade offs here as you possibly can to make a business like this work. I mean, know, it's tempting to say that the economic marvel that happened with generative AI could also happen here. And the marvel that happened with generative AI is you train these models with some distribution of data, and it turns out basically the same distribution is economically viable.
+
+It's like you train it on images and people want images, you train it on text and people want, you know, it's that kind of distribution in, distribution out. It's not clear that this is actually the case with these robots, right? You could train it on a distribution of data, but then actually what you need is just slightly out of that distribution. So like, how, I don't know, you probably have the best visibility into how this scales and what the convergence is, and whether you can actually remove tutors, like what is your intuition on on that? I think this is one of the big questions, and I think really it ultimately comes down to, like, what is the data and where are getting it from?
+
+Yeah. And the magic of the Internet, right, is like, if you are company and you provide at the application layer tools for software engineers to accelerate their software development, you are naturally in flow of all of this really, really, really economically valuable work. Right? If you can make money as a business, then you're probably also making data as a business. Right?
+
+Those economic incentives are aligned. And similarly for robots, if you're like, okay, we're just gonna strap cameras on everybody's heads and send them throughout Indonesia to collect data doing x, y, and z, you you have no guarantee. Right? You you can guess, but there's no, you know, invisible hand on the market that's guiding you to ensure that that data is actually economically valuable. Right.
+
+But if it's actually this, like, kind of emission byproduct, if you have robots in real customer sites that customers are paying for, for those robots to do that task, you know for sure that that data is economically valuable. Doesn't it kind of depend on also the dimensionality of the solution set though? It could be the case that the economically valuable stuff is so high dimensional that you could solve 90% of it, but the last 10% you'll need a human being to do for a while just because getting that data set is just gonna require too many tutors over a period of time. And that might be fine. Right?
+
+You might be willing to accept that on the economics. That also might be a place where other forms of data matter. I think we're not purists. Again, we're willing to take any trade off. Right?
+
+We love using simulation to kind of widen these data distributions. We love using internet scale data to widen these distributions. So we have a lot of tools in our toolbox other than that real world robot data. And talk a little bit more about the simulations and these other tools and the impact models like Astra are having on that. Yeah.
+
+That seems to be another cartridge industry of excitement for the robotics Yeah. World, right? How are you using that? It's a sea change, right? I think we lived in this world for a while where everybody knew that all of this general knowledge about the world was baked into these models, but they couldn't really express it.
+
+Right? They didn't have that last mile of spatial reasoning to connect the dots from the stuff that, like, you know, a GPT model knows to something that an action diffusion transformer head can know. And that's changed. Right? The labs are now post training their models on three d spatial data like CAD and like three d modeling, which, by the way, they're doing because there's this direct economic incentive because there's a real market for it.
+
+So they can immediately monetize it, and it turns out that's the exact spatial reasoning that our models need. So I think we've been catapulted many years ahead in the future because we're starting to be able to use all of that general intelligence that lives in these big frontier models for robots. And because it's a systems problem, the net effect for you is accelerator Yeah. As opposed to slowing you down or saying somebody's gonna come and eat your lunch. Yeah.
+
+No. We... And we've seen a couple of these happen. Right? We started this business in 2021.
+
+We were doing this initially with convolutional neural networks. Right? So like, we've gone through every sea change, and the thing that is always valuable is the flow of data. Yeah. Right?
+
+And the flow of data is always the thing that uniquely you can do, and it's like, yeah, those like, the million architectural tricks, do them if it helps you accelerate the flywheel. Right? If it helps you deploy more robots, collect more data, manufacture at a bigger scale, do more tasks, they're worth doing. But but ultimately, we think the thing that has kind of the long standing generational value in a business is the flywheel and loops themselves. Can can you talk a little bit about what you mean when you say you build robots?
+
+Yeah. I think on one end of the continuum, it's like Yes. You buy a unit tree. Yeah. Know?
+
+And you like prompt it. And the other end, you know, like whatever, you're like machining parts. Like, where are you on this? Yeah. So for context, for everybody, in 2025, The United States deployed 38,000 industrial robot worksups, which is tiny compared to roughly Like, you're not counting the Fanucs and the old robots.
+
+The Fanucs, right. But that's Nobody deployed any unitaries in The United States into any... They would have shown up in those numbers, but they were probably zero. And so, the supply chain that exists for robots is both too small, and as you called out, wrong. Right?
+
+Like, the robots that Fanuc and ABB are building, they're mostly not building in United States, but but even when they are building them in United States, they're building these objects that are designed for systems integrators, that are designed for fast repetitive motions. They are not cut from the set of trade offs that you would want to co design with frontier models. And so we're kind of starting from scratch on the hardware side. So Tutor, in order to deploy robots at scale, has actually been forced to design and manufacture our own hardware. For us today, like, we're not building actuators.
+
+Right? So we're not building cameras. There's a whole layer of stuff that we're sourcing from OEMs where they're manufacturing at a much larger scale. But the actual robot itself of, you know, the thing that drives around and has the arm on it and can do all the tasks, we actually are building at scale in Watertown, Massachusetts. Can you talk about the morphology of the robot?
+
+Is that what... Is that called morphology? Anatomy? You you can use whatever robot What do they look like? What do they look like?
+
+We make two. So one robot we make Look at his website, Martine. Yeah. Go ahead. Yeah.
+
+Send it. So Cassie. Cassie is kind of a brute. Right? Cassie is designed to do heavy duty work.
+
+It has a single arm and a lot of suction cups, and it's powered by foundation models in like the 200 to 400,000,000 parameter range. And came out of this world that Tutor was started out of in 2021 of what can foundation models do for robots. They can predict affordances, grasps that you can go then execute. So it's this co design of the hardware that you can manufacture at scale, what your models can actually do, and actually a big market need where in The United States, anything in the physical economy has to be transported on a pallet or in a cardboard box. So there ends up being an enormous amount of physical human handwork of transporting pallets cases by hand.
+
+And so Cassie is kind of the result of that co design, and we manufacture it at a very large scale, we deploy it to a big diversity of businesses across manufacturing logistics. Our second robot is called Sunny. And Sunny is kind of an industrial semi humanoid. Right? It's as if you said you were looking at a unitary, and you were like, I need this robot to run for three to ten years in a factory at human rates and reliability.
+
+And so you end up with a slightly different set of design decisions. Sunny is wheeled, not legged, because most indoor industrial settings have polished ground floors. It has a much higher payload capacity and can move much faster, and has industrial collaborative safety standards that enable it to operate around humans. And so we have a 100 Sunnies operating in Boston in our data factory, collecting data for internal use and advancing our research agenda. And then we also now have a growing fleet of Sunnies out in the real world doing more dexterous bimanual manipulation.
+
+And do you see... How broad do you see this product line of different robot form factors? Can you capture Yeah. A big chunk of the useful market with three of them, or you need 30 of them? Depends how you define the useful market.
+
+Like, where do you wanna go? If you wanna just live inside of manufacturing logistics, Sunny and Cassie today can probably do 80% to 90% of the work. Right? These are designed for those cuts. What...
+
+Maybe just describe what that work is. Yes. Because... Yeah. I'm not sure if you probably understood.
+
+Yeah. So most people have this mental picture of what sort of the industrial base or manufacturing logistics look in The United States, which comes from the TV show How It's Made. I don't know if either of you have seen this. Of course. Of course.
+
+Yeah. And you see these, like, Rube Goldbergian machines of levers, and it's like, yeah, you don't see any humans in those pictures. It's somebody built a machine that is the factory. And that does exist. And if it exists, they probably filmed it and put it on how it's made.
+
+Right? Because that's the top point 01% of American manufacturing logistics. And so what's below that? And you walk into these million square foot facilities, and you see a bunch of people standing around on conveyor belts or folding tables doing things by hand. And it's kind of shocking for anybody who doesn't come from this industry and community.
+
+And so you look at a robot like Cassie, and it's like, you know, a huge amount of work, which is back breaking work that's really hard to hire for. There's a three month turnover where your average age of the worker doing that work is 55 years old and about to retire, and it's like, okay, we could use a Cassie to do that back breaking work. And similarly, Sunny is like, basically, anything you ever bought that came in a box, a human had to put that in a box, which is a crazy revelation for most people. Anything that requires any degree of assembly, right? Even iPhones, you would assume it's a robot.
+
+Putting that packaging together, no, it's a person, even at the highest level of scale. Then then to his question, which is so, like, you have, like, the single arm with the sucker. You've got the two armed humanoid. Yeah. What can't they do?
+
+Yeah. What can't they do, and where do you go from there? Yeah. So they can't go outside, and outside is really, really interesting. Oh, is that just, like, a locomotion issue?
+
+It's not locomotion. It's the hardware. Right? These these robots have wheels, and they have a little bit of traction. Know?
+
+They have these articulating hind legs, but, they can't drive over gravel. Right? There's huge opportunities of robots in construction, robots reclaiming materials from landfills. We need robots with legs, for that. So I think that'll eventually be part of our pantheon of embodiments.
+
+And then similarly, robots in the home, you probably don't want a Cassie or Sunny in your home just as well. It's a little bit Yeah. Too industrial of a They look scary. Yeah. Yeah.
+
+Let's talk about the customer adoption side. How's how's that been? Obviously, not strictly from a... I don't have people, so I'll take whatever I can get. Yeah.
+
+To... Once they have it in their assembly line or whatever it is, how does adoption go in terms of their mindset? Yeah. It's an interesting challenge because almost everybody we're selling a robot to has never purchased a robot before. And that kinda comes out of these stats.
+
+If The United States is only deploying 38,000 robots a year, if nine out of 10 US factories and warehouses don't have any robots, then almost all of the market is greenfield. And these people understand what this old guard of automation looks like, and they assume a robot doesn't work for them. And so the way we break through that actually isn't by talking about AI, or models, or tutors, or anything like that. We called them up and we're saying, hey, have you ever considered a robot for $16 an hour? And they haven't.
+
+That's a new proposition for them. So you can book a meeting, and then you can kind of explain to them this thing that we're doing, and get people interested and involved. And by creating that business model where there is that true incentive alignment between us as the robot vendor and the customer, we're able to run distribution of robots at velocities that, you know, are many orders of magnitude faster than traditional industrial automation industry. We have an average time from that first call to a robot signing contract of forty to sixty days. We have an average time from that signed contract to robots actually in the customer site of about forty days doing work.
+
+We stand up robots in production within a day, often within the first couple hours that a robot is on-site. So we're able to move very, very, very quickly because not only is the robot this generally intelligent, generally capable machine that we're not customizing, we're just shipping directly from the factory to the customer, but we're not putting any sort of economic risk on the customer. So we're able to get them on board. And once they deploy it, how do their attitudes about labor versus machines change? The operations community is really, really fantastic because they see a thing work, it's like, it works.
+
+Right? That's it. Right? It's like, yeah, I can see obviously it does the job. I know all the places where this job needs to be done.
+
+Let's go put it in all those places. So, we've been able to scale up very, very quickly, both with small businesses and to some of the largest companies in the supply chain from one robot in one site to a dozen plus robots across many sites. It is interesting though, because a lot of Gen IAI was like, there's a social element where people get very attached to their models, and it's hard to swap models, and so, listen, you probably have more experience deploying robots than most people alive at this point. Like, are you saying the same thing? Like, they viewed like equipment, or are they starting to be viewed like beings and coworkers?
+
+Yeah. So I saw a very funny tweet, which was, a robot is a robot unless it works, in which case it's a machine. Gotta figure out the attributes. Is it a Zip Meal? I guess it It's it's pretty real.
+
+Is what it is? Like, they just view it as like a piece of equipment once it works? Certainly, at, like, the factory manager level, yes. I think there's still the layer of, interestingly in robotics, your buyer is not your user. Right?
+
+Your buyer is the COO or the general manager, and the user is a factory worker, right, who's working with the robot all day long. And there, you actually do need to cultivate the relationship between those workers and the robots because, you know, we don't fully automate 100% a factory. We automate some jobs in a factory or warehouse. And do you have a philosophy on how you even approach this? Do you try to make them look fun?
+
+You try to make them look more like coworkers or less like coworkers? Do you make them talk? How do you view this philosophically? Yeah. Very, very luckily, there is a whole school of academic research called HRI, human robot interaction.
+
+No idea. There you go. Yeah. Lot of people have spent a lot of time thinking about this, including a bunch of people from my academic background, And there are a whole bunch of tricks. So one trick is every robot has a name, and so that lets us actually build relationships with the robots.
+
+Who names it? Our manufacturing technicians. Okay, you name it, not the... It's not like a dog is when you get a new dog, can rename it? So, when a customer expands with Tutor, when they do a repeat order, then they're allowed to name the robots.
+
+Okay. Because you're not supposed to rename a boat because you've got bad luck, so gotta keep the boat named, but you can rename a dog. Yeah, so the new robots get to be named, that solves it. And we get customers Oh, they get the highest ones of ownership now, they've named it. Exactly, right?
+
+And we get really strong signals. We had people name the robots after their kids. Woah. Right? People name the robots after their favorite football player, their favorite pop star.
+
+That's good. People get very attached because the robot ultimately helps. It makes their jobs easier. If you're a line worker in the facility, you're not doing back breaking work as much. You're able to be elevated into a higher position, none of these places can hire.
+
+And then if you're a factory manager, your job is just a thousand times easier. What naming scheme do you use from when you moved We started off doing hurricane naming, and then we kinda So that's not Yeah. You didn't read the HRI book, really? Well, it's... I don't know.
+
+It's Well, you're in. Can tell. The customer doesn't know that Britney is, you know, n mod 26 or whatever equals two. It's it's... But we actually stopped because we kind of went through the hurricane.
+
+We went through the alphabet too many times to be able to keep track of it. Okay. So what are you using now? I think the technicians just just pick whatever brings them joy. We have a really wonderful and privileged to employ a big staff of people in The United States who are helping to build these robots, and they are also naming them.
+
+Awesome. The other thing that surprised me when we first did the work before investing, most of the time when we talk to robotics companies, they're going after these humongous companies, right? Yeah. The big Fortune 50 type companies that seem to have the budget for lots of experiments, etcetera. Yeah.
+
+Whereas, I think a significant majority of your customers are all these local businesses almost. Yeah. And what does that, I mean, there a message in that, or was it a conscious strategy, or? Yeah, it's a lot of things. One is that's most of the market.
+
+The vast majority of US businesses in manufacturing logistics are small businesses or mid market businesses. So if you wanna serve the market, that's what it takes to serve them. We also started this company at a time we were seeing kind of all of these very academic supply chain oriented robotic startups kind of get started and then not really succeed. And we had the opportunity of being like, okay, what went wrong here? And one of the big things I think that robotics companies get wrong is they're not actually really product companies.
+
+They're like, okay, some really big company has a very specific problem. They're willing to write us a shiny piece of paper that says they're gonna expand with it, we're gonna spend two years building a very custom system to solve their problem, we'll deploy it. Chances are it won't work, because anybody who's built products knows that you can't just one and done a product, right? Doing product requires iteration. Then even if it does work, who's to say that customer still has that problem?
+
+So boom, the company's done. I feel like I saw this happen five to 10 times in a row to the point of, my god, if this happened to us, that would just be embarrassing. And so I think working with a diverse range of customers is this beautiful forcing function for building the right shape of product, which to us is a general robot. Right? We don't wanna build a Rube Goldberg machine that works really well for big industrial customer A or B.
+
+We wanna build a platform that is generally capable, robot bodies running generally capable robot models, that can immediately get to work. And if you can, you know, sign a contract in two weeks with a mid market customer and have a robot running immediately after that, and that's a totally different type of product and business than your other customers, you know you're being successful. How do you think in the limit what the industry looks like, assuming you continue to be successful? Is it just that this work gets cheaper faster, or does somehow quality go up, or can they do more things, or What is the economic convergence or the productive convergence? Yeah.
+
+I think everything gets better. So there's a whole set of goods that if they are cheaper, we will buy more of them, and if you believe those goods are valuable, that's good for everybody. There are also a bunch of discontinuities in the world. I was talking with somebody the other day who worked on the line in a housing factory in, I think, Wisconsin. They were describing how the houses that they're building are about 5% more expensive to build them in a factory than to do traditional construction on-site.
+
+But if these houses were even just 1% cheaper than the equivalent quality of house manufactured or constructed on-site in the traditional way, all of the demand from developers would immediately go to that other shape of building these homes in a factory. And the same thing could be said about reclaiming materials and landfills and a whole bunch of other markets. So I think our hope is if Tudor's really successful, we can provide this robot substrate, this labor force that other businesses can use to transform the physical economy and make the world ultimately a cheaper and better place to live in. Will you ever go in the hub? Yeah.
+
+We're we're not opinionated. We'll go anywhere. Yep. But I I would imagine that would be kind of a much tougher technical problem just from, like, I don't know, complexity of task and safety and And the economics of it. Right?
+
+Like, many... What is the economic value a Tutor Robot delivers in a factory, and how many consumers are willing to pay for that in their home? And it doesn't quite work out. But, again, that that comes back to our our overall philosophy is take trade offs across as many layers of the stack as possible to get a foothold, start building the platform, and as you build the platform, you have to take fewer and fewer trade offs over time. How does product innovation work in robotics?
+
+I mean, most companies are just from v one, whereas you've got two versions of the robot and you continue to iterate really fast. How is it different than digital product innovation or other categories? We're trying to make it as similar as possible. So we're manufacturing our own robots. This gives us the ability to own that manufacturing process and figure out how do we push changes to the manufacturing process every two weeks.
+
+We are shipping code to robots either every day or major releases every two weeks, and have built a huge amount of infrastructure to support that level of iteration. We've built, I think, a really unique shape of product function where our product function in our organization actually sits right next to our customer success and implementation functions Mhmm. And operate actually as one big team. So they're as close to the customer as humanly possible, which I think has been really successful for us. And then we also have a research team which is able to be both, on the one hand, deeply embedded in kind of the customer problem space, and we're able to pull all sorts of levers to get specific types of data from customers, but also able to take these moonshots.
+
+And, you know, if we have a breakthrough on our modeling side that lets robots do a whole new shape of thing, we can kind of co design a product around that in a that I think most companies couldn't and get that out into the field much quicker. If I'm listening to this and I have a warehouse Yes. And I want to get a robot, do I just go to the website and put in my email? That's How does this work? You can go to our website, you can put an email at you.
+
+We actually have cool pricing calculators where you can put in some operational data about how your warehouse or factory runs today. And you can get an estimate of, hey, with an initial deployment of Tutor Robots, we could be saving $100,000 a year, dollars 1,000,000 a year, dollars 100,000,000 a year. And that's not like, okay, this is a road map over five years of custom engineering. It's like, no, you could save that a million dollars a year two months from today without putting capex down. And have you found that there is demand for...
+
+I mean, it's just such a sci fi thing. Is there demand out there? There is so much demand. And it's not even demand for robots, because again, people don't know that the shape of a robot exists, that it works, or that it So could do this it's ultimately, you know, we have this framework of the value of a robot is you take how much work a robot can do, and you divide it by its cost. And that's it.
+
+Everything else is commentary. And so, if we're able to compete in these highly liquid labor markets that exist across American physical economy, and we can offer something that delivers greater equivalent capability to lower cost, the market for that is the whole market. Right? It's all physical work done. And just one quick wonky question on this, which is how much when you say cost do you mean amortizing the upfront cost versus the ongoing cost to operate it?
+
+It's both, which is very interesting and different. Traditionally, we've thought about robotics as ROI. Big CapEx expense and then ten years to make it back. And now it's actually like no, more and more of the cost is going into ongoing inference teleoperation. But does that also include maintenance Yes.
+
+Break fix and all of that stuff? And then what is the dominant cost, or are they roughly equal? We drive down all of them over time. No. No.
+
+I'm just saying, from from your standpoint, when you, like, pencil out your COGS, how much of is it the upfront cost versus the ongoing? Yeah. It is more ongoing at this point, and that's surprising Interesting. To Oh, wow. Yeah.
+
+Not surprising to me. Mean, you're really competing with like, something that you feed rice to, and it's very, very efficient, Like, the human bodies. Yeah. So when you get colored thieves, customers, is it because Black Friday or something's coming up and they need a bunch of units done in a really short time? Or is this actually now part of their actual labor planning cycle?
+
+No, it's strategic. Right? These businesses, I think, are faced with a really hard choice, which is they know the age of their workforce. They know that demand is ramping up due to all these secular trends, and the cost basis of fulfilling that work is going up. And they're like, how does our business pencil out?
+
+Because, you know, these are not software businesses that have these, you know, huge gross margins that you can you can play with and can compress a little bit, and it's like, it's fine. It's like, no. The business either works or it doesn't. And so, I think our customers are ultimately looking for a long term partner that can do the robots. Right?
+
+If one of our customers is manufacturing deodorant, they're doing the deodorant. Right? And they're gonna be operational experts in deodorants, or operational experts in crayons, or whatever the thing they manufacture is, and they need a partner who's the expert on robots. I had a question on the nature of factories, I mean, you can ship a robot to anybody, anytime, not today because of your shortages, but at some point in the future, right? And if your robots become more and more general purpose over time, what does it mean for where factories are located and how people organize around these factories, and you do these one town factories, one one factory town, whatever the expression is.
+
+Yeah. A lot of that fundamentally changes now, right? Yeah. I think a lot changes, right? There's a lot of geopolitics in this.
+
+I think one big thing is this is going to be a great equalizer between The United States and other Yep. Excuse me. Other countries, like China, invested in the previous regime of industrial automation. And in some ways, made them very successful, and in other ways, I think, in hindsight, that might end up being an enormous mistake. Because in The United States, we just discussed, we're doing this greenfield builds of automating our industrial capacity using generally capable robots.
+
+In China, they're gonna have to tear down. We're not going to have to do that in The United States in the same way. I think another thing that's going to shift, which is going to be really interesting, is we're just going to have way more factories in the same way that we have way more businesses, because the cloud and all of the software tooling let people build new businesses. Anybody will be able to start a business in the physical world. Anybody will be able to scale a business in the physical world if we kind of have this infinite flexible labor substrate.
+
+You brought up China. We actually published a report on the supply chain in robotics, and it seemed to be that China was so central to it. So can you talk a little bit about your dependency on it, and then how that evolves over time, and how much of it there is there risk in China to the supply chain? Yeah. I think ultimately, no matter what anybody says, today in 2026, we have a highly interconnected, interdependent global supply chain, and this is one of many examples of this.
+
+And I think both US companies and Chinese companies are thinking very hard about what does the long term strategy of this look like, and it's Chinese companies investing in The United States, it's United States companies investing in China, and ultimately everybody trying to build their industrial capacity. Yeah. I've I've noticed that, you know, you've gotten, as far as I can tell, you've verticalized more. Is that right? Like, you're taking more in house?
+
+And do you continue... Or do you plan to continue to do so? Yeah. Well, there's this tough thing in supply chain where... And again, because robotics is such a cottage industry, is you might start in a world where subcomponents are coming from OEMs, and then you grow your volume to the point of they're not OEMs anymore.
+
+They're they're glorified contract manufacturers. Right? Once you're doing a material percentage of their volume, and at that point, just the relationship and the dynamics change. Right? It's like, that the right command for that thing?
+
+Do I wanna be using a command, or do I wanna be manufacturing it in house? Yeah. I mean, Tutor must be one of the largest deployers of robots in The United States. You know, as a result, you must be, like, one of the largest customers for some of these OEMs. You know, as a result, I would imagine over time, like, you just continue to, like, drive, you know, these components yourself.
+
+I think that's right. Does that mean taking it in house or just telling them what to do? I mean, it just... Like, are they still suppliers? Some combination, I guess.
+
+Some combination. I think, ultimately, for Tutor to be successful, we will need a mature robotic supply chain in The United States. Yeah. And we're in this position where, because we are so much of the demand for that supply chain, I think it's both our obligation and our opportunity to invest very, very, very heavily to building this capacity in The United States. That's why we build robots in Watertown, Massachusetts.
+
+It's why we expect to continue to verticalize and build more and more of our robot componentry in The United States. Again, going back to when we first started talking, I don't remember, was probably the second meeting when we actually started about the research, right? Most of the meeting because we had such a great business. But that's a big strength of yours, right? And talk about how you approached it, and there's all sorts of theories about which robotic learning models will win and so on and so forth.
+
+How are you approaching the learning bet Yeah. In research? I think we're thinking about how this played out in LLMs, and what's similar and what's different. And I think one thing that clearly has been very, very important in LLMs is there are lots of heterogeneous sources of data, but ultimately there's a top of the data period, which is real world reinforcement learning traces doing the thing you want to be able to do. And so, we built our research program in such a way where we are thinking about how do we get the most out of robot experience out in the real world.
+
+And so, we built this 100 robot fleet called Data Factory One in Boston. This is, to our knowledge, the largest sort of semi humanoid data collection farm in The United States. And we're able to use this as kind of this research test bed of how do we do real world reinforcement learning at scale with robots. Know, reinforcement learning is a technique family where it doesn't really work at small batch sizes. And so if you have a very large fleet out in the real world, you can start to play with these methods, which I think people haven't been able to play with either in academia or in industry.
+
+So I I I presume, like, building a team for this is quite different, right, than, like, you know, labs. So maybe talk about kind of, like, the construction of the team, and maybe if there's anybody you're looking to to hire? We're looking to hire everybody. Everybody. So we're looking to hire researchers and engineers, and that's across every single layer of the stack.
+
+Wow. We are also looking to hire technicians to build robots. By the way, every layer of the stack. You mean, like, software? Hardware, materials, electronics.
+
+There's nowhere that you can abdicate responsibility. It's robotic. You're gonna engage with it whether you want to or not. The question is whether you understand it. So so we're we're building that team, and I think that's a really unique shape of team, not only because it's so interdisciplinary and collaborative across all those layers of the technical stack Yeah.
+
+But because it's... I think it's one of the only places in the universe where you can be on a whiteboard talking about model architecture in the morning, in the afternoon, like, you know, looking at a factory line and seeing how a robot is doing. And Is this primarily in Massachusetts? Or So we have a team across The United States. Okay.
+
+We have especially folks on the go to market and technicians who are kind of engaging. You know, our customers are everywhere across The United States. That's fair. Alright. Awesome, Dan.
+
+Thank you. Thanks for listening to this episode of the a 60 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com.
+
+Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a 16z.com/disclosures.
