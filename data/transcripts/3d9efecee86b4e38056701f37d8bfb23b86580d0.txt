@@ -1,0 +1,303 @@
+We live in a world where demand for AI capacity tokens is near infinite, and supply is incredibly constrained. So another way to put it is we all just live in Jensen's world. You were doing back then M and A for the most valuable company on the planet. The retro on the M and A process that I think worked well for Cisco was we were not afraid to fail. And we did it with high enough frequency that we got a few outliers.
+
+You bought this thing for $500,000,000 and, like, it's doing a billion in earnings two years later. When you see the AI build out, how do you look back on your previous experiences? If you look at the revenue ramp of Anthropic, OpenAI are definitely experiencing growth rates that were far superior to what we saw at the time. Do I think the build out that's happening now is useful and will be fully utilized, if not more? A 100%.
+
+Will it be owned by the same people that own it today? The last great infrastructure boom built the Internet. This one is building the infrastructure for intelligence. What can the first tell us about the second? In this episode, a 16 z's Raghuragaurab and Guido Appenzeller sit down with Hanabi Capital general partner and former Cisco executive Mike Volpe.
+
+They compare today's investment in GPUs and data centers with the fiber boom of the late nineteen nineties. And why Mike thinks the infrastructure will remain valuable even if a correction reshuffles who owns it. They also discuss NVIDIA, custom AI chips, networking, and what Cisco's acquisition strategy can teach founders and investors today. Mike's view, the opportunity underneath this build out could ultimately be even larger than the Internet boom. Great to have you here on the podcast, Mike.
+
+And it's a very, very opportune time to have you because you were one of the architects of the great Internet build out when you were at Cisco. And now, of course, we have got the great AI build out happening. So we don't... I and the audience would love to get your thoughts on then and now from all different dimensions, from the actual build out, the capitalization of it, the technology differences, etcetera, etcetera. So let's start for those that don't know or remember.
+
+Mike was a senior exec at Cisco overseeing a lot of the M and A and strategic moves that Cisco made in the late nineties. And of course, that was the time the Internet got built out, so Mike was in the middle of all of it. So clearly, let's start from there. So you were there when the Internet started taking off, and then you guys rushed into a lot of great things, and the industry rushed to build a lot of bandwidth, etcetera, etcetera, which for some time was not useful, and then it turned out it was actually too little. Right?
+
+And there are some loose similarities to what's going on now. So when you see the AI build out, how do you look back on your previous experiences? Well, first of all, it's an absolute privilege to be here with two legends here. Both you, Raghu, and the case of Gito and I, we got the chance to work together at least once. So it's fantastic to be here, and as you said, an interesting time because history doesn't repeat itself, but it definitely rhymes.
+
+Yes. So, there are some similarities. Maybe useful to give some context on some of the observations of the late nineties build out and what some of those things might apply in today's world versus not. Some of the kind of similar themes was that we were building out this technology called the Internet and the web and all the things that wrote on the Internet. We had expectations that this would be massively transformative to the world, and we imagined a wide range of applications that would ultimately massively benefit from this build out.
+
+Applications were different media types, right? So first we just had pictures and text, and then we had audio and we had video, and then we had high quality video, applications like commerce, applications like social networking, all of these things were imagined in the 90s but didn't exist. In parallel with that, there was a very big surge in demand. At a minimum, there was a surge in demand for connectivity, and on top of that, a reasonable surge in demand for bandwidth. And in parallel with that, there was a great influx of capital, of two shapes and forms, equity and debt.
+
+So if you look back at sort of what happened, first of all, in the bandwidth world, and in particular in fiber optic bandwidth, the elements, the increments of increase of the amount of bandwidth are quite different than compute. That's because we invented this technology called WDM that essentially takes a piece of fiber and said, you used to put one gigabit on there or 10 gigabits on there, by putting in more colors of light in that same piece of fiber, you can now have 40 times or 80 times that capacity. So essentially, capacity increased quite dramatically with the advent of technological change. That's actually different because compute ultimately is bound by something that resembles Moore's Law. So the pace of improvement is more moderated, hard to believe, but it is actually more moderated in compute than it was at the time.
+
+And the other component that is, I think, different is that the practical applicability of AI, I believe today, is higher than the practical applicability at the time of network bandwidth. And that represents itself by the revenue ramp of the providers. So if you look at the revenue ramp of Anthropic, OpenAI, I don't know what the numbers look like within Google, even the providers of the open source models like Fireworks, together, modal, etcetera, etcetera, are definitely experiencing growth rates, maybe not quite at the same margins, but certainly growth rates that were far superior to what we saw at the time. Now, then what happens? At some point, there's a shock that some of these businesses that are built on the Internet are not good enough, and then that ripples through the industry, and ultimately, the players that were most saddled with debt went bankrupt.
+
+Now, it's interesting to note that debt was buying assets, those fiber optic cables, and those assets actually turned out to be quite useful in the future. Exactly. Except they were operated by somebody else because the guys that went bankrupt didn't have them anymore. Yeah. So the first thing to recognize is the underlying assets that were built at the time of bandwidth, and I suspect this compute this time cycles.
+
+Yep. It'll be useful. There's no question that it'll be useful. Whether it will be owned by the same companies or not is an interesting economic question. So that's a long winded answer to say, do I think the build out that's happening now is useful and will be fully utilized, if not more?
+
+A 100%. Will it be owned by the same people that own it today? Lot of interesting dependencies and a lot of things that in fact are outside of the control because they're macroeconomic and geopolitical and so forth. It's really outside of the control of the builders themselves. Mhmm.
+
+And in particular, when I talk about the builders, some of the balance sheets are pretty healthy. Right? Last count, when I was talking to folks at NVIDIA, there are 200 neo clouds, and those balance sheets are not good. Yes. So I'll predict that there'll Of be some course.
+
+Yeah. Yeah. Some of them better than others, but broadly, I expect that there will be an economic correction in the market, but the underlying assets will be quite useful for a long period of time. Isn't there one other big difference from how it was back then, which is that everything is now much, much larger? I mean, back then, we were investing a small fraction of a percent in infrastructure for the internet.
+
+Today, we're investing 2% or so of our GDP, right, in AI infrastructure. Yeah. Well, it is much bigger, but it's an interesting concept, right, because in the 100,000 feet abstraction, what is it that is being built, right? Back then, it was communication that was being built. Today, we're building intelligence.
+
+And the economic value of intelligence is probably higher than the economic value of communication. Probably, yep. Right? So so so I think it's it's unsurprising. I also think that that believe it or not, mean, it's been nearly thirty years.
+
+The markets are more efficient now. Right? Which is why so much more risk capital is willing to make its way into AI, which even back then was not able to. I'm actually more optimistic about this cycle, but I also believe that there will be some correction and some cleaning up of the industry structure. The role of IT has also massively increased, right?
+
+Back then, I mean, in the late 90s, PCs were somewhat common, but not ubiquitous. Today, so to speak, software has eaten the world, and it's sort of, for any company out there, it's a very central part of what they do in the Cost distribution of intelligence. Oh, for sure. And not just any company, but 7,000,000,000 people have a supercomputer in their pocket. Yeah, exactly.
+
+So there's much more evenly spread consumption of the underlying benefit that's being produced. Yeah. Don't fully recall all the puts and takes in the nineties, in the early two thousands, on the financial side. Here, obviously, one of the recent shocks of the system was the rising interest rates, and the scale of capital causing people to say, hey, this is gonna carve out everything else, and we may not even have enough capital. During the bandwidth build out and the internet build out, that was not the case.
+
+Correct? There was no sudden increase in interest rates, was it? No. There wasn't a massive increase in interest rate. There's a couple of big differences.
+
+Right? One is that, I would say on a proportional basis, I believe more of the capital came from the balance sheet of the equipment vendors Mhmm. Than today. Today, it's a more capital markets driven build out. So, you know, it's private debt.
+
+It's public equities, etcetera, etcetera. There is NVIDIA vendor. I don't think you're supposed to call it vendor financing, but it looks a lot like it. So there's a little bit of that, and there's some corporate financing, it's largely equity, and it's not tied to specific equipment purchases and so forth. I'd say the capital structures are a little cleaner now.
+
+The one thing that I think interestingly though favors the 90s is a lot of the money went into the ground in the form of fiber optic and when you put a fiber optic in the ground it's good for a long long time. It's like it's a usable asset for twenty-thirty years. I think one of the deterministic factors is the compute you put in the ground, what is its actual life? This is a fascinating phenomenon, right? Because the dominant part of that compute is chips.
+
+It's it's it's GPUs. Plus percent. Yep. Yeah. It's the big chunk of it.
+
+Alright? So I remember back when people were very excited about Hopper h one hundreds. Right? It... You were...
+
+You're... They were like, okay. Well, maybe it has a five year useful life, and you're renting it out at a, you know, a buck $82 per GPU hour. K? And that was four years ago.
+
+So the chip should be defunct now, like near defunct. Not at all defunct. Nope. Not only that, it rents at a higher rate. Yes.
+
+Yeah. Two fifty or three. The kind of the interesting part is we thought this asset that have a five year life, partly because of AI itself, is a useful asset for quite a bit longer. And in that context, if you're in the business of financing an asset, and that asset ends up having a much more, longer useful life, then you're the beneficiary of that because your business models were constructed on a short. So in some sense, I actually think the fact, an unintended consequence of AI being good at software is that the underlying asset life is getting longer, thereby helping it to be more financeable.
+
+And that's an interesting phenomenon that I didn't quite expect when this thing gone underway. Although the investors are not... The debt investors have not broadly accepted the extended life of a GPU, but the Deoklouds clearly believe I'm not sure I have either. I mean, right now it seems what's mostly happening is that we have a massive scarcity of an asset, so even previous generations are still worth a lot, right? If we ever get to a point where we have an abundance of GPUs, that might completely change.
+
+You might go back to those numbers. So, I think the key metric is how much token revenue can you extract per watt, right? Maybe. Yes. So the hopper is gonna be a lot worse than Black Whale is gonna be a lot worse than Verruban.
+
+Right? They're all just more efficient at getting dollars out of a watt. So, in theory, at some point, when you have sufficient Verruubans, it doesn't really make sense to run H100s because it's just the worst way of converting electricity into dollars. Correct. But the problem is right now that the demand is so high that even if the watt to dollar conversion is low, you're going to still use the asset.
+
+So... And right now, the scarcity is so significant. And ultimately, at some point in the conversation maybe we get there, but ultimately, the scarcity is in the manufacturing of the semiconductor itself, and that doesn't look like it's changing anytime soon. Correct, yeah. And so then scarcity persists, then the life of the asset continues to be long.
+
+Yeah, I think it's correct. Yep. And the other big difference, there was a period of time where there was unused bandwidth. Today there is no such thing as an unused It's true, yes. Right?
+
+There's a bit of unused energy, like, could probably, I don't know if we're gonna talk about networking, but with better networking, you could get more flops out of a given GPU. Yeah, was just gonna say that MFUs were a factor in certain use cases, and how the people have built it, but certainly, it's generally not. Yeah. Back when you were at Cisco, were you still there when Cisco was the most valuable company on the planet? Yes, indeed, I was there.
+
+So you were doing, back then, M and A for the most valuable company on the planet, and it worked pretty well, I wanna say, looking back, right? I was very happy with it, yeah. What would be your words of advice to NVIDIA in 2026? Whoever runs M and A there is in exactly the same spot as you are, correct? As you were.
+
+Yeah, Vishal Vishal is in the same spot I am. Look. The the retro on the M and A process that I I think worked well for Cisco was that fundamentally, were okay with making enough acquisitions that we got a statistically significant outcome on those acquisitions, meaning some worked really well, some worked so so, some didn't work at all. And, you know, if you kinda drew it out, one in each of those three sectors, a third of them worked really well, a third of them were whatever, and a third of them failed. The benefit that we did is we were not afraid to fail, and we did it with high enough frequency that we got a few outliers, Andy Bechtel Scheimp's company Yep.
+
+Mariah Solis company, a bunch of these things that were sort of, you know, even for us, venture like returns. So you bought this thing for 500,000,000, and, like, it's doing billion in earnings two years later. That's amazing. And so, it ended up that during the period that I was there, I joined in 1994 and I was the one biz dev hire. In 2000 roughly, 50% of Cisco's revenue came from acquired sources.
+
+So that was incredibly useful and we actually never really spent much more on a given acquisition than four or 5% of our market cap. Most of the acquisitions were actually cheap relative to our market cap standard. How much would that mean for Nvidia? Don't even wanna think about that. Well my rationale at the time was like, if your stock trades more than the price you paid for the acquisition in one day, then you can do the acquisition as many as you want.
+
+Nobody will care. I don't know. All of them done with equity or was All equity. All equity. Almost everything was equity.
+
+Yeah. A handful of the small ones were cash, but it's And Cisco, I mean, they became major product lines. It was not like this was a little tuck in that added a feature somewhere, but this was of a new product line that in some cases became the leading product line in the industry. You're a networking guy, you'll appreciate this. The one thing that's a little different about a networking acquisition versus other ones is that networking operates on open protocols, which means that I could buy a switch company made by somebody else, and it immediately talks to my switches or routers, whatever, freely because all the protocols are open.
+
+So, you know, at Cisco, we had a couple of proprietary protocols that we enjoyed, but by and large, all the OSDF, BGP, ISIS, Ethernet switching, eight zero two dot whatever, they all worked. So you could immediately integrate the product into your sales team and have your sales team... Like, literally, you just change the badge on the thing. And so that allowed us to be, like, super high velocity. Okay.
+
+How does that contrast to to Jensen's world today? One, they've made some really clever acquisitions. You know? Like, Mellanox is the world's That's largest amazing. Yes.
+
+It's Incredible. Genius. Now, they're making other acquisitions that sometimes I scratch my head. I'm not entirely sure what Hugging Face is all about. For example, like, there's a rationale.
+
+Hard to me to see it. I don't think it matters. I think it's fine for them to do some of these and take risk, and some of them will work, and if they work as well as Mellanox, holy cow. Some of them are not gonna work. And I think the market has granted them a moment of incredible optionality.
+
+Right? Basically, they get to do whatever they want, which is the optimal moment for them to take these risks. So I think they're being very clever, and you can always critique any given acquisition. Trust me, I got critiqued endlessly at Cisco because I bought Stratacom and not Cascade, and I, you know, bought an optical networking company from Vinod that went nowhere and whatever. But in the end, you're like, alright.
+
+Well, I I did I did 70... I think our team did 70 acquisitions while I was there, and those turned into half the company's revenue, and we were doing 30,000,000,000 in revenue. So it's 15,000,000,000 in revenue. The strategy worked. And I think that the team at NVIDIA is doing that.
+
+I think that's interesting and wise. The degree to which they are financing the industry, we'll see. Yeah. Yeah. Yeah.
+
+Because that's different, right? That that... In that sense, NVIDIA is basically... I think they're basically trying to shape what an industry looks like. Yes.
+
+And I think industries are powerful and they find their own shape. It's hard to reshape Let me let me let me defend NVIDIA a little bit. Having been at Intel and and having seen how the big hyperscalers essentially disintermediated Intel from the end customers, right? And at the end of day, they could build better chips than Intel just because Intel had no idea anymore what the customer was doing with the chips, right? I have some sympathy for wanting to have more than three customers to sell to, or four maybe, as do I.
+
+Yeah. So, and you could argue, what is it, efficient capital allocation strategies? Is it giving it all back to investors? Or could it be, at this time, which is probably once in a time in history, put it all to work on future innovation. Right?
+
+So... Well, I think both of you make very valid points. The thing I would say, Greedo, is that an industry wants to look a certain way Mhmm. Because when it does, it creates maximum utility, maximum economic value. Why are there three hyperscalers?
+
+Because it's a business where scale matters. Software. Yeah. Right? It's a business where, like, scale matters, and therefore, the industry wants to concentrate.
+
+No matter how much you finance them, the little ones are always weaklings. Obviously if you're in VidA, you don't like that. You don't want three customers. You want 50 customers. So you fund them, but at some point they're gonna die.
+
+Because the industry, whenever it's a scale business, wants to consolidate. You know, we could fund a 100 airlines in America, but in the end, you're gonna have three. So, my point is not that it's a bad idea, It's just that it's futile. Yeah. So so so noble intentions, but but Now to your point, like, it could be a very good return on...
+
+I don't know if they I don't know if they actually care about the return on capital. They they they they they might, and if they get out at the right time... Yeah, it's not even about the return on capital, it's... Efficient I agree, it is to some degree shaping industries, mean, shaping the... Deciding the shape of the industry, but on the other hand, it is enabling a lot of innovation as well, because our startups and lots of other startups do get access to that capacity now.
+
+Yeah. Right? Yeah. Yeah. No, look, we're, overall, I get why they're doing it, you know, many of our companies are beneficiaries of it, so thank you, Jensen.
+
+Exactly. So, I mean, at VMware, we did probably not as many as you did, but maybe 50 plus acquisitions over the full lifetime of the company. And the observation was whether... Didn't matter whether you were acquiring a 20 person company or a 2,000 person company. The amount of post acquisition work in terms of integration, culture, business model, sales team, etcetera, etcetera, was always a lot of work.
+
+How did you guys pull it off at that time at Cisco? Okay, structurally the way we did it was that we had a very small, when I say small, less than 10 people deal team that was jobless to acquire, and we had a somewhat larger integration project management team that had sort of rules and guidelines about how we did integrations. And they had colleagues, those people that project managed it, had colleagues in the various business units and divisions and functional units within Cisco that collaborated with them. So the important thing to recognize there is that businesses, companies are good at processes. They're very bad at one time events.
+
+And so essentially, if we were going to do a large number of acquisitions, we needed to have repeatable processes that were performed over and over again, and we had a centralized group that was the administrator of those processes. More often than not, and in the beginning at Cisco we did this a lot, there was nobody that was formally assigned to this, so it'd be like, Raghu, it's your job, you go have fun with that integration. Let me know when it's done. Right? And you're like, where where do I even start?
+
+You know? That was like the modality, and we're like, okay. This is bad. So we we created this process, and it and it worked pretty well. Where it got challenging is we liked to buy small things, and small things became too small to become significant to the overall business because the business got so big that, like, you know, it just didn't make a difference anymore.
+
+And then when they tried to... This is a little bit after my time because I I stopped doing the M and A stuff in 2000 and switched over to running a business unit. But after my time, they started buying bigger things, and then you get into the problem that you're talking about. Big things are very, very hard to integrate. Yep.
+
+They have their... They've been around a long time. They have a long culture. They like... You know, we bought, like, Scientific Atlanta, which was a disaster.
+
+We bought, like, a bunch of things that didn't work very well. We also got into the mode of like, oh, we're not fully integrating them. We're like partially integrating them. Yeah. It's terrible.
+
+Yeah. It it doesn't work very well. So so so in other words, the mitigation is to have a process, but then when you stop respecting the process, you do have big problems like you talked about. Yeah. And what about from the portfolio company side?
+
+I mean, you got portfolio companies, we've got portfolio companies that at least in recent memory, we have had some exits into being other large companies buying them. Two questions there, one is if you're a portfolio company CEO, what would you watch out for, right? And then sitting on the boards of these companies, how do you advise your portfolio companies these days? Yeah. About exits in general?
+
+Look, when you're when you're in our business of being on boards and you're facing a situation where you need to sell a bit... You know, there's an opportunity to sell a business, it's one of three outcomes. One, your company's doing great and it's a really bad idea to try to sell it. So then you try to convince the CEO, no. Don't do it.
+
+Two, the company's struggling, we don't have a lot of finances, it's a nice way to get out, everybody's happy, then you just help the deal happen. You sort of manage a process and then you have the tweeners. We're not totally sure. And I think that there are a couple of important indicators that help you determine what to do in that moment. The first is, does the CEO, the founder, the founding team have the fire?
+
+Like, do they wanna do this? Do believe they can get through this sort of intermediary period and bust open into the next phase, do they want it? Because if you have a CEO or a leader that's kinda like, man, you know, maybe I should consider this, I'm a little tired, it's been a long haul, then let's just sell this thing and kind of move on. And then the second factor is you have to be pretty cold and objective about, like, is this gonna be a interesting enough business? Not like, will it double from here?
+
+Because at the end of day, if it's double, I'll take the money today. But will it 10 x from here? And that, I would say, gets to be a really hard decision because it's a little bit emotional also for you. Like, you're, you know, you're not a founder, but, you know, you've been working with this company for four, five, six years. Your heart's in it.
+
+You've you've told your good friends to go work there. And and yet you have to step step away from it and go, like, objectively, this is not 10 x from here. And then you help steer the ship. But I think the most important parameter is where's the founder's head at. Yeah.
+
+Yeah. So there is a sudden element of mystery or unknown for a lot of the portfolio company founders on how do these things actually happen, right? People think one day somebody calls another company and say, hey, I wanna buy you, versus, and then there's other thing where people have built relationships for a long time. How did you approach it at Cisco, and how do you advise your portfolio companies, even if they are expecting a 10 x? Yeah.
+
+Did you just call them up and say, hi, I wanna buy you? Is that... No. Well, obviously, you do as a good a job as you can building a network and knowing what's going on. I I mean, it's basically cataloging the inventory is the way we used to think about it, But every company in the market is a potential acquisition, so you catalog them and you know, where are they in their growth rate, what kind of founders they have, who are the backers, what are their aspirations, who are their customers, just like be informed.
+
+So, and the business, the corporate development group had to do that, but I kind of considered everybody's job at the company to be constantly informed about what's happening around them. And then essentially, the company, would try to weave in at Cisco, we would try to weave in the inventory against a strategy statement that was there. For example, we're a router company, but there are gonna be more switches than routers. Therefore, we need to have a switch. What are the switching companies that are available?
+
+Right? Or optical networking is becoming important because of bandwidth, blah blah blah. What are the companies that are available? You often have the other way where companies come to you and says hi I'd like to get bought. Think it's broadly a bad idea, right?
+
+Because there's either an auction going on, or you should have thought about it earlier if you were interested in it, but basically you almost never pay attention. We never tried to pay attention to inbound. Flip side, you're now a small company or a startup, and how do you think about that? I always encourage always the founders of our companies to talk to big companies, to talk to competitors, and to always be in dialogue. Some people will say, Well, are you shopping yourself?
+
+No. It's an inverse intelligence gathering mechanism. I even encourage my CEOs to talk to their direct competitors. Go to coffee. If you're clueless, you might leak some information towards them.
+
+Hopefully you're not clueless and they might tell something to you that's interesting or they might shape your view on an industry or something. So I encourage people to be out there always talking and seeing what's happening in the market. And usually you kind of have a pretty good idea of like, okay, my company is struggling a little bit, think I'd like to sell, I kind of already know them because I've been in conversations with who's where. So I would say a CEO of a startup shouldn't spend their entire day talking but going on one or two coffees a week with the powers that be at Nvidia, the powers that be at Amazon, OpenAI, etcetera, etcetera, when the right people are talking, do it. It's fine.
+
+The information exchange, you don't lose that much in that. They're already thinking about it, but you gain a lot by having that relationship. I think this is really good advice. I keep telling my portfolio CEOs the same thing. If you don't have the cell phone number of the CEOs of each of your competitors, that's a problem.
+
+There will be a day when you need it. Absolutely. So it's the network you need to build. Yeah, yeah. Well, enough of this M and A stuff, let's get back to actual technology.
+
+You spent thirty plus years in infrastructure. Very few people know more about infrastructure than what you do, what you've done in the past. Summarize the landscape for us right now, when you think about infrastructure opportunities versus where is the technology gaps that you see, and what founders should be really looking at? Well, super interesting topic. You know, I would say, you wanna think about, I think, the current shape of this industry in two dimensions, right?
+
+One is the vertical stack that starts with, you know, EUV equipment and goes all the way up to AI, applied AI and applications and everything that sits in between that And then you wanna think about particularly the infrastructure side, what's that... What what's sort of the the the value chain of it? The first thing you would say is right now we live in a world where demand for AI capacity, tokens, whatever, is near infinite, and supply is incredibly constrained. So, another way to put it is we all just live in Jensen's world. He's king of the hill, there's no question.
+
+Think the shape of the industry will begin to change when either the characteristics of demand change or the characteristics of supply change. And I think that my view is right now the the supply side, because so much of the limitation... Well, there's there's... There are some power limitations for sure, but the dominant limitation is silicon. And I would say that unless there's more fab capacity, that doesn't change, which is means it's not likely to really change in the next two or three years, maybe five years out.
+
+Could imagine that there would be more fab capacity. You could put more wafers through the same machines or you can make more ASML machines and so forth. But that's probably a governing factor of our industry, which means we live in a reasonably scarce world, and those who have fab capacity are actually kind of king makers of the infrastructure universe. Yep. The demand side, I do think that the world is gonna get smarter about the type of tokens they consume.
+
+I think we've been in the kind of an era over the last couple years that everybody just wanted the super high end frontier token. And I think the topic of conversation today is model routers and how do I move stuff to, you know, the economic difference between a top end Anthropic token and a top end Kimi token is like five to one or seven to one or whatever, so massive economic difference. So people are gonna get start smarter about consuming what, and I do think that that will begin to at least put some price dependency on demand. And that's more likely to happen in the near term. So those are first of all I think the dynamics that are going to govern our industry and everybody that sits in between, know if you're a Neo Cloud or you're an Inference Cloud or you're a model builder, you leave between those two poles of supply and demand.
+
+Now for the infra itself, think right now we still live in a world where you need to think of the entire piece of infra as a single system. Right? So it's quite different I think than the networking days for example of old, where you would assume a very variable amount of traffic going from one to B types of traffic, times of day, lots and lots of variability, much easier to statistically multiplex that workload. Today, basically, you have lots of GPUs that are all working all the time, always connected with much more constant flows. And you you...
+
+Because the interrelationship between the various components are largely still proprietary, you know, you're on NVLink or whatever, it's very hard to, like, swap one thing out for the other. And and in fact, today, I would argue that probably the best architecture is the Google TPU architecture because it literally thought of as a single system. Mhmm. And I I think an NVIDIA style architecture is migrating in the direction of where the TPU architecture is, but it still has few pieces that you can kind of swap out. And then you have everybody else who's like, you know, I'm gonna take a Cerebras chip and throw an Arista switch on top of it and all that good stuff.
+
+And at least in today's world, those systems have inefficiencies, because they're not constructed as a system, they're more of a patchwork. I think that industry will evolve, but today, people that can think of the whole thing as a single system, and optimize the architecture through that, have a competitive advantage. Yeah. I mean, seems like moving from a cart as the minimum unit to a rack as the minimum unit, or even a few racks in some cases. A racks.
+
+Yeah, I would... That's actually The immediate part that they announced recently. Yep. That is the minimum unit for split. Yeah.
+
+Well, but if you look at how Google does this thing with these, like, toroidal pass through optical MEMS switches, and everything, like, it's literally, like, the whole fucking data center is is the minimum unit. So the role is the minimum unit? Exactly. Yeah. Yeah.
+
+But I I... My sense is that's where NVIDIA wants to go also. Actually, I So the two dominant providers are all going to that systems approach versus. I mean, even the smaller startups are heading in that direction. Jump me on that.
+
+How you see AI chips evolve? And right now, Jensen, king of the hill, incredibly dominant, right? Google TPU, very successful, currently mostly sold by Google, it's expected to change. Not enough TPUs. But not enough TPUs, exactly.
+
+How's the future look like? Will we see more competitive silicon? I think for sure. We all want that. Yeah.
+
+We all want it, and we all want to invest in it. There we go. I would say, first of all, what I find interesting is that model architecture is becoming reasonably diverse. Right? So you have some people using FP4, FP8, some people are using mixture of experts with lots of lots of experts, some have fewer experts, some are jamming up the parameter counts, some not so much, And I actually think that there is an interrelationship between your chip design and the model that's optimized around it.
+
+How does software co design do In some sense, to your point, is there going to be more diversity in chips? And I think yes, because there's going to be more diversity in model designs. And depending on what kind of model you want to do, what kind of things you want that model to do, you can certainly select a different chip architecture for that. Now reasoning intensity has dominated to date what chip architecture should be because reasoning intensity equals big parameter counts and big KV cache. Yep.
+
+Yep. And that means that you need to talk a lot between memory and chip. Yep. And, you know, when the only way you can talk between chips are the edges of it, it's just less connections than if you can use the top and bottom of a chip. So I'm a big fan of three d DRAM architectures, and some of the new stuff that's coming up with hybrid copper bonding is even more interesting because you can have even higher density.
+
+So I think that architecture has huge promise so long as we continue to see these KV Cash, in particular KV Cash intensive use cases. And it seems like the most value added labor that occurs, labor or AI that occurs, is reasoning driven labor, right? And therefore, that should favor architectures that have very good memory bandwidth. We're investors in Cerebras, services did very well to go fast, but if the model doesn't fit in the SRAM You got a lot of them. Yeah.
+
+Well, yeah, you need a lot of... Well, because once you get off off board of Cerebras, it's not gonna go super fast. Yep. Right? And and also because the chip...
+
+The wafer is so large, the actual... You're actually at a significant disadvantage in terms of the memory bandwidth once you go off chip. Yep. So now they they run SOL on on the Cerebras chip, so that's a big model, so they figured out how to fit it in, but my guess is OpenAI had to do some hard work to get that model to fit in the chip. Yeah, no, we are fans of three d architectures as well, but the manufacturing of it is a lot more complex, with thousand For effects sure.
+
+And so on and so forth. Yeah. No, I'm a big fan, I'm a mechanical engineer that studied thermodynamics, so There you go. Sheet is my friend. That makes you one of the very few people who would say that.
+
+Yeah, so I'll we'll see how they're packaging. Divisions of TSMC and everybody else are calling you right now. Yeah, yeah, no I agree, the packaging of those chips are gonna be complex, especially obviously the thermal attributes of it, and then when we get to a world where you have both a logic chip and a memory chip in the same package, the different coefficients of, well they have the same coefficient of thermal expansion, but logic chips get a lot harder, so you know, the ability to put that all into the same package will be non trivial, shall we say. Are hot again and they're getting hotter. The other possibility of course is to keep them still separate, but have optical interconnectivity between them.
+
+Are you a believer in that? Yeah. Think yes. Optics though are very finicky things that need to be experimented with a lot. So, you know, when you heat up optics, they they don't they don't like it.
+
+They don't... You know, photons don't like getting hot. And, I mean, in theory, you would, like, have a substrate that had waveguides in it or something. But the minute the Logic chip starts getting hotter and you get sort of outside of the comfortable temperature range, you're gonna have a variety of connectivity issues and so forth. So I I think optics are interesting.
+
+If you can do it with copper, I'd do it with copper, is my view. But if you you Got it. Yeah. Even for scale up racks, not just interconnect now, but even for No. For, I mean, for scale up racks, that's a different story.
+
+That just simplifies the cabling and so forth. I'm talking about at the Inside the packet, inside the server. Yeah. Yeah. No.
+
+For for Right. When you start going top of rack and all you definitely, you don't have enough bandwidth. So, Cisco back then, most valuable company on the planet, early hardware leader in networking, which powered all of the internet, at some point wasn't the most valuable company on the planet anymore. What triggered that? What can we learn from that?
+
+What tends to happen when you have a bubble in demand, in perceived demand, is that customers over order because they know they're gonna get cut back. And so, every part of our product line was out of capacity. We couldn't make enough switches, we had orders on top of orders, on top of orders, on top of orders. And then, we were of course putting orders on all of our supply chain, and because the demand felt so robust, we were taking the financial risk on those orders. In other words, we were like, here's the money, keep the money, and just get us this stuff as soon as possible.
+
+Well, possibly we could go wrong with that. Yeah. So then when Demyton dries up, it's not like people stop buying, they cancel all their orders. They're like, yeah, ordered twice as much as I wanted to anyway, so I need half of half of that. So the orders went to like one quarter of what they were.
+
+And then, a, you've taken the risk on the supply chain, and b, your demand falls through the roof. And so I think we ended up in the December quarter, and in particular, this is kind of memorable because it happened in the December quarter, so we are one month off. So November, December, January, and usually what tends to happen with businesses that are a month off, you know this, right? Like December's soft, and then the first week of January, you start seeing it coming back, and then by the end of January, you've made it up. So we go through December, it's soft, it's like, no big deal, December's always soft, and then week one January, nothing happens, week two January, nothing happens, week three January, nothing happens, you're like, shit.
+
+So the quarter came in, I don't know, maybe we missed by 35, 40% or anything. Wow. Yeah. A massive miss. For a company, by the way, that publicly traded for a decade, never missed a quarter.
+
+Yeah. And then that's how it all corrected. And it was difficult. Stock went from $80 a share to $9 a share, I want to say. So it was like literally one tenth the value over a period of six months.
+
+Very tough. Yeah. So look, every time when the workload changes enough at the top layer, the underlying infrastructure of software and hardware needs to change with it. With AI, we've seen this. We talked about compute, Right?
+
+What's gonna happen in networking? I mean, we've seen big changes in networking. We no longer have one network. We now have suddenly the second back end network. Where did this come from?
+
+Yeah. Did you just say Ethernet is dead? There we go. Ethernet is dead. Perfect.
+
+Perfect. Ethernet is a framing mechanism for the Internet. It's coming back. It was dead. Right?
+
+Here here I think. Think that the core tenants, the world of telecom started with circuit switching. Right? Like, made the phone, and the idea with the phone is that you had starting point a, starting point b, constant bandwidth between two, you connect the line, and off it goes. And then we found out, well, this is, like, reasonably unreliable because one line cut, then you lose it.
+
+And, obviously, it doesn't scale very well in a world where you have uneven traffic patterns. So then we decided, let's go to packets, and packets are very convenient because they allow statmuxing, which is the big, big benefit of it. David and Andy back then, right? Cheerleading it. Yep.
+
+That and variable length packets and all of these IP packets essentially. So essentially, the world grew up building networking equipment assuming that you had uneven arrivals and departures into a device that spread out the workload, and you would under provision the device to connect more bandwidth because not everybody all communicates at the same time through the thing, and the outputs of that inbound are highly variable. Okay. That that was... That's the Internet, that's the workloads that we live with.
+
+It was almost dogma, right, for for a long time. Okay. So fast forward today. What does an AI data center look like? It does not look like that.
+
+Don't have random arrival. Links are consistently fully utilized. GPUs want to be fully utilized. Traffic patterns are actually much more predictable than they ever were before. Particularly in training, they're incredibly predictable.
+
+They're less predictable in inference, but you can see the traffic path, especially if you do like good But the of it is still very predictable. Yeah. Especially if you do like big batching. Yeah. Exactly.
+
+You you can definitely make it more predictable. So the fundamental tenet of the the the workload has changed. Yet, if you look at the dominant networking architecture today, which is the Broadcom... What's it? Not Trident.
+
+The Tomahawk. Tomahawk. Yeah. Which is the Dune acquisition that they did, is a stat muxed packet switching architecture. Yes.
+
+So I think that at some point, for data center networking, we're going to have a new kind of architecture that assumes a high degree of predictability and a full utilization as opposed to an unpredictable stochastic stat muxed approach. So essentially, back to circuits is what you're saying. Yeah. And optical circuits, I guess. Yeah.
+
+So Or or, I mean, time division multiplexing works as well. Right? Or combinations of those. Know, you can have many modalities of multiplexing, but they're they're not stochastic. Right?
+
+They're they're constantly timed somehow. Like, you can do TDM, you can do whatever else you want, but basically... So... And I think these architectures... The the the issue is the switches you buy today have the correct amount of bandwidth and the incorrect architecture, not incorrect, but less adapted architecture.
+
+And I think the data center switches of the future at some point will look more like that, will look more like, you know, potentially you could do it with MAMS. To bring ATM back into the data center. But even ATM had stat muxed stochastic cells. Right? Straight up circuits.
+
+Yeah. Networking vendors, including my former employer, this is bad news. Because when things don't change, you can't charge a lot of money for them. The whole point of a switch is that it's a complicated animal to have a a statistically statistically multiplexed traffic flow. It's a hard thing to have, oh, my one packet came in here.
+
+I have to throw it into memory. I have to do a lookup. Do the lookup. I gotta send it out of this gate. That's, like, hard to do.
+
+So you make the thing expensive. But in a world where it's relatively static, you you don't need that much intelligence. Don't need buffers anymore. Bam. Send it right through.
+
+So I think that there's an opportunity for somebody to to sort of rethink network architecture given this workload and make it way cheaper. It's like classic innovator's dilemma Because no matter what vendor you are today, this is not a good trend. You're not gonna wanna do that. But if a newcomer and you say, you know what? Forget all that stat muxing shit.
+
+Like, the world's different. I'm gonna go with my thing. Actually, you might be able to build something interesting. Now, it could be optical, it could be electrical, it could be a combination of the two, but I think we're gonna... What will emerge...
+
+And I think you can see clues of that from how Google does its network. Yep. I think Amin has has been the pioneer of specifically optical optical circuit switching, right, because they were the first ones. That's for like the toroidal thing imaging. Yeah.
+
+Yeah. We're starting to see I don't understand why it's so slow, by way. It takes them like a minute to switch. So that one, I don't totally understand. I think to some degree it's because of the use case that right now you use it to set up fairly static.
+
+I don't know whether it's static or you care. Fair. I agree. I mean, for availability reasons, you don't want to. Me a few milliseconds.
+
+Not a second. Yeah. But you probably could, honestly. Right? I mean, the technology, I think, is there.
+
+It's just the use case is not there. Yeah. Yeah. Yeah. So, yeah, I know I've been looking at a bunch of these, whether it's MEMS or these Max Zander thingies, the MZIs and whatnot, to see if there's something in there.
+
+But, you know, somebody has to emerge with an architecture. And then the issue is gonna be who embraces it, because you can't just build a switch without the rest of the system That's pulling the other thing The enterprise dilemma extends to the user's inertia as well. Exactly. Right. Well, this way, the network to some degree, coming back to the ship me a row concept of infrastructure today, the network has become an integral component of your architecture, this innovation to some degree almost has to come out of the It's a component of GPU Yeah, Yeah.
+
+But it's interesting, right, because only NVIDIA, maybe AMD will get there at some point, but only NVIDIA and Google right now have the ability to ship you a rack system. That's right, yeah. So today they would have to adopt it. It'd be interesting to see, like, you know, as more chip vendors evolve, is there, you know, is there an alternative architecture that they can all agree on? Sort of the shit that we did.
+
+Back in the days. Back in the day, right? So, the thing is, you have two dominant vendors. The ITF two point zero. Well, they have two vendors, they're dominant, They they have their own approach of doing things.
+
+They're not likely to shift off of that. Yeah. And can you have a collection of everybody else that says, no, actually, this is a standardized network architecture that we're all gonna agree upon and that's what we're gonna do. The rebel alliance. I like that.
+
+Yeah. The buyers have to agree. That's the case. Yeah. Yeah.
+
+So so, Mike, you've seen a lot of these cycles now, some bigger, some larger. You've seen the last really big one. How does this compare? As you probably know, I've I've started a new venture fund called Anabi Capital. Technically speaking, I retired in 2023, and I was supposed to get a yacht play This didn't work out very well, did it?
+
+Why? I actually think this is the most fascinating time to be doing our job, and to be in our industry. Not just because the change is big, and we all know how transformative the change is, but because it requires more intellectual exertion to understand how... What next. It's like you don't have a crystal ball.
+
+It's not obvious what the next move is. Yeah. It's hard. And so you have to keep thinking, and you have to think at a systems level. Like, I don't think I've ever been in industry before that I had to think about how light gets concentrated on a Zeiss mirror to figure out whether my chatbot works well.
+
+And, like, it's all... It's this amazing interconnection of things where there's bottlenecks and this changes and this changes, that changes. So I find it just the most intellectually fascinating time. And because the end prize is so significant, by figuring out how these different parts unlock, you can create a company here and a company there, and this one can become worth a trillion dollars, and this one can become $500,000,000,000 and so on and so forth. And honestly, I did not expect to encounter another time like this in my career.
+
+And by far, I find this the most dynamic and interesting time to be doing what we're doing. And I think we should all feel quite fortunate about it. Amazing. This tops 99? Oh, yeah.
+
+Easily. Totally, totally agree. And we are all on the same business for very much the same reason. This has been a fascinating hour. Thank you so much, and we could be continuing this conversation endlessly.
+
+Perhaps we'll do it another time. This was super fun. Thank you, guys. Thanks for coming, Mike. We appreciate it.
+
+Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x at a sixteen z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a16z.com/disclosures.

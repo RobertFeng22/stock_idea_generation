@@ -1,0 +1,261 @@
+We're going back to the nineties and two thousands again. We're gonna see breaches popping out all the time again now. It's gonna look very different than the last fifteen years of security. AI attackers that are actually going after companies, startups in scale and speed that we've never seen. Elon Musk tweeted that recently, Everyday is zero day.
+
+What is AI doing to make this happen? Models are good enough now to find and exploit complex vulnerabilities. And the other is that the open source models. That's the scary bit. Few months ago, we said we have a few months until open source models catch up.
+
+Now they're catching up. The security game has just changed. You need to be thinking about how you can automate so much of both the blue side and the red side right now. Most of what security teams do is not security. We should stop doing most of what we do and focus on finding critical risk, figuring out how we mitigate it, or at least put detections in and also response readiness for it.
+
+What do you think the next several years look like? AI attacks are prevalent, easy, but also better than any human. That's the problem. The only companies that will be able to survive are companies that are What happens when an attacker can do in twenty minutes what once took an elite security team weeks? A16z general partners Sarah Wang and Zane Lackey sit down with Wiz co founder and CTO, Ami Lutvak, to unpack how AI is changing cybersecurity on both sides.
+
+Ami explains how attackers are using AI to find vulnerabilities and move from an initial opening to a full compromise of machine speed, while patches still move slowly through the software ecosystem. They also discuss what Defenders can do: continuously test their own systems, automate investigation and response, and build infrastructure assuming vulnerabilities will exist. The question now is whether defenders can adapt as quickly as attackers. Ami, thank you so much for joining us. Security professionals are calling October Black October, and it's clear that we're entering a new era of agentic attacks.
+
+Can you, just to start off, walk us through what the heck is going on right now, and how do we get through this critical moment? Yes. So first of all, great to be here. We are calling this Black October since it's, in my view, like a black swan event. We've never seen, never ever, seen so many security incidents happen in a single month.
+
+And we are talking about multiple different types of security incidents, both the number of vulnerabilities that has been found in October and the severity of those vulnerabilities, including the PHP vulnerability, probably the most severe vulnerability ever found by AI. Right? So, vulnerabilities coming in a rate that we've never seen. But on the other hand, even worse, we're seeing the rise of AI attacks. Right?
+
+So, AI attackers that are using completely new speed expertise that we've never seen before, actually going after companies, startups, refrigerators in scale and speed that we've never seen. Yeah. I mean, the scary thing about that to your point is... And you guys cover some of this in your blog as well, the speed. And I think you've even said definitely to us privately, but probably publicly as well that every day is zero day.
+
+Right? Elon Musk tweeted that recently. What is AI doing to make this happen? What is the mechanism that it's able to speed writing exploits? I think you guys actually did some work around this where you found it collapse the timing from months to weeks.
+
+Say more about how that works. And I think your point on the audience for this podcast, what should founders be thinking about and doing? So if we think how we got here, right? So there are two major moments until Black October. One was the Mitos moment where Mitos came out and said, Oh my God, we can find Vonovites.
+
+Okay? That was one moment. But again, nothing happened. We said, Oh my God, it's coming. But we still had a- Right, totally.
+
+People say, Okay. Okay, the sun is still rising. The other big moment that we had was the hacking phase incident with OpenAI, right? Yep. So that was another major incident that we saw the risk of AI attacks.
+
+But again, it was accidental attacks. What happened now in Black October is that all of those potential theories, the things that we said are coming, they all came and crashed upon us and it's happening right now. So one is that the models are good enough now to find and exploit complex vulnerabilities. And that means that this is not a theory anymore. It's happening.
+
+It's an explosion of vulnerabilities. And the other is that the open source models, right? That's the scary bit. And we said it when we spoke about Meetos a few months ago, we said we have a few months until open source models catch up, okay? So now they're catching up.
+
+They're catching up. It means that now it's not just about vulnerabilities. They're able to find ways to run code in your environment. It doesn't have to be a complex PHP vulnerability. It can be just a mistake in your API, right?
+
+They can find and utilize those zero days in your code, right? And basically run an entire attack that usually took for the best attackers weeks or months in again, twenty minutes. That's what we're seeing now. Are So behind the open source models? I mean, we're chatting with folks on the offensive capability side, it tends to be about, like, six to nine months or so, but that's close enough now at this point.
+
+But I'm curious what you've seen. There's two different questions. One is, okay, on the offensive side, right, to find a vulnerability, are we better than the open source models? Yeah, maybe we have three months, it's not more than three months, right? The problem is that, is the offensive side on attacking, okay?
+
+Because I'm a company. It doesn't matter. Let's say it's a startup, okay? And again, we are talking about a wave of attacks. If we just look at AI development providers, right?
+
+We had a blog about... We've seen, initially, blog had nine companies attacked in October, and the list is growing every day. We're now on 15. Wow. So, it's just an example of one market, right?
+
+Like AI development platforms, okay? These are getting targeted specifically now because they have AI keys, right? The fact that an attacker, it doesn't have to be a sophisticated attacker, can use AI. Open source models are good enough to find problems in your code. And the big problem is to also use them in a matter of twenty minutes.
+
+So think about it. Which startup is ready for detecting those attacks? I don't know. And then actually finding them and responding them in time, right? Like it's you need a 20 fourseven SOC in every small Yeah.
+
+Right. But why don't we talk for a second on PHP to Shell as an example of just a case study of one of the many that came out during Black October here? Can you talk a little bit about just how prevalent you saw this across your customer base? But then now that we're actually a couple weeks out, really curious your take on how has patching actually been across the customer base, and what are kind of the state of things a few weeks out now that we've had a few weeks of seeing it be out there? So PHP is maybe one of the most prevalent technologies as an external facing technology.
+
+Right? Oh yeah. As a former CISO of a PHP e commerce company, yes, I Are they saying it's like 70% on the internet or something? Yeah, exactly. Exactly.
+
+So you know, the impact is basically almost 100% of our customers had some PHP running, right? So, we saw a major drop very quickly. So, customers are now, I wouldn't say they have automated patching yet, but they're very, very aware of the importance of patching. So, I'm talking about 50% patching within the first two, three days, right? So, immediate reduction, but still, the problem is that this is 70% of the internet.
+
+So, even just this single vulnerability is gonna take years, okay, until it's resolved. And there is many, many, many cases that we see both on the internet and also the customer environments that they don't have any way to pitch, okay? Because older versions of PHP are not even getting a pitch. Yeah. Can I ask a?
+
+Just a a meta question here? And two of our partners wrote this great piece on time for writing exploits versus patching. And Yeah. There's a lot of dialogue out there about how AI has made it just cheaper, easier to turn a patch diff into a working exploit. And there's sort of some data on just sort of that time falling.
+
+On the other hand, it seems actually that the data is showing time to patch actually hasn't gone down. In fact, it's gone up if you look at the data over the last twenty, twenty five years. Can AI help with that side as well, Ami, or is it still early days? So first of all, you're right. The time to get an exploit dramatically went down.
+
+It's even worse because many times the information leaks before the CV even is out. Many times even the CV is out, the patch is not out. In the PHP case, we worked for months with PHP to get the entire industry ready, and it leaked before time, right? So, the customer doesn't have anything to do. The patch is not ready.
+
+In Linux right now, even if there is a vulnerability reported to Linux kernel, it might take weeks or even months until it reaches all of the distros, right? So, the industry in general is not ready for... Even if you can patch internally quickly, sometimes until a patch gets to your distribution, okay, it's not ready for AI, right? AI can exploit things in minutes. So, the answer is that the world is not ready.
+
+The world is not ready for this. It's a problem. In terms of patching, you're right. We don't yet exactly know how to automatically patch. And I honestly don't see a path towards that.
+
+It's easy to say, Yes, let's automate everything. In reality, if you are building now a new company, you can do it. If you're building a new company and you have automated engineering and automated CICD and automated testing, you can basically be at a position where I tell you, Patch this, and your entire system can automatically do it. And I think for new companies, you should design your system to be able to auto patch, right? But in order to do that, you need an agentic pipeline for everything, right?
+
+You have automated dev, so you need the ability to take a ticket and have an automated dev to create the patch. Fine. Then you need automated testing, automated ICD, and automated DevOps. There's not a lot of legacy companies that have all of that, and it's not even realistic for most of their code. But for startups, maybe it's possible, and I would consider this a task for startups.
+
+If you start, claim this, you know? Yeah. Absolutely. I'm curious to just dive in real quick on the... A little bit deeper on the offensive side.
+
+So going through kind of the discovery of this, it was funny, a little bit of a footnote here, but this was a vulnerability that was independently discovered by two groups, Wiz and Calif, around kind of the details of the the PHP to Shell Vault, which is a thing that used to happen a a bunch back in the day. I'm curious though, for your research team, how were they really leveraging AI in terms of discovering this? Just going a little bit deeper on how it's really unlocking vulnerability research teams. So a few things. First of all, I think this will actually happen much, much, much more now.
+
+Because every time there is a new model, there's new capabilities. Again, I look at it like Bitcoin mining, okay? Number of vulnerabilities will go down, but because it's like Bitcoin, there's always more. And the new models can uncover more vulnerabilities, right? So it's not surprising that there is a new model, okay?
+
+And then multiple teams find new vulnerabilities, right? Exactly, yeah. And by the way, right now, we are getting ready for ZDC, the zero day competition of Wizz. And we are seeing, we're getting multiple, multiple reports on a very, very critical vulnerability that is also, I believe, gonna be a major impact on the internet. And this vulnerability is being reported by multiple teams.
+
+Yeah. Yeah. It's amazing how it brings everything old is kind of new again in the security industry right now. Yes, you're right. Internally, our vulnerability team, we built basically also for the WIZ product, we built what we call Atlas, which is a harness for vulnerability detection, right?
+
+So we're using that with different models all the time, because every model has its own unique capabilities from OpenAI or Google or Carbon. Each of them has its own capabilities. We're trying to use all of them and find whatever we can. But the point is that everyone are doing it. So you would expect a lot of teams to find vulnerabilities at the same time.
+
+That's the important thing. We have to focus on infrastructure that is critical, using the models of the frontier AI that have a few months of advantage. And we have to continuously do that on those areas to make sure that we find the before attackers. But there's so much code in the world that it doesn't help because there will still be vulnerabilities that attackers find on an area that we didn't look into. I don't wanna take us down a a frontier model rabbit hole too too much, but just to probe a little bit on what you said about using multiple models and each one being good at different things.
+
+To the extent you can share, I mean, I'm curious about two points there. One is what are different models better at at a high level? And then two, how do you see... I mean, you know, obviously, Wiz is a part of the Google family now. And so you have the DeepMind team and and their models at your fingertips, but it sounds like you are using multiple models.
+
+How do you think about the sort of relationship between Frontier Labs and independent cyber companies in this day and age? So I think that every model and also every version of every model, right, and now it's getting complicated because you have the Frontier models and you have the cyber versions of those models. It's a complicated matrix, right? But the point is that each of them does behave differently and has a different speed and cost, right? So there is no single answer.
+
+That's my point. If you wanna do a task, it's for cyber, but it's true for other stuff as well. The only thing you can do as an independent company is to try all the models all the time and to find the best combination, right? The way I see it is that people say, Oh, now it's easy to develop using AI. It's not true.
+
+For most founders right now, the key is gonna be the cost of the service, right? And the only way to create a scalable service is by creating a very, very intelligent pipeline there where you do some of the tasks with specific models and some of the more complicated tasks with other models, and you mesh all of them together in a very, very efficient way. Otherwise, you're gonna lose money on your sales, right? So, as an example, we have what we call the blue agent, which investigates attacks, right? I cannot run the most advanced, expensive model on every event, Right?
+
+But I can create a pipeline where you start from a deterministic detection, then you go through a cheap model detection, then you go through a more advanced model. And if all of them think it's malicious, I will say to the most advanced model to determine, is it really malicious before I tell the customer. You see? Yeah. So you need multiple models, multiple types of models, and you have to design pipelines.
+
+And I think that is really the new engineering change for founders, for companies building AI systems at scale. Yeah, absolutely. And just on this cost point, you talk about in, I think a blog post that you guys wrote, but maybe summarize a little bit here, this paradigm shift that needs to happen around continuous testing. Right? Sort sort of the the focus being on the word continuous versus static.
+
+And cost obviously plays a big role in, you know, sort of the democratization of every company being able to do that, not just the sort of most profitable and sophisticated. How far are we from getting there on a cost... From a cost perspective? And what what else, I guess, needs to happen? Maybe it's also cultural shift, etcetera, like tooling shift.
+
+But how far are we from, I think, I guess, do you think companies need to go and how far are we today? So, I mean, first of all, it's a big question. Like, let's take security, for example, go back to the Mitos moment, right? So people say, Oh my God, there's Mitos. Have to scan all of my code.
+
+Okay? Fine. Let's say you it in April. Okay? You might've wasted $5,000,000 okay?
+
+These are real numbers that you could have wasted a lot of money. It's very expensive. Okay, now there's meters 1.2. You do it again? Right.
+
+I'm not talking about small budgets. I'm talking about Some customers are spending now tens of millions of dollars on scanning code. You have to think about a scalable system, right? Continuous system that scans but is intelligent. So because there's gonna be new models, new capabilities, new code, right?
+
+So we see this as a major challenge for the industry. We are trying to figure it out, and I'm not gonna tell you that we solved it, right? But the challenge is, how do I use the budget wisely in a way that scans from the inside, from the outside? We have active attacks, we have passive attacks, we have code analysis, we can scan on the disk itself, we can look at the runtime. How do I use all of the budget in the most efficient way for the customer?
+
+Not as a single scan, but as a continuous scan, right? And that is the challenge of security scanning right now. If I tell you, Oh, yeah, just run meters on your code. Great, you're right, you can do that. But does that actually solve your problem continuously?
+
+No. It's just gonna get you, like, a big hole in the in the budget. I I know it feels like a lifetime ago that we, all used to talk about, just cloud security, pre AI security. But I'm curious. You know, look.
+
+For for security teams and practitioners, CISOs, security engineers, all all of this, just because new problems appear doesn't mean old problems go away. And so for a lot of, you know, Fortune 500, Global 2,000, they're still dealing with a lot of cloud security challenges. I'm curious if we, for the first part of this question, let's just kind of set AI aside. And can you talk about kind of the state of cloud adoption and security in 2026? And then for the second part of the question, let's layer AI in there and talk about how how it's really changing cloud security specifically.
+
+Yeah. So, I mean, of all, cloud security, when we talk about I have an application that's running, it's always in the cloud, right? Yeah. When we talk about AI attackers coming after my application, they will always start from the same vulnerabilities and problems and mistakes that you could have done before, right? So, nothing changes in the fact that in cloud security, you have to make sure that you're focused on critical risk and that you've fixed it, right?
+
+If you have a PHP vulnerability you didn't fix, yeah, attackers are gonna come from there, right? So, just added more vulnerabilities and more types of attacks. Doesn't mean you don't have to fix the old ways of attacks, right? So, in terms of cloud security, what we're seeing is that, first of all, everyone understands that you need this system of record that understands and gives you visibility into everything, right? So, I would say what we are starting to see change is, of course, the companies are trying to create more agentic workflows and also expect more from Wizz, right?
+
+So, for example, if before we would provide a vulnerability with prioritization, now they would expect us to go back to the code, find the code, create the fix, create the polygraphs, you know. So, basically help automate more of the processes that take time. And that's also true for detections, right? They don't want just a detection. They expect also to get a full investigation, forensics, find the root cause, tell me how the attacker got in, and push them out, you know?
+
+So, the way I see it is that what AI is doing right now is basically every step that we had that we didn't solve Wiz automatically. Companies are trying to do it automatically on their own. And they also expect us to get better, right? So, as an example, we are not finding threats anymore. We have to do a full investigation.
+
+We also need to do forensics. And I think the next step for us, now that we see AI attackers, we need to start thinking about automated response, which is very scary, but I don't think we have any. Absolutely. Yeah, yeah, Completely agree. Yeah.
+
+Maybe on the topic of things that you guys are automating and just how Wizz has evolved, you talked about BlueAgent. Can you share a little bit more about RedAgent? Because I think that's where, you know, you're really simulating an adversarial point of view. And, you know, is your response... Is is Wizz's response to AI shifting risk?
+
+You know, are are... Essentially, are you giving your customers... Going back to this sort of speed thing, like speed of the defender, speed of the attacker, are you are you sort of thinking of ways to give machine speed to your customers, if you will? Exactly. So eventually there's two forces here, the red and the blue.
+
+Blue tries to find attacks and stop them. What the red is trying to say is the best defense is attack, right? So, you have to attack yourself with AI continuously because unlike what we had before where we had static defenses, Now defenses, they have to be dynamic because every new model has new capabilities, right? So maybe your application was considered secure yesterday, but it's not secure today. Think about it, if I try to give you an analogy, think about you have a door, okay?
+
+And maybe you hide your key under the mat, okay? And that's considered secure, right? But your attackers are getting superpowers every week, right? So maybe next week, they're gonna be able to get into your door. So whatever was considered secure last week, if every AI model can get into the door, it's not secure anymore.
+
+So the watermark keeps going up, right? So, the only way to know you have a problem is to continuously attack yourself with the latest models. So, before the attackers can open the door, you figure it out, you fix it, and you don't have it out of time. And that's the speed, we talk about speed of defense, right? It's crucial.
+
+So the red agent tries to do that, tries to do an offensive AI attack against your applications from the outside, using the context we have from the inside to try to find the problems before the attackers actually use them. Are you doing a similar pipeline on the the red team side? So my my question is coming from the angle of teams who... This all makes sense to them. They wanna get started with it.
+
+Let's help them avoid a bunch of the mistakes that everyone else has had to learn. On the blue team side, you start this with kind of deterministic approaches, and then you layer in cheap models and and the tie... The pipeline that you talked about have progressively gained more expensive. Are you doing similar approaches on the red team side as well where it's... You're starting deterministic and then you're layering cheap models?
+
+Or are you layering just a whole bunch of different models all starting from scratch and all running simultaneously? Yeah. Yeah. Exactly. So, yes.
+
+I mean, first of all, let... Let's compare this to... Oh, like, if you have a budget, you can just give it to meters and run on code. That's not very efficient. So more efficient is that you analyze all the exposure.
+
+Right? That's what we do at deterministically with. Right? Then we layer on top of that what we call the exposure red agent that just looks at everything that is unauthenticated, exposed on the internet from your environment, right? So that's an immediate analysis for everything, every exposure you have.
+
+That is the most urgent thing to do. It's even more important than scanning your code, okay? Who cares about your code? I'm talking about the actual unauthenticated exposed attack surface that you have. More urgent, right?
+
+Next step is to start doing deeper pen test analysis and deeper code analysis, right? So, there's definitely layers here. And also, in terms of models and investigation time, from the outside, what we call exposure agent, maybe will take a few minutes for every endpoint because you have a million endpoints. When there's a critical application, I might take ten hours to try and hack it, right? So, it's all a pipeline.
+
+Everything is gonna be a pipeline now, right? You cannot throw money on code scanning and think you're done. No, it's all about managing the budget. This is the whole point, right? And they're all connected because if I find a problem and the engineering says, Oh my God, this is too expensive to fix.
+
+Okay, you know what? Let me tell the blue agent to put some detections there. You see, this is all working together. Right. Right.
+
+I I was gonna ask... And it's really interesting to hear your point of view on this because we had an internal discussion with Mark the other day about how it feels like state of the art is essentially what Red Agent is doing. You know, you have agent swarms constantly attacking your own systems that... So so you know how to protect against them. Right?
+
+You're you're working with some of the top enterprise customers. Right? Over 50% of the Fortune one hundred, and then you also have leading edge startups in your customer base. How many people are actually doing this? So in with, majority of customers are already using the Red Agent.
+
+Okay. Wow. I think across the industry, not enough. Think everyone should do it right now. Like, there's nothing more important than to scan your environment continuously from the outside.
+
+Like, there's nothing more important than that. The best defense is attack. When they come, it might be too late, okay? So, really, the best thing you can do is continuously attack your environment. So, in my view, again, on the Wizz customer side, it's like we are getting very quickly to almost full coverage, right?
+
+Everyone understands it. And it's really one of the fastest growing features that we've ever released in the world. I don't think people understand. I think sometimes, know, Meetos got a lot of PR, good, okay? But the PR went to the wrong place.
+
+I actually don't think the scanning code is the most efficient thing you can do, okay? And it's important to understand that because people can say, Oh, yeah, I invested so much in scanning code. Really, that's not what you should do. You should focus on scanning your external exposure before, because there was a big incident just two days ago, a key hardcoded in a mobile application that exposed a lot of people's data, right? That's where attackers get their attacks, unauthenticated surfaces.
+
+That's what you have to run scans for, and you have to do it continuously. So I think that's the gap, and the world needs to know that. Yeah. Maybe on this thread of what founders should be doing. So Zane and our colleague Joel actually wrote a note in the midst of Black October, you know, to our founders talking about spending more on security, potentially considering delaying product releases.
+
+So I want... This is a question for both of you, maybe Zane to to say a little bit more about that. But say I'm a founder with a release coming up. I have a backlog of security issues. How should I think about what needs to happen before I ship?
+
+So question for both of you, I guess. Yeah. Sure. I mean, I'll... I can kick off.
+
+I mean, I think I think you and I are are very aligned on this, which is the security game has just changed. Right? And you need to be thinking about how you can automate so much of both the blue side and the red side right now and really leveraging a variety of agents for those automations. And so I think historically in the the old models, was, you know, the you had a release and then you kinda delayed that for security and all of that. I think that the new model that you're thinking about is how can we be doing all these things in parallel?
+
+How can you be really leveraging a variety of agents to be continuously testing? And as you're building a new company today, really doing patching from the beginning and building in so much automation into your your software development and your infrastructure development. Mhmm. Yes. Yes.
+
+And and, again, I wanna... I don't wanna scare, but I... Let's let's just... I work with the CEOs of startups that are getting attacked. Let's just be in their shoes, okay?
+
+Yeah. You wake up and your security team says something bad happened overnight. We tried to stop it, but they got in. We woke up after an hour, and that's in the good situation where we're Yeah, you're being very nice there of an hour. Yeah.
+
+They didn't even have a security team, okay? After like a round, don't even know if they have someone that is dedicated, right? Yeah. And the attacker... Yeah.
+
+And we found out that the attacker got in, and the entire attack, again, takes twenty minutes from the time they get in, until they take all of the secrets, all of the AI keys of all of the customers, right? And now you have to figure out what are you gonna say to all of the customers and what you're gonna do. And this is what is going through companies right now. So the point is that AI attacks, we've never seen that before. We have to understand it's a new threat, right?
+
+It's a threat to everyone. But if I'm a startup, especially if I have anything attackers want, again, especially if I have AI keys or anything related to something they can use, I am on their target. It doesn't have to be a big company. Startups are actually their key target now for LLM checking. What do you need to do?
+
+If you have AI keys, probably better to put a limit on them because if they steal them, you don't wanna get a lot of charges, which we see happen a lot and it's really, really sad. But also make sure that if you have a target on your back, you do need to put a lot of focus on security. This was never the case, but it's now true that if they wanna get in, it will happen faster. You do have to invest in this. There's no other way to put it.
+
+Yeah. I think that's exactly correct. The the level of security investment, whether that is dollars, time, any of these things just needs to go up the next several years as we're going into this new era of security. Yeah. So on that topic, a CISO recently told, one, you know, one of the partners of our our team that he expects his security budget to go up 80% next year, which is, you know, we we we all anticipated that it would go up, but that...
+
+That's probably on the higher end. I'm curious what, you know, what are you seeing folks spend more money on? And on the flip side, what should CSOs be spending less money on? Right? And, you know, you've you've kinda written publicly about a class of security products that may become somewhat obsolete, but maybe talk through that in terms of what...
+
+Know, where budgets should go up, but also where they should come down. Okay. So first of all, again, let's assume you have a house, okay? And you know that an elite group of the most trained hackers are gonna hack your house, okay? They might not come through the door.
+
+They might come through the window or the roof. Honestly, how many houses are even ready for that? Most houses would say, Fine, I'm not gonna secure the roof. Obviously, there's no way for me to... I mean, it's impossible.
+
+So the point is that most of the companies are now ready for attackers that have the speed and expertise of the best attackers in the world, and this is why it's a hard problem. So, even before we talk about budgets, I don't even know if budgets are gonna solve the problem, okay? It's not about security budgets. It is about focus, but to be honest, it's about security architecture, security design. Budget is not even going to solve anything.
+
+It's not like there is a security tool in the world you can buy and everything is fine. Dang it. I'm not just, know, Would've made but a lot of our jobs a lot easier if that was true, but yeah, yeah, yeah. Exactly. Don't think it's true.
+
+Obviously, most of the latest security tools are not even relevant anymore. Okay? But that's like... That's... But even if you get security tool that is AI native that understands how to attack...
+
+Attacks in AI world work and cloud attacks and so on, even then, to be honest, it's about secure design even more than just security budget, okay? Is security budget going up? Maybe. Should we review their existing stack that we have? Yes.
+
+Okay? But more than that, it's about having a dev team that's focused on scanning the code and applications all the time. It's about thinking about sandboxes and isolation and secure design and network lockdown and process lockdown and image lockdown. If you're building stuff now, get ready for a nation state attacker. See, get ready for that.
+
+Imagine there's gonna be a vulnerability. Don't assume, Ah, let's run everything in a Kubernetes cluster. No, there's zero day vulnerabilities in Linux kernel all the time. Anyone can get out of a container. So you see like secure design is much more than just a budget.
+
+Obviously security budgets, that's great, but it's not gonna solve it from you. Yeah. I I mean That's a great point. To to that point, it definitely feels a lot like cloud in the sense of this is a real stair step where I'm seeing so many CSOs take a look at their existing vendor stack and really reboot that to see what are the AI native ones because you need AI native technologies as you are really focused on secure architectures. Exactly what you're talking about, Ami, of, like, really thinking about the problem through and understanding there are vulnerabilities at every stage of the stack there simultaneously.
+
+This is the the old, you know, CISO saying of, like, don't let a good crisis go to waste, which is absolutely happening here of rebooting so much of your security product landscape to actually be AI native to help you go into this new era that you already are are in whether you wanna be or not. Yeah. Well, maybe just to get explicit, not not to dunk on any particular company, but what's a type of, you know, software or secure... Let's say security software that you have in place, that CISOs have in place now that they just don't... No longer need?
+
+So if you... Okay. I've always been against, again, it might be a hard sentence, okay? Most of what security teams do is not security, Maybe small, small subset of their time is actually security. And the way to check it is this, and that's why I always believe in just attack yourself.
+
+Much time are you spending with red teams, and how much time are you spending with compliance and creating reports, right? To be honest, most of the security teams are not focused on security. And security, in my view, is getting either... What you're doing is either getting ready for the attacker, attacking yourself, or putting guardrails for the attack when it comes, okay? So the point is that we do have to be much more efficient now in security.
+
+We should stop doing most of what we do and focus on finding critical risk, figuring out how we mitigate it, or at least put detections in and also response readiness for it. We have to be good so we don't have time to spend on everything that is not focused on that. So if you do a task, you say, Is this report really helping us? And that was always my point against classic, what we call CSPM in cloud, which was just the way you did cloud security before. Just a list of, yeah, I configuration don't care about that.
+
+You have to care about where is the attacker gonna come from? Am I doing everything I can to stop them? If there's a strategic barrier I can build, let's build it. Focus on understanding the actual real risk in the environment, creating sustainable long term isolation strategy. These are the things you should do.
+
+Yeah. Yeah. And and actually on this point of time management, and and maybe flipping a little bit to how AI is actually helping security teams. Right? So as as agents maybe take on more of the routine investigations and testing, how do you think...
+
+And you... You've answered this a little bit, but maybe deep dive into it. Some of the most experienced security professionals should be spending their time. Much easier for a security team starting from now, from scratch. Okay?
+
+Like, if you're building a company right now, you're lucky and you should try to build everything fully automated. Security view is automated, patch process automated, investigation automated. If you have enough context and knowledge base about your environment, there is definitely a way for you to build everything completely automated. The problem is that for most security teams, it's just not the case, okay? Not the case.
+
+You have a lot of legacy software, thousands of developers. You don't even know who owns what. It's not like everything is changing because there's an AI agent, okay? Still goes back to find the context of who actually owns every resource, how do I get them to patch stuff? It's complicated.
+
+So it's gonna take time for most of the security team in the industry to figure out how to start really, really getting to efficiency. It's not as easy and simple as it sounds, because a lot of the knowledge of the organization is a bit obscure. It's not anywhere that is actually written. But it is the challenge of all security teams. If I cannot respond in minutes, what can I?
+
+I... Am I relevant? Right? Yeah. Yeah.
+
+So to to that point, I'll kind of round us out with a a question here on connecting the through line of what we've talked about, which is what do you think the next several years looks like? Like, our next two to three years. Like, I'll I'll I'll start you off with my own prediction, which is that we're going back to the nineties and two thousands again. This is... There's gonna be full remotes, unauthenticated, full ODAs popping out all the time now.
+
+We're gonna see breaches popping out all the time again now. It's gonna look very different than the last fifteen years of security. I think we are going back to a a era that looked very different in security, And I'll even throw one wild one out there that, like, I I wouldn't be surprised if we end up seeing worms again on the Internet, like we did in the Windows XP days. We were chatting internally on this on the the infra team, and, Martin brought up a a funny point of there was... For all of us who were kind of in broader tech and IT at the time, there was a window of time where you couldn't install and update Windows XP fast enough because from when you installed it, when you started the update, a worm would hit your system and infect it during the time it took to actually update the system.
+
+And so you literally had to install all of this offline, because if you installed it online, it would get compromised faster than you could patch it. And I think so much of this that feels so new with AI in a lot of ways is something plenty of us experienced twenty, twenty five years ago in the kind of Wild West days of the internet. And so building off of that, I'm curious what you think the the next few years look like. Ami, just to add a quick, question to tag on to Zane's. You you wrote, this great blog post in April that there was a y two k moment coming in twelve to eighteen months.
+
+To Zane's point on the next two or three years, would you pull up that moment now given everything that's happened in the last six months? Yeah. Mean, so first of all, I think Black October might be the beginning. Like, again, we didn't want to scare too much and we were hoping there's more time, but the open source models are catching much quicker than we thought. Yeah.
+
+The hope was that open source models are a year behind, but they're not. Yeah. So, I think it's happening. Like, we've never seen this level of attacks across customers. Like, it's happening.
+
+And if you wanna compare to the '90s, our dependency on technology is much, much, much higher than Oh, And also what happened, and it's important to understand, this is almost the only area in humankind right now that AI is better than humans, okay? That's the problem. And that was not the problem in the '90s. AI attacks now are prevalent, easy, but also better than any human, Okay? Like, that's the problem.
+
+Okay? I'm talking about attacks that are very, very complex, using zero days. We had today an attack using a zero day on a kernel driver. My God, that should be very rare. It's happening every day now.
+
+Human attackers cannot do it. So you see, like we're at an era where AI is better than humans. And if I need to, I cannot foresee two years ahead from now. I think the only companies that will be able to survive are companies that are building now, not just security automation, security design, security reviews. They're designing their systems that are exposed to the internet in a new way.
+
+And whatever is not ready, should they take off the internet quickly. So on the internet, you need to be ready with everything that is ready for the crazy attackers. And you have to design for this. I think that's the only way. A lot of this podcast was focused on, you know, enterprises, tech companies, etcetera.
+
+I wanna bring up Scan for Good, which is an initiative you guys launched recently. But I wanna talk about in the context of some of the attacks, you know, we're talking about AI infrastructure companies and things like that. But, you know, if we look at the recent attacks on refrigeration units in Europe, which, you know, if you think about the the supply... The food supply chain, etcetera. Right?
+
+Like this on a mass scale has dire consequences for humanity. And I I I don't want to... I don't wanna fear monger, but, you know, I think there's also this appropriate line that you're walking on me of making sure people are prepared and are taking things seriously. So I guess two two questions. One is how worried should we be about what's happening to public infrastructure and maybe these entities that don't have huge cyber budgets, etcetera?
+
+And two, maybe talk a little bit about Scan for Good and why you guys are doing that, how you're helping nonprofits, public services, etcetera, get really prepared for what is already happening. So I mean, yeah, I am worried. Mean, those exactly... I mean, the legacy software, it can be refrigerators, I mean, that are actually in the real world. It can be traffic.
+
+I mean, it can be anything. It can be really anything that we know that is connected to the internet is at risk. That's exactly the reason we started Scan for Good. Scan for Good is trying to help any public service that wants help. And we try to scan them and try to find problems.
+
+It's not gonna solve all of their issues, but we're trying to give them a bit of a push. Our hope is that if we find staff, then they will understand it's a bigger project, then they will start doing red scanning on their own. So, is more of getting them to push into that. This is awesome. Thank you so much.
+
+This was super fun, This is incredible. Really great to see you both. And, yeah. I mean, this is a crazy time. Absolutely.
+
+Crazy time. Thank you for Who what you're doing right now. Absolutely. Who would have thought from OWASP conferences to here, buddy? Good to see you.
+
+Yeah. Yes. Yes. I remember. It was a fun one.
+
+Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x@a16z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a16z.com/disclosures.

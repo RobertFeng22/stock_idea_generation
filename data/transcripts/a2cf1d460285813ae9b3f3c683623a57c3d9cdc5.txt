@@ -1,0 +1,229 @@
+The large part of the industry makes medicines is this very empirically driven process. Where things really fail is in the clinic because we never could see the problems until we get to the point where we put these drugs in patients and we say, oh, no, like, there's toxicity that we didn't account for. And so the really big opportunity is to have much more of that understanding before you go into patients. How can we bring all of that drug discovery work onto a computer? So how can we get out of the real world?
+
+I'd be really disappointed if we fast forward even five years' time. Like, the predictive understanding of disease biology has not step changed in, like, a massive way. Do you have a prediction on when you think, for example, eighty percent of human cancers will be treatable? Today, know priors were joined by Max Jadberg. Max is the president and part of the founding team of Isomorphic Labs.
+
+Isomorphic is backed by Alphabet and a variety of other investors, and its goal is to solve all disease, which is very exciting as a topic. We're going to talk a little bit about the role of AI in the future of biopharma, human health, longevity. And Max, of course, has a background in machine learning. He has a PhD in the topic working on machine vision. Eventually sold a company to Google DeepMind, rose up the ranks there, and now is president of isomorphic.
+
+So very excited to have this conversation. Max, thank you so much for joining us today on your priors. No. It's such a pleasure to be here. Thank you.
+
+Isomorphic, I think, is is one of the more fascinating companies right now that's happening in technology in general. Alphabet is a major shareholder and sort of sponsor. Demis, who pioneered a lot of models at DeepMind and other places, which I believe you sold the company to before, you know, really helped with the inception and setup and now running of the company. And you folks are tackling one of the biggest problems that's left for humanity to tackle, which is human health. Could you tell me a bit about how you came to work on this company, and what was the motive force to starting it?
+
+I was part of the founding team of Isomorphic Labs. I was at DeepMind for a long time beforehand. Personally, I was working on early days of generative models, language models, deep reinforcement learning, all of the big game playing challenge problems. Those were my jam, my AlphaGo, AlphaStar. And it got to the point where you know, we were we were going after these, like, know, quote unquote impossible problems at that point in time.
+
+You know, this is probably twenty eighteen, nineteen, that's... It's like gameplay and can AI beat video games? Exactly. You know, at that point in time, you know, we were still trying to prove to the world that AI was even a thing. Right?
+
+Mhmm. And so we were going after these impossible problems, and I could see, you know, firsthand, like, how to... Like, just systematically how to solve these. Mhmm. And it got to the point for me personally where it's like, okay.
+
+Sure. We're not at AGI yet, but we clearly have this amazing, you know, set of technologies, you know, in deep learning and reinforcement learning. And, you know, what are the problems we really need to be focusing this stuff on? And I was, you know, I was thinking all of this. Of course, Demis was thinking all of this.
+
+At the same time, we're seeing the AlphaFold results, you know, the first embers of that starting to emerge and really starting to see, for us, this was like the first proof of concept that you could get a deep learning model that generalizes in, you know, a meaningful space in biology. And so that was really the proof of concept that gave us conviction that actually, you know, now is the right time to go after this, you know, the big mission of, you know, changing the way that we think about human health, you know, going after solving all disease, and that's gonna take, like, a really substantial effort, and that warrants its own company, its own culture, you know, specific people of different disciplines coming together for this and and the ability to run really fast on that. So that was the genesis of isomorphic labs in in about 2021. Oh, amazing. Yeah.
+
+Your background really started off more on the deep learning side and AI modeling side, and I believe you sold a company to DeepMind in... Was it 2014? Yeah. That's right. So quite early.
+
+I mean, you were at this stuff before people realized how important it was or many people, realized how important it was. Tell... Could you tell me a little bit more about sort of the journey you took, how you got there? Yeah. Of course.
+
+Interested in to begin with? Yeah. I mean, I I I come from an engineering background, ended up almost by accident doing a PhD in computer vision, and this was actually just at the turning point. I think I started my PhD pre AlexNet. Oh, because AlexNet was 2012?
+
+Yeah. Was it? Yeah. Exactly. And then I saw that emerge.
+
+I was like, wow, this is awesome. I remember speaking to Yan LeCun about convolution neural neural... ConvNets, and I was like, we need to translate this into the core computer vision space that we're we're working on in Oxford. And, yes, ended up developing all of these methods. We ended up having the ImageNet winning network of of twenty fourteen, best object recognition, text detection, all of this sort of stuff.
+
+And I had a company... Like, built a company in this space, computer vision as a service, and trying to raise money. And at that point in time, you know, Demis and DeepMind had just sold to Google. So trying to raise money very and very quickly ended up just speaking to Demis Asabis asking for angel investment, he was like, well, why don't you just come to DeepMind to solve AGI? Yeah.
+
+I was like, what's AGI? Uh-huh. But Sovic and the journey into DeepMind and and everything there. Yeah. Amazing.
+
+And your focus now is basically a vertically integrated company that's doing everything from models to the biology, and the idea is to find drugs that can help people with different aspects of human health. And so if you look at the pharma industry, one of the things that I think is really striking... I've graphed this out in the past, where if you look at the number of new drug approvals per year, it's roughly flat. But that's despite an explosion in knowledge. So all these scientific papers have sort of expedited in terms of the number of papers.
+
+The number of papers have gone up 10, 20x during that period. The number of new modalities, the type of new drugs that you can do has gone up. So there's antibody based drugs, there's small molecules, there's proteins, there's peptides, there's all these new ways you can treat drugs. The price has gone way up. It went from $100 a few $100,000,000 per drug to $1,500,000,000 It went from eight or nine years to fifteen years.
+
+So every metric has gotten worse. While the number of things have gotten flat, the knowledge base has exploded, the number of types of molecules that you can do has gone up. Why is that? Why has it been so static despite all that progress in other ways? Yeah.
+
+It's crazy to see just how it keeps getting harder and harder to make new medicines more and more expensive longer and longer. And, you know, I I I think there's probably a number of reasons behind this. Like, the the thing that I really think quite a lot about is that, you know, like, the way that we actually make medicines in general in the industry and as a species, you know, forever has been a very, very empirical process. Right? At the very beginning, it was, you know...
+
+And and and this was, you know, a long time ago, like a hundred hundred years ago. Yeah. The medicines that we came up with, they came about by chance. We just, like, happened to stumble upon something that people realized has some, you know, physiological effects, and people adopted it. Things got a bit more sophisticated.
+
+It's a bit more empirical trial and error. Yeah. A lot of medicines we just guessed. Right? The...
+
+Like aspirin, I think, a long time, we had no idea how it worked. Aspirin, we didn't know how it worked. Paracetamol, we didn't know how it worked. And the way we've been making medicines and still, like, how the large part of the industry makes medicines is this very empirically driven process. Empirical as in you need to, you know, you have a hypothesis on, you know, how a disease might work.
+
+You have a hypothesis on what a good molecule design could be, but you have to make it and test it in the real world and do this very iteratively. Mhmm. That's slow. It's really, really difficult to get signal out of that. And the space of biology is really, really big and complex.
+
+These are like big... The cell is a big complex chaotic system Mhmm. Super high dimensional. And then molecule design, whether it's small molecules, antibodies, peptides, you know, they're really, again, really high dimensional objects, combinatorially large design problems. And the only tools we've got available, you know, to us, you know, is is basically trial and error screening processes.
+
+Mhmm. And so that limits to me the complexity of solution that you can find in in a finite period of time or finite amount of money that you spend on that empirical work. Mhmm. And so I think, you know, what you've seen over time is like the low hanging fruit of medicines that can be found Mhmm. With our empirical process of designing medicines are being found.
+
+We're finding the low hanging fruit, but then it's getting harder and harder to sort of ratchet up the complexity and and find things that are out of reach from this empirical process. That's interesting. But don't you think... So if I look at any other industry, often what happens is the age of the industry impacts the rate of change in it. Mhmm.
+
+In other words, the older the industry, the slower it moves. Mhmm. Things become more bureaucratic, there's more regulatory capture, etcetera. I think the last time there was a biopharma company that was worth over $50,000,000,000 besides Moderna, and I think Moderna was almost an accident of COVID, was the 1980s, I think, with Regeneron. Yeah.
+
+And so it's been almost forty years since we've had a new tens of billions of dollar biotech built. Yeah. Regeneron, Vertex, these, you know... Amgen was that era too. It was the early eighties.
+
+And And so how much do you think is just, like, regulatory issues or, you know, bureaucratic organizations or just like that natural aging? I think that happens everywhere. You know? Was automotive until Tesla. That was, you know Yeah.
+
+We, know, we talked about maybe the the science side of it. I think there's a big cultural aspect of, you know, just how how can you, like, keep innovating as an industry? How how can you keep moving really, really fast? And I think as well, and this is related to the sort of, like, science and technical part is, what, like, what are the mechanisms that actually give you economies of scale Mhmm. On the innovation side, on the research and development side?
+
+So if you go after, you know, a particular drug target and you're trying to make a particular medicine Mhmm. And you're a pharma company or biotech and you're going all in on that, what do you learn from that that helps you work on the next medicine much quicker and then the next medicine even quicker after that? Because if you could get that compounding of learnings over time, you could maybe get the benefits of scale and build something really amazing and big as a company. But I think a lot of the techniques and the way we go after medicines or the industry goes after medicines is really treating each one as like a segmented... It is like a bespoke frontier science project, and you learn so much about that project, and there's maybe not so much that's transferable to the next.
+
+Like, there's, of course, many many different learnings of disease areas. Yeah. This is, I think, where things can shift quite a lot in the world of AI and machine learning where if underneath, you know, if you have this platform underneath going after these medicines that allow you to, like, you know, really suck up and understand the learnings and help impact your core foundational understanding of disease biology and how to design good molecules and exquisitely engineer these medicines, then you could hope to actually get compounding improvements the more medicines you go after. Because I guess, like, one of the striking things that has emerged from deep learning and the sort of foundation model era that we're in right now is the generalizability of some of these things with scale. So it sounds like perhaps in biology as well, if you have sufficient scale and a a sufficiently thoughtful approach, you can generalize some of these problems that were bespoke before.
+
+What approach are you all taking? Well, I think that's the big shift that we're taking with isomorphic compared to... You know, we're we're not the first people to try and change the way we do drug design and drug discovery with AI. One of the things that's really fascinating about isomorphic is the degree to which you have a very diverse space of people all working together towards a common cause, often who come from backgrounds that are very disparate. Can you tell me more about what sort of people you hire, what are their profiles, who you're looking for currently?
+
+Yeah. I mean, it's an interesting space because the the the sort of mashup of, you know, frontier AI and drug discovery, chemistry, biology hasn't really existed for very long. So you can't kinda go out into the world and say, hey. I wanna hire the world experts at AI for drug discovery because they basically don't exist. And if they do exist, they're not using our models, using different techniques.
+
+So we think about going after literally just the best people in core AI and deep learning who maybe don't even have a background in life sciences or biology or chemistry, but really wanna see their work on deep learning translate into amazing impact for for humanity. So we hired just core people in AI. We hired core people in biology and chemistry, maybe who haven't had much exposure to AI. And then, you know, we work hard internally to build that culture that everyone talks and learns from each other, and then internally we get these sort of cross disciplinary experts, expert scientists emerging, which has been really exciting to see. How do you think about the ratio of those things?
+
+So I started a company a long time ago called Color, and I was CEO for the first couple years. My co founder took over a decade ago now, so this was a long ways back, and we were basically using ML and data science as applied to genomics. And we were building these genomic pipelines, and what we found is you could have, like, five ML people and then one research scientist from the traditional field, and that was kinda the ratio ish that we adopted. What is it like now, or how do you think about how many people of each discipline do you optimally have in a pod working on a problem? Yeah.
+
+For some of these core AI, you know, superpower projects, the the AI modeling projects, I think that's actually not too dissimilar. You know, you you have your core modelers like engineers, AI scientists, and then you just need some key domain experts, people who really understand the application, the nuances of the data, like what do the metrics mean, make sure that we're not, you know, chasing smoke metrics, and these are real things that are gonna translate into actually making medicines. So, yeah, those sort of ratios, one in five, like, that... I think those resonate quite a lot for what our teams look like. And are there specific roles that you're actively hiring for currently or just across the board?
+
+You know? I mean, we want the best AI researchers coming into ISO and helping us push on this mission. I think there's there's literally so much work to do on the Mhmm. On the, like, core simulation models like AlphaFold plus plus plus, but also on the core reasoning models like taking all of the frontier models and and open source models and and adapting them to our space. So that's, I think, a really important area for us to be hiring on.
+
+What are the components that you tackle, or what are the main areas that you all are focused on in terms of how you approach new drugs or, you know, you... Do you have your own labs? Do you run robots that do pipetting? Like, what is what is the approach we're taking? Yeah.
+
+So, you know, if you if you go into our, like, sort of our core AI team and, like, our North Star and the thing that we're really trying to achieve is how can we bring all of that drug discovery work, all of that drug design work, understanding of, you know, disease biology onto a computer. Mhmm. So how can we get out of the real world? Mhmm. You know, I I know a lot of people are building ways to be, like, interfacing with the real world really, really efficiently so you can do lots and lots of real world iteration.
+
+Mhmm. That's great and it's complementary. But fundamentally, the the big time bottleneck, the big cost bottleneck is synthesizing real atoms and then testing them out in real assays and experiments. And just like we've seen, think pretty much every other area of engineering move into a computer... Computer aided design scenario, and that's just changed the way that...
+
+You know, change what we can design, change what we can engineer. We wanna do the same thing in this space. And so really we... Like, when we think about the core AI drug design engine development side, this is really focused on, well, how can we achieve experimental accuracy Mhmm. For our simulation models, our world models?
+
+If you can get a predictive model, let's use AlphaFold as an example. AlphaFold looks at structure prediction, the the structure of proteins and how they interact with each other. Normally, that takes, you know, months or years to do X-ray crystallography and and and get a structure out. If you can do that with a simulation model like AlphaFold, then you don't have to go into the real world and do that. You save months and months of time.
+
+There's many, many... Drug discovery is a is a combination of many, many different really hard scientific problems and engineering problems. And if you can bring the... Create predictive models instead of the real worlds, you know, you're saving tons and tons of time. So internally, we have, you know, a dotted line on all of our leaderboards that is experimental accuracy.
+
+Mhmm. And we... You know, the goal of all of these, like, superpowers that we're trying to create is to get to a point where experimental accuracy. At that point, you don't need to go into the real world. Mhmm.
+
+You can do so much more design and iteration on a computer so that when you do go into the real world, when you make your molecules, when you test out your scientific hypothesis Mhmm. The probability of success is much, much higher than it would have been traditionally, and so you don't have to do as many turns as the real world, and things actually become quicker and problems fall easier. So when I look at drug development, I think it's about a fifteen year process now. It costs $1,500,000,000. My sense is the small molecule and the in vitro work, the tissue culture and mouse work, is basically, say, two to three years, and then it's, say, dollars 50,000,000, so that order of magnitude.
+
+And then the other $1,450,000,000 and twelve years ish is the clinical trial and, you know, the different phases and safety. How much of that do you think you can actually encapsulate in a computer? You know, you have the discovery phase where you go from idea to... You think you've got a good, like, a good molecule that you could put in patients. Mhmm.
+
+Well, before that point, you have to do preclinical, you know, animal studies to make sure that this is safe and working as intended. That takes another year. Then you go into clinical studies. You have phase one, phase two, phase three, ratchets up. And so, you know, when you look at the timeline and when you look at the failure rates Mhmm.
+
+And I think these are the things that really exacerbate the costs on average. Yeah. Right? Why do things cost so much? Well, it's because so many things fail.
+
+Mhmm. Then you have... And and where things really fail is in the clinic. Mhmm. It's not because these are problems...
+
+It it... They fail in the clinic because we never could see the problems until we get to the point where, you know, the rubber meets the road and we put these drugs in patients and we say, oh, oh, no. Like, there's toxicity that we didn't account for. Uh-huh. Or we have a molecule and it hits the thing that we've been designing it to hit Mhmm.
+
+But it hits something else, which has a really negative effect. Or the thing that you do hit, we thought it's gonna solve the disease, maybe it does even, but it actually has a really negative effect in and of itself. Mhmm. And so you... Like, people only learn about those problems Mhmm.
+
+When they start introducing it to patients, to real patients. And so the really big opportunity is to have much more of that understanding before you go into patients. Mhmm. So if you have a better understanding of disease biology, how cells work, you can maybe understand how the thing you're trying to hit and modulate is really implicated. So you're actually modeling all these other components, and not just like what Exactly.
+
+Molecule will bind to We're modeling all of these components. How do you get the data to model those things? Like, where does that dataset come from? You know, we have this, like, ridiculously comprehensive, you know, data strategy. There's data all over the place.
+
+But I think fundamentally what we've learned over the last, you know, five years is there's a lot of opportunity to generate this data yourself. Mhmm. There's, of course, like big repositories of data. Sometimes that's really good for deep learning. Oftentimes, these repositories of data, you know, whether they're public or in pharma or, you know, in companies, they've been the byproduct of many years of passive, you know, data collection from doing, you know, the activity of of making medicines.
+
+So they can be very, very biased Mhmm. Which often doesn't really help you if you're trying to make a general solution to drug discovery. If you really care about generalization out of these models, there's maybe a different distribution of data you need. So we go out and generate this ourselves, you know, we've... We...
+
+And we've seen some really, really amazing data scaling laws as a result. How do you measure whether some of these things will have these side effects? Because ultimately, there's the old saying... I used to be a... Have a PhD in biology, and I used to work in a variety of fields, cancer, neuroscience, etcetera.
+
+And on the cancer side, we cured cancer in mice hundreds of times, and those molecules wouldn't translate into people. And so a lot of the data you actually needed, you had to generate in human clinical trials. How do you go about generating that data that actually informs it? Because if you're using animal models, often the data that comes out of that is incorrect relative to human biology. Well, exactly.
+
+It sounds like you experienced a lot of this first time. It's very painful. It's very painful. And, you know, if you think about, you know, toxicity, like sources of tox... Like, the gold standards that, you know, you need to get through for regulators is you need to prove that your molecules aren't toxic on rats and other animals.
+
+But still, even when things are approved That's not accurate on rats Yeah. Yeah. They end up being, you know, often toxic in humans. And... Well, why is that?
+
+Well, okay. A rat isn't actually a human. It's not actually very predictive. Think, you know, choose your study, but it's about 30% predictive of of of human clinical tox, like, in a rat. And, you know, if if one of my, AI scientists or engineers came up to me and said, hey, we've this amazing model.
+
+It's it's 30% predictive. You're like, okay. Maybe do a bit better than that. Yeah. And so I think there's a lot of opportunity to actually rethink how we, you know, like, what are those predictive endpoints for human clinical tox?
+
+Like, forget animals. Yeah. You know, they've been a proxy for the last, you know, fifty, seventy years. Uh-huh. But we can maybe do better.
+
+We can do better by, bringing together in vitro endpoints, so things you could measure quite easily in the lab, together with AI predictive models. Also together with... There's there's some amazing new experimental technologies coming out in the space of organoids, organs on a chip, like synthetic human tissues, which sort of approximates and create these, like, little microcosm environments of human organs. And so you can imagine there's probably an opportunity to bring all of this stuff together and then directly try and model human clinical tox. Now there's not much data on that side Yeah.
+
+Yeah. Because, you know, there's there's only a finite number of clinical trials that have been run, but I think we have some really good methods now as well. And for these sorts of approaches or techniques, do you tend to partner for them? Do you bring them in house? Like, a little bit curious as a company how you operate relative to...
+
+Because there's so much that could be done. Yeah. And a little bit curious how much you wanna just emphasize the computer science side, and then, biology often there's these things called CROs or these contract research organizations that people use. Unfortunately, the quality tends to be pretty mixed in terms of the output of these types of organ... I'm just a little bit curious, like, how much you depend on external parties versus internal.
+
+Yeah. So by making our drug design engine, all of the AI models, we do that all in house. And, you know, we see a big opportunity of generating proprietary data and owning that ourselves. But, you know, biology and experimental platforms, like, this is really complex and long tailed, there's some amazing people working on some fantastic platforms here. So, you know, we work with the whole world, whether that's, you know, stuff we do ourselves, contract research organizations, CROs, other innovative companies Mhmm.
+
+To actually help us create the data that is, you know, powering our models. So... Yeah. That's cool. How much...
+
+So Anthropic recently announced that they're doing a wet lab in San Francisco. And, you know, reading between the lines without any special knowledge, just reading external papers, it kinda looks like there's some potentially robotic system or closed loop system or something else they're trying to build. And in general, if you look at AI models, as you know better than me, you want closed loop systems to be able to iterate quickly. In other words, you can get rapid feedback, like if you're writing code and it can instantly get tested, then you have a fast way to test if the model's working well or not. And so in biology, of the issues is you set up an experiment, you wait three weeks, then you get the results, you have to interpret.
+
+There's a there's a big loop, and so that slows down progress and the ability to iterate on data, and building these these robotic platforms or other things may expedite that. How do you approach that problem, or do you think that's part of the solution that you all will be pursuing in terms of? Yeah, I mean, it's been really exciting to see how much better these automated labs, how much better these robotic solutions for experimental labs have been getting, and we've been working with these sort of automated labs for a long time now. Everyone should and we should keep driving down that, like, iterate... Iteration time with the real world.
+
+And fundamentally, I wanna get out of the real world. Right? And and, you know, can we actually... Because there's gonna be just like... You're gonna hit the finite laws of physics at some point.
+
+Like, how long does it take to synthesize a molecule? At some point, you have to just wait for the reaction to happen, and that's how long the reaction takes. How long does it take to culture a cell? At some point in time, you just have to wait those days for the cell to get to the right state before you can test things on that. And so, yes, we can, you know, I think do a lot of work, and we should and we are as a as a species as well, is on on on, you know, improving automation and improving the way we in silico, it sounds.
+
+You're offering it in I think we should also be driving really hard at bringing that in silico Yeah. On a computer so that we can reduce the amount of real world time so that we can do much more predictive work on a computer so that when we do go into the real world, yeah, it looks like we go into real world to validate Yeah. Not necessarily to learn and iterate. We still need to go into the real world to validate because we're coming up with novel, you know, scientific hypotheses, and we wanna test them out in people at the end of the day. So you have to make sure that they work and they're safe.
+
+So you have to go into the real world to validate, but the question is how much can you reduce the amount of time you go into the real world to experiment and to iterate. How much of your approach is focused on partnering with existing pharma companies versus developing your own drugs? We make the AI drug design engine in house, and then we we actually, you know, don't sell the model. We, like, we we don't license out the model. We don't sell tokens in that way.
+
+We use it internally to to make medicines. Mhmm. And then we do that in two ways. We have programs, drug discovery programs Mhmm. That we fully own and fund ourselves and work on ourselves, our internal pipeline.
+
+And then we have programs that we work on with, you know, amazing pharma companies, biotech, where we partner on these on these projects. And those are really exciting as well because often those companies, and those teams, they've got, you know, amazing ideas and amazing expertise in specific disease areas, and so they come to us with, hey. These are the hardest problems. Maybe problems that they've been working on for sometimes ten, twenty years, not making much progress, And then together, using our drug design engine, we can make a huge amount of progress. What are the indication areas or areas of human health that you all are focused on?
+
+Internally, we're focused on, you know, much more on oncology, immunology, and inflammation. Mhmm. But the cool thing is, you know, the drug design engine or the models, they're general. They're disease agnostic. Yeah.
+
+They're target class agnostic. They're modality agnostic, so they work across multiple modalities. But you're starting with, like, cancer, and is it autoimmune disease or something else? Or... Yes.
+
+So so, you know, immunology, inflammation, they're often quite related. So it's that sort of space. And when we go after these things internally, whether it's oncology, you know, cancer, inflammation, you know, I think there's a big opportunity to go after some of these root node problems, the the sort of things that could affect, you know, positively if you have a solution, could affect, you know, lots and lots of different patients for different downstream indications. Mhmm. That would be an example of that.
+
+I mean, if you if you think about cancer Mhmm. Like, this is a really, really complex and long tail disease, and it shows itself up in in patients in many, many different ways. Mhmm. But we also know there are some... Like, maybe there are some core driving mechanisms that are common to many different things.
+
+Sure. You know, we saw this amazing example earlier this year, you know, diraxonerasib, like KRAS inhibitor, standing ovation at a big cancer conference, like, drastically improving, you know, the the the the lives of of of sort of, like, late stage pancreatic cancer patients from evolution medicines. And, you know, again, great example of, like, going after some sort of root nodes. I see. Yeah.
+
+RAS has been popping up in the cancer literature for, like, thirty years. Exactly. Twenty years. Yeah. But these these problems are devilishly hard from a, like, drug discovery and design Yeah.
+
+Point of view. Like, just... And also has a natural function, so being able to modulate it in there. Exactly. So you really...
+
+And and, of course, you know, in cancer, things mutate very quickly, so you think you've got a solution, but actually, clinically, it doesn't work out because it just mutates around the solution. It's actually an interesting point because for a lot of different drugs, for a lot of different areas of health, this also was HIV, right? You end up with a cocktail of drugs that you give eventually, and that's actually what allows you to suppress AIDS or HIV. In cancer, similarly, a lot of drugs were sort of developed as individual drugs versus cocktails. And to your point, often within a tumor, you have a spectrum of mutations that you need to suppress simultaneously if you really want to cure the thing.
+
+So otherwise, it'll sort of evolve out under, given the sort of substrata of mutations that exist in a distribution across the cells. Are you thinking about those more complex approaches cocktails or multidrug approaches? Yeah. So so why aren't we giving more cocktails Yeah. Drugs?
+
+Well, the problem is, like, often these molecules, they are they work, but they have some toxicity. Mhmm. Or they exhibit some effect on the liver such that if you're taking multiple of these molecules, these medicines at the same time, they have these drug drug interactions that can be really harmful for patients. Mhmm. And so it's actually because we're not great at engineering exquisite molecules and medicines, that means that we can't combine them together in a safe way for patients, and so we're maybe limiting, like, the the surface of applicability.
+
+Yeah. I guess you only have so many patients too and so many people who can enroll a clinical trial, and so the combinatorics of it, my sense, is also kinda adds up in terms of the clinical trial side. Especially when there's a lot of, like, risk and uncertainty about how these things will combine. And so that's where we see an opportunity. Yeah.
+
+If you can actually much more accurately engineer these molecules to be safe, to not have these effects on the liver, to not interact with each other in bad ways Mhmm. Then you can feasibly come up with actually, I would really hope, some quite complex, you know, combinations Mhmm. That can modulate not just a single target at a time, but a whole vector of targets that span these, like, very complex biological pathways at the same time and to have a better effect on disease. There's a very good YouTube video of, this guy Janssen who started Janssen Pharmaceuticals. Was acquired eventually by J and J, and he was one of the big pioneers of drug development and pharma, and I think he was one of the...
+
+They had one of the most productive pharma companies in terms of actual drugs launched. And in it, his view that he expresses pretty strongly is that the main constraint on drug development is an overemphasis on safety, and that regulators kind of curtail progress. And he pointed out how during World War II, when Cintrachol tried to find a cure for soldiers of some venereal disease in the field, and so they rediscovered antibiotics, because penicillin was discovered in the 20s by Fleming, and then kind of put on a shelf and forgotten. And then in a nine month period, they rediscovered and commercialized penicillin from scratch specifically to treat this, and it's because we removed all regulatory obstacles. So that was an example that Janssen pointed to.
+
+One could argue the COVID vaccine was similar in How terms of being able to rush much do you think there's too much of an emphasis on safety? Like, Janssen's point was, it's about risk reward. You know, you need to make trade offs, and you can't just monolithically say it's only safety. You should also say, well, it's about benefit, and in some cases, risks should be taken as well. Like, how do you think about that?
+
+I think it's, like, centrally important to just always have patient safety in mind, to be honest. And but then you need to understand, like, what are the risks and the appetites of patients? And that can be different for different indications. Know, COVID's a good example where the risk appetite for patients Mhmm. Because it was so pervasive and so dangerous, just changed dramatically.
+
+And that changed, I think, the demand and the force for doing things slightly differently. You even see this across different disease areas. If patients have, you know, late stage cancer Mhmm. And not many options in front of them, there's a very different risk appetite compared to if you're trying to treat a chronic low level, you know, inflammation indication. And so I think it's actually really, really important like, we keep focusing on patient safety Mhmm.
+
+But that we can modulate that, you know, depending on what the patient need is. So ultimately, you know, ultimately, we want patients who are living healthier lives, and they're receiving that treatment as quickly as possible. Mhmm. And, you know, we we we speak a lot to regulators here, know, FDA here, but also all over the world. Mhmm.
+
+And I think the one thing in common is, like, you know, people really want to get patients the best drugs and the best solutions possible. Mhmm. And I do think that over time, we will see a difference in our, you know, probably... You know, the success rates and the safety profiles of molecules coming out when they're designed with much more understanding about how they work with... You know, we'd be able to search the design space to engineer something, you know, much better than you could do from an empirical...
+
+Empirically driven process. And I hope to prove out over time that this is very statistically different, and that will change the way that we think, I think, about about regulation and and getting drugs to patients. When do you think you'll have your first clinical trial? I would love to give you, like, a hard day. This is, like, really hard frontier science.
+
+Yeah. We've got some really exciting medicines in the works, and these are going really well. Mhmm. So we're pushing really hard to get these to patients as quickly as possible. We've been building up our clinical development team, so we're getting ready for this and that.
+
+Do you have a... I know these are always impossible questions. Yeah. Do you have a prediction on when you think, for example, eighty percent of human cancers will be treatable or, you know, some other metric of why this is so important for the world? I'd be really disappointed if we fast forward, you know, even five years' time.
+
+If we don't have the base tools, like the like the predictive understanding of disease biology has not step change in, like, a massive way. Our ability to design molecules that are much more precise, much less toxic has not step change in such a massive way that, you know, still drug drug development... Discovery and development takes years, and that'll reduce over time, but it takes years now. But we should have the tools in place to really start be... Like, start cracking these large large large portions of disease Yeah.
+
+In a different way. If you remove cancer from society and heart disease, I think the stats suggest that the average person would live, I can't remember if it's five or seven years longer. And so the actual impact to longevity for two of the biggest killers is, in some sense, quite large, and another point of view is kind of small. There's a number of companies that have tried to focus on aging or longevity as a more general process, which seems to clearly be genetically programmed. If you knock out certain genes in C.
+
+Elegans or Drosophila or in mice, they'll live 20 to 30% longer. Or in the case of C. Elegans, the little worms, they'll live three times longer if you knock out certain genes in certain pathways. I actually worked on those pathways as part of my PhD. Amazing.
+
+It was really fun. How do you think about that in the context of human lifespan? Should we just hit a point eventually where people live three times longer or five times... Like, what... How do you think about longevity in the context of drug development and, you know, all these tools that will now exist?
+
+Yeah. No. It's interesting. Like, there there are some of these major diseases that afflict so many people Mhmm. That if we could start to make impact on those, that that would have a concrete impact on on how long people are living.
+
+I think even outside of things like cancer and heart disease, you just have the sort of chronic afflictions Mhmm. Of aging that start to add up. And the root cause is literally aging. In other words, like, the root cause is the fact that you're allowing these systems to degrade over time. Grades.
+
+They Stamps up compartments. Yeah. And they and they combine in a way that means that people's... You know, even if people live to a lovely long age of Mhmm. 80 or 90, like, they...
+
+Maybe the last, like, ten years of their life Mhmm. Or even twenty years of their life isn't not... Isn't necessarily as great as it could be. Yeah. Yeah.
+
+Because they've... You know, because of... You know, your bones start to degrade. Your muscles start to degrade. Like, you have a fall and suddenly you can't...
+
+You're not as mobile as you want to That has impacts on your mental health and suddenly your quality of life has dropped dramatically. You still might live. Another ten years. Aging community, they talk about that about as lifespan versus health span. Exactly.
+
+So we think a lot about that. Yeah. But all the all the aging models, if you impinge on aging and you delay it, the health span goes with it. In other words, if C. Elegans lives three times longer, it's actually a healthy adult for three times longer.
+
+It's... And then it crashes out at the end, but you actually have extended both simultaneously. So I'm a little bit curious how you think about, like, life extension and, you know, that kind of stuff. I I think it's gonna be, like, it's gonna be really fun to see everyone working on this. And and, yeah, as you said, I think we can attack this from every different angle.
+
+Right? We can think about improving, you know, the things that afflict us and and and help maximize our health span and also be trying to hit some of the root root causes of aging and degradation, of our bodies and cells and organs so that we actually, you know, can actually extend that over time as well. And and I... There's... Yeah.
+
+I mean, there's such exciting work happening in this space. And, yeah, it'll be interesting to see how this pans out. Amazing. Thank you so much for joining us today. No.
+
+It's been fascinating to chat. Find us on Twitter no priors pod. Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week.
+
+And sign up for emails or find transcripts for every episode at no-priors.com.

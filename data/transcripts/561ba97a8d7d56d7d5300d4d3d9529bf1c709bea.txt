@@ -1,0 +1,427 @@
+Almost everyone who's paying attention to AI knows reliability is the absolute largest bottleneck. You get Einstein, like, maybe 95% of the time and mister Bean, the other 5%. Data matters a lot more than compute. I don't want to be called a NeoLab because from my sense, most NeoLabs are incredibly, incredibly wasteful. Anthropic models are just the best even if the Chinese models match it in benchmarks.
+
+It feels like there's no real competition. Right now. I truly believe that we're gonna, like, mega Jevan's paradox. AI is so clearly awesome, yet software itself hasn't changed. Everyone has just been in this, like, mono model, like, horse blinders for so fucking long.
+
+I believe that AI has been a bubble for a while, so I would like to keep planning for an eventuality of bubble burst. What we need is allies to fight the largest companies in the world. We don't need the money or the valuation. This is 20 VC with me, Harry Stabenowitz. Now joining me in the hot seat today is one of the best founders of our time, one of the hottest companies, Diogo Almeida.
+
+Diogo is the founder of TypeSafe, the maker of JEV. JEV is used by a third of the Fortune five hundred. Pretty incredible. Yep. It gets better.
+
+Sequoia's Pat Grady says JEV went from zero to 100,000,000 in revenue in just seven days. And when you're that fast and that good, it comes with some benefits. They've been valued at $7,500,000,000, and they had their round led by Martin Casado at Andreessen, and Sequoia also invested. Today, we get into the future of models with Diogo. This is an incredible discussion.
+
+But before we dive into the show today, Blitzy, the autonomous software development platform that's built for enterprise scale, is proud to sponsor today's show. Enterprise code bases have grown beyond human comprehension. Tens of millions of lines, decades of tech debt, complexity existing tools cannot fathom. Blitzy starts by understanding. Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic.
+
+That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket. Grounded in that context, Blitzy then executes entire epics autonomously, modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line, and that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more. While Blitzy helps you build faster, Flex helps you run your finances smarter.
+
+Business owners run their whole financial life on Flex. One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across 32 currencies, plus the whole back office, bills, expenses, accounting, all in one place. So you spend less time reconciling and more time growing.
+
+That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026. Visit flex.one, that's flex,.one, and use the code 20 v c. While Flex runs your finances, Vanta keeps your compliance covered. When you're building a company, you learn that trust is what closes deals. You may have the best product, but no buyers will sign these days without proof of your security.
+
+Here's what happens if you're not prepared. A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep. Every enterprise conversation turns into this horrible fire drill.
+
+That's where Vanta comes in. Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access the Vanta agent everywhere you work even if your team lives in Claude or Cursor. And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Ryta.
+
+So prove you're ready for business and get $1,000 off Vanta when you go to vanta.com/20vc. That's vanta.com/20vc. You have now arrived at your destination. Diogo, I'm so looking forward to this. We we had a brilliant exchange following Eric's show from Modal, who I actually spoke to last night about you.
+
+And so I'm very excited for this. Welcome to the show. Thank you. Thank you. Yeah.
+
+It's a very small exchange, but I'm glad you liked it. Yeah. It was it was really fun, and I didn't realize it would become this. Well, dude, we we said that it would be a spicy discussion. So before we get into the spice itself, I just wanna lay some frameworks and, like, foundations.
+
+Sixty seconds. So people who don't know what TypeSafe and JEV is, can you just give us the sixty second intro? I would argue that JEV is not a specialized model, but my pitch for the people who are not, like, purely software developers is actually more about the state of AI. Like, how can AI be so smart at so many things, you know, like the millennium price problems in math, yet not transform software basically at all? Like, all the SaaS we use is basically the same as it was a decade ago, and we are not automating, like, almost any, like, entire job.
+
+You know, like, drive throughs, keep failing. Customer service, like, there is AI customer service, but it's actually can't be trusted for the big decisions. How can that be the case? Because it seems so good at some stuff and so bad at other stuff. And to me, what we are doing and what Jeff is is trying to bridge that gap, make AI too good to be true for automation instead of just human in the loop assistance.
+
+I spoke to Sonali at Sequoia, and speaking of kind of full end to end automation, she said, why is reliability the biggest obstacle to automation? Oh. Well, I will give a caveat first about reliability, which is that I don't mean like uptime. I don't mean like, oh, it's like, you know, you know, available and you get lots of throughput. I mean reliability of intelligence, which I'm still trying to find a good word for, but like this non jaggedness of intelligence.
+
+And I would argue almost everyone who's paying attention to AI knows reliability is the absolute largest bottleneck. So here's the example. How good are you at math? How good am I at math? There's not a chance we could even help the Millennium Prize solution.
+
+I I believe. I haven't read it, but I would I would wager that. And yet that these same models cannot be even used for accounting. You know, it's much simpler stuff. And the question is why?
+
+And it's not about... These models are extremely high variance. It's that you get, the people love this this saying that I've coined. So... But it's like you get Einstein, like, maybe 95% of the time and mister Bean the other 5%.
+
+And the problem is that in expected value, it just doesn't work out. Therefore, companies quite wisely learn that you can't actually automate stuff. The number of companies I've seen over, like, the multiple AI hype cycles over the last, like, four years, I've seen so many try to automate accounting. They keep failing, and it's because, you know, the math doesn't work out. It's not a diffusion problem in the slightest.
+
+Reliability is what gets you... You know, maybe you can trade off, like, some level of Einstein for just getting it more commonly and more often and getting the same functional intelligence. That to me is Jeb's superpower. So how do we get there? What is the solution then to removing Mr.
+
+Bean as much as I love Mr. Bean? I love Mr. Bean too. I actually...
+
+You know, I love when agents are, like, insane. You know? Bad vibes forever. It's it's it's it's very fun. It's a very fun story.
+
+And also, that is not what I want in my software that runs in the background. Like, as an engineer, I want to, like, write a thing. I wanna spend a lot of effort upfront. Like, maybe I don't realize it'll be a lot of effort, but it always is. And I want it to run-in the background and solve the problem forever.
+
+And you just need, like, nines of intelligent reliability to do that. And I would argue that the way to do that... Oh, man. I wish I could, like, bring up my slides here, but I will... I'll I'll try to use my hands, I guess.
+
+So I call it AI's bitterest lesson. Sutton coined a bitter lesson, which is is roughly that compute matters more than algorithms. This is all of, like, the scaling build era we had for 2019 to 2022 to 2023 was a scaling build era. You know, like, scale and you... The models get better.
+
+This kind of plateaued at GPT 4.5, and then we kind of stopped scaling as a field because it stopped having a payoff. I would argue that there's a bitter lesson, which is that, data matters a lot more than compute. This is very obvious to anyone who's done any applied ML. But for... You know, the the people in the peanut gallery don't seem to realize this, but, like, data is obviously more valuable than compute.
+
+And I would argue the most important thing by far is what is your North Star? What do you define as your right task? And the thing is that pre JEV, the two right tasks that existed in LLM land were RLHF, which is reinforcement learning from human feedback, which means please humans, and RLVR, which means like, score high on benchmarks. And neither of those actually translate to, like, run-in the backward... Background software.
+
+And I would argue that this is, like, the root of all of the problems. It is not that the AI is not capable because the AI is clearly super capable. The problem is that... And, you know, you are experienced in the real world. Everyone who's experienced in the real world knows this.
+
+You get what you optimize for. Right? And we just happen to optimize for the human in the loop. Yeah. Well, thank you so much for bluntly giving me so many Oh, can say one thing?
+
+Can I say one thing about this too? On the note of reliability, ChatGPT never fails at being ChatGPT. Like, when is the last time you got, like, random characters? Right? Like, it's kind of odd that it...
+
+Or or even if you ask for a polite email, it's not gonna start saying... I I I probably shouldn't curse on a podcast, but it's not gonna start saying slurs. Right? But humans might make that error sometimes, but the problem is not that it... It's not impolite or psychophantic.
+
+The problem is it makes wrong decisions within the text. And it's interesting that it can be reliable at some stuff, but not others. And if you optimize for the important stuff to be reliable on, which is decision making and judgment, that is how you get real reliability. You said there about kind of the plateauing of compute in terms of the benefits that accrue. First, have we got to that stage?
+
+Are you serious? I thought the whole point was On pre training? Purely on pre training, sure. But like more and more compute still leads to better and better output, no? Yes.
+
+But like it's a... You need a lot more data than people once upon a time thought. So, you know, like maybe people have like kind of warped this to seem like they were right the whole time. But the narrative back in the day was just scale to the moon and you will get AGI. And GPT 4.5 is what broke that narrative.
+
+I I obviously don't know what's going on behind the labs, but if we believe that the labs were pricing roughly based on inference compute, then g p 4.5 is still the largest model ever by token cost, and it was not commercially successful. And I think that this is obviously the case because you can't just scale compute without really thinking about it. What people are doing... People are are throwing a lot of compute at training, but it's a... You need a lot of data with it.
+
+This is why you see so many, like, get rich quick by selling data, RL data to lab type stuff, and you can't really do very much without that data. And if you actually saw... Oh, man. I believe it might have been Dwarkash. She had a recent recent Twitter post that showed what matters more data or compute...
+
+Or or algorithms, and data was something like many, many times more effective. It it was something this week. And this is something that everyone has known for, like, since the beginning of ML. This is not even specific to to AI. It's just that the compute scaling era was a a, like, a weird outlier in this.
+
+When we say, like, the value of data or how it's so much more primary over compute, is that synthetic data? Is it like proprietary enterprise data that everyone has in their companies? Is it AI systems generating their own experiences? Is it certain types of data? Is it just broad data?
+
+Can you help me understand that? I wish I had my visuals here. So, let me work backwards again from my bitterous lesson, which is in order of importance, there's doing the right task, then data, then compute, then algorithms. This is what we, like, extremely, extremely learned when we made RLHF. You know, like, the quality of your underlying algorithm matters very little.
+
+As long as you do the right task, a GPT two sized model could beat something like GPT nine, which is... You know, and GPT nine doesn't even exist. In order to have data, you actually need to know the right task. And, actually, the data for the task is... Or, normally, when you create a new task, the data doesn't even exist.
+
+When we made RLHF, we... Like like, human preference data of, like, comparing LLM outputs did not exist anywhere in the Internet. It was not in company database. It was not on the Internet. We had to, like, define it, understand what are the instructions, get human labelers, iterate, and figure out what that data should look like.
+
+And that is what... Doing the right task is what unlocks the data in the first place. And the problem is bootstrapping a new task is hard because by construction, the data doesn't exist. It's a similar thing for us, but it's also similar for RLVR. Before RLVR existed...
+
+And I actually want... There's actually a tricky thing with what the right task of RLVR is. Reinforcement learning from verified rewards. Sorry if I'm, like, going a little bit too advanced here. Go ahead.
+
+Is that RLVR is not at all about the verifiable rewards, but the big part of RLVR is this, like, latent chain of thought, like hidden reasoning so the models can think in private and then answer. Because even in, like, 2021, there were verifiable rewards. People tried to do RL, but, like, PPO, you know, without reasoning on unit tests, and it kept failing. So it was actually not at all about the verifiable rewards. It's about the structure of the task, and it just turns out that once you're doing RLVR, the models are a lot better at this.
+
+And what even good data means is now a function of how good the models are. This is why people need... You know, the people who make data need access to the cutting edge models because what actually makes the data good is whether or not it improves the cutting edge models. So they need to be at, like, exactly the right level of difficulty in order to, like, push the models forward. And there's a lot of, like, nuance and on policyness of data.
+
+But back to the original question, like, is data... Is the right data stored in corporate, you know, whatever data lakes? I would argue no because it's probably not shaped the right way. People are definitely trying to do this, so a lot of data vendors are trying to, like, yoink this data and then sell it. Maybe they can do some massaging to make it work, but the most important thing is focusing on how do we use this thing to push our task forward.
+
+And if you forget that, you are good hearting a local objective. How do we use this thing to push our task forward? Are the data providing companies, Surge, McCore, are they good businesses? Are they services businesses now which have to go end to end where they really go into implementation and effectiveness of model, not just data serving like they did in the early days? Are they good businesses?
+
+That's more of a you question than a me question. Do you think they're good businesses? I do, personally, because I think the market is just so large for the amount of money that these LLMs will spend on data. And then I think if you think that we're gonna move into a world where companies own their own intelligence, that data will always be needing supplementary data. And so then actually the TAM becomes just moving from LLMs to everyone.
+
+Interesting. Interesting. That might be a fun debate on whether or not companies will own their own intelligence. That might be a fun one. I will actually argue that we are still in hype wave territory and then there's always like a trough, trough of disillusionment and then like the reality thing.
+
+I think we've not hit in the reality part of it yet. I believe that in the future both RLHF and RLVR are immensely valuable. I don't know if people will invest as much as they are right now, but I think that each of them result in, like, their own, like... Even if RLVR never existed, ChatGPT would be, like, an incredibly valuable consumer brand, And you will need data for that. You know, data will always be necessary.
+
+But how much that company will be willing to spend on data when they'd actually need to be a real sustainable business, I don't know what that number is. Very hard to ballpark that. What value does synthetic data hold in model improvement? I don't think that there's like one one form of synthetic data. I think that synthetic data is kind of like a tool more than it is like a idol to pray to.
+
+And it's dependent on like what the the hands of the team. Like, if you read the research, you'd think that synthetic data is mostly overhyped because it's only used to make small models catch up to large models, but it can't be used to improve large models or or large state of the art models. So it's really dependent on how you use it. We use a lot of synthetic data, but, like, we do not use it in the way other people do. We think that the more interesting part is not that it's synthetic, but, like, how we wield this tool with an extreme laser focus on the right task, which is like the reliability of intelligence.
+
+You said about the hype and the trough, my friend. There is insane. That's good to know. I tried to do it elegantly. Okay.
+
+I'm British. We did a charm. Oh, yeah. Are you concerned by the amount of money going in, or do you think it is justified? I am concerned for the world, I think.
+
+I think that throwing money into the furnace is a bad thing for the world. Oh, man. I really don't want to be, like, too negative, but I don't want to be called a NeoLab because from my sense, most NeoLabs are incredibly, incredibly wasteful. It feels like their business model is hire a bunch of, you know, ex lab people, get a bunch of GPUs, have fun, and then eventually get acquired. That seems like a waste of resources to me.
+
+I am not a fan of that on one hand. On the other hand, like, people are throwing a lot of money, for example, into RL. And I actually think that this is kind of cool. There are diminishing returns massively, but the models are getting smarter. It's kind of good for the world.
+
+I think it's very cool. Would I make that investment with my money? No. Obviously not because, you know, we have money to make bets, we're obviously not gonna do that. So I...
+
+I'm not a fan of that in the world either, but maybe, the VC math works out where it's like a 1% chance of moonshot it actually has positive expected value. Wait, you had a question. Am I concerned and there was a Are you concerned or is it justified? Oh, I would guess based on my expected value calculations, it is not justified, but would be very happy to be proven wrong, or at least right now. Did you expect it to work as quickly as it did?
+
+So I would say that for years now, even before TypeSafe existed, I thought that I must be missing something about the field. Obviously, I convinced myself I was not missing something, but it seemed so weird where this direction, to me was unbelievably obvious. So freaking obvious that I gave up when I first came to the idea because I thought surely anthropic is already like 80% done. It's like the most obvious thing I've ever heard of. So to me, it's really, really obvious that this would be valuable in the world.
+
+I still think people don't get it even though the launch was obviously phenomenal. The part I didn't expect is the ChatGPT for developers moment because even non developers were talking about it. That is... That that I could not have predicted. That was super weird.
+
+What do people not get? What do people get most wrong about and you? So my team hates when I talk about this, but my rule is on a podcast, I can be let off the rails. I believe it is a competitive disadvantage for me to talk about what really Jev is doing because people keep missing the mark. And if we just didn't tell anyone, then we would just forever be king of the hill.
+
+And I just care too much about the field to not just yell in in, like, painful insanity, what's the fuck's going on? And the thing that people really don't get is that what we... Special about the model is not the cost or the speed. It's, again, the reliability of intelligence. And people are still thinking in LM land, like like so many people, I think, are burning their goodwill.
+
+There should be copycat models in the future, but they should give a lot of fucks about reliability in my opinion. And I think that the people who are shipping copycats right now do not. They are trying to, like, do the same thing in LMs, is, like, benchmark max, get hype, try to show, like, you know, like, the the little things, like, you know, numbers that are not relevant, like speed and cost, when the real thing they need to do is, like, hunker up in the bunker and make the models really, really smart. And people don't realize that that is what we are all about. When we see benchmarks, even if we are, like, unbelievably in the lead, we are still pained when our model is dumb, and that is the thing we focus on.
+
+And I think that's what everyone should be focusing on the field. Like, hey. Why is it 97% accurate? What was the missing piece? And to be clear, it's not always a model thing.
+
+It's very oftentimes a prompting thing, but that is how it is to build a developer tool. Right? Like, we need to, like, educate people. We need to figure out, like, how could we prompt this better? We need to figure out, like, is there some nuanced nuance in this language that, like, could help people make more robust prompts?
+
+Or do we need to make the model smarter? And this is the thing that people really, really miss. And I think developers get it, and they got it way faster than I thought because they already don't give a a shit about, like, the benchmarks, and they're just like, your model is clearly the best at new stuff. But the same people who are like, oh, this is really boring. It's just a classifier who ended up making the copycats, who don't understand that there's a reason why you can, like, put so much effort to make the model even more and more and more robust.
+
+You said about copycats there. Can I be blunt? OpenAI and others have moved very quickly in trying to create their own decision model products after you launched. Why don't the big model providers just copy you and you get competed out? I don't think that that's a blunt question at all.
+
+Think that that's a totally fair reasonable one. I think that if they one day started caring a lot about reliability, then that would become like an interesting battle. Hugo, how do they not care about reliability? They want enterprises as they want to. You have no fucking clue how little they care.
+
+What? How how? They want enterprise. They want revenue. How are you gonna get a CIO to sign up if you don't have reliability?
+
+I think people have a hard time understanding intelligence as a product, which is why people try to use benchmarks as Band Aids. Benchmarks are kind of a proxy for understanding the intelligence of the underlying thing. But as far as I can tell, the string field, maybe, like, the last nine months have learned that benchmarks don't mean shit. Anthropic models are just the best even if the Chinese models match it in benchmarks. And, like, even when you, like, measure benchmark maxing, you still think, like, the anthropic models are better than this...
+
+Better than the competition, even though they're not on the Pareto curve of pretty much any benchmark. The... Basically, it looks like the subfield of, like, system one or decision models learned this in like... I think there was like competition maybe like starting a week after. It felt like people learned it in like two, three weeks where we're like, yeah, the other stuff is just benchmark max.
+
+It's total crap. It's very easy to see that it's different. I think that it takes a different type of organization to, again, really, really care about reliability. If they don't care about reliability, what do they care about then, Diogo? Well, it really depends on, like, their business objectives.
+
+Right? Back in the ChatGPT's Everything days, this is before Cloud Code, they cared about, like, monthly active users. That's actually a very different metric to optimize for than the best chatbot experience. This is how psychofancy emerged, and it kept going in a cycle of, like, oh, it's more psychophantic. It lies sometimes.
+
+But, hey, that is what people want, so we just keep doing it in some pockets of space. So you get what you optimize for. That was like what Chatted GPT optimized for. I think now people are optimizing for like the MAU equivalent of coding agents. And if they're not training a dedicated model for this and really putting like a lot of like intense thought, I don't think that they will be able to make a comparable model anytime soon.
+
+I hope that all of them do because I think it'd be very good for the world. It's obviously going to be bad for the business, but right now we are in the place where it feels like there's no real competition right now, and that surely will change eventually. Right? Like, hope that we get competition and we just show that we are the best because we care the most. And we have, like, the smartest people who are working like the absolute most laser focused on the North Star.
+
+But, again, like, this is not yet competition. When you look at the decision model product landscape for models that you're in, what does that look like in three years? Is it like an Uber, Lyft market? Is it like a GCP, AWS, Azure market? What does the market composition look like in three years' time?
+
+I'm a little bit of a technological idealist, I think. So I actually don't really think of what the competitive landscape is gonna be like. I care more about the technological one. Our strength is always going to be technological shock and awe, so we are going to have to keep shipping awesome stuff. And the way I see that landscape is I'm going to ignore competition.
+
+I think that in terms of, like, number of token... I truly believe that we're gonna, like, mega Jevin's paradox. It's not going to be, like, a subtle Jevons. It's not going to be a fake Jevons like LLMs. It's going to be, like, super duper.
+
+There's going to be, like, tons and tons and tons of usage, and I think that it will completely dwarf at least the total token consumption of string LMs. I think that these things are going to be used everywhere, and we're gonna finally have AI run-in the background. And I think we're gonna start to even have, like, a shift in how people feel about AI from being, like, this thing that, like, slops crap at them to like, oh, it actually makes life better, because people truly like it when technology improves their lives. When you say Mega Jevons paradox, do we have the energy and infrastructure to power the demand of a Mega Jevons paradox that you foresee? And what are the bottlenecks to your tech utopia?
+
+Our models are incredibly efficient in comparison. We're not doing the standard subsidized playbook. We actually can serve these things incredibly, incredibly efficiently. And I think that there's like many boundaries to push on that efficiency angle. I think, of course, we're gonna have to do some sick research, but like that's the thing I trust us to do.
+
+We'll have to push efficiency quite a bit in order to have that mega jevensing occurring. I think that the largest bottlenecks are going to be... It feels a little bit single player right now where it's on us for pushing the boundaries of the technology from an AI point of view. And from a field point of view, we're going to need to interact a lot with developers. We're going to need to help them push the the boundaries.
+
+This is what I've been talking about, like a a role I dream of. I'm so sick of, like, the status games, especially in SF, where ML researchers are, like, a higher tier than ML engineers, are higher tier than software engineers. I think that that's completely messed up. What my hope is is we can create a new type of role that I call... My my current favorite name is software researcher.
+
+Someone who actually pushes the boundaries of software. Like, if you knew that you were in the Cambrian explosion of the Internet or mobile, you'd think that there's, like, so many boundaries to push, and there's so much, like, low hanging fruit that you need, like, trailblazers to go out there and build, like, you know, like, these, like, you know, lighthouses of, like, hey. There's value here. Let's, like, have a gold rush there. And I'm so excited about encouraging people to push those boundaries.
+
+I wish I had the time to do it myself. And there's so many crazy exciting things to do. So I think that those two are going to be the the biggest bottlenecks to get to, like, you know, system one models everywhere, AI actually automating shit. And if I could say one more thing, I don't know if you're a software engineer. I guarantee every single person who's ever been a software engineer has had a conception in their head of I can automate this or I can't automate this.
+
+Like, you need to know. Right? Like, if you wanted to, like, automate, like, some thing that moves files around, you can automate this. If you want to make, like, a voice interface for your laptop so you don't need to, like, type with your hands, you can't automate this. And my hope is that AI will actually completely remove the can't automate part.
+
+It's only going to be a matter of effort. I have, like, this entire soapbox about the future of software. I will cook on this undercooked idea, but this is something that I find to be, like, such a beautiful analogy for AI, where AI is so clearly awesome, yet software itself hasn't changed. Writing software has very much changed, but the software is the same, and that's tragic. And I love the analogy of the blue LED.
+
+You know, like, when the red and green LED existed, they were very narrow uses. Like, they could barely be used for anything, just indicator lights because they're very efficient. But when you add the blue LED, it didn't just expand the market cap of LEDs by 50%. It made all sorts of things possible. Like, we couldn't have the screens we have today.
+
+We couldn't have, like, white light LEDs that are so much more efficient without this missing composable piece. And my hope is that AI ends up becoming, like, a fourth fundamental logic gate. You know? Like, there's, three fundamental logic gates that all software is built on top of. They are so dumb, but it's actually the brilliance of software engineers that enables you to use these bitwise comparisons to create everything today in software.
+
+And what if we could add a fourth one? And I think that that should expand what we can do by way more than 33%. It should expand what we can do by, like, hundreds of thousands of x, and that is why I'm excited about, like, a Cambium explosion specifically of software. Why do you think the current state of software is kind of a tragedy in the state that it's in? And, you know, if you look at enterprise software today, it it's enterprise software with a sprinkling of AI at best.
+
+Can you talk to me, how do you feel about that? I think it's actually extremely logical. I don't think it's a distribution problem. I think enterprises have so much incentive to adopt AI and the people who have adopted it the hardest were the ones that were burnt the most. The argument I always make is that LLMs are unreliable, so they cannot be trusted for decisions with stakes to the company.
+
+But you can always make them make decisions with stakes to the user because companies tend to not give a shit about their users. Tragic. But that is what happens. So what ends up happening is you don't have AI deep in the logic of your apps. What you end up having is, like, the same b to b SaaS with AI attached to the side where it does not...
+
+It cannot do, like, high stakes things, but it can, like, shoot slop at the user because people kind of like it because it's responsive, and they make sure that all of the burden of checking, like, is this right or not is on the user's plate. This is actually extremely logical for the state of reliability. So I think that it is tragic that people wasted so many resources, like, doing the roundabout way to get to where we're at right now. And also, think that this is the right spot, you know, given how smart and reliable the models are. Do the biggest benefits accrue to the incumbents who have distribution?
+
+When you look at a Salesforce of the world, and then you can reflect on what you just said about the tragedy of current state of software, do the benefits fall to those who have distribution, or is there a new generation who benefits accrue to? No. Number one, SaaSpocalypse is obviously not happening. Martin Casado coined it as a SaaS a palooza, and I love that. I don't necessarily think it means that big SaaS wins.
+
+I think that the people who are best positioned to win are the people who care the most. SaaS has a massive advantage over AI companies in that they're actually familiar with the workflows. They have, like, the scale in order to, like, spend the the investment upfront to do the engineering because it takes real engineering to automate stuff and think about all of the stuff and the... In order to, like, actually solve people's tasks. And that is the real valuable thing here.
+
+I don't necessarily think BigSaaS will always be the winner, but I think that they are best positioned, not at all due to their distribution, but because they are the ones closest to the problems. They understand, hey. If we are at, I don't know anyone about... At Intuit. You know?
+
+Like, if we're in TurboTax, where could we change the interface to make it smoother? And there's not a chance anyone at OpenAI or Anthropic knows how to do that. Right? Like, they are still living in their ivory tower and thinking that, like, software is just not going to exist as a concept. So they could be the big winners.
+
+So they're about kind of knowing the processes, knowing the workflows, the importance of that. I've had Lin on the show from Fireworks, I had Eric on the show from Modal, and they both said about the importance of owning your own intelligence as a company and the benefits of having this incredible proprietary data and these specialized models on a per company basis. Diogo, if the importance is in the process and the workflow, surely this is a holy grail. No? Oh, man.
+
+How do I say this elegantly and Britishly? You know, like, that's a very... That's a opinion, I think, that goes in the current rails of how the current world works, the current world thinks about AI, where AI is trying to be posed as a coworker. So AI is being, like, presented as a coworker. This is, the direction Anthropic is really pushing towards, where it's kind of like the same interface as like a human being.
+
+And I believe that this is going to be like the horseless carriages of the AI era. Just like, you know, then the industrial era, people were like, let's just make it look like a carriage, but like without the horse. I believe that the AI coworkers are a form of that. It may just make sense that if you're doing automation, automation will have a different strength profile than a human would be, and you'd want to lean into the strength of automation. Kind of like in the industrial revolution, you don't need to wait for a whole coworker, like a humanoid robot to do tasks.
+
+You just find the extremely narrow thing, like twist bottle cap on bottle, and then you automate it, and it just gets solved forever. So I think that's how work will generally go. I think that if you assume that AI coworkers are the way to go, which I absolutely do not, and you assume that, you know, most companies have the willingness, capabilities, and desire to train them because they need to be trained in distribution for your company, then I think that owning your own intelligence direction can kind of make sense. I do believe that I would think that the labs' approach of, like, AI coworker, but general intelligence makes a lot more sense to me because pretty much any company, if you gave them infinite interns that cost, like, a thousand x less, you could probably find a lot of productive use for them. And the...
+
+Like, we as a field should answer the question, why are we not getting that effect right now? And the people who say you need to own your intelligence, their excuse is, oh, you need something like continual learning or you need something more narrow. And I just don't think that that jives with reality. So Fireworks have helped several very top tier brand name firms in the Valley. I think your Harvey's in your ramps, I think it's Cognition.
+
+I might have got some wrong there. But building their own models, are you saying that is a mistake to pursue that route and horizontal or alternative models will be as good and it's basically a futile exercise? Oof. Oof. Oof.
+
+It's complicated. I would 100% believe narrow models would... So number one, benchmarks are incredibly misleading, and the people who are making these have, like, a lot of perverse incentive to look like their models are better internally and also from an external narrative perspective to not seem like there will be completely boned by the large models. I don't know how good they are. I would imagine that they could get cheaper for sure, and they could get more narrow.
+
+I think that this is kind of a sign of, like, maturity when, like, we're plateauing at a certain capability level. And I think that AI tends to to increase in, like, more discrete steps, and these discrete steps occur when you start getting data in a particular distribution. Like, I think it'd be hard to deny that the largest jump in coding agent performance happened around, like, November ish last year. I can't remember which Opus that was. And that was because that is when they put it in distribution.
+
+And everything since then has been, you know, like, could talk about, like, how we love Fable 5.2 or Opus 5.5. It seems like it has been diminishing returns since then. And it's when you're in the diminishing returns that you can start doing, like, the micro optimizations, like cost per token. My view of the world is that these are all, like, symptoms of not reliably solving problems. Like software engineers that I know, and I'm a software engineer too.
+
+We hate updating dependencies. We hate going into the latest and greatest stuff. The only reason we would do updates is because it didn't work sufficiently before. Otherwise, you would just like lock it away in the basement and only update it when it gets, like, way cheaper. And I believe that we have a lot of insufficient automation right now, and that is, like, what I am biased, of course, but that is what I think the data most suggests.
+
+And my view of the world is that because of JEV and JEV like models, we will start to, like, locking in real automation, and people will not want to update that. And the way companies get their own proprietary intelligence is not from having their own trained models because it's hard to do that, but by having software around them. And the reason why it's so important for the narrative of companies like Harvey and Cognition to say that they own their intelligence is because otherwise they're a very light wrapper on top of the LMs, and it looks like they have no moat. But software and engineering is... Even if it wasn't a moat, it's like a phenomenal thing.
+
+You know, investing upfront to understand real problems, to automate them so they never have to be solved again, and humans don't have to do this roadwork. I think that that's just so good for the world, and I think that's a much more plausible way that the companies of the future progress. And, like, their proprietary intelligence happens at the code level. Kind of like how, like, there's no... Maybe there's some moat in, like, which database you use, but, like, the real meat of it is how you use those databases.
+
+Tioga, I'm fascinated. I know the Harvey Legrand market pretty well. Do you think they are a thin wrapper? I I I... To me, it is a very specific domain that requires deep product functionality that can only be done in a vertical fashion.
+
+And that is why they exist and they're very successful. I'd push back strongly that they're a thin wrapper. Oof. So thin is all relative. They are much thinner than I...
+
+That that sounds politically correct right now. It it's like it depends on how deep I would want it to be. And my understanding, last I checked with Harvey, I obviously can't even afford a license, so I don't fully know. Back when Harvey was working with OpenAI, they had this dream of like, oh, we want to automate larger and larger projects autonomously. That kind of stuff didn't end up working.
+
+They ended up having to pivoting into copilot for lawyers, which my understanding is they still are. And, yes, you can do a lot of domain specific things as a copilot for lawyers, but, like, there's only so much engineering you can do around a copilot. Is it, like, the domain specific MCP tools to pull up a rag that is based on, like, real law and all of that? And the reality is people wanna automate, like, large chunks of work and not just make people, like, double digit percent more efficient, which I think is... Tends to be where a lot of AI lands.
+
+So, yes. Like, I think it's awesome they're doing a lot of engineering around it. I think that there's just going to be a lot, lot more engineering. Like, even system messages are a form of, like, really ghetto engineering where you're programming the LLM to do behaviors, but you have, like, no guarantees, no confidence, and, like, no real way to test how effective it is other than, like, very weird evals that people do these days. So I would like more engineering absolutely everywhere, especially things that are, like, AI adjacent.
+
+And I would actually hope that we can one day move past the copilots and just automate work that takes weeks to do in the background, and maybe that will be very differently shaped than what work that current humans would do because automation tends to require, like, an adaptation on what is available technologically. You said that earlier about the cost of tokens literally in... At the beginning of kind of a two to three minute talk there. Oh, shit. I'm like that, man.
+
+Oh, shit. No. I know, I love it. It's intact. But the trouble is for me, I have to remember parts of what you say.
+
+And my question really was gonna be when you look at raw intelligence today, is raw intelligence per token actually improving? Like we're told it is? Oh, Cam Kirsten, your take on that. I actually wanna write a blog post on this. No.
+
+I don't think anymore. I think it was dramatically. And I think, Raw and I think it it is, but, like, minutely, like, almost to the point where you wouldn't know. It's kind of like, you know, you meet a 180 IQ person and a 190, you're not gonna tell the difference. So yes, but not significantly.
+
+I actually think even the 180 to 190 IQ person is an extremely generous analogy to what LMs are doing right now because I wouldn't call them one eighty IQ people or one ninety. You know, like, I would call them occasionally. Maybe it's one eighty. I don't really know. But, like, then sometimes you get, an 80, or even worse.
+
+And my take is that it's actually not a single dimension. So number one, the benchmarks don't matter, so you wish to toss them out. If you try to look at bench... Like, dollar per benchmark over time, that's complete bullshit. Number two, I think that there's, a general notion of intelligence, which is kind of, like, pretrained intelligence per dollar of compute, which to my understanding is barely moving right now.
+
+I do think that as you get more data and as you focus on different subsets of tasks, you can make them more in distribution, back to the bitterous lesson, and you get way better performance within that data distribution. Like, are we from an, you know, intelligence per dollar perspective, massively moving the needle on coding? Super duper, but not because the base models intrinsically are more general, but because we're putting coding more in distribution so it's more reliable on it. But, like, has writing improved in the last nine months? I I don't think so.
+
+Maybe maybe I'm writing with them wrong. But, like, there's many other capabilities where like there's absolutely no improvement at all and it becomes it's you know because if you keep scaling up data in coding agent land it's not going to improve lots of the other forms of data, right? There's diminishing returns to it. So I think it's a complicated and nuanced. You said there about, like, the variance in terms of model capabilities, sometimes one eighty, sometimes 80.
+
+Can I ask you, when we look at the different models, we see open source now on many different levels be as close as possible to a lot of frontier in a lot of respects? How do you see the open model landscape? And what do not many people know that they should know? Oh, that last question's a hard one. Oh, boy.
+
+You can say only, it's just me and you. Yeah. So I think the thing that people should know is that benchmarks are total bullshit. All benchmarks are bad, there's perverse incentives, and ironically, the people it hurts most are the people who do not have time to actually play with the models because they're the ones who get manipulated by the benchmarks themselves with higher stakes, including for everything open weight and open research. There are ways of measuring intelligence.
+
+It is very hard. Labs don't publicly talk about it. They have somewhat proxies internally, of course. It's a very unfortunate public state of affairs that there's so much misinformation out there, and people are not incentivized for actually releasing their own best measures of intelligence, which I think is tragic. Diorgio, who who bullshits the most?
+
+Who bullshits the most? You said spice on that, so I'll give you spice. Oh, okay. Okay. Okay.
+
+The top tier labs are incentivized to be truthful. So I believe that OpenAI and Anthropic are mostly truthful. The second tier labs are incentivized to lie to themselves. They want to think that they can become a first tier lab. They have lots of internal pressure to benchmark max, but they cannot admit it to themselves.
+
+Otherwise, you know, like, their org chart will go ballistic. This is what happened with LAMA four, where they were actually too on the nose about benchmark maxing even though there was so much internal incentive to do that. Same thing for Google right now, and same thing for a lot of the other Chinese labs. Like, I think that they're trying to aim for the top, and therefore, they are not trying to explicitly benchmark max. I think a lot of the people fighting for, like, consolation prizes are just doing completely insane levels of benchmark maxing.
+
+So one domain, if I were to be, like, a little spicy here, would be the rough domain of American open source leader. It's enough of a, like, a side consolation prize that they're not aiming for top tier, and that is pure bullshit and optics because no one actual... You know, like, people don't actually use those models, so who's gonna call them out? And the decision model landscape is so much worse, in my opinion too, because no one even understands what good performance is. So they are all, like, benchmark maxing to the absolute gills.
+
+And it's kind of it's really good for us because no one will believe those benchmarks. It gives a lot of power to us over the benchmarks itself, which I think is the optimal for the field. Like, in the in the ideal world, no one ever cares about benchmarks on any machine learning model, string or system one. But there's so much of that right now. Let's unpack this, dude.
+
+Tell tier one labs have a duty to be truthful, is it an impact? No, not a duty. They have a they do not need to cheat in order to be high up there, and they want to truly believe in, like morale is very important, they truly want to actually be top tier, and they can be. So they don't need to cheat is the answer. I I think there is this feeling in the community that we need to have an American open source leader, and we need to propel this company forward, whether it's a reflection or or poolside or thinking machines.
+
+Do you feel that we do need to propel an American open source model? Who is we, and what is Propel? I think there's a consensus that Chinese open source models are very efficient. And unless we have an alternative to them, Chinese open source models will be considerably used and threaten some elements of American security. So it's it's actually interesting to dig into the threat model.
+
+There's definitely a threat if you run them vanilla as how they've been post trained, but if you're actually using, I can't remember what you've... How you described it, like, you know, like the private intelligence of companies, in theory, you're training the models, you can remove a lot of bias to different extents, but, like, in theory, this type of thing is totally doable, so it actually depends on, like, is the threat model, like, literally plug and playing these models? So you don't think that's threats from from Chinese open source models in terms of dangerous prompt injections that you don't know about, backdoors? I would not use a Chinese model in my coding agent vanilla, just to be clear. But, like, that again is one threat model.
+
+If you live in a world where coding agent is the only shape of AI, then, sure, that is very much a threat. But the alternative we need to, like, take into account is how good are the American open source models, and can they catch up to the Chinese models? Because my understanding is they hold themselves up to a higher ethical and legal baseline, and it might be very hard to catch up to those models because of that. And if the models are actually not useful, like, really depends on, like, how much of a difference it makes to have a slightly smarter model, which is going to be hard to forecast, especially as things are plateauing. But it might be a fool's errand if they cannot be competitive.
+
+That is going to have to be like an open question for the field if you just assume the extremely narrow view of plug them into coding agents literally as is. If you imagine a world where there's many other alternatives, like, hey. We can measure bias. We can have threat models for bias. We can train the bias out.
+
+We can put guardrails on it. You know, like, is actually a huge use case for us right now, which is JEV classifying if the tool calls are safe or are they phoning home to China or whatever else. Like, there's so many other ways to get security that I think that everyone has just been in this, like, mono model, like, horse blinders for so fucking long. And, like, I I just reject that premise originally. Do you think American open source models will catch up?
+
+In terms of true intelligence, my guess is no, unless China decides to stop trying, not due to capabilities, but due to ethics. But it might not make a difference. Like, if the field plateaus hard enough, like, maybe, like, yeah, that x percent better doesn't matter. Do you think we're right to have the export ban with China? Oh, boy.
+
+My understanding is, like, there's different parts of the... I don't know if you mean, like, the GPU export ban, GPU export ban, export ban, specifically. Because they're they're showing on on some of the latest, say, deep seat models and some of the latest Chinese models. They were, in fact, actually changed with the latest Blackwells. Oh, yes.
+
+That was Will DePuew's result. I've been talking about that with my friends. Though, there's some spicy stuff online. What I heard online was that using the same technique, you could tell DeepSeek 4.1 Flash wasn't trained in that way, and maybe that is consistent with the field. I don't know.
+
+My job is to navigate all of the insane hardware bubble neo cloud craziness in a way that we end up getting the future we want. And because we are so efficient, we can be in, like, the the sidelines and not be, like, a main player in the GPU stuff and hopefully ride out whatever crazy stuff is happening right now. The crazy stuff that's happening, you mentioned that, and Neo Clouds. Dude, it's a wild space in the Neo Cloud layer. What happens in the next twelve months in Neo Clouds that people are not contemplating or seeing?
+
+Well, I believe that AI has been a bubble for a while, so I would like to keep planning for an eventuality of bubble burst. What will happen in the bubble burst? Because to me, it's not gonna be a supply side. It's just gonna be a demand side. And we're seeing no demand side shock.
+
+And so what will cause a bubble burst? Well, oh, man. Okay. We we can get into that. That's a spicy one.
+
+Coding agents have definitely changed the game for AI, but this argument has been made for many years now. And actually, I think it's very interesting when you combined many different exponential variants type things. I believe that some amount of demand is caused by FOMO. FOMO is caused by people's thinking that they have good results and thinking that they have to, like, go all in on this type of thing. I do believe demand can burst quite quickly when people start facing the realities of what AI can do.
+
+My experience of a lot of the world of, like, people spending money on AI is that they do not have a full understanding of AI's capabilities, and they're quite miscalibrated and actually quite overestimating of what AI can do. I think that's the kind of thing that can cause a demand shock. So I think that there's just been so much overpromise, underdeliver in the AI space. That goes against everything that people say, which is that if model progression did not improve for a significant amount of time, there is still so much value left for humans to extract that they haven't extracted yet. That kind of goes against what you're saying.
+
+I believe that the people who say that are the people who try to extract value of... Out of existing models. So there's a little bit of bias into that. I don't disagree with the spirit of what that said... That says, which is, oh my god, the models are so fucking smart.
+
+But, again, we need to look at... I agree that they're so fucking smart. I just think that, like, their interface and, like, how that smart is on Earth is suboptimal. And, again, we need to look at the flip side of the people who went way too all in into AI and got burned by it. Right?
+
+Like, there's a lot of companies who are like, let's fire a lot of our workforce because AI is solving all of these problems, and they need to, like, backtrack on that. And that is, like, a lot of long term ramifications to, like, the, you know, the future of their companies. And those people tried to not just extract the maximum or overplay their hand, they tried to, like, actually just bet logically with the reality that AI can do a lot more. So I actually think that that reality is very nuanced, or that story is very nuanced on whether or not people have the capability of extracting a lot of that value, even if the, you know, capabilities pause. I think a lot of people look at the margin structures of a lot of these companies and say that it's bubble like.
+
+Do you have good margins? We do, yeah. How do you get to scaled revenue, dude? Like, you're you're so cheap, which is brilliant, and cost is is a huge benefit of using Jeff. But the the scale required to get to a $10,000,000,000 revenue business Yep.
+
+Is just enormous. Yep. Yep. Yep. How do you help me get there?
+
+Jevan's paradox. Right? Like... And and the way Jevan's paradox tends to work, it's not like just magic, you make it cheaper and it gets better. That's like an insane way the world would work.
+
+The way it should work is, hey. I have this budget for AI. Oh, JEV makes it that much cheaper. Now I can make this project work. And ideally, it works so reliably because JEV's also smarter on the axis that matter for automation that now I can do these other projects or I can throw intelligence at things I would never throw intelligence at.
+
+And even then, if you're starting to throw intelligence at things you haven't thrown thrown intelligence at before, that would not make you increase your budget. And Jevan's paradox means increase the budget. What you'd need to see is so much value from those projects finally succeeding, which AI tends to fail at, that you're like, hey. This actually works. Let's keep betting until the budget matches what it was before and even increases beyond that.
+
+So this is why reliability of intelligence is so important. And what I like to say is in the grand metrics that truly matter, which is real automation, JEV, Fable, and Astra are all tied at roughly 0%. Like, yes, there's, you know, like a couple of little bits here and there, but, like, we have so freaking much automation to do that I think that, like, like, you know, like, we're trying to make an industry that currently doesn't exist, is running the background AI. And it would be clearly UJR than the whole UJR. Is that a bigger?
+
+Larger. Than larger, thicker than coding agent assisting software engineers, a la making software like 20% more efficient to write or something like that. How do you analyze the coding agent market today? You see Cognition, fourth place so far, be a $1,600,000,000 revenue business. The depth of this market is so large.
+
+How do you analyze this market today? And what does that look like in three years' time? Who's third place? You've got ClawCode, you've Codex, you've got Cursor, you've got Okay, cool. Commission.
+
+Yeah. And you've Factory. If I will be totally frank, I don't analyze the coding agent market. I actually personally want JEV to be used coding agents, I think there's very cool sci fi that could be done. I actually think that the further away we stay from the coding agent market, the more that they keep doing their little fight and we can keep focusing on automation.
+
+So from a company perspective, it might even be better in short term if Jeff had absolutely no coding agent uses in order to make it a little bit easier. It's a little bit too late for that, but I can't tell. But I don't analyze the size of that market. I think that it will be a very large market. Will the market be much larger than it is today?
+
+I don't know because FOMO really moves the needle on these things. I've been around in AI long enough and surely you have too. You must have seen like AI looks like this exponential upward, but it's actually been many up, down, up, down, up, down, up, down. And each FOMO of that previous up adds to the next up thing, but, like, a lot of them had just, like, crashed down. And I think it would be kind of arrogant to assume this is the one thing that will just be up, up, up, up.
+
+I so remember like 2015, 2016, there was like this real hype for about a year and there was like Bloomsbury AI, Message dot AI and a load of these companies, and it was exactly that. So yes, I completely get you that. We said about the bubble light moment with the greatest of respects, you raised a shit ton of money. Tell me about that round. Was that just like, stop off at one VC, collect term sheets, stop off at another VC, collect term sheets.
+
+Ah, I've got 28 term sheets. That's... How did that round go? It was a very, very confusing time for us. It was kind of an insane time.
+
+Oh my God, Did we learn so much about VCs themselves. What did you learn? How technologically advanced the VC's portfolio companies were. Basically, it was all inbound. We did not have a deck.
+
+We we had to tell people like, hey, we don't have time for this deck, and it doesn't seem anyone else needs this deck. You tell us about the market signals you're seeing because everything's on fire right now, and we don't really have the time to pull these things up for you. And it was so sick to see how it evolved for different VCs over the course of the first days and weeks, Like, how their excitement changes, how they are telling us, how their portfolio companies are using us, we don't snoop on their data, so we actually don't know what they are using it for. And it's so cool to hear them about like, holy shit, you guys are the real deal, you're crucial, this is the future. That was like a really fascinating additional...
+
+Honestly, missed that signal on like the state of the field, and it was so fucking cool to hear about who's using us, and why, and how, and that is what enabled the round to work out. Did you start with 07:50 as the ask at seven and a half, or did it move up? We... It it it moved around a lot. When we even started the conversation, so we did not know what we were really looking for in the round.
+
+What we ended up deciding on is like, hey, we don't actually... This is maybe like kind of crazy because we did raise a lot of money, but we realized that like we don't need to valuation, Max. We don't need to do like a cocktranche or anything like that. We don't care about that. We don't need...
+
+We actually don't need a fuck ton of money either. What we need is allies to fight the largest companies in the world. Let's find the best people to like be part of the team and that's what we really optimized for. The rest to me was like more in the micro optimization territory versus discovering like, hey, We want, like, the smartest possible money, the best allies, the people who can help us navigate the rocky waters ahead, the the rough waters ahead. And Yeah.
+
+It was... I think we're optimizing from very different things from other companies because, like, we are profitable. We are... You know, money in the bank is going up right now. Quite frankly, a company that's raised as little as we'd raised before should not have a plan to spend, you know, whatever we raised right away.
+
+I can't believe cuck tranche is actually a word these days, but let's roll with it. Wait. You about that, surely. I do. It's completely fucked and it makes me Yeah.
+
+Absolutely. But I have a That very came up for us. We had so much demand for that. And people were like even saying like, if if you're gonna be raising at three x the valuation, count me in. And the thing is we didn't need That's that money right a bubble.
+
+That's bullshit. Like, I'm sorry. I I do... I really like someone who's like, YOLO 21,000,000,000, I don't care. You know what, you just need to get some self esteem because that is like sitting and watching.
+
+We don't need the money or the valuation. Why did you choose Sukura and Andreessen? I love them, but like, why did you choose them? Oh man. Oh man.
+
+It's gonna seem like I'm sucking up, but I love them a lot. Andreessen is... I am like kind of insane about technology and techno optimist. I think a 60 d is just like the embodiment of that. You know, like they are as philosophically aligned as we can be.
+
+I feel like most VCs are... They are, from a strategic perspective, lovers of technology, but they are financial institutions that care a lot about how to play their financial cards. While Andreessen deep into the firm, like, they care so, so, so much. Like that podcast I did with, like, Martin Casado and Ben Horowitz, I had so much fun. It felt like we were, like, old friends talking about from our hearts.
+
+I mean, maybe they're so good that they can convince me, and they've sold me, like, on, like, some fake ass thing, but I don't believe so. I think that they just are so philosophically aligned. And I think, like, what led us to where we're at right now, and I hope we can keep being this way, is, like, wearing our heart on our sleeves about what we care about and just blazing our own path in the AI field. And I would love to act in accordance with that and like have them on board. Obviously, Bartit is brilliant.
+
+And actually, to me, Sequoia, if I'm like gonna be totally frank... Oh, man. How do I say this? I didn't want their money. I wanted Sonya Wang.
+
+That is why Sequoia is around. I did not get to know Sequoia super well as a fund, but I love Sonya as well. And I just love that Help me help me understand. I I wanna be the best investor. What did you love so much about Sonya that made you choose her over everyone else?
+
+Oh, man. I would say that she is not just brilliant, but a very unique type of brilliant that I think that we extremely would want on our side. So it's that particular shape of brilliance that I find that no matter how many advisers I would talk to, if I have a conversation with Sonya, like I would get a different very interesting perspective that should be part of our strategic cards. I care a lot about strategic thinking for myself. One of my spicy type safe values, you know, is make great decisions slowly, very non startup, but I think that that is just like how it should be done, and she is an incredibly valuable thought partner there.
+
+Make great decisions slowly. What bad decision did you make fast? I would say I probably make decisions slower than most other people. My sense is a lot of the business world is on autopilot. Hate working with traditional business people.
+
+Like, they just do things, and I'm okay with doing things if it doesn't matter how well they are done. But, like, for important things, I actually care a lot about the why. What's the philosophy? What's the framework? How is this done?
+
+And whenever I work with traditional business people, I feel like I'm being driven crazy because they never do things so well that I don't need to worry about it. And when I do worry about it, I need to understand the why. And I'm like, oh, this person is doing random shit. I think having a plan actually matters quite a bit. There's so many things I would spend way more time thinking on.
+
+I wish I could spend more time thinking about, like, our data and our data road map. I wanna think more about product. I wanna more... Think more about, like, you know, how to be more trustworthy. I wanna think about more about, like, every single role we hire for to make sure that we get, like, the best possible people for these roles.
+
+I think that I should acknowledge that I don't have time for all of these things and it's so fucking important to like think, think, think. How hard is the hiring market today? You have to get the best people on your team. How hard is it, actually? Man, I will say that the hardest part is hiring for our data daemon team.
+
+You know, back to Pitrar's lesson, when you have a new task, you have new type of data. You know, you need a new shape of data in order to make it work. We basically have our own little subfield of... Like, it's like kind of like imagine like a, you know, the best lab in the world, but only internal to a company to make data the way we make data. And I would think that this should be the easiest thing in the world to hire for because it's so unbelievably cool.
+
+And also, we have such a hard time hiring for it because no one knows how to get into it. You know, we keep getting the wrong type of people applying. That to me is the thing that keeps me up at night these days of, like, how can we convince, like, these brilliant people who don't even think they can do, like, they can push the boundaries on the ML because they're not an ML researcher to work at this role where we're literally have a subfield where you'll get tutored by the experts in the world at this. And it's gonna be so valuable because you actually make the model smarter. And, you know, like, I don't know how to communicate that to the world.
+
+And that to me sucks. Everything else is like Is is the comp wild? We we had Eric at Modal say that he has people who are... He has to fight $20,000,000 packages for some grads who are utterly brilliant. Are the comp packages just unprecedented?
+
+Not for us. So happy that we got clarity on this. Like, got real clarity that we do not want mercenaries. We want to be, like, good, but not like, you know, like the insane lab ones. I think that that feels great.
+
+Anthropic, I think, is suffering a little bit from their over mercenaries lately because, like, they want missionaries, obviously, but also they pay more than anyone else. So, like, there's a lot of incentive for not just mercenaries to join, but, like, fake their culture interviews, which there's, an entire market now to prepare people for anthropic culture interviews. I am so glad that we decided to not to do that. We want to pay people, like, good amounts. That is not the highest thing ever, and we are just super happy where where we're at algorithm wise of like, this is the kind of thing that takes care of people and also filters out the the hired guns.
+
+Final one for you. If you could bake Oh, yeah. One character trait into a potential hire, what would it be? For my company, it would be obsessive. Like, I need someone to be obsessive about their craft, addicted to making it better.
+
+They can't sleep at night. It actually compels them in every way. The ability to become obsessed with something. I don't know if that's the same for every role, but if I had to pick, I don't know a better word for this, and it sounds a little sexual, but we don't mean it in a sexual way, technophilia. Not non sexual, just to be clear, non sexual.
+
+Okay. Relax. But, like, we truly love technology. That's the kind of thing that's, like, so beautiful in a bubble, and it's the kind of thing I want in every single role so we can talk about technology at lunchtime or when we're hanging. I want people around me that I like, and I want us to all be, like, this one big team working towards, like, constant, constantly pushing the boundaries of sci fi, because that is how we we actually ship technological shock and awe.
+
+Again, non sexual, I don't know a better word, technophile, techno... Yeah. Yeah. Just to just to be clear, if if you guys edit this out, that'll be very embarrassing. But, yeah.
+
+Well, don't worry. We'll keep it at it. No, We're gonna do a quick fire around this. I say a short statement, you give me your immediate thoughts. I tend to not do quick fire as a warning.
+
+I'll try. What have you changed your mind on most in the last twelve months? How much hype matters. How much hype matters? Yes.
+
+I I think it matters much less than I thought. Like, when dev launches, like, holy shit, hype matters a lot. And then other stuff launched, and they were like benchmark maxing to the guilds. And when we talk to real people, everyone is like, yeah, we tried them. They suck.
+
+No one cares. We can tell already that you are the best and you care the most. And I was like, wow. This is so convenient. We can just do what we love most, which is under promise, over deliver.
+
+This is the best world ever. I would not have expected this at launch time, and this is so awesome for us. What is the biggest belief you hold that the smartest people at Frontier Labs would disagree with you on? How much AI can do today, and how real important reliability is. Why do you not hire from OpenAI?
+
+My sense is that there's a certain selection bias you need to do to get into OpenAI that is kind of like an anti signal where I feel like you need to be kind of in a particular Kool Aid, number one. And number two, when I say this, I mostly say I don't hire researchers from OpenAI because the researchers at OpenAI, by construction, love to do algorithms and then scaling. They tend to hate data. Data is a very low status thing at most labs, and obviously, they don't think about the right task because that is a thing that is, like, quite rare. There's maybe, like, three people at OpenAI who think about the right task, and I wouldn't hire them either, not because they aren't fantastic, but because if you're obsessed with the right task, why would you want to do my right task?
+
+Like, my right task is machine native AI. If you're obsessed with, like, making text to image a thing, which Aditya did do at OpenAI, like, holy shit. He invented an entire field. That is so fucking cool. He is so unbelievably good.
+
+And also, like, he... You can't, like, transplant him into another task. Like, he should just be cooking on his sci fi too because that is what you do when you're, like, so good at that. So by construction, the... All that's left of the ML research that could be hireable are the ones who obsessed with algorithms.
+
+That to me is the kind of thing to do when you want to throw money in the furnace. What is the most overhyped category today? My instincts tell me robotics, not because robotics is not cool, but I just think that if you look at the grand scheme of reliability, they're just very far away from it. If you imagine what are the things that need to be nailed first, there's like tons of prereqs that still haven't been nailed, and I think robotics is the furthest away from that. What is the most underhyped?
+
+This direction of software research. People playing with AI plus software to make new things, especially new interfaces. I think that that's so unbelievably underhyped, it's like tragic. Final one for you. What do you believe today that looks crazy?
+
+Okay? Looks crazy, but will be incredibly common in five years' time. I think that principal agent problems are abound in the world. You know, like when you have a principal, like an electorate being represented by an agent that is sometimes misaligned with it, like a representative. And why can't the electorate directly represent their desires and have it behave more like a true democracy?
+
+This is just like one contrived example, but it happens all over the place. People reporting to you, stockholders to companies. There's so many principal agent problems abound. My view is that we will find way better solutions to all of these, and it's going to be crazy that we allowed at the level of misalignment that we have today. That will be such a such a sweet world where we can start enforcing the letter of the law instead of...
+
+Sorry, the spirit of the law instead of the letter. And AI is basically that. Like, the the law is kind of like writing software. You know, it's like writing, like, a detailed algorithm to follow in order to make it fair and reproducible, and it was just missing the primitives to specify the spirit. And I think that this will really unite society because I think even for our most controversial topics, I think that a lot of people can unite on the spirit of things.
+
+The problem is that the spirit can't be enforced, so you need to put the letter, and the letter then has a ton of disagreements. Do you know my problem with you, Diogo? It's that you just don't have much energy. My my bad. My bad.
+
+There's a reason that they call me Cocaine Labubu on Discord. Dude, this has been so much fun. Thank you so much for bringing the energy and for being so willing to be so open. Hell yeah. It it was tons and tons of fun.
+
+It's it's it's like we we should stay in touch. Also... This is... Definitely was very spicy. Spicier than I intended.
+
+But before we leave you today, Blitzy, the autonomous software development platform that's built for enterprise scale, is proud to sponsor today's show. Enterprise code bases have grown beyond human comprehension. Tens of millions of lines, decades of tech debt, complexity existing tools cannot fathom. Blitzy starts by understanding. Thousands of agents reverse engineer your code base into a proprietary knowledge graph that maps architecture, dependencies, and business logic.
+
+That graph surfaces every CVE and zero day hiding in your code before anyone hands you a ticket. Grounded in that context, Blitzy then executes entire epics autonomously, modernize off legacy systems, ship new features five x faster, or batch remediate CVEs at scale surfaced by the platform. Blitzy not only generates code, it validates an end to end test every single line. And that's why Fortune 500 enterprises are shipping enterprise grade code five times faster. Go to blitzy.com/20vc to learn more.
+
+While Blitzy helps you build faster, Flex helps you run your finances smarter. Business owners run their whole financial life on Flex. One platform from business revenue to their personal spend. Float every purchase for sixty days. Tap capital that grows with your revenue and pay vendors in a 170 countries across 32 currencies, plus the whole back office, bills, expenses, accounting, in one place.
+
+So you spend less time reconciling and more time growing. That's why thousands of owners use Flex, named one of Fast Company's most innovative companies of 2026. Visit flex.one, that's flex.one, and use the code 20 VC. While Flex runs your finances, Vanta keeps your compliance covered. When you're building a company, you learn that trust is what closes deals.
+
+You may have the best product, but no buyers will sign these days without proof of your security. Here's what happens if you're not prepared. A prospect asks for proof of compliance. The deal stalls when you scramble. Your engineer gets pulled off the road map to audit prep.
+
+Every enterprise conversation turns into this horrible fire drill. That's where Vanta comes in. Vanta is the leading agentic trust platform that not only gets you compliant fast with frameworks like SOC two, ISO 27,001, HIPAA, and GDPR, but keeps you compliant by continuously monitoring your controls. So your deals keep moving and your engineers really keep building. Now access the Vanta agent everywhere you work even if your team lives in Claude or Cursor.
+
+And that's why Vanta's trusted by more than 16,000 companies like Ramp, Harvey, and Ryder. So prove you're ready for business and get $1,000 off Vanta when you go to vanta.com/20vc. That's vanta.com/20vc.
