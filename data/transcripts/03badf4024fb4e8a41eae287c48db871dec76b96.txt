@@ -1,0 +1,849 @@
+Support for the show comes from Jira by Atlassian. Your work is scattered. A thread here, a DM there, docs everywhere. And it's not only your team searching for context, your AI agents need it too. Jira taps Atlassian's Teamwork Graph to bring that context together across Jira, Confluence, Slack, GitHub, and more, and makes it easy to share with agents you already use, like Claude, Cursor, and GitHub Copilot.
+
+Assign them work directly or connect your agents through MCP. The result? Less token waste, more accuracy, and more time moving forward. Learn more at jira.com. That's jira.com.
+
+This episode is brought to you by On Investing, an original podcast from Charles Schwab. Each week, hosts Liz Ann Saunders, Schwab's Chief Investment Strategist, and Colin Martin, Head of Fixed Income Research and Strategy for the Schwab Center for Financial Research, bring you fresh insights on what's happening in the markets and why, and what the implications might be for your portfolio. Join Colin and Liz Ann as they explore questions like how do you evaluate corporate bonds that look interesting and what sectors are on the move right now? Download the latest episode and subscribe at schwab.com/oninvesting or wherever you get your podcasts. Support for the show comes from ServiceNow.
+
+AI is moving fast across the enterprise, but without visibility, it's just chaos. Different tools, different models, different teams using AI in completely different ways. ServiceNow turns that chaos into control. With the AI control tower, you see all your AI across the business in one place. What it's doing, what it's done, and what it's about to do.
+
+So you stay in control. To put AI to work for people, visit servicenow.com. Hello, and welcome to the MergeCast, the flagship podcast of configuration errors. I'm your friend David Pierce. Neil Apatel is here.
+
+Hello, sir. It feels like your configuration error is that you tried to configure a HomeView. I spent most of two days trying to get this thing to update its software. But I also feel like you... You've been traveling across the country this week in a, like, surprisingly precarious moment to be traveling across the country.
+
+Did you get into any snafus over the last few days trying to travel? Everyone is constantly surprised that I'm at where I'm supposed to be, which is just, like, not a normal way that people interact with you as a human being where they're like, are you in San Francisco? And you're like, I'm here. I'm like, what a surprise. And then I got a text last night.
+
+They're like, did you get out of San Francisco? And I'm like, yeah. I'm in New York. I'm like, amazing. And it's, like, very confusing.
+
+Yeah. But it... Yeah. All the all the airlines went down. There was the ground stop.
+
+United went down. There was so much rain in San Francisco yesterday that started, like, literally as my plane was taking off. I don't know if you saw this. There was a leak at Microsoft Ignite, and they had to clear the Moscone Center. And amazing.
+
+This is amazing video. The leak was, like, totally centralized just on the meta booth. Like, in the most karmic possible way, like, just water was pouring on the meta booth in the middle of the Moscone Center. Just bad vibes all around. Yeah.
+
+You can you can feel however you want about the existence of higher powers, but sometimes the evidence is stronger than others. You know what mean? Every video of this and every social site that I've seen is like, well, yeah, it's it's raining on the meta booth. Yeah. We should start with the world falling apart, but we have two very quick things we should talk about beforehand.
+
+One, a thing I genuinely don't know about you, are you a GTA guy? Like, is is GTA six downloading on your PS five right now as we speak? I... The baby woke up at 02:30 in the morning last night, and so I was awake at 02:30 in the morning trying to get the baby to go back to sleep. And in that moment, I'd I'd use the PS app on my phone to begin the PS six download.
+
+So it's it's waiting for me on the PS five. I've not had a chance to play yet. Are you normally a GTA guy? Like, is this a moment in your life? I'm a Vice City guy.
+
+I think Vice City was my high watermark for GTAs. It was, like, the most fun I've ever had. Like Yep. The needle drops in Vice City, like, when they first hit the scene, just the eighties music being on the game. Yep.
+
+I mean, that was just, a cultural watershed moment, I think. Like, truly important moment in in in video game history. I played GTA five through, but I never did, like, the online multiplayer. I never did the mods of that. So I'm I'm excited that GTA six is launching as a deep single player game because that fits my vibe.
+
+And everything I've seen about it so far seems amazing. Yeah. I I cannot believe how universal the praise for this game has been. Yeah. I was saying to our team yesterday, it's sort of sad that no reviewer on the Internet just decided to zag and be like, actually, this game sucks.
+
+Like, you need the one person who is like, let me tell you all the reasons all of you clowns are wrong, and they wasted a billion dollars and this game sucks. That's still out there. Someone should do it. Kudos to you. Can I can I tell you the the single funniest GTA six take I've heard so far?
+
+I was on MS Now this morning. And I I, you know, I did my best to convince them that everyone plays video games. It's not just kids. Right? Their kids are so excited.
+
+I'm like, no. Everyone's excited. Like Yeah. The American economy has come to a pause today because everyone is gonna play this game, and it will echo through culture. And then one of the other panelists was like, I heard GTA is woke now.
+
+And I was like, no. No. No. No. No.
+
+That's amazing. They just make fun of everyone, and, like, the manosphere is, like, a really easy target. So that's what you got. Just the group of people who got the maddest at being made fun of. Yes.
+
+This is an equal opportunity literal shotgun blast with the culture. But it was just like... I was like, no. No. That's not it.
+
+That's not the one. Yeah. It's dark woke is actually what it is. I did offer for the next time that I went on cable news to just bring a PS five and just... Instead of saying anything, just, like, play GTA with them.
+
+It was not... They didn't take me up on it. I think that might go over big. You should you should give that another try. Thing number two, did you get a home view?
+
+You and I haven't really talked about the home view since it We have not talked about the home view. I have not gotten a home view. I... From everyone that I've talked to, including you, this is... It's not gonna be better than the old iPhone I have mounted on a MagSafe charger in the corner of my kitchen that just has, like, standby mode with Yeah.
+
+Shortcut buttons for my home automation. Yeah. That's the same. Right. There's just an an old iPhone on a MagSafe charger, and it has the various scene buttons on it.
+
+And you can take it off that and make FaceTime calls with it. Yeah. And it also can run any app I want. So this is, like, a very good situation. Also, that charger, the base of it has a charger for my AirPods.
+
+It can run any app I want is when my heart just sort of sank. You see what mean? Like, I have a home view. It is an old iPhone on a MagSafe stand. Only much better.
+
+And it has the buttons for my home automations on it, and it has a charger for my AirPods. And that for me is the... That's the mark. Like, is this product better than that? Because it's it's inherently a clunky product.
+
+Like, it's an iPhone. Yep. Sometimes it just rings because my phone is ringing, and I don't want that to happen. Yeah. That said, everything in this house for some reason was wired with Ethernet cable, including the landline phones, which I repurposed into an actual Ethernet backbone network for the for the mesh routers, and the old intercoms, which we just took out a wall and covered over.
+
+So I know that there's Ethernet home run to the basement for where the intercoms used to be. And my, like, nerd desire to wall mount a power over Ethernet home view where the old intercom used to be is, like, off the charts. This is coming true. Look at that wall every day. I'm like, I should put a home view there.
+
+And I don't know why. It's too high for the children to make FaceTime calls with. So immediately, just eliminates 50% of the use of this product. We don't need buttons there because the buttons, again, are on the phone in the corner of the kitchen. I just wanna do a power over Ethernet tablet on the wall, and the HomeView is available.
+
+The fact that the HomeView is more expensive when you don't buy the base just, like, blows my mind. It is it is ridiculous. Right? Like, the power over Ethernet mount is not even out yet, and think it's a $129. I think that's right.
+
+So I'm just offended by my own desires in, like, a very important way. Understandable. So I bought one. Yeah. But you...
+
+You're an idiot, you bought Like a like a real stooge. I bought one, basically to see if the CarPlay thing made any sense. And I'm here to report to you that it does not. So, like, where where Jen landed in her review is essentially this thing is a a very good, very simple smart home controller if you are a person who lives in the Apple Home ecosystem. That's true.
+
+Like, fine. Basically, the only thing this thing does natively is run Apple Home. Fine. Everything else sucks real bad, and it falls apart in so many specific ways. So, like, the one I keep encountering is, like, one of the immediate things I thought I would do is use this to run a lot of shortcuts that you can't because it doesn't have access to those things.
+
+It just it just... You can't you can't. It won't go back to your phone and run the shortcuts for you. It just it just falls apart. There's also...
+
+I have... I had a bunch of widgets. I was like, oh, this will be helpful. I'll be able to, like, at a glance, see my calendar and my tasks and whatever. Bunch of that stuff doesn't work because it'll let you load the widget, but then the widget can't update because it can't access the app, but it'll let you load the widget.
+
+So I just have an empty widget that's supposed to be showing my task. And every time I tap to open it, which would update the widget, it doesn't because I can't open the app. This thing is like our our suspicion coming out of... Even the announcement was, this thing is an app store away from being potentially very compelling. That is so true and so much more true than I expected for my own use case.
+
+Like, CarPlay versions of apps are bad. Yep. The CarPlay version of Spotify is bad. The CarPlay version of Pocket Cast, which I use for podcasts, is bad. CarPlay versions of apps are slow.
+
+They don't do very much. They they offload way too much of the work to other things that it doesn't need to be offloaded on because this thing has lots of processing. Lots of apps don't work. Connections fall apart. Like, Joanna Stern, our friend, had found that it it kept...
+
+It keeps thinking it has access to things that it doesn't, like a camera. Can we hold on to this for one second? So I I won't get into it, but there's... There are just, like, conspiracy theories about the nature of reviews online. That feels like a thing I can just say.
+
+Can just say that, and that's true. Like, you know that's true. I don't have to explain to you what's going on. And the fact that the home view hallucinates its own hardware capabilities is, in the grand scheme of AI products, like a three year old problem. Mhmm.
+
+Like, you can just measure where Apple is because the home view hallucinates its own hardware capabilities. Yes. Right? Like, every other AI system, you know, at least the the leading ones have gotten past this in some way. And people still do the thing where they, like, they will ask Muse about Meta's privacy policies, and Muse will just, like, confidently hallucinate some guard...
+
+Like, that... People do that. Whatever. Sure. Ask trash p d why it thinks the way it does, and it it will confidently hallucinate some nonsense.
+
+And you shouldn't do that. But the home view... What was it, Joannette? It told Joannette it didn't have a camera. Right.
+
+And that is just as much of a disconnect between what the product actually is and what Apple wants it to be and then how it's architected as... Has ever existed Yep. In any Apple product ever. Right? Like, literally, the hardware, software, and services are not all talking to each other.
+
+And I I think CarPlay is the same thing. Yeah. Right? Where it's like, we use CarPlay to extend your phone, and you're like, the tight integration of literal hardware and software and services that Apple prides itself on is missing. And I I I don't know.
+
+I I I I understand why they're... From every indication, it seems like they're more willing to admit that the home view is a work in progress. Yeah. Right? You can't deny reality.
+
+But the notion that consumers are gonna be happy with a device that hallucinates its own hardware capabilities and reviewers are all just, like, overheatedly try to be negative is like, no. Like, in this case, the promise of this device is that it's a little AI agent that can use your phone. Right. And so it needs to know things. And if it doesn't know whether or not it has a camera, what else won't it know?
+
+Right. It also can't use your phone. In a in a really meaningful way, it can't use your phone. Yeah. I I I don't wanna linger on this, but I think the the thing that has stuck out to me...
+
+John Gruber wrote a really good thing where he said, the hardware is top notch, but the software is like bits of iOS, watchOS, tvOS, and CarPlay cut up and assembled into a ransom letter. And I think that about perfectly sums it up. John's been on a real heater lately. I was just about to say, Gruber's had some truly wild takes on the website this week. What do you call it?
+
+You said the duo was a fat, miserable little thing, and this... The home view is a ransom letter. That's good. It is. Yeah.
+
+And I think the the home view to me is like, I I bought it because I was like, I think the idea of, like, an iPhone I don't have to go look for is just sort of sitting here and and aware, and I can poke at it when I need it. Totally sold on it. Actually, more so than ever as, like, a desk device. For me, it's I'm... It's never gonna live in my kitchen.
+
+It just sits here next to me and gives me access to things. It just doesn't give me access to any of those things because it can't run any apps. Yeah. I was at the fancy semaphore in the world... Silicon Valley in the world conference earlier this week, and I saw some former Apple executives there.
+
+And they straightforwardly were like, what is going on with their software right now? Yeah. They're like, they're shipping a lot of products, but we all see we all see what's happening with the iPhone Duo, which we'll talk about later. Right? They're, like, adding features to it.
+
+They... Adam Messeri said that he doesn't think Instagram will ever be right on that display, which is just a very... Obviously, it's self motivated thing for Messeri to say. But it's just like that thing is... You know, some people are really happy with it, but I think everyone concedes now that the software is a bit of a mess.
+
+Like, it's gonna take some turns. And then HomeView, again, the promise of all these smart devices, and we should really talk about everything going down. Yeah. But it's funny because the promise of all these devices, these AI home devices, you should plug one in, and it should look around your entire network for all your stuff, write itself whatever software it needs to control it Mhmm. And call it a day.
+
+Mhmm. Right? Like that... You can do that with Cloud Code today. You can make yourself your own little dashboard, and people are doing it left and right.
+
+And Apple didn't do that. And that is the promise, and it it seems like every company is pretty far away from that promise right Yes. Apple just happens to have the best hardware capabilities of Yep. That. Like, the the...
+
+It's a lovely little thing, and I like having it on my desk. It just doesn't do any of the things that I need it to do. It is a good smart home controller, though. Anyway, we should talk about not... Wait.
+
+So so so you know why it's not a good smart home? This is actually a thing that I I asked a number of people this summer at our conference about. If Apple was smart, they would have moved heaven and earth to get Ring to integrate its doorbells with their own view. Sure. Right?
+
+That Apple believes its ecosystem is so powerful that everyone will have to come to them. But I know if you open amazon.com today, that Ring is gonna sell a bunch of its cameras for $29 on Black Friday. Yep. That's a lot of cameras that Apple isn't gonna integrate with, and either Apple has to go to the ecosystem or find some way to bring the ecosystem to them. And the fact that they didn't is just one of the weirdest omissions from the home view is a smart home controller.
+
+Because say what you want about Ring, they've sold an awful lot of cameras and doorbells. They have. I think Ring and Philips Hue are the only two Yep. Smart home things you could call, like, actually mainstream devices. Govies.
+
+Sure. Govies all matter, though, so it's fine. Yeah. Yeah. But, anyway, we we can we can talk more.
+
+I will have many more feelings about the HomeView. Don't worry. You also... I know I want you to get one just for the return period and just see how far you get before CarPlay drives you as crazy as as it is today. The problem is that I wanna put it on the wall.
+
+I don't know why. It's just like the the the the dad desire in me Sure. To make use of this latent Ethernet cable in my wall is so high. We'll see. I'm gonna end up putting a hold.
+
+This is why I have been shopping for three d printers a lot over the last two weeks, but that's that's a whole another story. We should talk about this is like the week everything fell apart. Yeah. And we should talk about it. So I I think...
+
+I don't know which of these you wanna sort of litigate individually because I think in many ways, the the overarching story and narrative is way more interesting than any of the specific problems and the the things that actually cause the problems. But you have the the massive nationwide ground stop in The United States, hugely consequential thing, canceled thousands of flights, caused massive disruptions, whole big thing. Then soon after that, United Airlines had a big system outage that caused a bunch of problems. Right before the ground stop, Microsoft's system, including Outlook, went down for, like, two days. That was a whole big thing.
+
+Chase had a technical issue that actually ended up looking like a basically widespread banking outage that made a lot of people really nervous. It it turns out to actually... Frankly, like most of these, the actual explanation is relatively simple and relatively benign, but you sort of add all of them up and the people have spent the week feeling like something big is happening here. And I also sort of feel like even if you add up all of the relatively small explainable benign things, something big is still happening here. Oh, you missed the iCloud one.
+
+There was an iCloud internal update that took down iCloud, the App Store, and AppleCare. Yeah. So what what do you make of this sort of summation of what has happened over the last seven days? You know, I saw Sachin Yell at Microsoft Ignite in San Francisco. I was at a roundtable with him, and he basically...
+
+He he walked through Microsoft's incident report. And their version of it is they changed one server, and they found a latent bug that had been there forever. And that bug got triggered by a specific traffic condition, and it rolled over to all the other servers and all their other regions. And then I was like, was it AI? Did you ship AI code to break your thing?
+
+And he was like, no. AI actually helped us fix it. But I think what... What's happening in there is more vulnerabilities are being discovered faster than ever. The meantime to exploit those vulnerabilities is dropping to almost negative numbers.
+
+Right? Like, the the attackers are finding the vulnerabilities and exploiting them before anyone else, and they're not even doing it. They're just attacking them because they're, like, high high powered AI enabled script kitties. And so there's a rush to patch everything that is being found. And I would just add this all up to being like, there's a whole rush of very fast software updates happening across the board, updates to all the infrastructure, and some of them are not going well.
+
+All all these companies have blamed updates in some way. Yes. There is just a rush to fix everything as fast as possible. There are not enough people to do it. We can talk about the nation's infrastructure in terms of just cyber professionals and security professionals Yep.
+
+And software engineers that has been decimated since AI came out. It has been decimated by Doge, which I know we're gonna talk about in a minute. And the rush to fix everything before the bad thing happens is making it very visible when the fixes don't go well, and then we are all made to know how much of our lives is determined by the functioning of rickety computers. Like, the seams are being made very visible to us. Yeah.
+
+Didn't Satya Nadella compare the feeling right now to the run up to y two k? Yes. He said we're in a y two k moment. He also called critical digital infrastructure the dial tone for the world, which is wild. He's a...
+
+He's in a place. Yeah. Like, I I spent almost an hour in a roundtable with him. Someone asked him about Claude... Like, Anthropic launching docs and spreadsheets and whatever in Claude and how that would compete with Microsoft.
+
+And he wasn't like, we welcome the presence of spreadsheet competition. He was like, well, if there's only one company that does everything, we won't have an economy, and I'm not sure anyone will ever be elected again. And it was like, well, that's not how you usually talk about competing spreadsheets. Goodness. Yeah.
+
+Bill Gates is like, Lotus one two three cannot be allowed to rule the economy. I was like I was like, what? I asked him if he's AGI pilled. He's like, I'm AGI pilled now in terms of, like, if you allow one model to do everything in the economy, you're gonna have to claw that back. Like, what is the purpose of a company?
+
+It's like a a real thing that happened with no one. So he's in a very thoughtful place. He always is. But in particular, the specter of y two k came up. The specter that one company would run every part of the economy came up in that conversation.
+
+Yeah. And I do... I actually agree with that y two k moment in this specific way. Most people look back at y two k, the year 2000 bug. For our younger listeners, when the world rolled over from 1999, 2000, all of the dates were stored in in two digit format on most computers, and people thought the rollover to 2000 would break a bunch of systems.
+
+And I was in, like, high school break a bunch of systems and break the world. Yeah. Yeah. Yeah. And I was in high school, and I like, this is very exciting.
+
+And we're like... I mean, what did we eat? We bought a bunch of booze and went to my friend's house and, like, waited for the world to crash. It didn't happen. And then everyone thinks YTK was overripe.
+
+And the real thing that happened was tens of thousands of engineers across the world raced to fix all the systems so that when the rollover happened, it was fine. And so the hype actually produced a result, but everyone thinks because nothing bad happened that it was hype. Right. This this repeats. And I...
+
+That is the moment that I think we're in now where the specter of some giant cyber attack or some state sponsored incident has caused a bunch of people to work as fast as they can. There are not enough people. There's not enough resources, and they're rushing out fix as fast as they can. And maybe we're all gonna look back and say, the AI powered cybersecurity nightmare was all just a big fake. And it's like, actually, all these people are working as fast as they can.
+
+Well, okay. So the the hard part for me to parse through is all of that stuff just swirls together. Yeah. Right? Because it's...
+
+Like, I'm I'm sort of reticent to blame AI for doing any of the things. Right? Like, with the with the ground stop. Right? One of the immediate conspiracy theories was there's this new smart system that that is supposed to, like, change how routing works.
+
+They just rolled that out, and then this thing fell apart. It's... Didn't AI probably do it? And and then, like, various Trump administration officials being weird and not having answers and not seeming intelligent in not having answers made everybody go further into these conspiracy theories. But I think, like, if if you sort of chicken and egg your way through it, you end up in sort of two things at the beginning of it, and there's, like, a cognitive dissonance to it.
+
+Right? One of them is there's not enough people to solve these problems. We have all over our country just ancient infrastructure. Right? Like, the the the whole system that propped up the FAA's nationwide communications network is like twenty five years old, brittle as hell.
+
+Everybody knows it, and it is not scheduled for any kind of meaningful update for another couple of years. That's just... This is how things move. At the same time, we've had an administration that has absolutely gutted the FAA. So none of that has anything to do with AI except that everybody is like, oh, we can gut all of these things because we can just point AI at the same problem.
+
+So I'm like, is this an AI problem, or is this a not enough humans problem? And can you even sort those two things away from each other? Think... Do you what I mean? Friend of the show, Anil Dash, had on Blue Sky, I believe, that since Chatuchiki came out, a million software engineers have lost jobs.
+
+Right? So that... That's one force. Right? Like, it's just one force that's happening.
+
+Like, these companies are getting smaller. The number of people who know what they're doing, who have architected the systems, who understand how they truly work is going down, while the number of senior software architects who orchestrate agents all day to write code that they don't even know is, like, going up. So there's some weirdness happening here. Maybe this will... The lines will cross, and the automated agents watching over everything will keep us perfectly safe.
+
+Unclear if that will happen or when that will happen. Has not happened. Yes. Certainly has not happened yet. The other side of this is it is true that our nation's government is run by buffoons and idiots.
+
+Yes. Doge gutted the FAA. Right? The the nation's cybersecurity agencies were gutted in, like, a ferocious anti DEI push. So you don't...
+
+The comp... The country does not have the capacity it used to, and then private industry doesn't have the capacity it used to. And that... I think that's where the, like, the AI that comes in. Like, the systems are not ready to take over for the people who are gone, and the people who are remaining are using the systems as fast as they can.
+
+And in the Microsoft example, they're saying, look. We were able to fix it faster because we were able to use the tools. Maybe that's true. I'm sure it is. But the the Elon of it and the Doge of it and the gutting our cybersecurity defenses and gutting the FAA and then Sean Duffy showing up and being like, I demand $50,000,000,000.
+
+It's like they're... It's it's weird that they're trying to make us forget that they're not as prolific as they are. Yeah. Right? It's weird that Elon thinks that he can just say a thing about himself when the documentary evidence of him saying the other thing is, like, literally famous memes.
+
+We have a bunch of clips to play. Let's just play them all in a row, and I think it will make us laugh. Let's just play them all in a row. Alright. No.
+
+Let's start let's start with Elon just because I wanna I wanna crystallize in people's minds a thing that is happening and that we as journalists and we as a society should not allow to happen, which is a bunch of people who have spent the last couple of years running as far right as they possibly could on what they claimed were moral grounds about the right way to live in the world are now just sprinting back in the other direction and hoping that you'll forget. Oh, and not just claiming, actively tearing down. Yes. The idea that we would privatize the FAA is... Was on the table.
+
+To SpaceX. To SpaceX. Yeah. We were gonna get rid of this Verizon contract and and let Starlink do it or whatever we thought we were gonna do was nakedly on the table. Yes.
+
+Are gonna So here... Here's here's the Elon Musk at deal book this week. I'm not MAGGER. Well, at least I'm not, like... I'm not sure what MAGGER means, but I I I don't think I'm, like...
+
+If if that means sort of blind adherence to a set of policies by the Republican Party, then I I certainly don't have that. He said that in, like, that's a remote... If you're just listening to that, DealBook, he was remote at DealBook. He's in, like, a beige hotel room. For some reason, he was lit entirely in red, which immediately led people to conspiracy theorize that he was in China.
+
+And it's like, that's not how China works. Like, you're not just red in China. Anyway, there was, like... If you were watching the stream, like, you could hear the room, like, gasp. Yeah.
+
+It was nuts. So now here's Elon Musk in 2024 at a Trump rally. I'm not just MAGA. I'm dark gothic MAGA. That's our boy.
+
+By the way, Howard Lutnick was, like, standing next to him just like, get away. I was like, one of you is going to jail. I'm not sure which one it is. Yeah. But it's even money right now.
+
+Yeah. Again, this is this is a thing we are going to see a tremendous amount of. Did you see that that Trump responded to this today? Like, not that long before we started recording saying people who veer away from MAGA tend to regret it. Like, it's actually...
+
+Had... It did not occurred to me until that happened. But the fact that this next couple of years is going to be this divided government is going to make all of this so interesting because we have this deeply corrupt, vindictive loyalty over everything president and also an... A newly blue and motivated congress who wants to investigate all of the people who have done the corrupt things with the corrupt president. And all of these people are going to literally have to tear themselves in half and try to satisfy everybody in order to continue to win for the next two years.
+
+I would describe Musk at deal book. If you watch that whole video, he was reserved. He, you know, he came to life in something. He talked about Starlink in Ukraine, and he was, like, really fired about that. But in general, he was reserved.
+
+He said the new democratic governor of Texas would be a moderate, and that he thought they could work well together. He wasn't MAGA. He sounded a little sad. He's like, I wasted a lot of money, and it didn't work. Like, he he he was trying to project to the extent that Elon Musk can project humility.
+
+He was attempting to project humility. Not saying it succeeded. I'm not saying everyone didn't see it through it. I'm saying you could see what his intention was. But then it's...
+
+We're gonna run the chainsaw. Like, this is the moment for me. Elon Musk at CPAC after Doge had started, and he showed up waving a chainsaw around, taking credit for destroying most of the capabilities of government. This is the chainsaw for bureaucracy. Chainsaw.
+
+Do you ever watch Elon Musk on stage and be like, is anyone worse at being on stage than Elon Musk? Like, it's just astonishing. Chainsaw. I just wanna point out that the the thing you have to say after that, after hearing him say chainsaw and scream is the FAA issued a nationwide ground stop because a contractor replaced one copper based router with fiber optic router, and there was not enough capacity in the system, either at a technical level or at a human level, to understand what was going on. And then our nation's buffoon like transportation secretary and the head of DHS just started contradicting each other and, like, literally nudging each other to stop saying things at a press conference that night.
+
+And it's like, well, that's who... That's the bureaucracy you fired. Yep. And they all spent a lot of time talking about how everything was too woke, then they fired everybody, and it turns out no one is there to do their jobs. Yeah.
+
+So my question for you, and we we should move on from this because I I think It's bad. A, it is bad. There's there's gonna be an enormous amount of, I think, fallout from this. And I think, actually, the fact that it all happened so quickly is really interesting. Right?
+
+Like, there there is something to the fact that... Yeah. I keep thinking about this as as the same thing as people deciding their phone is listening to them. Like, this week gave people a feeling about the way the world and technology works that I think is going to be very hard to shake, that everything feels brittle. Like, the the thing with the bank.
+
+Right? The the... This is maybe the one that I think is is going to be actually, in a funny way, be most lingering. There was a there was a moment where it... What appears to have happened is that JPMorgan Chase had a a relatively normal error in software that took out its ability to quickly do transactions with other banks.
+
+And because JPMorgan Chase is such a huge part of the banking economy, it made other banks that were not having problems look like they were having problems because everybody is always transacting with JPMorgan Chase because JPMorgan Chase is huge. So even if you didn't realize that was the source of the problem and you actually thought it was like Mastercard, that was what was going on. But it gave people this feeling and it... This, like, visceral awareness of a thing you never think about, which is, oh, my money is not real. And it made people feel it.
+
+And all of a sudden when you couldn't get to your money, it's it's just a thing that turns on in people's brains that I think becomes very hard to turn off. And so what I wonder is, like, is this... Even even as we sort of boil these things down to, no. There was not a giant conspiracy theory. No.
+
+Anonymous didn't do this, as I saw a bunch of people saying on social media this week. No. There's not a nation state behind it. It's all relatively explainable things up and down the line. It still feels like the the summation of this is going to last a long time for people.
+
+Yes. Do you feel that way? I do. I I think the the the word... The defining word of the AI software era is brittleness.
+
+Yeah. We are making things more brittle with AI code. I think AI tools themselves are brittle. We've talked about that a lot. You can just run up to the edge of the tools that are available to you all the time.
+
+And sometimes that edge is just they're not smart enough to do what you want. And sometimes the edge is like Amazon will block all the agents. What are you gonna do now? Right? And, like, they can't over...
+
+Sometimes the edge is the home that you shipped. I think we are just seeing how not resilient so much of the economy is. Yeah. And then the AI systems are really good at acting like they are resilient. And I think a lot of the excitement about rearchitecting everything around AI is that maybe the AI is intelligent enough to be more resilient than standard old deterministic code that just fails.
+
+But standard old deterministic code that just fails fails in deterministic ways. Right. Right? In predictable ways, and you're like, well, this broke. Not I I had a bad day.
+
+Like, Claude, decided I was alive, and thus I will not. I will now issue a refusal to do the thing. Like, whatever that thing is is gonna increase the feeling of brittleness as more and more of these automations, like, do weirder things. Yeah. And importantly, the people who built those deterministic tools that fail are thus well equipped to go figure it out.
+
+Yep. Like, the the other thing next to the brittleness is it's also opaque now. Right? Like, I I think about Satya Nadella saying we didn't use AI. I bet if you go back far enough in the life of that code, someone was using AI to generate that code because all of these companies can't stop telling us about how they don't write their own code anymore, that AI is doing it.
+
+Microsoft itself proudly acknowledges the extent to which the the people who write code no longer write code. They're babysitting swarms of agents. And so what has happened is we've we've just added this black box around every single thing that gets made so that even when something does go wrong, even if in theory, all of these systems are better, when something does go wrong, it is harder and takes longer for us to figure out what went wrong and how to fix it. And the idea that we are just going to solve AI problems with AI solutions, like you said at the beginning, is just... It's just not there yet.
+
+Yeah. I mean, look. This is a remarkable set of coincidences this last week, but I do think more people are more aware that there are single points of failure all through the economy. Yeah. And you can feel a lot of ways about that.
+
+But the main way I feel is, boy, it would be better if we had more companies. There shouldn't just be six companies that when outlook goes down, most of the enterprise world went with it. I... Like, all kinds of, like, lawyers and consultants and other professionals are tweeting like, we have a snow day. Mhmm.
+
+We just awful work. Yeah. And it's like, well, that's... In one way, that's fine. Like, the industry is standardized.
+
+Another way, it's like, should be a little more competition than this in the world for most of these things, but so it goes. There should be more than three airlines. When United and Chase go down, the rest of the industry shouldn't go with them because everyone is dependent on them. But that's that's how we have architected this system right now. There should be more than one router that keeps planes in here.
+
+It's just an idea that I had. Alright. We should move on from this. Again, I think there's gonna be a lot to talk about about these things and presumably more of these things happening as we continue to expose all of the brittleness of these systems. We'll talk about it.
+
+But right now, we have to talk about the brittleness of another system, which is NVIDIA and Gensen Lock. We'll do that in just a sec. We'll be right back. Support for the show comes from Firefox. Have you ever searched for a product once and then it just follows you around online for days?
+
+It's the perfect way to spoil a GIF for someone you share a device with. That's not what going online used to be like. Before, it felt efficient and full of discovery. Today, being tracked, interrupted by ads, or shown AI you didn't even ask for can make even simple tasks frustrating. Well, the Internet you loved is still here with Firefox.
+
+Firefox has kept improving with built in protection, support for powerful ad blockers, and more control while giving you the speed to get things done. Firefox doesn't know what sites you visit and comes with a built in VPN that protects your browsing on public Wi Fi. While other browsers shut down ad blockers, Firefox is still going strong with support for them. It also has support for AI when you want it. When you feel like you need a break from AI, Firefox gives you the option to turn its AI features on or off.
+
+It's also super easy to switch from your current browser, and you could just port over any bookmarks, passwords, and history. Come back to Firefox. Visit firefox.com to try it yourself. Support for the show comes from AWS AI. AWS AI is powering transformation across the world's leading organizations, moving AI from possibility to production at scale.
+
+Like how AWS AI helps Formula One turn race day data into real time insights that bring fans closer to the action, or how it helps booking.com personalize every trip for travelers around the world. AWS AI is even transforming how things get built, helping Siemens power the production of smarter cars. Across industries, AWS AI is helping businesses innovate faster, lead with confidence, and transform what's possible today. AWS AI is how. Support for the show comes from Outshift by Cisco, which is Cisco's incubation engine for frontier technology.
+
+We're entering a world where AI agents can do more and more on our behalf. But there's one problem. Getting agents to talk to each other isn't the same as getting them to work together. If agents aren't working together, adding more agents creates more mistakes, not better results. One agent has the wrong context.
+
+Another is working without data information, a third builds on a mistake that slipped through the cracks. That's the problem Outshift by Cisco is working to solve. Outshift by Cisco is building the Internet of Cognition, an open source foundation for building multi agent systems. Agents share context, memory, and guardrails to get excellent results from design all the way to production. So instead of simply passing messages, agents can build on each other's work and move towards shared goals.
+
+Read the paper, experience the demo, and grab the code from outshift.com. That's outshift.com. Alright. We're back. Neil, I have a really important question for you.
+
+Yes. It's time to be honest. Did you sign the petition to bring Jensen Huang back as NVIDIA CEO? You know, I've been secretly working as an NVIDIA employee this entire time. That's a deep cut of Virgilor.
+
+Saying what I'm saying. No. I did not. And it it has always struck me that the comparisons between the Jensen situation and the Altman situation and the comparison between the Jensen situation and the Steve Jobs situation are, like, almost wish casting levels of fantasy. They're they're so different.
+
+All of these situations are so different. So the reason there's a petition is because they did a petition and they brought back Sam Altman after the port fired him. And we just had Helen Toner on to code her. She voted to fire him, and she's like, I'd do it again. I don't trust him.
+
+That board, which... OpenEye has this, like, convoluted corporate structure. That board was empowered to do one thing, which is to fire Sam. And Ilya Szutschevir basically was like, we should fire Sam. Like, now that you can, like, do all the reporting, he was like, I'm gonna start collecting evidence to fire Sam.
+
+The board was convinced by that evidence. The rest of them, Mira Moradi, the rest of... Like, they're all convinced. They gathered the evidence. They they pulled the trigger, and they...
+
+I think they would all admit to you now, they did not enough communication about what they were doing. Right? That that board was basically a bunch of kids who got way in way over their head. Helen said, I didn't communicate with the company enough. They didn't even know who I was.
+
+Like, I wasn't president enough. And then this is just sort of, like, my assumption, but OpenAI's comms team didn't work for the board. They worked for, like, OpenAI, and they wanted Sam. So, like How interesting. They didn't communicate.
+
+Yeah. They didn't even say why they'd fired him. And so you could sign a petition, and then we all lived through that, like, weekend of chaos and the same as back. Yep. And that is just, like, one of the most unique situations in American business history.
+
+Right? And it's because this board wasn't composed of professionals who knew what they were doing, and so it does. Steve Jobs, we just covered this on the Mac episode of version history, was just, like, horrible business, was wasting a bunch of money, got into a fight with his board. The board picked, and he left. And it wasn't a petition that brought him back.
+
+It was after several successive CEOs at Apple that had collapsed the company such that that he was able to engineer a comeback. And when he was, like, weighing whether to do it, I think it was, like, the CEO of IBM was like, no one cares about Apple. And, like, that's where that company was. Like, everyone was like, no one cares about this except for you, and he was able to come back because the company was a disaster. Yep.
+
+And all that seasoning was good for him. Right? Like, in some way, he became a much better executive because of that experience. None of that is this. No.
+
+Right? Like, Jensen Huang... We... Just the facts of it. Chinese spied chip smuggling allegations aside.
+
+Jensen Huang lied to his board of directors and to the shareholders of NVIDIA in a material way. He had a a a a communication staffer by name issue a statement saying his relationships with Alice Wong and Mega Speed were totally normal. And then later, he admitted that they were not. Right. So you you have now...
+
+You just lied to your shareholders. That's enough. That is all it takes in most companies. Did you, the CEO of the company, lie to shareholders in a way that may have affected the stock price of the company in a material way? Yeah.
+
+The end. Like, there's just, like... You can't set that aside. It's like a real thing that happened that will cause lawsuits for NVIDIA. Yeah.
+
+It's a real... It's not the lie. It's the cover up thing. Yeah. It's like you lied to the board and to the shareholders.
+
+Yep. There yep. There there just isn't much there that you can do beyond that. And then there... You might have, like, slept with a Chinese spy and smuggled chips to China, which is like a national security problem that will almost certainly end up with at least Howard Letnick in serious trouble.
+
+Right? Because all the reporting is that he could have cracked down on this. He could have made the spirit of the law the letter of the law, but he declined to because he wanted to run the... Like, all this reporting is out there. This is all very bad.
+
+That's enough as well. And then you had an affair with a direct report at your company, which is, like, maybe two. I I believe it... We're up to two additional affairs. Right?
+
+Yeah. Yeah. This is... Like, it's not gonna happen. Like, I...
+
+There's not a world in which this board of directors, which is composed of actual professionals, like actual high powered corporate professionals Including a board chair for the first time. Including an actual board chair, including other CEOs who know how to communicate, who are... Who started that earnings call by saying we are not letting him come back. Like, this is just a different situation with a different cast of characters. And I think that they have more risk if they let him come back and run NVIDIA into the ground by spending all of his time defending whatever allegations to Congress than by trying to operate the company in the shareholder's best interest starting today.
+
+And I think they are just actively making that calculation minute by minute, and they know that, we brought back a CEO who has some... I don't know how much it is. I can't quantify it. But we brought back Jensen Huang who has some level of criminal risk for his actions at the... This company is...
+
+That's not a decision they can make. No. And I think the the amount of criminal risk is obviously hard to quantify and know. I don't know what it is, but it's not zero. No.
+
+And it appears to be increasing. Right? Like, I I think I think the the thing that has been interesting is over the course of this week, the thing you and I talked about last week has really come true, which is everyone has started to realize, oh, the bigger story here is not the the salacious sexiness of sleeping with a spy. That actually it is the ways in which NVIDIA might have been systematically allowing or participating in the smuggling of chips to China against the law of The United States. And who knew that and when up to and including Jensen Huang and president Trump is the question.
+
+Yeah. Right? And and this is a question... Again, we've seen this new group of democratic congresspeople just... They're just out there issuing document retention notices to anyone who exists in the world right now.
+
+They're like, if you've ever had a meeting with Donald Trump, you're not allowed to get rid of any of your documents because we are investigating you. And over and over and over again, even over the last week, there have been moves towards we have to crack down on this thing that it appears NVIDIA has been doing, and we have to figure out what NVIDIA knew, who was doing it, and how big a problem this really is. Like, the the SEC is reported to be investigating NVIDIA. Congress is already tightening the rules on exporting chips. NVIDIA...
+
+Colette Crest, one of the very first things she did was say as as interim CEO of NVIDIA, we are no longer selling... Even the chips that we are allowed to sell to China that Jensen Huang spent so much time advocating and lobbying for to get these these exceptions from the export controls, we're just gonna stop doing that. Like, this is so clearly the thing and is going to be the fight Yep. That, like, the affairs are gonna be whatever. They're one of the reasons you can't bring him back, but they're not the thing that is going to, like, continue to ripple out from this story.
+
+Yeah. And it's like if you... If he... Jensen issuing his... I'll come back if you want me to hours before the board had...
+
+You know, I think it was their all hands. They had earnings. Was it before earnings? It was... I think it was right before the earnings.
+
+Yeah. Because they they then had to respond on the earnings call by saying Oh, yeah. We're not coming back. We unanimously accepted his resignation and have no plans to bring him back. It's crazy.
+
+When you fire me, by the way, I'm gonna make you say something like that. Mean, hopefully, all of us go that way, where no matter what happens, someone has to announce there's no intention. Like, there's petitions. Exactly. Somebody has to shut down the rumors of my of my glorious comeback.
+
+We should just start seeding that Dieter's coming back now. So we have to announce that we have no intention of bringing Dieter back. Like, think about it. Just start saying it. Like like, just just to get out in front of it, no.
+
+Joanna Stern will not be coming back as an intern at the burp and test reinstate Casey Newton. We should start doing it every week at the top of the show. It's great. Look. I I think the fact that he put...
+
+That is that is an aggressive move by Jensen, and the response was an aggressive move on their earnings call. Yes. Right? And in a funny way, you... You've been talking a lot about the the, like, incredible tiny vacuum that this group of executives has found itself.
+
+Perfect example of it. Right? Like, you you have all of these executives and VCs and and tech bros on x publicly supporting Jensen, and you get a petition that gets a bunch of signatures. And Elon Musk is like, bring it back. And you can see how Jensen gets to the end of this.
+
+And he's like, all these powerful people want me to come back. Some employees signed it. Like, everything's coming up, Jensen. Let's go. And then and then the board is like No.
+
+That's alright. No. Thanks. My favorite, The New York Times, obviously, you know, they had an all hands, and the audio obviously leaked to the Times. And at the end of it, they played I Won't Back Down by Tom Petty.
+
+Like, that's how the that's how the existing executive team ended the offense. It's like, alright, guys. No notes. But it is... It will continue to be a mess, and I...
+
+Today that we're we're recording this on the day of Anthropix IPO, which we don't we don't have to overtalk about. It's just a bunch of rich people got richer. But all of the financing structure of the AI economy is down to Jensen. It is down to him confidently building and building and building this house of cards and knowing in his heart of hearts that he will be able to stomach the risk and get to the finish line and be proven right, which to Jensen's credit is a thing he has managed to do several times in his career. Right?
+
+He makes big bets, and he's insistent on them paying off, and he horsepowers them over the finish line. And, boy, if NVIDIA's revenue turns out to be 20% gray market should have been illegal but for the actions of the commerce department. If this report that Alibaba was buying NVIDIA chips and the Chinese military was using them Turns out to be true. Like, a lot of this gets shakier in, like, real big ways. Yeah.
+
+And immediately. And I I do think the Anthropic IPO is an interesting piece of this because there were a lot of people looking to both NVIDIA's earnings and Anthropix IPO as a as a sort of litmus test about how people are feeling. And, obviously, NVIDIA earnings are a trailing thing, and we've talked a lot about how the chip business is not going to die because Jensen Huang resigned. NVIDIA, surprise, surprise, continues to make a tremendous amount of money. Yeah.
+
+It's gonna be fine. They're gonna be fine. I... It will be interesting to see what happens with this China fight, but that's gonna take time to play out. It's certainly not gonna show up in earnings that closed before all of this went down.
+
+But then Anthropic goes public, bounces huge. Like, it was it was a $2,000,000,000,000 company at some point. They... The the price went way up immediately, which suggested to a lot of people, like, oh, actually, everybody's excited about this. Everybody wants to be in.
+
+And then almost immediately, like, there's a really great CNBC story about basically everybody saw it jump, went, oh, that's probably the top and sold. And so it just immediately started to drop again. And, actually, the whole market went down as everybody just started pulling profits out of these these initial trades on Anthropic. Look. As Liz Lapata will tell you, money is just feelings.
+
+It is. That's all it is. Like, I... You can't read anything into that. Like, will Anthropic be able to sell a token for more than it costs to generate a token?
+
+This is the business. That's the business they're in. They don't wanna be in that business. They wanna be in the AGI Jesus business. Yes.
+
+But the business they're in is they buy a bunch of chips and power and land, or they rent it from a hyperscaler. Yep. And then they run power through the chips for money, and then they sell you the inference for more money than that cost. And right now, a lot of that... You know, all those prices are gated by how much they're gonna subsidize that to grow their market.
+
+The prices are gated by how much NVIDIA charges for chips, which then drives up the price of RAM, which means a bunch of people trying to buy PS fives to play GTA six are really bad. Mhmm. But if all of that financing falls apart and a bunch of neo clouds face a bunch of democratic governors and they can't build data centers, and so they have a bunch of chips, but they don't have the permits for the land or they can't get the power, and then there's 20% of NVIDIA's revenue comes back because they can't sell it to China, the actual market for the cost of inference, like, changes dramatically. Because you might just be able to get chips again, or you might not be able to build out data centers as fast as you wanted to because we stopped everything and that we have the chips, we don't have the power. So maybe prices are...
+
+Like, it is unclear what happens the next year to this business, but I think I saw a bunch of OpenAI executives at these conferences, and they seemed pretty relieved that Anthropic had gone first. Interesting. Well, I was gonna ask you about this because, like you said, all of this is just feelings. And I think the... One of the worries...
+
+And I think one of the reasons so many people in tech have rushed to protect and continue to lionize Jensen Huang is because, a, they're afraid of the same things coming for them. And, b, there is a sense that if Jensen goes down, all of this goes down. Yeah. And the and the whole sort of AI house of cards fall down. You've spent the week in fancy rooms full of fancy people who are trying to sell AI to the world.
+
+What have the vibes been like? Like, is is Jensen just the only thing everybody's talking about? Is it... Are people nervous? Is it fine?
+
+So the the summer of our Silicon Valley in the world, one of the fanciest conferences I've been to. Congratulations to them. You know, Ben Smith's been on the coder. We've known each other for a long time. They do a good conference.
+
+They do a good conference. They put a lot of money in that room. And I saw some very fancy AI CEOs, and I was like, what brought you to this conference? And they were just like nakedly, all the money is here. We are here to sell.
+
+We're here to raise money, and they... That's why they're there. And what struck me about it is they were all talking about AI like normal business. Right? Sarah Fryer, the CFO of OpenAI, was on stage at the summer four conference, and she was just like, yeah.
+
+Our advertising business is growing really fast. Like, we did a billion dollars in run rate. We expect to do this, and we're gonna grow this product, and we're gonna do this. And it was just a very, like... She's a CFO of the company.
+
+She's talking about how much money they're gonna make and how much they're gonna raise, and it's just very normal. Like, we... Here's what we do. We take water. We add sugar to it.
+
+We put it in the bottles, we sell it. And people love that water. You know, it's like the people at OpenAI, I think they're building consciousness. Right? Like, I left that conference.
+
+I went to Ignite, you know, forty minutes away in San Francisco, and I saw Adela being like, the danger here is there'll only be one company that controls the entire economy, and democracy will cease to exist. And I was like, that's very different than what I heard Sarah Fryer just say. Also, you just walked off the stage where you announced Microsoft Dynamics now has a... Like, what is happening here? Yeah.
+
+And I... To me, it was... I was just really struck by the dichotomy of how much people understand the danger and the risks and the safety profiles. If... Nadella had this phrase, what if intelligence has network effects?
+
+Right? So if you feed more data to one model, it's gonna get substantially more intelligent than the competitor model. And if everyone is feeding data to one model or even on a margin fifty one forty nine, that model will get so much smarter that it runs everything. Yep. And it's like, well, hold on.
+
+Maybe you should stop maybe you should stop that. And then right next to that is Microsoft announced Copilot to now intelligently wrap between models. And Microsoft Office is embedded in the Copilot, so everyone's information is going into the model. And Sarah Fryer is talking about advertising and charging me. And I that swirl for me was...
+
+It was head spinning. Like, I just came away from that just mind reeling at how much the money needs this to be normal business and how much the people who are close to the products talk about the risk. Interesting. And Nadella is both. Like, you...
+
+I could tell just in that conversation that he's operating in both directions, which is, I think, unusual for any of the big company CEOs. But, you know, again, most most tech company CEOs that that I've talked to you in fifteen, twenty years are doing this do not respond to what do you think about your competitor spreadsheet with, well, the Marxist view is that none of us will have an economy. And it's like, I've never never experienced that before. Yeah. I mean, I think in an interesting way, you you kind of can't just talk about money.
+
+Like, I I get the... You remember that that essay AI is normal technology that everybody talked about? Like, I think a lot of people in the AI business would love to get there and just stop talking about god and p dooms and just... Like, of course, Sarah Fryer wants to talk about it as advertising revenues and business software. Yeah.
+
+A, that's what it is. And b, that's how you that's how you go public and don't fall apart. But they're all losing money at such unbelievable scale that you run that all the way down, and the only way it's worth losing all of that money is if you're building digital Jesus. A a rational economic decision for both OpenAI and Anthropic today is to stop training frontier models and find ways And shut down their companies. No.
+
+No. No. If you you... They have capable models. Right?
+
+Like, Astra is very capable. Claude is very capable. Google keeps announcing new atoms every single day. Yep. Another Gemini atom has been has been discovered.
+
+About that later. Gemini 95 uranium is finally here. Like, whatever is happening. The models are very capable. Yeah.
+
+They have not diffused broadly into society or business. You could stop burning money training new models today and say, my only job is to sell more tokens to more industries. We're gonna just go. We're gonna figure out accounting and what... And and and health care and Yeah.
+
+Real estate. Like, whatever it is. We're gonna get more customers. And because they're nowhere close to using the capability of the models as they exist today, we do not have to bear the cost of training a new model. That...
+
+It would be a totally rational decision for any of these companies to do, but they are all chasing AGI. They all think that the next new model that their one competitor will develop will beat them on some benchmark, and that means no one will use their stuff anymore. And, like, there... There's some irrationality baked into this whole scheme that... Again, when I saw all the people, I was...
+
+I just keep picking on Sarah Friday because she was just so... She's the CFO, and she was just the most business about it. And she's like, yeah. Our advertising revenues are going up. We're, like, very confident in our lines of business.
+
+And it's like, yeah. You could you could just... You could stop chasing the machine god for, one minute. Right. And grow the businesses, but you can't.
+
+Like, inside, like, you can't. You... They can't. They, like, constitutionally can't do it. And I...
+
+That is as unique as it gets. Right? Like, it's hard to think of another company ever has been so motivated by some goal that is not economic in the most hypercapitalist scale of money environment that we are in right now. Yeah. It's interesting point.
+
+And I think even even more so than that, like, Ben Thompson was was on a podcast a while ago comparing it to the railroads and... Which is a comparison a lot of people like to make. Right? Huge capital expenditure, and and the bet is to... And his point was that took forever.
+
+And and it... Like, that was a generation long bet that we were gonna be able to do this. And what these companies are all having to do is do more faster at bigger scale, and so they have to just convince everybody to come along with them. And, like, Liz Lapato on our team wrote a great thing about what happens to the AI industry now that their sugar daddy is gone, and Jensen Huang is the sugar daddy. And it is true.
+
+We talked about this last week that one of the people most responsible for keeping all of that money moving, even when it was the same money Yep. Just moving in circles, the person was most responsible for making that look like a lot of money moving was Jensen Huang. And and there's some evidence internally and externally now that Colette Crest, the CFO, who's now the CEO, was trying to slow that down. And if they do, if this becomes a company that is much more fiscally responsible in the way that you're talking about, there are downstream effects on all of these other companies. And so in in a way that, like, OpenAI can't do it, Anthropic certainly can't do it, Google probably could but won't because it's...
+
+It it has decided to throw itself into the same race. NVIDIA kinda can't do it either. Like, you just... Everyone has signed themselves up for a particular set of stakes that the minute you pull back the RANs, everybody's gonna panic, and it all falls apart. Yeah.
+
+And, again, the... It is... They all point to there's ever increasing demand for AI. Yeah. They they all say it.
+
+It appears to be true. They all say they're compute constrained, so it appears more people are using this stuff. Great. But at some point, that does taper off. Mhmm.
+
+And we can talk about the nature of all these products in in various different ways. But right now, it's just a lot of people trying stuff. Right? If you go and look at the Fortune 500, there's not some gigantic AI win that made some company radically more efficient. In fact, most of the experiments aren't working.
+
+So Muse found me my home view. That counts for something. That's horrible. It should have been like, no. I'm I'm your friend tonight.
+
+I went to the Apple store, and it... They didn't have one. And so I was like, Muse, let me know when one is available for same day delivery. Here's what I want you to do. I want you to go on Alibaba.
+
+I want you to buy a $79 CarPlay display that people make for boats, and I want you to put that in your kitchen and be like, is this better? And I think you're gonna find that it is substantially the same product. If by Alibaba, you mean the TikTok shop. Sure. Way ahead of you.
+
+Your identity is gone either way, my friend. Indeed. Alright. So, again, another thing we're gonna have a lot more to talk about here, but we we should we should get to other nonpolitic things. I should also say we're recording an AI hotline episode with Hayden Field talking about all this stuff on Monday to run next week.
+
+So if you have questions for Hayden about this or anything else, them all in. 86611 is the hotline. Virchcast of the birds dot com is the email. Send us all your stuff. We're gonna move on because Brenda did stuff this week, and we need to talk about it.
+
+We'll be right back. Support for the show comes from Jira by Atlassian. AI is only as useful as the context it has to work from. But when that context is scattered across tools, threads, and DMs, that means your team and your AI agents end up flying blind. That's the problem Jira solves.
+
+What's the goal tied to your project? What got decided last week in Slack DMs? Atlassian's teamwork graph pulls all the pieces together from Jira, Confluence, GitHub, Slack, and more, so nothing falls through the cracks. With Jira, you can actually share the context with agents you already use, like Claude, Cursor, and GitHub Copilot. Assign them work directly or connect your agents through MCP.
+
+Spend less time digging through endless links and DMs, less time chasing down what got decided and by who, and more time actually shipping with Jira. Learn more at jira.com. That's jira.com. Support for the show comes from Fetch Pet Insurance. If you have a dog or cat, here's something you need to know.
+
+According to Forbes, one in three pets will need emergency treatment this year. And every six seconds, a pet parent gets hit with a vet bill over a thousand dollars. Vet bills don't have to hit that hard. Fetch is a pet insurance that covers accidents, illnesses, and emergency visits and pays back up to 90% of eligible vet bills. No wonder pet parents give Fetch an excellent rating on Trustpilot.
+
+Get a free quote in minutes at fetchpet.com/save. That's fetchpet.com/save. Everyone, it's time to wake up. Five more minutes. We've been sleeping long enough and hitting snooze on the fact that we're still stuck with the old way to phone plan.
+
+Is that a Yes. It's old and cuckoo, just like that phone plan you have. Okay. I know. It makes no sense.
+
+So rise and shine. It's time for a whole new way to phone plan, TMix from T Mobile, where you pick what's in your plan, like streaming, travel, or gaming, and then change those picks too because there's been a change in plans. Okay. We're awake, and tMix sounds great. Good.
+
+Because I'm all out of alarm sounds. There's been a change in plans. Introducing tMix from T Mobile. Pick what you want. Change what you want.
+
+Included in your plan on America's best network. Number of picks varies by plan and lines on account. Account or pick changes may impact existing device and other promotions. Best mobile network in The US based on analysis by Ooklaov speed test intelligence data one eight to twenty twenty six. Visit tmobile.com/picks.
+
+Alright, Eli. I know it's time. It is once again time for America's favorite podcast and their podcasts. He just keeps doing it. Brendan Carr is a dummy.
+
+It's a a metal band with Gollum from the Lord of the Rings as the lead singer. So happy. I do appreciate that I've been demanding breakdowns and drops. And that one to me felt like they wanted to send us a breakdown and drop, and they added Brendan to the top. Yeah.
+
+That seems right. Right. Like, the key that opened the door to send me a breakdown. It's Brendan. I appreciate it.
+
+That one came from John Kitchen. Thank you, John. What did you do this week? The the the... Our ongoing theme of did you just lie to everyone and we caught you, obviously, remains true...
+
+As true as ever in this segment of the road chest. Great. America's favorite podcast within a podcast, Brendan Carr's dummy. So you remember last week, we talked about Brendan's chief counsel, Danielle Thurman Sievers, being nominated to the vacant post in the FCC. And we we ran some clips where, you know, if you recall, Ted Cruz was like, do you promise to be cool?
+
+And she was like, yes. Yes. And then various Democrats were like, do you support arresting Jimmy Kimmel? And she's like, I don't know. See, I've never heard of Jimmy Kimmel.
+
+Who would have I'd have to read the constitution from the beginning. Like, whatever nonsense she said. Okay. So in one of those back and forth, she was talking to senator Ben Ray Luan, and he said, do you support the illegal attacks on Jimmy Kimmel? And she, if you recall, said, I have not worked on any media related issues Right.
+
+With Brennan Carr. Now it's the government. You can just file a FOIA request. So the senator appears to have filed the FOIA request, and he's discovered that he was obviously lied to. And so he he wrote to Ted Cruz this week saying, remove her nomination from the agenda of the executive session.
+
+We shouldn't take this nomination vote. And I'm gonna quote, it appears that miss Thuman misled the committee and offered false testimony, seriously calling into question her judgment and character impeding the committee's work in determining whether or not she should be seated on the commission. Miss Thuman testified she did not work on any media related issues. Documents obtained through Freedom Information Act request demonstrated that she worked on several media related issues, including... David, do wanna guess what some of them are?
+
+Oh, okay. David Ellison, something something something Skydance. Nailed it in one. Nailed it in one. Let's go.
+
+She worked on commitments that Skydance made to pave the way for FCC approval of its merger with Paramount. Oh, the very first one. So she's she's an OG of this. She's an OG in the media bureau where the pressure on Skydance to change CBS News and all that stuff, and she worked on that one. That's the one.
+
+That was the very first one. Do you think she's the one who's hold Brendan to say we can do this the easy way or the hard way? Now I'm like, what if you imagine that Danielle Thuman Sievers was actually just right behind Brendan Card at all times? There's more. But, anyway, senator Luan says, in light of this troubling information, I further request this committee hold another hearing on her nomination before taking any further action, provide her with the opportunity to correct the record.
+
+Senator Ted Cruz did did not do this. He he held the vote. No Democrats attended the vote. They all protested. 15 to zero Republicans voted to advance her nomination to the full senate, so we'll see what happens.
+
+It is the lame duck. These questions are going to swirl, But it's just very funny that Brendan, our main character, our dummy, appointed as chief counsel who lied in the easiest way to disprove. Yeah. I didn't work on any of this stuff. Here's a bunch of documents where you worked on this stuff.
+
+Don't they... Like, listen. I'm no lawyer, but don't don't they just tell you to say I can't recall? Isn't that what you say over and over again? You're like, I don't know.
+
+She did that with all the other ones. She's... But she was like, what? Comedians? What's the...
+
+You said a late night... A a what now? And in this one, it's like, just just Yeah. Be weird about it. It's fine.
+
+I've never worked on any these issues in my life. No. I actually worked on the the Skydance merger. Sigh. Mhmm.
+
+Anyway, that's... We'll see what happens with this nomination. It's it's obviously gonna be contentious if it goes to the full senate. Again, we'll see. What's very funny is now we're gonna get a bunch of Republicans who are like, she was...
+
+She she made it unanimously out of committee. Brendan himself got to talk him this week as he normally does. He's back. He took he took a week off. Did a podcast interview.
+
+He says the blue wave won't slow down his agenda. He says we've got the gavel. We have a tremendously packed agenda at the FCC for '27 and '28. There's a lot we're gonna do on broadcast accountability, which if you recall is code for we're gonna monkey with the speech of broadcasters because we believe so many Americans are listening to broadcast radio and television that the public interest is not served unless we, the government, monkey with their speech. Meanwhile, every kid in America is on TikTok saying whatever they want.
+
+We still have the gavel at the FCC. He says that hasn't changed. We're gonna bang away and deliver great results. I'm here for the duration until 01/20/2029. So if you thought that this segment was coming to an end That one really bummed me out.
+
+You've got to imagine that there are a bunch of new Democratic congress people who read that and are like, oh, you wanna bet, Brendan? Brendan's gonna spend the rest of the next few years, like, in congress. Yes. And then he said, if there's any businesses regulated by the FCC that are interested in bringing back their invidious forms of DEI discrimination, we're happy to have a conversation with them about that. And I will just remind you that...
+
+He also said the FCC regulates pipes and tubes, which is, like, very funny because Jimmy Kimmel in no way can be described as pipes and tubes. Yeah. He said we're the... The agency is pipes and tubes people, so we're gonna promote spectrum diversity. What about the waves?
+
+There's a lot of waves out there, Eli. Does he not know about the waves? No. The Internet's a series of of tubes that go through pipes. Duh.
+
+It's very bad, but his belief that the spectrum is is special unless he should regulate the speech on it continues unabated. Yeah. And the fact that all the big broadcast companies, the big cable companies, big fiber plants, they need to employ lots of Americans, and those... That should look like America. Like, it still hasn't registered with him that that's actually a thing that is good.
+
+Like, you you regulate an industry that has, like, lots of blue collar jobs in it. Mhmm. It's probably for the best that lots of people are involved in that, but he hasn't he hasn't figured that out. Well, that's what I was just thinking. As you were talking, it's like, what is the what is the smallest possible thing we can just sort of give Brendan as a toy to occupy him for the next two years?
+
+Like, maybe it is Jimmy Kimmel. Maybe maybe we just, like, give Let's just keep messing with Jimmy Kimmel. Give Jimmy Kimmel a raise and be like, listen, Jimmy. You're you're just gonna fight with Brendan. Like, it's fine.
+
+Just go go fight with Brendan once a week on your show, and he's gonna... It's good for America. It's gonna be fine. Yeah. I mean, again, I think with Democrats in congress, if if Brendan does this again, the FCC is written into statute.
+
+It's a creature of statute. The powers of the FCC are bestowed by congress. You you can run right into a big problem for yourself, Brendan. And you... If you keep blustering like this, you will because the Democrats only need 60 votes in the senate to pass a law, and they're at 56.
+
+And I know Ted Cruz is one vote who wants to pass more laws restricting the government's ability to regulate speech. In fact, was talking about It's called the Jawbone Act. It's a bipartisan billy censor. Again, the fact that Brendan Carr's dummy always ends with me being like that. Ted Cruz has got good ideas.
+
+It's bananas, but that's where Brendan has brought us in this country by relentlessly attacking the First Amendment in such a stupidly ham fisted way that his own chief counsel is being upended by her own work in FOIA requests, and Brendan is now going to have made an enemy of congress the very body that provides him his authority by statute. You see why I keep saying he's a dummy? Yeah. A destructive ham fisted dummy, but a dummy nonetheless. Not strategic thinker, that Brendan Carr.
+
+Anyway, Brendan, if you wanna come on the show and explain your master plan to meddle with the speech of Americans in some way that does not offend the congress of the United States. You're more than welcome to. Decoder is also available to you. Also, we can just livestream on Instagram in the street. Happy to do it.
+
+Okay. Here's my new idea. The toy that we give Brendan to occupy him for the next two years is a weekly podcast with Neil Patel. Yeah. And we'll do it in DC on our nation's five g networks, which, by the way, run on Spectrum.
+
+Competitive robot surgery with Neil and Brendan We're gonna a week. You, me, handful of grapes. Let's get this done. It's gonna blow people's minds. Alright.
+
+That's been Brendan Carr's Dummy, America's favorite podcaster than podcast. Brendan Carr is a dummy. I've come to see Brendan Carr is a dummy as, like, a severance experience, and and and the end credits get me out of it and back into fugue state about broadcast regulation. The fact that it... This is a popular segment that we do is very heartening.
+
+I I appreciate it. But it's also just like, what has happened to us? It's a real... It's it's a real bummer in so so so many ways that this is a thing we have to keep doing every week, for me in particular. Alright.
+
+I have a lightning round item for you. I've waited this long to be incredibly annoyed at Google, which just resolutely refuses to have a product strategy that makes any sense. And this week's version is Google, you'll remember a little while ago, launched a thing called Spark AI. Just kidding. You won't remember this.
+
+Nobody remembers this. Like, Muse, Dots, ClawDuet, all this stuff. Do you know what actually came before that is Spark, which was Google's version of the thing, but Google immediately forgot about that. And they had Project Mariner. Well, Project Mariner was the, like, browser UC version of it that boiled into Spark.
+
+Now all of that is dead. Google has now renamed it tasks. Sure. Yeah. So if I were to say to you, Eli, have you heard of Google Tasks?
+
+You would have to ask which one? Like... Okay. So the idea here is Google already has a product name task is what you're saying. I...
+
+We're just getting started. Let's go. Wrap it up. So the idea here is this is now the the AI agent that can go do things on your behalf. Right?
+
+This is this is MetaMuse, but it's inside of Gemini. It's called tasks in Gemini. This is fine. It's not. It's horrible because Google tasks already exists.
+
+It's a thing you can use. It's a product that Google has that exists. If you go to Google and you search tasks, it will send you to Google tasks, not the other Google tasks. Anyway, if you go to Gemini and you type at tasks, which is the thing that you use to access various parts of Gemini, it adds a Google task. What are we what are we doing?
+
+No. If you go to gemini.google.com and you do at task as if you wanna, like, invoke tasks, it just adds something to your Google tasks. Like, this company is so stupid, Levi. There was a there was a minute. I wanna I wanna cast back a couple of years to Google, which had done Bard.
+
+It had a bunch of sort of sprawling ideas about what it was, and then all of it congealed on Gemini. Right? The idea was the model is Gemini. The product is Gemini. The assistant is Gemini.
+
+Everything is Gemini. And actually, you don't need to think about what is what because it's all just Gemini. I actually think that's a good idea that most people should not have to think about the component parts of the software that they use. It... We can just all call it the same thing.
+
+And because the thing that people interact with will be... It is the product and the model in some overlapping way. Fine. Call it all Gemini. Let it all just shake out how it wants.
+
+As you and I have talked about on this show, Gemini is actually a 100 different things in a 100 different places with a 100 different levels of access to all of your information. You have to provision each one individually. You interact with them differently. They have different settings. They have different capabilities.
+
+It has completely lost its mind. There are now a 100 different Gemini models all named after different elements. I do believe they're all noble gases. Good for them. Congratulations to the Gemini.
+
+Yeah. I I just wanna say argon, neon, helium. Yeah. They're all noble gases. Good for them.
+
+I'm thrilled for the noble gases. The most coherence Google has in your swirl? Sure. But now we have this this ostensibly thoughtful thing that is just like, it's all just Gemini and you should be able to do stuff in Gemini. There are words other than tasks.
+
+They could have called it anything. Jobs. Spark was a very good name. Oh, Spark. Spark kinda worked.
+
+Yeah. Yeah. Like, they they just... Google somehow cannot help itself from having an ecosystem of products that doesn't make any sense. And again, this is like...
+
+This is such a decoder thing to, like, this is you shipping your org chart. This is a bunch of teams at Google that have never met each other and don't know any of them exist, and they just build things and name them whatever they want, Google ships them. This has been the story of Google forever. I legitimately think that they forgot Google Tasks exists. It's very possible.
+
+Because I bet no one has been assigned to it since it launched. Because that is very much how, like, Google's incentives work. You have a lot of incentives to launch a product. Yes. And if that product does not hit, like, Google search scale, then you're on to the next thing.
+
+Yes. Many things at Google are explained this way. But I wanna go back to one of my favorite Google memories of all time. And the the company has grown up a lot since this time. Mhmm.
+
+But it, in many ways, is still exactly this company. There existed a point in Google's history where we were the ones who told them that two different teams had scheduled press conferences at the same time. Is that true? 100% true. I was like, I've been invited to two events on our campus at the same time.
+
+Oh my And they were like, really? And then one team had... In many ways, it's a very different... This is, like, fifteen years ago. It has grown up a lot.
+
+Things are are different. And then in many ways, exactly still that company. It's just it's just not a different company. Yeah. It is so the same company.
+
+Also, bunch of people have pointed out that yet again, Google has missed an opportunity to actually name a product G Chat and have it make sense. Oh, that's rough. It's all sitting there for Google, and it just could've done this. That's right. But this is just use Task...
+
+I tried to use Task yesterday. I'm trying to use I'm trying to use all the agent y things. Did I tell you that Muse bought me a HomeView? That was pretty exciting. I think...
+
+Look. The idea of this, I think, is good. And, again, the the distribution advantage that Google has continues to be monstrous. And they even say this in their announcements now. They're like, yes.
+
+All of these products are the same. The difference is we already have access to all of your data, so there are no new risks by Yeah. Using Gemini to do it. That's the selling point, and it's it's true and correct. And what's funny is a lot of people are encountering the fact that actually Muse is a better tool for accessing and pulling information out of your email than Gemini is.
+
+It is it is more proactive. It's smarter. It does a better job of, like, combing through and finding things that are interesting in your email. Gemini is nowhere in this. I I need to test this with tasks.
+
+We work at a new different company now. This... Somehow. It happened around us. Yeah.
+
+Our expense software changed. This is a thing that occurred. And so now I need to take the receipts from here and send them here. So I told Muse, whenever you see an Uber receipt, send it to this other place. This is a perfect agentic test.
+
+That's a good want to do this in my life. It it can't do it. Why? Because it it tries to write an email. It doesn't try to forward.
+
+It doesn't just hit the button. It tries to, like, compose an email out of the bits of the old email, and it just fails at it. Like, it... All the information isn't there, which is what you need for the touch. To hit two buttons.
+
+I need you to literally see that it says Uber receipt and press forward and call it a day, and it can't do it. So we'll see if tasks can do it. But this is what I mean by brittleness. Right? Any any 10 year old intern can be like, I will search for the word receipt and push this arrow if I see it.
+
+And Muse is like, what I must do is compose an email from scratch using the components of this email, which I have remixed. And then I was like, you got this wrong. It's like, oh, man. I did. This is, like, nonsense.
+
+We'll see if Tasks can do it. But I do think Gemini Tasks having more access to your Google data is a powerful... If they've done it the way that I... They should, which is, like, actually give it full access. Yeah.
+
+That... There's something there. That'd be good. Oh, absolutely. I think this is a good idea.
+
+Like, this is clearly the thing Google is positioned to do really well. It also has the cloud infrastructure that it needs to do the the, like, partitioned virtual machine stuff that is really important to these things. It runs a browser that it can do these things with. Like, Google, again, it has all of these surrounding pieces of this stuff. It just can't ship a coherent set of products to save its life.
+
+Like, this is the biggest company that you will ever find that just has no idea how to do anything in a way that makes any sense. Yeah. So shouts to Google. Google Tasks, good to do list app. I've heard from so many people in the last, like, three days who were like, David, you told me to use Google Tasks, and now I don't even know which one you mean.
+
+I'm keeping the camera really sorry. I'm really sorry, man. It's a real problem. Alright. What's your what's your lightning round item?
+
+I got two. Let's start with let's start with Siri recaps. So Apple shipped Siri recaps. I have it. They gave me...
+
+My my Ultra is too old. My Apple Watch Ultra is too old to run it, so we're gonna review Apple Watch Ultra. This is the... It it... It's always listening, and we'll tell you what happened in the last fifteen seconds thing.
+
+So there's two features. There's live rewind, which I wanna talk about for one second, and there's Siri recaps. Live rewind is the one where you double click it, and it shows you a transcript of the last fifteen seconds of audio. And then in some complicated technical secure enclave way... A secure enclave.
+
+I'm sorry. It all disappears. Nothing is recorded. Right. Yeah.
+
+Siri recaps. All the audio goes to your phone in another blah blah blah secured system, and it generates a transcript of everything it hears. So let me let me just take them in turn. Live rewind, potentially useful. I'm constantly forgetting it's there.
+
+But my big question with it was always, that's pretty intrusive. Right? Like, the fact that you and I are talking and I click it and I get a transcript reset just regardless of the technical implementation details, the thing that is happening is I am recording your voice and generating a transcript of it. Correct. Right?
+
+I've I've brought it into some storage, and then I have processed the audio, and I've generated a a record of what you've said. And even if I get rid of it, even... No matter how beautifully elegant the technical solution is to meet the the letter of the law, I'm still grabbing the... I'm I'm recording what you're saying and generating a transcript. That's the thing I'm doing.
+
+And I'm always like, what if someone doesn't want that to happen? That seems like a reasonable thing. Most people all of the time. Number one question we've got is, like, what about two party consent laws or one party consent laws in your recording? Is this legal?
+
+And Apple has always said, well, when you do it, you know, the watch lights up, and so people can say no. And I've I've I've won. I'm like, well, that happens afterwards. Right. Right?
+
+So I'm... You and I are talking, and I go beep beep. And your job is the objector in that circumstance is to, like, notice that I'm doing this and be like, no. No. Don't do that.
+
+You shouldn't have already recorded me. What? See the problem. Yeah. Right?
+
+And I've literally said to Apple executives, like, you want the waiters to be like, stop. Look. This is an enormous imposition on the other party. And then there's the fact that when you do it, it... It's like nothing.
+
+Like, I don't know if you can see it, but we'll we'll put a video of it somewhere. It's that much. You see what it does? It beeps. It shows a little a little, like, word balloon, and then it shows me the transcript.
+
+That's nothing. That looks like you just got a notification. It... It's it's like a little flash of an animation and a little, like, cartoony word balloon, and then it's a transcript. So the idea that someone would notice that this happened and then object to being recorded in this way.
+
+And, again, I I recognize technically it's not recorded. Like It is. It is. It is. I don't I don't...
+
+It is recording you. This is the other question I've had is I don't think you can solve the cultural problem with a technical solution. The cultural problem is you are creating records of what people say, and that is not allowed. Also known as recording. Yeah.
+
+Right? And and particularly live rewind, it is just fifteen seconds of whatever was said. Yeah. You can't you can't move the Overton window on we took the audio and made a transcript of it not meaning recording because you then put it somewhere. Like, it just doesn't...
+
+You just can't do that. It's it's very bad. So that's why Does it work? Yeah. It's, like, reasonably good.
+
+Sure. Right? It's it's just Because it's recording. Because it's recording you. It's it's next to you in some way.
+
+And then there's Siri recaps, which are so bad that I don't think are worth any of the privacy concern. And and Bea wrote about them this week. I think she got more value out of out of them than I do. But the technical solution for Siri recaps means that they're useless. Right?
+
+So they've got a society problem, which is people don't want your watch to be constantly listening and recording to everything that you're doing without notice or consent. Right. That seems like a thing that you ought to ought to solve. So the technical solution is, one, you can schedule it. So it only operates during work hours or only operates in your office, that's part of the setup flow.
+
+And then two, it is nerfed. Right? So it doesn't identify speakers. It doesn't identify context. It doesn't have full transcripts.
+
+It's just summaries of what's happening. And so, again, very complicated, extraordinary, elegant, technical solution. Right? We we route the audio this way. We process it over here.
+
+It's never saved. The FBI can never get it. And then you, like, look at the output, and you're like, this is nonsense. You've just summarized me looking at Instagram reels for forty five minutes while I'm putting the baby to sleep. Right.
+
+It's like, here's a list of some words that happened around you today. A 100% a list of some words that happened around you because That's amazing. Can't identify the speakers. Oh, man. They can't print the real context of what's happening.
+
+Yeah. And it is just nonsense. So my favorite, I... You know, every day this is happening. This is Apple just like appling itself into such a corner.
+
+Yeah. I love this. So the other day, I was just, like, in the evening with the kids, and it was on. And I'm just gonna read you the summary. Okay.
+
+Jack understands words and follows instructions. His vocabulary includes hot go, please, and night night. Mama come home for bedtime. And then in the background of this, Max is just, like, rambling about whatever. She's third grade drama, and it goes, week described as disaster.
+
+Little time available to eat lunch due to chatting with friends. This is also Jack talking, by the way. No. Jack... They're Siri recap late.
+
+They they were both talking like... They're children. Right. But I'm saying Siri recap... According to Siri recap...
+
+According to what you've just read me, this is still Jack. According to Siri recap, this was a very intense meeting I had at, like, 04:30PM where We described we described as disaster. Right? And then somewhere in here is, like, my mom on FaceTime explaining DiVolley to Max. Okay.
+
+So it's like, people welcome her return with rows of oil lamps, Week described as disaster. And it's like, what is happening? Like, what is this a recap of? It's very funny. I will treasure it for...
+
+I saved it to my phone. I want to have it forever because I... Yeah. To whatever extent, Apple has provided me with a a a text summary of a chaotic normal sort of evening, that's great. It is functionally useless.
+
+Yeah. Right? Like, this is just a useless thing that has occurred. The one good feature they have is if you have audio playing on your phone, it will summarize that audio and then tell you that, like, YouTube was open. Oh, that's neat.
+
+Right? So it's like, this was some YouTube stuff you listened to. And it's like, is this neat? Is this useful? But it...
+
+I'm just saying that the the benefit is in no way related to the cost. And the cost here is that there's already weird Facebook drunk uncle misinformation about Apple devices listening to everyone. Yep. And, like, it's Now they are. And now they are, and that is accelerating that.
+
+And I don't think the benefit of this product, Obscurity Recaps, is anywhere close. Like, you could not run... If you were, like, a busy person, like, and you had a bunch of meetings, you would not end the day by looking at this and being, like, something useful is here. Right. And and, like, it does not come to that to that level in any way whatsoever.
+
+Like, I was at these conferences. I looked at the thing afterwards, and it's, like, summarizing speaker announcements and, like, you know, the the sponsor, like, we're so thankful that BCG was here to blah blah blah in the middle of, like, the actual conversation I was having with the actual person because it cannot distinguish anyone by design. And you're like, this isn't good enough for me to feel like I'm recording everyone. Yeah. I can't even think of what that's trying to accomplish.
+
+Like, part of my issue with a lot of these tools is they are predicated on the idea that everyone's life is just a series of one on one meetings that are about some transactional thing, and they have no ability to understand or do anything with anything that isn't that. That everything I do is thirty minutes long and has action items, and nothing else exists in my life. This isn't even up to that bar. This is just like, here... Here's some stuff happening near you today.
+
+Would you do... Would you like to know it? I will tell you that it... It's been summarizing the verge cast as we've been speaking. How are we doing?
+
+Opened with frustrated by sudden Riverside interface changes. PS five storage cleared after discovering it was full. Echo cancellation has been turned off. Camera giving Blair Witch Project vibes. What what is the point of this?
+
+Who... What... Why? But I love... It's, like, integrated into its summary of the Virchast.
+
+Hey. Also, it sounds like you sort of gently trying to relive your own memories. Yes. It's it's a 100% what it is. It's like, can you...
+
+I don't know, man. It's like, I was blacked out last night. What happened? It's like you would remember it in the way that you're describing. It is it is a lot, and I'm just gonna come back to this.
+
+I've been saying a lot. As a society, we are having a very subtle conversation about the nature of privacy. Mhmm. We're all talking about it a lot, and people are very unhappy about flock cameras and this and that and the other thing. There are First Amendment auditors in this world who take advantage of the fact that you don't have a right to privacy in public.
+
+Right? That is not a structured or coordinated debate. Right. Right? And these companies are just driving a truck through the expectations of privacy we had when not everyone had a camera and a microphone at the time.
+
+It it seems like we ought to refactor it. And one of the ways to do it is, like, is this worth it? Yeah. I do feel like people would have a vastly different reaction to it if it was good, and it is nowhere close to good. And setting that aside, the...
+
+I already recorded you and your... You... The idea is that you will object when you see me double click a watch with the most subtle animation you ever seen in your life. Pure nonsense. And literally just the thing you did with your hands where you're like, I just recorded you.
+
+Now let me performatively play it back to you makes me hate you so much. Like, that that action to somebody that's like, oh, well, I didn't hear you, but my watch did is... It's the worst. I don't like it at all. Oh, you can save the recording to Siri.
+
+It's not like a... It's a lot, man. This is nothing. Yeah. Alright.
+
+I have one more for you. Well, okay. I have I have one and a half. One I will skip past very quickly, which is that YouTube has found another nonsensical way to inflate view counts. It's called co views, and it tries to guess how many people are in your living room while you're watching YouTube.
+
+No. It's dumb and bad. Views are lies. Just never ever ever Views? Views are...
+
+They're called co views. It's literally... And this is like a thing borrowed from the TV world where they try to guess how many people are in the living room while you're watching the football game. It's it's all lies. What is the what is the the mechanism by which they guess?
+
+Magic and rainbows. Like, they they claim they have algorithms. They... It's a something something time of day. Like, literally, they...
+
+They're just gonna make the numbers go up. Like, you... YouTube is aware of the fact that it is decimating the streaming industry and wants to pad its lead and appear to be competitive with social feeds at the same time. And it is going to make up whatever metrics it has to do to do that. Views or lies, that's not the one I actually wanna talk about.
+
+What I actually wanna talk about is two little bits of Amazon Sure. News from this week. Bit number one is Andy Jassy, the CEO of Amazon. At the semaphore event, you you may have been there for this, he was asked about their their integrations with third party AI agents. Amazon has sort of famously told all of these AI agents not to interact with Amazon.
+
+But then Jassy said, this is from me asado on our team, said he believes the resell giant will have a relationship with third party agents in the future if it's a good customer experience and quote, a fair exchange of value. That's piece number one. Piece number two is there was some reporting this week that suggests Amazon is working on building a thing that it calls the world product graph, which is essentially a complete database of all shopping activity and product information everywhere on the Internet, which would do a couple of things. It would give Amazon a huge amount of data on how shopping happens on the Internet even when it's not on amazon.com, and they wanna bring a lot of that stuff into Amazon. Like, part of Amazon's thing has always been to let you buy stuff that Amazon has nothing to do with because they can charge fees to retailers just by being the platform on which you buy stuff.
+
+But the other part of it is also this becomes incredibly valuable data for AI agents. So I just I just wanna put into everybody's brain that Amazon is actually desperately trying to become the center of the agentic shopping universe, but it wants to make a hell of a lot of money at every single step of that operation. And they wanna put ads everywhere. Yes. Because Amazon has a giant ad business that no one ever thinks about.
+
+Yes. I think this is this is going to get really awful for consumers. Like, just the the competition happening behind the scenes. Like, think about the mechanisms that people don't understand just to put something at the top of your Google search results and how weird and obfuscated that became over time. The AI stuff, which is by nature more obfuscated, is gonna be such a mess to the point where, like, it's it's gonna be very hard to understand why you're being shown the retailer link and product recommendations that you are.
+
+Yep. And we are just staring down the barrel of that, and Amazon is maybe the company most well suited to just run that however it wants to. Well, the problem that all these companies have that Google has run into with the web is you can do all this stuff, but you crush the incentive to make new information. Mhmm. Right?
+
+So Google search, the incentive to make a new web page and try to rank it in Google search was really high for the longest time because then you could, I don't you could show ads to you. Whatever it is you wanna do, you could sell widgets. If you got to the top of Google search, there was some money at the bottom of that rainbow for you. Yeah. Now it's like you make new information and Google summarizes it in AI overview, and you get nothing.
+
+Or in the worst case for Reddit, Redditors make conversation and Reddit summarizes for you, and they literally kill their own community. Yep. Because they're not even bringing new audience to the conversations on Reddit. And Reddit's always at war with its users, but that will just get really bad. Amazon doing this by summarizing all the information about products will crush, like, that entire ecosystem overnight, basically, because that is one of the last pure sources of incentive to make new information.
+
+To sell people things. To to to do affiliate links and sell people things. Like Right. Right. Like, you're you're just done.
+
+Like, you're not gonna publish to Amazon. Right? You're not gonna have your community on Amazon talking about the best whatever. Like, if our Apple moves to Amazon, like, I I will, like, eat my hat. You know what I mean?
+
+Like, it's not gonna happen. So now Amazon is like, we... We're gonna extract value from everywhere for a world product graph, and the economic incentives to do any of this stuff for any other con... Company is gonna go to zero. The social incentives to hang out with your friends will continue to be high, but there's no platforms that can economically support it because there's no traffic for it.
+
+Well, except if you're Amazon and you've created what the Biden administration and Lena Khan believed to be an illegal monopoly that systematically forces everybody to use your platform or die, then you've successfully and shitified to the point where you can play these games, and there's maybe nothing anybody can do about it. Can I connect this to my next one? Sure. Same idea. Google, last week, told a bunch of schools that they could not turn off AI overviews without also disabling Google Search Yep.
+
+Which is just the most monopoly coded thing anyone has ever heard. Like, what are you gonna do? You're not a Google Search? And so a bunch of huge school districts are like, what if we don't have Google search? Which if Google search has been so destroyed, is now a rational thing to say?
+
+Yep. Like, they just arrived at this. So it's New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable search for schools that opt out of AI features. Starting next year, they... Those features will go away.
+
+Google claims Search and AI are deeply integrated. But Google Search, because the web is dying, even the 10 blue links are not as usual as they used to be because Google killed the web with AI overuse by killing its own incentive. And you're like, oh, is this... To quote my friend David Pierce, is this something? Is this anything?
+
+Yeah. Like, this is at the endpoint of one set of decisions where you ruin the economic incentive to make new things. Microsoft called it a doom loop in emails that came out in one of the antitrust trials. And the point that the Microsoft executive was making was there's very few products in the world where if they get successful, they kill their suppliers. Right?
+
+So if you make a car and you get really successful, it is unlikely that you will put the car seat vendor out of business. Sure. Car seat vendor is probably gonna... Like, that's normal. Yeah.
+
+AI is the only product where if it gets really successful, it kills the supply of information by making it not economically viable. And so, like, Google has killed the supply of information to search. It's made search not as valuable as it used to be. And so now they're pointing a gun. You know, you can't have search unless you have AI.
+
+And a bunch of big customers like, well, your search sucks. Yeah. What if we try another search? And I... It's just, like, remarkable Google didn't see that endpoint of monopoly.
+
+Yeah. It's it's the real, what are you gonna do? Leave that is actually... It's very important that your product be hard to leave in a way that I'm not sure Google Search is hard to leave. Google Classroom and Chromebooks and stuff like that will be hard to leave, but you've gotta figure there are teams at DuckDuckGo and Bing and, like, pick your other search engine running around being like, hey.
+
+I don't know if you're aware of this. Search is completely commoditized. Yeah. Like, if if you're looking for a way to get to the Wikipedia page about something, we've also got that. Right.
+
+Like, I I suspect... And and, again, I keep thinking about Satya Nadella being like, we are just desperate for queries because it makes our search engine bigger. Like, Satya Nadella is going to run around to every school district in the country being like, we'll give you Bing for free. Do you want Bing for free? You can have for free.
+
+Well, he's got a self AI. Otherwise, Anthropic will destroy the economy in a one one world state or whatever he's worried about. Yeah. Well, no. You just think about query.
+
+Why do they want queries? Because it was ranking data. Yeah. Right? They could see what people are searching for.
+
+They could see what they picked, and they could rerank. Well, you've... There's a whole tool there that's pretty good at semantically understanding the information on web pages and ranking it. You don't need it on the front end. You can use it on the back end.
+
+Sure. Your ranking problem... There's new tools to solve your ranking problem. We'll see. Google has a statement.
+
+We hear parents and teachers concerns about students using AI to shortcut learning, and we share the same goal to help students learn to improve search for the classroom. We're starting a pilot guided learning and search that walks students step by step through a range of problems instead of just giving answers. And next year, Gemini notebook and search will be off by default until they decide which way. And it's like, dude, that's not the thing they want. They want students to type queries into a box and Go to web pages and read list of things and then, like, click on them and do the process themselves.
+
+The the process is the point, not having Yep. I don't man. It it... This one seems like... I I...
+
+My prediction is Google will find... Is gonna have to find a way to walk us back, or these school districts actually will walk away from Google, and that will be the first time we've seen that happen in scale. Yes. And I I think I think these school districts are actually pretty heavily incentivized to walk away from Google. The parents don't want any this stuff.
+
+There's actually another study right next to this nationwide study that found banning phones in schools is the equivalent of adding one to two weeks of instruction to the year. Oh, wow. That's like you you get... You just get more time. Yeah.
+
+This is a study that was carried out by Harvard and Dartmouth, 3,300,000 students across 4,600 schools. And, like, I know... I've... I have a kid in school, and the parents are like, get rid of all the technology. Yeah.
+
+And so I think all these school districts are gonna say, we got rid of Google. We got rid of Google AI. It's old school, and all the parents are happy. Does Max have, like, a... Like, an iPad or a Chromebook that she's supposed to take to school every day?
+
+No. But there are Chromebooks at the school that they use sometimes, and she has an iPad at home that's only used for garbage. This is the garbage screen. It's fair. Garbage screen.
+
+I support that. There's a Metronome app on it now for her violin practice. So we're... Step by step, we are That's not garbage. It's not garbage.
+
+There you go. Max, you're invited to play a Brendan Carr song on the violin at any time. We are working our way through twinkle twinkle little star. We're gonna get there. Twinkle twinkle Brendan Carr.
+
+Brendan Carr. Well, it's time for us to end the podcast. We're not we're not doing any better than that. Eli, who is on Decoder next week? What's going on?
+
+I should say, by the way, you just did an episode with John Favreau that went up talking about democrats and the midterms and the future of everything. That was good. I enjoyed that. He's very good. We've been having...
+
+I don't if you've been paying attention. Every ounce of data we have says I should stop talking to CEOs. Yep. And I I still feel like I should do the reporting. It's important to me that we do the reporting, but we're trying to expand the aperture.
+
+So John Favreau from Crooked was great. We did talk about the business of Crooked, which is fascinating. Alex Stamos, the security episode we just did, where we just talked about he... We're in the dark ages. Really fun conversation.
+
+Yeah. And I was like, how do Very pertinent to the stuff we were talking about at the beginning of everything falling apart. It's what mean. Like But he's a guy who knows. I like to interrupting.
+
+I ended that conversation by saying, I wanna end on a hopeful note, and he goes, wrong guest, buddy. I'm reasonably certain Monday's episode is the CEO, Zakdak. Oh. That is my belief. It's a good one.
+
+Yeah. I thought so. I like that. Also, version history continues. This weekend is Tamagotchi.
+
+Did you know that the thirtieth anniversary of Tamagotchi is, like, the beginning of next week? There's a fun fact. This weekend's episode is basically three of us having complete crash outs about how annoying Tamagotchi's are for, like, an hour and a half. It's really great. Really enjoyed it.
+
+Go check out version history. Go check out decoder. And as a reminder, the best way to get all of that stuff, to consume all of the things the verge makes is to subscribe to the verge. Theverge.com/subscribe. It gets you all of our podcasts ad free.
+
+It gets you all of our newsletters. V's thing this week about the Siri recaps in optimizer is very good. I encourage you to go read that. Subscribe to optimizer. Subscribe to notepad.
+
+Subscribe to everything. Theverge.com/subscribe. Thank you in advance. We also love hearing from you. Like I mentioned, we're doing the AI hotline with Hayden next week.
+
+So if you have AI Jensen Huang questions you wanna get please do that ASAP. We're recording with her on Monday, so you have the the weekend to get that stuff in. But in general, reach out to us about anything and everything. The email is vergecast@theverge.com. The hotline is 86611.
+
+The best part of the show is responding to weird things you all think about technology. It's what we like to do here. The vergecast is a verge production and part of the Box Media Podcast Network. The show is produced by Josh Cajas, Eric Gomez, Brandon Kiefer, and Travis Larchuk. We will see you next week.
+
+We will not have this show next week because it's Thanksgiving. So Neil and I will not be speaking to each other for two weeks. But until then, Neil, I Rock and roll. Hear that? That's me in Tokyo learning to make sushi from a master.
+
+How did I get here? I invested wisely. Now the only thing I worry about is using too much wasabi. Get where you're going with SPY, the world's most traded ETF. Getting there starts here with State Street Investment Management.
+
+Before investing, consider the funds investment objectives, risks, charges, and expenses. Visit statestreet.com/im for prospectus containing this and other information. Read it carefully. SPY is subject to risks similar to those of stocks. All ETFs are subject to risk, including possible loss of principal.
+
+Alps distributors, ink distributor. Hear that? That's me in Tokyo learning to make sushi from a master. How did I get here? I invested wisely.
+
+Now the only thing I worry about is using too much wasabi. Get where you're going with SPY, the world's most traded ETF. Getting there starts here with State Street Investment Management. Before investing, consider the funds investment objectives, risks, charges, and expenses. Visit statestreet.com slash I'm for prospectus containing this and other information.
+
+Read it carefully. SPY is subject to risks similar to those of stocks. All ETFs are subject to risk, including possible loss of principal. Alps distributors, Inc. Distributor.
+
+We all know the Internet can be an annoying place. But here's the thing. The browser you choose definitely makes a difference. Pop ups, autoplay videos, and other interruptions can make even simple online tasks frustrating. Firefox still supports the powerful ad blockers some other browsers have shut down.
+
+And it also protects your privacy while you browse automatically without you having to do a thing or without you having to think about it. And Firefox is independent and backed by nonprofit Mozilla. Choosing it supports an Internet that puts people first. So come back to Firefox. Visit firefox.com to try it yourself.

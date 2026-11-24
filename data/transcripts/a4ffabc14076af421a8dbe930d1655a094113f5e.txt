@@ -1,0 +1,619 @@
+Think infrastructure investors actually, like, end up winning because they will always keep collecting rent. I would not be surprised if their Rubin costs are, like, $20.30 dollars per GPU hour. The easy categories are all done. I think New York's, like, much better. We have this whole theory that people in the valley are, like, coin operated.
+
+I think compute is a larger market than oil will be or any of the other commodities have been for the past, like, hundred years, hundred and fifty years. I think dying will be a thing that maybe isn't, like, real in, like, a few years from now. I think, like, humans will be, like, a biological vessel for, like, AI. I think the AI will be, like, so much smarter than we are. This is 20 VC with me, Harry Steppings.
+
+Now I got a message a month or so ago from Miles Grimshaw, who I think is one of the best investors in venture capital at Thrive. And he said, you've gotta meet Kush. He's an incredible talent. And I said, introduce me, Miles. I really rate his talent assessment bar.
+
+And I met Kush, I was like, dude, we have to do a show. And so joining me in the hot seat is Kush. He's the cofounder and CEO of Orn. If you don't know, Orn is the compute market building price indices and futures for GPU compute. This is an incredible analysis and breakdown on the cost of intelligence today, the future cost of chips, the future cost of compute, everything that we don't know that we need to know as we look forward.
+
+This and so much more in what is an incredible discussion with Kush. But before we dive into the show today, founders and investors sleep on Eight Sleep. It is the intelligent sleep system trusted by mister Mark Zuckerberg, doctor Andrew Huberman, Charles Leclerc, and the Aston Martin f one team. The pod is a smart mattress cover that fits on any bed. It cools each side to 55 degrees, heats to a 110 degrees.
+
+It even tracks your heart rate, HRV, and sleep stages without a wearable. Thank god. The new pod six has a hub 50% smaller than the last one and starts at just $1,999. Visit 8sleep.com/20vc. That's eightsleep.com/20vc.
+
+While Eight Sleep helps you sleep better, MongoDB helps you build better. MongoDB has always been the database developers love. Well, now it's the data platform AI agents need. Agents need accurate context, fast. MongoDB stores, searches, and reasons over your data in real time.
+
+JSON native database, vector search, and Voyage AI embeddings all in one place. One system instead of 10. No data pipelines to maintain. Ugh. This sounds too good to be true.
+
+Build and scale from your first user to billions of vectors. Run on any cloud, on prem, or your laptop even. That's why 75% of the Fortune one 100 run their most critical apps on MongoDB, moving trillions of dollars every single day. And it's why AI native companies like Eleven Labs run 40,000,000 agents on MongoDB. So if you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and dedicated support.
+
+Don't build agents that answer once and forget. Build agents that remember and learn from your real time data. Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, Framer scales the story.
+
+If your team wants a website that looks and feels handcrafted but is still fast to ship, Framer is built for exactly that. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. Prompt, inspect, edit, and publish in one place at a whole new pace. Agents and humans work in tandem. Agents bring speed and scale.
+
+You bring taste, judgment, and control. The work lands on the canvas and stays editable. Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place. Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan.
+
+That's framer.com/20vc. Rules and restrictions may apply. You have now arrived at your destination. Kush, dude. I'm so excited for this.
+
+And people don't know, but I got a text from Miles at Thrive being like, you have to meet Kush. He is one of the most exceptional founders. And I think Miles is probably one of the smartest guys in venture alongside Pat Gradient. So when he said that, was like, introduce me. And then we spoke, and I was like, wow.
+
+He is as good as Miles said. And so I'm so thrilled that you would join me in the studio today, dude. No. Thank you for having me. It's exciting to be here.
+
+Now I wanna start with a little bit of texture on you before we just get into the meat. We've got many kind of weird and quirky things about you with greatest respect. One that I wanna start with, you created a viral sports betting platform in college. So Wayne and I really wanted to intern at, like, this company called Novig Oh, yeah. At the at Jacob.
+
+Yeah. We were, like, freshmen or, like, sophomores at MIT, and they, like, didn't let us basically intern there. And so we were basically like, alright. Like, you know, fuck you. Like, we're just gonna go, like, do this ourselves, which, like, at at the time, like, we were only good at, like, coding.
+
+We were really bad at, like, everything else. Like, we were really bad at commercials, legal. We had no idea how hard it was. We were just super good at like coding. So I ended up building, it was just like an app that you could like buy and sell.
+
+Like it was just like sport. It's what Nobaker and CallSheet and like Polymarket, all the apps are today where you can like buy and sell sort of sports things. And it was like you can bet on player stats. And I'm just working with all the fraternities at MIT, so you could literally go and buy and sell different sort of players or odds. But it was cool.
+
+It never really took off past MIT, but within like the school, it was pretty sick. Did you tell Jacob at Novig this? No. I have not told him that. Spoiled like it.
+
+I don't think he even heard about it because it was so like... We were so bad at like go to market and all the other stuff besides, like, building the app that it just never worked out. That is hilarious. So I'm gonna send him this clip right afterwards. Another kind of inspirational person that you very much look up to is is Travis.
+
+I heard this from some of your investors and actually some of your teammates. Can you talk to me about what would TK do? I'm a huge Travis Kalanick fan. And the funniest thing is a Fortune reporter asked me, What do you think about Travis? And our media team was really mad because I just said, Oh, he's the Steve Jobs of my generation.
+
+But I really think like there's so much to like learn from like older entrepreneurs that have like done this before. And I'm like always like, oh, like if if we're in this situation, like what is like Travis gonna do here? What is the result of that? Is it be more aggressive? Is it being more ambitious when you Way, way more, like, aggressive and ambitious.
+
+Like, I think a part of me that's, like, I'm really bad at is, like, not being ambitious and not being aggressive enough. I'm, like, a very nice person. Like, I will not, like, fight back or, like, push back on things when I need to. And so, like, I think Travis is the exact opposite of that. And so it's like a...
+
+It's a good thing for me to learn. What were you not aggressive enough on that with hindsight, you're like, damn, I should've So many of our, like, early commercial agreements. Like, we sold a lot of our data early on to large, like, hedge funds and, like, trading shops and marketing. Those guys are, like, sharks. Like, their whole job is, like, I'm just gonna make as much money as possible, and we're pretty bad.
+
+So we ended up selling it for, like, 5,000 and, like, 10,000 a month. And I was like I was like, are we, like, losing here? Because they would immediately say yes. Then I realized, like, they're willing to pay, like, a $100,000 a month, like, 500 k a month. And I'm like, oh, wow.
+
+Like, we are, like, underpricing this crazily. You almost sound European with some of you. I... I'm I'm not pushing hard enough. I'm not aggressive enough.
+
+Welcome to London, baby. You are quite nuts though in the way that you did a marathon with no training, and several of your ambassadors told me about this. Yeah. So so it's it's funny. So I I used to, like...
+
+I did a bunch of running in, like, college. I was never that good, but I, like, I ran a half marathon because like my friends told me I could never run like more than like a mile, so I ran a half marathon. That ended up being like, I ran like a marathon while still in school. And then I signed up for another marathon and I didn't know I was gonna start the company. So I signed up for it in July and we started the company in September.
+
+And then as you probably realize, like when you start a startup, like this is like your whole life. Like there's no time to do other stuff. In marathon training, it takes like two hours a day. Go run for an hour and then you have to like shower and like put on your shoes and all these things. It takes time off your day.
+
+And, like, I just didn't have two hours. So I literally, like, didn't have time to train for the marathon. And day comes, like, I'm like, alright. We have to do it. It's like there's no...
+
+Like, I'm not a quitter. Like, we're not gonna, like, not do this. And that was, like, the time when Jensen, like, released, like... It it was a podcast when he was like, oh, we are not a car. Oh, yeah.
+
+So I woke up in the morning. I'm like, oh, we are not a car. Like, we're gonna go run this, like, marathon. And I ended up just like... I mean, I did it.
+
+It was very bad. Like, it was painful, but I think my time was not that bad either. It was, like, three hours and, like, thirty minutes or something. So it was, like, decent, but it was terrible experience. I trained for a long time, and I still did it in, like, three hours forty five.
+
+So... Dude, I absolutely love that. Well, I I think that's sufficient context. When we were chatting before, there were elements that I picked up on that I think I really wanna dive into straight away, which is number one statement, AI can win while infrastructure investors lose. Can you unpack, like, what do you mean by that?
+
+Yeah. I don't think, like, infrastructure... Okay. One is, like, I don't think infrastructure investors will ever lose. The way we think about it is, like, infrastructure investors are, like, landlords for, like, an apartment or rent.
+
+So easy analogy is to use is, like, data centers are just, apartment buildings where someone buys the apartment building and then the actual people that take the ownership of the GPUs are renting the GPUs from the apartment building or like they're renting units within the apartment building. So that's companies like Fireworks, Modal, Phal, Base Ten, all the inference providers, along with OpenAI and Thropic, depending on how the deals are structured. And so you could argue that like, I think infrastructure investors actually like end up winning because they will always keep collecting rent as long as the tenants, there's tenants that live in the apartment building. Now, if it turns out the city is like doing bad, which is like, in case, city is like AI, then that means like not a lot of people will like want to be renting an apartment. Or in the case that like there's not enough demand for apartments, that everyone's kind of looking to buy a house, quote unquote, it's like, I'm gonna go build my own data center.
+
+And so there's all these different sort of ways, but I I don't think at the end of the day, like, infrastructure investors, like, end up, like, losing. I I think there would be a lot of large enterprises who say there is still a remaining ROI question. For sure. And there is still a cost question. And if there are cracks in enterprise demand, that would trickle down to a lot of the providers and that would trickle down to the infrastructure investors.
+
+Yeah, I think so for sure. I think the infrastructure investors, again, it's the same way as like rent works, If there's like, the economy is doing bad, obviously, like prices for rent are gonna fall down. And that means the cost of like GPU hour will fall down because there's not enough demand for the GPUs. And it's purely just like, it is the end of the day, like a supply and demand game where demand, if enterprise demand continues, if it goes down, obviously, like supply of the compute will go up because there's just not enough demand for the tokens or the training or whatever that may be. How undersupplied are we, given the lead time for these projects?
+
+It takes like... I mean, it's very undersupplied. Like, if you wanna go to CoreWeave and buy something, it's probably like... You're probably quoted like q four twenty twenty seven, q one, and 2028 at this point. If you wanna do like a build your own and get chips from the OEM, the OEMs usually like lie to you and will tell you that like chips are gonna come earlier than they are, but it's probably like twenty, twenty two weeks time period to actually get the chips and then install takes like another like two to three weeks.
+
+And this is on like a small scale. I'm talking like half a year to build your own. Are you concerned by the debt cycle that we're seeing to fuel this infrastructure? I don't think really because today we've seen that actual demand for tokens and the output of the AI producers actually like ends up being useful. I think the public markets are way too scared about, oh, AI is like not useful.
+
+I'm like, have you used ChatGPT? Have you used like any of the products? Like, clearly, there's, like, a use case for this technology. And which means if, like, there is a use case for this technology, the thing that powers this is, the data centers, the chips, all these things. Like, there will be uses of these chips for a long time past the period.
+
+And, like, prices have also gone up over time. Like, the prices for literally h one hundreds and even, the b two hundreds or b three hundreds are way higher than when they started. I think Gavin Baker said that every single day for the last, like, sixty days, they have increased in price. Yes. Yeah.
+
+I think literally chip prices have been increasing. And that's because the demand for AI is just, like, continuing to increase. That demand is, like, exponential. And you've probably seen all the revenue curves or all the companies are just, like, straight up. And that's and that's literally bec...
+
+Like, what is... What do these companies do? They sell tokens. That means in order to sell the tokens, you'd either need to get, like, way more efficient at, like, generating the tokens or just get way more compute. And you're gonna have to do a mix of, like, both things.
+
+And part of it's, if I wanna get way more compute, I'm just gonna have to start paying more than, like, everyone else. What does no one see about chip pricing that you see because of your very unique position? I think the biggest thing is like, everyone's... I don't know. Maybe everyone does see that it's just like going up over for a long time.
+
+But when we started the company, a lot of people thought like, oh, the forward curve for chip prices is actually like backward dated in the sense that like three years out from now or five years out from now, the price for GP hour is going to be less. And so many like agreements you would do early on was like people would offer like free call options to people that would buy the chips where they'd say, okay, three years from now, if I wanna renew the contract for another two years, I'll just put in like, I can renew it for like $2.50. Like, one's gonna renew that. And now you look at it and someone asks you, oh, can I put this like call option in? So three years from now, I wanna renew for like the same price that it is today.
+
+No one gives that for free because I think people up in the market see that, oh, maybe like three years from now, the trip price are actually like higher than they are today. I would not be surprised if their Rubin costs are, like, $20.30 dollars per GPU hour. What do they say? I think it's, like, 7 or 8 for, like, a five year. Wow.
+
+Yeah. I think... I genuinely think, like, the demand is, like, insane. It's a bad thing and, like, a sort of, like, a good thing that is such as... This is pure to supply and demand, just like markets.
+
+So why does everyone shit on these neo cloud providers like Nabius and Coolweave? And why is that debt, like, bonds being through the roof? I mean, I think it's because they're levered, and they're levered to the point that, like, they believe that the residual value of the chips and the residual value of, like, AI will continue to progress over time. And people just think like, oh, like, this is a bubble. This is not real.
+
+And that that kinda, like, stacks onto and onto and onto each other. But if you actually look at the data, the price for GPU hour is still increasing. So I, like, don't understand why, like, people are like, oh, we need to go like short, like CoreWeave or Nebius. Part of it's also like a credit question and that, like, the tenants of CoreWeave, like, will they be able to pay their rent for the GPU hour? And that in itself is like, it's an AI question because the tenants are like AI companies.
+
+Sure. This is your files and your base tenant. Yeah. It's like, will they be able to continue to pay the rent for CoreWeave over time? Totally get that.
+
+So you would buy CoreWeave and Neffias? I would go long on CoreWeave and Neffias. Yeah. I'm not allowed to publicly invest, but I would die. If I could, I would go very long.
+
+So I love it when you have like a very clear, we believe that AI demand will continue. We believe that there'll be a series of knock on effect. Yeah. What's the bear case? We've got the bull case out.
+
+What's the bear I think the bear case is that like AI demand doesn't continue. Like the other options like, okay, stop buying tokens. Enterprises don't see that AI is actually impacting their business or helping their business, which I think is also partly true today. Like, if you look at like all these like studies from the consulting firms, I used to work at BCG. So I'll, like, quote their their, like, study.
+
+You used to work at BCG? Yeah. I hated it. Yeah. It it was it was...
+
+That's why I started the company partly because I didn't wanna work a corporate job. But I think partly is, like, when you look at, like, all the studies, it's like, oh, have the enterprise actually implemented AI? Like, are they being useful to AI? And I think the answer so far has been like, not yet. I don't think it's been very useful for many of the large companies so far.
+
+And maybe that's because it's like an implementation problem and all these things. And like, I think demand is still increasing. It's not a problem. But let's say it doesn't work out. Maybe Coca Cola or like McDonald's or many like the large Fortune 500 companies realize like, oh, AI doesn't really change my business for the most part.
+
+And in that case, it's like, okay. Then all these, like, chips and all this compute I bought and, like, you're kinda overbuying. You have to buy before you, like, know there's, like, demand for it. Doesn't work out, and then the people can't pay the rent. And then you start defaulting on these chips, and then creditors basically have these chips that are worth what?
+
+Like, they're worth, like, the metals in them or they're worth something in them that is not the actual value that you can, like, plug it in and use it for. How do you advise founders on forecasting the buy of compute? I asked this from Eric at. Yeah. Watched the...
+
+So Eric... What Eric said, he buys like 18 like twenty weeks in advance. I think he should start... I mean, he's probably gonna start buying like twenty two to like twenty six weeks now, just lead times to increase for everything. But that's really like the case.
+
+So part of like the company for us is like to help solve this problem. It's like, okay, people need to buy before they like know what's going to happen. So that needs... You need to hedge your risk somehow. Right?
+
+There's there's be a similar way like if I'm buying today, don't actually know what prices are $22.26 weeks from now. Maybe they're higher, maybe they're lower. Who knows? It's a long time. But I would genuinely say like if you if people have the cash and many of these like Fortune 500 companies, especially if they're like, oh, I'm gonna invest in AI and I have the cash, just go buy the chips, go build like the data centers or go do something because I think prices will continue to increase and you're just gonna be like left paying more and more every single time.
+
+And let's say you don't use them, then you can just do exactly what Elon does. We... Look. We allow you to rent the chips through us, but even even we don't wanna go through us, do exactly what Elon does. He goes to like SpaceX and he says, oh, I have extra chips.
+
+Anthropic, pay this much. Hey. Pay this much. And so you can just start becoming like a NeoCloud and start charging, like, as much as you want for the chips so you guys... You have the money and the credit for them.
+
+Elon has such a good business being a NeoCloud. It amazes me he spends so much time building Crock Pot and everything else. I mean, look, I I think their models are pretty good too. We're... I mean, look, we're big users of, like, Cursor and GrockBot and all the Are you?
+
+Locations. Yeah. Our team... Mean, like, so I'll I'll bug you through our stack. Yeah.
+
+Wanna pause real quick. We use GrockBot for, like, all the daily tasks. I don't have an assistant or any of these things, just pure GrockBot. And it works well? It works really well.
+
+Have you tried it? No, I haven't. Okay. You need to. I use Instinct every day religiously.
+
+Oh, Instinct's great too. So my co founder uses Instinct. Fucking great. Yeah. So good.
+
+Yeah. It's just it's all the same sort of similar things. Yep. Actually, Yeah. Maybe I should switch to Instinct.
+
+I pay for GrokBot. It's like whatever. But anyways, I use GrokBot. Then we have like Cursor. Then we all started using like factory for coding.
+
+I think the factory part that's really good is that you can like bring your own key. So we have a bunch of credits because we're like a startup from Claude and OpenAI and we just keep getting credits from every like VC. And so you're just using like bring your own key for that, which has been very helpful. And they're like $200 per month plan, just basically unlimited tokens. Yeah.
+
+Matane and Inu are amazing. Yeah. And I also think the app is better. I... We used to be on Devon for a while and Cognition.
+
+And the problem with, Cognition was it was just so expensive. I don't know how, but the tokens used on factory end up going, like, 10 x higher than they do on, like, Devon. And it's kinda like this look. It's... They're, like, competitors in the same product, but my, like, feedback to Devon is be, like, why does it cost me so much to, like, use the product itself?
+
+Like, factories are so much cheaper. And I think also, like, the underlying harness of factory somehow is better than the Devon one. I'm thrilled to hear that. As a factory investor, I I completely agree with you. I just gave them an add.
+
+Going to another one of your statements, which you kinda touched on, but you said older GPUs aren't necessarily obsolete. What do we not know about chip depreciation? I think it's very simple that CoreWeave has also said, like, their A100s are still being rented out for, like, a three year period, and the H100s are also being rented out for a very long time. People thought that they depreciate... If you asked this question last year, people would have said, oh, these chips are getting depreciated, like, tomorrow.
+
+That's like a next day sort of thing. But now people have realized, like, oh, wait. The h one o n's are still renting out for three years, and these ships are, like, five years old. A 100 is, like... I think, actually, the h 100 is four years old, and the a 100 is, like, six years old, and they're still being rented out.
+
+So it's like, oh, okay. Maybe that's longer than we actually thought. I also believe that, like, the chip depreciation, like, the older chips will have a use besides being, like, frontier model training. They'll be used for lower scale inference, smaller model inference. And if you believe, like, inference as a market is going to split up between all these different categories, like fast inference, slow inference, specialized Fast inference, slow inference, specialized.
+
+What do these mean? So I I think fast inference is that people want, like, their answers, like, really quickly. And so people just want highest tokens per second on their inference. And so there will be a company that specializes in fastest tokens per second. There'll be a company that specializes in cheapest but slowest tokens per second.
+
+And I think there'll also be a company that specialize in, like, biological inference. Or, like, FAL in a sense is, like, inference for, like, video or, like, image generation specialized inference. That's so interesting. And so you don't think that it'll be a horizontal provider, a fireworks, a modal that win? I think it'll be specialized.
+
+Really? Yeah. I think that it'll be special. I don't think one... I mean, maybe, like, maybe modal gets really good at, like, fast inference and, like, image generation inference, and they'll own those two verticals.
+
+But I think it's like you own, like, one part of it. You said there with file, like, image and video. What other mode requires specialized? I mean, think biological, like people like... And physics as well.
+
+Like these... Like the inputs are not just like text to text. Right? It's like DNA or like proteins or like some some chemical formula to like some other chemical formula. Can I ask, what market composition do you think the inference market takes over time?
+
+Will there be three or four big providers? Would it be an Uber, Lyft? Would it be an AWS, GCP? So I think there will be like a horizontal provider that is like very good at like providing like base level inference. That will be the everyday person's like inference company, but then there'll be like a 100 different specialized inference companies that exist.
+
+There's like this joke on Twitter that there's, like, a thousand companies that do inference today. Yeah. I believe, like, all of them will survive. They'll just specialize in one specific thing, and no one's kinda found it, so everyone's like, oh, we're doing, like, this type of inference or this type of inference. Do you not think it's a moment in time part of the cycle where there's a lot of new in...
+
+New people that come up and you can grow very quickly, but they'll consolidate as markets do and the actual number of players shrinks? I think the actual number will shrink, but at the same time, like, it will be verticalized. Maybe I'm wrong about that. May... Maybe it doesn't verticalize, but, like, I I believe that it will verticalize.
+
+Can I ask you, late cycle momentum investing in AI? For me as a venture investor, it has never been more binary. I tweeted this last night. You either get a round done in two hours or not at all. What are your thoughts on late cycle momentum investing in AI?
+
+I think it's a lot of hype if you can get a round done in two hours. Like, clearly, like, besides a lead investor, no one else is, like, actually understanding or looking at what they're doing. Mhmm. And so I think it's a lot of like fear based investing. A lot of it, I believe, and maybe this is not true about like all investors, is like people didn't get into OpenAI or Anthropic early enough, and now they're like, okay.
+
+It's a $1,500,000,000,000 IPO or like 2,000,000,000,000 whatever the number they're like, OpenAI is gonna get to. Anthropic's like 1,500,000,000,000. Yeah. And I missed out on that company. And so people are now like scared that, oh, I'm not gonna miss out on like the next OpenAI or the next Anthropic.
+
+And so everyone's kind of just putting their as much money as possible because no one wants to miss out on the next like large company. It's a fear of like missing out, FOMO is really what it is. It's just like FOMO investing. But it's not FOMO investing in the sense that VCs are like, oh, a tier one VC, let it... Everyone...
+
+All the other VCs try to go after it. It's FOMO investing in that they see the public markets like, oh, wow. Like, I need to start investing in this. Do you actually think VCs add value? I think some do, some don't, but some definitely do.
+
+Eloquently done. What is overheated then? If you would look at a space where you're like, oh my god. It's like for me, support. I'm like, what the fuck?
+
+15 providers. Yeah. I mean, customer support is probably maybe one of them. Part of it's like the sort of specialized, like, things. A lot of people are like, oh, we're Rogo for this or we're Harvey for this.
+
+I think those categories are definitely, taken at this point. I've talked to Gabe a few times. Mean, Rogo's, like, killing it, like, Harvey's killing it, Ligora, and, like, those, like, the easy categories are all done. Like, I don't think there's... You're not gonna compete against Rogo.
+
+You're not gonna beat Harvey at, like, legal. If that is a category that exists, you're not gonna beat them at it. And maybe it is that open AI and anthropic beat them at it. But if you believe, like, these things will be specialized over time, there's no room for those. I think that's part of it.
+
+Okay. Where is underheated? You're a GP at twenty VC today. Well done. Yeah.
+
+Where do you wanna go and invest as a space? As much of the energy and sort of, like, physical AI stack as possible. That's not even a crazy take. I think that's like a normal I take now. But let's go deeper into that.
+
+What is that in particular? The data center space. That's probably because like I'm in the industry, but I've realized like over time that there are not enough people that are building out products for the NeoClouds or the people building infrastructure. Like, Crusoe is such a good company because they build out all of, like, the actual electricity infrastructure and they build out the transformers, and, like, they virtually integrate very well. So there's a company that can build, like, transformers tomorrow, the start up.
+
+Like, oh, I'm gonna build better transformers. I would invest in that company. Do you see that often? No. Yeah.
+
+It's a kind of boring thing. That's why. Or or maybe it's like people aren't interested enough or they don't, like, realize the market for it. But I think there... If there's companies that are very specialized in building out specific, like, products or tools, that as a market doesn't look as big.
+
+Like, if you look at, like, the transform market, like, oh, like, big can this be? But if you think data centers are $7,000,000,000,000, a lot of that has to go into, like, physical building out blocks of this. Do you miss out by not being in the Valley? No. I think New York's like much better.
+
+Why? We have this whole theory that people in the Valley are like coin operated. And this is true if you look at... If you pay a researcher a 100 k more, they're joining your company. If you give them 50 bps more equity, they're joining your company.
+
+In New York, there's loyalty in people. There is like this, like, culture of like, we are so loyal to, like, the people that we work with and the family, and, like, there is much more of a camaraderie between, like, the people there compared to SF. Do you think that's true? Do you know what? I think there's just a lot more group thinking to Silicon Valley than there is New York.
+
+It's so insular. It's so incestuous. It's like, oh my god. I'm going to FF, and then I'm going to Bessemer. And I'm not saying I wouldn't take a tier two because I want the price, but I'm...
+
+It's just like, fuck off. Yeah. No. No. Dude, I'm a real person.
+
+That was great accent. I just can't... I can't stand it. But I... I'm gonna be totally honest.
+
+I'm gonna get in so much trouble for this. That's why I don't particularly love the American way of doing business, which is like everything is a transaction. Yes. And actually, that is not how I hate that. Yeah.
+
+I just wanna do amazing work with people I respect. And sometimes there's no actual money to be had. Yeah. My... I think part of...
+
+Like, when we started the company, it's part of the reasons like, oh, we found this, like, market or all these things, but I get to work with, like, my four best friends from school every single day. We, like, all went to college together. We're all in, like, fraternities together. It's like there's no better life that I would, like, live besides, like, working with these people. And that's, like, just, like, a very, like, common reason.
+
+Like, I think people start companies for all different reasons, but there's no other place in the world where I get to work with my four best friends. I totally agree with you. I think it's really romantic and sweet. So why do Orn? What's the, like, I have to do this because?
+
+Part of it is, like, I think throughout college, if you ask, like, my friends or, like, investors or other people, they'll say, like, oh, he was, like, definitely gonna start coming in. They're like, I did all these jobs and, like, it was like, whatever. But it was really like I spent a summer at VCG, and I was on, like, the private equity team. And I actually learned a ton throughout it, but I was, like, coding. And ChatGPT had just come out.
+
+And so what I would do is, like, I'd figured out, like, ChatGPT was very good at, like, making Excel formulas and all these things. So you could literally, like, the MD would give me a task. Like, oh, go, like, organize these, like, filings. Great. I'm gonna take ChatGBT, give it to that.
+
+It would come out with Excel formula. You paste it into Excel. Done. I would do it before, like, the VP or, like, any of, the senior people could do it, and people were like, wow. This guy is, like, good.
+
+But it was not that I was good. It was No. Just that, was like just I was just so good at using, like, ChatGPT to figure out, like, the coding and the formulas. And then I was, like, writing, like, Python code. So I studied, like...
+
+I was I was a CS major in school. So I could, like, code, and I was, like, writing, like, Python code for them. And they're like, oh, wow. Like, I've never seen someone that could do this because they're all consultants. And at the time, I was like, yeah.
+
+I just can't do this. It's, a full time job. So I, like, did a bunch of things. They must have been really sad to lose you. Yeah.
+
+Yeah. And I I worked... It was... I actually told them no. And it was funny.
+
+Recruiter... Like, the recruiter called me in, like, March of this year, like, April of this year after a 16 z did our round. I was going home for, like, a few days, and they called me and they're like, hey. Like, why aren't you not at the office? It was a Monday.
+
+I was like, what do you mean? Like, I I quit, like, two years ago. I was never coming back. And they're like, oh, like, apparently, it says you're coming back and all these things. And I was like, yeah.
+
+Sorry. Like, I'm doing like... I'm a whole different startup now. A very Yeah. Funny was a very funny experience.
+
+That is hilarious. So if we get into it, why does compute actually need a market? It's purely just supply and demand. That's how prices work for compute in the sense that there are many suppliers that sell basically the same good, which is an NVIDIA GPU, and there are many demanders who are demanding all the same good with different parameters associated with it. Some people need the location to be this.
+
+Some people need, like, three terabytes of RAM, set a two terabytes of RAM. But it's all kind of in this, like, same sort of bucket. And if that's true, that means there needs to be a market for this because there's many suppliers supplying the same things, many demanders demanding the same thing, and that's just purely a market. If it's simply supply and demand, is there no moat in this market? I don't think NeoClouds essentially have a moat, and people are trying to trying to find a moat today.
+
+Why do you think, like, CoreWeave is like, oh, we're doing post training. Oh, we're doing, like, tokens. Well, they have to expand product to Yes. Gain That that is what everyone's doing. They realized like early on there is no moat, and so now everyone's trying to expand to find some moat.
+
+Is that paradoxical to what you say earlier though, which is like, I would buy them, I would be long, and then they have no moat? Yeah. But that's... I think that's fine. I think they're still...
+
+Like, they're all good businesses. I wanna be like the landlord. Like, that's a great business to be in. But... Yeah.
+
+No. I mean, I don't think not having a moat as a new... Like, the moat for the NeoClouds is like, own the infrastructure. I completely understand you. We have demand.
+
+We have supply. Why have we not had a market for them before? Partly because the suppliers, there weren't that many. I think early on in CPU land, there's only three suppliers, AWS, GCP, Azure, Oracle maybe. Now there's 300 NeoClouds.
+
+Okay. And so we have massively fragmented supply side, that means that we don't have a market? No. That... The the fragmentation means that there is a market for it because there's so many different suppliers for it.
+
+Also think on the demand side now, there's 100 x more demanders than there were for CPU products. They're And all kinda asking for the same thing, all trying to go after the same gold vision. Like, oh, I'm gonna build this. I'm gonna build that. And so that creates literally, like, a way for people to bid on the price.
+
+GPUs today, every every... All the NeoClouds have now started... What do they do now? Auctioning for the chips, which is like... It's a market.
+
+What has to happen then, if we think about it compared to a traditional oil market, what has to happen then for compute to trade like oil does? I think today it will trade. A lot of people like... So like we we build index products for compute itself. And then we do that by running, a physical market where we use the data to actually build the index products.
+
+And similar to oil, where if you look at Brent and The Nordics, people always, see how much of Brent is actually, of the global oil volume is Brent. And it turns out it's like... I think it's like point eight percent, point 7% of the actual global like oil volume, which is such a small fraction of the total oil that exists in the world. And if you think of compute, it's very similar to that because compute, there's all these different flavors, these different gradings of quote unquote, like crude oil, the B 300. But what you really need to figure out is you need to track a very specific type of that compute.
+
+And that becomes the index, so that becomes like the default of which you track. It doesn't have to be all of them, but it has to be a very specific type. And then that becomes a reference price that people... Everyone sort of mentions, and that becomes the sort of standard, the gold standard of what compute is. And I agree.
+
+Like, I think Eric, like, said probably, like, last week or few days ago, he's like, oh, compute. It's like, oh, there's all these different flavors. I totally agree with them. There's all these different flavors. It doesn't mean that we have to somehow figure out a way to standardize all of them.
+
+Saudi oil is not the same as Venezuelan oil, and they all trade still... Like, everyone still quotes off of, like, the Brent price or the WTI price or whatever that may be. So what is it then that is required to make it trade? It's like a standardization? It's like It's it's picking a very specific type of the compute and working, like, just getting that compute standardized.
+
+How much of it is trust and relationships? I think for the trading part of it, it's fully trust and relationships. Well, if it's like as numerical as demand and supply and auction. It is. So it's partly that.
+
+But what is the moat that S and P has? Or what is the moat that like a Moody's has? It is like trust and longstanding business. I totally get you. What is different about your business compared to an S and P and Moody's?
+
+Building in a different market, we're earlier and we're faster moving and hungrier. That's the... That's what we say. But I think reality is, like, we say, like, we wanna be at the S and P for compute. That is, like, the part of, like, like, that's the scale we wanna get to, an even larger scale than that.
+
+And part of that's because I think compute is a larger market than oil will be or any of the other commodities have been for the past, like, hundred years, hundred and fifty years. And we really wanna build the business in the same way where they run the physical exchange, and they use that data to build out the actual index. Then you build a bunch of data products on top of that, and then you do ratings and all these other things on top of it. Ord, pause, pause, you meant that you're expanding product suite there. How do you know what to start with?
+
+Why do you choose that, and why do you choose what's coming? Yeah. Part of it is we started with the index product because we think compute needs to be traded on a public market and there needs to be features, options, all these sort of financial derivatives that sit on top of a GPU. Okay. So it's index on top of GPUs, product one.
+
+Yes. And in order to get that data, you need to run, like, a physical exchange or a spot... Like, you need to run Brent in The Nordics for a compute. So we built that out. And that requires, like, figuring out, oh, how am I gonna get chips?
+
+So we obviously don't have a ton of cash. And instead of building a NeoCloud, it's like, do I get other people to give me cash to like, can they invest in chips? And then I monetize their chips for them, sort of running like an Airbnb style model. And so we started doing that where we're like, we find, like, other people to do it, and we'll do, like, a sale leaseback or all these sort of different, like, financial ways where, like... And then the day, like, we will control the chips, but someone else, like, ends up investing in the chips or investing in the data center project and all these different ways to do it.
+
+What did you not expect that you have come up against and found challenging? Going like this deep. I never thought we would have to like go all the way to the chip level. I thought we were just gonna be like a software data company. Why do you have to go to the chip level?
+
+There's no one that's gonna stand or give you their data or standardize it for you. So in order to get the data for the index, you have to either go to like a bunch of NeoCloud and say, Hey, please give me your transaction data, what you sold this for. You think Corey was gonna give you that? Hell no. They're gonna be like, This is the most valuable thing in the world for me.
+
+I'm not gonna hand this over to you. We tried for like six months, Oh, can someone please give me their data? We had some... Look, to be honest, we had some people actually give us their data. But at the end of the day, we wanna build a very robust market.
+
+And part of that's like, we need to have billions of dollars of data. And having billions of dollars to compute, you have to either go to a NeoCloud or go do it yourself. And we have this concept of like, no one's gonna come save us. We gotta save ourselves. And part of that's we have to go do this ourselves.
+
+And I didn't realize, like if you asked me a year ago, would you have to do this? I didn't realize we'd have to, but now we kinda do. Does that inhibit the speed of scaling? No. Because you can just get other people to put their money.
+
+Like, I think there's a ton of people that wanna invest in data center projects. They just don't know how to monetize it. They don't know to do all these things, and so you kinda just teach them, like, sort of like, okay. If you put this much money here, this is what the IRR looks like. This is where you can return it.
+
+I will control the chips. I'll manage it. I'll run it for you. You just put the money here. They're like, great.
+
+It's kind of the model. Yeah. It sounds very simple. Obviously, there's so much complexities to it, but that is, like, the simplest way to explain it. No.
+
+I I totally get that. Who will be the first mega traders in compute futures? A lot of it, I think it is the people that are exposed to the price of compute. And the way they're exposed is they're exposed to like the credit risk of the people buying compute. Right?
+
+If I lend out my compute to a startup that has just raised anneal up, raised like a $100,000,000, And the compute they're buying is really like $250,000,000. My bet as a lender is that, okay, this team is gonna keep raising venture dollars, hopefully, and that venture dollars will be spent on this. Today, many of the neolabs don't make money, So it's not like they're gonna like generate revenue or profit to hold this. Or my bet is that the NeoCloud somehow the price for compute goes up and now they bought it for very cheap and they can sell it for higher and then they're gonna pay me back. So you're really exposed to like the company itself that you're lending to.
+
+And if they default, that means I have to go in the market and now sell that compute for a certain amount of price, which could be lower, which could be higher than what it was before. That's like reason one. Reason two is that no one knows what the cost for a GPU hour is on the depreciation cycle. And a depreciation cycle is like, okay, three years from now, what is my cost per GPU hour gonna be? I need to basically get to four years to pay back my loan.
+
+I need to get to five years, but I only have a three year contract. So you're kinda exposed at the end of it. And maybe your contract is all the way to three years and covers everything and you get the lenders and you have the chips. I still need to make my money three years to, like, the end of life, and I can lock down my money now. The same way farmers used to do this, like, back in the day.
+
+If you look at a hundred years ago, like, what did farmers do? They needed to plant corn. And to plant corn or whatever that product was, like, they need to sell futures back in the market because I was to plant today and I only realized my revenue, buy back after this. And I don't know what the price is. And if I make a loss, I've just wasted, like, six months of time and money and all these things.
+
+You're only as good as your underlying tenants as you kind of set there. With that in mind, is Meta's bond too expensive? The health of their business is phenomenal. Anthropics bond price, you know, which I think Blackstone is kind of the regulator or the provider of, is actually not amazing. These are both fundamentally good business.
+
+Are they super expensive? I think Meadows is, like, getting... I mean, CoreWeave's is way higher than Meadows is, to be fair. But I think doesn't have such an underlying good business. Yeah.
+
+Yeah. Yeah. Meadows is partly like... I think it's getting more expensive just because, like, people are just, like, a little scared in the market. And also the amount of, like, growth that people...
+
+Money or people are putting into the infrastructure. If you look at all the hyperscalers, they're literally taking every single dollar they make on their regular business lines and just putting it straight into data center capacity. And so people are like, wow, like, I've never seen like this much of like money being put into a project before. And a lot of public market investors and everybody And you're moving from positive free cash flow to negative free cash flow and Google and Facebook, which is And it's partly like people in, I mean, I live in New York, but people in, New Yorker don't realize that how much AI, like, what what really is this thing? Like, is there really demand for this?
+
+And there are people who are just getting, like, slightly, like, concerned about that. Can I ask you? And and this was a a brilliant one, I think, Miles actually. But he said, when you look at the index today, does an index drive, like, standardization of compute clusters? And how do you think about that?
+
+I think the index does drive standardization of the compute clusters, and it's a good thing because the way standard... I mean, NVIDIA gents and themselves will say NVIDIA clusters are fungible. They... What they mean by fungible is that if one tenant backs out, someone else will take the same cluster. It's not that you're doing a very specialized build for every single person.
+
+The index itself will drive standardization, but that should I think is a good thing for the credit markets or it's a good thing for any of the lenders because if the product is standardized, that means, like, if one customer defaults, someone else can move it. If I have an apartment that all looks the same for every single building, that means it doesn't matter if, like, I lose it. Someone else can just move in because you're just gonna get the same thing. Yeah. And I guess it would remove the discount rate.
+
+Yes. That's interesting. Okay. I didn't see that before. So given how much time you spend with people who buy and sell compute on a daily, what do you see that you don't think other people see enough?
+
+The prices are people are willing to pay. Now it's just, like, gone up way higher. Are the buyers changing? The buyers are definitely changing. It's going way more too, as to your point earlier, a modal, a fireworks, a foul.
+
+It is going to people that actually have the cash. Like, foul just raised, like, 1,600,000,000. Moodle also raised, what is it, 800,000,000,000 or 800,000,000, something like that? I think they raised $7.50, yeah. So yeah, $7.50, all that money is just going to compute.
+
+And that's way more than all like startup has. So part of it for us, our job is like making sure that the small startup still has access to compute while feeding these, like, larger customers. I totally get you. Are you able to do both at the same time? Does it make sense to do both at the same time if Modal can just pay you a $100,000,000?
+
+It does because without that, there is no market. Right? You have this amount of seed like liquidity in the market. If Motel is the only one that buys all the compute, it's just gonna consolidate, no one else gets access to it. What's the hardest thing about seeding liquidity?
+
+You have to say no to a Motel. You have to say no to a fireworks. You have to say no to a file, which is willing to pay you gazillions of dollars in revenue and profit for your underlying business that, like, kinda look in the long term. It's like short term game versus, like, long term profitability. How much is a market ultimately worth?
+
+If you think about, like, ICE today and when you look at, like, Orn in five years time, being the kind of market for compute, how much is that actually worth? So I I think partly it's like we wanna be like we're a data at index company, I think the market is part of it. And, like, look, a lot of the team today focuses on the market of it because that's how we actually build the data and index products. Very like... It's funny.
+
+We... Yeah. If you look online, all these things, like, you're like, oh, it's like a data and index company. That's true. And that's, like, five people on the team, six people on the team.
+
+But in order to get that data, that is, like, the other, like, 30 people on the team to actually make this, like, team, like, look really good. I mean, ICE is a $100,000,000,000 business. CME is, like, a $120,000,000,000 business. S and P is worth more than both of those. I think they're, like, a $150,130,000,000,000 dollar business.
+
+And so these are all like $100,000,000,000 businesses plus, and they built their businesses off of like electricity and oil and traditional commodities. But if you think compute is like gonna be the next largest commodity in the world, it's gonna be much larger than all of these. So the market opportunity could be in like trillions. Especially as we move forward to like an inference led market, when does inference not training set the forward price to you? I think it does today.
+
+I would argue many of our customers today use a lot of their compute for inference itself that they're just, like, buying compute to serve, like, tokens off of it. But the good thing about the inference demand is it's not speculative. It is, like, real. The tokens have to be used by someone. Maybe it's a startup that uses them.
+
+Maybe it's like an enterprise that uses them, but it's it's real. Like, someone is, like, paying on the other side. Training is much more speculative. Right? It is, like, kind of like biotech where you spend all this money developing this drug, you don't actually know if it works out or doesn't work out.
+
+So if you think about like mispriced risk in the market today, where's the mispriced risk in the compute market? I would argue that it is a lot of these neo clouds that are not actually looking at the tenants that they're lending to and just like saying, okay, great. This company has raised like a 100,000,000, Have the compute. And they don't actually like do the enough diligence before lending out the compute. And inevitably, the way the world works is many of these neolabs, many of these companies will end up failing.
+
+Startup like success rate is very low, and today, all boats rise with the tide is like the saying, and that's kinda true today. But at some point, I think a lot of these companies will not succeed, and these NeoClouds will be left exposed without a way to hedge. I'm really sorry. Given the demand access, will they not just fill it instantly? They will, but the part of it's like, which model is gonna, like, win?
+
+Right? There's a lot of neolabs that are all going after the same thing, then you just kinda, like, have to believe, like, some will do well, some won't do well. What do you think will determine the winners in neolabs versus not? Talent. I think everyone has the same access to the tools.
+
+Also, I think it's talent and compute. If you have more compute, that means the models will get better. I mean, it's a very known thing. More compute, better models. Better talent means also better models.
+
+So it's a combination of both things. And you can maybe even argue that having more compute is better than having better talent in the company itself. It's such a big moat. If you have the compute, you just kinda like, why do you think, like, SpaceX bonkers? If you could have more compute or better talent, what would you choose?
+
+More compute. Wow. I think the the models are good enough to do, like, RSI. So you just kinda just need compute. Or they will be good enough in, three months from now.
+
+You know, I think everyone is so challenged and the markets is... Shopify dropped 15% after a tiny miss in earnings, like tiny miss. And everyone is just, like, unsure of the five year. Like, for the first time in a long time, everyone's like, I'm not sure where we're gonna be in five years across so many different markets. And that makes pricing anything just incredibly fucking difficult.
+
+It just increases volatility. Yeah. That's what it is. So the options are honestly, like, you could argue they're underpriced. And my question to you is, do you believe that things will be as significantly changed as people think they could be?
+
+Or do you actually think that things take longer to adjust? I think the enterprises will take longer than people think to adjust, and then the world will change faster underneath them. I think, like, the San Francisco bubble will change way faster than, like, the rest of the world will. Like, the rate of progress, the San Francisco bubble is like the AI world is what I call it that, and is that the the model, the capability of the models would be so much better and so much, like... It'll be exponentially better while the world is still, like, stuck in, like, a very linear growth curve because the enterprise is like, oh, like, I have this technology.
+
+Like, how do I put it in my business? Like, Coca Cola is probably wondering, like, oh, how do I put, like, AI in my business? Like, I have to use this somehow. And people haven't really figured that out. What do you believe today that everyone thinks is pretty fucking kooky that will be very common in five years?
+
+I think, like, humans will be, like, a biological vessel for, like, AI. I think the AI will be, like, so much smarter than we are that the role of, like, humans is to, like, basically not even control the AI, but, like, teach it, like, biological, like, feelings and emotions and all these, like, things besides, like, being the sort of parent of the AI. I think also longevity stuff. I really believe, like, I think dying will be a thing that maybe isn't, like, real in, like, a few years from now. I believe, like, the drugs and the technology of, like, biotechnology will be so much better than it is today, which ends up meaning, like, the average lifespan for humans will go from wherever it is, like, 80 today, all the way to, like, a 150, two hundred years.
+
+And the quality of life will also increase. It's not that when you get to like 80, you can't do anything. You can't like stand up. And when you're like 100, you're just like sleeping all day. I don't think it'll be that.
+
+It'll be like you're living the same life I am living at like 23 today that you will when you're like 80 years old. Well, Brian Johnson would be very proud. Yeah. Can I ask you, what revenue line do you not have today that you think will be very prominent in five years' time? I wouldn't say that we'd not have, but I think debt like ratings for like data centers will be large for us going forward.
+
+Sorry. This is where you are the, like, provider of a debt rating for Moody's for data center debt. And the the inherent value of that is for all lenders, then you become this trusted Yeah. And part of that's do you think Moody's understands how data center, like, debt works? Who knows?
+
+Like, do they really understand, like, the credit risk that Modal's having on their people that they're buying the infrastructure from? I don't know. And it's funny that I say it's, like, Moody's for data center debt ratings, because I just think it's just like data center debt ratings. And Moody's has made such a good name for themselves in ratings in general, so has S and P and many of the other businesses. But I think for us, we ought to get into ratings soon.
+
+Not today, but soon. You find it difficult to retain focus? Yes. There's so many things to work on, which I think a lot of companies just like... I just keep hiring more people and just go into all these different verticals.
+
+If you were unconstrained by resource, what would you do that you're not doing? Everything. I would just try to do as much as possible. Like, honestly, like, we would start building out literally physical data centers. Like, we would just go, like, full, like, tell, like, Crusoe we're competing with you.
+
+Well, you... You're seeing the inference providers do that, your fireworks of the world do that. Do you think that will be a successful play as they eat more and more of the vertical chain? I think they will, but they're gonna be way slower to do it than the other NeoClouds are. Like, the NeoClouds have, like, gone through this cycle, like, I think two cycles now, deploying chips, learning things, deploying chips, learning things, deploying chips, learning things.
+
+As a company, we're basically halfway through a cycle of this. I think the more cycles you get through, the more you learn and you figure out things. I think they will be successful, but it's saying that, okay, are you gonna be able to beat CoreWeave in their own inference game? Like, are they gonna be able to get to inference faster than are you gonna able to chips? And I think I would take the side of, like, a CoreWeave or an EBS and say, they're gonna be able to get to the inference before you are gonna be able to get to the chips.
+
+I said to you about if you're resource unconstrained, you kind of are resource unconstrained in cash. I mean, you've raised when you you didn't need to. Why raise? Part of it's getting the right partners around the table. So the way we build the business is, like, we wanna build this as, a family business.
+
+Like, we believe it is, like, truly, like, a... We are a group of friends building a business together that will, like, last for, like, generations is the sort of, like, idea. It is not the... There's different ideas to build a business. It's not like I'm gonna build a business for, like, five years, then I'm gonna go sell it and make a ton of money.
+
+Like, this is supposed to be, like, a long term play for us, and we ought to build it like a very long standing business. Why the name Ornn? I used to play, like, League of Legends, and it's just a character. And I think it was a very cheap four letter domain. Yeah.
+
+That's the honest answer. No, dude. That's fantastic. I I I... You know, sometimes you think, like, is that Greek mythology and this kind of very thoughtful?
+
+Well, League of Legends works better in this game. And and we lit it... So what I did is I realized, like, Andruil and Palantir are all from, like, Lord of the Rings. So I went through the list of, like, all characters or, like, people from all those sort of, like, cool, like, games. I was a huge video gamer, So I went through all the game things.
+
+And League of Legends, you can go through all like the players and I found out what was the cheapest four letter domain. And there's a study that stars with like shorter names are five times more likely to succeed. And so I was like, okay, so we need to go like five letters or below. And so I just went through, like, all of them and I found that, oh, this works. And so it was just like a a cheap four letter domain.
+
+You you chose Miles, one of my favorites. Can you just take me to, like, why did you choose Miles? When we met Miles the first, like, forty five minutes, he literally didn't care about the business. He just talked about, like, us as people. And so I know when he invested, he, like, cares about the business and the idea and all these things, but he cares more about us as, like, people.
+
+How do you... That's so interesting because I also spoke to... I think it was the Vine guys. I think it was Alex who said That's wonderful. Yeah.
+
+Who said that he went for dinner with you with Adam Falcon. And Adam was trying to talk about tennis with you because Adam plays tennis and you play tennis. And you were kind of honestly quite uninterested, and you were glazed over. And then you were like, okay, kind of enough of the small talk, let's get And to so I'm just like, that's intriguing because that's seemingly different. Yeah.
+
+Think there's a Were you just not feeling that? No, no, no. So the story is, my co founder Wayne is a pro tennis player, and Adam also played Wayne played at MIT, Adam played at Harvard, and so they started, like, talking about it. And Alex and I are just, like, sitting there, and there... This is, a ten minute conversation.
+
+We're, like, we don't even know where to, like, jump in. And at the time, I had another VC meeting right afterwards, and I genuinely... Like, I told the way we met Vine was Alex LinkedIn DMed me. Hey. Wanna, like, chat?
+
+Call them. I didn't I literally didn't take a Zoom call, so I like, it's probably not worth my time. I called him on the phone. I was like, oh, this guy is, like, pretty good. Like, maybe I should, like, talk.
+
+He's oh, you wanna go for dinner at this place? And I was like, oh, wonderful. It was like a one minute walk from my apartment. And so I had like gone. And I had like another big VC meeting, think like large fund that also gave us like a term sheet.
+
+Was like, wait and I were just like negotiating the term sheet at the time. We're like, we'll probably take it and go knock out these guys. And so I was like, alright. Let's just get to business, like, see what these guys offer us. It turns out the Bund offered us like a term sheet.
+
+It was like same price. And I was talking away and I was like, okay. Like, how do we wanna do this? Like, if we go to this like large fund and we were just gonna be point 01% of their fund, point 001%, some small fraction, are they really gonna care about us? Or as we go to Vine, it's like, we're gonna be, like, 5% of the fund or, like, three...
+
+Whatever it may be, like, some significant amount. And at the time, we, like, realized, I was like, okay. Like, Adam and Alex, like, really care about, like, us as, like, people, and they're, like, way more interested in who we are rather than the idea. And for them, this will matter, like, way more than it does for, like, other people. That's so interesting, but I...
+
+Because it's different to every other young founder that I meet who just is magnetically attracted to the brand. Yes. I think that it is a short... It's like short term gain versus long term gain, and you just have to be, like, disciplined enough to, like, choose the long term game. We're sitting there, and we're both founders.
+
+Dude, I've got a term sheet from a big, like, multistage, and I've got a a boutique. What would you advise me? I'd go for, like, the boutique, and that's because they care about it. I do all these, like, reference calls for these investors. The boutique investors like one care about you a lot more because their success is tied inherently to your success.
+
+I've also realized like a lot of the partners at the boutique firms are there for more of like the mission. They're they're also in like a startup. Right? A boutique firm is kinda like a startup. Like they're also there to like, I need to make a name for my VC firm, and part of that's like, I gotta work extremely hard to make sure these startups succeed.
+
+So I'd really go with like the boutique firm. It's very contrary, right? I think to the world today, it's hard to resist, but I think it is the right decision to make for everybody. And then you raised from Andrew Houston. Yes.
+
+And then we did the big, like, firm. How did how did that go? Honestly, like, we were, like, talking to another, like, large, like, multistage firm at the time, and they were just, like, taking very long time. And so it wasn't even me. Was, like, Wayne.
+
+Wayne's, alright. We gotta, like, start, like, moving this. And so we went to, like... It was, like, Chris Dixon's team and talked to them for, like, a week, got the term she in, and we ended up going with them. God, bet the other firm were like, oh, no.
+
+No. Wait. Wait. We've got one. We've got one.
+
+Afterwards. Yeah. Brilliant way it works. And then Thrive. You chose Thrive over others.
+
+That's because of Miles or the Thrive brand? I think Miles. I also think, like... I mean, look, the Thrive brand is great. There's other brands that are also, like, great, but I think the partner matters, like, way more.
+
+Like, we are a people company. And I think it was Miles, and we also met, like, Nathan on their team. And I had, like, lunch with Nathan, and was, like, the most, like... It was the best lunch I've ever had. Like, I learned, like, so much.
+
+For for me as, like, a founder, it is so much about, like, I'm so young that I'm gonna make a ton of mistakes, and I know that. Like, if you talk to, like, other founders that are older than me, like, if you talk to, like, Eric at Moodle, he... He's already figured out that if I do this, I'm gonna fail. I don't know that yet. Like, I I don't know all these.
+
+Like, I was never in industry really before this, so I have, like, so much more room for mistakes. I need to minimize that. And part of that's, like, just talk to as many older people as possible and, like, learn as much as possible that you can't find in books or texts or all these things that you learn these, like, people skills. What do you know now, being the short while in that you are, that you wish you'd known at the start about being a founder? The mental, like, stress and, like, the level it is.
+
+There's, like, a saying that it's, like, it's very difficult. I think it is, like, very difficult, and it is, like, mentally consuming and, like, taxing because every day, it's like... You're just, like, in this, like, struggle, like, oh, what's happening next? What's gonna go on? What's gonna go on?
+
+I don't think people realize it when, like, getting into it, how difficult it's gonna be, but that is why we got into it. We were so naive that we thought this was, like, so easy. We're like, why is no one doing this? This is gonna be, like, the easiest thing we've ever done. And then you go in and you're like, okay.
+
+This is why no one else has done this before because of how hard it is. But I think it's, like, the level of, like, grit it takes is The the volatility that you'll feel in twenty four hours of I'm the best in the world, and this is gonna be amazing, and then this is not gonna work Yes. And we're screwed is is, like, in the same day. Yes. Yes.
+
+That that is what you have to get used to. You have to get used to, like, emotional volatility, which is so hard for people. There's, this thing, like, oh, like, what do, like, startup founders need? I honestly think, like, if everyone got, like, a therapist, it'd be, like, the best thing. Do you have a therapist?
+
+No, don't. No. But but I honestly, I wish I do. If our investors are watching, someone go find me one, please. Dude, dude, I'll find you a therapist.
+
+That'll be my gift to you. She'll be like Wendy Rhodes from Billings. Have you seen Billiens? I have not. No.
+
+Oh, dude. Come on. You seriously? It's a brilliant show. Do you watch TV?
+
+Not really. No. I'm going here. You don't date. No.
+
+So that... So that's maybe the... So there's there's this, like, huge joke that the reason I say I don't date is so the buying guy has got these hats that say single till series b, and series b is, like, next round. So I'm like, okay. This is, like, soon.
+
+Like, we can't be single after series b. So I'm getting them new ones that say single till IPO. And so my joke is until I return, like, investor funds, I'm not gonna date. It's not actually the reason why, but we'll go with that. Do you think that dating does actually just distract?
+
+It definitely does distract you. Like you lose like the grit, like the anger inside of you or like the, like, I gotta go do this. I gotta go do this. But at the same time, it also helps, like, emotionally regulate you. Right?
+
+Humans are, like, emotional people. And so part of it's, like, being able to regulate, like, all the the volatility with, like, stability and, like, decreasing the volatility over time. Do you care about money? I think at... When we started the company, used to a lot.
+
+Now at this point, it's like, no. If it was like, oh, you make no money in the startup, I think I would still do the startup. I think it's the people that I work with that I... It's just like so much fun. What...
+
+What's it about for you? So that... Yeah. Yeah. I can be could be Working with my friends?
+
+Is that it? That... That's literally it. There's this like concept of like, okay. If you believe that when you're living your whole life, as long as like I'm comfortable and like I've...
+
+I'm at the age right now where I have no one else to take care of. Right? It's just me. And I live in like a 6th Floor walk up. And like there's no like What is this a 6th Floor walk up?
+
+So in New York, the legal amount of like stair... There's no elevator in the building. So the legal amount of stairs you can get a floors before like it's illegal in New York to have like... Make people walk You have six floors of stairs. Yeah, six floors walk up.
+
+Yeah. Me and one of the people we started coming to Drew, having like a six floor walk up. What? Yeah. Why?
+
+I mean, it was just like an apartment we found that's close to the office, and I was just like, why not? Is it nice? It's like fine. Yeah. It keeps us gritty.
+
+That's what it is. Keeps us hungry. Well, you're not gonna have burglars. No, we're not gonna burglars. No, no.
+
+It keeps us hungry for more. That's bizarre. You live with someone? Yeah. We have two bed.
+
+Dude, wow. I feel a lot of people think like, oh, your company's worth this much. Like, you must have, like, so much money. Are you missing... No.
+
+Not really. I never worked a job before too. Like, I don't have, like, savings. I completely understand that. Now would I, if I was you and your cofounders, take a million bucks in secondaries when there are so many people who wanna give you money?
+
+Yeah. I would take a million bucks off and I would Maybe we should. And and and again, I'm not advocating for private jets or bullshit, but like a great gym, healthy food, and nice all that. We do all that. We have, like, a gym membership, and we all, like, we're all, like, very healthy.
+
+Like, a nice apartment? Yeah. But, like, it it... Does it really change things? Like, I spend, like, most of the day at the office.
+
+On the weekends, like, I'll I'll go for, like, a run-in the mornings, and I'll just go back to, like, the office. Like, there's like nothing else to really like do. Do you think you have a good culture? Yes. I think our culture is by far the best out of like any startup.
+
+So in the company, when we started, I really didn't think work culture was important at all. I thought it was like, you find the right people that are smart and you work. I've realized now over time, we made mistakes. We've done all these things. It's like, work culture is so important because you end up spending sixty hours, seventy hours, eighty hours a week with these people.
+
+With our, like, engineers sometimes, it's a guy named Will on our team. We spend, a hundred hours a week together. Just me and him, like, figuring out issues and going through, like, so many things together. You're gonna spend this much time with this much people. Like, you're spending more time with them than you're spending with your friends, your family.
+
+Everyone else in your life, you spend more with the people you work with. That means that the people you work with have to be so enjoyable that you never wanna, like, do anything else. We, like, care so deeply about, like, culture of the team that we've hired people. And the people that we've hired are all, like, ex college athletes or have played some sort of sport growing up. I heard in, like, this, like...
+
+I don't know who said this, but someone someone said this. It was like, when you grow a team from, like, 20 to 50 to 100 people, what gets lost is, like, communication between the team. Like, you get on these, like, middle management layers and all these things. And to solve that problem, to keep, like... If I go from...
+
+Today, we have, like, 28 people, 29 people. If I wanna go from that many people to a 100 people in the company, I need to figure out to three x my team while three x ing, like, my revenue numbers or three x ing, like, the productivity of the team. To do that, I need to find people that are really good at communicating with each other. It turns out the best, like, communicators are, like, college athletes because what do you do when you play a sport? You're just, like, communicating every single time.
+
+And the second thing is, like, you are so competitive that you hate, like, losing. Like, you wanna find people that are, like, competitive enough that if you tell them, hey, competitors launched this feature. Why don't we have it? They're like, we have it tomorrow. That type of, like, level where it's like, I just wanna win.
+
+Do you know why I like athletes? I like athletes because you have to consistently do an activity that has no immediate benefit. And this is specifically like gym. I like people who really are very fit. Because you have to consistently do an activity that has no immediate benefits.
+
+You don't suddenly get jacked off for five sessions, often on your own with no inherent motivation for a delayed payoff that may come later. It's like short term game versus long term game. Yeah. Like, you gotta take the long term. And when you're going to the gym to get jacked, you're basically either doing it because you're insecure in yourself and you want to look better, or you desperately seek someone else's approval.
+
+It's one or the other. I don't give a shit, but I like both. Or you just wanna be a healthy person and live a long life? No. Because you're not getting jacked.
+
+Sure. Sure. Yeah. Yeah. You're running a lot.
+
+Yeah. You're running a lot, whatever, you're getting You're doing the Brian Johnson workout. Yeah. Yeah. Exactly.
+
+That's so funny. Anything else on culture and team building that you've learned that you do that's weird or different? The interviews, we take people dinners in weird uncomfortable situations to see how they interact or act. What's an uncomfortable situation? We'll find, like, people on the team that have no...
+
+Like, we'll take an engineer with, like, go to market people and, like, have a dinner with them. And then we'll, like, we'll just see, like, do they vibe with the team? I think we have, like, two rounds of interviews where it's, like, technical, and we'll see, like, can they do these, like, things? But with like AI tools, I think a lot of people are like technical enough, and we're not doing frontier AI research. It's just like...
+
+It's technical in the sense that it's technical and like very specific domain, but really it's got... You gotta find people that are willing to be mobile and can like navigate well. So can they like handle uncertainty? Bit of a hard one. There's Axios reports about users.
+
+Yeah. I see you on Twitter a lot yesterday specifically. And I'm not actually going into the material, but I'm sorry if I'm... This sounds patronizing, but you are young and the numbers are big. I've seen this before where people believe the hype.
+
+How do you kinda check yourself? Revenue numbers, profitability, look under the books. Tell me if my business is more profitable than any of, like, the companies that exist today. And going back to, like, what I said before, it's like we are a long term family business. And part of that is, like, our numbers have to, like, check out with what the valuation of the company is.
+
+And today, I think our numbers do check out. Our multiples are much lower than any of the other companies that exist today, and that's because we've gone through this, like, process of fundraising that is very, like, disciplined and, like, structured. We went with Miles even though we had term sheets that are way higher than that. We went with, like, our investors that gave us, like, term sheets that... People...
+
+People gave us term sheets of, like, 2,000,000,001.5 billion and, like, crazy, like, numbers, and we just said, like, no. I think we're, like, gonna be disciplined at this point and just go with that. Also, says a lot about the investor if they're willing to, like, slingshot a $2,000,000,000 term sheet. Yeah, I think so, part of it. Okay, we're gonna do a quick fire.
+
+Yes. What was the single best VC meeting you ever had? Can I exclude like our current investor list? Sure. All right, we'll exclude the current investor list, so then I'll get mad that I I don't pick one of met Nick Krantz at AIX when I was 17 years old.
+
+I ended up investing in the last round or this round that we just did. But the reason that I've known Nick for a very long time is he's mentored me since I was 17 years old at MIT. I was a freshman when I met him at a coffee shop. It's called Flower Bakery on, like, Massachusetts Avenue, right next to MIT. And I met him at a coffee shop.
+
+He gave me advice for, like, twenty minutes. He used to work at Great Goth at the time. He's moved two different firms at that time, and I've talked to him, like, probably when I was still in school, every, like, few months. Now I call him, like, once a day. It's crazy.
+
+And the really thing I enjoy is that he cares about me as a person rather than, like, the company. That... That's, like, the most important part. I love that. And AIX is rich.
+
+Soch is fun. Yes. Yeah. Yeah. Yeah.
+
+I like him. He's good. You can add one person to your board who's normal. Travis Kalanick. Wow.
+
+You really thought about that one, didn't you? Do I... Have you met Travis? I have not. No.
+
+I really wanna meet Travis. We gotta make that happen somehow. Why don't you Well, I I haven't asked anyone. Maybe I should. I'm like a fanboy, so it'd be really awkward if I meet him.
+
+I think with a clip after this show, you might be able to make it happen, my friend. What would you ask him? One question. So how do you handle emotional volatility? Oh.
+
+That's a that's a good one. That's a really good one. Okay. You've got Anthropic at 1.5. You've got OpenAI at, let's say, 1.2.
+
+Which one would you rather buy? OpenAI. They have more compute. It's that simple. It's that simple.
+
+Yeah. But Anthropic have the cash. They can just buy You can't. I don't think you can spend... Like, how much are you gonna spend on it?
+
+Wow. So Anthropic will be bottlenecked because of this? Yeah. What does that mean? I mean, you can spend as much money as you want.
+
+You can't make the fabrication line at TSMC move faster. So what happens then? They are not able to provide the products they want to? Yeah, it's that and then like the models will be slower. Be...
+
+There's gonna be like less like growth than OpenAI will. I think look, the models for OpenAI and Thropic will... One will... I think, what is it? Is TryGBT Soul six better than Fable 5.1?
+
+I don't know what the benchmarks are, but maybe Fable 5.1 is better than six or Astra is better than Fable 5.1. But that changes every like two weeks when new model comes out. Where is Jeff in five years' time? Oh, okay. So I haven't used Jeff.
+
+Maybe I should. Diego might be mad when he sees this. I didn't use... Maybe I'll go home and use it. So I don't know what the right answer is.
+
+I've got him coming on the show in a couple of weeks, and I need to sound thoughtful and insightful with him. He's cool. I like him. But all my team has. Honestly, I'll I'll I'll give you an answer soon.
+
+What have you changed your mind on in the last twelve months? I used to think that coding harnesses were all, like, kinda bullshit, that they don't really, like, work. And, like, oh, you're just gonna use, like, OpenAI. I'm just gonna use, like, Codex or, like, Claude. And I'm now, like, very pro harness.
+
+Like, I I see the value in, like, factory or cognition. And the reason for that mindset change is? Switching models very quickly and being able to find, like, the right models to the right task. And so fundamentally, it has to be an independent provider? Yeah.
+
+Independent provider, but also, like, the tools that they build on top of it, which is a better experience. So fundamentally, the independent harness provider relies on a multimodal world? Yes. As a coder and myself. And, like, I use it for, like, all sorts of other things too.
+
+But... Yeah. You can put all of your money into only one company. Which company do you put it in? Today?
+
+Public, private? You name it. Honestly, I'll... That's a good... Wonderful question.
+
+Thank you. So I used to tell investors when we started the company, and you can ask our current investors this. It's true. That I would put... I used Factory, and I would tell our investors, put all your money in Factory.
+
+And I stopped using Factory for like three months or four months because Cognition came out and they gave us some tokens and I used it for a while. And now I recently switched back to Factory. Better product. I would put all... If I had personal cash, I'd put it all into Factory.
+
+Gotta You get Matane to let me invest. You're not invested already? No. I wanna invest. Tell Matane I want it.
+
+I think the product is so good. I walked around the park with him, and I have to admit, was it was one of these... You meet founders like I did with you, where you know so quickly that you're so good, but you have to pretend like you're still discussing, and you're just like, yeah, I just so wanna invest in your... Do you know what I mean? Yeah.
+
+And you have to play it cool, because if you're like, okay, great, I'm in. Yeah. It's too quick. No, but I want it. I think the product is so good.
+
+Maybe the business is like not like... I actually don't know the underlying, like the fundamental The underlying business is amazing. Okay. The business is doing well, I'm sure they'll sell it to enterprises. But I think the product is so good that I know like a thousand people like me that are probably not using it because they're all like...
+
+They're using all the other tools that if they use it, they're just gonna switch over. Yeah. I'm giving them a free ad too. They they should definitely let me in. Can you get me in?
+
+Okay. Final one. No, actually, penultimate one. Which of your beliefs about 2030 is most likely to be wrong? That humans will be a biological vessel for AI.
+
+Don't think that's gonna be true. It's quite bold. Yeah. It's For 2030 Or that people will live to, like, one hundred and fifty years. I I wanna believe that it'll be true.
+
+I don't think a lot of other people agree that it'll be true. For 2030, it's a push. Yeah. I I I agree with that. Final one.
+
+What are you most excited for? I like optimism. I think generally. Yeah. The goal of, like, humanity is to, is we wanna live as long as possible.
+
+That's our biological goal in life, live as long as possible, live the best life as possible, the happiest life. I think AI helps us get there, and so I am very pro all of like the biotech AI possibilities that exist in like longevity tech, especially. Obviously, I don't work in that field at all. But I like to think that the work we do by helping You kind of do. You enable people to do Yes.
+
+Amazing help I like to think that the work I do by helping people access compute and hedge their exposure means that there will be more compute in the world, and that by having more compute in the world, that compute will go to, like, good causes and will help, like, humanity flourish. I... Listen. I think you're just an enabler of great things like Bio to happen. Yes.
+
+Listen, Kush, I've so enjoyed doing this. Thank you so much for doing it with me, and it's so nice to do it in person. Thank you for having me. But before we leave you today, founders and investors sleep on Eight Sleep. It is the intelligent sleep system trusted by mister Mark Zuckerberg, doctor Andrew Huberman, Charles Leclerc, and the Aston Martin f one team.
+
+The pod is a smart mattress cover that fits on any bed. It cools each side to 55 degrees, heats to a 110 degrees. It even tracks your heart rate, HRV, and sleep stages without a wearable. Thank god. The new pod six has a hub 50% smaller than the last one and starts at just $1,999.
+
+Visit 8sleep.com/20vc. That's eightsleep.com/20vc. While Eight Sleep helps you sleep better, MongoDB helps you build better. Every serious AI company right now has the same problem. Agents need accurate context fast.
+
+Most infrastructure though, it wasn't built for it. Well, MongoDB is. Eleven Labs runs 40,000,000 agents on MongoDB. 75% of the Fortune one hundred run their most critical apps on MongoDB. Trillions of dollars moving through MongoDB every single day.
+
+Instead of stitching together 10 different tools, you get one JSON native database, vector search, and Voyage AI embeddings in the same system, and it runs anywhere. No lock in. If you're building an AI, MongoDB for startups helps you move faster with Atlas and Voyage AI credits and technical support to help you ship. Don't build agents that answer once and forget. Build agents that remember and learn from your real time data.
+
+Go to mongodb.com/agents. That's mongodb.com/agents. While MongoDB scales the product, Framer scales the story. If your team wants a website that looks and feels handcrafted but is still fast to ship, Framer is built for exactly that. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right.
+
+Prompt, inspect, edit, and publish in one place at a whole new pace. Agents and humans work in tandem. Agents bring speed and scale. You bring taste, judgment, and control. The work lands on the canvas and stays editable.
+
+Build custom code components, manage CMS content, optimize SEO, and audit for issues all in one place. Enterprise grade hosting, security, and 99.99% uptime SLAs trusted by leading brands like Perplexity and Miro. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/20vc for 30% off a Framer Pro annual plan. That's framer.com/20vc. Rules and restrictions may apply.

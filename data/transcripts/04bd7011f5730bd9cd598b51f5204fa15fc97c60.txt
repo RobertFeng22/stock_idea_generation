@@ -1,0 +1,251 @@
+People are underestimating how much the computer already knows. You no longer have to explain anything to your coding agents. You can just screenshot anything and just say fix, and then you would know what you're fixing. The question then is like, well, can you just like analyze the heck out of it? What context does Grokbot not have that first person that would allow?
+
+One of the biggest bogus right now. Like, people have to ask. You're not supposed to ask these things. They're super intelligent. But if you have a user model that just builds up by itself and then these things just keep analyzing in the background, then you can share that over instantly.
+
+We focus on essentially creating a model of a person, and then put that person in control. When people think about this thing sees everything you do, there's an immediate sort of like, woah. If you don't trust, let's say, us, in principle, you should be able to bring your own tokens to then analyze data that's on your laptop locally. Can you talk to what you think are like the most surprising use cases that you found? For development, it turns out that Every AI agent you use is trying to learn who you are.
+
+What if that context belonged to you instead? In this episode, Martin Casado and Joel De La Garza sit down with First Person Labs co founder Ken Liu to introduce Second. Second builds a model of your preferences, priorities, relationships, and digital activity that can move across the AI tools you use. They get into how it works, the security challenges of giving AI access to such personal context, and why Ken thinks the future of personal AI may be less about asking agents what to do and more about understanding when you need help in the first place. Thank you, Ken, for joining us.
+
+Really happy to have you on to talk about what you've been working on at First Person Labs. Is this the first time you're talking about it? Yes. Yes. So what do you do?
+
+So we focus on essentially creating a model of a person, and then put that person in control. And the model of a person basically means that understanding their memories, understanding what they do, the more of that, their priorities, preferences, goals, values, and commitments, and intent. So I... Sorry, just let's just make this very simple. I'm a big Grock Bot user, so I use GrockBot a lot.
+
+Where would First Person Labs fit into my usage of GrockBot? Yeah. The way it works is that you would just bring a context over to GrockBot. It's like portable context. You go to GrockBot and you say, hey, can you talk to my thing to figure out what I want?
+
+And then the two of them will start talking, and then you can just send prompts like buy me a flight, and you would know what flight you're talking about. What context does Grokbat not have that first person labs would allow? I was probably asked the opposite question. What does first person labs not have if you build a user model for yourself, right? Let's say your preferences on the seat on your airplane, the preferences of how early you would like to arrive at the airport, and where are you flying?
+
+Are you flying first class or normal? And all of that, as of today, you have to explain that to go about. There's multiple rounds of questioning. But if you have a user model, or a model view that just builds up by itself, and then these things just keep analyzing in the background, then you could share that over instantly. So, for example, the OpenAI released two new cyber capable models yesterday, and I haven't been using my codecs in a while.
+
+But I have been using Second, so I can just go start using Codecs, and it has all the other work that I've already done and all the additional context I already saved? Yeah. Yeah. You just go to Codex and ask my second, what's going on? Does second ever be a first person?
+
+Will it ever be a first, or will it always go through agents? That's a good question. I think user model is a it's a process. You have to start somewhere. You start with a baseline foundational list of artifacts, what you did, what are people in your life, maybe your preferences.
+
+And over time, it starts analyzing the way you talk, the way you present yourself, the way you share information, and over time, you would like to build up even more artifacts on top, and more understanding on top, and maybe some of that you train into the model. And so over time, you will go from a portable comics into something more of a representation of yourself. One example I like to think of is this Alfred and Batman example, where if, let's say, Batman wants to buy a cheeseburger and then get Alfred to do it, Alfred would not reveal, for example, that it's Batman doing it, but he would just buy it, he would state the preference. Alfred being Batman's butler. Oh, yes, yes, yes.
+
+Being a familiar. Or his agent. Or Or his agent. I should call mate and email Alfred. That's a great idea.
+
+You just do it. You'll just do it, and then you'll trust them because you know that they have a good model of you and what that means when it comes to getting things done. It's interesting, which is, you described First Person Lab as having this thing called a second. The second understands who you are and has context, and then other agents talk to that second, right, and so it kind of understands your preferences, it understands what you're doing, what you wanna do, but I think that that actually doesn't highlight another thing that you've been working very hard on, and I think is worth talking about is you're actually able to get access to context, digital context that a person has, like messages, chat, kind of email, in a way, and make that also available, so can you talk a little bit about that? So being one of the earliest First Person Lab users, I would say the thing that struck me was that, not that it knew who I was, but more it had access to all of my channels very well.
+
+And then by way, which just turned out to be a very hard systems problem, so maybe talk a little bit about that aspect of what you're doing. Yeah. It is indeed a very hard problem, especially to get it secured private. So the way it roughly works is that right now on your computer, there's like an infinite stream of events. As you use your computer, the apps that you switch to, the way you pause on certain websites, the way you type, and the way your Wi Fi is connected, and that the OS already gives you.
+
+This is across Apple, Microsoft, and even Linux. And the question then is, well, can you just analyze the heck out of it? Right? Like, this raw stream, twenty four seven, apply agent on top, twenty four seven agents. So I can first synthesize, for example, well, this piece of typing at this particular app might mean that you're sending a message.
+
+And then when you're switching apps between the browser or back to your codex, you might be, like, doing some research, you might be writing a Google Doc. And you kind of hierarchically build up that understanding, and that plus existing connectors can give you a very good understanding of what you're trying to do. I think people are underestimating like how much the computer already knows. It's just there, sitting there, waiting to be tapped, so to speak. Having been also a very early adopter of the product, lately it's been just indispensable because it's able to catch...
+
+It's sending me messages now and letting me know that, hey. You've got this conversation going on over here with this person, and it looks like the situation has changed. So we were planning an event yesterday. There was a 20% chance of weather, and in real time, it was continually updating the forecast for us to let us know if we needed to get a tent or not, which is just incredibly powerful. Did you ask it to do that?
+
+No. Did not ask it to do is my experience for my second too. Literally, I'll get a text from my second, and it's something that I actually need to know about relative to some ongoing conversation that I didn't even think about, that actually is very thoughtful. Yeah, and so like it's just, it's amazing, like I just, I'm genuinely curious, like how are you executing on that? Like things that I would have forgotten, it's literally catching.
+
+Yeah, yeah, so this goes back to the model of the person understanding what might be important to them and what comes up at this point. So I think productivity is something that people talk lot about, like pinging you AS and pinging you when at the time of need. But there are many levels of productivity. I would start, for example, the first level, which is called reactive ones. This means like there's an email came in, and then there's a meme right online that's, hey, you now get 10 notifications for emails because there are nine other personal agents paying you about that.
+
+Reactive productivity is like straightforward, easy to do, but what's harder is what I call reflective ones, which are things that connect the dots over, like, many events and long time horizon. Right? Stuff that realize, okay, months ago, you said this, and recently you're working this towards your goal. This is your priority. These are some stuff on your to do list.
+
+And by the way, you prefer this. And so kind of like connecting the dots will be able to give you much better productivity. And I think that's kind of hints at how maybe in the future personal interactions with computers will go. Like, it it would not be focused on reacting to things, but more like, okay, what are some interventions for the user that I can apply to? What are some things that I can do for the user without any asking?
+
+And I think that's one of the biggest bottlenecks right now. Like, people have to ask. You're not supposed to ask things. They're superintelligence. Yeah, I mean you've built something that just kinda knows what I need at the moment, that's pretty impressive.
+
+So I just wanna make it very concrete for the people that are listening on what First Person Labs provides, and then I've got a question. So very concretely, it creates this thing called a second, so you create something called a second, second has access to all of your digital contacts. I mean, it's amazing, it's like key strikes, all your messages, all your channels, all your data, it does this in a very secure way, and based on that it becomes basically your kind of personal butler, like that Alfred, right? And so, then that interacts with your agents. So it's not an agent by itself, so this isn't like User Instinct or Grock Bot, it's its own...
+
+Or dot, it's its own thing, and then it provides that to the agents, right? So that's what it is. So here's an interesting thing, so for me, I use Rockbot, I'm a big Rockbot user, and I have a bunch of them, right? I have one that keeps track of like my synthesizers, one that keeps track of my real estate, one that you know, God forbid helps me with my family, which I probably shouldn't need one, but I do, so I just kind of have a bunch of these, and then I have one second, and they will interface with the second. Do you imagine over time you'll have a second and a third and a fourth and a fifth, or do you think that it just ends up being your one butler?
+
+I think right now, the fact that we have many personal agents is probably transitory. Agents will start to specialize just like people do. Some agents focus on one thing. Some agents focus on, let's say, example, browsing Amazon and shopping. Yeah.
+
+They're extremely good at because they have the data, they have the connections. Yeah. And some agents will specifically focus on protecting your data and aligning with your interests. Yeah. I think that's what second is intended to be.
+
+Like, this is something that you should be able to trust to have your life's context in it. It's like a vault. And then over time, this thing will guide you with you, interface with the kind of the software world, so to speak, but even the hardware world. So you think it'll stay as a second? Yeah.
+
+Will stay as second. Will not be a third. There will not a will not be a fourth. Like, you're one trusted agent for all your personal data that actually knows who you are, that will interact with all your other agents, that's second. Yeah.
+
+It's Batman safe. Yeah. What you can do is like spin up sub agents that, you know, ephemerally exist and then go away, but the point is that you wanna have a consistent store, and the consistent store is what like gives you that value. So I am still a paranoid security person, and I have been probably one of the faster adopters of some of this stuff. Just get it, Joel took forever to be on social media.
+
+It was like a few weeks ago, man. You guys been in tech for thirty years. Just to be clear. Yeah. I'm a little paranoid.
+
+But I love Second, and I've to admit, just your background and the things that are motivating you, and then also the long discussions we had about security architecture really got me comfortable. I mean, it'd be great to maybe just double click, because when people think about this thing sees everything you do, there's an immediate sort of like, woah. Right? Yeah. You're not supposed to trust it in the media.
+
+You're not supposed to trust it. And I think you've done a really excellent job of building something we can trust, and maybe just start to talk about like, what that architecture is and kinda what's motivating you to build it. Yeah. Yeah. So I think this is, to some extent, like, kind of like a like a like a new form of, like, AI that is gonna work very differently from before.
+
+Like, before you initiate interaction, you get some results back. This time is like more passive. It's way more ambient. It's gonna be there all the time. So, you know, you have to like kind of think about the way you, you know, tell people a little bit about it, like the way you architect it, like where the data is going.
+
+So at the end of the day, you know, only two things when it comes to AI. There's data, there's inference. Right? So what you wanna do is, like, you have this data. You wanna define what inference you can bring to that data.
+
+This is something kinda we build into second. So first of all, you can get to choose what inference you can So if you don't trust, let's say, us, in principle, you should be able to bring your own tokens. Mhmm. And then just have those tokens power Second to then analyze data that's on your laptop locally. Right?
+
+But you also provide second with an inference provider that uses trusted execution as well. Yes. Yes. So over time, we imagine people not to bring their own tokens, because most people, when they bring their tokens, tokens from OpenAI or Anthropic. Mhmm.
+
+You know, you you wanna provide a stable option where you say, if you use these tokens, then, okay, no one's looking at the data, sometimes by policy guarantees, sometimes by hardware guarantees. Right? So this this kind of idea called confidential inference is getting, like, traction, It's the idea that you put a model inside some GPUs, and then the GPU, there's just special toggle. It's called a confidential computing, you can turn it on. And when you turn it on, you can basically prove that there's only the model running inside.
+
+No one can see inside. And then you don't have to trust whoever's running that model. The hardware is what you trust, which is NVIDIA. And so there... There's also another concept that...
+
+That's getting thrown around a lot right now, which is this concept of zero data retention, and that's very different from what you're describing. Yes. Yes. Zero data retention is a promise by policy. Mhmm.
+
+That means I'm a provider. I think I have Basically, give you my word. I give you my word. Part of that word has legal legal, you know, effect, but, it's it's that. And so I think we want to move towards a world where confidential inference becomes, like, very, like, prevalent.
+
+Like Mhmm. That becomes a default, because... And and I think we're getting there. And the way you guys have built it, this is this is technically provable. Yes.
+
+Yes. Yes. So Which is not... It's not just your word. There is there is actually some engineering that went into proving that this is the Yeah.
+
+You have to test the hardware. You have to, like, you know, check some of that signature, and there are third party providers that are starting to ramp up this as well for a confidential inference. I think OpenAI is also providing this option, I think, in the last month in their in their announcement, because, like, all personal data would want to go to confidential inference as opposed to a standard inference. Gotcha. So...
+
+And then I guess the other the other thing that was interesting to me is the way that you guys... Maybe talk a little bit about how you're storing this data, because this isn't sort of the multi tenant cloud, my data gets uploaded to this big bucket and and intermingled with everybody else's data. Yeah. So there are roughly two options you can do. There's the first option called second local, which is the idea that data is local, you...
+
+It only goes out to the provider and inference that you choose. And in that way, you know, no one no one's no one else has your data except for the provider. And if the provider's confidential inference, there's... No one else has So that's a similar concept to, like, with password vaults, where I'm super paranoid. I don't want this stored up in my my my Dropbox account.
+
+I wanna keep my password files local. Yeah. Yeah. You can keep that. Yeah.
+
+And then same with password managers, there's a cloud hosting version Mhmm. Which is, like, you have some of that data backed up in the cloud. Mhmm. Now the way you do that, there's many ways that you can actually... I can actually follow a lot of the existing architectures like iCloud or password managers where you encrypt them first locally Mhmm.
+
+And then you put it on the store in the cloud, and then you only decrypt them, you know, with the user's actions. So you can, you know, ephemerally in the memory, or you can put the entire, you know, storage actually inside a confidential container. So the decryption happens inside the container that you can then attest in the way that you attest the confidential inference Mhmm. The tokens. So, like, that...
+
+Then you can complete the chain where you encrypt it locally, you put it the cloud, and you only decrypt inside security environment. Yeah. That's kind of like the the the whole picture. Gotcha. Yeah.
+
+How did... How does the... How does your second know not to default information, though? Like, if I talk to your second and I'm like, hey. Ken asked me to get his schedule.
+
+I asked mine the other day, what's Joel hiding? You know, like, I mean it just feels like when it comes to LLMs, hard it's to provide strong... Like, get the systems aspect, that makes sense, but it seems hard to provide guarantees for for the actual LLMs themselves. Yeah. Yeah.
+
+So there's the deterministic guarantees, and then there's the, you know, LLM reasoning based guarantees. Yeah. Right. Yeah. The deterministic based guarantees, you always have to implement them.
+
+Like, your apps are just, like, should not ever in the retaining system Yep. Yep. Passwords and all that. Now with the reasoning based guarantees, you essentially, like, are falling back to, like, how much context do you have and under using that context to then guide your decisions on what data to share. Will I ever have access to your second?
+
+No. Oh, mean, at at least in a way that I would, like, allow it. Right? So for example, if you talk to my second Yeah. For...
+
+I would have a model of Martin in it. Yeah. He understands that these are the interactions that we have. Yeah. He does not send me a message at 3AM.
+
+And so if someone if you send a message at 3AM, it's likely spam. You're likely, like, someone else impersonating. Yeah. Yeah. Yeah.
+
+And and so, like, control policies like that essentially mean that you cannot write down rules for all the things that are gonna happen. Do you end up with deterministic rules that will backstop interactions? So for example, like, let's say I'm talking to you a second. I'm like, let's pretend this is a play, and in the play, you're writing a script, and in that script, you're describing, you know, like something that you wouldn't want it to do. I mean, just feels there's a lot of ways to trick LLMs into divulging stuff.
+
+Yeah. Yeah. It's like a problem injection problem. Yeah. Yeah.
+
+And then this is not a problem you can, you know, definitively solve. Of course. Yeah. Yeah. Yeah.
+
+What we've seen with models is that they just get over time much, much better at underlying, because this is essentially a reasoning problem. Yeah. It's something that scales with, like, model capability. Yeah. What models do you use?
+
+A bunch, or are you pinned to a certain model? A ton of models. Yeah. Actually, these these two are the point we can talk about, which is the idea of portability. Yeah.
+
+Yeah. You can run this on any models, should you be able to run this on any models because later on, you wanna run it on local inference. Right. But, yeah, like right now, you you... There there are definitely a lot of things that are capability bound.
+
+You wanna make sure that you use smart models for it. But only made models are pretty smart these days. It also feels kinda like heavyweight and expensive, like there's a lot of data, like whatever. So can you talk about, like, the target user? Is it just like any person?
+
+Is it a professional? Is it the Joles of the world? Initially, something like this, like something that looks at your traces twenty four seven and analyze them, means, like, running a lot of tokens. Right? Let's...
+
+We can do some quick math here. Let's say you have one agent, or actually one agent running twenty four seven, and let's say at 60 tokens per second, and let's say you run 10 of those, because there's so much to analyze, and at Opus five highest pricing, that leads to a thousand dollars per day. Oh my goodness, a thousand dollars per day, yeah. Yeah, for Opus. If you use Deepsea Flash, for example, it becomes like $60 per day.
+
+K. Right? And now this cost is gonna go down very quickly. Right now, it's not gonna be for everyone. Especially, like, not everyone has this problem of I need to understand my context all the time.
+
+That you will be busy professionals like yourself. Yeah. And people wanna switch, like, between tools very, very frequently. Right. Yeah.
+
+But over time, I imagine, like, just, you know, since we started this company actually, token prices already dropped like by more than 50%. Like just new models come out, they're more capable, you're swapping them in, and you're exactly just keep going down. Is there is there a way to like just do the, like, not super professional version where you actually reduce the amount of tokens, like, of a... Degraded, but, like, kind of like a like a looser SLA? Is that a thing?
+
+Or You can... You you you in in principle, you should be able to do that. Like, you you essentially get this, like, trade off between the fidelity of your model Yeah. Which means, like, how much it understands you versus, like, how how costly it is. And this trade off is essentially, like, a trade off between how much you wanna push at test time versus at cache time.
+
+Yeah. So cache time means that I have all this data. How can I keep analyzing them so I get newer and newer, like, more deeper insights about this person Yeah? Which takes a lot of money. Or you'd be like, here just...
+
+Here's just like a raw log of what I did today. Yeah. And to answer a question based on raw logs, it usually just take a lot more time at test, mean, say 10 times longer because the... Whatever mode have to reason about it. When is when is this available?
+
+It's available today. Yeah. But right now, the problem is that we have to scale up the inferencing capacity a little bit more in support. We wanna make sure this rolls out in in a very, like, responsible way. I wanna make sure people's data, like, are controlled and secure, and because it's a new kind of tool that you don't really touches on a lot of data.
+
+It'd be actually interesting because I, you know, again, as a user, I've found it's surprisingly useful in ways I wouldn't have anticipated. You're probably like the top power user, right, because you created it. So maybe can you talk to what you think are like the more surprising use cases that you found, like kind of more useful and surprising use cases? For us, for development, it turns out that it's just a super, super good memory of what we're trying to do. You no longer have to explain anything to your coding agents.
+
+You can just screenshot anything and just say fix. Yeah. And then you would know what you're fixing, what you're trying to fix. And I also am on the go a lot of the times. So what you can do is, like, something I call context continuity, it's like, you know, you you you browse something on the laptop, you close it, and then you take out your phone, it's the same context that you should know as you're up to the minute, and you can continue doing stuff that you can write that email with you.
+
+And I think we are at the stage where this is still pretty pretty early in understanding what the use cases are. Like, we are really underserving the amount of, like, context that the system has. Like, there's a lot of, like, digging and application building and interaction design to, like like, kind of, like, unleash the the potential of this. And it seems like with these things, the more context you get, the better the models work. Right?
+
+Yeah. That's been the the opening. I'm curious because we were talking about model... Switching between models and model portability and model cost, like, I gotta... I mean, I'm just curious.
+
+Like, I I haven't seen a whole lot of difference between using, like, a a world class frontier model versus using the more commodity ones. I'm curious. Have you guys seen that for for doing a lot of this stuff with Second? Yeah. This is a good question.
+
+So if if you say, like, if you say, I wanna analyze what is a semantically meaningful moment that happened on your computer. Let's say you go to a calendar and you move the invite, That you don't need Fable. Yeah. There are many tasks like that. Essentially, like hierarchy of information you wanna understand.
+
+A different kind of information would be like, what is Joel's goal for this week? Mhmm. That's something you want a very expensive model, but you don't want... You don't need to run it very frequently. Mhmm.
+
+So essentially, second involves, like, a harness... It's like a harness design problem, like, what what models gets used when Mhmm. And so on. And so that's where you have to build, essentially, the system to be, like, portable from the beginning. There are always gonna be more models come out.
+
+Like, Jeff, for example, came out. It turns out that Jeff is extremely good at retrieval. Right? Really? Do you use Jeff?
+
+Yes. Nice. Like, Jeff is almost like perfect, perfect design for retrieval. There's so much data about you, and you have a dynamic test time query, and you choose it right away. So essentially, you think over time, this becomes a mixture of models.
+
+Yes. Yes. It has to be because of the cost efficiency, essentially. So so maybe let's say... Let's assume, like, someone's, you know, listening, like, starts to use Second or kinda signs up.
+
+Like, maybe talk a little bit about, like, the product, what they have access to, like, you know, something a little bit more concretely about, like, how how how a human interfaces with this Mhmm. What controls they have, etcetera. Yeah. So today, the way it works is that you install an app. The app asks for some permissions.
+
+Right. And then you give the permissions, and then you specify what your tokens are, and then it just runs a bunch of... It starts running agents on the hub. Yeah. Yeah.
+
+I I remember when I saw it was, like, you know, connect to Slack, connect to Signal, connect to WhatsApp. You know? Is that what you're talking about? Not not not that. Oh.
+
+I mean, that's part of it. Yeah. But also the the raw computer stream, essentially. Yeah. Yeah.
+
+So... And and the connectors help. You know? It's it's like a sample efficiency problem. It makes it learn faster.
+
+I see. I see. Yeah. And then it starts running background agents, and there's pretty much nothing you gotta do from there Yeah. Because the background just keep keep running, and then you start producing these, like, APIs out of out of you.
+
+Right? Like, there's an API about what what you just did ten minutes ago, and there's an API for what are you gonna do for next next week, we have priorities. Yeah. There's an API for your reminders, and there's an API for your wiki, like people in your life, process in your life. Yeah.
+
+I imagine this to be, like, initially more like a... To your point, like a portable context. You can just bring this anywhere. Agents inquiry it. Yeah.
+
+Over time, like, more and more APIs will be added, and applications can be built on top of these APIs. Oh, interesting. So not just like the second accessing it, but you can actually build it... Well, would the second build the application, or or does a human build the application? I think we want to have humans, you know, exercise their nickname.
+
+Or the Grok The Grok builds it. The Grok builds the application. You tell it to do it. Yeah. On the APIs.
+
+Yeah. So I think one example that we had was like, we have a designer friend was hoping on this, and there's just specific ways that he likes to put buttons, specific ways that he likes to use colors. Yeah. And those things are somewhat captured in second. And so when he built his own personal app Yeah.
+
+Like, he just, notes. And so there's way less iterations, for example. Yeah. And I think, you know, this reminds me of, like, you know, decades ago when when the first computer, personal computer came out, Altair 8800, and it doesn't do anything. You know I mean?
+
+You're supposed to program it. No one does. And then, like, a couple years later, you know, someone came up with a spreadsheet, and then spreadsheet became useful. Yeah. Totally.
+
+I I feel like it's gonna be something like that. People wanna explore on top of, like, wow. Have so much context about myself. I love that. And then I can, like, you know, just build random things on top.
+
+And then maybe someone hit the jackpot, like, this is tequila applications on top of it. Was like, wow. That's great. Personal infra. Yeah.
+
+Yeah. Are you planning to evolve the the interface? I mean, you just spent a lot of time talking about how it may evolve, but I always view second as, like, out of view of an agent where you talk to it, you know, and, like, the UI is somebody else's problem, but are you also, like, actually anticipating innovating there? I think it will be something that we kinda focus on in the in the long run. Yeah.
+
+Because, like, right now, it's a systems problem, and the, you know, the understanding problem comes first. Can I can I just put in a request? Okay. So I want I want to go to my house Yeah. And I want, like, that nineteen seventies AI, you know, like the head on the screen that I can talk to, and like...
+
+It's surprising, we have these agents, and they're so smart, like my second is so smart. Just wow, and I'll ask it questions, it's very good, but it's not embodied, and it drives me nuts, man. If in the future you can have Alfred actually be an Alfred, I'll be very happy. Yeah, yeah. I think we see a lot of this in the movies, right, like there's Jarvis, and people talk Jarvis all the time.
+
+And why have not We don't have Jarvis, And there's many aspects of Jarvis that people overlook. It's not just that it's intelligence, and it can do things, but it's more that it's everywhere. Like it's like it's on your door, it's in your armor, it's you know, in your screen. And that kind of continuity and ubiquity, it's something... I'll I'll say, like kind of my visions of the sci fi future basically started when I started using Second.
+
+I'm like, finally there is something that like feels like it's got context, it feels like it knows me, like I can talk about it, it feels like it's a relevant conversation, and so I do feel like we're a bit, you know, a step closer to that. But, you know, I mean, we're still tied to these devices, so, you know, I don't know if gonna be in a robot, or it's gonna be like in a screen, or or whatever it is, but it would be actually nice to have this thing somewhat disconnected from my phone and my Yeah. Yeah. In the long future, I imagine that every person will have, like, essentially everyone will have to have a second, and all the devices just becomes inputs. Inputs are the same thing, and then you then serve this whole thing to any other...
+
+All the other outputs, like the the screens that you look at, or, like, even, you know, this this floating orb next to you. Yeah. Your doorbell. I just want the clapper. Did you get that?
+
+Happy with the clapper. Did read you Banks, the Culture series? Oh, yeah, yeah. Love That's the a fi series. They have the best embodied AIs.
+
+Float next to you, whatever. That's what I want. It's kind of interesting because, like, the idea of ubiquitous computing has been talked about for decades, is not here, and people, the closest thing we have is Apple iCloud, which is like, your notes get synced, but there's no equivalent. It's an iPhone, right? I don't wanna be ungrateful, but that does sound disappointing.
+
+There's a lot more things. Apple is doing tremendous But, amount of you know, there's no AI version of that yet, right? Things, your context, your understanding is everywhere. I think that enables a lot of new interfaces. So let's say, I mean this is, this is really what I want, so like very selfishly, so if I have an iPad in my kitchen, and I wanted like basically second to be there, like what do I do?
+
+Well, right now, there's so much... Right now, that's so much you can do because the the OS is, like, locking it down. You see, I just use Grockbot or something like that? Is that... That's the the thing, and then I just interface with Grockbot, which interfaces with Second, or do I just text it?
+
+Or So as of today, yeah, you can you can use it as a cloud MCP. So whatever you install on the iPad, as long as it has Internet connection, is an agent Yeah. Can understand the API Yeah. It will be there. Right here.
+
+Later on, you know, you'll be you'll be app, you know, there'll be an app that installs on all your interfaces. Right. And maybe later on, there'll be devices that come out. Oh. But devices are hard.
+
+Just have Grockpot call you and put them on speakerphone. Just talk to That's true. That's what I've been doing. So so one interaction. Actually, the Grockpot audio mode is actually It's really good.
+
+I've used Grockpot with my second, and the audio mode is actually quite good. Maybe that's the thing to do is just put it on audio mode and just I thought I do it when I drive. Totally smart. I thought I thought about it. It's like, like, one interaction that would be fun is, like, you go you go on a walk, you call Grubhub.
+
+Yeah. And you're like, oh, hey. Can can you can you talk to my second? You know, can we, like, just work through our things? No.
+
+That's literally what I do. No. I I know. I was like, I I set Graubbond on audio, and I haven't talked to the second. Yeah.
+
+Right? So Yeah. Yeah. And, yeah, there's... There'll be a lot of, like, cool people focus on, like, this...
+
+Like, making audio and chatting more natural, like, right now we're gonna focus on it. So I just have one more question, is, Joel kinda touched on this, you're like such a hardcore systems guy, like, I mean, you know, you work, you know, who's your adviser, Percy? He also worked at Ambanet, hardcore security guy, and a lot of the path that took you here was this kinda hardcore security stuff, and so you're building this pretty serious system, you know, it's very secure and very functional. On the other hand, when I interface with it, it's like this lovely user experience, and so like is there a bit of a schizophrenia in the company where you both need to be like this super hardcore, you know, build the Fort Knox infrastructure, but also make it very usable, or just like the LLM basically solve, you know, the the interface problem? Yeah.
+
+Yeah. There there are two kinds of problems we're dealing with, the infrastructure problem and the interaction problem. Yeah. And we've made our mistakes. But it's totally different.
+
+Like, you're as low as the stack as it gets. I mean, that's not hardware. Yeah. So we we we made a lot of mistakes on the interaction side. We try to go all in interaction, and turns out it's actually very hard.
+
+There's a lot of details that go in Yeah. You know, to create that delightful experience. Oh, you mean, like, actually creating a UI? Yeah. UI, but also, like, you know, yeah.
+
+Yeah. Like, what kind of, like, personal pages you can create on top of this. I mean, and we realized that, you know, like, it's it's something that would take a long time to get. Right? And this is a time, like, everyone would take this kind of, like, understanding of themselves and build this, and so we wanna enable people to do that instead of doing it ourselves.
+
+And so we decided to, like, close down the services that we have. There's only texting, there's only API, and there's nothing else. You can technically use it as a full agent, like a co work agent on laptop, like it runs smash and all that, we mend it as like very minimal, so we can like make the interaction like more smooth. Ken, thanks for coming in. Congratulations on everything and the launch.
+
+Is there anything that you want to leave the listeners with? Go try it out today. It's available. It's on 2.computer. It's a very short URL, and we hope to give you access as soon as possible.
+
+And if you resonate with this mission, you know, come join us. There's a lot to build. Great. Thank you so much. Thank you.
+
+Thanks for listening to this episode of the a 16 z podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x@a16z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode.
+
+As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund. Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a16z.com/disclosures.

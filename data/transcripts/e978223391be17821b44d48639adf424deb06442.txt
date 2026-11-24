@@ -1,0 +1,419 @@
+This episode is a replay from 2018, looking back at how the modern Internet actually got built. Chris Dixon sits down with Brian McCullough, author of How the Internet Happened, to trace the period from Netscape to the iPhone. They discuss why some great ideas arrived too early, how companies like eBay, Napster, Google, and Amazon changed the Internet, and why the next major technology wave often starts with hobbyists building something before anyone knows how to make money from it. Hi. This is Chris Dixon.
+
+This is a six to z podcast. And today, we have Brian McCullough, the author of the recent awesome book which I just read called How the Internet Happened from Netscape to the iPhone. Thanks for being here, Brian. Thanks for having me, Chris. So, I thought it was a really fun book.
+
+I guess I had lived through some of it and knew some firsthand and had heard a lot of the stories from some maybe some of the principals or sort of secondhand. I'll say first, I really liked the book because as far as everything I knew, which I'd say maybe more than half of it or something from first to secondhand, it was very accurate. And so I just appreciate No, I appreciate you saying that. And then number two is really entertaining. Was a great read.
+
+I highly recommend reading it. But then the third thing is, you know, I think it's a great resource, especially for younger people who are interested in technology or I guess, you know, in some ways everyone might be interested in the Internet these days. Right? Even if they're not in the technology industry, they probably should be interested in the Internet. I just think it's a great resource to have, you know, kind of this...
+
+But but may become the canonical kind of history of the Internet for that period. So... The thesis was two part. I'm thinking of nontech people. Yep.
+
+What has been more influential, disruptive? Technology has infiltrated every facet of our life. More clear than ever in the last few years. I feel like anybody would wanna know who did this. Yeah.
+
+Why did they do it? How would they do it? Yeah. Right. Right.
+
+Right. So I was thinking number one of Yeah. Of my parents, and here's how you got a supercomputer in your pocket, all that stuff. But number two, as we were talking about off air about ten years ago... You know, I'm 40 now.
+
+So I started to... When I meet with young entrepreneurs and and things like that, they start to say things like, oh, wow. You were around for the .com stuff. What was that like? Yeah.
+
+So now ten years on, if if you're 26, you know Yep. The Internet has just always been in the ether all around. So if you're a young entrepreneur entering tech today, I wanted... Here is your industry. Yep.
+
+And not going all the way back to even the PC era. No. Yeah. The modern era of web based startups, especially the modern sort of Netscape, so ninety three ish to I think 2007 or so. I and with the announcement of the first iPhone.
+
+Yeah. And and that's important, think, even if you aren't someone who's interested in history per se or whatever. Like, if you wanna unders... I I mean, I I think I would argue, and I assume you would agree, that if you wanna try to predict the future of your industry, you should know where it came from. Right?
+
+And that gives you a good... You know, gives you pattern recognition. Pattern recognition, but also why forget the lessons of the mistakes? Yeah. Learn learn from the mistakes.
+
+Yeah. Why forget the things that failed? When you go into the .com era stuff in those chapters, you're seeing all the things like grocery delivery, like cloud computing, cloud storage, and things like that that were always good ideas, but seemed like the most boneheaded wrong ideas at the time because it was just too soon. Yeah. So there's so many lessons all throughout the book of not just why did this thing work and that thing didn't, but why did that thing not work then, and does it work in other contexts?
+
+And learning those patterns, I think, are the most I have this. I always forget the name of it. Gotta look... It's on eBay, but it's a card game from, like, 2005. I think it was, like, dot bomb or something, but it's...
+
+And it was a joke because at the time, it was, of course, the Internet had sort of become a joke. And and it was... The cards were each all the... It was bad idea cards. And it was, like, Internet grocery delivery, Internet money.
+
+It was funny because I actually wrote a blog post about this. It's somewhere where it's almost like all of the companies that are sort of the hot companies today in technology were these quote unquote bad ideas. Right. Which I think the lesson is, I think Mark Andreessen said this, like, there are no bad ideas. They're just ideas that are too early.
+
+Right. Right? I mean... And you saw it all happen in that kind of primordial soup of nineties. And so that...
+
+That's also... There's a built in fun narrative there, which is you have the web going mainstream, and so you have this sort of, like, Cambrian explosion Yeah. Of technology and companies. And then the asteroid hits Yeah. And the dinosaurs are dead.
+
+Yeah. And then the rebirth. So, like, seeing that... Like, so maybe that is the more important lesson than individual ideas that don't work. But being in an industry that is prone to occasionally on a cycle, everything's gonna blow up.
+
+And so how do you and your company and your idea survive that sort of a cycle? It's hard to describe to people who didn't live through it how the Internet looked 2001 to, let's say, like, pre Google IPO, I guess. Right. And talk about it in the book. Before people realized, like, it was, you know, it was clear people, like, it was an important thing, people would use it, you know, although nothing like today, didn't have smartphones and everything.
+
+It would be more like the same. You go home, you check your email, like, it's this nice way to send pictures to your family. So, it's clearly like a useful thing to have some money for, but the assumption was it's one of these things like airline industry or something that'll just never make money. Right? It was a cool thing, cool tool, we're using it, but man, was that a bad idea from a business perspective.
+
+Right. There's two things. That was the sentiment. And then Google... I remember Google sort of, you know, their IPO, and then Ubuntu were other Do you remember the first time you heard how much money Google was making?
+
+Because I remember so many people's reaction to that because that was the thing is that everyone had been conditioned to think Yeah. That while the Internet was fun, it was probably a niche, and you were never going to be able to build a truly great company on top of it. And then all of a sudden, because I kept it secret for so long, I remember people's reactions to just their jaws dropping. And I think as I recall, I joined the industry, and there were sort of all these other kind of green shoots. You saw...
+
+You know, if you were in the industry, you start to see, wait. That person, you know, they're supposed to be a terrible thing, and they're making 2 Well, 100 cat or that. Million Being one of them. Yeah. Yeah.
+
+Was so... Yeah. They were absolutely like Flickr and Delicious, and there were all these cool products, but also there were Zappos and PayPal Yeah. And a bunch of other companies were actually still kind of going... And they weren't Google, but they were, you know, they were real businesses.
+
+Let's So, go through some of the chapters of the book. So, I think what particularly interesting thing is in the early stage of the Internet, there was this kind of... I think one thing people don't realize today is the kind of bottom up decentralized architecture of the web. There was an alternative to it known as the information superhighway being pushed by companies like, I believe you know better, Comcast, Disney, Microsoft. Well, they were all planning to get together and make...
+
+You know, there there was a million plans, a million meetings, and I say in the book, you know, Bill Gates took meetings with all and sundry from Barry Dillard or whoever. So the point being, though, that there were plenty of people who just didn't believe in the Internet, and then among the people that did, they it. I don't think that's it. Okay. I don't think anybody, even the people that eventually became Internet true believers, thought that it was good enough.
+
+That's, I think, the lesson. Okay. Sorry. So I guess... Wait.
+
+Let rephrase it. I think there was some camp of people that just weren't excited by the idea of networking computers. Right. Then there... Of the people that wanted to network computers globally, there were people that thought the best way to do it would be in this kind of centralized way with, you know, putting a big box, buy your TV with a big fat pipe and, you know, and sort of a TV kind of top down experience controlled by Comcast, Disney, Microsoft.
+
+Then And there was sort of this really kind of unlikely alternative, which was this, at the time, pretty crappy experience in Mosaic and, you know, homebrew websites and Yahoo, and you talk about this, you know, in the book. But like... And I think, I don't know, I think that was sort of the... At least, let's say, three or four, probably still the underdog. Yeah.
+
+Certainly. You know, right? Approach. And the fact that... Versus AOL and all these other companies, you and the fact that that ended up winning, like, what's the lesson there?
+
+It's a very interesting story. We're almost saying it. It's obvious. The lesson is sometimes just good enough technology Yeah. Is good enough.
+
+So, like, again, Bill Gates and Barry Diller, all of them, they weren't wrong. They believed that Yeah. Broadband was gonna become So they were trying for perfect too early, and, like, and just good enough was better. Knew it was gonna come 2002. They weren't wrong.
+
+That's the date that broadband start to penetrate and things like that. So they thought they had time was the key essence. And they thought that, okay. We'll all play nicely together. We'll all take our piece of the pie or whatever.
+
+So it's classically out of nowhere from the bottom up, like you're saying. It was almost like the PC too because it's hobbyists Yeah. That wanna do this thing. So people see the early web and, you know, pictures are enough. Little postage size videos are enough to do cool things at the beginning.
+
+Yeah. Now then you have the crazy people that come on top of that and say, can I do commerce on top of this? Can I build an actual business on top of this? But what you need first is you need the technology to be good enough to excite a sort of, like, enough people to accept the limitations of the good enough technology. And then if you reach a critical mass there, then you can at least build businesses off those early adopters.
+
+But I I would also... Maybe I'm promoting my own view of the world here too much, but I would also argue it's very important that the people that are excited in the beginning are also people, like, who are able to build websites Yeah. And... Or build code or write client or do whatever. Like, the fact that a lot of them were software developers or computer enthusiasts.
+
+Right? Like, the same with the early PC. Like, you didn't just want people to use it. You want people to write spreadsheets and word processors and do all that stuff. Right?
+
+So for that, we have to credit Berners Lee, of course Yeah. Because not only does the web bring sexiness to the Internet. The Internet had been around by twenty five, thirty years at that point. But the pictures and the things and the cat videos, like Yeah. That gets normal people involved.
+
+But Berners Lee and HTML is so dead simple that you have to only be minimally sophisticated to be able to develop for it. Right? And so we have to give them credit. Him and then also the academics and other people who made DNS, for example, like, the fact that it was permissionless. The fact that a hobbyist and a university could be on sort of level playing field with Disney on the web.
+
+Right? Right. And, like, put up a website and So it's that sort of chicken and egg thing where people see the web for the first time in the Mosaic browser because it's easy to use because you can get it on Windows. Yeah. And they say, I wanna create a cool thing like what I just saw.
+
+Yeah. And so it's easy for them to go off and create that cool thing. It's Right. You need both sides of it. Yeah.
+
+Yeah. I see. So you need sort of the one side that kind of inspires people Right. And gets them fired up, and the other side that lets them then go The obvious analogy to think of today is, like, VR is still Yeah. It's not only can you not get mainstream people to adopt it, but it's still relatively difficult, and you have to be super sophisticated to create Yeah.
+
+Decent VR experiences. Yeah. Makes sense. Okay. So there's that.
+
+So to me that that beginning part was really interesting, the sort of top down bottom up battle. And in fact, like, I think you had in the book, I'd seen this before, but Bill Gates' first version of his The Road Ahead, came out in what, know, '95 or something? Ninety four ish. Ninety four ish. Didn't...
+
+It barely had the web in it, and then they actually revised the version. Suddenly had a hundred and fifty second. Information super high. We did talk about networking. Right.
+
+And so that's that's the only thing. I'm not calling Bill Gates stupid at all. Of course not. Yeah. He had the vision.
+
+Yeah. Just bet on the wrong horse because he thought that it was too nerdy for normal people to adopt. Interesting. Then And you talk about a bunch of interesting things, obviously, sort of the canon of the iconic companies, I guess, Netscape, Yahoo, Google, eBay. Amazon.
+
+EBay is an interesting one because I think of the, you know, well, they're all interesting, but obviously Google and Amazon are wildly powerful companies today. Know, Yahoo, of course, had its sort fall and was kind of replaced by Google. I think eBay is interesting because, you know, they're still an important company. They're a big company. But we don't think of them as...
+
+Or they're not sort of GAFA. They're not the four big ones. But from a product point of view, I think you argue they, in some ways, could be the most influential Internet company, and in some ways, the truest Internet company. And I was surprised that I discovered that in writing the chapter. I knew I was gonna write about eBay.
+
+But so there's three things that they do that I argue are super influential, and they deserve more credit for laying the groundwork for this. Number one, they teach normal people to trust faceless strangers from across the country online. Right? When I was doing the library research for this, as late as, like, the Christmas of ninety eight and ninety nine, people are wondering if ecommerce is ever gonna take off because they can't convince enough people to put their credit cards online. Yeah.
+
+We're gonna completely through the Looking Glass world now in terms of that sort of stuff. But so the fact that eBay trained normal people that you can trust faceless masses, we should not underestimate the people that were the training wheels for the modern digital era. And so just doing something like that is key. The second thing that is key is that, like I said, these are masses that are self organizing. Yeah.
+
+And so, like, we live in the tyranny of the five star rating system. How would Yeah. Uber, Airbnb, go down the list. They created or they proved that a nonhierarchical sort of self organized reputation system could function online, maybe not perfectly, but well enough Yeah. To achieve scale to be good enough most of the time.
+
+Did eBay invent that or popular? There must have been a concept in, like I'm sure of from, like, the Usenet or some I'm sure of course they did not invent it. But the story is is that They certainly popularized it. They certainly made it mainstream. Pierre Omidyar did not want to have to settle the disputes between users, so he just created a system out of laziness that was like, alright.
+
+You can accrue reputation, and if you don't defend that reputation, it's gonna harm you. And so that was actually one of the key reasons that they... Because Amazon came after them, Yahoo Auctions came... You know? Yeah.
+
+Yeah. People... Once they invested in that reputation system enough, they're not gonna go to the other platform. Right? There's people on the Internet.
+
+The rating system. And then And then the third one is just the fact that... And I do argue this maybe around the edges, there are others, but they were the first company to succeed at our business model is just whatever our users are doing on our platform. And I tell the story in the book that, like, Jeff Skoll is... The newspapers were not dumb no matter what anyone says.
+
+They were kicking the tires. They knew that this was was a threat to their Yeah. Classified ads business. But one of the guys says to Jeff, my c suite's not gonna sign off on buying you because you don't own anything. You don't own trucks.
+
+You don't own factories. And and that's common throughout the digital era. But, also, they couldn't wrap their minds around the fact that, like, you're not even taking possession of the goods. All you're doing is letting people interact. Yeah.
+
+Yeah. And so, again, where would social media be? Some of the most powerful, valuable companies in the world don't own anything. That's precisely why they're so valuable because that... It turns out that's a very profitable thing.
+
+You don't have deal Right. Right. Inventory and everything else. Yeah. It's funny you still see that on, like, Twitter.
+
+People are like, you know, how could Uber be more valuable than Mhmm. I don't know what hurts or something. They don't own things. And it's like, well, it's not the... That's actually a feature, not a bug from a Right.
+
+A P and L perspective. That's interesting. So, guess I some other interesting ones are Napster. That was one I learned a little bit more. I mean, I knew this public story, but I really knew the story.
+
+Yeah. I discovered what that was about while doing it because... And we all think Napster, it's about piracy. It's about disruption of a media industry that that can't get with the times quick enough and was... It dug their heels in stubbornly.
+
+But... No. And I got this by interviewing some of the Napster guys where they're making their case. And then when you do the research, you see their quotes from nineteen ninety eight, ninety nine. They're screaming this from the rooftops.
+
+The story at Napster is today we live in a world for media of unlimited selection and instant gratification. If I tell you about a TV show, movie, book, whatever, we just did that with our phones. Right? You know? You expect to be able to pull it up in five seconds and at least sample it or probably Yeah.
+
+Consume it. Right? They... That's what they had. Yeah.
+
+And had they been able to convince anyone of that in 1999, it would be a completely different media landscape. And the only problem that they had is, you know, don't pick a fight with an industry that has literal mob ties going back to its very founding days. That's interesting. It's it's sort of a three act... To me, it's a three act play.
+
+Right? So the first act is Napster does this, and everyone says they're instigating piracy. Mhmm. And the second act is, okay, we shut them down. We got rid of the pirates.
+
+And the third act is, it turns out, in a way, they were right all along. It wasn't about getting things for free. Was about the convenience. And Like, I mean Steve Jobs said the same thing. But, like, right, in the end, it turns out, like, today that there's like very little, know, mean, there's music piracy, and there's movie piracy, and there's video game piracy.
+
+But for the most part If you make it simple enough and have a reasonable price That's right. That's right. So, it turns out, we now know that their value proposition actually was, as they claimed Right. 100%. A great deal of it was about convenience and not about 100%.
+
+Yeah. And so, you know, the direct analogy is Spotify. Right? Yep. You could have had a Spotify in 1999 or 2000 at the very least.
+
+This is, again, classic disruption stuff. You can't convince an industry at the height. Yeah. You know, 1999, I think, is the height, and they're doing 20,000,000,000 because of the CD format. And that...
+
+It's all that classic stuff. But at the same time, you know, there's other reasons why Napster didn't work out. They couldn't attract the best talent, and the legal stuff happened from day one. But Didn't they also get displaced by, like, Nutella and all these other... Or more like...
+
+Or what was it? Kazah and Yeah. But, like, let's say that the record companies had been willing to at least play ball a little bit and do tests with them Yeah. As a platform. Right?
+
+Think of the counterfactual there. Where would... If Apple launches the iPod, how does that eventually gain traction other than being something that then if Napster is popularized is just, you know, an accessory to Napster. Right? And then, you know, if that model had been proven, who's to say that they wouldn't have been the ones to go, because it's the next obvious thing, to video streaming and things like that.
+
+So, you know, Netflix had the road open to them because there was no one else doing it, but, like, there could have been a player already there that had proven success through this model Yeah. And would obviously have gone into video. And that then... When when YouTube and Netflix came along, the movie and TV folks industries had seen what happened to the music industry and were savvier this time. Right?
+
+Instead of just sort of saying, let's just fight it tooth and nail, maybe we can make it work for us. Number one, they trust Google to have the math to at least take down the piracy Yeah. Enough. Yeah. Number two, Google had already proven AdWords and was making, you know, billions of dollars a year at these little contextual ads.
+
+And so Google can come to the table with them from day one once they own YouTube and say, hey. There's money here. Do you want a piece of this? So as opposed to Napster, which didn't have that built out, so they're they're begging the record companies to come to their platform that they're gonna build. They haven't done it yet, but they don't have in place any monetization.
+
+So from day one, once YouTube is under Google's wing, Google has at least something. It wasn't what they wanted. It wasn't gonna replace their existing business models, but something was better than nothing. Yep. So let's talk about Google a little bit.
+
+So I think to me, there's many remarkable things about Google, but perhaps one of most remarkable is the business model Mhmm. Which kind of, in like the most serendipitous, like, confluence events in history, right, you create the most popular... Mean, you sort of think what went... I mean, they're brilliant, of course Sure. And and invented all this amazing stuff.
+
+But they they build this incredibly valuable search engine, I mean, incredibly effective and useful. You know, the web, of course, explodes in use, in value, and broadband, and smartphones, and all that. But then this company called Go To originally, and then Overture, for sort of completely, a little bit orthogonal reasons, invents the greatest business model of all time, which happens to tuck perfectly into Google's model. I just gave a talk a couple weeks ago at Google. Yeah.
+
+It posted recently. And I said to them, I was like, I don't know how to say this here, but, obviously, you guys, your first miracle was you solved search. God bless. How can we function today without that? Your number two miracle is that you created the greatest advertising machine ever devised by humanity.
+
+But Yeah. Actually, you didn't create... You kinda stole it. Yeah. They didn't steal it.
+
+Somebody somebody else invented it because they actually made it functionally better. Yeah. You know, that's the Google story. There's no problem that they don't think that they can do better. The quality score stuff.
+
+Right. Exactly. Yeah. Right. So Well, and they had they had great...
+
+Like, to never had great organic results. They just had it resolved. It was just a pure auction. Yeah. Pure pay for play thing.
+
+It was like for people today, it's like just the SEM without the SEO. Exactly. It's just the right rail without the left. And then, like, that that original model... Because, again, I I built one of my first companies Yeah.
+
+Surely on AdWords. Yeah. So imagine this perfect three sided market where as an advertiser, I'm paying less per click if my ad is more relevant. Because I remember, like, I I used to be paying $2 or whatever over on GoTo, and all of sudden, I'm paying 30% a click because my ad is better. And as it gets better, it goes down.
+
+The... Google's making more money because they know that someone might be bidding a dollar but only be clicked on a certain amount of times. If if you bid 5¢ but get clicked on 30 times, we make more money. And they did those... They did that actual AB testing where it's like the users actually preferred the ads because if the organic results are good, yeah, maybe these paid results also might have some benefit, you know, for certain use cases.
+
+So people actually search more once they put the ads up. So it's the perfect three sided market where it's win win win. Well, the other fascinating thing, right, is all of the pressure at the time was around... So that everyone thought the only possible business model for search was sort of the portal model, which was to have, you know, banner ads. Right.
+
+And so surrounded by celebrity news and all sorts stuff. It's the classic eyeballs attention Yeah. And so there was all these famous stories. I think it was Excite with George Bell or something where they were, you know... And I'm not taking...
+
+I don't... I'm not criticizing these executives at all because like that was the business model of the time. Whole thing was I don't want a search engine that's too good that gets them off my site because that destroys my business model. So, like, the other brilliant thing that Larry and Sergey did, right, beyond everything else was stick to their principles with kind of crazily, right, with no business model at all inside. As I point out in the book.
+
+Gonna go against the entire industry, and we're gonna just bet that a business model will come along that's going to work. You know, everyone says it's not going to. Their investors have said publicly that we were starting to get a little Like like, are you guys ever gonna Well, they had this whole real... This one sounds crazy today, but they had a real effort to do... They they were gonna sell Google Boxes, which were this enterprise search because everyone knew consumer and had no business model.
+
+Right. And there's like... I remember there's a great business we got from, like, 2,000, like, you know, awesome search engine. How will they ever make money? You know, one of these, like, pipe dream Silicon Valley things.
+
+And they literally... It was like a little cell box. It's a $100,000. You put it in your data center. It collects your corporate I think people were still manufacturing those as recently as two years ago, by the way.
+
+Is that right? I think they only recently shut that business down. They probably felt bad because someone bought them and you felt shit to support it. Don't know. Anyways.
+
+So that's an amazing story. Well, I don't know. What... You tell me, like, what other... I mean, there's a whole bunch of stories in there.
+
+Yeah. I mean, I I fought hard, as we said, to preserve the stories of the .com bubble because I think for our industry, it's key to remember. So, like, the bad... You mean the bad side of the bubble? The bad side of Let's talk about that.
+
+So Sure. You're talking about just the froth and the bad companies and the... That... The whole kind of hysteria and stock market. And so part of it is excusable by the fact that, you know, any any new technology is a lot of entrepreneurs feeling around in the dark to see what actually works.
+
+Yeah. But this was more so than most because no one knows anything. No one knows if you can successfully do commerce on the on the Internet at the beginning. No one knows, like I think of it as, you're you're you're searching on more degrees of freedom than normal. Normally, you're looking for, like, what's a good...
+
+Here, you're just trying to figure out what's good product, what's a good business model, what's a good... Like, it just so much was unknown. When you invent the internal combustion engine, you have a pretty good idea you're eventually gonna move people and goods on it. Right? That's right.
+
+Okay. But no one even knows... It's like that that analogy of the elephant. Like, you're looking at the elephant. Somebody sees a tail.
+
+Somebody sees a toe. Like, no one really knows what they're looking at. And so I don't... A lot of the fun excess and things like that, I don't blame the people involved at all because no one knew. And anybody that tells you from that time, oh, well, we were successful because we...
+
+No. Come on. It was just random chance in a lot of cases, proven out by the fact that the vast majority of them were ecommerce plays. Right? Well, I think the way you describe in your book is...
+
+So you sort of had... I don't remember the years exactly, but, like, have some, like, high quality companies. 'ninety six is more of that. At some point, maybe 'ninety nine, You you get get cynical. At some point you do get the sort of the lusters and the cynicism and just like pure, you know, business plans, IPO.
+
+So I think there's like, right Structural stuff. There's great companies that survived. There's the really well intentioned good ideas that just didn't happen to make it. And then at some point, there is this sort of cynical Because there's the folks from the VCs in there, number one, where they're like, we don't have to back a successful company because all we gotta do is get it out the door and get it public. Right?
+
+And Well, and the way capitalism works is, like, maybe there are VC... I assume there were VCs who were really trying hard to find companies that would really work long term. But eventually, if they if their neighbor is doing the cynical strategy and winning, the, you know, the It's the system classic will bubble or reward the greater fool. Like, can I can I get out while the Giddings good before those guys get out while the Giddings good? But also then, you know, it's not just the VCs because Wall Street had so much.
+
+And not just Wall Street itself, but, like, as I point out in the book, like, this is... Historically, these are the baby boomers reaching their peak earning years, and they're gonna... That money had to go somewhere. So almost independent of the Internet, you would have some Right. You would have had some And it was it was it was a ripe era for some Maggie Maher, the journalist from Barron's in the book, I quote her.
+
+She said something like, yeah. If someone would have had to invent this. It was the froth on the cappuccino of the of the longest bull market in history. Yeah. Yeah.
+
+Going back to '82. So, yeah, let's talk just more about the... Say that kind of the frothy sort of craziness there. Right? So many times in this book, so many of the ideas that seemed dumb at the time prove out later because they were just too soon.
+
+Yep. There was a startup, I think they might have been public in the late nineties called MySpace, but it wasn't the social network MySpace. It was literally you would put a picture on your desk. It was Dropbox. Right.
+
+Store your files in the cloud. Right? But, you know, this is in the era of dial up. Yeah. Wi Fi doesn't have...
+
+There's... There were so many things. One of the most notorious.com era flame outs is web van Yeah. Which is grocery delivery. Right?
+
+The story of the the pets.com and all of... There was... There were four to five major pets ecommerce plays, and they couldn't find ways to economically ship dog food. Yeah. Now, again, that's a classic story, but, obviously, that's a problem that's been solved now.
+
+So in a way, this is always true, again, in tech, but any technology... Like, there are ideas that'll always be bad ideas, and then there are ideas that are only bad ideas because of certain... The technology's not there yet. The market's not there yet. The public's not there yet.
+
+Yeah. So there's a lot of those stories in the book, and I wanted to preserve that. I wanted to also show even ideas or people that swing and miss in certain areas, why do they come back? What are the lessons that that... Because it's not like...
+
+Well, boy, I I What are some good examples there? Frankly, things like the on demand delivery stuff Oh. Because there was Cosmo here and near Oh, so you're saying the... Okay. I thought you meant those very same people.
+
+You're saying just trying the same ideas. Well, I mean, I... I'd have to think about it a bit, but there are... Mark being a perfect example. You know?
+
+But the idea that you wouldn't hunker down and wait on your idea to... No one knew at the time you needed smartphones to get the on demand delivery Yeah. Yeah. Piece of the puzzle to work. But it's not like people hunkered down and waited.
+
+A lot of the people went into... In different directions. The people that were successful, like the the... A lot of the people that founded PayPal, you know, came from other .com stuff that they either flipped and sold or IPO ed or whatever. But then they didn't keep going with those original either ecommerce players or whatever it was that they did.
+
+Like, what was Zip two? It was like a directory or something like that. They went in a different direction. Yeah. So, like, I wanted to track, like, that sort of development on the specific personal story level too.
+
+Where do you think... So maybe just switching gears here a little bit, but, like, do you... Where do you think we are? When you write that... Must have thought a lot about this, I assume, when you wrote the book.
+
+Like, so you you wrote about that era, and then you can imagine a follow-up book from like 2007 to today that we should kinda call a smartphone era, I assume. Where do you think we are now? Like, do you think this is the Internet and now... I mean, obviously it'll get better and improve, but like that was sort of it in the same way that Like, well, you wrote a book about the automobile industry, right? You write about Mhmm.
+
+You sort of The equivalent of your book would be covering, I don't know, 1901 to 1915 or something, right? Yeah. And then after that, okay, you get more makes and models, and they get faster, and this and that. But fundamentally, you know Right. Or I don't know.
+
+Maybe not. Maybe in the automobile industry, you could argue that stage two was about building suburbs and trucking companies. And, you know, so that would be sort of the history of, like, where are we? I just... I always think about this.
+
+Don't know the answer. I'm saying, where are in the hundred years story? If I'm being honest, where we are right now today, my original answer was gonna be almost what you're saying is that we're sort of in a lull. Okay? So I said, like, you know, the original .com era is this Cambrian explosion that tended to have sort of a a flavor towards commerce.
+
+And then in the web two point o era, you have this more here comes everybody sort of thing where the web and and and technology itself becomes more bidirectional where people aren't just passively consuming their all sorts things. O. I think it's Clay Shirky's phrase, which is sort of this idea of, like, Wikipedia and Facebook, whatever, just sort of this bidirectional But I mean sort of just By just turning the knob a little bit, that shades into social. Right? Yeah.
+
+Yeah. And then when mobile mobile is essentially... Arrives at the same time that social Yeah. Goes mainstream, and it is serendipitously the perfect consumption Yeah. And crucially creation device Yeah.
+
+For social. Right? So would social have got as far as it had had the iPhone not arrived at the exact same moment? It's within the same eighteen month period that Facebook opens open registration and the iPhone is released and things like that. But I think that that's that's a crucial thing to remember is that it's not just the perfect consumption device.
+
+It's the key device for actually creating all that social stuff. Back to your original question. Yep. I actually think we're in a lull right now, if I'm being honest. Yeah.
+
+That... Remember what it was like, you know, as late as even 2012, where it was like every couple of days, you'd like, what's this new thing now? Yeah. Do I have to be on this? Yeah.
+
+Do I have to try this? Do I need this gadget or whatever? And, you know, aside from all of the other, you know, things about tech right now and people maybe feeling bad about the tech industry generally, I also think that what's not helped is that there hasn't been that new wow factor. And and I don't know what that is. Are we in a lull, or is the Internet like TV, and now we have CBS, NBC, and ABC.
+
+Is that a symptom of maturity? Yeah. Or is it, I guess... So, I agree we're in a lull And personally, I'll just say my own bias would be it's a lull and it But will un lull or another argument, you know, I think if you read Tim Wu's book Mhmm. Mass...
+
+I think it's called Master Switch. Master Switch. Yeah. It's really good book. He...
+
+But he basically argues it's just sort of the... All all forms of media get mature. You have four big incumbents, and then you Yeah. The government either breaks them up or doesn't. Like, is that is that where we are?
+
+Or I think so for at least the existing players. But I think the other thing where we are right now is Or or is software technology have a different dynamic. I guess that's what I'm... I I... Know, I'm getting...
+
+Guess sort of I'm sort of hinting at my view, which is I think software is a little different than hardware in that way. But Because this is more what I... On my daily podcast that I've been talking about a lot lately is that another symptom of what we have right now is that there was a lot of low hanging fruit picked. Like, when mobile takes off, you can be a 16 person team, code up a new, better... Slightly different chat app chat app and have a billion users.
+
+So we were in this great period of a decade, the better part of a decade, where everybody can chase a billion users. Right? Well, most of those categories have been filled. I mean, arguably, anyone could come around tomorrow and do something slightly differently and and take over anybody's place in any of these. Because all anyone was chasing was scale, all that mattered was getting to that scale.
+
+And I think that what we're waiting for now is that it is sort of like the market where it was just the model t, and you could only get it in black, and there was only... What we need to see this next generation develop is that it's it's about not just the quantity or not about the scale, it's about the quality. Like, the way that you'll differentiate and become the new Instagram and become the new... What I... I'm using mostly chat apps right now as the example.
+
+Yeah. But it's to provide a qualitatively better experience. And I actually think that that will create more interesting startups because it's not just you show up here, plant your flag in this market, and reach a billion users. If you're gonna reach a billion users now, you have to offer something qualitatively different than what other people are doing. Yeah.
+
+I guess the question I have is, so the the... I think the historical pattern in tech has been sort of this interaction between what's called infrastructures, we call platforms, let's say infrastructure and applications. Right? So infrastructure in my mind is computers, the Internet, right? It's sort of, you know, broadband, smartphones.
+
+Applications are the word processor, Mosaic, eBay, you know, websites, Instagram, things like that. Right? And I think, you know, you mentioned low hanging fruit. What happened right there was the iPhone was this major new unlock kind of for a new wave of infrastructure. Right?
+
+So then... And then... And people suddenly have this. You're holding this thing in your hand. You got a camera.
+
+Mhmm. You've got this awesome screen. What am I gonna do with it? You're sitting there looking for apps. Don't have that many on your screen.
+
+You know, now it's saturated, right? And so then, and I think the history has been that the lull is due to the fact that now, you know, the iPhone is 2007, the App Store 2,008. So, we're ten years into this cycle. Right? And so it's sort of people have, entrepreneurs have picked off all the low hanging applications.
+
+And... But then but then either we're at the end of history or something new comes along. I don't know. You know, we have all these candidates, and maybe it's a new kind of device. Maybe it's car.
+
+Maybe it's VR. Maybe it's blockchain. Maybe it's machine learning stuff. Maybe it's whatever. I don't know what it is.
+
+And and that thing then creates a new piece of infrastructure that unlocks ten years of innovation, or we're at the end of history. I don't know. We're not at the end of history because when I think another thing, and I'm not blaming entrepreneurs for this, but people are still doing the same playbook that people have been doing since 2004, since the first time that you could achieve a billion users with a product. Right? And so what what I'm saying is is what maybe we're also waiting on is for that next generation to come up behind and be like, well, we're doing it this way because this is the way it makes sense to us.
+
+Mhmm. As opposed to maybe, especially these last couple years, people are still trying to hit from the same playbook. And that's not what happened. Okay. So you're saying less a new piece of infrastructure and more just a new kind of cultural shift in And I'll tell why.
+
+Yeah. Because think about it. Like, when we were talking about when the .com bubble bursts and, like, well, people think it's a fad and this is over, but the people that still believed in... They... People were still using it.
+
+They were still using it to do cool stuff. Right? And so they weren't trying to... It's not like everyone... Because they had the example of the whole .com thing blowing up, so they weren't gonna do that playbook.
+
+That playbook was dead and over, so they were freed to go off and do crazy ideas. Right? So it's almost like we're being held back by the fact that we have been so successful in tech, and tech has taken over the world. And so people are trying to follow that model that has been so successful for everybody else. It would almost be useful if we had a couple blowups so that people would be freed up to think differently and also, crucially, be brave enough.
+
+Because, again, when Flickr gets started, like, it's no other... Like, this is cool. Like, I can... I wanna find all photos of the Grand Canyon, and users will do this for us with taxonomies and tagging, and they're like... So, like...
+
+And then we'll find the business model later, whereas everybody is still, again, trying to play from that Instagram and and Yeah. Get to a billion users and get to scale playbook. I think what probably will happen is is some... At some... You you sort of have these archetype companies come up who show a new playbook, right?
+
+So you mentioned Flickr and those... And Delicious and those things in the kind of Web two era. And we were talking earlier about eBay. They kind of paved the way for a lot of that stuff. I think there's been a...
+
+Like right now, at least what I'm seeing in the industry, is there's a lot of stuff happening on... In enterprise software. So if you kind of think about... I mean, one way to interpret the current Internet, like, era of the Internet is this actually a corporateenterprise era. Right?
+
+And I'll admit my bias is towards consumers. No. I'll say so just... And mine is too, but I work at a firm that does both, and I see this stuff happening. The...
+
+Know, if you just think about your typical experience of a corporate worker in 2018. You go to the office and maybe you're using Windows 95 and, you know, some archaic, I don't know what, ERP software and a bunch of other stuff. And then you go home and you're using this like, you know, retina iPad and Gmail and Facebook. It's it's a very... You know, it's like a little like a time travel experience.
+
+Right? Like, the software, the work feels like ten years ago. So I... One interpretation, I think, is what's happening right now is we're just upgrading all that stuff, and that's hap... That's quote unquote SaaS and all these other kinds of things going on.
+
+And it's... There's a lot of successful companies there. Can I pose a question that, literally, I'm posing this to you? Because I wonder if, structurally, this is another thing. When when you had Web two point o flower, Microsoft had already had the antitrust thing, so they're not gonna buy anybody.
+
+Right? The .com bubble had happened, so it had cleared the slate. So there was this decade long period for the Facebooks and everybody to surface, and no one's gonna take them out. So I'm almost asking you, like I mean, it was Yahoo who was trying a little bit. Yeah.
+
+A little bit. But not in not in the way that Microsoft could've... Microsoft could still have bought Amazon when it was a $5 stock. You know? And, like Yeah.
+
+So maybe are we structurally in a situation where the danger is is that because the big players at the top are so big, and all they do is every time there's a new crop coming through, they just pick them up, incorporate them, and turn them into a feature of their existing products. Instagram stories, Snapchat would be the most Exactly. Didn't have to buy them in that case. Right? They just...
+
+That's the that's the counter argument is the distribute on the consumer side. So if we're in a mall is so strong that even if you have that great idea... Now now there there are also... But there are limits to this. Right?
+
+Like, there's only so many times Facebook can add... Keep adding features to Instagram True. You know, without, like, the thing becoming, you know But what I'm saying is is that, like... So then if if Flickr comes around today, that would just be... You know, it's the most obvious example, tagging photos.
+
+That would just be something that would be immediately scooped up and incorporated into someone's existing product. So, like, are we in a lull because we almost got lucky fifteen years ago that we had this period where everyone could rise up and no one kneecaps them? I think it definitely had... I mean, I just think it had... Like, look look at Snap...
+
+Snapchat's a good example. Right? That that was a... I mean, you know, they really invented sort of a new media type. Right?
+
+I mean, that type of, you know, whatever, the vertical the vertical short video with stuff. It's a brand new idea. And just the way that the ephemeral messaging and all... You know, it's probably on par with things like Flickr and sort of their new novelty. And then, you know, and they're still a very successful company, and they're publicly traded, and you know.
+
+But I think their growth, most people would agree, was severely limited by the fact that all of the ideas propagated so quickly. And particularly companies like Facebook have just gotten very good at execution and leveraging their massive distribution. And Amazon, too. Like, you have some great new, you know, Etsy comes along, and then Amazon launches Etsy. I don't know how well it's done, but Amazon Homemade or whatever.
+
+You know, Instacart comes along and they launch it. So they're... And they just take advantage of their scale and Amazon Prime and just all these other things. And I'm also almost saying it at the level of, like, if you... If you're a company that can...
+
+Has the luxury of staying independent, then you have to find... If you have one good feature idea or one good product idea, but it's not an actually a good business, you have to bust your butt to make that happen. Versus if you're in an environment where you have one good feature and someone's gonna acquire you just to add that feature to their set, then you don't have to do the work of actually evolving that feature before it can become a good business. My partner, Alex Rimpel, so I guess I'm gonna butcher the phrase, but it's something like start ups try to find distribution for their innovation faster than the incumbents attach innovation to their distribution or something something like that. Right?
+
+So it's of a race between... And he always uses like TiVo as an example. Like, great idea. Yeah. But you're competing against Comcast.
+
+Right. And like, you know, it'll... Of course, it'll take Comcast five years to add this feature because they're just not very good at adding new features. But they're Comcast, and they've got whatever x hunt... Tens of millions of households, and eventually they add the TiVo feature.
+
+And you know what I mean? Or can TiVo leverage that? Or like Netflix is probably the... One of the most interesting ones today, right? Because it's, you know, a lot of people would have bet against that.
+
+A lot people did bet against it. The idea that they would be able to add on, you know, get to 200,000,000 people before the people with 200,000,000 people would figure out that like people want always on streaming and everything else. I sort of think of it as like the enterprise consumer thing. That said, there's always new interesting stuff popping up. And I think there's always this kind of search on the periphery.
+
+I personally, where I enjoy spending my time is on the periphery on the, you know, virtual reality and crypto and all these other kinds of things. Like, there's always these periphery things, and those I think sometimes, you know, especially if you get a lot of developers fired up, can surprise you in the rate at which they improve. I And think at some point, I don't know when it'll be, but I I think at some point there will be kind of a new set of infrastructure that unlocks new capabilities, and then we go back to that kind of low hanging fruit mode you described. Yeah. Well, one of the key things to look for and go back to the PC era, the Homebrew Computer Club.
+
+Yeah. Go back to when the Internet gets started and people are just doing it because they wanna make cool websites. Go back to when the.com... Always look for the people that are doing this even though they don't think they're... There's a reasonable expectation they'll get paid for it.
+
+Like... But they're so passionate about it. Yeah. Like, the the PC industry was literally created by hobbyists. Yeah.
+
+And and so, like, you should be looking in those spaces today even as weird as those spaces might look right now. And, you know, even think of things like esports and things like that that obviously are becoming very successful spaces right now. But, like, that's where you need to look is where on the developer side, but even literally on the hobbyist side, where are the people doing these things so passionately that they don't... It doesn't even occur to them. It could be a business or an industry.
+
+Like, that's where the next Yeah. I like to think of it as as... One one... I I was... I had...
+
+One time I was thinking about this. Like, why is it that so many interesting tech things come from hobbies? And I had one model... This is one model I'd propose, which is think about the things in life that operate on a two to three year time horizon versus the things that operate on a ten year. Right?
+
+So most businesses, you go to your work nine to five, and almost every normal business, maybe a few outliers here and there, they operate on sort of... They manage to a quarterly or yearly cycle. Right? And maybe they'll invest in sort of two to three year things or something. Who in the world invests at a ten year cycle?
+
+Right? I would say it's maybe academics, maybe like things like DARPA. Government. Yeah. Yeah.
+
+Government. And then it's... And then hobbyists, frankly. Right? Because the hobbyists don't care.
+
+If they're doing it for love, they're doing it, you know, because it's just cool. Right? If you see like people in in whatever the Homebrew Computer Club, they weren't thinking of what's the ROI on this for the next two years. They just wanted to program a machine of their own. That's it.
+
+Yeah. But in some ways, I think there's... So I would argue there's a deeper truth to the hobbyist thing. It's not just... I mean, it's what you said.
+
+There's the passion. There's the smart people. But it's also there are people that are investing on a longer time horizon. And that's a very important... It's sort of a rare thing, I think, in generally in the way capital sort of most corporations are designed today.
+
+They just simply aren't designed to operate at that time scale. Right? That gets back to my theory of why we're in a lull, is that, again, people are are doing the same playbook. And like you need to you need to... That generation to come.
+
+It it could just be a generational It could be a generational thing. Like, we need that turnover of People who see things in a different way. Exactly. Exactly. And just maybe and maybe they have to sometimes sort of forget at least recent history and sort of, you know, not...
+
+Or not be acculturated into a certain way of thinking of what they were again, that almost makes me think that there was so... It's so beneficial to have a cleansing, a culling of the herd sometimes Yeah. To to blow up the old models and blow up literally the old incumbents, because then that's the only way that people, like... What we're what we're talking about is people that are crazy enough to be like, well, we're gonna do it this way. Yeah.
+
+Yeah. And then... Well, but that turns out to be the way that works in this new era. And so it's harder now because it has been so successful that you have a framework where, like, it it almost looks dumb to do things any other way right now. Yep.
+
+And there's no incentive to do it. Yeah. So, like, last question, I guess. What were... Were there a couple things that you you obviously know a lot about the history of technology or knew, I assume, already, you know, before writing the book.
+
+What were some of the most surprising things you you learned writing the book or most interesting things? How much it always is people feeling around in the dark Mhmm. Faking it until they make it. You know? And again, the So you didn't...
+
+So that was... So... I mean, so that's you're an entrepreneur, you know that that's the truth always. And so that even though the book becomes the story of these were the guys that were successful, like, was always looking for the thing, like, you know I see. Like, what's the secret?
+
+What did they do that was so smart? Theory is that because we know Bezos is so analytical. Right? Yeah. So He just had it all mapped out.
+
+And we know all the... No. No. No. We we know the reason that he started with books.
+
+He did all the he he did all the... Okay. This is our, but he was proving it to himself. He did not necessarily believe himself that commerce was better in a in a virtual environment, but once he proved it... So, like, run...
+
+Starting with books and running Amazon was almost like this test that he was running to himself. And then because we see as soon as books proves it, then that's when pedal to the metal, get big fast. So even in the case of arguably the most successful entrepreneur of this generation, I think he did not, you know, quit Wall Street, get in the car no matter what he says. There's the hagiography on that or whatever. And he knew from day one, I've been gonna have an everything store.
+
+I think he thought there could be an everything store, but he was running the test. Mhmm. And then once he proved it to himself, then he went whole hog. Mhmm. And then, you know, other things like...
+
+Again, with, like, social media and things like this, like, who how long did all of us think, okay. This is a great thing, but is there a great business here behind this? Do you know what I mean? So, like, it's almost the feeling around in the dark even when you got a provably great idea Yeah. Like, fitting that to a provably great business model.
+
+Yeah. You know? So it... It's it's... I think it didn't...
+
+Maybe it didn't surprise me that, but I I want people to see that in the book that it... It's it's not just a story of, like, these are the geniuses that won. Like, why did they win? And guess what? In almost every single case...
+
+You know, the whole Facebook chapter is about Zuckerberg almost... It's requiring people to tell him, no. You've got the great idea here. Run with this. Doing a a wirehog.
+
+Even even, like, when... Well, Facebook was sort of taking off Yeah. Friday at wirehog, which was just totally separate kind of, like They're already out in California, and and Sean Parker... At least this is Parker's telling, so, you know, granted that. But he's gotta convince, Mark, you have this great idea here.
+
+Believe in this. You know? So being an entrepreneur myself, I wanted to not bust the myths on that, but show that, like, we'll always come behind twenty years later and say that we were geniuses and we saw it all along, but that's not the reality on the ground. So Alright. Awesome.
+
+Well, thank you for being here, and everyone listening should read the book. It's a great book. Thanks. Thanks so much. Thanks for listening to this episode of the a 16 z podcast.
+
+If you like this episode, be sure to like, comment, subscribe, leave us a rating or a review, and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on x@a16z, and subscribe to our Substack at a16z.substack.com. Thanks again for listening, and I'll see you in the next episode. As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any a sixteen z fund.
+
+Please note that a sixteen z and its affiliates may also maintain investments in the companies discussed in this podcast. For more details, including a link to our investments, please see a16z.com/disclosures.

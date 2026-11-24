@@ -1,0 +1,465 @@
+A couple months ago in April, I sat down with Jensen Huang, the co founder and now former CEO of NVIDIA. We're bringing that episode back today because obviously Jensen has been in the news a lot recently. This is a challenging time for him and for Nvidia, for his family. And to be clear, this interview doesn't touch any of that. What you will hear though, I hope, is a fuller picture of who Jensen Huang is.
+
+He talks about his upbringing, his family life, his demanding approach to leadership, what he sacrificed to build Nvidia, and much more. And if you wanna see the video version of this conversation, you can do that on our new YouTube channel. Just search how I built this on YouTube or tap the link in the episode description. Alright. Here's my full conversation with Jensen Huang from April 2026.
+
+We've sort of have the outlines of all of the troughs, and there were a lot of troughs. Yeah. And I'm trying to even imagine quarterly earning calls in 2007 when your stock price is in the toilet and you're putting God, all I've this tell you, it's embarrassing. It was embarrassing. It was humiliating.
+
+Your employees are probably embarrassed for you. In fact, you know, right now, it is really quite hard for me to resurface those feelings. And the reason for that is I spent all of my time, all of my life trying to forget yesterday. Right. What do they teach athletes?
+
+Forget the last point. Yeah. It's about forgetting. Welcome to how I built this, a show about innovators, entrepreneurs, idealists, and the stories behind the movements they built. I'm Guy Raz, and on the show today, how Jensen Huang went from making graphics chips for gamers to powering the AI revolution and building the biggest company in the world.
+
+As I mentioned earlier, every founder I talk to does it all. The big picture dreaming, the late night spreadsheets, the 6AM coffee run nobody asked you to make, and every dollar you spend on your business should work just as hard as you do. That's why I wanna tell you about the US Bank Triple Cash Rewards Visa business card. Right now, you can earn an extra $750 cash back, plus you get 3% cash back on eligible purchases at gas and EV charging stations, office supply stores, cell phone service providers, and restaurants. The things you're already buying.
+
+And here's the kicker, 0% intro APR on purchases and balance transfers for 12 billing cycles. That's breathing room when you need it most. Visit US Bank dot com slash business to learn more. The creditor and issuer of this card is US Bank National Association pursuant to a license from Visa USA Inc. Some restrictions apply.
+
+Support for the show comes from Stripe. When you're ready to incorporate your startup, Stripe Atlas is ready for what's next. With Stripe Atlas, nearly all companies are formed in just one day, all the legal documents handled. And with Stripe Treasury, you can manage banking, cards, payouts, and more on day one. A global by default business account helps you manage multiple currencies.
+
+From incorporation to running your global finances, Stripe is ready for what's next. Start at stripe.com/atlas. Stripe treasury includes various distinct Stripe products. See applicable product terms. Stripe is not a bank.
+
+Checking accounts are provided exclusively by Fifth Third Bank, National Association member FDIC. The most successful business owners don't do it all themselves. They delegate. Upwork lets you build a team of highly skilled specialists for every function your business needs. So you can focus on what you do best and let experts handle the rest.
+
+Upwork gives your business fast access to highly skilled specialists with deep expertise. So you can fill critical skill gaps, launch projects faster, and scale support up or down without committing to full time head count. With Business Plus, you can access the top 1% of talent on Upwork. AI powered shortlisting delivers a curated shortlist of top freelancers matched to your goals in under six hours. No endless searching required.
+
+Thousands of growing businesses already trust Upwork to hire highly skilled freelance professionals for everything from one off projects to ongoing support. With over a 170,000 freelancers holding five star ratings, you can hire with the confidence that comes from hiring someone with a verified track record. It's free to sign up and posting a job is easy. Visit upwork.com right now and post your job for free. That's upwork.com to connect with top talent ready to help your business grow.
+
+That's u p w o r k dot com. Upwork.com. If NVIDIA were a country, it would be one of the five richest in the world, just behind The US and China. NVIDIA's value is now more than the entire economic output of Japan or The UK or France. That's how big this company is.
+
+And it's also probably the single most important company in the world right now. It is the biggest player powering the AI revolution. But NVIDIA didn't start out that way. The company actually began by selling graphics processors for video games. And for a good twenty years, gamers were NVIDIA's main customers.
+
+But back in the two thousands, the company's cofounder, Jensen Huang, made a pretty important bet. A bet that those graphics processors known as GPUs could actually do a lot more than just power video games. He believed these processors could be the cornerstone for the future of supercomputing. This was a very bold and very expensive idea. Now bear with me for a moment here because if you're not super familiar with the technical terms around AI and computing, I will do my best to explain.
+
+So think of a computer like a kitchen. The CPU or central processing unit is like a MasterChef. It's really smart. It can do almost anything, but it can only cook a small number of dishes at a time. The GPU or graphics processing unit is like a kitchen with thousands of line cooks.
+
+Each one isn't as talented as the chef, but together, these guys can crank out thousands of simple tasks all at once. Now to make that kitchen do even more, Jensen poured billions of dollars into developing a platform and software layer called CUDA, which is basically the instruction manual that lets you use all those line cooks in entirely new ways. So what CUDA basically did is turn the GPU from a video game tool into a general purpose supercomputer. The problem with it though is that it was way ahead of its time. Only a tiny number of users, mostly university researchers, had any need for it.
+
+And so every single NVIDIA processor sold to a teenager playing video games was actually very sophisticated, and yet that teenager had no need for it. And so for nearly a decade, NVIDIA was stalled. The stock price stayed flat. Sometimes it actually fell. And at one point, there were rumors of a hostile takeover bid.
+
+Many investors were losing faith. A lot of them were dumping the stock, and people outside the company were questioning Jensen's obsession with CUDA, but he kept going. He withstood massive pressure to move away from it because he really believed in the power of this platform, which may be the most remarkable thing about this story. Because a decade after NVIDIA started this experiment, the bet started to pay off. And when it did, it was like every slot machine in the casino hit at once.
+
+NVIDIA's chips found a massive new market in the emerging world of artificial intelligence. And today, NVIDIA is at the center of it. Their chips dominate the computing power needed to power AI. So how did Jensen Huang see it coming? What did he believe that others didn't?
+
+And what does he think about where all this is going? That's what I wanted to find out when I sat down with him at NVIDIA headquarters in Santa Clara, California. Jensen Huang was born in Taiwan in the early nineteen sixties. He spent some of his childhood in Thailand, and when he was about nine years old, his parents started to get worried about political unrest in Thailand and decided to move to The US. They sent Jensen and one of his brothers ahead of the rest of the family to what they thought was a normal boarding school.
+
+And there weren't that many boarding schools in America that would take international students, but somehow, Oneida Baptist Institute in Kentucky, Clay County, Kentucky. Little tiny town. No stoplight. Mhmm. And there was a school on this small small mound, you know, kind of a small hill.
+
+But the... Probably the the most important feature was that it was a boarding school and it was incredibly affordable. Yeah. Because my parents, you know, didn't have much money. And so we went there and every kid that lived there had to work, and so they had no custodians.
+
+And so we were, you know, we took care of ourselves, my job was to clean the bathrooms. Wow. And apparently I was the youngest kid that ever went there. I still am, I think. Because you were 10.
+
+I was nine when I went I've there, got great memories of it. I loved the place. It was a tough school because they invited kids from all walks of life. Yeah. And so, you know, I was nine and my roommate was 16.
+
+So none of the closet had doors and none of the drawers, because everything had to be out in the open, you just don't know what the kids are going to have. Yeah. So welcome to America. Yeah, right. But loved it.
+
+It was incredible. I was on the swim team and the soccer team, then afterwards, the coach would take you out to give you a treat. And I remember recording. We used to record a tape, and we would send it back to our parents. Know, we didn't...
+
+Long distance phone calls cost too much money, and so we never spoke to them live until they came to The United States almost two years later. And so we would record, you know, what happened this last month. And I remember I remember telling them that after the swim meet, the coach took us to this incredible restaurant, and lights everywhere is is, like, from outer space, and all the food was in boxes. It was McDonald's. It was McDonald's.
+
+Yeah. Which was magical. Yeah. Incredible. Yeah.
+
+You eventually reunite with your family in Portland, which is where your dad settles, and you grew up there. And you went on to this is the early eight, late seventies, really, is you go to Oregon State. And this is like the beginning of what would become the computer revolution. You are studying electrical engineering because I don't think they had a computer science program No. There at the time.
+
+And that's also where you would meet the person who would become your wife. Yeah. So when I was in high school, I wasn't very outgoing, and so I didn't have that many friends. All of my best friends were in two clubs. One club was the math club and then the other club was the computer club.
+
+Nice. It was the same, you know, four kids. The same guys. Yeah. Right.
+
+My best friend in high school, I I asked him, you know, where he was going to college and he said Oregon State. He asked me where I was going to college, and it never crossed my mind to go anywhere out of town for, you know, idea of going to a great university never crossed my mind. And so he said he was going to Oregon State. I said, Yeah, that sounds great. I'll go to Oregon State.
+
+And so we were roommates. And there we both enrolled in electrical engineering. And our lab, the class had 200, must have two fifty kids. It was a big, big class. And there were three girls, you know.
+
+And so I noticed Laurie a pretty girl. I was probably the youngest kid in class then as well. I skipped two grades in school. We were in lab together, and I found a way to arrange myself into the same lab as her, same group as her. And so we became lab partners, and here we are.
+
+Both of you, after you graduate, moved to California. This is, like, nineteen eighty four ish, I think, which is the center of the revolution. Right? I mean, your you... Your first job was with AMD.
+
+Yeah. And I think she also had a job Silicon graphics. Silicon graphics. Yeah. What did it look like to design computer chips in 1984?
+
+I mean, was it CAD? Was it... What did that look... What did that actually physically entail? Yeah.
+
+Well, at the time, I was the the last generation of chip designers that did it by hand and the first generation of chip designers that used software to design chips that ran into computers, that ran software. And so it was an incredible time. To put it in perspective, at the time, the chip I was working on had a few thousand transistors. Now we design chips that are 200,000,000,000, a trillion transistors. Insane.
+
+Yeah. So the scale of the problems that we work on now compared to where we started is incredible. But anyhow, my office mate went off to work for a startup company called LSI Logic, and she called me and said, hey, you know, this is really quite a special company. You ought to come take a look. And so I went to take a look at LSI Logic and it turned out this is an extraordinary company and completely revolutionary in what they were doing.
+
+Really, in a lot of ways, invented the modern way of doing designing, the way of designing chips. And so I joined them, I guess I was, you know, probably employee number one one fifty or one seventy or something like that. And you were like 22 probably at the time. Yeah, I was just a kid. I was just a kid, yeah.
+
+And from what I've read, I mean, they gave you a lot of responsibility. I mean, eventually, you would be in charge of tooling, right? Like that was sort of what you oversaw. The way LSI Logic's business worked is they had all the technology, the tools, and they made the chips, but they would make it for somebody else who created computers. And so Sun Microsystems and Silicon Graphics and incredible companies at the time in Silicon Valley who were systems companies, but they needed a chip company to help them build the chips.
+
+And so so the CEO of LSI Logic, you know, recognized my talents and put me in front of all these companies to help them. And I met some incredible people. I mean, you were... This is sort of like the PC boom, the clone wars. I mean, was a lot of demand for what LSI was producing.
+
+Right? Mean, it was an exciting time to be here, to be young and to watch, probably the next most exciting time would happen with the Internet boom. Well, LSI Logic was an extraordinary company because it happened at precisely the time exactly as you're saying, Guy, that mini computers, mini supercomputers, supercomputers, all of those types of giant systems were being created by companies like Digital or... And then the PC revolution started. And so I was really in the right place at the right time, and I saw new industries being created.
+
+I saw a lot of great startups and I was able to see see firsthand, you know, companies being built and Yeah. Great technology, bad strategy, moderate technology, excellent strategy. I saw it all. It was quite an incredible thing. Then...
+
+And, of course, I met Chris and Curtis. Those people, Curtis Pream Yeah. And Chris Maltrasca Chris Maltrasca were at Sun. These... The story is that these guys wanted to create at Sun Microsystems a a chip for specific For computer graphics.
+
+For computer graphics for for for games and were rebuffed. And so as often as the case, they decided to start their own company. Yeah. And they approached you, and they wanted you to work with them. This is around nineteen ninety two, ninety three.
+
+And from what I understand, I mean, you had a great job. You were well paid. You were well on the path to upper management. Like, it... This could have been a great, stable career.
+
+You already had, I think, at least one kid at the Both. Yeah. Spencer Madison. Yeah. And your wife was looking after the kids, so everyone depended on your salary.
+
+Know? And I think we had a whopping $30,000 in the bank. When they initially approached you, I mean, did you think that I'm not gonna take that risk? I'm not gonna leave this amazing job? Yeah.
+
+I mean, they... But they they didn't give up asking me. Because they wanted you to run their this business that they had an idea for. Yeah. But I I think in the end, what we got excited about was probably just the piece of revolution in the end.
+
+Mhmm. That here's the first time a computer was going to be general purpose, and you're going to use it for all kinds of different applications. If it had computer graphics like what people were seeing with Jurassic Park and Silicon Graphics, and if we could figure out a way to make it affordable and architect something that would fit into a personal computer architecture, you know, maybe there's a company here. But I mean, at the time, there were, like, 60 companies trying to do this. Right?
+
+And so was there any part of you... Do you remember any part of you thinking, god, what if this doesn't work out? No. I should have. It didn't it didn't really.
+
+You were you were prepared for whatever happened would happen. Yeah. Maybe that's what's called vision. Maybe maybe that's, you know, determination come from. But NVIDIA manifested in my mind that...
+
+And an industry manifested in my mind that that was so crystal clear. Never once did it cross my mind it wouldn't work out. So NVIDIA is the company, which I I guess comes from Latin word envy Yeah. NVIDIA. And you guys start working on the first product, which is going to be a revolutionary graphics processing chip that is going to make We were the first three d graphics company in the world that started with the idea that we bring three d graphics to consumers.
+
+Yeah. And so 1993, it's founded, and you're... You start to work on this product Mhmm. And you guys raise a little bit of money Yeah. To do it.
+
+And this is gonna be a game changer. Right? I mean, this is gonna be, like, the coolest thing. Yeah. We thought The technology that we created allowed us to generate images, using using a lot less electronics, a lot fewer chips, and a lot more affordable than these giant supercomputers that Silicon Graphics was making at the time.
+
+At the time, the computer that generated images for Jurassic Park would cost a million dollars at a time. We needed to get something to fit into about $300. And so that gap was so large that we had to reinvent the algorithms altogether. People got very excited about it. This is an NV1, a chip.
+
+Yeah. We sold two 150,000. I believe you could sell 250,000 above almost anything, but the algorithm didn't really work. And so we received 250,000 back. I mean, it all came back.
+
+It was not just our lesson. Was a disaster. Yeah. It was probably a technology disaster as as great of a technology disaster ever seen. Know?
+
+I think the the right architecture, the right algorithm is inverse texture mapping. Mhmm. Ours was called forward texture mapping. At this point, there were probably 20, 33 d graphics companies and they were all doing it the right way. We were the only one doing it this weird way.
+
+Microsoft is about to announce Windows 95, and Windows 95 has an API called DirectX, and DirectX does it the right way. And we were incompatible with DirectX. And so anyways, we chose some approaches that were just fundamentally wrong. I've read that that understandably created a lot of tension with you and your cofounders because it was two and a half years of work. And and I...
+
+From what I also understand is the... All the architecture that you'd created for the next NV two and NV three was based On n v one. On n v one. And so imagine... I mean, do you remember the three of you just going at it?
+
+Yeah. Well, the arguments the argument was pretty stressful because we were... We had a contract with a company called Sega, the video game company. And they contracted us for $12,000,000 in 1995, 1994. And they were guaranteed to buy the n v two and the n v three.
+
+Yeah. To use it for our game console, the Sega game console. And so we were contracted to do that already and we invested two and a half years. And so the question is, how do we deal with this contract? If we cancel the contract, how does the company stay alive?
+
+And if we don't cancel the contract, you know, the company doesn't go out of business. And so there's the argument of let's not cancel the contract. Let's keep on going. Then, of course, there's the argument. The contract is based on an architecture that is fundamentally flawed.
+
+Right. And so why finish something the wrong way and it would have burned another two years? And in two years' time, 30 other companies were so far ahead of us doing it the right way, we'll never catch up. And so this was the dilemma. And if we decide to change the architecture, we've got to go cancel the contract.
+
+Right. And so I went to Japan and I contacted the CEO. Of Sega. Sega. His name is Ira Madri.
+
+And I told him, my recommendation for you is that Sega finds another partner to build the three d graphics system for their next game console. I have a request, however, that even though we're not finishing the contract, I still needed the money. Because if if we didn't have the money, the company would be out of business. And I really believe the company deserves to succeed. And so I asked him if he would convert the rest of the contract to an investment in our company.
+
+And he says, but Jensen, you know, your company is like... Has 30 competitors. You're most likely gonna go out of business. Mhmm. I don't even know what your business plan is.
+
+And I was like, I tell you, I'm not sure what my business plan is, but my first job as a CEO is to make sure we don't go out of business. And we've to get the technology on the right track. And if you could help me with this, I think we'll figure out a way. And I think it's going be a great investment. Anyways, he talked to his board, and they turned the rest of the $5,000,000 of investment or contract into our investment in our company.
+
+I took that $5,000,000 and we came back. And I was incredibly grateful. Came back, and here we are. The company was a little bit too big. I had to cut it back in half.
+
+You were like a 100... 250 people or something. Almost. Yeah. And so I cut it back to Because you had hired all these people anticipating n v one, n v two, n v three.
+
+I was gonna be successful. Right? And we're gonna get all these Sega games, all these King console games into the PC industry. So anyways, I laid off two thirds of the company, and it was incredibly hard to do. And also, you you now had to focus on making the n v three, which which was a new chip that would actually work.
+
+And I mean I mean, to be clear, you you needed to do this, not only to compete with all the other companies out there, but basically to save yourselves, right, to save NVIDIA. Yeah. Well, it's scary. It's scary even now. You're you're asking me, you know, these are traumatic experiences thirty three years ago.
+
+And so so we decided, okay. First, let's just decide to do things the right way. But we don't actually know how to do it the right way. And then the next problem I have is that we have $5,000,000 but by the time that we were done designing the chip, the company would have ran out of money before the chip comes back. And it's usually made in TSMC.
+
+By this point, you had already started working with TSMC in Taiwan because initially, your chips were made in Europe, think. That's right. That's But the capacity wasn't there, you had to move it. So this is like around 'ninety seven, you start to shift production to Taiwan. That's right.
+
+And you would run out of money before they were able to produce them. That's right. And so the problem was back in the old days, you would design the chip, the chip comes back, you would write the software for the chip, fix whatever bugs you found, and then you would make the chip again. And that would go around a couple of times. Yeah.
+
+And back in the old days, it would take about a year and a half to two years to design a chip and get it to work and ship into production. Well, we didn't have a year and a half. We had about six months. We were on fumes. You is had no choice.
+
+You had to do it. The chip had to be right. Which means you couldn't do all of the processes. We couldn't iterate. Yeah.
+
+Yeah, I couldn't prototype. So how did you know it was going to work? So we heard about this company called IQOS was building an emulator and this incredible machine, this giant machine, it would pretend to be your chip. So you would take all of your software and put it into this machine. This machine would pretend to be the chip and you would plug this machine into a PC and run the software.
+
+So you could see how it would work. It was very high and accurate. Well, supposedly. So I called the company and I said, Hey, listen. I heard you guys have this machine called the emulator.
+
+I would like to buy one. And they said, Well, that's terrific. But unfortunately, we had no customer, so we're going out of business. But we have this one that's left over. If you want, you could buy it out of the creditor who now owns it.
+
+And so we did. We bought this leftover piece of machinery from this company that went... Ultimately went out of business. And I took half of our company's money. So we were already running on fumes.
+
+And so I cut that life short even further, took that money, bought this machine that nobody else wanted to buy, brought it to the company. Said, here we are. We've got to put NVIDIA's chip, mv3, Viva 128 into this machine. Did anybody say this is crazy? This I is nuts.
+
+You're taking half the money by I mean, you're the CEO. We don't even have that was the money we had was already not enough. Yeah. And we took half of that and spent it. But these engineers who are used to a process, right, and used to a way of doing things, you're basically saying, we're going to put it in the emulator and that's going to be it.
+
+Then we're going to fabrication. I mean, anybody say this is not a good idea? It was the only idea we had. I got to tell you, I don't... I didn't remember anybody objecting to it.
+
+But I also didn't remember asking too many people whether they objected to it. Think smart engineers reason about things. I guess we always knew it was existential. We always knew we were going out of business. But I just remember us being super calm, super focused, and we just step by step by step reasoned that it was the only chance for us to be That had to work.
+
+It had to be. I don't know if it's apocryphal or... But I think it's true. You were known to say at that time, our company is thirty days away from going out of business. Yeah.
+
+This... And it kinda became a meme and a mantra for a while, but it was true. I mean, you you were... So this had to work. This thing had to work, and we...
+
+I'm not revealing any secrets. It did work. It did actually work. Mostly. But enough to save Good enough.
+
+To save the company. Yeah. Good enough to save the company. When we come back in just a moment, Jensen identifies a whole new market for NVIDIA, a market that does not yet exist. Stay with us.
+
+I'm Guy Raz, and you're listening to How I Built This. Support for the show comes from Stripe. When you're ready to incorporate your startup, Stripe Atlas is ready for what's next. From incorporation to managing your banking and finances, Stripe Atlas and Stripe Treasury make it simple. With Stripe Atlas, incorporation is done in just one day typically.
+
+That's one reason it's trusted by one in four Delaware incorporations. Of course, when you start your company on Stripe, you're able to accept payments from day zero. You get a global by default business account capable of holding multiple balances in multiple currencies with instant transfers, and it all starts on Stripe. To learn more, go to stripe.com/atlas. Stripe treasury includes various distinct Stripe products.
+
+See applicable product terms. Stripe is not a bank. Checking accounts are provided exclusively by Fifth Third Bank National Association, member FDIC. Our presenting sponsor today is Anthropic, the team behind Claude. Every founder on this show started with a hard question, not the marketing plan, the 2AM kind.
+
+Is this idea any good? Am I the one to build it? Should I quit my job? Anthropic got built the same way. A public benefit corporation founded on one hard question.
+
+How do we make sure AI goes well for people? So they asked over a 100,000 people their hopes and their fears and are publishing what they find, even the uncomfortable parts. Me? I've got my own hard question about AI. Here it is.
+
+If everyone has access to something that can help them write the business plan, build the prototype, analyze the market, maybe even come up with the idea. What separates the people who actually build something from everyone else? I don't have a clean answer yet, so I've been sitting with it with Claude. There's hope in hard questions. Ask yours at Claude dot a I slash h I b t.
+
+Support for the show comes from Framer. If you wanna create a website that looks great, feels handcrafted, and comes together quickly and seamlessly, check out Framer. Framer is the AI website builder that helps creators, teams, and businesses ship production ready sites faster than ever while getting every detail right. You can prompt, inspect, edit, and publish in one place at a whole new pace. On Framer, agents and humans work in tandem.
+
+Agents bring speed and scale while people bring taste, judgment, and control. And all of that takes place in the same workplace where the real site is designed, managed, reviewed, and published. Those ideas land on the canvas, stay editable, and can be published when the team is ready. Framer is an enterprise level solution that leading brands like Perplexity and Miro rely on for their website building. Learn how you can get more out of your site from a Framer specialist or get started building for free today at framer.com/built for 30% off a Framer Pro annual plan.
+
+That's framer dot com slash built. Rules and restrictions may apply. Hey. Welcome back to How I Built This. I'm Guy Raz.
+
+So it's the late nineteen nineties, and NVIDIA has escaped extinction by using an unproven machine to test its latest chip. And as it turns out, that new chip, the Riva one twenty eight, is a hit, which means the company can now write its next chapter. We're a 100% focused on the gaming industry. We were the first computer graphics company ever created to focus on one application industry fully, which was video games. Yeah.
+
+So the way we saw the world that the chip is important, but ultimately what what makes people happy and what really creates industries is the applications that were on top of the chips that make new things possible. Recognizing the importance of application developers or game developers so that we can help them realize the full potential of our chip while we make their application as wonderful as possible. I know... I wanna just pivot for a second because I... You know, here you are.
+
+You're still a young guy, you know, in your late thirties, mid late thirties running a company. It's the first time you are the CEO of a company. It's not like you have any management training or you need to go to business school, which is very normal. Right? And you kind of had to teach yourself because you have and had a reputation for being, like, a hard ass, yelling at people, demanding excellence, and really just tearing into people when they...
+
+When you feel like they didn't do great work. But I I read that you stumbled upon this book by Christian Claytonson. Mhmm. Clayton Christensen. For forgive me.
+
+He's no longer alive. Harvard School. That's right. Called innovator's dilemma. Yeah.
+
+Very important book, and it had a huge impact on you. Like, you read this book because he has this example of, like, Honda. They were making motor scooters for kids, and no one was paying attention to them. And so they... When they started making cars, they had this advantage because they could really scale quickly and get out there.
+
+And you read this book, you were inspired by it. What do you remember about that book that you thought, that's it. This is the thing that I need to think about. The single most important thing about technology is the moment it becomes good enough, when you over serve the market, you're ready for disruption. In fact, at the NVIDIA journey, every single step of the way, we were always the disruptor.
+
+So I think the large lesson of Clay Christensen is really about disruption and how technology emerges out of thin air that apparently looks like toys, but went off to disrupt large markets. If you looked at NVIDIA's REVO 128, the quality of it was okay, but it was good enough that it disrupted an entire market. If you looked at NVIDIA's first GPU that was designed for high performance computing, it was not perfect, but it was good enough. Example after example after example, the way that we went off to revolutionize large industries, initially it looks a little toyish, but the outcome has always been the same. All right.
+
+I want to jump ahead a little because in the late nineties, NVIDIA developed a new technology called parallel computing. And this basically gave your chips the ability to perform multiple calculations at the same time, multiple tasks. Right? But this was another gamble because I think a lot of other companies had tried and failed to produce parallel computing chips. Right?
+
+During that time, there were all kinds of different processors being created. People were trying to come up with new ways of doing computation. Then we realized that computer graphics, if it was just beautiful, but the world was static, it was hard to create beautiful and immersive worlds. So, you really need to find a way to bring physics into that virtual world so that waters would flow and leaves would blow in the wind and explosions would look like explosions. So we would try to use the processor, which was incredibly parallel, to express the types of algorithms that represent real time physics today.
+
+And so that was really the beginning of our journey down that world of general purpose programmability. Meanwhile, scientists around the world noticed that NVIDIA's processors were super powerful. Lots of multiple things. I mean Lots. Yep.
+
+Because you were thinking, okay. This could be used by game designers, maybe in the film industry, which it eventually would be. But still, it was like you were thinking beyond people playing video games on their consoles or on their PCs. We would use it for fluid dynamics and image processing and particle physics. One of the areas that really caught my eye was the whole field of inverse physics or imaging.
+
+And two doctors at Mass General were using our graphics chips to do CT reconstruction. And it was during that time, other types of techniques for general purpose computing was coming along, which ultimately led to what we now call CUDA. Alright. So let's jump into this because you launched this project called CUDA or c u d a in roughly 2006. And to put this in in very basic terms, CUDA is this platform that makes your graphics chips a lot more versatile.
+
+Right? And, originally, you thought this would be great for scientists and researchers who had to process tons of data. But meantime, your customers were gamers, and and so they were getting these really sophisticated chips that they didn't really need or use. Right? Yeah.
+
+And so you just go back to the inspiration that we had at the time that that it could be used for a whole bunch of other types of general purpose computation, parallel computing nature computation. And image processing could be one of them, you know, there's a whole bunch of them in early experimentation, but none of that paid the bills. Most of those applications were in universities and the researchers didn't buy too many of them to justify it. Yeah. And so the only thing that really paid the bills was video games.
+
+You understood that the GPU could do something, lots of things, but that we just had had not imagined those things yet. Yeah. We we knew of some things. And during that time, I was constantly looking for algorithms that required parallel computing. I was always looking for algorithms that somehow only ran on supercomputers.
+
+But if we could just figure out a way to bring it into a personal computer, its exposure or its ability to reach more people could be incredible. Constantly looking for things like that. I'm trying to understand because basically, from 2006 to 2012, your stock price was just either collapsing at times or wasn't moving. You had to refund hundreds of millions of dollars to people who didn't like the processors. And still, there was this conviction in continuing down this path, this this CUDA path, because you and the people around you believed that there was something there that you couldn't really know exactly what it was, but it was going to be something, so let's keep investing in this.
+
+And I'm trying to get into just the space of how you were dealing with... You're a publicly traded company. Your stock price was terrible. You probably had a lot of pressure from investors. What made you and the people that you worked with say, we're going to keep our heads down and keep going?
+
+Because it was a long time. We're talking six, seven, eight years on this thing that nobody understood and was... And had zero... Not zero, but very little commercial success. Well, that's that's when CEOs had to be CEOs.
+
+We believed our first principles. This should be quite useful. And I had to believe that it's quite useful. Now the question is what's the strategy for creating this new architecture for computing that everybody would be able to enjoy? And the problem with computer architectures is this chicken or the egg problem.
+
+Let's say you create a brand new architecture, it's incredible. It's the most amazing thing in the world, but computers are built to run software. If your installed base is not large enough, it doesn't attract software developers because developers want to program on large installed base computers like iPhone and PC. The problem is, even though we believed that this architecture was going to be incredible, that CUDA was going to be everywhere or could be everywhere, how do you get it everywhere? And if you don't get it everywhere, how do you attract a developer?
+
+And if you had no developers, who would write the killer app? And if there's no killer app, then why would people buy it? And so the answer was very simple. It was literally sitting in front of us. And it just required enormous sacrifice.
+
+The answer was, let's use g force, which is the GPU that is now everywhere in the world used for playing video games. Yeah. And let's have GeForce carry on its back CUDA to every single computer in the world. Now, of course, by doing so, our gross margins would go from bad to horrible. Okay.
+
+Well, let's get past that. Let's not worry about the fact that our gonna be years. I know. Well, you never think that it's... Nobody ever thinks it's that long.
+
+And I thought it was gonna be next year. It's gonna be okay. And then next year, it's gonna be okay. And next year, it's gonna be okay. But nonetheless, the cost was incredible in carrying CUDA, and we couldn't charge anybody for it.
+
+Right. And so we gave it away. Meanwhile, we started up programs to reach out to every single university. We evangelized CUDA. We flew everywhere around the world to pitch CUDA whenever you can.
+
+Meanwhile, G forces were taking CUDA out to the world. Yeah. And so the hope was that someday some software company or some researcher or a lot of them eventually would know how to use CUDA and they would take advantage of it because it's sitting right there on G Force. Was there ever any thought in your mind that maybe we're too early? We might be the ones who actually make this revolutionary technology, but we might not be the ones to bring it to the promised land.
+
+Yeah, all the time. Then there was 900 other smart strategies and the list of new ideas that we came up with to keep the company alive and successful for just another few more days, it was countless. So you're solving the problem both in making sure that you stay alive long enough to proliferate this technology everywhere and looking for every possible way. You're making it easier and easier for people to use this technology. You're teaching people to do it.
+
+You're talking to software developers and you're saying, Hey, you know that imaging software that you had? Maybe Photoshop, for example, or some video imaging system for broadcast. Can we modify that so that it runs on CUDA? And were live... I mean, but were enough people adopting it to make it seem viable?
+
+GeForce kept the lights and just didn't do it very well. We were always under pressure because unlike other... Our competitors, they didn't have to carry CUDA on its back. GeForce carried CUDA on its back for literally twenty five years now. People were using this product and not even knowing what it could do.
+
+Not one day. Yeah. It was just all sitting there except for the scientists, except for researchers and universities that heard about CUDA and said, Oh, all you have to do is go buy GeForce? But then at this point, mean, everything was about to change for NVIDIA because in the early two thousand tens, a group of researchers in Toronto bought two NVIDIA gaming GPUs, right, or GeForces. They plug them into a computer in a bedroom, and then they trained a neural network to recognize images way better than any computer had ever done before.
+
+And this was essentially the beginning of the AI boom. Right? So so when you found out about that, what do you remember? I mean, do you remember thinking, this is what we've been waiting for for fifteen years? Well, we...
+
+At that time, several different groups reached out to us to ask us for help on using CUDA to accelerate deep learning. And the reason for that was because there was a contest coming up for computer vision called ImageNet, and they they were all developing similar techniques and needed... Wanted to use CUDA instead of using CPUs, which would have taken thousands of CPUs. CPUs, one task at a time. One task at a time, and they could use our GPUs, just a few GPUs, maybe a couple of them, running simultaneously on CUDA.
+
+Maybe they could train these deep learning models a lot faster and a lot more cost effectively. So they reached out all at the same time. And the leap over previous generation algorithms were so significant, it really caught my eye. So we asked ourselves, you know, what is this thing about? And where can it go from here?
+
+What is the implication to our chips? What's the implication to computers? And so, like we do with everything, you know, reason about the so whats, which led to a lot of other good decisions. It was a weekend, I guess, in 2013 where you sent a note out and essentially said, we're now an AI company. Like, Friday, you were focused on the gaming.
+
+I mean, because the majority of your business was still gaming, maybe people who were doing three d animation and doing graphics for films. That was a pretty significant source of your customer base. But now you are saying, well, we are becoming a different company. Yeah. And the process kind of goes like what I was explaining earlier.
+
+As I do with everything, I break things down to first principles. And And you ask yourself, what did I learn? Why is it impactful? What are the foundations of this technology that made it effective? Can it do more than this?
+
+How far can this algorithm go? What is the implication to our computer industry? So you just got to go through all of that. It's no different than somebody writing a business plan about something except this is kind of how my brain's wired for almost everything. I'm good at connecting dots, good at system thinking, and I came to the conclusion that this could be a really significant future direction for the company.
+
+Long before I would send out an email that declares something, I had already, through tens of engagements with different groups, each one of the groups have already been brought along. So by the time that I sent an email to the company integrating everything, everybody's already been brought along. And so it just kind of tends to be my my management style. But at some point, I will, you know, set a direction for the company. I'm curious again about stress management and conviction.
+
+Like, I wonder how you personally dealt with that. I mean, there were periods of time where you and, obviously, other people believe in the potential of this thing. The capacity is going to be enormous, but we just have to stay the course, and nothing is really moving for a while. I mean, it's gonna take a long time, but you don't know that. Don't have a crystal ball.
+
+I mean, are you just comfortable with that level of stress? Or... I mean, do you feel because you don't strike me as somebody who was saying, we're going to be the biggest company. We're going to be the masters Not of going out of business is always high on my list. Yeah.
+
+Yeah. Showing up in life matters a lot. Showing up every single day matters a lot. Guy, I guess to me it's not that complicated. There's a lot of unknowns.
+
+Being a CEO, you're dealing with mostly unknowns and I'm very comfortable with unknowns. But the first thing you have to do is, to the best of your ability, reason about what it is that we're doing and what do we believe in. I deeply believed. And because I deeply believe it, I help everybody else believe it. And I really believe they believed it.
+
+Then of course, we don't want to dedicate our lives to go work on something that the world already have. I don't want our company working on things to capture share from somebody. They built a market. We want to take their share, So let's go and fight to the bitter end. When your share point goes up by a point, celebrate with joy.
+
+I just don't find any joy in anything. That wasn't interesting. It was about going in a completely different direction, Creating pursuing something that's really, really hard. And I believe if it works, it would make such an extraordinary impact. It was not hard to stay the course.
+
+It would have been harder to give up. You know? I I think that because you believe so deeply in something, it's already manifested fully in my I imagine everybody using it. G forces carried it to everybody's computer. Everybody has CUDA inside their PC.
+
+And so the question is not to me whether we would succeed. The only question is when and who is gonna be the first application. When we come back in just a moment, NVIDIA becomes a major player on the world stage, and Jensen reflects on the future of AI and on his own reluctance to reflect on himself. Stay with us. I'm Guy Raz, and you're listening to how I built this.
+
+Our presenting sponsor today is Anthropic, the team behind Claude. Every founder on this show started with a hard question. Not the marketing plan, the 2AM kind. Is this idea any good? Am I the one to build it?
+
+Should I quit my job? Anthropic got built the same way. A public benefit corporation founded on one hard question. How do we make sure AI goes well for people? So they asked over a 100,000 people, their hopes and their fears, and are publishing what they find, even the uncomfortable parts.
+
+Me? I've got my own hard question about AI. Here it is. If everyone has access to something that can help them write the business plan, build the prototype, analyze the market, maybe even come up with the idea, what separates the people who actually build something from everyone else? I don't have a clean answer yet, so I've been sitting with it with Claude.
+
+There's hope in hard questions. Ask yours at Claude dot a I slash h I b t. Law transforms agreement into reality. For centuries, law has made our promises durable. A word becomes an agreement.
+
+An agreement becomes a contract. A contract becomes law. Today, Harvey, the AI platform designed specifically for legal work, is writing the next chapter of that legacy. More than 200,000 lawyers, 80% of the Amlaw one hundred, and 20% of the Fortune five hundred are all building with Harvey. Accelerating review, sharpening negotiations, uncovering insights, drafting first responses, and more.
+
+This is how the future of agreements is being crafted now. Harvey. Learn more at harvey.ai. Harvey does not provide legal advice. Users should always independently review and verify any output from Harvey.
+
+Hear that? That's me in Tokyo learning to make sushi from a master. How did I get here? I invested wisely. Now the only thing I worry about is using too much wasabi.
+
+Get where you're going with SPY, the world's most traded ETF. Getting there starts here with State Street Investment Management. Before investing, consider the funds investment objectives, risks, charges, and Visit statestreet.com/im for prospectus containing this and other information. Read it carefully. Spy is subject to risks similar to those of stocks.
+
+All ETFs are subject to risk, including possible loss of principal. Alps distributors, Inc. Distributor. Hey. Welcome back to How I Built This.
+
+I'm Guy Raz. So it's 2013, and NVIDIA is now pivoting away from making chips for gaming to making chips for AI. And as the technology takes off, NVIDIA starts to soar right along with it. And I'm gonna jump ahead to the part of the story that's familiar to all of us because we've all lived it. By 2022, ChatGPT and Claude start to transform the workplace in our daily lives.
+
+Massive data centers go up around the world, and most of them are full of NVIDIA chips. NVIDIA becomes the biggest company in the world and has as much influence on world affairs as some countries, maybe most countries. But just to state the obvious here, a lot of that can feel kind of disconcerting. You know, you're well aware of lots of people who have a lot of worry about this. I mean, Jeffrey Hinton, one of the earliest users of your GPUs to train these networks, they've signed letters saying, you know, there's a famous letter came out May 2023 saying, look.
+
+The quote is, mitigating the risk of extinction from AI should be a global priority alongside other societal scale risks such as pandemics and nuclear war, signed by Bill Gates and Sam Alpin and Dario Amore and many, many others. You didn't sign this letter, and you have been really clear that you are not worried about it. You think a lot of this is alarmism. A lot of the conversation around AI and how it's going to take over our jobs and can manipulate all kinds of things. Why do you think the people who are making those warnings wrong?
+
+Yeah. I think that first thing that everybody should do is to take the science fiction and the Hollywood versions of artificial intelligence and set that aside And come back to a sensible understanding of what a computer is. It's computers, it's software, it is not conscious. Having said all that, I think we all, everybody wants the same thing that the technology evolves in a safe way. I am worried about it.
+
+So the question is, how do you channel your worry? What are you worried about? Well, have to build the technology safely. And so could you imagine if the auto industry every single day told you that the car is going to kill lots of people? It's their job to make the car safer.
+
+Yeah. Channel their worry towards making the car safer. I don't think it's helpful for the airline industry to tell you that every single day if the plane fails, it would crash out of the sky. I think all of those narratives are not helpful. But they're coming from the people who are making some of this technology.
+
+I guess I've got a different perspective on why it is that they're doing that. Yeah. Maybe it's because they want the world to realize the technology they invented was so powerful. Right. It's a celebration of their own achievements.
+
+Maybe they are genuinely scared themselves and that they believe that only they can create a technology and keep it safe. Ignoring the fact that there are millions of innovators around the world who are thinking about AI safety, AI security, and building technology for AI safety and AI security. There were even attitudes that we had to slow down AI innovation, which I believe is exactly the opposite. We had to speed up AI innovation because through innovation, we can make the technology safer, more secure. Obviously, it's proven to be true.
+
+The fact of the matter is the AI technology of today is more grounded on truth. It hallucinates less. Yeah. It lies less, and all of that technology needed to be invented. And so I...
+
+My single greatest worry is that United States doesn't take advantage of the technology because we scared everybody. What do you mean? Right now, the sentiments for AI in The United States is lower than most countries. Because the message is it's gonna take your job? It's gonna take your job.
+
+It's gonna be existential threat. It's going to go into a singularity, and it'll be the end of the world. So you think that conversation is only happening here or the West? By far. I travel the world by far.
+
+In the West, it's really out of control. And I think we're doing ourselves a disservice. Let me give you an example. So a decade ago, somebody said, listen, the first profession that's going to be wiped out is radiology. Yeah.
+
+And the reason for that is because the first model that was invented was used for computer vision. Right. Computer vision is used... Would be trained to read radiology scans better than any human scan, and therefore no radiologist would be necessary. Well, it turns out they were absolutely right, 100% right.
+
+AI has now completely revolutionized radiology. Every single radiologist uses AI to study the scans. Right. It does it incredibly fast, incredibly accurately, better than a human can. However, radiologists demand has gone up.
+
+Yeah. The number of patients that we're able to take care of, the number of scans has now grown. Because it's cheaper. Because it's cheaper and faster, and therefore you want to do more scans so that you can do a better job diagnosing disease. What is fundamentally missed is that a job has a purpose and a task.
+
+The task is to study the radiology, the scans, but the purpose is to diagnose disease. Turns out hospitals are now seeing more patients, generating more revenues, which enables them to support more patients and they need to hire more radiologists. Now, where's the harm? The harm could be that by well known experts declaring the end of an entire profession, who's going to go into radiology? So young people who wanted to be in radiology decided that this profession is completely obsolete and therefore don't come in.
+
+What happens? The world doesn't have enough radiologists. As a result, we've brought harm. So we... You're saying we...
+
+The conversation we're having here is very binary in The United States. Like, we're saying it's gonna be this or this. And so the argument you're making is that there's a lack of imagination. So for example, you know, I've got a son who's gonna go to college next year. Right?
+
+And so a lot of the conversation is, what are these kids gonna do in in five years? What are the jobs gonna be? I mean, law firms are using AI for discovery, if consulting firms are using AI for what an entry level job would be, a finance firm, etcetera, etcetera. Would you argue that that's a lack of imagination, that we actually are reaching those conclusions because we can't think beyond that scenario? Partly.
+
+I believe the opportunities, the potential for a new college grad in computer science or computer engineering or software engineering or chip design today is far, far greater than the opportunities and potential when I came out of school. The tools they have to work with is a billion times more capable. It's super highly automated already today, and yet they're busier than ever. The reason for that is because we have ideas of the things that we want to build that we didn't conceive of at the time without the tools that we have. AI is going to help this next generation of new college grads achieve greater things, build greater things, not take their jobs.
+
+For us to scare them into not even wanting to go to college, not even wanting to be a computer scientist is a disservice to society. You're not saving anybody. You're talking a whole bunch of people out of professions that we need in the future. And that conversation is not happening in China? They're not buying it.
+
+They're just not buying it. For me, the most harmful thing we could do to our society, our closest families, is to scare everybody so that we don't benefit in the next several decades, the other countries will. We can't allow that to happen. Do you think that there is a possibility that in ten years from now NVIDIA will have an order of magnitude more employees? Before AI or after AI, I don't think it would make any difference.
+
+The difference is that with AI, along with my employees, we're going to have hundreds, thousands of AI assistants helping them doing amazing things. So our expectations of our company will be different. Things that take ten years, I think it'll take one year. So is that good or bad? It's thrilling.
+
+It's exhilarating, I think. Yeah. There's just so much of the universe that we don't understand. For the first time in history, we have the technology to do so. We will do in the next several decades what it took humanity several hundred years to achieve.
+
+Well, as a dad of two boys, I hope you're right. Yeah. I expect to be. I know that you don't like to talk about speculation, but I I read a... An excerpt from a new book that's coming out.
+
+It's called Defending Taiwan by a writer named Ike Freeman. And he paints a scenario of a possible conflict, hot conflict, where all of a sudden, Taiwan is somehow invaded or occupied, whatever you want to call it, right? And we've seen what we've got some challenges geopolitically, right? Mean, what part of that let's just say that scenario is not realistic, that it would be destructive for China as well because their economy really depends on The US market. Does any part of the fact that so...
+
+Such a high percentage of advanced chips, not just NVIDIA, but advanced chips are produced in Taiwan, is any part of that... Should people be concerned about that at all? We should always have a resilient supply chain. That's part of building a strong company. And a resilient supply chain has diversity and redundancy.
+
+But sometimes you don't have the benefit of diversity and redundancy. Yeah. So you make the best you can. I think the... There are a lot of conflated questions that are put into that concern.
+
+Yeah. You know, if you ask me, am I concerned about a a hot conflict? I'm less concerned than most. But depending on the actions of the leaders, we may cause the hot conflict. And so I am of the opinion that we all must be more long term minded if we can.
+
+We ought to have a more balanced and nuanced set of policies, not all or nothing. Don't push your adversaries and don't push your competitors to the wall where they have no choice or where there's no cost to a strategic alternative. And so I think that, you know, in in your question, do I believe it? The answer is I don't. Because I I believe...
+
+Can it happen? Of course. It can happen everywhere, obviously. However, I believe in the the wisdom of the people involved. What have you had to unlearn as a leader the bigger this company has gotten and the more experience you've gotten?
+
+I mean, you are known for being hard demanding, hard charging. You demand the best out of people. You have yelled at people, all those things. Would you say those things are still how you manage? Or have you unlearned some of those things?
+
+Or have you changed some of those things in your style? I don't think people care about style. I think people care about your values and what you care about. So long as you're tough on the same things, every time it comes up. So long as the moment that it's over, it's over, and they know that they're safe, you love them, you want them to succeed, this is their life's work, you want it to be as good as it can be.
+
+Everybody knows that I have enough of everything. Whatever it is that anybody thinks they need more of, I've got plenty of it. And yet, I work harder than ever. And the reason for that is because I want everything that I have, they have. I want them to see, to realize their dreams.
+
+So long as you're pure and high integrity and completely there for them, you could be quite challenging to people, and they know that you're on their side. You have been on the record as basically saying, you've been asked, would you do this again? Would you do this all over again? And then I'm sort of paraphrasing, you said a version of no. That wouldn't do anything.
+
+So can you explain that? I mean, we've sort of have the outlines of all of the troughs, and there were a lot of troughs. Yeah. And I'm trying to even imagine like quarterly Ends rough. Yeah.
+
+I've been trying to imagine quarterly earning calls in 2007 when your stock price is in the toilet and you're putting all this it's embarrassing. I'm trying to figure out how you can do that as a publicly traded company, withstand the pressure and, as you say, the embarrassment. It was embarrassing. It was humiliating. You're the only face that everybody hates.
+
+Your employees are probably embarrassed for you, your question about doing it again. You know, most people, I just think they're being dishonest. Let me just tell you why. When somebody asked me, would I do this again? If your question is knowing how NVIDIA turned out, knowing the contribution we've made to the world, knowing the consequence of the company today, how it impacts so many different industries.
+
+Yeah. All of the benefits that we have accrued as a result of our success. Do I love those things? The answer is yes. But that wasn't the question.
+
+You know? Right. The question is, suppose I knew everything then that I now know how hard it is and all of the pain and suffering and all the embarrassment and humiliation and all the setbacks and you compress all of that And you just told that 30 year old kid, listen, this is gonna take a lot longer than you think. However fast you thought your company was gonna be successful, it's not gonna be anything like that. And you're going to be the person who delivers most of the most horrific financial return news that anybody's ever explained.
+
+You know, so on and so forth. You'll be going out of business. You'll be... You have to lay people off. Would you start again?
+
+The answer, absolutely not. And so I think a lot of people forget that the pain and suffering necessary, the endurance necessary to do something great is because you're always looking forward and forgetting the past. Yeah. I spend all my time forgetting yesterday. Yeah.
+
+In fact, you know, right now as we're talking, it is really quite hard for me to resurface Mhmm. Those memories and resurface those feelings. And the reason for that is I spent all of my time, all of my life trying to forget yesterday Right. So that you can get back on that horse. That's, in fact, what do they teach athletes?
+
+Forget the last point. Yeah. It's about forgetting. Yeah. I understand.
+
+I mean, the the sacrifice. Right? I mean, you've got a family. Like, you probably missed a lot of things. You probably did twelve hour days, seven days a week, four years.
+
+And after you sort of really began to focus on AI, it doubled again. I mean, was all those things. All true. All true. And during the time when the kids were still young, I was I was finishing my master's at Stanford.
+
+And so I was busy on multiple levels. And, yeah, I missed all their karate tournaments. I I I missed a lot. I missed a lot. I don't know that I've ever asked them what it was like on the receiving side of it.
+
+But if you're gonna build a company, you you need somebody strong and you need somebody amazing like my wife. And she took care of every... Everything. Laurie took care of everything. And I don't remember complaining even one time, one nanosecond or even one instance.
+
+That's the gift that that she gave me. And both kids love NVIDIA to their to their core. And both work here? Both work here. They both went off to...
+
+In their own careers for a while, we were lucky to attract them back. Both kids have read every shareholder letter, gone to every shareholder meeting, been to every single conference that I've ever done. I've missed most of theirs. They've been to all of mine. And Spencer's 35, Madeline's 34, and the company's 33 years old.
+
+And that kind of puts it in perspective. I mean, they've had, you know, NVIDIA in their lives the whole time. And despite the fact that it was gone a lot, you know, they found a way to always love the company. And and I'm I'm really lucky. Your story to me is just it's a story of pressure, right?
+
+And now it's like you did not intend or anticipate that this is going to be the company it is. Its importance is global. And it's a lot of responsibility. Yeah. And humility is helpful.
+
+Being grounded is helpful. Not doing this job from a yacht is helpful. Yeah. And the fact that the company was built stone by stone, you know, with the people that are here, everybody's still grounded. I think it's helpful.
+
+You also have to realize that the company also evolved over thirty years. You know it recently, but this is one of the oldest technology companies in the world. I I know that we have talked a lot about you and your life. But the the guy who wrote a biography of you in NVIDIA, Steven Witt, said you were one of the most challenging people to report on because you generally don't like to talk about yourself. Great reservation doing so, yes.
+
+And I wonder, is that because you just find it to be self aggrandizing or, I don't know, just you find it to be being self reflective. I mean, going back to what you said about forgetting everything that happened and just moving forward, is that part of it? Is it that you don't I notice that when you talk about your kids or even your parents and the struggle and sacrifice they make, you get a little bit emotional. And I wonder whether part of not liking to talk about yourself is maybe some of that. Yeah.
+
+Even that, that's a hard question. Why don't I like talking about myself? I didn't do anything by myself. I was fortunate to have two amazing amazing friends, Chris and Curtis. I'm surrounded by amazing computer scientists here.
+
+I made a lot of good decisions. I've made a large number of lesser good decisions. I just don't find any of that to be very special or that interesting. It's just not... It's not the way I'm built.
+
+You know? The way I'm built is you put me in crisis. Alright? The perfect day is we are in trouble, and you just create the worst possible condition. And, Jensen, you need...
+
+We need you to come and help us think through this. That's my perfect. That's my vibe. Battlefield. Yeah.
+
+I'm a Battlefield CEO. And so I I think I'm just uncomfortable talking about it. Maybe... I I I don't know why, guy. I don't know why.
+
+Maybe I need therapy, you know, to help help me figure it out. Have you had it before? No. No. This is as close as I've strike me as as...
+
+I mean, you talked about your dad as close as it comes. Your dad is 88. Right? And he's retired. And Yeah.
+
+And so you strike me as, you know, let it sort of move forward. And and maybe your dad also, like, you know, isn't sort of looking back on his life wistfully. He's Yeah. I'm sure proud of you, and and maybe some of that comes from there. Do you...
+
+Would you say that all of those things you mentioned, the people you met and the decisions that were made, the good decisions and the bad ones, and the grind and the result now, the most I mean, you hear it a million times, and it's probably still crazy to hear it, the most valuable company in the world. Right? I mean, the value of this company is bigger than most countries by far. Do you think that that happened because of all of those elements, all the people, the hard work, the grind, Or do you think that luck played a bigger role? Several 100 forks in the road in a lifetime, I've largely taken the right one.
+
+Combination of good judgment, good values, good friends, informed decisions, critical thinking, and some dose of luck led me to choosing the best of several options. And when I didn't... When the company didn't choose the best options, we created a system that allowed it to self reflect, to not be so hard on ourselves for making a bad decision that we can quickly adjust and not let the bad decision be fatal. But I think that in the end, the secret to it all, you know, the only thing I've really learned about it all, is that the next fork in the road is about to come. And the people that are going to help me make the best decisions likely will be different than the ones that have helped me make the last last decisions.
+
+And I've always felt safe making strategic decisions. I've always felt safe taking risks. Mhmm. Maybe it's because I know that when I get home, Laurie's still there. It's because when I get home, know the kids are there.
+
+Maybe I know that all of our employees are going to be here. Maybe that's as complicated as it is. I wish I could be more technical in explaining how companies are built and run, but I built this one from the first day. And it's much more personal, I frankly believe. You know, because people say it's not business.
+
+It's personal. It's always personal. That's Jensen Huang, the cofounder and former CEO of NVIDIA. Hey. Thanks so much for listening to the show this week.
+
+Tap the follow button on your podcast app so you never miss a new episode of the show. And as always, it's free. And please do subscribe to our new YouTube channel. You can now watch episodes of How I Built This. Search for How I Built This on YouTube or click the link in the episode description below.
+
+Our show is produced by Podcast Pointman. I'm Guy Raz, and you've been listening to How I Built This. We all know the Internet can be an annoying place. But here's the thing. The browser you choose definitely makes a difference.
+
+Pop ups, autoplay videos, and other interruptions can make even simple online tasks frustrating. Firefox still supports the powerful ad blockers some other browsers have shut down. And it also protects your privacy while you browse automatically without you having to do a thing or without you having to think about it. And Firefox is independent and backed by nonprofit Mozilla. Choosing it supports an Internet that puts people first.
+
+So come back to Firefox. Visit firefox.com to try it yourself. Support for the show comes from Engine. Running a small business means every dollar has to work hard. But if your team is still booking travel the old way, it's costing you more than you think.
+
+Engine is the fastest growing travel and spend platform in the country built specifically for businesses like yours. Book a trip in as little as two and a half minutes. Earn up to 10% back on hotels. And in 2025, Engine customers save more than 300,000,000 on travel with zero booking fees, no contracts, and no BS. More than a thousand businesses join Engine every month.
+
+Join them and get $500 when your business signs up and starts traveling at engine.com/vox. Law transforms agreement into reality. A word becomes an agreement. An agreement becomes a contract. A contract becomes law.
+
+Today, Harvey, the AI platform for legal work, is writing the next chapter. More than 200,000 lawyers are building with Harvey, accelerating review, sharpening negotiations, and more. This is how the future of agreements is being crafted now. Harvey. Learn more at harvey.ai.
+
+Harvey does not provide legal advice. Users should always independently review and verify any output from Harvey.

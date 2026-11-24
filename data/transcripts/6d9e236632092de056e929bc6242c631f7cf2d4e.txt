@@ -1,0 +1,511 @@
+So it's kind of out of despair that we started Databricks because no one else is listening to it. At that time, there was zero interest in AI. Now I think we have all the intelligence we need to completely transform the planet. It's not possible to have a thousand agents doing stuff realistically. Am I correct?
+
+They're just using AI in very rudimentary ways. They're just using it as a glorified Google search. We're actually getting into, like, management money ball, aren't we? So if the token cost is going up exponentially, is your revenue at your company going up exponentially? But I actually think GDP will move very slowly, and it's gonna take decades.
+
+Are they a little drunk on their own success? Just because 98% of the code is being written by AI, we don't have RSI. If it automates the last 2%, who cares? When are you going public? I'm doing all of you.
+
+If you were building a global financial system from first principles today, you wouldn't build it on €50 legacy rails. You'd build Airwallex, one AI native platform for global accounts, cards, and payments. It's designed to make the entire world feel like a local market. Others are bolting AI onto broken infrastructure, but Airwallex was built for the intelligent era from day one. Stop paying the legacy tax and start building the future at airwallex.com/ all in.
+
+Airwallex, built for the future. Alright, everybody. Welcome back to the all in interview. We're so lucky because all of these amazing leaders in the world, CEOs, politicians, scientists, they they watch the show. They're part of the community.
+
+And Ali Gottsey is one of those individuals. He, of course, is the CEO of Databricks, a private company that has been doing incredible. I don't know why it's not public yet. I think a lot of people are asking that question. We'll talk about it today.
+
+In 2015, they were doing 1,500,000 in revenue. It's August... Or the the rumor I heard, August 2026, Ali, $7,000,000,000 run rate growing 80% year over year. And, obviously, you got a lot of competition, the the snowflakes of the world, etcetera. But this is a tremendous business, and we're gonna talk a lot about how you're using AI to run this incredible business.
+
+We're gonna talk about recursive, self improvement. But welcome to the program, and then maybe you could tell the audience a little bit about what you do at Databricks and how it became so successful. Yeah. Happy to do that. Thanks for having me on.
+
+Excited for this. Yeah. So we started the business in 2013, but if you rewind a little a little bit before that, we were all at UC Berkeley. There were about 20 of us, and we were actually part of a lab called AMP Lab, which was, I think, the largest AI research lab in the world at that time. And, you know, we were trying to figure out how can we combine data processing with AI, and, you know, we came up with really interesting things, but the industry was just not ready for it.
+
+Mhmm. So we were trying to get the industry to adopt this technology, and they weren't. So it was kind of out of despair that we started Databricks because we thought, you know, if we don't start a company around this, no one else is listening to it. At that time, there was zero interest in AI. Actually, it was called machine learning at the time, and AI was just robotics.
+
+So that's kinda like the beginning of the of the story. And for people who don't use the product day in and day out who aren't in the industry, what... What's the goal of the Databricks product suite? What do you do? I know you released some new products today, so happy to talk about those as well.
+
+But conceptually, you got there so early. Obviously, machine learning. Google was built on that, Facebook, and their ad network. A lot of interesting services, Uber and their routing algorithms. Maybe you could talk a little bit about where Databricks started and and what it's become and and how it's generating billions of dollars in revenue.
+
+Yeah. So the first use case, actually, it was... The first use case ever was at UC Berkeley when we wanted to help Netflix recommend better movies so that people would watch more movies. So it was like a, you know, recommendation algorithm AI use case that started the whole thing. And then we thought, you know, more organizations probably.
+
+Probably every organization will need a data science team that can do this kind of AI stuff. And it was kinda bold at the time. There's a lot of people that said, no. No. No.
+
+AI is just for ad tech. The ad companies need it. But we we thought, no. No. This is gonna be a bigger market.
+
+And actually, we had a lot of debates internally. We weren't sure it was gonna explode. So we got into it, and then we realized... When we started the company, we realized why they're not doing it, why it's so hard. Because basically, all the organizations out there in the world are bogged down.
+
+They have legacy software that they've had for thirty, forty, fifty years, and some some of them, you know, companies have been around for a hundred years. You know, things are moving slow. They have a lot of processes. There's, you know, a lot of compliance, a lot of regulatory, a lot of security. By the way, all these things have gotten worse with generative AI in the recent years.
+
+So, basically, what was missing from our research at UC Berkeley was that we didn't think about the security, the governance. So what we did the first bunch of years is that we figured out how do we take this technology that lets you process all your data in an enterprise. So, you know, organizations have a lot of data. The most important data they have, actually, people don't talk about it. The most important data any company has is the data on the core product that they have.
+
+Like, for you here, it's this podcast, you know, the data on that. Someone else might be selling insurance. Someone else might have, you know, a drug. It's the data that comes out of that. That data doesn't sit in CRM.
+
+It doesn't sit in human resource management. In fact, it probably wasn't even tracked. I remember in the early days of the Internet, they'd like, hey. Would you like this log file? And I'd say, okay.
+
+Yeah. Keep everything. And they'd say, okay. Well, you got $8,000 storage bill a month. And I'd be like, Delete it.
+
+And they're like, well, we could roll it up and keep some of it. I'm like, well, who's ever using the open rate on our emails? Who cares about that? You know, we send the emails. That's it.
+
+But then that changed. And was storage and compute and cloud computing a a major accelerant to this big data movement and then eventually machine learning? Those were kind of the waypoints in this movement? Yeah. Before we started in 2013, basically, people were running their own data centers.
+
+And when they're running their own data centers, you had to buy machines, and the machines came with storage and compute combined. So if you ran out of storage, you have to buy more machines, and the IT departments of every organization were busy with this. What the cloud enabled was to just completely decentralize this and separate compute and storage so that you could just imagine you have infinite storage, you just dump everything there. Okay? And if it's gone cold, so the data is old, it knows how to archive it so that it becomes almost free to store it.
+
+And then you could get the illusion of as much compute as you wanted. And then, of course, you could start running machine learning on it, and then eventually GPUs showed up. So it kinda transformed everything. We bet everything, the whole farm, on just being a cloud company. We bet everything on AI, the use cases of AI, and we bet on open and open source.
+
+And at the time, actually, all three of these bets were controversial. People were... I had a standing bet with one of the most important analyst firms out there where they said, it's a strategic blunder. You're gonna go under because you're bay... Betting on the cloud.
+
+And it turned out actually the only reason we succeeded was because of these bets, because they were contrarian, because other people did not agree with them. So we got a head start for many, many years. And then eventually, when we, you know, happened to be right, then we had... You know, we were so far along and we've gotten too big that, you know, there's too much momentum to to stop it. It's so funny you mentioned this Netflix algorithm.
+
+Netflix started, obviously, in the Bay Area as DVDs that were mailed to you in an envelope, and then you had this queue. And it was critically important, for people who don't know the Netflix prize. This was in the 2008, 2009 time period. They put a million dollar prize out to any computer science team that can make the algorithm, I think, 10% better at predicting what movie you would give four or five stars to. So they just took all their data, they released it, and then they got probably $50,000,000 worth of work from computer scientists around the world.
+
+It was the first time an XPRIZE, and I think XPRIZE and this were around the same time, and they were all inspired by those old prizes. So, like, who could circumnavigate the globe? Who could solo fly over... Amelia Earhart? Who could who could solo fly over the Atlantic or the Pacific?
+
+It was, like, a very interesting moment at time. And that hit AMP. Right? And AMP... The group was algorithms, machine learning.
+
+I don't know what the p stands for. It was for people, actually. People. Because we thought that, you know, the AI is not good enough yet. Mhmm.
+
+So it needs a little bit of human nudging. It's actually just kind of, you know, human feedback was already there. We were like, we do need the human feedback because this this last mile is just too hard for AI to figure out itself, so we had people there as well. Putting the people in there makes sense because Berkeley's a little hippie dippie. Freiburg's alma mater, obviously.
+
+It's... They were like, we need we need some people in the middle of this. You know, we had Ben Horowitz on sat in the other week, and he was like, the best explanation I've ever heard for why we are gonna be able to control the rollout of super intelligence and this jump between artificial intelligence or artificial general intelligence and super intelligence that gets recursive and runs off with it and p dooms us all and we're all gonna die sentiment by some people came from you. So please explain your thesis here. And then I'd like you to go even one step further and talk specifically about maybe the culture in the Bay Area, perhaps even the East Bay and and this group of people?
+
+I mean, happy to get into it. You know, I think there's sort of two different things happening at the same time. On the one hand, I actually think we already have artificial general intelligence. I've been saying it since last year, and I based that on the kind of consensus we had in that AMP lab where it was, I think, the largest AI lab at the time in 2009, 2010. And that definition of AI that most of us had, AGI, we already achieved that last year.
+
+And I wasn't actually sure about this, so I actually went and checked with some of the people that were in the lab. Like, hey. Is it just me? Am I hallucinating? And they said, no.
+
+No. No. That definition for sure, but we've moved the goalpost. You know? So so I actually think we have all the intelligence we need.
+
+And, if the... You stop the intel... If you happen to stop all progress right now, I think we have all the intelligence we need to completely transform the planet. K? But that's a Do all intelligence work by humans?
+
+Right? I mean, if it solves this latest cohort of math problems, and we're just starting to build harnesses and build out the infrastructure, I guess your statement would be correct, and I I kind of am in line with you. We've hit artificial general intelligence. It just hasn't been distributed... Equally distributed yet.
+
+Yeah. So the labs and a lot of researchers, they're kind of obsessed with superintelligence. Okay? So when I say superintelligence, I mean it the way it was defined by Bodstrom in 2014 in his book called superintelligence. And there, he's talking about something completely different.
+
+He's talking about something that can do a millennia worth of thought. So, like, a thousand years of human thought, it can do it, like, in a minute. Okay? All of mankind in a minute. It thinks in 11 dimensions.
+
+It's so much faster. Just a single agent is just, you know, many orders of magnitude. Imagine thousand times faster than any of us. Okay? And that's just a different thing.
+
+Like, that's... It can write a novel PhD thesis instantaneously and so on. So I think the labs are on the quest of that. And in that part, by the way So And so just to summarize that there, the ability to write an entire unique PhD thesis instantly, which... Do we even have the amount of compute in your mind to do something like that today?
+
+If everybody got together and said, hey. Today, we're gonna give all our compute or for the next hour just as a thought experiment to this incredible mega prompt. Do you think it would actually happen? Is it a computer issue, or is it a a model issue? Well, actually, the the the AIs are kind of slow.
+
+What we have to do is we have to paralyze them and have many of them, and then we have to have them to, you know, collaborate with each other. So it's actually not the way kind of that he he wrote it down. He had also intelligence in the book of how it can be communities of intelligence, but I'm just saying they... The the labs and many of the other companies are focused on this. Yes.
+
+And that's why they're so obsessed with the math... The clay problems, the seven, you know, millennial problems and so on. But I argue that the biggest challenge that's facing us is how do we actually just make this AI applicable inside organizations? That's what Databricks is focused on. We just wanna help all these organizations.
+
+And when I go talk to organizations out there, enterprises, I see that they're just using AI in very rudimentary ways. They're just using it as a glorified Google search. They're using chatbots all day, and instead of typing in Google search and getting 10 blue links and then looking at the 10 blue links, the AI just does that for them. The second thing that they're doing is they're doing coding. Okay.
+
+And with the coding, actually, they're not seeing enough speed ups. They're seeing maybe, like, 20, 30%. I ask them this question every day. I'm in meetings every day with customers, and I ask them these questions. That's kind of what reality looks like.
+
+I always ask them, how many of you have, you know, thousands of agents running around automating all of work and doing co work for you and so on? It's just not happened yet. Now they might be running a half dozen agents, a dozen agents. Like, somebody who's at the forefront might actually be coordinating against that many, but the human still needs to be on the loop just like AMP. Like, there's a person who who still needs to be in there because it will return slop.
+
+It will return weirdness. It can go drift off course. It's not possible to have a thousand agents doing stuff realistically. Am I correct? Yeah.
+
+Well, somewhat further along. I mean, I'm actually using this all throughout Databricks, I'm happy to show you. But, you know, the the the the reality is that they're not. And the quest... You have to ask the question, why is that?
+
+Like, if it can solve Navier Stokes' very difficult math problems, how come enterprises and organizations out there are so far behind? Why is that? Yeah. Well, there is... Well, there's many reasons, but the main reason is...
+
+Or maybe one way to look at it, if we could gather all the information that you have inside a large organization with 200,000 employees, record all the meetings, which, by the way, that itself, one of the big bank CEOs told me the other day, no way. We're never recording the meetings. Like, not in a million years. But assume you have that liability. Liable...
+
+I mean, by the way, which I already... I I was already kind of shocked because if you can't do that, how can the AI ever help you? Like, the AI is simply not in the meeting. If it's not in the meeting, it's useless. It doesn't matter if you have Terry Tao or you have the greatest mathematician in the world.
+
+If they're in the cold and they don't know what decisions or what you're doing and you're meeting with hundreds of thousands of employees, there's no way it can help you. So if you capture all that context and you could feed it to the AI, they would nail the problems. They could help us right now already. So that's really the the context problem. Now you might say, okay.
+
+Well, let's figure that out and do that. And we were doing that at Databricks, but that's not enough. Even if you do that, you have a second problem, which is, you know, you could unleash something like OpenClaw and just have it access all your data everywhere. Well, then you get into this problem that you're gonna get hacked. Cyber is a real thing, and all the big organizations that have successful businesses, they're really terrified right now of getting attacked.
+
+Right? This is like a big concern, the top concern. Creates a lot of surface area when you embrace this. I mean, if a CEO or in a small company, you wanna connect everything, it's a certain amount of surface area. But for a 200,000 person organisation, 10,000, my lord, the surface area has now gone a thousand x.
+
+Yes. Exactly. So that's like the second problem you bump into, which is, okay. We can access all the data. Well, wait.
+
+We don't wanna maybe access all of it to the agents because, you know, now we have an insider threat, and we might get hacked. So what do we do about that? Well, let's say we solved that too. So now we've solved the cyber problem, which, by the way, we have actually ways to do that at Databricks. Happy to show you.
+
+Then you still have another problem, which is, okay. Now the token cost is going up exponentially. So if the token cost is going up exponentially, is your revenue at your company going up exponentially? And I don't know any company who started using AI, and as of their use of AI, the revenue started accelerating exponentially, matching their cost curve. So then eventually...
+
+First of all, CEOs are like, go get the AI. Get more AI. Get it in there. You know, we need to move faster. Vaccine.
+
+Yeah. Exactly. But then at some point, the CFO shows up and says, hey. Our OpEx is going up significantly here, and even the COGS. What are we doing about it?
+
+And we have an earnings call soon. And then they freak out. So then how do we fix that? So you need to also do this efficiently, which we also have ways to do that at Databricks. Now you've done all of these three, then there's a strategic last question that still remains, which is like, okay.
+
+Fine. We figured it out. We accessed all the data. We secured it, and, you know, we figured out the cost situation. How do we avoid getting locked in, and how do we own our own IP because, you know, it's...
+
+Otherwise, you know, there's no business to be made in the future because Data sovereignty is what you're kind of referring to, intelligent sovereignty. And if you use Anthropic, OpenAI, or any of these platforms, there is this risk that it will leak, that it will get incorporated into their next version. And as we've seen, a company called Anthropic seems to be releasing every two weeks a half dozen products that just now they're competing against Microsoft, one of their... Think Microsoft is like one of their giant partners, and they just came out with an... Basically an Excel killer.
+
+They're killing Photoshop, and they're just going after everybody wholesale. Yeah. So these for For free. Yeah. Yeah.
+
+So by the way, these companies are amazing. They're doing amazing work. And without them, we wouldn't even have this intelligence probably. So, you know, I'm thankful. This is awesome.
+
+I'm just pointing out why when you look around you, all these, you know, successful organizations, all the Global 2,000, all the Fortune five hundreds, Nasdaq, and so on, how come it's just glorified chatbot and a little bit of coding? This is the reason. So you need to really tackle all four of those. Yeah. And only then can you start getting And something out of one of those issues as well, I believe, is the autonomy in an organization to come up with a groundbreaking idea.
+
+You know, you may have captured a large portion of your market. You may be getting incremental benefits. So if I tell you, like, hey, we can put another 500 horsepower into your Ford Taurus, it's like, okay, my Ford Explorer now has 500 extra horsepower. It's going to rip the chassis off. It's it's not...
+
+This thing is not capable of going 500 miles an hour. So then it's... Well, who who decides we're launching three more product lines? Well, at Anthropics, somebody is deciding. Why don't we just go after every single business in the world?
+
+And they started doing dashboards. That's a little close to your business, is it not? Little dashboards over here? Yeah. So dashboards, you know, we don't we don't we don't have a product where we charge for dashboards.
+
+Mhmm. Dashboards are usually backed by data, and you typically want that data to be governed. So you you know, you don't want just numbers, and then, you know, those numbers are incorrect. This is a big problem in organizations. So that gets back to the second thing I said, the governance security aspect.
+
+Okay? So, like, yeah, maybe we can get access to all the data and get all the context, but we gotta make it secure. So, yeah, it's great. So you can actually connect all of these agents from outside to Databricks, but then we are the governed data repository. And then when you access that data and, you know, the governance, we charge consumption rates on that.
+
+So, actually, that's one of the reasons you see acceleration of our business because all these companies, whenever they have agents and they're using it, then I think we're just in the beginning. As I said, I still think it's mostly Google search and coding, but the agents, when they start using us, they just, you know, send us more queries. The behavior change when people actually embrace agentic technology and they start working with agents, let's say, every hour, every other hour of the day, like you and I do? I think that the organization... The org charts are built this way.
+
+Yeah. You know, there's like a tree structure, the CEO at the top, and all decision making goes kind of up and down in these org charts. And you have all these old processes, and getting agreement across this org chart is very, very hard inside of an enterprise or inside of any organization that's sizable. It's somewhat easy up until Dunbar's number, which is 150. You can know everyone.
+
+So small startups, it's a different story. But above 150, this becomes a coordination problem. But if you look at how actually any organization actually, you know, sells a product or a service to its customers, it's actually not this kind of hierarchical thing. It actually cuts across that org chart. You know, like here at Databricks, we have customers.
+
+They give us feedback. The feedback goes to product management organization. Product management hands it to engineering organization. Engineering builds products. That goes to marketing that markets it, you know, and then marketing gives it to sales that sells it to customers again.
+
+So you kinda wanna go across, so you wanna cut out that latency so that you can be really, really fast. But that requires that you have an AI that actually understands your whole business, your IP. It needs to understand your org chart. It needs to know know who's who, who's responsible companies actually understand what you just described, would you say? 10% of organizations understand this?
+
+5%? At scale, I don't know how many. I don't know the answer to that. At scale, I know that Databricks is doing it. I'm doing it.
+
+Yeah. I haven't seen anyone else, to be honest, do it at at this kind of, you know, I think probably block and square with Jack Dorsey since he's pushing... He... He's call... Calling it the company world model.
+
+He calls the same thing I kinda described. I think, you know, a different way of viewing it. He's calling it the company world model. So I think that they're probably pretty far ahead. In general, I think digital natives are probably further ahead.
+
+Digital natives being companies that have only existed ten, fifteen years. You know? If you've been around twenty, thirty, forty, fifty years, which means you're an amazing company. Maybe you're Fortune 500, the best companies in The United States. You have maybe a 100,000 employees.
+
+You know, they're loyal. You know, they love your products, and you know what? You're the best in the world on that. You're just... You have so much software.
+
+You know? You have so much regulation, and you have so many processes around security and so on that it's very hard for you to adopt this. But that is the very problem Databricks wants to solve for them. So we want we want them to adopt the technologies so that the AI... So that they can do what what I do at Databricks, basically.
+
+Yeah. Let's see it. You you said you would be willing to show us, like, how you run Databricks with agents and and with AI. And I... I'm...
+
+Been looking forward to this all day because I I literally am taking the entire while you queue it up, my entire life on podcasting and on early stage investing, and I'm looking at each of the components of those things as services, as agents, and defining the goal, working backwards to what are the signs of success that you're heading towards the goal. Not that you've achieved the goal. The... Achieving the goal is kind of binary. Yes or no.
+
+You made the sell. You didn't. But what are the precursor signals and then trying to have each of these bots hand off things back and forth itself. You have to be a real systems thinker. It's like kind of playing five chess games at once while riding a horse.
+
+I mean, you're... It's really like, intellectually, I find it super stimulating. Like, I can tell you do too. So, hey, you can share your screen. So let's jump in.
+
+So, okay. So the key thing here is that... So we have a product called Genie, but the key thing that Genie has... Because, you know, there's so many chatbots out there, and there's so many assistants, and there's so many co work products out there and agents in the background. The key thing is that it has an ontology.
+
+The ontology is a graph that it constantly is constructing for your company. That graph understands all of the people, who reports to who, what are they working on, what are the emails that are coming in, what meetings have happened, and what's the transcripts of all those meetings and all the decisions that are being made there, what's on Slack, what's being communicated. So it it has access to all of these things, then also all of the docs that you're creating, all the Excel sheets, all the PowerPoint presentations. So it has access to all of those. That's what we call Genie here, so that you can see here.
+
+So I wake up. It's... You know, I have an... It has an inbox. In the morning when I come in, it basically has done a bunch of background work for me.
+
+It's running twenty four seven. As you can see, it has access to my, you know, calendar. In fact, I could just ask it, like, you know Which I I tell Jason on all in today. Here it goes. Yeah.
+
+So see what this is gonna say. But let's look at some of the stuff that I've done. So, like, actually, the other day, one of the interesting things is I was looking at our HR department came back, and they were saying, hey. We've done survey on all of Databricks. You know?
+
+So we had over 10,000 people, employees, that responded to the survey. And, you know, I looked at the results, and she was going through it. And, you know, I said, hey. Make me dashboard of the results. You know, nothing magical here yet.
+
+So it's told me, like, look. Here's how you're doing. You're doing great on some things. But, you know leadership. 88%, you're doing okay.
+
+Yeah. Work life blend. 60%. You're working people pretty hard over there. But and maybe everybody says that.
+
+Right? Yeah. No. But we wanna know that, but this is... This has been...
+
+So we want... We wanted to improve these two. Okay. And this action one really bothers me because, you know, action, by the way, it means that when we we ask them for feedback, they give us feedback, improve this and that, and they feel like you're you're not listening to us. So two out three feel you are, one out of three feels you're not, just to...
+
+You're doing okay. It's not terrible, by the way. This could be, like, 30%. 60% is not great. So...
+
+But... And especially not great if you actually take into account that every year it's low, and every year, I promise the company we're gonna fix this, and every year, it doesn't happen. So, you know, we're going through the results, and, you know, we're discussing it with these staff. While they're discussing it, they're speculating. You know, my CFO says, you know, hey.
+
+I think it's because of work life blend. Work life blend is bad, you know, and that's causing action to go down. So it's causing... Work life blend is causing low action. And I was like, that doesn't make any sense.
+
+But I just entered here immediately as we were discussing, and it immediately pulled up. Okay. This is the correlation between these two, and this is how it's looking. But then... And I like, okay.
+
+Wow. Maybe he's right. But then it says, no. Actually, it's not causal. It's not causing it.
+
+And here's the exact proof points. We probably have to anonymize these folks, but it's a... Here's a manager that has work life plan 44. That's pretty bad. Action is 77%.
+
+So, you know They're working hard, and he's recognizing and taking action on their concerns. So Exactly. That's kinda... That's your guy right there. He's pushing people hard, and he's listening to them.
+
+I like that guy. So it's okay. So now I'm learning stuff about the organization. This is amazing. It would have taken me, like, a week to get the data team to do this analysis for me, but that's just me getting information.
+
+That's useful. So, like, we're cutting this, you know, latencies up and down the org chart a little bit. But then I'm like, okay. Why is it low? And look through all of the comments.
+
+And it gives me some reasons. I didn't like the reasons. So then I actually clarified the question, and I said, hey. Can you slice it by department for me? And, you know, and then I actually figured it out.
+
+It said, look. Product management has low action because they don't like decision making. It's too too too many too many stakeholders. Engineering, they don't like the tools and systems. There's too much.
+
+You know? Sales operations is career growth and so on and so forth. So That makes sense because salespeople always think they should get a promotion because they're salespeople and they should get their commissions right. And product people think you should just listen to them Exactly. Instead of, you know, six people trying to design a piece of art.
+
+Exactly. All starts to track now with the data and the AI. I love it. Yeah. So how did it do this?
+
+It has access to its ontology. So it's not going and searching live only. It actually found that there's already... It already had in its graph these people, you know, already five people had already contributed to this, and there's 19 pieces of information here that you can see that it's actually leveraging that it already had. It didn't search for them live.
+
+These are in the ontology. So we can look at, for instance, this particular one. If you click on it, it has a definition, it's a metric, and there's a graph. And this graph, can see it here. You know?
+
+So there's a favorability, and it comes from... You know, this is the author. You can click on the author, and because it understands the org charts, they understand who this person is. This person actually has 29 snippets, you know, they have lots of different assets, you know, that they've... You know, that it's learned from them.
+
+So this constantly is learning the intelligence or ontology of your organization. So that's a that's a, you know, typical thing. Here's another one that, you know, is maybe interesting. I wanted to know, actually, new results here in the last fifty nine minutes. I haven't actually looked at all of those.
+
+But I wanted to understand the org chart, and what's going on with the org chart, and, you know, span of control. And I ask it, and already, out of the box, it was actually... It's... I was shocked by this. Emilio told me, like, hey.
+
+There is an org inside Databricks, which is very deep. You know? This person reports to this person, reports to this person, this person to this person. But they have three people reporting to them, five people reporting to them, four people reporting them, five people are reporting to them. So that's not a flat organization, you know?
+
+So then you can look at, okay, what can we do about that? Again, it understands... Since it understands all the people, it can immediately out of the box understand that. Engineering, you know, cost. Cost is, you know, something that we look at at all.
+
+And, you know, so that's that's another thing we wanted to see if we could understand. And what's great about this too is instead of you as the leader saying, hey, listen, if we're gonna have an opinion, let's go with mine. You've now created a forum where people can be data first, test theories, and you don't have to be dogmatic about who came up with the theory. You just have to be intellectually curious and open to possibilities. And eventually, if this is where we are today, can you imagine, like, a year or two, it's gonna just be giving you these instead of through a culture report.
+
+It's gonna be like a a temperature gauge in your company. It's just like you're gonna be looking at the nest in your company. It's like, oh, wow. Looks a little hot today. What's going on?
+
+It's like, oh, yeah. We we made people come in this weekend. Yeah. Maybe we should buy some pizzas. Oh, exactly.
+
+People a comp day during Thanksgiving. Yeah. Yeah. This is my favorite. So so this one actually is...
+
+Came out of Genie. So this is our 2,000 engineers, and this is how many pull requests, so how much code they've actually shipped into production. K. And you look at the middle here, it's maybe per week, roughly. But it has this l shape, you know, and you look at this l shape, you know, the top people are actually committing way more.
+
+Yes. You know, sometimes. What's going on? Yeah. So what the hell is going on?
+
+So we looked into this, and it turns out they're running automated factories, the rest are not. We push So them. Actually, by the way, interesting thing I asked is, hey. Can you, like, add cost to this... Add the cost to this line?
+
+And one of the interesting thing we found is that it's not even the case that cost necessarily is higher for those people. So look here at the top. The top folks, some of them are actually not spending as much as some of the other folks. So which, by the way, goes back to... There is a way to spend tokens in a smart way.
+
+You can use open source. You can route simpler questions to simpler models, and we actually have a product for this, and you can cut your costs down significantly. So this is the kind of stuff... By the way, it's it's also... Recording the meetings is really important.
+
+So, you know, one of the things... I heard that there was a customer meeting, and I wanted to understand how that product... How that meeting went. And, you know, and I just asked it, you know, hey, was there a meeting with this customer recently? How did it go?
+
+And it literally started by saying, the meeting went poorly. Oh. And it list... And it's listing exactly what, who said what, what are the features they need. So, you know, these are just some of the things that you can do, you know, with the AI.
+
+And, you know, in the background, it'll... When I wake up, it has all these deep dives for me. So instead of waking up, calling people, doing meetings, it's doing the work for me. It's pinging them. It's, you know, sending, you know, whatever material is needed for the company.
+
+So it just compresses the time it takes to do things. Well, you know, it's a lot of being in management and being a founder is detective work. I call it like being Columbo. If you remember that TV show, I think it might show our age, but you're kinda like, oh, you know, it's one more thing there. Can you tell me about the meeting, the client meeting?
+
+How did that go? And who talked most on the phone? And how... What percentage of time did they talk? And what did the customer actually think?
+
+And then you as the founder are getting spun. You're getting spun. And it's not it's not that an employee necessarily wants to spin you. A team member is not looking to spin you necessarily. That can happen, but that's not the majority.
+
+Most people are good people. But they have... They're humans. Right? They're the people in the app.
+
+And here you take the people out of that discussion and you say, here's first principles, transparently, what happened? Now we have ground truth, and we could start the discussion without you being the CEO having to be mister detective. And, you know, it is so... I mean, I don't know about how frustrating it it was for you two years ago to spend two hours being a detective. You get three meetings into this, and it's like, if people had just told you what happened or if you had that report on culture, the problem would have been solved.
+
+You wouldn't have had three weeks of hand ringing. Yeah? Yeah. I mean... Or the customer feedback.
+
+Right? That I can immediately find out all the customers. You know, I have some some of them where I'm not just having it look at features that are requested from all of our customers automatically from all the transcripts of all the customer meetings that we have, and it's just gathering those, and they're immediately going to engineering, and then we have factories in engineering that can build features automatically. So it's a game changer. You know, it's just that game of whispers that we played when we were kids.
+
+Right? It's like when you have people have to meet, they have to tell. So one of our main goals is reduce number of human blockers. So we measure that throughout the organization, and we just Can see you explain a blocker in this context, please? Well, that's something that can learn from.
+
+Yeah. Mean, the AI is very fast. Right? It's just iterating in the background, and it's doing its work, and, you know, it's preparing material and so on. But at some point, it's like, Well, now we need to go to legal and make sure that we are allowed to do this thing.
+
+Or now we need to go to, you know, finance to get approval for this budget. Or now we need to do... Make sure that marketing is okay with the... With this. Or actually, just within the same organization, need to talk to a sibling organization, get a meeting with them, and see what they think, and we have to get an agreement.
+
+And if we can't reach an agreement, we'll schedule another meeting where we'll look at this again. And then if that meeting doesn't, maybe we escalate it to the managers and then so on. So these are the blockers that slow down our innovation. Blocker finder, which is great if you're the CEO because there... Here's the next thing.
+
+One, have to play detective. The other one is the blame game. Who's... Why isn't this done is what we always ask. You're in a leader, whatever, your group, another group.
+
+Hey, we were supposed to do this by today. We're supposed to hit this target. Who's responsible? And then you get three Spider Mans pointing at each other if you know the meme. Yeah.
+
+Here, it's like, wow. This actual piece of data has not been resolved and your team has run nothing. I had a similar thing. I came up with a bot, and I was gonna share it with the whole company, and thank God I didn't. But I came up with a bot just called major decisions.
+
+And I just said, go into Slack, join every room as me, just join every channel as me, which some people are like, wait a second. How did you even know we had a room? Join every room. Read every Notion page. Even if I was invited to it or not, get every email, and find for me for the month and every couple of days, give me a report on the most important decisions, who participated in them, and what was the resolution, what's not resolved.
+
+Then I said, give me the people who participate the most in these kind of discussions. And then I realized, oh, wow. These are the people who are actually making decisions in the organization. These are the people who are quickest. And then my next report is gonna be is who's quickest to contribute to those discussions.
+
+Now in a venture firm, that's gonna be a a discussion like, we invest or not? Should we take our pro rata or not? Should we sell our shares if we got a secondary offer? In... On the podcast is like, should we book this guest or not?
+
+Should we, you know, use this clip or that one? And then it picked up employment discussions. And it was like, should we fire this person or not? Or, you know, do we do pips? And I'm like, we don't do pips.
+
+And, like, I just think pips are ridiculous. Like, the performance isn't here. That's like, the person didn't show up. Let's torture them for two quarters. Yeah.
+
+Like, you you missed practice, and you showed up late for the game. That's table stakes. You can't be on the team if you can't do those things. So, yeah, now we're gonna torture you and try to make you come into work on time or do a workout you don't wanna do. So maybe you could speak to what this is gonna do for you as a founder and a CEO in terms of figuring out who are your all stars on the team, who are the ones who are actually contributing because now we're getting to essentially business Moneyball, like that movie Moneyball.
+
+It's fantastic. Brad Pitt. It's such a good movie. It's such a good book. We're actually getting into, like, management Moneyball, aren't we?
+
+Yeah. Absolutely. But one of my favorite questions is just look at different orgs, because we have certain culture principles, truth seeking, first principle, and so on. And I say, hey. Which of these leaders follow these principles?
+
+Look in their whole orgs. Look at all the meetings, and it can derive from those. And by the way, you could even ask, hey. This leader, what is the actual culture they're implementing? And it'll come up with different...
+
+You know, they'll tell you, no. Actually, the culture there is this, not the company culture, which is essential to deviating from the core principles. That's... That drift is cancerous for you as a founder, or it could be something you need to change and could be an early warning sign. We need to be consistent, whatever it is.
+
+Right? Maybe they're right and the rest of the organization and including me are wrong, but then we need to at least... It tells me that there's this divergence and we can sort of, you know... So those kind of things were, like, nearly impossible to do. Like like, many of this other stuff you could have done, but a question like that, like, get the culture of this subgroup in a 12, you know, 12,000 person organization, you know, figure out how the Japan organization at Databricks...
+
+I don't even speak Japanese, you know? And we have hundreds of people over there working. Like, what's the culture like? How do we make decisions? How is it different from the EMEA or, you know, the Latin Latin Latin, you know, region that we have?
+
+So those are kind of game changers. For us, it's really... I share all this information with the employees. They have access to all of this themselves. And then I tell them, look.
+
+This is what we want. Like, that l curve, we wanted to shift it to the right. So everybody, let's change that. Let's let's move towards this, you know, the North Star that we have together, and that helps us just be more competitive. And then once we get more competitive, we can build more products, and we take market share, and we can accelerate our growth further.
+
+Know? I'd like to not be 70, 80% growth year over year. I'd like to be a 100, you know, way over a 100. So then we can put... You know, that's that's how I see it.
+
+So this is in this era right now, this is a competitive advantage. Whoever can do this best... You know, at some point, maybe it all come... Everyone is using. It's fully diffused, and everybody's doing this.
+
+But right now, this is big alpha. If you can do this really, really well, better than any other organization. Speaking of big alpha, a lot of people have been very patiently been on your cap table, and we have a big debate between founders and capital right now. Stay private longer. What's the point of going public if we have secondary markets that are quite efficient?
+
+Stripe has been private closer to twenty years, I think, than ten, and they seem to have given the indication they're gonna stay private longer. SpaceX took a little while. Uber, took a little while. I felt that one, but luckily, Masayoshi san was splashy cashy. When are you going public?
+
+When when... And how do you make that decision? I know you got a lot of pressure on you to do it, but you also have a lot of pressure relief valves in the the vibrant secondary market. Yeah. Look.
+
+My goal is to make Databricks as successful as possible in the next decade or two. That's how I'm thinking about it. What's the right strategy to get there? I mentioned this alpha of what we're doing here, the products we're building, but we're getting into new markets. We got into security market.
+
+We got into the marketing market. I'm focused on those. Then the question is, the path to get there is the best way and the fastest way for us to be public or to be private. I actually think that through that. What's what's on each side of the ledger for you?
+
+Yeah. I actually think that, you know, you get access to capital. You get much, much better marketing. You know, it's like everybody knows about you. Like, every quarter, you have this big marketing event, and you can tell your story again and again and again.
+
+Those are huge advantages. We have to organize our own tenders every year. Every year, we do... Finance has to go through this big process. You know, I think Yeah.
+
+We raised $2,030,000,000,000 dollars, and then we have to arrange that. It's a heavy lift. There is a marketplace that just does that. Probably a pretty emotional and distracting, I would think. Right?
+
+Like, people have to decide. Then you might lose people that, hey. They take $10,000,000 off the table. Now they're like, maybe I don't wanna come to practice anymore. I think the liquidity I think the liquidity is a good thing because, you people know that they're gonna get it every year, and it kinda comes and it's, like, predictable, and that's, like, the one time they have.
+
+And, actually, in the past, it's turned out since we started doing these a few years ago, it turns out that, you know, the money that we set aside for tenders, they never use up all of it. So most employees are bullish. Yeah. So most employees are like, no. This is Okay.
+
+That's good for you. Do... You get signal from that. Right? Who's selling?
+
+Who's not? It's a little bit of signal. It could be personal reasons. But acquiring companies is a great reason to have equity. Yeah?
+
+We can... I mean, we haven't had any problem, you know, doing billion dollar acquisitions because they know... Because of the liquidity that we will provide. And then I think most people do the calculation. It's like, okay.
+
+If it's... You know, the business is $7,000,000,000 plus and it's growing 70, 80%, They do the math. It's like, okay. I could... Once...
+
+Most people say, I want liquidity, but then when you tell them, like, okay. Well, how much do you wanna sell? We're growing 78 plus. You know? Can you do compounded growth of, you know, 1.7 to the, you know, to the power of three or four?
+
+And then they start scratching their heads like, okay. Maybe I'll sell, like, 5%. You know? Yeah. Sitting on your hands is a very important skill to learn as an investor and an employee with this this kind of stock.
+
+I mean, listen. You do have to protect downside when you when you get in that space. Who do you see as your competition right now? Everybody says something like Snowflake, but I'm watching a market where, as I said earlier, Anthropic is launching feature after feature. Cloudflare is looking at features next to them.
+
+Replit is looking features next to them. Everybody seems to be looking in their peripheral vision. And because you can build software fast and because you have a lot of developers, if those developers keep going up that ramp that you showed, you only had 10% of people at that peak, which means as that 90% climb up there, your developer resources are gonna go through the roof. So you have a decision to make. Do we just have less developers at the low end of the tail and be more profitable, or do we invest all that developer time as they move up the ramp?
+
+So so how do you think about both of those issues? What do you do with massive resources that this efficiency is creating? And then who is the competitor, and do you need to just keep making peripheral product moves? Yeah. We will make peripheral product moves.
+
+But maybe I should just start by saying, okay. So those were the upsides of going public. The downsides are, you know, is is the reason why, you know, to answer your specific question. Like, you know, why why do we compete? Who do we compete with?
+
+Why do we build these products? I don't want the market to force me that, okay. Now it's down, and now it's, you know, sentiment is terrible this week, and now your stock is down, and then when the stock is down, the employees literally are getting a pay cut. And I say, well, you know, you promised me I was gonna make a million dollars. Actually, you said it's gonna be 2,000,000 in a couple of years, but I'm looking at it right now.
+
+It's not even better. $2,200 k. So you lied to me. I'm leaving. Okay?
+
+And then, know, three months later, it's like, oh, no. No. No. Actually, the revenue is accelerating, but we're totally wrong. It's up to the right now.
+
+It's like, oh, okay. Wow. It's great. So there's, like, back and forth. A little bit of a roller coaster can be Okay.
+
+That's what I wanna avoid so that we can focus on that long term, you know, building the company towards the vision that we have in the long run without being distracted. We will go public. We are gonna be public. But right now, I think during this transition period of AI, there's just too much up and down, and I think it's distracting to companies. It's distracting to CEOs.
+
+It's demoralizing to CEOs. You know, they call me. You know, they're, like, depressed because, you know, stock is down. They don't even understand why, and then the stock is up. So that's what we're trying to avoid.
+
+I think it's an issue people are starting to have with their sleep scores. You know, you get a whoop, and I love it, but I got my wife a whoop, and then we're, like, comparing sleep scores, and now that it's kinda like looking at your Uber stock every day. A little bit of volume relationship. It could be challenging. And the other way is it's interesting.
+
+Hey. We didn't circle around to what Ben Harowitz said. He said that your formulation of super intelligence is some combination of the model, the power, and the time it takes to train and be accurate. What... Can you walk us through it?
+
+Do you have it off the top of your head there, ready to go? Happy happy to do it. I mean, it's pretty simple. So I I think the main problem is the context problem. We're solving that with Gini and the ontology.
+
+The labs are focused on superintelligence. That's what Bodstrom talked about. Bodstrom in his book also said, how do we get there? He actually, in 2014, I believe, defined RSI, recursive self improvement, which means that the AI starts improving itself, and then it gets, you know, better and better and better and better and better. And then we get this takeoff, maybe a fast takeoff.
+
+And at that point, you know, we reach the singularity, and we're no longer in control. And at that point, let's hope that the AIs are well aligned because if they're not, we're all gonna be made into pets, this is where the yeah. 10% Paper clip maximizers and the 10% risk to humanity, and all of that comes from there. But I think a lot of this is actually coming from most of the folks that are building this AI. They've seen that AI has become really good at coding.
+
+And almost in every company, as I said earlier, the coding is being done by coding agents. So then they're seeing... And I think this is actually causing a big existential crisis in Silicon Valley, it's actually for most of us who start... You know, who grew up coding our whole lives, you know, it's it's it's a big deal. Like, you know, it's like...
+
+Like, I spent, you know, ten, twelve hours, seven days a week, you know, from third grade until, you know, my thirties, just coding all the time. Right? And I was really good at it, I knew all these languages and so on. And then suddenly, it's like the AI is doing that. Well, if it's doing AI is how much better than you?
+
+That's the other part. It's like Yeah. So now it's writing itself, and the next version, it wrote itself. Wait a minute. Isn't that the recursive self improvement?
+
+But wait a minute. Then this is gonna speed up, and then we're gonna get into this loop. The books... The book called it superintelligence and the pay per click maximizer, so it might go off and all these bad things happen. Actually, interesting.
+
+Bodstrom has kinda changed his view now. If you have to follow him now, he's actually not anymore. He's saying that, you know, we should do this. There are risks. Of course, there are risks with cyber.
+
+But, you know, I actually think, you know, you need to actually think this through further. Just because 98% of the code is being written by AI, we don't have RSI. If it automates the last 2%, who cares? You know? Does it matter if it's 9898% or 100%?
+
+Why does it matter? Actually, it doesn't matter. So we really need four conditions to be true. The four conditions is that we need the next model that's trained to, you know, be trained in much short amount of time. Okay?
+
+And still the big pre training runs that the labs do, they don't do actually that many of them per year. Okay? And it's still following the... What's called the scaling laws, which means you need exponentially more hardware to get that improvement. So exponential more, like, 10 x more compute to get a little linear improvement.
+
+Okay? So they're scrambling to get all the GPUs and put together the biggest data center that they can possibly put together with the networking and do all the engineering, and then they're having humans do all of this because they really don't wanna screw up the next run. If the next run gets screwed up, then, you know, the whole thing falls apart. But, you know, we would like that next training run to be faster. That's condition number one.
+
+Okay? And, actually, it can't just be a little bit faster. It's like this... You know, it can't be like, you know, you're halving the distance every time. You'll never get there.
+
+So in some sense, it has to be super linear. Secondly, we also want it to use less resources. Right? Because, you know, you could say, okay, it's getting faster and faster, but that's because we're 10 x ing the hardware all the time. Yes.
+
+Well, you can't do that trick because we run out of hardware and we run out of atoms. So it's like the second requirement. Third requirement is that the accuracy is also improving, at least linearly, or, you know, we're getting better accuracy across the board in a generalized manner. It can't just be it's getting just better at, you know, this one dimension that we did reinforcement learning on or just math. It needs to be across the board on all of its tasks.
+
+K? Even if you do all of those three, it's not enough. Let's say you do that five, six, 10... Seven times. That's awesome.
+
+You get really awesome models. That's not that kind of superintelligence. The fourth condition is that you can actually put this in a loop, and all the previous three conditions need to be continuously happening so that we end up in a world where the next model takes, you know, three months, then one month, then, you know, two weeks, one week, and it's getting smarter and smarter and smarter, and it's, you know, costing us a $100... Or maybe it costs us a 100,000,000, then 50,000,000, 25,000,000, $10,000,052.01, and then it goes down and down. That's what we...
+
+That's the kind of scenario we have. If you have to look at it flywheel. That's the flywheel. That flywheel doesn't exist right now. The models are taking longer to train.
+
+Right? And there's more data cleaning, and there's more manual whack a mole ing happening where you have vendors like Mercore that has to actually go get the data from very skilled labor, and then you have to do reinforcement learning in these gyms, and you have to kind of whack a mole in each domain, so it's very domain specific. And then, of course, the pre training requires more resources, and, you know, so it's it's... That doesn't look like we're getting into this loop. By the way, even if you satisfy all the four conditions I'm saying, that doesn't guarantee mean that you'll have, you know, a conscious being that's just, you know, taking over everything and just, you know It's the precondition for that happening, and there's no guarantee that it actually a happens.
+
+It's a precondition, but even if you had that which we don't have, you would have to to threaten me right now, you would have to have a killer robot come into this room right now Right. And wrestle me down. Okay? Yes. Or something.
+
+Right? And those don't exist yet. So, you know Yeah. Right now, you can have a bunch of hackers take a really capable model, and you can find out that the refrigerators in grocery stores in France have the password admin admin, and that you can remotely script kitty into them and turn it into defrost mode and make a bunch of butter go bad and milk, which is a tragedy for the French. I understand.
+
+But it is not superintelligence, I can assure you. Yeah. It means... I mean, did you see that hack and how people were losing their minds over it? I'm like, guys Yeah.
+
+You know how when you buy a new router now, it has the serial number and then a random password? Yeah. Admin. Admin. Yeah.
+
+Yeah. If they had done that on the refrigerators, they would have been able they wouldn't have been able to hack one of them unless they got into the place, took screenshots of 20 different refrigerators, physically compromised, you know, some supermarket in the 8th in Droshmeint, which would have lost, you know, I don't know, 10 pounds of butter. It wouldn't have been a big deal. So look. Cyp...
+
+Cyber, I do think, is a real thing. Yes. And I think it's a real risk. We actually have a whole product in the cyberspace called LakeWatch built on all this data that has automated agents that actually detect these kind of intrusions that are happening, then they monitor your agents that you have. This is a real problem, and I do think bad things will happen here, but then we will adjust.
+
+But bad things happened when Internet came out as well. Shouldn't it shouldn't we be able to solve for this because Yes. You tell me if I'm right or wrong here. One theory I heard, which resonated with me for a certain type of hacking, not for the, you know, script kiddie hacking, but real hacking, is you you have a lot of compute. You need a lot of compute to execute certain hacks, like the hugging face one, you know, thousand agents, whatever.
+
+The bad guys don't have that much compute. The good guys have a massive amount of more compute. And so if you just did your basic job as a white hat and, you know, defended properly and looked for these exploits, let's say you have a thousand times the resources, you should be able to get to these problems long before the hackers. Does that make good sense to you? That they are just...
+
+Yeah. Yeah. That's good argument. Right? Yeah.
+
+It's it's... But there's a... The the the issue is that you have to weigh that against the following asymmetric scenario that we have, which is if I'm an attacker, you know, I can launch thousands of thousands of thousands of agents, and I... All of them can fail except for one. And if one of them gets through, I am completely successful.
+
+The asymmetry is that if I'm a defender, you know, I was able to, like, you know, you know, protect, you know, my my boundaries all the time except one got through. This is a suicide bomber. Right. Not to be too graphic, but you only need to get one nine eleven to make your point. Yeah.
+
+You could try a thousand times and not get So I need to be 100% safe all the time. They need to just get one thing through. Get lucky once. Very asymmetric, that risk. But, however, the the way I would look at it, the reason, you know, I think that we're actually gonna overcome this and it's gonna be totally fine, is that these are actually latent bugs that exist in the source code.
+
+By the way, we're not creating more of them now because almost all of us are now scanning it. We all have products. I mean, we actually sell a product where we can scan the vulnerabilities of new code. So new code that's being produced is not gonna have these vulnerabilities. By the way, that might sound silly, but think about it this way.
+
+In the next twelve months, we're gonna write more code than ever in the history of mankind. Right? Actually, in less than the next twelve months. So all that code is gonna be secure. So then...
+
+And by way Because right now, the AI is sophisticated enough to not make human errors and to look for it, and it's more dogged. Yeah. You just scan scan those things. So then what remains is all the legacy code, which, by the way, we can rewrite all of it, which is what we have to go through. And people are doing that.
+
+Right? That's part the issue with eighty ninety. Yeah. Yeah. There's other ways to actually also protect, you know, do shadow patching before even...
+
+Actually, without touching the existing legacy code. But... So, you know, what's happening is that you can think of it as, like, know, it's like a fruit garden, and there are, like, these bugs that, you know, attackers are leveraging. They're picking the low hanging fruits, and before humans could pick a certain low hanging fruit. Now agents can reach higher and pick higher Yeah.
+
+You know, hanging fruits, but we're gonna clean clean those up, and then they can maybe reach a little bit higher, but there's only a finite number of vulnerabilities in the code. Once we've secured that code base, there is no more. So it's not like there's an infinite thing, this is gonna go on forever. No. It then stops.
+
+Then we're at the steady state, and then, you know, vulnerabilities might actually be fewer than what we had in the past. I think that eventually then, you know, back to AMP where you went at Berkeley, it's the people in the loop that are the vulnerability and it's just gonna be somebody getting compromised as we saw the last week or so. The humans do have vulnerabilities, I'll leave it at that. Hey. I wanna end on this one thing.
+
+You you spend a lot of time in Berkeley, hippie dippie, EA community, accelerist, decelerist. What's the nature of this group of the EA faction and how they look at the world and how confounding they are to the rest of American society. Who are these people? What do they believe? Are they a little drunk on their own success, or do they actually have really important insights that we need to really focus on what they're saying and take them at their word?
+
+It's a big controversy. Dario, you know, during the roadshow is saying cancer and Alzheimer's, I believe, will be gone in under ten years. Now that's very beautiful to say except Because everybody's dead. Right? Yeah.
+
+Except if your, you know, mom or dad are dying from cancer and you think, oh, I got a window here that I could save them or my grandmother's got Alzheimer's. Now you're talking about giving people false hope, and maybe shouldn't make claims like that. But I don't doubt Dario believes it. I actually think he does. But unpack these people because you've been around them for two decades, three decades.
+
+Well, you know, I think that most people on both sides, actually, on all sides, they're the heroes in their own book. Right? We all wake up thinking I'm the good guy and I'm doing the right thing. So I think it comes from a good place. I think they are seriously nervous about this kind of superintelligence taking over.
+
+If you read Bolstrom's books... Actually, if you read those books and you sort of internalize what he wrote before any of this, then you actually get kind of freaked out. Right? And I was certainly freaked out when I read it. So I think that they're starting with those assumptions, and then they're looking at, you know, okay.
+
+Well, then if it's getting smarter this fast and look at the cyber attacks that are happening, dot dot dot, we're gonna get this kind of superintelligence that's described in the book. Mhmm. But there's a few dot dot dots there that are not clear. But then they would say, well, look, you know, shouldn't we be cautious? Right?
+
+So I think we need to take... You know, we we should look at safety. Cyber, I think, is a big deal that we should look at. But the reality is that I think know how to handle this. We we will be able to manage through this.
+
+I think we'll be... The biggest risk right now is cyber, and I think it's manageable. This RSI, I don't see any evidence of it. If there's data that, you know, others have that I don't have, yeah, I don't I don't know what I don't know. But based on what I'm talking to, you know, here in San Francisco, where all the labs are and all the people I meet, I don't see those four criterias that I mentioned even being fulfilled.
+
+You know? So I I don't see any risk to be, like, worried about it, you know, that happening. And then the second thing I said, even if we would get there, I don't see, you know, even the means in the society. Like, it's it's just digital. Like, we can just shut down the computers right now.
+
+You know? I do think cyber is real. Like, if a hospital went down instead of a refrigerator, right, that is concerning. Kids using kids using it and developing parasocial relationships with character AI or it giving you bad information if you're suicidal or something. Like, they...
+
+There are concerns to have about how the technology gets deployed. And we just went through this with mentioned Dunbar's number four. We went through this with, you know, social and the profound impact that had on-site. We're going through it now with truth and news and and manipulation of news via algorithms. So there are things to be concerned about being turned into paper clips?
+
+Maybe not. But but I think that, you know, the health care stuff is absolutely real. Like, you know, at Databricks, we actually... We were involved with Regeneron where they found the the actual genome responsible for chronic liver disease using Databricks, their researchers there, and actually came up with drugs for that. Best case scenario in under a decade, if you were to take the claim we had Dario make, any chance that we cure cancer in the next ten years?
+
+That's a pretty bold statement. It's very hard for me to say. I don't know exactly what's needed. Mean, I think progress will be faster, but for a lot of these things, it also has to go through, you know, human trials. Trials.
+
+Well, human trials, like, you know, we can't just test stuff on humans will nilly. Right? And just because you tested it on animals, it's not enough either. Right? So I don't know.
+
+Maybe in ten years, maybe not in ten years, maybe it takes thirty years, maybe it takes fifty years. I don't know. Maybe it takes six months. Maybe it's already solved, more or less. But it is helping already.
+
+So use case I gave you with chronic liver disease, that's super important. By the way, that was the previous generation of AI that we used at Databricks. We trained the new one now with Merck, and it's called TEDDY, transformer enabled drug discovery. Transformer enabled drug discovery is a model, transformer model, but instead of, you know, the next token being English, it's the gene regulatory network, GRN. So it actually can say, okay.
+
+This genome is actually causing this disease. This genome is just reacting to it, so don't target it for a drug. So this will accelerate drug discovery. It's a game changer. You know?
+
+Drug discovery aside, like, you know, I give you another example. Like, Crisis Text Line, it uses Databricks and uses large language models and these agents, and they actually detect if kids wanna do self harm, and it helps prevent that. Right? You know, Virtu Foundation uses Databricks. You know, ZipLine, this was a, you know, use case that was reported before, used Databricks to deliver, you know, food.
+
+They had these drones Oh, blood. The drones that would deliver, you know, everything about those drones and so on, like their their paths, the, you know Oh, really? Big data. Yeah. All of that was running.
+
+We see these So Yeah. We see these use cases all the time with AI, and it is gonna make the world a better place. There are risks. We will deal with those as well. People are nervous because, you know, things are changing, and I think the AI companies, there's a lot of researchers who maybe, you know, they understand the research very well, but they haven't looked at, you know, how does the economy look?
+
+What's gonna happen? You know, how are these things gonna evolve? And they've watched a lot of sci fi. Let's be honest. Like, they are being informed by, you know, a certain narrative, and the idea that there's a 10% chance that seven billion people die because of AI seems so farcical and out there that when you pick a number, it makes you seem credible to an average Joe who's like, these are smart people who make a lot of money.
+
+And if they think it, maybe they're right. If they're saying it themselves. Right? That's how people think. But I I...
+
+For me, that risk is, you know, close to zero. I think the cyber risk is real, and really bad things can happen with that. That's why we're focused on it. You know? And then, you know, I think actually for to solve this this context gap that I mentioned in enterprises, the thing we're focused on to actually get value everywhere, I actually think it's gonna take ten years.
+
+You know? I think this is something that's gonna take ten, fifteen years. The labs think this will happen, like, in the next six months, twelve months, in, you know, two years. But I actually think GDP will move very slowly, and it's gonna take decades for us to actually get through it. Why?
+
+I mean, as I said, I mean, just go back to the anecdote at the beginning. The, you know, the CEO of the bank that said, we can't even record the meetings. If you can't record the meetings, the AI doesn't even know what's happening in the meeting. Yeah. How could it possibly do the kind of things that we discussed when I showed you Genie and the ontology?
+
+It's gonna be a paced rollout to be sure and there are some of us who are running ahead around the corners doing really cool stuff, which is exactly what we both experienced with the internet. When the internet first came out, the people who were using it to its fullest extent were like, okay. This is gonna change everything. And then 99% of people were on dial up and had never seen a high speed connection. So they...
+
+Their brains couldn't conceive of YouTube or, you know, unlimited free photography story. Didn't... It doesn't make any sense. How do ever understand? There was a kid called Robert Morris Morris who took down 10% of the Internet with the worm.
+
+It's called the Morris worm. Yeah. You know, he almost got a jail jail sentence for it, and then he went on and he became a famous MIT professor in computer science, and he's like a very famous guy. But, you know, that took down a whole 10% of the Internet back in the day. Which is completely possible.
+
+Like, at some point, you saw it today, somebody feels like they may have cracked signal to a certain extent. Okay. Sure. Let's see what happens. Alright, everybody.
+
+Another great all in interview. Ali, thank you so much for your time, and we'll see you next time on the all in interview. Boom. Thank you so much. Great job, Ali.
+
+You are awesome.

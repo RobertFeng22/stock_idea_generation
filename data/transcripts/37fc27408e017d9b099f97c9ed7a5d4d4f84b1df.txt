@@ -1,0 +1,381 @@
+If you look around outside, how different is anything from ten years ago before AI happened? Not very different at all. The first time you were in your Waymo, you thought to yourself, this is amazing. Probably the third time you're in your Waymo, you're like, man, this traffic sucks. We need to break out of this pure focus on the digital world and go to the physical world.
+
+I don't think you are actually gonna be able to get to superintelligence without changes in the physical world. Hi, listeners. Welcome back to No Priors. Today, Elad and I are here with Bob McGrew, the CEO and cofounder of Arda. Bob was previously an early key exec at Palantir and the chief research officer at OpenAI.
+
+We talk about making American manufacturing competitive with intelligence, why physical intelligence is necessary for superintelligence, and why the future is going to be machines that can make machines and explore the stars. Welcome, Bob. Bob, thanks so much for joining us today. No priors. Great to be here.
+
+Yeah. So you've had a ridiculous career. You were the chief research officer at OpenAI, so you drove all those sort of research directions for the company or at least set a lot of the agenda. You were at Palantir quite early and one of the main people there driving product and engineering. So you've had this amazing career spanning some of the most seminal moments of the digital world, and yet now you're working in the physical world.
+
+And it's right in the arrow when people are talking about RSI, which is recursive self improvement, about how we will no longer have researchers and be displaced displaced by code and AI and, you know, AI building itself. Why do anything in the physical world right now as this digital revolution is happening? Well, you know, fundamentally, I don't think you are actually gonna be able to get to superintelligence without changes in the physical world. So, you know, the... We've seen a huge amount of improvement from ChatGPT, from agents.
+
+You know, all of this is happening in our digital lives, and very little of that has actually affected the atoms of our lives. Like, if you look around outside, how different is anything from ten years ago before AI happened? Mhmm. You know? Not very different at all.
+
+You know? Even when you're doing something that is genuinely very different. Maybe you're in a self driving car. Right? You're, you know, in a self driving car, in your Waymo, going around San Francisco.
+
+And the first time you were in your Waymo, you thought to yourself, this is amazing. There's there's no one driving it. The, like, car is driving itself. And, like, probably the third time you're in your Waymo, you're like, traffic. Man, this traffic sucks.
+
+Yeah. Right? Because just, you know, you have something... Even, you know, a Waymo is, like, halfway towards the physical world, but, like, you didn't change the car. Like, the car doesn't fly.
+
+You're still bounded by all of the physical barriers that, you know, made the car trips around San Francisco pretty, slow even in the nineteen nineties. Right? And so fundamentally, we need to break out of this pure focus on the digital world and go to the physical world. So when you say you can't have superintelligence without changing the physical world, what does that actually mean? Yes.
+
+What does that substantiate us? So so maybe a good place to start here is I think there's this common perception and... Or there's a common argument, and I've I've been hearing it since, like, 2018, which says that if you can just automate the work of the researcher, that you're gonna be able to unleash a runaway acceleration, runaway self improvement loop, and we're gonna have a singularity. This is the hard takeoff. Yeah.
+
+Hard takeoff. Exactly. And I think this is wrong. I think this this argument is just straightforwardly wrong. So, you know, just to recapitulate the argument, it says, you know, okay.
+
+So we can automate 10% of a research time. That is gonna give... You know, that's gonna give some improvement. We automate 50% of a researcher's time. Now you have a two x improvement.
+
+So now you're going two x faster. And then you automate 90% of a researcher's time, you're going 10 x faster. 99% automated, you're going a 100 x faster. And so by automating more and more of this job, you know, and eliminating this labor of the researcher, you're able to just, you know, zoom up and have runaway acceleration. But this is this is this is straightforwardly wrong because researchers are not the bottleneck.
+
+Right? Like, the amount of time it takes in order for you to discover something is not primarily bounded by the number of researchers you have. Fundamentally, those researchers are running experiments. Mhmm. And so, you know, if you if you actually think about the the...
+
+You know, even today, right, even two years ago in 2024 when I was chief research officer at OpenAI, like, the actual limiting factor was not the number of researchers we could hire. It was the amount of GPUs that we had on hand. Mhmm. It was the physical amount of compute that we were able to put out there. And, you know, was the compute accumulated in the right places?
+
+Was it connected together with the right networks? And so you can, you know, completely automate researchers. This is a big effect. Right? I'm not saying this is not a big deal.
+
+You know, maybe this is even... Maybe the ability to do automated research is gonna be as impactful as the ability to go from, you know, GPD four o without reasoning to o three with reasoning and tools. That was a huge one time acceleration, but it's not RSI. So I think the right way to think about research is that, you know, fundamentally, there's a bunch of experiments. You have to run these experiments.
+
+And right now there's a lot of waste. You have to... You know, researchers have to do a lot of engineering. They have to pick the right experiments. They have to just, you know, go physically schedule them on the GPUs, and all of these lead to the GPUs being less effective at delivering new discoveries.
+
+And so, you know, the correct mental model is to look at the GPUs and to say, okay. Well, you know, right now, the GPUs are 35% of the way to optimal in order to be able to deliver discoveries. And if we can automate more and more, maybe we can get them to 90% of the way to optimal. Mhmm. But the difference between going from 90 to 99% of optimal, it's actually not a big difference.
+
+And so we can automate researchers. It's a big one time benefit, but it doesn't kick in a self improvement cycle. Instead, it's one more, you know, s curve, one more big one time improvement similar to reasoning that allows us to, you know, get closer to optimum. Mhmm. And then we have to go do something else.
+
+Yeah. I feel like a lot of AI driven research is basically stacking S curves of different types, or AI development, should say, in That also translates into other domains, though. There's robotics, there's biology, there's a few other places where the physical world is really, you know, the primary limiter on progress. Right? You have to run the biology experiment.
+
+You have to build the, you know, the motors for the the sort of mechanical hand or whatever you're building. How do you think about the progress that the labs will drive versus startups will drive in the context of these other big markets where there's a stronger research overlay or angle, but then there's sort of this physical world limitation that you have to overcome or at least optimize against in parallel? Like, will it all... Will robotics and biology aggregate to the anthropics and opening eyes and Google's of the world and their subsidiaries like isomorphic, or do you think there'll be, like, a bunch of startups that drive this sort of progress? Yeah.
+
+Before we talk about market structure, I think like let's let's think about what the actual... Maybe the economic structure of this is. You know, the labs... If if we think about what the labs are doing, they're really producing cheap intelligence. So what are the complements to intelligence?
+
+If we think about biology or again, we think about, you know, running these experiments for superintelligence research, you know, the intelligence in terms of choosing which experiments to run, generating hypotheses, it's really a complement to the physical layer of having the wet labs, of laying out the GPUs. And so when hypotheses become cheap, then it's actually the physical part that becomes scarce. And so if you get better and better at generating hypotheses, you're just gonna bang harder and harder against the limited number of wet labs that you have. Yeah. And so then...
+
+Okay. So go back to the market structure. Well, I think it could be either way. Right? But then do Anthropic, do OpenAI, do they have a comparative advantage in building out wet labs?
+
+Mhmm. I think they probably don't. Did you consider doing other... Working in other domains before you decide to go work on manufacturing and robotics? I did.
+
+Yeah. Yeah. So when I left OpenAI, I think the one thing I knew was I didn't want to start another frontier lab. Like, in fact, maybe I wanted to be the only person that's ever left OpenAI and not started a new frontier lab. And, you know, I'd done that.
+
+And I wanted to to do something new. And I was... Basically, I was I was captivated by this question that the models are so powerful. Right? And they're really powerful now, but they were really powerful then too.
+
+And yet, they don't seem to be making that big a difference in the world. And You know, people people love to talk about abundance as a concept in Silicon Valley. And I think it's a very interesting one because it's it's a very physical word. Right? When you think about abundance, you're like, I have an abundance of food or housing or family or something like that.
+
+Like, the way we experience the world around us is very physical. And I don't think anybody is like, I necessarily have an abundance of digital work. Yeah. And and and and and in order to actually get something done, you know, in economics, I think it's called like an O ring production function, but, like, you have to do all the things. Mhmm.
+
+And so if we're able to speed up the purely digital process of building housing, well, that's... That turns out not to be very important. Right? Actually, the hard part of building housing is getting the permits, which no amount of agents are gonna help you do. Right?
+
+But, also, you have to, you know, do the construction work. You know, I have a I have a mental model that I think about for what it looks like to, you know, the the impact of superintelligence where people say, okay. Well, if we can just have sufficiently smart agents, then, you know, we're gonna have Dyson spheres in just a few years. Mhmm. And so, like, here's here's the thought experiment is...
+
+You know, actually, let's say we're blocked on building data centers. Like, we wanna build a lot of data centers. Like, we need to go build these data centers. We're slow. What is it?
+
+Well, we have a shortage of bulldozers. No problem. Right? Well, the AI knows what needs to be done. It's gonna go, like, build a bulldozer factory.
+
+So now we gotta build a lot more bulldozers. Well, great. What's the first step in building a bulldozer factory? Well, you gotta clear the ground. What do you need?
+
+Well, you need more bulldozers. Well, I think... Yeah. That's interesting. I guess the the the comment I was gonna make really quick on all this is I I totally get your point on construction.
+
+I wonder for certain domains like biology, chemistry, materials, etcetera, if you're able to build a sufficiently strong internal model that can actually simulate a lot of these things well enough. Protein folding is a great example where you really don't have to go and solve all these crystal structures anymore, you don't actually have to do the experiment anymore because the in silico prediction is so good. So And I wonder if you actually fragment what you can do in the physical world into two camps. There's a camp where have to literally go and build the bulldozer and figure out... Or build the manufacturing capability to build the next manufacturing capability or whatever it is.
+
+And then there's the ones where you can actually simulate the experiment to the point where you don't need the wet lab anymore, or you minimize the number of things you need to do in the wet lab, you need to do in the materials shelf, or you need to do in the sort of physics lab. And so I just wonder if it's a little bit... If all these things aren't exactly the same, and there's two different types of problems that we're dealing with in the physical world. Yeah. That's really interesting.
+
+I think they're going to feel the same. Mhmm. And the reason they're going to feel the same is because of the tremendous speed with which we... We're going to be able to do anything digital. Mhmm.
+
+So let's go to wet labs, for example. Let's say that we build amazing digital simulations of proteins and of how they interact in a cell Mhmm. And we're able to do this. And suddenly, we are able to predict 10 times better how good... What...
+
+What's gonna happen with our experiments. And so now in order to get to a discovery, we need to run one tenth as many experiments as we needed to run. Well, we're gonna be... That period of time in which we are blocked on the digital world instead of the physical world, we're very fast in moving in the digital world. Mhmm.
+
+So we're gonna eat up that acceleration. It... It's similar to the other things. It's gonna be a one time acceleration, but then we're gonna be blocked on the physical world again. Mhmm.
+
+And then now now we're 10 times better, but we still have to go run those experiments. I think there's an analogy that I remember from from OpenAI where, you know, I was the chief research officer, or he was the chief scientist. And, you know, especially early on, I would I would read these papers, and I'd be like, oh, these methods. They're so cool. And I'd go to Ilya, I'd be like, oh, they have this idea, and it works this way.
+
+And Ilya would listen patiently for me to explain the paper to him. And at the end, he would say, so what are the results? Because, you know, even Ilya. Right? It's like, yeah.
+
+Sure. It's it's a cool idea. It could work. It could not work. But at the end of the day, you have to run the experiments.
+
+You know? I think if deep learning, which is... Has no physical... You know, it's it's like a purely mental. It's a purely, in some sense, a mathematical science.
+
+Actually, it's an experimental science. Mhmm. Right? And even Ilya, you know, he he can tell you, yeah, this is a bad idea. Don't even try it.
+
+But there's this huge number of ideas that are that are actually very good. Mhmm. And just applying a lot more intelligence to figure out, like, is it a good idea or is it not a good idea? Is it gonna help you? You have to go run the experiment.
+
+And then maybe you do... We're able to find proxies for this, which is great. As we find those proxies, then, you know, then we scale up to accomplish that. And then again, we're we're banging hard on the physical world. Tell us more about what Arda's doing then specifically.
+
+Like, how is Arda approaching the physical world? What are some of the products or areas that you're focused on? Yeah. So so let me start by by talking about the problem we're trying to solve. So after I left OpenAI, you know, I I sort of noticed that we are very good in America at designing products.
+
+Mhmm. Right? So the iPhone, you know, famously designed in California, manufactured in China. It says that on the back of your iPhone. You know, we're amazing at designing defense materials, but we don't manufacture very much of it here.
+
+And so I went around, spent a year talking to manufacturing leaders and asking them, like, what's going on here? And, you know, fundamentally, it comes down to... Fundamentally, it comes down to labor costs. Mhmm. And so if you wanna build something in America, one possibility is that you're in defense, in which case you can charge whatever you want.
+
+And if you're... If it works, the government will buy it. So that's great. But if you're not in defense, then you need to build an automated line. If you want to be able to build something cost competitively in The US.
+
+We're building all... We're designing all these innovative products. One part of designing innovative product is that the product itself changes. Mhmm. And so famously, you know, each year, the iPhone has 75% of the parts in it changed.
+
+Only about 25% stay the same. So that 25% is a highly automated line. The other 75% is assembled by hand. And the reason for that is that if you were to try to build automation that can go assemble this, that automation is very specific. The way we build automation today, it's like a bespoke machine that solves one particular physical problem.
+
+And that machine doesn't generalize from one phone to another. And it doesn't even generalize from one generation of the iPhone to another. So going back to, you know, what we can build in America. Well, if you're building a car, right, great. Build a highly automated facility, spend, you know, a couple years and $200,000,000 to make it happen, and then produce that same car with minor cosmetic updates for seven years.
+
+The economics work great. Mhmm. But if you wanna do that for an iPhone, first off, have to have... You have to go from about 25% automated to about 90% automated for it to pencil. And then how are you gonna be able to replace all of that automation?
+
+Like, that's just a huge incredible cost that you're not gonna be able to amortize unless the automation becomes more flexible. And then there's a second piece of it, which is that who is actually going to be designing this automation? There are about a million people assembling iPhones or components in Asia. There are, alongside that, about 10,000 manufacturing engineers who are figuring out what is the manufacturing process that we need to do. How do we stand up these assembly lines?
+
+How do we spin down these assembly lines when it comes time to spin up the next product? And so that's, you know, fundamentally the problem we're trying to solve is how can you make it as easy to turn over an automated line Mhmm. As it is to change and retrain workers in a human plant. Mhmm. So you can retrain a human worker in a day.
+
+Practically, manufacturers think they're extremely agile if they can bring a design change into production, even on a manual line in seven days. We would like to be able to build a system where we are building a system that allows you to upload your product design into our cloud, and then design and ultimately reconfigure an automated line in seven days. Putting aside the fact that everybody would like to be able to make whatever they want on demand as quickly as possible with with that sort of pace of innovation. Like, what are the types of products and customers where this matters the most from a business perspective, where that high mix and speed to bring up the line is really important to them? Because you kind of said, like, for a car, it's kind of okay to have the same car for seven years.
+
+Basically, if anywhere that you were doing highly innovative, frequently changing manufacturing, or where you have a lot of variants. Defense is, I think, a very interesting example. It's very close to my heart as, you know, a Palantir veteran. And, you know, in Ukraine, for example, you are now going... You're now spending only a few weeks from changes in the battlefield Mhmm.
+
+Into physical changes in the design Mhmm. That then need to be pushed out back onto the battlefield. That is a very short amount of time, and it's driven by these competitive pressures, right, between Ukraine and Russia. Well because if if your adversary can turn that around faster than you can. Exactly.
+
+Well, you know, there are also competitive pressures, although less violent ones, between Google and Apple, or, you know, the Android ecosystem and the iOS ecosystem. And so, you know, as you are building these larger and larger markets, and these more and more innovative products, what you want to be able to do is just crank up the pace of innovation. And so consumer electronics Mhmm. Is a great example here. A lot of things that go into data centers need to be changed very frequently because chips change very frequently.
+
+I think that's... Those are the kinds of industries. Defense, consumer electronics, the data centers, and data center supply chain, where you see a lot of need to be able to turn things over quickly, and where as a result almost everything is built by hand. And when you talk about automating these lines, is that humanoid robotics? Is it just existing manufacturing technology repositioned?
+
+How do you think about the form that's gonna take? Yeah. I mean, the true answer is that it's all of the above. But practically, what does it look like? You know, and I would...
+
+I think there's... The the most obvious thing is that you wanna be able to have reconfigurable robotic work cells Mhmm. That you can immediately flow a design change into an actual change that's happening in the factory. That's a hard problem. Obviously, there's a lot of people working on different variants of that.
+
+The the reason I ask about it is I feel like there's two theories of the world, and I'm not saying they're incompatible. One theory of the world is everything is designed around people right now in terms of manufacturing lines, etcetera, and so therefore the most natural thing to do is just copy a person, which means have a humanoid robot. The other viewpoint is while there's lots of these, sort of very common manufacturing processes that you need to do, lot of them are done by hand because to your point, it just... It's faster turn if you need to turn something around quickly. And those things could just be made into sort of stepwise sequential things like what we've done in automotive for welding arms or other things like that.
+
+So I'm a little bit curious like where on that spectrum you think we are in the near term versus the long term. Yeah. So I so I would I would come in with two ideas. So first off, let's talk about the form. Mhmm.
+
+Form factor. So for the form factor, given what I just told you, we are trying to replace humans. Right? We're not trying to replace additional forms of automated lines. We don't need to work in automotive where they have these like extremely large baroque robotics.
+
+I think, you know, two arms and a camera is enough. In a lot of cases, actually one arm and a camera is enough. And maybe you need some more... Some better sensing. You know?
+
+So from a form factor perspective, these lines, you know, you have a human standing there all the time. You don't need a humanoid robot. And does the capability of the arms have to change dramatically? Because people always talk about the sensitivity and fidelity of existing robotic arms versus humans and all the rest. Like, how much progress actually has to be made in terms of the componentry for the arm versus, hey.
+
+It's actually ready to go, and it's just all about the software. Automated... Existing automated lines are able to build all of all of the products that we're talking about, or at least like 90% of them. You know? Yes.
+
+Wire harnessing is hard. But, you know, if you go look at something like the iPhone and you ask what is the barrier to doing the automation, it is not that robot arms, you know, can't, you know, sufficiently screw in every screw and, you know, fiddle with every... Everything. That kind of sensitivity already exists. Mhmm.
+
+It's the economics because those arms and, you know, that... Those... They call them CapEx, capital expenditures. Those machines have to be redesigned and rebuilt every year. So I think They can do it.
+
+It's just too expensive. They can do it. It's just too expensive. Want. Yeah.
+
+And so I think there you wanna actually switch from thinking about the embodiment to thinking about the intelligence layer. For the intelligence layer, I would distinguish robotics as, you know, some robotics problems are open world, and some robotics problems are closed world. Mhmm. So if you were trying to clean a bedroom, that is an open world robotics problem. You have never seen the items here, you know, in a lot of ways that we think about this.
+
+When you're deployed there, you've never been in this bedroom before. You're never gonna go back into this bedroom. It's this, like, very long horizon planning problem. That's very hard, And it's very suited to, you know, a pure... You want to think about this as as, you know, the the intelligence you need is very similar to human intelligence.
+
+A closed world is one in which you actually control everything, and you're doing something very repetitively, and there's no novelty that's being introduced. Mhmm. Assembly lines are a closed world. That makes sense because we see that we're actually able to use sort of traditional automation approaches in order to automate them. And I think it's worth talking a little bit about what those look like.
+
+Mhmm. So, you know, suppose that I am trying to solve some particular problem with with automation. Again, traditional robotic automation. What they end up doing... I think the best analogy for this is a Rube Goldberg machine.
+
+Mhmm. So I I had to build one of these with my son who's who's 13 for school, you know, and you're you're like, okay. Well, you know, the ball rolls down the hill, and it hits the pencil, and the pencil, like, pops the balloon. And, you know, instead of that, it's actually you have a chute, and, you know, the the nut goes down the chute. And, you know, there's a cup, and the cup is vibrating.
+
+And because it's vibrating, the nut drops out, and it lands on a fixture. Yeah. And the fixture locates it precisely. Mhmm. So now there's no, you know, uncertainty about where it is, and a robot arm without any perception whatsoever can come and pick up the nut.
+
+Mhmm. Mhmm. And then they can go take it to, you know, the bolt that you're screwing the nut on, which is also on a fixture, is also precisely located, and then it can screw that on. It's basically deterministic. It's moved from the corner to this coordinate.
+
+Yeah. So what's hard about this? Right? Like, why why why it is... Why is this interesting?
+
+Like, why does this take six months in order to turn around? Well, there's two things you have to do. One is you have made a machine. Yeah. Right?
+
+So someone needs to go design that machine. That is not an easy process. That is a mechanical engineering task. It is a a manufacturing engineering task. Well, we now have AI that can design machines.
+
+So that's one way we can make it faster. The other thing, which, you know, really hit home to me as I was doing this Rube Goldberg project, is like, you know, half the work is in the design. The other half is in the calibration. Mhmm. Right?
+
+So, you know, you gotta make sure the ball hits the pencil exactly right so it pops the balloon. You know, similarly, you know, if the nut is, you know, a tenth of a millimeter off, it may not end up in the right place on the fixture. And then, you know, the arm may not be able to actually, you know, place it in the correct place on the device. That sounds like a relatively simple RL problem. No?
+
+Well, I think there's a lot of... You know, this is, I think, where something like agentic robotics becomes an interesting way to look at the world, because, you know, we are no longer in this open world. Right? We are now in this extremely closed world doing a set of very specific emotions. And you can bring in perception.
+
+And now, you know, it's, if the nut's a little bit off, like you don't need to calibrate it quite so precisely, you can go pick it up, and you can bring in RL and manipulation. And now, you know, maybe the nut's in the wrong place on the hand Mhmm. For example. You know, the the device is always gonna be in a fixture, but now you're you're using actual manipulation in order to screw this in. And maybe you can start by automating the simpler kinds of stations.
+
+And then over time, you get into the ones that are really wacky where you've got, you know, elastic things that need to be stretched over a gasket. And again, though, speaking of closed world, in an open world, you know, maybe, you know, you miss a couple things in the bedroom and that's fine. In a closed world, actually, like 99 or 99.9% of the time, you gotta go construct the device that you are constructing. How tall is the hill to climb to creating a great manufacturing engineer? Like how deep is that field?
+
+How far do you think you are? You know, the starting point for us, you know, we've been talking about designing automated lines. We've spent the last year partnered with Androl on building a software and AI platform that allows manufacturing engineers to design lines. Now, you know, Androl is a defense manufacturer. You know, they don't need to have automated lines, and a lot of the the products they have aren't high enough rate yet to support traditional automated lines.
+
+And so what we've done is, you know, basically... So we went in there a year ago. We actually talked to them the day before we incorporated the company, and they told us about their challenges. They talked about the need for a single source of truth for manufacturing engineering. We're one place where you actually encapsulated the manufacturing process and the manufacturing plan.
+
+Mhmm. And a reconfigurable factory that would allow you to change the manufacturing process and then also spin up and spin down different lines based on demand. And so we adopted those as sort of our north stars for automating manufacturing engineering. And, you know, we got access to their systems in January. In April, we had our first user.
+
+So he was able to take a actuator that he was trying to build, and normally that would have taken him a few days in order to do the virtual build for this. And he was able to do that in ninety minutes using our software. And that was, you know, the very first thing we did. And since, you know, that that worked out real... That saved them a lot of time, and they were very excited.
+
+And so since then, we have been moving across all of their product... We're now deployed across all of their product divisions. We've done work with them, you know, on everything from drones to missiles. You know, we're currently working with them on the Fury collaborative combat airplane. So we're taking this entire airplane and, you know, taking that manufacturing process and making that legible to AI.
+
+And then, you know, a lot of what we're doing is basically you encapsulate that manufacturing process. Now it's not scattered in a 100 different documents in a 100 different places. And so you can have an AI agent that actually is able to to add value. So, you know, going back to what does it take to be... To your question, to what does it take in order to truly, you know, build an automated manufacturing engineer?
+
+We are lucky that we can start by saying, okay, we want to be cursor here effectively. Noting that cursor basically said, okay. We're gonna take this existing IDE, and we're gonna add an agent. There's no IDE for manufacturing engineers. So first, we had to build that so that there's a true data structure.
+
+There's equivalent of effectively Git that you can work with. Mhmm. And then we can apply the agent on top of that. And then now that we own and and... Well, now that we control in a in a specific way the manufacturing process, we can, you know, move left and right of that.
+
+So now you can say, okay, well, this design, you know, is manufactured this way. If we wanted to manufacture it more cheaply, how would we have to change the design? So we can send design for manufacturing feedback back into the design engineering, which is again a role of the manufacturing engineers, but they're able to use our agent to do that much faster and more effectively. And similarly, we can then say, okay, we can move right and say, if we want to have an automated station, how do we design an automated station that can produce one of these, you know, that can do one of these manufacturing steps? Yeah.
+
+This is definitely the most pragmatic approach to this world that I've seen. And I feel like there's been a lot of iteration over time. I remember, like, decade ago funding things that were gonna be like get for hardware or other things that kind of impinge on this in terms of how do you store the knowledge and then how do you act on it? And it feels like the unlock is really happening with AI. One thing that I think is really pragmatic about what you've what you've described to me in the past in terms of the approach that you're taking is you're also not going and trying to build massive models of your own.
+
+And instead, you're saying, how do we actually use things that are a bit off the shelf from an perspective to be able to really make this streamlined and fast and efficient and cost effective? Could you talk more about that choice of like building your own models versus trying to use a broader suite of things against that? Yeah. Well, I would start, but just by the... From the perspective of simplicity.
+
+Mhmm. Right? So, you know, when you wanna go solve a problem, you wanna use the simplest tool for the job. And, you know, maybe even to step back. So, you know, I had, you know, one career at Palantir, one career at OpenAI.
+
+At Palantir, we were relentlessly problem focused. You know, we wanted to build the enterprise platform for the intelligence community, which ultimately became, you know, the enterprise platform for all enterprises. Uh-huh. And, you know, we didn't care what technology we needed. And we had to solve a lot of very hard technological problems, but we used the forward deployed engineering approach.
+
+We talked to our customers. We heard what they needed. We brought that back into the product, and we just relentlessly expanded that, but by focusing on the problem. At OpenAI, we took the opposite approach. We had no idea what any of this would be used for.
+
+You know, we... I remember having a conversation with Ilya once where we had just built GPT-three, and, you know, we were like, this is pretty good, but it needs to be better. And Ilya said, well, Bob, how do you actually build a company? Like, what would we need to do to make this product? I said, well, you know, there's a standard approach that everybody in startups knows, which is you pick someone who, you know, has a real problem, you actually solve their problem, and then you expand from there.
+
+And I said, ah, yeah. That's very interesting. Yeah. No. That's not gonna work for us.
+
+And I said, what? Well well Yeah. I mean, thanks for thanks for asking, but what... Why won't this work? And he's like, well, look.
+
+We could learn something by talking to one person, but instead, we have the ability to just, you know, 10x our training data, and then we'll learn so much more from everybody, and that's much more than what we can learn from one customer. Mhmm. So I think that's that's the justification for why you want to take a technology first approach to your market, because fundamentally, this technology has its own way of finding out about the world. Well, at Arda, we're taking a technology first. We're taking a problem first approach.
+
+And so why are we not training models? I've trained models before. We don't need to do it. For the the first step of understanding the the manufacturing process, designing a line from that, that's something that we see that frontier models can do. When you start going into something like robotics, then frontier models can do some of it.
+
+But what we see is that basically the frontier models may work best as an orchestrator. And in fact, that's that's actually a lot of what we're doing Mhmm. With manufacturing engineering is that we have built specialized algorithms. We use motion planning. We have different tools that you can use to inspect the CAD.
+
+The frontier model is not adding all the value, they're an orchestrator of all of these different tools. Yeah. You actually see this a lot in the SaaS world too, where you use the SOTA model as the orchestrator, and then you actually have fine tuned models or specific things that are very specialized for the application area. It's interesting to see that it's also happened here. Yeah.
+
+And and I I think it's just like a good general purpose mechanism for thinking about things. Ultimately, if you want to have the most intelligent model, there will be, you know, a small number of, you know, very capital intensive, very smart models. Like, you know, we... I don't think you're gonna have specialist models unless you're thinking about cost. But when you're trying...
+
+When you're not a frontier lab, it's actually extremely approachable to make, you know, small special purpose models that are better than, you know, what the off the shelf frontier models can do, at least for now. And training one of those models versus, like, writing a software package versus writing a tool, like, those are all kind of the same action. How did you end up at OpenAI coming from Palantir? Because to your point, you came from such a pragmatic world. And I remember visiting OpenAI in 2018, 2019, and at the time, there was a handful of, like, robotic arms that weren't doing much in the office.
+
+And there was a bunch of... A lot of the focus, I think, was on video games and sort of building, beating video games initially, and then it... And then you guys started on the Transformer and sort of GPT train. But for a while it was kind of this very broad based research approach, let's try a couple things. At least that's how I I saw it as an external viewer.
+
+Was that a big transition? Why even join an organization that was so radically different from what you were used to? Yeah. So so I would I would actually start the answer to this ten years prior. So I was doing my PhD at Stanford in the AI lab.
+
+And, you know, this from 2002 until I dropped out in 2005 to join Palantir. And I remember vividly sitting around with my research group, making fun of people who thought that neural networks would ever work. Because, you know, there was no, you know, proof that they would work, you know, unlike SVMs or regression, which have clear provable guarantees. And even if they did work, you couldn't figure out why they worked. And so, you know, like, why why why would you ever use these things when obviously obviously all these other things work?
+
+And so I left Palantir be... I left and went to Palantir because I thought that AI wasn't really happening Mhmm. Back in 2005. So I spent ten years at Palantir, run engineering and product management there. And, you know, around 2015, I'm looking around.
+
+It's been a few years since AlexNet happened. Vision models are beginning to really work. Palantir has grown tremendously, and I'm, you know, thinking maybe it's time for me to move on. And, you know, I thought to myself, like, maybe AI is really working now. And where is it going to be an application of all the vision models that people are living?
+
+Well, sure. You can go recognize people's faces and photos, and if you want that, you should work at Facebook, not start a company. But robotics seemed like maybe this would be the place. I was very wrong about that. I spent a year and a half trying to get this to work.
+
+I taught myself, you know, deep learning from watching Andrei Kapathi's videos. Mhmm. You know, got to the point of teaching a robot to play checkers from Vision. And having done that, I realized this is way too hard. This is not the right time for a startup.
+
+And so I knew some people and, you know, got introduced to this nonprofit full of smart people that had the, you know, somewhat dramatic goal of building AGI. Mhmm. And I thought, well, this isn't a... I I... I'm not gonna start a company.
+
+Why don't I go work for a nonprofit for a while? Mhmm. And so I started there. And, you know, I didn't think I would stay for years. I expected I would be there for a couple years.
+
+I would learn from people like Ilya or Wojciech Zaremba or Andre Karpathy, who were there at the time. And I ended up joining the robotics team. And the goal for the robotics team was to show cool advances in robotics Mhmm. In a way that demonstrated that deep learning was actually a real thing that people should pay attention to Uh-huh. That it might in fact lead to AGI.
+
+And so we settled on this project of have a humanoid robot hand, a shadow hand, be able to solve Rubik's cube. And the reason for that... The way the story behind this is that Wojciech Sarembo, who's one of the cofounders of OpenAI, but also the head of the robotics team, went around at a robotics conference and asked people, what would just be absolutely mind blowing to you if we solved it? Yeah. And, you know, people said, well, either pick and place that can pick and place arbitrary objects or or doing anything with a robot hand.
+
+And what would be the most impressive thing you could do with a robot hand? Solve Rubik's cube. Yeah. And so we spent two years for that, and it actually worked. Mhmm.
+
+Although, I I will... I'm now permanently not a believer in robotic hands. Yeah. After the experience of trying to make one do anything. Yeah.
+
+I hear the I hear the engineering's better now, but I'm probably ruined for If you fast forward all the way to this point where Astra and Fable look like they're showing, you know, signs of life that excite or freak out the robotics community in terms of actually being able to generate policy to do things in the real world from a general model. Like, what do you make of that? Is it... Is that like the end of people training models specifically in general robotics? Well, you know, the the end of people training models probably depends on venture capital.
+
+So, you know, that's more a question for you guys than for me. But, like, why does this work? Right? Like, yes, it's the bitter lesson. But fundamentally, you know, the the challenge in robotics has always been that the amount of data that you have to work with is very small.
+
+Mhmm. And so you would see companies that, you know, we're going to solve robotics by teleoperation, and we're gonna build giant teleoperation labs. And, you know, then it's like, oh, well, we can use these UMI's, you know, little devices like chopsticks that record, you know, people's operations. And then I can collect data ten ten x more cheaply. All of these are extremely scarce sources of data.
+
+I think about it like if we were trying to train g p d four Mhmm. But we were doing it on top of, you know, if we had to pay pay scale AI to go have humans write all of the data. Like, we would never have really been able to train GPT four. But fundamentally, you don't need to train the model on exactly what you're deploying on. What you need to do is generate really good representations of the world, and then you can fine tune the models towards a particular problem.
+
+And so, you know, where do those representations of the world come from? They come from predicting the last few significant bits of, you know, some sort of real world data that you're dealing with, which could be Internet videos. I'm sure there is, in fact, a tremendous amount of robot data that has been brought in, but I also suspect it's very small compared to the fraction of overall data in a model like Astra or Fable. And so as, you know, the models progress, as the data gets better, as the algorithmic improvements change, the model becomes better at sort of eking out those last few bits of randomness and being able to predict those. And suddenly now it's able to predict events in the physical world.
+
+And once you have those really good representations, then you can go target them at robotics. And suddenly robotics begins to work. I suspect, you know, that that for a long time, there was this theory of, you know, emergent capabilities that... You know, I remember watching on Twitter sometime where someone said, oh, you know, I watched GBD4, and it can go debug, it can iterate with a software. You can run this program, look it at the output, and it can go fix bugs, this crazy emergent capability.
+
+I'm like, well, Jerry spent two years working on that. Right? That's not as emergent as you think it is. And so, yes, we know that there are robotics teams at OpenAI. There are robotics teams at Anthropic that are doing this.
+
+But my guess is that the the actual motor of progress here is not that they collected a lot more robot data than the next people, but that the models were able to finally, you know, get down to, you know, the the last bits of the physical data that they already had. What do you think that means for the overall robotics ecosystem? Do you expect, like... Maybe that's also a question for entrepreneurs and venture capitalists, but what do you expect the player landscape to look like? When do you expect people to have robots in different use cases?
+
+Yeah. I think this really democratizes it. I I think there's an interesting tension here that I don't know how to resolve, which is, you know, for digital tasks, few shot learning works very well, and also, you know, it's really easy to to collect data that you can actually... That's similar in format to the data you're actually using. In robotics, you know, again, because of my suspicion that a lot of the value is not coming from the robot data in these models, I've always believed that you're probably going to want to be able to fine tune in order to be able to work in any particular area.
+
+And so I think there's a tension here between something like Astra or Fable. You know, it's very good out of the box. It's also slow. That can be overcome, but you can't fine tune it. So it's very hard to fine tune effectively on a specific use case.
+
+Mhmm. And so I think that's an opportunity for other robotics players, and I think if you if you look at PIE or you look at generalists, like you can see them, you know, using this opportunity that they have to take data and use it to fine tune against a specific use case. Mhmm. And so, you know, you know, the bitter lesson is very strong, and also the idea of training on the test set is very strong. Yeah.
+
+Right? Both of those are very powerful forces, and I think we're gonna have to see where those come in. I do think this this does sort of... Leaping out of that frame though is that agentic robotics, I think, is an interesting way, like, sort of in between these two things where you can think of these models as just one more tool Mhmm. That the agents have.
+
+If you're doing something like we are where you're working with a closed world, then you have a lot of different tools. Now you... You know, now if there's one thing that requires an incredible amount of dexterity, maybe you put Fable on that. But maybe you don't wanna do that because Fable's gonna be really slow. Yeah.
+
+So you don't wanna do that for everything. And so I think that... You know, if you think about these now for people who are actually deploying these, there's many more tools Mhmm. That they can do, and I think that's a very powerful mechanism. Yeah.
+
+I think people also talk a little bit about, to your point, sort of, public slash open world versus private, more closed loop systems. And in the sort of public open world, like you have a robot in somebody's home or walking down the street with them or something else, you can't have like the lag of an Internet connection or an API call because you're worried that the robot may freeze, fall over, or something could happen, and so you want the intelligence to be embodied on the device as much as possible or at least certain control mechanisms to provide safety relative to the device. And that's the other aspect that people sometimes talk about in terms of, state of the art models versus specialized fine tuned models or just running on device and things like that, which is kind of interesting from a more safety perspective, I guess. Yeah. I think I think that's an important thing.
+
+I mean, it's a... There's a safety perspective, and also there's just a speed. Yeah. Right? That you you want, you know, your robotics typically to operate on a very fast clock cycle Yeah.
+
+That is challenging to do with these larger models. Mhmm. You know, historically, that is typically solved by distilling into smaller Whether that's something that the end user is doing or whether, you know, you have your Astra, and by the time that gets turned into a Luna model, you know, it can still work on some of the most popular use cases, but it's able to operate, like, very quickly and very efficiently. Yeah. Actual edge on device models, I think, are also, you know, likely to be very important here, And they're gonna rely...
+
+Typically, they end up being solved by open source that, you know, then gets improved through one way or another coming from data from Yeah. The Tick Yeah. So amazing run of Palantir and OpenAI. You're used to doing things relatively fast, including with like difficult ecosystems. It's conventional wisdom that working with large incumbents with physical world plants trying to get them to change big processes is hard.
+
+Right? Like, do think about the pace for Arda and what's possible here? Yeah. So there is just a huge difference between being... You know, developing technology for yourself as a first party, like, you know, building models for use in ChatGPT, and, you know, building something for use in a large enterprise.
+
+And the way that we're approaching this is that we're using the forward deployed engineering model, and so I think, you know, sort of classically, we developed this in Palantir, you know, way back in 2005. You know, the way I like to think about it is, you know, back in 2005, I spent a lot of time in secure spaces in Northern Virginia, working with people with secret workflows that couldn't leave the building, and had to figure out how to build a product for them, right? And, you know, turns out building a product for people that have secrets that they can't tell the world is actually really good training for building a product for any enterprise because any enterprise that works... Like, if they're working, they have secrets, and they don't wanna tell the world everything about their IP. And so the outcome of that process was the forward deployed engineering model, which I think mostly, Shyam Sankar, who's the CTO at Palantir, deserves the most credit for, but my job was to figure out how to build products for it.
+
+And so what that does is you basically take your engineers and you put them... You know, embed them with the customer. I would not develop a feature unless I had a customer that was ready to use that feature. And so when I think about the product road map, a lot of the the the beginning point for the product roadmap is not, okay, I'm gonna go build this feature. It's how do I find a customer that needs this feature so I can go build it?
+
+As a consequence, then you need to start embedding with, understanding, you know, seeing these enterprises. You still wanna move fast, though. So how do you move fast? Well, typically, you wanna start by finding a small number of power users. You know, classically, at the agency way back in the day, there was a woman named Sarah Adams that was like the only user of Palantir for about a year, and we learned...
+
+I would go visit, and, you know, I would meet her, and, you know, she would be like, this stuff doesn't work, and I'd be like, okay. I've got to go fix this, and eventually it worked, and then suddenly lots more people used it. Right? But it's the power of that just very small number of very strong users that are willing to fight through the pain with you. You know, I told the story about our first user for Arda, our first user at Androl of a sort of lead manufacturing engineer who was trying to do the virtual build for an actuator.
+
+Well, what I didn't say is that this was a tremendously frustrating process for him being the first user, and he was able to make, you know, tremendous improvements and and be able to move very fast with that actuator. But it only works because our head of product manager was sitting right next to him, You know? And every time he did something, it didn't quite work the way he wanted it to. And, you know, our head of product manager was just sitting there, like, taking notes. And then two weeks later, all those things worked.
+
+Thank you. Use number one. Exactly. Exactly. And so...
+
+But but, like, it's not like this process ends. Mhmm. Because, you know, six months later, we're at Andoril. They're like, okay. Go see if we can figure out how to build missiles faster.
+
+Well, this only works if we find that power user who's on the missiles team who's now interested in working on a product that has a 100 times more parts than the actuator. Two orders of magnitudes more parts than the actuator that we originally worked with. Yeah. Once again, out of the box, the product doesn't quite work. You find that user.
+
+You've... You... With that user, you fight through to make it work, and then they can introduce it to everybody else. And so you're the... You know, know, classically, when you're doing enterprise sales, you wanna find that visionary early on.
+
+You know, this is from Crossing the Chasm, a classic business book. Classically, that visionary is a sponsor, and you do need that sponsor. But what the book doesn't talk about is you actually also need a user, someone who's actually willing to use your software to go accomplish an outcome. And if you do both these things, then even very large organizations will work on their problems faster than you expect. Well, there's not really any such thing as a very large organization.
+
+Every, you know, it's... People be like, well, what does OpenAI want? It's like OpenAI doesn't want anything. Sam wants something. Greg wants something.
+
+Like, you know, this person you know, this person down here, this research scientist on this team wants something, and big organizations are just an assemblage of very small teams. And so, you know, you have to proceed problem by problem, team by team. You know, one of the the really interesting ideas in the FDA approach is you're not just throwing the software over the wall to them. You are partnering with them to achieve an outcome. For example, you know, figure out how to build missiles faster, and you are not successful unless the customer is successful.
+
+Mhmm. And once you achieve that outcome, you can then look around at all the other outcomes, and you've earned the right to work on something bigger. In in our case, maybe that's we go work on an airplane. We go work on the fury with Andrew. Right?
+
+But, also, it could be we work on an entirely different problem that's bigger in terms of dollars for them. It moves the needle more for them. And maybe they wouldn't be willing to trust you, to trust your startup, to solve that problem unless you had demonstrated some form of excellence. Mhmm. And so, you know, really within...
+
+A lot of this within an enterprise is snowballing, you know, the the successes you've made, snowballing the outcomes you can achieve, while still baking that into your product. Mhmm. Because I think the the thing that a lot of people who try the FDE approach now get wrong is that they see this as, okay. Well, I'm just deploying some engineers at the site, and they're gonna make the product work at at the site. Somewhat famously, people didn't believe the FDA approach worked.
+
+Right? It was widely mocked in 2015 to 2020. Folks thought there would never be leverage on it. That's right. Yeah.
+
+These are just consultants. Oh, Palantir just sends a bunch of consultants to do things, And then people started doing it when Palantir became a $300,000,000,000 company and started profit. And the difference is that they weren't just consultants. Right? The FTE strategy is a product strategy that teaches you how to build products.
+
+The FTEs are the gap between the product and the user, or they're they're filling the gap between the product and the user. And if they have to keep filling the gap, you get no leverage. Instead, you have to productize what they're seeing and bake that back into what you're doing. And so that's what allows you to move quickly and just... And and discover new things and bake those into your products.
+
+So if we take all those to the extreme, and you have a army of FTEs over time who are deploying across multiple industries, you're learning very quickly, you're iterating, you're building a lot of product that then gets reused at scale, Where does this all go? Like, what is your vision for the endpoint of all this? Yeah. Well, I I would go back to to think about superintelligence at the beginning. So we started by talking about, you know, what it looks like to have digital only superintelligence.
+
+And, you know, yes, the need for for laying out lots of compute, that's a requirement for superintelligence. But superintelligence also has consequences. So, you know, I love Dario's phrase of, you know, a country of geniuses in a data center. But if all they can do is sit in that data center and think, and, like, you can send them emails, and they can send you emails back Uh-huh. Like, they're not gonna be able to do very much.
+
+They're kind of trapped in the data center. And so... Okay. So intelligence has become cheap. What are the complements to intelligence?
+
+Well, perception on the one hand, and action. As we have all these AGIs, you know, right now humans are the eyes and hands of the intelligence that's in the data center. Right? And instead, what I think we're going to be seeing over the next ten years is this tremendous perfusion of, you know, various different kinds of perception, various different kinds of manipulation. You know, there'll be, you know, drones and sidewalk robots.
+
+Every physical thing that we own will become, you know, perception enabled and hooked up to the cloud, and, you know, whatever it does will become controlled by AI. And then all sorts of things that we wanna do, we will be doing because there are robots that are out there doing these things for you. Some people think that they will just be an army of humanoid robots. I think instead we're gonna see just this tremendous profusion of different forms. We think that, you know, the world is is made for humans, but in many ways, you know, if you look at sort of the broader world, it's actually...
+
+You know, we'll probably see robots that begin to look like all different kinds of animals, Right? There will be robots that fly. There will be robots on four legs. There will be robots that carry burdens. There will be robots that, you know, plow fields.
+
+I think we already have those, right, with tractors. And so the the... This part of the story of superintelligence is not just, you know, creating superintelligence and having it live in the data center and maybe scheme about how to take over the world. It's you wanted to actually be able to go out of the data center and help people and do things for us. Mhmm.
+
+And so, you know, that I think is the the call to action for manufacturing and why what we're doing... What what this, you know, manufacturing writ large is doing in this world of superintelligence. You know, von Neumann... And I don't remember when he came up with this. He came up with von Neumann probes, right?
+
+These self replicating probes that you send out of space. They land on an asteroid, they mine it, or they land on a planet, they mine it. They produce more versions of themselves, they keep spreading. Yeah. And so it's the way to effectively explore the universe at scale in a sort of distributed system way where you have things self assemble and then keep going.
+
+And it's exponential, right? You land, you make 10 copies, those 10 copies go off and make 10 more copies, and you kind of spread through the universe. Do you view that as an eventual manufacturing model on on our planet? In other words, eventually, do you have these self replicating factories, or what what do you kind of view as the end state from an almost physical form perspective? Let's let's, like, narrow in and think about this concretely.
+
+Right? So, you know, you know, maybe you have a problem that you need to go build more bulldozers, and so you need to build a bulldozer factory. Right? Well, right there, you have a recursive loop where the the right way to do this is that you're deploying your intelligence to go manufacture more things. And so, you know, I think I think very, very quickly, we will see, you know, yes, factories that build other factories.
+
+Mhmm. But, like, that... That's machine tools. Right? Like, that's what we have.
+
+Right? But the difference is doing this in an intelligent way Mhmm. Where, you know, the... It is a tremendous amount of human work to be able to go build a factory. It is a tremendous amount of human work to be able to design machine tools for that factory.
+
+Mhmm. All of that, I think, is going to become increasingly automated, and it will have to in order to be able to support the vast networks of things that we need in order to... It's basically the digital singularity versus the physical singularity. Yeah, or and not even versus, just alongside, like, part of the digital singularity involves converting increasing fractions of the Earth's crust into data centers. Yeah.
+
+Right? And maybe those data centers are gonna be in space too. And, like, that is a physical process, and it's gonna have to be directed by AI just like increasing human civilization across the world was directed by human intelligence. So I think that's that's a very near term outcome. You know?
+
+That's that's, like, what we're doing in the next ten years as a... As humanity. And then in the longer run, I think, well, once you have self... You know, it it... Machines can self replicate, and they are a better form factor for spreading between the stars than humanity is.
+
+And so it seems almost certain that it will happen. And so, you know, then you want to make sure that this is a thing that's happening that is liberating humanity, that, you know, humanity is benefiting from, that humanity remains as much as possible in control of rather than something where humanity is a little sideline that just remains here on Earth and watches a lot of videos, which probably will also be generated by AI. They're going out there to terraform for us so that we may also explore the stars. Exactly. I think we will also have a role to play if we choose to take it in getting to the stars.
+
+Why do you think, I mean, this is back to the Fermi Paradox. Right? To some extent, AI and superintelligence and AGI and these self replicating factories, they all suggest we should have come across other intelligent life sooner actually. In other words, it increases the likelihood of running across it than if you just had, you know, our biological forms trying to make it through space on our own. Actually, I disagree.
+
+So I think this is the resolution to the Fermi Paradox Uh-huh. Which is, if you think about it, what is the most effective, you know, civilization spreading through space? It's one that, you know, goes to a star system, very quickly sets up a factory, builds a lot of self replicating probes, sends those out, and so you have basically a wave of civilization threading... Spreading through space at the speed of light. Yeah.
+
+And so why don't we see that? Because it's spreading through space at the speed of light. I see. And, you know, we will only see it, you know, a few minutes or perhaps a few years before it arrives. Isn't the argument that it should have arrived by now?
+
+In other words, there's arguments in terms of what's the density of potential civilizations throughout space, and the rate at which they arise, and then therefore if you send something out at the sub speed of light, what is the rate at which it would eventually get to you, etc. So that would suggest sparseness in the universe, right, in terms of Well, think... I mean, I think this is a mystery, right? It's like, why are we the first ones? Uh-huh.
+
+You know, and there's some evidence that says if you look at sort of the uncertainty of all the different factors in the Drake equation, then you end up seeing that, okay, well maybe actually it's quite unlikely. Uh-huh. And so it is plausible that we're the first That depends on what you see. Civilization equation. Yeah.
+
+Or that it's very far away. Right? Yeah. It's like somewhere out there in the universe, but, like, you know, are light cones intersecting Mhmm. You know, is gonna take some time.
+
+But I think, you know, to some extent, evidence shows Mhmm. That this hasn't happened. Right? And then, you know, the question of are we going to run across Mhmm. You know, alien civilizations?
+
+I think this argument says, no. We're not. We're only gonna detect them, you know, a little bit before they arrive. Or perhaps we will be the wave. Hopefully, we will be the wave of civilization spreading out through the galaxy at light speed.
+
+Amazing. Thank you for joining us today. Thanks for having me. This was fun. Find us on Twitter at no priors pod.
+
+Subscribe to our YouTube channel if you wanna see our faces. Follow the show on Apple Podcasts, Spotify, or wherever you listen. That way you get a new episode every week. And sign up for emails or find transcripts for every episode at no-priors.com.
